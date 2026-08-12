@@ -1,0 +1,58 @@
+import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import test from "node:test";
+
+const root = new URL("../", import.meta.url);
+
+async function render() {
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
+  const { default: worker } = await import(workerUrl.href);
+  return worker.fetch(
+    new Request("http://localhost/", { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+}
+
+test("server-renders the dual-track adaptive coach", async () => {
+  const response = await render();
+  assert.equal(response.status, 200);
+  assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
+  const html = await response.text();
+  assert.match(html, /ASP \+ CSP \/\/ Coach/i);
+  assert.match(html, /Adaptive Exam Readiness/i);
+  assert.match(html, /Calibrating your coach/i);
+  assert.doesNotMatch(html, /Your site is taking shape|codex-preview|react-loading-skeleton/i);
+});
+
+test("ships both current blueprint banks and removes starter preview code", async () => {
+  const [coach, csp, cspExtra, aspA, aspB, aspA2, aspSet1, aspSet2, packageJson] = await Promise.all([
+    readFile(new URL("app/AdaptiveCoach.tsx", root), "utf8"),
+    readFile(new URL("app/questionBank.ts", root), "utf8"),
+    readFile(new URL("app/cspQuestionBankExtra.ts", root), "utf8"),
+    readFile(new URL("app/aspQuestionBankA.ts", root), "utf8"),
+    readFile(new URL("app/aspQuestionBankB.ts", root), "utf8"),
+    readFile(new URL("app/aspQuestionBankExtraA2.ts", root), "utf8"),
+    readFile(new URL("app/aspQuestionBankExtraSet1.ts", root), "utf8"),
+    readFile(new URL("app/aspQuestionBankExtraSet2.ts", root), "utf8"),
+    readFile(new URL("package.json", root), "utf8"),
+  ]);
+  assert.match(coach, /activeExam/);
+  assert.match(coach, /ASP_QUESTION_BANK_A/);
+  assert.match(coach, /ASP_QUESTION_BANK_B/);
+  assert.match(coach, /ASP_QUESTION_BANK_EXTRA_A2/);
+  assert.match(coach, /ASP_QUESTION_BANK_EXTRA_SET1/);
+  assert.match(coach, /ASP_QUESTION_BANK_EXTRA_SET2/);
+  assert.match(coach, /CSP_QUESTION_BANK_EXTRA/);
+  assert.match(coach, /BCSP ASP/);
+  assert.match(coach, /BCSP CSP/);
+  assert.match(coach, /Start adaptive session/);
+  assert.match(coach, /mode === "exam" \? startSession\("exam"\)/);
+  assert.match(csp, /weight: 0\.25/);
+  assert.equal(new Set(`${csp}\n${cspExtra}`.match(/\bD[1-7]-\d{3}\b/g) ?? []).size, 200);
+  assert.match(aspA, /Mathematical Calculations/);
+  assert.match(aspB, /A9-010/);
+  assert.equal(new Set(`${aspA}\n${aspB}\n${aspA2}\n${aspSet1}\n${aspSet2}`.match(/\bA[1-9]-\d{3}\b/g) ?? []).size, 200);
+  assert.doesNotMatch(packageJson, /react-loading-skeleton/);
+});

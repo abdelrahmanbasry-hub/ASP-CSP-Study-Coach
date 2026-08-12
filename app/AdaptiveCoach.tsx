@@ -1,0 +1,1157 @@
+"use client";
+
+import {
+  AlarmClock,
+  ArrowLeft,
+  ArrowRight,
+  BarChart3,
+  BookOpenCheck,
+  BrainCircuit,
+  CalendarDays,
+  Check,
+  ChevronDown,
+  CircleHelp,
+  Clock3,
+  Flame,
+  Flag,
+  Gauge,
+  History,
+  LayoutDashboard,
+  LockKeyhole,
+  Menu,
+  Search,
+  Settings2,
+  ShieldCheck,
+  Sparkles,
+  Target,
+  TrendingUp,
+  Trophy,
+  X,
+  Zap,
+} from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { CSP_DOMAINS, QUESTION_BANK as CSP_QUESTION_BANK } from "./questionBank";
+import { CSP_QUESTION_BANK_EXTRA } from "./cspQuestionBankExtra";
+import { ASP_DOMAINS, ASP_QUESTION_BANK_A } from "./aspQuestionBankA";
+import { ASP_QUESTION_BANK_B } from "./aspQuestionBankB";
+import { ASP_QUESTION_BANK_EXTRA_A2 } from "./aspQuestionBankExtraA2";
+import { ASP_QUESTION_BANK_EXTRA_SET1 } from "./aspQuestionBankExtraSet1";
+import { ASP_QUESTION_BANK_EXTRA_SET2 } from "./aspQuestionBankExtraSet2";
+import {
+  defaultMastery,
+  difficultyLabel,
+  formatTime,
+  generateSession,
+  overallReadiness,
+  readinessScore,
+  updateDomainMastery,
+  type Attempt,
+  type Confidence,
+  type CoachDomain,
+  type CoachQuestion,
+  type DomainMastery,
+  type SessionMode,
+  type SessionQuestion,
+} from "./adaptiveEngine";
+
+type MainView = "study" | "stats" | "review";
+type ActiveView = MainView | "quiz" | "results";
+type ExamTrack = "ASP" | "CSP";
+type DomainId = string;
+
+const ALL_CSP_DOMAINS = CSP_DOMAINS as readonly CoachDomain[];
+const ALL_ASP_DOMAINS = ASP_DOMAINS as readonly CoachDomain[];
+
+interface ExamConfig {
+  key: ExamTrack;
+  name: string;
+  credential: string;
+  blueprint: string;
+  domains: readonly CoachDomain[];
+  questionBank: readonly CoachQuestion[];
+  examSeconds: number;
+  examTimeLabel: string;
+  timedSeconds: number;
+  paceSeconds: number;
+}
+
+const EXAM_CONFIGS: Record<ExamTrack, ExamConfig> = {
+  ASP: {
+    key: "ASP",
+    name: "ASP",
+    credential: "Associate Safety Professional",
+    blueprint: "ASP11",
+    domains: ALL_ASP_DOMAINS,
+    questionBank: [
+      ...ASP_QUESTION_BANK_A,
+      ...ASP_QUESTION_BANK_B,
+      ...ASP_QUESTION_BANK_EXTRA_A2,
+      ...ASP_QUESTION_BANK_EXTRA_SET1,
+      ...ASP_QUESTION_BANK_EXTRA_SET2,
+    ] as readonly CoachQuestion[],
+    examSeconds: 5 * 60 * 60,
+    examTimeLabel: "5h",
+    timedSeconds: 30 * 60,
+    paceSeconds: 90,
+  },
+  CSP: {
+    key: "CSP",
+    name: "CSP",
+    credential: "Certified Safety Professional",
+    blueprint: "CSP11",
+    domains: ALL_CSP_DOMAINS,
+    questionBank: [...CSP_QUESTION_BANK, ...CSP_QUESTION_BANK_EXTRA] as readonly CoachQuestion[],
+    examSeconds: 5.5 * 60 * 60,
+    examTimeLabel: "5h 30m",
+    timedSeconds: 33 * 60,
+    paceSeconds: 99,
+  },
+};
+
+interface SessionSummary {
+  exam: ExamTrack;
+  id: string;
+  date: number;
+  mode: SessionMode;
+  score: number;
+  count: number;
+  seconds: number;
+  difficulty: number;
+}
+
+interface SavedState {
+  mastery: Record<ExamTrack, Record<DomainId, DomainMastery>>;
+  attempts: Attempt[];
+  sessions: SessionSummary[];
+  examDate: string;
+  displayName: string;
+  catalogSeen: Record<ExamTrack, number[]>;
+  activeExam: ExamTrack;
+}
+
+interface ActiveSessionSnapshot {
+  questions: SessionQuestion[];
+  sessionMode: SessionMode;
+  sessionExam: ExamTrack;
+  sessionId: string;
+  startedAt: number;
+  current: number;
+  answers: Record<number, number>;
+  confidence: Record<number, Confidence>;
+  secondsByQuestion: Record<number, number>;
+  flagged: number[];
+}
+
+const STORAGE_KEY = "asp-csp-coach-v2";
+const ACTIVE_SESSION_KEY = "asp-csp-coach-active-session-v1";
+
+const MODE_COPY: Record<SessionMode, { title: string; eyebrow: string; description: string }> = {
+  daily: {
+    title: "Today’s 60-minute session",
+    eyebrow: "Coach prescribed",
+    description: "A 20-item adaptive block, then targeted review and a corrective mini-lesson.",
+  },
+  quick: {
+    title: "Blueprint 20",
+    eyebrow: "Balanced drill",
+    description: "Twenty randomized items weighted to the active official blueprint.",
+  },
+  timed: {
+    title: "Exam-pace 20",
+    eyebrow: "33-minute clock",
+    description: "Train at the official 99-second-per-item pace with a hard countdown.",
+  },
+  weakest: {
+    title: "Weak-domain attack",
+    eyebrow: "No comfort questions",
+    description: "Concentrates the block in your two lowest-stability domains.",
+  },
+  missed: {
+    title: "Repair misses",
+    eyebrow: "Error recovery",
+    description: "Re-tests concepts you missed, with new ordering and delayed rationales.",
+  },
+  custom: {
+    title: "Build a domain drill",
+    eyebrow: "Choose the scope",
+    description: "Select one or more blueprint domains. The engine handles difficulty and mix.",
+  },
+  level: {
+    title: "Level up",
+    eyebrow: "IRT progression",
+    description: "Questions track your estimated ability and escalate toward exam-day stretch.",
+  },
+  exam: {
+    title: "Full exam simulation",
+    eyebrow: "200 questions · 5h 30m",
+    description: "One uninterrupted 200-item block with exact blueprint weighting.",
+  },
+};
+
+const emptySavedState = (): SavedState => ({
+  mastery: { ASP: defaultMastery(ALL_ASP_DOMAINS), CSP: defaultMastery(ALL_CSP_DOMAINS) },
+  attempts: [],
+  sessions: [],
+  examDate: "",
+  displayName: "Safety Professional",
+  catalogSeen: { ASP: [], CSP: [] },
+  activeExam: "CSP",
+});
+
+function normalizeSavedState(parsed: Partial<SavedState>): SavedState {
+  const base = emptySavedState();
+  const candidate = parsed.mastery as unknown as Record<string, unknown> | undefined;
+  const isDualTrack = Boolean(candidate && candidate.ASP && candidate.CSP);
+  const mastery = isDualTrack
+    ? {
+        ASP: { ...base.mastery.ASP, ...(candidate?.ASP as Record<string, DomainMastery>) },
+        CSP: { ...base.mastery.CSP, ...(candidate?.CSP as Record<string, DomainMastery>) },
+      }
+    : {
+        ASP: base.mastery.ASP,
+        CSP: { ...base.mastery.CSP, ...((candidate ?? {}) as Record<string, DomainMastery>) },
+      };
+  const catalogCandidate = parsed.catalogSeen as unknown;
+  const catalogSeen =
+    catalogCandidate && !Array.isArray(catalogCandidate)
+      ? { ...base.catalogSeen, ...(catalogCandidate as Record<ExamTrack, number[]>) }
+      : { ASP: [], CSP: Array.isArray(catalogCandidate) ? catalogCandidate : [] };
+  return {
+    ...base,
+    ...parsed,
+    mastery,
+    catalogSeen,
+    activeExam: parsed.activeExam === "ASP" ? "ASP" : "CSP",
+    attempts: (parsed.attempts ?? []).map((attempt) => ({ ...attempt, exam: attempt.exam ?? "CSP" })),
+    sessions: (parsed.sessions ?? []).map((session) => ({ ...session, exam: session.exam ?? "CSP" })),
+  };
+}
+
+function getModeCopy(mode: SessionMode, config: ExamConfig) {
+  const base = MODE_COPY[mode];
+  if (mode === "quick") {
+    return { ...base, description: `Twenty randomized items weighted to the official ${config.blueprint} blueprint.` };
+  }
+  if (mode === "timed") {
+    return {
+      ...base,
+      eyebrow: `${Math.round(config.timedSeconds / 60)}-minute clock`,
+      description: `Train at the official ${config.paceSeconds}-second-per-item pace with a hard countdown.`,
+    };
+  }
+  if (mode === "custom") {
+    return { ...base, description: `Select one or more ${config.blueprint} domains. The engine handles difficulty and mix.` };
+  }
+  if (mode === "exam") {
+    return { ...base, title: `Full ${config.name} simulation`, eyebrow: `200 questions · ${config.examTimeLabel}` };
+  }
+  return base;
+}
+
+function greeting() {
+  const hour = new Date().getHours();
+  if (hour < 12) return "Good morning";
+  if (hour < 18) return "Good afternoon";
+  return "Good evening";
+}
+
+function ModeIcon({ mode, size }: { mode: SessionMode; size?: number }) {
+  const props = { size };
+  if (mode === "daily") return <Sparkles {...props} />;
+  if (mode === "quick") return <Zap {...props} />;
+  if (mode === "timed") return <AlarmClock {...props} />;
+  if (mode === "weakest") return <Target {...props} />;
+  if (mode === "missed") return <History {...props} />;
+  if (mode === "custom") return <Settings2 {...props} />;
+  if (mode === "level") return <TrendingUp {...props} />;
+  return <ShieldCheck {...props} />;
+}
+
+function masteryStatus(score: number, stableBlocks: number) {
+  if (score >= 80 && stableBlocks >= 2) return { label: "Stable", tone: "good" };
+  if (score >= 70) return { label: "Building", tone: "warn" };
+  return { label: "Priority", tone: "bad" };
+}
+
+export default function AdaptiveCoach() {
+  const [saved, setSaved] = useState<SavedState>(emptySavedState);
+  const [view, setView] = useState<ActiveView>("study");
+  const [navOpen, setNavOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [setupMode, setSetupMode] = useState<SessionMode | null>(null);
+  const [customDomains, setCustomDomains] = useState<DomainId[]>(ALL_CSP_DOMAINS.map((domain) => domain.id));
+  const [questions, setQuestions] = useState<SessionQuestion[]>([]);
+  const [sessionMode, setSessionMode] = useState<SessionMode>("daily");
+  const [sessionExam, setSessionExam] = useState<ExamTrack>("CSP");
+  const [sessionId, setSessionId] = useState("");
+  const [current, setCurrent] = useState(0);
+  const [answers, setAnswers] = useState<Record<number, number>>({});
+  const [confidence, setConfidence] = useState<Record<number, Confidence>>({});
+  const [secondsByQuestion, setSecondsByQuestion] = useState<Record<number, number>>({});
+  const [flagged, setFlagged] = useState<number[]>([]);
+  const [elapsed, setElapsed] = useState(0);
+  const [sessionStartedAt, setSessionStartedAt] = useState(0);
+  const [resultAttempts, setResultAttempts] = useState<Attempt[]>([]);
+  const [resultFilter, setResultFilter] = useState<"all" | "incorrect">("incorrect");
+  const [reviewSearch, setReviewSearch] = useState("");
+  const [reviewDomain, setReviewDomain] = useState<DomainId | "all">("all");
+  const [reviewType, setReviewType] = useState<"all" | "correct" | "incorrect">("all");
+  const [showFormulaNote, setShowFormulaNote] = useState(false);
+  const lastMoveAt = useRef(Date.now());
+  const activeConfig = EXAM_CONFIGS[saved.activeExam];
+  const activeMastery = saved.mastery[saved.activeExam];
+  const activeAttempts = saved.attempts.filter((attempt) => attempt.exam === saved.activeExam);
+  const activeSessions = saved.sessions.filter((session) => session.exam === saved.activeExam);
+
+  useEffect(() => {
+    try {
+      const raw = window.localStorage.getItem(STORAGE_KEY);
+      if (raw) {
+        const parsed = JSON.parse(raw) as Partial<SavedState>;
+        // Local persistence is an external system; hydration completes before we restore it.
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setSaved(normalizeSavedState(parsed));
+      }
+      const activeRaw = window.localStorage.getItem(ACTIVE_SESSION_KEY);
+      if (activeRaw) {
+        const active = JSON.parse(activeRaw) as ActiveSessionSnapshot;
+        if (
+          Array.isArray(active.questions) &&
+          active.questions.length > 0 &&
+          (active.sessionExam === "ASP" || active.sessionExam === "CSP") &&
+          active.startedAt > 0
+        ) {
+          setQuestions(active.questions);
+          setSessionMode(active.sessionMode);
+          setSessionExam(active.sessionExam);
+          setSessionId(active.sessionId);
+          setSessionStartedAt(active.startedAt);
+          setCurrent(Math.max(0, Math.min(active.current, active.questions.length - 1)));
+          setAnswers(active.answers ?? {});
+          setConfidence(active.confidence ?? {});
+          setSecondsByQuestion(active.secondsByQuestion ?? {});
+          setFlagged(active.flagged ?? []);
+          setElapsed(Math.max(0, Math.floor((Date.now() - active.startedAt) / 1000)));
+          setView("quiz");
+          lastMoveAt.current = Date.now();
+        }
+      }
+    } catch {
+      // A damaged local record should never block a study session.
+    }
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+    } catch {
+      const reduced = { ...saved, attempts: saved.attempts.slice(0, 400), sessions: saved.sessions.slice(0, 80) };
+      try {
+        window.localStorage.setItem(STORAGE_KEY, JSON.stringify(reduced));
+      } catch {
+        // The live session remains usable even when browser storage is unavailable.
+      }
+    }
+  }, [saved, mounted]);
+
+  useEffect(() => {
+    if (!mounted) return;
+    try {
+      if (view === "quiz" && questions.length && sessionStartedAt) {
+        const snapshot: ActiveSessionSnapshot = {
+          questions,
+          sessionMode,
+          sessionExam,
+          sessionId,
+          startedAt: sessionStartedAt,
+          current,
+          answers,
+          confidence,
+          secondsByQuestion,
+          flagged,
+        };
+        window.localStorage.setItem(ACTIVE_SESSION_KEY, JSON.stringify(snapshot));
+      } else if (view !== "quiz") {
+        window.localStorage.removeItem(ACTIVE_SESSION_KEY);
+      }
+    } catch {
+      // Storage failure should not interrupt an active exam.
+    }
+  }, [
+    mounted,
+    view,
+    questions,
+    sessionStartedAt,
+    sessionMode,
+    sessionExam,
+    sessionId,
+    current,
+    answers,
+    confidence,
+    secondsByQuestion,
+    flagged,
+  ]);
+
+  useEffect(() => {
+    if (view !== "quiz") return;
+    const timer = window.setInterval(() => setElapsed((value) => value + 1), 1000);
+    return () => window.clearInterval(timer);
+  }, [view]);
+
+  const overall = overallReadiness(activeMastery, activeConfig.domains);
+  const sortedDomains = useMemo(
+    () => [...activeConfig.domains].sort((a, b) => readinessScore(activeMastery[a.id]) - readinessScore(activeMastery[b.id])),
+    [activeConfig.domains, activeMastery],
+  );
+  const weakest = sortedDomains[0];
+  const recentIncorrectIds = activeAttempts.filter((attempt) => !attempt.correct).map((attempt) => attempt.questionId);
+  const answeredCount = Object.keys(answers).length;
+  const currentQuestion = questions[current];
+  const sessionConfig = EXAM_CONFIGS[sessionExam];
+  const sessionLimit = sessionMode === "exam" ? sessionConfig.examSeconds : sessionMode === "timed" ? sessionConfig.timedSeconds : 60 * 60;
+  const remaining = Math.max(0, sessionLimit - elapsed);
+
+  useEffect(() => {
+    if (view === "quiz" && remaining === 0 && questions.length) finishSession();
+    // finishSession is intentionally driven only by the terminal timer transition.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [remaining, view, questions.length]);
+
+  function recordCurrentSeconds() {
+    const addition = Math.max(1, Math.round((Date.now() - lastMoveAt.current) / 1000));
+    setSecondsByQuestion((existing) => ({ ...existing, [current]: (existing[current] ?? 0) + addition }));
+    lastMoveAt.current = Date.now();
+  }
+
+  function startSession(mode: SessionMode) {
+    const count = mode === "exam" ? 200 : 20;
+    const seed = Date.now();
+    const nextQuestions = generateSession({
+      mode,
+      count,
+      masteries: activeMastery,
+      domains: activeConfig.domains,
+      questionBank: activeConfig.questionBank,
+      seed,
+      selectedDomains: mode === "custom" ? customDomains : undefined,
+      missedIds: recentIncorrectIds,
+      recentIds: activeAttempts.slice(-100).map((attempt) => attempt.questionId),
+      seenCatalogIds: saved.catalogSeen[saved.activeExam],
+    });
+    if (!nextQuestions.length) return;
+    setQuestions(nextQuestions);
+    setSessionMode(mode);
+    setSessionExam(saved.activeExam);
+    setSessionId(`${seed}-${mode}`);
+    setAnswers({});
+    setConfidence({});
+    setSecondsByQuestion({});
+    setFlagged([]);
+    setElapsed(0);
+    setSessionStartedAt(seed);
+    setCurrent(0);
+    setSetupMode(null);
+    setView("quiz");
+    lastMoveAt.current = Date.now();
+  }
+
+  function chooseAnswer(index: number) {
+    setAnswers((existing) => ({ ...existing, [current]: index }));
+    if (!confidence[current]) setConfidence((existing) => ({ ...existing, [current]: "lean" }));
+  }
+
+  function moveTo(index: number) {
+    recordCurrentSeconds();
+    setCurrent(Math.max(0, Math.min(questions.length - 1, index)));
+  }
+
+  function finishSession() {
+    if (!questions.length) return;
+    recordCurrentSeconds();
+    const now = Date.now();
+    let nextMastery = { ...saved.mastery[sessionExam] };
+    const nextAttempts = questions.map((question, index): Attempt => {
+      const selectedIndex = answers[index] ?? -1;
+      const isCorrect = selectedIndex === question.correctIndex;
+      const itemConfidence = confidence[index] ?? "guess";
+      const itemSeconds = secondsByQuestion[index] ?? Math.max(1, Math.round(elapsed / questions.length));
+      nextMastery = {
+        ...nextMastery,
+        [question.domainId]: updateDomainMastery(
+          nextMastery[question.domainId],
+          question.difficulty,
+          isCorrect,
+          itemConfidence,
+          itemSeconds,
+        ),
+      };
+      return {
+        exam: sessionExam,
+        questionId: question.id,
+        catalogId: question.catalogId,
+        domainId: question.domainId,
+        competency: question.competency,
+        stem: question.stem,
+        options: question.options,
+        correctIndex: question.correctIndex,
+        selectedIndex,
+        correct: isCorrect,
+        confidence: itemConfidence,
+        seconds: itemSeconds,
+        difficulty: question.difficulty,
+        rationale: question.rationale,
+        wrongRationale: question.wrongRationales[selectedIndex] ?? "No response was recorded. An unanswered item is treated as a knowledge gap, not a neutral result.",
+        framework: question.referenceFramework,
+        referenceTopic: question.referenceTopic,
+        challengePrompt: question.challengePrompt,
+        timestamp: now,
+        sessionId,
+      };
+    });
+    const correct = nextAttempts.filter((attempt) => attempt.correct).length;
+    const domainsInBlock = new Set(nextAttempts.map((attempt) => attempt.domainId));
+    domainsInBlock.forEach((domainId) => {
+      const domainState = nextMastery[domainId];
+      const recentRate = domainState.recent.length
+        ? domainState.recent.filter(Boolean).length / domainState.recent.length
+        : 0;
+      nextMastery = {
+        ...nextMastery,
+        [domainId]: {
+          ...domainState,
+          stableBlocks:
+            domainState.recent.length >= 20 && recentRate >= 0.8
+              ? domainState.stableBlocks + 1
+              : 0,
+        },
+      };
+    });
+    const averageDifficulty = nextAttempts.reduce((sum, attempt) => sum + attempt.difficulty, 0) / nextAttempts.length;
+    const summary: SessionSummary = {
+      exam: sessionExam,
+      id: sessionId,
+      date: now,
+      mode: sessionMode,
+      score: correct,
+      count: nextAttempts.length,
+      seconds: elapsed,
+      difficulty: averageDifficulty,
+    };
+    setSaved((currentSaved) => ({
+      ...currentSaved,
+      mastery: { ...currentSaved.mastery, [sessionExam]: nextMastery },
+      attempts: [...nextAttempts, ...currentSaved.attempts].slice(0, 1200),
+      sessions: [summary, ...currentSaved.sessions].slice(0, 200),
+      catalogSeen: {
+        ...currentSaved.catalogSeen,
+        [sessionExam]: [
+          ...new Set([
+            ...currentSaved.catalogSeen[sessionExam],
+            ...questions.map((question) => question.catalogId),
+          ]),
+        ].slice(-10000),
+      },
+    }));
+    setResultAttempts(nextAttempts);
+    setSessionStartedAt(0);
+    window.localStorage.removeItem(ACTIVE_SESSION_KEY);
+    setResultFilter(nextAttempts.some((attempt) => !attempt.correct) ? "incorrect" : "all");
+    setView("results");
+  }
+
+  function quitSession() {
+    if (answeredCount && !window.confirm("End this block? Unsubmitted answers will not update your readiness.")) return;
+    window.localStorage.removeItem(ACTIVE_SESSION_KEY);
+    setSessionStartedAt(0);
+    setQuestions([]);
+    setView("study");
+  }
+
+  function navigate(next: MainView) {
+    setView(next);
+    setNavOpen(false);
+  }
+
+  function changeExam(exam: ExamTrack) {
+    setSaved((currentSaved) => ({ ...currentSaved, activeExam: exam }));
+    setCustomDomains(EXAM_CONFIGS[exam].domains.map((domain) => domain.id));
+    setReviewDomain("all");
+    setSetupMode(null);
+    setView("study");
+  }
+
+  if (!mounted) return <div className="app-loading"><BrainCircuit size={26} /> Calibrating your coach…</div>;
+
+  if (view === "quiz" && currentQuestion) {
+    return (
+      <QuizRunner
+        config={sessionConfig}
+        question={currentQuestion}
+        index={current}
+        total={questions.length}
+        selected={answers[current]}
+        confidence={confidence[current] ?? "lean"}
+        answeredCount={answeredCount}
+        flagged={flagged.includes(current)}
+        remaining={remaining}
+        onSelect={chooseAnswer}
+        onConfidence={(value) => setConfidence((existing) => ({ ...existing, [current]: value }))}
+        onMove={moveTo}
+        onFlag={() => setFlagged((existing) => (existing.includes(current) ? existing.filter((value) => value !== current) : [...existing, current]))}
+        onFinish={finishSession}
+        onQuit={quitSession}
+        onFormula={() => setShowFormulaNote(true)}
+      />
+    );
+  }
+
+  return (
+    <div className="app-shell">
+      <header className="topbar">
+        <div className="brand-zone">
+          <button className="brand" onClick={() => navigate("study")} aria-label="ASP and CSP Coach home">
+            <span className="brand-mark"><ShieldCheck size={22} /></span>
+            <span><strong>{saved.activeExam}</strong><em>{"// COACH"}</em></span>
+          </button>
+          <label className="exam-switcher">
+            <span>Preparing for</span>
+            <select value={saved.activeExam} onChange={(event) => changeExam(event.target.value as ExamTrack)}>
+              <option value="ASP">BCSP ASP®</option>
+              <option value="CSP">BCSP CSP®</option>
+            </select>
+          </label>
+        </div>
+        <nav className={navOpen ? "main-nav open" : "main-nav"} aria-label="Main navigation">
+          <button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard size={17} /> Study</button>
+          <button className={view === "stats" ? "active" : ""} onClick={() => navigate("stats")}><BarChart3 size={17} /> Analytics</button>
+          <button className={view === "review" ? "active" : ""} onClick={() => navigate("review")}><BookOpenCheck size={17} /> Review</button>
+        </nav>
+        <div className="topbar-meta">
+          <span className="catalog-chip"><BrainCircuit size={15} /> {saved.catalogSeen[saved.activeExam].length.toLocaleString()} / 10,000 seen</span>
+          <button className="avatar" title="Local learner profile">SP</button>
+          <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-label="Toggle menu"><Menu /></button>
+        </div>
+      </header>
+
+      {view === "study" && (
+        <StudyDashboard
+          saved={saved}
+          config={activeConfig}
+          mastery={activeMastery}
+          sessions={activeSessions}
+          overall={overall}
+          weakest={weakest}
+          onMode={(mode) => (mode === "exam" ? startSession("exam") : setSetupMode(mode))}
+          onStart={() => startSession("daily")}
+          onStats={() => navigate("stats")}
+        />
+      )}
+      {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} overall={overall} onStudy={() => navigate("study")} />}
+      {view === "review" && (
+        <Review
+          attempts={activeAttempts}
+          config={activeConfig}
+          search={reviewSearch}
+          domain={reviewDomain}
+          type={reviewType}
+          onSearch={setReviewSearch}
+          onDomain={setReviewDomain}
+          onType={setReviewType}
+          onStudy={() => navigate("study")}
+        />
+      )}
+      {view === "results" && (
+        <Results
+          attempts={resultAttempts}
+          mode={sessionMode}
+          config={sessionConfig}
+          seconds={elapsed}
+          filter={resultFilter}
+          mastery={saved.mastery[sessionExam]}
+          onFilter={setResultFilter}
+          onHome={() => navigate("study")}
+          onRetry={() => startSession("weakest")}
+        />
+      )}
+
+      {setupMode && (
+        <SessionSetup
+          mode={setupMode}
+          config={activeConfig}
+          customDomains={customDomains}
+          attempts={activeAttempts}
+          mastery={activeMastery}
+          onDomains={setCustomDomains}
+          onClose={() => setSetupMode(null)}
+          onStart={() => startSession(setupMode)}
+        />
+      )}
+      {showFormulaNote && (
+        <div className="modal-backdrop">
+          <div className="modal formula-note" role="dialog" aria-modal="true">
+            <button className="icon-button modal-close" onClick={() => setShowFormulaNote(false)} aria-label="Close"><X /></button>
+            <span className="modal-icon"><CircleHelp /></span>
+            <p className="eyebrow">Exam convention</p>
+            <h2>Formula support</h2>
+            <p>The official exam provides a formula when recall of the formula itself is not the objective. This coach follows the same principle: calculate from the information in the item, and flag anything you need to revisit.</p>
+            <button className="primary-button full" onClick={() => setShowFormulaNote(false)}>Return to the block</button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function StudyDashboard({
+  saved,
+  config,
+  mastery,
+  sessions,
+  overall,
+  weakest,
+  onMode,
+  onStart,
+  onStats,
+}: {
+  saved: SavedState;
+  config: ExamConfig;
+  mastery: Record<DomainId, DomainMastery>;
+  sessions: SessionSummary[];
+  overall: number;
+  weakest: CoachDomain;
+  onMode: (mode: SessionMode) => void;
+  onStart: () => void;
+  onStats: () => void;
+}) {
+  const completedToday = sessions.some((session) => new Date(session.date).toDateString() === new Date().toDateString());
+  const weakestScore = readinessScore(mastery[weakest.id]);
+  const level = Math.max(...config.domains.map((domain) => mastery[domain.id]?.difficulty ?? 2));
+  const examLevel = level >= 4;
+  const modes: SessionMode[] = ["quick", "timed", "weakest", "missed", "custom", "level", "exam"];
+  const recent = sessions.slice(0, 3);
+  const activeAttempts = saved.attempts.filter((attempt) => attempt.exam === config.key);
+  return (
+    <main>
+      <section className="dashboard-hero">
+        <div className="hero-inner">
+          <div className="welcome-copy">
+            <p className="eyebrow"><CalendarDays size={15} /> {new Intl.DateTimeFormat("en", { weekday: "long", month: "long", day: "numeric" }).format(new Date())}</p>
+            <h1>{greeting()}, <span>{saved.displayName}.</span></h1>
+            <p className="hero-sub">Your weakest domain still controls today’s work. Comfort is not the objective; stable recall under pressure is.</p>
+            <div className="streak-row">
+              <span><Flame size={17} /> {completedToday ? "Today complete" : "Session due"}</span>
+              <span><BrainCircuit size={17} /> Level {level} · {difficultyLabel(level)}</span>
+              {examLevel && <span className="exam-reached"><Trophy size={17} /> {config.name} exam level reached</span>}
+            </div>
+          </div>
+          <div className="readiness-dial" style={{ "--score": `${overall * 3.6}deg` } as React.CSSProperties}>
+            <div><strong>{overall}%</strong><span>weighted readiness</span></div>
+          </div>
+        </div>
+      </section>
+
+      <div className="content-grid dashboard-content">
+        <section className="daily-card">
+          <div className="daily-header">
+            <div>
+              <p className="eyebrow"><Sparkles size={15} /> Today’s prescription</p>
+              <h2>One focused hour. Twenty consequential decisions.</h2>
+            </div>
+            <span className="duration-pill"><Clock3 size={15} /> 60 min</span>
+          </div>
+          <div className="session-route">
+            <div><span>01</span><strong>Calibrate</strong><small>7 min · retrieval warm-up</small></div>
+            <div className="route-line" />
+            <div><span>02</span><strong>Pressure block</strong><small>{Math.round(config.timedSeconds / 60)} min · 20 questions</small></div>
+            <div className="route-line" />
+            <div><span>03</span><strong>Correct</strong><small>{60 - 7 - Math.round(config.timedSeconds / 60)} min · rationales + teach-back</small></div>
+          </div>
+          <div className="coach-callout">
+            <div className="callout-icon"><Target size={21} /></div>
+            <div>
+              <span>Coach’s call</span>
+              <p><strong>{weakest.name}</strong> is at {weakestScore}%. Until it clears 80% across two stable blocks, it receives extra exposure.</p>
+            </div>
+          </div>
+          <button className="primary-button start-button" onClick={onStart}>Start adaptive session <ArrowRight size={18} /></button>
+        </section>
+
+        <aside className="readiness-panel">
+          <div className="panel-heading">
+            <div><p className="eyebrow">Readiness map</p><h3>{config.domains.length} {config.blueprint} domains</h3></div>
+            <button className="text-button" onClick={onStats}>Full analytics</button>
+          </div>
+          <div className="domain-mini-list">
+            {[...config.domains]
+              .sort((a, b) => readinessScore(mastery[a.id]) - readinessScore(mastery[b.id]))
+              .map((domain) => {
+                const score = readinessScore(mastery[domain.id]);
+                const status = masteryStatus(score, mastery[domain.id]?.stableBlocks ?? 0);
+                return (
+                  <div className="domain-mini" key={domain.id}>
+                    <span className="domain-code">{domain.short}</span>
+                    <div className="domain-progress"><div><strong>{domain.name}</strong><small>{Math.round(domain.weight * 100)}% blueprint</small></div><div className="meter"><i style={{ width: `${score}%` }} /></div></div>
+                    <span className={`status ${status.tone}`}>{score}%</span>
+                  </div>
+                );
+              })}
+          </div>
+          <div className="threshold-note"><LockKeyhole size={16} /><span><strong>Stability rule:</strong> ≥80% across two qualifying blocks, not a one-off spike.</span></div>
+        </aside>
+      </div>
+
+      <section className="mode-section page-width">
+        <div className="section-heading">
+          <div><p className="eyebrow">Drill room</p><h2>Choose the kind of pressure</h2></div>
+          <p>Rationales stay locked until every block is submitted.</p>
+        </div>
+        <div className="mode-grid">
+          {modes.map((mode) => {
+            const disabled = mode === "missed" && !activeAttempts.some((attempt) => !attempt.correct);
+            const copy = getModeCopy(mode, config);
+            return (
+              <button className={`mode-card ${mode === "exam" ? "exam-card" : ""}`} key={mode} onClick={() => !disabled && onMode(mode)} disabled={disabled}>
+                <span className="mode-icon"><ModeIcon mode={mode} size={21} /></span>
+                <span className="mode-copy"><small>{copy.eyebrow}</small><strong>{copy.title}</strong><em>{disabled ? "Complete a block first to unlock your error queue." : copy.description}</em></span>
+                <ArrowRight size={18} className="card-arrow" />
+              </button>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="page-width evidence-strip">
+        <div><BrainCircuit /><strong>Item-response logic</strong><span>Ability × difficulty updates after every response</span></div>
+        <div><Gauge /><strong>10,000-item catalog</strong><span>Original seeded variants with repeat avoidance</span></div>
+        <div><BookOpenCheck /><strong>Three reference lenses</strong><span>Yates depth · Nito drills · exam-book reasoning</span></div>
+        <div><ShieldCheck /><strong>{config.blueprint} governed</strong><span>Current official domain weights, not legacy chapters</span></div>
+      </section>
+
+      {recent.length > 0 && (
+        <section className="page-width recent-section">
+          <div className="section-heading"><div><p className="eyebrow">Recent work</p><h2>Blocks on record</h2></div></div>
+          <div className="recent-grid">
+            {recent.map((session) => (
+              <div className="recent-card" key={session.id}><span>{getModeCopy(session.mode, config).title}</span><strong>{Math.round((session.score / session.count) * 100)}%</strong><small>{new Date(session.date).toLocaleDateString()} · {formatTime(session.seconds)} · {difficultyLabel(Math.round(session.difficulty))}</small></div>
+            ))}
+          </div>
+        </section>
+      )}
+      <Disclaimer config={config} />
+    </main>
+  );
+}
+
+function SessionSetup({
+  mode,
+  config,
+  customDomains,
+  attempts,
+  mastery,
+  onDomains,
+  onClose,
+  onStart,
+}: {
+  mode: SessionMode;
+  config: ExamConfig;
+  customDomains: DomainId[];
+  attempts: Attempt[];
+  mastery: Record<DomainId, DomainMastery>;
+  onDomains: (domains: DomainId[]) => void;
+  onClose: () => void;
+  onStart: () => void;
+}) {
+  const count = mode === "exam" ? 200 : 20;
+  const time = mode === "exam" ? config.examTimeLabel : mode === "timed" ? `${Math.round(config.timedSeconds / 60)} minutes` : "up to 60 minutes";
+  const canStart = mode !== "custom" || customDomains.length > 0;
+  const weak = [...config.domains].sort((a, b) => readinessScore(mastery[a.id]) - readinessScore(mastery[b.id])).slice(0, 2);
+  const copy = getModeCopy(mode, config);
+  return (
+    <div className="modal-backdrop">
+      <div className={`modal setup-modal ${mode === "exam" ? "wide-modal" : ""}`} role="dialog" aria-modal="true" aria-labelledby="setup-title">
+        <button className="icon-button modal-close" onClick={onClose} aria-label="Close"><X /></button>
+        <span className="modal-icon"><ModeIcon mode={mode} /></span>
+        <p className="eyebrow">{copy.eyebrow}</p>
+        <h2 id="setup-title">{copy.title}</h2>
+        <p className="modal-lead">{copy.description}</p>
+        <div className="setup-stats">
+          <div><strong>{count}</strong><span>questions</span></div>
+          <div><strong>{time}</strong><span>time allowance</span></div>
+          <div><strong>End only</strong><span>rationales</span></div>
+        </div>
+        {mode === "custom" && (
+          <div className="domain-picker">
+            <strong>Select domains</strong>
+            {config.domains.map((domain) => {
+              const checked = customDomains.includes(domain.id);
+              return <label key={domain.id} aria-label={domain.name}><input aria-label={domain.name} type="checkbox" checked={checked} onChange={() => onDomains(checked ? customDomains.filter((id) => id !== domain.id) : [...customDomains, domain.id])} /><span><i>{checked && <Check size={14} />}</i><b>{domain.name}</b><small>{Math.round(domain.weight * 100)}%</small></span></label>;
+            })}
+          </div>
+        )}
+        {mode === "weakest" && (
+          <div className="setup-note"><Target size={18} /><span>Your block will concentrate on <strong>{weak[0].name}</strong> and <strong>{weak[1].name}</strong>.</span></div>
+        )}
+        {mode === "missed" && <div className="setup-note"><History size={18} /><span>{attempts.filter((attempt) => !attempt.correct).length} incorrect attempt{attempts.filter((attempt) => !attempt.correct).length === 1 ? "" : "s"} available for repair.</span></div>}
+        {mode === "exam" && (
+          <div className="exam-warning">
+            <strong>This is one 200-question block.</strong>
+            <p>Exact allocation: {config.domains.map((domain) => `${Math.round(domain.weight * 200)} ${domain.name}`).join(" · ")}. The clock continues during breaks.</p>
+          </div>
+        )}
+        <div className="rationale-lock"><LockKeyhole size={17} /><span>Answers and explanations remain suppressed until submission.</span></div>
+        <button className="primary-button full" disabled={!canStart} onClick={onStart}>Begin block <ArrowRight size={18} /></button>
+      </div>
+    </div>
+  );
+}
+
+function QuizRunner({
+  config,
+  question,
+  index,
+  total,
+  selected,
+  confidence,
+  answeredCount,
+  flagged,
+  remaining,
+  onSelect,
+  onConfidence,
+  onMove,
+  onFlag,
+  onFinish,
+  onQuit,
+  onFormula,
+}: {
+  config: ExamConfig;
+  question: SessionQuestion;
+  index: number;
+  total: number;
+  selected?: number;
+  confidence: Confidence;
+  answeredCount: number;
+  flagged: boolean;
+  remaining: number;
+  onSelect: (index: number) => void;
+  onConfidence: (value: Confidence) => void;
+  onMove: (index: number) => void;
+  onFlag: () => void;
+  onFinish: () => void;
+  onQuit: () => void;
+  onFormula: () => void;
+}) {
+  const domain = config.domains.find((candidate) => candidate.id === question.domainId)!;
+  const last = index === total - 1;
+  return (
+    <div className="quiz-shell">
+      <header className="quiz-header">
+        <button className="brand quiz-brand" onClick={onQuit}><span className="brand-mark"><ShieldCheck size={22} /></span><span><strong>{config.name}</strong><em>{"// COACH"}</em></span></button>
+        <div className="quiz-progress-wrap"><div className="quiz-progress"><i style={{ width: `${((index + 1) / total) * 100}%` }} /></div><span>{answeredCount} answered · {total - answeredCount} open</span></div>
+        <div className="quiz-tools"><span className={remaining < 300 ? "timer urgent" : "timer"}><Clock3 size={17} /> {formatTime(remaining)}</span><button className="quit-button" onClick={onQuit}>End block</button></div>
+      </header>
+      <main className="quiz-main">
+        <section className="question-card">
+          <div className="question-meta">
+            <span className="question-number">Question {index + 1} <i>/ {total}</i></span>
+            <span className="domain-tag">{domain.short} · {domain.name}</span>
+            <span className={`difficulty-chip d${question.difficulty}`}>{difficultyLabel(question.difficulty)}</span>
+          </div>
+          <h1>{question.stem}</h1>
+          <div className="answers" role="radiogroup" aria-label="Answer choices">
+            {question.options.map((option, optionIndex) => (
+              <button key={option} role="radio" aria-checked={selected === optionIndex} className={selected === optionIndex ? "answer selected" : "answer"} onClick={() => onSelect(optionIndex)}>
+                <span>{String.fromCharCode(65 + optionIndex)}</span><strong>{option}</strong>{selected === optionIndex && <Check size={18} />}
+              </button>
+            ))}
+          </div>
+          <div className="confidence-row">
+            <span>Confidence</span>
+            {(["guess", "lean", "sure"] as Confidence[]).map((value) => <button className={confidence === value ? "active" : ""} key={value} onClick={() => onConfidence(value)}>{value === "guess" ? "Guessing" : value === "lean" ? "Leaning" : "Certain"}</button>)}
+          </div>
+          <div className="suppressed-note"><LockKeyhole size={15} /> Rationale locked until the {total}-question block is submitted.</div>
+        </section>
+      </main>
+      <footer className="quiz-footer">
+        <div className="quiz-footer-left"><button className={flagged ? "tool-button flagged" : "tool-button"} onClick={onFlag}><Flag size={17} /> {flagged ? "Flagged" : "Flag"}</button><button className="tool-button" onClick={onFormula}><CircleHelp size={17} /> Formula rule</button><span className="catalog-id">Catalog item #{String(question.catalogId).padStart(5, "0")}</span></div>
+        <div className="quiz-nav"><button className="secondary-button" disabled={index === 0} onClick={() => onMove(index - 1)}><ArrowLeft size={18} /> Previous</button>{last ? <button className="primary-button" onClick={onFinish}>Submit block <Check size={18} /></button> : <button className="primary-button" onClick={() => onMove(index + 1)}>Next <ArrowRight size={18} /></button>}</div>
+      </footer>
+    </div>
+  );
+}
+
+function Results({
+  attempts,
+  mode,
+  config,
+  seconds,
+  filter,
+  mastery,
+  onFilter,
+  onHome,
+  onRetry,
+}: {
+  attempts: Attempt[];
+  mode: SessionMode;
+  config: ExamConfig;
+  seconds: number;
+  filter: "all" | "incorrect";
+  mastery: Record<DomainId, DomainMastery>;
+  onFilter: (filter: "all" | "incorrect") => void;
+  onHome: () => void;
+  onRetry: () => void;
+}) {
+  const correct = attempts.filter((attempt) => attempt.correct).length;
+  const percent = Math.round((correct / Math.max(1, attempts.length)) * 100);
+  const avgSeconds = Math.round(attempts.reduce((sum, attempt) => sum + attempt.seconds, 0) / Math.max(1, attempts.length));
+  const certainErrors = attempts.filter((attempt) => !attempt.correct && attempt.confidence === "sure").length;
+  const examLevel = attempts.some((attempt) => attempt.difficulty >= 4);
+  const shown = filter === "incorrect" ? attempts.filter((attempt) => !attempt.correct) : attempts;
+  const byDomain = config.domains.map((domain) => {
+    const items = attempts.filter((attempt) => attempt.domainId === domain.id);
+    const score = items.length ? Math.round((items.filter((attempt) => attempt.correct).length / items.length) * 100) : 0;
+    const actual = items.length / Math.max(1, attempts.length);
+    return { ...domain, items, score, drift: Math.round((actual - domain.weight) * 100) };
+  }).filter((domain) => domain.items.length);
+  return (
+    <main className="results-page">
+      <section className="results-hero">
+        <div className="results-title"><p className="eyebrow"><BookOpenCheck size={15} /> Block complete · rationales unlocked</p><h1>{percent >= 80 ? "Strong block. Now prove it is stable." : "The score is data. The gaps are the assignment."}</h1><p>{getModeCopy(mode, config).title} · {attempts.length} items · {formatTime(seconds)}</p></div>
+        <div className={`score-orb ${percent >= 80 ? "pass" : "needs-work"}`}><strong>{percent}%</strong><span>{correct} / {attempts.length} correct</span></div>
+      </section>
+      <section className="result-metrics page-width">
+        <div><Clock3 /><span>Average pace</span><strong>{avgSeconds}s</strong><small>Target: {config.paceSeconds}s or less</small></div>
+        <div><BrainCircuit /><span>Difficulty reached</span><strong>{difficultyLabel(Math.max(...attempts.map((attempt) => attempt.difficulty)))}</strong><small>{examLevel ? `${config.name} exam-level items were active` : "Keep building toward level 4"}</small></div>
+        <div className={certainErrors ? "metric-alert" : ""}><Target /><span>Confident errors</span><strong>{certainErrors}</strong><small>{certainErrors ? "High-priority misconceptions" : "No false certainty detected"}</small></div>
+        <div><Gauge /><span>Weighted readiness</span><strong>{overallReadiness(mastery, config.domains)}%</strong><small>80% stability target</small></div>
+      </section>
+      {certainErrors > 0 && <section className="pushback page-width"><div><strong>Coach pushback</strong><h2>You were certain and wrong {certainErrors} time{certainErrors === 1 ? "" : "s"}.</h2><p>That is not a careless miss; it is a false model. Do not memorize the keyed choice. Explain why each distractor fails before you retest.</p></div><BrainCircuit size={42} /></section>}
+      <section className="page-width domain-results">
+        <div className="section-heading"><div><p className="eyebrow">Post-assessment analytics</p><h2>Performance and domain drift</h2></div><p>Drift compares this block’s share with the official blueprint.</p></div>
+        <div className="domain-result-table">
+          <div className="table-head"><span>Domain</span><span>Score</span><span>Items</span><span>Drift</span><span>Readiness</span></div>
+          {byDomain.map((domain) => <div className="table-row" key={domain.id}><span><i>{domain.short}</i><strong>{domain.name}</strong></span><span className={domain.score >= 80 ? "positive" : "negative"}>{domain.score}%</span><span>{domain.items.length}</span><span className={Math.abs(domain.drift) <= 2 ? "neutral" : domain.drift > 0 ? "positive" : "negative"}>{domain.drift > 0 ? "+" : ""}{domain.drift} pp</span><span>{readinessScore(mastery[domain.id])}%</span></div>)}
+        </div>
+      </section>
+      <section className="page-width rationale-section">
+        <div className="section-heading rationale-heading"><div><p className="eyebrow">Rationale block</p><h2>Interrogate every miss</h2></div><div className="segmented"><button className={filter === "incorrect" ? "active" : ""} onClick={() => onFilter("incorrect")}>Incorrect ({attempts.length - correct})</button><button className={filter === "all" ? "active" : ""} onClick={() => onFilter("all")}>All ({attempts.length})</button></div></div>
+        {shown.length === 0 ? <div className="empty-state"><Trophy /><h3>No incorrect responses in this block.</h3><p>Do not coast: repeat at a higher difficulty and preserve accuracy.</p></div> : <div className="rationale-list">{shown.map((attempt, index) => <RationaleCard key={`${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} />)}</div>}
+      </section>
+      <div className="results-actions page-width"><button className="secondary-button" onClick={onHome}>Return to dashboard</button><button className="primary-button" onClick={onRetry}>Attack weakest domains <ArrowRight size={18} /></button></div>
+      <Disclaimer config={config} />
+    </main>
+  );
+}
+
+function RationaleCard({ attempt, index, domains }: { attempt: Attempt; index: number; domains: readonly CoachDomain[] }) {
+  const [open, setOpen] = useState(!attempt.correct);
+  const domain = domains.find((candidate) => candidate.id === attempt.domainId)!;
+  return (
+    <article className={`rationale-card ${attempt.correct ? "correct" : "incorrect"}`}>
+      <button className="rationale-summary" onClick={() => setOpen((value) => !value)}>
+        <span className="result-marker">{attempt.correct ? <Check /> : <X />}</span>
+        <span><small>Question {index} · {domain.short} · Level {attempt.difficulty}</small><strong>{attempt.stem}</strong></span>
+        <span className="answer-summary"><small>Your answer</small><b>{attempt.selectedIndex >= 0 ? String.fromCharCode(65 + attempt.selectedIndex) : "—"}</b></span>
+        <ChevronDown className={open ? "rotated" : ""} />
+      </button>
+      {open && <div className="rationale-body">
+        <div className="answer-comparison"><div className={attempt.correct ? "answer-box right" : "answer-box wrong"}><span>You chose {attempt.selectedIndex >= 0 ? String.fromCharCode(65 + attempt.selectedIndex) : "no answer"}</span><strong>{attempt.selectedIndex >= 0 ? attempt.options[attempt.selectedIndex] : "Unanswered"}</strong></div><div className="answer-box right"><span>Best answer {String.fromCharCode(65 + attempt.correctIndex)}</span><strong>{attempt.options[attempt.correctIndex]}</strong></div></div>
+        {!attempt.correct && <div className="why-wrong"><strong>Why your response fails</strong><p>{attempt.wrongRationale}</p></div>}
+        <div className="why-right"><strong>Decision rationale</strong><p>{attempt.rationale}</p></div>
+        {!attempt.correct && <div className="teachback"><BrainCircuit size={19} /><div><strong>Earn the correction</strong><p>{attempt.challengePrompt}</p></div></div>}
+        <div className="reference-line"><BookOpenCheck size={15} /><span><strong>{attempt.framework}</strong> framework · {attempt.referenceTopic}</span><span>{difficultyLabel(attempt.difficulty)}</span></div>
+      </div>}
+    </article>
+  );
+}
+
+function Analytics({ config, mastery, attempts, sessions, overall, onStudy }: { config: ExamConfig; mastery: Record<DomainId, DomainMastery>; attempts: Attempt[]; sessions: SessionSummary[]; overall: number; onStudy: () => void }) {
+  const total = attempts.length;
+  const correct = attempts.filter((attempt) => attempt.correct).length;
+  const avg = total ? Math.round((correct / total) * 100) : 0;
+  const avgPace = total ? Math.round(attempts.reduce((sum, attempt) => sum + attempt.seconds, 0) / total) : 0;
+  const stable = config.domains.filter((domain) => readinessScore(mastery[domain.id]) >= 80 && (mastery[domain.id]?.stableBlocks ?? 0) >= 2).length;
+  const recentSessions = [...sessions].slice(0, 8).reverse();
+  const chartMax = Math.max(1, ...recentSessions.map((session) => Math.round((session.score / session.count) * 100)));
+  return (
+    <main className="analytics-page">
+      <section className="page-title page-width"><div><p className="eyebrow"><BarChart3 size={15} /> {config.name} readiness intelligence</p><h1>Evidence, not optimism.</h1><p>Performance is weighted to {config.blueprint} and stability requires repeated success above 80%.</p></div><button className="primary-button" onClick={onStudy}>Start today’s session <ArrowRight size={18} /></button></section>
+      <section className="analytics-kpis page-width">
+        <div className="hero-kpi"><span>Weighted readiness</span><strong>{overall}%</strong><div className="meter large"><i style={{ width: `${overall}%` }} /></div><small>{overall >= 80 && stable === config.domains.length ? "Exam-day threshold met" : `${config.domains.length - stable} domain${config.domains.length - stable === 1 ? "" : "s"} still need stable evidence`}</small></div>
+        <div><span>Answered</span><strong>{total.toLocaleString()}</strong><small>across {sessions.length} blocks</small></div>
+        <div><span>Raw accuracy</span><strong>{avg}%</strong><small>IRT adjusts for difficulty</small></div>
+        <div><span>Average pace</span><strong>{avgPace || "—"}{avgPace ? "s" : ""}</strong><small>{config.paceSeconds}s exam target</small></div>
+        <div><span>Stable domains</span><strong>{stable} / {config.domains.length}</strong><small>two qualifying blocks each</small></div>
+      </section>
+      <section className="analytics-layout page-width">
+        <div className="analytics-card domain-detail-card">
+          <div className="panel-heading"><div><p className="eyebrow">Domain control</p><h2>{config.blueprint} readiness matrix</h2></div><span className="subtle">80% threshold</span></div>
+          <div className="domain-detail-list">
+            {config.domains.map((domain) => {
+              const state = mastery[domain.id];
+              const score = readinessScore(state);
+              const status = masteryStatus(score, state.stableBlocks);
+              return <div className="domain-detail" key={domain.id}><span className="domain-code">{domain.short}</span><div><strong>{domain.name}</strong><small>{state.answered} answered · {state.correct} correct · target level {state.difficulty}</small><div className="meter threshold-meter"><i style={{ width: `${score}%` }} /><b /></div></div><span className={`status ${status.tone}`}>{status.label}</span><b>{score}%</b></div>;
+            })}
+          </div>
+        </div>
+        <div className="analytics-card trend-card">
+          <div className="panel-heading"><div><p className="eyebrow">Trend</p><h2>Recent block scores</h2></div></div>
+          {recentSessions.length ? <div className="bar-chart">{recentSessions.map((session) => { const value = Math.round((session.score / session.count) * 100); return <div className="bar-column" key={session.id}><span>{value}%</span><i style={{ height: `${Math.max(8, (value / chartMax) * 150)}px` }} /><small>{new Date(session.date).toLocaleDateString(undefined, { month: "short", day: "numeric" })}</small></div>; })}<div className="target-line"><span>80%</span></div></div> : <div className="empty-small"><BarChart3 /><p>Your score trend appears after the first block.</p></div>}
+          <div className="analytics-rule"><BrainCircuit size={18} /><p><strong>IRT logic:</strong> a difficult correct answer moves ability more than an easy one. A confident miss exposes a misconception and receives priority.</p></div>
+        </div>
+      </section>
+      <section className="page-width blueprint-card">
+        <div><p className="eyebrow">Simulation governor</p><h2>Official 200-item allocation</h2><p>{config.blueprint} has {config.domains.length} domains. “11” is the blueprint version, not the number of competencies.</p></div>
+        <div className="allocation-bar">{config.domains.map((domain) => <span key={domain.id} style={{ width: `${domain.weight * 100}%`, background: domain.color }} title={`${domain.name}: ${domain.weight * 100}%`}><i>{Math.round(domain.weight * 200)}</i></span>)}</div>
+        <div className="allocation-legend">{config.domains.map((domain) => <span key={domain.id}><i style={{ background: domain.color }} />{domain.short} {Math.round(domain.weight * 100)}%</span>)}</div>
+      </section>
+      <Disclaimer config={config} />
+    </main>
+  );
+}
+
+function Review({
+  attempts,
+  config,
+  search,
+  domain,
+  type,
+  onSearch,
+  onDomain,
+  onType,
+  onStudy,
+}: {
+  attempts: Attempt[];
+  config: ExamConfig;
+  search: string;
+  domain: DomainId | "all";
+  type: "all" | "correct" | "incorrect";
+  onSearch: (value: string) => void;
+  onDomain: (value: DomainId | "all") => void;
+  onType: (value: "all" | "correct" | "incorrect") => void;
+  onStudy: () => void;
+}) {
+  const filtered = attempts.filter((attempt) => {
+    if (domain !== "all" && attempt.domainId !== domain) return false;
+    if (type === "correct" && !attempt.correct) return false;
+    if (type === "incorrect" && attempt.correct) return false;
+    return !search || `${attempt.stem} ${attempt.competency}`.toLowerCase().includes(search.toLowerCase());
+  });
+  return (
+    <main className="review-page">
+      <section className="page-title page-width"><div><p className="eyebrow"><BookOpenCheck size={15} /> Evidence archive</p><h1>Review what you actually decided.</h1><p>Search every submitted response. Rationales remain tied to the exact answer and confidence you recorded.</p></div><button className="primary-button" onClick={onStudy}>New adaptive block <ArrowRight size={18} /></button></section>
+      <section className="review-counts page-width"><button className={type === "all" ? "active" : ""} onClick={() => onType("all")}><strong>{attempts.length}</strong><span>All attempts</span></button><button className={type === "incorrect" ? "active" : ""} onClick={() => onType("incorrect")}><strong>{attempts.filter((attempt) => !attempt.correct).length}</strong><span>Incorrect</span></button><button className={type === "correct" ? "active" : ""} onClick={() => onType("correct")}><strong>{attempts.filter((attempt) => attempt.correct).length}</strong><span>Correct</span></button></section>
+      <section className="review-tools page-width"><label><Search size={17} /><input value={search} onChange={(event) => onSearch(event.target.value)} placeholder="Search question or competency" /></label><select value={domain} onChange={(event) => onDomain(event.target.value as DomainId | "all")} aria-label="Filter by domain"><option value="all">All {config.blueprint} domains</option>{config.domains.map((item) => <option key={item.id} value={item.id}>{item.short} · {item.name}</option>)}</select></section>
+      <section className="page-width review-list">
+        {filtered.length ? filtered.map((attempt, index) => <RationaleCard key={`${attempt.sessionId}-${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} />) : <div className="empty-state"><Search /><h3>No matching attempts.</h3><p>Adjust the filters or complete a study block to build your evidence archive.</p></div>}
+      </section>
+      <Disclaimer config={config} />
+    </main>
+  );
+}
+
+function Disclaimer({ config }: { config: ExamConfig }) {
+  return <footer className="disclaimer page-width"><ShieldCheck size={17} /><p><strong>Original, unofficial practice.</strong> Built around the public {config.blueprint} blueprint and the supplied reference frameworks. Not affiliated with, endorsed by, or composed from BCSP or Pocket Prep exam items. The 80% mark is this coach’s conservative readiness standard, not BCSP’s passing score.</p></footer>;
+}
