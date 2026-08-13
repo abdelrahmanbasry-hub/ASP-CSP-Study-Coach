@@ -56,6 +56,8 @@ test("ships both current blueprint banks and removes starter preview code", asyn
   assert.match(coach, /BCSP ASP/);
   assert.match(coach, /BCSP CSP/);
   assert.match(coach, /Start adaptive session/);
+  assert.match(coach, /Created by <strong>Abdelrahman Basry<\/strong>/);
+  assert.match(coach, /https:\/\/ipn\.eg\/S\/abdelrahmanbasryyyy\/instapay\/3mEaA3/);
   assert.match(coach, /mode === "exam" \? startSession\("exam"\)/);
   assert.match(csp, /weight: 0\.25/);
   assert.equal(new Set(`${csp}\n${cspExtra}`.match(/\bD[1-7]-\d{3}\b/g) ?? []).size, 200);

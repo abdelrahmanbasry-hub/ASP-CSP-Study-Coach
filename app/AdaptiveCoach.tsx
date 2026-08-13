@@ -12,6 +12,7 @@ import {
   ChevronDown,
   CircleHelp,
   Clock3,
+  Coffee,
   Flame,
   Flag,
   Gauge,
@@ -1308,5 +1309,26 @@ function Review({
 }
 
 function Disclaimer({ config }: { config: ExamConfig }) {
-  return <footer className="disclaimer page-width"><ShieldCheck size={17} /><p><strong>Original, unofficial practice.</strong> Built around the public {config.blueprint} blueprint and the supplied reference frameworks. Not affiliated with, endorsed by, or composed from BCSP or Pocket Prep exam items; these items are not psychometrically calibrated. The 80% mark is this coach’s conservative readiness standard, not BCSP’s passing score.</p></footer>;
+  return (
+    <footer className="disclaimer page-width">
+      <div className="disclaimer-copy">
+        <ShieldCheck size={17} />
+        <p><strong>Original, unofficial practice.</strong> Built around the public {config.blueprint} blueprint and the supplied reference frameworks. Not affiliated with, endorsed by, or composed from BCSP or Pocket Prep exam items; these items are not psychometrically calibrated. The 80% mark is this coach’s conservative readiness standard, not BCSP’s passing score.</p>
+      </div>
+      <div className="creator-credit">
+        <span>Created by <strong>Abdelrahman Basry</strong></span>
+        <a
+          className="coffee-link"
+          href="https://ipn.eg/S/abdelrahmanbasryyyy/instapay/3mEaA3"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Buy Abdelrahman Basry a coffee using InstaPay"
+        >
+          <Coffee size={16} />
+          <span>Buy me a coffee</span>
+          <small>via InstaPay</small>
+        </a>
+      </div>
+    </footer>
+  );
 }
