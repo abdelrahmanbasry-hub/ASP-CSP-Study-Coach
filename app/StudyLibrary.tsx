@@ -4,7 +4,7 @@ import { BookOpenCheck, Calculator, Check, ChevronLeft, ChevronRight, CircleHelp
 import { useState } from "react";
 import { HAZARD_COUNTS, HAZARD_RECORDS, type HazardRecord } from "./hazardData";
 import { nextFlashcardProgress, type FlashcardRating, type LearningProgress } from "./learningProgress";
-import { FLASHCARDS, FORMULA_ENTRIES } from "./studyLibraryData";
+import { BCSP_FREQUENTLY_USED_FORMULA_IDS, FLASHCARDS, FORMULA_ENTRIES } from "./studyLibraryData";
 
 type LibraryTab = "flashcards" | "formulas" | "hazards";
 
@@ -47,11 +47,15 @@ function FormulaLibrary() {
   const PAGE_SIZE = 24;
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
+  const [formulaSet, setFormulaSet] = useState<"all" | "frequent">("all");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const frequentlyUsedIds = new Set<string>(BCSP_FREQUENTLY_USED_FORMULA_IDS);
   const categories = ["all", ...new Set(FORMULA_ENTRIES.map((entry) => entry.category))];
-  const categoryCounts = Object.fromEntries(categories.map((item) => [item, item === "all" ? FORMULA_ENTRIES.length : FORMULA_ENTRIES.filter((entry) => entry.category === item).length]));
+  const formulaSetEntries = formulaSet === "frequent" ? FORMULA_ENTRIES.filter((entry) => frequentlyUsedIds.has(entry.id)) : FORMULA_ENTRIES;
+  const categoryCounts = Object.fromEntries(categories.map((item) => [item, item === "all" ? formulaSetEntries.length : formulaSetEntries.filter((entry) => entry.category === item).length]));
+  const frequentlyUsedCount = FORMULA_ENTRIES.filter((entry) => frequentlyUsedIds.has(entry.id)).length;
   const normalizedSearch = search.trim().toLowerCase();
-  const entries = FORMULA_ENTRIES.filter((entry) => {
+  const entries = formulaSetEntries.filter((entry) => {
     if (category !== "all" && entry.category !== category) return false;
     if (!normalizedSearch) return true;
     return [entry.name, entry.formula, entry.whenToUse, entry.variables.join(" "), entry.units, entry.commonError, entry.sourcePage].join(" ").toLowerCase().includes(normalizedSearch);
@@ -68,6 +72,11 @@ function FormulaLibrary() {
     setCategory(value);
     setVisibleCount(PAGE_SIZE);
   }
+
+  function changeFormulaSet(value: "all" | "frequent") {
+    setFormulaSet(value);
+    setVisibleCount(PAGE_SIZE);
+  }
   return <section className="page-width library-panel">
     <div className="library-toolbar">
       <div><p className="eyebrow"><Calculator size={15} /> Smart formula sheet</p><h2>Search by problem, not page</h2></div>
@@ -78,16 +87,20 @@ function FormulaLibrary() {
       <select value={category} onChange={(event) => changeCategory(event.target.value)} aria-label="Filter formula category">
         {categories.map((item) => <option value={item} key={item}>{item === "all" ? "All categories" : item} ({categoryCounts[item]})</option>)}
       </select>
+      <select value={formulaSet} onChange={(event) => changeFormulaSet(event.target.value as "all" | "frequent")} aria-label="Filter formula set">
+        <option value="all">All formulas ({FORMULA_ENTRIES.length})</option>
+        <option value="frequent">Equations most often used on BCSP exams ({frequentlyUsedCount})</option>
+      </select>
     </div>
     {entries.length ? <>
-      <div className="formula-grid">{visibleEntries.map((entry) => <details className="formula-card" key={entry.id}><summary><div><small>{entry.category}</small><h3>{entry.name}</h3></div><span className="formula-expression">{entry.formula}</span></summary><div className="formula-body"><p><strong>Use it when:</strong> {entry.whenToUse}</p><p><strong>Variables:</strong> {entry.variables.join(" · ")}</p><p><strong>Units:</strong> {entry.units}</p><p className="formula-warning"><strong>Common error:</strong> {entry.commonError}</p><div className="worked-example"><span>Worked example</span><p>{entry.workedExample}</p></div><small>Source reference: {entry.sourcePage}</small></div></details>)}</div>
+      <div className="formula-grid">{visibleEntries.map((entry) => <details className="formula-card" key={entry.id}><summary><div><small>{entry.category}{frequentlyUsedIds.has(entry.id) ? " · Most often used" : ""}</small><h3>{entry.name}</h3></div><span className="formula-expression">{entry.formula}</span></summary><div className="formula-body"><p><strong>Use it when:</strong> {entry.whenToUse}</p><p><strong>Variables:</strong> {entry.variables.join(" · ")}</p><p><strong>Units:</strong> {entry.units}</p><p className="formula-warning"><strong>Common error:</strong> {entry.commonError}</p><div className="worked-example"><span>Worked example</span><p>{entry.workedExample}</p></div><small>Source reference: {entry.sourcePage}</small></div></details>)}</div>
       {remaining > 0 && <div className="flashcard-nav" aria-label="Formula results controls">
         <button className="secondary-button" onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}>Show {Math.min(PAGE_SIZE, remaining)} more</button>
         <span>Showing {visibleEntries.length} of {entries.length}</span>
         <button className="secondary-button" onClick={() => setVisibleCount(entries.length)}>Show all</button>
       </div>}
     </> : <div className="empty-state"><Search size={22} /><h3>No formulas match those filters.</h3><p>Try a different term or select another category.</p></div>}
-    <p className="reference-note"><CircleHelp size={15} /> Complete coverage includes 104 deduplicated equation, conversion, and constant families from the supplied 23-page ASP formula sheet, plus 2 clearly marked Yates supplemental cards. Six lookup tables and charts were visually reviewed but are intentionally not counted as formulas.</p>
+    <p className="reference-note"><CircleHelp size={15} /> Complete coverage includes 104 deduplicated equation, conversion, and constant families from the supplied 23-page ASP formula sheet, plus 2 clearly marked Yates supplemental cards. Six lookup tables and charts were visually reviewed but are intentionally not counted as formulas. The 47 printed equations in “Equations Most Often Used on BCSP Exams” on pp. 12–23 map to 44 deduplicated cards. This is the supplied study-sheet label, not a guarantee of current exam frequency.</p>
   </section>;
 }
 

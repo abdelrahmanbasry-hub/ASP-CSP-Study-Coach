@@ -707,7 +707,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .rating-row strong { display: block; font-size: 11px; }
 .rating-row span { display: block; margin-top: 3px; color: var(--muted); font-size: 8px; text-transform: uppercase; letter-spacing: .06em; }
 
-.resource-filters { margin: 20px 0; display: grid; grid-template-columns: minmax(0, 1fr) 270px; gap: 10px; }
+.resource-filters { margin: 20px 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(190px, 240px) minmax(250px, 330px); gap: 10px; }
 .resource-filters.single { grid-template-columns: minmax(0, 1fr); }
 .resource-filters label { min-height: 42px; padding: 0 12px; display: flex; align-items: center; gap: 9px; border: 1px solid #ccd4d6; border-radius: 7px; background: white; color: var(--muted); }
 .resource-filters label:focus-within { outline: 3px solid rgba(57,122,152,.2); border-color: #6e919e; }
@@ -805,6 +805,9 @@ summary:focus-visible, .library-tabs button:focus-visible, .hazard-switches butt
   .coming-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .formula-grid { grid-template-columns: 1fr; }
   .formula-card summary { min-height: 116px; }
+  .resource-filters:not(.single) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .resource-filters:not(.single) label { grid-column: 1 / -1; }
+  .resource-filters select { width: 100%; max-width: none; }
 }
 
 @media (max-width: 760px) {

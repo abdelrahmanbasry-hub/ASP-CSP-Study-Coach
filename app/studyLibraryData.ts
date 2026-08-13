@@ -597,6 +597,70 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
   ...ADDITIONAL_FORMULA_ENTRIES,
 ];
 
+/**
+ * Formula-card IDs represented in the supplied section titled
+ * "Equations Most Often Used on BCSP Exams" (PDF pages 12-23).
+ * Repeated equations are deduplicated at the card level.
+ */
+export const BCSP_FREQUENTLY_USED_FORMULA_IDS = [
+  // PDF p. 12 - Trigonometric Functions
+  "formula-math-right-triangle",
+  // PDF p. 13 - Statistics and Probability
+  "formula-stat-t",
+  "formula-stat-z",
+  "formula-stat-poisson",
+  // PDF p. 14 - Reliability and Mechanics
+  "formula-rel-failure",
+  "formula-rel-exponential",
+  "formula-mech-moment",
+  "formula-mech-velocity",
+  // PDF p. 15 - Mechanics
+  "formula-mech-displacement",
+  "formula-mech-velocity-distance",
+  "formula-mech-energy-work",
+  // PDF p. 16 - Mechanics and Electricity
+  "formula-mech-force-weight",
+  "formula-elec-ohm",
+  "formula-elec-power",
+  "formula-elec-series-resistance",
+  "formula-elec-parallel-resistance",
+  // PDF p. 17 - Gas Laws and Hydrostatics/Hydraulics
+  "formula-ih-ideal-gas",
+  "formula-ih-combined-gas",
+  "formula-hyd-velocity-pressure",
+  "formula-hyd-static-residual-flow",
+  "formula-hyd-flow-pressure",
+  // PDF p. 18 - Hydraulics and Ventilation
+  "formula-hyd-hazen-williams",
+  "formula-vent-flow",
+  "formula-vent-velocity-pressure",
+  // PDF p. 19 - Ventilation and Radiation
+  "formula-vent-hood-entry",
+  "formula-vent-total-pressure",
+  "formula-vent-fan-static-pressure",
+  "formula-vent-capture",
+  "formula-vent-dilution",
+  "formula-rad-inverse-square",
+  // PDF p. 20 - Radiation shortcut
+  "formula-rad-point-source",
+  // PDF p. 21 - Noise
+  "formula-noise-sound-power-level",
+  "formula-noise-sound-pressure-level",
+  "formula-noise-duration",
+  "formula-noise-dose-twa",
+  // PDF p. 22 - Engineering Economy
+  "formula-econ-future",
+  "formula-econ-present",
+  "formula-econ-annuity-future",
+  "formula-econ-sinking-fund",
+  "formula-econ-annuity-present",
+  "formula-econ-capital-recovery",
+  // PDF p. 23 - Heat Stress and Concentration of Vapors and Gases
+  "formula-heat-indoor-wbgt",
+  "formula-heat-outdoor-wbgt",
+  "formula-ih-ppm",
+] as const;
+
 export const FLASHCARDS: readonly StudyFlashcard[] = [
   {
     id: "flash-hw-ch02-01",
@@ -1311,6 +1375,20 @@ export const validateFormulaEntries = (
   const validEntries = entries.filter(isFormulaEntry);
   const ids = duplicateIds(validEntries);
   if (ids.length > 0) errors.push(`Duplicate formula IDs: ${ids.join(", ")}.`);
+
+  const frequentIds = [...BCSP_FREQUENTLY_USED_FORMULA_IDS];
+  const duplicateFrequentIds = duplicateIds(frequentIds.map((id) => ({ id })));
+  if (frequentIds.length !== 44) {
+    errors.push("BCSP frequently-used filter must contain 44 formula IDs; found " + frequentIds.length + ".");
+  }
+  if (duplicateFrequentIds.length > 0) {
+    errors.push("Duplicate BCSP frequently-used formula IDs: " + duplicateFrequentIds.join(", ") + ".");
+  }
+  const validFormulaIds = new Set(validEntries.map(({ id }) => id));
+  const missingFrequentIds = frequentIds.filter((id) => !validFormulaIds.has(id));
+  if (missingFrequentIds.length > 0) {
+    errors.push("BCSP frequently-used formula IDs are missing from the library: " + missingFrequentIds.join(", ") + ".");
+  }
 
   FORMULA_CATEGORIES.forEach((category) => {
     if (!validEntries.some((entry) => entry.category === category)) {

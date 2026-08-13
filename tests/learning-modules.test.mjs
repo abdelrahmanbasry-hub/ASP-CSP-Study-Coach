@@ -8,6 +8,7 @@ import {
   REVIEW_QUESTIONS,
 } from "../app/homeworkData.ts";
 import {
+  BCSP_FREQUENTLY_USED_FORMULA_IDS,
   FLASHCARDS,
   FORMULA_CATEGORIES,
   FORMULA_ENTRIES,
@@ -57,6 +58,73 @@ const REQUIRED_BILINGUAL_FIELDS = [
   "highRiskOccupationsWorkplace",
   "sourceNote",
 ];
+
+const EXPECTED_BCSP_FREQUENT_IDS_BY_PDF_PAGE = {
+  12: ["formula-math-right-triangle"],
+  13: ["formula-stat-t", "formula-stat-z", "formula-stat-poisson"],
+  14: [
+    "formula-rel-failure",
+    "formula-rel-exponential",
+    "formula-mech-moment",
+    "formula-mech-velocity",
+  ],
+  15: [
+    "formula-mech-displacement",
+    "formula-mech-velocity-distance",
+    "formula-mech-energy-work",
+  ],
+  16: [
+    "formula-mech-force-weight",
+    "formula-elec-ohm",
+    "formula-elec-power",
+    "formula-elec-series-resistance",
+    "formula-elec-parallel-resistance",
+  ],
+  17: [
+    "formula-ih-ideal-gas",
+    "formula-ih-combined-gas",
+    "formula-hyd-velocity-pressure",
+    "formula-hyd-static-residual-flow",
+    "formula-hyd-flow-pressure",
+  ],
+  18: [
+    "formula-hyd-hazen-williams",
+    "formula-vent-flow",
+    "formula-vent-velocity-pressure",
+  ],
+  19: [
+    "formula-vent-hood-entry",
+    "formula-vent-total-pressure",
+    "formula-vent-fan-static-pressure",
+    "formula-vent-capture",
+    "formula-vent-dilution",
+    "formula-rad-inverse-square",
+  ],
+  20: ["formula-rad-point-source"],
+  21: [
+    "formula-noise-sound-power-level",
+    "formula-noise-sound-pressure-level",
+    "formula-noise-duration",
+    "formula-noise-dose-twa",
+  ],
+  22: [
+    "formula-econ-future",
+    "formula-econ-present",
+    "formula-econ-annuity-future",
+    "formula-econ-sinking-fund",
+    "formula-econ-annuity-present",
+    "formula-econ-capital-recovery",
+  ],
+  23: [
+    "formula-heat-indoor-wbgt",
+    "formula-heat-outdoor-wbgt",
+    "formula-ih-ppm",
+  ],
+};
+
+const EXPECTED_BCSP_FREQUENTLY_USED_FORMULA_IDS = Object.values(
+  EXPECTED_BCSP_FREQUENT_IDS_BY_PDF_PAGE,
+).flat();
 
 test("homework catalog preserves the supplied chapter manifest and exact counts", () => {
   assert.deepEqual(HOMEWORK_COUNTS, {
@@ -241,6 +309,79 @@ test("expanded formula library preserves complete supplemental coverage and corr
   const mixtureLimit = formulasById.get("formula-ih-mixture-lel");
   assert.ok(mixtureLimit, "Mixture LFL/LEL relation is missing");
   assert.match(mixtureLimit.formula, /LFLm.*Σ\(fi\/LFLi\)/);
+});
+
+test("BCSP frequently-used formula filter exactly matches ASP Formula Sheet pages 12-23", () => {
+  assert.deepEqual(
+    Object.fromEntries(
+      Object.entries(EXPECTED_BCSP_FREQUENT_IDS_BY_PDF_PAGE).map(([page, ids]) => [
+        page,
+        ids.length,
+      ]),
+    ),
+    {
+      12: 1,
+      13: 3,
+      14: 4,
+      15: 3,
+      16: 5,
+      17: 5,
+      18: 3,
+      19: 6,
+      20: 1,
+      21: 4,
+      22: 6,
+      23: 3,
+    },
+  );
+
+  assert.equal(EXPECTED_BCSP_FREQUENTLY_USED_FORMULA_IDS.length, 44);
+  assert.equal(
+    new Set(EXPECTED_BCSP_FREQUENTLY_USED_FORMULA_IDS).size,
+    EXPECTED_BCSP_FREQUENTLY_USED_FORMULA_IDS.length,
+    "The page-mapped expected list must not contain duplicate formula cards",
+  );
+  assert.deepEqual(
+    [...BCSP_FREQUENTLY_USED_FORMULA_IDS],
+    EXPECTED_BCSP_FREQUENTLY_USED_FORMULA_IDS,
+    "The filter must preserve the PDF's page and formula order",
+  );
+
+  const libraryIds = new Set(FORMULA_ENTRIES.map((entry) => entry.id));
+  for (const id of BCSP_FREQUENTLY_USED_FORMULA_IDS) {
+    assert.ok(libraryIds.has(id), `${id} must resolve to a formula-library card`);
+  }
+
+  const frequentIds = new Set(BCSP_FREQUENTLY_USED_FORMULA_IDS);
+  const representativePageFormulaIds = [
+    "formula-math-right-triangle", // p. 12
+    "formula-stat-poisson", // p. 13
+    "formula-rel-exponential", // p. 14
+    "formula-mech-displacement", // p. 15
+    "formula-elec-parallel-resistance", // p. 16
+    "formula-hyd-static-residual-flow", // p. 17
+    "formula-hyd-hazen-williams", // p. 18
+    "formula-vent-fan-static-pressure", // p. 19
+    "formula-rad-point-source", // p. 20
+    "formula-noise-sound-pressure-level", // p. 21
+    "formula-econ-capital-recovery", // p. 22
+    "formula-ih-ppm", // p. 23
+  ];
+  for (const id of representativePageFormulaIds) {
+    assert.ok(frequentIds.has(id), `Frequently-used filter is missing ${id}`);
+  }
+
+  for (const masterSheetOnlyId of [
+    "formula-logic-boolean-identities",
+    "formula-math-law-cosines",
+    "formula-noise-lined-duct",
+  ]) {
+    assert.equal(
+      frequentIds.has(masterSheetOnlyId),
+      false,
+      `${masterSheetOnlyId} appears on the master sheet but not in the PDF's frequently-used section`,
+    );
+  }
 });
 
 test("hazard library has exact source counts and complete English/Arabic fields", () => {
