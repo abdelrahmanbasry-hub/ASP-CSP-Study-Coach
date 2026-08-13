@@ -1,5 +1,7 @@
 export type Confidence = "guess" | "lean" | "sure";
 export type SessionMode = "daily" | "quick" | "timed" | "weakest" | "missed" | "custom" | "level" | "exam";
+export type QuestionPool = "practice" | "mock-a" | "mock-b";
+export type MockForm = "A" | "B";
 
 export interface CoachDomain {
   id: string;
@@ -24,6 +26,8 @@ export interface CoachQuestion {
   referenceFramework: string;
   referenceTopic: string;
   challengePrompt: string;
+  /** Existing seed questions omit this field and are treated as practice items. */
+  pool?: QuestionPool;
 }
 
 export interface DomainMastery {
@@ -56,12 +60,27 @@ export interface Attempt {
   challengePrompt: string;
   timestamp: number;
   sessionId: string;
+  pool?: QuestionPool;
+  mockForm?: MockForm;
+  firstExposure?: boolean;
 }
 
 export interface SessionQuestion extends CoachQuestion {
   catalogId: number;
   options: [string, string, string, string];
   wrongRationales: [string, string, string, string];
+}
+
+export function chooseMockForm(
+  completed: readonly { mockForm?: MockForm; date: number }[],
+): { form: MockForm; firstExposure: boolean } {
+  const formA = completed.filter((session) => session.mockForm === "A");
+  const formB = completed.filter((session) => session.mockForm === "B");
+  if (!formA.length) return { form: "A", firstExposure: true };
+  if (!formB.length) return { form: "B", firstExposure: true };
+  const latestA = Math.max(...formA.map((session) => session.date));
+  const latestB = Math.max(...formB.map((session) => session.date));
+  return { form: latestA <= latestB ? "A" : "B", firstExposure: false };
 }
 
 export const defaultMastery = (domains: readonly CoachDomain[]): Record<string, DomainMastery> =>
@@ -79,15 +98,6 @@ function mulberry32(seed: number) {
     t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
     return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
   };
-}
-
-function hash(input: string) {
-  let value = 2166136261;
-  for (let index = 0; index < input.length; index += 1) {
-    value ^= input.charCodeAt(index);
-    value = Math.imul(value, 16777619);
-  }
-  return value >>> 0;
 }
 
 export function readinessScore(mastery?: DomainMastery) {
@@ -223,11 +233,12 @@ export function generateSession(options: {
   selectedDomains?: string[];
   missedIds?: string[];
   recentIds?: string[];
-  seenCatalogIds?: number[];
+  seenQuestionIds?: string[];
 }) {
   const seed = options.seed ?? Date.now();
   const random = mulberry32(seed);
   const recent = new Set(options.recentIds ?? []);
+  const seen = new Set(options.seenQuestionIds ?? []);
   const missed = new Set(options.missedIds ?? []);
   const bankByMode =
     options.mode === "missed" && missed.size
@@ -261,7 +272,6 @@ export function generateSession(options: {
   }
 
   const result: SessionQuestion[] = [];
-  const catalogTaken = new Set(options.seenCatalogIds ?? []);
 
   options.domains.forEach((domain) => {
     const domainQuestions = bankByMode.filter((question) => question.domainId === domain.id);
@@ -271,22 +281,20 @@ export function generateSession(options: {
       const target = pickTargetDifficulty(options.masteries[domain.id], random);
       const unused = domainQuestions.filter((question) => !selectedBaseIds.has(question.id));
       const candidatePool = unused.length ? unused : domainQuestions;
-      const ranked = [...candidatePool].sort((a, b) => {
-        const aPenalty =
-          Math.abs(a.difficulty - target) * 4 + (recent.has(a.id) ? 3 : 0) + random();
-        const bPenalty =
-          Math.abs(b.difficulty - target) * 4 + (recent.has(b.id) ? 3 : 0) + random();
-        return aPenalty - bPenalty;
-      });
-      const base = ranked[0];
+      const ranked = candidatePool
+        .map((question) => ({
+          question,
+          penalty:
+            Math.abs(question.difficulty - target) * 4 +
+            (seen.has(question.id) ? 18 : 0) +
+            (recent.has(question.id) ? 24 : 0) +
+            random(),
+        }))
+        .sort((a, b) => a.penalty - b.penalty);
+      const base = ranked[0]?.question;
       if (!base) continue;
       selectedBaseIds.add(base.id);
-      let catalogId =
-        1 + ((hash(`${seed}:${domain.id}:${index}:${base.id}`) + index * 7919) % 10000);
-      if (catalogTaken.size < 10000) {
-        while (catalogTaken.has(catalogId)) catalogId = (catalogId % 10000) + 1;
-      }
-      catalogTaken.add(catalogId);
+      const catalogId = options.questionBank.findIndex((question) => question.id === base.id) + 1;
       result.push(shuffledQuestion(base, catalogId, random));
     }
   });
@@ -338,4 +346,3 @@ export function formatTime(totalSeconds: number) {
     ? `${hours}:${String(minutes).padStart(2, "0")}:${String(remainder).padStart(2, "0")}`
     : `${minutes}:${String(remainder).padStart(2, "0")}`;
 }
-

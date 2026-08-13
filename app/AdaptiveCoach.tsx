@@ -38,6 +38,17 @@ import { ASP_QUESTION_BANK_EXTRA_A2 } from "./aspQuestionBankExtraA2";
 import { ASP_QUESTION_BANK_EXTRA_SET1 } from "./aspQuestionBankExtraSet1";
 import { ASP_QUESTION_BANK_EXTRA_SET2 } from "./aspQuestionBankExtraSet2";
 import {
+  ASP_MOCK_A,
+  ASP_MOCK_B,
+  ASP_PRACTICE_EXTRA,
+} from "./aspExpandedQuestionBank";
+import {
+  CSP_MOCK_A,
+  CSP_MOCK_B,
+  CSP_PRACTICE_EXTRA,
+} from "./cspExpandedQuestionBank";
+import {
+  chooseMockForm,
   defaultMastery,
   difficultyLabel,
   formatTime,
@@ -50,6 +61,7 @@ import {
   type CoachDomain,
   type CoachQuestion,
   type DomainMastery,
+  type MockForm,
   type SessionMode,
   type SessionQuestion,
 } from "./adaptiveEngine";
@@ -68,7 +80,8 @@ interface ExamConfig {
   credential: string;
   blueprint: string;
   domains: readonly CoachDomain[];
-  questionBank: readonly CoachQuestion[];
+  practiceBank: readonly CoachQuestion[];
+  mockForms: Record<MockForm, readonly CoachQuestion[]>;
   examSeconds: number;
   examTimeLabel: string;
   timedSeconds: number;
@@ -82,13 +95,15 @@ const EXAM_CONFIGS: Record<ExamTrack, ExamConfig> = {
     credential: "Associate Safety Professional",
     blueprint: "ASP11",
     domains: ALL_ASP_DOMAINS,
-    questionBank: [
+    practiceBank: [
       ...ASP_QUESTION_BANK_A,
       ...ASP_QUESTION_BANK_B,
       ...ASP_QUESTION_BANK_EXTRA_A2,
       ...ASP_QUESTION_BANK_EXTRA_SET1,
       ...ASP_QUESTION_BANK_EXTRA_SET2,
+      ...ASP_PRACTICE_EXTRA,
     ] as readonly CoachQuestion[],
+    mockForms: { A: ASP_MOCK_A, B: ASP_MOCK_B },
     examSeconds: 5 * 60 * 60,
     examTimeLabel: "5h",
     timedSeconds: 30 * 60,
@@ -100,7 +115,12 @@ const EXAM_CONFIGS: Record<ExamTrack, ExamConfig> = {
     credential: "Certified Safety Professional",
     blueprint: "CSP11",
     domains: ALL_CSP_DOMAINS,
-    questionBank: [...CSP_QUESTION_BANK, ...CSP_QUESTION_BANK_EXTRA] as readonly CoachQuestion[],
+    practiceBank: [
+      ...CSP_QUESTION_BANK,
+      ...CSP_QUESTION_BANK_EXTRA,
+      ...CSP_PRACTICE_EXTRA,
+    ] as readonly CoachQuestion[],
+    mockForms: { A: CSP_MOCK_A, B: CSP_MOCK_B },
     examSeconds: 5.5 * 60 * 60,
     examTimeLabel: "5h 30m",
     timedSeconds: 33 * 60,
@@ -117,6 +137,8 @@ interface SessionSummary {
   count: number;
   seconds: number;
   difficulty: number;
+  mockForm?: MockForm;
+  firstExposure?: boolean;
 }
 
 interface SavedState {
@@ -125,7 +147,8 @@ interface SavedState {
   sessions: SessionSummary[];
   examDate: string;
   displayName: string;
-  catalogSeen: Record<ExamTrack, number[]>;
+  seenQuestionIds: Record<ExamTrack, string[]>;
+  mockExposures: Record<ExamTrack, Partial<Record<MockForm, number>>>;
   activeExam: ExamTrack;
 }
 
@@ -135,11 +158,14 @@ interface ActiveSessionSnapshot {
   sessionExam: ExamTrack;
   sessionId: string;
   startedAt: number;
+  lastMovedAt?: number;
   current: number;
   answers: Record<number, number>;
   confidence: Record<number, Confidence>;
   secondsByQuestion: Record<number, number>;
   flagged: number[];
+  sessionMockForm?: MockForm | null;
+  sessionFirstExposure?: boolean;
 }
 
 const STORAGE_KEY = "asp-csp-coach-v2";
@@ -194,7 +220,8 @@ const emptySavedState = (): SavedState => ({
   sessions: [],
   examDate: "",
   displayName: "Safety Professional",
-  catalogSeen: { ASP: [], CSP: [] },
+  seenQuestionIds: { ASP: [], CSP: [] },
+  mockExposures: { ASP: {}, CSP: {} },
   activeExam: "CSP",
 });
 
@@ -211,20 +238,42 @@ function normalizeSavedState(parsed: Partial<SavedState>): SavedState {
         ASP: base.mastery.ASP,
         CSP: { ...base.mastery.CSP, ...((candidate ?? {}) as Record<string, DomainMastery>) },
       };
-  const catalogCandidate = parsed.catalogSeen as unknown;
-  const catalogSeen =
-    catalogCandidate && !Array.isArray(catalogCandidate)
-      ? { ...base.catalogSeen, ...(catalogCandidate as Record<ExamTrack, number[]>) }
-      : { ASP: [], CSP: Array.isArray(catalogCandidate) ? catalogCandidate : [] };
+  const attemptHistory = (parsed.attempts ?? []).map((attempt) => ({
+    ...attempt,
+    exam: attempt.exam ?? "CSP",
+  }));
+  const seenCandidate = parsed.seenQuestionIds as unknown;
+  const seenQuestionIds =
+    seenCandidate && !Array.isArray(seenCandidate)
+      ? { ...base.seenQuestionIds, ...(seenCandidate as Record<ExamTrack, string[]>) }
+      : {
+          ASP: [...new Set(attemptHistory.filter((attempt) => attempt.exam === "ASP").map((attempt) => attempt.questionId))],
+          CSP: [...new Set(attemptHistory.filter((attempt) => attempt.exam === "CSP").map((attempt) => attempt.questionId))],
+        };
+  const exposureCandidate = parsed.mockExposures as unknown;
+  const mockExposures =
+    exposureCandidate && typeof exposureCandidate === "object"
+      ? {
+          ASP: { ...base.mockExposures.ASP, ...((exposureCandidate as SavedState["mockExposures"]).ASP ?? {}) },
+          CSP: { ...base.mockExposures.CSP, ...((exposureCandidate as SavedState["mockExposures"]).CSP ?? {}) },
+        }
+      : base.mockExposures;
   return {
     ...base,
     ...parsed,
     mastery,
-    catalogSeen,
+    seenQuestionIds,
+    mockExposures,
     activeExam: parsed.activeExam === "ASP" ? "ASP" : "CSP",
-    attempts: (parsed.attempts ?? []).map((attempt) => ({ ...attempt, exam: attempt.exam ?? "CSP" })),
+    attempts: attemptHistory,
     sessions: (parsed.sessions ?? []).map((session) => ({ ...session, exam: session.exam ?? "CSP" })),
   };
+}
+
+function mockExposureEvents(exposures: Partial<Record<MockForm, number>>) {
+  return (["A", "B"] as const)
+    .filter((form) => Boolean(exposures[form]))
+    .map((form) => ({ mockForm: form, date: exposures[form] as number }));
 }
 
 function getModeCopy(mode: SessionMode, config: ExamConfig) {
@@ -283,6 +332,8 @@ export default function AdaptiveCoach() {
   const [questions, setQuestions] = useState<SessionQuestion[]>([]);
   const [sessionMode, setSessionMode] = useState<SessionMode>("daily");
   const [sessionExam, setSessionExam] = useState<ExamTrack>("CSP");
+  const [sessionMockForm, setSessionMockForm] = useState<MockForm | null>(null);
+  const [sessionFirstExposure, setSessionFirstExposure] = useState(false);
   const [sessionId, setSessionId] = useState("");
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
@@ -324,16 +375,37 @@ export default function AdaptiveCoach() {
           setQuestions(active.questions);
           setSessionMode(active.sessionMode);
           setSessionExam(active.sessionExam);
+          setSessionMockForm(active.sessionMockForm ?? null);
+          setSessionFirstExposure(Boolean(active.sessionFirstExposure));
           setSessionId(active.sessionId);
           setSessionStartedAt(active.startedAt);
           setCurrent(Math.max(0, Math.min(active.current, active.questions.length - 1)));
           setAnswers(active.answers ?? {});
           setConfidence(active.confidence ?? {});
-          setSecondsByQuestion(active.secondsByQuestion ?? {});
+          const resumedSeconds = { ...(active.secondsByQuestion ?? {}) };
+          if (active.lastMovedAt && active.current >= 0 && active.current < active.questions.length) {
+            resumedSeconds[active.current] =
+              (resumedSeconds[active.current] ?? 0) +
+              Math.max(1, Math.round((Date.now() - active.lastMovedAt) / 1000));
+          }
+          setSecondsByQuestion(resumedSeconds);
           setFlagged(active.flagged ?? []);
           setElapsed(Math.max(0, Math.floor((Date.now() - active.startedAt) / 1000)));
           setView("quiz");
           lastMoveAt.current = Date.now();
+          if (active.sessionMockForm) {
+            setSaved((currentSaved) => ({
+              ...currentSaved,
+              mockExposures: {
+                ...currentSaved.mockExposures,
+                [active.sessionExam]: {
+                  ...currentSaved.mockExposures[active.sessionExam],
+                  [active.sessionMockForm]:
+                    currentSaved.mockExposures[active.sessionExam][active.sessionMockForm] ?? active.startedAt,
+                },
+              },
+            }));
+          }
         }
       }
     } catch {
@@ -366,11 +438,14 @@ export default function AdaptiveCoach() {
           sessionExam,
           sessionId,
           startedAt: sessionStartedAt,
+          lastMovedAt: lastMoveAt.current,
           current,
           answers,
           confidence,
           secondsByQuestion,
           flagged,
+          sessionMockForm,
+          sessionFirstExposure,
         };
         window.localStorage.setItem(ACTIVE_SESSION_KEY, JSON.stringify(snapshot));
       } else if (view !== "quiz") {
@@ -392,13 +467,17 @@ export default function AdaptiveCoach() {
     confidence,
     secondsByQuestion,
     flagged,
+    sessionMockForm,
+    sessionFirstExposure,
   ]);
 
   useEffect(() => {
-    if (view !== "quiz") return;
-    const timer = window.setInterval(() => setElapsed((value) => value + 1), 1000);
+    if (view !== "quiz" || !sessionStartedAt) return;
+    const syncElapsed = () => setElapsed(Math.max(0, Math.floor((Date.now() - sessionStartedAt) / 1000)));
+    syncElapsed();
+    const timer = window.setInterval(syncElapsed, 1000);
     return () => window.clearInterval(timer);
-  }, [view]);
+  }, [view, sessionStartedAt]);
 
   const overall = overallReadiness(activeMastery, activeConfig.domains);
   const sortedDomains = useMemo(
@@ -406,7 +485,9 @@ export default function AdaptiveCoach() {
     [activeConfig.domains, activeMastery],
   );
   const weakest = sortedDomains[0];
-  const recentIncorrectIds = activeAttempts.filter((attempt) => !attempt.correct).map((attempt) => attempt.questionId);
+  const recentIncorrectIds = activeAttempts
+    .filter((attempt) => !attempt.correct && (attempt.pool ?? "practice") === "practice")
+    .map((attempt) => attempt.questionId);
   const answeredCount = Object.keys(answers).length;
   const currentQuestion = questions[current];
   const sessionConfig = EXAM_CONFIGS[sessionExam];
@@ -428,22 +509,49 @@ export default function AdaptiveCoach() {
   function startSession(mode: SessionMode) {
     const count = mode === "exam" ? 200 : 20;
     const seed = Date.now();
+    const mockChoice =
+      mode === "exam"
+        ? chooseMockForm(mockExposureEvents(saved.mockExposures[saved.activeExam]))
+        : null;
+    const sessionBank = mockChoice
+      ? activeConfig.mockForms[mockChoice.form]
+      : activeConfig.practiceBank;
     const nextQuestions = generateSession({
       mode,
       count,
       masteries: activeMastery,
       domains: activeConfig.domains,
-      questionBank: activeConfig.questionBank,
+      questionBank: sessionBank,
       seed,
       selectedDomains: mode === "custom" ? customDomains : undefined,
       missedIds: recentIncorrectIds,
-      recentIds: activeAttempts.slice(-100).map((attempt) => attempt.questionId),
-      seenCatalogIds: saved.catalogSeen[saved.activeExam],
+      recentIds: activeAttempts.slice(0, 100).map((attempt) => attempt.questionId),
+      seenQuestionIds: saved.seenQuestionIds[saved.activeExam],
     });
     if (!nextQuestions.length) return;
+    if (mockChoice) {
+      const savedWithExposure: SavedState = {
+        ...saved,
+        mockExposures: {
+          ...saved.mockExposures,
+          [saved.activeExam]: {
+            ...saved.mockExposures[saved.activeExam],
+            [mockChoice.form]: seed,
+          },
+        },
+      };
+      setSaved(savedWithExposure);
+      try {
+        window.localStorage.setItem(STORAGE_KEY, JSON.stringify(savedWithExposure));
+      } catch {
+        // Starting the mock remains possible even if durable browser storage is unavailable.
+      }
+    }
     setQuestions(nextQuestions);
     setSessionMode(mode);
     setSessionExam(saved.activeExam);
+    setSessionMockForm(mockChoice?.form ?? null);
+    setSessionFirstExposure(mockChoice?.firstExposure ?? false);
     setSessionId(`${seed}-${mode}`);
     setAnswers({});
     setConfidence({});
@@ -469,14 +577,31 @@ export default function AdaptiveCoach() {
 
   function finishSession() {
     if (!questions.length) return;
-    recordCurrentSeconds();
     const now = Date.now();
+    const currentAddition = Math.max(0, Math.round((now - lastMoveAt.current) / 1000));
+    const finalSecondsByQuestion = {
+      ...secondsByQuestion,
+      [current]: (secondsByQuestion[current] ?? 0) + currentAddition,
+    };
+    setSecondsByQuestion(finalSecondsByQuestion);
+    lastMoveAt.current = now;
+    const finalElapsed = sessionStartedAt
+      ? Math.max(elapsed, Math.floor((now - sessionStartedAt) / 1000))
+      : elapsed;
+    const measuredTotal = Object.values(finalSecondsByQuestion).reduce((sum, seconds) => sum + seconds, 0);
+    const unassignedSeconds = Math.max(0, finalElapsed - measuredTotal);
+    const unansweredTimingCount = Math.max(
+      1,
+      questions.filter((_, index) => finalSecondsByQuestion[index] === undefined).length,
+    );
     let nextMastery = { ...saved.mastery[sessionExam] };
     const nextAttempts = questions.map((question, index): Attempt => {
       const selectedIndex = answers[index] ?? -1;
       const isCorrect = selectedIndex === question.correctIndex;
       const itemConfidence = confidence[index] ?? "guess";
-      const itemSeconds = secondsByQuestion[index] ?? Math.max(1, Math.round(elapsed / questions.length));
+      const itemSeconds =
+        finalSecondsByQuestion[index] ??
+        Math.max(0, Math.round(unassignedSeconds / unansweredTimingCount));
       nextMastery = {
         ...nextMastery,
         [question.domainId]: updateDomainMastery(
@@ -508,6 +633,9 @@ export default function AdaptiveCoach() {
         challengePrompt: question.challengePrompt,
         timestamp: now,
         sessionId,
+        pool: question.pool ?? "practice",
+        mockForm: sessionMockForm ?? undefined,
+        firstExposure: sessionMockForm ? sessionFirstExposure : undefined,
       };
     });
     const correct = nextAttempts.filter((attempt) => attempt.correct).length;
@@ -536,22 +664,27 @@ export default function AdaptiveCoach() {
       mode: sessionMode,
       score: correct,
       count: nextAttempts.length,
-      seconds: elapsed,
+      seconds: finalElapsed,
       difficulty: averageDifficulty,
+      mockForm: sessionMockForm ?? undefined,
+      firstExposure: sessionMockForm ? sessionFirstExposure : undefined,
     };
+    const practiceQuestionIds = questions
+      .filter((question) => (question.pool ?? "practice") === "practice")
+      .map((question) => question.id);
     setSaved((currentSaved) => ({
       ...currentSaved,
       mastery: { ...currentSaved.mastery, [sessionExam]: nextMastery },
       attempts: [...nextAttempts, ...currentSaved.attempts].slice(0, 1200),
       sessions: [summary, ...currentSaved.sessions].slice(0, 200),
-      catalogSeen: {
-        ...currentSaved.catalogSeen,
+      seenQuestionIds: {
+        ...currentSaved.seenQuestionIds,
         [sessionExam]: [
           ...new Set([
-            ...currentSaved.catalogSeen[sessionExam],
-            ...questions.map((question) => question.catalogId),
+            ...currentSaved.seenQuestionIds[sessionExam],
+            ...practiceQuestionIds,
           ]),
-        ].slice(-10000),
+        ].slice(-800),
       },
     }));
     setResultAttempts(nextAttempts);
@@ -589,6 +722,7 @@ export default function AdaptiveCoach() {
       <QuizRunner
         config={sessionConfig}
         question={currentQuestion}
+        mockForm={sessionMockForm}
         index={current}
         total={questions.length}
         selected={answers[current]}
@@ -629,7 +763,7 @@ export default function AdaptiveCoach() {
           <button className={view === "review" ? "active" : ""} onClick={() => navigate("review")}><BookOpenCheck size={17} /> Review</button>
         </nav>
         <div className="topbar-meta">
-          <span className="catalog-chip"><BrainCircuit size={15} /> {saved.catalogSeen[saved.activeExam].length.toLocaleString()} / 10,000 seen</span>
+          <span className="catalog-chip"><BrainCircuit size={15} /> {saved.seenQuestionIds[saved.activeExam].length.toLocaleString()} / 800 practice seen</span>
           <button className="avatar" title="Local learner profile">SP</button>
           <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-label="Toggle menu"><Menu /></button>
         </div>
@@ -648,7 +782,7 @@ export default function AdaptiveCoach() {
           onStats={() => navigate("stats")}
         />
       )}
-      {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} overall={overall} onStudy={() => navigate("study")} />}
+      {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} mockExposures={saved.mockExposures[saved.activeExam]} overall={overall} onStudy={() => navigate("study")} />}
       {view === "review" && (
         <Review
           attempts={activeAttempts}
@@ -732,6 +866,10 @@ function StudyDashboard({
   const modes: SessionMode[] = ["quick", "timed", "weakest", "missed", "custom", "level", "exam"];
   const recent = sessions.slice(0, 3);
   const activeAttempts = saved.attempts.filter((attempt) => attempt.exam === config.key);
+  const mockExposures = mockExposureEvents(saved.mockExposures[config.key]);
+  const nextMock = chooseMockForm(mockExposures);
+  const mockAUsed = mockExposures.some((session) => session.mockForm === "A");
+  const mockBUsed = mockExposures.some((session) => session.mockForm === "B");
   return (
     <main>
       <section className="dashboard-hero">
@@ -809,12 +947,22 @@ function StudyDashboard({
         </div>
         <div className="mode-grid">
           {modes.map((mode) => {
-            const disabled = mode === "missed" && !activeAttempts.some((attempt) => !attempt.correct);
+            const disabled =
+              mode === "missed" &&
+              !activeAttempts.some(
+                (attempt) => !attempt.correct && (attempt.pool ?? "practice") === "practice",
+              );
             const copy = getModeCopy(mode, config);
+            const description =
+              mode === "exam"
+                ? nextMock.firstExposure
+                  ? `Sealed Mock Form ${nextMock.form} is ready. Its questions never appear in practice drills.`
+                  : `Both sealed forms have been used. Starting now repeats Form ${nextMock.form} and is no longer a clean exposure.`
+                : copy.description;
             return (
               <button className={`mode-card ${mode === "exam" ? "exam-card" : ""}`} key={mode} onClick={() => !disabled && onMode(mode)} disabled={disabled}>
                 <span className="mode-icon"><ModeIcon mode={mode} size={21} /></span>
-                <span className="mode-copy"><small>{copy.eyebrow}</small><strong>{copy.title}</strong><em>{disabled ? "Complete a block first to unlock your error queue." : copy.description}</em></span>
+                <span className="mode-copy"><small>{copy.eyebrow}</small><strong>{copy.title}</strong><em>{disabled ? "Complete a block first to unlock your error queue." : description}</em></span>
                 <ArrowRight size={18} className="card-arrow" />
               </button>
             );
@@ -824,7 +972,7 @@ function StudyDashboard({
 
       <section className="page-width evidence-strip">
         <div><BrainCircuit /><strong>Item-response logic</strong><span>Ability × difficulty updates after every response</span></div>
-        <div><Gauge /><strong>10,000-item catalog</strong><span>Original seeded variants with repeat avoidance</span></div>
+        <div><Gauge /><strong>1,200-item credential bank</strong><span>800 practice · Form A {mockAUsed ? "used" : "unseen"} · Form B {mockBUsed ? "used" : "unseen"}</span></div>
         <div><BookOpenCheck /><strong>Three reference lenses</strong><span>Yates depth · Nito drills · exam-book reasoning</span></div>
         <div><ShieldCheck /><strong>{config.blueprint} governed</strong><span>Current official domain weights, not legacy chapters</span></div>
       </section>
@@ -893,7 +1041,7 @@ function SessionSetup({
         {mode === "weakest" && (
           <div className="setup-note"><Target size={18} /><span>Your block will concentrate on <strong>{weak[0].name}</strong> and <strong>{weak[1].name}</strong>.</span></div>
         )}
-        {mode === "missed" && <div className="setup-note"><History size={18} /><span>{attempts.filter((attempt) => !attempt.correct).length} incorrect attempt{attempts.filter((attempt) => !attempt.correct).length === 1 ? "" : "s"} available for repair.</span></div>}
+        {mode === "missed" && <div className="setup-note"><History size={18} /><span>{attempts.filter((attempt) => !attempt.correct && (attempt.pool ?? "practice") === "practice").length} practice miss{attempts.filter((attempt) => !attempt.correct && (attempt.pool ?? "practice") === "practice").length === 1 ? "" : "es"} available for repair. Sealed mock items stay outside drills.</span></div>}
         {mode === "exam" && (
           <div className="exam-warning">
             <strong>This is one 200-question block.</strong>
@@ -910,6 +1058,7 @@ function SessionSetup({
 function QuizRunner({
   config,
   question,
+  mockForm,
   index,
   total,
   selected,
@@ -927,6 +1076,7 @@ function QuizRunner({
 }: {
   config: ExamConfig;
   question: SessionQuestion;
+  mockForm: MockForm | null;
   index: number;
   total: number;
   selected?: number;
@@ -954,7 +1104,7 @@ function QuizRunner({
       <main className="quiz-main">
         <section className="question-card">
           <div className="question-meta">
-            <span className="question-number">Question {index + 1} <i>/ {total}</i></span>
+            <span className="question-number">{mockForm ? `Mock Form ${mockForm} · ` : ""}Question {index + 1} <i>/ {total}</i></span>
             <span className="domain-tag">{domain.short} · {domain.name}</span>
             <span className={`difficulty-chip d${question.difficulty}`}>{difficultyLabel(question.difficulty)}</span>
           </div>
@@ -974,7 +1124,7 @@ function QuizRunner({
         </section>
       </main>
       <footer className="quiz-footer">
-        <div className="quiz-footer-left"><button className={flagged ? "tool-button flagged" : "tool-button"} onClick={onFlag}><Flag size={17} /> {flagged ? "Flagged" : "Flag"}</button><button className="tool-button" onClick={onFormula}><CircleHelp size={17} /> Formula rule</button><span className="catalog-id">Catalog item #{String(question.catalogId).padStart(5, "0")}</span></div>
+        <div className="quiz-footer-left"><button className={flagged ? "tool-button flagged" : "tool-button"} onClick={onFlag}><Flag size={17} /> {flagged ? "Flagged" : "Flag"}</button><button className="tool-button" onClick={onFormula}><CircleHelp size={17} /> Formula rule</button><span className="catalog-id">Item {question.id}</span></div>
         <div className="quiz-nav"><button className="secondary-button" disabled={index === 0} onClick={() => onMove(index - 1)}><ArrowLeft size={18} /> Previous</button>{last ? <button className="primary-button" onClick={onFinish}>Submit block <Check size={18} /></button> : <button className="primary-button" onClick={() => onMove(index + 1)}>Next <ArrowRight size={18} /></button>}</div>
       </footer>
     </div>
@@ -1007,6 +1157,8 @@ function Results({
   const avgSeconds = Math.round(attempts.reduce((sum, attempt) => sum + attempt.seconds, 0) / Math.max(1, attempts.length));
   const certainErrors = attempts.filter((attempt) => !attempt.correct && attempt.confidence === "sure").length;
   const examLevel = attempts.some((attempt) => attempt.difficulty >= 4);
+  const mockForm = attempts[0]?.mockForm;
+  const firstExposure = attempts[0]?.firstExposure;
   const shown = filter === "incorrect" ? attempts.filter((attempt) => !attempt.correct) : attempts;
   const byDomain = config.domains.map((domain) => {
     const items = attempts.filter((attempt) => attempt.domainId === domain.id);
@@ -1017,9 +1169,10 @@ function Results({
   return (
     <main className="results-page">
       <section className="results-hero">
-        <div className="results-title"><p className="eyebrow"><BookOpenCheck size={15} /> Block complete · rationales unlocked</p><h1>{percent >= 80 ? "Strong block. Now prove it is stable." : "The score is data. The gaps are the assignment."}</h1><p>{getModeCopy(mode, config).title} · {attempts.length} items · {formatTime(seconds)}</p></div>
+        <div className="results-title"><p className="eyebrow"><BookOpenCheck size={15} /> Block complete · rationales unlocked</p><h1>{percent >= 80 ? "Strong block. Now prove it is stable." : "The score is data. The gaps are the assignment."}</h1><p>{getModeCopy(mode, config).title}{mockForm ? ` · Mock Form ${mockForm} · ${firstExposure ? "first exposure" : "repeat exposure"}` : ""} · {attempts.length} items · {formatTime(seconds)}</p></div>
         <div className={`score-orb ${percent >= 80 ? "pass" : "needs-work"}`}><strong>{percent}%</strong><span>{correct} / {attempts.length} correct</span></div>
       </section>
+      {mode === "exam" && mockForm && !firstExposure && <section className="pushback page-width"><div><strong>Mock integrity warning</strong><h2>Form {mockForm} is no longer a clean readiness measure.</h2><p>You have seen this sealed form before. Use the result for learning, but do not compare it with a first-exposure mock score.</p></div><LockKeyhole size={42} /></section>}
       <section className="result-metrics page-width">
         <div><Clock3 /><span>Average pace</span><strong>{avgSeconds}s</strong><small>Target: {config.paceSeconds}s or less</small></div>
         <div><BrainCircuit /><span>Difficulty reached</span><strong>{difficultyLabel(Math.max(...attempts.map((attempt) => attempt.difficulty)))}</strong><small>{examLevel ? `${config.name} exam-level items were active` : "Keep building toward level 4"}</small></div>
@@ -1066,13 +1219,15 @@ function RationaleCard({ attempt, index, domains }: { attempt: Attempt; index: n
   );
 }
 
-function Analytics({ config, mastery, attempts, sessions, overall, onStudy }: { config: ExamConfig; mastery: Record<DomainId, DomainMastery>; attempts: Attempt[]; sessions: SessionSummary[]; overall: number; onStudy: () => void }) {
+function Analytics({ config, mastery, attempts, sessions, mockExposures, overall, onStudy }: { config: ExamConfig; mastery: Record<DomainId, DomainMastery>; attempts: Attempt[]; sessions: SessionSummary[]; mockExposures: Partial<Record<MockForm, number>>; overall: number; onStudy: () => void }) {
   const total = attempts.length;
   const correct = attempts.filter((attempt) => attempt.correct).length;
   const avg = total ? Math.round((correct / total) * 100) : 0;
   const avgPace = total ? Math.round(attempts.reduce((sum, attempt) => sum + attempt.seconds, 0) / total) : 0;
   const stable = config.domains.filter((domain) => readinessScore(mastery[domain.id]) >= 80 && (mastery[domain.id]?.stableBlocks ?? 0) >= 2).length;
   const recentSessions = [...sessions].slice(0, 8).reverse();
+  const mockAStatus = mockExposures.A ? "used" : "unseen";
+  const mockBStatus = mockExposures.B ? "used" : "unseen";
   const chartMax = Math.max(1, ...recentSessions.map((session) => Math.round((session.score / session.count) * 100)));
   return (
     <main className="analytics-page">
@@ -1103,7 +1258,7 @@ function Analytics({ config, mastery, attempts, sessions, overall, onStudy }: { 
         </div>
       </section>
       <section className="page-width blueprint-card">
-        <div><p className="eyebrow">Simulation governor</p><h2>Official 200-item allocation</h2><p>{config.blueprint} has {config.domains.length} domains. “11” is the blueprint version, not the number of competencies.</p></div>
+        <div><p className="eyebrow">Simulation governor</p><h2>Official 200-item allocation</h2><p>{config.blueprint} has {config.domains.length} domains. “11” is the blueprint version, not the number of competencies. Sealed forms: A {mockAStatus} · B {mockBStatus}.</p></div>
         <div className="allocation-bar">{config.domains.map((domain) => <span key={domain.id} style={{ width: `${domain.weight * 100}%`, background: domain.color }} title={`${domain.name}: ${domain.weight * 100}%`}><i>{Math.round(domain.weight * 200)}</i></span>)}</div>
         <div className="allocation-legend">{config.domains.map((domain) => <span key={domain.id}><i style={{ background: domain.color }} />{domain.short} {Math.round(domain.weight * 100)}%</span>)}</div>
       </section>
@@ -1153,5 +1308,5 @@ function Review({
 }
 
 function Disclaimer({ config }: { config: ExamConfig }) {
-  return <footer className="disclaimer page-width"><ShieldCheck size={17} /><p><strong>Original, unofficial practice.</strong> Built around the public {config.blueprint} blueprint and the supplied reference frameworks. Not affiliated with, endorsed by, or composed from BCSP or Pocket Prep exam items. The 80% mark is this coach’s conservative readiness standard, not BCSP’s passing score.</p></footer>;
+  return <footer className="disclaimer page-width"><ShieldCheck size={17} /><p><strong>Original, unofficial practice.</strong> Built around the public {config.blueprint} blueprint and the supplied reference frameworks. Not affiliated with, endorsed by, or composed from BCSP or Pocket Prep exam items; these items are not psychometrically calibrated. The 80% mark is this coach’s conservative readiness standard, not BCSP’s passing score.</p></footer>;
 }

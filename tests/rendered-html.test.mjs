@@ -27,15 +27,17 @@ test("server-renders the dual-track adaptive coach", async () => {
 });
 
 test("ships both current blueprint banks and removes starter preview code", async () => {
-  const [coach, csp, cspExtra, aspA, aspB, aspA2, aspSet1, aspSet2, packageJson] = await Promise.all([
+  const [coach, csp, cspExtra, cspExpanded, aspA, aspB, aspA2, aspSet1, aspSet2, aspExpanded, packageJson] = await Promise.all([
     readFile(new URL("app/AdaptiveCoach.tsx", root), "utf8"),
     readFile(new URL("app/questionBank.ts", root), "utf8"),
     readFile(new URL("app/cspQuestionBankExtra.ts", root), "utf8"),
+    readFile(new URL("app/cspExpandedQuestionBank.ts", root), "utf8"),
     readFile(new URL("app/aspQuestionBankA.ts", root), "utf8"),
     readFile(new URL("app/aspQuestionBankB.ts", root), "utf8"),
     readFile(new URL("app/aspQuestionBankExtraA2.ts", root), "utf8"),
     readFile(new URL("app/aspQuestionBankExtraSet1.ts", root), "utf8"),
     readFile(new URL("app/aspQuestionBankExtraSet2.ts", root), "utf8"),
+    readFile(new URL("app/aspExpandedQuestionBank.ts", root), "utf8"),
     readFile(new URL("package.json", root), "utf8"),
   ]);
   assert.match(coach, /activeExam/);
@@ -45,6 +47,12 @@ test("ships both current blueprint banks and removes starter preview code", asyn
   assert.match(coach, /ASP_QUESTION_BANK_EXTRA_SET1/);
   assert.match(coach, /ASP_QUESTION_BANK_EXTRA_SET2/);
   assert.match(coach, /CSP_QUESTION_BANK_EXTRA/);
+  assert.match(coach, /ASP_PRACTICE_EXTRA/);
+  assert.match(coach, /CSP_PRACTICE_EXTRA/);
+  assert.match(coach, /mockForms/);
+  assert.match(coach, /1,200-item credential bank/);
+  assert.match(coach, /800 practice seen/);
+  assert.doesNotMatch(coach, /10,000-item|\/ 10,000 seen/);
   assert.match(coach, /BCSP ASP/);
   assert.match(coach, /BCSP CSP/);
   assert.match(coach, /Start adaptive session/);
@@ -54,5 +62,11 @@ test("ships both current blueprint banks and removes starter preview code", asyn
   assert.match(aspA, /Mathematical Calculations/);
   assert.match(aspB, /A9-010/);
   assert.equal(new Set(`${aspA}\n${aspB}\n${aspA2}\n${aspSet1}\n${aspSet2}`.match(/\bA[1-9]-\d{3}\b/g) ?? []).size, 200);
+  assert.match(cspExpanded, /CSP_PRACTICE_EXTRA/);
+  assert.match(cspExpanded, /CSP_MOCK_A/);
+  assert.match(cspExpanded, /CSP_MOCK_B/);
+  assert.match(aspExpanded, /ASP_PRACTICE_EXTRA/);
+  assert.match(aspExpanded, /ASP_MOCK_A/);
+  assert.match(aspExpanded, /ASP_MOCK_B/);
   assert.doesNotMatch(packageJson, /react-loading-skeleton/);
 });

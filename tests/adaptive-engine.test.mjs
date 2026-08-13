@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import test from "node:test";
 
 import {
+  chooseMockForm,
   defaultMastery,
   difficultyLabel,
   generateSession,
@@ -19,20 +20,22 @@ const aspDomains = [
 ].map(([id, weight]) => ({ id, weight, name: id, short: id, color: "#000" }));
 
 function bankFor(domains) {
-  return domains.map((domain) => ({
-    id: `${domain.id}-TEST`,
-    domainId: domain.id,
-    competency: "Blueprint allocation",
-    difficulty: 3,
-    stem: `Original ${domain.id} test item`,
-    options: ["One", "Two", "Three", "Four"],
-    correctIndex: 2,
-    rationale: "Test rationale",
-    wrongRationales: ["No", "No", "Correct", "No"],
-    referenceFramework: "BCSP Blueprint",
-    referenceTopic: "Public domain weights",
-    challengePrompt: "Explain the decision.",
-  }));
+  return domains.flatMap((domain) =>
+    Array.from({ length: 60 }, (_, index) => ({
+      id: `${domain.id}-TEST-${String(index + 1).padStart(2, "0")}`,
+      domainId: domain.id,
+      competency: "Blueprint allocation",
+      difficulty: (index % 5) + 1,
+      stem: `Original ${domain.id} test item ${index + 1}`,
+      options: ["One", "Two", "Three", "Four"],
+      correctIndex: 2,
+      rationale: "Test rationale",
+      wrongRationales: ["No", "No", "Correct", "No"],
+      referenceFramework: "BCSP Blueprint",
+      referenceTopic: "Public domain weights",
+      challengePrompt: "Explain the decision.",
+    })),
+  );
 }
 
 function allocation(session, domains) {
@@ -89,4 +92,48 @@ test("weakest mode concentrates exposure in the two lowest-readiness domains", (
     masteries: mastery, questionBank: bankFor(cspDomains),
   });
   assert.deepEqual([...new Set(session.map((item) => item.domainId))].sort(), ["D1", "D2"]);
+});
+
+test("sealed mock selection uses each clean form before warning on a repeat", () => {
+  assert.deepEqual(chooseMockForm([]), { form: "A", firstExposure: true });
+  assert.deepEqual(chooseMockForm([{ mockForm: "A", date: 10 }]), { form: "B", firstExposure: true });
+  assert.deepEqual(
+    chooseMockForm([{ mockForm: "A", date: 10 }, { mockForm: "B", date: 20 }]),
+    { form: "A", firstExposure: false },
+  );
+  assert.deepEqual(
+    chooseMockForm([{ mockForm: "A", date: 30 }, { mockForm: "B", date: 20 }]),
+    { form: "B", firstExposure: false },
+  );
+});
+
+test("session generation cannot cross the bank boundary supplied by the caller", () => {
+  const practice = bankFor(cspDomains).map((item) => ({ ...item, id: `P-${item.id}`, pool: "practice" }));
+  const mock = bankFor(cspDomains).map((item) => ({ ...item, id: `MA-${item.id}`, pool: "mock-a" }));
+  const generatedPractice = generateSession({
+    mode: "quick", count: 20, seed: 91, domains: cspDomains,
+    masteries: defaultMastery(cspDomains), questionBank: practice,
+  });
+  const generatedMock = generateSession({
+    mode: "exam", count: 200, seed: 92, domains: cspDomains,
+    masteries: defaultMastery(cspDomains), questionBank: mock,
+  });
+  assert.ok(generatedPractice.every((item) => item.pool === "practice" && item.id.startsWith("P-")));
+  assert.ok(generatedMock.every((item) => item.pool === "mock-a" && item.id.startsWith("MA-")));
+});
+
+test("adaptive selection exhausts unseen practice items before recycling seen items", () => {
+  const domains = [{ id: "D1", weight: 1, name: "D1", short: "D1", color: "#000" }];
+  const bank = bankFor(domains).slice(0, 20);
+  const onlyUnseen = bank.at(-1).id;
+  const session = generateSession({
+    mode: "daily",
+    count: 1,
+    seed: 101,
+    domains,
+    masteries: defaultMastery(domains),
+    questionBank: bank,
+    seenQuestionIds: bank.slice(0, -1).map((item) => item.id),
+  });
+  assert.equal(session[0].id, onlyUnseen);
 });
