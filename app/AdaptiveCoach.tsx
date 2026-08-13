@@ -17,6 +17,7 @@ import {
   Flag,
   Gauge,
   History,
+  Library,
   LayoutDashboard,
   LockKeyhole,
   Menu,
@@ -66,8 +67,23 @@ import {
   type SessionMode,
   type SessionQuestion,
 } from "./adaptiveEngine";
+import HomeworkHub from "./HomeworkHub";
+import StudyLibrary from "./StudyLibrary";
+import {
+  emptyLearningProgress,
+  normalizeLearningProgress,
+  type LearningProgress,
+} from "./learningProgress";
+import {
+  CloudProgressRequestError,
+  chatGPTSignInHref,
+  loadCloudIdentity,
+  loadCloudProgress,
+  saveCloudProgress,
+  type CloudIdentity,
+} from "./cloudProgress";
 
-type MainView = "study" | "stats" | "review";
+type MainView = "study" | "homework" | "library" | "stats" | "review";
 type ActiveView = MainView | "quiz" | "results";
 type ExamTrack = "ASP" | "CSP";
 type DomainId = string;
@@ -150,6 +166,7 @@ interface SavedState {
   displayName: string;
   seenQuestionIds: Record<ExamTrack, string[]>;
   mockExposures: Record<ExamTrack, Partial<Record<MockForm, number>>>;
+  learning: LearningProgress;
   activeExam: ExamTrack;
 }
 
@@ -223,6 +240,7 @@ const emptySavedState = (): SavedState => ({
   displayName: "Safety Professional",
   seenQuestionIds: { ASP: [], CSP: [] },
   mockExposures: { ASP: {}, CSP: {} },
+  learning: emptyLearningProgress(),
   activeExam: "CSP",
 });
 
@@ -265,6 +283,7 @@ function normalizeSavedState(parsed: Partial<SavedState>): SavedState {
     mastery,
     seenQuestionIds,
     mockExposures,
+    learning: normalizeLearningProgress(parsed.learning),
     activeExam: parsed.activeExam === "ASP" ? "ASP" : "CSP",
     attempts: attemptHistory,
     sessions: (parsed.sessions ?? []).map((session) => ({ ...session, exam: session.exam ?? "CSP" })),
@@ -275,6 +294,98 @@ function mockExposureEvents(exposures: Partial<Record<MockForm, number>>) {
   return (["A", "B"] as const)
     .filter((form) => Boolean(exposures[form]))
     .map((form) => ({ mockForm: form, date: exposures[form] as number }));
+}
+
+function cloudSafeState(state: SavedState): SavedState {
+  return {
+    ...state,
+    // The full local review history can be large. Cloud sync keeps the most
+    // recent correction evidence plus all mastery, exposure, and library data.
+    attempts: state.attempts.slice(0, 60),
+    sessions: state.sessions.slice(0, 100),
+  };
+}
+
+function mergeSavedStates(local: SavedState, remote: SavedState): SavedState {
+  const attempts = [...local.attempts, ...remote.attempts]
+    .filter(
+      (attempt, index, all) =>
+        all.findIndex(
+          (candidate) =>
+            candidate.exam === attempt.exam &&
+            candidate.sessionId === attempt.sessionId &&
+            candidate.questionId === attempt.questionId,
+        ) === index,
+    )
+    .sort((a, b) => b.timestamp - a.timestamp)
+    .slice(0, 1200);
+  const sessions = [...local.sessions, ...remote.sessions]
+    .filter(
+      (session, index, all) =>
+        all.findIndex(
+          (candidate) => candidate.exam === session.exam && candidate.id === session.id,
+        ) === index,
+    )
+    .sort((a, b) => b.date - a.date)
+    .slice(0, 200);
+  const mastery = { ...local.mastery };
+  (["ASP", "CSP"] as const).forEach((exam) => {
+    mastery[exam] = Object.fromEntries(
+      EXAM_CONFIGS[exam].domains.map((domain) => {
+        const localDomain = local.mastery[exam][domain.id];
+        const remoteDomain = remote.mastery[exam][domain.id];
+        return [domain.id, (remoteDomain?.answered ?? 0) > (localDomain?.answered ?? 0) ? remoteDomain : localDomain];
+      }),
+    );
+  });
+  const chapterScores = { ...local.learning.chapterScores };
+  Object.entries(remote.learning.chapterScores).forEach(([chapterId, remoteScore]) => {
+    const localScore = chapterScores[chapterId];
+    if (!localScore || remoteScore.completedAt > localScore.completedAt) {
+      chapterScores[chapterId] = {
+        ...remoteScore,
+        bestScore: Math.max(remoteScore.bestScore, localScore?.bestScore ?? 0),
+        attempts: Math.max(remoteScore.attempts, localScore?.attempts ?? 0),
+      };
+    } else {
+      chapterScores[chapterId] = {
+        ...localScore,
+        bestScore: Math.max(localScore.bestScore, remoteScore.bestScore),
+        attempts: Math.max(localScore.attempts, remoteScore.attempts),
+      };
+    }
+  });
+  const flashcards = { ...local.learning.flashcards };
+  Object.entries(remote.learning.flashcards).forEach(([cardId, remoteCard]) => {
+    const localCard = flashcards[cardId];
+    if (!localCard || remoteCard.reviews > localCard.reviews || (remoteCard.reviews === localCard.reviews && remoteCard.dueAt > localCard.dueAt)) {
+      flashcards[cardId] = remoteCard;
+    }
+  });
+  const mockExposures = { ...local.mockExposures };
+  (["ASP", "CSP"] as const).forEach((exam) => {
+    mockExposures[exam] = { ...local.mockExposures[exam] };
+    (["A", "B"] as const).forEach((form) => {
+      const times = [local.mockExposures[exam][form], remote.mockExposures[exam][form]].filter(
+        (value): value is number => typeof value === "number" && value > 0,
+      );
+      if (times.length) mockExposures[exam][form] = Math.min(...times);
+    });
+  });
+  return {
+    ...local,
+    mastery,
+    attempts,
+    sessions,
+    seenQuestionIds: {
+      ASP: [...new Set([...local.seenQuestionIds.ASP, ...remote.seenQuestionIds.ASP])].slice(-800),
+      CSP: [...new Set([...local.seenQuestionIds.CSP, ...remote.seenQuestionIds.CSP])].slice(-800),
+    },
+    mockExposures,
+    learning: { chapterScores, flashcards },
+    examDate: local.examDate || remote.examDate,
+    displayName: local.displayName === "Safety Professional" ? remote.displayName : local.displayName,
+  };
 }
 
 function getModeCopy(mode: SessionMode, config: ExamConfig) {
@@ -325,6 +436,9 @@ function masteryStatus(score: number, stableBlocks: number) {
 
 export default function AdaptiveCoach() {
   const [saved, setSaved] = useState<SavedState>(emptySavedState);
+  const [cloudIdentity, setCloudIdentity] = useState<CloudIdentity | null>(null);
+  const [cloudReady, setCloudReady] = useState(false);
+  const [cloudStatus, setCloudStatus] = useState<"local" | "loading" | "synced" | "saving" | "conflict" | "offline">("loading");
   const [view, setView] = useState<ActiveView>("study");
   const [navOpen, setNavOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -350,10 +464,17 @@ export default function AdaptiveCoach() {
   const [reviewType, setReviewType] = useState<"all" | "correct" | "incorrect">("all");
   const [showFormulaNote, setShowFormulaNote] = useState(false);
   const lastMoveAt = useRef(Date.now());
+  const savedRef = useRef(saved);
+  const cloudRevisionRef = useRef<number | null>(null);
+  const lastCloudPayloadRef = useRef<string | null>(null);
   const activeConfig = EXAM_CONFIGS[saved.activeExam];
   const activeMastery = saved.mastery[saved.activeExam];
   const activeAttempts = saved.attempts.filter((attempt) => attempt.exam === saved.activeExam);
   const activeSessions = saved.sessions.filter((session) => session.exam === saved.activeExam);
+
+  useEffect(() => {
+    savedRef.current = saved;
+  }, [saved]);
 
   useEffect(() => {
     try {
@@ -395,14 +516,16 @@ export default function AdaptiveCoach() {
           setView("quiz");
           lastMoveAt.current = Date.now();
           if (active.sessionMockForm) {
+            const resumedExam = active.sessionExam;
+            const resumedForm = active.sessionMockForm;
             setSaved((currentSaved) => ({
               ...currentSaved,
               mockExposures: {
                 ...currentSaved.mockExposures,
-                [active.sessionExam]: {
-                  ...currentSaved.mockExposures[active.sessionExam],
-                  [active.sessionMockForm]:
-                    currentSaved.mockExposures[active.sessionExam][active.sessionMockForm] ?? active.startedAt,
+                [resumedExam]: {
+                  ...currentSaved.mockExposures[resumedExam],
+                  [resumedForm]:
+                    currentSaved.mockExposures[resumedExam][resumedForm] ?? active.startedAt,
                 },
               },
             }));
@@ -414,6 +537,72 @@ export default function AdaptiveCoach() {
     }
     setMounted(true);
   }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+    const controller = new AbortController();
+    void (async () => {
+      try {
+        const identity = await loadCloudIdentity(controller.signal);
+        setCloudIdentity(identity);
+        if (!identity.authenticated) {
+          setCloudStatus("local");
+          setCloudReady(true);
+          return;
+        }
+        const snapshot = await loadCloudProgress<SavedState>(controller.signal);
+        if (snapshot) {
+          const cloudState = normalizeSavedState(snapshot.state);
+          const merged = mergeSavedStates(savedRef.current, cloudState);
+          lastCloudPayloadRef.current = JSON.stringify(cloudSafeState(cloudState));
+          setSaved(merged);
+          cloudRevisionRef.current = snapshot.revision;
+        } else {
+          cloudRevisionRef.current = 0;
+        }
+        setCloudStatus("synced");
+        setCloudReady(true);
+      } catch {
+        setCloudStatus("offline");
+        setCloudReady(true);
+      }
+    })();
+    return () => controller.abort();
+  }, [mounted]);
+
+  useEffect(() => {
+    if (!mounted || !cloudReady || !cloudIdentity?.authenticated || cloudRevisionRef.current === null) return;
+    const cloudState = cloudSafeState(saved);
+    const serialized = JSON.stringify(cloudState);
+    if (serialized === lastCloudPayloadRef.current) return;
+    const controller = new AbortController();
+    const timer = window.setTimeout(() => {
+      setCloudStatus("saving");
+      const expectedRevision = cloudRevisionRef.current;
+      if (expectedRevision === null) return;
+      void saveCloudProgress(cloudState, expectedRevision, { signal: controller.signal })
+        .then((snapshot) => {
+          lastCloudPayloadRef.current = serialized;
+          cloudRevisionRef.current = snapshot.revision;
+          setCloudStatus("synced");
+        })
+        .catch((error: unknown) => {
+          if (error instanceof CloudProgressRequestError && error.status === 409 && error.current) {
+            const remoteState = normalizeSavedState(error.current.state as Partial<SavedState>);
+            lastCloudPayloadRef.current = JSON.stringify(cloudSafeState(remoteState));
+            cloudRevisionRef.current = error.current.revision;
+            setCloudStatus("conflict");
+            setSaved((currentSaved) => mergeSavedStates(currentSaved, remoteState));
+          } else if (!controller.signal.aborted) {
+            setCloudStatus("offline");
+          }
+        });
+    }, 1200);
+    return () => {
+      window.clearTimeout(timer);
+      controller.abort();
+    };
+  }, [saved, mounted, cloudReady, cloudIdentity]);
 
   useEffect(() => {
     if (!mounted) return;
@@ -760,12 +949,18 @@ export default function AdaptiveCoach() {
         </div>
         <nav className={navOpen ? "main-nav open" : "main-nav"} aria-label="Main navigation">
           <button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard size={17} /> Study</button>
+          <button className={view === "homework" ? "active" : ""} onClick={() => navigate("homework")}><BookOpenCheck size={17} /> Homework</button>
+          <button className={view === "library" ? "active" : ""} onClick={() => navigate("library")}><Library size={17} /> Library</button>
           <button className={view === "stats" ? "active" : ""} onClick={() => navigate("stats")}><BarChart3 size={17} /> Analytics</button>
           <button className={view === "review" ? "active" : ""} onClick={() => navigate("review")}><BookOpenCheck size={17} /> Review</button>
         </nav>
         <div className="topbar-meta">
           <span className="catalog-chip"><BrainCircuit size={15} /> {saved.seenQuestionIds[saved.activeExam].length.toLocaleString()} / 800 practice seen</span>
-          <button className="avatar" title="Local learner profile">SP</button>
+          {cloudIdentity?.authenticated ? (
+            <div className="profile-control" title={`${cloudIdentity.displayName} · ${cloudStatus}`}><span>{cloudIdentity.displayName.slice(0, 2).toUpperCase()}</span><small>{cloudStatus === "saving" ? "Saving" : cloudStatus === "synced" ? "Synced" : cloudStatus === "offline" ? "Local" : "Cloud"}</small><a href={cloudIdentity.signOutPath}>Sign out</a></div>
+          ) : (
+            <a className="signin-control" href={chatGPTSignInHref("/")}><span>Sign in</span><small>Sync progress</small></a>
+          )}
           <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-label="Toggle menu"><Menu /></button>
         </div>
       </header>
@@ -784,6 +979,8 @@ export default function AdaptiveCoach() {
         />
       )}
       {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} mockExposures={saved.mockExposures[saved.activeExam]} overall={overall} onStudy={() => navigate("study")} />}
+      {view === "homework" && <HomeworkHub progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
+      {view === "library" && <StudyLibrary progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
       {view === "review" && (
         <Review
           attempts={activeAttempts}

@@ -18,16 +18,16 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = incoming.get("x-forwarded-host") ?? incoming.get("host") ?? "localhost:3000";
   const protocol = incoming.get("x-forwarded-proto") ?? (host.startsWith("localhost") ? "http" : "https");
   const base = new URL(`${protocol}://${host}`);
-  const title = "ASP + CSP // Coach — Adaptive Exam Readiness";
+  const title = "ASP + CSP // Coach — Adaptive Exam Readiness & Chapter Study";
   const description =
-    "Original ASP11- and CSP11-weighted drills, item-response progression, delayed rationales, and separate readiness analytics for safety professionals.";
+    "Adaptive ASP/CSP drills, chapter homework, spaced flashcards, a smart formula sheet, bilingual hazard references, and cloud-synced progress for safety professionals.";
   return {
     metadataBase: base,
     title,
     description,
     icons: { icon: "/favicon.svg" },
-    openGraph: { title, description, type: "website", images: [{ url: new URL("/og.png", base), width: 1727, height: 910 }] },
-    twitter: { card: "summary_large_image", title, description, images: [new URL("/og.png", base)] },
+    openGraph: { title, description, type: "website", images: [{ url: new URL("/og-study-hub.png", base), width: 1729, height: 910 }] },
+    twitter: { card: "summary_large_image", title, description, images: [new URL("/og-study-hub.png", base)] },
   };
 }
 
