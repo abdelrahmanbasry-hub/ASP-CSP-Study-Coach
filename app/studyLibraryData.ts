@@ -4,14 +4,19 @@
  * examples, and flashcards are newly written for this application.
  */
 
+import { ADDITIONAL_FORMULA_ENTRIES } from "./formulaSupplementData.ts";
+
 export type FormulaCategory =
   | "Conversions"
+  | "Reference Constants"
+  | "Mathematics & Logic"
   | "Mechanics"
   | "Electricity"
   | "Ventilation"
   | "Industrial Hygiene & Gases"
   | "Ergonomics"
   | "Heat Stress"
+  | "Heat Transfer"
   | "Radiation"
   | "Engineering Economy"
   | "Reliability"
@@ -55,7 +60,7 @@ export interface StudyLibraryValidation {
   errors: readonly string[];
 }
 
-export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
+const CORE_FORMULA_ENTRIES: readonly FormulaEntry[] = [
   {
     id: "formula-conv-temperature",
     category: "Conversions",
@@ -76,7 +81,7 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     variables: ["K = kelvin", "°R = degrees rankine"],
     units: "K or °R",
     whenToUse: "Prepare temperature values for gas-law calculations and thermodynamic ratios.",
-    commonError: "Do not insert °C or °F directly into a gas-law temperature ratio.",
+    commonError: "Do not insert °C or °F directly into a gas-law ratio. The sheet's +273 and +460 are exam approximations; precise offsets are 273.15 and 459.67.",
     workedExample: "27°C is approximately 300 K.",
     sourcePage: "2",
   },
@@ -84,9 +89,9 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     id: "formula-conv-pressure",
     category: "Conversions",
     name: "Atmospheric pressure equivalents",
-    formula: "1 atm = 14.7 psi = 760 mm Hg = 101.3 kPa",
-    variables: ["atm = atmosphere", "psi = pounds per square inch", "mm Hg = millimetres of mercury"],
-    units: "atm, psi, mm Hg, or kPa",
+    formula: "1 atm = 14.7 psi = 760 mm Hg = 29.92 in. Hg = 33.90 ft H₂O = 760 torr = 101.3 kPa",
+    variables: ["atm = atmosphere", "psi = pounds per square inch", "mm/in. Hg = mercury-column pressure", "ft H₂O = water-column pressure"],
+    units: "atm, psi, mm/in. Hg, ft H₂O, torr, or kPa",
     whenToUse: "Place all pressure terms on a common basis before solving a gas or ventilation problem.",
     commonError: "Distinguish absolute pressure from gauge pressure; gas laws normally require absolute pressure.",
     workedExample: "2 atm equals 29.4 psi or 202.6 kPa.",
@@ -96,8 +101,8 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     id: "formula-conv-radiation",
     category: "Conversions",
     name: "Radiation unit pairs",
-    formula: "1 Gy = 100 rad; 1 Sv = 100 rem; 1 Ci = 3.7 × 10¹⁰ Bq",
-    variables: ["Gy = gray", "Sv = sievert", "Ci = curie", "Bq = becquerel"],
+    formula: "1 Gy = 100 rad; 1 Sv = 100 rem; 1 Ci = 3.7 × 10¹⁰ Bq; 1 Bq = 1 disintegration/s",
+    variables: ["Gy = gray", "Sv = sievert", "Ci = curie", "Bq = becquerel (one nuclear disintegration per second)"],
     units: "Gy/rad, Sv/rem, or Ci/Bq",
     whenToUse: "Translate between SI and traditional radiation units before comparing values.",
     commonError: "Gray/rad describe absorbed dose, while sievert/rem account for biological weighting.",
@@ -275,14 +280,14 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
   {
     id: "formula-ih-ppm",
     category: "Industrial Hygiene & Gases",
-    name: "mg/m³ to ppm at 25°C and 1 atm",
-    formula: "ppm = (mg/m³ × 24.45) / MW",
-    variables: ["MW = molecular weight in g/mol", "24.45 = molar volume at 25°C and 1 atm"],
-    units: "mg/m³ and ppm",
-    whenToUse: "Convert a gas or vapour concentration between mass and volume bases at the stated reference conditions.",
-    commonError: "This shortcut is not for aerosols and changes with temperature and pressure.",
-    workedExample: "100 mg/m³ with MW = 50 converts to 48.9 ppm.",
-    sourcePage: "23",
+    name: "Gas and vapour concentration in ppm",
+    formula: "ppm = (mg/m³ × 24.45) / MW; Cppm = (Pv/Pb) × 10⁶",
+    variables: ["MW = molecular weight in g/mol", "24.45 = molar volume at 25°C and 1 atm", "Pv = vapour partial pressure", "Pb = absolute barometric pressure"],
+    units: "mg/m³ and ppm; Pv and Pb in the same pressure unit",
+    whenToUse: "Convert a gas or vapour concentration from mass concentration or a partial-pressure fraction into ppm.",
+    commonError: "The 24.45 shortcut is for gases and vapours at 25°C and 1 atm—not aerosols. Use absolute, matching units in Pv/Pb.",
+    workedExample: "100 mg/m³ with MW=50 gives 48.9 ppm; Pv=0.001 atm and Pb=1 atm give 1,000 ppm.",
+    sourcePage: "ASP Formula Sheet pp. 6 and 23",
   },
   {
     id: "formula-ih-twa",
@@ -294,7 +299,7 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     whenToUse: "Combine changing concentrations over a defined averaging period.",
     commonError: "Include all intervals in the denominator, including time at zero exposure when the averaging period requires it.",
     workedExample: "2 h at 40 ppm and 6 h at 10 ppm gives (80 + 60)/8 = 17.5 ppm.",
-    sourcePage: "Yates Ch. 4 (formula-sheet concentration context p. 23)",
+    sourcePage: "Yates Ch. 4 supplemental formula (not printed in the supplied ASP sheet)",
   },
   {
     id: "formula-ergo-rwl",
@@ -354,7 +359,7 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     whenToUse: "Estimate intensity change with distance from a point-like radiation source in free space.",
     commonError: "The approximation weakens near large sources or where shielding and scattering dominate.",
     workedExample: "100 units/h at 1 m becomes 25 units/h at 2 m.",
-    sourcePage: "19-20",
+    sourcePage: "ASP Formula Sheet pp. 7 and 19",
   },
   {
     id: "formula-rad-attenuation",
@@ -372,13 +377,13 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     id: "formula-rad-point-source",
     category: "Radiation",
     name: "Point-source exposure estimate",
-    formula: "S = 6CiEf",
+    formula: "S ≈ 6CiEf",
     variables: ["S = approximate exposure rate at 1 ft", "Ci = source activity", "E = photon energy in MeV", "f = fractional yield"],
-    units: "As defined by the reference approximation",
+    units: "Approximate exposure rate in R/h at 1 ft for the source-sheet convention",
     whenToUse: "Apply the exam-reference shortcut for the stated point-source assumptions.",
     commonError: "Do not treat this screening relation as a substitute for isotope-specific shielding analysis.",
-    workedExample: "For 2 Ci, E = 1 MeV, and f = 0.5, S = 6 exposure units per hour at 1 ft.",
-    sourcePage: "20",
+    workedExample: "For 2 Ci, E = 1 MeV, and f = 0.5, S ≈ 6 R/h at 1 ft under the sheet's approximation.",
+    sourcePage: "ASP Formula Sheet pp. 7 and 20 (p. 20 supplies the explicit yield factor)",
   },
   {
     id: "formula-econ-future",
@@ -420,8 +425,8 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     id: "formula-rel-failure",
     category: "Reliability",
     name: "Probability of failure",
-    formula: "P(failure) = 1 − R",
-    variables: ["R = reliability over the stated mission", "P(failure) = complementary probability"],
+    formula: "Pf = 1 − R(t) = 1 − Ps",
+    variables: ["Pf = probability of failure", "R(t) or Ps = reliability/probability of success for the same mission"],
     units: "Probability from 0 to 1",
     whenToUse: "Convert between success reliability and failure probability for the same interval and conditions.",
     commonError: "Reliability must refer to the same mission time and environment as the desired failure probability.",
@@ -450,7 +455,7 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     whenToUse: "Combine independent components when all series elements must work or any parallel element can succeed.",
     commonError: "Common-cause failures violate the independence assumption and can erase apparent redundancy benefits.",
     workedExample: "R = 0.90 and 0.95 gives series R = 0.855; parallel R = 0.995.",
-    sourcePage: "7 (Yates Ch. 13 system-reliability context)",
+    sourcePage: "Yates Ch. 13 supplemental formula (not printed in the supplied ASP sheet)",
   },
   {
     id: "formula-noise-combine",
@@ -517,7 +522,7 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     category: "Hydraulics",
     name: "Flow-pressure square-root relation",
     formula: "Q₂ = Q₁√(P₂/P₁)",
-    variables: ["Q = flow", "P = pressure differential for comparable conditions"],
+    variables: ["Q = flow", "P = available pressure differential; in fire-flow problems P = static pressure − residual pressure"],
     units: "Any consistent flow and pressure units",
     whenToUse: "Scale flow when resistance conditions are unchanged and flow varies with the square root of pressure.",
     commonError: "Reverse the pressure ratio and the predicted direction of change will be wrong.",
@@ -584,6 +589,12 @@ export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
     workedExample: "If λt = 2, the probability of zero events is e⁻² ≈ 0.1353.",
     sourcePage: "13",
   },
+];
+
+/** Complete, deduplicated formula-family library from the supplied 23-page sheet. */
+export const FORMULA_ENTRIES: readonly FormulaEntry[] = [
+  ...CORE_FORMULA_ENTRIES,
+  ...ADDITIONAL_FORMULA_ENTRIES,
 ];
 
 export const FLASHCARDS: readonly StudyFlashcard[] = [
@@ -1209,14 +1220,17 @@ export const FLASHCARDS: readonly StudyFlashcard[] = [
   },
 ];
 
-const FORMULA_CATEGORIES: readonly FormulaCategory[] = [
+export const FORMULA_CATEGORIES: readonly FormulaCategory[] = [
   "Conversions",
+  "Reference Constants",
+  "Mathematics & Logic",
   "Mechanics",
   "Electricity",
   "Ventilation",
   "Industrial Hygiene & Gases",
   "Ergonomics",
   "Heat Stress",
+  "Heat Transfer",
   "Radiation",
   "Engineering Economy",
   "Reliability",
@@ -1286,8 +1300,8 @@ export const validateFormulaEntries = (
   entries: readonly unknown[] = FORMULA_ENTRIES,
 ): StudyLibraryValidation => {
   const errors: string[] = [];
-  if (entries.length < 30 || entries.length > 45) {
-    errors.push(`Formula library must contain 30-45 entries; found ${entries.length}.`);
+  if (entries.length !== 106) {
+    errors.push(`Complete formula library must contain 106 entries; found ${entries.length}.`);
   }
 
   entries.forEach((entry, index) => {

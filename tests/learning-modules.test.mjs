@@ -9,12 +9,14 @@ import {
 } from "../app/homeworkData.ts";
 import {
   FLASHCARDS,
+  FORMULA_CATEGORIES,
   FORMULA_ENTRIES,
   STUDY_LIBRARY_VALIDATION,
   validateFlashcards,
   validateFormulaEntries,
   validateStudyLibrary,
 } from "../app/studyLibraryData.ts";
+import { ADDITIONAL_FORMULA_ENTRY_IDS } from "../app/formulaSupplementData.ts";
 import {
   HAZARD_COUNTS,
   HAZARD_RECORDS,
@@ -121,16 +123,22 @@ test("each ready chapter has five provenance-linked review questions", () => {
 });
 
 test("formula and flashcard libraries meet their validated content targets", () => {
-  assert.equal(FORMULA_ENTRIES.length, 44);
+  assert.equal(FORMULA_ENTRIES.length, 106);
   assert.equal(FLASHCARDS.length, 80);
-  assert.equal(new Set(FORMULA_ENTRIES.map((entry) => entry.id)).size, 44);
+  assert.equal(
+    new Set(FORMULA_ENTRIES.map((entry) => entry.id)).size,
+    FORMULA_ENTRIES.length,
+  );
   assert.equal(new Set(FLASHCARDS.map((card) => card.id)).size, 80);
   assert.deepEqual(STUDY_LIBRARY_VALIDATION, { valid: true, errors: [] });
   assert.deepEqual(validateStudyLibrary(), { valid: true, errors: [] });
 
   const formulaCategories = new Set(FORMULA_ENTRIES.map((entry) => entry.category));
   const flashcardDecks = new Set(FLASHCARDS.map((card) => card.deck));
-  assert.equal(formulaCategories.size, 13);
+  assert.equal(FORMULA_CATEGORIES.length, 16);
+  assert.equal(new Set(FORMULA_CATEGORIES).size, 16);
+  assert.equal(formulaCategories.size, 16);
+  assert.deepEqual([...formulaCategories].sort(), [...FORMULA_CATEGORIES].sort());
   assert.deepEqual([...flashcardDecks].sort(), [
     "Biological Hazards",
     "Exam Strategy",
@@ -147,6 +155,92 @@ test("formula and flashcard libraries meet their validated content targets", () 
     validateFlashcards([...FLASHCARDS, FLASHCARDS[0]]).valid,
     false,
   );
+});
+
+test("expanded formula library preserves complete supplemental coverage and corrected equations", () => {
+  assert.equal(ADDITIONAL_FORMULA_ENTRY_IDS.length, 62);
+  assert.equal(new Set(ADDITIONAL_FORMULA_ENTRY_IDS).size, 62);
+
+  const formulasById = new Map(FORMULA_ENTRIES.map((entry) => [entry.id, entry]));
+  const supplementalEntries = ADDITIONAL_FORMULA_ENTRY_IDS.map((id) => {
+    const entry = formulasById.get(id);
+    assert.ok(entry, `Supplemental formula ${id} is missing from FORMULA_ENTRIES`);
+    return entry;
+  });
+
+  for (const entry of supplementalEntries) {
+    assert.match(entry.sourcePage, /\d/, `${entry.id} must cite at least one source page`);
+  }
+
+  const serializedLibrary = JSON.stringify(FORMULA_ENTRIES);
+  for (const marker of ["\uFFFD", "Â", "Ã", "â€", "âˆ", "â‰", "â‚", "â"]) {
+    assert.equal(
+      serializedLibrary.includes(marker),
+      false,
+      `Formula library contains the mojibake marker ${JSON.stringify(marker)}`,
+    );
+  }
+
+  const searchable = (entry) =>
+    `${entry.id} ${entry.name} ${entry.formula} ${entry.variables.join(" ")}`;
+
+  const footcandle = FORMULA_ENTRIES.find((entry) =>
+    /foot[- ]?candle|\bfc\b/i.test(searchable(entry)),
+  );
+  assert.ok(footcandle, "Footcandle/lux conversion is missing");
+  assert.match(
+    footcandle.formula,
+    /1\s*(?:foot[- ]?candle|fc)\s*=\s*10\.76(?:4)?\s*(?:lux|lx)/i,
+    "One footcandle must equal 10.76 lux",
+  );
+
+  const inverseSquare = formulasById.get("formula-rad-inverse-square");
+  assert.ok(inverseSquare, "Radiation inverse-square formula is missing");
+  assert.match(
+    inverseSquare.formula.replace(/\s/g, ""),
+    /I(?:₂|2)=I(?:₁|1)\(d(?:₁|1)\/d(?:₂|2)\)(?:²|\^2)/,
+    "Inverse-square distance ratio must be initial distance over final distance",
+  );
+
+  const radiationYield = formulasById.get("formula-rad-point-source");
+  assert.ok(radiationYield, "Radiation point-source shortcut is missing");
+  assert.match(
+    radiationYield.formula.replace(/[\s×·*]/g, ""),
+    /S(?:=|≈)6CiEf$/i,
+    "Point-source shortcut must include fractional yield f",
+  );
+  assert.ok(
+    radiationYield.variables.some((variable) => /fractional yield/i.test(variable)),
+    "Point-source variables must define f as fractional yield",
+  );
+
+  const acousticIntensity = FORMULA_ENTRIES.find((entry) =>
+    /(?:acoustic|sound) intensity/i.test(searchable(entry)),
+  );
+  assert.ok(acousticIntensity, "Acoustic-intensity relation is missing");
+  assert.match(
+    acousticIntensity.formula.replace(/[\s()]/g, ""),
+    /I=p(?:ᵣₘₛ)?(?:²|\^2)\/(?:ρ|rho)c/i,
+    "Acoustic intensity must use squared sound pressure, I = p²/(ρc)",
+  );
+
+  const ppm = formulasById.get("formula-ih-ppm");
+  assert.ok(ppm, "Gas/vapour ppm relations are missing");
+  assert.match(
+    ppm.formula.replace(/\s/g, ""),
+    /Cppm=\(Pv\/Pb\)×10⁶/i,
+    "Partial-pressure ppm relation Cppm = (Pv/Pb) × 10⁶ must be present",
+  );
+
+  const boolean = formulasById.get("formula-logic-boolean-identities");
+  assert.ok(boolean, "Boolean identities are missing");
+  for (const identity of ["A+B=B+A", "A·B=B·A", "A(BC)=(AB)C", "A+(B+C)=(A+B)+C"]) {
+    assert.ok(boolean.formula.includes(identity), "Boolean identity is missing: " + identity);
+  }
+
+  const mixtureLimit = formulasById.get("formula-ih-mixture-lel");
+  assert.ok(mixtureLimit, "Mixture LFL/LEL relation is missing");
+  assert.match(mixtureLimit.formula, /LFLm.*Σ\(fi\/LFLi\)/);
 });
 
 test("hazard library has exact source counts and complete English/Arabic fields", () => {
