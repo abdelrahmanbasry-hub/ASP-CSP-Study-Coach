@@ -199,17 +199,23 @@ test("key information records preserve only available chapter-end source materia
 });
 
 test("practice questions cover every chapter with individually authored records", () => {
-  assert.equal(PRACTICE_QUESTIONS.length, CHAPTERS.length * 3);
+  assert.ok(PRACTICE_QUESTIONS.length >= CHAPTERS.length * 5);
+  const chapterCounts = new Set();
   for (const chapter of CHAPTERS) {
     const questions = practiceQuestionsForChapter(chapter.id);
-    assert.equal(questions.length, 3);
+    chapterCounts.add(questions.length);
+    assert.ok(questions.length >= 5);
     assert.equal(new Set(questions.map((question) => question.stem + question.options[question.correctIndex])).size, questions.length);
     assert.ok(questions.every((question) => question.options.length === 4 && new Set(question.options).size === 4 && question.explanation.trim().length > 30));
     assert.ok(questions.every((question) => !question.stem.includes("chapter-supported description") && !question.stem.includes("source-backed point")));
+    assert.ok(questions.every((question) => !question.stem.toLowerCase().includes(question.options[question.correctIndex].toLowerCase())));
   }
 
   assert.equal(new Set(PRACTICE_QUESTIONS.map((question) => question.id)).size, PRACTICE_QUESTIONS.length);
+  const answerPositionCounts = [0, 1, 2, 3].map((index) => PRACTICE_QUESTIONS.filter((question) => question.correctIndex === index).length);
   assert.equal(new Set(PRACTICE_QUESTIONS.map((question) => question.correctIndex)).size, 4);
+  assert.ok(Math.max(...answerPositionCounts) - Math.min(...answerPositionCounts) <= 1);
+  assert.ok(chapterCounts.size > 1);
 });
 
 test("every homework and review item is complete, uniquely keyed, and answerable", () => {

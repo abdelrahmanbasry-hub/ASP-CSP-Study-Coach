@@ -259,7 +259,28 @@ function makeQuestions(chapter: HomeworkChapter): PracticeQuestion[] {
 // migration and are deliberately not invoked by the practice catalog.
 void [sourcePointsForChapter, levelFor, answerPosition, isUsablePoint, distractorsFor, explanation];
 
-export const PRACTICE_QUESTIONS: readonly PracticeQuestion[] = CHAPTERS.flatMap(makeQuestions);
+function stableIdHash(value: string): number {
+  return Array.from(value).reduce((hash, character) => ((hash * 31) + character.charCodeAt(0)) >>> 0, 7);
+}
+
+function balanceAnswerPositions(questions: readonly PracticeQuestion[]): readonly PracticeQuestion[] {
+  const targetPosition = new Map(
+    [...questions]
+      .sort((left, right) => stableIdHash(left.id) - stableIdHash(right.id))
+      .map((question, index) => [question.id, index % 4]),
+  );
+
+  return questions.map((question) => {
+    const correctPosition = targetPosition.get(question.id);
+    if (correctPosition === undefined || correctPosition === question.correctIndex) return question;
+    const options = [...question.options];
+    const [correctAnswer] = options.splice(question.correctIndex, 1);
+    options.splice(correctPosition, 0, correctAnswer);
+    return { ...question, options: options as [string, string, string, string], correctIndex: correctPosition };
+  });
+}
+
+export const PRACTICE_QUESTIONS: readonly PracticeQuestion[] = balanceAnswerPositions(CHAPTERS.flatMap(makeQuestions));
 
 export function practiceQuestionsForChapter(chapterId: string): readonly PracticeQuestion[] {
   return PRACTICE_QUESTIONS.filter((question) => question.chapterId === chapterId);

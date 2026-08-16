@@ -190,6 +190,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .modal-icon { width: 50px; height: 50px; border-radius: 11px; display: grid; place-items: center; background: #173647; color: var(--gold); margin-bottom: 18px; }
 .modal h2 { font-size: 28px; margin: 0; letter-spacing: -.03em; }
 .modal-lead, .formula-note > p:not(.eyebrow) { color: var(--muted); line-height: 1.6; font-size: 14px; }
+.reset-progress-error { margin: 16px 0 0; padding: 10px 12px; border-left: 3px solid #a64135; border-radius: 5px; background: #fdf0ee; color: #8a3028; font-size: 12px; line-height: 1.5; }
 .modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 24px; }
 .danger-button { border: 0; border-radius: 7px; padding: 11px 17px; background: #a64135; color: white; cursor: pointer; font: inherit; font-size: 11px; font-weight: 800; }
 .danger-button:hover { background: #86352b; }

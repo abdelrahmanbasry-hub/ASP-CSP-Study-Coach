@@ -447,6 +447,7 @@ export default function AdaptiveCoach() {
   const [cloudStatus, setCloudStatus] = useState<"local" | "loading" | "synced" | "saving" | "conflict" | "offline">("loading");
   const [resetDialogOpen, setResetDialogOpen] = useState(false);
   const [resettingProgress, setResettingProgress] = useState(false);
+  const [resetError, setResetError] = useState<string | null>(null);
   const [view, setView] = useState<ActiveView>("study");
   const [navOpen, setNavOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -981,14 +982,27 @@ export default function AdaptiveCoach() {
   }
 
   async function resetProgress() {
-    const accessToken = supabaseSession?.access_token;
-    if (!accessToken || resettingProgress) return;
+    if (resettingProgress) return;
+
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) {
+      setResetError("Your sign-in session is unavailable. Refresh the page and sign in again before resetting.");
+      return;
+    }
+
+    const { data, error: sessionError } = await supabase.auth.getSession();
+    const accessToken = data.session?.access_token;
+    if (sessionError || !accessToken) {
+      setResetError("Your sign-in session has expired. Please sign in again, then retry the reset.");
+      return;
+    }
 
     // Invalidate pending reads and autosaves before asking the server to reset.
     // The server also advances the document revision, so stale saves conflict.
     cloudOperationEpochRef.current += 1;
     resetInFlightRef.current = true;
     setResettingProgress(true);
+    setResetError(null);
     setCloudReady(false);
     setCloudStatus("saving");
     try {
@@ -1013,11 +1027,17 @@ export default function AdaptiveCoach() {
       console.error("Cloud progress could not be reset.", describeCloudProgressError(error));
       // Keep both local state and the dialog intact; no cloud-success claim is made.
       setCloudStatus("offline");
+      setResetError(resetFailureMessage(error));
     } finally {
       resetInFlightRef.current = false;
       setResettingProgress(false);
       setCloudReady(true);
     }
+  }
+
+  function openResetDialog() {
+    setResetError(null);
+    setResetDialogOpen(true);
   }
 
   if (!mounted) return <div className="app-loading"><BrainCircuit size={26} /> Calibrating your coach…</div>;
@@ -1074,7 +1094,7 @@ export default function AdaptiveCoach() {
         <div className="topbar-meta">
           <span className="catalog-chip"><BrainCircuit size={15} /> {saved.seenQuestionIds[saved.activeExam].length.toLocaleString()} / 800 practice seen</span>
           {supabaseSession?.user ? (
-            <div className="profile-control" title={`${typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "Google user"} · ${cloudStatus}`}><span>{(typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "GU").slice(0, 2).toUpperCase()}</span><small>{cloudStatus === "saving" ? "Saving" : cloudStatus === "synced" ? "Synced" : cloudStatus === "offline" ? "Local" : "Cloud"}</small><div className="profile-actions"><button type="button" onClick={() => setResetDialogOpen(true)}>Reset progress</button><button type="button" onClick={() => void signOut()}>Sign out</button></div></div>
+            <div className="profile-control" title={`${typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "Google user"} · ${cloudStatus}`}><span>{(typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "GU").slice(0, 2).toUpperCase()}</span><small>{cloudStatus === "saving" ? "Saving" : cloudStatus === "synced" ? "Synced" : cloudStatus === "offline" ? "Local" : "Cloud"}</small><div className="profile-actions"><button type="button" onClick={openResetDialog}>Reset progress</button><button type="button" onClick={() => void signOut()}>Sign out</button></div></div>
           ) : (
             <button type="button" className="signin-control" onClick={() => void signInWithGoogle()}><span>Sign in</span><small>Sync progress</small></button>
           )}
@@ -1133,6 +1153,7 @@ export default function AdaptiveCoach() {
             <div className="modal-icon"><RotateCcw /></div>
             <h2 id="reset-progress-title">Reset your progress?</h2>
             <p className="modal-lead">This permanently erases your saved study progress from this browser and from your signed-in cloud profile. Your account will stay signed in.</p>
+            {resetError && <p className="reset-progress-error" role="alert">{resetError}</p>}
             <div className="modal-actions"><button className="secondary-button" type="button" onClick={() => setResetDialogOpen(false)} disabled={resettingProgress}>Cancel</button><button className="danger-button" type="button" onClick={() => void resetProgress()} disabled={resettingProgress}>{resettingProgress ? "Resetting…" : "Reset progress"}</button></div>
           </section>
         </div>
@@ -1175,6 +1196,14 @@ function describeCloudProgressError(error: unknown) {
     };
   }
   return { message: error instanceof Error ? error.message : String(error) };
+}
+
+function resetFailureMessage(error: unknown): string {
+  if (error instanceof CloudProgressRequestError) {
+    if (error.status === 401) return "Your sign-in session has expired. Please sign in again, then retry the reset.";
+    if (error.status >= 500) return "Your cloud progress could not be reset right now. Nothing was cleared; please try again shortly.";
+  }
+  return "Your cloud progress could not be reset. Nothing was cleared; please try again.";
 }
 
 function StudyDashboard({
