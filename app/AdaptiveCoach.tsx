@@ -598,7 +598,8 @@ export default function AdaptiveCoach() {
         }
         setCloudStatus("synced");
         setCloudReady(true);
-      } catch {
+      } catch (error: unknown) {
+        console.error("Cloud progress could not be loaded.", describeCloudProgressError(error));
         setCloudStatus("offline");
         setCloudReady(true);
       }
@@ -631,6 +632,7 @@ export default function AdaptiveCoach() {
             setCloudStatus("conflict");
             setSaved((currentSaved) => mergeSavedStates(currentSaved, remoteState));
           } else if (!controller.signal.aborted) {
+            console.error("Cloud progress could not be saved.", describeCloudProgressError(error));
             setCloudStatus("offline");
           }
         });
@@ -1093,6 +1095,17 @@ export default function AdaptiveCoach() {
       )}
     </div>
   );
+}
+
+function describeCloudProgressError(error: unknown) {
+  if (error instanceof CloudProgressRequestError) {
+    return {
+      status: error.status,
+      code: error.code,
+      message: error.message,
+    };
+  }
+  return { message: error instanceof Error ? error.message : String(error) };
 }
 
 function StudyDashboard({

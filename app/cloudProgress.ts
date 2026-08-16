@@ -5,6 +5,7 @@ import {
   type CloudProgressSnapshot,
   type LearnerStateDocument,
 } from "./cloudProgressProtocol";
+import { cloudProgressRequestInit } from "./cloudProgressRequest";
 
 type LoadCloudProgressResponse<T extends object> = {
   authenticated: true;
@@ -86,18 +87,7 @@ async function fetchJson<T>(
   input: RequestInfo | URL,
   init: RequestInit & { accessToken?: string },
 ): Promise<T> {
-  const { accessToken, ...requestInit } = init;
-  const response = await fetch(input, {
-    ...requestInit,
-    credentials: "same-origin",
-    cache: "no-store",
-    headers: {
-      Accept: "application/json",
-      ...(requestInit.body ? { "Content-Type": "application/json" } : {}),
-      ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : {}),
-      ...requestInit.headers,
-    },
-  });
+  const response = await fetch(input, cloudProgressRequestInit(init));
 
   const payload = (await response.json().catch(() => ({}))) as
     | T

@@ -16,8 +16,15 @@ const JSON_HEADERS = {
 async function authenticatedUser(request: Request) {
   try {
     return await requireSupabaseUser(request, verifySupabaseAccessToken);
-  } catch {
-    return authenticationRequired();
+  } catch (error) {
+    // An invalid token returns a normal 401 from requireSupabaseUser. Reaching
+    // here means the Worker could not contact/configure Supabase, which must
+    // not be misreported as a signed-out learner.
+    console.error("Cloud progress authentication verification failed.", {
+      path: new URL(request.url).pathname,
+      error: errorMessage(error),
+    });
+    return cloudConfigurationUnavailable();
   }
 }
 
@@ -31,7 +38,11 @@ export async function GET(request: Request) {
       { authenticated: true, progress },
       { headers: JSON_HEADERS },
     );
-  } catch {
+  } catch (error) {
+    console.error("Cloud progress read failed.", {
+      userId: user.id,
+      error: errorMessage(error),
+    });
     return storageUnavailable();
   }
 }
@@ -90,19 +101,25 @@ export async function PUT(request: Request) {
       },
       { status: 409, headers: JSON_HEADERS },
     );
-  } catch {
+  } catch (error) {
+    console.error("Cloud progress write failed.", {
+      userId: user.id,
+      expectedRevision: parsed.value.expectedRevision,
+      stateBytes: new TextEncoder().encode(parsed.value.stateJson).byteLength,
+      error: errorMessage(error),
+    });
     return storageUnavailable();
   }
 }
 
-function authenticationRequired(): Response {
+function cloudConfigurationUnavailable(): Response {
   return Response.json(
     {
-      authenticated: false,
-      error: "authentication_required",
-      message: "Sign in with Google to sync your progress.",
+      error: "cloud_progress_configuration_error",
+      message:
+        "Cloud progress authentication is unavailable. Check the Worker Supabase configuration.",
     },
-    { status: 401, headers: JSON_HEADERS },
+    { status: 503, headers: JSON_HEADERS },
   );
 }
 
@@ -121,4 +138,8 @@ function storageUnavailable(): Response {
     },
     { status: 503, headers: JSON_HEADERS },
   );
+}
+
+function errorMessage(error: unknown): string {
+  return error instanceof Error ? error.message : String(error);
 }

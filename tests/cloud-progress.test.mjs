@@ -10,6 +10,7 @@ import {
   bearerAccessToken,
   requireSupabaseUser,
 } from "../app/supabase-auth.ts";
+import { cloudProgressRequestInit } from "../app/cloudProgressRequest.ts";
 
 test("cloud progress rejects missing and invalid Supabase bearer tokens", async () => {
   let calls = 0;
@@ -41,6 +42,19 @@ test("cloud progress derives ownership from the verified Supabase token, never r
     : null);
   assert.equal(user?.id, "verified-supabase-uuid");
   assert.notEqual(user?.id, "another-users-id");
+});
+
+test("cloud progress saves send the Supabase session token as a bearer token", () => {
+  const request = cloudProgressRequestInit({
+    method: "PUT",
+    body: "{}",
+    accessToken: "supabase-access-token",
+  });
+
+  assert.equal(request.method, "PUT");
+  const headers = new Headers(request.headers);
+  assert.equal(headers.get("Authorization"), "Bearer supabase-access-token");
+  assert.equal(headers.get("Content-Type"), "application/json");
 });
 
 test("cloud progress accepts compact, versioned learner state", () => {
