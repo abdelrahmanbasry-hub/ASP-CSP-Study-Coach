@@ -13,7 +13,7 @@ export default function PracticeQuestions() {
       <div>
         <p className="eyebrow"><FileQuestion size={16} /> Independent preparation</p>
         <h1>Practice Questions</h1>
-        <p>Variable chapter-specific pools that use the chapter&apos;s concepts, terminology, and distinctions—not a fixed quota.</p>
+        <p>Every chapter has an individually reviewed, book-grounded core set. Additional questions will be added only after the same chapter-by-chapter review.</p>
       </div>
       <div className="library-hero-stat"><strong>{totalQuestions}</strong><span>separate practice questions</span></div>
     </section>
@@ -29,11 +29,11 @@ export default function PracticeQuestions() {
         const questionCount = chapterQuestions.length;
         const levelCount = new Set(chapterQuestions.map((question) => question.level)).size;
         return <article className="chapter-card" key={chapter.id}>
-          <div className="chapter-card-top"><span className="chapter-number">CH {String(chapter.courseNumber).padStart(2, "0")}</span><span className="chapter-status">Practice</span></div>
+          <div className="chapter-card-top"><span className="chapter-number">CH {String(chapter.courseNumber).padStart(2, "0")}</span><span className="chapter-status">{questionCount ? "Practice" : "In review"}</span></div>
           <h3>{chapter.courseTitle}</h3>
           <p>{"Yates 3e Ch. " + chapter.yatesChapterNumber + ": " + chapter.yatesChapterTitle}</p>
-          <div className="chapter-metrics"><span><strong>{questionCount}</strong> questions</span><span><strong>{levelCount}</strong> levels</span><span><strong>varied</strong> coverage</span></div>
-          <button className="primary-button full" onClick={() => setRunner({ chapterId: chapter.id, questions: practiceQuestionsForChapter(chapter.id) })}>Start practice <ArrowRight size={17} /></button>
+          <div className="chapter-metrics"><span><strong>{questionCount}</strong> questions</span><span><strong>{levelCount}</strong> levels</span><span><strong>{questionCount ? "reviewed" : "not ready"}</strong></span></div>
+          <button className="primary-button full" disabled={!questionCount} onClick={() => setRunner({ chapterId: chapter.id, questions: chapterQuestions })}>{questionCount ? "Start practice" : "Questions in review"} <ArrowRight size={17} /></button>
         </article>;
       })}</div>
     </section>

@@ -1,5 +1,8 @@
 import { CHAPTERS, HOMEWORK_QUESTIONS, type HomeworkChapter } from "./homeworkData.ts";
 import { KEY_INFORMATION } from "./keyInformationData.ts";
+import { AUTHORED_PRACTICE_01_13 } from "./authoredPractice01to13.ts";
+import { AUTHORED_PRACTICE_14_TO_26 } from "./authoredPractice14to26.ts";
+import { AUTHORED_PRACTICE_27_TO_39 } from "./authoredPractice27to39.ts";
 
 export type PracticeLevel = "foundation" | "homework-level" | "application";
 export type PracticeQuestion = {
@@ -20,6 +23,8 @@ type Prompt = {
 type AuthoredQuestion = Omit<PracticeQuestion, "chapterId" | "id">;
 
 const AUTHORED_PRACTICE: Readonly<Record<string, readonly AuthoredQuestion[]>> = {
+  ...AUTHORED_PRACTICE_01_13,
+  ...AUTHORED_PRACTICE_14_TO_26,
   "ch-38": [
     {
       level: "foundation",
@@ -120,6 +125,7 @@ const AUTHORED_PRACTICE: Readonly<Record<string, readonly AuthoredQuestion[]>> =
       explanation: "Business continuity plans address the organization’s ability to continue or recover operations. The source lists backup systems and redundancies, disaster recovery, IT infrastructure, crisis management, and the EAP.",
     },
   ],
+  ...AUTHORED_PRACTICE_27_TO_39,
 };
 
 const FALLBACK_DISTRACTORS: Record<PracticeLevel, readonly string[]> = {
@@ -241,34 +247,17 @@ function explanation(chapter: HomeworkChapter, point: string, level: PracticeLev
 
 function makeQuestions(chapter: HomeworkChapter): PracticeQuestion[] {
   const authored = AUTHORED_PRACTICE[chapter.id];
-  if (authored) {
-    return authored.map((question, index) => ({
-      ...question,
-      id: "PQ-" + chapter.id.toUpperCase() + "-" + String(index + 1).padStart(2, "0"),
-      chapterId: chapter.id,
-    }));
-  }
-
-  const points = sourcePointsForChapter(chapter).filter(isUsablePoint);
-
-  return points.map((point, index) => {
-    const level = levelFor(index, points.length);
-    const prompt = promptForPoint(point, chapter, level, index);
-    const correctIndex = answerPosition(chapter.id + prompt.answer);
-    const options = distractorsFor(points, index, level, prompt);
-    options.splice(correctIndex, 0, prompt.answer);
-
-    return {
-      id: "PQ-" + chapter.id.toUpperCase() + "-" + String(index + 1).padStart(2, "0"),
-      chapterId: chapter.id,
-      level,
-      stem: prompt.stem,
-      options: options as [string, string, string, string],
-      correctIndex,
-      explanation: explanation(chapter, point, level),
-    };
-  });
+  if (!authored) return [];
+  return authored.map((question, index) => ({
+    ...question,
+    id: "PQ-" + chapter.id.toUpperCase() + "-" + String(index + 1).padStart(2, "0"),
+    chapterId: chapter.id,
+  }));
 }
+
+// These former generator helpers remain isolated during the authored-content
+// migration and are deliberately not invoked by the practice catalog.
+void [sourcePointsForChapter, levelFor, answerPosition, isUsablePoint, distractorsFor, explanation];
 
 export const PRACTICE_QUESTIONS: readonly PracticeQuestion[] = CHAPTERS.flatMap(makeQuestions);
 
@@ -278,11 +267,11 @@ export function practiceQuestionsForChapter(chapterId: string): readonly Practic
 
 function validatePracticeQuestions(): void {
   const ids = new Set<string>();
-  for (const chapter of CHAPTERS) {
-    const questions = practiceQuestionsForChapter(chapter.id);
-    if (!questions.length) throw new Error(chapter.id + " must have practice questions.");
+  for (const [chapterId] of Object.entries(AUTHORED_PRACTICE)) {
+    const questions = practiceQuestionsForChapter(chapterId);
+    if (!questions.length) throw new Error(chapterId + " must have practice questions.");
     if (new Set(questions.map((question) => question.stem + question.options[question.correctIndex])).size !== questions.length) {
-      throw new Error(chapter.id + " contains duplicate practice questions.");
+      throw new Error(chapterId + " contains duplicate practice questions.");
     }
   }
   for (const question of PRACTICE_QUESTIONS) {
