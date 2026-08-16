@@ -6,6 +6,7 @@ import {
   ArrowRight,
   BarChart3,
   BookOpenCheck,
+  FileQuestion,
   BrainCircuit,
   CalendarDays,
   Check,
@@ -69,6 +70,7 @@ import {
   type SessionQuestion,
 } from "./adaptiveEngine";
 import HomeworkHub from "./HomeworkHub";
+import PracticeQuestions from "./PracticeQuestions";
 import KeyInformation from "./KeyInformation";
 import StudyLibrary from "./StudyLibrary";
 import {
@@ -86,7 +88,7 @@ import { getSupabaseBrowserClient } from "./supabase-client";
 import { clearLocalProgress } from "./localProgressReset";
 import type { Session } from "@supabase/supabase-js";
 
-type MainView = "study" | "homework" | "key-information" | "library" | "stats" | "review";
+type MainView = "study" | "homework" | "practice" | "key-information" | "library" | "stats" | "review";
 type ActiveView = MainView | "quiz" | "results";
 type ExamTrack = "ASP" | "CSP";
 type DomainId = string;
@@ -1063,6 +1065,7 @@ export default function AdaptiveCoach() {
         <nav className={navOpen ? "main-nav open" : "main-nav"} aria-label="Main navigation">
           <button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard size={17} /> Study</button>
           <button className={view === "homework" ? "active" : ""} onClick={() => navigate("homework")}><BookOpenCheck size={17} /> Homework</button>
+          <button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion size={17} /> Practice</button>
           <button className={view === "key-information" ? "active" : ""} onClick={() => navigate("key-information")}><BookOpenCheck size={17} /> Key Info</button>
           <button className={view === "library" ? "active" : ""} onClick={() => navigate("library")}><Library size={17} /> Library</button>
           <button className={view === "stats" ? "active" : ""} onClick={() => navigate("stats")}><BarChart3 size={17} /> Analytics</button>
@@ -1094,6 +1097,7 @@ export default function AdaptiveCoach() {
       )}
       {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} mockExposures={saved.mockExposures[saved.activeExam]} overall={overall} onStudy={() => navigate("study")} />}
       {view === "homework" && <HomeworkHub progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
+      {view === "practice" && <PracticeQuestions />}
       {view === "key-information" && <KeyInformation />}
       {view === "library" && <StudyLibrary progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
       {view === "review" && (

@@ -25,6 +25,11 @@ import {
 } from "../app/hazardData.ts";
 import { KEY_INFORMATION } from "../app/keyInformationData.ts";
 import {
+  PRACTICE_QUESTIONS,
+  PRACTICE_QUESTIONS_PER_CHAPTER,
+  practiceQuestionsForChapter,
+} from "../app/practiceQuestionsData.ts";
+import {
   emptyLearningProgress,
   nextFlashcardProgress,
   normalizeLearningProgress,
@@ -191,6 +196,18 @@ test("key information records preserve only available chapter-end source materia
     } else {
       assert.deepEqual(chapter.points, []);
     }
+  }
+});
+
+test("practice questions provide an independent 5/5/5 set for every course chapter", () => {
+  assert.equal(PRACTICE_QUESTIONS.length, CHAPTERS.length * PRACTICE_QUESTIONS_PER_CHAPTER);
+  for (const chapter of CHAPTERS) {
+    const questions = practiceQuestionsForChapter(chapter.id);
+    assert.equal(questions.length, 15);
+    assert.equal(questions.filter((question) => question.level === "foundation").length, 5);
+    assert.equal(questions.filter((question) => question.level === "homework-level").length, 5);
+    assert.equal(questions.filter((question) => question.level === "application").length, 5);
+    assert.ok(questions.every((question) => question.options.length === 4 && question.explanation.includes("Step 1:")));
   }
 });
 
