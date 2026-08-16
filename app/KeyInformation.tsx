@@ -22,13 +22,13 @@ export default function KeyInformation() {
         <div>
           <p className="eyebrow"><BookMarked size={16} /> Yates companion notes</p>
           <h1>Key Information</h1>
-          <p>Chapter-end points preserved from the supplied study guide, with their original detail and order.</p>
+          <p>Chapter-end source points preserved from the supplied study guide, with their original detail and order.</p>
         </div>
         <div className="library-hero-stat"><strong>{KEY_INFORMATION.length}</strong><span>chapter records</span></div>
       </section>
 
       <section className="page-width key-information-content">
-        <p className="reference-note"><CircleHelp size={15} /> Points marked <strong>Source verified</strong> are transcribed from the chapter-end “Key Information to Remember” sections in the supplied <em>Safety Professional&apos;s Reference and Study Guide</em> (W. David Yates, 3rd ed.). A chapter marked <strong>Source section not present</strong> is intentionally left unfilled.</p>
+        <p className="reference-note"><CircleHelp size={15} /> Points marked <strong>Source verified</strong> are transcribed from the supplied <em>Safety Professional&apos;s Reference and Study Guide</em> (W. David Yates, 3rd ed.), preserving the book&apos;s own end-of-chapter format: “Key Information,” “Key Points,” summaries, or standards.</p>
         <div className="key-information-toolbar">
           <label><Search size={16} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search a topic or concept" aria-label="Search key information" /></label>
           <select value={selectedChapter} onChange={(event) => setSelectedChapter(event.target.value)} aria-label="Filter by chapter">

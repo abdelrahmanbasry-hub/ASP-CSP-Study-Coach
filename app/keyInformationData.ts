@@ -7,7 +7,7 @@
 export type KeyInformationChapter = {
   chapter: number;
   title: string;
-  sourceStatus: "verified" | "section-not-present";
+  sourceStatus: "verified";
   sourcePages?: readonly number[];
   points: readonly string[];
 };
@@ -24,15 +24,16 @@ const verified = (chapter: number, sourcePages: readonly number[], text: string)
   points: text.trim().split("\n"),
 });
 
-const unavailable = (chapter: number): KeyInformationChapter => ({
-  chapter,
-  title: titles[chapter - 1],
-  sourceStatus: "section-not-present",
-  points: [],
-});
-
 export const KEY_INFORMATION: readonly KeyInformationChapter[] = [
-  unavailable(1),
+  verified(1, [14, 15], `
+Both the Safety Fundamental Examination and the Comprehensive Practice Examination contain 200 questions each.
+Each question is multiple-choice, with four possible answers. Only one answer is correct.
+Each item is independent and does not rely on the correct answer to any other item.
+Your score is based on the number of scored items you correctly answer. There are no penalties assigned for wrong answers. Therefore, it is to your advantage to answer all of the questions, even if you are guessing on some.
+If you do not know the answer to an item or are not sure about it, you should guess intelligently. Look for choices that you know are incorrect or do not appear as plausible as others. Choose your answer from among the remaining choices.
+Use your examination time wisely. When taking your examination, complete those items first that you know or can answer quickly. Then, go back to items that were difficult or required considerable time to read, analyze, or compute.
+One of the single most important items allowed in the examination room is a calculator. It is recommended that you bring two in case the battery in one is used up.
+Spend time practicing with the calculator before the examination. Practicing helps with time management and allows you to become familiar with the specific functions, capabilities, and shortcuts of the calculator.`),
   verified(2, [46], `
 The Occupational Safety and Health Act (Public Law 91-596) was passed into law on December 29, 1970.
 OSHA regulations do not apply to all employers in the public sector (municipal, county, state, or federal), self-employed individuals, family members operating a farm, or domestic household workers.
@@ -47,7 +48,9 @@ A work-related recordable injury must be recorded on the OSHA 300 and 301 forms 
 When an authorized government representative asks for records required in 29 CFR 1904, an employer must provide copies within 4 h.
 A work-related fatality must be reported to OSHA within 8 h.
 A worked-related injury resulting in in-patient hospitalization, amputation, or loss of an eye must be reported to OSHA within 24 h.`),
-  unavailable(3),
+  verified(3, [191], `
+This chapter has been included to provide a basic review of math required to perform more complex equations throughout the course of this book.
+With a good understanding of the information provided in this chapter, you should be able to solve any of the equations or problems listed throughout the book, which will show how to work each and every equation listed on the CSP examination reference sheet.`),
   verified(4, [214], `
 The atomic number is the number of protons in a nucleus.
 The atomic mass or weight of an atom includes protons, neutrons, and electrons.
@@ -156,7 +159,13 @@ Hearing Protection (29 CFR 1910.95).
 Respiratory Protection (29 CFR 1910.134).
 Arm and Hand Protection (29 CFR 1910.138).
 Foot and Leg Protection (29 CFR 1910.136).`),
-  unavailable(13),
+  verified(13, [387, 388], `
+If the components are arranged in such a manner that a failure of any individual component results in the entire system failing, then it is known as a series system.
+The series-system reliability equation is Rsystem = R1 × R2 × … × Rn.
+A system where one individual component can fail, and the system will still be functional, is known as a parallel system.
+The parallel-system reliability equation is Rsystem = 1 − (1 − R1)(1 − R2)…(1 − Rn).
+The arrangement of the individual components is extremely important. While the individual components have relatively high reliabilities, their arrangement increases the reliability of the system.
+When calculating the probability of failure of a system, use Pf = 1 − Ps, where Pf = probability of failure and Ps = probability of success or reliability of the system.`),
   verified(14, [404], `
 Electrical currents move from high voltage to low voltage.
 Voltage is measured in volts (V).
@@ -207,7 +216,12 @@ Pretests are administered prior to the presentation of course information and ar
 Review tests are useful in longer courses.
 Posttests should be designed to determine if the participant can perform the learning objectives.
 Font size (height and width) varies with distances from the screen.`),
-  unavailable(18),
+  verified(18, [457], `
+Engineering economics continues to become an increasing factor in the day-to-day operations of a safety professional.
+The structuring of a loan is an important financial aspect of any business owner or financial manager.
+Financial planners will provide the necessary financial information needed to finance a project.
+It is important to know the basic financial information in order for you, as safety managers, to justify some of your recommendations.
+A well thought-out recommendation will be received in a more favorable light by the final decision makers.`),
   verified(19, [466], `
 Maslow’s Hierarchy of Needs includes physiological, safety, belonging, esteem, and self-actualization.
 McGregor’s Theory X states that employees do not want to work and are only motivated by money.
@@ -336,11 +350,66 @@ Refresher training must be completed (1) when the operator has been observed to 
 Preoperational inspections should be conducted by each operator prior to operating the piece of equipment.
 The center of gravity on a forklift will change based on the weight and height of the load on the forks.
 A comprehensive inspection of the semi-trailer must be conducted before a forklift enters to either load or unload materials.`),
-  unavailable(29),
-  unavailable(30),
-  unavailable(31),
-  unavailable(32),
-  unavailable(33),
-  unavailable(34),
-  unavailable(35),
+  verified(29, [681], `
+Regardless of the specific SMS that a company selects to build its framework, they all have in common the end goal of decreasing employee injuries and improving upon the safety management of an organization in a systematic fashion.
+Improved management of risks and hazards.
+Provide a framework to change an organization’s safety culture.
+Maintain compliance with governmental standards and regulations.
+Improve overall performance of the organization.`),
+  verified(30, [693, 694], `
+A site security plan must be developed to protect employees, equipment, property, inventory, and especially those mandated by the Department of Homeland Security.
+The plan should include the site information such as the name, physical address, contact numbers, products and services provided by the facility, number of employees, operating hours, site area description, neighborhood description, and areas of high-risk concern.
+Management must be committed to providing the necessary human and financial resources to ensure the successful implementation of the plan.
+Facility access control is one of the most important aspects to any physical security plan.
+A means to identify visitors and contractors should be included in the site security plan.
+When using the 911 alert system, a person should be designated (by position) to meet the emergency responders and direct them to the specific location of the emergency.
+When dealing with a bomb threat, collect as much information on the caller or the situation and write it down immediately.
+In an active shooter scenario, the options are to run, hide, or fight.
+Also, in an active shooter scenario, follow all directions from law enforcement personnel exactly.
+Employees should be trained to observe and report incidents of workplace violence immediately. This helps employers to prevent potential threats to employees.`),
+  verified(31, [697, 698], `
+Heinrich’s law states that for every 1 major injury, there are 29 minor injuries and 300 accidents with no injuries.
+Each behavior-based safety program has the following elements in common: identify (or target) behaviors that affect safety, define these behaviors precisely enough to measure them reliably, develop and implement mechanisms for measuring those behaviors in order to determine their current status and set reasonable goals, provide feedback, and reinforce progress.
+Behavior-based safety is not a tool that should be used to blame the workers for their own injuries.`),
+  verified(32, [717, 718], `
+According to OSHA, the elements of an effective accountability system include established standards, resources, a measurement system, consequences, and application.
+Traditional measurements of safety performance, such as TCIRs and DARTs, have limited or no use in predicting future incidents.
+Major problems in using injury/illness rates include underreporting, events are a matter-of-chance, actual injury rates are no indication of the severity or potential severity, employees may stay off work for reasons that do not reflect severity of the event, and they are lagging indicators and reflect negative attributes, such as failures or lack of something bad occurring.
+Elements of an effective health and safety performance management system include policy, organizing, planning and implementing, measuring performance, reviewing performance, and auditing of the performance.
+An effective measurement system is designed or should be designed to indicate where you currently are and measure periodically as to where you want to be.
+A prerequisite of effective health and safety goals and objectives should follow the acronym SMART, which represents Specific, Measurable, Attainable, Realistic/Relevant, and Time-bound.
+Three dimensions of measurement must include compliance, deployment, and capability of the system to achieve specific and measurable goals and objectives.
+Continuous improvement of any program must always be built into any sustainable system.
+The value of any leading indicator must be that it engages employees and supervisors in the safety program.`),
+  verified(33, [757, 758], `
+In addition to identifying hazards and preventing illnesses and injuries, the health and safety program audit should assist in determining whether or not significant progress is being made in the overall goals and objectives of your health and safety program.
+The three basic methods used to conduct health and safety program audits are document review/verification, employee interviews, and site conditions.
+Inspection records can tell the evaluator whether serious hazards are being found or whether the same hazards are being found repeatedly. If serious hazards are not being found and accidents keep occurring, there may be a need to train inspectors to look for different hazards.
+Employee interviews are extremely useful in determining the quality of health and safety training.
+Site conditions and root causes are useful in identifying present and potential hazards in the workplace.
+The major elements of an effective health and safety program include management commitments, employee involvement, worksite analysis, hazard prevention and control, and health and safety training.
+One of the best methods used by managers and supervisors to continuously evaluate the health and safety effectiveness of their program is known as Management by Walking Around.
+Employee involvement provides the means through which workers develop and express their own commitment to health and safety, for both themselves and for their fellow employees.
+Worksite analysis means that managers and employees alike analyze all worksite conditions to identify and eliminate existing or potential hazards.
+One of the most commonly used techniques in conducting hazard analysis is the use of a JHA form.`),
+  verified(34, [783, 784], `
+The National Environmental Protection Act (NEPA) was signed into law on January 1, 1970. Its major focus was to require the federal government to use all practicable means to create and maintain conditions under which man and nature can exist in productive harmony.
+NEPA specifically requires all federal agencies to prepare detailed EISs that assess the environmental impact of and alternatives to major federal actions significantly affecting the environment.
+NEPA establishes the CEQ, which is specifically appointed to oversee the provisions of NEPA.
+The Resource Conservation and Recovery Act is the primary policy of the United States governing the disposal of solid and hazardous wastes.
+RCRA specifically covers solid and hazardous waste, universal waste, used oil management, and USTs.
+Solid waste means any garbage or refuse; sludge from a wastewater treatment plant, water supply treatment plant, or air pollution control facility; and other discarded material, including solid, liquid, semisolid, or contained gaseous material resulting from industrial, commercial, mining, and agricultural operations, and from community activities. Solid wastes include both hazardous and nonhazardous waste.
+Universal wastes include items such as batteries, agricultural pesticides, and thermostats.
+The Toxic Substances Control Act provides EPA with the authority to require reporting, record-keeping and testing requirements, and restrictions relating to chemical substances and mixtures.
+The purpose of the Federal Insecticide, Fungicide and Rodenticide Act (FIFRA) is to provide federal control of pesticide distribution, sale, and use.
+The Clean Air Act of 1990 was designed to curb three major threats to the nation’s environment, including acid rain, urban air pollution, and toxic air emissions.`),
+  verified(35, [785, 786], `
+HOLD paramount the safety and health of people, the protection of the environment and protection of property in the performance of professional duties, and exercise their obligation to advise employers, clients, employees, the public, and appropriate authorities of danger and unacceptable risks to people, the environment, or property.
+BE honest, fair, and impartial; act with responsibility and integrity. Adhere to high standards of ethical conduct with balanced care for the interests of the public, employers, clients, employees, colleagues, and the profession. Avoid all conduct or practice that is likely to discredit the profession or deceive the public.
+ISSUE public statements only in an objective and truthful manner and only when founded upon knowledge of the facts and competence in the subject matter.
+UNDERTAKE assignments only when qualified by education or experience in the specific technical fields involved. Accept responsibility for their continued professional development by acquiring and maintaining competence through continuing education, experience, professional training, and keeping current on relevant legal issues.
+AVOID deceptive acts that falsify or misrepresent their academic or professional qualifications. Not misrepresent or exaggerate their degree of responsibility in or for the subject matter of prior assignments. Presentations incident to the solicitation of employment shall not misrepresent pertinent facts concerning employers, employees, associates, or past accomplishments with the intent and purpose of enhancing their qualifications and their work.
+CONDUCT their professional relations by the highest standards of integrity, and avoid compromise of their professional judgment by conflicts of interest. When becoming aware of professional misconduct by a BCSP certificant, take steps to bring that misconduct to the attention of the BCSP.
+ACT in a manner free of bias with regard to religion, ethnicity, gender, age, national origin, sexual orientation, or disability.
+SEEK opportunities to be of constructive service in civic affairs and work for the advancement of the safety, health, and well-being of their community and their profession by sharing their knowledge and skills.`),
 ];

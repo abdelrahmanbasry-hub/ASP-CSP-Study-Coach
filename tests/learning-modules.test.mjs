@@ -180,8 +180,8 @@ test("key information records preserve only available chapter-end source materia
   assert.deepEqual(KEY_INFORMATION.map((chapter) => chapter.chapter), Array.from({ length: 35 }, (_, index) => index + 1));
   const verified = KEY_INFORMATION.filter((chapter) => chapter.sourceStatus === "verified");
   const unavailable = KEY_INFORMATION.filter((chapter) => chapter.sourceStatus === "section-not-present");
-  assert.equal(verified.length, 24);
-  assert.equal(unavailable.length, 11);
+  assert.equal(verified.length, 35);
+  assert.equal(unavailable.length, 0);
   for (const chapter of KEY_INFORMATION) {
     assert.ok(chapter.title.trim().length > 0);
     if (chapter.sourceStatus === "verified") {
