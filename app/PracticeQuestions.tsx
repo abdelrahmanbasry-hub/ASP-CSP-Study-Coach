@@ -6,8 +6,38 @@ import { practiceQuestionsForChapter, type PracticeQuestion } from "./practiceQu
 
 export default function PracticeQuestions() {
   const [runner, setRunner] = useState<{ chapterId: string; questions: readonly PracticeQuestion[] } | null>(null);
+  const totalQuestions = CHAPTERS.reduce((total, chapter) => total + practiceQuestionsForChapter(chapter.id).length, 0);
   if (runner) return <Runner runner={runner} onExit={() => setRunner(null)} />;
-  return <main className="resource-page homework-page"><section className="library-hero page-width"><div><p className="eyebrow"><FileQuestion size={16} /> Independent preparation</p><h1>Practice Questions</h1><p>Fifteen fresh questions per chapter: five foundational, five homework-level, and five application challenges.</p></div><div className="library-hero-stat"><strong>{CHAPTERS.length * 15}</strong><span>separate practice questions</span></div></section><section className="page-width homework-guidance"><div><FileQuestion /><strong>Separate from homework</strong><span>These prompts and answers never reuse the homework questions.</span></div><div><Check /><strong>Immediate feedback</strong><span>Check each response to see the answer and solution path.</span></div><div><CircleHelp /><strong>Chapter-based</strong><span>Practice follows the course concepts, terms, and methods.</span></div></section><section className="page-width chapter-section"><div className="section-heading"><div><p className="eyebrow">Choose a chapter</p><h2>Practice by course chapter</h2></div><p>Practice progress is separate from homework completion and analytics.</p></div><div className="chapter-grid">{CHAPTERS.map((chapter) => <article className="chapter-card" key={chapter.id}><div className="chapter-card-top"><span className="chapter-number">CH {String(chapter.courseNumber).padStart(2, "0")}</span><span className="chapter-status">Practice</span></div><h3>{chapter.courseTitle}</h3><p>{"Yates 3e Ch. " + chapter.yatesChapterNumber + ": " + chapter.yatesChapterTitle}</p><div className="chapter-metrics"><span><strong>15</strong> questions</span><span><strong>5</strong> core</span><span><strong>5</strong> challenge</span></div><button className="primary-button full" onClick={() => setRunner({ chapterId: chapter.id, questions: practiceQuestionsForChapter(chapter.id) })}>Start practice <ArrowRight size={17} /></button></article>)}</div></section></main>;
+  return <main className="resource-page homework-page">
+    <section className="library-hero page-width">
+      <div>
+        <p className="eyebrow"><FileQuestion size={16} /> Independent preparation</p>
+        <h1>Practice Questions</h1>
+        <p>Variable chapter-specific pools that use the chapter&apos;s concepts, terminology, and distinctions—not a fixed quota.</p>
+      </div>
+      <div className="library-hero-stat"><strong>{totalQuestions}</strong><span>separate practice questions</span></div>
+    </section>
+    <section className="page-width homework-guidance">
+      <div><FileQuestion /><strong>Separate from homework</strong><span>These prompts and answers never reuse the homework questions.</span></div>
+      <div><Check /><strong>Immediate feedback</strong><span>Check each response to see the answer and solution path.</span></div>
+      <div><CircleHelp /><strong>Source-based coverage</strong><span>Each chapter gets as many questions as its available concepts support.</span></div>
+    </section>
+    <section className="page-width chapter-section">
+      <div className="section-heading"><div><p className="eyebrow">Choose a chapter</p><h2>Practice by course chapter</h2></div><p>Practice progress is separate from homework completion and analytics.</p></div>
+      <div className="chapter-grid">{CHAPTERS.map((chapter) => {
+        const chapterQuestions = practiceQuestionsForChapter(chapter.id);
+        const questionCount = chapterQuestions.length;
+        const levelCount = new Set(chapterQuestions.map((question) => question.level)).size;
+        return <article className="chapter-card" key={chapter.id}>
+          <div className="chapter-card-top"><span className="chapter-number">CH {String(chapter.courseNumber).padStart(2, "0")}</span><span className="chapter-status">Practice</span></div>
+          <h3>{chapter.courseTitle}</h3>
+          <p>{"Yates 3e Ch. " + chapter.yatesChapterNumber + ": " + chapter.yatesChapterTitle}</p>
+          <div className="chapter-metrics"><span><strong>{questionCount}</strong> questions</span><span><strong>{levelCount}</strong> levels</span><span><strong>varied</strong> coverage</span></div>
+          <button className="primary-button full" onClick={() => setRunner({ chapterId: chapter.id, questions: practiceQuestionsForChapter(chapter.id) })}>Start practice <ArrowRight size={17} /></button>
+        </article>;
+      })}</div>
+    </section>
+  </main>;
 }
 
 function Runner({ runner, onExit }: { runner: { chapterId: string; questions: readonly PracticeQuestion[] }; onExit: () => void }) {

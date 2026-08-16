@@ -26,7 +26,6 @@ import {
 import { KEY_INFORMATION } from "../app/keyInformationData.ts";
 import {
   PRACTICE_QUESTIONS,
-  PRACTICE_QUESTIONS_PER_CHAPTER,
   practiceQuestionsForChapter,
 } from "../app/practiceQuestionsData.ts";
 import {
@@ -199,16 +198,20 @@ test("key information records preserve only available chapter-end source materia
   }
 });
 
-test("practice questions provide an independent 5/5/5 set for every course chapter", () => {
-  assert.equal(PRACTICE_QUESTIONS.length, CHAPTERS.length * PRACTICE_QUESTIONS_PER_CHAPTER);
+test("practice questions provide variable, non-duplicated chapter-specific coverage", () => {
+  assert.ok(PRACTICE_QUESTIONS.length > CHAPTERS.length);
+  const chapterCounts = new Set();
+
   for (const chapter of CHAPTERS) {
     const questions = practiceQuestionsForChapter(chapter.id);
-    assert.equal(questions.length, 15);
-    assert.equal(questions.filter((question) => question.level === "foundation").length, 5);
-    assert.equal(questions.filter((question) => question.level === "homework-level").length, 5);
-    assert.equal(questions.filter((question) => question.level === "application").length, 5);
-    assert.ok(questions.every((question) => question.options.length === 4 && question.explanation.includes("Step 1:")));
+    chapterCounts.add(questions.length);
+    assert.ok(questions.length > 0);
+    assert.equal(new Set(questions.map((question) => question.stem + question.options[question.correctIndex])).size, questions.length);
+    assert.ok(questions.every((question) => question.options.length === 4 && question.explanation.includes(question.options[question.correctIndex])));
   }
+
+  assert.ok(chapterCounts.size > 1);
+  assert.ok(new Set(PRACTICE_QUESTIONS.map((question) => question.correctIndex)).size >= 3);
 });
 
 test("every homework and review item is complete, uniquely keyed, and answerable", () => {
