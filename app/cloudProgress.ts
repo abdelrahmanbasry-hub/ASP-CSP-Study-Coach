@@ -6,18 +6,6 @@ import {
   type LearnerStateDocument,
 } from "./cloudProgressProtocol";
 
-export type CloudIdentity =
-  | {
-      authenticated: false;
-      signInPath: string;
-    }
-  | {
-      authenticated: true;
-      displayName: string;
-      email: string;
-      signOutPath: string;
-    };
-
 type LoadCloudProgressResponse<T extends object> = {
   authenticated: true;
   progress: CloudProgressSnapshot<T> | null;
@@ -54,21 +42,12 @@ export class CloudProgressRequestError<
   }
 }
 
-export async function loadCloudIdentity(
-  signal?: AbortSignal,
-): Promise<CloudIdentity> {
-  return fetchJson<CloudIdentity>("/api/auth/identity", {
-    method: "GET",
-    signal,
-  });
-}
-
 export async function loadCloudProgress<
   T extends object,
->(signal?: AbortSignal): Promise<CloudProgressSnapshot<T> | null> {
+>(accessToken: string, signal?: AbortSignal): Promise<CloudProgressSnapshot<T> | null> {
   const response = await fetchJson<LoadCloudProgressResponse<T>>(
     "/api/cloud-progress",
-    { method: "GET", signal },
+    { method: "GET", accessToken, signal },
   );
   return response.progress;
 }
@@ -82,8 +61,9 @@ export async function saveCloudProgress<T extends object>(
   expectedRevision: number,
   options: {
     schemaVersion?: number;
+    accessToken: string;
     signal?: AbortSignal;
-  } = {},
+  },
 ): Promise<CloudProgressSnapshot<T>> {
   const response = await fetchJson<SaveCloudProgressResponse<T>>(
     "/api/cloud-progress",
@@ -95,29 +75,27 @@ export async function saveCloudProgress<T extends object>(
         schemaVersion:
           options.schemaVersion ?? CLOUD_PROGRESS_SCHEMA_VERSION,
       }),
+      accessToken: options.accessToken,
       signal: options.signal,
     },
   );
   return response.progress;
 }
 
-export function chatGPTSignInHref(returnTo = "/"): string {
-  const safeReturnTo = safeRelativeReturnPath(returnTo);
-  return `/signin-with-chatgpt?return_to=${encodeURIComponent(safeReturnTo)}`;
-}
-
 async function fetchJson<T>(
   input: RequestInfo | URL,
-  init: RequestInit,
+  init: RequestInit & { accessToken?: string },
 ): Promise<T> {
+  const { accessToken, ...requestInit } = init;
   const response = await fetch(input, {
-    ...init,
+    ...requestInit,
     credentials: "same-origin",
     cache: "no-store",
     headers: {
       Accept: "application/json",
-      ...(init.body ? { "Content-Type": "application/json" } : {}),
-      ...init.headers,
+      ...(requestInit.body ? { "Content-Type": "application/json" } : {}),
+      ...(accessToken ? { Authorization: `Bearer ${accessToken}` } : {}),
+      ...requestInit.headers,
     },
   });
 
@@ -136,17 +114,4 @@ async function fetchJson<T>(
   }
 
   return payload as T;
-}
-
-function safeRelativeReturnPath(value: string): string {
-  if (!value.startsWith("/") || value.startsWith("//")) return "/";
-
-  try {
-    const url = new URL(value, "https://app.local");
-    return url.origin === "https://app.local"
-      ? `${url.pathname}${url.search}${url.hash}`
-      : "/";
-  } catch {
-    return "/";
-  }
 }

@@ -5,6 +5,43 @@ import {
   MAX_CLOUD_PROGRESS_BYTES,
   parseCloudProgressWrite,
 } from "../app/cloudProgressProtocol.ts";
+import {
+  authenticateSupabaseRequest,
+  bearerAccessToken,
+  requireSupabaseUser,
+} from "../app/supabase-auth.ts";
+
+test("cloud progress rejects missing and invalid Supabase bearer tokens", async () => {
+  let calls = 0;
+  const verifier = async () => {
+    calls += 1;
+    return null;
+  };
+  assert.equal(await authenticateSupabaseRequest(new Request("https://app.test/api/cloud-progress"), verifier), null);
+  assert.equal(calls, 0);
+  const unauthenticated = await requireSupabaseUser(new Request("https://app.test/api/cloud-progress"), verifier);
+  assert.ok(unauthenticated instanceof Response);
+  assert.equal(unauthenticated.status, 401);
+  assert.equal(bearerAccessToken(new Request("https://app.test", { headers: { authorization: "Token invalid" } })), null);
+  assert.equal(await authenticateSupabaseRequest(new Request("https://app.test", { headers: { authorization: "Bearer invalid" } }), verifier), null);
+  assert.equal(calls, 1);
+  const invalid = await requireSupabaseUser(new Request("https://app.test", { headers: { authorization: "Bearer invalid" } }), verifier);
+  assert.ok(invalid instanceof Response);
+  assert.equal(invalid.status, 401);
+});
+
+test("cloud progress derives ownership from the verified Supabase token, never request JSON", async () => {
+  const request = new Request("https://app.test/api/cloud-progress", {
+    method: "PUT",
+    headers: { authorization: "Bearer verified-session-token", "content-type": "application/json" },
+    body: JSON.stringify({ userId: "another-users-id", state: { progress: true }, schemaVersion: 1, expectedRevision: 0 }),
+  });
+  const user = await authenticateSupabaseRequest(request, async (token) => token === "verified-session-token"
+    ? { id: "verified-supabase-uuid", email: "learner@example.com", displayName: "Learner" }
+    : null);
+  assert.equal(user?.id, "verified-supabase-uuid");
+  assert.notEqual(user?.id, "another-users-id");
+});
 
 test("cloud progress accepts compact, versioned learner state", () => {
   const result = parseCloudProgressWrite({

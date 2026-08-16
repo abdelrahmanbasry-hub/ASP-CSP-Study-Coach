@@ -77,12 +77,11 @@ import {
 } from "./learningProgress";
 import {
   CloudProgressRequestError,
-  chatGPTSignInHref,
-  loadCloudIdentity,
   loadCloudProgress,
   saveCloudProgress,
-  type CloudIdentity,
 } from "./cloudProgress";
+import { getSupabaseBrowserClient } from "./supabase-client";
+import type { Session } from "@supabase/supabase-js";
 
 type MainView = "study" | "homework" | "key-information" | "library" | "stats" | "review";
 type ActiveView = MainView | "quiz" | "results";
@@ -437,7 +436,8 @@ function masteryStatus(score: number, stableBlocks: number) {
 
 export default function AdaptiveCoach() {
   const [saved, setSaved] = useState<SavedState>(emptySavedState);
-  const [cloudIdentity, setCloudIdentity] = useState<CloudIdentity | null>(null);
+  const [supabaseSession, setSupabaseSession] = useState<Session | null>(null);
+  const [authReady, setAuthReady] = useState(false);
   const [cloudReady, setCloudReady] = useState(false);
   const [cloudStatus, setCloudStatus] = useState<"local" | "loading" | "synced" | "saving" | "conflict" | "offline">("loading");
   const [view, setView] = useState<ActiveView>("study");
@@ -541,17 +541,52 @@ export default function AdaptiveCoach() {
 
   useEffect(() => {
     if (!mounted) return;
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) {
+      queueMicrotask(() => {
+        setAuthReady(true);
+        setCloudStatus("local");
+        setCloudReady(true);
+      });
+      return;
+    }
+    let active = true;
+    void supabase.auth.getSession().then(({ data }) => {
+      if (!active) return;
+      setSupabaseSession(data.session);
+      setAuthReady(true);
+    }).catch(() => {
+      if (!active) return;
+      setSupabaseSession(null);
+      setAuthReady(true);
+    });
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, session) => {
+      setSupabaseSession(session);
+      setAuthReady(true);
+    });
+    return () => {
+      active = false;
+      subscription.unsubscribe();
+    };
+  }, [mounted]);
+
+  useEffect(() => {
+    if (!mounted || !authReady) return;
+    const accessToken = supabaseSession?.access_token;
+    if (!accessToken) {
+      cloudRevisionRef.current = null;
+      lastCloudPayloadRef.current = null;
+      queueMicrotask(() => {
+        setCloudStatus("local");
+        setCloudReady(true);
+      });
+      return;
+    }
     const controller = new AbortController();
     void (async () => {
+      setCloudReady(false);
       try {
-        const identity = await loadCloudIdentity(controller.signal);
-        setCloudIdentity(identity);
-        if (!identity.authenticated) {
-          setCloudStatus("local");
-          setCloudReady(true);
-          return;
-        }
-        const snapshot = await loadCloudProgress<SavedState>(controller.signal);
+        const snapshot = await loadCloudProgress<SavedState>(accessToken, controller.signal);
         if (snapshot) {
           const cloudState = normalizeSavedState(snapshot.state);
           const merged = mergeSavedStates(savedRef.current, cloudState);
@@ -569,10 +604,11 @@ export default function AdaptiveCoach() {
       }
     })();
     return () => controller.abort();
-  }, [mounted]);
+  }, [mounted, authReady, supabaseSession?.access_token]);
 
   useEffect(() => {
-    if (!mounted || !cloudReady || !cloudIdentity?.authenticated || cloudRevisionRef.current === null) return;
+    const accessToken = supabaseSession?.access_token;
+    if (!mounted || !cloudReady || !accessToken || cloudRevisionRef.current === null) return;
     const cloudState = cloudSafeState(saved);
     const serialized = JSON.stringify(cloudState);
     if (serialized === lastCloudPayloadRef.current) return;
@@ -581,7 +617,7 @@ export default function AdaptiveCoach() {
       setCloudStatus("saving");
       const expectedRevision = cloudRevisionRef.current;
       if (expectedRevision === null) return;
-      void saveCloudProgress(cloudState, expectedRevision, { signal: controller.signal })
+      void saveCloudProgress(cloudState, expectedRevision, { accessToken, signal: controller.signal })
         .then((snapshot) => {
           lastCloudPayloadRef.current = serialized;
           cloudRevisionRef.current = snapshot.revision;
@@ -603,7 +639,7 @@ export default function AdaptiveCoach() {
       window.clearTimeout(timer);
       controller.abort();
     };
-  }, [saved, mounted, cloudReady, cloudIdentity]);
+  }, [saved, mounted, cloudReady, supabaseSession?.access_token]);
 
   useEffect(() => {
     if (!mounted) return;
@@ -906,6 +942,26 @@ export default function AdaptiveCoach() {
     setView("study");
   }
 
+  async function signInWithGoogle() {
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) {
+      setCloudStatus("offline");
+      return;
+    }
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: window.location.origin },
+    });
+    if (error) setCloudStatus("offline");
+  }
+
+  async function signOut() {
+    const supabase = getSupabaseBrowserClient();
+    if (!supabase) return;
+    const { error } = await supabase.auth.signOut();
+    if (error) setCloudStatus("offline");
+  }
+
   if (!mounted) return <div className="app-loading"><BrainCircuit size={26} /> Calibrating your coach…</div>;
 
   if (view === "quiz" && currentQuestion) {
@@ -958,10 +1014,10 @@ export default function AdaptiveCoach() {
         </nav>
         <div className="topbar-meta">
           <span className="catalog-chip"><BrainCircuit size={15} /> {saved.seenQuestionIds[saved.activeExam].length.toLocaleString()} / 800 practice seen</span>
-          {cloudIdentity?.authenticated ? (
-            <div className="profile-control" title={`${cloudIdentity.displayName} · ${cloudStatus}`}><span>{cloudIdentity.displayName.slice(0, 2).toUpperCase()}</span><small>{cloudStatus === "saving" ? "Saving" : cloudStatus === "synced" ? "Synced" : cloudStatus === "offline" ? "Local" : "Cloud"}</small><a href={cloudIdentity.signOutPath}>Sign out</a></div>
+          {supabaseSession?.user ? (
+            <div className="profile-control" title={`${typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "Google user"} · ${cloudStatus}`}><span>{(typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "GU").slice(0, 2).toUpperCase()}</span><small>{cloudStatus === "saving" ? "Saving" : cloudStatus === "synced" ? "Synced" : cloudStatus === "offline" ? "Local" : "Cloud"}</small><button type="button" onClick={() => void signOut()}>Sign out</button></div>
           ) : (
-            <a className="signin-control" href={chatGPTSignInHref("/")}><span>Sign in</span><small>Sync progress</small></a>
+            <button type="button" className="signin-control" onClick={() => void signInWithGoogle()}><span>Sign in</span><small>Sync progress</small></button>
           )}
           <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-label="Toggle menu"><Menu /></button>
         </div>

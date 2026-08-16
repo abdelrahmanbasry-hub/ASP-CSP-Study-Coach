@@ -792,10 +792,11 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
   font-weight: 900;
 }
 .profile-control small, .signin-control small { color: #9fb2bc; font-size: 7px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
-.profile-control > a { grid-column: 2; color: #f0c471; font-size: 7px; font-weight: 800; text-decoration: none; }
-.profile-control > a:hover { text-decoration: underline; }
+.profile-control > a, .profile-control > button { grid-column: 2; padding: 0; border: 0; background: transparent; color: #f0c471; cursor: pointer; font: inherit; font-size: 7px; font-weight: 800; text-align: left; text-decoration: none; }
+.profile-control > a:hover, .profile-control > button:hover { text-decoration: underline; }
 .signin-control { min-width: 98px; grid-template-columns: 1fr; grid-template-rows: auto auto; padding-inline: 11px; }
 .signin-control > span { font-size: 10px; font-weight: 900; }
+button.signin-control { cursor: pointer; font-family: inherit; text-align: left; }
 
 summary:focus-visible, .library-tabs button:focus-visible, .hazard-switches button:focus-visible, .rating-row button:focus-visible {
   outline: 3px solid rgba(57,122,152,.3);

@@ -1,4 +1,5 @@
-import { getChatGPTUser } from "../../chatgpt-auth";
+import { requireSupabaseUser } from "../../supabase-auth";
+import { verifySupabaseAccessToken } from "../../supabase-server";
 import {
   MAX_CLOUD_PROGRESS_REQUEST_BYTES,
   parseCloudProgressWrite,
@@ -10,15 +11,22 @@ export const dynamic = "force-dynamic";
 
 const JSON_HEADERS = {
   "Cache-Control": "no-store",
-  Vary: "oai-authenticated-user-id",
 };
 
-export async function GET() {
-  const user = await getChatGPTUser();
-  if (!user) return authenticationRequired();
+async function authenticatedUser(request: Request) {
+  try {
+    return await requireSupabaseUser(request, verifySupabaseAccessToken);
+  } catch {
+    return authenticationRequired();
+  }
+}
+
+export async function GET(request: Request) {
+  const user = await authenticatedUser(request);
+  if (user instanceof Response) return user;
 
   try {
-    const progress = await readProgress(user.userId);
+    const progress = await readProgress(user.id);
     return Response.json(
       { authenticated: true, progress },
       { headers: JSON_HEADERS },
@@ -29,8 +37,8 @@ export async function GET() {
 }
 
 export async function PUT(request: Request) {
-  const user = await getChatGPTUser();
-  if (!user) return authenticationRequired();
+  const user = await authenticatedUser(request);
+  if (user instanceof Response) return user;
 
   const declaredLength = Number(request.headers.get("content-length") ?? "0");
   if (
@@ -62,7 +70,7 @@ export async function PUT(request: Request) {
   if (!parsed.ok) return validationError(parsed.error);
 
   try {
-    const progress = await writeProgress<LearnerStateDocument>(user.userId, {
+    const progress = await writeProgress<LearnerStateDocument>(user.id, {
       stateJson: parsed.value.stateJson,
       schemaVersion: parsed.value.schemaVersion,
       expectedRevision: parsed.value.expectedRevision,
@@ -72,7 +80,7 @@ export async function PUT(request: Request) {
       return Response.json({ progress }, { headers: JSON_HEADERS });
     }
 
-    const current = await readProgress(user.userId);
+    const current = await readProgress(user.id);
     return Response.json(
       {
         error: "revision_conflict",
@@ -92,7 +100,7 @@ function authenticationRequired(): Response {
     {
       authenticated: false,
       error: "authentication_required",
-      message: "Sign in with ChatGPT to use cloud progress.",
+      message: "Sign in with Google to sync your progress.",
     },
     { status: 401, headers: JSON_HEADERS },
   );

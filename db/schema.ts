@@ -2,9 +2,9 @@ import { sql } from "drizzle-orm";
 import { integer, sqliteTable, text } from "drizzle-orm/sqlite-core";
 
 /**
- * One compact, versioned learner-state document per authenticated ChatGPT user.
- * The user ID is supplied by the Sites dispatcher and is never accepted from
- * the browser as an ownership key.
+ * One compact, versioned learner-state document per verified Supabase user.
+ * The Worker derives the UUID from the validated bearer token and never
+ * accepts a browser-supplied ownership key.
  */
 export const learnerProgress = sqliteTable("learner_progress", {
   userId: text("user_id").primaryKey(),
