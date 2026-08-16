@@ -4,6 +4,10 @@ import type {
   CloudProgressSnapshot,
   LearnerStateDocument,
 } from "../../cloudProgressProtocol";
+import {
+  resetProgressForAuthenticatedUser,
+  type ResetProgressSnapshot,
+} from "../../cloudProgressReset";
 
 type ProgressRow = {
   state_json: string;
@@ -75,6 +79,16 @@ export async function writeProgress<T extends object = LearnerStateDocument>(
 
   const row = await statement.first<ProgressRow>();
   return row ? rowToSnapshot<T>(row) : null;
+}
+
+/**
+ * Reset is intentionally scoped by the verified Supabase subject. It is not a
+ * global delete: the empty row also advances the revision to reject stale PUTs.
+ */
+export function resetProgress(
+  authenticatedUserId: string,
+): Promise<ResetProgressSnapshot> {
+  return resetProgressForAuthenticatedUser(getProgressDatabase(), authenticatedUserId);
 }
 
 function rowToSnapshot<T extends object>(

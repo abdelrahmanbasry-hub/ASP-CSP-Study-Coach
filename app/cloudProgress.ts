@@ -16,6 +16,11 @@ type SaveCloudProgressResponse<T extends object> = {
   progress: CloudProgressSnapshot<T>;
 };
 
+type ResetCloudProgressResponse = {
+  reset: true;
+  progress: CloudProgressSnapshot<Record<string, never>>;
+};
+
 type CloudProgressErrorPayload<T extends object> = {
   error?: string;
   message?: string;
@@ -79,6 +84,18 @@ export async function saveCloudProgress<T extends object>(
       accessToken: options.accessToken,
       signal: options.signal,
     },
+  );
+  return response.progress;
+}
+
+/** Resets the signed-in user's cloud document using their Supabase bearer token. */
+export async function resetCloudProgress(
+  accessToken: string,
+  signal?: AbortSignal,
+): Promise<CloudProgressSnapshot<Record<string, never>>> {
+  const response = await fetchJson<ResetCloudProgressResponse>(
+    "/api/cloud-progress",
+    { method: "DELETE", accessToken, signal },
   );
   return response.progress;
 }

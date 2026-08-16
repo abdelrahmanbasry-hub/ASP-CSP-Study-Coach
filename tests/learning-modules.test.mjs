@@ -175,13 +175,22 @@ test("homework catalog preserves the supplied chapter manifest and exact counts"
   }
 });
 
-test("key information tab provides independent study notes for every Yates chapter", () => {
+test("key information records preserve only available chapter-end source material", () => {
   assert.equal(KEY_INFORMATION.length, 35);
   assert.deepEqual(KEY_INFORMATION.map((chapter) => chapter.chapter), Array.from({ length: 35 }, (_, index) => index + 1));
+  const verified = KEY_INFORMATION.filter((chapter) => chapter.sourceStatus === "verified");
+  const unavailable = KEY_INFORMATION.filter((chapter) => chapter.sourceStatus === "section-not-present");
+  assert.equal(verified.length, 24);
+  assert.equal(unavailable.length, 11);
   for (const chapter of KEY_INFORMATION) {
     assert.ok(chapter.title.trim().length > 0);
-    assert.equal(chapter.takeaways.length, 3);
-    assert.ok(chapter.takeaways.every((takeaway) => takeaway.trim().length > 30));
+    if (chapter.sourceStatus === "verified") {
+      assert.ok(chapter.sourcePages?.length);
+      assert.ok(chapter.points.length > 0);
+      assert.ok(chapter.points.every((point) => point.trim().length > 10));
+    } else {
+      assert.deepEqual(chapter.points, []);
+    }
   }
 });
 

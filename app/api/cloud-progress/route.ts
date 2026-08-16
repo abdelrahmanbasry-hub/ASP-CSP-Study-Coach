@@ -5,7 +5,7 @@ import {
   parseCloudProgressWrite,
   type LearnerStateDocument,
 } from "../../cloudProgressProtocol";
-import { readProgress, writeProgress } from "./progress-store";
+import { readProgress, resetProgress, writeProgress } from "./progress-store";
 
 export const dynamic = "force-dynamic";
 
@@ -106,6 +106,26 @@ export async function PUT(request: Request) {
       userId: user.id,
       expectedRevision: parsed.value.expectedRevision,
       stateBytes: new TextEncoder().encode(parsed.value.stateJson).byteLength,
+      error: errorMessage(error),
+    });
+    return storageUnavailable();
+  }
+}
+
+/**
+ * Replaces the authenticated user's persisted document with an empty state.
+ * No browser-controlled user ID is accepted or consulted.
+ */
+export async function DELETE(request: Request) {
+  const user = await authenticatedUser(request);
+  if (user instanceof Response) return user;
+
+  try {
+    const progress = await resetProgress(user.id);
+    return Response.json({ progress, reset: true }, { headers: JSON_HEADERS });
+  } catch (error) {
+    console.error("Cloud progress reset failed.", {
+      userId: user.id,
       error: errorMessage(error),
     });
     return storageUnavailable();

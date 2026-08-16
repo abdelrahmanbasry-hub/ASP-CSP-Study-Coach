@@ -28,6 +28,7 @@ import {
   Target,
   TrendingUp,
   Trophy,
+  RotateCcw,
   X,
   Zap,
 } from "lucide-react";
@@ -78,9 +79,11 @@ import {
 import {
   CloudProgressRequestError,
   loadCloudProgress,
+  resetCloudProgress,
   saveCloudProgress,
 } from "./cloudProgress";
 import { getSupabaseBrowserClient } from "./supabase-client";
+import { clearLocalProgress } from "./localProgressReset";
 import type { Session } from "@supabase/supabase-js";
 
 type MainView = "study" | "homework" | "key-information" | "library" | "stats" | "review";
@@ -440,6 +443,8 @@ export default function AdaptiveCoach() {
   const [authReady, setAuthReady] = useState(false);
   const [cloudReady, setCloudReady] = useState(false);
   const [cloudStatus, setCloudStatus] = useState<"local" | "loading" | "synced" | "saving" | "conflict" | "offline">("loading");
+  const [resetDialogOpen, setResetDialogOpen] = useState(false);
+  const [resettingProgress, setResettingProgress] = useState(false);
   const [view, setView] = useState<ActiveView>("study");
   const [navOpen, setNavOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
@@ -468,6 +473,8 @@ export default function AdaptiveCoach() {
   const savedRef = useRef(saved);
   const cloudRevisionRef = useRef<number | null>(null);
   const lastCloudPayloadRef = useRef<string | null>(null);
+  const cloudOperationEpochRef = useRef(0);
+  const resetInFlightRef = useRef(false);
   const activeConfig = EXAM_CONFIGS[saved.activeExam];
   const activeMastery = saved.mastery[saved.activeExam];
   const activeAttempts = saved.attempts.filter((attempt) => attempt.exam === saved.activeExam);
@@ -583,10 +590,12 @@ export default function AdaptiveCoach() {
       return;
     }
     const controller = new AbortController();
+    const requestEpoch = cloudOperationEpochRef.current;
     void (async () => {
       setCloudReady(false);
       try {
         const snapshot = await loadCloudProgress<SavedState>(accessToken, controller.signal);
+        if (controller.signal.aborted || requestEpoch !== cloudOperationEpochRef.current) return;
         if (snapshot) {
           const cloudState = normalizeSavedState(snapshot.state);
           const merged = mergeSavedStates(savedRef.current, cloudState);
@@ -599,6 +608,7 @@ export default function AdaptiveCoach() {
         setCloudStatus("synced");
         setCloudReady(true);
       } catch (error: unknown) {
+        if (controller.signal.aborted || requestEpoch !== cloudOperationEpochRef.current) return;
         console.error("Cloud progress could not be loaded.", describeCloudProgressError(error));
         setCloudStatus("offline");
         setCloudReady(true);
@@ -614,17 +624,21 @@ export default function AdaptiveCoach() {
     const serialized = JSON.stringify(cloudState);
     if (serialized === lastCloudPayloadRef.current) return;
     const controller = new AbortController();
+    const requestEpoch = cloudOperationEpochRef.current;
     const timer = window.setTimeout(() => {
+      if (resetInFlightRef.current || requestEpoch !== cloudOperationEpochRef.current) return;
       setCloudStatus("saving");
       const expectedRevision = cloudRevisionRef.current;
       if (expectedRevision === null) return;
       void saveCloudProgress(cloudState, expectedRevision, { accessToken, signal: controller.signal })
         .then((snapshot) => {
+          if (controller.signal.aborted || requestEpoch !== cloudOperationEpochRef.current) return;
           lastCloudPayloadRef.current = serialized;
           cloudRevisionRef.current = snapshot.revision;
           setCloudStatus("synced");
         })
         .catch((error: unknown) => {
+          if (controller.signal.aborted || requestEpoch !== cloudOperationEpochRef.current) return;
           if (error instanceof CloudProgressRequestError && error.status === 409 && error.current) {
             const remoteState = normalizeSavedState(error.current.state as Partial<SavedState>);
             lastCloudPayloadRef.current = JSON.stringify(cloudSafeState(remoteState));
@@ -964,6 +978,46 @@ export default function AdaptiveCoach() {
     if (error) setCloudStatus("offline");
   }
 
+  async function resetProgress() {
+    const accessToken = supabaseSession?.access_token;
+    if (!accessToken || resettingProgress) return;
+
+    // Invalidate pending reads and autosaves before asking the server to reset.
+    // The server also advances the document revision, so stale saves conflict.
+    cloudOperationEpochRef.current += 1;
+    resetInFlightRef.current = true;
+    setResettingProgress(true);
+    setCloudReady(false);
+    setCloudStatus("saving");
+    try {
+      const snapshot = await resetCloudProgress(accessToken);
+      const initialState = emptySavedState();
+      clearLocalProgress(window.localStorage, STORAGE_KEY, ACTIVE_SESSION_KEY);
+      cloudRevisionRef.current = snapshot.revision;
+      lastCloudPayloadRef.current = JSON.stringify(cloudSafeState(initialState));
+      setSaved(initialState);
+      setQuestions([]);
+      setAnswers({});
+      setConfidence({});
+      setSecondsByQuestion({});
+      setFlagged([]);
+      setSessionStartedAt(0);
+      setElapsed(0);
+      setSetupMode(null);
+      setView("study");
+      setResetDialogOpen(false);
+      setCloudStatus("synced");
+    } catch (error: unknown) {
+      console.error("Cloud progress could not be reset.", describeCloudProgressError(error));
+      // Keep both local state and the dialog intact; no cloud-success claim is made.
+      setCloudStatus("offline");
+    } finally {
+      resetInFlightRef.current = false;
+      setResettingProgress(false);
+      setCloudReady(true);
+    }
+  }
+
   if (!mounted) return <div className="app-loading"><BrainCircuit size={26} /> Calibrating your coach…</div>;
 
   if (view === "quiz" && currentQuestion) {
@@ -1017,7 +1071,7 @@ export default function AdaptiveCoach() {
         <div className="topbar-meta">
           <span className="catalog-chip"><BrainCircuit size={15} /> {saved.seenQuestionIds[saved.activeExam].length.toLocaleString()} / 800 practice seen</span>
           {supabaseSession?.user ? (
-            <div className="profile-control" title={`${typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "Google user"} · ${cloudStatus}`}><span>{(typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "GU").slice(0, 2).toUpperCase()}</span><small>{cloudStatus === "saving" ? "Saving" : cloudStatus === "synced" ? "Synced" : cloudStatus === "offline" ? "Local" : "Cloud"}</small><button type="button" onClick={() => void signOut()}>Sign out</button></div>
+            <div className="profile-control" title={`${typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "Google user"} · ${cloudStatus}`}><span>{(typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "GU").slice(0, 2).toUpperCase()}</span><small>{cloudStatus === "saving" ? "Saving" : cloudStatus === "synced" ? "Synced" : cloudStatus === "offline" ? "Local" : "Cloud"}</small><div className="profile-actions"><button type="button" onClick={() => setResetDialogOpen(true)}>Reset progress</button><button type="button" onClick={() => void signOut()}>Sign out</button></div></div>
           ) : (
             <button type="button" className="signin-control" onClick={() => void signInWithGoogle()}><span>Sign in</span><small>Sync progress</small></button>
           )}
@@ -1067,6 +1121,17 @@ export default function AdaptiveCoach() {
           onHome={() => navigate("study")}
           onRetry={() => startSession("weakest")}
         />
+      )}
+      {resetDialogOpen && (
+        <div className="modal-backdrop" role="presentation">
+          <section className="modal reset-progress-modal" role="dialog" aria-modal="true" aria-labelledby="reset-progress-title">
+            <button className="icon-button modal-close" type="button" onClick={() => setResetDialogOpen(false)} disabled={resettingProgress} aria-label="Cancel reset"><X /></button>
+            <div className="modal-icon"><RotateCcw /></div>
+            <h2 id="reset-progress-title">Reset your progress?</h2>
+            <p className="modal-lead">This permanently erases your saved study progress from this browser and from your signed-in cloud profile. Your account will stay signed in.</p>
+            <div className="modal-actions"><button className="secondary-button" type="button" onClick={() => setResetDialogOpen(false)} disabled={resettingProgress}>Cancel</button><button className="danger-button" type="button" onClick={() => void resetProgress()} disabled={resettingProgress}>{resettingProgress ? "Resetting…" : "Reset progress"}</button></div>
+          </section>
+        </div>
       )}
 
       {setupMode && (
