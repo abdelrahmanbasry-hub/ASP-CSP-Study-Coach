@@ -18,7 +18,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const host = incoming.get("x-forwarded-host") ?? incoming.get("host") ?? "localhost:3000";
   const protocol = incoming.get("x-forwarded-proto") ?? (host.startsWith("localhost") ? "http" : "https");
   const base = new URL(`${protocol}://${host}`);
-  const title = "ASP + CSP // Coach — Adaptive Exam Readiness & Chapter Study";
+  const title = "ASP & CSP Study Hub";
   const description =
     "Adaptive ASP/CSP drills, chapter homework, spaced flashcards, a smart formula sheet, bilingual hazard references, and cloud-synced progress for safety professionals.";
   return {
