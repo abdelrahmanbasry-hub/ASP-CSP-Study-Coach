@@ -144,8 +144,8 @@ export default function HomeworkHub({
 
       {pending.length > 0 && (
         <section className="page-width coming-section">
-          <div className="section-heading"><div><p className="eyebrow">Planned library</p><h2>Coming when you add the remaining files</h2></div></div>
-          <div className="coming-grid">{pending.map((chapter) => <div key={chapter.id}><span>CH {String(chapter.courseNumber).padStart(2, "0")}</span><strong>{chapter.courseTitle}</strong><small>Homework file not supplied yet</small></div>)}</div>
+          <div className="section-heading"><div><p className="eyebrow">Planned library</p><h2>Still waiting for source material</h2></div></div>
+          <div className="coming-grid">{pending.map((chapter) => <div key={chapter.id}><span>CH {String(chapter.courseNumber).padStart(2, "0")}</span><strong>{chapter.courseTitle}</strong><small>Homework source not supplied yet</small></div>)}</div>
         </section>
       )}
     </main>

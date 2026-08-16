@@ -749,6 +749,21 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .reference-note { margin: 13px 0 0; padding: 12px; display: flex; align-items: flex-start; gap: 8px; border-radius: 7px; background: #eef2f3; color: var(--muted); font-size: 9px; line-height: 1.5; }
 .reference-note svg { flex: 0 0 auto; color: var(--ink-2); }
 
+.key-information-content { padding-top: 30px; }
+.key-information-toolbar { margin-top: 20px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(240px, 360px); gap: 10px; }
+.key-information-toolbar label { min-height: 44px; padding: 0 13px; display: flex; align-items: center; gap: 9px; border: 1px solid #ccd4d6; border-radius: 7px; background: white; color: var(--muted); }
+.key-information-toolbar label:focus-within { outline: 3px solid rgba(57,122,152,.2); border-color: #6e919e; }
+.key-information-toolbar input, .key-information-toolbar select { width: 100%; min-height: 42px; border: 0; outline: 0; background: transparent; color: var(--ink); font: inherit; font-size: 11px; }
+.key-information-toolbar select { padding: 0 11px; border: 1px solid #ccd4d6; border-radius: 7px; background: white; cursor: pointer; }
+.key-information-count { margin: 18px 0 12px; color: var(--muted); font-size: 10px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.key-information-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.key-information-card { min-height: 240px; padding: 22px; border: 1px solid var(--line); border-top: 4px solid var(--gold); border-radius: 11px; background: var(--card); box-shadow: 0 8px 26px rgba(23,48,66,.035); }
+.key-information-card > span { color: var(--gold-dark); font-size: 9px; font-weight: 900; letter-spacing: .1em; }
+.key-information-card h2 { margin: 9px 0 15px; font-size: 20px; letter-spacing: -.02em; }
+.key-information-card ul { margin: 0; padding: 0; display: grid; gap: 11px; list-style: none; }
+.key-information-card li { display: grid; grid-template-columns: 17px minmax(0, 1fr); gap: 8px; color: #465f6c; font-size: 11px; line-height: 1.55; }
+.key-information-card li svg { color: #2f7860; margin-top: 1px; }
+
 .profile-control, .signin-control {
   min-height: 40px;
   padding: 5px 8px;
@@ -804,6 +819,7 @@ summary:focus-visible, .library-tabs button:focus-visible, .hazard-switches butt
   .homework-guidance > div { min-height: 80px; }
   .coming-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .formula-grid { grid-template-columns: 1fr; }
+  .key-information-grid { grid-template-columns: 1fr; }
   .formula-card summary { min-height: 116px; }
   .resource-filters:not(.single) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .resource-filters:not(.single) label { grid-column: 1 / -1; }
@@ -850,6 +866,7 @@ summary:focus-visible, .library-tabs button:focus-visible, .hazard-switches butt
   .flashcard-nav .secondary-button { padding-inline: 11px; font-size: 10px; }
   .rating-row { grid-template-columns: repeat(2, 1fr); }
   .resource-filters { grid-template-columns: 1fr; }
+  .key-information-toolbar { grid-template-columns: 1fr; }
   .resource-filters select { width: 100%; max-width: none; }
   .hazard-switches { align-items: stretch; flex-direction: column; }
   .hazard-switches > div { overflow-x: auto; }

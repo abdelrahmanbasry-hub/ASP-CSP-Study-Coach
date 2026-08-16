@@ -68,6 +68,7 @@ import {
   type SessionQuestion,
 } from "./adaptiveEngine";
 import HomeworkHub from "./HomeworkHub";
+import KeyInformation from "./KeyInformation";
 import StudyLibrary from "./StudyLibrary";
 import {
   emptyLearningProgress,
@@ -83,7 +84,7 @@ import {
   type CloudIdentity,
 } from "./cloudProgress";
 
-type MainView = "study" | "homework" | "library" | "stats" | "review";
+type MainView = "study" | "homework" | "key-information" | "library" | "stats" | "review";
 type ActiveView = MainView | "quiz" | "results";
 type ExamTrack = "ASP" | "CSP";
 type DomainId = string;
@@ -950,6 +951,7 @@ export default function AdaptiveCoach() {
         <nav className={navOpen ? "main-nav open" : "main-nav"} aria-label="Main navigation">
           <button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard size={17} /> Study</button>
           <button className={view === "homework" ? "active" : ""} onClick={() => navigate("homework")}><BookOpenCheck size={17} /> Homework</button>
+          <button className={view === "key-information" ? "active" : ""} onClick={() => navigate("key-information")}><BookOpenCheck size={17} /> Key Info</button>
           <button className={view === "library" ? "active" : ""} onClick={() => navigate("library")}><Library size={17} /> Library</button>
           <button className={view === "stats" ? "active" : ""} onClick={() => navigate("stats")}><BarChart3 size={17} /> Analytics</button>
           <button className={view === "review" ? "active" : ""} onClick={() => navigate("review")}><BookOpenCheck size={17} /> Review</button>
@@ -980,6 +982,7 @@ export default function AdaptiveCoach() {
       )}
       {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} mockExposures={saved.mockExposures[saved.activeExam]} overall={overall} onStudy={() => navigate("study")} />}
       {view === "homework" && <HomeworkHub progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
+      {view === "key-information" && <KeyInformation />}
       {view === "library" && <StudyLibrary progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
       {view === "review" && (
         <Review

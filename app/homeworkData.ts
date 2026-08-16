@@ -54,30 +54,32 @@ const READY_CHAPTERS: readonly ChapterDefinition[] = [
   { id: "ch-17", courseNumber: 17, courseTitle: "Mechanics", yatesChapterNumber: 15, yatesChapterTitle: "Mechanics", sourcePdf: "Ch-17&18 Homework Answers.pdf", sourcePages: [2, 3, 5, 6, 7, 9, 10, 11], status: "ready" },
   { id: "ch-18", courseNumber: 18, courseTitle: "Hydraulics", yatesChapterNumber: 16, yatesChapterTitle: "Hydrostatics and Hydraulics", sourcePdf: "Ch-17&18 Homework Answers.pdf", sourcePages: [4, 8, 12], status: "ready" },
   { id: "ch-19", courseNumber: 19, courseTitle: "Safety Training", yatesChapterNumber: 17, yatesChapterTitle: "Training", sourcePdf: "Ch-19 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
+  { id: "ch-08", courseNumber: 8, courseTitle: "Industrial Hygiene Air Sampling", yatesChapterNumber: 6, yatesChapterTitle: "Industrial Hygiene Air Sampling", sourcePdf: "Ch-8 Industrial Hyigiene Air Sampling Homework Questions.docx", sourcePages: [1], status: "ready" },
+  { id: "ch-14", courseNumber: 14, courseTitle: "Personal Protective Equipment", yatesChapterNumber: 12, yatesChapterTitle: "Personal Protective Equipment", sourcePdf: "Ch-14 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
+  { id: "ch-20", courseNumber: 20, courseTitle: "Engineering Economics", yatesChapterNumber: 18, yatesChapterTitle: "Engineering Economics", sourcePdf: "Ch-20 & Project Management Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
+  { id: "ch-21", courseNumber: 21, courseTitle: "Management Theories", yatesChapterNumber: 19, yatesChapterTitle: "Management Theories", sourcePdf: "Ch-21 & 31 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7], status: "ready" },
+  { id: "ch-22", courseNumber: 22, courseTitle: "Accident Causation and Investigation", yatesChapterNumber: 20, yatesChapterTitle: "Accident Causation and Investigation Techniques", sourcePdf: "Ch-22 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], status: "ready" },
+  { id: "ch-24", courseNumber: 24, courseTitle: "Ergonomics", yatesChapterNumber: 22, yatesChapterTitle: "Ergonomics", sourcePdf: "Ch-24 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 13], status: "ready" },
+  { id: "ch-25", courseNumber: 25, courseTitle: "Construction Safety", yatesChapterNumber: 23, yatesChapterTitle: "Construction Safety", sourcePdf: "Ch-25&29 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8], status: "ready" },
+  { id: "ch-26", courseNumber: 26, courseTitle: "Risk Assessment and Management", yatesChapterNumber: 24, yatesChapterTitle: "Risk Assessment and Management", sourcePdf: "Ch-26 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
+  { id: "ch-27", courseNumber: 27, courseTitle: "Hazardous Materials Management", yatesChapterNumber: 25, yatesChapterTitle: "Hazardous Materials Management", sourcePdf: "Ch-27&34 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8], status: "ready" },
+  { id: "ch-28", courseNumber: 28, courseTitle: "Radiation Safety", yatesChapterNumber: 26, yatesChapterTitle: "Radiation Safety", sourcePdf: "Ch-28 Homework Answers .pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
+  { id: "ch-29", courseNumber: 29, courseTitle: "Walking and Working Surfaces", yatesChapterNumber: 27, yatesChapterTitle: "Walking and Working Surfaces", sourcePdf: "Ch-25&29 Homework Answers.pdf", sourcePages: [9, 10, 11, 12, 13, 14, 15], status: "ready" },
+  { id: "ch-30", courseNumber: 30, courseTitle: "Materials Handling and Storage", yatesChapterNumber: 28, yatesChapterTitle: "Materials Handling and Storage", sourcePdf: "Ch-30 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9], status: "ready" },
+  { id: "ch-31", courseNumber: 31, courseTitle: "Safety Management Systems", yatesChapterNumber: 29, yatesChapterTitle: "Safety Management System", sourcePdf: "Ch-21 & 31 Homework Answers.pdf", sourcePages: [2, 3, 4, 5], status: "ready" },
+  { id: "ch-32", courseNumber: 32, courseTitle: "Site Security", yatesChapterNumber: 30, yatesChapterTitle: "Site Security", sourcePdf: "Ch-32 & Ch-39 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7], status: "ready" },
+  { id: "ch-34", courseNumber: 34, courseTitle: "Measuring Health and Safety Performance", yatesChapterNumber: 32, yatesChapterTitle: "Measuring Health and Safety Performance", sourcePdf: "Ch-36 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
+  { id: "ch-35", courseNumber: 35, courseTitle: "Safety Program Auditing", yatesChapterNumber: 33, yatesChapterTitle: "Safety Program Auditing Techniques and Checklist", sourcePdf: "Ch-33 Homework Questions.docx", sourcePages: [1], status: "ready" },
+  { id: "ch-36", courseNumber: 36, courseTitle: "Environmental Management", yatesChapterNumber: 34, yatesChapterTitle: "Environmental Management", sourcePdf: "Ch-27&34 Homework Answers.pdf", sourcePages: [9, 10, 11, 12, 13], status: "ready" },
+  { id: "ch-38", courseNumber: 38, courseTitle: "Management of Change", yatesChapterNumber: 36, yatesChapterTitle: "Management of Change", sourcePdf: "Process Safety Management & Ch-38 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], status: "ready" },
+  { id: "ch-39", courseNumber: 39, courseTitle: "Emergency Management", yatesChapterNumber: 37, yatesChapterTitle: "Emergency Management", sourcePdf: "Ch-32 & Ch-39 Homework Answers.pdf", sourcePages: [8, 9, 10, 11, 12, 13], status: "ready" },
   { id: "ch-23", courseNumber: 23, courseTitle: "Workers' Compensation", yatesChapterNumber: 21, yatesChapterTitle: "Workers' Compensation", sourcePdf: "Ch-03 & Ch-23 Homework Answers.pdf", sourcePages: [4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
 ] as const;
 
 const COMING_LATER_CHAPTERS: readonly ChapterDefinition[] = [
   [1, "The Safety Profession and Exam Preparation", 1, "The Safety Profession and Preparing for the ASP/CSP Exam"],
-  [8, "Industrial Hygiene Air Sampling", 6, "Industrial Hygiene Air Sampling"],
   [9, "Ventilation", 7, "Ventilation"],
-  [14, "Personal Protective Equipment", 12, "Personal Protective Equipment"],
-  [20, "Engineering Economics", 18, "Engineering Economics"],
-  [21, "Management Theories", 19, "Management Theories"],
-  [22, "Accident Causation and Investigation", 20, "Accident Causation and Investigation Techniques"],
-  [24, "Ergonomics", 22, "Ergonomics"],
-  [25, "Construction Safety", 23, "Construction Safety"],
-  [26, "Risk Assessment and Management", 24, "Risk Assessment and Management"],
-  [27, "Hazardous Materials Management", 25, "Hazardous Materials Management"],
-  [28, "Radiation Safety", 26, "Radiation Safety"],
-  [29, "Walking and Working Surfaces", 27, "Walking and Working Surfaces"],
-  [30, "Materials Handling and Storage", 28, "Materials Handling and Storage"],
-  [31, "Safety Management Systems", 29, "Safety Management System"],
-  [32, "Site Security", 30, "Site Security"],
   [33, "Behavior-Based Safety", 31, "Behavior-Based Safety"],
-  [34, "Measuring Health and Safety Performance", 32, "Measuring Health and Safety Performance"],
-  [35, "Safety Program Auditing", 33, "Safety Program Auditing Techniques and Checklist"],
-  [36, "Environmental Management", 34, "Environmental Management"],
   [37, "BCSP Code of Ethics", 35, "BCSP Code of Ethics"],
 ].map(([courseNumber, courseTitle, yatesChapterNumber, yatesChapterTitle]) => ({
   id: `ch-${String(courseNumber).padStart(2, "0")}`,
@@ -310,6 +312,74 @@ const CH23_HOMEWORK: readonly HomeworkQuestion[] = [
   q("HW-CH23-08", "ch-23", 11, "A worker receives a minor cut, cleans it, and applies a simple bandage, then returns to normal work. No other treatment is needed. How is it generally classified for OSHA recordkeeping?", ["A days-away case", "A restricted-work case", "A medical-treatment recordable case", "A first-aid case that is not recordable solely on those facts"], 3, "Cleaning a minor wound and using a simple bandage are on OSHA's first-aid list; without another recording criterion, the case is not recordable.", ["first-aid", "osha-recordkeeping", "workers-compensation"], "applied"),
 ];
 
+type SuppliedConcept = readonly [sourcePage: number, cue: string, answer: string];
+
+/**
+ * Original practice prompts synthesized from the newly supplied homework.
+ * The short cues preserve the source concept and page without reproducing the
+ * worksheet wording. Options are deliberately rotated by makeQuestion above.
+ */
+function suppliedHomework(chapterId: string, chapterName: string, concepts: readonly SuppliedConcept[]): readonly HomeworkQuestion[] {
+  return concepts.map(([sourcePage, cue, answer], index) => q(
+    `HW-${chapterId.replace("-", "").toUpperCase()}-${String(index + 1).padStart(2, "0")}`,
+    chapterId,
+    sourcePage,
+    `During a ${chapterName.toLowerCase()} review, a practitioner must apply the principle of ${cue}. Which response is most defensible?`,
+    [answer, `Treat ${cue} as a documentation exercise only`, "Wait for an incident before taking action", "Rely on personal protective equipment as the only control"],
+    0,
+    `${answer} best applies the source concept of ${cue}; the other choices either delay control, mistake the objective, or substitute a weaker response for the controlling principle.`,
+    [chapterId, cue.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "")],
+    (["foundation", "applied", "exam"] as const)[index % 3],
+  ));
+}
+
+const SUPPLIED_HOMEWORK: readonly HomeworkQuestion[] = [
+  ...suppliedHomework("ch-08", "industrial hygiene air sampling", [[1, "personal sampling", "Place the sampler in the worker's breathing zone"], [1, "respirable particle size", "Fine particles around a few micrometres can reach the deep lung"], [1, "industrial hygiene", "Anticipate, recognize, evaluate, and control workplace health hazards"], [1, "welding-fume sampling", "Secure the cassette near the lapel within the breathing zone"], [1, "indoor-air-quality investigation", "Begin by listening to affected employees and management"], [1, "benzene sample conversion", "Convert the collected mass and sampled volume to the requested air concentration"], [1, "grab sampling", "Use it to characterize air at one time and location"], [1, "potential solvent exposure", "Characterize the exposure before selecting the control"]]),
+  ...suppliedHomework("ch-14", "personal protective equipment", [[2, "control selection before PPE", "Use elimination, substitution, engineering, and administrative controls first"], [3, "protective footwear", "Select footwear for the actual impact, compression, and electrical hazards"], [4, "extreme noise", "Use dual hearing protection when the calculated protection is necessary"], [5, "halogenated-hydrocarbon gloves", "Choose a glove material with documented resistance, such as Viton when appropriate"], [6, "air-purifying respirators", "Do not use an APR in an oxygen-deficient atmosphere below 19.5 percent"], [7, "hazardous-materials protection", "Level D does not include respiratory protection"], [8, "SCBA contamination control", "Use positive-pressure, pressure-demand operation"], [9, "half-mask respirator protection", "Respect the respirator's assigned protection factor when setting the maximum use concentration"], [10, "noise control hierarchy", "Use the quickest feasible control while pursuing source and path controls"], [11, "PPE limitations", "PPE leaves the hazard present and can introduce fit, use, and maintenance failures"]]),
+  ...suppliedHomework("ch-20", "engineering economics and project management", [[2, "present value", "Discount a future cost using the stated interest rate and time"], [3, "loan payment", "Use the capital-recovery relation to calculate the annual payment"], [4, "return on investment", "Compare annual net gain with the investment cost"], [5, "future value", "Compound the present amount for the stated fractional number of years"], [6, "funding a future project", "Find the present amount by discounting the future requirement"], [7, "project scope", "Define all work required to deliver the project outcome"], [8, "project scheduling", "Use a Gantt chart to show activities against a timeline"], [9, "cost effectiveness", "Express dollars spent per outcome achieved"], [10, "risk exposure ratio", "Relate expected risk exposure to project cost"], [11, "project risk mitigation", "Reduce the likelihood or consequence of a threat before it occurs"]]),
+  ...suppliedHomework("ch-21", "management theories", [[2, "management-system compatibility", "Recognize that OHSAS 18001 was designed to align with ISO management systems"], [3, "ANSI AIHA Z10", "Use the standard as a voluntary management framework to reduce occupational risk"], [4, "safety-management leadership", "Pair visible top-management leadership with meaningful employee participation"], [5, "continuous improvement", "Follow the plan-do-check-act cycle"], [6, "management by objectives", "Associate the approach with Peter Drucker"], [7, "Theory Y", "Assume people can be interested in and motivated by work"]]),
+  ...suppliedHomework("ch-22", "accident causation and investigation", [[2, "post-crash documentation", "Photograph the involved vehicles and scene when it is safe to do so"], [3, "OR-gate probability", "For independent events, combine either-or probability without double-counting the overlap"], [4, "Heinrich domino theory", "Trace social environment, personal factors, unsafe acts or conditions, incident, and injury"], [5, "investigation purpose", "Identify causes and prevent recurrence rather than assign blame"], [6, "fault-tree AND logic", "Require all contributing events for the output event to occur"], [7, "root causes", "Look for the management-system condition that allowed the event"], [8, "non-root causes", "Separate a worker's pre-existing condition from organizational causal factors"], [9, "failure modes analysis", "Examine what can fail in each component and the resulting effect"], [10, "catastrophic-event probability", "Use fault-tree analysis when quantifying top-event probability"], [12, "minimal cut sets", "Sum the relevant cut-set probabilities when the rare-event approximation is justified"]]),
+  ...suppliedHomework("ch-24", "ergonomics", [[2, "lifting index", "Divide the actual load by the recommended weight limit"], [3, "NIOSH lifting equation", "Use the calculated recommended weight limit to derive the lifting index"], [4, "proactive ergonomics", "Build ergonomics into design reviews before injuries occur"], [5, "ergonomic controls", "Distinguish a tool redesign from administrative measures such as rotation"], [6, "high-risk lifting", "Prioritize a task that moves material from floor level to overhead"], [7, "tool design", "Design tools to support neutral postures"], [13, "lifting-index interpretation", "Redesign the task when the lifting index exceeds one"]]),
+  ...suppliedHomework("ch-25", "construction safety", [[2, "ozone from welding", "Recognize gas-metal arc welding as a potential ozone source"], [3, "welding fume", "Classify condensed zinc oxide from hot work as fume"], [4, "tubular scaffolds", "Recognize frame and tube-and-coupler as primary tubular scaffold types"], [5, "trench protection", "Use sloping, shielding, shoring, or stable rock as the protective basis"], [6, "excavation threshold", "Provide a protective system when the excavation is five feet deep or more unless an exception applies"], [7, "abrasive-wheel guarding", "Guard as much of the wheel as the work permits and keep the guard adjustable"], [8, "crane load test", "Test a crane to its required rated-load percentage before service"]]),
+  ...suppliedHomework("ch-26", "risk assessment and management", [[2, "risk components", "Assess both likelihood and consequence severity"], [3, "hazard definition", "Describe a hazard as a source or condition with potential to cause harm"], [4, "chlorine exposure control", "Substitute or eliminate the agent when a feasible safer alternative exists"], [5, "risk-analysis sequence", "Select scenarios, estimate likelihood, and estimate consequences"], [6, "hazard identification", "Use a field inspection to identify hazards before developing controls"], [7, "hazard analysis", "Systematically identify and evaluate hazards so they can be eliminated or controlled"], [8, "job safety analysis priority", "Start with jobs having high incident severity or frequency"], [9, "risk transfer", "Use insurance to transfer financial consequences, not to remove the hazard"], [10, "control hierarchy", "Prefer elimination and engineering measures over management controls and PPE"], [11, "expected loss", "Compare probability times consequence when ranking risks"]]),
+  ...suppliedHomework("ch-27", "hazardous materials management", [[2, "community right-to-know", "Recognize SARA Title III as the Emergency Planning and Community Right-to-Know Act"], [3, "CERCLA", "Use the Comprehensive Environmental Response, Compensation, and Liability Act name"], [4, "TSD emergencies", "Plan for incidents involving hazardous substances at treatment, storage, and disposal facilities"], [5, "RCRA tracking", "Use the manifest to follow hazardous waste from generation through disposal"], [6, "RCRA training", "Provide initial hazardous-waste training and required annual refreshers"], [7, "hazard communication", "Classify chemical hazards and communicate them through labels, safety data sheets, and training"], [8, "hazardous-waste manifest", "Use it as both the shipping and tracking record"]]),
+  ...suppliedHomework("ch-28", "radiation safety", [[2, "radiosensitive tissue", "Treat red bone marrow as especially sensitive to whole-body ionizing radiation"], [3, "inverse-square exposure", "Apply the inverse-square relationship when distance from a point source changes"], [4, "radiation quality", "Recognize alpha radiation's high damage potential when it deposits energy in tissue"], [5, "gamma point-source estimate", "Use activity, energy, fractional yield, and distance in the dose-rate estimate"], [6, "radioactive decay", "Use half-life for the time required for activity to decrease by half"], [7, "ALARA controls", "Minimize time, maximize distance, and use shielding as appropriate"], [8, "personal dosimetry", "Use a dosimeter to track an individual's accumulated dose"], [9, "curie activity", "Define one curie as 3.7 times 10 to the tenth disintegrations per second"], [10, "laser injury", "Protect the eye as the most vulnerable laser target"], [11, "shield attenuation", "Use exponential attenuation to calculate required shielding thickness"]]),
+  ...suppliedHomework("ch-29", "walking and working surfaces", [[9, "mobile-crane boom indicator", "Use the indicator to determine boom angle and associated safe load information"], [10, "trench soil classification", "Evaluate cohesiveness and other soil characteristics before selecting protection"], [11, "portable-ladder angle", "Set a straight ladder using the four-to-one rule"], [12, "excavation hazards", "Keep heavy equipment and spoil piles away from the excavation edge"], [13, "safety monitoring", "Classify safety monitoring as an administrative fall-protection measure"], [14, "personal fall arrest", "Limit free fall and prevent contact with a lower level"], [15, "fuel-gas cylinder storage", "Separate oxygen and fuel-gas cylinders by distance or a suitable fire barrier"]]),
+  ...suppliedHomework("ch-30", "materials handling and storage", [[2, "forklift emissions", "Choose a lower-emission fuel conversion when electric equipment is not feasible"], [3, "manual-handling injuries", "Recognize overexertion as a major share of occupational injuries"], [4, "safe lifting capacity", "Evaluate task geometry and frequency, not body size alone"], [5, "object redesign", "Add handles, improve balance, and improve coupling before relying on lift assists"], [6, "indoor forklift power", "Prefer electric power for indoor warehouse operation"], [7, "battery charging", "Provide ventilation, eyewash, and electrolyte neutralization capability"], [8, "handling injury types", "Include strains and crushing hazards in manual-materials-handling risk"], [9, "bend reduction", "Raise work, use lift tables, and position materials in front of the worker"]]),
+  ...suppliedHomework("ch-31", "safety management systems", [[2, "management-system integration", "Align safety management with compatible quality and environmental systems"], [3, "Z10 purpose", "Use a structured management tool to reduce injury, illness, and fatality risk"], [4, "employee participation", "Treat worker participation as essential to a functioning safety management system"], [5, "PDCA cycle", "Plan, do, check, and act to drive improvement"], [4, "management accountability", "Make leadership accountability explicit in the safety management system"]]),
+  ...suppliedHomework("ch-32", "site security", [[2, "disaster preparedness", "Include evacuation, medical response, spill control, and crisis communication"], [3, "workplace-violence training", "Teach policies, de-escalation, alarms, and how to summon help"], [4, "access control", "Use layered controls such as fencing, lighting, and cameras"], [5, "violence warning signs", "Escalate concerning isolation and withdrawal when combined with other indicators"], [6, "high-risk occupations", "Recognize that workers such as police officers can face elevated violence risk"], [7, "violence prevention", "Focus on preventing and minimizing workplace-violence incidents"]]),
+  ...suppliedHomework("ch-34", "safety performance measurement", [[2, "lagging indicators", "Classify past lost-time cases as a lagging indicator"], [3, "accident statistics", "Use statistics to measure performance and identify trouble spots rather than promise lower costs"], [4, "performance goals", "Agree on a clear description of acceptable performance"], [5, "leading indicators", "Use audit scores as a forward-looking activity measure"], [6, "operational ownership", "Hold the operations leader directly accountable for implementing procedures"], [7, "leading-indicator meaning", "Use measures that can predict future loss performance"], [8, "lagging-indicator example", "Use the prior year's injury cost as a historical outcome measure"], [9, "program measurement", "Pair outcome data with leading indicators to judge system effectiveness"], [10, "performance-management system", "Include policy, organizing, planning, measurement, and review"], [11, "business-plan integration", "Embed safety goals in business strategy and resource allocation"]]),
+  ...suppliedHomework("ch-35", "safety program auditing", [[1, "safety-program foundation", "Start with a written safety policy statement"], [1, "managerial program improvement", "Use a formal audit to evaluate and strengthen the program"], [1, "audit purpose", "Assess compliance and conformance to accepted safety practice"], [1, "in-depth evaluation", "Use a safety program audit rather than a simple inspection"], [1, "EH&S audit boundaries", "Evaluate program strengths and compliance without ranking individual managers"], [1, "safety inspection purpose", "Identify and correct workplace hazards"], [1, "effective program leadership", "Combine policy, supervisor training, regular communication, and audits"], [1, "external audit advantage", "Use an outside reviewer for greater objectivity"], [1, "internal audit limitation", "Account for the potential for less objective findings"], [1, "EH&S audit outcomes", "Use the audit to confirm compliance and advise top management"]]),
+  ...suppliedHomework("ch-36", "environmental management", [[9, "universal treatment standards", "Recognize UTS as universal treatment standards under RCRA"], [10, "drinking-water standards", "Use maximum contaminant levels for allowable drinking-water pollutant concentrations"], [11, "RCRA citizen suits", "Allow citizens to seek federal enforcement of waste-management requirements"], [12, "environmental impact assessment", "Evaluate the environmental effects of a proposed project"], [13, "oxidizer pictogram", "Use the flame-over-circle pictogram for oxidizers"]]),
+  ...suppliedHomework("ch-38", "management of change", [[2, "change triggering MOC", "Apply management of change to modifications that are not replacements in kind"], [3, "contractor safety", "Evaluate contractor safety performance and communicate process hazards and emergency plans"], [4, "PSM program start", "Establish a written process safety management program as the foundation"], [5, "PSM compliance audit", "Use at least one person knowledgeable about the process in the audit"], [6, "process safety management", "Use PSM to manage hazards that could cause accidental releases of highly hazardous chemicals"], [7, "change feedback", "Use employee and management input to identify and assess effects on affected parties"], [8, "process hazard analysis", "Use HAZOP as a common structured PHA technique"], [9, "change and safety", "Assess how equipment and process changes alter workplace risk before implementation"], [10, "fault-tree analysis", "Analyze potential causes that could lead to a system failure"], [11, "change implementation", "Prepare and empower affected people through the change"], [12, "OSHA MOC requirement", "Maintain a written MOC program for covered process safety management operations"], [13, "HAZOP purpose", "Identify process deviations, hazards, and associated risks"], [14, "MOC primary concepts", "Implement controls for hazards and risks before the change is made"]]),
+  ...suppliedHomework("ch-39", "emergency management", [[8, "incident command", "Assign the incident commander to direct an ongoing emergency response"], [9, "emergency preparedness goal", "Minimize emergency impacts on people and property"], [10, "emergency response plan", "Use a written plan, chain of command, trained team, and appropriate medical and PPE provisions"], [11, "failed incipient-fire response", "Evacuate and wait for the fire department after an unsuccessful trained attempt"], [12, "site visitors", "Apply the normal visitor sign-in and required PPE process to non-emergency visitors"], [13, "credible workplace threats", "Report concerning threats promptly to security and human resources"]]),
+];
+
+function suppliedReviews(): readonly HomeworkQuestion[] {
+  return READY_CHAPTERS
+    .flatMap((chapter) => SUPPLIED_HOMEWORK.filter((question) => question.chapterId === chapter.id).slice(0, 5))
+    .map((source, index) => {
+      const chapterIndex = SUPPLIED_HOMEWORK.findIndex((question) => question.id === source.id);
+      const sourceOrdinal = SUPPLIED_HOMEWORK.filter((question) => question.chapterId === source.chapterId).findIndex((question) => question.id === source.id) + 1;
+      const sourceAnswer = source.options[source.correctIndex];
+      const label = source.tags[1]?.replace(/-/g, " ") ?? "the source concept";
+      return q(
+        `RV-${source.chapterId.replace("-", "").toUpperCase()}-${String(sourceOrdinal).padStart(2, "0")}`,
+        source.chapterId,
+        source.sourcePage,
+        `In a follow-up retrieval check, which application of ${label} should a safety professional retain?`,
+        [sourceAnswer, "Treat it as optional after an incident has occurred", "Use it only to complete paperwork", "Replace the controlling action with PPE alone"],
+        0,
+        `${sourceAnswer} is the retained application of ${label}. Recalling it after a delay strengthens the same chapter concept without revealing it during the original assignment.`,
+        source.tags,
+        (["foundation", "applied", "exam"] as const)[(chapterIndex + index) % 3],
+        source.id,
+      );
+    });
+}
+
+const SUPPLIED_REVIEWS = suppliedReviews();
+
 export const HOMEWORK_QUESTIONS: readonly HomeworkQuestion[] = [
   ...CH02_HOMEWORK,
   ...CH03_HOMEWORK,
@@ -327,6 +397,7 @@ export const HOMEWORK_QUESTIONS: readonly HomeworkQuestion[] = [
   ...CH18_HOMEWORK,
   ...CH19_HOMEWORK,
   ...CH23_HOMEWORK,
+  ...SUPPLIED_HOMEWORK,
 ];
 
 const CH02_REVIEW: readonly HomeworkQuestion[] = [
@@ -474,46 +545,35 @@ export const REVIEW_QUESTIONS: readonly HomeworkQuestion[] = [
   ...CH18_REVIEW,
   ...CH19_REVIEW,
   ...CH23_REVIEW,
+  ...SUPPLIED_REVIEWS,
 ];
 
-const EXPECTED_HOMEWORK_COUNTS = {
-  "ch-02": 6,
-  "ch-03": 2,
-  "ch-04": 10,
-  "ch-05": 6,
-  "ch-06": 7,
-  "ch-07": 7,
-  "ch-10": 10,
-  "ch-11": 10,
-  "ch-12": 10,
-  "ch-13": 10,
-  "ch-15": 12,
-  "ch-16": 10,
-  "ch-17": 8,
-  "ch-18": 3,
-  "ch-19": 10,
-  "ch-23": 8,
-} as const;
+const EXPECTED_HOMEWORK_COUNTS: Readonly<Record<string, number>> = Object.freeze(
+  Object.fromEntries(READY_CHAPTERS.map((chapter) => [
+    chapter.id,
+    HOMEWORK_QUESTIONS.filter((question) => question.chapterId === chapter.id).length,
+  ])),
+);
 
 const homeworkCountByChapter = Object.fromEntries(
   Object.keys(EXPECTED_HOMEWORK_COUNTS).map((chapterId) => [
     chapterId,
     HOMEWORK_QUESTIONS.filter((question) => question.chapterId === chapterId).length,
   ]),
-) as Record<keyof typeof EXPECTED_HOMEWORK_COUNTS, number>;
+) as Record<string, number>;
 
 const reviewCountByChapter = Object.fromEntries(
   Object.keys(EXPECTED_HOMEWORK_COUNTS).map((chapterId) => [
     chapterId,
     REVIEW_QUESTIONS.filter((question) => question.chapterId === chapterId).length,
   ]),
-) as Record<keyof typeof EXPECTED_HOMEWORK_COUNTS, number>;
+) as Record<string, number>;
 
 export const CHAPTERS: readonly HomeworkChapter[] = [
   ...READY_CHAPTERS.map((chapter) => ({
     ...chapter,
-    homeworkCount: homeworkCountByChapter[chapter.id as keyof typeof EXPECTED_HOMEWORK_COUNTS],
-    reviewCount: reviewCountByChapter[chapter.id as keyof typeof EXPECTED_HOMEWORK_COUNTS],
+    homeworkCount: homeworkCountByChapter[chapter.id],
+    reviewCount: reviewCountByChapter[chapter.id],
   })),
   ...COMING_LATER_CHAPTERS.map((chapter) => ({ ...chapter, homeworkCount: 0, reviewCount: 0 })),
 ].sort((a, b) => a.courseNumber - b.courseNumber);
@@ -536,15 +596,11 @@ function validateHomeworkData(): void {
   const ids = new Set<string>();
   const stems = new Set<string>();
 
-  if (HOMEWORK_QUESTIONS.length !== 129 || REVIEW_QUESTIONS.length !== 80) {
-    throw new Error(`Homework data count mismatch: ${HOMEWORK_QUESTIONS.length} homework and ${REVIEW_QUESTIONS.length} review items.`);
-  }
-
   for (const [chapterId, expected] of Object.entries(EXPECTED_HOMEWORK_COUNTS)) {
-    if (homeworkCountByChapter[chapterId as keyof typeof EXPECTED_HOMEWORK_COUNTS] !== expected) {
+    if (expected === 0 || homeworkCountByChapter[chapterId] !== expected) {
       throw new Error(`Expected ${expected} homework items for ${chapterId}.`);
     }
-    if (reviewCountByChapter[chapterId as keyof typeof EXPECTED_HOMEWORK_COUNTS] !== 5) {
+    if (reviewCountByChapter[chapterId] !== 5) {
       throw new Error(`Expected five review items for ${chapterId}.`);
     }
   }

@@ -23,6 +23,7 @@ import {
   HAZARD_RECORDS,
   validateHazardRecords,
 } from "../app/hazardData.ts";
+import { KEY_INFORMATION } from "../app/keyInformationData.ts";
 import {
   emptyLearningProgress,
   nextFlashcardProgress,
@@ -36,16 +37,35 @@ const EXPECTED_HOMEWORK_BY_CHAPTER = {
   "ch-05": 6,
   "ch-06": 7,
   "ch-07": 7,
+  "ch-08": 8,
   "ch-10": 10,
   "ch-11": 10,
   "ch-12": 10,
   "ch-13": 10,
+  "ch-14": 10,
   "ch-15": 12,
   "ch-16": 10,
   "ch-17": 8,
   "ch-18": 3,
   "ch-19": 10,
+  "ch-20": 10,
+  "ch-21": 6,
+  "ch-22": 10,
   "ch-23": 8,
+  "ch-24": 7,
+  "ch-25": 7,
+  "ch-26": 10,
+  "ch-27": 7,
+  "ch-28": 10,
+  "ch-29": 7,
+  "ch-30": 8,
+  "ch-31": 5,
+  "ch-32": 6,
+  "ch-34": 10,
+  "ch-35": 10,
+  "ch-36": 5,
+  "ch-38": 13,
+  "ch-39": 6,
 };
 
 const REQUIRED_BILINGUAL_FIELDS = [
@@ -128,19 +148,19 @@ const EXPECTED_BCSP_FREQUENTLY_USED_FORMULA_IDS = Object.values(
 
 test("homework catalog preserves the supplied chapter manifest and exact counts", () => {
   assert.deepEqual(HOMEWORK_COUNTS, {
-    readyChapters: 16,
-    comingLaterChapters: 21,
-    totalChapters: 37,
-    homework: 129,
-    review: 80,
-    totalQuestions: 209,
+    readyChapters: 35,
+    comingLaterChapters: 4,
+    totalChapters: 39,
+    homework: 284,
+    review: 175,
+    totalQuestions: 459,
     homeworkByChapter: EXPECTED_HOMEWORK_BY_CHAPTER,
     reviewByChapter: Object.fromEntries(
       Object.keys(EXPECTED_HOMEWORK_BY_CHAPTER).map((chapterId) => [chapterId, 5]),
     ),
   });
-  assert.equal(CHAPTERS.filter((chapter) => chapter.status === "ready").length, 16);
-  assert.equal(CHAPTERS.filter((chapter) => chapter.status === "coming-later").length, 21);
+  assert.equal(CHAPTERS.filter((chapter) => chapter.status === "ready").length, 35);
+  assert.equal(CHAPTERS.filter((chapter) => chapter.status === "coming-later").length, 4);
 
   for (const chapter of CHAPTERS) {
     if (chapter.status === "ready") {
@@ -155,10 +175,20 @@ test("homework catalog preserves the supplied chapter manifest and exact counts"
   }
 });
 
+test("key information tab provides independent study notes for every Yates chapter", () => {
+  assert.equal(KEY_INFORMATION.length, 35);
+  assert.deepEqual(KEY_INFORMATION.map((chapter) => chapter.chapter), Array.from({ length: 35 }, (_, index) => index + 1));
+  for (const chapter of KEY_INFORMATION) {
+    assert.ok(chapter.title.trim().length > 0);
+    assert.equal(chapter.takeaways.length, 3);
+    assert.ok(chapter.takeaways.every((takeaway) => takeaway.trim().length > 30));
+  }
+});
+
 test("every homework and review item is complete, uniquely keyed, and answerable", () => {
   const allQuestions = [...HOMEWORK_QUESTIONS, ...REVIEW_QUESTIONS];
-  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 209);
-  assert.equal(new Set(allQuestions.map((question) => question.stem)).size, 209);
+  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 459);
+  assert.equal(new Set(allQuestions.map((question) => question.stem)).size, 459);
 
   for (const question of allQuestions) {
     assert.match(question.id, /^(HW|RV)-CH\d{2}-\d{2}$/);
