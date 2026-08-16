@@ -1,8 +1,9 @@
 /**
  * Direct chapter-end points transcribed from the user-provided W. David Yates,
- * Safety Professional's Reference and Study Guide, 3rd ed.  A chapter is
- * marked unavailable when this supplied edition does not contain its
- * "Key Information to Remember" section; no paraphrase is substituted.
+ * Safety Professional's Reference and Study Guide, 3rd ed., supplemented for
+ * Management of Change and Emergency Management by the supplied 4th ed.
+ * A chapter is marked unavailable when the supplied source does not contain
+ * its "Key Information to Remember" section; no paraphrase is substituted.
  */
 export type KeyInformationChapter = {
   chapter: number;
@@ -14,6 +15,8 @@ export type KeyInformationChapter = {
 
 const titles = [
   "The Safety Profession and Exam Preparation", "Regulations", "Math Review", "Particulates and Gases", "Toxicology", "Industrial Hygiene Air Sampling", "Ventilation", "Noise and Hearing Conservation", "Biological Hazards", "Fire Protection and Prevention", "Thermal Stressors", "Personal Protective Equipment", "Statistics for the Safety Professional", "Electrical Safety", "Mechanics", "Hydrostatics and Hydraulics", "Training", "Engineering Economics", "Management Theories", "Accident Causation and Investigation Techniques", "Workers’ Compensation", "Ergonomics", "Construction Safety", "Risk Assessment and Management", "Hazardous Materials Management", "Radiation Safety", "Walking and Working Surfaces", "Materials Handling and Storage", "Safety Management System", "Site Security", "Behavior-Based Safety", "Measuring Health and Safety Performance", "Safety Program Auditing Techniques and Checklist", "Environmental Management", "BCSP Code of Ethics",
+  "Management of Change",
+  "Emergency Management and Preparedness",
 ] as const;
 
 const verified = (chapter: number, sourcePages: readonly number[], text: string): KeyInformationChapter => ({
@@ -412,4 +415,28 @@ AVOID deceptive acts that falsify or misrepresent their academic or professional
 CONDUCT their professional relations by the highest standards of integrity, and avoid compromise of their professional judgment by conflicts of interest. When becoming aware of professional misconduct by a BCSP certificant, take steps to bring that misconduct to the attention of the BCSP.
 ACT in a manner free of bias with regard to religion, ethnicity, gender, age, national origin, sexual orientation, or disability.
 SEEK opportunities to be of constructive service in civic affairs and work for the advancement of the safety, health, and well-being of their community and their profession by sharing their knowledge and skills.`),
+  verified(36, [909, 910], `
+The goal of any MoC system is to make sure that changes do not introduce new hazards or increase risks from existing ones to maintain a safe and efficient working environment.
+The International Organization for Standardization (ISO) has requirements for MoC in their certification requirements. Specifically, ISO 9001, ISO 14001, and ISO 45001 all require that certified organizations implement and maintain MoC systems to ensure that a culture of safety is embedded in the organization's operations.
+OSHA’s Process Safety Management Standard, 29 CFR 1910.119(l), mandates that employers regulated under the Process Safety Management Standard establish and implement written procedures to manage changes (except for “replacements in kind” to process chemicals, technology, equipment, and procedures) and changes to facilities that affect a covered process).
+The EPA’s Risk Management Rule is designed to manage risks to the surrounding community. This rule is required under Section 112(r) of the Clean Air Act Amendments, which requires the EPA to publish regulations and guidance for chemical accident prevention at facilities that use certain hazardous substances.
+A cornerstone element of any management of change program is effective communication.
+In addition to improving safety culture, one of the aims of MoC is to manage modifications in processes, technologies, and organizational structures to improve the overall productivity of the organization.
+When implemented correctly, an effective MoC program creates stability and efficiency, thereby reducing uncertainty.
+By having a systematic approach to managing change, an organization’s decision-making process is clearly defined.
+Each organization is responsible for determining the types and levels of changes that are covered under certain processes.
+Regardless of the model used, they are all based on Deming’s PDCA Model.
+Before a change is implemented, a team of key stakeholders should develop a detailed action plan that provides a working framework for the proposed change.
+To prevent the possibility of changes reverting to the previous status quo, leaders within the organization must ensure that the changes and the value of the changes are thoroughly embedded within the culture and practices.`),
+  verified(37, [929, 930], `
+Simply put, a workplace emergency can refer to an unplanned or unforeseen event that could threaten the safety, health, or well-being of individuals and organizations.
+Emergency management is a system that creates the framework by which operations, organizations, businesses, and communities reduce potential threats.
+Emergency management systems include prevention, mitigation, preparedness, response, and recovery.
+Sometimes called an Emergency Response Plan, an Emergency Action Plan (EAP) refers to a pre-prepared plan that is intended to organize management and employee actions during a workplace emergency.
+There are two types of weather alerts that may be issued, which include Tornado Watch and Tornado Warning. Tornado watches are issued when conditions exist where tornadoes may strike and advise citizens to be prepared to take shelter immediately. A tornado warning is issued whenever a tornado has been sighted in an area and is issued to warn residents of that area to take immediate shelter.
+Workplace violence can be defined as any act or threat of physical harassment, intimidation, or other threatening disruptive behavior in the workplace.
+If the communication is by telephone, DO NOT HANG UP. Remain calm. The intent is to get the caller to talk. Take detailed notes, listen intently to the caller, and identify background noises, such as planes or trains, and so on, along with any accent or familiar geographical terms used by the caller.
+Under 29 CFR 1910.39, OSHA requires that a fire prevention plan be written, maintained in the workplace, and made available to employees for review.
+Like Emergency Action Plans, Business Continuity Plans begin by identifying potential threats to the organization and then developing steps to respond to them.
+Crisis Management is the ability of an organization to manage incidents that have the potential to cause significant security, financial, strategic, or reputational impacts.`),
 ];

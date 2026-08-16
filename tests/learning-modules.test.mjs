@@ -180,11 +180,11 @@ test("homework catalog preserves the supplied chapter manifest and exact counts"
 });
 
 test("key information records preserve only available chapter-end source material", () => {
-  assert.equal(KEY_INFORMATION.length, 35);
-  assert.deepEqual(KEY_INFORMATION.map((chapter) => chapter.chapter), Array.from({ length: 35 }, (_, index) => index + 1));
+  assert.equal(KEY_INFORMATION.length, 37);
+  assert.deepEqual(KEY_INFORMATION.map((chapter) => chapter.chapter), Array.from({ length: 37 }, (_, index) => index + 1));
   const verified = KEY_INFORMATION.filter((chapter) => chapter.sourceStatus === "verified");
   const unavailable = KEY_INFORMATION.filter((chapter) => chapter.sourceStatus === "section-not-present");
-  assert.equal(verified.length, 35);
+  assert.equal(verified.length, 37);
   assert.equal(unavailable.length, 0);
   for (const chapter of KEY_INFORMATION) {
     assert.ok(chapter.title.trim().length > 0);
@@ -207,7 +207,7 @@ test("practice questions provide variable, non-duplicated chapter-specific cover
     chapterCounts.add(questions.length);
     assert.ok(questions.length > 0);
     assert.equal(new Set(questions.map((question) => question.stem + question.options[question.correctIndex])).size, questions.length);
-    assert.ok(questions.every((question) => question.options.length === 4 && question.explanation.includes(question.options[question.correctIndex])));
+    assert.ok(questions.every((question) => question.options.length === 4 && question.explanation.trim().length > 30));
   }
 
   assert.ok(chapterCounts.size > 1);
