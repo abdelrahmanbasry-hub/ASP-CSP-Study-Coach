@@ -14,6 +14,11 @@ const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const localBindingConfig = {
   main: "./worker/index.ts",
   compatibility_flags: ["nodejs_compat"],
+  vars: {
+    SUPABASE_URL: process.env.VITE_SUPABASE_URL ?? "",
+    SUPABASE_PUBLISHABLE_KEY:
+      process.env.VITE_SUPABASE_PUBLISHABLE_KEY ?? "",
+  },
   d1_databases: d1
     ? [
         {
