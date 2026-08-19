@@ -5,7 +5,7 @@ import { useState } from "react";
 import { HAZARD_COUNTS, HAZARD_RECORDS, type HazardRecord } from "./hazardData";
 import { nextFlashcardProgress, type FlashcardRating, type LearningProgress } from "./learningProgress";
 import { BCSP_FREQUENTLY_USED_FORMULA_IDS, FLASHCARDS, FORMULA_ENTRIES } from "./studyLibraryData";
-import { HazardBodyMap } from "./VisualLearningPanel";
+import { HazardSystemModel } from "./VisualLearningPanel";
 import { BODY_SYSTEMS, getHazardBodySystems, type BodySystemId } from "./visualLearning";
 
 type LibraryTab = "flashcards" | "formulas" | "hazards";
@@ -125,32 +125,32 @@ function HazardExplorer() {
   const [category, setCategory] = useState<HazardRecord["category"]>("toxicological");
   const [language, setLanguage] = useState<"both" | "en" | "ar">("both");
   const [search, setSearch] = useState("");
-  const [selectedSystem, setSelectedSystem] = useState<BodySystemId | null>(null);
+  const [selectedSystem, setSelectedSystem] = useState<BodySystemId>("lungs");
   const [selectedRecordId, setSelectedRecordId] = useState<string | null>(null);
   const records = HAZARD_RECORDS.filter((record) => record.category === category && JSON.stringify(record).toLowerCase().includes(search.toLowerCase()));
   const activeSystems = [...new Set(records.flatMap((record) => getHazardBodySystems(record.id)))];
-  const visibleRecords = selectedSystem ? records.filter((record) => getHazardBodySystems(record.id).includes(selectedSystem)) : records;
+  const visibleRecords = records.filter((record) => getHazardBodySystems(record.id).includes(selectedSystem));
   const selectedRecord = visibleRecords.find((record) => record.id === selectedRecordId) ?? visibleRecords[0];
   const renderText = (text: { en: string; ar: string }) => <>{language !== "ar" && <span lang="en">{text.en}</span>}{language === "both" && <i />}{language !== "en" && <span lang="ar" dir="rtl">{text.ar}</span>}</>;
-  const selectCategory = (next: HazardRecord["category"]) => { setCategory(next); setSelectedSystem(null); setSelectedRecordId(null); };
-  const chooseSystem = (system: BodySystemId) => { setSelectedSystem((current) => current === system ? null : system); setSelectedRecordId(null); };
+  const selectCategory = (next: HazardRecord["category"]) => { setCategory(next); setSelectedSystem("lungs"); setSelectedRecordId(null); };
+  const chooseSystem = (system: BodySystemId) => { setSelectedSystem(system); setSelectedRecordId(null); };
 
   return <div className="hazard-explorer-panel">
     <div className="hazard-switches">
       <div><button className={category === "toxicological" ? "active" : ""} onClick={() => selectCategory("toxicological")}>Toxic substances ({HAZARD_COUNTS.toxicological})</button><button className={category === "biological" ? "active" : ""} onClick={() => selectCategory("biological")}>Biological hazards ({HAZARD_COUNTS.biological})</button></div>
       <div><Languages size={16} /><button className={language === "both" ? "active" : ""} onClick={() => setLanguage("both")}>Both</button><button className={language === "en" ? "active" : ""} onClick={() => setLanguage("en")}>English</button><button className={language === "ar" ? "active" : ""} onClick={() => setLanguage("ar")}>العربية</button></div>
     </div>
-    <div className="resource-filters single"><label><Search size={16} /><input value={search} onChange={(event) => { setSearch(event.target.value); setSelectedSystem(null); setSelectedRecordId(null); }} placeholder="Search hazard, consequence, route, or occupation" /></label></div>
-    <p className="hazard-explorer-intro">Select a body-system marker to narrow the source table, then choose a record to connect the route of exposure, likely consequences, and work context.</p>
+    <div className="resource-filters single"><label><Search size={16} /><input value={search} onChange={(event) => { setSearch(event.target.value); setSelectedRecordId(null); }} placeholder="Search hazard, consequence, route, or occupation" /></label></div>
+    <p className="hazard-explorer-intro">Choose a body system, drag the study model to inspect it, then select an affected hazard. The detail panel stays linked to the original bilingual table record.</p>
     <div className="hazard-explorer">
       <aside className="hazard-record-rail" aria-label="Hazard records">
-        <div className="hazard-rail-heading"><span>{selectedSystem ? BODY_SYSTEMS.find((system) => system.id === selectedSystem)?.label : category === "biological" ? "Biological hazards" : "Toxic substances"}</span><b>{visibleRecords.length}</b></div>
+        <div className="hazard-rail-heading"><span>{BODY_SYSTEMS.find((system) => system.id === selectedSystem)?.label}</span><b>{visibleRecords.length}</b></div>
         <div className="hazard-record-list">
           {visibleRecords.map((record) => <button className={selectedRecord?.id === record.id ? "active" : ""} type="button" onClick={() => setSelectedRecordId(record.id)} key={record.id}><span className="hazard-record-dot" /> <span><strong>{record.hazardDisease.en}</strong>{language !== "en" && <small lang="ar" dir="rtl">{record.hazardDisease.ar}</small>}</span></button>)}
           {!visibleRecords.length && <p className="hazard-empty">No records match this body system and search.</p>}
         </div>
       </aside>
-      <HazardBodyMap activeSystems={activeSystems} selectedSystem={selectedSystem} onSelect={chooseSystem} />
+      <HazardSystemModel activeSystems={activeSystems} selectedSystem={selectedSystem} onSelect={chooseSystem} />
       <article className="hazard-detail-card">
         {selectedRecord ? <>
           <div className="hazard-detail-kicker"><span>{selectedRecord.category === "biological" ? "Biological hazard" : "Toxicological hazard"}</span><small>Source row {selectedRecord.sourceRow}</small></div>

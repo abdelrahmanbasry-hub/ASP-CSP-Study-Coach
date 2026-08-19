@@ -6,7 +6,7 @@ import {
   BODY_SYSTEMS,
   HAZARD_BODY_SYSTEMS,
   getHazardBodySystems,
-  getQuestionVisual,
+  getQuestionScene,
 } from "../app/visualLearning.ts";
 
 test("every supplied hazard row has an explicit body-system mapping", () => {
@@ -20,23 +20,19 @@ test("every supplied hazard row has an explicit body-system mapping", () => {
   }
 });
 
-test("question visual selector chooses scenario diagrams before the generic decision map", () => {
-  const cases = [
-    ["A worker positions an extension ladder against a wall.", "ladder"],
-    ["A crane begins moving a suspended load through the work area.", "crane"],
-    ["Spoil is piled at the edge of an excavation.", "excavation"],
-    ["Which control protects a worker from arc flash exposure?", "electrical"],
-    ["How should a biological safety cabinet protect its user?", "biological"],
-    ["Which route is most important for respirable crystalline silica?", "exposure"],
-    ["Which written policy best supports a safety program?", "decision"],
-  ];
-
-  for (const [stem, kind] of cases) {
-    assert.equal(getQuestionVisual({ stem }).kind, kind, stem);
-  }
+test("visual scenes are explicitly authored for real question IDs, never guessed from keywords", () => {
+  assert.equal(getQuestionScene("D1-030")?.kind, "ladder-rule");
+  assert.equal(getQuestionScene("D1-036")?.kind, "crane-side-pull");
+  assert.equal(getQuestionScene("HW-CH11-07")?.kind, "biosafety-cabinet");
+  assert.equal(getQuestionScene("HW-CH11-09")?.kind, "bio-routes");
+  assert.equal(getQuestionScene("unrelated-question"), undefined);
 });
 
-test("curated high-value IDs take precedence over wording", () => {
-  assert.equal(getQuestionVisual({ id: "HW-CH11-07", stem: "A generic written question" }).kind, "biological");
-  assert.equal(getQuestionVisual({ id: "D1-016", stem: "A generic written question" }).kind, "crane");
+test("each authored scene carries inspectable evidence and a post-answer connection", () => {
+  for (const questionId of ["D1-012", "D1-016", "D1-030", "D1-036", "HW-CH07-06", "HW-CH11-10"]) {
+    const scene = getQuestionScene(questionId);
+    assert.ok(scene, `${questionId} scene missing`);
+    assert.ok(scene.hotspots.length >= 3, `${questionId} needs evidence markers`);
+    assert.ok(scene.answerConnection.length > 60, `${questionId} needs an answer connection`);
+  }
 });
