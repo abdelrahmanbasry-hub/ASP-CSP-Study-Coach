@@ -1,7 +1,6 @@
 /**
- * Original, paraphrased study items derived from the concepts covered by the
- * chapter-homework PDFs supplied by the learner. The wording and scenarios are
- * new; page references identify the source concept, not copied question text.
+ * Original paraphrased study items plus verbatim questions from the supplied
+ * Word homework files. Source references identify the matched course chapter.
  */
 
 export type HomeworkDifficulty = "foundation" | "applied" | "exam";
@@ -46,7 +45,7 @@ const READY_CHAPTERS: readonly ChapterDefinition[] = [
   { id: "ch-06", courseNumber: 6, courseTitle: "Particles and Gases", yatesChapterNumber: 4, yatesChapterTitle: "Particulates and Gases", sourcePdf: "Ch-06 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10], status: "ready" },
   { id: "ch-07", courseNumber: 7, courseTitle: "Toxicology", yatesChapterNumber: 5, yatesChapterTitle: "Toxicology", sourcePdf: "Ch-07 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8], status: "ready" },
   { id: "ch-10", courseNumber: 10, courseTitle: "Noise", yatesChapterNumber: 8, yatesChapterTitle: "Noise and OSHA's Hearing Conservation Program", sourcePdf: "Ch-10 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
-  { id: "ch-11", courseNumber: 11, courseTitle: "Biological Hazards", yatesChapterNumber: 9, yatesChapterTitle: "Biological Hazards", sourcePdf: "Ch-11 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
+  { id: "ch-11", courseNumber: 11, courseTitle: "Biological Hazards", yatesChapterNumber: 9, yatesChapterTitle: "Biological Hazards", sourcePdf: "Ch-09_Biological Hazards_Homework Questions.docx; Ch-11 Homework Answers.pdf", sourcePages: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
   { id: "ch-12", courseNumber: 12, courseTitle: "Fire Prevention and Protection", yatesChapterNumber: 10, yatesChapterTitle: "Fire Protection and Prevention", sourcePdf: "Ch-12 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
   { id: "ch-13", courseNumber: 13, courseTitle: "Thermal Stressors", yatesChapterNumber: 11, yatesChapterTitle: "Thermal Stressors", sourcePdf: "Ch-13 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
   { id: "ch-15", courseNumber: 15, courseTitle: "Statistics for Safety Professionals", yatesChapterNumber: 13, yatesChapterTitle: "Statistics for the Safety Professional", sourcePdf: "Ch-15 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], status: "ready" },
@@ -134,6 +133,15 @@ function makeQuestion(
 }
 
 const q = makeQuestion;
+
+function sourceQuestion(id: string, chapterId: string, sourcePage: number, stem: string, options: TextTuple4, correctIndex: OptionIndex, rationale: string, tags: readonly string[]): HomeworkQuestion {
+  const feedback = options.map((option, index) => index === correctIndex
+    ? `Correct: ${rationale}`
+    : `Incorrect: "${option}" does not match the source question's controlling fact. ${rationale}`) as unknown as TextTuple4;
+  return { id, chapterId, sourcePage, stem, options, correctIndex, rationale, wrongRationales: feedback, tags, difficulty: "foundation" };
+}
+
+const sq = sourceQuestion;
 
 const CH02_HOMEWORK: readonly HomeworkQuestion[] = [
   q("HW-CH02-01", "ch-02", 2, "A fabrication company is planning a new process. Which action best reflects the employer's core legal duty to workers?", ["Charge workers for replacement PPE", "Provide a workplace reasonably free from recognized serious hazards", "Require one employee to perform every high-risk task alone", "Buy insurance instead of correcting hazards"], 1, "An employer's central duty is to provide safe work and address recognized hazards; insurance and cost shifting do not replace prevention.", ["employer-duty", "recognized-hazards"], "foundation"),
@@ -380,6 +388,39 @@ function suppliedReviews(): readonly HomeworkQuestion[] {
 
 const SUPPLIED_REVIEWS = suppliedReviews();
 
+// Original Word-file homework questions are retained verbatim as additional
+// source items. Existing paraphrased items remain in the bank for extra practice.
+const WORD_FILE_HOMEWORK: readonly HomeworkQuestion[] = [
+  sq("HW-CH08-09", "ch-08", 1, "The type of air sampling performed when an employee wears a sampling device that draws air across a filter media for sample collection, which is sent to a laboratory is:", ["Grab Sample", "Area Sample", "Direct Reading Sample", "Personal Sample"], 3, "A sampler worn by the employee characterizes the employee's personal exposure, so this is personal sampling.", ["word-source", "air-sampling", "personal-sampling"]),
+  sq("HW-CH08-10", "ch-08", 1, "Which airborne particle size (diameter) is most likely to cause employee long term health problems?", ["4 micrometers", "40 micrometers", "400 micrometers", "4 millimeters"], 0, "Fine particles around 4 micrometers can reach the deep lung and are more likely to create long-term respiratory health effects.", ["word-source", "particle-size", "respirable"]),
+  sq("HW-CH08-11", "ch-08", 1, "What is industrial hygiene?", ["Control of health hazards arising in or from the workplace", "Recognition and evaluation of health hazards arising from the workplace", "Recognition and evaluation of health hazards arising in or from the workplace", "Anticipation, recognition, evaluation, and control of health hazards arising in or from the workplace."], 3, "Industrial hygiene includes anticipation, recognition, evaluation, and control of workplace health hazards.", ["word-source", "industrial-hygiene"]),
+  sq("HW-CH08-12", "ch-08", 1, "In performing personal air sampling for welding fumes, where should the filter cassette be placed?", ["Attached to lapel", "Inside welding helmet", "On shoulder", "At waist"], 0, "Personal sampling equipment is placed in the worker's breathing zone, commonly near the lapel.", ["word-source", "welding-fume", "breathing-zone"]),
+  sq("HW-CH08-13", "ch-08", 1, "When investigating an indoor air quality issue, the first step is to:", ["Take quantitative air samples", "Inspect the building HVAC system", "Meet with affected employees and management", "Survey the area for sources of air contaminants"], 2, "Initial interviews with affected employees and management help define the complaint pattern and guide the investigation.", ["word-source", "indoor-air-quality", "investigation"]),
+  sq("HW-CH08-14", "ch-08", 1, "A charcoal tube sample was taken by drawing 40 L of air through the tube which was then analyzed for benzene. If 0.5 mg of benzene was found on the tube, what was the concentration of benzene in the air sample assuming STP? (MW of benzene is 78)", ["3.92 ppm", "4.10 ppm", "3.50 ppm", "4.05 ppm"], 0, "The concentration is 0.5 mg / 0.040 m3 = 12.5 mg/m3; 12.5 x 24.45 / 78 is about 3.92 ppm.", ["word-source", "benzene", "ppm", "calculation"]),
+  sq("HW-CH08-15", "ch-08", 1, "Instantaneous or grab air samples are used to determine:", ["Composition of the air at a specific point in time and location", "Average composition of the air during a given time period", "Number of samples to be taken over an 8 hour shift", "Compliance with a PEL"], 0, "A grab sample is an instantaneous sample that represents conditions at one time and location.", ["word-source", "grab-sample"]),
+  sq("HW-CH08-16", "ch-08", 1, "In conducting a safety and health audit at a plant owned by your company, you find a solvent of potential hazard with a high probability of injury being used. What is your first course of action?", ["Stop the operation", "Recommend the solvent be changed", "Take air samples for analysis", "Initiate actions to effect engineering controls"], 2, "Air sampling characterizes the actual solvent exposure so the appropriate control can be selected and justified.", ["word-source", "solvent", "air-sampling", "risk-assessment"]),
+  sq("HW-CH11-11", "ch-11", 1, "Which of the following sources of indoor air pollution in an office environment can be lethal?", ["Microorganisms", "Formaldehyde", "Carbon dioxide", "Poor ventilation"], 0, "Microorganisms can cause serious and potentially fatal infectious disease; the source answer identifies this option.", ["word-source", "biological-hazards", "indoor-air"]),
+  sq("HW-CH11-12", "ch-11", 1, "What is tuberculosis caused by?", ["Virus", "Bacteria", "Protozoa", "Spirochete"], 1, "Tuberculosis is caused by bacteria in the Mycobacterium tuberculosis complex.", ["word-source", "tuberculosis", "bacteria"]),
+  sq("HW-CH11-13", "ch-11", 1, "A person infected with TB:", ["Always shows symptoms", "Not always test positive", "Can spread disease with no symptoms", "May never show symptoms"], 3, "A person may have latent tuberculosis infection and never develop symptomatic active disease.", ["word-source", "tuberculosis", "latent-infection"]),
+  sq("HW-CH11-14", "ch-11", 1, "Disinfection means:", ["Killing/removing all organisms", "Reducing the number of organisms so there is no threat of disease", "Removing microorganisms from skin or living tissue", "Stops growth of microorganisms"], 1, "Disinfection reduces or inactivates pathogenic organisms on inanimate objects without necessarily eliminating all organisms or spores.", ["word-source", "disinfection"]),
+  sq("HW-CH11-15", "ch-11", 1, "In late 1991, which vaccine was made mandatory by OSHA for personnel at risk of exposure to bloodborne pathogens?", ["Tetanus", "HIV", "HBV", "HAV"], 2, "OSHA's bloodborne-pathogens requirements require employers to offer hepatitis B vaccination to covered employees.", ["word-source", "bloodborne-pathogens", "hepatitis-b"]),
+  sq("HW-CH11-16", "ch-11", 1, "What is the protocol utilized to prevent the transmission of the HIV virus?", ["Aids Quarantine", "Universal Precautions", "Aids Awareness", "HBV vaccination"], 1, "Universal Precautions is the source term for treating specified blood and body fluids as potentially infectious.", ["word-source", "universal-precautions", "bloodborne-pathogens"]),
+  sq("HW-CH11-17", "ch-11", 1, "In the scrubbing of biosafety cabinet effluent, what is the most universal scrubbing technology utilized?", ["Entry of effluent into chemical scrubber", "HEPA filtration", "Incineration", "Chemical sanitation"], 1, "HEPA filtration is widely used in biological safety cabinets to remove airborne particles from exhaust air.", ["word-source", "biosafety-cabinet", "hepa"]),
+  sq("HW-CH11-18", "ch-11", 1, "What biosafety level should be used when working with blood and blood products?", ["1", "2", "3", "4"], 1, "Routine diagnostic work with human blood and blood products generally uses BSL-2 practices and precautions.", ["word-source", "biosafety-level", "blood"]),
+  sq("HW-CH11-19", "ch-11", 1, "Biohazards can be transmitted to a person by:", ["Inhalation or accidental injection", "Inhalation, ingestion, or absorption", "Physical contact", "All of the above"], 3, "Biological agents can reach people through multiple routes, including inhalation, ingestion, absorption or contact, and accidental injection.", ["word-source", "biohazards", "routes-of-entry"]),
+  sq("HW-CH11-20", "ch-11", 1, "Biological hazard exposures controlled by safe work practice, safety equipment use and facility design are example of:", ["Accepted minimum practices", "Hierarchy of controls", "Containment", "Engineering controls"], 2, "Containment combines work practices, safety equipment, and facility design to limit biological exposures and releases.", ["word-source", "containment", "biosafety"]),
+  sq("HW-CH35-12", "ch-35", 1, "What is the first step in creating a safety program?", ["Creating a safety policy statement", "Training employees", "Weekly audits", "Employee participation"], 0, "A written safety policy statement establishes the program foundation.", ["word-source", "safety-program", "policy"]),
+  sq("HW-CH35-13", "ch-35", 1, "Of the following, which is the least effective way for a manager to maximize his/her safety program?", ["Written safety policies", "Supervisory safety training", "One-on-one meetings", "Audit of safety program"], 2, "One-on-one meetings alone are less effective as a broad safety-program maximization method than written policy, supervisory training, and formal audits.", ["word-source", "safety-program", "management"]),
+  sq("HW-CH35-14", "ch-35", 1, "Of the following, the least likely reason to perform health and safety audit is:", ["Determine if codes, laws and regulations are being complied with", "Assess the over-all program and its conformance to accepted safety and health practices", "Determine if company policies, procedure, and standards are being met", "Make sure company is prepared for an OSHA inspection"], 3, "Audits assess compliance and program conformance; preparing for an inspection is not their primary purpose.", ["word-source", "audit", "purpose"]),
+  sq("HW-CH35-15", "ch-35", 1, "An in-depth method that may be used to evaluate a safety program is a:", ["Safety program audit", "Safety inspection", "Job-Task survey", "Job Safety Analysis"], 0, "A safety program audit is an in-depth evaluation of program elements and their effectiveness.", ["word-source", "safety-program-audit"]),
+  sq("HW-CH35-16", "ch-35", 1, "Environmental Health and Safety (EH&S) Audits are NOT designed to:", ["Ensure legal and corporate program compliance", "Identify weak performers in plant manager roles", "Advise top management of compliance status", "Identify strengths and weaknesses of the facility's EH&S program"], 1, "EH&S audits evaluate systems and compliance, not individual plant-manager performance.", ["word-source", "ehs-audit"]),
+  sq("HW-CH35-17", "ch-35", 1, "The main reason for safety inspections is to:", ["Identify unsafe acts", "Determine compliance with OSHA standards", "Identify and correct workplace hazards", "Prepare for insurance audits"], 2, "The primary purpose of safety inspections is to identify and correct workplace hazards.", ["word-source", "safety-inspection", "hazard-correction"]),
+  sq("HW-CH35-18", "ch-35", 1, "Of the following, which is the LEAST effective way for a manager to maximize his or her safety program?", ["Written safety policies", "Supervisory safety training", "Audit of safety program", "Weekly staff meetings"], 3, "Weekly staff meetings alone are less effective for broad program improvement than written policy, supervisory training, and formal auditing.", ["word-source", "safety-program", "management"]),
+  sq("HW-CH35-19", "ch-35", 1, "One of the major advantages of an external audit is it’s:", ["Relatively low cost", "Objectivity", "Lack of familiarity with the facility", "Lack of familiarity with facility personnel"], 1, "An external audit's major advantage is independent objectivity.", ["word-source", "external-audit", "objectivity"]),
+  sq("HW-CH35-20", "ch-35", 1, "What is a DISADVANTAGE of having an internal group evaluate the company's safety program?", ["Evaluation staff knows plant workers", "Less obtrusive audit", "Potentially less objective", "Harder to work with"], 2, "Internal evaluators may be less objective because of their relationships and familiarity with the facility.", ["word-source", "internal-audit", "objectivity"]),
+  sq("HW-CH35-21", "ch-35", 1, "Environmental health and safety audits are a means to:", ["Identify weak performers in plant manager roles", "Ensure legal and corporate program compliance", "Advise top management of compliance status", "Both 2 and 3"], 3, "EH&S audits both support legal and corporate compliance and provide management with compliance-status information.", ["word-source", "ehs-audit", "compliance"]),
+];
+
 // Ch-37 uses the same chapter title as the app's Chapter 35. Its second
 // question is not present in the supplied Ch-33 question document, so retain
 // the existing bank and append this additional title-matched source item.
@@ -406,6 +447,7 @@ export const HOMEWORK_QUESTIONS: readonly HomeworkQuestion[] = [
   ...CH23_HOMEWORK,
   ...SUPPLIED_HOMEWORK,
   ...CH35_SOURCE_ADDENDUM,
+  ...WORD_FILE_HOMEWORK,
 ];
 
 const CH02_REVIEW: readonly HomeworkQuestion[] = [
