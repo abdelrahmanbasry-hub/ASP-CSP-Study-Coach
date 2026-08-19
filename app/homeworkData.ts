@@ -69,7 +69,7 @@ const READY_CHAPTERS: readonly ChapterDefinition[] = [
   { id: "ch-31", courseNumber: 31, courseTitle: "Safety Management Systems", yatesChapterNumber: 29, yatesChapterTitle: "Safety Management System", sourcePdf: "Ch-21 & 31 Homework Answers.pdf", sourcePages: [2, 3, 4, 5], status: "ready" },
   { id: "ch-32", courseNumber: 32, courseTitle: "Site Security", yatesChapterNumber: 30, yatesChapterTitle: "Site Security", sourcePdf: "Ch-32 & Ch-39 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7], status: "ready" },
   { id: "ch-34", courseNumber: 34, courseTitle: "Measuring Health and Safety Performance", yatesChapterNumber: 32, yatesChapterTitle: "Measuring Health and Safety Performance", sourcePdf: "Ch-36 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
-  { id: "ch-35", courseNumber: 35, courseTitle: "Safety Program Auditing", yatesChapterNumber: 33, yatesChapterTitle: "Safety Program Auditing Techniques and Checklist", sourcePdf: "Ch-33 Homework Questions.docx", sourcePages: [1], status: "ready" },
+  { id: "ch-35", courseNumber: 35, courseTitle: "Safety Program Auditing", yatesChapterNumber: 33, yatesChapterTitle: "Safety Program Auditing Techniques and Checklist", sourcePdf: "Ch-33 Homework Questions.docx; Ch-37 Homework Answers.pdf", sourcePages: [1, 2, 3, 4, 5, 6], status: "ready" },
   { id: "ch-36", courseNumber: 36, courseTitle: "Environmental Management", yatesChapterNumber: 34, yatesChapterTitle: "Environmental Management", sourcePdf: "Ch-27&34 Homework Answers.pdf", sourcePages: [9, 10, 11, 12, 13], status: "ready" },
   { id: "ch-38", courseNumber: 38, courseTitle: "Management of Change", yatesChapterNumber: 36, yatesChapterTitle: "Management of Change", sourcePdf: "Process Safety Management & Ch-38 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], status: "ready" },
   { id: "ch-39", courseNumber: 39, courseTitle: "Emergency Management", yatesChapterNumber: 37, yatesChapterTitle: "Emergency Management", sourcePdf: "Ch-32 & Ch-39 Homework Answers.pdf", sourcePages: [8, 9, 10, 11, 12, 13], status: "ready" },
@@ -380,6 +380,13 @@ function suppliedReviews(): readonly HomeworkQuestion[] {
 
 const SUPPLIED_REVIEWS = suppliedReviews();
 
+// Ch-37 uses the same chapter title as the app's Chapter 35. Its second
+// question is not present in the supplied Ch-33 question document, so retain
+// the existing bank and append this additional title-matched source item.
+const CH35_SOURCE_ADDENDUM: readonly HomeworkQuestion[] = [
+  q("HW-CH35-11", "ch-35", 3, "What is the primary objective of a worksite safety assessment or audit?", ["Ensure compliance with applicable standards", "Find employees out of compliance with rules", "Make the site better", "Ensure management follows safety protocols"], 0, "A worksite safety assessment or audit primarily evaluates conformance with applicable standards and program requirements; it is not a search for individual fault.", ["safety-program-audit", "audit-objective", "compliance"], "foundation"),
+];
+
 export const HOMEWORK_QUESTIONS: readonly HomeworkQuestion[] = [
   ...CH02_HOMEWORK,
   ...CH03_HOMEWORK,
@@ -398,6 +405,7 @@ export const HOMEWORK_QUESTIONS: readonly HomeworkQuestion[] = [
   ...CH19_HOMEWORK,
   ...CH23_HOMEWORK,
   ...SUPPLIED_HOMEWORK,
+  ...CH35_SOURCE_ADDENDUM,
 ];
 
 const CH02_REVIEW: readonly HomeworkQuestion[] = [

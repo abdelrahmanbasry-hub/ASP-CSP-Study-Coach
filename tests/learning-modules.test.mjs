@@ -66,7 +66,7 @@ const EXPECTED_HOMEWORK_BY_CHAPTER = {
   "ch-31": 5,
   "ch-32": 6,
   "ch-34": 10,
-  "ch-35": 10,
+  "ch-35": 11,
   "ch-36": 5,
   "ch-38": 13,
   "ch-39": 6,
@@ -155,9 +155,9 @@ test("homework catalog preserves the supplied chapter manifest and exact counts"
     readyChapters: 35,
     comingLaterChapters: 4,
     totalChapters: 39,
-    homework: 284,
+    homework: 285,
     review: 175,
-    totalQuestions: 459,
+    totalQuestions: 460,
     homeworkByChapter: EXPECTED_HOMEWORK_BY_CHAPTER,
     reviewByChapter: Object.fromEntries(
       Object.keys(EXPECTED_HOMEWORK_BY_CHAPTER).map((chapterId) => [chapterId, 5]),
@@ -220,8 +220,8 @@ test("practice questions cover every chapter with individually authored records"
 
 test("every homework and review item is complete, uniquely keyed, and answerable", () => {
   const allQuestions = [...HOMEWORK_QUESTIONS, ...REVIEW_QUESTIONS];
-  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 459);
-  assert.equal(new Set(allQuestions.map((question) => question.stem)).size, 459);
+  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 460);
+  assert.equal(new Set(allQuestions.map((question) => question.stem)).size, 460);
 
   for (const question of allQuestions) {
     assert.match(question.id, /^(HW|RV)-CH\d{2}-\d{2}$/);
