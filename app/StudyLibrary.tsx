@@ -5,6 +5,8 @@ import { useState } from "react";
 import { HAZARD_COUNTS, HAZARD_RECORDS, type HazardRecord } from "./hazardData";
 import { nextFlashcardProgress, type FlashcardRating, type LearningProgress } from "./learningProgress";
 import { BCSP_FREQUENTLY_USED_FORMULA_IDS, FLASHCARDS, FORMULA_ENTRIES } from "./studyLibraryData";
+import { HazardBodyMap } from "./VisualLearningPanel";
+import { BODY_SYSTEMS, getHazardBodySystems, type BodySystemId } from "./visualLearning";
 
 type LibraryTab = "flashcards" | "formulas" | "hazards";
 
@@ -105,11 +107,81 @@ function FormulaLibrary() {
 }
 
 function HazardsLibrary() {
+  const [mode, setMode] = useState<"explore" | "table">("explore");
+  return <section className="page-width library-panel">
+    <div className="library-toolbar">
+      <div><p className="eyebrow"><FlaskConical size={15} /> Occupational health reference</p><h2>See where hazards can act</h2></div>
+      <span>Built from {HAZARD_COUNTS.total} bilingual table records</span>
+    </div>
+    <div className="hazard-view-switches" role="group" aria-label="Hazard library view">
+      <button className={mode === "explore" ? "active" : ""} onClick={() => setMode("explore")}>Body-system explorer</button>
+      <button className={mode === "table" ? "active" : ""} onClick={() => setMode("table")}>Source data table</button>
+    </div>
+    {mode === "explore" ? <HazardExplorer /> : <HazardTable />}
+  </section>;
+}
+
+function HazardExplorer() {
+  const [category, setCategory] = useState<HazardRecord["category"]>("toxicological");
+  const [language, setLanguage] = useState<"both" | "en" | "ar">("both");
+  const [search, setSearch] = useState("");
+  const [selectedSystem, setSelectedSystem] = useState<BodySystemId | null>(null);
+  const [selectedRecordId, setSelectedRecordId] = useState<string | null>(null);
+  const records = HAZARD_RECORDS.filter((record) => record.category === category && JSON.stringify(record).toLowerCase().includes(search.toLowerCase()));
+  const activeSystems = [...new Set(records.flatMap((record) => getHazardBodySystems(record.id)))];
+  const visibleRecords = selectedSystem ? records.filter((record) => getHazardBodySystems(record.id).includes(selectedSystem)) : records;
+  const selectedRecord = visibleRecords.find((record) => record.id === selectedRecordId) ?? visibleRecords[0];
+  const renderText = (text: { en: string; ar: string }) => <>{language !== "ar" && <span lang="en">{text.en}</span>}{language === "both" && <i />}{language !== "en" && <span lang="ar" dir="rtl">{text.ar}</span>}</>;
+  const selectCategory = (next: HazardRecord["category"]) => { setCategory(next); setSelectedSystem(null); setSelectedRecordId(null); };
+  const chooseSystem = (system: BodySystemId) => { setSelectedSystem((current) => current === system ? null : system); setSelectedRecordId(null); };
+
+  return <div className="hazard-explorer-panel">
+    <div className="hazard-switches">
+      <div><button className={category === "toxicological" ? "active" : ""} onClick={() => selectCategory("toxicological")}>Toxic substances ({HAZARD_COUNTS.toxicological})</button><button className={category === "biological" ? "active" : ""} onClick={() => selectCategory("biological")}>Biological hazards ({HAZARD_COUNTS.biological})</button></div>
+      <div><Languages size={16} /><button className={language === "both" ? "active" : ""} onClick={() => setLanguage("both")}>Both</button><button className={language === "en" ? "active" : ""} onClick={() => setLanguage("en")}>English</button><button className={language === "ar" ? "active" : ""} onClick={() => setLanguage("ar")}>العربية</button></div>
+    </div>
+    <div className="resource-filters single"><label><Search size={16} /><input value={search} onChange={(event) => { setSearch(event.target.value); setSelectedSystem(null); setSelectedRecordId(null); }} placeholder="Search hazard, consequence, route, or occupation" /></label></div>
+    <p className="hazard-explorer-intro">Select a body-system marker to narrow the source table, then choose a record to connect the route of exposure, likely consequences, and work context.</p>
+    <div className="hazard-explorer">
+      <aside className="hazard-record-rail" aria-label="Hazard records">
+        <div className="hazard-rail-heading"><span>{selectedSystem ? BODY_SYSTEMS.find((system) => system.id === selectedSystem)?.label : category === "biological" ? "Biological hazards" : "Toxic substances"}</span><b>{visibleRecords.length}</b></div>
+        <div className="hazard-record-list">
+          {visibleRecords.map((record) => <button className={selectedRecord?.id === record.id ? "active" : ""} type="button" onClick={() => setSelectedRecordId(record.id)} key={record.id}><span className="hazard-record-dot" /> <span><strong>{record.hazardDisease.en}</strong>{language !== "en" && <small lang="ar" dir="rtl">{record.hazardDisease.ar}</small>}</span></button>)}
+          {!visibleRecords.length && <p className="hazard-empty">No records match this body system and search.</p>}
+        </div>
+      </aside>
+      <HazardBodyMap activeSystems={activeSystems} selectedSystem={selectedSystem} onSelect={chooseSystem} />
+      <article className="hazard-detail-card">
+        {selectedRecord ? <>
+          <div className="hazard-detail-kicker"><span>{selectedRecord.category === "biological" ? "Biological hazard" : "Toxicological hazard"}</span><small>Source row {selectedRecord.sourceRow}</small></div>
+          <h3>{renderText(selectedRecord.hazardDisease)}</h3>
+          <div className="hazard-system-chips">{getHazardBodySystems(selectedRecord.id).map((systemId) => { const system = BODY_SYSTEMS.find((item) => item.id === systemId)!; return <button key={systemId} type="button" onClick={() => chooseSystem(systemId)}><i style={{ background: system.color }} />{system.label}</button>; })}</div>
+          <dl>
+            <div><dt>Target organ / system</dt><dd>{renderText(selectedRecord.targetOrganSystem)}</dd></div>
+            <div><dt>Main consequences</dt><dd>{renderText(selectedRecord.mainConsequences)}</dd></div>
+            <div><dt>Exposure / transmission</dt><dd>{renderText(selectedRecord.exposureTransmission)}</dd></div>
+            <div><dt>High-risk work</dt><dd>{renderText(selectedRecord.highRiskOccupationsWorkplace)}</dd></div>
+          </dl>
+          <p className="hazard-detail-disclaimer"><CircleHelp size={14} /> Study summary only — verify workplace actions against current SDSs, site procedures, and authoritative guidance.</p>
+        </> : <div className="hazard-detail-empty"><FlaskConical size={24} /><h3>No matching record</h3><p>Try another body system or clear the search term.</p></div>}
+      </article>
+    </div>
+  </div>;
+}
+
+function HazardTable() {
   const [category, setCategory] = useState<HazardRecord["category"]>("toxicological");
   const [language, setLanguage] = useState<"both" | "en" | "ar">("both");
   const [search, setSearch] = useState("");
   const fields: Array<[keyof Pick<HazardRecord, "hazardDisease" | "type" | "definition" | "targetOrganSystem" | "mainConsequences" | "exposureTransmission" | "highRiskOccupationsWorkplace">, string]> = [["hazardDisease", "Hazard / Disease"], ["type", "Type"], ["definition", "Definition"], ["targetOrganSystem", "Target Organ / System"], ["mainConsequences", "Main Consequences"], ["exposureTransmission", "Exposure / Transmission"], ["highRiskOccupationsWorkplace", "High-Risk Occupations / Workplace"]];
   const records = HAZARD_RECORDS.filter((record) => record.category === category && JSON.stringify(record).toLowerCase().includes(search.toLowerCase()));
   const renderText = (text: { en: string; ar: string }) => <>{language !== "ar" && <span lang="en">{text.en}</span>}{language === "both" && <i />}{language !== "en" && <span lang="ar" dir="rtl">{text.ar}</span>}</>;
-  return <section className="page-width library-panel"><div className="library-toolbar"><div><p className="eyebrow"><FlaskConical size={15} /> Occupational health reference</p><h2>Toxicology & biological hazards</h2></div><span>{HAZARD_COUNTS.total} bilingual records</span></div><div className="hazard-switches"><div><button className={category === "toxicological" ? "active" : ""} onClick={() => setCategory("toxicological")}>Toxic substances ({HAZARD_COUNTS.toxicological})</button><button className={category === "biological" ? "active" : ""} onClick={() => setCategory("biological")}>Biological hazards ({HAZARD_COUNTS.biological})</button></div><div><Languages size={16} /><button className={language === "both" ? "active" : ""} onClick={() => setLanguage("both")}>Both</button><button className={language === "en" ? "active" : ""} onClick={() => setLanguage("en")}>English</button><button className={language === "ar" ? "active" : ""} onClick={() => setLanguage("ar")}>العربية</button></div></div><div className="resource-filters single"><label><Search size={16} /><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search hazard, consequence, route, or occupation" /></label></div><div className="hazard-table-wrap"><table className="hazard-table"><thead><tr>{fields.map(([, label]) => <th key={label}>{label}</th>)}</tr></thead><tbody>{records.map((record) => <tr key={record.id}>{fields.map(([field]) => <td key={field}>{renderText(record[field])}</td>)}</tr>)}</tbody></table></div><div className="hazard-mobile-list">{records.map((record) => <details key={record.id}><summary>{renderText(record.hazardDisease)}</summary><div>{fields.slice(1).map(([field, label]) => <p key={field}><strong>{label}</strong>{renderText(record[field])}</p>)}</div></details>)}</div><p className="reference-note"><CircleHelp size={15} /> Study summaries based on the supplied workbook rows. They are not medical advice; verify workplace decisions against current authoritative guidance.</p></section>;
+  return <div className="hazard-table-panel">
+    <p className="hazard-table-intro">Use the table when you want the original source fields side by side. The explorer preserves the same records while making target systems easier to compare.</p>
+    <div className="hazard-switches"><div><button className={category === "toxicological" ? "active" : ""} onClick={() => setCategory("toxicological")}>Toxic substances ({HAZARD_COUNTS.toxicological})</button><button className={category === "biological" ? "active" : ""} onClick={() => setCategory("biological")}>Biological hazards ({HAZARD_COUNTS.biological})</button></div><div><Languages size={16} /><button className={language === "both" ? "active" : ""} onClick={() => setLanguage("both")}>Both</button><button className={language === "en" ? "active" : ""} onClick={() => setLanguage("en")}>English</button><button className={language === "ar" ? "active" : ""} onClick={() => setLanguage("ar")}>العربية</button></div></div>
+    <div className="resource-filters single"><label><Search size={16} /><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search hazard, consequence, route, or occupation" /></label></div>
+    <div className="hazard-table-wrap"><table className="hazard-table"><thead><tr>{fields.map(([, label]) => <th key={label}>{label}</th>)}</tr></thead><tbody>{records.map((record) => <tr key={record.id}>{fields.map(([field]) => <td key={field}>{renderText(record[field])}</td>)}</tr>)}</tbody></table></div>
+    <div className="hazard-mobile-list">{records.map((record) => <details key={record.id}><summary>{renderText(record.hazardDisease)}</summary><div>{fields.slice(1).map(([field, label]) => <p key={field}><strong>{label}</strong>{renderText(record[field])}</p>)}</div></details>)}</div>
+    <p className="reference-note"><CircleHelp size={15} /> Study summaries based on the supplied workbook rows. They are not medical advice; verify workplace decisions against current authoritative guidance.</p>
+  </div>;
 }
