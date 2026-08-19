@@ -86,7 +86,6 @@ import {
 } from "./cloudProgress";
 import { getSupabaseBrowserClient } from "./supabase-client";
 import { clearLocalProgress } from "./localProgressReset";
-import { QuestionVisualAid } from "./VisualLearningPanel";
 import type { Session } from "@supabase/supabase-js";
 
 type MainView = "study" | "homework" | "practice" | "key-information" | "library" | "stats" | "review";
@@ -1477,7 +1476,6 @@ function QuizRunner({
             <span className="domain-tag">{domain.short} · {domain.name}</span>
             <span className={`difficulty-chip d${question.difficulty}`}>{difficultyLabel(question.difficulty)}</span>
           </div>
-          <QuestionVisualAid id={question.id} stem={question.stem} topic={question.referenceTopic} />
           <h1>{question.stem}</h1>
           <div className="answers" role="radiogroup" aria-label="Answer choices">
             {question.options.map((option, optionIndex) => (
@@ -1580,7 +1578,6 @@ function RationaleCard({ attempt, index, domains }: { attempt: Attempt; index: n
       </button>
       {open && <div className="rationale-body">
         <div className="answer-comparison"><div className={attempt.correct ? "answer-box right" : "answer-box wrong"}><span>You chose {attempt.selectedIndex >= 0 ? String.fromCharCode(65 + attempt.selectedIndex) : "no answer"}</span><strong>{attempt.selectedIndex >= 0 ? attempt.options[attempt.selectedIndex] : "Unanswered"}</strong></div><div className="answer-box right"><span>Best answer {String.fromCharCode(65 + attempt.correctIndex)}</span><strong>{attempt.options[attempt.correctIndex]}</strong></div></div>
-        <QuestionVisualAid id={attempt.questionId} stem={attempt.stem} topic={attempt.referenceTopic} reveal compact />
         {!attempt.correct && <div className="why-wrong"><strong>Why your response fails</strong><p>{attempt.wrongRationale}</p></div>}
         <div className="why-right"><strong>Decision rationale</strong><p>{attempt.rationale}</p></div>
         {!attempt.correct && <div className="teachback"><BrainCircuit size={19} /><div><strong>Earn the correction</strong><p>{attempt.challengePrompt}</p></div></div>}
