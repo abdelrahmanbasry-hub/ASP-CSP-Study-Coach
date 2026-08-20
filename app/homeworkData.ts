@@ -377,8 +377,175 @@ const SUPPLIED_HOMEWORK: readonly HomeworkQuestion[] = [
   ...suppliedHomework("ch-39", "emergency management", [[8, "incident command", "Assign the incident commander to direct an ongoing emergency response"], [9, "emergency preparedness goal", "Minimize emergency impacts on people and property"], [10, "emergency response plan", "Use a written plan, chain of command, trained team, and appropriate medical and PPE provisions"], [11, "failed incipient-fire response", "Evacuate and wait for the fire department after an unsuccessful trained attempt"], [12, "site visitors", "Apply the normal visitor sign-in and required PPE process to non-emergency visitors"], [13, "credible workplace threats", "Report concerning threats promptly to security and human resources"]]),
 ];
 
+const SUPPLIED_WARMUP_SETTINGS: Readonly<Record<string, string>> = {
+  "ch-14": "a task-specific PPE selection review",
+  "ch-20": "a safety-project financial decision",
+  "ch-21": "an occupational safety management-system review",
+  "ch-22": "a post-incident investigation",
+  "ch-24": "an ergonomics design review",
+  "ch-25": "a construction pre-task plan",
+  "ch-26": "a risk-assessment workshop",
+  "ch-27": "a hazardous-materials compliance review",
+  "ch-28": "a radiation-protection planning meeting",
+  "ch-29": "a field safety inspection",
+  "ch-30": "a material-handling planning meeting",
+  "ch-31": "a safety-management-system implementation review",
+  "ch-32": "a site-security and emergency-preparedness review",
+  "ch-34": "a safety-performance measurement review",
+  "ch-35": "a safety-program audit",
+  "ch-36": "an environmental-compliance planning meeting",
+  "ch-38": "a management-of-change review",
+  "ch-39": "an emergency-response planning session",
+};
+
+const SUPPLIED_WARMUP_SCENARIOS: Readonly<Record<string, readonly string[]>> = {
+  "ch-14": [
+    "A new solvent-cleaning task is being designed, and the team can change the process before issuing any equipment.",
+    "A maintenance worker may encounter falling parts, compression hazards, and energized equipment during a repair.",
+    "Noise monitoring shows that a worker's single protector cannot provide the calculated attenuation needed for the task.",
+    "A technician will handle a halogenated solvent and needs gloves selected from documented compatibility data.",
+    "Atmospheric testing finds 18.7% oxygen in a vessel where an employee proposed wearing an air-purifying respirator.",
+  ],
+  "ch-20": [
+    "A project will require a known payment three years from now, and the manager needs to reserve an equivalent amount today.",
+    "A company finances a capital purchase and needs to determine the equal annual payment that retires the loan.",
+    "Two safety investments have different prices and expected annual net benefits, so leadership needs a comparable return measure.",
+    "A reserve account earns a stated annual rate and will fund a project after a fractional number of years.",
+    "A facility must have a fixed amount available for a future upgrade and needs to know how much to set aside now.",
+  ],
+  "ch-21": [
+    "A company wants its occupational health and safety system to fit cleanly alongside its established ISO management systems.",
+    "Leadership wants a voluntary, structured framework for reducing occupational risk rather than a one-time compliance campaign.",
+    "Executives endorse safety publicly, but employees have no meaningful way to identify hazards or influence solutions.",
+    "An improvement team has planned a change, implemented it, and measured the result; it must decide the next management-system step.",
+    "A supervisor sets measurable outcomes with employees and reviews performance against those agreed objectives.",
+  ],
+  "ch-22": [
+    "After a vehicle collision, the scene is safe and the investigator must preserve perishable evidence before equipment is moved.",
+    "A fault tree includes two independent paths that can each produce the top event, and the analyst must combine their probabilities correctly.",
+    "An investigator is using a model that traces conditions from social environment through unsafe acts or conditions to an injury.",
+    "A supervisor asks for an investigation focused on naming the employee at fault instead of learning why the event was possible.",
+    "A top event can occur only when every listed contributing event happens together.",
+  ],
+  "ch-24": [
+    "A job's actual box weight is known, and the ergonomist has calculated the recommended weight limit for that lift.",
+    "A team has applied the NIOSH lifting equation and now needs an index that communicates whether the lift exceeds the recommendation.",
+    "Engineers are still designing a new packing line and can alter its height, reach, and material flow before installation.",
+    "A repetitive task is causing shoulder strain, and management is comparing a redesigned fixture with rotating workers among the same task.",
+    "A team must prioritize one lift for redesign among several tasks with different travel paths and vertical ranges.",
+  ],
+  "ch-25": [
+    "A welding crew selects a process for outdoor work and the hygienist must anticipate a reactive gas hazard from the arc.",
+    "A worker grinds a galvanized surface and the airborne contaminant cools and condenses after leaving the hot work.",
+    "A contractor is choosing a tubular scaffold configuration for access work around a building façade.",
+    "A competent person evaluates an excavation where soil stability is uncertain and workers must enter below grade.",
+    "A five-foot excavation is planned in soil that is not stable rock, and no protective system has been installed.",
+  ],
+  "ch-26": [
+    "A risk team debates whether a credible event should rank high because it is severe even though it is unlikely.",
+    "A facilitator asks the group to distinguish a hazard from the harm that could result if the hazard is uncontrolled.",
+    "A facility can replace a chlorine-based process with a feasible lower-hazard alternative before considering PPE or procedures.",
+    "A new risk study has identified the system boundary but has not yet selected credible events or estimated their outcomes.",
+    "Before selecting controls for a new task, a supervisor needs evidence of the hazards actually present in the work area.",
+  ],
+  "ch-27": [
+    "A community group asks which federal program requires emergency planning and public information about hazardous chemicals.",
+    "A cleanup team must identify the federal statute that addresses releases of hazardous substances and contaminated sites.",
+    "A treatment, storage, and disposal facility is updating its contingency plan for a hazardous-substance release.",
+    "A generator ships hazardous waste off site and needs a record that follows the shipment to its designated facility.",
+    "A new employee will manage hazardous waste at a permitted operation and needs the required training schedule.",
+  ],
+  "ch-28": [
+    "A radiation-protection plan must identify tissue especially vulnerable to whole-body exposure from penetrating radiation.",
+    "A surveyor can move farther from a small point source and needs to estimate the expected effect on dose rate.",
+    "A contamination-control briefing contrasts radiation that is easily stopped externally with radiation that can be highly damaging if internalized.",
+    "An analyst estimates dose from a gamma source and must identify the essential input variables before relying on the result.",
+    "A source's activity falls predictably over time, and a planner needs the interval that describes a 50% reduction.",
+  ],
+  "ch-29": [
+    "A crane operator must verify the boom angle and the corresponding safe-load information before a lift.",
+    "A competent person evaluates an excavation and must classify the soil before choosing a protective method.",
+    "A worker sets up a straight ladder to reach a roof edge and knows the vertical rise to the support point.",
+    "Mobile equipment and spoil piles are being positioned beside an open excavation.",
+    "A fall-protection plan relies on a person watching workers and warning them when they approach an edge.",
+  ],
+  "ch-30": [
+    "An indoor warehouse cannot yet replace every combustion forklift with electric equipment, but emissions are causing an exposure concern.",
+    "A site analyzes its injury data to identify the dominant injury mechanism in manual material handling.",
+    "Two workers have similar strength, but one lift has a long horizontal reach, high frequency, and poor handholds.",
+    "A team can modify a container before buying a powered lift assist for a recurring manual-handling task.",
+    "A warehouse is purchasing trucks for routine indoor use where exhaust and charging arrangements are part of the evaluation.",
+  ],
+  "ch-31": [
+    "A company already operates quality and environmental systems and wants to embed safety into the same management structure.",
+    "Leadership wants a repeatable management tool that reduces injuries and illnesses rather than a collection of disconnected programs.",
+    "Employees are expected to follow the safety system but have no role in hazard reporting, planning, or improvement.",
+    "A management team has completed the check phase of its improvement cycle and is deciding how to sustain and improve the system.",
+    "A safety policy names a leader, but no one is explicitly responsible for making sure required controls are implemented.",
+  ],
+  "ch-32": [
+    "A site is revising its all-hazards preparedness plan after identifying medical, evacuation, spill, and communication gaps.",
+    "A workplace-violence program needs to give employees practical skills for a developing threat, not just a policy document.",
+    "A facility is redesigning perimeter and entry protection after an unauthorized person entered through an unlit side gate.",
+    "A manager observes escalating isolation and withdrawal together with other concerning behavior in an employee.",
+    "A risk review compares violence exposure across occupations and considers jobs that routinely interact with the public under conflict conditions.",
+  ],
+  "ch-34": [
+    "A dashboard reports injury cases and lost workdays that already occurred during the prior quarter.",
+    "Leadership wants performance data that identify emerging trouble areas without promising a financial outcome the data cannot prove.",
+    "Managers have different ideas of what acceptable safety performance means for a new initiative.",
+    "A team is selecting a measure that signals whether preventive work is occurring before injuries happen.",
+    "A written procedure exists, but the operations leader has not been assigned responsibility for ensuring it is used.",
+  ],
+  "ch-35": [
+    "An organization is establishing its first formal safety program and needs the document that anchors commitments and expectations.",
+    "Leadership wants an independent way to identify gaps and improve the effectiveness of the overall safety program.",
+    "A team is deciding whether an audit should focus on individual blame or how the program conforms to obligations and accepted practice.",
+    "A manager needs a deep evaluation of program elements and effectiveness, not just a walk-through of physical conditions.",
+    "An EH&S audit team is drafting its scope and must avoid turning a system evaluation into a ranking of individual plant managers.",
+  ],
+  "ch-36": [
+    "A hazardous-waste facility needs the RCRA term for treatment requirements that apply broadly to listed and characteristic wastes.",
+    "A municipality is evaluating whether a contaminant concentration in drinking water is within the applicable health-based standard.",
+    "Residents believe a facility is violating a hazardous-waste requirement and want to understand a federal enforcement option.",
+    "Before approving a major project, decision-makers must identify and evaluate its likely effects on the surrounding environment.",
+    "A chemical inventory includes an oxidizer and the hazard-communication label must use the correct pictogram.",
+  ],
+  "ch-38": [
+    "Engineering proposes a process modification that changes equipment function rather than replacing an item exactly in kind.",
+    "A contractor will work on a covered process and needs hazard information and emergency expectations before beginning work.",
+    "A site handles highly hazardous chemicals but has no written framework for managing process hazards and accidental-release prevention.",
+    "A process-safety compliance audit is being staffed for a complex operating unit.",
+    "Management must decide whether a structured process-safety approach applies to operations with potential for catastrophic chemical release.",
+  ],
+  "ch-39": [
+    "A release is developing rapidly and several response groups arrive with overlapping authority and incomplete information.",
+    "A site is setting the objective for an emergency-management program that covers natural, technical, and human-caused events.",
+    "A facility's response document lists phone numbers but lacks command roles, training expectations, and provisions for medical care and PPE.",
+    "A trained employee attempts to extinguish a small fire, the attempt fails, and the fire is no longer safely manageable as incipient.",
+    "A delivery driver arrives during normal operations and asks to enter production areas without completing the usual visitor process.",
+  ],
+};
+
+const SUPPLIED_WARMUP_DECISION_STAGES = [
+  "Before approving the work, the team must identify the action that controls the central issue.",
+  "The first proposal sounds convenient but does not address the controlling facts.",
+  "A supervisor needs a defensible decision that can be explained and verified in the field.",
+  "The team is choosing between a preventive action and a response that merely documents the problem.",
+  "The plan must remain effective when conditions change, rather than depend on an unverified assumption.",
+] as const;
+
+function suppliedWarmupStem(chapterId: string, label: string, sourceOrdinal: number): string {
+  const scenario = SUPPLIED_WARMUP_SCENARIOS[chapterId]?.[sourceOrdinal - 1];
+  if (scenario) return `${scenario} Select the response that directly controls the issue and can be verified in practice.`;
+  const setting = SUPPLIED_WARMUP_SETTINGS[chapterId] ?? "a workplace safety review";
+  const stage = SUPPLIED_WARMUP_DECISION_STAGES[(sourceOrdinal - 1) % SUPPLIED_WARMUP_DECISION_STAGES.length];
+  return `During ${setting}, the reviewer must apply the principle of ${label}. ${stage} Which response is most defensible?`;
+}
+
 function suppliedReviews(): readonly HomeworkQuestion[] {
   return READY_CHAPTERS
+    .filter((chapter) => chapter.id !== "ch-08")
     .flatMap((chapter) => SUPPLIED_HOMEWORK.filter((question) => question.chapterId === chapter.id).slice(0, 5))
     .map((source, index) => {
       const chapterIndex = SUPPLIED_HOMEWORK.findIndex((question) => question.id === source.id);
@@ -389,8 +556,8 @@ function suppliedReviews(): readonly HomeworkQuestion[] {
         `RV-${source.chapterId.replace("-", "").toUpperCase()}-${String(sourceOrdinal).padStart(2, "0")}`,
         source.chapterId,
         source.sourcePage,
-        `In a follow-up retrieval check, which application of ${label} should a safety professional retain?`,
-        [sourceAnswer, "Treat it as optional after an incident has occurred", "Use it only to complete paperwork", "Replace the controlling action with PPE alone"],
+        suppliedWarmupStem(source.chapterId, label, sourceOrdinal),
+        [sourceAnswer, "Choose the most convenient shortcut without verifying the controlling condition", "Delay the decision until an incident or audit exposes the gap", "Treat the issue as paperwork instead of implementing and verifying a control"],
         0,
         `${sourceAnswer} is the retained application of ${label}. Recalling it after a delay strengthens the same chapter concept without revealing it during the original assignment.`,
         source.tags,
@@ -513,12 +680,22 @@ const CH07_REVIEW: readonly HomeworkQuestion[] = [
   q("RV-CH07-05", "ch-07", 7, "Protein in urine after chronic cadmium exposure most strongly points to injury in which target organ?", ["Kidney", "Middle ear", "Thyroid only", "Spleen only"], 0, "Cadmium can damage renal tubules, leading to low-molecular-weight proteinuria and declining kidney function.", ["cadmium", "kidney"], "applied", "HW-CH07-06"),
 ];
 
+// The warm-up immediately before Ventilation uses the Air Sampling chapter.
+// These are deliberately application-focused rather than rephrased source answers.
+const CH08_REVIEW: readonly HomeworkQuestion[] = [
+  q("RV-CH08-01", "ch-08", 1, "A welder moves among several workstations during a full shift. The hygienist needs an exposure result that represents the welder rather than the room. Where should the sampler inlet be positioned?", ["On the welder's lapel or shoulder in the breathing zone", "At the center of the shop ceiling", "At the exhaust-fan discharge outdoors", "On a bench beside the clean welding rods"], 0, "Personal sampling estimates the worker's inhalation exposure when the inlet is kept in the breathing zone, typically on the lapel or shoulder. Fixed locations characterize an area, not the worker's changing exposure.", ["ch-08", "personal-sampling", "breathing-zone"], "applied", "HW-CH08-01"),
+  q("RV-CH08-02", "ch-08", 1, "A powder-transfer task creates mostly fine airborne particles. The assessment goal is to evaluate the fraction most able to penetrate to the gas-exchange region of the lungs. Which sampling target is most relevant?", ["Respirable particulate fraction", "Only large visible chips", "Settled dust collected after the shift", "The room's carbon-dioxide concentration"], 0, "Respirable particles are small enough to reach deep into the lung. Settled dust and visible chips can matter for housekeeping or other hazards but do not represent the respirable airborne fraction.", ["ch-08", "respirable-particle-size", "sampling-strategy"], "applied", "HW-CH08-02"),
+  q("RV-CH08-03", "ch-08", 1, "A facility introduces a solvent-cleaning step and proposes buying respirators immediately. What should the safety professional do first to make the control decision defensible?", ["Characterize the contaminant, tasks, and likely worker exposure", "Select the highest-cost respirator available", "Wait for a worker to report symptoms", "Assume the ventilation rate is adequate because the room has windows"], 0, "Industrial hygiene begins with anticipating and recognizing the hazard, then evaluating exposure before choosing controls. The result informs whether elimination, substitution, ventilation, work practices, or respiratory protection is appropriate.", ["ch-08", "industrial-hygiene", "exposure-assessment"], "exam", "HW-CH08-03"),
+  q("RV-CH08-04", "ch-08", 1, "During welding-fume sampling, the worker's head turns away from the plume and a local exhaust hood sometimes captures the fume. Which setup best preserves a representative personal sample?", ["Secure the sampling cassette near the lapel within the breathing zone", "Place the cassette on the floor beneath the welding table", "Mount the cassette inside the exhaust duct", "Hold the cassette several feet behind the worker"], 0, "The cassette belongs in the worker's breathing zone so the sample follows the worker through realistic task positions and changing hood performance. Floor, duct, and remote locations answer different questions.", ["ch-08", "welding-fume-sampling", "breathing-zone"], "applied", "HW-CH08-04"),
+  q("RV-CH08-05", "ch-08", 1, "Employees in one office area report headaches that occur mainly after a renovation and improve away from work. Before changing the HVAC system, which investigation step is most likely to identify a useful exposure pattern?", ["Interview affected employees and management, then map symptoms to time, location, and tasks", "Replace every ceiling tile immediately", "Test only the outdoor weather conditions", "Conclude that all symptoms are unrelated because they are subjective"], 0, "A structured initial investigation gathers the timing, locations, affected groups, activities, materials, and ventilation changes that can guide targeted measurements and corrective action.", ["ch-08", "indoor-air-quality-investigation", "exposure-assessment"], "exam", "HW-CH08-05"),
+];
+
 const CH09_REVIEW: readonly HomeworkQuestion[] = [
-  q("RV-CH09-01", "ch-09", 1, "A 6-inch square duct carries 2,000 cfm. After calculating an 8,000-fpm duct velocity, what velocity pressure follows from V = 4,005√VP?", ["1.0 inch of water", "2.0 inches of water", "4.0 inches of water", "12.0 inches of water"], 2, "Solving VP = (V/4,005)² with V = 8,000 fpm gives 3.99 inches of water, or 4.0 inches of water.", ["screenshot-source", "velocity-pressure", "duct-airflow"], "applied", "HW-CH09-02"),
-  q("RV-CH09-02", "ch-09", 1, "A dilution-ventilation equation expects evaporation rate in pints per minute, but the source rate is reported in pints per hour. What conversion is needed before using the equation?", ["Divide the hourly rate by 60", "Multiply the hourly rate by 60", "Add 60 to the hourly rate", "No conversion is needed"], 0, "There are 60 minutes in an hour, so a rate stated per hour is converted to a rate per minute by dividing by 60.", ["screenshot-source", "dilution-ventilation", "evaporation-rate"], "foundation", "HW-CH09-03"),
-  q("RV-CH09-03", "ch-09", 1, "An 18,000-ft³ room starts at 200 ppm and receives 1,500 cfm of effective clean-air ventilation with no continuing generation. Approximately what concentration remains after 10 minutes?", ["43 ppm", "87 ppm", "126 ppm", "171 ppm"], 1, "For decay with no continuing generation, C₂ = C₁e^(−Qt/V). Here that is 200e^(−1,500 × 10 / 18,000) = 86.9 ppm.", ["screenshot-source", "ventilation-clearance", "concentration-decay"], "applied", "HW-CH09-04"),
-  q("RV-CH09-04", "ch-09", 1, "Which condition most strongly favors source capture or enclosure instead of general dilution ventilation?", ["Low cost to condition makeup air", "Mobile, broadly distributed contaminant sources", "Highly toxic airborne contamination", "Employee education"], 2, "High toxicity can make the airflow needed for dilution impractical. Capturing, enclosing, eliminating, or substituting the source provides stronger control.", ["screenshot-source", "dilution-ventilation", "control-selection"], "exam", "HW-CH09-06"),
-  q("RV-CH09-05", "ch-09", 1, "Under the source's combined-flow sizing convention, carbon monoxide requires 40,000 cfm and acetone requires about 100 cfm. What design airflow does that calculation produce?", ["100 cfm", "20,500 cfm", "40,000 cfm", "40,100 cfm"], 3, "The source's method combines the two calculated flows: 40,000 cfm for carbon monoxide plus about 100 cfm for acetone equals approximately 40,100 cfm.", ["screenshot-source", "dilution-ventilation", "multiple-contaminants"], "exam", "HW-CH09-10"),
+  q("RV-CH09-01", "ch-09", 1, "A 12-inch by 8-inch duct carries 2,400 cfm. A Pitot-tube traverse is planned. What velocity pressure should the technician expect at standard air density?", ["0.2 in. H₂O", "0.8 in. H₂O", "1.6 in. H₂O", "3.2 in. H₂O"], 1, "The duct area is 96 in², or 0.667 ft², so velocity is 2,400/0.667 = 3,600 fpm. VP = (3,600/4,005)² = 0.81 in. H₂O, approximately 0.8 in. H₂O.", ["screenshot-source", "velocity-pressure", "duct-airflow"], "applied", "HW-CH09-02"),
+  q("RV-CH09-02", "ch-09", 1, "A process evaporates acetone at 0.25 pint/hour. Use SG = 0.792, molecular weight = 58, a mixing factor of 2, and a 500-ppm target. Using Q = 403 × 10⁶(SG)(ER)(K)/(MW × C), where ER is in pints/minute, what dilution flow is required?", ["46 cfm", "92 cfm", "183 cfm", "367 cfm"], 1, "Convert the emission rate first: 0.25/60 = 0.004167 pint/minute. Substitution gives Q = [403 × 10⁶(0.792)(0.004167)(2)]/(58 × 500) = about 92 cfm.", ["screenshot-source", "dilution-ventilation", "evaporation-rate"], "exam", "HW-CH09-03"),
+  q("RV-CH09-03", "ch-09", 1, "After a spill is stopped, a 30-ft by 20-ft by 10-ft room contains 400 ppm of vapor. Effective exhaust is 600 cfm and no vapor is being generated. About what concentration remains after 10 minutes?", ["54 ppm", "147 ppm", "253 ppm", "362 ppm"], 1, "Room volume is 6,000 ft³, so Qt/V = 600(10)/6,000 = 1. With generation stopped, C₂ = 400e⁻¹ = 147 ppm. Continuing generation would require the full mass-balance equation instead.", ["screenshot-source", "ventilation-clearance", "concentration-decay"], "exam", "HW-CH09-04"),
+  q("RV-CH09-04", "ch-09", 1, "A small open process releases a highly toxic vapor directly beside an operator. Which redesign best applies the ventilation control hierarchy?", ["Install a close-capture local exhaust hood and keep the worker out of its capture zone", "Increase general room air changes until odor is no longer noticed", "Provide odor training and retain the existing room airflow", "Add a fan that blows the vapor across the operator toward a wall louver"], 0, "For a highly toxic vapor from a localized source, capture at or near the point of release is the preferred ventilation strategy. Odor is not a safe exposure indicator, and cross-drafts can carry contaminant through the breathing zone.", ["screenshot-source", "dilution-ventilation", "control-selection"], "exam", "HW-CH09-06"),
+  q("RV-CH09-05", "ch-09", 1, "For a perfectly mixed warehouse, one calculation yields 16,000 cfm for carbon monoxide control and a second yields 600 cfm for solvent-vapor control. Under the source's combined-flow sizing convention, what minimum design airflow is selected?", ["600 cfm", "16,000 cfm", "16,600 cfm", "32,000 cfm"], 2, "Under the source convention used for this exercise, add the independently calculated flows: 16,000 + 600 = 16,600 cfm. A real design also needs a contaminant-specific compatibility and distribution review.", ["screenshot-source", "dilution-ventilation", "multiple-contaminants"], "exam", "HW-CH09-10"),
 ];
 
 const CH10_REVIEW: readonly HomeworkQuestion[] = [
@@ -608,6 +785,7 @@ export const REVIEW_QUESTIONS: readonly HomeworkQuestion[] = [
   ...CH05_REVIEW,
   ...CH06_REVIEW,
   ...CH07_REVIEW,
+  ...CH08_REVIEW,
   ...CH09_REVIEW,
   ...CH10_REVIEW,
   ...CH11_REVIEW,
