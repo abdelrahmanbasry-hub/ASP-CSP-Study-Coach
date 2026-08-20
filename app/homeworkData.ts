@@ -44,6 +44,7 @@ const READY_CHAPTERS: readonly ChapterDefinition[] = [
   { id: "ch-05", courseNumber: 5, courseTitle: "Math Review", yatesChapterNumber: 3, yatesChapterTitle: "Math Review", sourcePdf: "Ch-05 Homework Answers.pdf", sourcePages: [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13], status: "ready" },
   { id: "ch-06", courseNumber: 6, courseTitle: "Particles and Gases", yatesChapterNumber: 4, yatesChapterTitle: "Particulates and Gases", sourcePdf: "Ch-06 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10], status: "ready" },
   { id: "ch-07", courseNumber: 7, courseTitle: "Toxicology", yatesChapterNumber: 5, yatesChapterTitle: "Toxicology", sourcePdf: "Ch-07 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8], status: "ready" },
+  { id: "ch-09", courseNumber: 9, courseTitle: "Ventilation", yatesChapterNumber: 7, yatesChapterTitle: "Ventilation", sourcePdf: "Ventilation Q&A screenshots (provided 2026-08-20)", sourcePages: [1], status: "ready" },
   { id: "ch-10", courseNumber: 10, courseTitle: "Noise", yatesChapterNumber: 8, yatesChapterTitle: "Noise and OSHA's Hearing Conservation Program", sourcePdf: "Ch-10 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
   { id: "ch-11", courseNumber: 11, courseTitle: "Biological Hazards", yatesChapterNumber: 9, yatesChapterTitle: "Biological Hazards", sourcePdf: "Ch-09_Biological Hazards_Homework Questions.docx; Ch-11 Homework Answers.pdf", sourcePages: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
   { id: "ch-12", courseNumber: 12, courseTitle: "Fire Prevention and Protection", yatesChapterNumber: 10, yatesChapterTitle: "Fire Protection and Prevention", sourcePdf: "Ch-12 Homework Answers.pdf", sourcePages: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11], status: "ready" },
@@ -77,7 +78,6 @@ const READY_CHAPTERS: readonly ChapterDefinition[] = [
 
 const COMING_LATER_CHAPTERS: readonly ChapterDefinition[] = [
   [1, "The Safety Profession and Exam Preparation", 1, "The Safety Profession and Preparing for the ASP/CSP Exam"],
-  [9, "Ventilation", 7, "Ventilation"],
   [33, "Behavior-Based Safety", 31, "Behavior-Based Safety"],
   [37, "BCSP Code of Ethics", 35, "BCSP Code of Ethics"],
 ].map(([courseNumber, courseTitle, yatesChapterNumber, yatesChapterTitle]) => ({
@@ -197,6 +197,20 @@ const CH07_HOMEWORK: readonly HomeworkQuestion[] = [
   q("HW-CH07-05", "ch-07", 6, "Chemical A has no toxic effect on an organ at the dose present, but it greatly increases Chemical B's toxicity. What interaction is this?", ["Antagonism", "Additivity", "Potentiation", "Independent action"], 2, "Potentiation occurs when a substance without the relevant toxic effect increases the toxicity of another substance.", ["potentiation", "chemical-interactions"], "applied"),
   q("HW-CH07-06", "ch-07", 7, "Which organ system commonly shows an early chronic effect from occupational cadmium exposure?", ["Kidneys, particularly renal tubules", "Middle-ear ossicles", "Lens of the eye only", "Appendix"], 0, "Chronic cadmium exposure is strongly associated with renal tubular injury and impaired kidney function.", ["cadmium", "target-organ", "kidney"], "foundation"),
   q("HW-CH07-07", "ch-07", 8, "A substance has an oral LD50 of 15 mg/kg in rats. What administered dose corresponds to that LD50 for a 2.0-kg rat?", ["7.5 mg", "15 mg", "30 mg", "30 kg"], 2, "Dose equals 15 mg/kg x 2.0 kg = 30 mg. LD50 is a population statistic, not a prediction that a particular animal will die.", ["ld50", "dose", "calculation"], "applied"),
+];
+
+// These source questions were supplied as screenshots. They retain their
+// wording and answer order so the Chapter 9 homework matches the material.
+const CH09_HOMEWORK: readonly HomeworkQuestion[] = [
+  sq("HW-CH09-02", "ch-09", 1, "What is the velocity pressure of 2,000 cfm of air moving through a 6-inch square duct? [Hint: V = 4005√VP]", ["1.0 inch of water", "2.0 inches of water", "4.0 inches of water", "12.0 inches of water"], 2, "A 6-inch square duct has an area of 0.25 ft², so 2,000 cfm produces 8,000 fpm. VP = (8,000/4,005)² = about 3.99 inches of water, which rounds to 4.0 inches of water.", ["screenshot-source", "velocity-pressure", "duct-airflow"]),
+  sq("HW-CH09-03", "ch-09", 1, "What is the required dilution ventilation rate to maintain an atmospheric concentration of acetone below the PEL given the following conditions? Evaporation rate = 0.5 pints/hour, PEL = 1,000 ppm, molecular weight = 58, specific gravity = 0.792, and the mixing factor is 4. [Hint: Q = (403 × 10⁶ × SG × ER × K) / (MW × C)]", ["183 cfm", "1,098 cfm", "1,980 cfm", "10,980 cfm"], 0, "Using the supplied equation on its pints-per-minute basis, first convert 0.5 pints/hour to 0.00833 pints/minute. Substitution gives approximately 183 cfm.", ["screenshot-source", "dilution-ventilation", "evaporation-rate"]),
+  sq("HW-CH09-04", "ch-09", 1, "What is the resultant concentration in a room after 10 minutes given the following conditions: room dimensions = 120′ × 10′ × 15′; effective ventilation rate = 1,500 cfm; initial concentration = 200 ppm? [Hint: ln(C₂/C₁) = −(Q′/V)(t₂ − t₁)]", ["43 ppm", "87 ppm", "126 ppm", "171 ppm"], 1, "The room volume is 18,000 ft³. Therefore C₂ = 200e^(−1,500 × 10 / 18,000) = 86.9 ppm, which rounds to 87 ppm.", ["screenshot-source", "ventilation-clearance", "concentration-decay"]),
+  sq("HW-CH09-05", "ch-09", 1, "A safety professional was preparing Thanksgiving dinner for a group of friends. An exhaust fan was installed above the stove to provide exhaust for emissions from the stove. What type of hood was used to capture and remove these emissions?", ["Slot hood", "Canopy hood", "Plain hood", "Enclosing hood"], 1, "A canopy hood is installed above a source with a rising thermal plume, such as a stove, to capture and exhaust the emissions.", ["screenshot-source", "canopy-hood", "local-exhaust"]),
+  sq("HW-CH09-06", "ch-09", 1, "Which solution below will prevent the use of dilution ventilation as a viable engineering control?", ["Low cost to condition air", "Mobile or widely dispersed contaminant generation sources", "Highly toxic airborne contamination", "Employee education"], 2, "Dilution ventilation is generally unsuitable for highly toxic contaminants because exposure limits can require impractically large airflows; source capture, enclosure, or substitution is preferred.", ["screenshot-source", "dilution-ventilation", "control-selection"]),
+  sq("HW-CH09-07", "ch-09", 1, "Velocity pressure can be measured in a ventilation system by:", ["Pitot tube", "Thermo-anemometer", "Smoke tube", "Piezo elect"], 0, "A Pitot tube, used with a pressure-measuring device, measures velocity pressure in a duct. Airspeed instruments and smoke tubes serve different purposes.", ["screenshot-source", "pitot-tube", "velocity-pressure"]),
+  sq("HW-CH09-08", "ch-09", 1, "In general, which of the following operations would require the greatest capture velocity to achieve effective exposure control?", ["Evaporation from open surface tanks", "Spray booths", "Welding", "Grinding"], 3, "Grinding generates particles with substantial momentum, so it generally needs the greatest capture velocity among these operations to pull contaminants into the hood effectively.", ["screenshot-source", "capture-velocity", "grinding"]),
+  sq("HW-CH09-09", "ch-09", 1, "In determining the volume of dilution air needed in a room, you need to know:", ["TLV of the contaminant", "Rate of generation of the contaminant", "Size of room", "Both 1 and 2"], 3, "For a steady-state dilution calculation, the required airflow depends on the contaminant generation rate and the target concentration, such as the TLV. Room size affects transient behavior rather than the basic steady-state flow requirement.", ["screenshot-source", "dilution-ventilation", "generation-rate"]),
+  sq("HW-CH09-10", "ch-09", 1, "A warehouse has a propane forklift emitting carbon monoxide at a rate of 2 cfm. A dip tank filled with acetone is in one corner of the warehouse. It emits acetone at a rate of 4 liters per 8-hour day. What is the minimum required dilution ventilation rate to keep the airborne concentrations at the permissible exposure limits? Assume perfect mixing for this problem. Acetone PEL = 1,000 ppm. Acetone specific gravity = 0.785. Acetone molecular weight = 58.1. Carbon monoxide PEL = 50 ppm. [Hints: Q = (403 × 10⁶ × SG × ER × K) / (MW × C), and Q = G/C]", ["100 cfm", "20,500 cfm", "40,000 cfm", "40,100 cfm"], 3, "The carbon monoxide source requires 2/(50 × 10⁻⁶) = 40,000 cfm. The acetone calculation contributes about 100 cfm using the supplied method, so the source's combined-flow result rounds to 40,100 cfm.", ["screenshot-source", "dilution-ventilation", "multiple-contaminants"]),
 ];
 
 const CH10_HOMEWORK: readonly HomeworkQuestion[] = [
@@ -435,6 +449,7 @@ export const HOMEWORK_QUESTIONS: readonly HomeworkQuestion[] = [
   ...CH05_HOMEWORK,
   ...CH06_HOMEWORK,
   ...CH07_HOMEWORK,
+  ...CH09_HOMEWORK,
   ...CH10_HOMEWORK,
   ...CH11_HOMEWORK,
   ...CH12_HOMEWORK,
@@ -496,6 +511,14 @@ const CH07_REVIEW: readonly HomeworkQuestion[] = [
   q("RV-CH07-03", "ch-07", 8, "A dose is 8 mg/kg for a 75-kg worker. What total mass does that dose represent?", ["9.4 mg", "83 mg", "600 mg", "6,000 mg"], 2, "Total mass = 8 mg/kg x 75 kg = 600 mg.", ["dose", "calculation"], "applied", "HW-CH07-07"),
   q("RV-CH07-04", "ch-07", 2, "A worker becomes dizzy shortly after a ten-minute high solvent exposure during spill response. How is the exposure pattern best classified?", ["Acute", "Chronic", "A latency period", "Antagonistic"], 0, "A high exposure over minutes with prompt effects is an acute exposure pattern, even though some acute exposures can also have delayed consequences.", ["acute-exposure", "dose-response"], "applied", "HW-CH07-01"),
   q("RV-CH07-05", "ch-07", 7, "Protein in urine after chronic cadmium exposure most strongly points to injury in which target organ?", ["Kidney", "Middle ear", "Thyroid only", "Spleen only"], 0, "Cadmium can damage renal tubules, leading to low-molecular-weight proteinuria and declining kidney function.", ["cadmium", "kidney"], "applied", "HW-CH07-06"),
+];
+
+const CH09_REVIEW: readonly HomeworkQuestion[] = [
+  q("RV-CH09-01", "ch-09", 1, "A 6-inch square duct carries 2,000 cfm. After calculating an 8,000-fpm duct velocity, what velocity pressure follows from V = 4,005√VP?", ["1.0 inch of water", "2.0 inches of water", "4.0 inches of water", "12.0 inches of water"], 2, "Solving VP = (V/4,005)² with V = 8,000 fpm gives 3.99 inches of water, or 4.0 inches of water.", ["screenshot-source", "velocity-pressure", "duct-airflow"], "applied", "HW-CH09-02"),
+  q("RV-CH09-02", "ch-09", 1, "A dilution-ventilation equation expects evaporation rate in pints per minute, but the source rate is reported in pints per hour. What conversion is needed before using the equation?", ["Divide the hourly rate by 60", "Multiply the hourly rate by 60", "Add 60 to the hourly rate", "No conversion is needed"], 0, "There are 60 minutes in an hour, so a rate stated per hour is converted to a rate per minute by dividing by 60.", ["screenshot-source", "dilution-ventilation", "evaporation-rate"], "foundation", "HW-CH09-03"),
+  q("RV-CH09-03", "ch-09", 1, "An 18,000-ft³ room starts at 200 ppm and receives 1,500 cfm of effective clean-air ventilation with no continuing generation. Approximately what concentration remains after 10 minutes?", ["43 ppm", "87 ppm", "126 ppm", "171 ppm"], 1, "For decay with no continuing generation, C₂ = C₁e^(−Qt/V). Here that is 200e^(−1,500 × 10 / 18,000) = 86.9 ppm.", ["screenshot-source", "ventilation-clearance", "concentration-decay"], "applied", "HW-CH09-04"),
+  q("RV-CH09-04", "ch-09", 1, "Which condition most strongly favors source capture or enclosure instead of general dilution ventilation?", ["Low cost to condition makeup air", "Mobile, broadly distributed contaminant sources", "Highly toxic airborne contamination", "Employee education"], 2, "High toxicity can make the airflow needed for dilution impractical. Capturing, enclosing, eliminating, or substituting the source provides stronger control.", ["screenshot-source", "dilution-ventilation", "control-selection"], "exam", "HW-CH09-06"),
+  q("RV-CH09-05", "ch-09", 1, "Under the source's combined-flow sizing convention, carbon monoxide requires 40,000 cfm and acetone requires about 100 cfm. What design airflow does that calculation produce?", ["100 cfm", "20,500 cfm", "40,000 cfm", "40,100 cfm"], 3, "The source's method combines the two calculated flows: 40,000 cfm for carbon monoxide plus about 100 cfm for acetone equals approximately 40,100 cfm.", ["screenshot-source", "dilution-ventilation", "multiple-contaminants"], "exam", "HW-CH09-10"),
 ];
 
 const CH10_REVIEW: readonly HomeworkQuestion[] = [
@@ -585,6 +608,7 @@ export const REVIEW_QUESTIONS: readonly HomeworkQuestion[] = [
   ...CH05_REVIEW,
   ...CH06_REVIEW,
   ...CH07_REVIEW,
+  ...CH09_REVIEW,
   ...CH10_REVIEW,
   ...CH11_REVIEW,
   ...CH12_REVIEW,

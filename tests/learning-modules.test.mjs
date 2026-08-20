@@ -42,6 +42,7 @@ const EXPECTED_HOMEWORK_BY_CHAPTER = {
   "ch-06": 7,
   "ch-07": 7,
   "ch-08": 16,
+  "ch-09": 9,
   "ch-10": 10,
   "ch-11": 20,
   "ch-12": 10,
@@ -152,19 +153,19 @@ const EXPECTED_BCSP_FREQUENTLY_USED_FORMULA_IDS = Object.values(
 
 test("homework catalog preserves the supplied chapter manifest and exact counts", () => {
   assert.deepEqual(HOMEWORK_COUNTS, {
-    readyChapters: 35,
-    comingLaterChapters: 4,
+    readyChapters: 36,
+    comingLaterChapters: 3,
     totalChapters: 39,
-    homework: 313,
-    review: 175,
-    totalQuestions: 488,
+    homework: 322,
+    review: 180,
+    totalQuestions: 502,
     homeworkByChapter: EXPECTED_HOMEWORK_BY_CHAPTER,
     reviewByChapter: Object.fromEntries(
       Object.keys(EXPECTED_HOMEWORK_BY_CHAPTER).map((chapterId) => [chapterId, 5]),
     ),
   });
-  assert.equal(CHAPTERS.filter((chapter) => chapter.status === "ready").length, 35);
-  assert.equal(CHAPTERS.filter((chapter) => chapter.status === "coming-later").length, 4);
+  assert.equal(CHAPTERS.filter((chapter) => chapter.status === "ready").length, 36);
+  assert.equal(CHAPTERS.filter((chapter) => chapter.status === "coming-later").length, 3);
 
   for (const chapter of CHAPTERS) {
     if (chapter.status === "ready") {
@@ -220,8 +221,8 @@ test("practice questions cover every chapter with individually authored records"
 
 test("every homework and review item is complete, uniquely keyed, and answerable", () => {
   const allQuestions = [...HOMEWORK_QUESTIONS, ...REVIEW_QUESTIONS];
-  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 488);
-  assert.equal(new Set(allQuestions.map((question) => question.stem)).size, 488);
+  assert.equal(new Set(allQuestions.map((question) => question.id)).size, 502);
+  assert.equal(new Set(allQuestions.map((question) => question.stem)).size, 502);
 
   for (const question of allQuestions) {
     assert.match(question.id, /^(HW|RV)-CH\d{2}-\d{2}$/);
