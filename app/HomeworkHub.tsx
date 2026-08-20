@@ -84,6 +84,7 @@ export default function HomeworkHub({
       <HomeworkRunner
         runner={runner}
         onExit={() => setRunner(null)}
+        onSkipWarmup={runner.kind === "review" ? () => startHomework(runner.chapterId) : undefined}
         onSubmit={(answers, score) => {
           recordHomework(score, runner, answers);
           setResult({ runner, answers, score });
@@ -116,7 +117,7 @@ export default function HomeworkHub({
       </section>
 
       <section className="page-width homework-guidance">
-        <div><RotateCcw /><strong>Previous-chapter warm-up</strong><span>Five new questions before the next homework when an earlier chapter is complete.</span></div>
+        <div><RotateCcw /><strong>Optional previous-chapter warm-up</strong><span>Use five recall questions before the next homework, or skip straight to the assignment.</span></div>
         <div><LockKeyhole /><strong>Answers stay sealed</strong><span>Score and explanations unlock only after the whole assignment is submitted.</span></div>
         <div><Trophy /><strong>Chapter analytics</strong><span>Last score, best score, attempts, and percentage are saved to your learner profile.</span></div>
       </section>
@@ -152,7 +153,7 @@ export default function HomeworkHub({
   );
 }
 
-function HomeworkRunner({ runner, onExit, onSubmit }: { runner: Runner; onExit: () => void; onSubmit: (answers: Record<number, number>, score: number) => void }) {
+function HomeworkRunner({ runner, onExit, onSkipWarmup, onSubmit }: { runner: Runner; onExit: () => void; onSkipWarmup?: () => void; onSubmit: (answers: Record<number, number>, score: number) => void }) {
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const current = runner.questions[index];
@@ -161,7 +162,7 @@ function HomeworkRunner({ runner, onExit, onSubmit }: { runner: Runner; onExit: 
   const title = runner.kind === "review" ? `Previous-chapter warm-up for ${chapter?.courseTitle ?? "this chapter"}` : chapter?.courseTitle ?? "Chapter homework";
   return (
     <main className="homework-runner">
-      <header className="homework-runner-header"><button className="secondary-button" onClick={onExit}><X size={16} /> Exit</button><div><small>{runner.kind === "review" ? "Retrieval warm-up" : "Homework assignment"}</small><strong>{title}</strong></div><span>{answered}/{runner.questions.length} answered</span></header>
+      <header className="homework-runner-header"><button className="secondary-button" onClick={onExit}><X size={16} /> Exit</button><div><small>{runner.kind === "review" ? "Retrieval warm-up" : "Homework assignment"}</small><strong>{title}</strong></div><div className="homework-runner-actions">{onSkipWarmup && <button className="text-button warmup-skip-button" onClick={onSkipWarmup}>Skip warm-up <ArrowRight size={15} /></button>}<span>{answered}/{runner.questions.length} answered</span></div></header>
       <div className="homework-progress"><i style={{ width: `${((index + 1) / runner.questions.length) * 100}%` }} /></div>
       <section className="homework-question-card">
         <div className="question-meta"><span>Question {index + 1} / {runner.questions.length}</span><span className="difficulty-chip">{current.difficulty}</span></div>
