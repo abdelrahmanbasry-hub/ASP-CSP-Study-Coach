@@ -653,9 +653,11 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .result-actions { display: flex; justify-content: flex-end; gap: 9px; margin-top: 18px; }
 .homework-rationales { padding-top: 38px; }
 .homework-rationale { margin-top: 10px; overflow: hidden; border: 1px solid #dfdeda; border-left: 4px solid var(--red); border-radius: 9px; background: var(--card); }
+.homework-rationale.correct-review { border-left-color: var(--green); }
 .homework-rationale summary { min-height: 74px; padding: 15px 17px; display: grid; grid-template-columns: 32px minmax(0,1fr) 18px; align-items: center; gap: 13px; cursor: pointer; list-style: none; }
 .homework-rationale summary::-webkit-details-marker, .formula-card summary::-webkit-details-marker, .hazard-mobile-list summary::-webkit-details-marker { display: none; }
 .homework-rationale summary > span { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 50%; background: #f9e3e1; color: #a4413d; font-size: 10px; font-weight: 900; }
+.homework-rationale.correct-review summary > span { background: #e4f3eb; color: #286c56; }
 .homework-rationale summary strong { font-size: 12px; line-height: 1.45; }
 .homework-rationale summary svg { color: var(--muted); transition: transform .18s ease; }
 .homework-rationale[open] summary svg { transform: rotate(180deg); }
