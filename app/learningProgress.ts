@@ -6,6 +6,7 @@ export type ChapterScore = {
   attempts: number;
   completedAt: number;
   missedQuestionIds: string[];
+  lastAnswers?: Record<string, number>;
 };
 
 export type FlashcardRating = "again" | "hard" | "good" | "easy";

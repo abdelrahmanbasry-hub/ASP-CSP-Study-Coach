@@ -16,6 +16,13 @@ type Runner = {
   questions: readonly HomeworkQuestion[];
 };
 
+type HomeworkResult = {
+  runner: Runner;
+  answers: Record<number, number>;
+  score: number;
+  savedReview?: "all" | "missed";
+};
+
 export default function HomeworkHub({
   progress,
   onProgress,
@@ -24,7 +31,7 @@ export default function HomeworkHub({
   onProgress: (next: LearningProgress) => void;
 }) {
   const [runner, setRunner] = useState<Runner | null>(null);
-  const [result, setResult] = useState<{ runner: Runner; answers: Record<number, number>; score: number } | null>(null);
+  const [result, setResult] = useState<HomeworkResult | null>(null);
 
   const ready = CHAPTERS.filter((chapter) => chapter.status === "ready");
   const pending = CHAPTERS.filter((chapter) => chapter.status !== "ready");
@@ -64,6 +71,9 @@ export default function HomeworkHub({
     const missedQuestionIds = runnerState.questions
       .filter((question, index) => answers[index] !== question.correctIndex)
       .map((question) => question.id);
+    const lastAnswers: Record<string, number> = Object.fromEntries(
+      runnerState.questions.map((question, index) => [question.id, answers[index] as number]),
+    );
     const nextScore: ChapterScore = {
       chapterId: runnerState.chapterId,
       lastScore: score,
@@ -72,11 +82,30 @@ export default function HomeworkHub({
       attempts: (previous?.attempts ?? 0) + 1,
       completedAt: Date.now(),
       missedQuestionIds,
+      lastAnswers,
     };
     onProgress({
       ...progress,
       chapterScores: { ...progress.chapterScores, [runnerState.chapterId]: nextScore },
     });
+  }
+
+  function openSavedReview(chapterId: string, kind: "all" | "missed") {
+    const score = progress.chapterScores[chapterId];
+    if (!score) return;
+    const missedQuestionIds = score.missedQuestionIds ?? [];
+    const allQuestions = HOMEWORK_QUESTIONS.filter((question) => question.chapterId === chapterId);
+    const questions = kind === "missed"
+      ? allQuestions.filter((question) => missedQuestionIds.includes(question.id))
+      : allQuestions;
+    if (!questions.length) return;
+    const answers: Record<number, number> = {};
+    questions.forEach((question, index) => {
+      const answer = score.lastAnswers?.[question.id];
+      if (answer !== undefined) answers[index] = answer;
+    });
+    const reviewScore = questions.filter((question, index) => answers[index] === question.correctIndex).length;
+    setResult({ runner: { chapterId, kind: "homework", questions }, answers, score: reviewScore, savedReview: kind });
   }
 
   if (runner) {
@@ -136,6 +165,7 @@ export default function HomeworkHub({
                 <h3>{chapter.courseTitle}</h3>
                 <p>{`Yates 3e Ch. ${chapter.yatesChapterNumber}: ${chapter.yatesChapterTitle}`}</p>
                 <div className="chapter-metrics"><span><strong>{count}</strong> questions</span><span><strong>{lastPercent ?? "—"}{lastPercent !== null ? "%" : ""}</strong> last</span><span><strong>{bestPercent ?? "—"}{bestPercent !== null ? "%" : ""}</strong> best</span></div>
+                {score && <div className="chapter-review-actions"><button className="secondary-button" disabled={(score.missedQuestionIds ?? []).length === 0} onClick={() => openSavedReview(chapter.id, "missed")}>Review missed</button><button className="secondary-button" onClick={() => openSavedReview(chapter.id, "all")}>Review all</button></div>}
                 <button className="primary-button full" onClick={() => begin(chapter.id)}>{score ? "Retake chapter" : "Start chapter"} <ArrowRight size={17} /></button>
               </article>
             );
@@ -175,15 +205,18 @@ function HomeworkRunner({ runner, onExit, onSkipWarmup, onSubmit }: { runner: Ru
   );
 }
 
-function HomeworkResults({ result, onHome, onContinue }: { result: { runner: Runner; answers: Record<number, number>; score: number }; onHome: () => void; onContinue: () => void }) {
+function HomeworkResults({ result, onHome, onContinue }: { result: HomeworkResult; onHome: () => void; onContinue: () => void }) {
   const percent = Math.round((result.score / result.runner.questions.length) * 100);
   const incorrect = result.runner.questions.filter((question, index) => result.answers[index] !== question.correctIndex);
   const reviewed = result.runner.questions;
+  const isSavedReview = Boolean(result.savedReview);
+  const resultTitle = isSavedReview ? result.savedReview === "missed" ? "Review missed questions." : "Review your last homework." : percent >= 80 ? "Strong chapter recall." : "The gaps are now visible.";
+  const resultSummary = isSavedReview ? `${reviewed.length} question${reviewed.length === 1 ? "" : "s"} from your last attempt` : `${result.runner.kind === "review" ? "Warm-up" : "Homework"} · ${result.score}/${result.runner.questions.length} correct`;
   return (
     <main className="resource-page homework-results page-width">
-      <section className="homework-result-hero"><div><p className="eyebrow"><Trophy size={16} /> Block submitted</p><h1>{percent >= 80 ? "Strong chapter recall." : "The gaps are now visible."}</h1><p>{result.runner.kind === "review" ? "Warm-up" : "Homework"} · {result.score}/{result.runner.questions.length} correct</p></div><div className="homework-score"><strong>{percent}%</strong><span>{result.runner.kind === "review" ? "warm-up score" : "chapter score"}</span></div></section>
+      <section className="homework-result-hero"><div><p className="eyebrow"><Trophy size={16} /> {isSavedReview ? "Saved homework review" : "Block submitted"}</p><h1>{resultTitle}</h1><p>{resultSummary}</p></div><div className="homework-score"><strong>{isSavedReview ? reviewed.length : `${percent}%`}</strong><span>{isSavedReview ? "questions available" : result.runner.kind === "review" ? "warm-up score" : "chapter score"}</span></div></section>
       <div className="result-actions"><button className="secondary-button" onClick={onHome}>Chapter library</button>{result.runner.kind === "review" && <button className="primary-button" onClick={onContinue}>Continue to homework <ArrowRight size={16} /></button>}</div>
-      <section className="homework-rationales"><div className="section-heading"><div><p className="eyebrow">Answer review</p><h2>{incorrect.length ? `${incorrect.length} response${incorrect.length === 1 ? "" : "s"} to repair · review every question` : "Perfect block · review every answer"}</h2></div></div>{reviewed.map((question, index) => { const selected = result.answers[index]; const isCorrect = selected === question.correctIndex; return <details open className={isCorrect ? "homework-rationale correct-review" : "homework-rationale"} key={question.id}><summary><span>{index + 1}</span><strong>{question.stem}</strong><ChevronDown size={17} /></summary><div><p className={isCorrect ? "correct-choice" : "wrong-choice"}>{isCorrect ? <Check size={15} /> : <X size={15} />} Your answer: {selected === undefined ? "No response" : question.options[selected]}</p>{!isCorrect && <p className="correct-choice"><Check size={15} /> Correct answer: {question.options[question.correctIndex]}</p>}<p><strong>Why:</strong> {question.rationale}</p>{selected !== undefined && !isCorrect && <p><strong>Why your choice fails:</strong> {question.wrongRationales[selected]}</p>}</div></details>; })}</section>
+      <section className="homework-rationales"><div className="section-heading"><div><p className="eyebrow">Answer review</p><h2>{incorrect.length ? `${incorrect.length} response${incorrect.length === 1 ? "" : "s"} to repair · review every question` : "Perfect block · review every answer"}</h2></div></div>{reviewed.map((question, index) => { const selected = result.answers[index]; const isCorrect = selected === question.correctIndex; return <details open className={isCorrect ? "homework-rationale correct-review" : "homework-rationale"} key={question.id}><summary><span>{index + 1}</span><strong>{question.stem}</strong><ChevronDown size={17} /></summary><div><p className={isCorrect ? "correct-choice" : "wrong-choice"}>{isCorrect ? <Check size={15} /> : <X size={15} />} Your answer: {selected === undefined ? isSavedReview ? "Not saved for this earlier attempt" : "No response" : question.options[selected]}</p>{!isCorrect && <p className="correct-choice"><Check size={15} /> Correct answer: {question.options[question.correctIndex]}</p>}<p><strong>Why:</strong> {question.rationale}</p>{selected !== undefined && !isCorrect && <p><strong>Why your choice fails:</strong> {question.wrongRationales[selected]}</p>}</div></details>; })}</section>
     </main>
   );
 }
