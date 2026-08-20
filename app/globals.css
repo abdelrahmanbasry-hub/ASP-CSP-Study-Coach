@@ -665,10 +665,11 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .homework-rationale[open] summary svg { transform: rotate(180deg); }
 .homework-rationale > div { padding: 21px 65px; border-top: 1px solid var(--line); background: #fbfaf5; }
 .homework-rationale p { margin: 10px 0 0; color: #465f6c; font-size: 12px; line-height: 1.62; }
-.homework-rationale .wrong-choice, .homework-rationale .correct-choice { padding: 10px 12px; display: flex; align-items: flex-start; gap: 8px; border-radius: 7px; }
+.homework-rationale .wrong-choice, .homework-rationale .correct-choice, .homework-rationale .saved-answer-unavailable { padding: 10px 12px; display: flex; align-items: flex-start; gap: 8px; border-radius: 7px; }
 .homework-rationale .wrong-choice { color: #9d3e3a; background: #fff1f0; }
 .homework-rationale .correct-choice { color: #286c56; background: #edf7f2; }
-.homework-rationale .wrong-choice svg, .homework-rationale .correct-choice svg { flex: 0 0 auto; margin-top: 1px; }
+.homework-rationale .saved-answer-unavailable { color: #526778; background: #eef2f4; }
+.homework-rationale .wrong-choice svg, .homework-rationale .correct-choice svg, .homework-rationale .saved-answer-unavailable svg { flex: 0 0 auto; margin-top: 1px; }
 .answer.correct { border-color: #5f9f84; background: #edf7f2; }
 .answer.incorrect { border-color: #c77a72; background: #fff1f0; }
 .practice-feedback { margin-top: 20px; padding: 15px; border-radius: 8px; font-size: 12px; line-height: 1.55; }
