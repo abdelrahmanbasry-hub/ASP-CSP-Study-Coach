@@ -20,7 +20,7 @@
 export type ASPDomainId = "A1" | "A2" | "A3" | "A4" | "A5" | "A6" | "A7" | "A8" | "A9";
 export type ASPDifficulty = 1 | 2 | 3 | 4 | 5;
 export type ASPOptionIndex = 0 | 1 | 2 | 3;
-export type ASPReferenceFramework = "Yates" | "Nito" | "ASP/CSP Exam Book" | "BCSP Blueprint";
+export type ASPReferenceFramework = "Yates" | "Nito" | "ASP/CSP Exam Book" | "BCSP Blueprint" | "NWS";
 
 export interface ASPDomain {
   id: ASPDomainId;
@@ -59,11 +59,14 @@ export const ASP_DOMAINS = [
     color: "#2563eb",
     weight: 0.10,
     competencies: [
-      "Capacity, rigging, flow, and excavation calculations",
-      "Noise, climate, and fall-protection calculations",
-      "Incident-rate, financial, and manual-lift calculations",
-      "Physics, statistics, probability, and failure calculations",
-      "Exposure, radiation, and unit-conversion calculations",
+      "Arithmetic, algebra, scientific notation, conversions, geometry, and trigonometry",
+      "Mechanics, motion, energy, moments, friction, rigging, and fall-clearance calculations",
+      "Hydraulic, fire-flow, capacity, excavation, and material-handling calculations",
+      "Industrial-hygiene sampling, gases, mixtures, exposure, and ventilation calculations",
+      "Noise, heat- and cold-stress, radiation, and nonionizing-radiation calculations",
+      "Statistics, probability, incident rates, reliability, and risk calculations",
+      "Engineering-economy, return, present/future worth, and capital-recovery calculations",
+      "Ergonomic recommended-weight-limit and lifting-index calculations",
     ],
   },
   {
@@ -290,7 +293,7 @@ export const ASP_QUESTION_BANK_A = [
       "This adds the safeguard failure probabilities before multiplying, which does not represent an AND condition.",
       "This simply adds the safeguard failure probabilities and omits the initiating event.",
     ],
-    referenceFramework: "Yates",
+    referenceFramework: "ASP/CSP Exam Book",
     referenceTopic: "Event-path probability and independence",
     challengePrompt: "Describe one shared dependency that would invalidate the product and how you would add it to the model.",
   },

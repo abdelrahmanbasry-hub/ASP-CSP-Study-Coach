@@ -62,7 +62,7 @@ export const ASP_QUESTION_BANK_B: readonly ASPQuestion[] = [
       "Simple addition is only an approximation here because it double-counts the overlap.",
       "This is the complement of both events occurring and does not represent the stated OR condition.",
     ],
-    referenceFramework: "Yates",
+    referenceFramework: "ASP/CSP Exam Book",
     referenceTopic: "Probability unions and fault-tree logic",
     challengePrompt: "State how the calculation changes if the two initiating events share a common cause and are not independent.",
   },

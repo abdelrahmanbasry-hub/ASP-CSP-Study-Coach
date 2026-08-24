@@ -7,11 +7,20 @@
  */
 
 import type { ASPQuestion } from "./aspQuestionBankA";
+import { buildA1CalculationDraft } from "./aspMathQuestionCatalog.ts";
 
 export type QuestionPool = "practice" | "mock-a" | "mock-b";
 export type PooledASPQuestion = ASPQuestion & {
   pool: QuestionPool;
   scenarioFamily: string;
+  /** Stable formula-library identity for generated mathematical-calculation items. */
+  formulaId?: string;
+  /** Stable formula-library category; unlike referenceTopic, this is not presentation text. */
+  formulaCategory?: string;
+  /** Stable scenario/formula family used to measure substantive breadth. */
+  formulaFamily?: string;
+  /** ASP11 Mathematical Calculations blueprint objective (A1.1 through A1.16). */
+  blueprintObjective?: string;
 };
 
 type DomainId = ASPQuestion["domainId"];
@@ -33,6 +42,11 @@ type Draft = Readonly<{
   distractors: readonly [Answer, Answer, Answer];
   referenceTopic: string;
   challengePrompt: string;
+  referenceFramework?: Framework;
+  formulaId?: string;
+  formulaCategory?: string;
+  formulaFamily?: string;
+  blueprintObjective?: string;
 }>;
 
 const DOMAIN_ORDER = ["A1", "A2", "A3", "A4", "A5", "A6", "A7", "A8", "A9"] as const;
@@ -380,24 +394,18 @@ function finalizeQuestion(
     correctIndex,
     rationale: draft.correct.rationale,
     wrongRationales,
-    referenceFramework: FRAMEWORKS[(index + poolNumber(pool) + Number(domainId.slice(1))) % FRAMEWORKS.length],
+    referenceFramework: draft.referenceFramework ?? FRAMEWORKS[(index + poolNumber(pool) + Number(domainId.slice(1))) % FRAMEWORKS.length],
     referenceTopic: draft.referenceTopic,
     challengePrompt: draft.challengePrompt,
     pool,
-    scenarioFamily: familyName(pool, domainId, draft.referenceTopic),
+    scenarioFamily: familyName(pool, domainId, draft.formulaFamily ?? draft.referenceTopic),
+    formulaId: draft.formulaId,
+    formulaCategory: draft.formulaCategory,
+    formulaFamily: draft.formulaFamily,
+    blueprintObjective: draft.blueprintObjective,
   };
 }
 
-function calculationDistractors(
-  alternatives: readonly [string, string, string],
-  reasons: readonly [string, string, string],
-): readonly [Answer, Answer, Answer] {
-  return [
-    answer(alternatives[0], reasons[0]),
-    answer(alternatives[1], reasons[1]),
-    answer(alternatives[2], reasons[2]),
-  ];
-}
 
 function familyName(pool: QuestionPool, domainId: DomainId, topic: string): string {
   const form = pool === "practice" ? "coached-drill" : pool === "mock-a" ? "field-form" : "assurance-form";
@@ -408,441 +416,8 @@ function familyName(pool: QuestionPool, domainId: DomainId, topic: string): stri
   return `${domainId.toLowerCase()}-${form}-${topicSlug}`;
 }
 
-function buildA1(pool: QuestionPool, index: number): Draft {
-  const mode = poolNumber(pool);
-  const family = (index - 1) % 5;
-  const cycle = Math.floor((index - 1) / 5);
-  const variant = (cycle + mode) % 2;
-  const seed = index * 13 + mode * 29;
-  const lead = context(pool, "A1", index);
 
-  if (family === 0 && variant === 0) {
-    const cases = 3 + (seed % 7);
-    const hours = 250_000 + (seed % 8) * 50_000;
-    const rate = (cases * 200_000) / hours;
-    return {
-      competency: "Incident-rate calculations",
-      objective: "Normalize case experience to a stated exposure basis.",
-      difficulty: 1,
-      stem: `${lead}. The group recorded ${cases} cases during ${hours.toLocaleString("en-US")} work hours. Using rate = cases x 200,000 / hours, what rate should be reported?`,
-      correct: answer(`${rounded(rate, 2)} cases per 200,000 hours`, `Multiplying ${cases} by 200,000 and dividing by ${hours.toLocaleString("en-US")} yields ${rounded(rate, 2)}.`),
-      distractors: calculationDistractors(
-        [`${cases} cases per 200,000 hours`, `${rounded(cases / (hours / 100_000), 2)} cases per 100,000 hours`, `${rounded((hours / cases) / 1_000, 1)} thousand hours per case`],
-        ["This repeats the raw case count without the required normalization.", "This uses a different 100,000-hour basis than the formula requests.", "This reverses the relationship and reports hours per case rather than a case rate."],
-      ),
-      referenceTopic: "Exposure-normalized injury and illness rates",
-      challengePrompt: "Explain how a change in hours worked can alter the rate even when the raw case count is unchanged.",
-    };
-  }
 
-  if (family === 0) {
-    const length = 12 + (seed % 7);
-    const width = 7 + (seed % 5);
-    const depth = 3 + (seed % 4);
-    const fill = 0.72 + (seed % 5) * 0.04;
-    const cubicFeet = length * width * depth;
-    const usableGallons = cubicFeet * fill * 7.48;
-    return {
-      competency: "Capacity and unit conversion",
-      objective: "Calculate usable tank capacity from geometry and a fill limit.",
-      difficulty: 1,
-      stem: `${lead}. A rectangular tank measures ${length} ft by ${width} ft by ${depth} ft and is limited to ${rounded(fill * 100, 0)}% of geometric volume. Using 7.48 gal/ft3, what is its planned usable capacity?`,
-      correct: answer(`${rounded(usableGallons, 0)} gal`, `Geometric volume is ${cubicFeet} ft3; multiplying by ${rounded(fill, 2)} and 7.48 gives approximately ${rounded(usableGallons, 0)} gal.`),
-      distractors: calculationDistractors(
-        [`${cubicFeet} gal`, `${rounded(cubicFeet * 7.48, 0)} gal`, `${rounded(cubicFeet * fill, 0)} gal`],
-        ["This treats cubic feet as gallons.", "This is gross gallon capacity and omits the stated fill limit.", "This applies the fill fraction but does not convert cubic feet to gallons."],
-      ),
-      referenceTopic: "Geometric volume and capacity conversion",
-      challengePrompt: "Recalculate after subtracting a stated equipment-displacement volume before applying the fill limit.",
-    };
-  }
-
-  if (family === 1 && variant === 0) {
-    const widthIn = 18 + (seed % 7) * 2;
-    const heightIn = 10 + (seed % 5) * 2;
-    const velocity = 700 + (seed % 9) * 75;
-    const area = (widthIn * heightIn) / 144;
-    const flow = area * velocity;
-    return {
-      competency: "Ventilation flow calculations",
-      objective: "Calculate rectangular-duct flow from area and average velocity.",
-      difficulty: 2,
-      stem: `${lead}. A rectangular duct is ${widthIn} in. by ${heightIn} in., and average velocity is ${velocity} ft/min. Using Q = velocity x area, what is the approximate airflow?`,
-      correct: answer(`${rounded(flow, 0)} cfm`, `Duct area is ${widthIn * heightIn}/144 = ${rounded(area, 2)} ft2; multiplying by ${velocity} ft/min gives approximately ${rounded(flow, 0)} cfm.`),
-      distractors: calculationDistractors(
-        [`${rounded(widthIn * heightIn * velocity, 0)} cfm`, `${rounded(flow / 60, 1)} cfm`, `${rounded(area, 2)} cfm`],
-        ["This uses square inches without converting area to square feet.", "This unnecessarily divides a per-minute flow by 60.", "This reports duct area as though it were volumetric flow."],
-      ),
-      referenceTopic: "Area-velocity airflow relationship",
-      challengePrompt: "Determine the velocity required if the target flow rises by 20% with unchanged duct area.",
-    };
-  }
-
-  if (family === 1) {
-    const c1 = 24 + (seed % 9) * 3;
-    const h1 = 2 + (seed % 3);
-    const c2 = 8 + (seed % 7) * 2;
-    const h2 = 3;
-    const totalHours = 8;
-    const twa = (c1 * h1 + c2 * h2) / totalHours;
-    return {
-      competency: "Time-weighted calculations",
-      objective: "Compute a full-period average from unequal exposure intervals.",
-      difficulty: 2,
-      stem: `${lead}. A worker experiences ${c1} ppm for ${h1} h, ${c2} ppm for ${h2} h, and zero exposure for the rest of an 8 h shift. What is the 8 h time-weighted average?`,
-      correct: answer(`${rounded(twa, 2)} ppm`, `The concentration-time sum is (${c1} x ${h1}) + (${c2} x ${h2}); dividing by the full 8 h period gives ${rounded(twa, 2)} ppm.`),
-      distractors: calculationDistractors(
-        [`${rounded(c1 + c2, 2)} ppm`, `${rounded((c1 * h1 + c2 * h2) / (h1 + h2), 2)} ppm`, `${rounded(c1 * h1 + c2 * h2, 1)} ppm`],
-        ["This adds concentration values without weighting or averaging them.", "This omits the zero-exposure portion from the required 8 h denominator.", "This is a concentration-time sum, not an average concentration."],
-      ),
-      referenceTopic: "Time-weighted average exposure",
-      challengePrompt: "Explain when a short-term or ceiling evaluation would still be needed despite an acceptable full-shift average.",
-    };
-  }
-
-  if (family === 2 && variant === 0) {
-    const load = 900 + (seed % 8) * 150;
-    const loadArm = 3 + (seed % 4);
-    const counterArm = loadArm + 2 + (seed % 3);
-    const counterweight = (load * loadArm) / counterArm;
-    return {
-      competency: "Moments and static equilibrium",
-      objective: "Balance opposing moments in an idealized lever system.",
-      difficulty: 3,
-      stem: `${lead}. A ${load} lb load acts ${loadArm} ft from a pivot. Ignoring beam weight and dynamics, what counterweight at ${counterArm} ft on the opposite side balances the beam?`,
-      correct: answer(`${rounded(counterweight, 1)} lb`, `Moment balance requires ${load} x ${loadArm} = W x ${counterArm}, so W = ${rounded(counterweight, 1)} lb.`),
-      distractors: calculationDistractors(
-        [`${rounded(load * counterArm / loadArm, 1)} lb`, `${rounded(load * loadArm, 1)} lb`, `${load} lb`],
-        ["This reverses the lever-arm ratio.", "This reports a moment magnitude as though it were a weight.", "Using the load itself ignores the different lever-arm distances."],
-      ),
-      referenceTopic: "Torque, moments, and equilibrium",
-      challengePrompt: "State which dynamic, structural, and connection factors must be evaluated before applying the idealized result to lifting equipment.",
-    };
-  }
-
-  if (family === 2) {
-    const cost = 60_000 + (seed % 8) * 10_000;
-    const gross = 24_000 + (seed % 7) * 4_000;
-    const recurring = 4_000 + (seed % 5) * 1_000;
-    const net = gross - recurring;
-    const payback = cost / net;
-    const roi = (net / cost) * 100;
-    return {
-      competency: "Economic decision calculations",
-      objective: "Calculate simple payback and first-year net return.",
-      difficulty: 3,
-      stem: `${lead}. A safeguard costs $${cost.toLocaleString("en-US")}, avoids an estimated $${gross.toLocaleString("en-US")} annually, and adds $${recurring.toLocaleString("en-US")} in annual upkeep. Ignoring discounting, what are simple payback and first-year net return?`,
-      correct: answer(`${rounded(payback, 2)} years and ${rounded(roi, 1)}%`, `Annual net benefit is $${net.toLocaleString("en-US")}; cost divided by net benefit is ${rounded(payback, 2)} years, and net benefit divided by cost is ${rounded(roi, 1)}%.`),
-      distractors: calculationDistractors(
-        [`${rounded(cost / gross, 2)} years and ${rounded((gross / cost) * 100, 1)}%`, `${rounded(cost / recurring, 2)} years and ${rounded((recurring / cost) * 100, 1)}%`, `${rounded(net / cost, 3)} years and ${rounded(payback * 100, 1)}%`],
-        ["This uses gross avoided loss and ignores recurring upkeep.", "This treats upkeep as the benefit.", "This swaps the payback and return relationships and produces incompatible units."],
-      ),
-      referenceTopic: "Simple payback and return on investment",
-      challengePrompt: "Identify one uncertainty and one nonfinancial benefit that should accompany this screening calculation.",
-    };
-  }
-
-  if (family === 3 && variant === 0) {
-    const pA = (2 + (seed % 5)) / 100;
-    const pB = (3 + (seed % 6)) / 100;
-    const union = pA + pB - pA * pB;
-    return {
-      competency: "Probability calculations",
-      objective: "Calculate an independent-event OR probability without double-counting overlap.",
-      difficulty: 4,
-      stem: `${lead}. Independent initiating events have probabilities ${rounded(pA, 2)} and ${rounded(pB, 2)} per mission. A shutdown occurs if either event occurs. What is the exact probability under the independence assumption?`,
-      correct: answer(rounded(union, 4), `P(A or B) = ${rounded(pA, 2)} + ${rounded(pB, 2)} - (${rounded(pA, 2)} x ${rounded(pB, 2)}) = ${rounded(union, 4)}.`),
-      distractors: calculationDistractors(
-        [rounded(pA * pB, 4), rounded(pA + pB, 4), rounded((1 - pA) * (1 - pB), 4)],
-        ["This is the probability that both independent events occur.", "This double-counts simultaneous occurrence.", "This is the probability that neither event occurs."],
-      ),
-      referenceTopic: "Independent-event union probability",
-      challengePrompt: "Explain what additional information is needed if a common cause can trigger both events.",
-    };
-  }
-
-  if (family === 3) {
-    const n = pick([25, 36, 49, 64, 81, 100], seed);
-    const mean = 40 + (seed % 20);
-    const sd = 5 + (seed % 8);
-    const margin = (1.96 * sd) / Math.sqrt(n);
-    return {
-      competency: "Statistical estimation",
-      objective: "Calculate an approximate confidence interval using standard error.",
-      difficulty: 4,
-      stem: `${lead}. A sample of ${n} readings has mean ${mean} and standard deviation ${sd}. Using mean plus or minus 1.96(s/square root of n), what approximate 95% interval results?`,
-      correct: answer(`${rounded(mean - margin, 2)} to ${rounded(mean + margin, 2)}`, `Standard error is ${sd}/sqrt(${n}); multiplying by 1.96 gives a margin of ${rounded(margin, 2)}, centered on ${mean}.`),
-      distractors: calculationDistractors(
-        [`${rounded(mean - sd, 2)} to ${rounded(mean + sd, 2)}`, `${rounded(mean - sd / Math.sqrt(n), 2)} to ${rounded(mean + sd / Math.sqrt(n), 2)}`, `${rounded(mean - 1.96 * sd / n, 2)} to ${rounded(mean + 1.96 * sd / n, 2)}`],
-        ["This uses one standard deviation rather than the stated confidence margin.", "This uses one standard error but omits the 1.96 multiplier.", "This divides variability by n rather than by its square root."],
-      ),
-      referenceTopic: "Standard error and confidence intervals",
-      challengePrompt: "Describe how quadrupling sample size affects interval width when variability is unchanged.",
-    };
-  }
-
-  if (family === 4 && variant === 0) {
-    const low = 82 + (seed % 7);
-    const delta = 2 + (seed % 5);
-    const high = low + delta;
-    const total = 10 * Math.log10(10 ** (high / 10) + 10 ** (low / 10));
-    return {
-      competency: "Logarithmic sound calculations",
-      objective: "Combine independent sound levels on an energy basis.",
-      difficulty: 5,
-      stem: `${lead}. Two independent sources produce ${high} dB and ${low} dB at one point. Using logarithmic energy addition, what is the combined level to the nearest 0.1 dB?`,
-      correct: answer(`${rounded(total, 1)} dB`, `Applying 10 log10(10^(L1/10) + 10^(L2/10)) gives ${rounded(total, 1)} dB.`),
-      distractors: calculationDistractors(
-        [`${high + low} dB`, `${rounded(high + 3, 1)} dB`, `${rounded((high + low) / 2, 1)} dB`],
-        ["Decibel values cannot be added arithmetically.", "A 3 dB increase applies to two equal-energy sources, which these are not.", "An arithmetic average does not combine acoustic energy."],
-      ),
-      referenceTopic: "Decibel energy addition",
-      challengePrompt: "Explain why a much quieter third source changes the total only slightly.",
-    };
-  }
-
-  const sensorReliability = 0.82 + (seed % 9) / 100;
-  const actuatorReliability = 0.9 + (seed % 6) / 100;
-  const voteReliability = 3 * sensorReliability ** 2 * (1 - sensorReliability) + sensorReliability ** 3;
-  const totalReliability = voteReliability * actuatorReliability;
-  return {
-    competency: "System reliability calculations",
-    objective: "Combine two-out-of-three voting reliability with a series component.",
-    difficulty: 5,
-    stem: `${lead}. Three independent sensors each succeed with probability ${rounded(sensorReliability, 2)}; at least two must succeed. An independent actuator with reliability ${rounded(actuatorReliability, 2)} is then required in series. What is overall success probability?`,
-    correct: answer(rounded(totalReliability, 4), `Voting reliability is 3p^2(1-p) + p^3 = ${rounded(voteReliability, 4)}; multiplying by actuator reliability gives ${rounded(totalReliability, 4)}.`),
-    distractors: calculationDistractors(
-      [rounded(sensorReliability ** 3, 4), rounded(voteReliability, 4), rounded(sensorReliability * actuatorReliability, 4)],
-      ["This requires all three sensors and omits valid two-sensor successes and the actuator.", "This is the sensor-voting subsystem only and omits the series actuator.", "This treats the voting subsystem as a single sensor."],
-    ),
-    referenceTopic: "Voting logic and series reliability",
-    challengePrompt: "Explain why shared power or environment can invalidate the independent-sensor assumption.",
-  };
-}
-
-function buildA1MockA(index: number): Draft {
-  const pool: QuestionPool = "mock-a";
-  const family = (index - 1) % 5;
-  const seed = index * 23 + 41;
-  const lead = context(pool, "A1", index);
-
-  if (family === 0) {
-    const load = 2_400 + (seed % 7) * 400;
-    const angle = pick([35, 50, 60], seed);
-    const radians = angle * Math.PI / 180;
-    const tension = load / (2 * Math.sin(radians));
-    return {
-      competency: "Rigging calculations",
-      objective: "Calculate symmetric two-leg sling tension from sling angle.",
-      difficulty: 1,
-      stem: `${lead}. A symmetric two-leg sling supports ${load.toLocaleString("en-US")} lb, with each leg ${angle} degrees above horizontal. Ignoring dynamics and sling weight, use T = W/[2 sin(theta)]. What is tension in each leg?`,
-      correct: answer(`${rounded(tension, 0)} lb`, `Substituting ${load.toLocaleString("en-US")} lb and ${angle} degrees gives approximately ${rounded(tension, 0)} lb per leg.`),
-      distractors: calculationDistractors(
-        [`${rounded(load / 2, 0)} lb`, `${rounded(load / (2 * Math.cos(radians)), 0)} lb`, `${rounded(load * 2 * Math.sin(radians), 0)} lb`],
-        ["This divides load equally without resolving sling angle.", "This substitutes cosine for the stated angle-from-horizontal relationship.", "This multiplies by the geometric term instead of dividing by it."],
-      ),
-      referenceTopic: "Mock A angular sling-tension analysis",
-      challengePrompt: "Explain why reducing the sling angle toward horizontal increases leg tension sharply.",
-    };
-  }
-
-  if (family === 1) {
-    const connector = 5 + (seed % 3);
-    const deceleration = 3 + (seed % 3) * 0.5;
-    const harness = 1 + (seed % 3) * 0.25;
-    const margin = 2;
-    const required = connector + deceleration + harness + margin;
-    const available = required + pick([-0.8, -0.4, 0.6, 1.1], seed);
-    const adequate = available >= required;
-    return {
-      competency: "Fall-clearance calculations",
-      objective: "Compare component clearance demand with available unobstructed distance.",
-      difficulty: 2,
-      stem: `${lead}. A simplified fall-clearance check includes ${connector} ft connector length, ${rounded(deceleration, 1)} ft deceleration, ${rounded(harness, 2)} ft harness movement, and ${margin} ft margin. Available distance is ${rounded(available, 2)} ft. What is the best calculation conclusion?`,
-      correct: answer(`${rounded(required, 2)} ft is required; the setup is ${adequate ? "adequate by " + rounded(available - required, 2) + " ft" : "deficient by " + rounded(required - available, 2) + " ft"}`, `Adding the stated components gives ${rounded(required, 2)} ft, which must be compared directly with ${rounded(available, 2)} ft available.`),
-      distractors: [
-        answer(`${rounded(connector + deceleration, 2)} ft is required because harness movement and margin are optional`, "The prompt explicitly requires all four clearance components."),
-        answer(`${rounded(required + available, 2)} ft is the clearance deficit`, "Adding required and available distances does not produce a deficit."),
-        answer("Clearance cannot be screened because connector length never affects it", "Connector length is a stated contributor to the simplified required distance."),
-      ],
-      referenceTopic: "Mock A fall-arrest clearance synthesis",
-      challengePrompt: "Identify two additional real installation factors that can increase clearance demand.",
-    };
-  }
-
-  if (family === 2) {
-    const p1 = 95 + (seed % 6) * 5;
-    const v1 = 12 + (seed % 7);
-    const t1 = 285 + (seed % 6) * 3;
-    const p2 = p1 + 20 + (seed % 5) * 5;
-    const t2 = t1 + 25 + (seed % 5) * 4;
-    const v2 = p1 * v1 * t2 / (t1 * p2);
-    return {
-      competency: "Gas-law calculations",
-      objective: "Apply the combined gas law with absolute temperature.",
-      difficulty: 3,
-      stem: `${lead}. A sealed flexible gas volume is ${v1} L at ${p1} kPa and ${t1} K. It changes to ${p2} kPa and ${t2} K without gas loss. Using P1V1/T1 = P2V2/T2, what is final volume?`,
-      correct: answer(`${rounded(v2, 2)} L`, `V2 = (${p1} x ${v1} x ${t2})/(${t1} x ${p2}) = ${rounded(v2, 2)} L.`),
-      distractors: calculationDistractors(
-        [`${rounded(v1 * p2 / p1, 2)} L`, `${rounded(v1 * t1 / t2, 2)} L`, `${rounded(v1 * p1 / p2, 2)} L`],
-        ["This reverses the pressure ratio and omits temperature.", "This reverses the temperature effect and omits pressure.", "This accounts for pressure but omits the temperature change."],
-      ),
-      referenceTopic: "Mock A absolute-temperature gas transformation",
-      challengePrompt: "Explain why Celsius temperatures cannot be inserted directly into the proportional gas-law equation.",
-    };
-  }
-
-  if (family === 3) {
-    const flowGpm = 400 + (seed % 8) * 50;
-    const headFt = 90 + (seed % 7) * 15;
-    const efficiency = 0.65 + (seed % 6) * 0.04;
-    const hp = flowGpm * headFt / (3960 * efficiency);
-    return {
-      competency: "Fluid-power calculations",
-      objective: "Calculate approximate pump input horsepower from flow, head, and efficiency.",
-      difficulty: 4,
-      stem: `${lead}. A pump must deliver ${flowGpm} gpm against ${headFt} ft of head at ${rounded(efficiency * 100, 0)}% efficiency. Using horsepower = QH/(3960 x efficiency), what input horsepower is required?`,
-      correct: answer(`${rounded(hp, 2)} hp`, `Substitution gives (${flowGpm} x ${headFt})/(3960 x ${rounded(efficiency, 2)}) = ${rounded(hp, 2)} hp.`),
-      distractors: calculationDistractors(
-        [`${rounded(flowGpm * headFt / 3960, 2)} hp`, `${rounded(flowGpm * headFt * efficiency / 3960, 2)} hp`, `${rounded(3960 * efficiency / (flowGpm * headFt), 4)} hp`],
-        ["This is ideal hydraulic horsepower and ignores efficiency loss.", "This multiplies by efficiency when input power must increase as efficiency decreases.", "This inverts the stated power relationship."],
-      ),
-      referenceTopic: "Mock A pump-head power demand",
-      challengePrompt: "State why motor selection still needs starting, service, and operating-curve considerations.",
-    };
-  }
-
-  const initialRate = 160 + (seed % 7) * 40;
-  const initialDistance = 1 + (seed % 3);
-  const finalDistance = initialDistance * pick([2, 3, 4], seed);
-  const hvl = 1 + (seed % 4) * 0.5;
-  const layers = 2 + (seed % 4);
-  const finalRate = initialRate * (initialDistance / finalDistance) ** 2 * 0.5 ** layers;
-  return {
-    competency: "Radiation attenuation calculations",
-    objective: "Combine inverse-square distance reduction with half-value-layer shielding.",
-    difficulty: 5,
-    stem: `${lead}. Dose rate is ${initialRate} units/h at ${initialDistance} m. A worker moves to ${finalDistance} m and ${layers} half-value layers of ${rounded(hvl, 1)} cm each are added. Ignoring buildup and scatter, what rate remains?`,
-    correct: answer(`${rounded(finalRate, 2)} units/h`, `Distance multiplies rate by (${initialDistance}/${finalDistance})^2 and shielding by (1/2)^${layers}, yielding ${rounded(finalRate, 2)} units/h.`),
-    distractors: calculationDistractors(
-      [`${rounded(initialRate * initialDistance / finalDistance * 0.5 ** layers, 2)} units/h`, `${rounded(initialRate * 0.5 ** layers, 2)} units/h`, `${rounded(initialRate * (finalDistance / initialDistance) ** 2 * 0.5 ** layers, 2)} units/h`],
-      ["This applies an inverse-distance rather than inverse-square relationship.", "This applies shielding attenuation but ignores the distance change.", "This reverses the distance ratio and predicts increasing rate with distance."],
-    ),
-    referenceTopic: "Mock A combined distance-shielding attenuation",
-    challengePrompt: `Calculate total shielding thickness from ${layers} layers at ${rounded(hvl, 1)} cm per layer and name one real-world correction to the ideal result.`,
-  };
-}
-
-function buildA1MockB(index: number): Draft {
-  const pool: QuestionPool = "mock-b";
-  const family = (index - 1) % 5;
-  const seed = index * 29 + 67;
-  const lead = context(pool, "A1", index);
-
-  if (family === 0) {
-    const v1 = 40 + (seed % 7) * 10;
-    const c1 = 18 + (seed % 6) * 3;
-    const v2 = 60 + (seed % 8) * 10;
-    const c2 = 2 + (seed % 5);
-    const mixed = (v1 * c1 + v2 * c2) / (v1 + v2);
-    return {
-      competency: "Mixture calculations",
-      objective: "Calculate concentration after combining two well-mixed volumes.",
-      difficulty: 1,
-      stem: `${lead}. ${v1} L at ${c1}% concentration is combined with ${v2} L at ${c2}%, with additive volumes and no reaction. What is final concentration?`,
-      correct: answer(`${rounded(mixed, 2)}%`, `Solute-equivalent amount is (${v1} x ${c1}) + (${v2} x ${c2}); dividing by ${v1 + v2} L gives ${rounded(mixed, 2)}%.`),
-      distractors: calculationDistractors(
-        [`${rounded(c1, 2)}%`, `${rounded((v1 * c1) / (v1 + v2), 2)}%`, `${rounded(c1 + c2, 2)}%`],
-        ["This reports the first stream concentration and ignores dilution by the second stream.", "This omits solute contributed by the second solution.", "Concentrations are not added directly when volumes are combined."],
-      ),
-      referenceTopic: "Mock B weighted solution blending",
-      challengePrompt: "Solve for the low-concentration volume needed to reach a specified target concentration.",
-    };
-  }
-
-  if (family === 1) {
-    const bottom = 3 + (seed % 4);
-    const top = bottom + 6 + (seed % 5);
-    const depth = 5 + (seed % 4);
-    const length = 30 + (seed % 8) * 5;
-    const volume = ((bottom + top) / 2) * depth * length;
-    return {
-      competency: "Excavation geometry",
-      objective: "Calculate volume using a trapezoidal cross-section.",
-      difficulty: 2,
-      stem: `${lead}. An excavation is ${length} ft long and ${depth} ft deep, with uniform bottom width ${bottom} ft and top width ${top} ft. What is its geometric volume?`,
-      correct: answer(`${rounded(volume, 0)} ft3`, `Cross-sectional area is [(${bottom} + ${top})/2] x ${depth}; multiplying by ${length} gives ${rounded(volume, 0)} ft3.`),
-      distractors: calculationDistractors(
-        [`${rounded(bottom * depth * length, 0)} ft3`, `${rounded(top * depth * length, 0)} ft3`, `${rounded((top + bottom) * depth * length, 0)} ft3`],
-        ["This uses only bottom width and omits sloped-side volume.", "This uses top width throughout and overstates volume.", "This omits the one-half factor in the trapezoidal-area formula."],
-      ),
-      referenceTopic: "Mock B trapezoidal excavation quantity",
-      challengePrompt: "Convert the result to cubic yards and apply a specified swell factor for hauling.",
-    };
-  }
-
-  if (family === 2) {
-    const voltage = pick([120, 208, 240, 277, 480], seed);
-    const resistance = 8 + (seed % 13);
-    const current = voltage / resistance;
-    const power = voltage * current;
-    return {
-      competency: "Electrical calculations",
-      objective: "Apply Ohm's law and power relationships to a resistive load.",
-      difficulty: 3,
-      stem: `${lead}. An ideal resistive load of ${resistance} ohms is connected across ${voltage} V. Using I = V/R and P = VI, what current and power result?`,
-      correct: answer(`${rounded(current, 2)} A and ${rounded(power, 0)} W`, `Current is ${voltage}/${resistance} = ${rounded(current, 2)} A; multiplying by ${voltage} V gives ${rounded(power, 0)} W.`),
-      distractors: calculationDistractors(
-        [`${rounded(voltage * resistance, 2)} A and ${rounded(voltage ** 2 * resistance, 0)} W`, `${rounded(resistance / voltage, 4)} A and ${rounded(resistance, 0)} W`, `${rounded(current, 2)} A and ${rounded(current * resistance, 0)} W`],
-        ["This multiplies voltage and resistance instead of dividing for current.", "This reverses Ohm's law and does not calculate electrical power.", "Current is correct, but the second value is voltage rather than power."],
-      ),
-      referenceTopic: "Mock B resistive current-power calculation",
-      challengePrompt: "Explain how an upstream protective-device review differs from merely calculating steady-state current.",
-    };
-  }
-
-  if (family === 3) {
-    const consequence = 40_000 + (seed % 8) * 10_000;
-    const probability = (1 + (seed % 7)) / 100;
-    const controlCost = 2_000 + (seed % 8) * 500;
-    const residualFactor = 0.15 + (seed % 5) * 0.1;
-    const expectedBefore = consequence * probability;
-    const expectedAfter = consequence * probability * residualFactor + controlCost;
-    return {
-      competency: "Expected-value calculations",
-      objective: "Compare expected annual cost before and after a control under stated assumptions.",
-      difficulty: 4,
-      stem: `${lead}. An event has ${rounded(probability * 100, 0)}% annual probability and $${consequence.toLocaleString("en-US")} consequence. A control costs $${controlCost.toLocaleString("en-US")} annually and reduces probability to ${rounded(residualFactor * 100, 0)}% of its current value. What are expected annual cost before and total expected annual cost after control?`,
-      correct: answer(`$${rounded(expectedBefore, 0)} before and $${rounded(expectedAfter, 0)} after`, `Before is probability x consequence. After is residual expected loss, $${rounded(consequence * probability * residualFactor, 0)}, plus $${controlCost.toLocaleString("en-US")} control cost.`),
-      distractors: calculationDistractors(
-        [`$${rounded(consequence * probability * 100, 0)} before and $${rounded(controlCost, 0)} after`, `$${rounded(expectedBefore, 0)} before and $${rounded(consequence * residualFactor + controlCost, 0)} after`, `$${rounded(consequence - expectedBefore, 0)} before and $${rounded(expectedBefore - controlCost, 0)} after`],
-        ["This treats a percentage as a whole number and omits residual risk after control.", "This applies residual factor to consequence but omits event probability.", "This subtracts expected loss from consequence and does not follow expected-value logic."],
-      ),
-      referenceTopic: "Mock B probabilistic control-cost comparison",
-      challengePrompt: "Identify two reasons the expected-value result should not be the sole decision criterion for a catastrophic event.",
-    };
-  }
-
-  const componentA = 0.93 + (seed % 5) / 100;
-  const componentB = 0.9 + (seed % 6) / 100;
-  const parallelC = 0.8 + (seed % 8) / 100;
-  const parallelD = 0.84 + (seed % 7) / 100;
-  const parallel = 1 - (1 - parallelC) * (1 - parallelD);
-  const total = componentA * componentB * parallel;
-  return {
-    competency: "Series-parallel reliability",
-    objective: "Calculate a system with series components and a parallel redundant pair.",
-    difficulty: 5,
-    stem: `${lead}. Independent series components A and B have reliabilities ${rounded(componentA, 2)} and ${rounded(componentB, 2)}. A required downstream function succeeds if either parallel unit C (${rounded(parallelC, 2)}) or D (${rounded(parallelD, 2)}) succeeds. What is system reliability?`,
-    correct: answer(rounded(total, 4), `Parallel reliability is 1 - (1-${rounded(parallelC, 2)})(1-${rounded(parallelD, 2)}) = ${rounded(parallel, 4)}; multiplying by both series reliabilities gives ${rounded(total, 4)}.`),
-    distractors: calculationDistractors(
-      [rounded(componentA * componentB * parallelC * parallelD, 4), rounded(componentA * componentB, 4), rounded(parallel, 4)],
-      ["This incorrectly requires both redundant units to succeed.", "This omits the required downstream parallel function.", "This reports only the redundant subsystem and omits both series components."],
-    ),
-    referenceTopic: "Mock B mixed-topology reliability model",
-    challengePrompt: "Explain how a common utility failure affecting C and D changes the reliability model.",
-  };
-}
 
 function buildA2(pool: QuestionPool, index: number): Draft {
   const mode = poolNumber(pool);
@@ -2395,7 +1970,7 @@ function buildCatalogDomain(pool: QuestionPool, domainId: DomainId, index: numbe
 
 function buildDraft(pool: QuestionPool, domainId: DomainId, index: number): Draft {
   if (domainId === "A1") {
-    return pool === "practice" ? buildA1(pool, index) : pool === "mock-a" ? buildA1MockA(index) : buildA1MockB(index);
+    return buildA1CalculationDraft(pool, index);
   }
   if (domainId === "A2") {
     return pool === "practice" ? buildA2(pool, index) : pool === "mock-a" ? buildA2MockA(index) : buildA2MockB(index);
@@ -2407,6 +1982,8 @@ function buildDraft(pool: QuestionPool, domainId: DomainId, index: number): Draf
 }
 
 function enrichReferenceTopic(pool: QuestionPool, domainId: DomainId, index: number, draft: Draft): Draft {
+  if (domainId === "A1") return draft;
+
   const minimumVariants: Readonly<Record<QuestionPool, Readonly<Record<DomainId, number>>>> = {
     practice: { A1: 15, A2: 30, A3: 16, A4: 18, A5: 15, A6: 18, A7: 12, A8: 16, A9: 10 },
     "mock-a": { A1: 10, A2: 17, A3: 8, A4: 10, A5: 10, A6: 10, A7: 7, A8: 9, A9: 5 },
