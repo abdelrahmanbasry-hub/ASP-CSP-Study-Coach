@@ -63,6 +63,42 @@ The output is `reports/blueprint-coverage.json`. During local development,
 `/internal/blueprint-coverage` renders the same audit as a browser
 table. The route returns only an unavailable notice in production builds.
 
+## Human item-review workflow
+
+`app/itemReview.ts` defines the additive review record and immutable version
+history used to move an item from suggestion to reviewed operational content.
+The record keeps blueprint mapping, cognitive level, exact source fields,
+answer/distractor/calculation/technical/assessment-writing gates, reviewer
+identity, notes, issues, and operational status separate from question content.
+All 2,400 existing items begin at version 1 with only `unreviewed` or
+`suggested` states.
+
+Controlled changes to the stem, options, keyed answer, rationale, formula,
+units, exact source, item family, or objective mapping create a new version.
+Previous snapshots and their review records remain available, while the new
+version resets approval fields. New learner attempts record the immutable item
+version served; older attempts safely resolve to version 1 without rewriting
+saved history.
+
+During local development, `/internal/item-review` provides filtering, a
+priority queue, item and related-family inspection, exact-source entry, mapping
+approval or rejection, review gates, issue flags, notes, immutable-version
+creation, and a validated operational action. Review changes persist only under
+the separate `asp-csp-item-review-workflow-v1` browser key and can be exported
+as JSON. The route returns only an unavailable notice in production.
+
+Generate the baseline review report with:
+
+```bash
+pnpm review:report
+```
+
+The output is `reports/item-review-report.json`. Generated mappings and family
+relationships are candidates only. A confirmed human reviewer and review date
+are required for review actions, and operational status cannot be assigned
+without all source, answer, technical, version, calculation, and mock-specific
+gates passing.
+
 ## Quick Start
 
 ```bash

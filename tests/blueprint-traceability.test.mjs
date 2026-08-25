@@ -21,6 +21,7 @@ import {
   reviewedObjectiveIds,
   validateItemMapping,
 } from "../app/blueprintMapping.ts";
+import { EXTENDED_BLUEPRINT_COVERAGE_REPORT } from "../app/itemReviewReport.ts";
 
 test("official registry objective IDs are unique, stable, and complete", () => {
   const objectives = BLUEPRINT_REGISTRIES.flatMap((registry) => registry.objectives);
@@ -214,5 +215,5 @@ test("checked-in machine report matches the current registry and mapping overlay
   const committedReport = JSON.parse(
     await readFile("reports/blueprint-coverage.json", "utf8"),
   );
-  assert.deepEqual(committedReport, BLUEPRINT_COVERAGE_REPORT);
+  assert.deepEqual(committedReport, EXTENDED_BLUEPRINT_COVERAGE_REPORT);
 });

@@ -30,6 +30,8 @@ export interface CoachQuestion {
   pool?: QuestionPool;
   /** Optional independence metadata. Older authored items safely omit it. */
   scenarioFamily?: string;
+  /** Immutable served-content version. Existing bank records safely default to version 1. */
+  itemVersion?: number;
 }
 
 export type StabilityEvidenceState =
@@ -74,6 +76,8 @@ export interface Attempt {
   mockForm?: MockForm;
   firstExposure?: boolean;
   scenarioFamily?: string;
+  /** Preserves which immutable item version the learner was served. Older history defaults to 1. */
+  itemVersion?: number;
 }
 
 /**
@@ -313,6 +317,7 @@ function shuffledQuestion(
   ];
   return {
     ...base,
+    itemVersion: base.itemVersion ?? 1,
     catalogId,
     options,
     wrongRationales,

@@ -978,6 +978,7 @@ export default function AdaptiveCoach() {
         mockForm: sessionMockForm ?? undefined,
         firstExposure: sessionMockForm ? sessionFirstExposure : undefined,
         scenarioFamily: question.scenarioFamily,
+        itemVersion: question.itemVersion ?? 1,
       };
     });
     const correct = nextAttempts.filter((attempt) => attempt.correct).length;
