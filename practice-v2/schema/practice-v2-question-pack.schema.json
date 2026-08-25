@@ -6,9 +6,9 @@
   "additionalProperties": false,
   "required": ["schemaVersion", "packId", "packStatus", "questions"],
   "properties": {
-    "schemaVersion": { "const": 1 },
+    "schemaVersion": { "const": 2 },
     "packId": { "type": "string", "minLength": 1 },
-    "packStatus": { "enum": ["demo", "reviewed"] },
+    "packStatus": { "enum": ["demo", "content"] },
     "questions": { "type": "array", "items": { "$ref": "#/$defs/question" } }
   },
   "$defs": {
@@ -16,7 +16,7 @@
     "question": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "version", "credential", "blueprintVersion", "chapterId", "chapterTitle", "primaryObjectiveId", "secondaryObjectiveIds", "concept", "itemFamilyId", "questionType", "cognitiveLevel", "stem", "options", "correctOptionIndex", "correctAnswerExplanation", "incorrectOptionExplanations", "sourceTitle", "sourceLocation", "formula", "units", "reviewStatus"],
+      "required": ["id", "version", "credential", "blueprintVersion", "chapterId", "chapterTitle", "primaryObjectiveId", "secondaryObjectiveIds", "concept", "itemFamilyId", "questionType", "cognitiveLevel", "stem", "options", "correctOptionIndex", "correctAnswerExplanation", "incorrectOptionExplanations", "sourceTitle", "sourceLocation", "formula", "units", "reviewStatus", "verificationStatus", "authoringOrigin", "contentValidationStatus", "duplicateSimilarityCheckStatus"],
       "properties": {
         "id": { "type": "string", "minLength": 1 },
         "version": { "type": "integer", "minimum": 1 },
@@ -39,8 +39,18 @@
         "sourceLocation": { "$ref": "#/$defs/nullableString" },
         "formula": { "$ref": "#/$defs/nullableString" },
         "units": { "$ref": "#/$defs/nullableString" },
-        "reviewStatus": { "enum": ["demo", "unreviewed", "changes-required", "reviewed", "rejected", "retired"] }
-      }
+        "reviewStatus": { "enum": ["demo", "draft", "ready", "rejected", "retired"] },
+        "verificationStatus": { "enum": ["unverified", "source-checked", "human-reviewed"] },
+        "authoringOrigin": { "enum": ["human-authored", "ai-assisted", "imported"] },
+        "contentValidationStatus": { "enum": ["pending", "passed", "failed"] },
+        "duplicateSimilarityCheckStatus": { "enum": ["pending", "passed", "failed"] }
+      },
+      "allOf": [
+        { "if": { "properties": { "questionType": { "const": "calculation" } } }, "then": { "properties": { "formula": { "type": "string", "minLength": 1 }, "units": { "type": "string", "minLength": 1 } } } },
+        { "if": { "properties": { "verificationStatus": { "enum": ["source-checked", "human-reviewed"] } } }, "then": { "properties": { "reviewStatus": { "const": "ready" }, "sourceTitle": { "type": "string", "minLength": 1 }, "sourceLocation": { "type": "string", "minLength": 1, "pattern": "(?:[Cc]hapter|[Cc]h\\.?|[Pp]age|[Pp]{1,2}\\.?|[Ss]ection|[Ss]ec\\.?|[Rr]egulation|[Ss]tandard|CFR|cfr|§)" }, "contentValidationStatus": { "const": "passed" }, "duplicateSimilarityCheckStatus": { "const": "passed" } } } },
+        { "if": { "properties": { "verificationStatus": { "const": "source-checked" } } }, "then": { "properties": { "authoringOrigin": { "const": "ai-assisted" } } } },
+        { "if": { "properties": { "verificationStatus": { "const": "human-reviewed" } } }, "then": { "properties": { "authoringOrigin": { "const": "human-authored" } } } }
+      ]
     }
   }
 }

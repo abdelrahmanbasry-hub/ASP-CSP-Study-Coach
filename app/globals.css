@@ -581,6 +581,10 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .practice-v2-builder fieldset > p, .practice-v2-isolation { color: var(--muted); font-size: 10px; line-height: 1.5; }
 .practice-v2-actions { margin-top: 24px; display: flex; gap: 10px; }
 .practice-v2-isolation { margin: 18px 0 0; padding: 12px; border-left: 3px solid var(--gold); background: #f8f4ea; }
+.practice-v2-disclaimer, .practice-v2-runner-disclaimer { color: #586e78; font-size: 10px; line-height: 1.55; }
+.practice-v2-disclaimer { margin: 10px 0 0; }
+.practice-v2-verification-badge { width: max-content; margin-top: 17px; padding: 6px 9px; border: 1px solid #92b3a8; border-radius: 999px; background: #edf7f3; color: #25644f; font-size: 9px; font-weight: 900; letter-spacing: .04em; }
+.practice-v2-runner-disclaimer { margin: 9px 0 0; }
 .practice-v2-coming { margin-top: 8vh; padding: 50px; border: 1px solid var(--line); border-radius: 16px; background: white; text-align: center; }
 .practice-v2-coming p { max-width: 620px; margin-inline: auto; color: var(--muted); line-height: 1.7; }
 .practice-v2-confidence { margin-top: 18px; display: flex; align-items: center; gap: 7px; }

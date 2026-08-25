@@ -1,16 +1,18 @@
 import { BLUEPRINT_OBJECTIVE_BY_ID, type BlueprintVersion, type Credential } from "./blueprintRegistry.ts";
 
-export const PRACTICE_V2_SCHEMA_VERSION = 1 as const;
+export const PRACTICE_V2_SCHEMA_VERSION = 2 as const;
 export const PRACTICE_V2_PROGRESS_KEY = "asp-csp-practice-v2-progress-v1";
 export const PRACTICE_V2_COUNTS = [10, 15, 20, 25] as const;
 
 export type PracticeV2ReviewStatus =
   | "demo"
-  | "unreviewed"
-  | "changes-required"
-  | "reviewed"
+  | "draft"
+  | "ready"
   | "rejected"
   | "retired";
+export type PracticeV2VerificationStatus = "unverified" | "source-checked" | "human-reviewed";
+export type PracticeV2AuthoringOrigin = "human-authored" | "ai-assisted" | "imported";
+export type PracticeV2GateStatus = "pending" | "passed" | "failed";
 export type PracticeV2QuestionType = "single-best-answer" | "scenario" | "calculation";
 export type PracticeV2CognitiveLevel = "remember" | "understand" | "apply" | "analyze" | "evaluate";
 
@@ -37,12 +39,16 @@ export interface PracticeV2Question {
   formula: string | null;
   units: string | null;
   reviewStatus: PracticeV2ReviewStatus;
+  verificationStatus: PracticeV2VerificationStatus;
+  authoringOrigin: PracticeV2AuthoringOrigin;
+  contentValidationStatus: PracticeV2GateStatus;
+  duplicateSimilarityCheckStatus: PracticeV2GateStatus;
 }
 
 export interface PracticeV2QuestionPack {
   schemaVersion: typeof PRACTICE_V2_SCHEMA_VERSION;
   packId: string;
-  packStatus: "demo" | "reviewed";
+  packStatus: "demo" | "content";
   questions: PracticeV2Question[];
 }
 
@@ -66,7 +72,10 @@ export interface StorageLike {
   setItem(key: string, value: string): void;
 }
 
-const REVIEW_STATUSES = new Set<PracticeV2ReviewStatus>(["demo", "unreviewed", "changes-required", "reviewed", "rejected", "retired"]);
+const REVIEW_STATUSES = new Set<PracticeV2ReviewStatus>(["demo", "draft", "ready", "rejected", "retired"]);
+const VERIFICATION_STATUSES = new Set<PracticeV2VerificationStatus>(["unverified", "source-checked", "human-reviewed"]);
+const AUTHORING_ORIGINS = new Set<PracticeV2AuthoringOrigin>(["human-authored", "ai-assisted", "imported"]);
+const GATE_STATUSES = new Set<PracticeV2GateStatus>(["pending", "passed", "failed"]);
 const QUESTION_TYPES = new Set<PracticeV2QuestionType>(["single-best-answer", "scenario", "calculation"]);
 const COGNITIVE_LEVELS = new Set<PracticeV2CognitiveLevel>(["remember", "understand", "apply", "analyze", "evaluate"]);
 
@@ -78,13 +87,15 @@ function nonempty(value: unknown): value is string {
   return typeof value === "string" && value.trim().length > 0;
 }
 
+const EXACT_SOURCE_LOCATION = /(?:\b(?:chapter|ch\.?|page|p{1,2}\.?|section|sec\.?|regulation|standard|cfr)\b|§)/i;
+
 export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssue[] {
   const issues: PracticeV2ValidationIssue[] = [];
   const add = (path: string, code: string, message: string, questionId?: string) => issues.push({ path, code, message, questionId });
   if (!object(value)) return [{ path: "$", code: "invalid-pack", message: "Question file must contain a JSON object." }];
-  if (value.schemaVersion !== PRACTICE_V2_SCHEMA_VERSION) add("schemaVersion", "invalid-schema-version", "schemaVersion must be 1.");
+  if (value.schemaVersion !== PRACTICE_V2_SCHEMA_VERSION) add("schemaVersion", "invalid-schema-version", "schemaVersion must be 2.");
   if (!nonempty(value.packId)) add("packId", "missing-pack-id", "packId is required.");
-  if (value.packStatus !== "demo" && value.packStatus !== "reviewed") add("packStatus", "invalid-pack-status", "packStatus must be demo or reviewed.");
+  if (value.packStatus !== "demo" && value.packStatus !== "content") add("packStatus", "invalid-pack-status", "packStatus must be demo or content.");
   if (!Array.isArray(value.questions)) {
     add("questions", "invalid-questions", "questions must be an array.");
     return issues;
@@ -144,16 +155,38 @@ export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssu
       });
     }
     if (!REVIEW_STATUSES.has(candidate.reviewStatus as PracticeV2ReviewStatus)) add(`${path}.reviewStatus`, "invalid-review-status", "reviewStatus is invalid.", id);
-    if (value.packStatus === "demo" && candidate.reviewStatus !== "demo") add(`${path}.reviewStatus`, "pack-review-mismatch", "Demo packs may contain only demo questions.", id);
-    if (value.packStatus === "reviewed" && candidate.reviewStatus !== "reviewed") add(`${path}.reviewStatus`, "pack-review-mismatch", "Reviewed packs may contain only reviewed questions.", id);
-    if (candidate.reviewStatus === "reviewed" && (!nonempty(candidate.sourceTitle) || !nonempty(candidate.sourceLocation))) {
-      add(`${path}.sourceTitle`, "missing-reviewed-source", "Reviewed questions require sourceTitle and sourceLocation.", id);
+    if (!VERIFICATION_STATUSES.has(candidate.verificationStatus as PracticeV2VerificationStatus)) add(`${path}.verificationStatus`, "invalid-verification-status", "verificationStatus is invalid.", id);
+    if (!AUTHORING_ORIGINS.has(candidate.authoringOrigin as PracticeV2AuthoringOrigin)) add(`${path}.authoringOrigin`, "invalid-authoring-origin", "authoringOrigin is invalid.", id);
+    if (!GATE_STATUSES.has(candidate.contentValidationStatus as PracticeV2GateStatus)) add(`${path}.contentValidationStatus`, "invalid-content-validation-status", "contentValidationStatus is invalid.", id);
+    if (!GATE_STATUSES.has(candidate.duplicateSimilarityCheckStatus as PracticeV2GateStatus)) add(`${path}.duplicateSimilarityCheckStatus`, "invalid-similarity-status", "duplicateSimilarityCheckStatus is invalid.", id);
+    if (value.packStatus === "demo" && (candidate.reviewStatus !== "demo" || candidate.verificationStatus !== "unverified")) add(`${path}.reviewStatus`, "pack-status-mismatch", "Demo packs may contain only unverified demo questions.", id);
+    if (value.packStatus === "content" && candidate.reviewStatus === "demo") add(`${path}.reviewStatus`, "pack-status-mismatch", "Content packs cannot contain demo questions.", id);
+    if (candidate.verificationStatus === "source-checked" && candidate.authoringOrigin !== "ai-assisted") add(`${path}.authoringOrigin`, "source-checked-origin", "Source-checked production items must be identified as AI-assisted.", id);
+    if (candidate.verificationStatus === "human-reviewed" && candidate.authoringOrigin !== "human-authored") add(`${path}.authoringOrigin`, "human-reviewed-origin", "Only human-authored items may use the human-reviewed label.", id);
+    if (candidate.verificationStatus !== "unverified") {
+      if (candidate.reviewStatus !== "ready") add(`${path}.reviewStatus`, "verified-item-not-ready", "Verified items must have reviewStatus ready.", id);
+      if (!nonempty(candidate.sourceTitle)) add(`${path}.sourceTitle`, "missing-verified-source-title", "Verified questions require an exact source title.", id);
+      if (!nonempty(candidate.sourceLocation) || !EXACT_SOURCE_LOCATION.test(candidate.sourceLocation)) add(`${path}.sourceLocation`, "missing-exact-source-location", "Verified questions require an exact chapter, page, section, or regulation location.", id);
+      if (candidate.contentValidationStatus !== "passed") add(`${path}.contentValidationStatus`, "content-validation-not-passed", "Verified questions require a passed content validation check.", id);
+      if (candidate.duplicateSimilarityCheckStatus !== "passed") add(`${path}.duplicateSimilarityCheckStatus`, "similarity-check-not-passed", "Verified questions require a passed duplicate and similarity check.", id);
     }
+    if (candidate.questionType === "calculation" && (!nonempty(candidate.formula) || !nonempty(candidate.units))) add(`${path}.formula`, "missing-calculation-metadata", "Calculation questions require formula and units information.", id);
     for (const field of ["sourceTitle", "sourceLocation", "formula", "units"] as const) {
       if (candidate[field] !== null && typeof candidate[field] !== "string") add(`${path}.${field}`, `invalid-${field}`, `${field} must be a string or null.`, id);
     }
   });
   return issues;
+}
+
+export function isPracticeV2ProductionEligible(question: PracticeV2Question) {
+  if (question.verificationStatus !== "source-checked" && question.verificationStatus !== "human-reviewed") return false;
+  return validatePracticeV2Pack({ schemaVersion: PRACTICE_V2_SCHEMA_VERSION, packId: "production-eligibility-check", packStatus: "content", questions: [question] }).length === 0;
+}
+
+export function practiceV2VerificationBadge(question: PracticeV2Question) {
+  if (question.verificationStatus === "source-checked") return "Source-checked · AI-assisted";
+  if (question.verificationStatus === "human-reviewed") return "Human-reviewed";
+  return question.reviewStatus === "demo" ? "Unverified · Demo only" : "Unverified";
 }
 
 export function emptyPracticeV2Progress(): PracticeV2Progress {

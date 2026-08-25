@@ -2,11 +2,12 @@
 
 import { ArrowLeft, ArrowRight, Check, FlaskConical, RotateCcw, X } from "lucide-react";
 import { useMemo, useState } from "react";
-import { PRACTICE_V2_HAS_REVIEWED_CONTENT, PRACTICE_V2_QUESTIONS } from "./practiceV2Catalog";
+import { PRACTICE_V2_HAS_VERIFIED_CONTENT, PRACTICE_V2_QUESTIONS } from "./practiceV2Catalog";
 import {
   PRACTICE_V2_COUNTS,
   emptyPracticeV2Progress,
   loadPracticeV2Progress,
+  practiceV2VerificationBadge,
   recordPracticeV2Answer,
   savePracticeV2Progress,
   selectPracticeV2Questions,
@@ -42,15 +43,15 @@ export default function PracticeV2() {
   };
   if (runner) return <PracticeV2Runner runner={runner} progress={progress} onProgress={(next) => { setProgress(next); savePracticeV2Progress(window.localStorage, next); }} onExit={() => setRunner(null)} />;
 
-  if (process.env.NODE_ENV === "production" && !PRACTICE_V2_HAS_REVIEWED_CONTENT) {
-    return <main className="practice-v2-page"><section className="practice-v2-coming"><p className="eyebrow">Practice V2</p><h1>Coming soon</h1><p>Practice V2 will open after reviewed question packs are imported. Existing Practice, Homework, Mock Exams, progress, and readiness are unchanged.</p></section></main>;
+  if (process.env.NODE_ENV === "production" && !PRACTICE_V2_HAS_VERIFIED_CONTENT) {
+    return <main className="practice-v2-page"><section className="practice-v2-coming"><p className="eyebrow">Practice V2</p><h1>Coming soon</h1><p>Practice V2 will open after source-checked or human-reviewed question packs are imported. Existing Practice, Homework, Mock Exams, progress, and readiness are unchanged.</p></section></main>;
   }
 
   const mistakeCount = PRACTICE_V2_QUESTIONS.filter((question) => progress.incorrectQuestionIds.includes(question.id)).length;
   return <main className="practice-v2-page">
     <section className="practice-v2-hero">
       <div><p className="eyebrow"><FlaskConical size={16} /> Separate question system</p><h1>Practice V2</h1><p>Choose a credential and one or more chapters. New items are prioritized, and no item family repeats within a session.</p></div>
-      {!PRACTICE_V2_HAS_REVIEWED_CONTENT && <aside><strong>DEMO ONLY</strong><span>These two placeholders test the interface. They are not approved study content.</span></aside>}
+      {!PRACTICE_V2_HAS_VERIFIED_CONTENT && <aside><strong>DEMO ONLY</strong><span>These two placeholders test the interface. They are not approved study content.</span></aside>}
     </section>
     <section className="practice-v2-builder" aria-label="Build a Practice V2 session">
       <fieldset><legend>1. Credential</legend><div className="practice-v2-choice-row">{(["ASP", "CSP"] as const).map((value) => <button className={credential === value ? "active" : ""} key={value} onClick={() => { setCredential(value); setChapterIds([]); }}>{value}</button>)}</div></fieldset>
@@ -58,9 +59,10 @@ export default function PracticeV2() {
         {chapterMode === "single" ? <select aria-label="Select chapter" value={effectiveChapters[0] ?? ""} onChange={(event) => setChapterIds(event.target.value ? [event.target.value] : [])}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</select>
           : <div className="practice-v2-chapters">{chapters.map((chapter) => <label key={chapter.id}><input type="checkbox" checked={effectiveChapters.includes(chapter.id)} onChange={(event) => setChapterIds(event.target.checked ? [...new Set([...effectiveChapters, chapter.id])] : effectiveChapters.filter((id) => id !== chapter.id))} /> {chapter.title}</label>)}</div>}
       </fieldset>
-      <fieldset><legend>3. Session length</legend><div className="practice-v2-choice-row">{PRACTICE_V2_COUNTS.map((value) => <button className={count === value ? "active" : ""} key={value} onClick={() => setCount(value)}>{value}</button>)}</div><p>Shorter sessions are created when the reviewed pack does not contain enough distinct item families.</p></fieldset>
+      <fieldset><legend>3. Session length</legend><div className="practice-v2-choice-row">{PRACTICE_V2_COUNTS.map((value) => <button className={count === value ? "active" : ""} key={value} onClick={() => setCount(value)}>{value}</button>)}</div><p>Shorter sessions are created when the verified pack does not contain enough distinct item families.</p></fieldset>
       <div className="practice-v2-actions"><button className="primary-button" disabled={!effectiveChapters.length} onClick={() => start("practice")}>Start practice <ArrowRight size={16} /></button><button className="secondary-button" disabled={!mistakeCount} onClick={() => start("mistakes")}><RotateCcw size={16} /> Mistake Review ({mistakeCount})</button></div>
-      <p className="practice-v2-isolation">Practice V2 uses its own browser progress record and does not update Homework, legacy Practice, Mock Exams, cloud synchronization, or the Practice Readiness Indicator.</p>
+      <p className="practice-v2-isolation">Practice V2 uses its own browser progress record and does not update Homework, legacy Practice, Mock Exams, cloud synchronization, or the Practice Readiness Indicator. Practice V2 results are not psychometrically calibrated.</p>
+      {PRACTICE_V2_HAS_VERIFIED_CONTENT && <p className="practice-v2-disclaimer">These practice questions were checked against cited study and regulatory sources. They are not official BCSP questions and have not necessarily been reviewed by an instructor.</p>}
     </section>
   </main>;
 }
@@ -82,7 +84,7 @@ function PracticeV2Runner({ runner, progress, onProgress, onExit }: { runner: Ru
   return <main className="homework-runner practice-v2-runner">
     <header className="homework-runner-header"><button className="secondary-button" onClick={onExit}><X size={16} /> Exit</button><div><small>{runner.mode === "mistakes" ? "Mistake Review" : "Practice V2"}</small><strong>{question.chapterTitle}</strong></div><span>{index + 1}/{runner.questions.length}</span></header>
     <div className="homework-progress"><i style={{ width: `${((index + 1) / runner.questions.length) * 100}%` }} /></div>
-    <section className="homework-question-card"><div className="question-meta"><span>{question.credential} · {question.primaryObjectiveId}</span><span className="difficulty-chip">{question.cognitiveLevel}</span></div><h1>{question.stem}</h1>
+    <section className="homework-question-card"><div className="question-meta"><span>{question.credential} · {question.primaryObjectiveId}</span><span className="difficulty-chip">{question.cognitiveLevel}</span></div><div className="practice-v2-verification-badge">{practiceV2VerificationBadge(question)}</div>{question.verificationStatus !== "unverified" && <p className="practice-v2-runner-disclaimer">These practice questions were checked against cited study and regulatory sources. They are not official BCSP questions and have not necessarily been reviewed by an instructor.</p>}<h1>{question.stem}</h1>
       <div className="answer-list">{question.options.map((option, optionIndex) => <button disabled={checked} className={`answer${selected === optionIndex ? " selected" : ""}${checked && optionIndex === question.correctOptionIndex ? " correct" : ""}${checked && selected === optionIndex && !correct ? " incorrect" : ""}`} key={`${question.id}:${optionIndex}`} onClick={() => setSelected(optionIndex)}><span>{String.fromCharCode(65 + optionIndex)}</span><strong>{option}</strong>{selected === optionIndex && <Check size={18} />}</button>)}</div>
       {!checked && <div className="practice-v2-confidence"><span>Confidence</span>{(["low", "medium", "high"] as const).map((value) => <button className={confidence === value ? "active" : ""} key={value} onClick={() => setConfidence(value)}>{value}</button>)}</div>}
       {checked && <div className={`practice-feedback ${correct ? "correct" : "incorrect"}`}><strong>{correct ? "Correct" : confidence === "high" ? "High-confidence miss" : "Incorrect"}</strong><p><b>Why the correct option is correct:</b> {question.correctAnswerExplanation}</p><div className="practice-v2-option-feedback"><b>Why each incorrect option is wrong:</b>{question.options.map((option, optionIndex) => optionIndex === question.correctOptionIndex ? null : <p key={optionIndex}><span>{String.fromCharCode(65 + optionIndex)}.</span> {question.incorrectOptionExplanations[optionIndex]}</p>)}</div>{question.formula && <p><b>Formula:</b> {question.formula}</p>}{question.units && <p><b>Units:</b> {question.units}</p>}</div>}

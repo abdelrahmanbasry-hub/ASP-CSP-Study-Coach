@@ -10,7 +10,9 @@ import {
   PRACTICE_V2_PROGRESS_KEY,
   emptyPracticeV2Progress,
   filterPracticeV2Questions,
+  isPracticeV2ProductionEligible,
   loadPracticeV2Progress,
+  practiceV2VerificationBadge,
   recordPracticeV2Answer,
   savePracticeV2Progress,
   selectPracticeV2Questions,
@@ -22,17 +24,22 @@ const q = (id, overrides = {}) => ({
   ...structuredClone(demoAsp),
   id,
   itemFamilyId: `family-${id}`,
-  reviewStatus: "reviewed",
-  sourceTitle: "Reviewed source",
-  sourceLocation: "p. 1",
+  reviewStatus: "ready",
+  verificationStatus: "source-checked",
+  authoringOrigin: "ai-assisted",
+  contentValidationStatus: "passed",
+  duplicateSimilarityCheckStatus: "passed",
+  sourceTitle: "Exact reviewed source title",
+  sourceLocation: "Chapter 1, p. 1",
   ...overrides,
 });
-const pack = (questions) => ({ schemaVersion: 1, packId: "test-pack", packStatus: "reviewed", questions });
+const pack = (questions) => ({ schemaVersion: 2, packId: "test-pack", packStatus: "content", questions });
 
 test("the two-item demo pack is valid and cannot be mistaken for approved content", () => {
   assert.equal(demoPack.questions.length, 2);
   assert.deepEqual(validatePracticeV2Pack(demoPack), []);
   assert.ok(demoPack.questions.every((question) => question.reviewStatus === "demo"));
+  assert.ok(demoPack.questions.every((question) => question.verificationStatus === "unverified"));
   assert.ok(demoPack.questions.every((question) => question.stem.startsWith("DEMO ONLY")));
 });
 
@@ -50,16 +57,61 @@ test("validation rejects invalid answer indexes and missing distractor explanati
   assert.ok(validatePracticeV2Pack(pack([q("missing-explanation", { incorrectOptionExplanations: [null, "", "why C", "why D"] })])).some((issue) => issue.code === "missing-option-explanation"));
 });
 
-test("validation rejects missing chapters, invalid objectives, and unsourced reviewed items", () => {
+test("validation rejects missing chapters, invalid objectives, and unsourced verified items", () => {
   const issues = validatePracticeV2Pack(pack([q("invalid", { chapterId: "", primaryObjectiveId: "ASP11-A1.99", sourceTitle: null })]));
   assert.ok(issues.some((issue) => issue.code === "missing-chapter-id"));
   assert.ok(issues.some((issue) => issue.code === "invalid-objective"));
-  assert.ok(issues.some((issue) => issue.code === "missing-reviewed-source"));
+  assert.ok(issues.some((issue) => issue.code === "missing-verified-source-title"));
 });
 
-test("pack labels cannot promote demo or unreviewed items", () => {
-  assert.ok(validatePracticeV2Pack({ ...pack([q("demo-mismatch")]), packStatus: "demo" }).some((issue) => issue.code === "pack-review-mismatch"));
-  assert.ok(validatePracticeV2Pack(pack([q("review-mismatch", { reviewStatus: "unreviewed" })])).some((issue) => issue.code === "pack-review-mismatch"));
+test("pack labels cannot promote demo or unverified items", () => {
+  assert.ok(validatePracticeV2Pack({ ...pack([q("demo-mismatch")]), packStatus: "demo" }).some((issue) => issue.code === "pack-status-mismatch"));
+  assert.ok(validatePracticeV2Pack(pack([q("content-demo", { reviewStatus: "demo", verificationStatus: "unverified", contentValidationStatus: "pending", duplicateSimilarityCheckStatus: "pending" })])).some((issue) => issue.code === "pack-status-mismatch"));
+});
+
+test("source-checked eligibility requires every production safety gate", () => {
+  const valid = q("eligible");
+  assert.deepEqual(validatePracticeV2Pack(pack([valid])), []);
+  assert.equal(isPracticeV2ProductionEligible(valid), true);
+  for (const [field, value, code] of [
+    ["primaryObjectiveId", "ASP11-A1.99", "invalid-objective"],
+    ["sourceTitle", null, "missing-verified-source-title"],
+    ["sourceLocation", "somewhere nearby", "missing-exact-source-location"],
+    ["contentValidationStatus", "pending", "content-validation-not-passed"],
+    ["duplicateSimilarityCheckStatus", "pending", "similarity-check-not-passed"],
+  ]) {
+    const candidate = q(`bad-${field}`, { [field]: value });
+    assert.ok(validatePracticeV2Pack(pack([candidate])).some((issue) => issue.code === code));
+    assert.equal(isPracticeV2ProductionEligible(candidate), false);
+  }
+});
+
+test("calculation items require formula and units before verification", () => {
+  const missing = q("calculation", { questionType: "calculation", formula: null, units: null });
+  assert.ok(validatePracticeV2Pack(pack([missing])).some((issue) => issue.code === "missing-calculation-metadata"));
+  assert.equal(isPracticeV2ProductionEligible(missing), false);
+  assert.equal(isPracticeV2ProductionEligible(q("calculation-ready", { questionType: "calculation", formula: "demo formula", units: "demo units" })), true);
+});
+
+test("verification labels cannot overstate AI-assisted or unverified content", () => {
+  const checked = q("checked");
+  assert.equal(practiceV2VerificationBadge(checked), "Source-checked · AI-assisted");
+  assert.ok(validatePracticeV2Pack(pack([{ ...checked, verificationStatus: "human-reviewed" }])).some((issue) => issue.code === "human-reviewed-origin"));
+  const human = q("human", { verificationStatus: "human-reviewed", authoringOrigin: "human-authored" });
+  assert.equal(practiceV2VerificationBadge(human), "Human-reviewed");
+  const unverified = q("hidden", { reviewStatus: "draft", verificationStatus: "unverified", authoringOrigin: "imported", contentValidationStatus: "pending", duplicateSimilarityCheckStatus: "pending", sourceTitle: null, sourceLocation: null });
+  assert.equal(isPracticeV2ProductionEligible(unverified), false);
+  assert.equal(practiceV2VerificationBadge(unverified), "Unverified");
+});
+
+test("Practice V2 renders the required source disclaimer and keeps verified content outside readiness", async () => {
+  const view = await readFile(new URL("../app/PracticeV2View.tsx", import.meta.url), "utf8");
+  const catalog = await readFile(new URL("../app/practiceV2Catalog.ts", import.meta.url), "utf8");
+  assert.match(view, /These practice questions were checked against cited study and regulatory sources/);
+  assert.match(view, /not official BCSP questions and have not necessarily been reviewed by an instructor/);
+  assert.match(view, /does not update Homework, legacy Practice, Mock Exams, cloud synchronization, or the Practice Readiness Indicator/);
+  assert.match(view, /not psychometrically calibrated/);
+  assert.match(catalog, /filter\(isPracticeV2ProductionEligible\)/);
 });
 
 test("single- and multi-chapter filtering stays inside the selected credential", () => {
@@ -135,4 +187,18 @@ test("invalid or duplicate imports reject the complete file without partial outp
   await assert.rejects(readdir(path.join(root, "practice-v2", "imported")), { code: "ENOENT" });
   const persistedReport = JSON.parse(await readFile(path.join(root, "reports", "practice-v2-import-report.json"), "utf8"));
   assert.equal(persistedReport.status, "rejected");
+});
+
+test("importer independently rejects highly similar stems", async (t) => {
+  const root = await mkdtemp(path.join(os.tmpdir(), "practice-v2-similar-"));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const input = path.join(root, "similar.json");
+  const first = q("similar-one", { stem: "A long unique safety scenario asks which exact control should be selected before work begins today." });
+  const second = q("similar-two", { stem: "A long unique safety scenario asks which exact control should be selected before work begins today." });
+  await writeFile(input, JSON.stringify(pack([first, second])), "utf8");
+  const report = await importPracticeV2Pack(input, { rootDirectory: root });
+  assert.equal(report.status, "rejected");
+  assert.equal(report.similarItems.length, 1);
+  assert.equal(report.similarItems[0].similarToQuestionId, "similar-one");
+  assert.ok(report.errors.some((issue) => issue.code === "similar-question"));
 });

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "packId": "practice-v2-structural-demo",
   "packStatus": "demo",
   "questions": [
@@ -25,7 +25,11 @@
       "sourceLocation": null,
       "formula": null,
       "units": null,
-      "reviewStatus": "demo"
+      "reviewStatus": "demo",
+      "verificationStatus": "unverified",
+      "authoringOrigin": "imported",
+      "contentValidationStatus": "pending",
+      "duplicateSimilarityCheckStatus": "pending"
     },
     {
       "id": "DEMO-PV2-CSP-001",
@@ -49,7 +53,11 @@
       "sourceLocation": null,
       "formula": null,
       "units": null,
-      "reviewStatus": "demo"
+      "reviewStatus": "demo",
+      "verificationStatus": "unverified",
+      "authoringOrigin": "imported",
+      "contentValidationStatus": "pending",
+      "duplicateSimilarityCheckStatus": "pending"
     }
   ]
 }

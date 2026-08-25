@@ -121,11 +121,13 @@ Each question records its immutable ID and version, ASP/CSP credential and
 blueprint version, chapter, primary and secondary blueprint objectives,
 concept, item family, item and cognitive types, exact stem and four options,
 the keyed option, correct-answer explanation, one explanation slot per option,
-source fields, optional formula and units, and review status. The correct
+source fields, optional formula and units, operational review status, separate
+verification status, authoring origin, content-validation status, and
+duplicate/similarity-check status. The correct
 option's `incorrectOptionExplanations` slot must be `null`; all three incorrect
 slots must be non-empty.
 
-Import a reviewed JSON pack with:
+Import a Practice V2 JSON pack with:
 
 ```bash
 pnpm practice:v2:import <question-file.json>
@@ -133,9 +135,8 @@ pnpm practice:v2:import <question-file.json>
 
 The importer parses and validates the entire file, checks duplicate question
 IDs both within the pack and across all prior imports, and requires valid ASP11
-or CSP11 objective ownership. A reviewed question must have both an exact
-source title and source location. Demo packs may contain only demo items, and
-reviewed packs may contain only reviewed items. Any error rejects the complete
+or CSP11 objective ownership. Demo packs may contain only unverified demo
+items; content packs cannot contain demo items. Any error rejects the complete
 file without copying any questions. Successful imports preserve the supplied JSON text
 exactly; the importer never edits, rewrites, or generates question content.
 Every attempt writes `reports/practice-v2-import-report.json` with imported,
@@ -143,14 +144,38 @@ rejected, duplicate, and error details.
 
 The two records in `practice-v2/demo/demo-questions.json` are visibly marked
 structural placeholders. They are available only in local development and are
-not approved study content. In production, `/practice-v2` remains a Coming soon
-page until at least one imported question has `reviewStatus: "reviewed"`.
+not approved study content.
+
+Verification is independent of operational review status. Its allowed values
+are `unverified`, `source-checked`, and `human-reviewed`; authoring origin is
+`human-authored`, `ai-assisted`, or `imported`. AI-assisted production content
+must be labeled `source-checked`, never `human-reviewed`. The interface displays
+it as **Source-checked · AI-assisted** and includes this disclosure:
+
+> These practice questions were checked against cited study and regulatory
+> sources. They are not official BCSP questions and have not necessarily been
+> reviewed by an instructor.
+
+A source-checked question enters the production catalog only when its ASP11 or
+CSP11 objective is valid, its exact source title and chapter, page, section, or
+regulation location are present, it has exactly one valid keyed answer and
+feedback for all four options, calculation metadata is complete when applicable,
+and both content-validation and duplicate/similarity gates are `passed`.
+Human-reviewed content must meet the same technical gates. Unverified questions
+remain hidden in production. Verified Practice V2 questions can be selected in
+chapter, multi-chapter, and Mistake Review modes, but their separate progress
+never contributes to Mock Exam readiness or the Practice Readiness Indicator.
+They are not represented as psychometrically calibrated. In production,
+`/practice-v2` remains a Coming soon page until eligible content exists.
 
 For a manual local preview, run `pnpm dev`, open `/practice-v2`, select ASP or
 CSP, choose the demo chapter, and answer its placeholder. Verify immediate
 correct and distractor feedback, then intentionally answer with High confidence
 to populate Mistake Review. Clear only the
 `asp-csp-practice-v2-progress-v1` browser key to reset this preview.
+
+The content-author handoff bundle is generated and checked in at
+`practice-v2/handoff/PRACTICE_V2_CONTENT_HANDOFF.zip`.
 
 Progress is stored in the browser. All scenarios and deterministic variants are
 original and are not copied from BCSP, Pocket Prep, or the supplied books. The
