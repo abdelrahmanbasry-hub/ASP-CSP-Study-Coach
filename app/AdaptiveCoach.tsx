@@ -52,12 +52,20 @@ import {
   CSP_PRACTICE_EXTRA,
 } from "./cspExpandedQuestionBank";
 import {
+  applyDomainStabilityForBlock,
+  ASSESSMENT_EVIDENCE_CONFIG,
   chooseMockForm,
   defaultMastery,
   difficultyLabel,
   formatTime,
   generateSession,
+  normalizeDomainMastery,
   overallReadiness,
+  PROVISIONAL_DIFFICULTY_NOTE,
+  READINESS_DISCLAIMER,
+  READINESS_INSUFFICIENT_EXPLANATION,
+  READINESS_INSUFFICIENT_LABEL,
+  READINESS_LABEL,
   readinessScore,
   updateDomainMastery,
   type Attempt,
@@ -223,12 +231,12 @@ const MODE_COPY: Record<SessionMode, { title: string; eyebrow: string; descripti
   custom: {
     title: "Build a domain drill",
     eyebrow: "Choose the scope",
-    description: "Select one or more blueprint domains. The engine handles difficulty and mix.",
+    description: "Select one or more blueprint domains. The engine handles evidence priority and mix.",
   },
   level: {
     title: "Level up",
-    eyebrow: "IRT progression",
-    description: "Questions track your estimated ability and escalate toward exam-day stretch.",
+    eyebrow: "Provisional authoring progression",
+    description: "Questions move across provisional authoring levels while reliable practice evidence controls priority.",
   },
   exam: {
     title: "Full exam simulation",
@@ -255,25 +263,55 @@ function normalizeSavedState(parsed: Partial<SavedState>): SavedState {
   const isDualTrack = Boolean(candidate && candidate.ASP && candidate.CSP);
   const mastery = isDualTrack
     ? {
-        ASP: { ...base.mastery.ASP, ...(candidate?.ASP as Record<string, DomainMastery>) },
-        CSP: { ...base.mastery.CSP, ...(candidate?.CSP as Record<string, DomainMastery>) },
+        ASP: Object.fromEntries(
+          ALL_ASP_DOMAINS.map((domain) => [
+            domain.id,
+            normalizeDomainMastery(
+              (candidate?.ASP as Record<string, Partial<DomainMastery>>)?.[domain.id],
+            ),
+          ]),
+        ),
+        CSP: Object.fromEntries(
+          ALL_CSP_DOMAINS.map((domain) => [
+            domain.id,
+            normalizeDomainMastery(
+              (candidate?.CSP as Record<string, Partial<DomainMastery>>)?.[domain.id],
+            ),
+          ]),
+        ),
       }
     : {
         ASP: base.mastery.ASP,
-        CSP: { ...base.mastery.CSP, ...((candidate ?? {}) as Record<string, DomainMastery>) },
+        CSP: Object.fromEntries(
+          ALL_CSP_DOMAINS.map((domain) => [
+            domain.id,
+            normalizeDomainMastery(
+              (candidate as Record<string, Partial<DomainMastery>> | undefined)?.[domain.id],
+            ),
+          ]),
+        ),
       };
-  const attemptHistory = (parsed.attempts ?? []).map((attempt) => ({
+  const attemptHistory = (Array.isArray(parsed.attempts) ? parsed.attempts : []).map((attempt) => ({
     ...attempt,
     exam: attempt.exam ?? "CSP",
   }));
   const seenCandidate = parsed.seenQuestionIds as unknown;
-  const seenQuestionIds =
-    seenCandidate && !Array.isArray(seenCandidate)
-      ? { ...base.seenQuestionIds, ...(seenCandidate as Record<ExamTrack, string[]>) }
-      : {
-          ASP: [...new Set(attemptHistory.filter((attempt) => attempt.exam === "ASP").map((attempt) => attempt.questionId))],
-          CSP: [...new Set(attemptHistory.filter((attempt) => attempt.exam === "CSP").map((attempt) => attempt.questionId))],
-        };
+  const seenRecord =
+    seenCandidate && typeof seenCandidate === "object" && !Array.isArray(seenCandidate)
+      ? (seenCandidate as Partial<Record<ExamTrack, unknown>>)
+      : {};
+  const seenQuestionIds = Object.fromEntries(
+    (["ASP", "CSP"] as const).map((exam) => {
+      const savedIds = seenRecord[exam];
+      const fallbackIds = attemptHistory
+        .filter((attempt) => attempt.exam === exam)
+        .map((attempt) => attempt.questionId);
+      const safeIds = Array.isArray(savedIds)
+        ? savedIds.filter((id): id is string => typeof id === "string" && Boolean(id.trim()))
+        : fallbackIds;
+      return [exam, [...new Set(safeIds)]];
+    }),
+  ) as SavedState["seenQuestionIds"];
   const exposureCandidate = parsed.mockExposures as unknown;
   const mockExposures =
     exposureCandidate && typeof exposureCandidate === "object"
@@ -291,7 +329,7 @@ function normalizeSavedState(parsed: Partial<SavedState>): SavedState {
     learning: normalizeLearningProgress(parsed.learning),
     activeExam: parsed.activeExam === "ASP" ? "ASP" : "CSP",
     attempts: attemptHistory,
-    sessions: (parsed.sessions ?? []).map((session) => ({ ...session, exam: session.exam ?? "CSP" })),
+    sessions: (Array.isArray(parsed.sessions) ? parsed.sessions : []).map((session) => ({ ...session, exam: session.exam ?? "CSP" })),
   };
 }
 
@@ -406,7 +444,7 @@ function getModeCopy(mode: SessionMode, config: ExamConfig) {
     };
   }
   if (mode === "custom") {
-    return { ...base, description: `Select one or more ${config.blueprint} domains. The engine handles difficulty and mix.` };
+    return { ...base, description: `Select one or more ${config.blueprint} domains. The engine handles evidence priority and mix.` };
   }
   if (mode === "exam") {
     return { ...base, title: `Full ${config.name} simulation`, eyebrow: `200 questions · ${config.examTimeLabel}` };
@@ -433,10 +471,27 @@ function ModeIcon({ mode, size }: { mode: SessionMode; size?: number }) {
   return <ShieldCheck {...props} />;
 }
 
-function masteryStatus(score: number, stableBlocks: number) {
-  if (score >= 80 && stableBlocks >= 2) return { label: "Stable", tone: "good" };
+function masteryStatus(score: number | null, mastery?: DomainMastery) {
+  if (score === null || mastery?.lastBlockEvidence === "not-enough-current-evidence") {
+    return { label: "Not enough current evidence", tone: "warn" };
+  }
+  if (
+    score >= 80 &&
+    (mastery?.stableBlocks ?? 0) >= ASSESSMENT_EVIDENCE_CONFIG.stability.requiredStableBlocks
+  ) return { label: "Stable", tone: "good" };
   if (score >= 70) return { label: "Building", tone: "warn" };
   return { label: "Priority", tone: "bad" };
+}
+
+const readinessPriority = (mastery?: DomainMastery) => readinessScore(mastery) ?? 0;
+
+function ReadinessTrustNote() {
+  return (
+    <div className="readiness-trust-note">
+      <strong>{READINESS_LABEL}</strong>
+      <span>{READINESS_DISCLAIMER}</span>
+    </div>
+  );
 }
 
 export default function AdaptiveCoach() {
@@ -725,15 +780,50 @@ export default function AdaptiveCoach() {
     return () => window.clearInterval(timer);
   }, [view, sessionStartedAt]);
 
-  const overall = overallReadiness(activeMastery, activeConfig.domains);
+  const overall = overallReadiness(
+    activeMastery,
+    activeConfig.domains,
+    saved.seenQuestionIds[saved.activeExam].length,
+  );
   const sortedDomains = useMemo(
-    () => [...activeConfig.domains].sort((a, b) => readinessScore(activeMastery[a.id]) - readinessScore(activeMastery[b.id])),
+    () => [...activeConfig.domains].sort((a, b) => readinessPriority(activeMastery[a.id]) - readinessPriority(activeMastery[b.id])),
     [activeConfig.domains, activeMastery],
   );
   const weakest = sortedDomains[0];
   const recentIncorrectIds = activeAttempts
     .filter((attempt) => !attempt.correct && (attempt.pool ?? "practice") === "practice")
     .map((attempt) => attempt.questionId);
+  const highConfidenceIncorrectIds = activeAttempts
+    .filter(
+      (attempt) =>
+        !attempt.correct &&
+        attempt.confidence === "sure" &&
+        (attempt.pool ?? "practice") === "practice",
+    )
+    .map((attempt) => attempt.questionId);
+  const dueForReviewIds = activeAttempts
+    .filter(
+      (attempt, index, history) =>
+        !attempt.correct &&
+        (attempt.pool ?? "practice") === "practice" &&
+        Date.now() - attempt.timestamp >= 3 * 24 * 60 * 60 * 1000 &&
+        history.findIndex((candidate) => candidate.questionId === attempt.questionId) === index,
+    )
+    .map((attempt) => attempt.questionId);
+  const objectivePerformance = new Map<string, { correct: number; answered: number }>();
+  activeAttempts
+    .filter((attempt) => (attempt.pool ?? "practice") === "practice")
+    .forEach((attempt) => {
+      const key = `${attempt.domainId}::${attempt.objective ?? attempt.competency}`;
+      const currentEvidence = objectivePerformance.get(key) ?? { correct: 0, answered: 0 };
+      objectivePerformance.set(key, {
+        correct: currentEvidence.correct + Number(attempt.correct),
+        answered: currentEvidence.answered + 1,
+      });
+    });
+  const weakObjectiveKeys = [...objectivePerformance]
+    .filter(([, evidence]) => evidence.correct / evidence.answered < 0.8)
+    .map(([key]) => key);
   const answeredCount = Object.keys(answers).length;
   const currentQuestion = questions[current];
   const sessionConfig = EXAM_CONFIGS[sessionExam];
@@ -773,6 +863,10 @@ export default function AdaptiveCoach() {
       missedIds: recentIncorrectIds,
       recentIds: activeAttempts.slice(0, 100).map((attempt) => attempt.questionId),
       seenQuestionIds: saved.seenQuestionIds[saved.activeExam],
+      weakObjectiveKeys,
+      recentIncorrectIds: recentIncorrectIds.slice(0, 100),
+      highConfidenceIncorrectIds: highConfidenceIncorrectIds.slice(0, 100),
+      dueForReviewIds,
     });
     if (!nextQuestions.length) return;
     if (mockChoice) {
@@ -864,6 +958,7 @@ export default function AdaptiveCoach() {
         catalogId: question.catalogId,
         domainId: question.domainId,
         competency: question.competency,
+        objective: question.objective,
         stem: question.stem,
         options: question.options,
         correctIndex: question.correctIndex,
@@ -882,24 +977,25 @@ export default function AdaptiveCoach() {
         pool: question.pool ?? "practice",
         mockForm: sessionMockForm ?? undefined,
         firstExposure: sessionMockForm ? sessionFirstExposure : undefined,
+        scenarioFamily: question.scenarioFamily,
       };
     });
     const correct = nextAttempts.filter((attempt) => attempt.correct).length;
     const domainsInBlock = new Set(nextAttempts.map((attempt) => attempt.domainId));
     domainsInBlock.forEach((domainId) => {
       const domainState = nextMastery[domainId];
-      const recentRate = domainState.recent.length
-        ? domainState.recent.filter(Boolean).length / domainState.recent.length
-        : 0;
       nextMastery = {
         ...nextMastery,
-        [domainId]: {
-          ...domainState,
-          stableBlocks:
-            domainState.recent.length >= 20 && recentRate >= 0.8
-              ? domainState.stableBlocks + 1
-              : 0,
-        },
+        [domainId]: applyDomainStabilityForBlock(
+          domainState,
+          nextAttempts
+            .filter((attempt) => attempt.domainId === domainId)
+            .map((attempt) => ({
+              questionId: attempt.questionId,
+              correct: attempt.correct,
+              itemFamily: attempt.scenarioFamily,
+            })),
+        ),
       };
     });
     const averageDifficulty = nextAttempts.reduce((sum, attempt) => sum + attempt.difficulty, 0) / nextAttempts.length;
@@ -1040,7 +1136,7 @@ export default function AdaptiveCoach() {
     setResetDialogOpen(true);
   }
 
-  if (!mounted) return <div className="app-loading"><BrainCircuit size={26} /><div><strong>ASP + CSP // Coach</strong><span>Adaptive Exam Readiness · Calibrating your coach…</span></div></div>;
+  if (!mounted) return <div className="app-loading"><BrainCircuit size={26} /><div><strong>ASP + CSP // Coach</strong><span>{READINESS_LABEL} · Calibrating your coach…</span></div></div>;
 
   if (view === "quiz" && currentQuestion) {
     return (
@@ -1141,6 +1237,7 @@ export default function AdaptiveCoach() {
           seconds={elapsed}
           filter={resultFilter}
           mastery={saved.mastery[sessionExam]}
+          independentQuestionCount={saved.seenQuestionIds[sessionExam].length}
           onFilter={setResultFilter}
           onHome={() => navigate("study")}
           onRetry={() => startSession("weakest")}
@@ -1221,7 +1318,7 @@ function StudyDashboard({
   config: ExamConfig;
   mastery: Record<DomainId, DomainMastery>;
   sessions: SessionSummary[];
-  overall: number;
+  overall: number | null;
   weakest: CoachDomain;
   onMode: (mode: SessionMode) => void;
   onStart: () => void;
@@ -1230,7 +1327,6 @@ function StudyDashboard({
   const completedToday = sessions.some((session) => new Date(session.date).toDateString() === new Date().toDateString());
   const weakestScore = readinessScore(mastery[weakest.id]);
   const level = Math.max(...config.domains.map((domain) => mastery[domain.id]?.difficulty ?? 2));
-  const examLevel = level >= 4;
   const modes: SessionMode[] = ["quick", "timed", "weakest", "missed", "custom", "level", "exam"];
   const recent = sessions.slice(0, 3);
   const activeAttempts = saved.attempts.filter((attempt) => attempt.exam === config.key);
@@ -1248,13 +1344,16 @@ function StudyDashboard({
             <p className="hero-sub">Your weakest domain still controls today’s work. Comfort is not the objective; stable recall under pressure is.</p>
             <div className="streak-row">
               <span><Flame size={17} /> {completedToday ? "Today complete" : "Session due"}</span>
-              <span><BrainCircuit size={17} /> Level {level} · {difficultyLabel(level)}</span>
-              {examLevel && <span className="exam-reached"><Trophy size={17} /> {config.name} exam level reached</span>}
+              <span title={PROVISIONAL_DIFFICULTY_NOTE}><BrainCircuit size={17} /> {difficultyLabel(level)}</span>
             </div>
           </div>
-          <div className="readiness-dial" style={{ "--score": `${overall * 3.6}deg` } as React.CSSProperties}>
-            <div><strong>{overall}%</strong><span>weighted readiness</span></div>
+          <div className={`readiness-dial ${overall === null ? "insufficient" : ""}`} style={{ "--score": `${(overall ?? 0) * 3.6}deg` } as React.CSSProperties}>
+            <div><strong>{overall === null ? READINESS_INSUFFICIENT_LABEL : `${overall}%`}</strong><span>{READINESS_LABEL}</span></div>
           </div>
+        </div>
+        <div className="hero-readiness-copy">
+          {overall === null && <p>{READINESS_INSUFFICIENT_EXPLANATION}</p>}
+          <ReadinessTrustNote />
         </div>
       </section>
 
@@ -1278,7 +1377,7 @@ function StudyDashboard({
             <div className="callout-icon"><Target size={21} /></div>
             <div>
               <span>Coach’s call</span>
-              <p><strong>{weakest.name}</strong> is at {weakestScore}%. Until it clears 80% across two stable blocks, it receives extra exposure.</p>
+              <p><strong>{weakest.name}</strong> {weakestScore === null ? "does not yet have enough evidence for a domain indicator" : `is at ${weakestScore}%`}. It receives extra exposure until current evidence qualifies across two stable blocks.</p>
             </div>
           </div>
           <button className="primary-button start-button" onClick={onStart}>Start adaptive session <ArrowRight size={18} /></button>
@@ -1286,25 +1385,25 @@ function StudyDashboard({
 
         <aside className="readiness-panel">
           <div className="panel-heading">
-            <div><p className="eyebrow">Readiness map</p><h3>{config.domains.length} {config.blueprint} domains</h3></div>
+            <div><p className="eyebrow">{READINESS_LABEL}</p><h3>{config.domains.length} {config.blueprint} domains</h3></div>
             <button className="text-button" onClick={onStats}>Full analytics</button>
           </div>
           <div className="domain-mini-list">
             {[...config.domains]
-              .sort((a, b) => readinessScore(mastery[a.id]) - readinessScore(mastery[b.id]))
+              .sort((a, b) => readinessPriority(mastery[a.id]) - readinessPriority(mastery[b.id]))
               .map((domain) => {
                 const score = readinessScore(mastery[domain.id]);
-                const status = masteryStatus(score, mastery[domain.id]?.stableBlocks ?? 0);
+                const status = masteryStatus(score, mastery[domain.id]);
                 return (
                   <div className="domain-mini" key={domain.id}>
                     <span className="domain-code">{domain.short}</span>
-                    <div className="domain-progress"><div><strong>{domain.name}</strong><small>{Math.round(domain.weight * 100)}% blueprint</small></div><div className="meter"><i style={{ width: `${score}%` }} /></div></div>
-                    <span className={`status ${status.tone}`}>{score}%</span>
+                    <div className="domain-progress"><div><strong>{domain.name}</strong><small>{Math.round(domain.weight * 100)}% blueprint</small></div><div className="meter"><i style={{ width: `${score ?? 0}%` }} /></div></div>
+                    <span className={`status ${status.tone}`}>{score === null ? "Insufficient" : `${score}%`}</span>
                   </div>
                 );
               })}
           </div>
-          <div className="threshold-note"><LockKeyhole size={16} /><span><strong>Stability rule:</strong> ≥80% across two qualifying blocks, not a one-off spike.</span></div>
+          <div className="threshold-note"><LockKeyhole size={16} /><span><strong>Stability rule:</strong> at least {ASSESSMENT_EVIDENCE_CONFIG.stability.minimumCurrentBlockQuestions} current-block questions, independent families when available, and ≥{ASSESSMENT_EVIDENCE_CONFIG.stability.accuracyThreshold * 100}% across two qualifying blocks.</span></div>
         </aside>
       </div>
 
@@ -1339,10 +1438,10 @@ function StudyDashboard({
       </section>
 
       <section className="page-width evidence-strip">
-        <div><BrainCircuit /><strong>Item-response logic</strong><span>Ability × difficulty updates after every response</span></div>
+        <div><BrainCircuit /><strong>Evidence-first selection</strong><span>Unseen, weak-area, error, review, and independent-family evidence comes first</span></div>
         <div><Gauge /><strong>1,200-item credential bank</strong><span>800 practice · Form A {mockAUsed ? "used" : "unseen"} · Form B {mockBUsed ? "used" : "unseen"}</span></div>
         <div><BookOpenCheck /><strong>Three reference lenses</strong><span>Yates depth · Nito drills · exam-book reasoning</span></div>
-        <div><ShieldCheck /><strong>{config.blueprint} governed</strong><span>Current official domain weights, not legacy chapters</span></div>
+        <div><ShieldCheck /><strong>{config.blueprint} governed</strong><span>{PROVISIONAL_DIFFICULTY_NOTE}</span></div>
       </section>
 
       {recent.length > 0 && (
@@ -1382,7 +1481,7 @@ function SessionSetup({
   const count = mode === "exam" ? 200 : 20;
   const time = mode === "exam" ? config.examTimeLabel : mode === "timed" ? `${Math.round(config.timedSeconds / 60)} minutes` : "up to 60 minutes";
   const canStart = mode !== "custom" || customDomains.length > 0;
-  const weak = [...config.domains].sort((a, b) => readinessScore(mastery[a.id]) - readinessScore(mastery[b.id])).slice(0, 2);
+  const weak = [...config.domains].sort((a, b) => readinessPriority(mastery[a.id]) - readinessPriority(mastery[b.id])).slice(0, 2);
   const copy = getModeCopy(mode, config);
   return (
     <div className="modal-backdrop">
@@ -1474,7 +1573,7 @@ function QuizRunner({
           <div className="question-meta">
             <span className="question-number">{mockForm ? `Mock Form ${mockForm} · ` : ""}Question {index + 1} <i>/ {total}</i></span>
             <span className="domain-tag">{domain.short} · {domain.name}</span>
-            <span className={`difficulty-chip d${question.difficulty}`}>{difficultyLabel(question.difficulty)}</span>
+            <span className={`difficulty-chip d${question.difficulty}`} title={PROVISIONAL_DIFFICULTY_NOTE} aria-label={`${difficultyLabel(question.difficulty)}. ${PROVISIONAL_DIFFICULTY_NOTE}`}>{difficultyLabel(question.difficulty)}</span>
           </div>
           <h1>{question.stem}</h1>
           <div className="answers" role="radiogroup" aria-label="Answer choices">
@@ -1506,6 +1605,7 @@ function Results({
   seconds,
   filter,
   mastery,
+  independentQuestionCount,
   onFilter,
   onHome,
   onRetry,
@@ -1516,6 +1616,7 @@ function Results({
   seconds: number;
   filter: "all" | "incorrect";
   mastery: Record<DomainId, DomainMastery>;
+  independentQuestionCount: number;
   onFilter: (filter: "all" | "incorrect") => void;
   onHome: () => void;
   onRetry: () => void;
@@ -1524,7 +1625,11 @@ function Results({
   const percent = Math.round((correct / Math.max(1, attempts.length)) * 100);
   const avgSeconds = Math.round(attempts.reduce((sum, attempt) => sum + attempt.seconds, 0) / Math.max(1, attempts.length));
   const certainErrors = attempts.filter((attempt) => !attempt.correct && attempt.confidence === "sure").length;
-  const examLevel = attempts.some((attempt) => attempt.difficulty >= 4);
+  const practiceReadiness = overallReadiness(
+    mastery,
+    config.domains,
+    independentQuestionCount,
+  );
   const mockForm = attempts[0]?.mockForm;
   const firstExposure = attempts[0]?.firstExposure;
   const shown = filter === "incorrect" ? attempts.filter((attempt) => !attempt.correct) : attempts;
@@ -1540,24 +1645,24 @@ function Results({
         <div className="results-title"><p className="eyebrow"><BookOpenCheck size={15} /> Block complete · rationales unlocked</p><h1>{percent >= 80 ? "Strong block. Now prove it is stable." : "The score is data. The gaps are the assignment."}</h1><p>{getModeCopy(mode, config).title}{mockForm ? ` · Mock Form ${mockForm} · ${firstExposure ? "first exposure" : "repeat exposure"}` : ""} · {attempts.length} items · {formatTime(seconds)}</p></div>
         <div className={`score-orb ${percent >= 80 ? "pass" : "needs-work"}`}><strong>{percent}%</strong><span>{correct} / {attempts.length} correct</span></div>
       </section>
-      {mode === "exam" && mockForm && !firstExposure && <section className="pushback page-width"><div><strong>Mock integrity warning</strong><h2>Form {mockForm} is no longer a clean readiness measure.</h2><p>You have seen this sealed form before. Use the result for learning, but do not compare it with a first-exposure mock score.</p></div><LockKeyhole size={42} /></section>}
+      {mode === "exam" && mockForm && !firstExposure && <section className="pushback page-width"><div><strong>Mock integrity warning</strong><h2>Form {mockForm} is no longer clean practice-readiness evidence.</h2><p>You have seen this sealed form before. Use the result for learning, but do not compare it with a first-exposure mock score.</p></div><LockKeyhole size={42} /></section>}
       <section className="result-metrics page-width">
         <div><Clock3 /><span>Average pace</span><strong>{avgSeconds}s</strong><small>Target: {config.paceSeconds}s or less</small></div>
-        <div><BrainCircuit /><span>Difficulty reached</span><strong>{difficultyLabel(Math.max(...attempts.map((attempt) => attempt.difficulty)))}</strong><small>{examLevel ? `${config.name} exam-level items were active` : "Keep building toward level 4"}</small></div>
+        <div><BrainCircuit /><span>Provisional authoring level observed</span><strong>{difficultyLabel(Math.max(...attempts.map((attempt) => attempt.difficulty)))}</strong><small>{PROVISIONAL_DIFFICULTY_NOTE}</small></div>
         <div className={certainErrors ? "metric-alert" : ""}><Target /><span>Confident errors</span><strong>{certainErrors}</strong><small>{certainErrors ? "High-priority misconceptions" : "No false certainty detected"}</small></div>
-        <div><Gauge /><span>Weighted readiness</span><strong>{overallReadiness(mastery, config.domains)}%</strong><small>80% stability target</small></div>
+        <div><Gauge /><span>{READINESS_LABEL}</span><strong>{practiceReadiness === null ? READINESS_INSUFFICIENT_LABEL : `${practiceReadiness}%`}</strong><small>{practiceReadiness === null ? READINESS_INSUFFICIENT_EXPLANATION : READINESS_DISCLAIMER}</small></div>
       </section>
       {certainErrors > 0 && <section className="pushback page-width"><div><strong>Coach pushback</strong><h2>You were certain and wrong {certainErrors} time{certainErrors === 1 ? "" : "s"}.</h2><p>That is not a careless miss; it is a false model. Do not memorize the keyed choice. Explain why each distractor fails before you retest.</p></div><BrainCircuit size={42} /></section>}
       <section className="page-width domain-results">
         <div className="section-heading"><div><p className="eyebrow">Post-assessment analytics</p><h2>Performance and domain drift</h2></div><p>Drift compares this block’s share with the official blueprint.</p></div>
         <div className="domain-result-table">
-          <div className="table-head"><span>Domain</span><span>Score</span><span>Items</span><span>Drift</span><span>Readiness</span></div>
-          {byDomain.map((domain) => <div className="table-row" key={domain.id}><span><i>{domain.short}</i><strong>{domain.name}</strong></span><span className={domain.score >= 80 ? "positive" : "negative"}>{domain.score}%</span><span>{domain.items.length}</span><span className={Math.abs(domain.drift) <= 2 ? "neutral" : domain.drift > 0 ? "positive" : "negative"}>{domain.drift > 0 ? "+" : ""}{domain.drift} pp</span><span>{readinessScore(mastery[domain.id])}%</span></div>)}
+          <div className="table-head"><span>Domain</span><span>Score</span><span>Items</span><span>Drift</span><span>{READINESS_LABEL}</span></div>
+          {byDomain.map((domain) => { const indicator = readinessScore(mastery[domain.id]); return <div className="table-row" key={domain.id}><span><i>{domain.short}</i><strong>{domain.name}</strong></span><span className={domain.score >= 80 ? "positive" : "negative"}>{domain.score}%</span><span>{domain.items.length}</span><span className={Math.abs(domain.drift) <= 2 ? "neutral" : domain.drift > 0 ? "positive" : "negative"}>{domain.drift > 0 ? "+" : ""}{domain.drift} pp</span><span>{indicator === null ? READINESS_INSUFFICIENT_LABEL : `${indicator}%`}</span></div>; })}
         </div>
       </section>
       <section className="page-width rationale-section">
         <div className="section-heading rationale-heading"><div><p className="eyebrow">Rationale block</p><h2>Interrogate every miss</h2></div><div className="segmented"><button className={filter === "incorrect" ? "active" : ""} onClick={() => onFilter("incorrect")}>Incorrect ({attempts.length - correct})</button><button className={filter === "all" ? "active" : ""} onClick={() => onFilter("all")}>All ({attempts.length})</button></div></div>
-        {shown.length === 0 ? <div className="empty-state"><Trophy /><h3>No incorrect responses in this block.</h3><p>Do not coast: repeat at a higher difficulty and preserve accuracy.</p></div> : <div className="rationale-list">{shown.map((attempt, index) => <RationaleCard key={`${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} />)}</div>}
+        {shown.length === 0 ? <div className="empty-state"><Trophy /><h3>No incorrect responses in this block.</h3><p>Do not coast: preserve accuracy across independent item families.</p></div> : <div className="rationale-list">{shown.map((attempt, index) => <RationaleCard key={`${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} />)}</div>}
       </section>
       <div className="results-actions page-width"><button className="secondary-button" onClick={onHome}>Return to dashboard</button><button className="primary-button" onClick={onRetry}>Attack weakest domains <ArrowRight size={18} /></button></div>
       <Disclaimer config={config} />
@@ -1572,7 +1677,7 @@ function RationaleCard({ attempt, index, domains }: { attempt: Attempt; index: n
     <article className={`rationale-card ${attempt.correct ? "correct" : "incorrect"}`}>
       <button className="rationale-summary" onClick={() => setOpen((value) => !value)}>
         <span className="result-marker">{attempt.correct ? <Check /> : <X />}</span>
-        <span><small>Question {index} · {domain.short} · Level {attempt.difficulty}</small><strong>{attempt.stem}</strong></span>
+        <span><small>Question {index} · {domain.short} · {difficultyLabel(attempt.difficulty)}</small><strong>{attempt.stem}</strong></span>
         <span className="answer-summary"><small>Your answer</small><b>{attempt.selectedIndex >= 0 ? String.fromCharCode(65 + attempt.selectedIndex) : "—"}</b></span>
         <ChevronDown className={open ? "rotated" : ""} />
       </button>
@@ -1581,48 +1686,51 @@ function RationaleCard({ attempt, index, domains }: { attempt: Attempt; index: n
         {!attempt.correct && <div className="why-wrong"><strong>Why your response fails</strong><p>{attempt.wrongRationale}</p></div>}
         <div className="why-right"><strong>Decision rationale</strong><p>{attempt.rationale}</p></div>
         {!attempt.correct && <div className="teachback"><BrainCircuit size={19} /><div><strong>Earn the correction</strong><p>{attempt.challengePrompt}</p></div></div>}
-        <div className="reference-line"><BookOpenCheck size={15} /><span><strong>{attempt.framework}</strong> framework · {attempt.referenceTopic}</span><span>{difficultyLabel(attempt.difficulty)}</span></div>
+        <div className="reference-line"><BookOpenCheck size={15} /><span><strong>{attempt.framework}</strong> framework · {attempt.referenceTopic}</span><span title={PROVISIONAL_DIFFICULTY_NOTE}>{difficultyLabel(attempt.difficulty)}</span></div>
       </div>}
     </article>
   );
 }
 
-function Analytics({ config, mastery, attempts, sessions, mockExposures, overall, onStudy }: { config: ExamConfig; mastery: Record<DomainId, DomainMastery>; attempts: Attempt[]; sessions: SessionSummary[]; mockExposures: Partial<Record<MockForm, number>>; overall: number; onStudy: () => void }) {
+function Analytics({ config, mastery, attempts, sessions, mockExposures, overall, onStudy }: { config: ExamConfig; mastery: Record<DomainId, DomainMastery>; attempts: Attempt[]; sessions: SessionSummary[]; mockExposures: Partial<Record<MockForm, number>>; overall: number | null; onStudy: () => void }) {
   const total = attempts.length;
   const correct = attempts.filter((attempt) => attempt.correct).length;
   const avg = total ? Math.round((correct / total) * 100) : 0;
   const avgPace = total ? Math.round(attempts.reduce((sum, attempt) => sum + attempt.seconds, 0) / total) : 0;
-  const stable = config.domains.filter((domain) => readinessScore(mastery[domain.id]) >= 80 && (mastery[domain.id]?.stableBlocks ?? 0) >= 2).length;
+  const stable = config.domains.filter((domain) => {
+    const score = readinessScore(mastery[domain.id]);
+    return score !== null && score >= 80 && (mastery[domain.id]?.stableBlocks ?? 0) >= ASSESSMENT_EVIDENCE_CONFIG.stability.requiredStableBlocks;
+  }).length;
   const recentSessions = [...sessions].slice(0, 8).reverse();
   const mockAStatus = mockExposures.A ? "used" : "unseen";
   const mockBStatus = mockExposures.B ? "used" : "unseen";
   const chartMax = Math.max(1, ...recentSessions.map((session) => Math.round((session.score / session.count) * 100)));
   return (
     <main className="analytics-page">
-      <section className="page-title page-width"><div><p className="eyebrow"><BarChart3 size={15} /> {config.name} readiness intelligence</p><h1>Evidence, not optimism.</h1><p>Performance is weighted to {config.blueprint} and stability requires repeated success above 80%.</p></div><button className="primary-button" onClick={onStudy}>Start today’s session <ArrowRight size={18} /></button></section>
+      <section className="page-title page-width"><div><p className="eyebrow"><BarChart3 size={15} /> {config.name} {READINESS_LABEL}</p><h1>Evidence, not optimism.</h1><p>Performance is weighted to {config.blueprint}; stability requires sufficient current-block evidence and repeated success above 80%.</p></div><button className="primary-button" onClick={onStudy}>Start today’s session <ArrowRight size={18} /></button></section>
       <section className="analytics-kpis page-width">
-        <div className="hero-kpi"><span>Weighted readiness</span><strong>{overall}%</strong><div className="meter large"><i style={{ width: `${overall}%` }} /></div><small>{overall >= 80 && stable === config.domains.length ? "Exam-day threshold met" : `${config.domains.length - stable} domain${config.domains.length - stable === 1 ? "" : "s"} still need stable evidence`}</small></div>
+        <div className="hero-kpi"><span>{READINESS_LABEL}</span><strong>{overall === null ? READINESS_INSUFFICIENT_LABEL : `${overall}%`}</strong><div className="meter large"><i style={{ width: `${overall ?? 0}%` }} /></div><small>{overall === null ? READINESS_INSUFFICIENT_EXPLANATION : READINESS_DISCLAIMER}</small></div>
         <div><span>Answered</span><strong>{total.toLocaleString()}</strong><small>across {sessions.length} blocks</small></div>
-        <div><span>Raw accuracy</span><strong>{avg}%</strong><small>IRT adjusts for difficulty</small></div>
+        <div><span>Raw accuracy</span><strong>{avg}%</strong><small>Observed practice responses only</small></div>
         <div><span>Average pace</span><strong>{avgPace || "—"}{avgPace ? "s" : ""}</strong><small>{config.paceSeconds}s exam target</small></div>
         <div><span>Stable domains</span><strong>{stable} / {config.domains.length}</strong><small>two qualifying blocks each</small></div>
       </section>
       <section className="analytics-layout page-width">
         <div className="analytics-card domain-detail-card">
-          <div className="panel-heading"><div><p className="eyebrow">Domain control</p><h2>{config.blueprint} readiness matrix</h2></div><span className="subtle">80% threshold</span></div>
+          <div className="panel-heading"><div><p className="eyebrow">Domain control</p><h2>{config.blueprint} practice-readiness matrix</h2></div><span className="subtle">80% threshold after sufficient evidence</span></div>
           <div className="domain-detail-list">
             {config.domains.map((domain) => {
               const state = mastery[domain.id];
               const score = readinessScore(state);
-              const status = masteryStatus(score, state.stableBlocks);
-              return <div className="domain-detail" key={domain.id}><span className="domain-code">{domain.short}</span><div><strong>{domain.name}</strong><small>{state.answered} answered · {state.correct} correct · target level {state.difficulty}</small><div className="meter threshold-meter"><i style={{ width: `${score}%` }} /><b /></div></div><span className={`status ${status.tone}`}>{status.label}</span><b>{score}%</b></div>;
+              const status = masteryStatus(score, state);
+              return <div className="domain-detail" key={domain.id}><span className="domain-code">{domain.short}</span><div><strong>{domain.name}</strong><small>{state.answered} answered · {state.correct} correct · {difficultyLabel(state.difficulty)}</small><div className="meter threshold-meter"><i style={{ width: `${score ?? 0}%` }} /><b /></div></div><span className={`status ${status.tone}`}>{status.label}</span><b>{score === null ? "—" : `${score}%`}</b></div>;
             })}
           </div>
         </div>
         <div className="analytics-card trend-card">
           <div className="panel-heading"><div><p className="eyebrow">Trend</p><h2>Recent block scores</h2></div></div>
           {recentSessions.length ? <div className="bar-chart">{recentSessions.map((session) => { const value = Math.round((session.score / session.count) * 100); return <div className="bar-column" key={session.id}><span>{value}%</span><i style={{ height: `${Math.max(8, (value / chartMax) * 150)}px` }} /><small>{new Date(session.date).toLocaleDateString(undefined, { month: "short", day: "numeric" })}</small></div>; })}<div className="target-line"><span>80%</span></div></div> : <div className="empty-small"><BarChart3 /><p>Your score trend appears after the first block.</p></div>}
-          <div className="analytics-rule"><BrainCircuit size={18} /><p><strong>IRT logic:</strong> a difficult correct answer moves ability more than an easy one. A confident miss exposes a misconception and receives priority.</p></div>
+          <div className="analytics-rule"><BrainCircuit size={18} /><p><strong>Evidence-first logic:</strong> unseen questions and weak areas lead selection; recent and high-confidence errors, due reviews, and independent families follow. Provisional level is only a tie-breaker.</p></div>
         </div>
       </section>
       <section className="page-width blueprint-card">
@@ -1680,7 +1788,7 @@ function Disclaimer({ config }: { config: ExamConfig }) {
     <footer className="disclaimer page-width">
       <div className="disclaimer-copy">
         <ShieldCheck size={17} />
-        <p><strong>Original, unofficial practice.</strong> Built around the public {config.blueprint} blueprint and the supplied reference frameworks. Not affiliated with, endorsed by, or composed from BCSP or Pocket Prep exam items; these items are not psychometrically calibrated. The 80% mark is this coach’s conservative readiness standard, not BCSP’s passing score.</p>
+        <p><strong>Original, unofficial practice.</strong> Built around the public {config.blueprint} blueprint and the supplied reference frameworks. Not affiliated with, endorsed by, or composed from BCSP or Pocket Prep exam items. {READINESS_DISCLAIMER} {PROVISIONAL_DIFFICULTY_NOTE}</p>
       </div>
       <div className="creator-credit">
         <span>Created by <strong>Abdelrahman Basry</strong></span>

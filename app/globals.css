@@ -95,6 +95,13 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .readiness-dial > div { width: 100%; height: 100%; background: #173647; border-radius: 50%; display: grid; place-content: center; text-align: center; box-shadow: inset 0 0 0 1px rgba(255,255,255,.08); }
 .readiness-dial strong { font-size: 36px; letter-spacing: -.04em; }
 .readiness-dial span { font-size: 10px; color: #b9c8ce; text-transform: uppercase; letter-spacing: .11em; margin-top: 4px; }
+.readiness-dial.insufficient strong { max-width: 110px; font-size: 17px; line-height: 1.15; letter-spacing: 0; }
+.readiness-dial.insufficient span { max-width: 112px; font-size: 8px; line-height: 1.35; }
+.hero-readiness-copy { width: min(1180px, calc(100% - 40px)); margin: -34px auto 0; padding: 0 0 28px; color: #d6e1e5; font-size: 11px; line-height: 1.5; }
+.hero-readiness-copy > p { margin: 0 0 7px; font-weight: 700; }
+.readiness-trust-note { display: flex; flex-wrap: wrap; gap: 6px 10px; }
+.readiness-trust-note strong { color: #f0c471; }
+.readiness-trust-note span { color: #bdcbd1; }
 
 .dashboard-content { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(360px, .8fr); gap: 22px; align-items: stretch; margin-top: -26px; position: relative; z-index: 2; }
 .daily-card, .readiness-panel, .analytics-card, .blueprint-card { background: var(--card); border: 1px solid var(--line); box-shadow: var(--shadow); border-radius: 14px; }
