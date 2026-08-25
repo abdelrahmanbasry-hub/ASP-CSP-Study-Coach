@@ -375,6 +375,30 @@ button:focus-visible, input:focus-visible, select:focus-visible, a:focus-visible
 .blueprint-card { padding: 26px; margin-top: 18px; }
 .blueprint-card h2 { margin: 0; }
 .blueprint-card > div:first-child > p:last-child { color: var(--muted); font-size: 11px; }
+
+.coverage-page, .coverage-unavailable { max-width: 1440px; margin: 0 auto; padding: 42px 24px 72px; color: var(--ink); }
+.coverage-page > header { max-width: 840px; }
+.coverage-page > header h1, .coverage-unavailable h1 { margin: 6px 0 12px; font-size: clamp(30px, 4vw, 48px); }
+.coverage-page > header > p:last-child, .coverage-unavailable p { color: var(--muted); line-height: 1.65; }
+.coverage-summary { display: grid; grid-template-columns: repeat(6, minmax(120px, 1fr)); gap: 12px; margin: 30px 0; }
+.coverage-summary article { display: grid; gap: 6px; padding: 18px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+.coverage-summary strong { font-size: 25px; }
+.coverage-summary span { color: var(--muted); font-size: 12px; }
+.coverage-registry { margin-top: 28px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.coverage-registry-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 22px; border-bottom: 1px solid var(--line); }
+.coverage-registry-heading h2 { margin: 4px 0 0; }
+.coverage-registry-heading a { color: var(--primary); font-weight: 700; }
+.coverage-table-wrap { overflow: auto; }
+.coverage-table-wrap table { width: 100%; border-collapse: collapse; min-width: 920px; }
+.coverage-table-wrap th, .coverage-table-wrap td { padding: 12px 14px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+.coverage-table-wrap th { position: sticky; top: 0; background: var(--card); color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+.coverage-table-wrap td:nth-child(n + 3), .coverage-table-wrap th:nth-child(n + 3) { text-align: right; }
+.coverage-table-wrap code { white-space: nowrap; font-size: 12px; }
+.coverage-gap { background: color-mix(in srgb, #f59e0b 7%, transparent); }
+
+@media (max-width: 900px) {
+  .coverage-summary { grid-template-columns: repeat(2, minmax(120px, 1fr)); }
+}
 .allocation-bar { display: flex; height: 42px; border-radius: 7px; overflow: hidden; margin-top: 21px; }
 .allocation-bar span { display: grid; place-items: center; min-width: 20px; color: white; border-right: 1px solid rgba(255,255,255,.4); }
 .allocation-bar i { font-style: normal; font-size: 11px; font-weight: 900; }
