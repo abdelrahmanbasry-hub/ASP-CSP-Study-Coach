@@ -13,6 +13,7 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "blueprint:coverage": "node --experimental-strip-types scripts/generate-blueprint-coverage.mjs",
     "review:report": "node --experimental-strip-types scripts/generate-item-review-report.mjs",
+    "practice:v2:import": "node --experimental-strip-types scripts/import-practice-v2.mjs",
     "db:generate": "drizzle-kit generate"
   },
   "dependencies": {

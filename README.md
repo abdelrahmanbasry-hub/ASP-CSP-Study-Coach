@@ -108,6 +108,50 @@ pnpm build
 pnpm test
 ```
 
+## Practice V2 foundation
+
+Practice V2 is a separate, additive question system. Its imported packs live in
+`practice-v2/imported`, use the versioned schema at
+`practice-v2/schema/practice-v2-question-pack.schema.json`, and store browser
+progress only under `asp-csp-practice-v2-progress-v1`. It does not write to the
+Homework, legacy Practice, Mock Exam, readiness, authentication, or cloud-sync
+models.
+
+Each question records its immutable ID and version, ASP/CSP credential and
+blueprint version, chapter, primary and secondary blueprint objectives,
+concept, item family, item and cognitive types, exact stem and four options,
+the keyed option, correct-answer explanation, one explanation slot per option,
+source fields, optional formula and units, and review status. The correct
+option's `incorrectOptionExplanations` slot must be `null`; all three incorrect
+slots must be non-empty.
+
+Import a reviewed JSON pack with:
+
+```bash
+pnpm practice:v2:import <question-file.json>
+```
+
+The importer parses and validates the entire file, checks duplicate question
+IDs both within the pack and across all prior imports, and requires valid ASP11
+or CSP11 objective ownership. A reviewed question must have both an exact
+source title and source location. Demo packs may contain only demo items, and
+reviewed packs may contain only reviewed items. Any error rejects the complete
+file without copying any questions. Successful imports preserve the supplied JSON text
+exactly; the importer never edits, rewrites, or generates question content.
+Every attempt writes `reports/practice-v2-import-report.json` with imported,
+rejected, duplicate, and error details.
+
+The two records in `practice-v2/demo/demo-questions.json` are visibly marked
+structural placeholders. They are available only in local development and are
+not approved study content. In production, `/practice-v2` remains a Coming soon
+page until at least one imported question has `reviewStatus: "reviewed"`.
+
+For a manual local preview, run `pnpm dev`, open `/practice-v2`, select ASP or
+CSP, choose the demo chapter, and answer its placeholder. Verify immediate
+correct and distractor feedback, then intentionally answer with High confidence
+to populate Mistake Review. Clear only the
+`asp-csp-practice-v2-progress-v1` browser key to reset this preview.
+
 Progress is stored in the browser. All scenarios and deterministic variants are
 original and are not copied from BCSP, Pocket Prep, or the supplied books. The
 product is not affiliated with or endorsed by BCSP or Pocket Prep. Items have

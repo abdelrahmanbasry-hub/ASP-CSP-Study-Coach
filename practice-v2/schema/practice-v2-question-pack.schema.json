@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://asp-csp-coach.local/schemas/practice-v2-question-pack.schema.json",
+  "title": "ASP/CSP Coach Practice V2 Question Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "packId", "packStatus", "questions"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "packId": { "type": "string", "minLength": 1 },
+    "packStatus": { "enum": ["demo", "reviewed"] },
+    "questions": { "type": "array", "items": { "$ref": "#/$defs/question" } }
+  },
+  "$defs": {
+    "nullableString": { "type": ["string", "null"] },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "version", "credential", "blueprintVersion", "chapterId", "chapterTitle", "primaryObjectiveId", "secondaryObjectiveIds", "concept", "itemFamilyId", "questionType", "cognitiveLevel", "stem", "options", "correctOptionIndex", "correctAnswerExplanation", "incorrectOptionExplanations", "sourceTitle", "sourceLocation", "formula", "units", "reviewStatus"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "version": { "type": "integer", "minimum": 1 },
+        "credential": { "enum": ["ASP", "CSP"] },
+        "blueprintVersion": { "enum": ["ASP11", "CSP11"] },
+        "chapterId": { "type": "string", "minLength": 1 },
+        "chapterTitle": { "type": "string", "minLength": 1 },
+        "primaryObjectiveId": { "type": "string", "minLength": 1 },
+        "secondaryObjectiveIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+        "concept": { "type": "string", "minLength": 1 },
+        "itemFamilyId": { "type": "string", "minLength": 1 },
+        "questionType": { "enum": ["single-best-answer", "scenario", "calculation"] },
+        "cognitiveLevel": { "enum": ["remember", "understand", "apply", "analyze", "evaluate"] },
+        "stem": { "type": "string", "minLength": 1 },
+        "options": { "type": "array", "minItems": 4, "maxItems": 4, "uniqueItems": true, "items": { "type": "string", "minLength": 1 } },
+        "correctOptionIndex": { "type": "integer", "minimum": 0, "maximum": 3 },
+        "correctAnswerExplanation": { "type": "string", "minLength": 1 },
+        "incorrectOptionExplanations": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "$ref": "#/$defs/nullableString" } },
+        "sourceTitle": { "$ref": "#/$defs/nullableString" },
+        "sourceLocation": { "$ref": "#/$defs/nullableString" },
+        "formula": { "$ref": "#/$defs/nullableString" },
+        "units": { "$ref": "#/$defs/nullableString" },
+        "reviewStatus": { "enum": ["demo", "unreviewed", "changes-required", "reviewed", "rejected", "retired"] }
+      }
+    }
+  }
+}
