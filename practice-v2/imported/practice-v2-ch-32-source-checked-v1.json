@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-32-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-32",
+  "chapterTitle": "Site Security",
+  "questions": [
+    {
+      "id": "PV2-CH32-001",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Layered security",
+      "itemFamilyId": "CH32-LAYERED-SECURITY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Which facility-security design best uses defense in depth?",
+      "options": [
+        "Rely on one highly visible warning sign",
+        "Combine perimeter deterrence, controlled access, detection, response, and protected critical assets",
+        "Use cameras without monitoring or response",
+        "Issue identical access credentials to all visitors"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Layered security uses independent and complementary measures so failure of one control does not expose the entire facility.",
+      "incorrectOptionExplanations": [
+        "One warning layer can be bypassed and provides no detection or response.",
+        null,
+        "Unmonitored cameras may record an event but do not create timely intervention.",
+        "Uncontrolled credentials defeat identity, authorization, and accountability."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, physical security, access control, and facility protection, pp. 731-741",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aebc4bca1000d2460d9fcb97e19d1171b6503998b06cc4bb006b3622973a2cb6"
+    },
+    {
+      "id": "PV2-CH32-002",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Access authorization",
+      "itemFamilyId": "CH32-ACCESS-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "A contractor needs temporary access to one process area for two days. What is the strongest access-control approach?",
+      "options": [
+        "Issue a permanent employee credential so access will not need further administration",
+        "Permit the contractor to use a host employee credential while accompanied in the area",
+        "Verify identity and need, issue limited access, brief the contractor, and recover the credential",
+        "Keep the controlled entrance unlocked during work hours so the contractor can enter freely"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Least-privilege access should be specific to the person, purpose, place, and duration, with logging and closure.",
+      "incorrectOptionExplanations": [
+        "Permanent broad access exceeds the demonstrated need.",
+        "Shared credentials destroy accountability and may bypass authorization controls.",
+        null,
+        "Propping a secure door exposes the area to uncontrolled entry."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, access control and employee control, pp. 733-735",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b58119d900f0acd803f5bf58679347959a3e380fbd06c9a2b691c3cef1129082"
+    },
+    {
+      "id": "PV2-CH32-003",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Security risk assessment",
+      "itemFamilyId": "CH32-SECURITY-RISK-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "What should a site-security risk assessment consider before choosing controls?",
+      "options": [
+        "Only the price of fencing",
+        "Only the number of guards on day shift",
+        "Only incidents reported by nearby companies",
+        "Assets, credible threats, vulnerabilities, consequences, existing controls, and response capability"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Security controls should be risk-based and aligned with the assets and pathways that matter most to the facility.",
+      "incorrectOptionExplanations": [
+        "Cost is evaluated after security needs and alternatives are understood.",
+        "Guard count is one existing control and does not define threats or vulnerabilities.",
+        "External history is useful but cannot replace site-specific analysis.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, site security plan and protection elements, pp. 731-741",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "339eeddc76f0c5abefc0f0cf44621d37fbe1bf51ebb84aca66223da9edf38c57"
+    },
+    {
+      "id": "PV2-CH32-004",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Visitor control",
+      "itemFamilyId": "CH32-VISITOR-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Which visitor-control practice provides the strongest accountability?",
+      "options": [
+        "Preauthorize the visit, verify identity, issue a visible limited badge, escort as required, and record exit",
+        "Ask visitors to sign a blank sheet",
+        "Permit unescorted access after a verbal introduction",
+        "Use employee badges for frequent visitors"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A complete visitor process controls identity, purpose, movement, sponsor responsibility, and credential recovery.",
+      "incorrectOptionExplanations": [
+        null,
+        "A blank sign-in sheet does not link identity, sponsor, destination, or time.",
+        "A verbal introduction does not establish controlled access and continuing accountability.",
+        "Employee credentials can grant excessive privileges and obscure visitor status."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, access control and employee control, pp. 733-735",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7025bed57b6a165958aef191d87274275644384f024b1516f24826d9c26abeb7"
+    },
+    {
+      "id": "PV2-CH32-005",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Information security interface",
+      "itemFamilyId": "CH32-INFO-SECURITY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A printed process diagram with emergency isolation points is left in a public lobby. What should be done?",
+      "options": [
+        "Leave it because physical security and information security are unrelated",
+        "Remove it, evaluate the disclosure, and control sensitive operational information according to need and policy",
+        "Post more copies so employees can find it",
+        "Destroy every process diagram in the facility"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Security planning protects information that could expose critical assets while preserving authorized safety and operating access.",
+      "incorrectOptionExplanations": [
+        "Sensitive information can enable physical intrusion or sabotage and requires coordinated protection.",
+        null,
+        "More public copies increase uncontrolled disclosure.",
+        "Operational teams still need controlled access to accurate safety information."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, information security and equipment/facility protection, pp. 734-736",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "01e98a225cdf9c434affe66609ef2d1e134f8ddea055d64c5012d140e4b24e68"
+    },
+    {
+      "id": "PV2-CH32-006",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Tailgating control",
+      "itemFamilyId": "CH32-TAILGATING-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Unauthorized tailgating occurs repeatedly at a controlled entrance. Which response is strongest?",
+      "options": [
+        "Send one reminder email and make no physical change",
+        "Disable the badge reader during busy periods",
+        "Improve entry design and authentication, train users, monitor events, and enforce the access process",
+        "Assume anyone following an employee is authorized"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Effective correction combines engineering, administrative, behavioral, and monitoring controls based on why tailgating occurs.",
+      "incorrectOptionExplanations": [
+        "A reminder alone may not overcome throughput, layout, or detection weaknesses.",
+        "Disabling authentication removes the primary control.",
+        null,
+        "Physical proximity is not proof of identity or authorization."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, physical security and access control, pp. 733-735",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "00c52949483fc5126d7e9927286ffa3c86a206bfc4b38e6701b180d114b29774"
+    },
+    {
+      "id": "PV2-CH32-007",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Suspicious package",
+      "itemFamilyId": "CH32-SUSPICIOUS-PACKAGE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "An unattended package with unusual wiring is found near a critical entrance. What is the best immediate action?",
+      "options": [
+        "Move the package to an exterior location where it can be inspected away from employees",
+        "Open the package while wearing protective gloves to identify the owner and contents",
+        "Place the package in a covered waste container and continue normal entrance operations",
+        "Leave it undisturbed, isolate the area, and activate the emergency and security process"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Suspicious items should be left undisturbed while trained authorities evaluate them under the emergency plan.",
+      "incorrectOptionExplanations": [
+        "Moving a suspicious item can trigger a device and exposes the handler.",
+        "Gloves do not protect against explosive or chemical hazards.",
+        "A trash container does not provide safe isolation and can spread consequences.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 32 and 39, site security and bomb-threat response, pp. 731-741 and 882-884",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9e06f69dfadadc67f4abc27e92183dcd7bf7a26334e05bdc23e9220701bb9ca6"
+    },
+    {
+      "id": "PV2-CH32-008",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Security exercise",
+      "itemFamilyId": "CH32-SECURITY-EXERCISE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A security drill shows that an alarm is detected but no one knows who contacts law enforcement. What should follow?",
+      "options": [
+        "Correct roles and communication procedures, retrain, and retest the response",
+        "Declare success because the alarm worked",
+        "Remove the alarm to avoid confusion",
+        "Keep the gap confidential and take no action"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Exercises validate the entire detection-to-response chain and should produce assigned, verified corrective actions.",
+      "incorrectOptionExplanations": [
+        null,
+        "Detection without coordinated response is incomplete protection.",
+        "Removing detection weakens security and does not solve role ambiguity.",
+        "Uncorrected exercise findings remain real vulnerabilities."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 32 and 39, site security response and emergency exercises, pp. 731-741 and 870-889",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0fc1ba7ac3ae0ad56ca2f4edde80a5ea333394e6eb9efdab7aa80696aab95788"
+    }
+  ]
+}

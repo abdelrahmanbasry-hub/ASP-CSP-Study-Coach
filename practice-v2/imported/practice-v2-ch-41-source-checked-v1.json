@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-41-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-41",
+  "chapterTitle": "Integrated and Emerging Safety Practice",
+  "questions": [
+    {
+      "id": "PV2-CH41-001",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Contractor coordination",
+      "itemFamilyId": "CH41-CONTRACTOR-COORD-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A host and contractor each assume the other will isolate shared energy sources. What is the strongest preventive control?",
+      "options": [
+        "Let both employers use separate uncoordinated permits",
+        "Rely on contract language without field verification",
+        "Allow the first crew on scene to decide informally",
+        "Define and verify interface responsibilities, isolation authority, communication, and handback before work"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Multi-employer work requires explicit interface control so responsibilities and hazardous states are understood and verified by all parties.",
+      "incorrectOptionExplanations": [
+        "Parallel uncoordinated systems can create conflicting status and gaps.",
+        "A contract does not prove the field energy state or shared understanding.",
+        "Informal decisions lack controlled authority and traceability.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 4, 31, and 38, multi-employer coordination, management systems, and contractor safety",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6757bed1c7912189ea3fab97b6b2f8f505fe1ea425f255622aecd21d0e4e2bdb"
+    },
+    {
+      "id": "PV2-CH41-002",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fleet fatigue risk",
+      "itemFamilyId": "CH41-FLEET-FATIGUE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Vehicle telematics show repeated lane departures near the end of long night shifts. What is the strongest response?",
+      "options": [
+        "Treat fatigue as a system risk and review schedules, rest, workload, supervision, and fitness controls",
+        "Discipline each affected driver based only on the telematics alerts without reviewing work schedules",
+        "Post general alertness reminders and leave the existing shift duration and workload unchanged",
+        "Take no action until a collision confirms that the repeated lane-departure pattern represents a hazard"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Fleet risk management should integrate human performance, work hours, vehicle data, training, maintenance, and reporting.",
+      "incorrectOptionExplanations": [
+        null,
+        "Individual accountability may matter, but common timing suggests organizational contributors.",
+        "A poster is weaker than addressing work design and fatigue exposure.",
+        "Near-miss data provide an opportunity to act before a crash."
+      ],
+      "sourceTitle": "NIOSH Work Schedules and Fatigue Resources",
+      "sourceLocation": "Current ASP11/CSP11 fleet and human-performance objectives; NIOSH work-hours and fatigue guidance",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod3/05.html"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8a8c2e864a9f9460ad64dc83fb8d637ef1bc89c5e3c074193100e046711906cf"
+    },
+    {
+      "id": "PV2-CH41-003",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Lone worker protection",
+      "itemFamilyId": "CH41-LONE-WORK-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A technician works alone at a remote pumping station with poor cellular coverage. Which protection is strongest?",
+      "options": [
+        "Require the worker to telephone the supervisor only after an incident or equipment failure occurs",
+        "Assess the risk, provide reliable monitored contact and escalation, ensure rescue access, and restrict unsafe solo work",
+        "Use the worker personal phone as the only control without testing coverage or missed-contact escalation",
+        "Allow unrestricted solo work because an experienced technician can recognize and manage every foreseeable hazard"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Lone-work controls should detect missed contact, summon help, and prevent solo performance of tasks whose rescue needs exceed available capability.",
+      "incorrectOptionExplanations": [
+        "Post-incident contact may be impossible when the worker is incapacitated.",
+        null,
+        "Coverage must be verified and backed up for the actual location.",
+        "Experience does not eliminate medical, violence, energy, or environmental emergencies."
+      ],
+      "sourceTitle": "NIOSH Emergency Communications and Lone Worker Guidance",
+      "sourceLocation": "Current ASP11 lone-worker objective and NIOSH emergency communication concepts",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/docs/2012-136/default.html"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cbb209a6b44b62f3449bea18984b7f696a57ba857d248054a5ad814d196fc8b9"
+    },
+    {
+      "id": "PV2-CH41-004",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "AI decision support",
+      "itemFamilyId": "CH41-AI-GOVERNANCE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "An AI tool recommends closing high-risk findings based on incomplete text records. How should it be governed?",
+      "options": [
+        "Allow automatic closure because software is objective",
+        "Hide the model limitations from reviewers",
+        "Use it as decision support with validated data, human accountability, explainability, monitoring, and override controls",
+        "Train the model on prior closure decisions and remove human review"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Emerging technology should be managed through risk assessment, validation, access control, change management, performance monitoring, and accountable human decisions.",
+      "incorrectOptionExplanations": [
+        "Automation can reproduce data gaps, bias, and unsafe historical decisions.",
+        "Undisclosed limitations prevent informed use and audit.",
+        null,
+        "Past decisions are not automatically correct, and high-risk closure requires accountable verification."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Current ASP11 emerging-technology objective; Yates Chapters 31, 36, and 38 on systems, measurement, and change management",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "15fc5fae1e86c0b1c9e5cc35430fb41dbfeb832f94967810edeceab54bfc17af"
+    },
+    {
+      "id": "PV2-CH41-005",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Facility life safety",
+      "itemFamilyId": "CH41-LIFE-SAFETY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A storage change increases occupant load and blocks part of an exit access route. What should occur before use of the area?",
+      "options": [
+        "Use the area if employees can squeeze through",
+        "Add one exit sign without reviewing the route",
+        "Wait for the next fire drill to see whether evacuation works",
+        "Review occupancy, egress capacity and continuity, fire protection, accessibility, and applicable code requirements"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Facility changes can affect life-safety assumptions and should be reviewed through controlled design and change processes before occupancy.",
+      "incorrectOptionExplanations": [
+        "Egress must meet applicable capacity, width, continuity, and obstruction requirements.",
+        "A sign does not correct inadequate or blocked exit access.",
+        "A drill should validate a compliant design, not substitute for review.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Current CSP11 facility life-safety objective; Yates Chapters 12, 29, 35, 38, and 39",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e2759aa1e5e817e04036641c82a544413ab0d891d256cc5f00392768bd501a24"
+    }
+  ]
+}

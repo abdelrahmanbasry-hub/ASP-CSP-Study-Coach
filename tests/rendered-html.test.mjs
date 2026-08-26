@@ -21,14 +21,15 @@ test("server-renders the dual-track adaptive coach", async () => {
   assert.match(response.headers.get("content-type") ?? "", /^text\/html\b/i);
   const html = await response.text();
   assert.match(html, /ASP \+ CSP \/\/ Coach/i);
-  assert.match(html, /Adaptive Exam Readiness/i);
+  assert.match(html, /Practice Readiness Indicator/i);
   assert.match(html, /Calibrating your coach/i);
   assert.doesNotMatch(html, /Your site is taking shape|codex-preview|react-loading-skeleton/i);
 });
 
 test("ships both current blueprint banks and removes starter preview code", async () => {
-  const [coach, csp, cspExtra, cspExpanded, aspA, aspB, aspA2, aspSet1, aspSet2, aspExpanded, packageJson] = await Promise.all([
+  const [coach, engine, csp, cspExtra, cspExpanded, aspA, aspB, aspA2, aspSet1, aspSet2, aspExpanded, packageJson] = await Promise.all([
     readFile(new URL("app/AdaptiveCoach.tsx", root), "utf8"),
+    readFile(new URL("app/adaptiveEngine.ts", root), "utf8"),
     readFile(new URL("app/questionBank.ts", root), "utf8"),
     readFile(new URL("app/cspQuestionBankExtra.ts", root), "utf8"),
     readFile(new URL("app/cspExpandedQuestionBank.ts", root), "utf8"),
@@ -56,6 +57,11 @@ test("ships both current blueprint banks and removes starter preview code", asyn
   assert.match(coach, /BCSP ASP/);
   assert.match(coach, /BCSP CSP/);
   assert.match(coach, /Start adaptive session/);
+  assert.match(engine, /Insufficient evidence/);
+  assert.match(engine, /This is a coaching estimate based on your practice activity/);
+  assert.match(engine, /not a prediction of your BCSP examination result/);
+  assert.match(engine, /Provisional authoring level/);
+  assert.doesNotMatch(coach, /IRT logic|IRT adjusts|exam level reached|exam-level items were active/);
   assert.match(coach, /Created by <strong>Abdelrahman Basry<\/strong>/);
   assert.match(coach, /https:\/\/ipn\.eg\/S\/abdelrahmanbasryyyy\/instapay\/3mEaA3/);
   assert.match(coach, /mode === "exam" \? startSession\("exam"\)/);

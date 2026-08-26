@@ -1,0 +1,703 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-38-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-38",
+  "chapterTitle": "Process Safety Management and Management of Change",
+  "questions": [
+    {
+      "id": "PV2-CH38-001",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PSM purpose",
+      "itemFamilyId": "CH38-PSM-PURPOSE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "What is the central purpose of OSHA process safety management?",
+      "options": [
+        "Replace all occupational-health programs",
+        "Regulate only routine personal injuries",
+        "Eliminate the need for emergency planning",
+        "Prevent or minimize catastrophic releases of highly hazardous chemicals"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "PSM integrates process information, hazard analysis, operating discipline, integrity, change control, and learning to prevent major releases.",
+      "incorrectOptionExplanations": [
+        "PSM is a process-risk system and does not replace other safety and health programs.",
+        "Its focus is catastrophic release prevention, not only personal injury statistics.",
+        "Emergency planning is one required supporting element, not something eliminated by PSM.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM homework; OSHA 1910.119 purpose and elements",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4d0c1b753677c7395b936787e3ab9c0c504201c97a0e672feba100f64179dff3"
+    },
+    {
+      "id": "PV2-CH38-002",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PSI before PHA",
+      "itemFamilyId": "CH38-PSI-PHA-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A team begins a process hazard analysis without current chemical, technology, or equipment information. What should happen?",
+      "options": [
+        "Complete and validate the process safety information needed to support the analysis",
+        "Continue and fill gaps after startup",
+        "Replace the PHA with employee interviews only",
+        "Assume original vendor data remain correct"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A meaningful PHA depends on accurate process safety information about hazards, process technology, and equipment.",
+      "incorrectOptionExplanations": [
+        null,
+        "Unknown design and hazard information can invalidate scenarios and safeguards.",
+        "Interviews are useful but cannot replace technical process information.",
+        "Changes, degradation, and documentation errors require verification."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38; OSHA 1910.119(d) and (e)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "742534802f81e8020aa96a37d92f62336dac689adb14f4579ecd4c7d3f42b7a7"
+    },
+    {
+      "id": "PV2-CH38-003",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PHA team composition",
+      "itemFamilyId": "CH38-PHA-TEAM-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Which team composition best supports a PHA?",
+      "options": [
+        "One manager with approval authority only",
+        "People with engineering and operations expertise, process knowledge, and knowledge of the selected analysis method",
+        "Only external auditors unfamiliar with the process",
+        "Only newly assigned operators"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The team must combine process knowledge, operating experience, engineering expertise, and competence in the analysis methodology.",
+      "incorrectOptionExplanations": [
+        "Authority alone does not provide the multidisciplinary technical and operating knowledge needed.",
+        null,
+        "External perspective may help, but process knowledge is essential.",
+        "Operators add valuable knowledge but cannot alone cover all required disciplines and method expertise."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM material; OSHA 1910.119(e)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "453d70ae61b913277245453e13eac6df3ae85ef3d71df0c83ecf210caf8bb2a7"
+    },
+    {
+      "id": "PV2-CH38-004",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "MOC trigger",
+      "itemFamilyId": "CH38-MOC-TRIGGER-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A pump is replaced with a higher-capacity model that changes flow and pressure. How should the change be managed?",
+      "options": [
+        "Treat it as replacement in kind because both items are pumps",
+        "Install it first and review only if an alarm occurs",
+        "Process it through management of change before implementation",
+        "Document it only in maintenance work history"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A change in equipment capability or process conditions is not replacement in kind and requires formal pre-change evaluation.",
+      "incorrectOptionExplanations": [
+        "Replacement in kind requires equivalent design and function; changed capacity can affect process safety.",
+        "Post-installation review is too late to evaluate hazards and safeguards before exposure.",
+        null,
+        "Maintenance history alone does not address technical basis, safety impact, procedures, and authorization."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38, what constitutes a change; OSHA 1910.119(l)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ba2d6bf88a942bd3320715dfea4dbc187f90e2651850432ddd27f113afbad0e0"
+    },
+    {
+      "id": "PV2-CH38-005",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "MOC required considerations",
+      "itemFamilyId": "CH38-MOC-CONTENT-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Which item must be addressed before a covered process change is made?",
+      "options": [
+        "Only purchase price and vendor delivery date",
+        "Only whether production supports the change",
+        "Only whether the new item fits physically",
+        "Technical basis, safety and health impact, procedure changes, duration, and authorization"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "MOC evaluates why the change is proposed, how it affects risk, what documents and training change, its duration, and who authorizes it.",
+      "incorrectOptionExplanations": [
+        "Commercial information does not replace process-safety analysis.",
+        "Production support is not evidence that hazards and procedures are controlled.",
+        "Physical fit does not establish material compatibility, operating limits, or safeguard adequacy.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38, MOC process, pp. 859-868; OSHA 1910.119(l)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0c322da9eb0440bbb9eb37249ac5ebef02818ee3d10020aa0dc861a593058e1b"
+    },
+    {
+      "id": "PV2-CH38-006",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pre-startup safety review",
+      "itemFamilyId": "CH38-PSSR-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A modified covered process is mechanically complete, but procedures and operator training are unfinished. Can startup proceed?",
+      "options": [
+        "No; the pre-startup review must verify procedures and training are complete before introducing hazardous chemicals",
+        "Yes, if construction matches the drawing",
+        "Yes, if management accepts the schedule risk",
+        "Yes, if the first batch is smaller"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "PSSR confirms design conformity, procedure readiness, resolved PHA/MOC requirements, and training before startup.",
+      "incorrectOptionExplanations": [
+        null,
+        "Mechanical completion is only one PSSR element.",
+        "Management cannot waive fundamental startup readiness requirements.",
+        "A smaller batch can still expose workers and equipment to unreviewed conditions."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM material; OSHA 1910.119(i)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "266f98ba988218662858ceb685a986a78f4a270ee696d26b5ac9bad638f47479"
+    },
+    {
+      "id": "PV2-CH38-007",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Mechanical integrity",
+      "itemFamilyId": "CH38-MECHANICAL-INTEGRITY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Inspection finds corrosion below the documented acceptable thickness on process piping. What is the strongest response?",
+      "options": [
+        "Increase inspection interval to reduce disruption",
+        "Evaluate fitness for service and repair or replace the equipment before unsafe operation continues",
+        "Paint the pipe and close the finding",
+        "Rely on the absence of visible leakage"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Deficiencies outside acceptable limits require timely correction using recognized engineering and mechanical-integrity practices.",
+      "incorrectOptionExplanations": [
+        "A longer interval increases time with a known integrity concern.",
+        null,
+        "Coating does not restore wall thickness or pressure capacity.",
+        "No current leak does not establish acceptable remaining strength."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM material; OSHA 1910.119(j)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2b09187eb0217cbc39f64d7908821ddf778e6670ee41358db93293bf8b1f2607"
+    },
+    {
+      "id": "PV2-CH38-008",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Operating procedures",
+      "itemFamilyId": "CH38-OPERATING-PROCEDURES-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "A process is routinely operated outside its written safe upper limit to meet demand. What should happen first?",
+      "options": [
+        "Revise the limit after the shift without technical review",
+        "Keep operating because the deviation has become normal",
+        "Return to safe limits and investigate the deviation through the operating and change-control systems",
+        "Ask operators to monitor by smell"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Operating limits define safe conditions and consequences of deviation; recurring departures require control and formal evaluation.",
+      "incorrectOptionExplanations": [
+        "Limits should not be changed without technical basis, risk review, authorization, and document updates.",
+        "Normalization does not make an analyzed limit irrelevant.",
+        null,
+        "Odor is not a reliable or safe process-control method."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM material; OSHA 1910.119(f) and (l)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b255aa41ad427d087d2651df77117fc2615872c1fed1752f8ac59429cd055505"
+    },
+    {
+      "id": "PV2-CH38-009",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Contractor process safety",
+      "itemFamilyId": "CH38-CONTRACTOR-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A contractor will perform turnaround work inside a covered process. Which host action is essential?",
+      "options": [
+        "Transfer all process-safety responsibility to the contractor",
+        "Provide only a general site map",
+        "Wait for the contractor to request hazard information",
+        "Evaluate contractor safety performance and communicate process hazards, emergency provisions, and applicable safe-work practices"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "PSM contractor provisions require informed selection, hazard and emergency communication, safe-work coordination, and performance oversight.",
+      "incorrectOptionExplanations": [
+        "The host retains specified duties for contractor selection, information, coordination, and oversight.",
+        "A map does not communicate process hazards and emergency controls.",
+        "Hazard communication and coordination must be proactive before exposure.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM homework; OSHA 1910.119(h)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "debd3c16362d8a0e7afb42cddbd4a8399de5f5eba5e531c32997ce7d5979627f"
+    },
+    {
+      "id": "PV2-CH38-010",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Incident investigation timing",
+      "itemFamilyId": "CH38-PSM-INVESTIGATION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Under OSHA PSM, when must an incident investigation be initiated after an incident that resulted in or could reasonably have resulted in a catastrophic release?",
+      "options": [
+        "As promptly as possible, but no later than 48 hours",
+        "Within 7 calendar days",
+        "Within 30 days",
+        "Only after the regulator requests it"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "PSM requires prompt initiation, no later than 48 hours, to preserve evidence and begin learning from the event.",
+      "incorrectOptionExplanations": [
+        null,
+        "Seven days is associated with certain recordkeeping entries, not the PSM investigation start.",
+        "Thirty days delays preservation of evidence and exceeds the PSM initiation requirement.",
+        "The employer duty is triggered by the incident potential, not by a regulator request."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.119, Process Safety Management",
+      "sourceLocation": "OSHA 1910.119(m), incident investigation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2fb9c0c7e3d34f4e0aec9356b0afdc40b8affad704c62b8a97217b917f4ee450"
+    },
+    {
+      "id": "PV2-CH38-011",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Compliance audit interval",
+      "itemFamilyId": "CH38-PSM-AUDIT-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "At what minimum frequency must an employer certify that it has evaluated compliance with OSHA PSM provisions?",
+      "options": [
+        "Every month",
+        "At least every three years",
+        "Every five years",
+        "Only after a release"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "PSM requires a compliance audit at least every three years, with at least one knowledgeable person on the audit team.",
+      "incorrectOptionExplanations": [
+        "Monthly auditing is not the stated minimum compliance-audit interval.",
+        null,
+        "Five years exceeds the specified PSM interval.",
+        "Compliance evaluation is periodic and proactive, not only reactive."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.119, Process Safety Management",
+      "sourceLocation": "OSHA 1910.119(o), compliance audits",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "78c992bc2d9003c517706bd30eeb5038129c8857402a9817f36ead446eb81cd8"
+    },
+    {
+      "id": "PV2-CH38-012",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Emergency planning interface",
+      "itemFamilyId": "CH38-PSM-EMERGENCY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A process has detection and shutdown systems but no coordinated response plan for a toxic release. What gap remains?",
+      "options": [
+        "No gap because prevention makes response unnecessary",
+        "Only a financial reserve is missing",
+        "Emergency planning and response integrated with the process hazards and site arrangements",
+        "The process needs fewer alarms"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Process safety includes both prevention and preparation for credible releases through appropriate emergency action or response arrangements.",
+      "incorrectOptionExplanations": [
+        "Prevention reduces likelihood but cannot guarantee that a release will never occur.",
+        "Financial planning does not provide notification, evacuation, response, or coordination.",
+        null,
+        "Removing alarms would weaken detection and does not create a response capability."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 38 and 39; OSHA 1910.119(n)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "947329c8de1976c6dcaea538ad6de0d92cbd5d03281ede42016c0aafea6c1373"
+    }
+  ]
+}

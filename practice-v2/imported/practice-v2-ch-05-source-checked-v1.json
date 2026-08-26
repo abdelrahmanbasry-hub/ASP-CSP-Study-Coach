@@ -1,0 +1,723 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-05-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-05",
+  "chapterTitle": "Math Review",
+  "questions": [
+    {
+      "id": "PV2-CH05-001",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.16",
+          "role": "primary"
+        }
+      ],
+      "concept": "Order of operations",
+      "itemFamilyId": "CH05-PEMDAS-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A quality-control formula is N = 7 + 2[(9 − 3) / 2]². What value should be entered for N?",
+      "options": [
+        "25",
+        "81",
+        "13",
+        "32"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Evaluate the bracket first: (9 − 3) / 2 = 3. Then 3² = 9, 2 × 9 = 18, and 18 + 7 = 25.",
+      "incorrectOptionExplanations": [
+        null,
+        "This applies the exponent to the entire expression instead of only to the bracketed quotient.",
+        "This stops after evaluating the bracket and does not square and multiply it as required.",
+        "This adds or multiplies terms out of sequence instead of following the stated grouping and exponent."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, Math Review, pp. 211-212",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "PEMDAS/order of operations",
+      "units": "dimensionless",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b8c9086001761b906f8b4136e360f97b40c5de4646d0e57db7d5d7d352a7681a"
+    },
+    {
+      "id": "PV2-CH05-002",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.16",
+          "role": "primary"
+        }
+      ],
+      "concept": "Scientific notation",
+      "itemFamilyId": "CH05-SCI-NOTATION-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "Calculate (6.2 × 10⁵)(3.0 × 10⁻³) ÷ (1.5 × 10²).",
+      "options": [
+        "1.24",
+        "12.4",
+        "124",
+        "0.124"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The coefficients give (6.2 × 3.0) ÷ 1.5 = 12.4. The powers give 10^(5−3−2) = 10⁰ = 1, so the result is 12.4.",
+      "incorrectOptionExplanations": [
+        "This is a factor-of-ten error after combining the coefficients and exponents.",
+        null,
+        "This incorrectly leaves one additional positive power of ten.",
+        "This incorrectly leaves two additional negative powers of ten."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, Math Review, pp. 212-214",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "Multiply coefficients and add exponents; divide coefficients and subtract exponents",
+      "units": "dimensionless",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b0a63c80cfe3ca8e81b2ae4af256786113cd34ddf63b2a8df9689720d538414e"
+    },
+    {
+      "id": "PV2-CH05-003",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.16",
+          "role": "primary"
+        }
+      ],
+      "concept": "Roots and exponents",
+      "itemFamilyId": "CH05-ROOTS-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "What is the cube root of 525, rounded to two decimal places?",
+      "options": [
+        "22.91",
+        "175.00",
+        "8.07",
+        "5.25"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Use the inverse exponent: 525^(1/3) = 8.0671, which rounds to 8.07.",
+      "incorrectOptionExplanations": [
+        "This is approximately the square root of 525, not the cube root.",
+        "This divides 525 by 3 rather than taking a cube root.",
+        null,
+        "This moves the decimal point but does not apply the root operation."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, Math Review, pp. 212-215",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "x = N^(1/3)",
+      "units": "dimensionless",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d5d53a76010af8732d681c42436647456d13991e283260cf21eac53db7c8f346"
+    },
+    {
+      "id": "PV2-CH05-004",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.16",
+          "role": "primary"
+        }
+      ],
+      "concept": "Equation transposition",
+      "itemFamilyId": "CH05-TRANSPOSE-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A conveyor travels 180 ft at a constant speed of 30 ft/min. Using d = vt, how long does the travel take?",
+      "options": [
+        "150 min",
+        "5,400 min",
+        "0.167 min",
+        "6 min"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Rearrange d = vt to t = d/v. Therefore, t = 180 ft ÷ 30 ft/min = 6 min.",
+      "incorrectOptionExplanations": [
+        "This subtracts the speed from the distance instead of dividing.",
+        "This multiplies distance by speed, producing incompatible units.",
+        "This reverses the division and calculates v/d.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, formula or equation transpositions, pp. 216-218",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "t = d/v",
+      "units": "min",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "eb4e238425332671e0bbb365b43854c42912bbc77f39ec0b4b91988f766d22af"
+    },
+    {
+      "id": "PV2-CH05-005",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        }
+      ],
+      "concept": "Circular duct airflow",
+      "itemFamilyId": "CH05-DUCT-FLOW-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "Air moves at 1,800 ft/min through a round duct 20 in. in diameter. What is the approximate volumetric flow?",
+      "options": [
+        "3,930 cfm",
+        "2,356 cfm",
+        "36,000 cfm",
+        "7,854 cfm"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Convert the diameter to 1.667 ft, so the radius is 0.833 ft. Area = πr² ≈ 2.182 ft². Q = VA = 1,800 × 2.182 ≈ 3,927 cfm.",
+      "incorrectOptionExplanations": [
+        null,
+        "This uses an incorrect circular area after converting the duct diameter.",
+        "This multiplies velocity by the diameter in inches instead of by area in square feet.",
+        "This effectively treats the 20-in. diameter as a 20-in. radius, doubling the diameter used in the area calculation."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, common geometric equations, pp. 219-227; Chapter 9, volumetric airflow, pp. 296-297",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "Q = V × A; A = π(D/2)²",
+      "units": "cfm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "57dd66bee4eed1025a82db85dd1af87b6ce566745f4a524e078e14e15ea43c21"
+    },
+    {
+      "id": "PV2-CH05-006",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Cylindrical volume",
+      "itemFamilyId": "CH05-CYLINDER-VOLUME-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A vertical cylindrical tank has an internal radius of 4 ft and a usable liquid height of 12 ft. What is its approximate volume?",
+      "options": [
+        "151 ft³",
+        "603 ft³",
+        "1,206 ft³",
+        "192 ft³"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "V = πr²h = π(4 ft)²(12 ft) = 603.2 ft³, or approximately 603 ft³.",
+      "incorrectOptionExplanations": [
+        "This uses πrh and omits one factor of the radius.",
+        null,
+        "This doubles the correct cylindrical volume.",
+        "This multiplies r²h but omits π."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, common geometric equations, pp. 219-221",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "V = πr²h",
+      "units": "ft³",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "14c2f1d715e854023d7a8afd14b40e388b85622b71be9fc2d793e07e797d2cd9"
+    },
+    {
+      "id": "PV2-CH05-007",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        }
+      ],
+      "concept": "Pythagorean theorem",
+      "itemFamilyId": "CH05-PYTHAGORAS-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A rectangular work platform is 9 ft wide and 12 ft long. What is the straight-line distance between opposite corners?",
+      "options": [
+        "21 ft",
+        "10.5 ft",
+        "15 ft",
+        "108 ft"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The diagonal is c = √(9² + 12²) = √225 = 15 ft.",
+      "incorrectOptionExplanations": [
+        "This adds the two side lengths instead of using the Pythagorean relationship.",
+        "This averages the two side lengths.",
+        null,
+        "This multiplies the sides and reports an area value as a length."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, Pythagorean equation, pp. 219-221",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "c = √(a² + b²)",
+      "units": "ft",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f59829f3f5f4934b322c0151b9294d401dd19ec295092399bcea2524f88e9757"
+    },
+    {
+      "id": "PV2-CH05-008",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        }
+      ],
+      "concept": "Trigonometric slope angle",
+      "itemFamilyId": "CH05-TRIG-SLOPE-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A slope rises 5 ft over a horizontal run of 12 ft. What is the angle of the slope measured from horizontal?",
+      "options": [
+        "67.4°",
+        "41.7°",
+        "17.0°",
+        "22.6°"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Use θ = arctan(rise/run) = arctan(5/12) = 22.62°, which rounds to 22.6°.",
+      "incorrectOptionExplanations": [
+        "This is the complementary angle measured from vertical.",
+        "This reports the slope percentage, 5/12 × 100, as though it were an angle.",
+        "This comes from using an incorrect trigonometric ratio.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, basic trigonometric functions, pp. 221-226",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "θ = arctan(rise/run)",
+      "units": "degrees",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "91fc3c4372e10dbe9d86814b1ac4fb22402938fa365f71f36f4c9640ac13c4fa"
+    },
+    {
+      "id": "PV2-CH05-009",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.16",
+          "role": "primary"
+        }
+      ],
+      "concept": "Volume conversion",
+      "itemFamilyId": "CH05-VOLUME-CONVERSION-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A containment sump has a usable volume of 125 ft³. Approximately how many U.S. gallons can it hold?",
+      "options": [
+        "935 gal",
+        "16.7 gal",
+        "7,480 gal",
+        "125 gal"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "One cubic foot contains about 7.4805 U.S. gallons. Therefore, 125 × 7.4805 = 935.1 gal, or approximately 935 gal.",
+      "incorrectOptionExplanations": [
+        null,
+        "This divides by 7.4805 rather than multiplying.",
+        "This applies the conversion as though the volume were 1,000 ft³.",
+        "This treats cubic feet and gallons as equal units."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, unit conversions and geometric equations, pp. 211-227",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "gallons = ft³ × 7.4805",
+      "units": "U.S. gal",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ad2226225af22346e9bc9ee71b5be516c8041b9dee379710661a4a4fff657b7c"
+    },
+    {
+      "id": "PV2-CH05-010",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.16",
+          "role": "primary"
+        }
+      ],
+      "concept": "Length conversion",
+      "itemFamilyId": "CH05-LENGTH-CONVERSION-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A measured clearance distance is 18 ft. What is the equivalent distance in meters?",
+      "options": [
+        "59.1 m",
+        "5.49 m",
+        "18.0 m",
+        "4.57 m"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Use 1 ft = 0.3048 m. Thus, 18 × 0.3048 = 5.4864 m, which rounds to 5.49 m.",
+      "incorrectOptionExplanations": [
+        "This divides by 0.3048 rather than multiplying.",
+        null,
+        "This leaves the numerical value unchanged despite changing units.",
+        "This uses an incorrect conversion factor."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, unit conversions, pp. 211-227; Appendix B, conversions and standards, pp. 905-911",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "meters = feet × 0.3048",
+      "units": "m",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1f395fe44fa835956018ed2c507cb091716c8e42c02acab380cd7764310c3ff4"
+    },
+    {
+      "id": "PV2-CH05-011",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.16",
+          "role": "primary"
+        }
+      ],
+      "concept": "Percentage calculation",
+      "itemFamilyId": "CH05-PERCENT-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "An audit found 37 overdue corrective actions among 160 open actions. What percentage of the open actions is overdue?",
+      "options": [
+        "43.2%",
+        "4.32%",
+        "23.1%",
+        "77.0%"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Percentage overdue = 37 ÷ 160 × 100 = 23.125%, which rounds to 23.1%.",
+      "incorrectOptionExplanations": [
+        "This reverses or otherwise misapplies the part-to-whole relationship.",
+        "This is a decimal-place error.",
+        null,
+        "This is approximately the percentage that is not overdue, not the percentage requested."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, arithmetic and equation use, pp. 211-227",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "percentage = part ÷ whole × 100",
+      "units": "%",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3fd41382fc7f05a456e1cfc5d393fd7a1c565610e2b3ecb48de87ddcc45d0c55"
+    },
+    {
+      "id": "PV2-CH05-012",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.16",
+          "role": "primary"
+        }
+      ],
+      "concept": "Common logarithms",
+      "itemFamilyId": "CH05-LOG-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "What is log₁₀(2,500), rounded to three decimal places?",
+      "options": [
+        "7.824",
+        "250.000",
+        "0.398",
+        "3.398"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "log₁₀(2,500) = 3.397940, which rounds to 3.398.",
+      "incorrectOptionExplanations": [
+        "This is close to the natural logarithm rather than the base-10 logarithm.",
+        "This divides by 10 instead of taking a logarithm.",
+        "This omits the integer characteristic associated with 2,500 being between 10³ and 10⁴.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, logarithms, pp. 215-216",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "y = log₁₀(x)",
+      "units": "dimensionless",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "df4b8b55aae2374c4b5bc72acb41b3d56e555b3729fd3089819381d3b53d817b"
+    },
+    {
+      "id": "PV2-CH05-013",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Secondary-containment geometry",
+      "itemFamilyId": "CH05-CONTAINMENT-GEOMETRY-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "analyze",
+      "stem": "A circular containment dike 24 ft in diameter surrounds one circular tank 10 ft in diameter. The active area must contain 5,500 gal. Ignoring wall thickness and freeboard, what minimum liquid height is required?",
+      "options": [
+        "23.6 in.",
+        "19.5 in.",
+        "14.7 in.",
+        "47.2 in."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Convert 5,500 gal to 735.2 ft³. Active area = π(12² − 5²) = 373.8 ft². Height = volume/area = 1.967 ft = 23.6 in.",
+      "incorrectOptionExplanations": [
+        null,
+        "This uses the entire dike footprint and fails to subtract the tank footprint.",
+        "This applies an incorrect active area or volume conversion.",
+        "This doubles the required height."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, common geometric equations and unit conversions, pp. 219-227",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "h = [gallons/7.4805] ÷ [π(R²−r²)]",
+      "units": "in.",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "65020ef9186cb6a4a52c6392e91bd1cbdcee48aac3efcc312997eba21c748487"
+    },
+    {
+      "id": "PV2-CH05-014",
+      "version": 1,
+      "chapterId": "ch-05",
+      "chapterTitle": "Math Review",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.16",
+          "role": "primary"
+        }
+      ],
+      "concept": "Dimensional analysis",
+      "itemFamilyId": "CH05-DIMENSIONAL-CHECK-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A ventilation calculation is intended to produce airflow, but the final units are ft². What is the best quality-control response?",
+      "options": [
+        "Accept the result if the numerical value appears reasonable.",
+        "Stop and review the equation and unit conversions because airflow should have units of volume per time.",
+        "Relabel the result as cfm without changing the calculation.",
+        "Multiply the result by 100 because percentages are usually omitted."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Dimensional analysis is an independent error check. Airflow should resolve to a volume-per-time unit such as ft³/min; ft² indicates that a velocity, time, or conversion factor is missing or misapplied.",
+      "incorrectOptionExplanations": [
+        "A plausible number does not compensate for incompatible units.",
+        null,
+        "Changing the label does not correct the dimensional error.",
+        "A percentage factor has no general relationship to the missing airflow dimension."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 5, formula use, transposition, and unit conversions, pp. 211-227",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f21ef641b6ab261c058b2db6eca2edb6d0b602a57ee18882518a8ad2afc4cf3c"
+    }
+  ]
+}

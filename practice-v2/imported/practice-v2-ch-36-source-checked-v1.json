@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-36-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-36",
+  "chapterTitle": "Measuring Safety and Health Performance",
+  "questions": [
+    {
+      "id": "PV2-CH36-001",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Leading versus lagging",
+      "itemFamilyId": "CH36-LEAD-LAG-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "A plant wants a metric that can trigger corrective action before an injury occurs. Which proposed measure best meets that purpose?",
+      "options": [
+        "Total recordable injury rate",
+        "Percentage of high-risk corrective actions verified effective by the due date",
+        "Number of lost-time cases last year",
+        "Workers compensation cost already incurred"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A leading indicator measures preventive activity or control performance that can be acted on before harm occurs.",
+      "incorrectOptionExplanations": [
+        "TRIR summarizes outcomes that have already occurred.",
+        null,
+        "Lost-time cases are lagging outcomes.",
+        "Paid or incurred loss cost is a retrospective consequence."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 36, leading versus lagging indicators, pp. 810-816; OSHA leading indicators",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/leading-indicators"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4b6663e8d5190c9724333d0a462b65d5917dd86ee11b1e34b3fb9c34e069c61e"
+    },
+    {
+      "id": "PV2-CH36-002",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Indicator normalization",
+      "itemFamilyId": "CH36-NORMALIZATION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "One plant reports 20 hazards corrected and another reports 35, but their workforce and reporting volume differ greatly. What is needed for a fair comparison?",
+      "options": [
+        "Rank plants only by the raw count",
+        "Remove the smaller plant from the comparison",
+        "Normalize the measure to an appropriate exposure or opportunity denominator and retain context",
+        "Convert every measure to dollars"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Rates or proportions tied to hours, tasks, reports, or relevant opportunities improve comparability while context prevents misuse.",
+      "incorrectOptionExplanations": [
+        "Raw counts can reflect size and reporting opportunity rather than performance.",
+        "Excluding a site avoids analysis instead of improving it.",
+        null,
+        "Financial conversion is not appropriate for every safety activity."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 36, measurement methods and quantitative indicators, pp. 797-816",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "649e02e1e574b7b7c0cdc4d2922420c9b0aba3745e188687c3e83b24e0cbfb48"
+    },
+    {
+      "id": "PV2-CH36-003",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Metric gaming",
+      "itemFamilyId": "CH36-GAMING-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A bonus depends only on zero recordable injuries, and near-miss reports suddenly fall to zero. What should management suspect?",
+      "options": [
+        "All hazards have been eliminated",
+        "Near-miss reporting is no longer useful",
+        "The bonus proves safety culture improved",
+        "The measure may be suppressing reporting and creating a misleading signal"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Measures shape behavior; poorly designed incentives can reward concealment rather than learning and prevention.",
+      "incorrectOptionExplanations": [
+        "Zero reports do not establish zero hazards.",
+        "Near-miss information remains valuable when reporting is trusted and analyzed.",
+        "An incentive can change reporting behavior without changing risk.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 36, problems with injury statistics, leading indicators, and culture measures, pp. 797-816",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a8ee6c218ae2902cc5ee762b498ed2562328f96247fbc0260a040d50d39b4c80"
+    },
+    {
+      "id": "PV2-CH36-004",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "SMART measure",
+      "itemFamilyId": "CH36-SMART-MEASURE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Which performance target is most actionable?",
+      "options": [
+        "Cut critical-hazard closure time from 20 to 10 days by Q4 and verify effectiveness",
+        "Improve safety performance as soon as resources and operational conditions permit",
+        "Reduce the number of safety problems reported across all departments during the year",
+        "Complete the largest possible number of corrective actions without classifying their risk"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A useful target is specific, measurable, time-bound, relevant to risk, and paired with quality or effectiveness evidence.",
+      "incorrectOptionExplanations": [
+        null,
+        "This lacks a baseline, target, timeframe, and verification method.",
+        "The statement is vague and not measurable.",
+        "Volume alone can reward low-value closure and ignore effectiveness."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 36, why, what, when, and how to measure performance, pp. 799-816",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2abb7fc314dd6ce4dce327817638b5511a0b510c82d0f3ed1ca7a5d96b6f5db0"
+    },
+    {
+      "id": "PV2-CH36-005",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Balanced dashboard",
+      "itemFamilyId": "CH36-BALANCED-DASHBOARD-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Which dashboard gives the strongest picture of safety-system performance?",
+      "options": [
+        "Injury-frequency rates alone, compared with the prior year and industry averages",
+        "Hazard trends, control health, participation, action effectiveness, and outcome rates",
+        "Training-attendance totals alone, grouped by department and employee classification",
+        "Audit-finding totals alone, without considering severity, recurrence, or corrective action"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Balanced measures connect risk, implementation, control effectiveness, learning, and outcomes.",
+      "incorrectOptionExplanations": [
+        "One lagging outcome cannot show whether current risk and controls are improving.",
+        null,
+        "Attendance does not prove competence, transfer, or risk reduction.",
+        "Finding count depends on scope and reporting and does not alone show system health."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 36, performance measurement and leading indicators, pp. 797-816",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b845ba2c8be255f147afa8fb718276884eee790be3e2c1bfd95c1f94e759dda4"
+    },
+    {
+      "id": "PV2-CH36-006",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Control health metric",
+      "itemFamilyId": "CH36-CONTROL-HEALTH-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Which measure best monitors the health of local exhaust ventilation?",
+      "options": [
+        "Number of fans painted this year",
+        "Total electricity used by all buildings",
+        "Percentage of systems meeting verified capture and airflow criteria on schedule",
+        "Number of ventilation procedures printed"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A control-health indicator should directly test whether the critical engineering control performs within defined limits.",
+      "incorrectOptionExplanations": [
+        "Paint does not demonstrate airflow or capture performance.",
+        "Energy use is indirect and affected by many unrelated loads.",
+        null,
+        "Document count does not show physical control effectiveness."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 9 and 36, ventilation performance and leading indicators, pp. 294-313 and 797-816",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0719c27d37398ec5c69b27df2cf3cb9e1080cf0e406728b9508a097697a50995"
+    },
+    {
+      "id": "PV2-CH36-007",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Trend interpretation",
+      "itemFamilyId": "CH36-TREND-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "TRIR falls while serious near misses and overdue critical actions rise. What is the best interpretation?",
+      "options": [
+        "Overall risk definitely decreased",
+        "Near misses should be ignored because no injury occurred",
+        "Overdue actions improve the reliability of TRIR",
+        "The lagging rate alone may mask increasing risk and weakening preventive performance"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Multiple indicators should be interpreted together, especially when leading and potential-severity evidence conflicts with lagging results.",
+      "incorrectOptionExplanations": [
+        "One outcome rate cannot override adverse risk and control signals.",
+        "Near misses can reveal high-consequence pathways before loss.",
+        "Overdue actions indicate unresolved risk, not improved rate reliability.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 36, leading and lagging indicators and near misses, pp. 810-816",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/leading-indicators"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "923e609a6fe3a0c2aa09e78dab3ffd4d59decb0cd025b13526b2535bcca7cede"
+    },
+    {
+      "id": "PV2-CH36-008",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Survey validity",
+      "itemFamilyId": "CH36-CULTURE-SURVEY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A culture survey has only 12% participation, mostly from managers. What limitation should be reported?",
+      "options": [
+        "The result may not represent the workforce and is vulnerable to nonresponse bias",
+        "Low participation automatically proves poor culture",
+        "Manager responses should be multiplied to represent workers",
+        "The survey is exact because it is anonymous"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Survey interpretation should disclose participation, respondent mix, method, uncertainty, and follow-up evidence.",
+      "incorrectOptionExplanations": [
+        null,
+        "Low response is a limitation but does not by itself prove the underlying culture score.",
+        "Weighting cannot replace missing perspectives without a defensible sampling design.",
+        "Anonymity can improve candor but does not eliminate representativeness problems."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 36, employee perceptions and measurement methods, pp. 797-816",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "77ede7f14a21ada4847946a8f4872278b6a8c5bb2e8dc850bc02223b17a3e6a6"
+    },
+    {
+      "id": "PV2-CH36-009",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Action closure quality",
+      "itemFamilyId": "CH36-CLOSURE-QUALITY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A site reports 98% corrective-action closure, but many actions are reopened. Which additional measure is most useful?",
+      "options": [
+        "Total number of emails about actions",
+        "Percentage of closed actions verified effective and sustained after an appropriate interval",
+        "Average length of action descriptions",
+        "Number of users with dashboard access"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Effectiveness and recurrence measures distinguish administrative closure from genuine risk reduction.",
+      "incorrectOptionExplanations": [
+        "Communication volume does not prove corrective effectiveness.",
+        null,
+        "Description length is not a quality outcome.",
+        "System access does not show the action controlled the risk."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 36, safety-related work orders and continuous improvement, pp. 810-816",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "55c102bece7954fdc01d7f1ed0f316f3b5b9e266b7f3efded9c7b5cc20e7b705"
+    },
+    {
+      "id": "PV2-CH36-010",
+      "version": 1,
+      "chapterId": "ch-36",
+      "chapterTitle": "Measuring Safety and Health Performance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Measure ownership",
+      "itemFamilyId": "CH36-OWNERSHIP-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "What should accompany every key safety performance measure?",
+      "options": [
+        "A different formula at each site",
+        "No owner so the metric remains independent",
+        "A defined purpose, calculation, data source, owner, frequency, target, and required response",
+        "A target that can be changed after results are known"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A controlled metric definition ensures consistency, accountability, interpretation, and action.",
+      "incorrectOptionExplanations": [
+        "Inconsistent definitions prevent valid comparison and trend analysis.",
+        "Without ownership, adverse trends may not trigger action.",
+        null,
+        "Changing targets after seeing results undermines integrity."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 36, who, how, and what to measure, pp. 797-816",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "899ebd6c4175c5829c5861adfcd6ff871e2227f0a8564d2b6f5c2eb7c54773a4"
+    }
+  ]
+}

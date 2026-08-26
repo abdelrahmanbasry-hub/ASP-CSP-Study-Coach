@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-02-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-02",
+  "chapterTitle": "Legal Aspects of the Safety Profession",
+  "questions": [
+    {
+      "id": "PV2-CH02-001",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Negligence elements",
+      "itemFamilyId": "CH02-NEGLIGENCE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "A visitor sues after a fall in a known unguarded opening. Which set lists the core elements the plaintiff generally must establish for negligence?",
+      "options": [
+        "Intent, arrest, conviction, and sentence",
+        "Duty, breach, causation, and damages",
+        "Offer, acceptance, consideration, and signature",
+        "Ownership, insurance, profit, and notice"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A negligence claim generally requires a duty of care, breach of that duty, causal connection, and actual harm or damages.",
+      "incorrectOptionExplanations": [
+        "These are criminal-process concepts and do not define negligence.",
+        null,
+        "These are contract-formation concepts.",
+        "These facts may be relevant but are not the core negligence elements."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, torts and negligent torts, pp. 34-38",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dbbe8e78ddc17f299a83ff82dc4014c925434756528a438f406d3cb082fbfdee"
+    },
+    {
+      "id": "PV2-CH02-002",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Administrative law",
+      "itemFamilyId": "CH02-ADMIN-LAW-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "OSHA standards codified in the Code of Federal Regulations are primarily an example of what type of law?",
+      "options": [
+        "Case law only",
+        "Private contract law only",
+        "Administrative law",
+        "Constitutional amendment"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Administrative agencies issue regulations under authority delegated by statutes, and those regulations are codified in the CFR.",
+      "incorrectOptionExplanations": [
+        "Courts create and interpret case law, but OSHA standards are promulgated by an administrative agency under statutory authority.",
+        "A private contract does not create a federal regulation.",
+        null,
+        "OSHA standards are not constitutional amendments."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, types of law and administrative law, pp. 33-34",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e285fdd9600efd8efc444cda1bd95609d296cc3aef0256426e5eaba270d0c3a9"
+    },
+    {
+      "id": "PV2-CH02-003",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Strict liability",
+      "itemFamilyId": "CH02-STRICT-LIABILITY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Which situation most closely illustrates strict liability rather than ordinary negligence?",
+      "options": [
+        "A driver runs a red light and causes a collision",
+        "A manager intentionally strikes an employee",
+        "A supplier fails to deliver goods under a contract",
+        "Harm resulting from an abnormally dangerous blasting activity even when reasonable care was used"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Strict liability can attach to specified abnormally dangerous activities or defective products without proving ordinary lack of reasonable care.",
+      "incorrectOptionExplanations": [
+        "Running a red light is commonly analyzed as negligent conduct.",
+        "Intentional harmful contact is an intentional tort.",
+        "Failure to deliver is primarily a contract issue.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, strict liability and abnormally dangerous activities, pp. 38-40",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "60deaf5cceb780bfe06bcd97d59f8ec6129869ff15c56c57184ea00980ff9ace"
+    },
+    {
+      "id": "PV2-CH02-004",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Vicarious liability",
+      "itemFamilyId": "CH02-VICARIOUS-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee negligently injures a customer while performing assigned delivery duties. Which doctrine may make the employer responsible?",
+      "options": [
+        "Vicarious liability",
+        "Stare decisis",
+        "Habeas corpus",
+        "Assumption of risk only"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Vicarious liability can hold an employer responsible for employee conduct within the scope of employment even without direct employer negligence.",
+      "incorrectOptionExplanations": [
+        null,
+        "Stare decisis concerns adherence to legal precedent.",
+        "Habeas corpus concerns unlawful detention.",
+        "Assumption of risk is a possible defense and does not describe employer responsibility for employee conduct."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, vicarious liability and employer-employee examples, pp. 40-42",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6eef1bf74c5dbe5a0d560e98ab4bd52ac2e91e164a34a30435d6c8ef9e637a9a"
+    },
+    {
+      "id": "PV2-CH02-005",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Evidence preservation",
+      "itemFamilyId": "CH02-EVIDENCE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "After a serious incident, litigation is reasonably anticipated. What is the strongest records practice?",
+      "options": [
+        "Delete draft and unfavorable records immediately",
+        "Preserve relevant records and evidence under a controlled legal-hold process",
+        "Rewrite witness notes into one identical account",
+        "Continue normal automatic deletion without review"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Evidence should be preserved accurately, securely, and traceably when it may be relevant to a claim, investigation, or proceeding.",
+      "incorrectOptionExplanations": [
+        "Destruction after litigation is anticipated can create serious legal and ethical consequences.",
+        null,
+        "Independent observations should not be altered to create artificial consistency.",
+        "Routine deletion should be suspended for relevant information when a preservation duty arises."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, legal responsibilities and court process; Chapter 22, investigation records",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d5088b89714a13a114491583a9ac5a1606a980be060b29444227df7f34d42115"
+    },
+    {
+      "id": "PV2-CH02-006",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Jurisdiction",
+      "itemFamilyId": "CH02-JURISDICTION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "What does subject-matter jurisdiction address?",
+      "options": [
+        "Whether the plaintiff will win",
+        "Whether a witness is truthful",
+        "Whether a court has authority to hear the type of dispute presented",
+        "How much insurance the defendant carries"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A court must have legal authority over the category of case, along with any other required jurisdiction and due-process conditions.",
+      "incorrectOptionExplanations": [
+        "Jurisdiction is about authority to hear the case, not the merits.",
+        "Credibility is an evidentiary issue.",
+        null,
+        "Insurance may affect recovery but does not create subject-matter jurisdiction."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, court system and jurisdiction, pp. 29-33",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3b8964ade031a6bef23a73c60bc68330ea4e0740107bd0c8e424d7567004dd1e"
+    }
+  ]
+}

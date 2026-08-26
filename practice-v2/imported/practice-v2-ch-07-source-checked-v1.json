@@ -1,0 +1,687 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-07-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-07",
+  "chapterTitle": "Toxicology",
+  "questions": [
+    {
+      "id": "PV2-CH07-001",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Acute versus chronic effect",
+      "itemFamilyId": "CH07-ACUTE-CHRONIC-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "A worker develops dizziness and eye irritation within minutes of a high solvent exposure. Which description is most appropriate?",
+      "options": [
+        "An acute effect associated with a short-duration exposure.",
+        "A chronic effect because every chemical illness develops slowly.",
+        "A latency effect because the symptoms appeared immediately.",
+        "A hereditary effect because the exposure occurred during employment."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Acute effects can appear rapidly after a brief, relatively high exposure. Chronic effects generally develop after repeated or long-term exposure and may involve latency.",
+      "incorrectOptionExplanations": [
+        null,
+        "Chemical agents can cause both acute and chronic effects.",
+        "Latency is the delay between exposure or disease initiation and detectable effect.",
+        "The work setting does not make an effect hereditary."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, toxicology definitions and dose-response, pp. 251-254",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8ce425fc9f7da39e215feedc48f558146aed8d6ef643066864a672d978874ba8"
+    },
+    {
+      "id": "PV2-CH07-002",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Metal fume fever",
+      "itemFamilyId": "CH07-METAL-FUME-FEVER-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "A welder develops delayed flu-like symptoms after breathing freshly generated metal-oxide fumes. Which exposure is most characteristically associated with metal fume fever?",
+      "options": [
+        "Crystalline silica dust from cutting concrete.",
+        "Freshly formed zinc oxide fumes.",
+        "Asbestos fibers released during insulation removal.",
+        "Carbon monoxide from incomplete combustion."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Metal fume fever is classically associated with inhalation of freshly formed metal-oxide fumes, especially zinc oxide generated during welding or heating galvanized metal.",
+      "incorrectOptionExplanations": [
+        "Silica is associated with silicosis and other respiratory disease, not classic metal fume fever.",
+        null,
+        "Asbestos exposure is associated with asbestosis, lung cancer, and mesothelioma.",
+        "Carbon monoxide causes systemic hypoxia rather than the classic metal fume fever syndrome."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, occupational diseases and metal-related illnesses, pp. 258-271",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5daa230e0877e1fd7c423bee04bd70746655c7281fcb5289ac4000e54a88ddd2"
+    },
+    {
+      "id": "PV2-CH07-003",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Cadmium target-organ effect",
+      "itemFamilyId": "CH07-CADMIUM-KIDNEY-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A worker with long-term cadmium exposure develops protein in the urine. Which target organ is the primary concern?",
+      "options": [
+        "The middle ear.",
+        "The skin only.",
+        "The kidneys.",
+        "The lens of the eye."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Chronic cadmium exposure can damage renal tubules; proteinuria is an important sign of kidney injury.",
+      "incorrectOptionExplanations": [
+        "Cadmium-related proteinuria is not an auditory effect.",
+        "Skin findings do not explain protein in urine from chronic cadmium exposure.",
+        null,
+        "Lens injury is not the target-organ effect indicated by proteinuria."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, cadmium-related illnesses and target organs, pp. 260-261",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8f46efe584ed3a0c6b955540095ea40180718e35c37ffd4c4017e3488c456f0d"
+    },
+    {
+      "id": "PV2-CH07-004",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Potentiation",
+      "itemFamilyId": "CH07-POTENTIATION-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "At the dose present, Chemical A does not injure the liver by itself, but it greatly increases the liver toxicity of Chemical B. What interaction is described?",
+      "options": [
+        "Additivity.",
+        "Antagonism.",
+        "Synergism.",
+        "Potentiation."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Potentiation occurs when a substance that has little or no toxic effect on the target system at that dose increases the toxicity of another substance.",
+      "incorrectOptionExplanations": [
+        "Additivity means the combined effect equals the sum of the individual effects.",
+        "Antagonism means one substance reduces the effect of another.",
+        "Synergism means two toxic agents together produce an effect greater than the sum of their separate effects; here Chemical A has no effect by itself at the stated dose.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, exposures to chemical combinations, pp. 253-255",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a96d42a3434f35d5a50f25f3683d07b5b1271fd5d133d359758bed5695945333"
+    },
+    {
+      "id": "PV2-CH07-005",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "LD50 dose calculation",
+      "itemFamilyId": "CH07-LD50-CALC-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A substance has an oral LD₅₀ of 18 mg/kg in a test species. What administered mass corresponds to that dose for a 2.5-kg animal?",
+      "options": [
+        "45 mg",
+        "7.2 mg",
+        "18 mg",
+        "72.5 mg"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Dose mass = 18 mg/kg × 2.5 kg = 45 mg. The kilograms cancel, leaving milligrams.",
+      "incorrectOptionExplanations": [
+        null,
+        "This divides the dose by body mass instead of multiplying.",
+        "This ignores the animal’s body mass.",
+        "This adds the body mass numerically instead of using mg/kg × kg."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, toxicology definitions and LD₅₀, pp. 251-254",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "administered mass = dose (mg/kg) × body mass (kg)",
+      "units": "mg",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ff910a0c2c6f4246b0ff7c564e2ea4e12591128089c1874b2e5b5db4ebc09a3a"
+    },
+    {
+      "id": "PV2-CH07-006",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dose-response relationship",
+      "itemFamilyId": "CH07-DOSE-RESPONSE-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Why is a dose-response relationship useful when evaluating a toxic agent?",
+      "options": [
+        "It proves every exposed person will respond identically.",
+        "It relates the magnitude of dose or exposure to the probability or severity of an effect.",
+        "It identifies the best engineering control without any task information.",
+        "It makes route and duration irrelevant."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Dose-response information helps characterize how expected effects change as dose changes, while still requiring consideration of route, duration, susceptibility, and uncertainty.",
+      "incorrectOptionExplanations": [
+        "Individual susceptibility and uncertainty remain even when a dose-response trend exists.",
+        null,
+        "Control selection also requires exposure pathways, tasks, feasibility, and operating conditions.",
+        "Route, duration, timing, and frequency strongly influence delivered dose and response."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, dose-response relationship, pp. 253-254",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "38cb1e279345553b61699060f073536af92837fb6e4d62b85bb715d9bc47f586"
+    },
+    {
+      "id": "PV2-CH07-007",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Mutagenicity",
+      "itemFamilyId": "CH07-MUTAGEN-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "understand",
+      "stem": "A substance damages genetic material in cells. Which toxicological hazard class best describes this effect?",
+      "options": [
+        "Teratogenicity only.",
+        "Simple asphyxiation.",
+        "Mutagenicity.",
+        "Sensitization."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Mutagens cause changes to genetic material. Some mutations may contribute to cancer or heritable effects, but mutagenicity is the direct hazard concept described.",
+      "incorrectOptionExplanations": [
+        "Teratogens cause developmental effects in an embryo or fetus; the stem specifically describes genetic damage.",
+        "Simple asphyxiants reduce available oxygen rather than damaging genetic material.",
+        null,
+        "Sensitizers trigger an immune-mediated response after prior exposure."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, toxicology definitions and Ames testing, pp. 251-257",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "01b8a6b8643f12370d29b8372a97324481957aa414c069cc2b32c3d069c01663"
+    },
+    {
+      "id": "PV2-CH07-008",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Latency period",
+      "itemFamilyId": "CH07-LATENCY-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "understand",
+      "stem": "An occupational disease becomes detectable many years after the causal exposure. What term describes the interval between exposure and manifestation?",
+      "options": [
+        "Biological half-life.",
+        "Ceiling period.",
+        "Recovery period.",
+        "Latency period."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Latency is the time between a causal exposure or disease initiation and the appearance or detection of the resulting effect.",
+      "incorrectOptionExplanations": [
+        "Biological half-life describes how quickly a substance or burden is reduced in the body, not the full delay to disease.",
+        "A ceiling is an exposure-limit type, not a disease-development interval.",
+        "The scenario describes a delay before disease becomes evident, not recovery after illness.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, latency period and stages of cancer, pp. 255-256",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "377994862d46fa9b5d8f7f46957bfb6253a2ad1ffc6af1884cb3b96370930b8a"
+    },
+    {
+      "id": "PV2-CH07-009",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "Case-control study",
+      "itemFamilyId": "CH07-CASE-CONTROL-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Researchers begin with workers who have a rare disease and compare their past exposures with similar workers who do not have the disease. Which study design is this?",
+      "options": [
+        "A case-control study.",
+        "A cohort study.",
+        "A cross-sectional study.",
+        "A randomized exposure trial."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Case-control studies begin with outcome status—cases with the disease and controls without it—and compare prior exposures or risk factors.",
+      "incorrectOptionExplanations": [
+        null,
+        "A cohort design begins with exposed and unexposed groups and compares later or reconstructed outcomes.",
+        "A cross-sectional study generally measures exposure and outcome at one point in time.",
+        "Intentionally assigning a harmful occupational exposure would be unethical and is not the described design."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, case-control and cross-sectional studies, pp. 257-258",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a87fd158f9b9567cd3bf485c8c5ce46acf5c789cada5dad05455cc4fa1ea1e24"
+    },
+    {
+      "id": "PV2-CH07-010",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Simple asphyxiant",
+      "itemFamilyId": "CH07-SIMPLE-ASPHYXIANT-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "Nitrogen leaks into an enclosed room. It is not chemically toxic at the expected concentration, but it lowers the oxygen concentration. How is the primary hazard classified?",
+      "options": [
+        "Chemical asphyxiation caused by blocking hemoglobin.",
+        "Simple asphyxiation caused by oxygen displacement.",
+        "Corrosive injury to the respiratory tract.",
+        "Respiratory sensitization."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A simple asphyxiant reduces available oxygen by displacement without directly interfering with oxygen transport or cellular use.",
+      "incorrectOptionExplanations": [
+        "That describes agents such as carbon monoxide, not inert-gas displacement.",
+        null,
+        "Nitrogen does not create the described corrosive hazard.",
+        "Sensitization is an immune response after prior exposure, not oxygen displacement."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, types of toxic effects and routes of exposure, pp. 251-271; Chapter 6, gases, pp. 228-250",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6690c90032a2fc391991299136a30859215f1c1e606b74b51ddf1ad8c7da0d79"
+    },
+    {
+      "id": "PV2-CH07-011",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dermal absorption",
+      "itemFamilyId": "CH07-DERMAL-ABSORPTION-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A solvent causes no immediate skin pain but is readily absorbed through intact skin. What is the best control conclusion?",
+      "options": [
+        "Allow contact because painful irritation is required for skin absorption.",
+        "Use odor as the quantitative measure of skin dose.",
+        "Lack of irritation does not prove safety; prevent dermal contact using substitution, enclosure, work practices, and compatible protection.",
+        "Rely on air monitoring alone to prove total exposure is controlled."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Skin is a route of entry, and some chemicals can produce systemic dose without warning irritation. Controls must address contact and absorption rather than relying on symptoms.",
+      "incorrectOptionExplanations": [
+        "Absorption can occur without pain, redness, or other immediate warning.",
+        "Odor does not measure dermal absorption.",
+        null,
+        "Air monitoring addresses inhalation and does not by itself determine dermal dose."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, routes of entry and absorption, pp. 251-254",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c91bf98269f690a86fdeb6ca7bfffc2c4e64aecfaea42935b5891b698c6089cb"
+    },
+    {
+      "id": "PV2-CH07-012",
+      "version": 1,
+      "chapterId": "ch-07",
+      "chapterTitle": "Toxicology",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Synergistic interaction",
+      "itemFamilyId": "CH07-SYNERGISM-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An asbestos-exposed worker also smokes cigarettes, and the combined lung-cancer risk is substantially greater than would be expected from either exposure alone. What interaction is described?",
+      "options": [
+        "Additivity.",
+        "Antagonism.",
+        "Potentiation.",
+        "Synergism."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Synergism occurs when the combined effect of two agents is greater than the sum of their separate effects. Smoking and asbestos exposure are a classic occupational-health example for lung-cancer risk.",
+      "incorrectOptionExplanations": [
+        "Additivity means the combined effect equals the sum of the separate effects, not substantially more.",
+        "Antagonism means one exposure reduces the effect of the other.",
+        "Potentiation describes a substance with little or no effect at the stated dose increasing another agent’s toxicity; both smoking and asbestos have independent harmful effects.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 7, chemical combinations and asbestos-related illnesses, pp. 253-259",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9e501170ad6fc629c364a18e13f929857fe50133c1816d73345f97b43d954ac0"
+    }
+  ]
+}

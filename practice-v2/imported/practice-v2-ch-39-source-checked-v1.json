@@ -1,0 +1,695 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-39-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-39",
+  "chapterTitle": "Emergency Management and Preparedness",
+  "questions": [
+    {
+      "id": "PV2-CH39-001",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Emergency management cycle",
+      "itemFamilyId": "CH39-CYCLE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Which four activities form the commonly used emergency-management cycle?",
+      "options": [
+        "Plan, purchase, punish, and promote",
+        "Inspect, cite, appeal, and close",
+        "Hire, train, transfer, and retire",
+        "Prevention or mitigation, preparedness, response, and recovery"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Emergency management reduces likelihood and consequence, prepares capabilities, manages the event, and restores operations and communities.",
+      "incorrectOptionExplanations": [
+        "These are unrelated management actions.",
+        "These describe enforcement steps, not emergency management.",
+        "These are workforce lifecycle actions.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency-management phases, pp. 870-874",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "56d63e4a95e273dc05bcb1b58144ec66b1969e7dc7d8bfd94ea93ddebd6865d6"
+    },
+    {
+      "id": "PV2-CH39-002",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "EAP minimum elements",
+      "itemFamilyId": "CH39-EAP-ELEMENTS-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Which item belongs in an emergency action plan?",
+      "options": [
+        "Procedures for reporting, evacuation, accountability, critical operations, rescue or medical duties, and contacts",
+        "Only the annual safety budget",
+        "Only a list of production targets",
+        "Only the insurance policy number"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "An EAP establishes who does what, how emergencies are reported, how people evacuate or shelter, and how accountability and assistance are managed.",
+      "incorrectOptionExplanations": [
+        null,
+        "Budget may support resources but is not the emergency procedure itself.",
+        "Production targets do not direct protective action.",
+        "Insurance information does not replace reporting, evacuation, accountability, and roles."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency action plan components, pp. 874-877; OSHA 1910.38",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5d97d98c4d9c9d7c361f0486d2bcc93c1ac2846de0a79e5c1eba1dbd9e2dbc52"
+    },
+    {
+      "id": "PV2-CH39-003",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Evacuation accountability",
+      "itemFamilyId": "CH39-ACCOUNTABILITY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A drill shows that supervisors cannot account for contractors and visitors. What is the strongest correction?",
+      "options": [
+        "Count employees only",
+        "Integrate visitor and contractor rosters, assembly assignments, and reconciliation into the accountability process",
+        "Ask visitors to call later if safe",
+        "Stop recording visitors at entry"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Accountability must include all people on site and link entry records, assembly areas, supervisors, and escalation for missing persons.",
+      "incorrectOptionExplanations": [
+        "Everyone under site responsibility should be considered in emergency accountability.",
+        null,
+        "Delayed self-reporting is unreliable during a developing emergency.",
+        "Removing entry records makes accountability harder."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, accounting for employees after evacuation, pp. 875-877",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "30385fe22dfb3ae866903da8044363a067d1c5fc16340ce3011268b3a11c7e7e"
+    },
+    {
+      "id": "PV2-CH39-004",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Shelter in place",
+      "itemFamilyId": "CH39-SHELTER-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A toxic outdoor plume is moving across the only evacuation route. Which protective action may be preferable if the building can be secured?",
+      "options": [
+        "Evacuate everyone directly through the plume",
+        "Open outside-air intakes to dilute indoor air",
+        "Shelter in place using the preplanned isolation and communication procedure",
+        "Let each employee choose an uncoordinated route"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Protective action should be based on hazard location, duration, building protection, routes, and emergency authority rather than assuming evacuation is always safest.",
+      "incorrectOptionExplanations": [
+        "Movement through a toxic plume can increase exposure.",
+        "Outside-air intake may draw the contaminant indoors.",
+        null,
+        "Uncoordinated decisions undermine accountability and protective strategy."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, chemical spills, evacuation, and emergency planning considerations, pp. 874-880",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e07825f2d18eb5bd422a4cf5b7a410eba3b987c087023117974f9e3e4066cc67"
+    },
+    {
+      "id": "PV2-CH39-005",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Emergency communications",
+      "itemFamilyId": "CH39-COMMUNICATION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Which emergency communication system is most resilient?",
+      "options": [
+        "One untested email list",
+        "A single alarm that has the same signal for every event",
+        "Informal word of mouth only",
+        "Multiple tested methods with clear messages, backups, ownership, and accommodations for affected populations"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Redundant channels and predefined messages improve speed, reach, accessibility, and reliability under disrupted conditions.",
+      "incorrectOptionExplanations": [
+        "Email can fail due to power, network, access, or outdated lists.",
+        "Different hazards may require distinct protective actions and understandable signals.",
+        "Word of mouth is slow, incomplete, and difficult to verify.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, reporting emergencies, crisis management, and continuity communications, pp. 874-888",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "77674552e02a573f16c1caeadfa9fb79700ae960c26ee0a20c9b02ae5dc7aff8"
+    },
+    {
+      "id": "PV2-CH39-006",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Exercise design",
+      "itemFamilyId": "CH39-EXERCISE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "A site has never tested its emergency plan. What is the best first exercise progression?",
+      "options": [
+        "Begin with a facilitated tabletop, correct gaps, then progress to functional and full-scale exercises",
+        "Begin with an unannounced full-scale event involving every hazard",
+        "Review the plan silently and call it an exercise",
+        "Wait for a real emergency"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Progressive exercises build knowledge and complexity while allowing findings to be corrected between stages.",
+      "incorrectOptionExplanations": [
+        null,
+        "An immediate complex exercise can create uncontrolled risk and poor learning when roles are untested.",
+        "Reading a document does not test coordination and decisions.",
+        "Real events are not safe substitutes for planned validation."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency planning and preparedness, pp. 870-889",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "790f59ee85b86ad5dbb7abc4006eed8f8a5cea3aacd6e480a6256561437a8bef"
+    },
+    {
+      "id": "PV2-CH39-007",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Mutual aid",
+      "itemFamilyId": "CH39-MUTUAL-AID-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility relies on the local fire department for hazardous-material response. What is needed before an emergency?",
+      "options": [
+        "Assume the department knows the process",
+        "Coordinate hazards, access, capabilities, contacts, water supply, command, and exercise expectations",
+        "Call for the first time during the release",
+        "Provide only the facility street address"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Mutual-aid arrangements should be planned, documented, shared, and tested so outside resources integrate with site command.",
+      "incorrectOptionExplanations": [
+        "Responders may not know chemicals, layout, isolation, or site resources.",
+        null,
+        "First-time coordination during an event wastes time and increases uncertainty.",
+        "An address is necessary but insufficient for effective preplanning."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency planning, contacts, and response coordination, pp. 870-889",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9984d47f31f7d9403751d58010e8b91f76cef80f166ee1d041990033eed25fed"
+    },
+    {
+      "id": "PV2-CH39-008",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Business impact analysis",
+      "itemFamilyId": "CH39-BIA-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "What is the main output of a business impact analysis for continuity planning?",
+      "options": [
+        "A list of every employee favorite task",
+        "Only the replacement cost of the building",
+        "Prioritized essential functions, dependencies, impacts, and recovery time requirements",
+        "A guarantee that no disruption will occur"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A BIA identifies what must continue or recover, by when, and which people, information, facilities, suppliers, and technology it depends on.",
+      "incorrectOptionExplanations": [
+        "Personal preferences do not define organizational continuity needs.",
+        "Property value is one impact and does not identify essential services or dependencies.",
+        null,
+        "Continuity planning manages disruption; it cannot guarantee prevention."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, business continuity planning and plan components, pp. 885-888; FEMA continuity toolkit",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.fema.gov/emergency-managers/national-preparedness/continuity"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c0f0213809b9a10c79f226352ee574d2585cc406d7f9000530cc6bfd3f23cd4d"
+    },
+    {
+      "id": "PV2-CH39-009",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Recovery objective",
+      "itemFamilyId": "CH39-RTO-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "What does a recovery time objective describe?",
+      "options": [
+        "The probability that an emergency will occur",
+        "The amount of chemical that may be released",
+        "The annual training attendance goal",
+        "The targeted maximum time to restore a function after disruption"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "RTO guides continuity strategies and resources by defining how quickly an essential process should be restored.",
+      "incorrectOptionExplanations": [
+        "Likelihood is part of risk assessment, not recovery timing.",
+        "Release quantity is a hazard scenario input.",
+        "Training attendance is a program metric, not the function recovery target.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, business continuity plan components, pp. 885-888",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6ca529794a243211967709470bd5e97804dca7c3bc6bba3d74277935aa7a337e"
+    },
+    {
+      "id": "PV2-CH39-010",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Incident command",
+      "itemFamilyId": "CH39-INCIDENT-COMMAND-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Two departments issue conflicting evacuation and shutdown instructions during a release. What system weakness is most evident?",
+      "options": [
+        "Command authority, roles, and communication were not clearly established",
+        "The event needed more independent decision makers",
+        "Emergency plans should avoid defined leadership",
+        "Each department should use a separate alarm"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "An incident-management structure aligns authority, objectives, information, operations, and external coordination.",
+      "incorrectOptionExplanations": [
+        null,
+        "More independent commands can increase conflict and delay.",
+        "Defined leadership and responsibilities are essential for coordinated response.",
+        "Separate uncoordinated alarms can confuse protective actions."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency management, crisis management, and response organization, pp. 870-888",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1cc7ed25a8b91cca8769320f4fb95c6c942c4709187af6a33f20ec44632b592b"
+    },
+    {
+      "id": "PV2-CH39-011",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Post-incident review",
+      "itemFamilyId": "CH39-AAR-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "What should an after-action review produce?",
+      "options": [
+        "A celebration only",
+        "Evidence-based strengths, gaps, assigned corrective actions, due dates, and effectiveness follow-up",
+        "A confidential list of people to blame",
+        "A revised plan with no training or retest"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "After-action learning should convert observations into owned, verified improvements to plans, resources, training, and coordination.",
+      "incorrectOptionExplanations": [
+        "Recognition may be appropriate but does not capture learning.",
+        null,
+        "Blame discourages reporting and often misses system causes.",
+        "A document change alone does not establish implementation or capability."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, preparedness, response, recovery, and continuity, pp. 870-889",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "642794af256e4f7d84dddccb00c3993277dbb694f338277065da0699e6279f95"
+    },
+    {
+      "id": "PV2-CH39-012",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Plan maintenance",
+      "itemFamilyId": "CH39-PLAN-MAINTENANCE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Which event should trigger review of an emergency plan before the normal review date?",
+      "options": [
+        "Only a change in company logo",
+        "Only a change in cafeteria menu",
+        "A significant process, facility, staffing, hazard, contact, or regulatory change",
+        "Only the end of a calendar decade"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Plans must remain aligned with current hazards, people, facilities, resources, contacts, and external arrangements.",
+      "incorrectOptionExplanations": [
+        "Branding may require formatting updates but not necessarily emergency capability changes.",
+        "Menu changes generally do not alter the emergency basis unless they introduce relevant hazards.",
+        null,
+        "Review should respond to risk and organizational change, not an arbitrary decade."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency planning requirements and continuity maintenance, pp. 870-889",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "22fb1a9bbc5864160e1229b0ae362c6082c2e7d28e3ad4b9c45f70570e5e6999"
+    }
+  ]
+}

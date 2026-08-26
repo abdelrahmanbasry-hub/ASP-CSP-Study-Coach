@@ -28,7 +28,16 @@ export interface CoachQuestion {
   challengePrompt: string;
   /** Existing seed questions omit this field and are treated as practice items. */
   pool?: QuestionPool;
+  /** Optional independence metadata. Older authored items safely omit it. */
+  scenarioFamily?: string;
+  /** Immutable served-content version. Existing bank records safely default to version 1. */
+  itemVersion?: number;
 }
+
+export type StabilityEvidenceState =
+  | "not-enough-current-evidence"
+  | "qualified"
+  | "below-threshold";
 
 export interface DomainMastery {
   theta: number;
@@ -37,6 +46,8 @@ export interface DomainMastery {
   recent: boolean[];
   stableBlocks: number;
   difficulty: number;
+  /** Qualification result for the most recently completed block containing this domain. */
+  lastBlockEvidence?: StabilityEvidenceState;
 }
 
 export interface Attempt {
@@ -45,6 +56,7 @@ export interface Attempt {
   catalogId: number;
   domainId: string;
   competency: string;
+  objective?: string;
   stem: string;
   options: string[];
   correctIndex: number;
@@ -63,7 +75,38 @@ export interface Attempt {
   pool?: QuestionPool;
   mockForm?: MockForm;
   firstExposure?: boolean;
+  scenarioFamily?: string;
+  /** Preserves which immutable item version the learner was served. Older history defaults to 1. */
+  itemVersion?: number;
 }
+
+/**
+ * Assessment trust thresholds are intentionally named and centralized. Readiness
+ * requires a balanced 20-question body of evidence; individual domain percentages
+ * require three responses. Stability is stricter and uses only the current block.
+ */
+export const ASSESSMENT_EVIDENCE_CONFIG = Object.freeze({
+  readiness: Object.freeze({
+    minimumIndependentQuestions: 20,
+    minimumResponsesPerDomain: 1,
+    minimumResponsesForDomainIndicator: 3,
+  }),
+  stability: Object.freeze({
+    minimumCurrentBlockQuestions: 3,
+    minimumIndependentItemFamilies: 2,
+    accuracyThreshold: 0.8,
+    requiredStableBlocks: 2,
+  }),
+});
+
+export const READINESS_LABEL = "Practice Readiness Indicator";
+export const READINESS_INSUFFICIENT_LABEL = "Insufficient evidence";
+export const READINESS_INSUFFICIENT_EXPLANATION =
+  "Complete the diagnostic or additional independent practice questions before a readiness indicator can be calculated.";
+export const READINESS_DISCLAIMER =
+  "This is a coaching estimate based on your practice activity. It is not a prediction of your BCSP examination result.";
+export const PROVISIONAL_DIFFICULTY_NOTE =
+  "Provisional authoring level. This item has not yet been empirically calibrated.";
 
 export interface SessionQuestion extends CoachQuestion {
   catalogId: number;
@@ -91,6 +134,35 @@ export const defaultMastery = (domains: readonly CoachDomain[]): Record<string, 
     ]),
   ) as unknown as Record<string, DomainMastery>;
 
+function finiteNumber(value: unknown, fallback: number) {
+  return typeof value === "number" && Number.isFinite(value) ? value : fallback;
+}
+
+/** Makes partial pre-patch mastery records safe without discarding valid history. */
+export function normalizeDomainMastery(value?: Partial<DomainMastery> | null): DomainMastery {
+  const answered = Math.max(0, Math.floor(finiteNumber(value?.answered, 0)));
+  const correct = Math.max(0, Math.min(answered, Math.floor(finiteNumber(value?.correct, 0))));
+  const recent = Array.isArray(value?.recent)
+    ? value.recent.filter((entry): entry is boolean => typeof entry === "boolean").slice(-30)
+    : [];
+  const difficulty = Math.max(1, Math.min(5, Math.round(finiteNumber(value?.difficulty, 2))));
+  const lastBlockEvidence =
+    value?.lastBlockEvidence === "qualified" ||
+    value?.lastBlockEvidence === "below-threshold" ||
+    value?.lastBlockEvidence === "not-enough-current-evidence"
+      ? value.lastBlockEvidence
+      : undefined;
+  return {
+    theta: Math.max(-2.4, Math.min(2.4, finiteNumber(value?.theta, -0.35))),
+    correct,
+    answered,
+    recent,
+    stableBlocks: Math.max(0, Math.floor(finiteNumber(value?.stableBlocks, 0))),
+    difficulty,
+    ...(lastBlockEvidence ? { lastBlockEvidence } : {}),
+  };
+}
+
 function mulberry32(seed: number) {
   return () => {
     let t = (seed += 0x6d2b79f5);
@@ -100,35 +172,58 @@ function mulberry32(seed: number) {
   };
 }
 
-export function readinessScore(mastery?: DomainMastery) {
-  if (!mastery) return 43;
-  const observed = mastery.answered ? mastery.correct / mastery.answered : 0.5;
-  const recent = mastery.recent.length
-    ? mastery.recent.filter(Boolean).length / mastery.recent.length
-    : 0.5;
-  const ability = 1 / (1 + Math.exp(-1.25 * mastery.theta));
-  return Math.round(100 * (observed * 0.25 + recent * 0.45 + ability * 0.3));
+function practiceIndicatorValue(mastery?: DomainMastery) {
+  const safe = normalizeDomainMastery(mastery);
+  if (!safe.answered) return 0;
+  const observed = safe.correct / safe.answered;
+  const recent = safe.recent.length
+    ? safe.recent.filter(Boolean).length / safe.recent.length
+    : observed;
+  // This is a transparent coaching blend, not an IRT or pass-probability model.
+  return Math.round(100 * (observed * 0.45 + recent * 0.55));
+}
+
+export function readinessScore(mastery?: DomainMastery): number | null {
+  const safe = normalizeDomainMastery(mastery);
+  if (safe.answered < ASSESSMENT_EVIDENCE_CONFIG.readiness.minimumResponsesForDomainIndicator) {
+    return null;
+  }
+  return practiceIndicatorValue(safe);
 }
 
 export function overallReadiness(
   masteries: Record<string, DomainMastery>,
   domains: readonly CoachDomain[],
-) {
+  independentQuestionCount?: number,
+): number | null {
+  const safeMasteries = domains.map((domain) => normalizeDomainMastery(masteries[domain.id]));
+  const cumulativeResponses = safeMasteries.reduce((sum, mastery) => sum + mastery.answered, 0);
+  // Cumulative responses are a compatibility fallback for older records that did
+  // not persist unique-question evidence separately.
+  const evidenceCount = independentQuestionCount ?? cumulativeResponses;
+  const enoughCoverage = safeMasteries.every(
+    (mastery) =>
+      mastery.answered >= ASSESSMENT_EVIDENCE_CONFIG.readiness.minimumResponsesPerDomain,
+  );
+  if (
+    evidenceCount < ASSESSMENT_EVIDENCE_CONFIG.readiness.minimumIndependentQuestions ||
+    !enoughCoverage
+  ) {
+    return null;
+  }
   return Math.round(
     domains.reduce(
-      (sum, domain) => sum + readinessScore(masteries[domain.id]) * domain.weight,
+      (sum, domain) => sum + practiceIndicatorValue(masteries[domain.id]) * domain.weight,
       0,
     ),
   );
 }
 
 export function difficultyLabel(value: number) {
-  if (value <= 1) return "Foundation";
-  if (value === 2) return "Core recall";
-  if (value === 3) return "Applied";
-  if (value === 4) return "Exam level";
-  return "Exam-day stretch";
+  return `Provisional Level ${Math.max(1, Math.min(5, Math.round(value)))}`;
 }
+
+const readinessForPriority = (mastery?: DomainMastery) => readinessScore(mastery) ?? 0;
 
 function blueprintQuotas(count: number, seed: number, domains: readonly CoachDomain[]) {
   const raw = domains.map((domain) => ({
@@ -162,7 +257,7 @@ function adaptiveQuotas(
     (domain) => !selectedDomains || selectedDomains.includes(domain.id),
   );
   const adjusted = eligible.map((domain) => {
-    const score = readinessScore(masteries[domain.id]);
+    const score = readinessForPriority(masteries[domain.id]);
     const weakBoost = 1 + Math.max(0, 80 - score) / 32;
     const uncertaintyBoost = 1 + 5 / ((masteries[domain.id]?.answered ?? 0) + 8);
     return { id: domain.id, value: domain.weight * weakBoost * uncertaintyBoost };
@@ -192,7 +287,13 @@ function adaptiveQuotas(
 }
 
 function pickTargetDifficulty(mastery: DomainMastery | undefined, random: () => number) {
-  const abilityBand = Math.round(2.7 + (mastery?.theta ?? -0.35) * 0.95);
+  const safe = normalizeDomainMastery(mastery);
+  const recentRate = safe.recent.length
+    ? safe.recent.filter(Boolean).length / safe.recent.length
+    : safe.answered
+      ? safe.correct / safe.answered
+      : 0.4;
+  const abilityBand = Math.round(1 + recentRate * 4);
   const exploration = random() < 0.18 ? (random() < 0.5 ? -1 : 1) : 0;
   return Math.max(1, Math.min(5, abilityBand + exploration));
 }
@@ -216,6 +317,7 @@ function shuffledQuestion(
   ];
   return {
     ...base,
+    itemVersion: base.itemVersion ?? 1,
     catalogId,
     options,
     wrongRationales,
@@ -234,12 +336,20 @@ export function generateSession(options: {
   missedIds?: string[];
   recentIds?: string[];
   seenQuestionIds?: string[];
+  weakObjectiveKeys?: string[];
+  recentIncorrectIds?: string[];
+  highConfidenceIncorrectIds?: string[];
+  dueForReviewIds?: string[];
 }) {
   const seed = options.seed ?? Date.now();
   const random = mulberry32(seed);
   const recent = new Set(options.recentIds ?? []);
   const seen = new Set(options.seenQuestionIds ?? []);
   const missed = new Set(options.missedIds ?? []);
+  const weakObjectives = new Set(options.weakObjectiveKeys ?? []);
+  const recentIncorrect = new Set(options.recentIncorrectIds ?? []);
+  const highConfidenceIncorrect = new Set(options.highConfidenceIncorrectIds ?? []);
+  const dueForReview = new Set(options.dueForReviewIds ?? []);
   const bankByMode =
     options.mode === "missed" && missed.size
       ? options.questionBank.filter((question) => missed.has(question.id))
@@ -264,7 +374,8 @@ export function generateSession(options: {
       .filter((domain) => availableDomainIds.includes(domain.id))
       .sort(
         (a, b) =>
-          readinessScore(options.masteries[a.id]) - readinessScore(options.masteries[b.id]),
+          readinessForPriority(options.masteries[a.id]) -
+          readinessForPriority(options.masteries[b.id]),
       )
       .slice(0, 2)
       .map((domain) => domain.id);
@@ -277,6 +388,7 @@ export function generateSession(options: {
     const domainQuestions = bankByMode.filter((question) => question.domainId === domain.id);
     if (!domainQuestions.length) return;
     const selectedBaseIds = new Set<string>();
+    const selectedFamilies = new Set<string>();
     for (let index = 0; index < (quotas[domain.id] ?? 0); index += 1) {
       const target = pickTargetDifficulty(options.masteries[domain.id], random);
       const unused = domainQuestions.filter((question) => !selectedBaseIds.has(question.id));
@@ -284,16 +396,33 @@ export function generateSession(options: {
       const ranked = candidatePool
         .map((question) => ({
           question,
-          penalty:
-            Math.abs(question.difficulty - target) * 4 +
-            (seen.has(question.id) ? 18 : 0) +
-            (recent.has(question.id) ? 24 : 0) +
+          // Reliable practice evidence is compared lexicographically in the
+          // documented order below. Provisional authoring difficulty is only the
+          // final low-impact tie-breaker and can never outrank unseen/weak/error/
+          // review/family-independence evidence.
+          priority: [
+            seen.has(question.id) ? 1 : 0,
+            weakObjectives.has(`${question.domainId}::${question.objective ?? question.competency}`) ? 0 : 1,
+            recentIncorrect.has(question.id) ? 0 : 1,
+            highConfidenceIncorrect.has(question.id) ? 0 : 1,
+            dueForReview.has(question.id) ? 0 : 1,
+            question.scenarioFamily && selectedFamilies.has(question.scenarioFamily) ? 1 : 0,
+            recent.has(question.id) ? 1 : 0,
+            Math.abs(question.difficulty - target) * 0.01,
             random(),
+          ],
         }))
-        .sort((a, b) => a.penalty - b.penalty);
+        .sort((a, b) => {
+          for (let priority = 0; priority < a.priority.length; priority += 1) {
+            const difference = a.priority[priority] - b.priority[priority];
+            if (difference) return difference;
+          }
+          return 0;
+        });
       const base = ranked[0]?.question;
       if (!base) continue;
       selectedBaseIds.add(base.id);
+      if (base.scenarioFamily) selectedFamilies.add(base.scenarioFamily);
       const catalogId = options.questionBank.findIndex((question) => question.id === base.id) + 1;
       result.push(shuffledQuestion(base, catalogId, random));
     }
@@ -308,32 +437,63 @@ export function generateSession(options: {
 
 export function updateDomainMastery(
   current: DomainMastery,
-  difficulty: number,
+  provisionalDifficulty: number,
   correct: boolean,
-  confidence: Confidence,
-  seconds: number,
+  _confidence: Confidence,
+  _seconds: number,
 ) {
-  const difficultyTheta = [-1.6, -0.8, 0, 0.75, 1.45][difficulty - 1];
-  const probability = 1 / (1 + Math.exp(-1.2 * (current.theta - difficultyTheta)));
-  const confidenceFactor = confidence === "sure" ? 1.12 : confidence === "guess" ? 0.82 : 1;
-  const paceFactor = seconds > 150 ? 0.9 : seconds < 35 ? 1.04 : 1;
-  const theta = Math.max(
-    -2.4,
-    Math.min(
-      2.4,
-      current.theta +
-        0.48 * (Number(correct) - probability) * confidenceFactor * paceFactor,
-    ),
-  );
-  const recent = [...current.recent, correct].slice(-30);
-  const nextDifficulty = Math.max(1, Math.min(5, Math.round(2.7 + theta * 0.95)));
+  void provisionalDifficulty;
+  void _confidence;
+  void _seconds;
+  const safe = normalizeDomainMastery(current);
+  const recent = [...safe.recent, correct].slice(-30);
+  const nextCorrect = safe.correct + Number(correct);
+  const nextAnswered = safe.answered + 1;
+  const observed = nextCorrect / nextAnswered;
+  const recentRate = recent.filter(Boolean).length / recent.length;
+  const coachingRate = observed * 0.45 + recentRate * 0.55;
+  const theta = Math.max(-2.4, Math.min(2.4, (coachingRate - 0.5) * 4.8));
+  const nextDifficulty = Math.max(1, Math.min(5, Math.round(1 + coachingRate * 4)));
   return {
     theta,
-    correct: current.correct + Number(correct),
-    answered: current.answered + 1,
+    correct: nextCorrect,
+    answered: nextAnswered,
     recent,
-    stableBlocks: current.stableBlocks,
+    stableBlocks: safe.stableBlocks,
     difficulty: nextDifficulty,
+    ...(safe.lastBlockEvidence ? { lastBlockEvidence: safe.lastBlockEvidence } : {}),
+  };
+}
+
+export function applyDomainStabilityForBlock(
+  current: DomainMastery,
+  evidence: readonly { questionId: string; correct: boolean; itemFamily?: string }[],
+): DomainMastery {
+  const safe = normalizeDomainMastery(current);
+  const independentItems = [
+    ...new Map(evidence.map((item) => [item.questionId, item])).values(),
+  ];
+  const families = independentItems
+    .map((item) => item.itemFamily?.trim())
+    .filter((family): family is string => Boolean(family));
+  const insufficientQuestions =
+    independentItems.length < ASSESSMENT_EVIDENCE_CONFIG.stability.minimumCurrentBlockQuestions;
+  const insufficientFamilies =
+    families.length > 0 &&
+    new Set(families).size <
+      ASSESSMENT_EVIDENCE_CONFIG.stability.minimumIndependentItemFamilies;
+  if (insufficientQuestions || insufficientFamilies) {
+    return { ...safe, lastBlockEvidence: "not-enough-current-evidence" };
+  }
+  const accuracy =
+    independentItems.filter((item) => item.correct).length / independentItems.length;
+  if (accuracy < ASSESSMENT_EVIDENCE_CONFIG.stability.accuracyThreshold) {
+    return { ...safe, stableBlocks: 0, lastBlockEvidence: "below-threshold" };
+  }
+  return {
+    ...safe,
+    stableBlocks: safe.stableBlocks + 1,
+    lastBlockEvidence: "qualified",
   };
 }
 

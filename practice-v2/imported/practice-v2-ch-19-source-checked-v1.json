@@ -1,0 +1,921 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-19-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-19",
+  "chapterTitle": "Training, Education, and Communication",
+  "questions": [
+    {
+      "id": "PV2-CH19-001",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.06",
+          "role": "primary"
+        }
+      ],
+      "concept": "Adult learner relevance and experience",
+      "itemFamilyId": "CH19-ADULT-LEARNING-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "Experienced technicians disengage during a generic lockout lecture because it ignores their equipment and prior experience. Which redesign best applies adult-learning principles?",
+      "options": [
+        "Use equipment-specific cases, invite relevant experience, and practice decisions the technicians make on the job.",
+        "Lengthen the lecture and add more definitions so every possible lockout term is covered.",
+        "Remove discussion and practice so the instructor can maintain complete control of the session.",
+        "Replace the job examples with abstract theory to prevent experienced workers from challenging the content."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Adult learners are practical, relevance-oriented, self-directed, and bring experience. Job-specific cases and meaningful practice connect the material to their responsibilities.",
+      "incorrectOptionExplanations": [
+        null,
+        "Adding more lecture does not solve the lack of relevance or active application.",
+        "Removing participation ignores adult autonomy and the instructional value of experience.",
+        "Abstracting the content further reduces relevance and does not use learner experience constructively."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Principles of Adult Learning, pp. 483-485",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f0e53d3e5d7ef057b493b44e547e0fd4c4569fa64d9f1204d12cc44ac2d1d8c0"
+    },
+    {
+      "id": "PV2-CH19-002",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Training versus non-training solutions",
+      "itemFamilyId": "CH19-NONTRAINING-GAP-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "Operators understand a machine hazard and the required safe method, but the guard has been removed and no replacement is available. What is the best response?",
+      "options": [
+        "Repeat the same training and require a higher passing score before operators return.",
+        "Correct the physical guarding deficiency rather than treating the problem primarily as a training gap.",
+        "Issue a reminder poster and ask operators to be more attentive around the exposed point.",
+        "Add a disciplinary rule stating that contact with the hazard is solely the operator responsibility."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Training cannot correct a missing engineering control. The needs analysis should distinguish lack of knowledge or skill from equipment, process, resource, or management deficiencies.",
+      "incorrectOptionExplanations": [
+        "The workers already know the method; retesting does not restore the absent guard.",
+        null,
+        "A reminder is an administrative measure and does not correct the exposed machine hazard.",
+        "Shifting responsibility to workers leaves the physical deficiency in place and misdiagnoses the cause."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Training Needs Analysis, pp. 488-490",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "97ab8cc82de096aa35fd3556651f4b622934d729eb5ec58d2a5cd2ae6c406244"
+    },
+    {
+      "id": "PV2-CH19-003",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Needs-assessment evidence",
+      "itemFamilyId": "CH19-NEEDS-EVIDENCE-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A safety professional is assessing whether forklift refresher training is needed. Which evidence set provides the strongest basis for the decision?",
+      "options": [
+        "The training vendor catalog and the number of available classroom seats.",
+        "A list of every safety course offered during the previous calendar year.",
+        "Task observations, incident and near-miss trends, supervisor input, worker feedback, and demonstrated competency gaps.",
+        "The senior managers preference for online delivery, classroom delivery, course timing, and available meeting space."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A needs assessment should identify actual performance requirements and gaps using multiple relevant data sources rather than starting with a delivery method or course catalog.",
+      "incorrectOptionExplanations": [
+        "Vendor offerings and seating capacity concern logistics, not whether a competency gap exists.",
+        "Past course lists do not establish current job requirements or performance deficiencies.",
+        null,
+        "Management preference alone does not diagnose the learner, task, or organizational need."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Training Needs Analysis and techniques, pp. 488-490",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b6b6becbe1519d504a21c2f92ae7ecd702cd27d31142ed94c1f9bb4049700352"
+    },
+    {
+      "id": "PV2-CH19-004",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Baseline competency",
+      "itemFamilyId": "CH19-BASELINE-COMPETENCY-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "Before designing confined-space attendant training, what should the developer establish first to define the performance gap?",
+      "options": [
+        "The preferred slide template, presentation theme, and maximum number of pages allowed in the final course deck.",
+        "The final course title and the color scheme to be used for participant handouts.",
+        "The number of questions that can fit into a standard twenty-minute posttest.",
+        "The required job competencies and the current ability of the target learners to demonstrate them."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Training needs are based on the difference between required performance and current competency. Establishing both creates a defensible baseline for design.",
+      "incorrectOptionExplanations": [
+        "Presentation format is selected after the need, objectives, and audience requirements are understood.",
+        "Branding choices do not define the knowledge, skill, or performance gap.",
+        "Test length should follow objectives and assessment design, not define the competency requirement.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Training Needs Analysis and program development, pp. 488-490",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "517434563286d1f866e9dc1aac7b45a1cef1d2181a798cd797aec238cd94ae1f"
+    },
+    {
+      "id": "PV2-CH19-005",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "Measurable performance objectives",
+      "itemFamilyId": "CH19-OBJECTIVE-ABCD-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Which learning objective is the most measurable and complete for a respirator inspection lesson?",
+      "options": [
+        "Given an issued half-mask respirator and inspection checklist, each technician will identify all listed defects with no missed critical defect.",
+        "Technicians will understand why respirator inspection is important before using the equipment.",
+        "The instructor will explain every major respirator component, answer participant questions, and show several inspection photographs during the scheduled lesson.",
+        "Participants will become familiar with respirator inspection and appreciate proper maintenance."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The objective identifies the audience, observable behavior, conditions, and performance standard. It can be directly assessed by demonstration.",
+      "incorrectOptionExplanations": [
+        null,
+        "Understand is not directly observable and the objective lacks conditions and a measurable standard.",
+        "This describes instructor activity rather than the learner performance expected after training.",
+        "Become familiar and appreciate are not measurable behaviors and provide no performance criterion."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Written Performance Objectives, pp. 490-491",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "744492189cb63f823db350afd086bb62dee33159ece912e6e967f54a18397425"
+    },
+    {
+      "id": "PV2-CH19-006",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "ADDIE sequence",
+      "itemFamilyId": "CH19-ADDIE-DESIGN-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "During ADDIE analysis, a team identifies the learners, job tasks, existing gaps, constraints, and required outcomes. What is the next phase?",
+      "options": [
+        "Implement the full course immediately and gather participant attendance records.",
+        "Design the learning objectives, assessment approach, sequence, and delivery strategy.",
+        "Evaluate long-term performance before any materials or instruction are developed.",
+        "Retire the identified objectives because analysis is complete and no further planning is needed."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "ADDIE proceeds from Analysis to Design, then Development, Implementation, and Evaluation. Design translates the analyzed need into an instructional plan.",
+      "incorrectOptionExplanations": [
+        "Implementation occurs after design and development, not immediately after analysis.",
+        null,
+        "Evaluation planning can begin early, but outcome evaluation cannot replace the design and development phases.",
+        "Analysis identifies the need; it does not eliminate the need to design and build the program."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, ADDIE System of Training, pp. 485-486",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a9072634939f42433a487e12a2fead6e1ad670fc293ebb3e96e5996d8a9f67ff"
+    },
+    {
+      "id": "PV2-CH19-007",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "Delivery method aligned to objective",
+      "itemFamilyId": "CH19-DELIVERY-ALIGNMENT-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "Workers must learn to inspect, fit, and climb with a new fall-arrest harness. Which delivery approach best matches the performance objective?",
+      "options": [
+        "A text module completed before workers handle the harness.",
+        "A large lecture that describes harness components but does not require a demonstration.",
+        "Instructor demonstration followed by supervised hands-on practice and individual performance checks.",
+        "An email containing the manufacturer brochure and a statement that reading confirms competency."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A physical performance objective requires demonstration, practice, feedback, and direct verification that each learner can perform the task.",
+      "incorrectOptionExplanations": [
+        "Reading can support knowledge but cannot demonstrate fit, inspection, and use skills.",
+        "Lecture alone does not verify the psychomotor performance required by the objective.",
+        null,
+        "Acknowledging an email is not evidence that the worker can inspect and use the harness correctly."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Delivery Methods and selection of training delivery method, pp. 487-491",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "26ad388044bddd9341d53f947ae02c60622ee17abd2a9f571164842083c2e524"
+    },
+    {
+      "id": "PV2-CH19-008",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "Structured on-the-job training",
+      "itemFamilyId": "CH19-STRUCTURED-OJT-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "Which arrangement best distinguishes structured on-the-job training from informal job shadowing?",
+      "options": [
+        "A new employee watches whichever experienced worker is available, copies the observed method, and receives no checklist or feedback.",
+        "The supervisor assigns the task and assumes repeated exposure will eventually produce competence.",
+        "Employees discuss the task during breaks without a standard procedure or performance check.",
+        "A qualified trainer follows defined steps, demonstrates the task, supervises practice, gives feedback, and documents competency."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Structured OJT is planned and consistent, with defined content, competent instruction, learner practice, feedback, and evaluation against a standard.",
+      "incorrectOptionExplanations": [
+        "Uncontrolled observation can transmit inconsistent or unsafe shortcuts and provides no defined evaluation.",
+        "Task exposure alone does not ensure correct instruction, practice quality, or competency verification.",
+        "Informal discussion can support learning but does not constitute a structured instructional process.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Structured On-the-Job Training, pp. 487-488",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d46edf19ea02f121ed7bdb58eee76d8399ff3f039c06ffcda4fafe073bfd4fdd"
+    },
+    {
+      "id": "PV2-CH19-009",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "Computer-based training selection",
+      "itemFamilyId": "CH19-CBT-SELECTION-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A company wants to replace every safety course with computer-based training because it is inexpensive. What is the strongest response?",
+      "options": [
+        "Select CBT only after needs analysis confirms it can meet the objective, audience, practice, accessibility, and evaluation requirements.",
+        "Use CBT for all topics because lower delivery cost proves it is the most effective method for every worker group.",
+        "Reject CBT for line employees because electronic instruction is suitable only for professional staff.",
+        "Choose CBT whenever a posttest can be added, even if the job skill requires supervised practice."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Delivery method follows the analyzed need and learning objective. CBT can be effective, but some skills require demonstration, coaching, interaction, or hands-on verification.",
+      "incorrectOptionExplanations": [
+        null,
+        "Cost matters but does not establish instructional effectiveness or competency transfer.",
+        "CBT can support many worker groups when designed for their needs; a categorical ban is unjustified.",
+        "A knowledge test cannot replace required practice and performance evaluation for psychomotor tasks."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Self-Paced Learning and delivery-method selection, pp. 487-491",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "31d563594c81df218da63a8e631196be33e94d2fb0906c088c60f41fd21e5189"
+    },
+    {
+      "id": "PV2-CH19-010",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Purpose of a pretest",
+      "itemFamilyId": "CH19-PRETEST-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "What is the primary instructional purpose of a pretest given before a course?",
+      "options": [
+        "Certify final competency before instruction and eliminate the need for any later assessment or practical demonstration.",
+        "Establish the learners initial knowledge or skill level so training and later results can be interpreted.",
+        "Guarantee that every learner receives the same score after course completion.",
+        "Measure whether supervisors enforced the new procedure several months after training."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A pretest provides a baseline before instruction. It can identify starting knowledge and support comparison with later assessments.",
+      "incorrectOptionExplanations": [
+        "A pretest occurs before learning and cannot by itself certify final performance.",
+        null,
+        "Assessment does not guarantee equal outcomes; it measures differences against criteria.",
+        "Long-term workplace application is a transfer or performance evaluation, not the primary purpose of a pretest."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Pretests, p. 492",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b81b7ff275087f811bda98b9fb6105f07360c454abe2db1c73540f031a4dec45"
+    },
+    {
+      "id": "PV2-CH19-011",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "Purpose of review tests",
+      "itemFamilyId": "CH19-REVIEW-TEST-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "During a multi-day course, several learners miss the same concept on an end-of-day review quiz. What is the best instructional use of that result?",
+      "options": [
+        "Record the scores only and wait until the final examination to address the concept.",
+        "Remove the difficult concept from the remaining course.",
+        "Provide corrective feedback and adjust instruction before moving to dependent material.",
+        "Treat the missed answers as proof of misconduct and begin disciplinary action."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Review tests provide formative feedback to learners and instructors. A common miss signals a need to clarify, reteach, or add practice before later content builds on it.",
+      "incorrectOptionExplanations": [
+        "Waiting wastes the opportunity for timely correction and may allow misunderstanding to compound.",
+        "Difficulty may identify an instructional gap; it does not justify deleting a required concept.",
+        null,
+        "Assessment errors ordinarily indicate learning needs, not misconduct."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Review Tests, p. 492",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f12697b3c4b9ce3b1304586831e49c0e923c18c068df12e506c8979a982a85ad"
+    },
+    {
+      "id": "PV2-CH19-012",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "Posttest alignment with objectives",
+      "itemFamilyId": "CH19-POSTTEST-ALIGNMENT-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "A course objective requires employees to demonstrate correct spill-kit deployment. Which posttest provides the strongest evidence that the objective was achieved?",
+      "options": [
+        "Employees list the colors used on the training slides from memory.",
+        "Employees complete a satisfaction survey stating whether they enjoyed the instructor.",
+        "The instructor records attendance, confirms that everyone stayed in the room, and assumes they can deploy the kit.",
+        "Each employee performs the deployment in a realistic setup and is scored against the documented performance criteria."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The assessment must directly measure the stated performance. A criterion-based demonstration provides stronger evidence than recall, reaction, or attendance.",
+      "incorrectOptionExplanations": [
+        "Remembering slide colors does not measure spill-kit deployment competence.",
+        "Satisfaction is useful reaction feedback but does not demonstrate task performance.",
+        "Attendance documents presence, not mastery of the objective.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Posttests and performance objectives, pp. 490-492",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f8891f1b23155aa3cccab49cac9be87f04c63c94a8e37f8a52e8606294e34a7b"
+    },
+    {
+      "id": "PV2-CH19-013",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "Training transfer and workplace effectiveness",
+      "itemFamilyId": "CH19-TRANSFER-EFFECTIVENESS-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Posttest scores improved after line-breaking training, but field observations show workers still omit verification steps. What is the best conclusion?",
+      "options": [
+        "Knowledge improved, but workplace transfer is inadequate and requires analysis of practice, supervision, procedure, and job conditions.",
+        "The training is fully effective because written scores increased.",
+        "The workers need no additional support because workplace transfer, supervision, and job conditions are outside the training evaluation process.",
+        "The verification steps should be removed because the posttest did not predict behavior."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Training effectiveness includes application on the job. Improved knowledge with poor transfer signals that additional barriers or design weaknesses must be identified and corrected.",
+      "incorrectOptionExplanations": [
+        null,
+        "Knowledge gain is only one outcome and does not prove correct workplace performance.",
+        "Evaluation should examine whether learned skills are used under actual job conditions.",
+        "Required controls should not be removed merely because the program failed to produce transfer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Testing and Evaluation and training-program evaluation, pp. 486 and 492",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "98f95191bd578718c7484172a78dd7c5b1a669974b543c50f5dbd0b219a9a817"
+    },
+    {
+      "id": "PV2-CH19-014",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "Practice and feedback in course materials",
+      "itemFamilyId": "CH19-PRACTICE-FEEDBACK-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "A lesson introduces a complex inspection checklist. Which sequence is most likely to build usable skill?",
+      "options": [
+        "Distribute the checklist, require silent reading, delay all questions until the following month, and provide no coached practice.",
+        "Explain the purpose, model the inspection, provide guided practice and feedback, then summarize and assess performance.",
+        "Present every policy definition first, then end the lesson before learners practice the inspection.",
+        "Show the completed checklist and allow learners to sign it without performing the inspection."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Effective materials and instruction connect introduction and presentation with practice, feedback, summary, and evaluation.",
+      "incorrectOptionExplanations": [
+        "Reading alone provides no supported practice or timely correction of misunderstanding.",
+        null,
+        "Definitions may support knowledge, but ending before practice does not build the required task skill.",
+        "Signing a completed form does not require learners to perform or demonstrate the inspection process."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Development of Course Materials, pp. 491-492",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0eba741b1fe3b3f2017fa1f86432f59b94add3b0a376dada8e684ec8fab3cd16"
+    },
+    {
+      "id": "PV2-CH19-015",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "Large-group presentation design",
+      "itemFamilyId": "CH19-LARGE-GROUP-PRESENTATION-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "A company president will address 400 employees about major safety goals and performance trends. Which presentation design is most appropriate?",
+      "options": [
+        "A dense slide deck containing every monthly data table in ten-point text.",
+        "A presentation made almost entirely of video so the president provides minimal explanation, context, or opportunity for questions.",
+        "A focused talk supported by readable high-level graphs, selected multimedia, and clear opportunities for follow-up communication.",
+        "An unsupported lecture with no visual representation of the performance trends."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A large audience benefits from clear speaker leadership, legible visuals, selective media, and concise presentation of important trends rather than data overload.",
+      "incorrectOptionExplanations": [
+        "Dense small-text tables are difficult to read and obscure the main message.",
+        "Multimedia should support the speaker and objectives, not replace necessary context and leadership communication.",
+        null,
+        "A purely verbal presentation makes quantitative trends harder to understand and retain."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Instructor-Led Training, media presentations, PowerPoint, and charts, pp. 487 and 492-494",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c2709266b06026f2266d4f980d579533e60f989d1e31be4ec858613f6940cef6"
+    },
+    {
+      "id": "PV2-CH19-016",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.03",
+          "role": "primary"
+        }
+      ],
+      "concept": "Continuous improvement of training",
+      "itemFamilyId": "CH19-CONTINUOUS-IMPROVEMENT-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "Evaluation shows strong knowledge scores, uneven hands-on performance, and repeated errors on one task step. What is the best continuous-improvement action?",
+      "options": [
+        "Keep the course unchanged because the average written score was acceptable.",
+        "Lower the performance standard until the existing hands-on results qualify as passing for every learner in the group.",
+        "Add unrelated content so the next course appears more comprehensive.",
+        "Revise the relevant objective, practice, coaching, and assessment, then re-evaluate performance after the change."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Continuous improvement uses evidence to target the weak part of the instructional system, implement a change, and measure whether performance improves.",
+      "incorrectOptionExplanations": [
+        "The hands-on evidence shows an unresolved objective even when knowledge scores are high.",
+        "Changing the standard to match poor results hides the gap rather than improving competence.",
+        "Unrelated content adds load and does not address the repeated performance error.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, ADDIE evaluation and Testing and Evaluation, pp. 485-486 and 492",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0dd68dd4e4ba2dc1ddb1008c04c1114bc15cd2172b967c6bcbb32d53df442313"
+    }
+  ]
+}

@@ -1,0 +1,821 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-09-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-09",
+  "chapterTitle": "Ventilation",
+  "questions": [
+    {
+      "id": "PV2-CH09-001",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Local exhaust selection",
+      "itemFamilyId": "CH09-LEV-SELECTION-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A highly toxic powder is released from one charging port directly beside the operator. Which ventilation strategy is most appropriate?",
+      "options": [
+        "Enclose the charging point and capture the powder with local exhaust before it enters the breathing zone.",
+        "Use general comfort ventilation to mix the powder uniformly through the room.",
+        "Increase room temperature so buoyancy carries all particles away from the worker.",
+        "Install a high-velocity supply fan behind the operator and rely on it to carry the powder across the room."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Local exhaust is preferred for high-hazard contaminants and point sources because it captures emissions near their origin before they disperse through the room.",
+      "incorrectOptionExplanations": [
+        null,
+        "Diluting a highly toxic point-source particulate exposes more of the room and may require impractical airflow.",
+        "Heating does not provide controlled source capture and may change dispersion unpredictably.",
+        "A supply jet can drive the contaminant through the breathing zone unless source-worker-hood geometry is controlled."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, ventilation selection and local exhaust, pp. 294-305; OSHA OTM Section III, Chapter 3, dilution versus local exhaust",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5ed878bff68c8e793b68d9d150578d30d89ded1cf9c6bc7a904cbb7f74eca861"
+    },
+    {
+      "id": "PV2-CH09-002",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dilution ventilation suitability",
+      "itemFamilyId": "CH09-DILUTION-SELECTION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Which condition most strongly supports considering dilution ventilation as an exposure control?",
+      "options": [
+        "A highly toxic dust is projected from a single grinder toward the worker.",
+        "A moderate-toxicity vapor is generated uniformly from distributed sources with adequate mixing and make-up air.",
+        "An upset can release an unknown, rapidly varying vapor quantity, but the room has a high-capacity general exhaust fan.",
+        "A dense particulate is released from a single machine and must be transported through ducts without settling."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Dilution can be suitable for gases or vapors of moderate toxicity when generation is predictable, sources are dispersed, mixing is adequate, and required air volumes are feasible.",
+      "incorrectOptionExplanations": [
+        "A high-hazard particulate point source calls for source enclosure and local exhaust.",
+        null,
+        "Unknown or rapidly varying generation makes a dilution design unreliable for controlling peaks.",
+        "Particulate transport and source capture are local-exhaust design concerns, not a good dilution application."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, dilution and local ventilation selection, pp. 294-296; OSHA OTM Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9e730d590ba6055eea3c54ac141c9bfd99754edd519ac47e43b9ba87353f730d"
+    },
+    {
+      "id": "PV2-CH09-003",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Round-duct volumetric airflow",
+      "itemFamilyId": "CH09-QVA-ROUND-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "Air velocity is 1,600 ft/min in an 18-in.-diameter round duct. What is the approximate volumetric airflow?",
+      "options": [
+        "1,200 cfm",
+        "28,800 cfm",
+        "2,830 cfm",
+        "5,650 cfm"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The diameter is 1.5 ft, so area = π(0.75 ft)² = 1.767 ft². Q = VA = 1,600 × 1.767 ≈ 2,827 cfm, or about 2,830 cfm.",
+      "incorrectOptionExplanations": [
+        "This multiplies velocity by the radius rather than by cross-sectional area.",
+        "This multiplies by the diameter in inches instead of converting and calculating area.",
+        null,
+        "This is approximately twice the correct flow and results from an incorrect circular area."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, volumetric airflow, pp. 296-297; OSHA OTM ventilation primer",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "Q = V × A; A = π(D/2)²",
+      "units": "cfm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7093d4a379af47cb71df5ceec092dd48183b9e91d2aeb9d482381144254a4cc1"
+    },
+    {
+      "id": "PV2-CH09-004",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Velocity from velocity pressure",
+      "itemFamilyId": "CH09-VP-VELOCITY-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A duct traverse yields a velocity pressure of 0.36 in. water gauge. What air velocity does this represent at standard conditions?",
+      "options": [
+        "1,442 ft/min",
+        "6,675 ft/min",
+        "14,418 ft/min",
+        "2,400 ft/min"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "V = 4,005√VP = 4,005√0.36 = 4,005 × 0.60 = 2,403 ft/min, approximately 2,400 ft/min.",
+      "incorrectOptionExplanations": [
+        "This multiplies 4,005 directly by 0.36 instead of by its square root.",
+        "This divides by √0.36 instead of multiplying.",
+        "This applies an additional factor to the velocity-pressure relationship.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, velocity and velocity pressure, pp. 296-298; OSHA OTM ventilation primer",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "V = 4,005√VP",
+      "units": "ft/min",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a69c4e1388b31a1c8ed538c3b13dbd0b5ea0bbae7aa9cb2b31c7bb8e16ba9dc3"
+    },
+    {
+      "id": "PV2-CH09-005",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Total pressure relationship",
+      "itemFamilyId": "CH09-TOTAL-PRESSURE-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a point upstream of an exhaust fan, static pressure is −1.8 in. water gauge and velocity pressure is 0.5 in. water gauge. What is total pressure at that point?",
+      "options": [
+        "−1.3 in. water gauge",
+        "−2.3 in. water gauge",
+        "+1.3 in. water gauge",
+        "+2.3 in. water gauge"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Total pressure is the algebraic sum: TP = SP + VP = −1.8 + 0.5 = −1.3 in. water gauge.",
+      "incorrectOptionExplanations": [
+        null,
+        "This subtracts velocity pressure instead of adding it algebraically.",
+        "This ignores the negative static-pressure sign upstream of the fan.",
+        "This adds magnitudes and also changes the sign."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, static, velocity, and total pressure, pp. 296-297",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "TP = SP + VP",
+      "units": "in. water gauge",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b03fb1ae19b7e78ba652f56e847f1126163ee0f1702adb63f7a5d19af2d691b6"
+    },
+    {
+      "id": "PV2-CH09-006",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Air changes per hour",
+      "itemFamilyId": "CH09-ACH-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A room measures 30 ft by 40 ft by 15 ft and receives 1,500 cfm of ventilation air. What is the nominal air-change rate?",
+      "options": [
+        "0.083 air changes per hour",
+        "5 air changes per hour",
+        "12 air changes per hour",
+        "50 air changes per hour"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Room volume = 30 × 40 × 15 = 18,000 ft³. ACH = 60Q/V = 60 × 1,500 / 18,000 = 5 h⁻¹.",
+      "incorrectOptionExplanations": [
+        "This omits the conversion from minutes to hours.",
+        null,
+        "This uses an incorrect room volume or airflow ratio.",
+        "This introduces a factor-of-ten error."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, calculating room air changes, pp. 303-304; OSHA OTM ventilation primer",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "ACH = 60Q / room volume",
+      "units": "air changes/hour",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0a72719b8dfb99070843b1a35ecdbe7ad1f7433bc858c660c1d9b398a6ac2df8"
+    },
+    {
+      "id": "PV2-CH09-007",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Purge time after generation stops",
+      "itemFamilyId": "CH09-PURGE-TIME-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "analyze",
+      "stem": "Contaminant generation has stopped in a 40,000-ft³ room. The effective ventilation rate is 2,000 cfm. Assuming complete mixing, how long will it take to reduce concentration from 300 ppm to 30 ppm?",
+      "options": [
+        "20.0 min",
+        "10.0 min",
+        "46.1 min",
+        "92.1 min"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Use t = −(V/Q′) ln(C₂/C₁). Thus t = −(40,000/2,000)ln(30/300) = −20ln(0.10) = 46.05 min.",
+      "incorrectOptionExplanations": [
+        "This calculates V/Q′, the time constant, but does not apply the logarithmic concentration ratio.",
+        "This treats a tenfold concentration reduction as a ten-minute arithmetic change.",
+        null,
+        "This doubles the correct logarithmic purge time."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, calculating purge rates, pp. 300-301; OSHA OTM dilution-ventilation equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "t = −(V/Q′) ln(C₂/C₁)",
+      "units": "min",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b30c87ca9ca4eea19fd07bcf0e81e93fcf482ad44eff03d67d00947963334c25"
+    },
+    {
+      "id": "PV2-CH09-008",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Steady-state concentration",
+      "itemFamilyId": "CH09-STEADY-STATE-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A vapor is generated at 0.8 ft³/min and the effective dilution airflow is 4,000 cfm. Assuming steady state and complete expression of the ratio as ppm, what concentration is expected?",
+      "options": [
+        "0.0002 ppm",
+        "5,000 ppm",
+        "320 ppm",
+        "200 ppm"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "C = G/Q′ = 0.8/4,000 = 0.0002 by volume. Multiplying by 10⁶ gives 200 ppm.",
+      "incorrectOptionExplanations": [
+        "This reports the volume fraction as though it were already ppm.",
+        "This reverses the generation-to-airflow ratio.",
+        "This uses an unrelated multiplication of generation and airflow.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, steady-state concentration, pp. 301-302; OSHA OTM dilution ventilation",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "C (ppm) = (G/Q′) × 10⁶",
+      "units": "ppm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cfafb8af680de7388c4d0f13eda7f9c2a7390228f3e911796f6f3fe6efda804e"
+    },
+    {
+      "id": "PV2-CH09-009",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Liquid-solvent dilution airflow",
+      "itemFamilyId": "CH09-SOLVENT-DILUTION-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "analyze",
+      "stem": "For a screening calculation, a solvent has specific gravity 0.785, evaporation rate 0.010 pint/min, molecular weight 60.1, design concentration 400 ppm, and mixing factor 3. Using Q = (403×10⁶×SG×ER×K)/(MW×C), what airflow is required?",
+      "options": [
+        "395 cfm",
+        "132 cfm",
+        "1,184 cfm",
+        "39.5 cfm"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Q = (403×10⁶×0.785×0.010×3)/(60.1×400) = 394.8 cfm, which rounds to 395 cfm.",
+      "incorrectOptionExplanations": [
+        null,
+        "This omits the mixing factor of 3.",
+        "This applies the mixing factor twice.",
+        "This introduces a factor-of-ten error in evaporation rate or unit conversion."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, rate of generation for liquid solvents, p. 302; OSHA OTM dilution-ventilation equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "Q = (403×10⁶×SG×ER×K)/(MW×C)",
+      "units": "cfm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4f931fdab96080e6f97c945491fe1616b786f0548f07b1614b71b063ae8de820"
+    },
+    {
+      "id": "PV2-CH09-010",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Canopy hood application",
+      "itemFamilyId": "CH09-HOOD-CANOPY-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "Hot vapors rise from a heated tank, and the operator can remain outside the upward contaminant path. Which hood type is most appropriate among the listed choices?",
+      "options": [
+        "A downdraft table that pulls the plume through the worker’s upper body.",
+        "A canopy hood positioned above the tank to receive the rising thermal plume.",
+        "A plain opening placed far from the tank with no enclosure or capture analysis.",
+        "A general supply diffuser directed across the tank toward the operator."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A canopy hood can receive hot gases or vapors that rise naturally, provided the worker is not positioned between the source and the hood and cross-drafts are controlled.",
+      "incorrectOptionExplanations": [
+        "This arrangement could draw rising vapors through the breathing zone and opposes the plume direction.",
+        null,
+        "Capture falls rapidly with distance, so a remote opening may be ineffective.",
+        "The supply jet can spread the contaminant and disrupt capture."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, canopy, downdraft, enclosure, and receiving hoods, pp. 305-306; OSHA OTM hood selection",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "740467e01fb2f76f92b2178c8083bc7c3418b9e066fd94e3f34bc83ad2d0b09e"
+    },
+    {
+      "id": "PV2-CH09-011",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Capture velocity at a plain opening",
+      "itemFamilyId": "CH09-CAPTURE-VELOCITY-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A plain-opening hood moves 900 cfm. The source is 1.0 ft from the opening, and the hood area is 0.75 ft². Using V = Q/(10X² + A), what is the approximate capture velocity at the source?",
+      "options": [
+        "120 ft/min",
+        "9.3 ft/min",
+        "83.7 ft/min",
+        "1,200 ft/min"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "V = 900/[10(1.0)² + 0.75] = 900/10.75 = 83.72 ft/min, approximately 83.7 ft/min.",
+      "incorrectOptionExplanations": [
+        "This divides flow by hood area and ignores distance from the opening.",
+        "This introduces an extra factor of ten in the denominator.",
+        null,
+        "This calculates face velocity Q/A rather than capture velocity at the remote source."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, capture velocity for a plain opening hood, pp. 309-310; OSHA OTM ventilation primer",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "V = Q/(10X² + A)",
+      "units": "ft/min",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "593eb3712265d087a186428aee546cf0652561bdac4e6bf457749f77d6f98173"
+    },
+    {
+      "id": "PV2-CH09-012",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Cross-draft interference with capture",
+      "itemFamilyId": "CH09-CROSSDRAFT-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "A local exhaust hood has the specified flow, but a pedestal fan pushes the contaminant plume past the operator before it reaches the hood. What is the best corrective action?",
+      "options": [
+        "Increase the fan speed at the pedestal fan to move the plume faster.",
+        "Verify only the design duct velocity and accept the hood even though the plume crosses the worker’s breathing zone.",
+        "Rely on respirators and leave the conflicting airflows unchanged.",
+        "Remove or redirect the cross-draft and reposition the source, worker, and hood so the plume enters the hood first."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Total airflow alone does not prove effective capture. Cross-drafts and poor geometry can overpower hood-induced velocity and carry contaminant through the worker’s breathing zone.",
+      "incorrectOptionExplanations": [
+        "A stronger cross-draft can further defeat local capture.",
+        "Duct flow does not confirm that contaminant is captured at the source.",
+        "Respirators may be needed temporarily, but the engineering-control defect should be corrected.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, local exhaust and capture velocity, pp. 305-310; OSHA OTM Section III, Chapter 3, hood and cross-draft evaluation",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "38d36ed583df62938fee7c2a9dc47d63918372d8ce174dc4564c0750d031f52d"
+    },
+    {
+      "id": "PV2-CH09-013",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Velocity-pressure measurement",
+      "itemFamilyId": "CH09-PITOT-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Which instrument arrangement is used to determine velocity pressure inside a ventilation duct?",
+      "options": [
+        "A Pitot tube connected to a differential-pressure instrument.",
+        "A smoke tube used as the sole quantitative pressure instrument.",
+        "A noise dosimeter attached to the duct wall.",
+        "A sorbent tube connected directly to a manometer."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A Pitot traverse measures pressure components in the duct. Velocity pressure can then be converted to air velocity using the applicable relationship and density correction.",
+      "incorrectOptionExplanations": [
+        null,
+        "Smoke visualizes airflow direction and capture but does not provide a quantitative velocity-pressure reading.",
+        "A dosimeter integrates sound exposure and does not measure ventilation pressure.",
+        "A sorbent tube collects contaminants; it is not a pressure probe."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, ventilation measurement equipment and Pitot tubes, p. 312; OSHA OTM ventilation primer",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "V = 4,005√VP at standard air density",
+      "units": "in. water gauge and ft/min",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d988079b10e929a9a3148c265508de083cc403cda99e2b65426775aba9b5d1c7"
+    },
+    {
+      "id": "PV2-CH09-014",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Make-up air and exhaust-system performance",
+      "itemFamilyId": "CH09-MAKEUP-AIR-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "After a large exhaust fan is commissioned, exterior doors become difficult to open and measured hood flows fall below design. What is the most likely system issue?",
+      "options": [
+        "The room has too much make-up air, which always lowers exhaust flow.",
+        "Insufficient make-up air is causing excessive negative pressure and reduced exhaust flow.",
+        "The hoods are necessarily oversized because doors are hard to open.",
+        "Increase fan speed immediately without evaluating replacement air, room pressure, or the supply-air system."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Air removed by exhaust must be replaced. Inadequate make-up air increases building negative pressure, can reduce fan delivery, disrupt hood capture, and draw uncontrolled air through openings.",
+      "incorrectOptionExplanations": [
+        "The described door pressure and reduced hood flow are characteristic of insufficient replacement air.",
+        null,
+        "Hood size alone does not explain whole-building negative pressure after a major exhaust increase.",
+        "Increasing exhaust without adequate replacement air can worsen the pressure imbalance."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, general ventilation concepts, fans, and system performance, pp. 294-312; OSHA OTM Section III, Chapter 3, make-up air",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f76fe5a46779b4f797aba065c1e2b01481a17d0047450dcf5844b1975f894a87"
+    }
+  ]
+}

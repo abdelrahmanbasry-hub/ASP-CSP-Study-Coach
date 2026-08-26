@@ -1,0 +1,1045 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-12-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-12",
+  "chapterTitle": "Fire Prevention and Protection",
+  "questions": [
+    {
+      "id": "PV2-CH12-001",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fire tetrahedron and extinguishment",
+      "itemFamilyId": "CH12-TETRAHEDRON-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "A solvent fire is sustained by fuel vapor, oxygen, heat, and a continuing chemical chain reaction. Why can a suitable extinguishing agent stop the fire?",
+      "options": [
+        "It raises the fuel flash point and suppresses vapor formation only after the available liquid fuel has been completely consumed by the fire.",
+        "It converts every fire into a Class A fire before cooling begins.",
+        "It interrupts at least one required component of the fire tetrahedron, such as heat, oxygen, fuel vapor, or the chain reaction.",
+        "It works only by lowering atmospheric pressure below the boiling point of the fuel."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Combustion cannot continue when one of the four components is removed or interrupted. Different extinguishing agents work by cooling, smothering, separating fuel, or inhibiting the chain reaction.",
+      "incorrectOptionExplanations": [
+        "Extinguishment must interrupt combustion while fuel remains; it does not depend on complete fuel consumption.",
+        "Fire class is based on the fuel or hazard involved and is not converted as a required step.",
+        null,
+        "Portable and fixed suppression systems use several mechanisms and do not normally extinguish by depressurizing the entire area."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 12, fire tetrahedron and classification of fires, pp. 352-354",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9b984987a683c075dcfc20ce543f5c0eb0a0914aaf34ab0902234507d0092ed9"
+    },
+    {
+      "id": "PV2-CH12-002",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Radiant heat transfer",
+      "itemFamilyId": "CH12-HEAT-RADIATION-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "understand",
+      "stem": "Workers feel intense heat from a furnace across an open aisle even though they are not touching the furnace and no hot air is directed at them. Which heat-transfer mechanism is dominant?",
+      "options": [
+        "Conduction through direct contact between the worker and the furnace shell.",
+        "Convection caused by a liquid carrying heat through a pipe to the worker.",
+        "Evaporation of sweat from the worker into the furnace.",
+        "Thermal radiation traveling across the space from the hot furnace surface."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Radiation transfers thermal energy by electromagnetic waves and does not require contact or movement of a heated fluid between the source and the worker.",
+      "incorrectOptionExplanations": [
+        "Conduction requires contact or a continuous material path, which the scenario does not provide.",
+        "The scenario does not describe a moving heated fluid delivering the dominant exposure.",
+        "Evaporation is a body-cooling mechanism, not the source-to-worker heat-transfer mechanism described.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 12, heat transfer by radiation, convection, and conduction, pp. 351-352",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b7296c9399db68eac2c5e385b7f52d1c1dbaf2bd53976580b6d817941fde1a86"
+    },
+    {
+      "id": "PV2-CH12-003",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Conduction during hot work",
+      "itemFamilyId": "CH12-HEAT-CONDUCTION-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A welder heats one side of a steel partition. Cardboard stored against the opposite side begins to char even though sparks never reached it. What best explains the ignition pathway?",
+      "options": [
+        "Heat was conducted through the metal partition to the combustible material on the opposite side.",
+        "The cardboard ignited because its vapor density was greater than air and combustible vapor accumulated behind the steel partition during the welding operation.",
+        "A Class D chain reaction traveled through the partition without heating it.",
+        "The partition removed oxygen from the cardboard until autoignition occurred."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Conduction transfers heat through material in contact. OSHA hot-work precautions address combustibles on the opposite side of metal walls or partitions because conducted heat can ignite them.",
+      "incorrectOptionExplanations": [
+        null,
+        "Vapor density does not explain heat transfer through a solid partition.",
+        "The scenario involves ordinary combustible material and transferred heat, not a combustible-metal fire.",
+        "Oxygen removal would inhibit combustion rather than explain the heating and charring."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.252 - Welding, Cutting, and Brazing General Requirements",
+      "sourceLocation": "Yates Chapter 12, conduction, pp. 351-352; OSHA 1910.252(a)(2), combustibles on the opposite side of metal partitions",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fe7eb57a95e48a918610da3fd64d153b7ed9814df98ee730d53fb0ba1efd2c46"
+    },
+    {
+      "id": "PV2-CH12-004",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Flash point",
+      "itemFamilyId": "CH12-FLASH-POINT-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "What does the flash point of a liquid describe?",
+      "options": [
+        "The temperature at which the liquid boils throughout its entire volume.",
+        "The lowest temperature at which the liquid gives off enough vapor to form an ignitable mixture under the specified test conditions.",
+        "The temperature at which the material ignites without any external ignition source.",
+        "The maximum temperature at which a flame can propagate through every possible vapor concentration in air without an external ignition source or additional heat input."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Flash point indicates susceptibility to ignition by describing when sufficient vapor is available near the liquid surface to ignite in the presence of an ignition source.",
+      "incorrectOptionExplanations": [
+        "Boiling point is reached when vapor pressure equals the surrounding pressure and is different from flash point.",
+        null,
+        "That is the autoignition temperature.",
+        "Flame propagation depends on the flammable range and conditions, not a single maximum temperature defined this way."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.106 - Flammable Liquids",
+      "sourceLocation": "Yates Chapter 12, fire terminology and flammable-liquid properties, pp. 350-364; OSHA 1910.106(a), definitions",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.106"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d9139a6192154849ebe7db255a86c6415a6b8f6ab7405318ae2dbcc8cd5d5ecc"
+    },
+    {
+      "id": "PV2-CH12-005",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Lower and upper flammable limits",
+      "itemFamilyId": "CH12-FLAMMABLE-RANGE-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "A vapor has an LFL of 2% and a UFL of 10% by volume in air. Which atmosphere is within its flammable range under the stated conditions?",
+      "options": [
+        "A concentration of 1% vapor in air.",
+        "A concentration of 12% vapor in air.",
+        "A concentration of 6% vapor in air.",
+        "A concentration of 0% vapor in air."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A concentration between the LFL and UFL can propagate flame when an ignition source and other required conditions are present. Six percent lies between 2% and 10%.",
+      "incorrectOptionExplanations": [
+        "One percent is below the LFL and is too lean under the stated conditions.",
+        "Twelve percent is above the UFL and is too rich under the stated conditions, although dilution with air can move it into the flammable range.",
+        null,
+        "Without fuel vapor, the mixture cannot be within the flammable range."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 12, lower and upper flammability limits, pp. 350 and 362-363",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": "Flammable when LFL < concentration < UFL under the specified conditions",
+      "units": "volume percent vapor in air",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c7d1b90ff2973787149e4bfb7aea4a7afaf9c9fe7ec1c8e3774ad20cfa0ca043"
+    },
+    {
+      "id": "PV2-CH12-006",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Vapor density and ventilation location",
+      "itemFamilyId": "CH12-VAPOR-DENSITY-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A flammable solvent vapor has a vapor density well above 1. A leak occurs in a room containing a floor pit. Where is hazardous accumulation most likely if ventilation is inadequate?",
+      "options": [
+        "Only at ceiling level, because released solvent vapors always rise with warm room air and cannot migrate into floor pits or other low areas.",
+        "Only inside closed liquid containers because released vapor cannot move through a room.",
+        "Uniformly at every elevation regardless of ventilation, barriers, and temperature.",
+        "At low elevations and in the pit, where the heavier-than-air vapor can migrate and collect."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Vapors with density greater than air tend to settle and travel to low points. OSHA requires ventilation design to consider this behavior and prevent accumulation in pits or basements.",
+      "incorrectOptionExplanations": [
+        "A vapor heavier than air can remain low even though local heating and air movement may affect its path.",
+        "Released vapor can travel from the source and accumulate at remote low points.",
+        "Concentration is influenced by vapor density, air movement, geometry, release rate, and ventilation.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.106 - Flammable Liquids",
+      "sourceLocation": "Yates Chapter 12, vapor density, p. 364; OSHA 1910.106(f)(2)(iii), ventilation and low-point accumulation",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.106"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "214440a10348cc537d691a51d0a36880fed9605e9974398d0507d876cd420515"
+    },
+    {
+      "id": "PV2-CH12-007",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Energized electrical fire classification",
+      "itemFamilyId": "CH12-CLASS-C-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "Smoke and flame are visible inside an energized electrical control cabinet. If an incipient-stage response is authorized and safe, which extinguisher characteristic is essential?",
+      "options": [
+        "The agent must be suitable for energized electrical equipment and nonconductive until the equipment is de-energized.",
+        "The extinguisher must discharge a continuous electrically conductive water stream so internal conductors can be cooled before electrical power is isolated from the cabinet.",
+        "The extinguisher must be labeled only for Class K cooking media.",
+        "The extinguisher must be a Class D metal-powder agent regardless of the cabinet contents."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The energized electrical hazard makes the incident a Class C fire for extinguisher selection. After power is safely removed, the underlying fuel class determines continued extinguishment needs.",
+      "incorrectOptionExplanations": [
+        null,
+        "A conductive stream can create shock and arc hazards on energized equipment.",
+        "Class K agents address commercial cooking oils and fats, not energized electrical equipment.",
+        "Class D agents are for combustible metals, not ordinary energized electrical equipment."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.157 - Portable Fire Extinguishers",
+      "sourceLocation": "Yates Chapter 12, Class C fires and extinguisher selection, pp. 353-357; OSHA 1910.157(d)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.157"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9e60bd3625c9ca3626345bfa6935b4c9a78bb35e46b3eba0ef2645034d9861a8"
+    },
+    {
+      "id": "PV2-CH12-008",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Class K commercial cooking fire",
+      "itemFamilyId": "CH12-CLASS-K-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "A commercial deep fryer containing hot cooking oil ignites. Which portable extinguisher class is specifically intended for this hazard?",
+      "options": [
+        "A water-only Class A extinguisher applied directly into the hot oil.",
+        "A Class K wet-chemical extinguisher compatible with the commercial cooking-oil hazard.",
+        "A Class D dry-powder extinguisher intended for combustible metals.",
+        "A hose stream selected only because the fire is producing heavy smoke."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Class K extinguishers are designed for high-temperature cooking oils and fats and use an agent suited to cooling and suppressing reflash in that fuel.",
+      "incorrectOptionExplanations": [
+        "Water can violently spread burning oil and is not the appropriate agent for the fryer hazard.",
+        null,
+        "Class D agents address metal fires, not cooking oils.",
+        "Smoke volume does not determine agent compatibility, and an inappropriate water stream can worsen the event."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 12, Class K fires and portable extinguishers, pp. 354-357",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a5580ba97b7e5f3cecc24da22c2faadaffd35219ad4dde04ef875be19feb02e2"
+    },
+    {
+      "id": "PV2-CH12-009",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Class D combustible-metal fire",
+      "itemFamilyId": "CH12-CLASS-D-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "Fine magnesium turnings ignite in a machining area. Which response is most appropriate for the burning material?",
+      "options": [
+        "Apply a straight water stream from a safe distance to cool the burning turnings rapidly and prevent heat from spreading to nearby combustible materials.",
+        "Use a Class K wet-chemical extinguisher because both hazards involve high temperatures.",
+        "Use an extinguishing agent specifically approved for the combustible metal and follow the site emergency procedure.",
+        "Disperse the burning turnings with compressed air to reduce pile depth."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Combustible metals require Class D agents selected for the particular metal. Water or an incompatible multipurpose agent may react dangerously or spread the burning material.",
+      "incorrectOptionExplanations": [
+        "Water can react violently with some burning metals and is not a universal Class D agent.",
+        "Class K is intended for commercial cooking media, not combustible metals.",
+        null,
+        "Compressed air can spread burning particles and increase the fire and exposure area."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.157 - Portable Fire Extinguishers",
+      "sourceLocation": "Yates Chapter 12, Class D fires, pp. 353-357; OSHA 1910.157(d)(6)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.157"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cd6ebe024b8070db5cd4e9e662642574021f7195be3e3d77efd8fe1b1b220086"
+    },
+    {
+      "id": "PV2-CH12-010",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Class B extinguisher travel distance",
+      "itemFamilyId": "CH12-EXT-TRAVEL-B-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Under OSHA general-industry requirements, what is the maximum travel distance from a Class B hazard area to an appropriate portable extinguisher?",
+      "options": [
+        "25 ft (7.6 m) or less for every Class B hazard.",
+        "75 ft (22.9 m) or less, the same maximum used for Class A coverage.",
+        "100 ft (30.5 m) or less if the extinguisher is visible from the hazard.",
+        "No more than 50 ft (15.2 m) from the Class B hazard."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "OSHA 1910.157(d)(4) requires Class B portable extinguishers to be distributed so travel distance from the hazard area is no more than 50 ft.",
+      "incorrectOptionExplanations": [
+        "OSHA does not set a universal 25-ft travel distance for Class B hazards.",
+        "The Class B maximum is 50 ft; 75 ft is associated with Class A and certain Class D distribution requirements.",
+        "Visibility does not extend the maximum Class B travel distance to 100 ft.",
+        null
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.157 - Portable Fire Extinguishers",
+      "sourceLocation": "OSHA 1910.157(d)(4), Class B extinguisher distribution",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.157"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": "ft and m",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fcd61e33f5bda56bd2cbf9c8dedcbce2180d4825cf5a3570013d2a5e580260ba"
+    },
+    {
+      "id": "PV2-CH12-011",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Portable extinguisher inspection and education",
+      "itemFamilyId": "CH12-EXT-INSPECTION-TRAINING-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employer provides portable extinguishers for employee use but checks them only during the annual contractor service and gives extinguisher education only at hire. What is missing?",
+      "options": [
+        "Monthly visual inspections and refresher education at least annually, in addition to required maintenance and testing.",
+        "Nothing is missing because annual contractor service replaces all inspections and education.",
+        "A daily hydrostatic pressure test for every extinguisher, plus monthly live-fire discharge drills for every employee assigned anywhere in the facility.",
+        "Only a written policy stating that employees may use any extinguisher on any fire."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "OSHA requires portable extinguishers to be visually inspected monthly. Employees expected to use them must receive education initially and at least annually, while maintenance and testing are separate obligations.",
+      "incorrectOptionExplanations": [
+        null,
+        "Annual maintenance does not replace monthly visual inspection or recurring employee education.",
+        "Hydrostatic intervals depend on extinguisher type, and OSHA does not require daily testing or universal monthly live-fire drills.",
+        "Employees need education on principles, hazards, limitations, and appropriate extinguisher selection."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.157 - Portable Fire Extinguishers; OSHA Evacuation Plans eTool - Portable Fire Extinguisher Use",
+      "sourceLocation": "OSHA 1910.157(e)(2) and (g)(1)-(2), monthly inspection and initial/annual education",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.157",
+        "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f6b951b881fbf1fa6358e74129668893f0ff120ad17453a7dda08f651b7f1ece"
+    },
+    {
+      "id": "PV2-CH12-012",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Safe extinguisher-use decision",
+      "itemFamilyId": "CH12-EXT-USE-DECISION-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "A trained employee considers using an extinguisher on a small wastebasket fire. Which condition most strongly supports a safe incipient-stage attempt?",
+      "options": [
+        "The employee must pass through light smoke to approach the fire, but the extinguisher is large enough and another worker is standing near the doorway.",
+        "The alarm has been raised, the correct extinguisher is available, the fire is small, and a clear exit remains behind the employee.",
+        "The fire has reached the ceiling, but the employee can stand close enough to aim at the flames.",
+        "The extinguisher label is unreadable, but any agent is acceptable for a wastebasket fire."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Employees should fight only small, developing fires within their training and equipment capability while maintaining an escape route. If the fire grows, smoke increases, or escape is threatened, evacuation is required.",
+      "incorrectOptionExplanations": [
+        "Entering smoke or losing a safe escape route is not an acceptable incipient-stage response.",
+        null,
+        "A fire beyond the incipient stage requires evacuation and professional response.",
+        "The extinguisher must be identified as suitable and operable; an unknown agent may create additional hazards."
+      ],
+      "sourceTitle": "OSHA Evacuation Plans eTool - Portable Fire Extinguisher Use",
+      "sourceLocation": "OSHA extinguisher-use guidance: alarm, safe evacuation path, appropriate agent, PASS technique, and immediate evacuation if the fire progresses",
+      "sourceUrls": [
+        "https://www.osha.gov/etools/evacuation-plans-procedures/emergency-standards/portable-extinguishers/use"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8091c0c18ff6f140992d0e33d59d97df93b08c53bea124f580fb346398d07649"
+    },
+    {
+      "id": "PV2-CH12-013",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sprinkler clearance",
+      "itemFamilyId": "CH12-SPRINKLER-CLEARANCE-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "Warehouse cartons are stacked 8 in. below automatic sprinklers. What is the most appropriate correction under OSHA 1910.159?",
+      "options": [
+        "Leave the storage because any visible gap below a sprinkler is adequate.",
+        "Raise the storage until cartons nearly touch the sprinkler so heat reaches the element sooner.",
+        "Lower the storage so at least 18 in. of vertical clearance remains below the sprinklers.",
+        "Cover the sprinkler heads with plastic to prevent dust contamination from the cartons."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "OSHA requires a minimum 18-in. vertical clearance between sprinklers and material below to reduce obstruction of the discharge pattern.",
+      "incorrectOptionExplanations": [
+        "The standard specifies a minimum clearance rather than any visible gap.",
+        "Obstruction can prevent proper water distribution and can damage the sprinkler.",
+        null,
+        "Covering heads can delay or prevent operation and is not an acceptable storage correction."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.159 - Automatic Sprinkler Systems",
+      "sourceLocation": "OSHA 1910.159(c)(10), minimum 18-in. vertical clearance",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.159"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": "in. and cm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9a4dddac44dfda2b03d892617cc034f454de512902ec00132ccf67476a547367"
+    },
+    {
+      "id": "PV2-CH12-014",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dry-pipe sprinkler application",
+      "itemFamilyId": "CH12-SPRINKLER-DRYPIPE-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "apply",
+      "stem": "A sprinkler system must protect an unheated loading canopy where water-filled piping would routinely freeze. Which system type is generally the most suitable starting choice?",
+      "options": [
+        "A wet-pipe system with water continuously filling all exposed piping, combined with electric heat tracing installed only after the first freeze-related failure occurs.",
+        "A residential garden-hose network charged only when an employee notices a fire.",
+        "A deluge system selected solely because the outdoor temperature is low.",
+        "A dry-pipe system that keeps pressurized air or gas in the piping until operation admits water."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Dry-pipe systems are used where freezing is a concern because water is not normally held in the exposed branch piping. Design and maintenance must still match the hazard and applicable codes.",
+      "incorrectOptionExplanations": [
+        "Water-filled piping in a routinely freezing area is vulnerable to freeze damage and loss of protection.",
+        "An improvised manual system is not an automatic sprinkler design.",
+        "Deluge systems address special rapid-spread hazards with open nozzles; low temperature alone does not make deluge the normal choice.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.159 - Automatic Sprinkler Systems",
+      "sourceLocation": "Yates Chapter 12, wet- and dry-pipe sprinkler systems, pp. 357-358; OSHA 1910.159, automatic sprinkler design and maintenance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.159"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f1d4740d4a7c9400f162f2194571863a3dcae52a5390dab9dcd307e48741a117"
+    },
+    {
+      "id": "PV2-CH12-015",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Preaction versus deluge systems",
+      "itemFamilyId": "CH12-SPRINKLER-PREACTION-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A records archive needs automatic sprinkler protection but also needs extra protection against accidental water discharge from a damaged sprinkler head. Which arrangement best fits that concern?",
+      "options": [
+        "A properly designed preaction system that requires a separate detection event before water enters the piping.",
+        "A deluge system with open nozzles that discharges across the entire archive when a separate heat-detection system activates in any part of the room.",
+        "A wet-pipe system with water permanently at every sprinkler and no detection interlock.",
+        "Removal of automatic protection and reliance only on portable extinguishers."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Preaction systems combine detection with sprinkler piping so water is admitted only after the detection condition is met. This reduces the chance that accidental mechanical damage alone will release water.",
+      "incorrectOptionExplanations": [
+        null,
+        "Deluge systems intentionally deliver water broadly and are used for special high-hazard applications, not to minimize accidental discharge.",
+        "Wet-pipe systems are simple and reliable but do not provide the requested additional interlock against accidental head damage.",
+        "Portable extinguishers do not replace required or selected automatic suppression for the protected hazard."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 12, deluge and preaction sprinkler systems, pp. 358-359",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "788521ccfbefdc90b3d294c27c074cad461f5be5814114478530e757efa26751"
+    },
+    {
+      "id": "PV2-CH12-016",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fire detector reliability and response",
+      "itemFamilyId": "CH12-DETECTION-RELIABILITY-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "A detector repeatedly accumulates process dust and becomes slow to respond. Which program action best meets the purpose of OSHA fire-detection requirements?",
+      "options": [
+        "Disable the detector permanently because nuisance conditions prove that detection is unnecessary.",
+        "Use a detector suitable for the environment and maintain, clean, test, and adjust the system as needed so it remains reliable and provides timely warning or suppression activation.",
+        "Increase the programmed alarm delay, reduce detector sensitivity, and extend cleaning intervals so process dust produces fewer nuisance alarms during normal production while the same detector remains installed.",
+        "Paint over the detector openings to keep dust out while leaving the device in service."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Detection equipment must be approved for its purpose, protected from environmental damage, and maintained in operable condition. Dust-sensitive devices require regular cleaning and testing by knowledgeable personnel.",
+      "incorrectOptionExplanations": [
+        "The hazard still requires effective detection if the system is installed to meet a requirement; the equipment or location should be corrected.",
+        null,
+        "Detection systems must provide timely warning, and delays cannot be used to conceal reliability problems.",
+        "Obstructing the sensing path can render the detector inoperable."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.164 - Fire Detection Systems",
+      "sourceLocation": "Yates Chapter 12, fire detection, pp. 359-360; OSHA 1910.164(b)-(e), installation, maintenance, cleaning, testing, and response time",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.164"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0c92c7f85c6e7bc60588e65efefa1b659c7f4bb43d2115642672c220297b98de"
+    },
+    {
+      "id": "PV2-CH12-017",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.03e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Flammable-liquid transfer and static control",
+      "itemFamilyId": "CH12-FLAM-LIQ-TRANSFER-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Workers dispense a low-flash-point solvent into metal containers in a room with a floor pit. Which combination most directly controls vapor ignition and accumulation?",
+      "options": [
+        "Use nonconductive plastic liners, disconnect bonding cables to prevent sparks, and shut off low-level ventilation so solvent vapor does not spread through the room during transfer.",
+        "Rely only on a No Smoking sign while leaving unbonded transfer equipment and the pit unventilated.",
+        "Electrically interconnect the nozzle and receiving container, control ignition sources, and operate ventilation designed for heavier-than-air vapor and low-point accumulation.",
+        "Heat the solvent before transfer so it flows faster and the operation ends sooner."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Bonding reduces static potential during dispensing, while ignition control and low-level ventilation address the possible travel and accumulation of flammable vapor. These controls work together rather than substituting for one another.",
+      "incorrectOptionExplanations": [
+        "Interrupting bonding and stopping ventilation can increase static and vapor-accumulation hazards.",
+        "Signs support the program but do not replace engineering controls for static and vapor accumulation.",
+        null,
+        "Heating can increase vapor generation and ignition risk, especially near the flash point."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.106 - Flammable Liquids",
+      "sourceLocation": "Yates Chapter 12, vapor density and flammable-liquid storage, pp. 360-365; OSHA 1910.106(f)(2)(iii), (f)(3)(iv), and container-filling static protection",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.106"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "709b52e2a6ad6a0e2a8f2956685eb9c8666dcba40a37681534a88fbd13a9fac9"
+    },
+    {
+      "id": "PV2-CH12-018",
+      "version": 1,
+      "chapterId": "ch-12",
+      "chapterTitle": "Fire Prevention and Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hot work and combustible dust control",
+      "itemFamilyId": "CH12-HOTWORK-DUST-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "Maintenance proposes welding near equipment and overhead surfaces coated with combustible dust. What is the best authorization decision?",
+      "options": [
+        "Proceed after using compressed air to blow settled dust from the immediate welding area into the upper room volume, then rely on general ventilation and a portable extinguisher to control any ignition.",
+        "Proceed because a portable extinguisher is present, even though dust remains on overhead surfaces.",
+        "Wet only the floor beneath the welding point and ignore dust on equipment and concealed spaces.",
+        "Do not begin until combustible dust and hidden deposits are assessed and controlled, the area is authorized, extinguishing equipment is ready, and a fire watch is assigned where required."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Hot work can ignite settled or suspended combustible dust and hidden combustibles. OSHA requires the area to be fire safe, with combustibles removed or protected and fire watches used where needed; dust controls must avoid creating a hazardous cloud.",
+      "incorrectOptionExplanations": [
+        "Dispersing combustible dust can create a flash-fire or explosion hazard.",
+        "An extinguisher does not replace hazard removal, authorization, isolation, and fire-watch precautions.",
+        "Ignition can occur beyond the floor, including on elevated surfaces and across openings or partitions.",
+        null
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.252 - Welding, Cutting, and Brazing General Requirements; OSHA Technical Manual, Section IV, Chapter 6 - Combustible Dusts",
+      "sourceLocation": "OSHA 1910.252(a), fire-safe hot work, authorization, combustible control, and fire watch; OSHA OTM combustible-dust ignition and housekeeping guidance",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.252",
+        "https://www.osha.gov/sites/default/files/otm_secIV_chap6.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-25",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d9dbb3c4567168514c3b79bc0fe1bdde551f64ba771767d4b7dc05dfe6de5c8e"
+    }
+  ]
+}
