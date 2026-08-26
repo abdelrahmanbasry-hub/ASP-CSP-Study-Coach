@@ -10,8 +10,8 @@ import { BODY_SYSTEMS, getHazardBodySystems, type BodySystemId } from "./visualL
 
 type LibraryTab = "flashcards" | "formulas" | "hazards";
 
-export default function StudyLibrary({ progress, onProgress }: { progress: LearningProgress; onProgress: (next: LearningProgress) => void }) {
-  const [tab, setTab] = useState<LibraryTab>("flashcards");
+export default function StudyLibrary({ progress, onProgress, initialTab = "flashcards" }: { progress: LearningProgress; onProgress: (next: LearningProgress) => void; initialTab?: LibraryTab }) {
+  const [tab, setTab] = useState<LibraryTab>(initialTab);
   return (
     <main className="resource-page library-page">
       <section className="library-hero page-width"><div><p className="eyebrow"><BookOpenCheck size={16} /> Study library</p><h1>Retrieve. Apply. Space the review.</h1><p>Use flashcards for recurring recall, the formula library for structured problem solving, and bilingual hazard tables for occupational-health review.</p></div><div className="library-hero-stat"><strong>{FLASHCARDS.length + FORMULA_ENTRIES.length + HAZARD_RECORDS.length}</strong><span>reference records</span></div></section>

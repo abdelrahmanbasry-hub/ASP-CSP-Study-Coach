@@ -18,13 +18,18 @@ import {
   Flag,
   Gauge,
   History,
+  Home,
   Library,
-  LayoutDashboard,
   LockKeyhole,
   Menu,
   Search,
   Settings2,
   ShieldCheck,
+  BookMarked,
+  Calculator,
+  FlaskConical,
+  GraduationCap,
+  ClipboardCheck,
   Sparkles,
   Target,
   TrendingUp,
@@ -96,7 +101,7 @@ import { getSupabaseBrowserClient } from "./supabase-client";
 import { clearLocalProgress } from "./localProgressReset";
 import type { Session } from "@supabase/supabase-js";
 
-type MainView = "study" | "homework" | "practice" | "key-information" | "library" | "stats" | "review";
+type MainView = "study" | "homework" | "practice" | "exam-practice" | "key-information" | "library" | "library-hazards" | "library-formulas" | "library-standards" | "library-guides" | "stats" | "review";
 type ActiveView = MainView | "quiz" | "results";
 type ExamTrack = "ASP" | "CSP";
 type DomainId = string;
@@ -1163,31 +1168,50 @@ export default function AdaptiveCoach() {
     );
   }
 
+  const libraryActive = ["key-information", "library", "library-hazards", "library-formulas", "library-standards", "library-guides"].includes(view);
+  const closeAndNavigate = (next: MainView) => {
+    setNavOpen(false);
+    navigate(next);
+  };
+
   return (
     <div className="app-shell">
-      <header className="topbar">
-        <div className="brand-zone">
+      <aside className={navOpen ? "app-sidebar open" : "app-sidebar"} aria-label="Primary navigation">
+        <div className="sidebar-brand">
           <button className="brand" onClick={() => navigate("study")} aria-label="ASP and CSP Coach home">
             <span className="brand-mark"><ShieldCheck size={22} /></span>
-            <span><strong>{saved.activeExam}</strong><em>{"// COACH"}</em></span>
+            <span><strong>ASP <i>{"//"}</i> COACH</strong><em>Study Platform</em></span>
           </button>
-          <label className="exam-switcher">
-            <span>Preparing for</span>
-            <select value={saved.activeExam} onChange={(event) => changeExam(event.target.value as ExamTrack)}>
-              <option value="ASP">BCSP ASP®</option>
-              <option value="CSP">BCSP CSP®</option>
-            </select>
-          </label>
         </div>
-        <nav className={navOpen ? "main-nav open" : "main-nav"} aria-label="Main navigation">
-          <button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard size={17} /> Study</button>
-          <button className={view === "homework" ? "active" : ""} onClick={() => navigate("homework")}><BookOpenCheck size={17} /> Homework</button>
-          <button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion size={17} /> Practice</button>
-          <button className={view === "key-information" ? "active" : ""} onClick={() => navigate("key-information")}><BookOpenCheck size={17} /> Key Info</button>
-          <button className={view === "library" ? "active" : ""} onClick={() => navigate("library")}><Library size={17} /> Library</button>
-          <button className={view === "stats" ? "active" : ""} onClick={() => navigate("stats")}><BarChart3 size={17} /> Analytics</button>
-          <button className={view === "review" ? "active" : ""} onClick={() => navigate("review")}><BookOpenCheck size={17} /> Review</button>
+        <nav className="side-nav">
+          <button className={view === "study" ? "active" : ""} onClick={() => closeAndNavigate("study")}><Home size={18} /><span>Study</span></button>
+          <button className={view === "homework" ? "active" : ""} onClick={() => closeAndNavigate("homework")}><BookOpenCheck size={18} /><span>Homework</span></button>
+          <button className={view === "practice" ? "active" : ""} onClick={() => closeAndNavigate("practice")}><FileQuestion size={18} /><span>Practice</span></button>
+          <button className={view === "exam-practice" ? "active" : ""} onClick={() => closeAndNavigate("exam-practice")}><ClipboardCheck size={18} /><span>Exam Practice</span></button>
+          <button className={view === "review" ? "active" : ""} onClick={() => closeAndNavigate("review")}><History size={18} /><span>Review</span></button>
+          <div className={libraryActive ? "side-nav-group active" : "side-nav-group"}>
+            <button className="side-nav-parent" onClick={() => closeAndNavigate("library")}><Library size={18} /><span>Library</span><ChevronDown size={14} /></button>
+            <div className="side-nav-children">
+              <button className={view === "key-information" ? "active" : ""} onClick={() => closeAndNavigate("key-information")}><BookMarked size={15} />Key Information</button>
+              <button className={view === "library-hazards" ? "active" : ""} onClick={() => closeAndNavigate("library-hazards")}><FlaskConical size={15} />Hazards</button>
+              <button className={view === "library" ? "active" : ""} onClick={() => closeAndNavigate("library")}><BrainCircuit size={15} />Flashcards</button>
+              <button className={view === "library-formulas" ? "active" : ""} onClick={() => closeAndNavigate("library-formulas")}><Calculator size={15} />Formula Sheet</button>
+              <button className={view === "library-standards" ? "active" : ""} onClick={() => closeAndNavigate("library-standards")}><ShieldCheck size={15} />Standards</button>
+              <button className={view === "library-guides" ? "active" : ""} onClick={() => closeAndNavigate("library-guides")}><GraduationCap size={15} />Study Guides</button>
+            </div>
+          </div>
+          <button className={view === "stats" ? "active" : ""} onClick={() => closeAndNavigate("stats")}><BarChart3 size={18} /><span>Analytics</span></button>
         </nav>
+        <div className="sidebar-footer">
+          <label className="exam-switcher"><span>Preparing for</span><select value={saved.activeExam} onChange={(event) => changeExam(event.target.value as ExamTrack)}><option value="ASP">BCSP ASP®</option><option value="CSP">BCSP CSP®</option></select></label>
+          <button type="button" onClick={openResetDialog}><Settings2 size={16} />Settings</button>
+        </div>
+      </aside>
+      {navOpen && <button className="nav-scrim" aria-label="Close navigation" onClick={() => setNavOpen(false)} />}
+      <div className="app-main">
+      <header className="utility-topbar">
+        <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-label="Toggle menu"><Menu /></button>
+        <div className="utility-context"><span>{view === "stats" ? "Analytics" : view === "key-information" ? "Key Information" : view.startsWith("library") ? "Library" : view === "exam-practice" ? "Exam Practice" : view.charAt(0).toUpperCase() + view.slice(1)}</span><small>{saved.activeExam} study plan</small></div>
         <div className="topbar-meta">
           <span className="catalog-chip"><BrainCircuit size={15} /> {saved.seenQuestionIds[saved.activeExam].length.toLocaleString()} / 800 practice seen</span>
           {supabaseSession?.user ? (
@@ -1195,9 +1219,10 @@ export default function AdaptiveCoach() {
           ) : (
             <button type="button" className="signin-control" onClick={() => void signInWithGoogle()}><span>Sign in</span><small>Sync progress</small></button>
           )}
-          <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-label="Toggle menu"><Menu /></button>
         </div>
       </header>
+
+      <div className="app-content">
 
       {view === "study" && (
         <StudyDashboard
@@ -1215,8 +1240,13 @@ export default function AdaptiveCoach() {
       {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} mockExposures={saved.mockExposures[saved.activeExam]} overall={overall} onStudy={() => navigate("study")} />}
       {view === "homework" && <HomeworkHub progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
       {view === "practice" && <PracticeV2 />}
+      {view === "exam-practice" && <ExamPractice config={activeConfig} exposures={saved.mockExposures[saved.activeExam]} onStart={() => startSession("exam")} />}
       {view === "key-information" && <KeyInformation />}
-      {view === "library" && <StudyLibrary progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
+      {view === "library" && <StudyLibrary initialTab="flashcards" progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
+      {view === "library-hazards" && <StudyLibrary initialTab="hazards" progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
+      {view === "library-formulas" && <StudyLibrary initialTab="formulas" progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
+      {view === "library-standards" && <LibraryPlaceholder icon={<ShieldCheck />} title="Standards" description="Authoritative reference links and supplied standards notes will appear here when source material is available." />}
+      {view === "library-guides" && <LibraryPlaceholder icon={<GraduationCap />} title="Study Guides" description="Source-backed study guides will appear here without inventing topics, counts, or relationships." />}
       {view === "review" && (
         <Review
           attempts={activeAttempts}
@@ -1244,6 +1274,15 @@ export default function AdaptiveCoach() {
           onRetry={() => startSession("weakest")}
         />
       )}
+      </div>
+      <nav className="mobile-bottom-nav" aria-label="Mobile navigation">
+        <button className={view === "study" ? "active" : ""} onClick={() => closeAndNavigate("study")}><Home size={19} /><span>Study</span></button>
+        <button className={view === "homework" ? "active" : ""} onClick={() => closeAndNavigate("homework")}><BookOpenCheck size={19} /><span>Homework</span></button>
+        <button className={view === "practice" ? "active" : ""} onClick={() => closeAndNavigate("practice")}><FileQuestion size={19} /><span>Practice</span></button>
+        <button className={view === "review" ? "active" : ""} onClick={() => closeAndNavigate("review")}><History size={19} /><span>Review</span></button>
+        <button className={libraryActive ? "active" : ""} onClick={() => setNavOpen(true)}><Library size={19} /><span>Library</span></button>
+      </nav>
+      </div>
       {resetDialogOpen && (
         <div className="modal-backdrop" role="presentation">
           <section className="modal reset-progress-modal" role="dialog" aria-modal="true" aria-labelledby="reset-progress-title">
@@ -1302,6 +1341,31 @@ function resetFailureMessage(error: unknown): string {
     if (error.status >= 500) return "Your cloud progress could not be reset right now. Nothing was cleared; please try again shortly.";
   }
   return "Your cloud progress could not be reset. Nothing was cleared; please try again.";
+}
+
+function ExamPractice({ config, exposures, onStart }: { config: ExamConfig; exposures: Partial<Record<MockForm, number>>; onStart: () => void }) {
+  const nextForm = chooseMockForm(mockExposureEvents(exposures));
+  return (
+    <main className="resource-page exam-practice-page">
+      <section className="page-title page-width exam-practice-hero">
+        <div><p className="eyebrow"><ClipboardCheck size={15} /> Sealed exam simulation</p><h1>Exam Practice</h1><p>Run the existing {config.name} mock-exam workflow in a focused, timed environment. Practice sessions and mock evidence remain separate.</p></div>
+        <span className="exam-form-badge">Next form <strong>{nextForm.form}</strong></span>
+      </section>
+      <section className="page-width exam-practice-grid">
+        <article className="section-card exam-launch-card">
+          <div className="card-icon"><AlarmClock /></div><p className="eyebrow">Full simulation</p><h2>{config.name} Mock Form {nextForm.form}</h2>
+          <p>200 items · {config.examTimeLabel} · official blueprint weighting · rationales after submission</p>
+          <div className="exam-integrity"><LockKeyhole size={18} /><span>{nextForm.firstExposure ? "This form is still sealed and available for clean first-exposure evidence." : "This form has been seen before and will not count as clean first-exposure evidence."}</span></div>
+          <button className="primary-button" onClick={onStart}>Start mock exam <ArrowRight size={18} /></button>
+        </article>
+        <aside className="section-card exam-rules-card"><p className="eyebrow">Before you begin</p><h2>Exam conditions</h2><ul><li>One continuous timed block</li><li>Answers and rationales remain hidden until submission</li><li>Progress is preserved by the existing local and cloud workflow</li><li>Repeated forms stay useful for learning but lose first-exposure status</li></ul></aside>
+      </section>
+    </main>
+  );
+}
+
+function LibraryPlaceholder({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
+  return <main className="resource-page placeholder-page"><section className="library-hero page-width"><div><p className="eyebrow"><BookOpenCheck size={16} /> Unified library</p><h1>{title}</h1><p>{description}</p></div></section><section className="page-width placeholder-card"><span>{icon}</span><h2>No source-backed collection yet</h2><p>The layout is ready for future data. Nothing has been fabricated for this redesign.</p></section></main>;
 }
 
 function StudyDashboard({
@@ -1765,19 +1829,22 @@ function Review({
   onType: (value: "all" | "correct" | "incorrect") => void;
   onStudy: () => void;
 }) {
+  const [selectedAttemptKey, setSelectedAttemptKey] = useState<string | null>(null);
   const filtered = attempts.filter((attempt) => {
     if (domain !== "all" && attempt.domainId !== domain) return false;
     if (type === "correct" && !attempt.correct) return false;
     if (type === "incorrect" && attempt.correct) return false;
     return !search || `${attempt.stem} ${attempt.competency}`.toLowerCase().includes(search.toLowerCase());
   });
+  const attemptKey = (attempt: Attempt) => `${attempt.sessionId}:${attempt.questionId}`;
+  const selectedAttempt = filtered.find((attempt) => attemptKey(attempt) === selectedAttemptKey) ?? filtered[0];
   return (
     <main className="review-page">
       <section className="page-title page-width"><div><p className="eyebrow"><BookOpenCheck size={15} /> Evidence archive</p><h1>Review what you actually decided.</h1><p>Search every submitted response. Rationales remain tied to the exact answer and confidence you recorded.</p></div><button className="primary-button" onClick={onStudy}>New adaptive block <ArrowRight size={18} /></button></section>
       <section className="review-counts page-width"><button className={type === "all" ? "active" : ""} onClick={() => onType("all")}><strong>{attempts.length}</strong><span>All attempts</span></button><button className={type === "incorrect" ? "active" : ""} onClick={() => onType("incorrect")}><strong>{attempts.filter((attempt) => !attempt.correct).length}</strong><span>Incorrect</span></button><button className={type === "correct" ? "active" : ""} onClick={() => onType("correct")}><strong>{attempts.filter((attempt) => attempt.correct).length}</strong><span>Correct</span></button></section>
       <section className="review-tools page-width"><label><Search size={17} /><input value={search} onChange={(event) => onSearch(event.target.value)} placeholder="Search question or competency" /></label><select value={domain} onChange={(event) => onDomain(event.target.value as DomainId | "all")} aria-label="Filter by domain"><option value="all">All {config.blueprint} domains</option>{config.domains.map((item) => <option key={item.id} value={item.id}>{item.short} · {item.name}</option>)}</select></section>
       <section className="page-width review-list">
-        {filtered.length ? filtered.map((attempt, index) => <RationaleCard key={`${attempt.sessionId}-${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} />) : <div className="empty-state"><Search /><h3>No matching attempts.</h3><p>Adjust the filters or complete a study block to build your evidence archive.</p></div>}
+        {filtered.length && selectedAttempt ? <div className="review-split"><aside className="review-attempt-rail" aria-label="Attempt navigation">{filtered.map((attempt) => { const itemDomain = config.domains.find((item) => item.id === attempt.domainId); return <button className={attemptKey(attempt) === attemptKey(selectedAttempt) ? "active" : ""} key={attemptKey(attempt)} onClick={() => setSelectedAttemptKey(attemptKey(attempt))}><span className={attempt.correct ? "review-dot correct" : "review-dot incorrect"}>{attempt.correct ? <Check size={13} /> : <X size={13} />}</span><span><strong>{itemDomain?.name ?? attempt.domainId}</strong><small>{attempt.stem}</small></span><b>{attempt.confidence}</b></button>; })}</aside><div className="review-explanation-panel"><RationaleCard attempt={selectedAttempt} index={attempts.indexOf(selectedAttempt) + 1} domains={config.domains} /></div></div> : <div className="empty-state"><Search /><h3>No matching attempts.</h3><p>Adjust the filters or complete a study block to build your evidence archive.</p></div>}
       </section>
       <Disclaimer config={config} />
     </main>

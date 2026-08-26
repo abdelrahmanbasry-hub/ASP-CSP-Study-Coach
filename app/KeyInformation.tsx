@@ -38,12 +38,13 @@ export default function KeyInformation() {
         </div>
         <p className="key-information-count">{visibleChapters.length} chapter{visibleChapters.length === 1 ? "" : "s"} shown</p>
         <div className="key-information-grid">
-          {visibleChapters.map((chapter) => (
-            <article className="key-information-card" key={chapter.chapter}>
-              <span>CH {String(chapter.chapter).padStart(2, "0")}</span>
-              <h2>{chapter.title}</h2>
-              {chapter.sourceStatus === "verified" ? <><p className="key-information-source">Source verified · printed pp. {chapter.sourcePages?.join(", ")}</p><ol>{chapter.points.map((point) => <li key={point}><CheckCircle2 size={16} /><span>{point}</span></li>)}</ol></> : <p className="key-information-missing">The supplied edition does not include a chapter-end “Key Information to Remember” section for this chapter. Source material is needed before content can be added faithfully.</p>}
-            </article>
+          {visibleChapters.map((chapter, index) => (
+            <details className="key-information-card" open={index < 6 ? true : undefined} key={chapter.chapter}>
+              <summary><span>CH {String(chapter.chapter).padStart(2, "0")}</span><h2>{chapter.title}</h2><small>{chapter.sourceStatus === "verified" ? `${chapter.points.length} source points` : "Source needed"}</small></summary>
+              <div className="key-information-card-body">
+                {chapter.sourceStatus === "verified" ? <><p className="key-information-source">Source verified · printed pp. {chapter.sourcePages?.join(", ")}</p><ol>{chapter.points.map((point) => <li key={point}><CheckCircle2 size={16} /><span>{point}</span></li>)}</ol></> : <p className="key-information-missing">The supplied edition does not include a chapter-end “Key Information to Remember” section for this chapter. Source material is needed before content can be added faithfully.</p>}
+              </div>
+            </details>
           ))}
         </div>
         {!visibleChapters.length && <div className="empty-state"><Search /><h3>No matching chapter notes</h3><p>Try a broader topic or choose all chapters.</p></div>}
