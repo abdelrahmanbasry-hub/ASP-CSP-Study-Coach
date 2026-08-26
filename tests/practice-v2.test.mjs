@@ -218,10 +218,24 @@ test("chapter metadata is added to new attempts and old Practice V2 progress rem
 test("learner interface contains chapter controls and no credential selector", async () => {
   const view = await readFile(new URL("../app/PracticeV2View.tsx", import.meta.url), "utf8");
   assert.doesNotMatch(view, /Select credential|1\. Credential|setCredential|question\.credential/);
+  assert.doesNotMatch(view, /[>"]Practice V2(?:<|")/);
+  assert.match(view, /<h1>Practice<\/h1>/);
   assert.match(view, /Chapters or topics/);
   assert.match(view, /question\.chapterTitle/);
   assert.match(view, /useState<PracticeV2Progress>\(emptyPracticeV2Progress\)/);
   assert.match(view, /requestAnimationFrame\(\(\) => setProgress\(loadPracticeV2Progress\(window\.localStorage\)\)\)/);
+});
+
+test("primary Practice mounts chapter-first Practice and preserves the legacy route", async () => {
+  const [coach, legacyRoute] = await Promise.all([
+    readFile(new URL("../app/AdaptiveCoach.tsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/exam-practice/page.tsx", import.meta.url), "utf8"),
+  ]);
+  assert.match(coach, /import PracticeV2 from "\.\/PracticeV2View"/);
+  assert.match(coach, /view === "practice" && <PracticeV2 \/>/);
+  assert.doesNotMatch(coach, /view === "practice" && <PracticeQuestions \/>/);
+  assert.match(legacyRoute, /import PracticeQuestions from "\.\.\/PracticeQuestions"/);
+  assert.match(legacyRoute, /return <PracticeQuestions \/>/);
 });
 
 test("import is atomic, preserves supplied JSON bytes, and reports imported items", async (t) => {

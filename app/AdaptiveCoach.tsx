@@ -78,7 +78,7 @@ import {
   type SessionQuestion,
 } from "./adaptiveEngine";
 import HomeworkHub from "./HomeworkHub";
-import PracticeQuestions from "./PracticeQuestions";
+import PracticeV2 from "./PracticeV2View";
 import KeyInformation from "./KeyInformation";
 import StudyLibrary from "./StudyLibrary";
 import {
@@ -1214,7 +1214,7 @@ export default function AdaptiveCoach() {
       )}
       {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} mockExposures={saved.mockExposures[saved.activeExam]} overall={overall} onStudy={() => navigate("study")} />}
       {view === "homework" && <HomeworkHub progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
-      {view === "practice" && <PracticeQuestions />}
+      {view === "practice" && <PracticeV2 />}
       {view === "key-information" && <KeyInformation />}
       {view === "library" && <StudyLibrary progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
       {view === "review" && (
