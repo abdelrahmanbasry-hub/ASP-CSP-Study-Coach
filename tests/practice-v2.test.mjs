@@ -33,7 +33,7 @@ const q = (id, overrides = {}) => ({
   sourceLocation: "Chapter 1, p. 1",
   ...overrides,
 });
-const pack = (questions) => ({ schemaVersion: 2, packId: "test-pack", packStatus: "content", questions });
+const pack = (questions) => ({ schemaVersion: 3, packId: "test-pack", packStatus: "content", questions });
 
 test("the two-item demo pack is valid and cannot be mistaken for approved content", () => {
   assert.equal(demoPack.questions.length, 2);
@@ -58,7 +58,7 @@ test("validation rejects invalid answer indexes and missing distractor explanati
 });
 
 test("validation rejects missing chapters, invalid objectives, and unsourced verified items", () => {
-  const issues = validatePracticeV2Pack(pack([q("invalid", { chapterId: "", primaryObjectiveId: "ASP11-A1.99", sourceTitle: null })]));
+  const issues = validatePracticeV2Pack(pack([q("invalid", { chapterId: "", blueprintMappings: [{ blueprintVersion: "ASP11", primaryObjectiveId: "ASP11-A1.99", secondaryObjectiveIds: [] }], sourceTitle: null })]));
   assert.ok(issues.some((issue) => issue.code === "missing-chapter-id"));
   assert.ok(issues.some((issue) => issue.code === "invalid-objective"));
   assert.ok(issues.some((issue) => issue.code === "missing-verified-source-title"));
@@ -73,8 +73,10 @@ test("source-checked eligibility requires every production safety gate", () => {
   const valid = q("eligible");
   assert.deepEqual(validatePracticeV2Pack(pack([valid])), []);
   assert.equal(isPracticeV2ProductionEligible(valid), true);
+  const invalidObjective = q("bad-objective", { blueprintMappings: [{ blueprintVersion: "ASP11", primaryObjectiveId: "ASP11-A1.99", secondaryObjectiveIds: [] }] });
+  assert.ok(validatePracticeV2Pack(pack([invalidObjective])).some((issue) => issue.code === "invalid-objective"));
+  assert.equal(isPracticeV2ProductionEligible(invalidObjective), false);
   for (const [field, value, code] of [
-    ["primaryObjectiveId", "ASP11-A1.99", "invalid-objective"],
     ["sourceTitle", null, "missing-verified-source-title"],
     ["sourceLocation", "somewhere nearby", "missing-exact-source-location"],
     ["contentValidationStatus", "pending", "content-validation-not-passed"],
@@ -114,16 +116,19 @@ test("Practice V2 renders the required source disclaimer and keeps verified cont
   assert.match(catalog, /filter\(isPracticeV2ProductionEligible\)/);
 });
 
-test("single- and multi-chapter filtering stays inside the selected credential", () => {
-  const questions = [q("a", { chapterId: "a" }), q("b", { chapterId: "b" }), q("csp", { credential: "CSP", blueprintVersion: "CSP11", primaryObjectiveId: "CSP11-D1.01", chapterId: "a" })];
-  assert.deepEqual(filterPracticeV2Questions(questions, "ASP", ["a"]).map((item) => item.id), ["a"]);
-  assert.deepEqual(filterPracticeV2Questions(questions, "ASP", ["a", "b"]).map((item) => item.id), ["a", "b"]);
+test("single- and multi-chapter filtering is chapter-first and never splits exam banks", () => {
+  const dual = q("dual", { chapterId: "a", examAlignments: ["ASP", "CSP"], blueprintMappings: [{ blueprintVersion: "ASP11", primaryObjectiveId: "ASP11-A1.01", secondaryObjectiveIds: [] }, { blueprintVersion: "CSP11", primaryObjectiveId: "CSP11-D1.01", secondaryObjectiveIds: [] }] });
+  const questions = [q("a", { chapterId: "a" }), q("b", { chapterId: "b" }), dual];
+  assert.deepEqual(filterPracticeV2Questions(questions, ["a"]).map((item) => item.id), ["a", "dual"]);
+  assert.deepEqual(filterPracticeV2Questions(questions, ["a", "b"]).map((item) => item.id), ["a", "b", "dual"]);
+  assert.equal(filterPracticeV2Questions(questions, ["a"]).filter((item) => item.id === "dual").length, 1);
+  assert.deepEqual(validatePracticeV2Pack(pack([dual])), []);
 });
 
 test("selection prioritizes unseen items and separates item families", () => {
   const questions = [q("seen"), q("new-a", { itemFamilyId: "shared" }), q("new-b", { itemFamilyId: "shared" }), q("new-c")];
   const progress = { ...emptyPracticeV2Progress(), seenQuestionIds: ["seen"] };
-  const selected = selectPracticeV2Questions({ questions, credential: "ASP", chapterIds: ["demo-asp"], count: 3, progress, seed: "fixed" });
+  const selected = selectPracticeV2Questions({ questions, chapterIds: [demoAsp.chapterId], count: 3, progress, seed: "fixed" });
   assert.equal(new Set(selected.map((item) => item.itemFamilyId)).size, selected.length);
   assert.ok(!selected.slice(0, 2).some((item) => item.id === "seen"));
   assert.equal(selected.filter((item) => item.itemFamilyId === "shared").length, 1);
@@ -132,7 +137,7 @@ test("selection prioritizes unseen items and separates item families", () => {
 test("mistake review selects only unresolved incorrect questions", () => {
   const questions = [q("wrong"), q("right")];
   const progress = { ...emptyPracticeV2Progress(), incorrectQuestionIds: ["wrong"] };
-  const selected = selectPracticeV2Questions({ questions, credential: "ASP", chapterIds: ["demo-asp"], count: 10, progress, mode: "mistakes" });
+  const selected = selectPracticeV2Questions({ questions, chapterIds: [demoAsp.chapterId], count: 10, progress, mode: "mistakes" });
   assert.deepEqual(selected.map((item) => item.id), ["wrong"]);
   const corrected = recordPracticeV2Answer(progress, "wrong", true, false, "2026-01-01T00:00:00.000Z");
   assert.deepEqual(corrected.incorrectQuestionIds, []);
@@ -161,6 +166,31 @@ test("Practice V2 persistence changes only its own key and preserves existing le
   assert.equal(values.get("cloud-progress"), "cloud-progress");
   assert.ok(values.has(PRACTICE_V2_PROGRESS_KEY));
   assert.deepEqual(loadPracticeV2Progress(storage).incorrectQuestionIds, ["new"]);
+});
+
+test("schema v3 removes top-level credential fields while preserving exam relevance", () => {
+  const legacy = q("legacy-fields", { credential: "ASP", blueprintVersion: "ASP11", primaryObjectiveId: "ASP11-A1.01", secondaryObjectiveIds: [] });
+  assert.ok(validatePracticeV2Pack(pack([legacy])).some((issue) => issue.code === "legacy-top-level-alignment-field"));
+  assert.deepEqual(q("aligned").examAlignments, ["ASP"]);
+  assert.equal(q("aligned").blueprintMappings[0].blueprintVersion, "ASP11");
+  assert.ok(validatePracticeV2Pack({ ...pack([]), schemaVersion: 2 }).some((issue) => issue.code === "invalid-schema-version"));
+});
+
+test("chapter metadata is added to new attempts and old Practice V2 progress remains readable", () => {
+  const old = { ...emptyPracticeV2Progress(), attempts: { old: { attempts: 2, correct: 1, lastAnsweredAt: "2026-01-01T00:00:00.000Z" } } };
+  const values = new Map([[PRACTICE_V2_PROGRESS_KEY, JSON.stringify(old)]]);
+  const storage = { getItem: (key) => values.get(key) ?? null, setItem: (key, value) => values.set(key, value) };
+  assert.equal(loadPracticeV2Progress(storage).attempts.old.attempts, 2);
+  const next = recordPracticeV2Answer(old, "new", false, false, "2026-01-02T00:00:00.000Z", "chapter-foundations", "Foundations");
+  assert.equal(next.attempts.new.chapterId, "chapter-foundations");
+  assert.equal(next.attempts.new.chapterTitle, "Foundations");
+});
+
+test("learner interface contains chapter controls and no credential selector", async () => {
+  const view = await readFile(new URL("../app/PracticeV2View.tsx", import.meta.url), "utf8");
+  assert.doesNotMatch(view, /Select credential|1\. Credential|setCredential|question\.credential/);
+  assert.match(view, /Chapters or topics/);
+  assert.match(view, /question\.chapterTitle/);
 });
 
 test("import is atomic, preserves supplied JSON bytes, and reports imported items", async (t) => {
@@ -194,7 +224,7 @@ test("importer independently rejects highly similar stems", async (t) => {
   t.after(() => rm(root, { recursive: true, force: true }));
   const input = path.join(root, "similar.json");
   const first = q("similar-one", { stem: "A long unique safety scenario asks which exact control should be selected before work begins today." });
-  const second = q("similar-two", { stem: "A long unique safety scenario asks which exact control should be selected before work begins today." });
+  const second = q("similar-two", { stem: "A long unique safety scenario asks which exact control should be selected before work begins today.", examAlignments: ["CSP"], blueprintMappings: [{ blueprintVersion: "CSP11", primaryObjectiveId: "CSP11-D1.01", secondaryObjectiveIds: [] }] });
   await writeFile(input, JSON.stringify(pack([first, second])), "utf8");
   const report = await importPracticeV2Pack(input, { rootDirectory: root });
   assert.equal(report.status, "rejected");

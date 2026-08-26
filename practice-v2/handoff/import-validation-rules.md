@@ -1,8 +1,14 @@
 # Practice V2 content import rules
 
-Use schema version 2 and run `pnpm practice:v2:import <question-file.json>`.
+Use schema version 3 and run `pnpm practice:v2:import <question-file.json>`.
 The importer validates the complete pack and writes nothing to the imported
 catalog when any item fails. It preserves accepted JSON wording exactly.
+
+Questions are chapter-first. `chapterId` and `chapterTitle` are the catalog and
+session keys. Do not add top-level `credential`, `blueprintVersion`,
+`primaryObjectiveId`, or `secondaryObjectiveIds` fields. Store exam relevance
+only in `examAlignments` and nested `blueprintMappings`. One canonical question
+may align with ASP, CSP, or both; do not duplicate it into credential banks.
 
 ## Status policy
 

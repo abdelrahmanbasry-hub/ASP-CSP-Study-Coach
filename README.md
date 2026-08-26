@@ -117,9 +117,9 @@ progress only under `asp-csp-practice-v2-progress-v1`. It does not write to the
 Homework, legacy Practice, Mock Exam, readiness, authentication, or cloud-sync
 models.
 
-Each question records its immutable ID and version, ASP/CSP credential and
-blueprint version, chapter, primary and secondary blueprint objectives,
-concept, item family, item and cognitive types, exact stem and four options,
+Schema version 3 is chapter-first. Each question records its immutable ID and
+version, chapter, exam alignments, nested blueprint mappings, concept, item
+family, item and cognitive types, exact stem and four options,
 the keyed option, correct-answer explanation, one explanation slot per option,
 source fields, optional formula and units, operational review status, separate
 verification status, authoring origin, content-validation status, and
@@ -127,13 +127,22 @@ duplicate/similarity-check status. The correct
 option's `incorrectOptionExplanations` slot must be `null`; all three incorrect
 slots must be non-empty.
 
+There is no learner-facing ASP/CSP selector and no top-level question
+`credential`, `blueprintVersion`, `primaryObjectiveId`, or
+`secondaryObjectiveIds`. `chapterId` and `chapterTitle` drive cataloging,
+filtering, session construction, and new attempt metadata. A single canonical
+question may align to ASP, CSP, or both through `examAlignments` and one nested
+`blueprintMappings` record per applicable blueprint. Questions are never copied
+into separate credential banks. Practice V2 continues to read the version 1
+progress record and its existing question-ID history.
+
 Import a Practice V2 JSON pack with:
 
 ```bash
 pnpm practice:v2:import <question-file.json>
 ```
 
-The importer parses and validates the entire file, checks duplicate question
+The importer accepts only `schemaVersion: 3`, parses and validates the entire file, checks duplicate question
 IDs both within the pack and across all prior imports, and requires valid ASP11
 or CSP11 objective ownership. Demo packs may contain only unverified demo
 items; content packs cannot contain demo items. Any error rejects the complete

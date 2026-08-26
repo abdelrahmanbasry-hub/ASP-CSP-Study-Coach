@@ -1,6 +1,6 @@
 import { BLUEPRINT_OBJECTIVE_BY_ID, type BlueprintVersion, type Credential } from "./blueprintRegistry.ts";
 
-export const PRACTICE_V2_SCHEMA_VERSION = 2 as const;
+export const PRACTICE_V2_SCHEMA_VERSION = 3 as const;
 export const PRACTICE_V2_PROGRESS_KEY = "asp-csp-practice-v2-progress-v1";
 export const PRACTICE_V2_COUNTS = [10, 15, 20, 25] as const;
 
@@ -16,15 +16,19 @@ export type PracticeV2GateStatus = "pending" | "passed" | "failed";
 export type PracticeV2QuestionType = "single-best-answer" | "scenario" | "calculation";
 export type PracticeV2CognitiveLevel = "remember" | "understand" | "apply" | "analyze" | "evaluate";
 
+export interface PracticeV2BlueprintMapping {
+  blueprintVersion: BlueprintVersion;
+  primaryObjectiveId: string;
+  secondaryObjectiveIds: string[];
+}
+
 export interface PracticeV2Question {
   id: string;
   version: number;
-  credential: Credential;
-  blueprintVersion: BlueprintVersion;
   chapterId: string;
   chapterTitle: string;
-  primaryObjectiveId: string;
-  secondaryObjectiveIds: string[];
+  examAlignments: Credential[];
+  blueprintMappings: PracticeV2BlueprintMapping[];
   concept: string;
   itemFamilyId: string;
   questionType: PracticeV2QuestionType;
@@ -64,7 +68,7 @@ export interface PracticeV2Progress {
   seenQuestionIds: string[];
   incorrectQuestionIds: string[];
   highConfidenceIncorrectQuestionIds: string[];
-  attempts: Record<string, { attempts: number; correct: number; lastAnsweredAt: string }>;
+  attempts: Record<string, { attempts: number; correct: number; lastAnsweredAt: string; chapterId?: string; chapterTitle?: string }>;
 }
 
 export interface StorageLike {
@@ -93,7 +97,7 @@ export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssu
   const issues: PracticeV2ValidationIssue[] = [];
   const add = (path: string, code: string, message: string, questionId?: string) => issues.push({ path, code, message, questionId });
   if (!object(value)) return [{ path: "$", code: "invalid-pack", message: "Question file must contain a JSON object." }];
-  if (value.schemaVersion !== PRACTICE_V2_SCHEMA_VERSION) add("schemaVersion", "invalid-schema-version", "schemaVersion must be 2.");
+  if (value.schemaVersion !== PRACTICE_V2_SCHEMA_VERSION) add("schemaVersion", "invalid-schema-version", "schemaVersion must be 3.");
   if (!nonempty(value.packId)) add("packId", "missing-pack-id", "packId is required.");
   if (value.packStatus !== "demo" && value.packStatus !== "content") add("packStatus", "invalid-pack-status", "packStatus must be demo or content.");
   if (!Array.isArray(value.questions)) {
@@ -112,26 +116,43 @@ export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssu
     if (!id) add(`${path}.id`, "missing-id", "Question ID is required.");
     else if (seen.has(id)) add(`${path}.id`, "duplicate-id", `Duplicate question ID: ${id}.`, id);
     else seen.add(id);
+    for (const legacyField of ["credential", "blueprintVersion", "primaryObjectiveId", "secondaryObjectiveIds"] as const) {
+      if (legacyField in candidate) add(`${path}.${legacyField}`, "legacy-top-level-alignment-field", `${legacyField} is not allowed in chapter-first schema v3; use examAlignments and blueprintMappings.`, id);
+    }
     if (!Number.isInteger(candidate.version) || (candidate.version as number) < 1) add(`${path}.version`, "invalid-version", "version must be a positive integer.", id);
-    if (candidate.credential !== "ASP" && candidate.credential !== "CSP") add(`${path}.credential`, "invalid-credential", "credential must be ASP or CSP.", id);
-    const expectedVersion = candidate.credential === "ASP" ? "ASP11" : candidate.credential === "CSP" ? "CSP11" : null;
-    if (candidate.blueprintVersion !== expectedVersion) add(`${path}.blueprintVersion`, "invalid-blueprint-version", "blueprintVersion must match the credential.", id);
     if (!nonempty(candidate.chapterId)) add(`${path}.chapterId`, "missing-chapter-id", "chapterId is required.", id);
     if (!nonempty(candidate.chapterTitle)) add(`${path}.chapterTitle`, "missing-chapter-title", "chapterTitle is required.", id);
-
-    const primary = nonempty(candidate.primaryObjectiveId) ? BLUEPRINT_OBJECTIVE_BY_ID.get(candidate.primaryObjectiveId) : undefined;
-    if (!primary || primary.credential !== candidate.credential || primary.blueprintVersion !== candidate.blueprintVersion) {
-      add(`${path}.primaryObjectiveId`, "invalid-objective", "primaryObjectiveId must exist in the selected credential blueprint.", id);
-    }
-    if (!Array.isArray(candidate.secondaryObjectiveIds)) add(`${path}.secondaryObjectiveIds`, "invalid-secondary-objectives", "secondaryObjectiveIds must be an array.", id);
+    const alignments = Array.isArray(candidate.examAlignments) ? candidate.examAlignments : [];
+    if (!Array.isArray(candidate.examAlignments) || !candidate.examAlignments.length || candidate.examAlignments.some((alignment) => alignment !== "ASP" && alignment !== "CSP")) add(`${path}.examAlignments`, "invalid-exam-alignments", "examAlignments must contain ASP, CSP, or both.", id);
+    if (new Set(alignments).size !== alignments.length) add(`${path}.examAlignments`, "duplicate-exam-alignment", "examAlignments must be unique.", id);
+    if (!Array.isArray(candidate.blueprintMappings) || !candidate.blueprintMappings.length) add(`${path}.blueprintMappings`, "missing-blueprint-mappings", "blueprintMappings must contain at least one mapping.", id);
     else {
-      const secondary = candidate.secondaryObjectiveIds;
-      if (new Set(secondary).size !== secondary.length) add(`${path}.secondaryObjectiveIds`, "duplicate-secondary-objective", "secondaryObjectiveIds must be unique.", id);
-      for (const [secondaryIndex, objectiveId] of secondary.entries()) {
-        const objective = typeof objectiveId === "string" ? BLUEPRINT_OBJECTIVE_BY_ID.get(objectiveId) : undefined;
-        if (!objective || objective.credential !== candidate.credential || objective.blueprintVersion !== candidate.blueprintVersion || objectiveId === candidate.primaryObjectiveId) {
-          add(`${path}.secondaryObjectiveIds[${secondaryIndex}]`, "invalid-objective", "Secondary objective must be a distinct objective in the selected credential blueprint.", id);
+      const mappedVersions = new Set<unknown>();
+      for (const [mappingIndex, mapping] of candidate.blueprintMappings.entries()) {
+        const mappingPath = `${path}.blueprintMappings[${mappingIndex}]`;
+        if (!object(mapping)) {
+          add(mappingPath, "invalid-blueprint-mapping", "Blueprint mapping must be an object.", id);
+          continue;
         }
+        const mappedCredential = mapping.blueprintVersion === "ASP11" ? "ASP" : mapping.blueprintVersion === "CSP11" ? "CSP" : null;
+        if (!mappedCredential) add(`${mappingPath}.blueprintVersion`, "invalid-blueprint-version", "blueprintVersion must be ASP11 or CSP11.", id);
+        else if (!alignments.includes(mappedCredential)) add(`${mappingPath}.blueprintVersion`, "unaligned-blueprint-mapping", "Blueprint mapping must correspond to an examAlignment.", id);
+        if (mappedVersions.has(mapping.blueprintVersion)) add(`${mappingPath}.blueprintVersion`, "duplicate-blueprint-mapping", "Only one mapping per blueprint version is allowed.", id);
+        mappedVersions.add(mapping.blueprintVersion);
+        const primary = nonempty(mapping.primaryObjectiveId) ? BLUEPRINT_OBJECTIVE_BY_ID.get(mapping.primaryObjectiveId) : undefined;
+        if (!primary || primary.blueprintVersion !== mapping.blueprintVersion) add(`${mappingPath}.primaryObjectiveId`, "invalid-objective", "primaryObjectiveId must exist in the selected blueprint version.", id);
+        if (!Array.isArray(mapping.secondaryObjectiveIds)) add(`${mappingPath}.secondaryObjectiveIds`, "invalid-secondary-objectives", "secondaryObjectiveIds must be an array.", id);
+        else {
+          if (new Set(mapping.secondaryObjectiveIds).size !== mapping.secondaryObjectiveIds.length) add(`${mappingPath}.secondaryObjectiveIds`, "duplicate-secondary-objective", "secondaryObjectiveIds must be unique.", id);
+          for (const [secondaryIndex, objectiveId] of mapping.secondaryObjectiveIds.entries()) {
+            const objective = typeof objectiveId === "string" ? BLUEPRINT_OBJECTIVE_BY_ID.get(objectiveId) : undefined;
+            if (!objective || objective.blueprintVersion !== mapping.blueprintVersion || objectiveId === mapping.primaryObjectiveId) add(`${mappingPath}.secondaryObjectiveIds[${secondaryIndex}]`, "invalid-objective", "Secondary objective must be distinct and belong to the selected blueprint version.", id);
+          }
+        }
+      }
+      for (const alignment of alignments) {
+        const requiredVersion = alignment === "ASP" ? "ASP11" : "CSP11";
+        if (!mappedVersions.has(requiredVersion)) add(`${path}.blueprintMappings`, "missing-alignment-mapping", `examAlignment ${alignment} requires a ${requiredVersion} mapping.`, id);
       }
     }
     for (const field of ["concept", "itemFamilyId", "stem", "correctAnswerExplanation"] as const) {
@@ -213,7 +234,7 @@ export function savePracticeV2Progress(storage: StorageLike, progress: PracticeV
   storage.setItem(PRACTICE_V2_PROGRESS_KEY, JSON.stringify(progress));
 }
 
-export function recordPracticeV2Answer(progress: PracticeV2Progress, questionId: string, correct: boolean, highConfidence: boolean, answeredAt = new Date().toISOString()): PracticeV2Progress {
+export function recordPracticeV2Answer(progress: PracticeV2Progress, questionId: string, correct: boolean, highConfidence: boolean, answeredAt = new Date().toISOString(), chapterId?: string, chapterTitle?: string): PracticeV2Progress {
   const prior = progress.attempts[questionId] ?? { attempts: 0, correct: 0, lastAnsweredAt: answeredAt };
   const unique = (values: string[]) => [...new Set(values)];
   return {
@@ -221,13 +242,13 @@ export function recordPracticeV2Answer(progress: PracticeV2Progress, questionId:
     seenQuestionIds: unique([...progress.seenQuestionIds, questionId]),
     incorrectQuestionIds: correct ? progress.incorrectQuestionIds.filter((id) => id !== questionId) : unique([...progress.incorrectQuestionIds, questionId]),
     highConfidenceIncorrectQuestionIds: correct ? progress.highConfidenceIncorrectQuestionIds.filter((id) => id !== questionId) : highConfidence ? unique([...progress.highConfidenceIncorrectQuestionIds, questionId]) : progress.highConfidenceIncorrectQuestionIds,
-    attempts: { ...progress.attempts, [questionId]: { attempts: prior.attempts + 1, correct: prior.correct + (correct ? 1 : 0), lastAnsweredAt: answeredAt } },
+    attempts: { ...progress.attempts, [questionId]: { attempts: prior.attempts + 1, correct: prior.correct + (correct ? 1 : 0), lastAnsweredAt: answeredAt, ...(chapterId ? { chapterId } : prior.chapterId ? { chapterId: prior.chapterId } : {}), ...(chapterTitle ? { chapterTitle } : prior.chapterTitle ? { chapterTitle: prior.chapterTitle } : {}) } },
   };
 }
 
-export function filterPracticeV2Questions(questions: readonly PracticeV2Question[], credential: Credential, chapterIds: readonly string[]) {
+export function filterPracticeV2Questions(questions: readonly PracticeV2Question[], chapterIds: readonly string[]) {
   const chapters = new Set(chapterIds);
-  return questions.filter((question) => question.credential === credential && chapters.has(question.chapterId));
+  return questions.filter((question) => chapters.has(question.chapterId));
 }
 
 function seededRank(id: string, seed: string) {
@@ -238,7 +259,6 @@ function seededRank(id: string, seed: string) {
 
 export function selectPracticeV2Questions(options: {
   questions: readonly PracticeV2Question[];
-  credential: Credential;
   chapterIds: readonly string[];
   count: number;
   progress: PracticeV2Progress;
@@ -248,7 +268,7 @@ export function selectPracticeV2Questions(options: {
   const seen = new Set(options.progress.seenQuestionIds);
   const mistakes = new Set(options.progress.incorrectQuestionIds);
   const seed = options.seed ?? "practice-v2";
-  const eligible = filterPracticeV2Questions(options.questions, options.credential, options.chapterIds)
+  const eligible = filterPracticeV2Questions(options.questions, options.chapterIds)
     .filter((question) => options.mode !== "mistakes" || mistakes.has(question.id))
     .sort((a, b) => Number(seen.has(a.id)) - Number(seen.has(b.id)) || seededRank(a.id, seed) - seededRank(b.id, seed));
   const families = new Set<string>();
