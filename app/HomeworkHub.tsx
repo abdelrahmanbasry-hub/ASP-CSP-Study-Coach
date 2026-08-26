@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowLeft, ArrowRight, BookOpenCheck, Check, ChevronDown, LockKeyhole, RotateCcw, Trophy, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookOpenCheck, Check, ChevronDown, Grid2X2, List, LockKeyhole, SlidersHorizontal, Trophy, X } from "lucide-react";
 import { useState } from "react";
 import {
   CHAPTERS,
@@ -32,6 +32,8 @@ export default function HomeworkHub({
 }) {
   const [runner, setRunner] = useState<Runner | null>(null);
   const [result, setResult] = useState<HomeworkResult | null>(null);
+  const [statusFilter, setStatusFilter] = useState<"all" | "ready" | "progress" | "completed">("all");
+  const [view, setView] = useState<"grid" | "list">("grid");
 
   const ready = CHAPTERS.filter((chapter) => chapter.status === "ready");
   const pending = CHAPTERS.filter((chapter) => chapter.status !== "ready");
@@ -138,35 +140,42 @@ export default function HomeworkHub({
   }
 
   const completed = ready.filter((chapter) => progress.chapterScores[chapter.id]).length;
+  const visible = ready.filter((chapter) => {
+    const score = progress.chapterScores[chapter.id];
+    const percent = score ? Math.round((score.lastScore / score.total) * 100) : 0;
+    if (statusFilter === "ready") return !score;
+    if (statusFilter === "completed") return Boolean(score && percent >= 80);
+    if (statusFilter === "progress") return Boolean(score && percent < 80);
+    return true;
+  });
   return (
     <main className="resource-page homework-page">
-      <section className="library-hero page-width">
-        <div><p className="eyebrow"><BookOpenCheck size={16} /> Chapter homework</p><h1>Study the chapter. Then prove it.</h1><p>Each available deck is paraphrased into original practice, scored separately from exam readiness, and followed by explanations after submission.</p></div>
-        <div className="library-hero-stat"><strong>{completed}/{ready.length}</strong><span>chapters completed</span></div>
+      <section className="page-width compact-page-header">
+        <div><h1>Homework</h1><p>Assigned reading and activities by chapter.</p></div>
+        <div className="homework-view-controls"><button className={view === "grid" ? "active" : ""} onClick={() => setView("grid")}><Grid2X2 size={15} /> Grid</button><button className={view === "list" ? "active" : ""} onClick={() => setView("list")}><List size={15} /> List</button><button><SlidersHorizontal size={15} /> Filter</button></div>
       </section>
 
-      <section className="page-width homework-guidance">
-        <div><RotateCcw /><strong>Optional previous-chapter warm-up</strong><span>Use five recall questions before the next homework, or skip straight to the assignment.</span></div>
-        <div><LockKeyhole /><strong>Answers stay sealed</strong><span>Score and explanations unlock only after the whole assignment is submitted.</span></div>
-        <div><Trophy /><strong>Chapter analytics</strong><span>Last score, best score, attempts, and percentage are saved to your learner profile.</span></div>
-      </section>
-
-      <section className="page-width chapter-section">
-        <div className="section-heading"><div><p className="eyebrow">Available now</p><h2>Homework by course chapter</h2></div><p>Course labels are preserved; Yates Third Edition mappings are shown on each card.</p></div>
-        <div className="chapter-grid">
-          {ready.map((chapter) => {
+      <section className="page-width chapter-section compact-chapter-section">
+        <div className="status-tabs" role="tablist" aria-label="Homework status">
+          <button className={statusFilter === "all" ? "active" : ""} onClick={() => setStatusFilter("all")}>All Chapters <span>{ready.length}</span></button>
+          <button className={statusFilter === "ready" ? "active" : ""} onClick={() => setStatusFilter("ready")}>To Do <span>{ready.length - completed}</span></button>
+          <button className={statusFilter === "progress" ? "active" : ""} onClick={() => setStatusFilter("progress")}>In Progress</button>
+          <button className={statusFilter === "completed" ? "active" : ""} onClick={() => setStatusFilter("completed")}>Completed <span>{completed}</span></button>
+        </div>
+        <div className={`homework-chapter-grid ${view === "list" ? "list-view" : ""}`}>
+          {visible.map((chapter) => {
             const score = progress.chapterScores[chapter.id];
             const count = HOMEWORK_QUESTIONS.filter((question) => question.chapterId === chapter.id).length;
             const lastPercent = score ? Math.round((score.lastScore / score.total) * 100) : null;
-            const bestPercent = score ? Math.round((score.bestScore / score.total) * 100) : null;
+            const complete = lastPercent !== null && lastPercent >= 80;
+            const state = complete ? "completed" : score ? "progress" : "ready";
             return (
-              <article className="chapter-card" key={chapter.id}>
-                <div className="chapter-card-top"><span className="chapter-number">CH {String(chapter.courseNumber).padStart(2, "0")}</span><span className={score ? "chapter-status complete" : "chapter-status"}>{score ? "Completed" : "Ready"}</span></div>
-                <h3>{chapter.courseTitle}</h3>
+              <article className={`homework-chapter-card ${state}`} key={chapter.id}>
+                <div className="homework-card-heading"><span className="chapter-icon"><BookOpenCheck size={17} /></span><div><h3>{chapter.courseNumber}. {chapter.courseTitle}</h3><span className={`homework-status ${state}`}>{complete ? "Completed" : score ? "In Progress" : "Ready to start"}</span></div></div>
                 <p>{`Yates 3e Ch. ${chapter.yatesChapterNumber}: ${chapter.yatesChapterTitle}`}</p>
-                <div className="chapter-metrics"><span><strong>{count}</strong> questions</span><span><strong>{lastPercent ?? "—"}{lastPercent !== null ? "%" : ""}</strong> last</span><span><strong>{bestPercent ?? "—"}{bestPercent !== null ? "%" : ""}</strong> best</span></div>
-                {score && <div className="chapter-review-actions"><button className="secondary-button" disabled={(score.missedQuestionIds ?? []).length === 0} onClick={() => openSavedReview(chapter.id, "missed")}>Review missed</button><button className="secondary-button" onClick={() => openSavedReview(chapter.id, "all")}>Review all</button></div>}
-                <button className="primary-button full" onClick={() => begin(chapter.id)}>{score ? "Retake chapter" : "Start chapter"} <ArrowRight size={17} /></button>
+                <div className="chapter-progress-line"><span><strong>{lastPercent ?? 0}%</strong></span><i><b style={{ width: `${lastPercent ?? 0}%` }} /></i></div>
+                <small>{score?.lastScore ?? 0}/{count} activities</small>
+                <button className={complete ? "review-chapter-button" : "chapter-action-button"} onClick={() => complete ? openSavedReview(chapter.id, "all") : begin(chapter.id)}>{complete ? "Review" : score ? "Continue" : "Begin Chapter"}<ArrowRight size={15} /></button>
               </article>
             );
           })}

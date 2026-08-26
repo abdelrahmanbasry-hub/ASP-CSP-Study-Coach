@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowLeft, ArrowRight, Check, FlaskConical, RotateCcw, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, Check, RotateCcw, X } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { PRACTICE_V2_HAS_VERIFIED_CONTENT, PRACTICE_V2_QUESTIONS } from "./practiceV2Catalog";
 import {
@@ -47,18 +47,29 @@ export default function PracticeV2() {
   }
 
   const mistakeCount = PRACTICE_V2_QUESTIONS.filter((question) => progress.incorrectQuestionIds.includes(question.id)).length;
+  const previewCount = selectPracticeV2Questions({ questions: PRACTICE_V2_QUESTIONS, chapterIds: effectiveChapters, count, progress, mode: "practice", seed: `${progress.seenQuestionIds.length}:practice` }).length;
   return <main className="practice-v2-page">
     <section className="practice-v2-hero">
-      <div><p className="eyebrow"><FlaskConical size={16} /> Chapter-first practice</p><h1>Practice</h1><p>Choose one or more chapters or topics. New items are prioritized, and no item family repeats within a session.</p></div>
+      <div><div className="practice-title-line"><h1>Practice</h1><strong>Setup</strong></div><p>Build a practice session tailored to your goals.</p></div>
       {!PRACTICE_V2_HAS_VERIFIED_CONTENT && <aside><strong>DEMO ONLY</strong><span>These two placeholders test the interface. They are not approved study content.</span></aside>}
     </section>
     <section className="practice-v2-builder" aria-label="Build a Practice session">
-      <fieldset><legend>1. Chapters or topics</legend><div className="practice-v2-choice-row"><button className={chapterMode === "single" ? "active" : ""} onClick={() => { setChapterMode("single"); setChapterIds(chapterIds.slice(0, 1)); }}>One chapter</button><button className={chapterMode === "multiple" ? "active" : ""} onClick={() => setChapterMode("multiple")}>Multiple chapters</button></div>
-        {chapterMode === "single" ? <select aria-label="Select chapter" value={effectiveChapters[0] ?? ""} onChange={(event) => setChapterIds(event.target.value ? [event.target.value] : [])}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</select>
-          : <div className="practice-v2-chapters">{chapters.map((chapter) => <label key={chapter.id}><input type="checkbox" checked={effectiveChapters.includes(chapter.id)} onChange={(event) => setChapterIds(event.target.checked ? [...new Set([...effectiveChapters, chapter.id])] : effectiveChapters.filter((id) => id !== chapter.id))} /> {chapter.title}</label>)}</div>}
-      </fieldset>
-      <fieldset><legend>2. Session length</legend><div className="practice-v2-choice-row">{PRACTICE_V2_COUNTS.map((value) => <button className={count === value ? "active" : ""} key={value} onClick={() => setCount(value)}>{value}</button>)}</div><p>Shorter sessions are created when the verified pack does not contain enough distinct item families.</p></fieldset>
-      <div className="practice-v2-actions"><button className="primary-button" disabled={!effectiveChapters.length} onClick={() => start("practice")}>Start practice <ArrowRight size={16} /></button><button className="secondary-button" disabled={!mistakeCount} onClick={() => start("mistakes")}><RotateCcw size={16} /> Mistake Review ({mistakeCount})</button></div>
+      <div className="practice-config-grid">
+        <div className="practice-config-card">
+          <fieldset aria-label="Chapters or topics"><legend>1. Choose Chapters / Topics</legend><div className="practice-v2-choice-row"><button className={chapterMode === "single" ? "active" : ""} onClick={() => { setChapterMode("single"); setChapterIds(chapterIds.slice(0, 1)); }}>One Chapter</button><button className={chapterMode === "multiple" ? "active" : ""} onClick={() => setChapterMode("multiple")}>Multiple Chapters</button></div>
+            <span className="field-label">Select chapter</span>
+            {chapterMode === "single" ? <select aria-label="Select chapter" value={effectiveChapters[0] ?? ""} onChange={(event) => setChapterIds(event.target.value ? [event.target.value] : [])}>{chapters.map((chapter) => <option key={chapter.id} value={chapter.id}>{chapter.title}</option>)}</select>
+              : <div className="practice-v2-chapters">{chapters.map((chapter) => <label key={chapter.id}><input type="checkbox" checked={effectiveChapters.includes(chapter.id)} onChange={(event) => setChapterIds(event.target.checked ? [...new Set([...effectiveChapters, chapter.id])] : effectiveChapters.filter((id) => id !== chapter.id))} /> {chapter.title}</label>)}</div>}
+          </fieldset>
+          <fieldset><legend>2. Session Length</legend><div className="practice-v2-choice-row">{PRACTICE_V2_COUNTS.map((value) => <button className={count === value ? "active" : ""} key={value} onClick={() => setCount(value)}>{value}</button>)}</div><p>Shorter sessions are created if there are not enough distinct item families.</p></fieldset>
+        </div>
+        <div className="practice-config-card practice-options-card">
+          <fieldset><legend>3. Question Filters</legend><div className="practice-setting-row"><span>Question Type</span><strong>Multiple Choice</strong></div><div className="practice-setting-row"><span>Content status</span><strong>{PRACTICE_V2_HAS_VERIFIED_CONTENT ? "Source-checked" : "Unavailable"}</strong></div><div className="practice-setting-row"><span>Include unanswered</span><i className="setting-toggle active" aria-label="Enabled" /></div><div className="practice-setting-row"><span>Avoid repeated families</span><i className="setting-toggle active" aria-label="Enabled" /></div></fieldset>
+          <fieldset><legend>4. Additional Options</legend><div className="practice-check-row"><Check size={15} /> Show explanations after each answer</div><div className="practice-check-row"><Check size={15} /> Capture confidence with each answer</div></fieldset>
+          <button className="mistake-review-button" disabled={!mistakeCount} onClick={() => start("mistakes")}><RotateCcw size={15} /> Mistake Review <span>{mistakeCount}</span></button>
+        </div>
+      </div>
+      <div className="practice-summary-strip"><div><span>You will practice</span><strong>{effectiveChapters.length === 1 ? chapters.find((chapter) => chapter.id === effectiveChapters[0])?.title : `${effectiveChapters.length} chapters`}</strong></div><div><span>Questions available</span><strong>{previewCount}{previewCount < count ? ` of ${count} requested` : ""}</strong></div><div><span>Pacing</span><strong>Self-paced</strong></div><button className="primary-button" disabled={!effectiveChapters.length || !previewCount} onClick={() => start("practice")}>Start Practice <ArrowRight size={16} /></button></div>
       <p className="practice-v2-isolation">Chapter Practice uses its own browser progress record and does not update Homework, legacy Practice, Mock Exams, cloud synchronization, or the Practice Readiness Indicator. Chapter Practice results are not psychometrically calibrated.</p>
       {PRACTICE_V2_HAS_VERIFIED_CONTENT && <p className="practice-v2-disclaimer">These practice questions were checked against cited study and regulatory sources. They are not official BCSP questions and have not necessarily been reviewed by an instructor.</p>}
     </section>

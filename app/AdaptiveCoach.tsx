@@ -14,7 +14,6 @@ import {
   CircleHelp,
   Clock3,
   Coffee,
-  Flame,
   Flag,
   Gauge,
   History,
@@ -489,15 +488,6 @@ function masteryStatus(score: number | null, mastery?: DomainMastery) {
 }
 
 const readinessPriority = (mastery?: DomainMastery) => readinessScore(mastery) ?? 0;
-
-function ReadinessTrustNote() {
-  return (
-    <div className="readiness-trust-note">
-      <strong>{READINESS_LABEL}</strong>
-      <span>{READINESS_DISCLAIMER}</span>
-    </div>
-  );
-}
 
 export default function AdaptiveCoach() {
   const [saved, setSaved] = useState<SavedState>(emptySavedState);
@@ -1175,7 +1165,7 @@ export default function AdaptiveCoach() {
   };
 
   return (
-    <div className="app-shell">
+    <div className={libraryActive ? "app-shell reference-shell" : "app-shell primary-shell"}>
       <aside className={navOpen ? "app-sidebar open" : "app-sidebar"} aria-label="Primary navigation">
         <div className="sidebar-brand">
           <button className="brand" onClick={() => navigate("study")} aria-label="ASP and CSP Coach home">
@@ -1211,9 +1201,19 @@ export default function AdaptiveCoach() {
       <div className="app-main">
       <header className="utility-topbar">
         <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-label="Toggle menu"><Menu /></button>
+        <button className="topbar-brand" onClick={() => closeAndNavigate("study")} aria-label="ASP and CSP Coach home"><span><ShieldCheck size={17} /></span><strong>{saved.activeExam} <i>{"//"}</i> COACH</strong></button>
+        <nav className="primary-top-nav" aria-label="Primary study navigation">
+          <button className={view === "study" ? "active" : ""} onClick={() => closeAndNavigate("study")}><Home size={14} />Study</button>
+          <button className={view === "homework" ? "active" : ""} onClick={() => closeAndNavigate("homework")}><BookOpenCheck size={14} />Homework</button>
+          <button className={view === "practice" ? "active" : ""} onClick={() => closeAndNavigate("practice")}><FileQuestion size={14} />Practice</button>
+          <button className={view === "exam-practice" ? "active" : ""} onClick={() => closeAndNavigate("exam-practice")}><ClipboardCheck size={14} />Exam Practice</button>
+          <button className={view === "review" ? "active" : ""} onClick={() => closeAndNavigate("review")}><History size={14} />Review</button>
+          <button className={libraryActive ? "active" : ""} onClick={() => closeAndNavigate("key-information")}><Library size={14} />Library</button>
+          <button className={view === "stats" ? "active" : ""} onClick={() => closeAndNavigate("stats")}><BarChart3 size={14} />Analytics</button>
+        </nav>
         <div className="utility-context"><span>{view === "stats" ? "Analytics" : view === "key-information" ? "Key Information" : view.startsWith("library") ? "Library" : view === "exam-practice" ? "Exam Practice" : view.charAt(0).toUpperCase() + view.slice(1)}</span><small>{saved.activeExam} study plan</small></div>
         <div className="topbar-meta">
-          <span className="catalog-chip"><BrainCircuit size={15} /> {saved.seenQuestionIds[saved.activeExam].length.toLocaleString()} / 800 practice seen</span>
+          <span className="catalog-chip" title="1,200-item credential bank"><BrainCircuit size={15} /> {saved.seenQuestionIds[saved.activeExam].length.toLocaleString()} / 800 practice seen</span>
           {supabaseSession?.user ? (
             <div className="profile-control" title={`${typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "Google user"} · ${cloudStatus}`}><span>{(typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "GU").slice(0, 2).toUpperCase()}</span><small>{cloudStatus === "saving" ? "Saving" : cloudStatus === "synced" ? "Synced" : cloudStatus === "offline" ? "Local" : "Cloud"}</small><div className="profile-actions"><button type="button" onClick={openResetDialog}>Reset progress</button><button type="button" onClick={() => void signOut()}>Sign out</button></div></div>
           ) : (
@@ -1391,135 +1391,30 @@ function StudyDashboard({
 }) {
   const completedToday = sessions.some((session) => new Date(session.date).toDateString() === new Date().toDateString());
   const weakestScore = readinessScore(mastery[weakest.id]);
-  const level = Math.max(...config.domains.map((domain) => mastery[domain.id]?.difficulty ?? 2));
   const modes: SessionMode[] = ["quick", "timed", "weakest", "missed", "custom", "level", "exam"];
-  const recent = sessions.slice(0, 3);
+  const recent = sessions.slice(0, 4);
   const activeAttempts = saved.attempts.filter((attempt) => attempt.exam === config.key);
-  const mockExposures = mockExposureEvents(saved.mockExposures[config.key]);
-  const nextMock = chooseMockForm(mockExposures);
-  const mockAUsed = mockExposures.some((session) => session.mockForm === "A");
-  const mockBUsed = mockExposures.some((session) => session.mockForm === "B");
   return (
-    <main>
-      <section className="dashboard-hero">
-        <div className="hero-inner">
-          <div className="welcome-copy">
-            <p className="eyebrow"><CalendarDays size={15} /> {new Intl.DateTimeFormat("en", { weekday: "long", month: "long", day: "numeric" }).format(new Date())}</p>
-            <h1>{greeting()}, <span>{saved.displayName}.</span></h1>
-            <p className="hero-sub">Your weakest domain still controls today’s work. Comfort is not the objective; stable recall under pressure is.</p>
-            <div className="streak-row">
-              <span><Flame size={17} /> {completedToday ? "Today complete" : "Session due"}</span>
-              <span title={PROVISIONAL_DIFFICULTY_NOTE}><BrainCircuit size={17} /> {difficultyLabel(level)}</span>
-            </div>
-          </div>
-          <div className={`readiness-dial ${overall === null ? "insufficient" : ""}`} style={{ "--score": `${(overall ?? 0) * 3.6}deg` } as React.CSSProperties}>
-            <div><strong>{overall === null ? READINESS_INSUFFICIENT_LABEL : `${overall}%`}</strong><span>{READINESS_LABEL}</span></div>
-          </div>
-        </div>
-        <div className="hero-readiness-copy">
-          {overall === null && <p>{READINESS_INSUFFICIENT_EXPLANATION}</p>}
-          <ReadinessTrustNote />
+    <main className="study-page">
+      <section className="study-hero">
+        <div className="page-width study-hero-inner">
+          <div className="study-welcome"><h1>{greeting()}, {saved.displayName}.</h1><p>Stay consistent. Master the content. Pass the {config.name}.</p><span><CalendarDays size={13} /> {new Intl.DateTimeFormat("en", { weekday: "long", month: "short", day: "numeric" }).format(new Date())}</span></div>
+          <button className="study-readiness" onClick={onStats}><small>Readiness</small><div className={overall === null ? "study-ring insufficient" : "study-ring"} style={{ "--score": `${(overall ?? 0) * 3.6}deg` } as React.CSSProperties}><span><strong>{overall === null ? "—" : `${overall}%`}</strong><em>{overall === null ? "Need data" : "On track"}</em></span></div><b>See Analytics <ArrowRight size={11} /></b></button>
+          <article className="study-prescription">
+            <div className="prescription-heading"><div><p>Your Daily Prescription</p><span>Recommended for today</span></div><Sparkles size={15} /></div>
+            <div className="prescription-block"><span className="prescription-icon"><Target size={18} /></span><div><strong>{weakest.name} Drill</strong><small>{weakestScore === null ? "Build reliable evidence with a focused adaptive block" : `Current readiness ${weakestScore}% · focused practice`}</small></div><button aria-label="More prescription options">•••</button></div>
+            <button className="prescription-start" aria-label="Start adaptive session" onClick={onStart}>Start Session <ArrowRight size={15} /></button>
+          </article>
         </div>
       </section>
 
-      <div className="content-grid dashboard-content">
-        <section className="daily-card">
-          <div className="daily-header">
-            <div>
-              <p className="eyebrow"><Sparkles size={15} /> Today’s prescription</p>
-              <h2>One focused hour. Twenty consequential decisions.</h2>
-            </div>
-            <span className="duration-pill"><Clock3 size={15} /> 60 min</span>
-          </div>
-          <div className="session-route">
-            <div><span>01</span><strong>Calibrate</strong><small>7 min · retrieval warm-up</small></div>
-            <div className="route-line" />
-            <div><span>02</span><strong>Pressure block</strong><small>{Math.round(config.timedSeconds / 60)} min · 20 questions</small></div>
-            <div className="route-line" />
-            <div><span>03</span><strong>Correct</strong><small>{60 - 7 - Math.round(config.timedSeconds / 60)} min · rationales + teach-back</small></div>
-          </div>
-          <div className="coach-callout">
-            <div className="callout-icon"><Target size={21} /></div>
-            <div>
-              <span>Coach’s call</span>
-              <p><strong>{weakest.name}</strong> {weakestScore === null ? "does not yet have enough evidence for a domain indicator" : `is at ${weakestScore}%`}. It receives extra exposure until current evidence qualifies across two stable blocks.</p>
-            </div>
-          </div>
-          <button className="primary-button start-button" onClick={onStart}>Start adaptive session <ArrowRight size={18} /></button>
-        </section>
-
-        <aside className="readiness-panel">
-          <div className="panel-heading">
-            <div><p className="eyebrow">{READINESS_LABEL}</p><h3>{config.domains.length} {config.blueprint} domains</h3></div>
-            <button className="text-button" onClick={onStats}>Full analytics</button>
-          </div>
-          <div className="domain-mini-list">
-            {[...config.domains]
-              .sort((a, b) => readinessPriority(mastery[a.id]) - readinessPriority(mastery[b.id]))
-              .map((domain) => {
-                const score = readinessScore(mastery[domain.id]);
-                const status = masteryStatus(score, mastery[domain.id]);
-                return (
-                  <div className="domain-mini" key={domain.id}>
-                    <span className="domain-code">{domain.short}</span>
-                    <div className="domain-progress"><div><strong>{domain.name}</strong><small>{Math.round(domain.weight * 100)}% blueprint</small></div><div className="meter"><i style={{ width: `${score ?? 0}%` }} /></div></div>
-                    <span className={`status ${status.tone}`}>{score === null ? "Insufficient" : `${score}%`}</span>
-                  </div>
-                );
-              })}
-          </div>
-          <div className="threshold-note"><LockKeyhole size={16} /><span><strong>Stability rule:</strong> at least {ASSESSMENT_EVIDENCE_CONFIG.stability.minimumCurrentBlockQuestions} current-block questions, independent families when available, and ≥{ASSESSMENT_EVIDENCE_CONFIG.stability.accuracyThreshold * 100}% across two qualifying blocks.</span></div>
-        </aside>
-      </div>
-
-      <section className="mode-section page-width">
-        <div className="section-heading">
-          <div><p className="eyebrow">Drill room</p><h2>Choose the kind of pressure</h2></div>
-          <p>Rationales stay locked until every block is submitted.</p>
-        </div>
-        <div className="mode-grid">
-          {modes.map((mode) => {
-            const disabled =
-              mode === "missed" &&
-              !activeAttempts.some(
-                (attempt) => !attempt.correct && (attempt.pool ?? "practice") === "practice",
-              );
-            const copy = getModeCopy(mode, config);
-            const description =
-              mode === "exam"
-                ? nextMock.firstExposure
-                  ? `Sealed Mock Form ${nextMock.form} is ready. Its questions never appear in practice drills.`
-                  : `Both sealed forms have been used. Starting now repeats Form ${nextMock.form} and is no longer a clean exposure.`
-                : copy.description;
-            return (
-              <button className={`mode-card ${mode === "exam" ? "exam-card" : ""}`} key={mode} onClick={() => !disabled && onMode(mode)} disabled={disabled}>
-                <span className="mode-icon"><ModeIcon mode={mode} size={21} /></span>
-                <span className="mode-copy"><small>{copy.eyebrow}</small><strong>{copy.title}</strong><em>{disabled ? "Complete a block first to unlock your error queue." : description}</em></span>
-                <ArrowRight size={18} className="card-arrow" />
-              </button>
-            );
-          })}
-        </div>
+      <section className="page-width study-overview-grid">
+        <article className="study-panel domain-readiness-card"><header><div><h2>Domain Readiness</h2><p>Current evidence by {config.blueprint} domain</p></div><button onClick={onStats}>View Full Analytics <ArrowRight size={12} /></button></header><div className="study-domain-grid">{config.domains.map((domain) => { const score = readinessScore(mastery[domain.id]); const status = masteryStatus(score, mastery[domain.id]); return <div className="study-domain-tile" key={domain.id}><span className={`domain-state ${status.tone}`}><ShieldCheck size={13} /></span><div><strong>{domain.name}</strong><small>{score === null ? "Insufficient evidence" : `${score}%`}</small></div><div className="meter"><i style={{ width: `${score ?? 0}%` }} /></div><em className={status.tone}>{score === null ? "Needs work" : status.label}</em></div>; })}</div></article>
+        <article className="study-panel recent-work-card"><header><div><h2>Recent Work</h2><p>Your latest learning activity</p></div></header>{recent.length ? <div className="study-recent-list">{recent.map((session) => <div key={session.id}><span className={session.score / session.count >= .8 ? "recent-icon success" : "recent-icon warning"}><BookOpenCheck size={13} /></span><div><strong>{getModeCopy(session.mode, config).title}</strong><small>{session.score}/{session.count} correct</small></div><time>{new Date(session.date).toLocaleDateString(undefined,{month:"short",day:"numeric"})}</time></div>)}</div> : <div className="compact-empty"><History size={18} /><span>Complete a session to build your activity history.</span></div>}<button className="recent-view" onClick={onStats}>View All Activity <ArrowRight size={12} /></button></article>
       </section>
 
-      <section className="page-width evidence-strip">
-        <div><BrainCircuit /><strong>Evidence-first selection</strong><span>Unseen, weak-area, error, review, and independent-family evidence comes first</span></div>
-        <div><Gauge /><strong>1,200-item credential bank</strong><span>800 practice · Form A {mockAUsed ? "used" : "unseen"} · Form B {mockBUsed ? "used" : "unseen"}</span></div>
-        <div><BookOpenCheck /><strong>Three reference lenses</strong><span>Yates depth · Nito drills · exam-book reasoning</span></div>
-        <div><ShieldCheck /><strong>{config.blueprint} governed</strong><span>{PROVISIONAL_DIFFICULTY_NOTE}</span></div>
-      </section>
-
-      {recent.length > 0 && (
-        <section className="page-width recent-section">
-          <div className="section-heading"><div><p className="eyebrow">Recent work</p><h2>Blocks on record</h2></div></div>
-          <div className="recent-grid">
-            {recent.map((session) => (
-              <div className="recent-card" key={session.id}><span>{getModeCopy(session.mode, config).title}</span><strong>{Math.round((session.score / session.count) * 100)}%</strong><small>{new Date(session.date).toLocaleDateString()} · {formatTime(session.seconds)} · {difficultyLabel(Math.round(session.difficulty))}</small></div>
-            ))}
-          </div>
-        </section>
-      )}
-      <Disclaimer config={config} />
+      <section className="page-width study-quick-actions"><span>Quick actions</span>{modes.map((mode) => { const disabled = mode === "missed" && !activeAttempts.some((attempt) => !attempt.correct && (attempt.pool ?? "practice") === "practice"); const copy = getModeCopy(mode, config); return <button key={mode} disabled={disabled} onClick={() => !disabled && onMode(mode)}><ModeIcon mode={mode} size={15} /><strong>{copy.title}</strong></button>; })}</section>
+      <p className="study-trust-note page-width"><LockKeyhole size={13} /> {completedToday ? "Today’s study block is complete." : "Today’s study block is ready."} {overall === null ? READINESS_INSUFFICIENT_EXPLANATION : READINESS_DISCLAIMER}</p>
     </main>
   );
 }
@@ -1762,23 +1657,27 @@ function Analytics({ config, mastery, attempts, sessions, mockExposures, overall
   const correct = attempts.filter((attempt) => attempt.correct).length;
   const avg = total ? Math.round((correct / total) * 100) : 0;
   const avgPace = total ? Math.round(attempts.reduce((sum, attempt) => sum + attempt.seconds, 0) / total) : 0;
-  const stable = config.domains.filter((domain) => {
-    const score = readinessScore(mastery[domain.id]);
-    return score !== null && score >= 80 && (mastery[domain.id]?.stableBlocks ?? 0) >= ASSESSMENT_EVIDENCE_CONFIG.stability.requiredStableBlocks;
-  }).length;
+  const studySeconds = attempts.reduce((sum, attempt) => sum + attempt.seconds, 0);
+  const studyTime = studySeconds >= 3600 ? `${Math.floor(studySeconds / 3600)}h ${Math.round((studySeconds % 3600) / 60)}m` : `${Math.round(studySeconds / 60)}m`;
+  const sessionDays = [...new Set(sessions.map((session) => new Date(session.date).toDateString()))];
+  const streak = sessionDays.length ? sessionDays.sort((a, b) => new Date(b).getTime() - new Date(a).getTime()).reduce((count, day, index, days) => index === 0 || Math.round((new Date(days[index - 1]).getTime() - new Date(day).getTime()) / 86400000) <= 1 ? count + 1 : count, 0) : 0;
   const recentSessions = [...sessions].slice(0, 8).reverse();
   const mockAStatus = mockExposures.A ? "used" : "unseen";
   const mockBStatus = mockExposures.B ? "used" : "unseen";
   const chartMax = Math.max(1, ...recentSessions.map((session) => Math.round((session.score / session.count) * 100)));
   return (
     <main className="analytics-page">
-      <section className="page-title page-width"><div><p className="eyebrow"><BarChart3 size={15} /> {config.name} {READINESS_LABEL}</p><h1>Evidence, not optimism.</h1><p>Performance is weighted to {config.blueprint}; stability requires sufficient current-block evidence and repeated success above 80%.</p></div><button className="primary-button" onClick={onStudy}>Start today’s session <ArrowRight size={18} /></button></section>
+      <section className="page-title page-width"><div><h1>Your Learning Analytics</h1><p>Track progress, find gaps, and improve performance.</p></div><button className="primary-button" onClick={onStudy}>Start today’s session <ArrowRight size={18} /></button></section>
       <section className="analytics-kpis page-width">
         <div className="hero-kpi"><span>{READINESS_LABEL}</span><strong>{overall === null ? READINESS_INSUFFICIENT_LABEL : `${overall}%`}</strong><div className="meter large"><i style={{ width: `${overall ?? 0}%` }} /></div><small>{overall === null ? READINESS_INSUFFICIENT_EXPLANATION : READINESS_DISCLAIMER}</small></div>
         <div><span>Answered</span><strong>{total.toLocaleString()}</strong><small>across {sessions.length} blocks</small></div>
-        <div><span>Raw accuracy</span><strong>{avg}%</strong><small>Observed practice responses only</small></div>
-        <div><span>Average pace</span><strong>{avgPace || "—"}{avgPace ? "s" : ""}</strong><small>{config.paceSeconds}s exam target</small></div>
-        <div><span>Stable domains</span><strong>{stable} / {config.domains.length}</strong><small>two qualifying blocks each</small></div>
+        <div><span>Average accuracy</span><strong>{avg}%</strong><small>Observed practice responses only</small></div>
+        <div><span>Study streak</span><strong>{streak}</strong><small>active session days</small></div>
+        <div><span>Time studied</span><strong>{studyTime}</strong><small>{avgPace ? `${avgPace}s average pace` : "No timed responses yet"}</small></div>
+      </section>
+      <section className="analytics-secondary page-width">
+        <div className="analytics-card weakest-card"><div className="panel-heading"><div><p className="eyebrow">Focus next</p><h2>Weakest Topics</h2></div></div>{config.domains.map((domain) => ({ domain, score: readinessScore(mastery[domain.id]) })).sort((a, b) => (a.score ?? -1) - (b.score ?? -1)).slice(0, 5).map(({ domain, score }) => <div className="weak-topic" key={domain.id}><span>{domain.name}</span><i><b style={{ width: `${score ?? 0}%` }} /></i><strong>{score === null ? "—" : `${score}%`}</strong></div>)}</div>
+        <div className="analytics-card recent-performance"><div className="panel-heading"><div><p className="eyebrow">Latest evidence</p><h2>Recent Performance</h2></div></div>{sessions.slice(-4).reverse().map((session) => <div key={session.id}><span>{session.mode}</span><small>{new Date(session.date).toLocaleDateString()}</small><strong>{Math.round((session.score / session.count) * 100)}%</strong></div>)}{!sessions.length && <p className="subtle">Recent performance appears after your first completed block.</p>}</div>
       </section>
       <section className="analytics-layout page-width">
         <div className="analytics-card domain-detail-card">

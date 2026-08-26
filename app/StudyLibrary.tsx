@@ -1,6 +1,6 @@
 "use client";
 
-import { BookOpenCheck, Calculator, Check, ChevronLeft, ChevronRight, CircleHelp, FlaskConical, Languages, Layers3, Search, Sparkles } from "lucide-react";
+import { BookOpenCheck, Calculator, Check, ChevronLeft, ChevronRight, CircleHelp, FlaskConical, Languages, Layers3, Search, Settings2 } from "lucide-react";
 import { useState } from "react";
 import { HAZARD_COUNTS, HAZARD_RECORDS, type HazardRecord } from "./hazardData";
 import { nextFlashcardProgress, type FlashcardRating, type LearningProgress } from "./learningProgress";
@@ -34,6 +34,7 @@ function Flashcards({ progress, onProgress }: { progress: LearningProgress; onPr
   const queue = due.length ? due : filtered;
   const card = queue[index % Math.max(1, queue.length)];
   const mastered = filtered.filter((item) => (progress.flashcards[item.id]?.intervalDays ?? 0) >= 21).length;
+  const newCards = filtered.filter((item) => !progress.flashcards[item.id]).length;
 
   function rate(rating: FlashcardRating) {
     if (!card) return;
@@ -42,7 +43,15 @@ function Flashcards({ progress, onProgress }: { progress: LearningProgress; onPr
     setIndex((value) => (value + 1) % Math.max(1, queue.length));
   }
 
-  return <section className="page-width library-panel"><div className="library-toolbar"><div><p className="eyebrow"><Sparkles size={15} /> Spaced review</p><h2>Flashcard queue</h2></div><select value={deck} onChange={(event) => { setDeck(event.target.value); setIndex(0); setRevealed(false); }} aria-label="Filter flashcard deck">{decks.map((item) => <option value={item} key={item}>{item === "all" ? "All decks" : item}</option>)}</select></div><div className="flash-stats"><span><strong>{due.length}</strong> due now</span><span><strong>{filtered.length - due.length}</strong> scheduled</span><span><strong>{mastered}</strong> mastered</span></div>{card ? <div className="flashcard-stage"><button type="button" className={revealed ? "flashcard revealed" : "flashcard"} onClick={() => setRevealed(true)}><small>{card.deck}{card.chapterId ? ` · ${card.chapterId.toUpperCase()}` : ""}</small><h3>{revealed ? card.back : card.front}</h3><span>{revealed ? "Rate how well you recalled it" : "Click to reveal the answer"}</span></button><div className="flashcard-nav"><button className="secondary-button" onClick={() => { setIndex((value) => (value - 1 + queue.length) % queue.length); setRevealed(false); }}><ChevronLeft size={16} /> Previous</button><span>{index % queue.length + 1} / {queue.length}</span><button className="secondary-button" onClick={() => { setIndex((value) => (value + 1) % queue.length); setRevealed(false); }}>Next <ChevronRight size={16} /></button></div>{revealed && <div className="rating-row"><button onClick={() => rate("again")}><strong>Again</strong><span>10 min</span></button><button onClick={() => rate("hard")}><strong>Hard</strong><span>1 day+</span></button><button onClick={() => rate("good")}><strong>Good</strong><span>adaptive</span></button><button onClick={() => rate("easy")}><strong>Easy</strong><span>longer gap</span></button></div>}</div> : <div className="empty-state"><Check /><h3>No cards in this deck.</h3></div>}</section>;
+  return <section className="page-width library-panel flashcards-panel">
+    <div className="library-toolbar"><div><h2>Flashcards</h2><p>Spaced repetition to lock in critical knowledge.</p></div><button className="secondary-button"><Settings2 size={15} /> Study Settings</button></div>
+    <div className="flashcard-filter-tabs"><select value={deck} onChange={(event) => { setDeck(event.target.value); setIndex(0); setRevealed(false); }} aria-label="Filter flashcard deck">{decks.map((item) => <option value={item} key={item}>{item === "all" ? "All Decks" : item}</option>)}</select><button className="active">Queue <span>{due.length}</span></button><button>Due <span>{due.length}</span></button><button>New <span>{newCards}</span></button><button>Learned <span>{mastered}</span></button></div>
+    {card ? <div className="flashcards-workspace">
+      <aside className="queue-summary"><span>Your Queue</span><strong>{queue.length}</strong><small>Cards to review</small><dl><div><dt>Due Today</dt><dd>{due.length}</dd></div><div><dt>New Cards</dt><dd>{newCards}</dd></div><div><dt>Learned</dt><dd>{mastered}</dd></div></dl></aside>
+      <div className="flashcard-stage"><button type="button" className={revealed ? "flashcard revealed" : "flashcard"} onClick={() => setRevealed(true)}><small>{card.deck}{card.chapterId ? ` · ${card.chapterId.toUpperCase()}` : ""}</small><h3>{revealed ? card.back : card.front}</h3><span>{revealed ? "Rate how well you recalled it" : "Show Answer"}</span></button><div className="flashcard-nav"><button className="secondary-button" onClick={() => { setIndex((value) => (value - 1 + queue.length) % queue.length); setRevealed(false); }}><ChevronLeft size={16} /></button><span>{index % queue.length + 1} / {queue.length}</span><button className="secondary-button" onClick={() => { setIndex((value) => (value + 1) % queue.length); setRevealed(false); }}><ChevronRight size={16} /></button></div><div className="rating-row"><button disabled={!revealed} onClick={() => rate("again")}><strong>Again</strong><span>10 min</span></button><button disabled={!revealed} onClick={() => rate("hard")}><strong>Hard</strong><span>1 day+</span></button><button disabled={!revealed} onClick={() => rate("good")}><strong>Good</strong><span>adaptive</span></button><button disabled={!revealed} onClick={() => rate("easy")}><strong>Easy</strong><span>longer gap</span></button></div></div>
+      <aside className="deck-list"><h3>Decks</h3>{decks.slice(1).map((item, deckIndex) => <button className={deck === item ? "active" : ""} onClick={() => { setDeck(item); setIndex(0); setRevealed(false); }} key={item}><span>{deckIndex + 1}</span><strong>{item}</strong><small>{FLASHCARDS.filter((flashcard) => flashcard.deck === item).length} cards</small></button>)}</aside>
+    </div> : <div className="empty-state"><Check /><h3>No cards in this deck.</h3></div>}
+  </section>;
 }
 
 function FormulaLibrary() {
@@ -81,21 +90,19 @@ function FormulaLibrary() {
   }
   return <section className="page-width library-panel">
     <div className="library-toolbar">
-      <div><p className="eyebrow"><Calculator size={15} /> Smart formula sheet</p><h2>Search by problem, not page</h2></div>
-      <span>{entries.length} filtered · {FORMULA_ENTRIES.length} total</span>
+      <div><h2>Formula Sheet</h2><p>Essential equations and problem-solvers.</p></div>
+      <div className="formula-unit-control"><span>Units</span><strong>Source units</strong></div>
     </div>
     <div className="resource-filters">
-      <label><Search size={16} /><input value={search} onChange={(event) => changeSearch(event.target.value)} placeholder="Search name, equation, variable, unit, use, or source" /></label>
-      <select value={category} onChange={(event) => changeCategory(event.target.value)} aria-label="Filter formula category">
-        {categories.map((item) => <option value={item} key={item}>{item === "all" ? "All categories" : item} ({categoryCounts[item]})</option>)}
-      </select>
+      <label><Search size={16} /><input value={search} onChange={(event) => changeSearch(event.target.value)} placeholder="Search formulas, symbols, or use cases" /></label>
       <select value={formulaSet} onChange={(event) => changeFormulaSet(event.target.value as "all" | "frequent")} aria-label="Filter formula set">
         <option value="all">All formulas ({FORMULA_ENTRIES.length})</option>
         <option value="frequent">Equations most often used on BCSP exams ({frequentlyUsedCount})</option>
       </select>
     </div>
+    <div className="formula-category-tabs">{categories.slice(0, 8).map((item) => <button className={category === item ? "active" : ""} onClick={() => changeCategory(item)} key={item}>{item === "all" ? "All" : item}<span>{categoryCounts[item]}</span></button>)}</div>
     {entries.length ? <>
-      <div className="formula-grid">{visibleEntries.map((entry) => <details className="formula-card" key={entry.id}><summary><div><small>{entry.category}{frequentlyUsedIds.has(entry.id) ? " · Most often used" : ""}</small><h3>{entry.name}</h3></div><span className="formula-expression">{entry.formula}</span></summary><div className="formula-body"><p><strong>Use it when:</strong> {entry.whenToUse}</p><p><strong>Variables:</strong> {entry.variables.join(" · ")}</p><p><strong>Units:</strong> {entry.units}</p><p className="formula-warning"><strong>Common error:</strong> {entry.commonError}</p><div className="worked-example"><span>Worked example</span><p>{entry.workedExample}</p></div><small>Source reference: {entry.sourcePage}</small></div></details>)}</div>
+      <div className="formula-grid">{visibleEntries.map((entry) => <details className="formula-card" key={entry.id}><summary><div><small>{entry.category}{frequentlyUsedIds.has(entry.id) ? " · Most often used" : ""}</small><h3>{entry.name}</h3></div><span className="formula-expression">{entry.formula}</span><small className="formula-symbol-preview">{entry.variables.slice(0, 2).join(" · ")}</small></summary><div className="formula-body"><p><strong>Use it when:</strong> {entry.whenToUse}</p><p><strong>Variables:</strong> {entry.variables.join(" · ")}</p><p><strong>Units:</strong> {entry.units}</p><p className="formula-warning"><strong>Common error:</strong> {entry.commonError}</p><div className="worked-example"><span>Worked example</span><p>{entry.workedExample}</p></div><small>Source reference: {entry.sourcePage}</small></div></details>)}</div>
       {remaining > 0 && <div className="flashcard-nav" aria-label="Formula results controls">
         <button className="secondary-button" onClick={() => setVisibleCount((count) => count + PAGE_SIZE)}>Show {Math.min(PAGE_SIZE, remaining)} more</button>
         <span>Showing {visibleEntries.length} of {entries.length}</span>
@@ -110,9 +117,10 @@ function HazardsLibrary() {
   const [mode, setMode] = useState<"explore" | "table">("explore");
   return <section className="page-width library-panel">
     <div className="library-toolbar">
-      <div><p className="eyebrow"><FlaskConical size={15} /> Occupational health reference</p><h2>See where hazards can act</h2></div>
+      <div><p className="eyebrow"><FlaskConical size={15} /> Occupational health reference</p><h2>Hazard Atlas</h2><p>Explore source-backed hazards, their effects, and the work contexts in the imported library.</p></div>
       <span>Built from {HAZARD_COUNTS.total} bilingual table records</span>
     </div>
+    <div className="hazard-category-overview"><div><FlaskConical /><strong>Toxicological</strong><span>{HAZARD_COUNTS.toxicological} records</span></div><div><Layers3 /><strong>Biological</strong><span>{HAZARD_COUNTS.biological} records</span></div><div className="future-slot"><CircleHelp /><strong>Advanced Atlas</strong><span>Data unavailable</span></div></div>
     <div className="hazard-view-switches" role="group" aria-label="Hazard library view">
       <button className={mode === "explore" ? "active" : ""} onClick={() => setMode("explore")}>Body-system explorer</button>
       <button className={mode === "table" ? "active" : ""} onClick={() => setMode("table")}>Source data table</button>
