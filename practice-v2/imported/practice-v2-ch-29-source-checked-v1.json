@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-29-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-29",
+  "chapterTitle": "Walking and Working Surfaces",
+  "questions": [
+    {
+      "id": "PV2-CH29-001",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Portable ladder angle",
+      "itemFamilyId": "CH29-LADDER-ANGLE-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A non-self-supporting ladder reaches a support point 16 feet above the ground. Using the 4-to-1 setup rule, how far should the base be from the support?",
+      "options": [
+        "2 feet",
+        "4 feet",
+        "8 feet",
+        "12 feet"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The base distance is one foot out for every four feet of vertical height: 16/4 = 4 feet.",
+      "incorrectOptionExplanations": [
+        "This uses an 8-to-1 ratio rather than 4 to 1.",
+        null,
+        "This uses a 2-to-1 ratio and places the base too far out.",
+        "This subtracts one quarter of the height instead of dividing by four."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, ladder basics and setup, pp. 657-665; OSHA walking-working surfaces",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "base distance = vertical height/4",
+      "units": "feet",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f85024d4c41760c1dfa9ee649fe1598179e27b371852e377fff2d10fad32d7d4"
+    },
+    {
+      "id": "PV2-CH29-002",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Stepladder use",
+      "itemFamilyId": "CH29-STEPLADDER-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Which practice is acceptable when using a standard stepladder?",
+      "options": [
+        "Lean the folded stepladder against a wall as a straight ladder",
+        "Stand on the top cap for additional reach",
+        "Fully open and lock the spreaders, then stand only on permitted steps",
+        "Move the ladder while a worker remains on it"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Stepladders should be fully opened with spreaders locked and used according to manufacturer step restrictions.",
+      "incorrectOptionExplanations": [
+        "A standard stepladder is designed for use in the open, locked position unless specifically designed otherwise.",
+        "The top cap is not a permitted standing step.",
+        null,
+        "Moving an occupied ladder creates a serious fall hazard."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, ladders and ladder accident prevention, pp. 658-665; OSHA 1910.23",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "38d904a770c855dcd88e6a11d85143c882ce2e5ed7fec1cf254cd31605f39f1e"
+    },
+    {
+      "id": "PV2-CH29-003",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Guardrail height",
+      "itemFamilyId": "CH29-GUARDRAIL-HEIGHT-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "What is the nominal top-edge height for a general-industry top rail?",
+      "options": [
+        "30 inches exactly",
+        "36 inches, plus or minus 1 inch",
+        "48 inches minimum with no tolerance",
+        "42 inches, plus or minus 3 inches"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "General-industry top rails are generally 42 inches, plus or minus 3 inches, above the walking-working surface.",
+      "incorrectOptionExplanations": [
+        "Thirty inches is below the required nominal top-edge height.",
+        "Thirty-six inches does not meet the general top-rail criterion.",
+        "The standard uses a nominal 42-inch height with permitted variation, not a universal 48-inch minimum.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, fall protection systems, pp. 675-679; OSHA 1910.29(b)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c2ffd465b7ac24c5a3577f81b7e67fae2965376dd57ef9f042b0196dd4421671"
+    },
+    {
+      "id": "PV2-CH29-004",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fixed ladder fall protection",
+      "itemFamilyId": "CH29-FIXED-LADDER-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A new fixed ladder extends 32 feet above a lower level. What protection is required under the modern general-industry ladder provisions?",
+      "options": [
+        "A personal fall-arrest system or ladder safety system",
+        "A cage alone is always sufficient for a new ladder",
+        "No protection because the ladder is under 40 feet",
+        "Only a warning sign at the base"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "New fixed ladders extending more than 24 feet require a personal fall-arrest or ladder safety system.",
+      "incorrectOptionExplanations": [
+        null,
+        "Cages are being phased out as the sole protection for new fixed ladders subject to the current requirements.",
+        "The relevant threshold is more than 24 feet, not 40 feet.",
+        "A warning sign does not arrest or prevent a fall."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, ladders and fall protection, pp. 657-679; OSHA 1910.28(b)(9)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0185ff2cfd87daf3a8e8b322f775e6ecf62dabd38405903824d0bea0bf621b3f"
+    },
+    {
+      "id": "PV2-CH29-005",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hole cover control",
+      "itemFamilyId": "CH29-HOLE-COVER-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A temporary floor opening is covered during maintenance. Which condition is most important?",
+      "options": [
+        "The cover is loose so it can be removed quickly",
+        "The cover is secured, capable of supporting expected loads, and clearly identified",
+        "The cover is made only from a visually contrasting material",
+        "The opening is covered only when supervisors are present"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A floor-hole cover must resist expected loading, remain secured against displacement, and be marked or otherwise identified.",
+      "incorrectOptionExplanations": [
+        "An unsecured cover can shift and expose the opening.",
+        null,
+        "Visibility helps but does not establish strength or securement.",
+        "Protection must remain effective whenever exposure exists, not only during supervision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, duty to have fall protection and cover criteria, pp. 675-679; OSHA 1910.28 and 1910.29",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1d01ee6b7a5d1b3d19e78b5cab11a9b26733a51f7ee4cf5b8137547b029cec5c"
+    },
+    {
+      "id": "PV2-CH29-006",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fall-arrest clearance",
+      "itemFamilyId": "CH29-FALL-CLEARANCE-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "analyze",
+      "stem": "A fall-arrest setup may involve 6 feet of free fall, 3.5 feet of deceleration, 1.5 feet from the D-ring to the worker feet, and a 2-foot safety margin. What minimum clearance is needed below the anchorage connection level?",
+      "options": [
+        "9.5 feet",
+        "11 feet",
+        "13 feet",
+        "15 feet"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Total clearance = 6 + 3.5 + 1.5 + 2 = 13 feet.",
+      "incorrectOptionExplanations": [
+        "This omits the D-ring-to-feet distance and safety margin.",
+        "This omits the safety margin.",
+        null,
+        "This adds an unsupported extra 2 feet to the stated components."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 25 and 29, fall distance and clearance calculations, pp. 583-589 and 676-679",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "clearance = free fall + deceleration + D-ring-to-feet + safety margin",
+      "units": "feet",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fc359d652e99135e7941ff4735debe58c1b06d69815e7b700fe472a3a29ac499"
+    },
+    {
+      "id": "PV2-CH29-007",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Rope descent anchorage",
+      "itemFamilyId": "CH29-RDS-ANCHORAGE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Before a rope descent system is used for window cleaning, what must be confirmed about the anchorage?",
+      "options": [
+        "It is the nearest roof object regardless of design",
+        "It is used only by one worker at a time",
+        "It has been painted a designated safety color",
+        "It has been identified, tested or certified as capable of supporting the required load"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Rope descent systems require a suitable anchorage with verified capacity, not an improvised attachment point.",
+      "incorrectOptionExplanations": [
+        "Proximity does not establish structural capacity or suitability.",
+        "Limiting use to one worker does not establish the required anchorage strength.",
+        "Color coding does not verify engineering capacity.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, rope descent systems, pp. 670-675; OSHA 1910.27",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "33456d52c5c8cf63ea88f3781dc3a02e1db3dad6529db0cb4692ebc5f2c3fc72"
+    },
+    {
+      "id": "PV2-CH29-008",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Housekeeping and access",
+      "itemFamilyId": "CH29-HOUSEKEEPING-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A distribution area has repeated same-level falls caused by shrink wrap and broken pallets in aisles. Which action is strongest?",
+      "options": [
+        "Redesign material-flow and waste-removal controls so aisles remain continuously clear",
+        "Remind employees to watch where they walk",
+        "Require slip-resistant shoes as the only control",
+        "Wait for the weekly cleanup crew"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A reliable housekeeping system should prevent and promptly remove obstructions as part of the operating process.",
+      "incorrectOptionExplanations": [
+        null,
+        "Attention reminders do not remove recurring obstructions.",
+        "Footwear may reduce some consequences but does not correct aisle hazards.",
+        "A weekly schedule permits hazards to remain during normal operations."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, general walking-working surface requirements, pp. 657-680",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0bbb0297710446bdcca1634c517ba54fbe70904956fd939dd8970dc17c8cfe7e"
+    }
+  ]
+}

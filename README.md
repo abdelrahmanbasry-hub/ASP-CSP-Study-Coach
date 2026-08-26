@@ -131,10 +131,14 @@ There is no learner-facing ASP/CSP selector and no top-level question
 `credential`, `blueprintVersion`, `primaryObjectiveId`, or
 `secondaryObjectiveIds`. `chapterId` and `chapterTitle` drive cataloging,
 filtering, session construction, and new attempt metadata. A single canonical
-question may align to ASP, CSP, or both through `examAlignments` and one nested
-`blueprintMappings` record per applicable blueprint. Questions are never copied
-into separate credential banks. Practice V2 continues to read the version 1
-progress record and its existing question-ID history.
+question may align to ASP, CSP, or both through `examAlignments` and nested
+`blueprintMappings`. The importer accepts both the original grouped mapping
+(`primaryObjectiveId` plus `secondaryObjectiveIds`) and the objective-level
+mapping used by complete chapter packs (`credential`, `objectiveId`, and
+`role`). Objective-level packs also retain their supplied source URLs,
+source-verification date, and SHA-256 content fingerprint. Questions are never
+copied into separate credential banks. Practice V2 continues to read the
+version 1 progress record and its existing question-ID history.
 
 Import a Practice V2 JSON pack with:
 
@@ -177,8 +181,8 @@ never contributes to Mock Exam readiness or the Practice Readiness Indicator.
 They are not represented as psychometrically calibrated. In production,
 `/practice-v2` remains a Coming soon page until eligible content exists.
 
-For a manual local preview, run `pnpm dev`, open `/practice-v2`, select ASP or
-CSP, choose the demo chapter, and answer its placeholder. Verify immediate
+For a manual local preview, run `pnpm dev`, open `/practice-v2`, choose one or
+more chapters, and answer a question. Verify immediate
 correct and distractor feedback, then intentionally answer with High confidence
 to populate Mistake Review. Clear only the
 `asp-csp-practice-v2-progress-v1` browser key to reset this preview.

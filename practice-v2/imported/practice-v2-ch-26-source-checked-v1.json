@@ -1,0 +1,693 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-26-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-26",
+  "chapterTitle": "Risk Assessment and Management",
+  "questions": [
+    {
+      "id": "PV2-CH26-001",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hazard versus risk",
+      "itemFamilyId": "CH26-HAZARD-RISK-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Which statement best distinguishes a hazard from risk?",
+      "options": [
+        "A hazard is the probability of injury, while risk is the unsafe condition",
+        "Hazard and risk are interchangeable terms in every assessment",
+        "A hazard is only an event that has already caused harm",
+        "A hazard is a source or condition with potential for harm; risk combines likelihood and consequence"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Hazard describes the potential source of harm. Risk estimates the chance and consequence of that harm under defined conditions.",
+      "incorrectOptionExplanations": [
+        "Probability is one component of risk, not the definition of a hazard.",
+        "The terms describe different concepts and should not be treated as identical.",
+        "A hazard can exist before any incident occurs.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, definitions and risk-management process, pp. 604-606",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d4e346a15aba137ded9736f12a0201139f5530e0defdb815dc59dcb7e7413047"
+    },
+    {
+      "id": "PV2-CH26-002",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Initial risk ranking",
+      "itemFamilyId": "CH26-RISK-MATRIX-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A task has an occasional likelihood rating of 3 and a catastrophic consequence rating of 5. If the matrix multiplies likelihood by consequence, what is the initial risk score?",
+      "options": [
+        "15",
+        "2",
+        "8",
+        "25"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Using the stated method, risk score = 3 x 5 = 15. The score must then be interpreted using the organization risk criteria.",
+      "incorrectOptionExplanations": [
+        null,
+        "This subtracts the ratings instead of combining them.",
+        "This adds the ratings rather than using the stated matrix method.",
+        "This squares the consequence rating and ignores likelihood."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk assessment scenario and risk ranking, pp. 606-610",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "risk score = likelihood rating x consequence rating",
+      "units": "risk-score points",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0bf99059aa8b161c2710684cbcfc5f50056b8f03646440a105bfa9d7fb550f61"
+    },
+    {
+      "id": "PV2-CH26-003",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Inherent and residual risk",
+      "itemFamilyId": "CH26-INHERENT-RESIDUAL-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A risk assessment lists the hazard rating before controls and again after verified controls. What do the two ratings represent?",
+      "options": [
+        "Compliance risk and financial risk",
+        "Inherent risk and residual risk",
+        "Acute risk and chronic risk",
+        "Transfer risk and insurance risk"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Inherent risk is estimated without relying on controls; residual risk is the risk remaining after controls are applied and verified.",
+      "incorrectOptionExplanations": [
+        "Compliance and financial risks are different classifications and do not describe before-and-after control ratings.",
+        null,
+        "Acute and chronic describe time course of effects, not control-state ratings.",
+        "Risk transfer is a treatment option, not the name for the two assessment states."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, control development, implementation, and evaluation, pp. 610-614",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e497d55b7940e03c18e0927a79f74524ba5118d0b4352f72560faa5d628a0db5"
+    },
+    {
+      "id": "PV2-CH26-004",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk treatment hierarchy",
+      "itemFamilyId": "CH26-RISK-TREATMENT-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A solvent-cleaning process presents inhalation and fire hazards. Which proposal is the strongest risk treatment?",
+      "options": [
+        "Issue half-mask respirators to all operators",
+        "Post additional warning signs near the process",
+        "Replace the solvent with a less hazardous validated cleaning method",
+        "Rotate operators every two hours"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A validated substitution reduces the hazard at its source and is stronger than controls that depend mainly on worker behavior.",
+      "incorrectOptionExplanations": [
+        "Respirators are important when needed but depend on correct selection, fit, use, and program controls.",
+        "Warnings communicate risk but do not reduce the inherent hazard.",
+        null,
+        "Rotation may reduce individual duration but leaves the hazard and exposes more people."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, controls development and decision-making, pp. 610-614",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d25a9c14ac2227d7efe0e9aa0abf8cd19120529167019255afec80a37de1f95c"
+    },
+    {
+      "id": "PV2-CH26-005",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk acceptance criteria",
+      "itemFamilyId": "CH26-RISK-ACCEPTANCE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A team calls a high-consequence residual risk acceptable because no incident has occurred in five years. What is the main weakness?",
+      "options": [
+        "Five years is always the minimum period required for acceptance",
+        "High-consequence hazards cannot ever be evaluated quantitatively",
+        "Residual risk should be based only on insurance premium",
+        "Past absence of loss does not demonstrate that residual risk meets defined acceptance criteria"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Acceptance should be based on approved criteria, control effectiveness, exposure, uncertainty, and consequence, not merely on a quiet loss history.",
+      "incorrectOptionExplanations": [
+        "There is no universal five-year rule for deciding risk acceptability.",
+        "High-consequence hazards may be assessed using qualitative or quantitative methods with uncertainty stated.",
+        "Insurance cost does not replace technical and organizational risk criteria.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk evaluation and decision-making, pp. 604-614",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d70b12a78f7f80b1f075984d5727b6e6f5d90196af1f687f63fc09cc57aba661"
+    },
+    {
+      "id": "PV2-CH26-006",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk uncertainty",
+      "itemFamilyId": "CH26-UNCERTAINTY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Exposure data are sparse and the consequence could be severe. How should the uncertainty be handled?",
+      "options": [
+        "Document assumptions, use a conservative decision where warranted, and obtain better data",
+        "Assign the lowest likelihood because no event was measured",
+        "Delete the hazard until a complete data set exists",
+        "Average the best and worst estimates without explanation"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A defensible assessment makes uncertainty visible, avoids false precision, and identifies additional data or interim controls.",
+      "incorrectOptionExplanations": [
+        null,
+        "Lack of evidence is not evidence of low likelihood.",
+        "Removing the hazard from the assessment hides uncertainty rather than managing it.",
+        "An unexplained average may falsely imply precision and conceal the range."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, hazard assessment and risk decision-making, pp. 606-614",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "07557d5885a5d1e12c2495a53e73672a1b99f6f471cf49c72cacfa819ae4ba1e"
+    },
+    {
+      "id": "PV2-CH26-007",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk communication",
+      "itemFamilyId": "CH26-RISK-COMMUNICATION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Management asks for a one-page summary of a complex risk assessment. What information is essential?",
+      "options": [
+        "Only the final color from the risk matrix",
+        "Hazard, exposed groups, assumptions, risk basis, controls, residual risk, and decision ownership",
+        "Only the names of employees who participated",
+        "Only the estimated financial cost of the preferred control"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A concise risk communication should preserve the evidence and assumptions needed to understand and act on the decision.",
+      "incorrectOptionExplanations": [
+        "A color without context does not explain consequence, uncertainty, controls, or decision basis.",
+        null,
+        "Participant names do not communicate the risk analysis.",
+        "Cost is one decision input and does not replace safety and health evidence."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk-management process and control decisions, pp. 604-614",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "deda0bf79f322ba5a76297f0e2d469ad08c6dbda18d1974994c7d427adc9db57"
+    },
+    {
+      "id": "PV2-CH26-008",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Bow-tie barriers",
+      "itemFamilyId": "CH26-BOWTIE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "In a bow-tie analysis, where are preventive and mitigative barriers placed?",
+      "options": [
+        "Both barrier types are placed only after consequences occur",
+        "Preventive barriers are after consequences and mitigative barriers are before threats",
+        "Preventive barriers are before the top event; mitigative barriers are between the top event and consequences",
+        "Barrier placement is unrelated to the event sequence"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The left side controls threats leading to loss of control; the right side limits escalation and consequences after the top event.",
+      "incorrectOptionExplanations": [
+        "Barriers are intended to interrupt escalation before loss or reduce consequences after loss of control.",
+        "This reverses the role of the two barrier groups.",
+        null,
+        "The method explicitly organizes threats, top event, barriers, and consequences."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26 and Chapter 35, hazard-analysis and risk-control methods, pp. 604-614 and 791-795",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c7bbc6551509dafbde59f7c04542d27bff79c232a5e024b4d552d31b854b5275"
+    },
+    {
+      "id": "PV2-CH26-009",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sensitivity analysis",
+      "itemFamilyId": "CH26-SENSITIVITY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A control decision changes depending on whether the assumed failure probability is 0.001 or 0.01. What should the analyst do?",
+      "options": [
+        "Select the lower probability because it produces the preferred result",
+        "Report only the midpoint as the exact probability",
+        "Ignore probability and rank only by cost",
+        "Perform sensitivity analysis and identify which assumption drives the decision"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Sensitivity analysis tests how uncertainty in inputs affects the result and highlights where better evidence is most valuable.",
+      "incorrectOptionExplanations": [
+        "Choosing the favorable assumption is biased and not evidence-based.",
+        "A midpoint can hide the fact that the conclusion changes across the plausible range.",
+        "Cost alone cannot represent the safety consequences and uncertainty.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk analysis and decision-making, pp. 606-614",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bf4981aadc604fdced8f350cf074ea97b4971721e77afec4581816ce392ff5ef"
+    },
+    {
+      "id": "PV2-CH26-010",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk transfer",
+      "itemFamilyId": "CH26-RISK-TRANSFER-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "What is the most accurate statement about transferring risk through insurance or contract?",
+      "options": [
+        "Financial consequences may be transferred, but the organization still must control the underlying hazard",
+        "The hazard is eliminated when insurance is purchased",
+        "The contractor alone owns all risk once a contract is signed",
+        "Risk transfer replaces verification of controls"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Risk financing and contractual allocation can change who pays, but they do not remove the source of harm or the duty to manage it.",
+      "incorrectOptionExplanations": [
+        null,
+        "Insurance changes financing, not the physical condition that can cause harm.",
+        "Legal and operational duties may remain with multiple parties despite contract language.",
+        "Control verification is still needed because people remain exposed."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk-management options and decision-making, pp. 604-614",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0082a13fe9b307ce509da52df85dfa5813e26c67e278be089beb7869b1295aca"
+    },
+    {
+      "id": "PV2-CH26-011",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dynamic risk assessment",
+      "itemFamilyId": "CH26-DYNAMIC-RISK-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a shutdown, the work conditions depart from the approved plan and an unanticipated chemical line is found. What is the best action?",
+      "options": [
+        "Continue because the original risk assessment was approved",
+        "Pause the work, reassess the changed hazards, and authorize revised controls before continuing",
+        "Allow the most experienced worker to decide without documentation",
+        "Complete the task quickly to reduce exposure time"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Risk assessments must be revisited when conditions change so the control basis remains valid.",
+      "incorrectOptionExplanations": [
+        "An assessment is not valid when critical assumptions and conditions have changed.",
+        null,
+        "Experience helps, but significant changes require a controlled reassessment and authorization.",
+        "Speed can increase error and does not control unknown energy or chemical hazards."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, supervise and evaluate; Chapter 38, management of change, pp. 614 and 859-868",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8babca627775105dfbf02134d93ab20070cab172537a234d5844f987ed15dae6"
+    },
+    {
+      "id": "PV2-CH26-012",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Control verification",
+      "itemFamilyId": "CH26-CONTROL-VERIFICATION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A ventilation control was installed for a high-priority exposure. What closes the risk-management loop?",
+      "options": [
+        "Close the action when the purchase order is paid",
+        "Assume the design airflow is achieved because the fan is running",
+        "Measure performance and exposure to verify the control reduced risk as intended",
+        "Train employees to report symptoms and perform no technical check"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Implementation must be followed by effectiveness verification and continued monitoring where risk warrants it.",
+      "incorrectOptionExplanations": [
+        "Administrative completion does not demonstrate control effectiveness.",
+        "Fan operation alone does not verify capture, flow, or exposure reduction.",
+        null,
+        "Symptom reporting is reactive and cannot replace exposure and performance verification."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, implement controls and supervise/evaluate, pp. 610-614",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "57d670c8f622147e2dca71e41126bc1959ad2180d7c973d043f498946ed8ec03"
+    }
+  ]
+}

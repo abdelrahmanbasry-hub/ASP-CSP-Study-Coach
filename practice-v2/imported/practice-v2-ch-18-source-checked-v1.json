@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-18-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-18",
+  "chapterTitle": "Hydrostatics and Hydraulics",
+  "questions": [
+    {
+      "id": "PV2-CH18-001",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Water head to pressure",
+      "itemFamilyId": "CH18-HEAD-PRESSURE-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A gauge tap is 36 ft below the free surface of a water tank. Ignoring losses, what hydrostatic pressure is expected at the tap?",
+      "options": [
+        "15.6 psi",
+        "2.4 psi",
+        "36.0 psi",
+        "83.1 psi"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "For water, pressure is approximately P = 0.433*h. Thus 0.433*36 ft = 15.588 psi, or 15.6 psi.",
+      "incorrectOptionExplanations": [
+        null,
+        "This reverses the conversion and understates the pressure.",
+        "This treats feet of head as numerically equal to psi.",
+        "This divides head by 0.433, which calculates equivalent head from pressure instead."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Water Properties and Torricelli pressure relation, pp. 469-473",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "P = 0.433*h",
+      "units": "pounds per square inch (psi)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "07075d16fd38b192fb61439d1026485cf3d29d7112a14d07cd14ebcdc9f9e702"
+    },
+    {
+      "id": "PV2-CH18-002",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pressure to water head",
+      "itemFamilyId": "CH18-PRESSURE-HEAD-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A water line has a static pressure of 52 psi. Approximately how many feet of water head does this represent?",
+      "options": [
+        "22.5 ft",
+        "120 ft",
+        "225 ft",
+        "451 ft"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Rearrange P = 0.433*h to h = P/0.433. Then 52/0.433 = 120.1 ft, approximately 120 ft.",
+      "incorrectOptionExplanations": [
+        "This multiplies pressure by 0.433 instead of dividing.",
+        null,
+        "This uses an incorrect conversion of about 0.231 psi per foot.",
+        "This divides by the square of 0.433 without justification."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, pressure and head relationship, pp. 472-473",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "h = P/0.433",
+      "units": "feet of water head (ft)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7452d74d253fde061db0dce8413b318ce5dea6e1429e04d81d9317fb0a0133cc"
+    },
+    {
+      "id": "PV2-CH18-003",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Torricelli efflux velocity",
+      "itemFamilyId": "CH18-TORRICELLI-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A sharp-edged opening is 18 ft below the water surface in an open tank. Ignoring losses, what is the theoretical exit velocity?",
+      "options": [
+        "18.0 ft/s",
+        "25.4 ft/s",
+        "34.0 ft/s",
+        "64.4 ft/s"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Torricelli law gives v = sqrt(2*g*h) = sqrt(2*32.2*18) = 34.0 ft/s.",
+      "incorrectOptionExplanations": [
+        "This uses the head directly as velocity.",
+        "This uses only sqrt(2*h) and omits gravitational acceleration.",
+        null,
+        "This reports 2*g without applying the head or square root."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Torricelli Law, pp. 471-473",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "v = sqrt(2*g*h)",
+      "units": "feet per second (ft/s)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "95189a71b92ed84ebec8bc3b7c98f55470d29d83e3ad7f97876a2996feed407a"
+    },
+    {
+      "id": "PV2-CH18-004",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Volumetric flow rate",
+      "itemFamilyId": "CH18-FLOW-AREA-VELOCITY-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "analyze",
+      "stem": "Water moves through a 4.0 in inside-diameter pipe at an average velocity of 9.0 ft/s. What is the volumetric flow rate?",
+      "options": [
+        "0.262 ft^3/s",
+        "1.047 ft^3/s",
+        "3.142 ft^3/s",
+        "0.785 ft^3/s"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Convert diameter to 0.333 ft. Area = pi*d^2/4 = 0.0873 ft^2, so Q = A*v = 0.0873*9.0 = 0.785 ft^3/s.",
+      "incorrectOptionExplanations": [
+        "This uses radius as though it were diameter in the circular-area calculation.",
+        "This multiplies velocity by diameter rather than the pipe cross-sectional area.",
+        "This applies pi directly to the velocity without calculating area.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Flow Rates and Pressure Drops, pp. 476-478",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "Q = A*v; A = pi*d^2/4",
+      "units": "cubic feet per second (ft^3/s)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c366dcd46613204da372f6bded3200e0bfd3d4deb4b504a0c0b6addd040dbfe3"
+    },
+    {
+      "id": "PV2-CH18-005",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Velocity head",
+      "itemFamilyId": "CH18-VELOCITY-HEAD-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A water stream travels at 24 ft/s. Using g = 32.2 ft/s^2, what is its velocity head?",
+      "options": [
+        "8.9 ft",
+        "12.0 ft",
+        "18.6 ft",
+        "64.4 ft"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Velocity head is hv = v^2/(2*g) = 24^2/(2*32.2) = 8.94 ft, or 8.9 ft.",
+      "incorrectOptionExplanations": [
+        null,
+        "This divides velocity by two rather than squaring velocity and dividing by 2g.",
+        "This uses 24^2/31 rather than the required 2g denominator.",
+        "This reports the denominator 2g as the answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Velocity Head, pp. 474-475",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "h_v = v^2/(2*g)",
+      "units": "feet of head (ft)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8c3d0a9244f69cad9b438d9fb35f4fd0ae1f9bb184568381a1f52de3fa40a4b2"
+    },
+    {
+      "id": "PV2-CH18-006",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Static pump head",
+      "itemFamilyId": "CH18-STATIC-HEAD-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A pump draws water from a level 38 ft below grade and discharges to an outlet 17 ft above grade. Ignoring system losses, what static head must the pump overcome?",
+      "options": [
+        "21 ft",
+        "55 ft",
+        "38 ft",
+        "646 ft"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The pump must lift from 38 ft below grade to 17 ft above grade, so static head is 38 + 17 = 55 ft.",
+      "incorrectOptionExplanations": [
+        "This subtracts the elevations even though the suction and discharge are on opposite sides of grade.",
+        null,
+        "This includes only the suction lift and omits the discharge elevation.",
+        "This multiplies the two elevations rather than finding their vertical difference."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Head Pressure and elevation head, pp. 473-474",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "static head = suction lift + discharge elevation",
+      "units": "feet of head (ft)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5b63dd67dc1c45612a968f38b3126455c96be0abe9a2767b0ebc3717ef4277f9"
+    },
+    {
+      "id": "PV2-CH18-007",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pressure force on an area",
+      "itemFamilyId": "CH18-PRESSURE-FORCE-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A closed hydraulic access cover has an exposed area of 18 in^2 and internal pressure of 72 psi. What outward force acts on the cover?",
+      "options": [
+        "90 lbf",
+        "1,080 lbf",
+        "1,296 lbf",
+        "4.0 lbf"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Pressure is force per area, so F = P*A = 72 lbf/in^2*18 in^2 = 1,296 lbf.",
+      "incorrectOptionExplanations": [
+        "This adds pressure and area instead of multiplying them.",
+        "This uses 60 psi rather than the stated 72 psi.",
+        null,
+        "This divides pressure by area, which does not produce the applied force."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Hydrostatic Pressure, pp. 470-471",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "F = P*A",
+      "units": "pounds-force (lbf)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "637239f7af50e7b71dbe1a20d8891f9f52d7893d355afb95e11227367d013db7"
+    },
+    {
+      "id": "PV2-CH18-008",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Bernoulli pressure-velocity relationship",
+      "itemFamilyId": "CH18-BERNOULLI-VELOCITY-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "In a horizontal, lossless water line, the pipe narrows and fluid velocity increases. What change is expected in static pressure?",
+      "options": [
+        "Static pressure increases because the same flow is concentrated in a smaller area.",
+        "Static pressure remains constant because elevation stays the same.",
+        "Static pressure becomes zero whenever velocity increases in a horizontal line.",
+        "Static pressure decreases as kinetic energy per unit weight increases."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "For steady, incompressible, lossless flow at the same elevation, Bernoulli energy is conserved. Increasing velocity head is accompanied by lower pressure head.",
+      "incorrectOptionExplanations": [
+        "A smaller area raises velocity, but Bernoulli does not require static pressure to rise with it.",
+        "Equal elevation removes only elevation-head change; pressure and velocity heads can still trade.",
+        "Increased velocity does not imply zero pressure; the magnitude depends on the full energy balance.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Bernoulli Principle, pp. 479-481",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b1344d20ef4b3ded8206f29738b429b428cac8919b71b3cd120755bdcc24faf0"
+    },
+    {
+      "id": "PV2-CH18-009",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pipe friction pressure loss",
+      "itemFamilyId": "CH18-FRICTION-LOSS-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "analyze",
+      "stem": "Using Pd = 4.52*Q^1.85/(C^1.85*d^4.87), estimate total pressure loss for 300 ft of 6 in pipe carrying 500 gpm with C = 120.",
+      "options": [
+        "3.1 psi",
+        "0.010 psi",
+        "6.2 psi",
+        "30.9 psi"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The equation gives about 0.01028 psi/ft. Multiplying by 300 ft gives 3.09 psi, rounded to 3.1 psi.",
+      "incorrectOptionExplanations": [
+        null,
+        "This is approximately the loss per foot, not the total for 300 ft.",
+        "This doubles the correctly calculated total loss.",
+        "This moves the decimal one place and overstates the total loss by a factor of ten."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Calculating Pressure Loss Due to Friction, pp. 478-479",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "Pd = 4.52*Q^1.85/(C^1.85*d^4.87); total loss = Pd*length",
+      "units": "pounds per square inch (psi)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "908480c966e1805a8a82567a04a926e552a43024ebede8e6ef6f91b55a469610"
+    },
+    {
+      "id": "PV2-CH18-010",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Reynolds number flow regime",
+      "itemFamilyId": "CH18-REYNOLDS-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "A calculated Reynolds number for a liquid-flow condition is 1,500. How should the flow regime be classified using the chapter thresholds?",
+      "options": [
+        "Transitional flow",
+        "Laminar flow",
+        "Turbulent flow",
+        "Cavitating flow"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The chapter classifies Reynolds numbers below 2,000 as laminar, from 2,000 to 4,000 as transitional, and above 4,000 as turbulent.",
+      "incorrectOptionExplanations": [
+        "Transitional flow begins at approximately Reynolds number 2,000 under the stated thresholds.",
+        null,
+        "Turbulent flow is associated with Reynolds numbers above approximately 4,000.",
+        "Cavitation is a vapor-formation phenomenon and is not a Reynolds-number flow-regime category."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, flow regimes and key information, pp. 476 and 481",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b706a6c562b28c229c17acbfd68b0d0980905ef19d074f0543fba9852fb9108d"
+    },
+    {
+      "id": "PV2-CH18-011",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Control of stored hydraulic energy",
+      "itemFamilyId": "CH18-HYDRAULIC-LOTO-01",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "A press has been switched off and electrically locked out, but its hydraulic accumulator remains pressurized. What must occur before a worker enters the danger zone?",
+      "options": [
+        "Proceed because electrical lockout prevents every form of machine movement.",
+        "Open the control pendant circuit so the operator cannot command another stroke.",
+        "Isolate and dissipate the hydraulic energy, block movement as needed, and verify a zero-energy condition.",
+        "Post a warning sign and have a second employee watch the pressure gauge during entry."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Hydraulic pressure is stored hazardous energy. The energy-control procedure must isolate, restrain or dissipate it and verify the effectiveness of the controls before servicing.",
+      "incorrectOptionExplanations": [
+        "Electrical isolation does not remove stored hydraulic pressure or gravity-related movement.",
+        "Control-circuit devices are not energy-isolating devices and do not dissipate the accumulator.",
+        null,
+        "Warning and observation are not substitutes for physical isolation, dissipation, blocking, and verification."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.147 - Control of Hazardous Energy",
+      "sourceLocation": "Yates Chapter 18, hydraulic power and pressure concepts, pp. 469-481; OSHA 1910.147(a)(1)(i), (a)(3)(i), (c)(1), and energy-source definition",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "89de792f9a3cfeaf40c412c1a1075e9ef48002024301b11d08797993f3c09f71"
+    },
+    {
+      "id": "PV2-CH18-012",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hydrostatic pressure independence from tank shape",
+      "itemFamilyId": "CH18-TANK-SHAPE-PRESSURE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Two open tanks contain water to the same depth. One tank is narrow and the other is wide. At equal depth below each free surface, how do their hydrostatic pressures compare?",
+      "options": [
+        "The wide tank has greater pressure because it contains more total water.",
+        "The narrow tank has greater pressure because its water column is concentrated over a smaller base area.",
+        "The pressures cannot be compared unless both tanks have the same volume.",
+        "They are equal because water pressure at a depth depends on head, not tank width."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "For the same liquid and gravitational acceleration, hydrostatic pressure at a point depends on vertical depth or head. Container width and total volume do not change pressure at equal depth.",
+      "incorrectOptionExplanations": [
+        "Total liquid force on tank surfaces can differ, but point pressure at equal depth does not depend on total water volume.",
+        "Concentrating the column does not increase point pressure when the vertical head is unchanged.",
+        "Equal volume is unnecessary; equal liquid density and depth are the controlling factors.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Water Properties and hydrostatic pressure, pp. 469-470",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "P = gamma*h",
+      "units": "pressure at equal depth",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b209af924dcdd300b24d65814b552bd0554c204361aa6c5dbde93684b567b543"
+    }
+  ]
+}

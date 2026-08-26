@@ -34,6 +34,21 @@ const q = (id, overrides = {}) => ({
   ...overrides,
 });
 const pack = (questions) => ({ schemaVersion: 3, packId: "test-pack", packStatus: "content", questions });
+const objectiveMappedPack = (questions) => ({
+  schemaVersion: 3,
+  packId: "objective-mapped-pack",
+  packStatus: "content",
+  chapterId: demoAsp.chapterId,
+  chapterTitle: demoAsp.chapterTitle,
+  questions,
+});
+const objectiveMappedQuestion = (id, overrides = {}) => q(id, {
+  blueprintMappings: [{ credential: "ASP", blueprintVersion: "ASP11", objectiveId: "ASP11-A1.01", role: "primary" }],
+  sourceUrls: ["https://example.test/source"],
+  sourceVerifiedOn: "2026-08-26",
+  contentFingerprint: "a".repeat(64),
+  ...overrides,
+});
 
 test("the two-item demo pack is valid and cannot be mistaken for approved content", () => {
   assert.equal(demoPack.questions.length, 2);
@@ -86,6 +101,20 @@ test("source-checked eligibility requires every production safety gate", () => {
     assert.ok(validatePracticeV2Pack(pack([candidate])).some((issue) => issue.code === code));
     assert.equal(isPracticeV2ProductionEligible(candidate), false);
   }
+});
+
+test("schema v3 accepts objective-level blueprint mappings with source trace metadata", () => {
+  const valid = objectiveMappedQuestion("objective-mapped", { examAlignments: ["ASP", "CSP"], sourceLocation: "OSHA 1910.132(d), PPE hazard assessment" });
+  assert.deepEqual(validatePracticeV2Pack(objectiveMappedPack([valid])), []);
+  assert.equal(isPracticeV2ProductionEligible(valid), true);
+
+  const badCredential = objectiveMappedQuestion("bad-mapping-credential", {
+    blueprintMappings: [{ credential: "CSP", blueprintVersion: "ASP11", objectiveId: "ASP11-A1.01", role: "primary" }],
+  });
+  assert.ok(validatePracticeV2Pack(objectiveMappedPack([badCredential])).some((issue) => issue.code === "mapping-credential-mismatch"));
+
+  const badFingerprint = objectiveMappedQuestion("bad-fingerprint", { contentFingerprint: "not-a-sha256" });
+  assert.ok(validatePracticeV2Pack(objectiveMappedPack([badFingerprint])).some((issue) => issue.code === "invalid-content-fingerprint"));
 });
 
 test("calculation items require formula and units before verification", () => {
@@ -191,6 +220,8 @@ test("learner interface contains chapter controls and no credential selector", a
   assert.doesNotMatch(view, /Select credential|1\. Credential|setCredential|question\.credential/);
   assert.match(view, /Chapters or topics/);
   assert.match(view, /question\.chapterTitle/);
+  assert.match(view, /useState<PracticeV2Progress>\(emptyPracticeV2Progress\)/);
+  assert.match(view, /requestAnimationFrame\(\(\) => setProgress\(loadPracticeV2Progress\(window\.localStorage\)\)\)/);
 });
 
 test("import is atomic, preserves supplied JSON bytes, and reports imported items", async (t) => {

@@ -1,0 +1,582 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-34-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-34",
+  "chapterTitle": "Environmental Management",
+  "questions": [
+    {
+      "id": "PV2-CH34-001",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Aspect and impact",
+      "itemFamilyId": "CH34-ASPECT-IMPACT-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "In an environmental management system, which pair correctly identifies an aspect and an impact?",
+      "options": [
+        "Air contamination is the aspect; solvent use is the impact",
+        "An audit is the aspect; a procedure is the impact",
+        "A permit is the aspect; a budget is the impact",
+        "Solvent use is an aspect; air contamination is a potential impact"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "An aspect is an element of activities, products, or services that can interact with the environment; an impact is the resulting change.",
+      "incorrectOptionExplanations": [
+        "This reverses the activity or element and its environmental consequence.",
+        "Audits and procedures are management tools, not the stated aspect-impact relationship.",
+        "Permits and budgets are controls and resources, not this environmental cause-effect pair.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34 and Chapter 31, environmental management and ISO 14001 concepts, pp. 754-778 and 723-727",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "abc163c5eb7e3d964489adc198414962ca537c8bc732059623143022c753fc29"
+    },
+    {
+      "id": "PV2-CH34-002",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "NEPA decision process",
+      "itemFamilyId": "CH34-NEPA-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "A federal agency proposes a major action with potentially significant environmental effects. Which process may be required before the decision?",
+      "options": [
+        "Environmental review that may include an environmental assessment or environmental impact statement",
+        "An OSHA 300A posting only",
+        "A workers compensation premium audit",
+        "A confined-space entry permit"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "NEPA integrates environmental information into federal agency planning and decision-making, including appropriate public and alternatives review.",
+      "incorrectOptionExplanations": [
+        null,
+        "OSHA injury summaries do not evaluate environmental consequences of federal actions.",
+        "Insurance review is unrelated to NEPA decision-making.",
+        "A confined-space permit controls a specific entry, not federal environmental review."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, NEPA requirements and process, pp. 754-758",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/nepa"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "592ba444a79ac58d1d356ed2370a7786b1ea17b1cdc6f1328d66436075b1d8ad"
+    },
+    {
+      "id": "PV2-CH34-003",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Air permit compliance",
+      "itemFamilyId": "CH34-AIR-PERMIT-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A production increase may raise emissions above the assumptions used in an air permit. What should occur before the change?",
+      "options": [
+        "Run at the higher rate and check annual totals later",
+        "Evaluate permit and regulatory implications and obtain required approval before operating the change",
+        "Treat the change as a maintenance decision only",
+        "Ignore emissions if no odor is detected"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Environmental compliance should be integrated into change control so approvals, limits, monitoring, and records are addressed before operation.",
+      "incorrectOptionExplanations": [
+        "Post-change review can result in unauthorized operation.",
+        null,
+        "Production and emission changes may trigger regulatory and management-of-change review.",
+        "Odor is not a reliable measure of regulated emissions."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, Clean Air Act permits and enforcement, pp. 770-778; Chapter 38 MOC",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/clean-air-act-overview"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dcd97193b801393e6332c81c421d7662eaa83d4f275d073b0450e2911f0a03c1"
+    },
+    {
+      "id": "PV2-CH34-004",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Wastewater source control",
+      "itemFamilyId": "CH34-WASTEWATER-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A process intermittently sends a high-strength contaminant slug to wastewater treatment. Which control is strongest?",
+      "options": [
+        "Increase sampling only after the discharge",
+        "Dilute the slug with clean water",
+        "Control or segregate the source and equalize the flow before it reaches treatment",
+        "Ignore the variation if the monthly average is acceptable"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Source reduction, segregation, containment, and flow equalization prevent shock loading and protect treatment performance.",
+      "incorrectOptionExplanations": [
+        "Sampling detects the event but does not prevent treatment upset.",
+        "Dilution does not reduce pollutant mass and can increase hydraulic loading.",
+        null,
+        "Short-term loadings can disrupt treatment and violate instantaneous or daily limits."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, pollution prevention and water-management concepts, pp. 754-778",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "723af70d4f24897c0acd05196a0822445c7f31dee2861346609451dd0b918c1a"
+    },
+    {
+      "id": "PV2-CH34-005",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Spill pathway analysis",
+      "itemFamilyId": "CH34-SPILL-PATHWAY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A tank is near soil drains that connect to surface water. What should the environmental risk assessment emphasize?",
+      "options": [
+        "Only tank purchase price",
+        "Only the color of the stored liquid",
+        "Only the number of employees nearby",
+        "Source, release mechanism, migration pathway, receptors, and controls"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Environmental risk follows the chain from source through transport media to human or ecological receptors and available barriers.",
+      "incorrectOptionExplanations": [
+        "Cost does not characterize environmental fate and exposure.",
+        "Color does not determine migration or ecological consequence.",
+        "Workers are important receptors, but environmental pathways and off-site receptors also require analysis.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, environmental policy, waste, air, and water controls, pp. 754-778",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cc70e187db3a7275e71d3ea87a297ca1e94d1c28fde5ca163f3469d8d6d5179d"
+    },
+    {
+      "id": "PV2-CH34-006",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Universal waste",
+      "itemFamilyId": "CH34-UNIVERSAL-WASTE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Why do universal-waste rules exist for specified common hazardous wastes?",
+      "options": [
+        "To streamline collection and management while maintaining environmental protection",
+        "To declare every listed material nonhazardous",
+        "To allow disposal in ordinary trash without conditions",
+        "To remove all state regulatory authority"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The streamlined framework encourages proper collection and recycling of common waste streams such as certain batteries, lamps, and equipment.",
+      "incorrectOptionExplanations": [
+        null,
+        "The materials remain subject to management standards.",
+        "Universal-waste rules do not authorize unconditional ordinary disposal.",
+        "Authorized states may have additional or more stringent requirements."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, RCRA and universal waste, pp. 758-764",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/rcra"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ec6892f095aa545431e903329f9ed6959f50fd11dae807a70f1e9e0740f8c5ee"
+    },
+    {
+      "id": "PV2-CH34-007",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Environmental compliance obligations",
+      "itemFamilyId": "CH34-LEGAL-REGISTER-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "What is the best way for a multisite organization to keep environmental obligations current?",
+      "options": [
+        "Use one old permit as the only reference for every site",
+        "Maintain a site-specific legal register with owners, applicability reviews, changes, and compliance evidence",
+        "Rely on employee memory",
+        "Review regulations only after an enforcement action"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A controlled obligations process links applicable requirements to responsible owners, operating controls, monitoring, and periodic evaluation.",
+      "incorrectOptionExplanations": [
+        "Site processes, permits, jurisdictions, and conditions differ and change.",
+        null,
+        "Memory is not controlled or auditable evidence.",
+        "Reactive review exposes the organization to preventable noncompliance."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 31, 34, and 37, management systems, environmental law, and compliance auditing",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e560145189067d63c40eba0898524c1061abed35ccede0ab557cc66325c80ac9"
+    },
+    {
+      "id": "PV2-CH34-008",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Emergency release reporting",
+      "itemFamilyId": "CH34-RELEASE-REPORTING-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A reportable chemical release may have crossed the property boundary. What is the safest compliance approach?",
+      "options": [
+        "Wait for a complaint before evaluating reporting",
+        "Notify only the company insurer",
+        "Activate the response plan and promptly evaluate all applicable notification duties using verified quantity and timing information",
+        "Assume local fire department notification satisfies every law"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Release response should pair immediate protective actions with a documented applicability and notification determination.",
+      "incorrectOptionExplanations": [
+        "Reporting clocks may run before off-site complaints occur.",
+        "Insurance notification does not replace regulatory and community obligations.",
+        null,
+        "Different laws and agencies can impose separate notifications."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 27, 34, and 39, hazardous releases and emergency management, pp. 616-634, 754-778, and 870-889",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "95ccfd80acb8ca3ab9b80b8ef3d67e6dc8136389a71206bcb471415a5952fe82"
+    },
+    {
+      "id": "PV2-CH34-009",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Environmental objective",
+      "itemFamilyId": "CH34-OBJECTIVE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Which environmental objective is best written?",
+      "options": [
+        "Reduce environmental impacts whenever practical and review them during annual planning",
+        "Eliminate every environmental problem immediately regardless of technical feasibility",
+        "Encourage employees to choose greener practices without defining a measurable result",
+        "Cut hazardous solvent use per production unit 20% by year-end and verify progress monthly"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A useful objective defines the outcome, baseline or metric, target, timeframe, ownership, and verification method.",
+      "incorrectOptionExplanations": [
+        "This is not specific, measurable, assigned, or time-bound.",
+        "The statement is absolute and does not define controllable performance or measurement.",
+        "A general request does not establish a managed objective.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 31, 33, and 34, management systems, sustainability KPIs, and environmental management",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aa010f7cd1321a3f331dcffa8503bfe9889c3d4c2fdc7b7b699f1d08574acade"
+    },
+    {
+      "id": "PV2-CH34-010",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Corrective action after exceedance",
+      "itemFamilyId": "CH34-EXCEEDANCE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Monitoring confirms a permit limit exceedance. What response is strongest?",
+      "options": [
+        "Control the release, make required notifications, investigate causes, correct the system, and verify effectiveness",
+        "Delete the data point as an outlier",
+        "Repeat the sample until a lower value appears",
+        "Wait for the annual audit"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A robust response protects receptors, meets notification duties, preserves data, addresses root causes, and prevents recurrence.",
+      "incorrectOptionExplanations": [
+        null,
+        "Removing valid adverse data is unethical and can violate record requirements.",
+        "Resampling does not erase the original exceedance and may delay response.",
+        "Immediate control and reporting duties cannot wait for a scheduled audit."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 34 and 37, environmental compliance and corrective action, pp. 754-778 and 818-857",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "67d9502eaca7ec67cf2a139534744957cad80412c49f900ec2cb361d7a471292"
+    }
+  ]
+}

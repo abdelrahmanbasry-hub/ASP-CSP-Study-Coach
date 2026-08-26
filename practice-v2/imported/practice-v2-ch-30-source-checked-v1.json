@@ -1,0 +1,586 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-30-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-30",
+  "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+  "questions": [
+    {
+      "id": "PV2-CH30-001",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Forklift stability triangle",
+      "itemFamilyId": "CH30-STABILITY-TRIANGLE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A forklift turns quickly with an elevated off-center load. Why does tip-over risk increase?",
+      "options": [
+        "The engine torque automatically doubles the rated capacity",
+        "The combined center of gravity can move outside the stability triangle",
+        "The rear wheels permanently lock during every turn",
+        "Raising the load lowers the combined center of gravity"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Turning, elevation, and off-center loading shift the combined center of gravity toward or beyond the stability boundary.",
+      "incorrectOptionExplanations": [
+        "Engine torque does not increase rated capacity and does not explain lateral instability.",
+        null,
+        "Rear-wheel steering changes handling, but the wheels do not automatically lock.",
+        "Raising the load raises the center of gravity and generally reduces stability."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, powered industrial trucks and workplace conditions, pp. 702-712",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "040365d45e824e90e28a67c986c9526bab0db30d20d43bbfe3ae3c18e0223255"
+    },
+    {
+      "id": "PV2-CH30-002",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Load-center capacity",
+      "itemFamilyId": "CH30-LOAD-CENTER-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "analyze",
+      "stem": "A forklift is rated for 4,000 pounds at a 24-inch load center. Ignoring other limits, what approximate load produces the same load moment at a 30-inch center?",
+      "options": [
+        "2,400 pounds",
+        "4,000 pounds",
+        "3,200 pounds",
+        "5,000 pounds"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Maintain the same moment: 4,000*24 = W*30, so W = 3,200 pounds.",
+      "incorrectOptionExplanations": [
+        "This applies the ratio in the wrong direction and reduces capacity too far.",
+        "Rated capacity at 24 inches cannot simply be used at the longer load center.",
+        null,
+        "A longer load center reduces, rather than increases, the equivalent allowable load."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, powered industrial truck load and stability principles, pp. 702-712",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "rated load*rated center = allowable load*actual center",
+      "units": "pounds",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e0ecee5753641f81b6552a3b6b45f63b8ae5824f2a0478258eb0e69adc08e0ce"
+    },
+    {
+      "id": "PV2-CH30-003",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pre-use forklift inspection",
+      "itemFamilyId": "CH30-PIT-INSPECTION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "An operator finds a hydraulic leak during the pre-use inspection. What is the correct response?",
+      "options": [
+        "Operate it only with a lighter load",
+        "Wipe the leak and continue until the shift ends",
+        "Use it outdoors because ventilation is better",
+        "Remove the truck from service until the unsafe condition is corrected"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Powered industrial trucks should not be placed in service when inspection identifies a condition that adversely affects safe operation.",
+      "incorrectOptionExplanations": [
+        "Reducing the load does not eliminate loss of hydraulic function or fire and slip hazards.",
+        "Cleaning evidence of the leak does not correct the defect.",
+        "Outdoor use does not address the unsafe mechanical condition.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, powered industrial trucks, pp. 702-712; OSHA 1910.178",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2f2cd11805076841bcdb9b6f1e885c9f59939a88cb0086d3d747c3a928c36ffa"
+    },
+    {
+      "id": "PV2-CH30-004",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Operator evaluation frequency",
+      "itemFamilyId": "CH30-PIT-EVALUATION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "How often must each powered-industrial-truck operator performance be evaluated at a minimum?",
+      "options": [
+        "At least once every three years",
+        "Every month",
+        "Only at initial assignment",
+        "Every five years"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "OSHA requires an evaluation of each operator performance at least once every three years, with refresher training when specified conditions occur.",
+      "incorrectOptionExplanations": [
+        null,
+        "Monthly evaluation is not the minimum interval stated by the standard.",
+        "Initial training alone is insufficient; periodic evaluation is required.",
+        "Five years exceeds the specified minimum evaluation interval."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, powered industrial truck training, pp. 702-710; OSHA 1910.178(l)",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9bf716729060c52b30dfd29d3fdfbd24bf215e80ffc61a11aa5a18731ebe35db"
+    },
+    {
+      "id": "PV2-CH30-005",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dockboard control",
+      "itemFamilyId": "CH30-DOCKBOARD-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Before a forklift enters a trailer across a portable dockboard, which verification is most important?",
+      "options": [
+        "The forklift horn is loud enough",
+        "The dockboard is secured and rated, and the trailer is restrained against movement",
+        "The trailer doors are fully open",
+        "The driver remains seated in the tractor"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Safe dock transfer depends on adequate dockboard capacity and securement plus prevention of trailer movement.",
+      "incorrectOptionExplanations": [
+        "A horn does not control dockboard displacement or trailer separation.",
+        null,
+        "Open doors provide access but do not establish capacity or restraint.",
+        "Driver presence does not reliably prevent trailer movement and may create communication uncertainty."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, loading docks and entering semi-trailers, pp. 710-712; OSHA material handling",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.176",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "914f3e74be66ae89404380697413a9357682c41e9596cafd861c8014524c3a7d"
+    },
+    {
+      "id": "PV2-CH30-006",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Material stacking",
+      "itemFamilyId": "CH30-STACKING-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Palletized materials are leaning into an aisle after partial removal. What is the best response?",
+      "options": [
+        "Mark the pallet with caution tape and continue work",
+        "Rely on workers to walk on the opposite side of the aisle",
+        "Restack or secure the material before allowing continued access",
+        "Increase the stack height to improve compression"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Stored materials must remain stable and secure against sliding or collapse, with aisles kept safely clear.",
+      "incorrectOptionExplanations": [
+        "Tape communicates the hazard but does not stabilize the load.",
+        "Avoidance depends on behavior and leaves the unstable stack in service.",
+        null,
+        "Increasing height raises potential energy and is likely to reduce stability."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, materials storage and storage racks, pp. 687-715; OSHA 1910.176",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.176"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b1b3b6ee1bea5b63820c160388dd0b8d0f9c768eedfd43d2f85a68f5bfaa9c00"
+    },
+    {
+      "id": "PV2-CH30-007",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Two-leg sling tension",
+      "itemFamilyId": "CH30-SLING-TENSION-01",
+      "questionType": "calculation",
+      "cognitiveLevel": "analyze",
+      "stem": "A symmetric two-leg sling supports a 2,000-pound load. Each leg is 60 degrees above horizontal. Ignoring sling weight, what is the approximate tension in each leg?",
+      "options": [
+        "577 pounds",
+        "1,000 pounds",
+        "1,732 pounds",
+        "1,155 pounds"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "For two equal legs, 2*T*sin(60)=2,000. T=2,000/(2*0.866)=approximately 1,155 pounds.",
+      "incorrectOptionExplanations": [
+        "This divides by an extra factor of two after resolving the vertical components.",
+        "This assumes each leg carries half the load without accounting for sling angle.",
+        "This multiplies the half-load by the sine relationship rather than dividing by it.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, materials handling and rigging principles, pp. 687-715; ASP11 rigging calculations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": "T = W/(2*sin(theta))",
+      "units": "pounds-force",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5951a7ab4f0d37e6eb1c531f5201a1dff36216775942702bc80a75190af14764"
+    },
+    {
+      "id": "PV2-CH30-008",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Manual handling control",
+      "itemFamilyId": "CH30-MANUAL-HANDLING-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A dense component has no good handholds and must be moved repeatedly. Which control should be considered first?",
+      "options": [
+        "Use a mechanical assist or redesign the component and handling method",
+        "Teach workers to lift faster",
+        "Require back belts as the primary control",
+        "Use only a team-lift label without evaluating the load"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Mechanical assistance or redesign reduces the load and exposure at the source, which is stronger than behavior-dependent methods.",
+      "incorrectOptionExplanations": [
+        null,
+        "Speed can increase loss of control and does not reduce the physical load.",
+        "Back belts do not substitute for reducing force, reach, and handling demand.",
+        "A label does not establish that a team lift is feasible or adequately controlled."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 24 and 30, manual material handling and lifting techniques, pp. 546-566 and 687-695",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8be7bd868263e50c23b253a3fc8205a21599ebf3f008bfc8e4ab63c049789e41"
+    },
+    {
+      "id": "PV2-CH30-009",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Conveyor energy control",
+      "itemFamilyId": "CH30-CONVEYOR-LOTO-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A jammed conveyor must be cleared inside a guarded area. What is the strongest required approach?",
+      "options": [
+        "Use the emergency stop as the only isolation",
+        "Stop and isolate hazardous energy, verify isolation, and control stored or potential energy before entry",
+        "Have a spotter watch the start button",
+        "Clear the jam while the conveyor runs at reduced speed"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Servicing that exposes workers to unexpected startup or stored energy requires an energy-control procedure and verification.",
+      "incorrectOptionExplanations": [
+        "An emergency stop is a control device and may not physically isolate energy.",
+        null,
+        "A spotter does not prevent unexpected energization or stored-energy release.",
+        "Reduced speed still exposes the worker to moving and stored energy."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 4 and 30, hazardous energy control and conveyors, pp. 68-71 and 713-715; OSHA 1910.147",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "72f504076b4c25a41c0963b262f66ba1908ea0b322b00cb4ae33a02b4e70014f"
+    },
+    {
+      "id": "PV2-CH30-010",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08f",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Suspended-load exclusion",
+      "itemFamilyId": "CH30-SUSPENDED-LOAD-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "A crane is positioning a load while another crew plans to walk under it to save time. What is the best decision?",
+      "options": [
+        "Allow crossing if hard hats are worn",
+        "Allow one person at a time to pass quickly",
+        "Stop the crossing and maintain an exclusion zone beneath the suspended load",
+        "Permit crossing when the operator sounds the horn"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Employees should be kept clear of suspended loads and the fall zone because rigging or equipment failure can be catastrophic.",
+      "incorrectOptionExplanations": [
+        "Hard hats cannot protect against the energy of a falling suspended load.",
+        "Short exposure time does not make the consequence acceptable.",
+        null,
+        "A warning signal does not prevent a dropped or shifting load."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, materials handling and lifting equipment, pp. 687-715",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fd8767d1784422e1db4d0cbce77d8e09039a52191bf6c6f47e7a5f6b34338a8e"
+    }
+  ]
+}

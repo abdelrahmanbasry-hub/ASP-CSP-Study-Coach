@@ -1,0 +1,465 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-21-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-21",
+  "chapterTitle": "Management Theories",
+  "questions": [
+    {
+      "id": "PV2-CH21-001",
+      "version": 1,
+      "chapterId": "ch-21",
+      "chapterTitle": "Management Theories",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Theory X and Theory Y",
+      "itemFamilyId": "CH21-THEORY-XY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A supervisor assumes employees avoid responsibility and will work only under close control and threat of discipline. Which management assumption is being applied?",
+      "options": [
+        "McGregor Theory X",
+        "McGregor Theory Y",
+        "Herzberg motivator theory",
+        "Systems management theory"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Theory X assumes workers generally dislike work, avoid responsibility, and require direction or control.",
+      "incorrectOptionExplanations": [
+        null,
+        "Theory Y assumes people can be self-directed and accept responsibility under appropriate conditions.",
+        "Herzberg separates hygiene factors from motivating work content rather than assuming workers inherently avoid work.",
+        "Systems theory focuses on interactions among organizational components, not this view of worker motivation."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 21, McGregor Theory X and Theory Y, pp. 507-508",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "34365d82fdb8c034dfc15235087cd99f361b975a6db4bf25cb20efdea8910237"
+    },
+    {
+      "id": "PV2-CH21-002",
+      "version": 1,
+      "chapterId": "ch-21",
+      "chapterTitle": "Management Theories",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Herzberg two-factor theory",
+      "itemFamilyId": "CH21-HERZBERG-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "A company improves pay and working conditions, reducing complaints, but engagement remains low. Which additional action best reflects Herzberg motivators?",
+      "options": [
+        "Add another layer of supervision",
+        "Increase meaningful responsibility, recognition, and opportunities for achievement",
+        "Issue more detailed disciplinary rules",
+        "Replace recognition with stricter attendance monitoring"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Herzberg treats pay and conditions largely as hygiene factors; motivation is strengthened by achievement, recognition, responsibility, and growth.",
+      "incorrectOptionExplanations": [
+        "More supervision does not address the motivating content of the work.",
+        null,
+        "Disciplinary rules may affect compliance but do not create achievement or growth.",
+        "Attendance monitoring is a control mechanism rather than a source of intrinsic motivation."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 21, Herzberg motivational theory, pp. 508-509",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "517c241605e59ad1bb6b02ab2f49ec5608b8dd2e4da6cd634268204945d8697b"
+    },
+    {
+      "id": "PV2-CH21-003",
+      "version": 1,
+      "chapterId": "ch-21",
+      "chapterTitle": "Management Theories",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Maslow hierarchy",
+      "itemFamilyId": "CH21-MASLOW-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "In Maslow hierarchy, which need is addressed most directly by reliable guarding, stable employment practices, and freedom from workplace violence?",
+      "options": [
+        "Physiological need only",
+        "Esteem and recognition",
+        "Safety and security",
+        "Self-actualization"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Protection from physical harm and a stable, secure environment correspond to the safety and security level.",
+      "incorrectOptionExplanations": [
+        "Physiological needs concern basic survival requirements such as food and rest, not primarily organizational protection.",
+        "Esteem concerns status, achievement, and respect rather than basic protection from harm.",
+        null,
+        "Self-actualization concerns realizing potential after lower-level needs are substantially met."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 21, Maslow hierarchy of needs, pp. 505-507",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bc5f418c4a838846062065dbd409a1a4cb5b176b7895386cff00303ae68e5a16"
+    },
+    {
+      "id": "PV2-CH21-004",
+      "version": 1,
+      "chapterId": "ch-21",
+      "chapterTitle": "Management Theories",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Management by objectives",
+      "itemFamilyId": "CH21-MBO-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Which practice best reflects management by objectives in a safety department?",
+      "options": [
+        "Senior leaders issue broad slogans without measures",
+        "Supervisors evaluate employees only by hours spent in meetings",
+        "The safety manager makes all decisions without employee input",
+        "Managers and employees agree on measurable outcomes, responsibilities, and review dates"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Management by objectives aligns individual and organizational work through agreed, measurable objectives and periodic performance review.",
+      "incorrectOptionExplanations": [
+        "A slogan lacks the specific, measurable outcomes needed for objective-based management.",
+        "Time spent is an activity measure and may not demonstrate accomplishment of agreed objectives.",
+        "Unilateral control conflicts with the participative goal-setting commonly associated with MBO.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 21, management by objectives, p. 510",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "712a405eacefd6d3521d093258f80a7f77a1f9472bd9c842c17930bfffd66087"
+    },
+    {
+      "id": "PV2-CH21-005",
+      "version": 1,
+      "chapterId": "ch-21",
+      "chapterTitle": "Management Theories",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Contingency theory",
+      "itemFamilyId": "CH21-CONTINGENCY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A safety director uses a directive style during an emergency but a participative style when redesigning routine procedures. Which theory best explains the approach?",
+      "options": [
+        "Contingency theory",
+        "Scientific management only",
+        "Bureaucratic management only",
+        "Chaos theory only"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Contingency theory holds that the most effective management approach depends on the situation, task, people, and environment.",
+      "incorrectOptionExplanations": [
+        null,
+        "Scientific management emphasizes task efficiency and standardization rather than adapting leadership to context.",
+        "Bureaucratic management emphasizes formal hierarchy and rules rather than situational flexibility.",
+        "Chaos theory addresses nonlinear and unpredictable systems, not simply choosing a style to fit conditions."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 21, contingency theory and management styles, pp. 510-513",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "92e898991eaecbc21bf25eb3ed2e814ddd5129db16248ee4bf91c6077ad6a240"
+    },
+    {
+      "id": "PV2-CH21-006",
+      "version": 1,
+      "chapterId": "ch-21",
+      "chapterTitle": "Management Theories",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Systems theory",
+      "itemFamilyId": "CH21-SYSTEMS-THEORY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Production incentives increase output but also increase bypassing of machine guards. Which response best reflects systems thinking?",
+      "options": [
+        "Discipline only the last employee observed bypassing a guard",
+        "Examine how incentives, supervision, staffing, equipment, and feedback interact to create the behavior",
+        "Treat production and safety as unrelated departments",
+        "Add a warning sign without reviewing the incentive system"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Systems theory examines interactions and feedback among organizational components rather than isolating one person or department.",
+      "incorrectOptionExplanations": [
+        "Focusing only on the individual misses the interacting conditions that may repeatedly produce the behavior.",
+        null,
+        "The scenario demonstrates that production decisions affect safety outcomes.",
+        "A warning sign does not address the organizational feedback and incentive mechanisms described."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 21, systems management theory, pp. 510-513",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "da876c0584de96c5728b900ddcdac930049db718c7b2797f1d289ac4ba466830"
+    },
+    {
+      "id": "PV2-CH21-007",
+      "version": 1,
+      "chapterId": "ch-21",
+      "chapterTitle": "Management Theories",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PDCA cycle",
+      "itemFamilyId": "CH21-PDCA-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "After implementing a new permit process, the team compares field performance with objectives and identifies deviations. Which PDCA step is this?",
+      "options": [
+        "Plan",
+        "Do",
+        "Check",
+        "Act"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The Check step measures and evaluates results against the planned objectives and criteria.",
+      "incorrectOptionExplanations": [
+        "Planning establishes objectives and methods before implementation.",
+        "Doing is the implementation or pilot of the planned process.",
+        null,
+        "Acting standardizes successful changes or corrects the system after evaluation."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 21, Deming cycle, pp. 509-510",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f565c5bc5c4c9b2c84e34acffcf9078190d304eb105978ec181377669632633b"
+    },
+    {
+      "id": "PV2-CH21-008",
+      "version": 1,
+      "chapterId": "ch-21",
+      "chapterTitle": "Management Theories",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Leadership and recognition",
+      "itemFamilyId": "CH21-RECOGNITION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A team has adequate pay and equipment but rarely reports improvement ideas. Which leadership action is most likely to strengthen intrinsic motivation?",
+      "options": [
+        "Increase surveillance of routine work",
+        "Use public punishment for unsuccessful suggestions",
+        "Remove decision authority from the work group",
+        "Recognize useful contributions and give employees ownership of corrective-action projects"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Recognition, responsibility, achievement, and meaningful participation are stronger intrinsic motivators than additional control.",
+      "incorrectOptionExplanations": [
+        "Surveillance may increase compliance but does not create ownership or recognition.",
+        "Punishing unsuccessful ideas discourages psychological safety and future participation.",
+        "Removing authority reduces responsibility and opportunities for achievement.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 21, motivation theories and management styles, pp. 505-514",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "45739cedc8ba4296d39dbea3767d08de7bca8d2d5a3bf84a55c282a01c96e88e"
+    }
+  ]
+}

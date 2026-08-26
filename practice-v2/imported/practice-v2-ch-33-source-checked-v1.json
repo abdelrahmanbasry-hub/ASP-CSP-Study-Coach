@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-33-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-33",
+  "chapterTitle": "Sustainability and Sustainability Principles",
+  "questions": [
+    {
+      "id": "PV2-CH33-001",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Triple bottom line",
+      "itemFamilyId": "CH33-TBL-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "What three dimensions are combined in the triple bottom line?",
+      "options": [
+        "Policy, procedure, and practice",
+        "People, planet, and profit",
+        "Prevention, preparedness, and response",
+        "Probability, severity, and exposure"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The triple bottom line evaluates social, environmental, and economic performance together rather than treating them as unrelated.",
+      "incorrectOptionExplanations": [
+        "These are management elements, not the sustainability framework.",
+        null,
+        "These are emergency-management concepts.",
+        "These are risk-assessment concepts."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, triple bottom line theory, pp. 749-750",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0113b5f8213a6a9165bfd88b0f40f1247aa6047556f3386fd807b611809b6a4f"
+    },
+    {
+      "id": "PV2-CH33-002",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Lifecycle thinking",
+      "itemFamilyId": "CH33-LIFECYCLE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A product uses less energy during operation but creates substantially more hazardous waste during manufacture and disposal. What is the best sustainability approach?",
+      "options": [
+        "Evaluate only operating energy",
+        "Ignore disposal because it occurs after sale",
+        "Compare impacts across the full lifecycle before declaring the product preferable",
+        "Choose the option with the lowest purchase price"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Lifecycle thinking considers raw materials, production, use, transport, maintenance, and end-of-life effects.",
+      "incorrectOptionExplanations": [
+        "One lifecycle stage can shift impacts to another.",
+        "End-of-life effects remain part of the total environmental and social burden.",
+        null,
+        "Purchase price alone does not represent lifecycle cost or impact."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, sustainable development and conservation principles, pp. 743-751",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b45c278397fee0e72f57b919aed218ab2550571c0771bf6ccc45bd94c897a1d1"
+    },
+    {
+      "id": "PV2-CH33-003",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sustainability KPI",
+      "itemFamilyId": "CH33-KPI-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Which measure is the strongest sustainability KPI for a solvent-reduction program?",
+      "options": [
+        "Number of posters printed",
+        "Total production volume without solvent data",
+        "One employee opinion collected annually",
+        "Hazardous solvent use per unit of production with verified waste and exposure outcomes"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "An intensity metric normalized to production and linked to waste and exposure shows whether source reduction is real and sustained.",
+      "incorrectOptionExplanations": [
+        "Poster count measures activity, not material or risk performance.",
+        "Production alone cannot show whether solvent intensity improved.",
+        "One opinion is not a reliable outcome or trend measure.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, key performance indicators and economic benefits, pp. 749-751",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f0837ac70678c4733e510142dc6f3d1bb0a8d881d9934517af6074a38750927f"
+    },
+    {
+      "id": "PV2-CH33-004",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pollution prevention",
+      "itemFamilyId": "CH33-P2-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "Which initiative best reflects pollution prevention rather than end-of-pipe control?",
+      "options": [
+        "Change the process so the pollutant is not generated",
+        "Install a larger waste-storage area",
+        "Increase off-site disposal frequency",
+        "Dilute the discharge before release"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Pollution prevention reduces or eliminates pollutants at the source before treatment, recycling, or disposal is needed.",
+      "incorrectOptionExplanations": [
+        null,
+        "Storage manages generated waste but does not prevent it.",
+        "Disposal transfers the material after generation.",
+        "Dilution does not reduce pollutant mass and may not be lawful."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 33 and 34, conservation and pollution prevention, pp. 743-778",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "484768f39ef2b30bac897f6054903257c49c5a9a782103ba28e7fc8d4340e72d"
+    },
+    {
+      "id": "PV2-CH33-005",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Social sustainability",
+      "itemFamilyId": "CH33-SOCIAL-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Which action most directly supports the people dimension of sustainability in a major process change?",
+      "options": [
+        "Report only quarterly profit",
+        "Engage affected workers, protect health, build competence, and assess community consequences",
+        "Select the cheapest supplier without labor or safety review",
+        "Exclude operators from design decisions"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Social sustainability includes health, equity, capability, participation, and effects on workers and communities.",
+      "incorrectOptionExplanations": [
+        "Profit is one dimension and cannot represent worker and community outcomes.",
+        null,
+        "Low price alone may hide serious social and safety impacts.",
+        "Operators provide essential task and exposure knowledge."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, sustainable development of society and conservation of human resources, pp. 746-749",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0577c72423168f04415439aacc4a9944489a1307142028170f2e674064efc730"
+    },
+    {
+      "id": "PV2-CH33-006",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Greenwashing risk",
+      "itemFamilyId": "CH33-GREENWASHING-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A company advertises a product as sustainable based on one minor packaging change while withholding increased emissions. What is the main concern?",
+      "options": [
+        "Every sustainability claim requires zero environmental impact",
+        "Packaging can never affect sustainability",
+        "The claim is misleading because material negative impacts are omitted",
+        "Marketing claims are unrelated to professional ethics"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Credible sustainability communication uses complete, material evidence and does not exaggerate a narrow improvement.",
+      "incorrectOptionExplanations": [
+        "Sustainability improvement does not require absolute zero impact, but claims must be accurate and balanced.",
+        "Packaging can affect material, transport, and waste impacts.",
+        null,
+        "Safety professionals should communicate objectively and avoid deceptive statements."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, sustainability performance; Chapter 40, objective and truthful professional statements",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e27efbbef7b613b073d16c8ce8cd780f214761cb244faef14026e1c2a72e1804"
+    }
+  ]
+}

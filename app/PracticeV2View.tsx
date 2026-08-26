@@ -1,7 +1,7 @@
 "use client";
 
 import { ArrowLeft, ArrowRight, Check, FlaskConical, RotateCcw, X } from "lucide-react";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { PRACTICE_V2_HAS_VERIFIED_CONTENT, PRACTICE_V2_QUESTIONS } from "./practiceV2Catalog";
 import {
   PRACTICE_V2_COUNTS,
@@ -17,10 +17,6 @@ import {
 
 type Runner = { questions: PracticeV2Question[]; mode: "practice" | "mistakes" };
 
-function initialProgress() {
-  return typeof window === "undefined" ? emptyPracticeV2Progress() : loadPracticeV2Progress(window.localStorage);
-}
-
 export default function PracticeV2() {
   const [chapterMode, setChapterMode] = useState<"single" | "multiple">("single");
   const chapters = useMemo(() => {
@@ -30,8 +26,13 @@ export default function PracticeV2() {
   }, []);
   const [chapterIds, setChapterIds] = useState<string[]>([]);
   const [count, setCount] = useState<(typeof PRACTICE_V2_COUNTS)[number]>(10);
-  const [progress, setProgress] = useState<PracticeV2Progress>(initialProgress);
+  const [progress, setProgress] = useState<PracticeV2Progress>(emptyPracticeV2Progress);
   const [runner, setRunner] = useState<Runner | null>(null);
+
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => setProgress(loadPracticeV2Progress(window.localStorage)));
+    return () => window.cancelAnimationFrame(frame);
+  }, []);
 
   const selectedChapters = chapterIds.filter((id) => chapters.some((chapter) => chapter.id === id));
   const effectiveChapters = selectedChapters.length ? selectedChapters : chapters.slice(0, 1).map((chapter) => chapter.id);

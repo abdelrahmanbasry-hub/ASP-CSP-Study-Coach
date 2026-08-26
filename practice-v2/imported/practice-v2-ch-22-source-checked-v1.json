@@ -1,0 +1,698 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-22-source-checked-v1",
+  "packStatus": "content",
+  "chapterId": "ch-22",
+  "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+  "questions": [
+    {
+      "id": "PV2-CH22-001",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Root cause versus immediate cause",
+      "itemFamilyId": "CH22-ROOT-CAUSE-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee slipped on oil leaking from a pump. Which finding is most likely a root cause rather than an immediate cause?",
+      "options": [
+        "The preventive-maintenance system did not identify or correct recurring seal failures",
+        "Oil was present on the floor",
+        "The employee shoe contacted the oil",
+        "The employee lost balance after stepping in the spill"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A root cause is an underlying, correctable system failure. Weak maintenance controls explain why the leak recurred and remained uncontrolled.",
+      "incorrectOptionExplanations": [
+        null,
+        "Oil on the floor describes the immediate hazardous condition, not why the system allowed it to persist.",
+        "Contact with the oil is part of the event sequence rather than an underlying system failure.",
+        "Loss of balance describes the injury mechanism, not the organizational cause."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, investigation procedures and causation models, pp. 515-536; OSHA Incident Investigation overview",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ad4c4657d38b3c351f60c326761283c22959bc7fe7f3959ee4e7d3746af2a919"
+    },
+    {
+      "id": "PV2-CH22-002",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Scene preservation",
+      "itemFamilyId": "CH22-SCENE-PRESERVATION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "After emergency care is complete, what should the investigation team do before equipment is moved or production resumes?",
+      "options": [
+        "Interview only the injured employee and release the area",
+        "Control the scene and document conditions, positions, and evidence",
+        "Discard damaged components to prevent reuse",
+        "Require the supervisor to reconstruct the event from memory"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Securing and documenting the scene protects evidence needed to reconstruct the event and test causal explanations.",
+      "incorrectOptionExplanations": [
+        "A single interview cannot preserve physical evidence or capture all relevant perspectives.",
+        null,
+        "Damaged components may contain critical evidence and should be controlled rather than discarded.",
+        "A memory-based reconstruction is less reliable than contemporaneous documentation and evidence preservation."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, fact finding and investigation procedures, pp. 528-530",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ebd905b550153807316ca1bba6c5c1be3ee81f1a6c6456afd08af525c490e671"
+    },
+    {
+      "id": "PV2-CH22-003",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Witness interviewing",
+      "itemFamilyId": "CH22-WITNESS-INTERVIEW-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "Which opening question is most appropriate when interviewing a witness soon after an incident?",
+      "options": [
+        "Why did the operator ignore the procedure?",
+        "You saw the guard removed, correct?",
+        "Please describe what you observed from the beginning, in your own words",
+        "Which employee should be disciplined for this event?"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "An open, neutral invitation obtains the witness account without embedding assumptions or blame.",
+      "incorrectOptionExplanations": [
+        "This assumes a violation and may make the witness defensive before facts are established.",
+        "This leading question suggests the desired answer and can contaminate recall.",
+        null,
+        "Assigning blame is not the purpose of an evidence-gathering interview."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, interviews and fact finding, pp. 529-530",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "26b321f2214268f22e013a7c0750abd26b2046bb15733505bb1366265024fe4d"
+    },
+    {
+      "id": "PV2-CH22-004",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Chain of custody",
+      "itemFamilyId": "CH22-CHAIN-CUSTODY-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Why should a failed lifting component collected after an incident have a documented chain of custody?",
+      "options": [
+        "To determine which worker receives compensation",
+        "To replace the need for photographs and measurements",
+        "To guarantee that the component manufacturer is liable",
+        "To show who controlled the evidence and protect its identity and integrity"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A chain of custody records possession and handling so the evidence can be shown to be the same item and not altered or substituted.",
+      "incorrectOptionExplanations": [
+        "Compensation eligibility is separate from evidence-control documentation.",
+        "Chain of custody complements, rather than replaces, other documentation.",
+        "Evidence control does not predetermine legal responsibility or product liability.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, fact finding and report of investigation, pp. 528-535",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9624d890ff122886df61b8b8dccb15b7eb9a79727bd07a8a4bc7caa3b085264b"
+    },
+    {
+      "id": "PV2-CH22-005",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Five-whys analysis",
+      "itemFamilyId": "CH22-FIVE-WHYS-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "A five-whys review ends with the statement, \"The employee was careless.\" What is the strongest criticism of that conclusion?",
+      "options": [
+        "It stops at a blame label and does not identify a controllable system condition",
+        "Five-whys analysis must always contain exactly five documented causes",
+        "Human actions can never contribute to an incident",
+        "The method should be used only for equipment failures"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A useful root-cause analysis goes beyond labels and identifies conditions such as design, workload, training, incentives, or supervision that can be changed.",
+      "incorrectOptionExplanations": [
+        null,
+        "The number five is a prompt for depth, not a rule that every analysis must end after exactly five statements.",
+        "Human actions may contribute, but the analysis should also ask why the action made sense or remained possible.",
+        "The technique can be used for organizational, procedural, equipment, and human-performance issues."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, problem-solving and investigation techniques, pp. 530-533; OSHA root-cause guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3cf8be0f9812a6378d7ce275ada6b9c1b477e35944fa9cd8f3b131ba24a45ec1"
+    },
+    {
+      "id": "PV2-CH22-006",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fault tree analysis",
+      "itemFamilyId": "CH22-FTA-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "understand",
+      "stem": "Which analysis starts with an undesired top event and uses logical gates to identify combinations of lower-level failures that could produce it?",
+      "options": [
+        "Job safety analysis",
+        "Fault tree analysis",
+        "Pareto chart",
+        "Gantt analysis"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Fault tree analysis is a deductive method that works backward from a top event through AND and OR relationships.",
+      "incorrectOptionExplanations": [
+        "A job safety analysis breaks a task into steps, hazards, and controls.",
+        null,
+        "A Pareto chart ranks categories by frequency or impact but does not use logical failure gates.",
+        "A Gantt chart displays project activities against time."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, fault tree analysis, p. 532",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5f8bbde5fbd066dc1abd1f4cfebad0296144b6f62bab19590b417b4ee8fb6b30"
+    },
+    {
+      "id": "PV2-CH22-007",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Failure modes and effects analysis",
+      "itemFamilyId": "CH22-FMEA-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "A design team lists how each valve can fail, the effect of each failure, existing safeguards, and recommended actions. Which method is being used?",
+      "options": [
+        "Event tree analysis",
+        "Management by objectives",
+        "Failure modes and effects analysis",
+        "Cause-and-effect interview"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "FMEA systematically examines potential failure modes, consequences, controls, and priorities for action.",
+      "incorrectOptionExplanations": [
+        "Event tree analysis follows possible outcomes after an initiating event rather than examining each component failure mode.",
+        "Management by objectives is a performance-management approach, not a system safety analysis.",
+        null,
+        "Interviews may supply evidence but do not provide the structured component-by-component method described."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, failure modes and effects analysis, p. 532",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c329100b9bba032b375897e97a30ad6136bb2a13ec606ad392dfc957aad8194b"
+    },
+    {
+      "id": "PV2-CH22-008",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Event tree analysis",
+      "itemFamilyId": "CH22-ETA-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "analyze",
+      "stem": "Following a solvent release, an analyst maps whether detection succeeds, isolation succeeds, and ignition occurs, producing different outcome branches. Which method is this?",
+      "options": [
+        "Fault tree analysis",
+        "Descriptive statistics",
+        "Job hazard analysis",
+        "Event tree analysis"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Event tree analysis starts with an initiating event and follows the success or failure of subsequent barriers to possible outcomes.",
+      "incorrectOptionExplanations": [
+        "Fault trees reason backward from a top event rather than forward through success and failure branches.",
+        "Descriptive statistics summarize data and do not model sequential barrier outcomes.",
+        "A job hazard analysis examines task steps and controls rather than branching event sequences.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 22 and 35, system safety analysis methods, pp. 532-533 and 793-794",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fb2325d8ab7cbfaeda905d2fc3e8fbff4b2384e4fb7d207d8a3f1d114148ec66"
+    },
+    {
+      "id": "PV2-CH22-009",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Job safety analysis",
+      "itemFamilyId": "CH22-JSA-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "apply",
+      "stem": "A team separates filter replacement into shutdown, isolation, opening, removal, installation, and restart, then identifies hazards and controls for each step. Which method best fits?",
+      "options": [
+        "Job safety analysis",
+        "Fault tree analysis",
+        "Cost-benefit analysis",
+        "Emergency action plan"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A job safety analysis breaks work into steps and evaluates the hazards and controls associated with each step.",
+      "incorrectOptionExplanations": [
+        null,
+        "A fault tree models combinations of failures leading to an undesired event, not sequential task steps.",
+        "Cost-benefit analysis compares monetized alternatives and does not identify step-level hazards.",
+        "An emergency action plan addresses emergency reporting, evacuation, and related duties."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, job safety analysis, p. 531",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "54c03e43995c6567dd4908ed19e58e0bb520f228392f1d37226905429b2aac9a"
+    },
+    {
+      "id": "PV2-CH22-010",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Near-miss investigation",
+      "itemFamilyId": "CH22-NEAR-MISS-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A suspended load falls into an unoccupied barricaded area and no one is injured. What is the best investigation decision?",
+      "options": [
+        "Close the event because there was no recordable injury",
+        "Investigate the event because the potential consequence was serious and the control failure is actionable",
+        "Record only the crane operator name for future discipline",
+        "Wait for a similar event involving an injury before investigating"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "High-potential near misses reveal failed or weak controls without the cost of an injury and should be investigated for preventive action.",
+      "incorrectOptionExplanations": [
+        "Recordability does not determine whether a high-potential event should be investigated.",
+        null,
+        "A name alone does not explain equipment, planning, supervision, or system conditions.",
+        "Waiting for harm sacrifices an opportunity to correct a serious failure before recurrence."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, near-miss relationship and investigation, pp. 527-535; OSHA Incident Investigation overview",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9b6334717d4340964a39153e03012c67c63e02da950d14d62b133b0e534afcfd"
+    },
+    {
+      "id": "PV2-CH22-011",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Corrective action hierarchy",
+      "itemFamilyId": "CH22-CORRECTIVE-ACTION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "An investigation finds workers repeatedly reach through a point-of-operation opening to clear jams. Which corrective action is strongest?",
+      "options": [
+        "Retrain workers to reach more carefully",
+        "Post a larger warning sign at the opening",
+        "Redesign the process so jams can be cleared without access to the hazard zone",
+        "Require supervisors to remind workers each shift"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A design change that eliminates hazardous access addresses the system and follows the hierarchy of controls more effectively than reminders.",
+      "incorrectOptionExplanations": [
+        "Training alone leaves the physical opportunity for exposure unchanged.",
+        "A warning communicates the hazard but does not prevent access or eliminate the jam-clearing need.",
+        null,
+        "Repeated reminders are an administrative control and remain dependent on behavior."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, countermeasures and investigation reports, pp. 524-536; OSHA root-cause guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9dd1161a7c5bcd248e145fa8b42506c4c791ed1accd4377f45c6857cf3fff63e"
+    },
+    {
+      "id": "PV2-CH22-012",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Corrective action verification",
+      "itemFamilyId": "CH22-ACTION-VERIFICATION-01",
+      "questionType": "single-best-answer",
+      "cognitiveLevel": "evaluate",
+      "stem": "A corrective action is marked complete when a new procedure is issued. What additional evidence is most important before closing the investigation action?",
+      "options": [
+        "A copy of the email announcing the procedure",
+        "The number of pages in the revised procedure",
+        "A statement that the responsible manager supports safety",
+        "Field verification that the change is implemented and effectively controls the identified cause"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Closure should require evidence that the action was implemented, used as intended, and reduced the causal risk without creating new hazards.",
+      "incorrectOptionExplanations": [
+        "An email proves communication occurred but not implementation or effectiveness.",
+        "Document length does not demonstrate that the control addresses the cause.",
+        "General support is useful but is not objective evidence that the control works in practice.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, report of investigation and countermeasures, pp. 525-536",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-26",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d4e1e3937a5cf361495e0450b723781875f12fd643efe0345643a2fd508dc56b"
+    }
+  ]
+}

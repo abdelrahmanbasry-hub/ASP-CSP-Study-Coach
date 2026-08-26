@@ -16,11 +16,22 @@ export type PracticeV2GateStatus = "pending" | "passed" | "failed";
 export type PracticeV2QuestionType = "single-best-answer" | "scenario" | "calculation";
 export type PracticeV2CognitiveLevel = "remember" | "understand" | "apply" | "analyze" | "evaluate";
 
-export interface PracticeV2BlueprintMapping {
+export interface PracticeV2GroupedBlueprintMapping {
   blueprintVersion: BlueprintVersion;
   primaryObjectiveId: string;
   secondaryObjectiveIds: string[];
 }
+
+export interface PracticeV2ObjectiveBlueprintMapping {
+  credential: Credential;
+  blueprintVersion: BlueprintVersion;
+  objectiveId: string;
+  role: "primary" | "secondary";
+}
+
+export type PracticeV2BlueprintMapping =
+  | PracticeV2GroupedBlueprintMapping
+  | PracticeV2ObjectiveBlueprintMapping;
 
 export interface PracticeV2Question {
   id: string;
@@ -40,6 +51,8 @@ export interface PracticeV2Question {
   incorrectOptionExplanations: [string | null, string | null, string | null, string | null];
   sourceTitle: string | null;
   sourceLocation: string | null;
+  sourceUrls?: string[];
+  sourceVerifiedOn?: string;
   formula: string | null;
   units: string | null;
   reviewStatus: PracticeV2ReviewStatus;
@@ -47,12 +60,15 @@ export interface PracticeV2Question {
   authoringOrigin: PracticeV2AuthoringOrigin;
   contentValidationStatus: PracticeV2GateStatus;
   duplicateSimilarityCheckStatus: PracticeV2GateStatus;
+  contentFingerprint?: string;
 }
 
 export interface PracticeV2QuestionPack {
   schemaVersion: typeof PRACTICE_V2_SCHEMA_VERSION;
   packId: string;
   packStatus: "demo" | "content";
+  chapterId?: string;
+  chapterTitle?: string;
   questions: PracticeV2Question[];
 }
 
@@ -91,7 +107,17 @@ function nonempty(value: unknown): value is string {
   return typeof value === "string" && value.trim().length > 0;
 }
 
-const EXACT_SOURCE_LOCATION = /(?:\b(?:chapter|ch\.?|page|p{1,2}\.?|section|sec\.?|regulation|standard|cfr)\b|§)/i;
+const EXACT_SOURCE_LOCATION = /(?:\b(?:chapters?|ch\.?|pages?|p{1,2}\.?|sections?|sec\.?|regulations?|standards?|cfr|appendix)\b|\bOSHA\s+\d{4}\.\d+|§)/i;
+const NAMED_WEB_SOURCE_LOCATION = /\b(?:objectives?|guidance|recommendations?)\b/i;
+
+function hasExactSourceLocation(candidate: Record<string, unknown>) {
+  if (!nonempty(candidate.sourceLocation)) return false;
+  if (EXACT_SOURCE_LOCATION.test(candidate.sourceLocation)) return true;
+  return NAMED_WEB_SOURCE_LOCATION.test(candidate.sourceLocation)
+    && Array.isArray(candidate.sourceUrls)
+    && candidate.sourceUrls.length > 0
+    && candidate.sourceUrls.every((url) => nonempty(url) && /^https?:\/\//i.test(url));
+}
 
 export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssue[] {
   const issues: PracticeV2ValidationIssue[] = [];
@@ -100,6 +126,9 @@ export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssu
   if (value.schemaVersion !== PRACTICE_V2_SCHEMA_VERSION) add("schemaVersion", "invalid-schema-version", "schemaVersion must be 3.");
   if (!nonempty(value.packId)) add("packId", "missing-pack-id", "packId is required.");
   if (value.packStatus !== "demo" && value.packStatus !== "content") add("packStatus", "invalid-pack-status", "packStatus must be demo or content.");
+  if (value.chapterId !== undefined && !nonempty(value.chapterId)) add("chapterId", "invalid-pack-chapter-id", "Pack chapterId must be a non-empty string when supplied.");
+  if (value.chapterTitle !== undefined && !nonempty(value.chapterTitle)) add("chapterTitle", "invalid-pack-chapter-title", "Pack chapterTitle must be a non-empty string when supplied.");
+  if ((value.chapterId === undefined) !== (value.chapterTitle === undefined)) add("chapterId", "incomplete-pack-chapter", "Pack chapterId and chapterTitle must be supplied together.");
   if (!Array.isArray(value.questions)) {
     add("questions", "invalid-questions", "questions must be an array.");
     return issues;
@@ -122,12 +151,15 @@ export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssu
     if (!Number.isInteger(candidate.version) || (candidate.version as number) < 1) add(`${path}.version`, "invalid-version", "version must be a positive integer.", id);
     if (!nonempty(candidate.chapterId)) add(`${path}.chapterId`, "missing-chapter-id", "chapterId is required.", id);
     if (!nonempty(candidate.chapterTitle)) add(`${path}.chapterTitle`, "missing-chapter-title", "chapterTitle is required.", id);
+    if (nonempty(value.chapterId) && candidate.chapterId !== value.chapterId) add(`${path}.chapterId`, "pack-chapter-mismatch", "Question chapterId must match the pack chapterId.", id);
+    if (nonempty(value.chapterTitle) && candidate.chapterTitle !== value.chapterTitle) add(`${path}.chapterTitle`, "pack-chapter-mismatch", "Question chapterTitle must match the pack chapterTitle.", id);
     const alignments = Array.isArray(candidate.examAlignments) ? candidate.examAlignments : [];
     if (!Array.isArray(candidate.examAlignments) || !candidate.examAlignments.length || candidate.examAlignments.some((alignment) => alignment !== "ASP" && alignment !== "CSP")) add(`${path}.examAlignments`, "invalid-exam-alignments", "examAlignments must contain ASP, CSP, or both.", id);
     if (new Set(alignments).size !== alignments.length) add(`${path}.examAlignments`, "duplicate-exam-alignment", "examAlignments must be unique.", id);
     if (!Array.isArray(candidate.blueprintMappings) || !candidate.blueprintMappings.length) add(`${path}.blueprintMappings`, "missing-blueprint-mappings", "blueprintMappings must contain at least one mapping.", id);
     else {
       const mappedVersions = new Set<unknown>();
+      let usesObjectiveMappings = false;
       for (const [mappingIndex, mapping] of candidate.blueprintMappings.entries()) {
         const mappingPath = `${path}.blueprintMappings[${mappingIndex}]`;
         if (!object(mapping)) {
@@ -137,22 +169,40 @@ export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssu
         const mappedCredential = mapping.blueprintVersion === "ASP11" ? "ASP" : mapping.blueprintVersion === "CSP11" ? "CSP" : null;
         if (!mappedCredential) add(`${mappingPath}.blueprintVersion`, "invalid-blueprint-version", "blueprintVersion must be ASP11 or CSP11.", id);
         else if (!alignments.includes(mappedCredential)) add(`${mappingPath}.blueprintVersion`, "unaligned-blueprint-mapping", "Blueprint mapping must correspond to an examAlignment.", id);
-        if (mappedVersions.has(mapping.blueprintVersion)) add(`${mappingPath}.blueprintVersion`, "duplicate-blueprint-mapping", "Only one mapping per blueprint version is allowed.", id);
         mappedVersions.add(mapping.blueprintVersion);
-        const primary = nonempty(mapping.primaryObjectiveId) ? BLUEPRINT_OBJECTIVE_BY_ID.get(mapping.primaryObjectiveId) : undefined;
-        if (!primary || primary.blueprintVersion !== mapping.blueprintVersion) add(`${mappingPath}.primaryObjectiveId`, "invalid-objective", "primaryObjectiveId must exist in the selected blueprint version.", id);
-        if (!Array.isArray(mapping.secondaryObjectiveIds)) add(`${mappingPath}.secondaryObjectiveIds`, "invalid-secondary-objectives", "secondaryObjectiveIds must be an array.", id);
-        else {
-          if (new Set(mapping.secondaryObjectiveIds).size !== mapping.secondaryObjectiveIds.length) add(`${mappingPath}.secondaryObjectiveIds`, "duplicate-secondary-objective", "secondaryObjectiveIds must be unique.", id);
-          for (const [secondaryIndex, objectiveId] of mapping.secondaryObjectiveIds.entries()) {
-            const objective = typeof objectiveId === "string" ? BLUEPRINT_OBJECTIVE_BY_ID.get(objectiveId) : undefined;
-            if (!objective || objective.blueprintVersion !== mapping.blueprintVersion || objectiveId === mapping.primaryObjectiveId) add(`${mappingPath}.secondaryObjectiveIds[${secondaryIndex}]`, "invalid-objective", "Secondary objective must be distinct and belong to the selected blueprint version.", id);
+        if ("objectiveId" in mapping || "credential" in mapping || "role" in mapping) {
+          usesObjectiveMappings = true;
+          if (mapping.credential !== "ASP" && mapping.credential !== "CSP") add(`${mappingPath}.credential`, "invalid-mapping-credential", "Mapping credential must be ASP or CSP.", id);
+          else if (mappedCredential && mapping.credential !== mappedCredential) add(`${mappingPath}.credential`, "mapping-credential-mismatch", "Mapping credential must match its blueprint version.", id);
+          const objective = nonempty(mapping.objectiveId) ? BLUEPRINT_OBJECTIVE_BY_ID.get(mapping.objectiveId) : undefined;
+          if (!objective || objective.blueprintVersion !== mapping.blueprintVersion) add(`${mappingPath}.objectiveId`, "invalid-objective", "objectiveId must exist in the selected blueprint version.", id);
+          if (mapping.role !== "primary" && mapping.role !== "secondary") add(`${mappingPath}.role`, "invalid-mapping-role", "Mapping role must be primary or secondary.", id);
+        } else {
+          if (candidate.blueprintMappings.filter((other) => object(other) && other.blueprintVersion === mapping.blueprintVersion).length > 1) add(`${mappingPath}.blueprintVersion`, "duplicate-blueprint-mapping", "Only one grouped mapping per blueprint version is allowed.", id);
+          const primary = nonempty(mapping.primaryObjectiveId) ? BLUEPRINT_OBJECTIVE_BY_ID.get(mapping.primaryObjectiveId) : undefined;
+          if (!primary || primary.blueprintVersion !== mapping.blueprintVersion) add(`${mappingPath}.primaryObjectiveId`, "invalid-objective", "primaryObjectiveId must exist in the selected blueprint version.", id);
+          if (!Array.isArray(mapping.secondaryObjectiveIds)) add(`${mappingPath}.secondaryObjectiveIds`, "invalid-secondary-objectives", "secondaryObjectiveIds must be an array.", id);
+          else {
+            if (new Set(mapping.secondaryObjectiveIds).size !== mapping.secondaryObjectiveIds.length) add(`${mappingPath}.secondaryObjectiveIds`, "duplicate-secondary-objective", "secondaryObjectiveIds must be unique.", id);
+            for (const [secondaryIndex, objectiveId] of mapping.secondaryObjectiveIds.entries()) {
+              const objective = typeof objectiveId === "string" ? BLUEPRINT_OBJECTIVE_BY_ID.get(objectiveId) : undefined;
+              if (!objective || objective.blueprintVersion !== mapping.blueprintVersion || objectiveId === mapping.primaryObjectiveId) add(`${mappingPath}.secondaryObjectiveIds[${secondaryIndex}]`, "invalid-objective", "Secondary objective must be distinct and belong to the selected blueprint version.", id);
+            }
           }
         }
       }
-      for (const alignment of alignments) {
-        const requiredVersion = alignment === "ASP" ? "ASP11" : "CSP11";
-        if (!mappedVersions.has(requiredVersion)) add(`${path}.blueprintMappings`, "missing-alignment-mapping", `examAlignment ${alignment} requires a ${requiredVersion} mapping.`, id);
+      if (!usesObjectiveMappings) {
+        for (const alignment of alignments) {
+          const requiredVersion = alignment === "ASP" ? "ASP11" : "CSP11";
+          if (!mappedVersions.has(requiredVersion)) add(`${path}.blueprintMappings`, "missing-alignment-mapping", `examAlignment ${alignment} requires a ${requiredVersion} mapping.`, id);
+        }
+      }
+      if (usesObjectiveMappings) {
+        if (!nonempty(value.chapterId) || !nonempty(value.chapterTitle)) add(path, "missing-pack-chapter", "Objective-mapped content packs require pack-level chapterId and chapterTitle.", id);
+        if (!Array.isArray(candidate.sourceUrls) || !candidate.sourceUrls.length || candidate.sourceUrls.some((url) => !nonempty(url) || !/^https?:\/\//i.test(url))) add(`${path}.sourceUrls`, "invalid-source-urls", "Objective-mapped content requires a non-empty array of valid HTTP(S) source URLs.", id);
+        else if (new Set(candidate.sourceUrls).size !== candidate.sourceUrls.length) add(`${path}.sourceUrls`, "duplicate-source-url", "sourceUrls must be unique.", id);
+        if (typeof candidate.sourceVerifiedOn !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(candidate.sourceVerifiedOn)) add(`${path}.sourceVerifiedOn`, "invalid-source-verified-on", "sourceVerifiedOn must be an ISO date (YYYY-MM-DD).", id);
+        if (typeof candidate.contentFingerprint !== "string" || !/^[a-f0-9]{64}$/.test(candidate.contentFingerprint)) add(`${path}.contentFingerprint`, "invalid-content-fingerprint", "contentFingerprint must be a lowercase SHA-256 value.", id);
       }
     }
     for (const field of ["concept", "itemFamilyId", "stem", "correctAnswerExplanation"] as const) {
@@ -187,7 +237,7 @@ export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssu
     if (candidate.verificationStatus !== "unverified") {
       if (candidate.reviewStatus !== "ready") add(`${path}.reviewStatus`, "verified-item-not-ready", "Verified items must have reviewStatus ready.", id);
       if (!nonempty(candidate.sourceTitle)) add(`${path}.sourceTitle`, "missing-verified-source-title", "Verified questions require an exact source title.", id);
-      if (!nonempty(candidate.sourceLocation) || !EXACT_SOURCE_LOCATION.test(candidate.sourceLocation)) add(`${path}.sourceLocation`, "missing-exact-source-location", "Verified questions require an exact chapter, page, section, or regulation location.", id);
+      if (!hasExactSourceLocation(candidate)) add(`${path}.sourceLocation`, "missing-exact-source-location", "Verified questions require an exact chapter, page, section, regulation, or specifically linked online-source location.", id);
       if (candidate.contentValidationStatus !== "passed") add(`${path}.contentValidationStatus`, "content-validation-not-passed", "Verified questions require a passed content validation check.", id);
       if (candidate.duplicateSimilarityCheckStatus !== "passed") add(`${path}.duplicateSimilarityCheckStatus`, "similarity-check-not-passed", "Verified questions require a passed duplicate and similarity check.", id);
     }
@@ -201,7 +251,7 @@ export function validatePracticeV2Pack(value: unknown): PracticeV2ValidationIssu
 
 export function isPracticeV2ProductionEligible(question: PracticeV2Question) {
   if (question.verificationStatus !== "source-checked" && question.verificationStatus !== "human-reviewed") return false;
-  return validatePracticeV2Pack({ schemaVersion: PRACTICE_V2_SCHEMA_VERSION, packId: "production-eligibility-check", packStatus: "content", questions: [question] }).length === 0;
+  return validatePracticeV2Pack({ schemaVersion: PRACTICE_V2_SCHEMA_VERSION, packId: "production-eligibility-check", packStatus: "content", chapterId: question.chapterId, chapterTitle: question.chapterTitle, questions: [question] }).length === 0;
 }
 
 export function practiceV2VerificationBadge(question: PracticeV2Question) {
