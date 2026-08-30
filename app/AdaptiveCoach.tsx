@@ -11,7 +11,6 @@ import {
   CalendarDays,
   Check,
   ChevronDown,
-  CircleHelp,
   Clock3,
   Coffee,
   Flame,
@@ -81,6 +80,23 @@ import HomeworkHub from "./HomeworkHub";
 import PracticeV2 from "./PracticeV2View";
 import KeyInformation from "./KeyInformation";
 import StudyLibrary from "./StudyLibrary";
+import GlobalSmartSearch from "./GlobalSmartSearch";
+import type { SearchResult, SearchTarget } from "./globalSearch";
+import {
+  BookmarkAction,
+  ChapterMasteryMap,
+  CoachPlan,
+  ExamTimeline,
+  MistakeClassifier,
+  MistakeInsight,
+  Onboarding,
+  QuestionTools,
+  StandardsExplorer,
+  StudyNotebook,
+  STUDY_CHAPTERS,
+  type CoachTask,
+} from "./StudySystem";
+import { emptyStudySystemState, normalizeStudySystemState, type StudySystemState } from "./studySystemState";
 import {
   emptyLearningProgress,
   normalizeLearningProgress,
@@ -96,7 +112,7 @@ import { getSupabaseBrowserClient } from "./supabase-client";
 import { clearLocalProgress } from "./localProgressReset";
 import type { Session } from "@supabase/supabase-js";
 
-type MainView = "study" | "homework" | "practice" | "key-information" | "library" | "stats" | "review";
+type MainView = "study" | "homework" | "practice" | "key-information" | "library" | "stats" | "review" | "mastery" | "notebook" | "standards";
 type ActiveView = MainView | "quiz" | "results";
 type ExamTrack = "ASP" | "CSP";
 type DomainId = string;
@@ -180,6 +196,7 @@ interface SavedState {
   seenQuestionIds: Record<ExamTrack, string[]>;
   mockExposures: Record<ExamTrack, Partial<Record<MockForm, number>>>;
   learning: LearningProgress;
+  system: StudySystemState;
   activeExam: ExamTrack;
 }
 
@@ -254,6 +271,7 @@ const emptySavedState = (): SavedState => ({
   seenQuestionIds: { ASP: [], CSP: [] },
   mockExposures: { ASP: {}, CSP: {} },
   learning: emptyLearningProgress(),
+  system: emptyStudySystemState(),
   activeExam: "CSP",
 });
 
@@ -327,6 +345,7 @@ function normalizeSavedState(parsed: Partial<SavedState>): SavedState {
     seenQuestionIds,
     mockExposures,
     learning: normalizeLearningProgress(parsed.learning),
+    system: normalizeStudySystemState(parsed.system),
     activeExam: parsed.activeExam === "ASP" ? "ASP" : "CSP",
     attempts: attemptHistory,
     sessions: (Array.isArray(parsed.sessions) ? parsed.sessions : []).map((session) => ({ ...session, exam: session.exam ?? "CSP" })),
@@ -426,6 +445,13 @@ function mergeSavedStates(local: SavedState, remote: SavedState): SavedState {
     },
     mockExposures,
     learning: { chapterScores, flashcards },
+    system: {
+      onboardingComplete: local.system.onboardingComplete || remote.system.onboardingComplete,
+      completedChapterIds: [...new Set([...local.system.completedChapterIds, ...remote.system.completedChapterIds])],
+      notebook: { ...remote.system.notebook, ...local.system.notebook },
+      mistakeReasons: { ...remote.system.mistakeReasons, ...local.system.mistakeReasons },
+      planCompletions: { ...remote.system.planCompletions, ...local.system.planCompletions },
+    },
     examDate: local.examDate || remote.examDate,
     displayName: local.displayName === "Safety Professional" ? remote.displayName : local.displayName,
   };
@@ -526,7 +552,8 @@ export default function AdaptiveCoach() {
   const [reviewSearch, setReviewSearch] = useState("");
   const [reviewDomain, setReviewDomain] = useState<DomainId | "all">("all");
   const [reviewType, setReviewType] = useState<"all" | "correct" | "incorrect">("all");
-  const [showFormulaNote, setShowFormulaNote] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
+  const [searchTarget, setSearchTarget] = useState<(SearchTarget & { requestKey: number }) | null>(null);
   const lastMoveAt = useRef(Date.now());
   const savedRef = useRef(saved);
   const cloudRevisionRef = useRef<number | null>(null);
@@ -541,6 +568,18 @@ export default function AdaptiveCoach() {
   useEffect(() => {
     savedRef.current = saved;
   }, [saved]);
+
+  useEffect(() => {
+    if (view === "quiz") return;
+    const onKeyDown = (event: KeyboardEvent) => {
+      if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k") {
+        event.preventDefault();
+        setSearchOpen(true);
+      }
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [view]);
 
   useEffect(() => {
     try {
@@ -1045,7 +1084,30 @@ export default function AdaptiveCoach() {
     setView("study");
   }
 
-  function navigate(next: MainView) {
+  function navigate(next: MainView, preserveSearchTarget = false) {
+    if (!preserveSearchTarget) setSearchTarget(null);
+    setView(next);
+    setNavOpen(false);
+  }
+
+  function openSearchResult(result: SearchResult) {
+    const target = { ...result.target, requestKey: Date.now() };
+    setSearchTarget(target);
+    if (target.view === "review" && target.query) setReviewSearch(target.query);
+    navigate(target.view, true);
+    setSearchOpen(false);
+  }
+
+  function openConnectedResource(next: MainView, query?: string, chapterId?: string) {
+    const target: SearchTarget & { requestKey: number } = {
+      view: next === "mastery" || next === "notebook" || next === "standards" || next === "stats" ? "study" : next,
+      query: query ?? "",
+      chapterId,
+      requestKey: Date.now(),
+    };
+    if (next === "review" && query) setReviewSearch(query);
+    if (next === "notebook" || next === "standards" || next === "mastery") setSearchTarget(null);
+    else setSearchTarget(target);
     setView(next);
     setNavOpen(false);
   }
@@ -1158,7 +1220,6 @@ export default function AdaptiveCoach() {
         onFlag={() => setFlagged((existing) => (existing.includes(current) ? existing.filter((value) => value !== current) : [...existing, current]))}
         onFinish={finishSession}
         onQuit={quitSession}
-        onFormula={() => setShowFormulaNote(true)}
       />
     );
   }
@@ -1189,6 +1250,7 @@ export default function AdaptiveCoach() {
           <button className={view === "review" ? "active" : ""} onClick={() => navigate("review")}><BookOpenCheck size={17} /> Review</button>
         </nav>
         <div className="topbar-meta">
+          <button type="button" className="global-search-trigger" onClick={() => setSearchOpen(true)} aria-label="Search all study resources"><Search size={17} /><span>Search</span><kbd>Ctrl K</kbd></button>
           <span className="catalog-chip"><BrainCircuit size={15} /> {saved.seenQuestionIds[saved.activeExam].length.toLocaleString()} / 800 practice seen</span>
           {supabaseSession?.user ? (
             <div className="profile-control" title={`${typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "Google user"} · ${cloudStatus}`}><span>{(typeof supabaseSession.user.user_metadata?.full_name === "string" ? supabaseSession.user.user_metadata.full_name : supabaseSession.user.email ?? "GU").slice(0, 2).toUpperCase()}</span><small>{cloudStatus === "saving" ? "Saving" : cloudStatus === "synced" ? "Synced" : cloudStatus === "offline" ? "Local" : "Cloud"}</small><div className="profile-actions"><button type="button" onClick={openResetDialog}>Reset progress</button><button type="button" onClick={() => void signOut()}>Sign out</button></div></div>
@@ -1198,6 +1260,15 @@ export default function AdaptiveCoach() {
           <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-label="Toggle menu"><Menu /></button>
         </div>
       </header>
+
+      {searchOpen && <GlobalSmartSearch
+        open
+        examName={saved.activeExam}
+        practiceBank={activeConfig.practiceBank}
+        attempts={activeAttempts}
+        onClose={() => setSearchOpen(false)}
+        onOpenResult={openSearchResult}
+      />}
 
       {view === "study" && (
         <StudyDashboard
@@ -1210,13 +1281,18 @@ export default function AdaptiveCoach() {
           onMode={(mode) => (mode === "exam" ? startSession("exam") : setSetupMode(mode))}
           onStart={() => startSession("daily")}
           onStats={() => navigate("stats")}
+          onOpen={openConnectedResource}
+          onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))}
         />
       )}
       {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} mockExposures={saved.mockExposures[saved.activeExam]} overall={overall} onStudy={() => navigate("study")} />}
-      {view === "homework" && <HomeworkHub progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
-      {view === "practice" && <PracticeV2 />}
-      {view === "key-information" && <KeyInformation />}
-      {view === "library" && <StudyLibrary progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} />}
+      {view === "homework" && <HomeworkHub key={searchTarget?.view === "homework" ? searchTarget.requestKey : "homework"} progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} searchTarget={searchTarget?.view === "homework" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
+      {view === "practice" && <PracticeV2 key={searchTarget?.view === "practice" ? searchTarget.requestKey : "practice"} searchTarget={searchTarget?.view === "practice" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
+      {view === "key-information" && <KeyInformation key={searchTarget?.view === "key-information" ? searchTarget.requestKey : "key-information"} searchTarget={searchTarget?.view === "key-information" ? searchTarget : null} />}
+      {view === "library" && <StudyLibrary key={searchTarget?.view === "library" ? searchTarget.requestKey : "library"} progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} searchTarget={searchTarget?.view === "library" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} mistakeAttempts={activeAttempts.filter((attempt) => !attempt.correct)} onOpen={(next, query) => openConnectedResource(next, query)} />}
+      {view === "mastery" && <ChapterMasteryMap learning={saved.learning} attempts={activeAttempts} onOpen={openConnectedResource} />}
+      {view === "notebook" && <StudyNotebook system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
+      {view === "standards" && <StandardsExplorer key={searchTarget?.view === "standards" ? searchTarget.requestKey : "standards"} system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} onOpen={openConnectedResource} initialQuery={searchTarget?.view === "standards" ? searchTarget.query : undefined} />}
       {view === "review" && (
         <Review
           attempts={activeAttempts}
@@ -1228,6 +1304,9 @@ export default function AdaptiveCoach() {
           onDomain={setReviewDomain}
           onType={setReviewType}
           onStudy={() => navigate("study")}
+          system={saved.system}
+          onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))}
+          sessions={activeSessions}
         />
       )}
       {view === "results" && (
@@ -1242,6 +1321,8 @@ export default function AdaptiveCoach() {
           onFilter={setResultFilter}
           onHome={() => navigate("study")}
           onRetry={() => startSession("weakest")}
+          system={saved.system}
+          onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))}
         />
       )}
       {resetDialogOpen && (
@@ -1269,18 +1350,8 @@ export default function AdaptiveCoach() {
           onStart={() => startSession(setupMode)}
         />
       )}
-      {showFormulaNote && (
-        <div className="modal-backdrop">
-          <div className="modal formula-note" role="dialog" aria-modal="true">
-            <button className="icon-button modal-close" onClick={() => setShowFormulaNote(false)} aria-label="Close"><X /></button>
-            <span className="modal-icon"><CircleHelp /></span>
-            <p className="eyebrow">Exam convention</p>
-            <h2>Formula support</h2>
-            <p>The official exam provides a formula when recall of the formula itself is not the objective. This coach follows the same principle: calculate from the information in the item, and flag anything you need to revisit.</p>
-            <button className="primary-button full" onClick={() => setShowFormulaNote(false)}>Return to the block</button>
-          </div>
-        </div>
-      )}
+      {mounted && !saved.system.onboardingComplete && view !== "quiz" && <Onboarding activeExam={saved.activeExam} examDate={saved.examDate} onComplete={({ activeExam, examDate, completedChapterIds }) => setSaved((currentSaved) => ({ ...currentSaved, activeExam, examDate, system: { ...currentSaved.system, onboardingComplete: true, completedChapterIds } }))} />}
+      <nav className="mobile-study-nav" aria-label="Mobile study navigation"><button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard /><span>Today</span></button><button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion /><span>Practice</span></button><button className={view === "mastery" ? "active" : ""} onClick={() => navigate("mastery")}><Target /><span>Mastery</span></button><button className={view === "notebook" ? "active" : ""} onClick={() => navigate("notebook")}><BookOpenCheck /><span>Notebook</span></button><button onClick={() => setSearchOpen(true)}><Search /><span>Search</span></button></nav>
     </div>
   );
 }
@@ -1314,6 +1385,8 @@ function StudyDashboard({
   onMode,
   onStart,
   onStats,
+  onOpen,
+  onSystem,
 }: {
   saved: SavedState;
   config: ExamConfig;
@@ -1324,6 +1397,8 @@ function StudyDashboard({
   onMode: (mode: SessionMode) => void;
   onStart: () => void;
   onStats: () => void;
+  onOpen: (view: MainView, query?: string, chapterId?: string) => void;
+  onSystem: (system: StudySystemState) => void;
 }) {
   const completedToday = sessions.some((session) => new Date(session.date).toDateString() === new Date().toDateString());
   const weakestScore = readinessScore(mastery[weakest.id]);
@@ -1335,6 +1410,17 @@ function StudyDashboard({
   const nextMock = chooseMockForm(mockExposures);
   const mockAUsed = mockExposures.some((session) => session.mockForm === "A");
   const mockBUsed = mockExposures.some((session) => session.mockForm === "B");
+  const [studyNow] = useState(() => Date.now());
+  const todayKey = new Date().toISOString().slice(0, 10);
+  const dueFlashcards = Object.values(saved.learning.flashcards).filter((card) => card.dueAt <= studyNow).length;
+  const nextChapter = STUDY_CHAPTERS.find((chapter) => !saved.system.completedChapterIds.includes(chapter.id)) ?? STUDY_CHAPTERS[0];
+  const incorrect = activeAttempts.filter((attempt) => !attempt.correct);
+  const tasks: CoachTask[] = [
+    { id: `${todayKey}:weak`, title: `10 questions · ${weakest.name}`, detail: "Target the lowest current evidence before comfortable topics.", action: "practice", query: weakest.name },
+    { id: `${todayKey}:mistakes`, title: `Review ${Math.min(4, Math.max(1, incorrect.length))} mistakes`, detail: "Classify each error and earn the correction.", action: "review" },
+    { id: `${todayKey}:cards`, title: `${Math.max(5, Math.min(10, dueFlashcards || 5))} flashcards`, detail: dueFlashcards ? `${dueFlashcards} cards are currently due.` : "Build retrieval strength before the next interval.", action: "library" },
+    { id: `${todayKey}:homework`, title: `Homework · ${nextChapter.title}`, detail: `Continue at chapter ${STUDY_CHAPTERS.indexOf(nextChapter) + 1}.`, action: "homework", query: nextChapter.title },
+  ];
   return (
     <main>
       <section className="dashboard-hero">
@@ -1367,13 +1453,7 @@ function StudyDashboard({
             </div>
             <span className="duration-pill"><Clock3 size={15} /> 60 min</span>
           </div>
-          <div className="session-route">
-            <div><span>01</span><strong>Calibrate</strong><small>7 min · retrieval warm-up</small></div>
-            <div className="route-line" />
-            <div><span>02</span><strong>Pressure block</strong><small>{Math.round(config.timedSeconds / 60)} min · 20 questions</small></div>
-            <div className="route-line" />
-            <div><span>03</span><strong>Correct</strong><small>{60 - 7 - Math.round(config.timedSeconds / 60)} min · rationales + teach-back</small></div>
-          </div>
+          <CoachPlan tasks={tasks} completions={saved.system.planCompletions} onToggle={(id) => onSystem({ ...saved.system, planCompletions: { ...saved.system.planCompletions, [id]: !saved.system.planCompletions[id] } })} onOpen={onOpen} />
           <div className="coach-callout">
             <div className="callout-icon"><Target size={21} /></div>
             <div>
@@ -1407,6 +1487,15 @@ function StudyDashboard({
           <div className="threshold-note"><LockKeyhole size={16} /><span><strong>Stability rule:</strong> at least {ASSESSMENT_EVIDENCE_CONFIG.stability.minimumCurrentBlockQuestions} current-block questions, independent families when available, and ≥{ASSESSMENT_EVIDENCE_CONFIG.stability.accuracyThreshold * 100}% across two qualifying blocks.</span></div>
         </aside>
       </div>
+
+      <section className="page-width system-launchpad">
+        <div className="section-heading"><div><p className="eyebrow">Connected study system</p><h2>Move by need, not by tab</h2></div><p>Every destination keeps the study context attached.</p></div>
+        <div className="system-launch-grid"><button onClick={() => onOpen("mastery")}><Target /><span><strong>Chapter mastery map</strong><small>Strong, developing, weak, or needs evidence</small></span><ArrowRight /></button><button onClick={() => onOpen("notebook")}><BookOpenCheck /><span><strong>My Study Notebook</strong><small>{Object.keys(saved.system.notebook).length} saved resources and notes</small></span><ArrowRight /></button><button onClick={() => onOpen("standards")}><ShieldCheck /><span><strong>OSHA Standards Explorer</strong><small>Rules, key numbers, definitions, and connections</small></span><ArrowRight /></button></div>
+      </section>
+
+      <section className="page-width timeline-card"><div className="section-heading"><div><p className="eyebrow">Exam countdown</p><h2>Your study timeline</h2></div>{saved.examDate && <button className="text-button" onClick={() => onSystem({ ...saved.system, onboardingComplete: false })}>Change setup</button>}</div><ExamTimeline examDate={saved.examDate} completedChapters={saved.system.completedChapterIds.length} /></section>
+
+      <section className="page-width"><MistakeInsight system={saved.system} /></section>
 
       <section className="mode-section page-width">
         <div className="section-heading">
@@ -1540,7 +1629,6 @@ function QuizRunner({
   onFlag,
   onFinish,
   onQuit,
-  onFormula,
 }: {
   config: ExamConfig;
   question: SessionQuestion;
@@ -1558,7 +1646,6 @@ function QuizRunner({
   onFlag: () => void;
   onFinish: () => void;
   onQuit: () => void;
-  onFormula: () => void;
 }) {
   const domain = config.domains.find((candidate) => candidate.id === question.domainId)!;
   const last = index === total - 1;
@@ -1589,10 +1676,11 @@ function QuizRunner({
             {(["guess", "lean", "sure"] as Confidence[]).map((value) => <button className={confidence === value ? "active" : ""} key={value} onClick={() => onConfidence(value)}>{value === "guess" ? "Guessing" : value === "lean" ? "Leaning" : "Certain"}</button>)}
           </div>
           <div className="suppressed-note"><LockKeyhole size={15} /> Rationale locked until the {total}-question block is submitted.</div>
+          <QuestionTools formulaQuery={`${question.stem} ${question.competency} ${question.referenceTopic}`} />
         </section>
       </main>
       <footer className="quiz-footer">
-        <div className="quiz-footer-left"><button className={flagged ? "tool-button flagged" : "tool-button"} onClick={onFlag}><Flag size={17} /> {flagged ? "Flagged" : "Flag"}</button><button className="tool-button" onClick={onFormula}><CircleHelp size={17} /> Formula rule</button><span className="catalog-id">Item {question.id}</span></div>
+        <div className="quiz-footer-left"><button className={flagged ? "tool-button flagged" : "tool-button"} onClick={onFlag}><Flag size={17} /> {flagged ? "Flagged" : "Flag"}</button><span className="catalog-id">Item {question.id}</span></div>
         <div className="quiz-nav"><button className="secondary-button" disabled={index === 0} onClick={() => onMove(index - 1)}><ArrowLeft size={18} /> Previous</button>{last ? <button className="primary-button" onClick={onFinish}>Submit block <Check size={18} /></button> : <button className="primary-button" onClick={() => onMove(index + 1)}>Next <ArrowRight size={18} /></button>}</div>
       </footer>
     </div>
@@ -1610,6 +1698,8 @@ function Results({
   onFilter,
   onHome,
   onRetry,
+  system,
+  onSystem,
 }: {
   attempts: Attempt[];
   mode: SessionMode;
@@ -1621,6 +1711,8 @@ function Results({
   onFilter: (filter: "all" | "incorrect") => void;
   onHome: () => void;
   onRetry: () => void;
+  system: StudySystemState;
+  onSystem: (system: StudySystemState) => void;
 }) {
   const correct = attempts.filter((attempt) => attempt.correct).length;
   const percent = Math.round((correct / Math.max(1, attempts.length)) * 100);
@@ -1654,6 +1746,7 @@ function Results({
         <div><Gauge /><span>{READINESS_LABEL}</span><strong>{practiceReadiness === null ? READINESS_INSUFFICIENT_LABEL : `${practiceReadiness}%`}</strong><small>{practiceReadiness === null ? READINESS_INSUFFICIENT_EXPLANATION : READINESS_DISCLAIMER}</small></div>
       </section>
       {certainErrors > 0 && <section className="pushback page-width"><div><strong>Coach pushback</strong><h2>You were certain and wrong {certainErrors} time{certainErrors === 1 ? "" : "s"}.</h2><p>That is not a careless miss; it is a false model. Do not memorize the keyed choice. Explain why each distractor fails before you retest.</p></div><BrainCircuit size={42} /></section>}
+      <section className="page-width"><MistakeInsight system={system} /></section>
       <section className="page-width domain-results">
         <div className="section-heading"><div><p className="eyebrow">Post-assessment analytics</p><h2>Performance and domain drift</h2></div><p>Drift compares this block’s share with the official blueprint.</p></div>
         <div className="domain-result-table">
@@ -1663,7 +1756,7 @@ function Results({
       </section>
       <section className="page-width rationale-section">
         <div className="section-heading rationale-heading"><div><p className="eyebrow">Rationale block</p><h2>Interrogate every miss</h2></div><div className="segmented"><button className={filter === "incorrect" ? "active" : ""} onClick={() => onFilter("incorrect")}>Incorrect ({attempts.length - correct})</button><button className={filter === "all" ? "active" : ""} onClick={() => onFilter("all")}>All ({attempts.length})</button></div></div>
-        {shown.length === 0 ? <div className="empty-state"><Trophy /><h3>No incorrect responses in this block.</h3><p>Do not coast: preserve accuracy across independent item families.</p></div> : <div className="rationale-list">{shown.map((attempt, index) => <RationaleCard key={`${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} />)}</div>}
+        {shown.length === 0 ? <div className="empty-state"><Trophy /><h3>No incorrect responses in this block.</h3><p>Do not coast: preserve accuracy across independent item families.</p></div> : <div className="rationale-list">{shown.map((attempt, index) => <RationaleCard key={`${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} system={system} onSystem={onSystem} />)}</div>}
       </section>
       <div className="results-actions page-width"><button className="secondary-button" onClick={onHome}>Return to dashboard</button><button className="primary-button" onClick={onRetry}>Attack weakest domains <ArrowRight size={18} /></button></div>
       <Disclaimer config={config} />
@@ -1671,7 +1764,7 @@ function Results({
   );
 }
 
-function RationaleCard({ attempt, index, domains }: { attempt: Attempt; index: number; domains: readonly CoachDomain[] }) {
+function RationaleCard({ attempt, index, domains, system, onSystem }: { attempt: Attempt; index: number; domains: readonly CoachDomain[]; system?: StudySystemState; onSystem?: (system: StudySystemState) => void }) {
   const [open, setOpen] = useState(!attempt.correct);
   const domain = domains.find((candidate) => candidate.id === attempt.domainId)!;
   return (
@@ -1687,6 +1780,7 @@ function RationaleCard({ attempt, index, domains }: { attempt: Attempt; index: n
         {!attempt.correct && <div className="why-wrong"><strong>Why your response fails</strong><p>{attempt.wrongRationale}</p></div>}
         <div className="why-right"><strong>Decision rationale</strong><p>{attempt.rationale}</p></div>
         {!attempt.correct && <div className="teachback"><BrainCircuit size={19} /><div><strong>Earn the correction</strong><p>{attempt.challengePrompt}</p></div></div>}
+        {system && onSystem && <div className="rationale-personal-tools"><MistakeClassifier attempt={attempt} system={system} onChange={onSystem} /><BookmarkAction kind="question" itemId={`${attempt.exam}:${attempt.questionId}`} title={attempt.stem} subtitle={`${domain.name} · ${attempt.correct ? "Correct" : "Incorrect"}`} system={system} onChange={onSystem} /></div>}
         <div className="reference-line"><BookOpenCheck size={15} /><span><strong>{attempt.framework}</strong> framework · {attempt.referenceTopic}</span><span title={PROVISIONAL_DIFFICULTY_NOTE}>{difficultyLabel(attempt.difficulty)}</span></div>
       </div>}
     </article>
@@ -1754,6 +1848,9 @@ function Review({
   onDomain,
   onType,
   onStudy,
+  system,
+  onSystem,
+  sessions,
 }: {
   attempts: Attempt[];
   config: ExamConfig;
@@ -1764,20 +1861,28 @@ function Review({
   onDomain: (value: DomainId | "all") => void;
   onType: (value: "all" | "correct" | "incorrect") => void;
   onStudy: () => void;
+  system: StudySystemState;
+  onSystem: (system: StudySystemState) => void;
+  sessions: SessionSummary[];
 }) {
+  const [sessionId, setSessionId] = useState("all");
   const filtered = attempts.filter((attempt) => {
+    if (sessionId !== "all" && attempt.sessionId !== sessionId) return false;
     if (domain !== "all" && attempt.domainId !== domain) return false;
     if (type === "correct" && !attempt.correct) return false;
     if (type === "incorrect" && attempt.correct) return false;
     return !search || `${attempt.stem} ${attempt.competency}`.toLowerCase().includes(search.toLowerCase());
   });
+  const firstAccuracy = sessions.length ? Math.round((sessions[sessions.length - 1].score / sessions[sessions.length - 1].count) * 100) : null;
+  const latestAccuracy = sessions.length ? Math.round((sessions[0].score / sessions[0].count) * 100) : null;
   return (
     <main className="review-page">
       <section className="page-title page-width"><div><p className="eyebrow"><BookOpenCheck size={15} /> Evidence archive</p><h1>Review what you actually decided.</h1><p>Search every submitted response. Rationales remain tied to the exact answer and confidence you recorded.</p></div><button className="primary-button" onClick={onStudy}>New adaptive block <ArrowRight size={18} /></button></section>
       <section className="review-counts page-width"><button className={type === "all" ? "active" : ""} onClick={() => onType("all")}><strong>{attempts.length}</strong><span>All attempts</span></button><button className={type === "incorrect" ? "active" : ""} onClick={() => onType("incorrect")}><strong>{attempts.filter((attempt) => !attempt.correct).length}</strong><span>Incorrect</span></button><button className={type === "correct" ? "active" : ""} onClick={() => onType("correct")}><strong>{attempts.filter((attempt) => attempt.correct).length}</strong><span>Correct</span></button></section>
-      <section className="review-tools page-width"><label><Search size={17} /><input value={search} onChange={(event) => onSearch(event.target.value)} placeholder="Search question or competency" /></label><select value={domain} onChange={(event) => onDomain(event.target.value as DomainId | "all")} aria-label="Filter by domain"><option value="all">All {config.blueprint} domains</option>{config.domains.map((item) => <option key={item.id} value={item.id}>{item.short} · {item.name}</option>)}</select></section>
+      <section className="page-width review-intelligence"><MistakeInsight system={system} />{firstAccuracy !== null && latestAccuracy !== null && <div className="improvement-card"><TrendingUp /><span><strong>{latestAccuracy - firstAccuracy >= 0 ? "+" : ""}{latestAccuracy - firstAccuracy} points</strong><small>First block {firstAccuracy}% → latest {latestAccuracy}%</small></span></div>}</section>
+      <section className="review-tools page-width"><label><Search size={17} /><input value={search} onChange={(event) => onSearch(event.target.value)} placeholder="Search question or competency" /></label><select value={domain} onChange={(event) => onDomain(event.target.value as DomainId | "all")} aria-label="Filter by domain"><option value="all">All {config.blueprint} domains</option>{config.domains.map((item) => <option key={item.id} value={item.id}>{item.short} · {item.name}</option>)}</select><select value={sessionId} onChange={(event) => setSessionId(event.target.value)} aria-label="Revisit a past session"><option value="all">All past sessions</option>{sessions.map((session) => <option value={session.id} key={session.id}>{new Date(session.date).toLocaleDateString()} · {getModeCopy(session.mode, config).title} · {Math.round((session.score / session.count) * 100)}%</option>)}</select></section>
       <section className="page-width review-list">
-        {filtered.length ? filtered.map((attempt, index) => <RationaleCard key={`${attempt.sessionId}-${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} />) : <div className="empty-state"><Search /><h3>No matching attempts.</h3><p>Adjust the filters or complete a study block to build your evidence archive.</p></div>}
+        {filtered.length ? filtered.map((attempt, index) => <RationaleCard key={`${attempt.sessionId}-${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} system={system} onSystem={onSystem} />) : <div className="empty-state"><Search /><h3>No matching attempts.</h3><p>Adjust the filters or complete a study block to build your evidence archive.</p></div>}
       </section>
       <Disclaimer config={config} />
     </main>

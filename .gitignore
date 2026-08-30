@@ -41,3 +41,8 @@ yarn-error.log*
 /tmp/
 /eng.traineddata
 *.tsbuildinfo
+
+# Local Codex skills and their generated metadata are development-machine
+# tooling, not application source or production dependencies.
+/.agents/
+/skills-lock.json

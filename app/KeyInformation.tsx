@@ -2,11 +2,12 @@
 
 import { BookMarked, CheckCircle2, CircleHelp, Search } from "lucide-react";
 import { useMemo, useState } from "react";
+import type { SearchTarget } from "./globalSearch";
 import { KEY_INFORMATION } from "./keyInformationData";
 
-export default function KeyInformation() {
-  const [query, setQuery] = useState("");
-  const [selectedChapter, setSelectedChapter] = useState("all");
+export default function KeyInformation({ searchTarget }: { searchTarget?: (SearchTarget & { requestKey: number }) | null }) {
+  const [query, setQuery] = useState(searchTarget?.query ?? "");
+  const [selectedChapter, setSelectedChapter] = useState(searchTarget?.chapterNumber ? String(searchTarget.chapterNumber) : "all");
   const visibleChapters = useMemo(() => {
     const needle = query.trim().toLowerCase();
     return KEY_INFORMATION.filter((chapter) => {

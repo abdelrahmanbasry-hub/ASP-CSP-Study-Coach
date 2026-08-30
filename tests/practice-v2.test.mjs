@@ -232,7 +232,7 @@ test("primary Practice mounts chapter-first Practice and preserves the legacy ro
     readFile(new URL("../app/exam-practice/page.tsx", import.meta.url), "utf8"),
   ]);
   assert.match(coach, /import PracticeV2 from "\.\/PracticeV2View"/);
-  assert.match(coach, /view === "practice" && <PracticeV2 \/>/);
+  assert.match(coach, /view === "practice" && <PracticeV2\b/);
   assert.doesNotMatch(coach, /view === "practice" && <PracticeQuestions \/>/);
   assert.match(legacyRoute, /import PracticeQuestions from "\.\.\/PracticeQuestions"/);
   assert.match(legacyRoute, /return <PracticeQuestions \/>/);

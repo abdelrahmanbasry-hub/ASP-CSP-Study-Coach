@@ -1,0 +1,19 @@
+export interface StandardRecord {
+  id: string;
+  citation: string;
+  title: string;
+  summary: string;
+  keyNumbers: string[];
+  definitions: string[];
+  topics: string[];
+  officialUrl: string;
+}
+
+export const OSHA_STANDARDS: StandardRecord[] = [
+  { id: "1910-95", citation: "29 CFR 1910.95", title: "Occupational Noise Exposure", summary: "Hearing conservation, monitoring, controls, audiometry, training, and recordkeeping for occupational noise.", keyNumbers: ["90 dBA PEL over 8 hours", "85 dBA action level over 8 hours", "5 dB exchange rate in OSHA table G-16"], definitions: ["Standard threshold shift: an average 10 dB or more shift at 2,000, 3,000, and 4,000 Hz."], topics: ["noise", "hearing", "audiogram", "dosage", "sound level"], officialUrl: "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95" },
+  { id: "1910-134", citation: "29 CFR 1910.134", title: "Respiratory Protection", summary: "Written programs, respirator selection, medical evaluation, fit testing, use, maintenance, and training.", keyNumbers: ["Annual fit testing", "APF and MUC govern selection", "Medical evaluation before fit testing or required use"], definitions: ["IDLH: atmosphere posing immediate threat to life, irreversible health effects, or impaired escape."], topics: ["respiratory", "respirator", "fit test", "apf", "muc", "idlh"], officialUrl: "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134" },
+  { id: "1910-146", citation: "29 CFR 1910.146", title: "Permit-Required Confined Spaces", summary: "Identification, permit programs, entry roles, atmospheric testing, rescue, and contractor coordination.", keyNumbers: ["Test oxygen, combustible gases, then toxic contaminants", "At least annual program review when entries occurred"], definitions: ["Permit space: a confined space with a hazardous atmosphere, engulfment, trapping geometry, or other serious hazard."], topics: ["confined space", "permit", "entrant", "attendant", "entry supervisor", "rescue"], officialUrl: "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.146" },
+  { id: "1910-147", citation: "29 CFR 1910.147", title: "Control of Hazardous Energy", summary: "Energy-control procedures, lockout/tagout application, inspections, training, and group lockout.", keyNumbers: ["Periodic procedure inspection at least annually", "Authorized employee applies lockout or tagout"], definitions: ["Zero-energy state requires isolation and control of stored or residual energy."], topics: ["loto", "lockout", "tagout", "hazardous energy", "stored energy"], officialUrl: "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147" },
+  { id: "1910-1200", citation: "29 CFR 1910.1200", title: "Hazard Communication", summary: "Chemical classification, labels, safety data sheets, written programs, and employee information and training.", keyNumbers: ["SDS uses a standardized 16-section format", "Written program and workplace chemical list required"], definitions: ["Hazard classification identifies the nature and degree of physical and health hazards."], topics: ["hazcom", "sds", "labels", "chemicals", "ghs"], officialUrl: "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200" },
+  { id: "1910-38", citation: "29 CFR 1910.38", title: "Emergency Action Plans", summary: "Minimum elements for reporting emergencies, evacuation, accounting, critical operations, rescue/medical duties, and contacts.", keyNumbers: ["Written plan generally required when 11 or more employees", "Review plan when developed, duties change, or plan changes"], definitions: ["An emergency action plan organizes employer and employee actions during workplace emergencies."], topics: ["emergency", "evacuation", "alarm", "accounting"], officialUrl: "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38" },
+];
