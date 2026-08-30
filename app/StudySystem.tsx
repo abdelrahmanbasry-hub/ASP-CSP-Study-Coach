@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { BookMarked, Calculator, CalendarDays, Check, ChevronRight, ExternalLink, FileQuestion, FlaskConical, Library, NotebookPen, Search, ShieldCheck, Sparkles, Star, Target, X } from "lucide-react";
+import { BookMarked, Calculator, CalendarDays, Check, ChevronDown, ChevronRight, ExternalLink, FileQuestion, FlaskConical, Library, NotebookPen, Search, ShieldCheck, Sparkles, Star, Target, X } from "lucide-react";
 import type { Attempt } from "./adaptiveEngine";
 import type { LearningProgress } from "./learningProgress";
 import { loadPracticeV2Progress, type PracticeV2Progress } from "./practiceV2";
@@ -79,11 +79,35 @@ export function MistakeClassifier({ attempt, system, onChange }: { attempt: Atte
 
 export function MistakeInsight({ system }: { system: StudySystemState }) { return <div className="mistake-insight"><Sparkles /><div><strong>Coach pattern</strong><p>{mistakeInsight(system.mistakeReasons)}</p></div></div>; }
 
-export function Onboarding({ activeExam, examDate, onComplete }: { activeExam: "ASP" | "CSP"; examDate: string; onComplete: (values: { activeExam: "ASP" | "CSP"; examDate: string; completedChapterIds: string[] }) => void }) {
+export function Onboarding({ activeExam, examDate, completedChapterIds, onComplete }: { activeExam: "ASP" | "CSP"; examDate: string; completedChapterIds: string[]; onComplete: (values: { activeExam: "ASP" | "CSP"; examDate: string; completedChapterIds: string[] }) => void }) {
   const [exam, setExam] = useState(activeExam);
   const [date, setDate] = useState(examDate);
-  const [through, setThrough] = useState(0);
-  return <div className="modal-backdrop onboarding-backdrop"><section className="modal onboarding-modal" role="dialog" aria-modal="true" aria-labelledby="onboarding-title"><div className="onboarding-mark"><ShieldCheck /></div><p className="eyebrow">Two-minute setup</p><h2 id="onboarding-title">Start with a useful plan today</h2><p className="modal-lead">Tell the coach where you are. You can change this later.</p><div className="onboarding-track"><button className={exam === "ASP" ? "active" : ""} onClick={() => setExam("ASP")}><strong>ASP</strong><span>Associate Safety Professional</span></button><button className={exam === "CSP" ? "active" : ""} onClick={() => setExam("CSP")}><strong>CSP</strong><span>Certified Safety Professional</span></button></div><label className="onboarding-field"><span>Approximate exam date <small>optional</small></span><input type="date" min={new Date().toISOString().slice(0, 10)} value={date} onChange={(event) => setDate(event.target.value)} /></label><label className="onboarding-field"><span>Chapters already finished</span><select value={through} onChange={(event) => setThrough(Number(event.target.value))}><option value={0}>I am starting fresh</option>{STUDY_CHAPTERS.map((chapter, index) => <option value={index + 1} key={chapter.id}>Through chapter {index + 1}: {chapter.title}</option>)}</select></label><button className="primary-button full" onClick={() => onComplete({ activeExam: exam, examDate: date, completedChapterIds: STUDY_CHAPTERS.slice(0, through).map((chapter) => chapter.id) })}>Build my study plan <ChevronRight /></button></section></div>;
+  const [selectedChapters, setSelectedChapters] = useState<string[]>(completedChapterIds);
+  const [chaptersOpen, setChaptersOpen] = useState(true);
+  const [chapterSearch, setChapterSearch] = useState("");
+  const visibleChapters = STUDY_CHAPTERS.filter((chapter) => `${chapter.courseNumber} ${chapter.title}`.toLowerCase().includes(chapterSearch.trim().toLowerCase()));
+  const toggleChapter = (chapterId: string) => setSelectedChapters((current) => current.includes(chapterId) ? current.filter((id) => id !== chapterId) : [...current, chapterId]);
+  return <div className="modal-backdrop onboarding-backdrop">
+    <section className="modal onboarding-modal" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
+      <div className="onboarding-mark"><ShieldCheck /></div>
+      <p className="eyebrow">Two-minute setup</p>
+      <h2 id="onboarding-title">Start with a useful plan today</h2>
+      <p className="modal-lead">Tell the coach where you are. You can change this later.</p>
+      <div className="onboarding-track" role="group" aria-label="Exam track"><button className={exam === "ASP" ? "active" : ""} aria-pressed={exam === "ASP"} onClick={() => setExam("ASP")}><strong>ASP</strong><span>Associate Safety Professional</span></button><button className={exam === "CSP" ? "active" : ""} aria-pressed={exam === "CSP"} onClick={() => setExam("CSP")}><strong>CSP</strong><span>Certified Safety Professional</span></button></div>
+      <label className="onboarding-field"><span>Approximate exam date <small>optional</small></span><input type="date" min={new Date().toISOString().slice(0, 10)} value={date} onChange={(event) => setDate(event.target.value)} /></label>
+      <fieldset className="onboarding-chapters">
+        <legend>Chapters already finished</legend>
+        <p>Select any chapters you completed; they do not need to be consecutive.</p>
+        <button type="button" className="chapter-select-trigger" aria-expanded={chaptersOpen} aria-controls="onboarding-chapter-options" onClick={() => setChaptersOpen((open) => !open)}><span><strong>{selectedChapters.length} selected</strong><small>{selectedChapters.length ? "Your finished chapters will be skipped in the initial plan." : "I am starting fresh"}</small></span><ChevronDown className={chaptersOpen ? "rotated" : ""} /></button>
+        {chaptersOpen && <div className="chapter-multiselect" id="onboarding-chapter-options">
+          <div className="chapter-multiselect-toolbar"><label><Search /><input value={chapterSearch} onChange={(event) => setChapterSearch(event.target.value)} placeholder="Search chapters" aria-label="Search completed chapters" /></label><div><button type="button" onClick={() => setSelectedChapters(STUDY_CHAPTERS.map((chapter) => chapter.id))}>Select all</button><button type="button" disabled={!selectedChapters.length} onClick={() => setSelectedChapters([])}>Clear</button></div></div>
+          <div className="chapter-checkbox-list" aria-label="Completed chapters">{visibleChapters.map((chapter) => <label aria-label={`Chapter ${chapter.courseNumber}: ${chapter.title}`} htmlFor={`completed-${chapter.id}`} key={chapter.id}><input id={`completed-${chapter.id}`} type="checkbox" checked={selectedChapters.includes(chapter.id)} onChange={() => toggleChapter(chapter.id)} /><span><b>Chapter {chapter.courseNumber}</b><strong>{chapter.title}</strong></span></label>)}{!visibleChapters.length && <p className="chapter-search-empty">No chapters match that search.</p>}</div>
+          <p className="chapter-selection-status" role="status" aria-live="polite">{selectedChapters.length} of {STUDY_CHAPTERS.length} chapters selected</p>
+        </div>}
+      </fieldset>
+      <button className="primary-button full onboarding-submit" onClick={() => onComplete({ activeExam: exam, examDate: date, completedChapterIds: selectedChapters })}>Build my study plan <ChevronRight /></button>
+    </section>
+  </div>;
 }
 
 export interface CoachTask { id: string; title: string; detail: string; action: ResourceView; query?: string; }

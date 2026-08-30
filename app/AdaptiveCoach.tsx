@@ -1350,7 +1350,7 @@ export default function AdaptiveCoach() {
           onStart={() => startSession(setupMode)}
         />
       )}
-      {mounted && !saved.system.onboardingComplete && view !== "quiz" && <Onboarding activeExam={saved.activeExam} examDate={saved.examDate} onComplete={({ activeExam, examDate, completedChapterIds }) => setSaved((currentSaved) => ({ ...currentSaved, activeExam, examDate, system: { ...currentSaved.system, onboardingComplete: true, completedChapterIds } }))} />}
+      {mounted && !saved.system.onboardingComplete && view !== "quiz" && <Onboarding activeExam={saved.activeExam} examDate={saved.examDate} completedChapterIds={saved.system.completedChapterIds} onComplete={({ activeExam, examDate, completedChapterIds }) => setSaved((currentSaved) => ({ ...currentSaved, activeExam, examDate, system: { ...currentSaved.system, onboardingComplete: true, completedChapterIds } }))} />}
       <nav className="mobile-study-nav" aria-label="Mobile study navigation"><button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard /><span>Today</span></button><button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion /><span>Practice</span></button><button className={view === "mastery" ? "active" : ""} onClick={() => navigate("mastery")}><Target /><span>Mastery</span></button><button className={view === "notebook" ? "active" : ""} onClick={() => navigate("notebook")}><BookOpenCheck /><span>Notebook</span></button><button onClick={() => setSearchOpen(true)}><Search /><span>Search</span></button></nav>
     </div>
   );
@@ -1493,7 +1493,7 @@ function StudyDashboard({
         <div className="system-launch-grid"><button onClick={() => onOpen("mastery")}><Target /><span><strong>Chapter mastery map</strong><small>Strong, developing, weak, or needs evidence</small></span><ArrowRight /></button><button onClick={() => onOpen("notebook")}><BookOpenCheck /><span><strong>My Study Notebook</strong><small>{Object.keys(saved.system.notebook).length} saved resources and notes</small></span><ArrowRight /></button><button onClick={() => onOpen("standards")}><ShieldCheck /><span><strong>OSHA Standards Explorer</strong><small>Rules, key numbers, definitions, and connections</small></span><ArrowRight /></button></div>
       </section>
 
-      <section className="page-width timeline-card"><div className="section-heading"><div><p className="eyebrow">Exam countdown</p><h2>Your study timeline</h2></div>{saved.examDate && <button className="text-button" onClick={() => onSystem({ ...saved.system, onboardingComplete: false })}>Change setup</button>}</div><ExamTimeline examDate={saved.examDate} completedChapters={saved.system.completedChapterIds.length} /></section>
+      <section className="page-width timeline-card"><div className="section-heading"><div><p className="eyebrow">Exam countdown</p><h2>Your study timeline</h2></div><button className="text-button" onClick={() => onSystem({ ...saved.system, onboardingComplete: false })}>Change setup</button></div><ExamTimeline examDate={saved.examDate} completedChapters={saved.system.completedChapterIds.length} /></section>
 
       <section className="page-width"><MistakeInsight system={saved.system} /></section>
 
