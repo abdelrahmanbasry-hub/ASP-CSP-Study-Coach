@@ -1,0 +1,2039 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-19-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-19",
+  "chapterTitle": "Training, Education, and Communication",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH19-001",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "training needs analysis",
+      "itemFamilyId": "PV2-CORE-CH19-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A department has repeated errors because a production target conflicts with the written safe procedure. Management requests refresher training. What should the safety professional do first?",
+      "options": [
+        "Determine whether the performance gap is caused by knowledge, incentives, resources, supervision, or process design before prescribing training",
+        "Deliver the same refresher course immediately because every performance problem is a training problem",
+        "Rewrite the attendance roster so prior training appears current",
+        "Discipline all employees before examining the conflicting production system"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Training is appropriate for a knowledge or skill gap, but it cannot by itself correct conflicting systems, incentives, equipment, or supervision. A performance analysis comes first.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Deliver the same refresher course immediately because every performance problem is a training problem' does not apply the controlling principle for training needs analysis to the facts given, so it is not the best answer.",
+        "The option 'Rewrite the attendance roster so prior training appears current' does not apply the controlling principle for training needs analysis to the facts given, so it is not the best answer.",
+        "The option 'Discipline all employees before examining the conflicting production system' does not apply the controlling principle for training needs analysis to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: training needs analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4581e7c5e657fea80fb660c25db55a8308df8afba78cacb798581cf021997e52"
+    },
+    {
+      "id": "PV2-CORE-CH19-002",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "measurable learning objectives",
+      "itemFamilyId": "PV2-CORE-CH19-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During design of a lockout/tagout practical exercise, which objective is written in observable and measurable performance terms?",
+      "options": [
+        "The employee will demonstrate a strong general understanding of lockout/tagout after the session",
+        "Given the machine-specific procedure and equipment, the employee will isolate all listed energy sources and verify zero energy without omitting a required step",
+        "The instructor will cover hazardous-energy concepts for one hour and document attendance",
+        "Employees will express appreciation for lockout/tagout and the importance of following safety procedures"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A useful objective identifies the audience, observable behavior, conditions, and acceptable performance standard; vague words such as understand or appreciate are difficult to evaluate.",
+      "incorrectOptionExplanations": [
+        "The option 'The employee will demonstrate a strong general understanding of lockout/tagout after the session' does not apply the controlling principle for measurable learning objectives to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The instructor will cover hazardous-energy concepts for one hour and document attendance' does not apply the controlling principle for measurable learning objectives to the facts given, so it is not the best answer.",
+        "The option 'Employees will express appreciation for lockout/tagout and the importance of following safety procedures' does not apply the controlling principle for measurable learning objectives to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: measurable learning objectives",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1208e9f7e5d8782801e573954f330d88afedc33103b4468686e69adfc23c473d"
+    },
+    {
+      "id": "PV2-CORE-CH19-003",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.06",
+          "role": "primary"
+        }
+      ],
+      "concept": "adult learning and relevance",
+      "itemFamilyId": "PV2-CORE-CH19-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Experienced maintenance employees disengage from a lecture that repeats definitions they already know. Which redesign best uses adult-learning principles?",
+      "options": [
+        "Use examples from an unrelated industry to prevent employees from relying on experience",
+        "Remove all hands-on practice so the course can finish earlier",
+        "Use realistic problems from their work, invite relevant experience, practice decisions, and provide immediate feedback tied to job performance",
+        "Increase the number of text-heavy slides and prohibit questions"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Adult learners benefit from relevant, problem-centered instruction that respects experience, allows active practice, and connects learning to immediate work needs.",
+      "incorrectOptionExplanations": [
+        "The option 'Use examples from an unrelated industry to prevent employees from relying on experience' does not apply the controlling principle for adult learning and relevance to the facts given, so it is not the best answer.",
+        "The option 'Remove all hands-on practice so the course can finish earlier' does not apply the controlling principle for adult learning and relevance to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Increase the number of text-heavy slides and prohibit questions' does not apply the controlling principle for adult learning and relevance to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: adult learning and relevance",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "22e34119e1ee6cd5b84abd703477af77b0df114cdbbcfeea9cf74ff7391593ef"
+    },
+    {
+      "id": "PV2-CORE-CH19-004",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "competency verification",
+      "itemFamilyId": "PV2-CORE-CH19-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Employees pass an online quiz on forklift rules, but supervisors observe unsafe load handling. What is the strongest competency measure?",
+      "options": [
+        "Treat the quiz score as proof of operating competence",
+        "Repeat the same quiz until every employee selects the correct answers",
+        "Measure course satisfaction only because workers liked the online format",
+        "Evaluate practical performance in the actual or representative work setting and provide coaching or retraining based on observed gaps"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Knowledge tests do not establish task competence. Performance-based evaluation is needed when the objective is safe equipment operation.",
+      "incorrectOptionExplanations": [
+        "The option 'Treat the quiz score as proof of operating competence' does not apply the controlling principle for competency verification to the facts given, so it is not the best answer.",
+        "The option 'Repeat the same quiz until every employee selects the correct answers' does not apply the controlling principle for competency verification to the facts given, so it is not the best answer.",
+        "The option 'Measure course satisfaction only because workers liked the online format' does not apply the controlling principle for competency verification to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: competency verification",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4ae693cdd63092dd65898f021cf1b09d636bd76ed75ac2d4b224427f78b665c1"
+    },
+    {
+      "id": "PV2-CORE-CH19-005",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "training transfer",
+      "itemFamilyId": "PV2-CORE-CH19-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Post-course test scores are high, yet field inspections show no change in behavior. Which evaluation question is most important?",
+      "options": [
+        "Whether workplace conditions, supervision, reinforcement, and opportunity support application of the trained behavior",
+        "Whether participants received printed certificates immediately",
+        "Whether the instructor used the organization’s preferred slide template",
+        "Whether the training room temperature was comfortable"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Transfer depends on more than learning. The work system must enable, reinforce, and monitor application of the desired behavior.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Whether participants received printed certificates immediately' does not apply the controlling principle for training transfer to the facts given, so it is not the best answer.",
+        "The option 'Whether the instructor used the organization’s preferred slide template' does not apply the controlling principle for training transfer to the facts given, so it is not the best answer.",
+        "The option 'Whether the training room temperature was comfortable' does not apply the controlling principle for training transfer to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: training transfer",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b57ef0dd8c352f99b2876e670b156f34297bb6ea8b6f038eff897338feea864e"
+    },
+    {
+      "id": "PV2-CORE-CH19-006",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "language and literacy",
+      "itemFamilyId": "PV2-CORE-CH19-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A workforce includes employees with limited English literacy who perform a high-hazard task. What is the best training approach?",
+      "options": [
+        "Provide the English procedure only and obtain signatures",
+        "Provide instruction in language and vocabulary employees understand, use demonstrations and practice, and verify comprehension through performance",
+        "Use technical terminology without visuals so the content remains professional",
+        "Ask bilingual coworkers to translate informally without checking accuracy or understanding"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Training must be understandable to the audience. Demonstration, plain language, qualified language support, and performance verification reduce reliance on signatures or assumptions.",
+      "incorrectOptionExplanations": [
+        "The option 'Provide the English procedure only and obtain signatures' does not apply the controlling principle for language and literacy to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use technical terminology without visuals so the content remains professional' does not apply the controlling principle for language and literacy to the facts given, so it is not the best answer.",
+        "The option 'Ask bilingual coworkers to translate informally without checking accuracy or understanding' does not apply the controlling principle for language and literacy to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: language and literacy",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e32d3c5a59b1c2365a88a407910782357e339a729bccd53b369898ca6a805e53"
+    },
+    {
+      "id": "PV2-CORE-CH19-007",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "refresher training decision",
+      "itemFamilyId": "PV2-CORE-CH19-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A new process changes several critical steps, although the job title and equipment name remain the same. Should employees be retrained?",
+      "options": [
+        "Email the new procedure and assume receipt equals competence",
+        "No; retraining is unnecessary because the job title did not change",
+        "Yes; provide training on changed hazards and procedures before employees perform the modified work and verify competence",
+        "Wait until an incident demonstrates that employees misunderstood the change"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Material changes in hazards, equipment, or procedures can create a training need even when job titles remain unchanged. Information receipt is not performance verification.",
+      "incorrectOptionExplanations": [
+        "The option 'Email the new procedure and assume receipt equals competence' does not apply the controlling principle for refresher training decision to the facts given, so it is not the best answer.",
+        "The option 'No; retraining is unnecessary because the job title did not change' does not apply the controlling principle for refresher training decision to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Wait until an incident demonstrates that employees misunderstood the change' does not apply the controlling principle for refresher training decision to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: refresher training decision",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e132b4c6606a83cafdd3503f772753c29686308e42975b652de1a5a1c80b1e73"
+    },
+    {
+      "id": "PV2-CORE-CH19-008",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.03",
+          "role": "primary"
+        }
+      ],
+      "concept": "course evaluation levels",
+      "itemFamilyId": "PV2-CORE-CH19-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A course receives excellent participant satisfaction scores, but the organization wants to know whether injury-producing behaviors changed. What additional evidence is needed?",
+      "options": [
+        "More satisfaction questions about refreshments and room layout",
+        "A longer final exam using the same recall questions",
+        "The number of slides presented per training hour",
+        "Observation and performance data showing whether trained behaviors are applied on the job and produce intended outcomes"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Reaction data address learner satisfaction, not behavior transfer or results. Field performance and outcome measures are needed for the stated evaluation question.",
+      "incorrectOptionExplanations": [
+        "The option 'More satisfaction questions about refreshments and room layout' does not apply the controlling principle for course evaluation levels to the facts given, so it is not the best answer.",
+        "The option 'A longer final exam using the same recall questions' does not apply the controlling principle for course evaluation levels to the facts given, so it is not the best answer.",
+        "The option 'The number of slides presented per training hour' does not apply the controlling principle for course evaluation levels to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: course evaluation levels",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "af9e5535bd35f033c1becb663bbba74fa0061f0b60bac6567acb3e68781fc639"
+    },
+    {
+      "id": "PV2-CORE-CH19-009",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "training needs analysis",
+      "itemFamilyId": "PV2-CORE-CH19-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a competency verification review, the team reviews this case: A department has repeated errors because a production target conflicts with the written safe procedure. Management requests refresher training. What should the safety professional do first? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Training is appropriate for a knowledge or skill gap, but it cannot by itself correct conflicting systems, incentives, equipment, or supervision. A performance analysis comes first.",
+        "Reaction data address learner satisfaction, not behavior transfer or results. Field performance and outcome measures are needed for the stated evaluation question.",
+        "Transfer depends on more than learning. The work system must enable, reinforce, and monitor application of the desired behavior.",
+        "Knowledge tests do not establish task competence. Performance-based evaluation is needed when the objective is safe equipment operation."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses training needs analysis and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'course evaluation levels', but it does not resolve the training needs analysis issue in this case.",
+        "This rationale supports the separate chapter topic 'training transfer', but it does not resolve the training needs analysis issue in this case.",
+        "This rationale supports the separate chapter topic 'competency verification', but it does not resolve the training needs analysis issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: training needs analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "46a7ff6540ae7cc27fba950519b79d8c296b00a8ee4d09528165e448d8465005"
+    },
+    {
+      "id": "PV2-CORE-CH19-010",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "measurable learning objectives",
+      "itemFamilyId": "PV2-CORE-CH19-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a multilingual workforce briefing, the team reviews this case: During design of a lockout/tagout practical exercise, which objective is written in observable and measurable performance terms? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Material changes in hazards, equipment, or procedures can create a training need even when job titles remain unchanged. Information receipt is not performance verification.",
+        "A useful objective identifies the audience, observable behavior, conditions, and acceptable performance standard; vague words such as understand or appreciate are difficult to evaluate.",
+        "Transfer depends on more than learning. The work system must enable, reinforce, and monitor application of the desired behavior.",
+        "Knowledge tests do not establish task competence. Performance-based evaluation is needed when the objective is safe equipment operation."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses measurable learning objectives and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'refresher training decision', but it does not resolve the measurable learning objectives issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'training transfer', but it does not resolve the measurable learning objectives issue in this case.",
+        "This rationale supports the separate chapter topic 'competency verification', but it does not resolve the measurable learning objectives issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: measurable learning objectives",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9652f8dae33b2d86548a99686e917d66cb841d334ccae6d95d8284978f70cc54"
+    },
+    {
+      "id": "PV2-CORE-CH19-011",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.06",
+          "role": "primary"
+        }
+      ],
+      "concept": "adult learning and relevance",
+      "itemFamilyId": "PV2-CORE-CH19-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a refresher-training decision, the team reviews this case: Experienced maintenance employees disengage from a lecture that repeats definitions they already know. Which redesign best uses adult-learning principles? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Material changes in hazards, equipment, or procedures can create a training need even when job titles remain unchanged. Information receipt is not performance verification.",
+        "Transfer depends on more than learning. The work system must enable, reinforce, and monitor application of the desired behavior.",
+        "Adult learners benefit from relevant, problem-centered instruction that respects experience, allows active practice, and connects learning to immediate work needs.",
+        "Knowledge tests do not establish task competence. Performance-based evaluation is needed when the objective is safe equipment operation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses adult learning and relevance and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'refresher training decision', but it does not resolve the adult learning and relevance issue in this case.",
+        "This rationale supports the separate chapter topic 'training transfer', but it does not resolve the adult learning and relevance issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'competency verification', but it does not resolve the adult learning and relevance issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: adult learning and relevance",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1cc69fce44733c21f353e44ad6dbc62b54af0e7305c85be3d0e5de7d1abe4eec"
+    },
+    {
+      "id": "PV2-CORE-CH19-012",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "competency verification",
+      "itemFamilyId": "PV2-CORE-CH19-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an adult-learning evaluation, the team reviews this case: Employees pass an online quiz on forklift rules, but supervisors observe unsafe load handling. What is the strongest competency measure? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Adult learners benefit from relevant, problem-centered instruction that respects experience, allows active practice, and connects learning to immediate work needs.",
+        "Material changes in hazards, equipment, or procedures can create a training need even when job titles remain unchanged. Information receipt is not performance verification.",
+        "Transfer depends on more than learning. The work system must enable, reinforce, and monitor application of the desired behavior.",
+        "Knowledge tests do not establish task competence. Performance-based evaluation is needed when the objective is safe equipment operation."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses competency verification and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'adult learning and relevance', but it does not resolve the competency verification issue in this case.",
+        "This rationale supports the separate chapter topic 'refresher training decision', but it does not resolve the competency verification issue in this case.",
+        "This rationale supports the separate chapter topic 'training transfer', but it does not resolve the competency verification issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: competency verification",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a29909221aec9d0a23d9015963e6249f432f0204da9a20d49d909e0ba6d718fe"
+    },
+    {
+      "id": "PV2-CORE-CH19-013",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "training transfer",
+      "itemFamilyId": "PV2-CORE-CH19-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a toolbox-talk redesign, the team reviews this case: Post-course test scores are high, yet field inspections show no change in behavior. Which evaluation question is most important? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Transfer depends on more than learning. The work system must enable, reinforce, and monitor application of the desired behavior.",
+        "Training is appropriate for a knowledge or skill gap, but it cannot by itself correct conflicting systems, incentives, equipment, or supervision. A performance analysis comes first.",
+        "Reaction data address learner satisfaction, not behavior transfer or results. Field performance and outcome measures are needed for the stated evaluation question.",
+        "Adult learners benefit from relevant, problem-centered instruction that respects experience, allows active practice, and connects learning to immediate work needs."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses training transfer and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'training needs analysis', but it does not resolve the training transfer issue in this case.",
+        "This rationale supports the separate chapter topic 'course evaluation levels', but it does not resolve the training transfer issue in this case.",
+        "This rationale supports the separate chapter topic 'adult learning and relevance', but it does not resolve the training transfer issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: training transfer",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4e34d95801b7135d7d6cd8a43c8654d90c01d4fd3a1e04604c1e47da1d969e5b"
+    },
+    {
+      "id": "PV2-CORE-CH19-014",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "language and literacy",
+      "itemFamilyId": "PV2-CORE-CH19-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a post-training transfer assessment, the team reviews this case: A workforce includes employees with limited English literacy who perform a high-hazard task. What is the best training approach? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Reaction data address learner satisfaction, not behavior transfer or results. Field performance and outcome measures are needed for the stated evaluation question.",
+        "Training must be understandable to the audience. Demonstration, plain language, qualified language support, and performance verification reduce reliance on signatures or assumptions.",
+        "Transfer depends on more than learning. The work system must enable, reinforce, and monitor application of the desired behavior.",
+        "Material changes in hazards, equipment, or procedures can create a training need even when job titles remain unchanged. Information receipt is not performance verification."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses language and literacy and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'course evaluation levels', but it does not resolve the language and literacy issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'training transfer', but it does not resolve the language and literacy issue in this case.",
+        "This rationale supports the separate chapter topic 'refresher training decision', but it does not resolve the language and literacy issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: language and literacy",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f12b20ae6c09891b9831b2c09f351213790ecc242a47a61eeb4c6e30324be99b"
+    },
+    {
+      "id": "PV2-CORE-CH19-015",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "refresher training decision",
+      "itemFamilyId": "PV2-CORE-CH19-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a training-needs analysis, the team reviews this case: A new process changes several critical steps, although the job title and equipment name remain the same. Should employees be retrained? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Training must be understandable to the audience. Demonstration, plain language, qualified language support, and performance verification reduce reliance on signatures or assumptions.",
+        "Adult learners benefit from relevant, problem-centered instruction that respects experience, allows active practice, and connects learning to immediate work needs.",
+        "Material changes in hazards, equipment, or procedures can create a training need even when job titles remain unchanged. Information receipt is not performance verification.",
+        "Knowledge tests do not establish task competence. Performance-based evaluation is needed when the objective is safe equipment operation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses refresher training decision and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'language and literacy', but it does not resolve the refresher training decision issue in this case.",
+        "This rationale supports the separate chapter topic 'adult learning and relevance', but it does not resolve the refresher training decision issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'competency verification', but it does not resolve the refresher training decision issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: refresher training decision",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2514ce6ceee9b75601ac1a2788b279862a2c3d48e3e6ce59b69f0fd5cbd106bd"
+    },
+    {
+      "id": "PV2-CORE-CH19-016",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.03",
+          "role": "primary"
+        }
+      ],
+      "concept": "course evaluation levels",
+      "itemFamilyId": "PV2-CORE-CH19-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a new-hire curriculum design, the team reviews this case: A course receives excellent participant satisfaction scores, but the organization wants to know whether injury-producing behaviors changed. What additional evidence is needed? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A useful objective identifies the audience, observable behavior, conditions, and acceptable performance standard; vague words such as understand or appreciate are difficult to evaluate.",
+        "Transfer depends on more than learning. The work system must enable, reinforce, and monitor application of the desired behavior.",
+        "Adult learners benefit from relevant, problem-centered instruction that respects experience, allows active practice, and connects learning to immediate work needs.",
+        "Reaction data address learner satisfaction, not behavior transfer or results. Field performance and outcome measures are needed for the stated evaluation question."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses course evaluation levels and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'measurable learning objectives', but it does not resolve the course evaluation levels issue in this case.",
+        "This rationale supports the separate chapter topic 'training transfer', but it does not resolve the course evaluation levels issue in this case.",
+        "This rationale supports the separate chapter topic 'adult learning and relevance', but it does not resolve the course evaluation levels issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: course evaluation levels",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "92f822fe5fa1b7b48e60b714d47c52068d0edc30d4fb450f6f4284c48225d323"
+    },
+    {
+      "id": "PV2-CORE-CH19-017",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.06",
+          "role": "primary"
+        }
+      ],
+      "concept": "Adult learner relevance and experience",
+      "itemFamilyId": "PV2-CORE-CH19-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a new-hire curriculum design, the team reviews this question: Experienced technicians disengage during a generic lockout lecture because it ignores their equipment and prior experience. Which redesign best applies adult-learning principles? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Adult learners are practical, relevance-oriented, self-directed, and bring experience. Job-specific cases and meaningful practice connect the material to their responsibilities.",
+        "Structured OJT is planned and consistent, with defined content, competent instruction, learner practice, feedback, and evaluation against a standard.",
+        "ADDIE proceeds from Analysis to Design, then Development, Implementation, and Evaluation. Design translates the analyzed need into an instructional plan.",
+        "Training needs are based on the difference between required performance and current competency. Establishing both creates a defensible baseline for design."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Structured on-the-job training', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'ADDIE sequence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Baseline competency', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Principles of Adult Learning, pp. 483-485; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e5a2d7fbf0d43facf168985b96813a64df4319561792f420e6e2f767fae617df"
+    },
+    {
+      "id": "PV2-CORE-CH19-018",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Training versus non-training solutions",
+      "itemFamilyId": "PV2-CORE-CH19-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a competency verification review, the team reviews this question: Operators understand a machine hazard and the required safe method, but the guard has been removed and no replacement is available. What is the best response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A needs assessment should identify actual performance requirements and gaps using multiple relevant data sources rather than starting with a delivery method or course catalog.",
+        "Training cannot correct a missing engineering control. The needs analysis should distinguish lack of knowledge or skill from equipment, process, resource, or management deficiencies.",
+        "Delivery method follows the analyzed need and learning objective. CBT can be effective, but some skills require demonstration, coaching, interaction, or hands-on verification.",
+        "Training effectiveness includes application on the job. Improved knowledge with poor transfer signals that additional barriers or design weaknesses must be identified and corrected."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Needs-assessment evidence', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Computer-based training selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Training transfer and workplace effectiveness', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Training Needs Analysis, pp. 488-490; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "65e26e3b428e33e9e919b6005a2a9a28f3a36bd961a3ffe448f7a6d80d954542"
+    },
+    {
+      "id": "PV2-CORE-CH19-019",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Needs-assessment evidence",
+      "itemFamilyId": "PV2-CORE-CH19-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a multilingual workforce briefing, the team reviews this question: A safety professional is assessing whether forklift refresher training is needed. Which evidence set provides the strongest basis for the decision? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Training cannot correct a missing engineering control. The needs analysis should distinguish lack of knowledge or skill from equipment, process, resource, or management deficiencies.",
+        "Training effectiveness includes application on the job. Improved knowledge with poor transfer signals that additional barriers or design weaknesses must be identified and corrected.",
+        "A needs assessment should identify actual performance requirements and gaps using multiple relevant data sources rather than starting with a delivery method or course catalog.",
+        "Training needs are based on the difference between required performance and current competency. Establishing both creates a defensible baseline for design."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Training versus non-training solutions', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Training transfer and workplace effectiveness', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Baseline competency', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Training Needs Analysis and techniques, pp. 488-490; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6def82fcd6e716450ab9ac49625724161a5dda7356227213ffed335378b66cc6"
+    },
+    {
+      "id": "PV2-CORE-CH19-020",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Baseline competency",
+      "itemFamilyId": "PV2-CORE-CH19-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a refresher-training decision, the team reviews this question: Before designing confined-space attendant training, what should the developer establish first to define the performance gap? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Adult learners are practical, relevance-oriented, self-directed, and bring experience. Job-specific cases and meaningful practice connect the material to their responsibilities.",
+        "ADDIE proceeds from Analysis to Design, then Development, Implementation, and Evaluation. Design translates the analyzed need into an instructional plan.",
+        "Continuous improvement uses evidence to target the weak part of the instructional system, implement a change, and measure whether performance improves.",
+        "Training needs are based on the difference between required performance and current competency. Establishing both creates a defensible baseline for design."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Adult learner relevance and experience', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'ADDIE sequence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Continuous improvement of training', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Training Needs Analysis and program development, pp. 488-490; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2cc5f30b1a06031bff6a627f43e9f0d916aba7609d29159862aa61a84d364d6d"
+    },
+    {
+      "id": "PV2-CORE-CH19-021",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "Measurable performance objectives",
+      "itemFamilyId": "PV2-CORE-CH19-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an adult-learning evaluation, the team reviews this question: Which learning objective is the most measurable and complete for a respirator inspection lesson? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The objective identifies the audience, observable behavior, conditions, and performance standard. It can be directly assessed by demonstration.",
+        "The assessment must directly measure the stated performance. A criterion-based demonstration provides stronger evidence than recall, reaction, or attendance.",
+        "A physical performance objective requires demonstration, practice, feedback, and direct verification that each learner can perform the task.",
+        "Structured OJT is planned and consistent, with defined content, competent instruction, learner practice, feedback, and evaluation against a standard."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Posttest alignment with objectives', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Delivery method aligned to objective', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Structured on-the-job training', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Written Performance Objectives, pp. 490-491; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f3e7e716669796c46295875827a20c4fc27987aee47349c416d6051f77c13ed3"
+    },
+    {
+      "id": "PV2-CORE-CH19-022",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "ADDIE sequence",
+      "itemFamilyId": "PV2-CORE-CH19-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a toolbox-talk redesign, the team reviews this question: During ADDIE analysis, a team identifies the learners, job tasks, existing gaps, constraints, and required outcomes. What is the next phase? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Structured OJT is planned and consistent, with defined content, competent instruction, learner practice, feedback, and evaluation against a standard.",
+        "ADDIE proceeds from Analysis to Design, then Development, Implementation, and Evaluation. Design translates the analyzed need into an instructional plan.",
+        "Adult learners are practical, relevance-oriented, self-directed, and bring experience. Job-specific cases and meaningful practice connect the material to their responsibilities.",
+        "Training needs are based on the difference between required performance and current competency. Establishing both creates a defensible baseline for design."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Structured on-the-job training', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Adult learner relevance and experience', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Baseline competency', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, ADDIE System of Training, pp. 485-486; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4aa59ff5a1f1af0b850bc021c41f42d74d64913e59c14c7864b029c78f6c0daf"
+    },
+    {
+      "id": "PV2-CORE-CH19-023",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "Delivery method aligned to objective",
+      "itemFamilyId": "PV2-CORE-CH19-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a post-training transfer assessment, the team reviews this question: Workers must learn to inspect, fit, and climb with a new fall-arrest harness. Which delivery approach best matches the performance objective? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The assessment must directly measure the stated performance. A criterion-based demonstration provides stronger evidence than recall, reaction, or attendance.",
+        "The objective identifies the audience, observable behavior, conditions, and performance standard. It can be directly assessed by demonstration.",
+        "A physical performance objective requires demonstration, practice, feedback, and direct verification that each learner can perform the task.",
+        "A pretest provides a baseline before instruction. It can identify starting knowledge and support comparison with later assessments."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Posttest alignment with objectives', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Measurable performance objectives', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Purpose of a pretest', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Delivery Methods and selection of training delivery method, pp. 487-491; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "319d47ba7a23a65aafc3e448a6248852784d364ac056508381a251d249a04564"
+    },
+    {
+      "id": "PV2-CORE-CH19-024",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "Structured on-the-job training",
+      "itemFamilyId": "PV2-CORE-CH19-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a training-needs analysis, the team reviews this question: Which arrangement best distinguishes structured on-the-job training from informal job shadowing? Which rationale most directly supports the correct answer?",
+      "options": [
+        "ADDIE proceeds from Analysis to Design, then Development, Implementation, and Evaluation. Design translates the analyzed need into an instructional plan.",
+        "The assessment must directly measure the stated performance. A criterion-based demonstration provides stronger evidence than recall, reaction, or attendance.",
+        "Adult learners are practical, relevance-oriented, self-directed, and bring experience. Job-specific cases and meaningful practice connect the material to their responsibilities.",
+        "Structured OJT is planned and consistent, with defined content, competent instruction, learner practice, feedback, and evaluation against a standard."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'ADDIE sequence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Posttest alignment with objectives', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Adult learner relevance and experience', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Structured On-the-Job Training, pp. 487-488; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bf8f31fbfb7583ff55e78ca8f39d0d5947b7e42406c0d4f6337ad33c714fc302"
+    },
+    {
+      "id": "PV2-CORE-CH19-025",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "Computer-based training selection",
+      "itemFamilyId": "PV2-CORE-CH19-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a new-hire curriculum design, the team reviews this question: A company wants to replace every safety course with computer-based training because it is inexpensive. What is the strongest response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Delivery method follows the analyzed need and learning objective. CBT can be effective, but some skills require demonstration, coaching, interaction, or hands-on verification.",
+        "Training cannot correct a missing engineering control. The needs analysis should distinguish lack of knowledge or skill from equipment, process, resource, or management deficiencies.",
+        "Training effectiveness includes application on the job. Improved knowledge with poor transfer signals that additional barriers or design weaknesses must be identified and corrected.",
+        "Training needs are based on the difference between required performance and current competency. Establishing both creates a defensible baseline for design."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Training versus non-training solutions', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Training transfer and workplace effectiveness', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Baseline competency', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Self-Paced Learning and delivery-method selection, pp. 487-491; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "42323efbd653a85520e02ccef62538a6fa862aa3de5c46ef3b196f8d9f1751de"
+    },
+    {
+      "id": "PV2-CORE-CH19-026",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "Purpose of a pretest",
+      "itemFamilyId": "PV2-CORE-CH19-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a competency verification review, the team reviews this question: What is the primary instructional purpose of a pretest given before a course? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Structured OJT is planned and consistent, with defined content, competent instruction, learner practice, feedback, and evaluation against a standard.",
+        "A pretest provides a baseline before instruction. It can identify starting knowledge and support comparison with later assessments.",
+        "The objective identifies the audience, observable behavior, conditions, and performance standard. It can be directly assessed by demonstration.",
+        "A physical performance objective requires demonstration, practice, feedback, and direct verification that each learner can perform the task."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Structured on-the-job training', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Measurable performance objectives', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Delivery method aligned to objective', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Pretests, p. 492; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0ce60f006f87b5014945cabec555371e5c2ebfb9fe29c65729ef9ab4f3457ee3"
+    },
+    {
+      "id": "PV2-CORE-CH19-027",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "Purpose of review tests",
+      "itemFamilyId": "PV2-CORE-CH19-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a multilingual workforce briefing, the team reviews this question: During a multi-day course, several learners miss the same concept on an end-of-day review quiz. What is the best instructional use of that result? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Training cannot correct a missing engineering control. The needs analysis should distinguish lack of knowledge or skill from equipment, process, resource, or management deficiencies.",
+        "Training effectiveness includes application on the job. Improved knowledge with poor transfer signals that additional barriers or design weaknesses must be identified and corrected.",
+        "Review tests provide formative feedback to learners and instructors. A common miss signals a need to clarify, reteach, or add practice before later content builds on it.",
+        "A needs assessment should identify actual performance requirements and gaps using multiple relevant data sources rather than starting with a delivery method or course catalog."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Training versus non-training solutions', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Training transfer and workplace effectiveness', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Needs-assessment evidence', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Review Tests, p. 492; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "22268bfc2e883eff257e2420e36d38586eb7094e6d5262ebc548a0eec48b3c73"
+    },
+    {
+      "id": "PV2-CORE-CH19-028",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "Posttest alignment with objectives",
+      "itemFamilyId": "PV2-CORE-CH19-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a refresher-training decision, the team reviews this question: A course objective requires employees to demonstrate correct spill-kit deployment. Which posttest provides the strongest evidence that the objective was achieved? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Structured OJT is planned and consistent, with defined content, competent instruction, learner practice, feedback, and evaluation against a standard.",
+        "The objective identifies the audience, observable behavior, conditions, and performance standard. It can be directly assessed by demonstration.",
+        "A physical performance objective requires demonstration, practice, feedback, and direct verification that each learner can perform the task.",
+        "The assessment must directly measure the stated performance. A criterion-based demonstration provides stronger evidence than recall, reaction, or attendance."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Structured on-the-job training', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Measurable performance objectives', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Delivery method aligned to objective', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Posttests and performance objectives, pp. 490-492; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8ce3c5e9bae7084104f44ac6bd7036f748e983917955e0d849f6ba3335203d13"
+    },
+    {
+      "id": "PV2-CORE-CH19-029",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.04",
+          "role": "primary"
+        }
+      ],
+      "concept": "Training transfer and workplace effectiveness",
+      "itemFamilyId": "PV2-CORE-CH19-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an adult-learning evaluation, the team reviews this question: Posttest scores improved after line-breaking training, but field observations show workers still omit verification steps. What is the best conclusion? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Training effectiveness includes application on the job. Improved knowledge with poor transfer signals that additional barriers or design weaknesses must be identified and corrected.",
+        "Delivery method follows the analyzed need and learning objective. CBT can be effective, but some skills require demonstration, coaching, interaction, or hands-on verification.",
+        "A needs assessment should identify actual performance requirements and gaps using multiple relevant data sources rather than starting with a delivery method or course catalog.",
+        "Training cannot correct a missing engineering control. The needs analysis should distinguish lack of knowledge or skill from equipment, process, resource, or management deficiencies."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Computer-based training selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Needs-assessment evidence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Training versus non-training solutions', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Testing and Evaluation and training-program evaluation, pp. 486 and 492; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4bc5c467060e03e9cc2ff8aa1663dfe492fd4316fc836cc59a0a38a6c7d3ad3b"
+    },
+    {
+      "id": "PV2-CORE-CH19-030",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "Practice and feedback in course materials",
+      "itemFamilyId": "PV2-CORE-CH19-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a toolbox-talk redesign, the team reviews this question: A lesson introduces a complex inspection checklist. Which sequence is most likely to build usable skill? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Structured OJT is planned and consistent, with defined content, competent instruction, learner practice, feedback, and evaluation against a standard.",
+        "Effective materials and instruction connect introduction and presentation with practice, feedback, summary, and evaluation.",
+        "A physical performance objective requires demonstration, practice, feedback, and direct verification that each learner can perform the task.",
+        "A pretest provides a baseline before instruction. It can identify starting knowledge and support comparison with later assessments."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Structured on-the-job training', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Delivery method aligned to objective', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Purpose of a pretest', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Development of Course Materials, pp. 491-492; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8628ec09b44c5ff3753f924c408d73c408340b0d4e8fc010c9ea7c6289fdcbfe"
+    },
+    {
+      "id": "PV2-CORE-CH19-031",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "Large-group presentation design",
+      "itemFamilyId": "PV2-CORE-CH19-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a post-training transfer assessment, the team reviews this question: A company president will address 400 employees about major safety goals and performance trends. Which presentation design is most appropriate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Continuous improvement uses evidence to target the weak part of the instructional system, implement a change, and measure whether performance improves.",
+        "Delivery method follows the analyzed need and learning objective. CBT can be effective, but some skills require demonstration, coaching, interaction, or hands-on verification.",
+        "A large audience benefits from clear speaker leadership, legible visuals, selective media, and concise presentation of important trends rather than data overload.",
+        "Training needs are based on the difference between required performance and current competency. Establishing both creates a defensible baseline for design."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Continuous improvement of training', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Computer-based training selection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Baseline competency', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, Instructor-Led Training, media presentations, PowerPoint, and charts, pp. 487 and 492-494; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "863456442f9e13cb7f957b884d94572fa7b0544eb148add9aebdc25ba5c201c2"
+    },
+    {
+      "id": "PV2-CORE-CH19-032",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.03",
+          "role": "primary"
+        }
+      ],
+      "concept": "Continuous improvement of training",
+      "itemFamilyId": "PV2-CORE-CH19-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a training-needs analysis, the team reviews this question: Evaluation shows strong knowledge scores, uneven hands-on performance, and repeated errors on one task step. What is the best continuous-improvement action? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Training needs are based on the difference between required performance and current competency. Establishing both creates a defensible baseline for design.",
+        "Delivery method follows the analyzed need and learning objective. CBT can be effective, but some skills require demonstration, coaching, interaction, or hands-on verification.",
+        "Structured OJT is planned and consistent, with defined content, competent instruction, learner practice, feedback, and evaluation against a standard.",
+        "Continuous improvement uses evidence to target the weak part of the instructional system, implement a change, and measure whether performance improves."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Baseline competency', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Computer-based training selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Structured on-the-job training', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 19, ADDIE evaluation and Testing and Evaluation, pp. 485-486 and 492; Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "177ab173e9154aa6c5d33ce123bec2c95738efa6676e956b276a1603ed297d17"
+    },
+    {
+      "id": "PV2-CORE-CH19-033",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.01",
+          "role": "primary"
+        }
+      ],
+      "concept": "training needs analysis",
+      "itemFamilyId": "PV2-CORE-CH19-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a multilingual workforce briefing, a supervisor proposes: \"Rewrite the attendance roster so prior training appears current\". The underlying case is: A department has repeated errors because a production target conflicts with the written safe procedure. Management requests refresher training. What should the safety professional do first? Which alternative is the most defensible correction?",
+      "options": [
+        "Determine whether the performance gap is caused by knowledge, incentives, resources, supervision, or process design before prescribing training",
+        "Discipline all employees before examining the conflicting production system",
+        "Rewrite the attendance roster so prior training appears current",
+        "Deliver the same refresher course immediately because every performance problem is a training problem"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Training is appropriate for a knowledge or skill gap, but it cannot by itself correct conflicting systems, incentives, equipment, or supervision. A performance analysis comes first.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Discipline all employees before examining the conflicting production system' remains incomplete or misapplies the controlling training needs analysis principle.",
+        "The proposed response 'Rewrite the attendance roster so prior training appears current' remains incomplete or misapplies the controlling training needs analysis principle.",
+        "The proposed response 'Deliver the same refresher course immediately because every performance problem is a training problem' remains incomplete or misapplies the controlling training needs analysis principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: training needs analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8cf590f1affdddc54641333797cd98db9ddeda7d58659f173c429c04c4ead634"
+    },
+    {
+      "id": "PV2-CORE-CH19-034",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "measurable learning objectives",
+      "itemFamilyId": "PV2-CORE-CH19-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a refresher-training decision, a supervisor proposes: \"The employee will demonstrate a strong general understanding of lockout/tagout after the session\". The underlying case is: During design of a lockout/tagout practical exercise, which objective is written in observable and measurable performance terms? Which alternative is the most defensible correction?",
+      "options": [
+        "Employees will express appreciation for lockout/tagout and the importance of following safety procedures",
+        "Given the machine-specific procedure and equipment, the employee will isolate all listed energy sources and verify zero energy without omitting a required step",
+        "The instructor will cover hazardous-energy concepts for one hour and document attendance",
+        "The employee will demonstrate a strong general understanding of lockout/tagout after the session"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A useful objective identifies the audience, observable behavior, conditions, and acceptable performance standard; vague words such as understand or appreciate are difficult to evaluate.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Employees will express appreciation for lockout/tagout and the importance of following safety procedures' remains incomplete or misapplies the controlling measurable learning objectives principle.",
+        null,
+        "The proposed response 'The instructor will cover hazardous-energy concepts for one hour and document attendance' remains incomplete or misapplies the controlling measurable learning objectives principle.",
+        "The proposed response 'The employee will demonstrate a strong general understanding of lockout/tagout after the session' remains incomplete or misapplies the controlling measurable learning objectives principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: measurable learning objectives",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c124626a1b675c6250b8c7d1d002158dd430250ac36c9fbdad41909821d4d3b8"
+    },
+    {
+      "id": "PV2-CORE-CH19-035",
+      "version": 1,
+      "chapterId": "ch-19",
+      "chapterTitle": "Training, Education, and Communication",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D7.06",
+          "role": "primary"
+        }
+      ],
+      "concept": "adult learning and relevance",
+      "itemFamilyId": "PV2-CORE-CH19-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an adult-learning evaluation, a supervisor proposes: \"Remove all hands-on practice so the course can finish earlier\". The underlying case is: Experienced maintenance employees disengage from a lecture that repeats definitions they already know. Which redesign best uses adult-learning principles? Which alternative is the most defensible correction?",
+      "options": [
+        "Use examples from an unrelated industry to prevent employees from relying on experience",
+        "Increase the number of text-heavy slides and prohibit questions",
+        "Use realistic problems from their work, invite relevant experience, practice decisions, and provide immediate feedback tied to job performance",
+        "Remove all hands-on practice so the course can finish earlier"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Adult learners benefit from relevant, problem-centered instruction that respects experience, allows active practice, and connects learning to immediate work needs.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use examples from an unrelated industry to prevent employees from relying on experience' remains incomplete or misapplies the controlling adult learning and relevance principle.",
+        "The proposed response 'Increase the number of text-heavy slides and prohibit questions' remains incomplete or misapplies the controlling adult learning and relevance principle.",
+        null,
+        "The proposed response 'Remove all hands-on practice so the course can finish earlier' remains incomplete or misapplies the controlling adult learning and relevance principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 19, pp. 483-494; OSHA training requirements and adult-learning methods; curated topic: adult learning and relevance",
+      "sourceUrls": [
+        "https://www.osha.gov/sites/default/files/publications/osha2254.pdf",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6691cbbc61d420a130815fcf3a9e098ad22fdd3f9f67a2744fcc76b230402d08"
+    }
+  ]
+}

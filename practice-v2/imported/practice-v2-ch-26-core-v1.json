@@ -1,0 +1,2289 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-26-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-26",
+  "chapterTitle": "Risk Assessment and Management",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH26-001",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazard versus risk",
+      "itemFamilyId": "PV2-CORE-CH26-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A team rates a low-energy office hazard and a high-energy process hazard as equivalent because both are “possible.” What is missing from the comparison?",
+      "options": [
+        "Risk must consider both likelihood and consequence, including exposure and existing controls, not possibility alone",
+        "Only consequence matters because likelihood cannot be estimated",
+        "Only historical injury count matters, even when exposure conditions have changed",
+        "Hazard and risk are identical terms, so no additional comparison is needed"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A hazard is a source of potential harm; risk reflects the combination of consequence and likelihood under defined exposure and control conditions.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Only consequence matters because likelihood cannot be estimated' does not apply the controlling principle for hazard versus risk to the facts given, so it is not the best answer.",
+        "The option 'Only historical injury count matters, even when exposure conditions have changed' does not apply the controlling principle for hazard versus risk to the facts given, so it is not the best answer.",
+        "The option 'Hazard and risk are identical terms, so no additional comparison is needed' does not apply the controlling principle for hazard versus risk to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: hazard versus risk",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2fec775fe8f0b13cfe59381968d36ccaadc9b678e0f93d755867205b938baba5"
+    },
+    {
+      "id": "PV2-CORE-CH26-002",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk matrix limitations",
+      "itemFamilyId": "PV2-CORE-CH26-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A 5-by-5 risk matrix assigns the same score to a frequent minor event and a rare catastrophic event. How should decision makers use the result?",
+      "options": [
+        "Discard consequence information after the matrix score is calculated",
+        "Treat the score as a screening aid and examine consequence, likelihood basis, uncertainty, and risk tolerance separately",
+        "Assume the scenarios are interchangeable because their products are equal",
+        "Rank the frequent minor event higher in every case because frequency dominates"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Ordinal matrix scores can mask materially different risk profiles. They support prioritization but do not replace judgment about catastrophic potential and uncertainty.",
+      "incorrectOptionExplanations": [
+        "The option 'Discard consequence information after the matrix score is calculated' does not apply the controlling principle for risk matrix limitations to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Assume the scenarios are interchangeable because their products are equal' does not apply the controlling principle for risk matrix limitations to the facts given, so it is not the best answer.",
+        "The option 'Rank the frequent minor event higher in every case because frequency dominates' does not apply the controlling principle for risk matrix limitations to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk matrix limitations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dcb77f206dd2f475921b335bed0a861444a19ff377f1ba90f5bee6620131f294"
+    },
+    {
+      "id": "PV2-CORE-CH26-003",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inherent and residual risk",
+      "itemFamilyId": "PV2-CORE-CH26-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A machine has high inherent risk. Interlocked guarding substantially lowers exposure, but bypass remains possible during maintenance. Which risk should be presented for the operating decision?",
+      "options": [
+        "Report zero residual risk because an interlock is installed",
+        "Report only inherent risk and treat installed controls as irrelevant to the decision rating",
+        "Document inherent risk, control effectiveness, residual risk, and maintenance or bypass scenarios rather than reporting only the post-control score",
+        "Exclude maintenance because it is performed less frequently than production"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Decision makers need transparency about pre-control hazard, control assumptions, remaining risk, and nonroutine conditions that may defeat the safeguards.",
+      "incorrectOptionExplanations": [
+        "The option 'Report zero residual risk because an interlock is installed' does not apply the controlling principle for inherent and residual risk to the facts given, so it is not the best answer.",
+        "The option 'Report only inherent risk and treat installed controls as irrelevant to the decision rating' does not apply the controlling principle for inherent and residual risk to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Exclude maintenance because it is performed less frequently than production' does not apply the controlling principle for inherent and residual risk to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: inherent and residual risk",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6ab7e105d020aa6b80cb291f7ada04ab2820ad1b93465693de9e602b4ed173e5"
+    },
+    {
+      "id": "PV2-CORE-CH26-004",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ALARP and gross disproportion",
+      "itemFamilyId": "PV2-CORE-CH26-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A proposed safeguard would materially reduce a credible fatality risk at moderate cost, but management rejects it because the risk is already uncommon. Which ALARP question is most relevant?",
+      "options": [
+        "Whether the risk score can be rounded down to a lower category",
+        "Whether the safeguard is cheaper than every control ever used in the industry",
+        "Whether employees are willing to accept the risk in exchange for a bonus",
+        "Whether the sacrifice in money, time, and trouble is grossly disproportionate to the additional risk reduction"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "ALARP requires reducing risk unless further sacrifice is grossly disproportionate to the benefit; rarity alone does not end the analysis.",
+      "incorrectOptionExplanations": [
+        "The option 'Whether the risk score can be rounded down to a lower category' does not apply the controlling principle for alarp and gross disproportion to the facts given, so it is not the best answer.",
+        "The option 'Whether the safeguard is cheaper than every control ever used in the industry' does not apply the controlling principle for alarp and gross disproportion to the facts given, so it is not the best answer.",
+        "The option 'Whether employees are willing to accept the risk in exchange for a bonus' does not apply the controlling principle for alarp and gross disproportion to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: ALARP and gross disproportion",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9b8b3a3cd65d5303b8ae9e78642f6c4b5bc09b73eb6a339e9e9522c592ed5c64"
+    },
+    {
+      "id": "PV2-CORE-CH26-005",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "bow-tie analysis",
+      "itemFamilyId": "PV2-CORE-CH26-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A bow-tie diagram lists causes of loss of containment on the left and emergency response on the right, but no preventive or mitigative barriers are assigned owners or performance standards. What is missing?",
+      "options": [
+        "Barrier management linking each control to an owner, required performance, verification, and degradation factors",
+        "A single training course identified as every barrier on both sides",
+        "A larger risk matrix placed in the center of the diagram",
+        "Removal of escalation factors because barriers are assumed independent"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A bow-tie becomes actionable when barriers have defined functions, owners, assurance activities, and escalation-factor controls.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'A single training course identified as every barrier on both sides' does not apply the controlling principle for bow-tie analysis to the facts given, so it is not the best answer.",
+        "The option 'A larger risk matrix placed in the center of the diagram' does not apply the controlling principle for bow-tie analysis to the facts given, so it is not the best answer.",
+        "The option 'Removal of escalation factors because barriers are assumed independent' does not apply the controlling principle for bow-tie analysis to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: bow-tie analysis",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9eb34a32914712f6f57b140465a79041d65bebc64a883dfe236d48b34bb41bf9"
+    },
+    {
+      "id": "PV2-CORE-CH26-006",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "quantitative risk uncertainty",
+      "itemFamilyId": "PV2-CORE-CH26-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A quantitative model produces a fatality frequency of 1.2 × 10^-5 per year, but failure data are sparse and assumptions drive the result. What is the best way to present it?",
+      "options": [
+        "Present six decimal places to imply precision",
+        "Report the estimate with uncertainty, sensitivity, assumptions, and alternative scenarios rather than as an exact prediction",
+        "Round it to zero because the number is small",
+        "Suppress the assumptions so nontechnical leaders are not confused"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Quantitative risk estimates are conditional on data and modeling assumptions. Sensitivity and uncertainty are essential to defensible use.",
+      "incorrectOptionExplanations": [
+        "The option 'Present six decimal places to imply precision' does not apply the controlling principle for quantitative risk uncertainty to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Round it to zero because the number is small' does not apply the controlling principle for quantitative risk uncertainty to the facts given, so it is not the best answer.",
+        "The option 'Suppress the assumptions so nontechnical leaders are not confused' does not apply the controlling principle for quantitative risk uncertainty to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: quantitative risk uncertainty",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "65b8bdeddae21a134cdea31ebe999d0c0745d8d9c87083a49c4301d985b51ddc"
+    },
+    {
+      "id": "PV2-CORE-CH26-007",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk treatment hierarchy",
+      "itemFamilyId": "PV2-CORE-CH26-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A risk assessment identifies repeated exposure to a severe pinch point. Which treatment most directly reduces both likelihood and dependence on human behavior?",
+      "options": [
+        "Add a warning label and annual awareness training",
+        "Purchase additional first-aid supplies near the machine",
+        "Eliminate the access need or install an engineered safeguard that prevents hazardous motion during access",
+        "Require workers to sign the risk assessment before each shift"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Elimination and engineering controls change the hazard or exposure mechanism and are generally more reliable than warnings, acknowledgments, or consequence response.",
+      "incorrectOptionExplanations": [
+        "The option 'Add a warning label and annual awareness training' does not apply the controlling principle for risk treatment hierarchy to the facts given, so it is not the best answer.",
+        "The option 'Purchase additional first-aid supplies near the machine' does not apply the controlling principle for risk treatment hierarchy to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Require workers to sign the risk assessment before each shift' does not apply the controlling principle for risk treatment hierarchy to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk treatment hierarchy",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "741cf67e1bf395b41bfd5714f101c17d8979682bfd6fdcc7eba82ab7bbeccd82"
+    },
+    {
+      "id": "PV2-CORE-CH26-008",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk acceptance governance",
+      "itemFamilyId": "PV2-CORE-CH26-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A department manager wants to accept a high residual risk that exceeds corporate criteria because production is behind. What is the appropriate governance response?",
+      "options": [
+        "Delete the item from the risk register after verbally acknowledging it",
+        "Allow the department manager to accept any risk within the department budget",
+        "Lower the consequence rating until the score meets the target",
+        "Escalate the decision to the authorized risk owner, document rationale and interim controls, and do not let schedule pressure bypass acceptance criteria"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Risk acceptance should follow defined authority, criteria, documentation, and accountability. Operational pressure does not change the underlying risk.",
+      "incorrectOptionExplanations": [
+        "The option 'Delete the item from the risk register after verbally acknowledging it' does not apply the controlling principle for risk acceptance governance to the facts given, so it is not the best answer.",
+        "The option 'Allow the department manager to accept any risk within the department budget' does not apply the controlling principle for risk acceptance governance to the facts given, so it is not the best answer.",
+        "The option 'Lower the consequence rating until the score meets the target' does not apply the controlling principle for risk acceptance governance to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk acceptance governance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a94b31c987a941fb9f4c018e616e5e0093e603f94b91951bde53b7f1e4c0071f"
+    },
+    {
+      "id": "PV2-CORE-CH26-009",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazard versus risk",
+      "itemFamilyId": "PV2-CORE-CH26-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a bow-tie analysis, the team reviews this case: A team rates a low-energy office hazard and a high-energy process hazard as equivalent because both are “possible.” What is missing from the comparison? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A hazard is a source of potential harm; risk reflects the combination of consequence and likelihood under defined exposure and control conditions.",
+        "ALARP requires reducing risk unless further sacrifice is grossly disproportionate to the benefit; rarity alone does not end the analysis.",
+        "Quantitative risk estimates are conditional on data and modeling assumptions. Sensitivity and uncertainty are essential to defensible use.",
+        "Elimination and engineering controls change the hazard or exposure mechanism and are generally more reliable than warnings, acknowledgments, or consequence response."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses hazard versus risk and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'ALARP and gross disproportion', but it does not resolve the hazard versus risk issue in this case.",
+        "This rationale supports the separate chapter topic 'quantitative risk uncertainty', but it does not resolve the hazard versus risk issue in this case.",
+        "This rationale supports the separate chapter topic 'risk treatment hierarchy', but it does not resolve the hazard versus risk issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: hazard versus risk",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9aaef4ce53ba3d17e05c001d6b9db857ecab179b755ed141b584e6ea0cb0428b"
+    },
+    {
+      "id": "PV2-CORE-CH26-010",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk matrix limitations",
+      "itemFamilyId": "PV2-CORE-CH26-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an ALARP decision, the team reviews this case: A 5-by-5 risk matrix assigns the same score to a frequent minor event and a rare catastrophic event. How should decision makers use the result? Which rationale most directly supports the correct decision?",
+      "options": [
+        "ALARP requires reducing risk unless further sacrifice is grossly disproportionate to the benefit; rarity alone does not end the analysis.",
+        "Ordinal matrix scores can mask materially different risk profiles. They support prioritization but do not replace judgment about catastrophic potential and uncertainty.",
+        "Risk acceptance should follow defined authority, criteria, documentation, and accountability. Operational pressure does not change the underlying risk.",
+        "Decision makers need transparency about pre-control hazard, control assumptions, remaining risk, and nonroutine conditions that may defeat the safeguards."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses risk matrix limitations and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'ALARP and gross disproportion', but it does not resolve the risk matrix limitations issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'risk acceptance governance', but it does not resolve the risk matrix limitations issue in this case.",
+        "This rationale supports the separate chapter topic 'inherent and residual risk', but it does not resolve the risk matrix limitations issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk matrix limitations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9951d88dce5f3590e881fee5a4c7acb1bd4738b0f1d762418a8c9450234b0323"
+    },
+    {
+      "id": "PV2-CORE-CH26-011",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inherent and residual risk",
+      "itemFamilyId": "PV2-CORE-CH26-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a risk-treatment selection, the team reviews this case: A machine has high inherent risk. Interlocked guarding substantially lowers exposure, but bypass remains possible during maintenance. Which risk should be presented for the operating decision? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Quantitative risk estimates are conditional on data and modeling assumptions. Sensitivity and uncertainty are essential to defensible use.",
+        "A hazard is a source of potential harm; risk reflects the combination of consequence and likelihood under defined exposure and control conditions.",
+        "Decision makers need transparency about pre-control hazard, control assumptions, remaining risk, and nonroutine conditions that may defeat the safeguards.",
+        "ALARP requires reducing risk unless further sacrifice is grossly disproportionate to the benefit; rarity alone does not end the analysis."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses inherent and residual risk and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'quantitative risk uncertainty', but it does not resolve the inherent and residual risk issue in this case.",
+        "This rationale supports the separate chapter topic 'hazard versus risk', but it does not resolve the inherent and residual risk issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'ALARP and gross disproportion', but it does not resolve the inherent and residual risk issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: inherent and residual risk",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "39a96226f16d0ccaa9128b506066bd12f80b77b896ebf5a315380e7cb264e3eb"
+    },
+    {
+      "id": "PV2-CORE-CH26-012",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ALARP and gross disproportion",
+      "itemFamilyId": "PV2-CORE-CH26-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a residual-risk acceptance meeting, the team reviews this case: A proposed safeguard would materially reduce a credible fatality risk at moderate cost, but management rejects it because the risk is already uncommon. Which ALARP question is most relevant? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A hazard is a source of potential harm; risk reflects the combination of consequence and likelihood under defined exposure and control conditions.",
+        "A bow-tie becomes actionable when barriers have defined functions, owners, assurance activities, and escalation-factor controls.",
+        "Risk acceptance should follow defined authority, criteria, documentation, and accountability. Operational pressure does not change the underlying risk.",
+        "ALARP requires reducing risk unless further sacrifice is grossly disproportionate to the benefit; rarity alone does not end the analysis."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses alarp and gross disproportion and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hazard versus risk', but it does not resolve the alarp and gross disproportion issue in this case.",
+        "This rationale supports the separate chapter topic 'bow-tie analysis', but it does not resolve the alarp and gross disproportion issue in this case.",
+        "This rationale supports the separate chapter topic 'risk acceptance governance', but it does not resolve the alarp and gross disproportion issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: ALARP and gross disproportion",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "567c42614a151c6adcd0f4824933196ad45816ecd2cce5318fe8667f5706f22c"
+    },
+    {
+      "id": "PV2-CORE-CH26-013",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "bow-tie analysis",
+      "itemFamilyId": "PV2-CORE-CH26-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a risk-communication review, the team reviews this case: A bow-tie diagram lists causes of loss of containment on the left and emergency response on the right, but no preventive or mitigative barriers are assigned owners or performance standards. What is missing? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A bow-tie becomes actionable when barriers have defined functions, owners, assurance activities, and escalation-factor controls.",
+        "Quantitative risk estimates are conditional on data and modeling assumptions. Sensitivity and uncertainty are essential to defensible use.",
+        "Elimination and engineering controls change the hazard or exposure mechanism and are generally more reliable than warnings, acknowledgments, or consequence response.",
+        "Decision makers need transparency about pre-control hazard, control assumptions, remaining risk, and nonroutine conditions that may defeat the safeguards."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses bow-tie analysis and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'quantitative risk uncertainty', but it does not resolve the bow-tie analysis issue in this case.",
+        "This rationale supports the separate chapter topic 'risk treatment hierarchy', but it does not resolve the bow-tie analysis issue in this case.",
+        "This rationale supports the separate chapter topic 'inherent and residual risk', but it does not resolve the bow-tie analysis issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: bow-tie analysis",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1b8889a778261461d51bd388a192a591fffe5261e87d0cf94dc8b9de764ddaf5"
+    },
+    {
+      "id": "PV2-CORE-CH26-014",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "quantitative risk uncertainty",
+      "itemFamilyId": "PV2-CORE-CH26-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a quantitative uncertainty discussion, the team reviews this case: A quantitative model produces a fatality frequency of 1.2 × 10^-5 per year, but failure data are sparse and assumptions drive the result. What is the best way to present it? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Ordinal matrix scores can mask materially different risk profiles. They support prioritization but do not replace judgment about catastrophic potential and uncertainty.",
+        "Quantitative risk estimates are conditional on data and modeling assumptions. Sensitivity and uncertainty are essential to defensible use.",
+        "Decision makers need transparency about pre-control hazard, control assumptions, remaining risk, and nonroutine conditions that may defeat the safeguards.",
+        "Risk acceptance should follow defined authority, criteria, documentation, and accountability. Operational pressure does not change the underlying risk."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses quantitative risk uncertainty and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'risk matrix limitations', but it does not resolve the quantitative risk uncertainty issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'inherent and residual risk', but it does not resolve the quantitative risk uncertainty issue in this case.",
+        "This rationale supports the separate chapter topic 'risk acceptance governance', but it does not resolve the quantitative risk uncertainty issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: quantitative risk uncertainty",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8c5729f08fddb87d68c9f254c4adb97545a8f70fbd9198cdca1a2a690137680b"
+    },
+    {
+      "id": "PV2-CORE-CH26-015",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk treatment hierarchy",
+      "itemFamilyId": "PV2-CORE-CH26-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a risk register workshop, the team reviews this case: A risk assessment identifies repeated exposure to a severe pinch point. Which treatment most directly reduces both likelihood and dependence on human behavior? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A bow-tie becomes actionable when barriers have defined functions, owners, assurance activities, and escalation-factor controls.",
+        "A hazard is a source of potential harm; risk reflects the combination of consequence and likelihood under defined exposure and control conditions.",
+        "Elimination and engineering controls change the hazard or exposure mechanism and are generally more reliable than warnings, acknowledgments, or consequence response.",
+        "Decision makers need transparency about pre-control hazard, control assumptions, remaining risk, and nonroutine conditions that may defeat the safeguards."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses risk treatment hierarchy and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'bow-tie analysis', but it does not resolve the risk treatment hierarchy issue in this case.",
+        "This rationale supports the separate chapter topic 'hazard versus risk', but it does not resolve the risk treatment hierarchy issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'inherent and residual risk', but it does not resolve the risk treatment hierarchy issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk treatment hierarchy",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "acc028d3f1352bd8794b8f87517b1e1415645c73c9738fa34971d9f86068438e"
+    },
+    {
+      "id": "PV2-CORE-CH26-016",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk acceptance governance",
+      "itemFamilyId": "PV2-CORE-CH26-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a semi-quantitative risk ranking, the team reviews this case: A department manager wants to accept a high residual risk that exceeds corporate criteria because production is behind. What is the appropriate governance response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Quantitative risk estimates are conditional on data and modeling assumptions. Sensitivity and uncertainty are essential to defensible use.",
+        "A bow-tie becomes actionable when barriers have defined functions, owners, assurance activities, and escalation-factor controls.",
+        "Ordinal matrix scores can mask materially different risk profiles. They support prioritization but do not replace judgment about catastrophic potential and uncertainty.",
+        "Risk acceptance should follow defined authority, criteria, documentation, and accountability. Operational pressure does not change the underlying risk."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses risk acceptance governance and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'quantitative risk uncertainty', but it does not resolve the risk acceptance governance issue in this case.",
+        "This rationale supports the separate chapter topic 'bow-tie analysis', but it does not resolve the risk acceptance governance issue in this case.",
+        "This rationale supports the separate chapter topic 'risk matrix limitations', but it does not resolve the risk acceptance governance issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk acceptance governance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e31c43081a888a818e265ea3f197b138f3cc3eca3e161bec8f05edf8aedd557f"
+    },
+    {
+      "id": "PV2-CORE-CH26-017",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hazard versus risk",
+      "itemFamilyId": "PV2-CORE-CH26-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a semi-quantitative risk ranking, the team reviews this question: Which statement best distinguishes a hazard from risk? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Hazard describes the potential source of harm. Risk estimates the chance and consequence of that harm under defined conditions.",
+        "A validated substitution reduces the hazard at its source and is stronger than controls that depend mainly on worker behavior.",
+        "A concise risk communication should preserve the evidence and assumptions needed to understand and act on the decision.",
+        "Acceptance should be based on approved criteria, control effectiveness, exposure, uncertainty, and consequence, not merely on a quiet loss history."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Risk treatment hierarchy', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk communication', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk acceptance criteria', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, definitions and risk-management process, pp. 604-606; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "99e3c456f05b54bab32a99d1c863cd3919acd24a5206e0081330ef12d6876f61"
+    },
+    {
+      "id": "PV2-CORE-CH26-018",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Initial risk ranking",
+      "itemFamilyId": "PV2-CORE-CH26-F018",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a bow-tie analysis, solve the following problem and select the best answer: A task has an occasional likelihood rating of 3 and a catastrophic consequence rating of 5. If the matrix multiplies likelihood by consequence, what is the initial risk score?",
+      "options": [
+        "2",
+        "15",
+        "25",
+        "8"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Using the stated method, risk score = 3 x 5 = 15. The score must then be interpreted using the organization risk criteria.",
+      "incorrectOptionExplanations": [
+        "This subtracts the ratings instead of combining them.",
+        null,
+        "This squares the consequence rating and ignores likelihood.",
+        "This adds the ratings rather than using the stated matrix method."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk assessment scenario and risk ranking, pp. 606-610; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "risk score = likelihood rating x consequence rating",
+      "units": "risk-score points",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d056c3436dcd00a8949815692186147a9feaf3f1018248a7a8f9ae50d39135b2"
+    },
+    {
+      "id": "PV2-CORE-CH26-019",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Inherent and residual risk",
+      "itemFamilyId": "PV2-CORE-CH26-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an ALARP decision, the team reviews this question: A risk assessment lists the hazard rating before controls and again after verified controls. What do the two ratings represent? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Acceptance should be based on approved criteria, control effectiveness, exposure, uncertainty, and consequence, not merely on a quiet loss history.",
+        "A validated substitution reduces the hazard at its source and is stronger than controls that depend mainly on worker behavior.",
+        "Inherent risk is estimated without relying on controls; residual risk is the risk remaining after controls are applied and verified.",
+        "The left side controls threats leading to loss of control; the right side limits escalation and consequences after the top event."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Risk acceptance criteria', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk treatment hierarchy', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Bow-tie barriers', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, control development, implementation, and evaluation, pp. 610-614; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "af4588135383728dd2793c6ce163f0e1851824358664e9363b4dd6b9bfeec449"
+    },
+    {
+      "id": "PV2-CORE-CH26-020",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk treatment hierarchy",
+      "itemFamilyId": "PV2-CORE-CH26-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a risk-treatment selection, the team reviews this question: A solvent-cleaning process presents inhalation and fire hazards. Which proposal is the strongest risk treatment? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Inherent risk is estimated without relying on controls; residual risk is the risk remaining after controls are applied and verified.",
+        "Hazard describes the potential source of harm. Risk estimates the chance and consequence of that harm under defined conditions.",
+        "Acceptance should be based on approved criteria, control effectiveness, exposure, uncertainty, and consequence, not merely on a quiet loss history.",
+        "A validated substitution reduces the hazard at its source and is stronger than controls that depend mainly on worker behavior."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Inherent and residual risk', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hazard versus risk', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk acceptance criteria', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, controls development and decision-making, pp. 610-614; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fe0765045be9d5c2139b2b6af6de8f342482175c924e3d8f402e531ff3bb4bd4"
+    },
+    {
+      "id": "PV2-CORE-CH26-021",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk acceptance criteria",
+      "itemFamilyId": "PV2-CORE-CH26-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a residual-risk acceptance meeting, the team reviews this question: A team calls a high-consequence residual risk acceptable because no incident has occurred in five years. What is the main weakness? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Acceptance should be based on approved criteria, control effectiveness, exposure, uncertainty, and consequence, not merely on a quiet loss history.",
+        "A validated substitution reduces the hazard at its source and is stronger than controls that depend mainly on worker behavior.",
+        "Hazard describes the potential source of harm. Risk estimates the chance and consequence of that harm under defined conditions.",
+        "Inherent risk is estimated without relying on controls; residual risk is the risk remaining after controls are applied and verified."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Risk treatment hierarchy', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hazard versus risk', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Inherent and residual risk', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk evaluation and decision-making, pp. 604-614; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a4c6dd2c2e60067d826f91009f290e4f235b65564a93fe61b2e868d15eb3ed40"
+    },
+    {
+      "id": "PV2-CORE-CH26-022",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk uncertainty",
+      "itemFamilyId": "PV2-CORE-CH26-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a risk-communication review, the team reviews this question: Exposure data are sparse and the consequence could be severe. How should the uncertainty be handled? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Sensitivity analysis tests how uncertainty in inputs affects the result and highlights where better evidence is most valuable.",
+        "A defensible assessment makes uncertainty visible, avoids false precision, and identifies additional data or interim controls.",
+        "Risk assessments must be revisited when conditions change so the control basis remains valid.",
+        "A concise risk communication should preserve the evidence and assumptions needed to understand and act on the decision."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Sensitivity analysis', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Dynamic risk assessment', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk communication', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, hazard assessment and risk decision-making, pp. 606-614; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "efd65bce16c1cf7bba631a464d55bae6323c0b7d18facf0cb9eaaffb422692ed"
+    },
+    {
+      "id": "PV2-CORE-CH26-023",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk communication",
+      "itemFamilyId": "PV2-CORE-CH26-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a quantitative uncertainty discussion, the team reviews this question: Management asks for a one-page summary of a complex risk assessment. What information is essential? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Sensitivity analysis tests how uncertainty in inputs affects the result and highlights where better evidence is most valuable.",
+        "A validated substitution reduces the hazard at its source and is stronger than controls that depend mainly on worker behavior.",
+        "A concise risk communication should preserve the evidence and assumptions needed to understand and act on the decision.",
+        "Hazard describes the potential source of harm. Risk estimates the chance and consequence of that harm under defined conditions."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Sensitivity analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk treatment hierarchy', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Hazard versus risk', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk-management process and control decisions, pp. 604-614; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "38ea2fd2b9fd6c03fefe57dbfa66df9c66e7b76829b82a47f77c087d5d82969b"
+    },
+    {
+      "id": "PV2-CORE-CH26-024",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Bow-tie barriers",
+      "itemFamilyId": "PV2-CORE-CH26-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a risk register workshop, the team reviews this question: In a bow-tie analysis, where are preventive and mitigative barriers placed? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Acceptance should be based on approved criteria, control effectiveness, exposure, uncertainty, and consequence, not merely on a quiet loss history.",
+        "A validated substitution reduces the hazard at its source and is stronger than controls that depend mainly on worker behavior.",
+        "Inherent risk is estimated without relying on controls; residual risk is the risk remaining after controls are applied and verified.",
+        "The left side controls threats leading to loss of control; the right side limits escalation and consequences after the top event."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Risk acceptance criteria', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk treatment hierarchy', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Inherent and residual risk', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26 and Chapter 35, hazard-analysis and risk-control methods, pp. 604-614 and 791-795; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "768b11a8d0dc92556ecf39c6f5210015701dd7ce03b5ef9ab1c9a3f7fd7b9393"
+    },
+    {
+      "id": "PV2-CORE-CH26-025",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sensitivity analysis",
+      "itemFamilyId": "PV2-CORE-CH26-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a semi-quantitative risk ranking, the team reviews this question: A control decision changes depending on whether the assumed failure probability is 0.001 or 0.01. What should the analyst do? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Sensitivity analysis tests how uncertainty in inputs affects the result and highlights where better evidence is most valuable.",
+        "Acceptance should be based on approved criteria, control effectiveness, exposure, uncertainty, and consequence, not merely on a quiet loss history.",
+        "A validated substitution reduces the hazard at its source and is stronger than controls that depend mainly on worker behavior.",
+        "A concise risk communication should preserve the evidence and assumptions needed to understand and act on the decision."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Risk acceptance criteria', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk treatment hierarchy', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk communication', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk analysis and decision-making, pp. 606-614; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9a433d3359e7653f92b120056ab3c89e2e8b7684420a825a81f5277db57f53b3"
+    },
+    {
+      "id": "PV2-CORE-CH26-026",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Risk transfer",
+      "itemFamilyId": "PV2-CORE-CH26-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a bow-tie analysis, the team reviews this question: What is the most accurate statement about transferring risk through insurance or contract? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A validated substitution reduces the hazard at its source and is stronger than controls that depend mainly on worker behavior.",
+        "Risk financing and contractual allocation can change who pays, but they do not remove the source of harm or the duty to manage it.",
+        "Inherent risk is estimated without relying on controls; residual risk is the risk remaining after controls are applied and verified.",
+        "Using the stated method, risk score = 3 x 5 = 15. The score must then be interpreted using the organization risk criteria."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Risk treatment hierarchy', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Inherent and residual risk', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Initial risk ranking', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, risk-management options and decision-making, pp. 604-614; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "abad0da77dac833a795871485fc45dcfefb913bcae0e1b1afa3fd35d2d6c686d"
+    },
+    {
+      "id": "PV2-CORE-CH26-027",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dynamic risk assessment",
+      "itemFamilyId": "PV2-CORE-CH26-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an ALARP decision, the team reviews this question: During a shutdown, the work conditions depart from the approved plan and an unanticipated chemical line is found. What is the best action? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A concise risk communication should preserve the evidence and assumptions needed to understand and act on the decision.",
+        "A defensible assessment makes uncertainty visible, avoids false precision, and identifies additional data or interim controls.",
+        "Risk assessments must be revisited when conditions change so the control basis remains valid.",
+        "Implementation must be followed by effectiveness verification and continued monitoring where risk warrants it."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Risk communication', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk uncertainty', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Control verification', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, supervise and evaluate; Chapter 38, management of change, pp. 614 and 859-868; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a5dc07c93076c1bd49389cb89faad2c2ab83d7479604443a2cf65335add3e118"
+    },
+    {
+      "id": "PV2-CORE-CH26-028",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Control verification",
+      "itemFamilyId": "PV2-CORE-CH26-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a risk-treatment selection, the team reviews this question: A ventilation control was installed for a high-priority exposure. What closes the risk-management loop? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A concise risk communication should preserve the evidence and assumptions needed to understand and act on the decision.",
+        "Risk assessments must be revisited when conditions change so the control basis remains valid.",
+        "A defensible assessment makes uncertainty visible, avoids false precision, and identifies additional data or interim controls.",
+        "Implementation must be followed by effectiveness verification and continued monitoring where risk warrants it."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Risk communication', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Dynamic risk assessment', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Risk uncertainty', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 26, implement controls and supervise/evaluate, pp. 610-614; Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2a6dc3a644beb55f7551d7a6eb7551c83b4aef1f2daf741a3034ef5cd2ac4b92"
+    },
+    {
+      "id": "PV2-CORE-CH26-029",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazard versus risk",
+      "itemFamilyId": "PV2-CORE-CH26-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a quantitative uncertainty discussion, a supervisor proposes: \"Only consequence matters because likelihood cannot be estimated\". The underlying case is: A team rates a low-energy office hazard and a high-energy process hazard as equivalent because both are “possible.” What is missing from the comparison? Which alternative is the most defensible correction?",
+      "options": [
+        "Risk must consider both likelihood and consequence, including exposure and existing controls, not possibility alone",
+        "Hazard and risk are identical terms, so no additional comparison is needed",
+        "Only historical injury count matters, even when exposure conditions have changed",
+        "Only consequence matters because likelihood cannot be estimated"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A hazard is a source of potential harm; risk reflects the combination of consequence and likelihood under defined exposure and control conditions.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Hazard and risk are identical terms, so no additional comparison is needed' remains incomplete or misapplies the controlling hazard versus risk principle.",
+        "The proposed response 'Only historical injury count matters, even when exposure conditions have changed' remains incomplete or misapplies the controlling hazard versus risk principle.",
+        "The proposed response 'Only consequence matters because likelihood cannot be estimated' remains incomplete or misapplies the controlling hazard versus risk principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: hazard versus risk",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8643843d41cdf85c75fe765a9444646d90be8fc11e7acdcd481619b00e03b24f"
+    },
+    {
+      "id": "PV2-CORE-CH26-030",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk matrix limitations",
+      "itemFamilyId": "PV2-CORE-CH26-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a risk register workshop, a supervisor proposes: \"Discard consequence information after the matrix score is calculated\". The underlying case is: A 5-by-5 risk matrix assigns the same score to a frequent minor event and a rare catastrophic event. How should decision makers use the result? Which alternative is the most defensible correction?",
+      "options": [
+        "Assume the scenarios are interchangeable because their products are equal",
+        "Treat the score as a screening aid and examine consequence, likelihood basis, uncertainty, and risk tolerance separately",
+        "Discard consequence information after the matrix score is calculated",
+        "Rank the frequent minor event higher in every case because frequency dominates"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Ordinal matrix scores can mask materially different risk profiles. They support prioritization but do not replace judgment about catastrophic potential and uncertainty.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Assume the scenarios are interchangeable because their products are equal' remains incomplete or misapplies the controlling risk matrix limitations principle.",
+        null,
+        "The proposed response 'Discard consequence information after the matrix score is calculated' remains incomplete or misapplies the controlling risk matrix limitations principle.",
+        "The proposed response 'Rank the frequent minor event higher in every case because frequency dominates' remains incomplete or misapplies the controlling risk matrix limitations principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk matrix limitations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ee431be2a46a10fdc52f8880e39df88e5a3abfdfbc8abe6aff68b7e156940459"
+    },
+    {
+      "id": "PV2-CORE-CH26-031",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inherent and residual risk",
+      "itemFamilyId": "PV2-CORE-CH26-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a semi-quantitative risk ranking, a supervisor proposes: \"Report only inherent risk and treat installed controls as irrelevant to the decision rating\". The underlying case is: A machine has high inherent risk. Interlocked guarding substantially lowers exposure, but bypass remains possible during maintenance. Which risk should be presented for the operating decision? Which alternative is the most defensible correction?",
+      "options": [
+        "Report zero residual risk because an interlock is installed",
+        "Report only inherent risk and treat installed controls as irrelevant to the decision rating",
+        "Document inherent risk, control effectiveness, residual risk, and maintenance or bypass scenarios rather than reporting only the post-control score",
+        "Exclude maintenance because it is performed less frequently than production"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Decision makers need transparency about pre-control hazard, control assumptions, remaining risk, and nonroutine conditions that may defeat the safeguards.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Report zero residual risk because an interlock is installed' remains incomplete or misapplies the controlling inherent and residual risk principle.",
+        "The proposed response 'Report only inherent risk and treat installed controls as irrelevant to the decision rating' remains incomplete or misapplies the controlling inherent and residual risk principle.",
+        null,
+        "The proposed response 'Exclude maintenance because it is performed less frequently than production' remains incomplete or misapplies the controlling inherent and residual risk principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: inherent and residual risk",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7968872d4d67dd9f377cb1b97e9fac76fe4bc9786f0046ae1188f2cabe8520a9"
+    },
+    {
+      "id": "PV2-CORE-CH26-032",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ALARP and gross disproportion",
+      "itemFamilyId": "PV2-CORE-CH26-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a bow-tie analysis, a supervisor proposes: \"Whether employees are willing to accept the risk in exchange for a bonus\". The underlying case is: A proposed safeguard would materially reduce a credible fatality risk at moderate cost, but management rejects it because the risk is already uncommon. Which ALARP question is most relevant? Which alternative is the most defensible correction?",
+      "options": [
+        "Whether the safeguard is cheaper than every control ever used in the industry",
+        "Whether the risk score can be rounded down to a lower category",
+        "Whether employees are willing to accept the risk in exchange for a bonus",
+        "Whether the sacrifice in money, time, and trouble is grossly disproportionate to the additional risk reduction"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "ALARP requires reducing risk unless further sacrifice is grossly disproportionate to the benefit; rarity alone does not end the analysis.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Whether the safeguard is cheaper than every control ever used in the industry' remains incomplete or misapplies the controlling alarp and gross disproportion principle.",
+        "The proposed response 'Whether the risk score can be rounded down to a lower category' remains incomplete or misapplies the controlling alarp and gross disproportion principle.",
+        "The proposed response 'Whether employees are willing to accept the risk in exchange for a bonus' remains incomplete or misapplies the controlling alarp and gross disproportion principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: ALARP and gross disproportion",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5c7c797b1e05fff01134be6df278fe10c36a93b5c4975f9be9570f3423a3fd37"
+    },
+    {
+      "id": "PV2-CORE-CH26-033",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "bow-tie analysis",
+      "itemFamilyId": "PV2-CORE-CH26-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an ALARP decision, a supervisor proposes: \"A single training course identified as every barrier on both sides\". The underlying case is: A bow-tie diagram lists causes of loss of containment on the left and emergency response on the right, but no preventive or mitigative barriers are assigned owners or performance standards. What is missing? Which alternative is the most defensible correction?",
+      "options": [
+        "Barrier management linking each control to an owner, required performance, verification, and degradation factors",
+        "A single training course identified as every barrier on both sides",
+        "Removal of escalation factors because barriers are assumed independent",
+        "A larger risk matrix placed in the center of the diagram"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A bow-tie becomes actionable when barriers have defined functions, owners, assurance activities, and escalation-factor controls.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'A single training course identified as every barrier on both sides' remains incomplete or misapplies the controlling bow-tie analysis principle.",
+        "The proposed response 'Removal of escalation factors because barriers are assumed independent' remains incomplete or misapplies the controlling bow-tie analysis principle.",
+        "The proposed response 'A larger risk matrix placed in the center of the diagram' remains incomplete or misapplies the controlling bow-tie analysis principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: bow-tie analysis",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "402786f681dbfe59f03ab93a8389f3b636b86a07e7472e815fa157f25c96385e"
+    },
+    {
+      "id": "PV2-CORE-CH26-034",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "quantitative risk uncertainty",
+      "itemFamilyId": "PV2-CORE-CH26-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a risk-treatment selection, a supervisor proposes: \"Round it to zero because the number is small\". The underlying case is: A quantitative model produces a fatality frequency of 1.2 × 10^-5 per year, but failure data are sparse and assumptions drive the result. What is the best way to present it? Which alternative is the most defensible correction?",
+      "options": [
+        "Suppress the assumptions so nontechnical leaders are not confused",
+        "Report the estimate with uncertainty, sensitivity, assumptions, and alternative scenarios rather than as an exact prediction",
+        "Round it to zero because the number is small",
+        "Present six decimal places to imply precision"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Quantitative risk estimates are conditional on data and modeling assumptions. Sensitivity and uncertainty are essential to defensible use.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Suppress the assumptions so nontechnical leaders are not confused' remains incomplete or misapplies the controlling quantitative risk uncertainty principle.",
+        null,
+        "The proposed response 'Round it to zero because the number is small' remains incomplete or misapplies the controlling quantitative risk uncertainty principle.",
+        "The proposed response 'Present six decimal places to imply precision' remains incomplete or misapplies the controlling quantitative risk uncertainty principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: quantitative risk uncertainty",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7f2aa52ea6849f0ec382fb6588dd4e71741d0a1fc8ef50dd343dd067f0c3b878"
+    },
+    {
+      "id": "PV2-CORE-CH26-035",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk treatment hierarchy",
+      "itemFamilyId": "PV2-CORE-CH26-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a residual-risk acceptance meeting, a supervisor proposes: \"Require workers to sign the risk assessment before each shift\". The underlying case is: A risk assessment identifies repeated exposure to a severe pinch point. Which treatment most directly reduces both likelihood and dependence on human behavior? Which alternative is the most defensible correction?",
+      "options": [
+        "Purchase additional first-aid supplies near the machine",
+        "Add a warning label and annual awareness training",
+        "Eliminate the access need or install an engineered safeguard that prevents hazardous motion during access",
+        "Require workers to sign the risk assessment before each shift"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Elimination and engineering controls change the hazard or exposure mechanism and are generally more reliable than warnings, acknowledgments, or consequence response.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Purchase additional first-aid supplies near the machine' remains incomplete or misapplies the controlling risk treatment hierarchy principle.",
+        "The proposed response 'Add a warning label and annual awareness training' remains incomplete or misapplies the controlling risk treatment hierarchy principle.",
+        null,
+        "The proposed response 'Require workers to sign the risk assessment before each shift' remains incomplete or misapplies the controlling risk treatment hierarchy principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk treatment hierarchy",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "65c81e7d9403f900b12706261348db749d4f1e1047fda265445b3ae78c6e63b5"
+    },
+    {
+      "id": "PV2-CORE-CH26-036",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk acceptance governance",
+      "itemFamilyId": "PV2-CORE-CH26-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a risk-communication review, a supervisor proposes: \"Delete the item from the risk register after verbally acknowledging it\". The underlying case is: A department manager wants to accept a high residual risk that exceeds corporate criteria because production is behind. What is the appropriate governance response? Which alternative is the most defensible correction?",
+      "options": [
+        "Allow the department manager to accept any risk within the department budget",
+        "Lower the consequence rating until the score meets the target",
+        "Delete the item from the risk register after verbally acknowledging it",
+        "Escalate the decision to the authorized risk owner, document rationale and interim controls, and do not let schedule pressure bypass acceptance criteria"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Risk acceptance should follow defined authority, criteria, documentation, and accountability. Operational pressure does not change the underlying risk.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Allow the department manager to accept any risk within the department budget' remains incomplete or misapplies the controlling risk acceptance governance principle.",
+        "The proposed response 'Lower the consequence rating until the score meets the target' remains incomplete or misapplies the controlling risk acceptance governance principle.",
+        "The proposed response 'Delete the item from the risk register after verbally acknowledging it' remains incomplete or misapplies the controlling risk acceptance governance principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk acceptance governance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ecfc90b9c6c0df363b48996b1ee8116ac77399bb1967f67bb39e7891ed824875"
+    },
+    {
+      "id": "PV2-CORE-CH26-037",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazard versus risk",
+      "itemFamilyId": "PV2-CORE-CH26-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a risk register workshop, the team selects \"Risk must consider both likelihood and consequence, including exposure and existing controls, not possibility alone\" rather than \"Only historical injury count matters, even when exposure conditions have changed\" for this case: A team rates a low-energy office hazard and a high-energy process hazard as equivalent because both are “possible.” What is missing from the comparison? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "A hazard is a source of potential harm; risk reflects the combination of consequence and likelihood under defined exposure and control conditions.",
+        "ALARP requires reducing risk unless further sacrifice is grossly disproportionate to the benefit; rarity alone does not end the analysis.",
+        "Elimination and engineering controls change the hazard or exposure mechanism and are generally more reliable than warnings, acknowledgments, or consequence response.",
+        "Risk acceptance should follow defined authority, criteria, documentation, and accountability. Operational pressure does not change the underlying risk."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the hazard versus risk issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'ALARP and gross disproportion' and does not distinguish the two responses in the present hazard versus risk decision.",
+        "This explanation concerns 'risk treatment hierarchy' and does not distinguish the two responses in the present hazard versus risk decision.",
+        "This explanation concerns 'risk acceptance governance' and does not distinguish the two responses in the present hazard versus risk decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: hazard versus risk",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "397eb2c6573b19570bdcc104723c8d5b3e8d231eb1d51cc964a19a91521e4db9"
+    },
+    {
+      "id": "PV2-CORE-CH26-038",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "risk matrix limitations",
+      "itemFamilyId": "PV2-CORE-CH26-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a semi-quantitative risk ranking, the team selects \"Treat the score as a screening aid and examine consequence, likelihood basis, uncertainty, and risk tolerance separately\" rather than \"Assume the scenarios are interchangeable because their products are equal\" for this case: A 5-by-5 risk matrix assigns the same score to a frequent minor event and a rare catastrophic event. How should decision makers use the result? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Quantitative risk estimates are conditional on data and modeling assumptions. Sensitivity and uncertainty are essential to defensible use.",
+        "Ordinal matrix scores can mask materially different risk profiles. They support prioritization but do not replace judgment about catastrophic potential and uncertainty.",
+        "A bow-tie becomes actionable when barriers have defined functions, owners, assurance activities, and escalation-factor controls.",
+        "Elimination and engineering controls change the hazard or exposure mechanism and are generally more reliable than warnings, acknowledgments, or consequence response."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the risk matrix limitations issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'quantitative risk uncertainty' and does not distinguish the two responses in the present risk matrix limitations decision.",
+        null,
+        "This explanation concerns 'bow-tie analysis' and does not distinguish the two responses in the present risk matrix limitations decision.",
+        "This explanation concerns 'risk treatment hierarchy' and does not distinguish the two responses in the present risk matrix limitations decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: risk matrix limitations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8863f14996d93c63f10e26be691d4791d40c7cdde84a0a03984bc7e700c953ba"
+    },
+    {
+      "id": "PV2-CORE-CH26-039",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inherent and residual risk",
+      "itemFamilyId": "PV2-CORE-CH26-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a bow-tie analysis, the team selects \"Document inherent risk, control effectiveness, residual risk, and maintenance or bypass scenarios rather than reporting only the post-control score\" rather than \"Report zero residual risk because an interlock is installed\" for this case: A machine has high inherent risk. Interlocked guarding substantially lowers exposure, but bypass remains possible during maintenance. Which risk should be presented for the operating decision? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "A hazard is a source of potential harm; risk reflects the combination of consequence and likelihood under defined exposure and control conditions.",
+        "ALARP requires reducing risk unless further sacrifice is grossly disproportionate to the benefit; rarity alone does not end the analysis.",
+        "Decision makers need transparency about pre-control hazard, control assumptions, remaining risk, and nonroutine conditions that may defeat the safeguards.",
+        "Risk acceptance should follow defined authority, criteria, documentation, and accountability. Operational pressure does not change the underlying risk."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the inherent and residual risk issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'hazard versus risk' and does not distinguish the two responses in the present inherent and residual risk decision.",
+        "This explanation concerns 'ALARP and gross disproportion' and does not distinguish the two responses in the present inherent and residual risk decision.",
+        null,
+        "This explanation concerns 'risk acceptance governance' and does not distinguish the two responses in the present inherent and residual risk decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: inherent and residual risk",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2e3a6270035b02c0c8b210903fd105b9ffcc27b51f3eae6fca009958e46da9d2"
+    },
+    {
+      "id": "PV2-CORE-CH26-040",
+      "version": 1,
+      "chapterId": "ch-26",
+      "chapterTitle": "Risk Assessment and Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ALARP and gross disproportion",
+      "itemFamilyId": "PV2-CORE-CH26-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an ALARP decision, the team selects \"Whether the sacrifice in money, time, and trouble is grossly disproportionate to the additional risk reduction\" rather than \"Whether the safeguard is cheaper than every control ever used in the industry\" for this case: A proposed safeguard would materially reduce a credible fatality risk at moderate cost, but management rejects it because the risk is already uncommon. Which ALARP question is most relevant? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Elimination and engineering controls change the hazard or exposure mechanism and are generally more reliable than warnings, acknowledgments, or consequence response.",
+        "Ordinal matrix scores can mask materially different risk profiles. They support prioritization but do not replace judgment about catastrophic potential and uncertainty.",
+        "Risk acceptance should follow defined authority, criteria, documentation, and accountability. Operational pressure does not change the underlying risk.",
+        "ALARP requires reducing risk unless further sacrifice is grossly disproportionate to the benefit; rarity alone does not end the analysis."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the alarp and gross disproportion issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'risk treatment hierarchy' and does not distinguish the two responses in the present alarp and gross disproportion decision.",
+        "This explanation concerns 'risk matrix limitations' and does not distinguish the two responses in the present alarp and gross disproportion decision.",
+        "This explanation concerns 'risk acceptance governance' and does not distinguish the two responses in the present alarp and gross disproportion decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 26, pp. 604-615; risk assessment and risk-treatment principles; curated topic: ALARP and gross disproportion",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "796ee323826947536403803f3a89f9a3ea88ec29c68baa802a0b99ac0c586c57"
+    }
+  ]
+}

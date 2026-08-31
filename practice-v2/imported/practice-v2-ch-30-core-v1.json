@@ -1,0 +1,2332 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-30-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-30",
+  "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH30-001",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "forklift stability triangle",
+      "itemFamilyId": "PV2-CORE-CH30-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A forklift turns sharply while carrying a raised, off-center load. Which combined effect creates the greatest tip-over concern?",
+      "options": [
+        "The elevated and shifted combined center of gravity can move outside the stability area under lateral acceleration",
+        "Turning force affects only the tires and cannot shift the stability relationship",
+        "The raised load lowers the center of gravity and increases the stability margin",
+        "An off-center load is safe whenever its total weight is below rated capacity"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Forklift stability depends on the combined center of gravity remaining within the stability area. Height, lateral offset, speed, and turning reduce the margin even below nominal capacity.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Turning force affects only the tires and cannot shift the stability relationship' does not apply the controlling principle for forklift stability triangle to the facts given, so it is not the best answer.",
+        "The option 'The raised load lowers the center of gravity and increases the stability margin' does not apply the controlling principle for forklift stability triangle to the facts given, so it is not the best answer.",
+        "The option 'An off-center load is safe whenever its total weight is below rated capacity' does not apply the controlling principle for forklift stability triangle to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: forklift stability triangle",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "94ca8dac5e2010e27eb52f14f576c79c7d105dff821595dca5360798e1eeb8ed"
+    },
+    {
+      "id": "PV2-CORE-CH30-002",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "forklift load center and capacity",
+      "itemFamilyId": "PV2-CORE-CH30-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A truck is rated for 4,000 pounds at a 24-inch load center. A long load moves the actual load center substantially farther forward. What should the operator conclude?",
+      "options": [
+        "Keep the 4,000-pound rating because the data plate is assumed not to change with load geometry",
+        "Available capacity is reduced, so the load must be evaluated using the truck data and any approved attachment or derating information",
+        "Move the mast forward and travel slowly, treating operating technique as sufficient compensation for the longer load center",
+        "Add locally selected counterweight and continue operating without manufacturer-approved capacity or data-plate information"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating.",
+      "incorrectOptionExplanations": [
+        "The option 'Keep the 4,000-pound rating because the data plate is assumed not to change with load geometry' does not apply the controlling principle for forklift load center and capacity to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Move the mast forward and travel slowly, treating operating technique as sufficient compensation for the longer load center' does not apply the controlling principle for forklift load center and capacity to the facts given, so it is not the best answer.",
+        "The option 'Add locally selected counterweight and continue operating without manufacturer-approved capacity or data-plate information' does not apply the controlling principle for forklift load center and capacity to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: forklift load center and capacity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "05daa1b8e44d64fb3c7552f3ca1577839ada946e1e5529f44638b6394513ec78"
+    },
+    {
+      "id": "PV2-CORE-CH30-003",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pedestrian and forklift separation",
+      "itemFamilyId": "PV2-CORE-CH30-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A warehouse has frequent near misses where forklifts reverse through blind intersections used by pedestrians. Which control is strongest?",
+      "options": [
+        "Remove near misses from the log because no one was struck",
+        "Issue high-visibility vests and leave routes and intersections unchanged",
+        "Redesign traffic flow to separate people and trucks, improve sight distance and controls, and verify speeds and right-of-way behavior",
+        "Tell pedestrians to listen for backup alarms as the sole control"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Physical separation and traffic-system design are more reliable than visibility apparel or alarms alone, especially at predictable conflict points.",
+      "incorrectOptionExplanations": [
+        "The option 'Remove near misses from the log because no one was struck' does not apply the controlling principle for pedestrian and forklift separation to the facts given, so it is not the best answer.",
+        "The option 'Issue high-visibility vests and leave routes and intersections unchanged' does not apply the controlling principle for pedestrian and forklift separation to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Tell pedestrians to listen for backup alarms as the sole control' does not apply the controlling principle for pedestrian and forklift separation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: pedestrian and forklift separation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "99da961b4777205e9a5771b33c0fa3f337773c2c812fb7082083ca12717e8bc5"
+    },
+    {
+      "id": "PV2-CORE-CH30-004",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "trailer and dock safety",
+      "itemFamilyId": "PV2-CORE-CH30-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A forklift must enter a detached trailer at a dock. What should be verified before entry?",
+      "options": [
+        "That the driver remains in the cab with the engine running",
+        "Only the forklift’s fuel level because the trailer is not powered equipment",
+        "That the dockboard is the same color as the dock edge",
+        "Trailer restraint or wheel control, landing gear support as needed, dockboard capacity and securement, floor condition, lighting, and trailer stability"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface.",
+      "incorrectOptionExplanations": [
+        "The option 'That the driver remains in the cab with the engine running' does not apply the controlling principle for trailer and dock safety to the facts given, so it is not the best answer.",
+        "The option 'Only the forklift’s fuel level because the trailer is not powered equipment' does not apply the controlling principle for trailer and dock safety to the facts given, so it is not the best answer.",
+        "The option 'That the dockboard is the same color as the dock edge' does not apply the controlling principle for trailer and dock safety to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: trailer and dock safety",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f36c971472c837e5860f22124c4fee569ad09b20d791e708b2040e0ff226d28b"
+    },
+    {
+      "id": "PV2-CORE-CH30-005",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sling inspection and removal",
+      "itemFamilyId": "PV2-CORE-CH30-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A synthetic web sling has a cut exposing load-bearing yarns. The lift is light and scheduled to last one minute. What is the correct decision?",
+      "options": [
+        "Remove the sling from service under the applicable rejection criteria and use a suitable inspected replacement",
+        "Use it once because short lift duration offsets sling damage",
+        "Reduce the load by 10% and continue without manufacturer evaluation",
+        "Tie a knot over the cut to restore rated capacity"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Damage affecting load-bearing material is a removal condition. Duration and informal repairs do not establish capacity.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Use it once because short lift duration offsets sling damage' does not apply the controlling principle for sling inspection and removal to the facts given, so it is not the best answer.",
+        "The option 'Reduce the load by 10% and continue without manufacturer evaluation' does not apply the controlling principle for sling inspection and removal to the facts given, so it is not the best answer.",
+        "The option 'Tie a knot over the cut to restore rated capacity' does not apply the controlling principle for sling inspection and removal to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: sling inspection and removal",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "33266c5c61bd42b8200dacbca8775f55567e080a648876ae676c324be16b0348"
+    },
+    {
+      "id": "PV2-CORE-CH30-006",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "rigging angle forces",
+      "itemFamilyId": "PV2-CORE-CH30-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A two-leg sling lifts a symmetric load. The sling legs are changed from near vertical to a much flatter angle while load weight stays the same. What happens to leg tension?",
+      "options": [
+        "Leg tension decreases to zero as the legs approach horizontal",
+        "Leg tension increases as the sling angle becomes flatter",
+        "Only hook weight changes; sling angle has no force effect",
+        "Leg tension remains equal to half the load at every angle"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Flatter sling angles require greater horizontal and total leg forces to support the same vertical load, potentially exceeding component ratings.",
+      "incorrectOptionExplanations": [
+        "The option 'Leg tension decreases to zero as the legs approach horizontal' does not apply the controlling principle for rigging angle forces to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Only hook weight changes; sling angle has no force effect' does not apply the controlling principle for rigging angle forces to the facts given, so it is not the best answer.",
+        "The option 'Leg tension remains equal to half the load at every angle' does not apply the controlling principle for rigging angle forces to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: rigging angle forces",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b2b16c3ed3039c9d1cfc62a66d71bec45f60a96ff0ba95f9446fa5e2ca9f6dc2"
+    },
+    {
+      "id": "PV2-CORE-CH30-007",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08f",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "suspended load exclusion",
+      "itemFamilyId": "PV2-CORE-CH30-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A supervisor directs employees to guide a load by standing beneath it because the tag line is too short. What should the lift director require?",
+      "options": [
+        "Lower the load faster to reduce time under suspension",
+        "Allow the practice when workers wear hard hats",
+        "Stop the lift, keep personnel clear of the suspended load and fall zone, and provide an appropriate method to control the load",
+        "Use hand contact from directly below because it provides better control"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "People should not be positioned under suspended loads. Tag lines, planning, positioning, and other controls must manage the load without exposing workers to its fall path.",
+      "incorrectOptionExplanations": [
+        "The option 'Lower the load faster to reduce time under suspension' does not apply the controlling principle for suspended load exclusion to the facts given, so it is not the best answer.",
+        "The option 'Allow the practice when workers wear hard hats' does not apply the controlling principle for suspended load exclusion to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use hand contact from directly below because it provides better control' does not apply the controlling principle for suspended load exclusion to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: suspended load exclusion",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "206f80532e62395b5a7f2c96e8c7e83619ca1923d5096eab1d76775377b0e69d"
+    },
+    {
+      "id": "PV2-CORE-CH30-008",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "conveyor energy and guarding",
+      "itemFamilyId": "PV2-CORE-CH30-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A jam occurs inside a guarded conveyor transfer point. Operators routinely reach through an opening while the belt runs slowly. Which correction is most defensible?",
+      "options": [
+        "Enlarge the opening so workers can reach more comfortably",
+        "Keep slow speed because low-speed conveyors cannot cause serious injury",
+        "Use a spotter while the conveyor remains energized",
+        "Eliminate routine reach-in, improve guarding or jam-clearing design, and isolate hazardous energy before access"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation.",
+      "incorrectOptionExplanations": [
+        "The option 'Enlarge the opening so workers can reach more comfortably' does not apply the controlling principle for conveyor energy and guarding to the facts given, so it is not the best answer.",
+        "The option 'Keep slow speed because low-speed conveyors cannot cause serious injury' does not apply the controlling principle for conveyor energy and guarding to the facts given, so it is not the best answer.",
+        "The option 'Use a spotter while the conveyor remains energized' does not apply the controlling principle for conveyor energy and guarding to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: conveyor energy and guarding",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f9beb02a88ac552547954323165b199a1a2bdd1594e2c5deba51e192502b48bb"
+    },
+    {
+      "id": "PV2-CORE-CH30-009",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "forklift stability triangle",
+      "itemFamilyId": "PV2-CORE-CH30-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a crane signalperson briefing, the team reviews this case: A forklift turns sharply while carrying a raised, off-center load. Which combined effect creates the greatest tip-over concern? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Forklift stability depends on the combined center of gravity remaining within the stability area. Height, lateral offset, speed, and turning reduce the margin even below nominal capacity.",
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation.",
+        "People should not be positioned under suspended loads. Tag lines, planning, positioning, and other controls must manage the load without exposing workers to its fall path.",
+        "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses forklift stability triangle and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'conveyor energy and guarding', but it does not resolve the forklift stability triangle issue in this case.",
+        "This rationale supports the separate chapter topic 'suspended load exclusion', but it does not resolve the forklift stability triangle issue in this case.",
+        "This rationale supports the separate chapter topic 'trailer and dock safety', but it does not resolve the forklift stability triangle issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: forklift stability triangle",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9abed36c19dc100be217f34003e9f43b0d71e0b2b89843f7485df72f7c30a333"
+    },
+    {
+      "id": "PV2-CORE-CH30-010",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "forklift load center and capacity",
+      "itemFamilyId": "PV2-CORE-CH30-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a warehouse pedestrian study, the team reviews this case: A truck is rated for 4,000 pounds at a 24-inch load center. A long load moves the actual load center substantially farther forward. What should the operator conclude? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation.",
+        "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating.",
+        "Flatter sling angles require greater horizontal and total leg forces to support the same vertical load, potentially exceeding component ratings.",
+        "Damage affecting load-bearing material is a removal condition. Duration and informal repairs do not establish capacity."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses forklift load center and capacity and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'conveyor energy and guarding', but it does not resolve the forklift load center and capacity issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'rigging angle forces', but it does not resolve the forklift load center and capacity issue in this case.",
+        "This rationale supports the separate chapter topic 'sling inspection and removal', but it does not resolve the forklift load center and capacity issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: forklift load center and capacity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e2df87a16bc5350fe50ec044925faf3bda486dcbc10ffd0d8b3166ccbae94e4f"
+    },
+    {
+      "id": "PV2-CORE-CH30-011",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pedestrian and forklift separation",
+      "itemFamilyId": "PV2-CORE-CH30-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a sling inspection, the team reviews this case: A warehouse has frequent near misses where forklifts reverse through blind intersections used by pedestrians. Which control is strongest? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Forklift stability depends on the combined center of gravity remaining within the stability area. Height, lateral offset, speed, and turning reduce the margin even below nominal capacity.",
+        "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating.",
+        "Physical separation and traffic-system design are more reliable than visibility apparel or alarms alone, especially at predictable conflict points.",
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses pedestrian and forklift separation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'forklift stability triangle', but it does not resolve the pedestrian and forklift separation issue in this case.",
+        "This rationale supports the separate chapter topic 'forklift load center and capacity', but it does not resolve the pedestrian and forklift separation issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'conveyor energy and guarding', but it does not resolve the pedestrian and forklift separation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: pedestrian and forklift separation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "73ca8be0b8b1803589d7f28ee828827ead6bbb8e237982409083500a9cad310e"
+    },
+    {
+      "id": "PV2-CORE-CH30-012",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "trailer and dock safety",
+      "itemFamilyId": "PV2-CORE-CH30-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a dockboard assessment, the team reviews this case: A forklift must enter a detached trailer at a dock. What should be verified before entry? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Flatter sling angles require greater horizontal and total leg forces to support the same vertical load, potentially exceeding component ratings.",
+        "Forklift stability depends on the combined center of gravity remaining within the stability area. Height, lateral offset, speed, and turning reduce the margin even below nominal capacity.",
+        "People should not be positioned under suspended loads. Tag lines, planning, positioning, and other controls must manage the load without exposing workers to its fall path.",
+        "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses trailer and dock safety and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'rigging angle forces', but it does not resolve the trailer and dock safety issue in this case.",
+        "This rationale supports the separate chapter topic 'forklift stability triangle', but it does not resolve the trailer and dock safety issue in this case.",
+        "This rationale supports the separate chapter topic 'suspended load exclusion', but it does not resolve the trailer and dock safety issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: trailer and dock safety",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "972f0f6478f28346322e685101ff414298ef79e6750252a782c8ba5896ded07a"
+    },
+    {
+      "id": "PV2-CORE-CH30-013",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sling inspection and removal",
+      "itemFamilyId": "PV2-CORE-CH30-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a conveyor safeguarding audit, the team reviews this case: A synthetic web sling has a cut exposing load-bearing yarns. The lift is light and scheduled to last one minute. What is the correct decision? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Damage affecting load-bearing material is a removal condition. Duration and informal repairs do not establish capacity.",
+        "Forklift stability depends on the combined center of gravity remaining within the stability area. Height, lateral offset, speed, and turning reduce the margin even below nominal capacity.",
+        "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface.",
+        "Flatter sling angles require greater horizontal and total leg forces to support the same vertical load, potentially exceeding component ratings."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses sling inspection and removal and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'forklift stability triangle', but it does not resolve the sling inspection and removal issue in this case.",
+        "This rationale supports the separate chapter topic 'trailer and dock safety', but it does not resolve the sling inspection and removal issue in this case.",
+        "This rationale supports the separate chapter topic 'rigging angle forces', but it does not resolve the sling inspection and removal issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: sling inspection and removal",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b37a4a06572902ad1eaf7565e946f28c798870ffe5cd212a7706ef47d978041b"
+    },
+    {
+      "id": "PV2-CORE-CH30-014",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "rigging angle forces",
+      "itemFamilyId": "PV2-CORE-CH30-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a suspended-load exclusion-zone decision, the team reviews this case: A two-leg sling lifts a symmetric load. The sling legs are changed from near vertical to a much flatter angle while load weight stays the same. What happens to leg tension? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating.",
+        "Flatter sling angles require greater horizontal and total leg forces to support the same vertical load, potentially exceeding component ratings.",
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation.",
+        "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses rigging angle forces and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'forklift load center and capacity', but it does not resolve the rigging angle forces issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'conveyor energy and guarding', but it does not resolve the rigging angle forces issue in this case.",
+        "This rationale supports the separate chapter topic 'trailer and dock safety', but it does not resolve the rigging angle forces issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: rigging angle forces",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "efebaa4b5b76c7f2e6a46ac7dca2e3f68735e7701825c9ad1f42c33ebdb0ee4e"
+    },
+    {
+      "id": "PV2-CORE-CH30-015",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08f",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "suspended load exclusion",
+      "itemFamilyId": "PV2-CORE-CH30-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a forklift operation review, the team reviews this case: A supervisor directs employees to guide a load by standing beneath it because the tag line is too short. What should the lift director require? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface.",
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation.",
+        "People should not be positioned under suspended loads. Tag lines, planning, positioning, and other controls must manage the load without exposing workers to its fall path.",
+        "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses suspended load exclusion and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'trailer and dock safety', but it does not resolve the suspended load exclusion issue in this case.",
+        "This rationale supports the separate chapter topic 'conveyor energy and guarding', but it does not resolve the suspended load exclusion issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'forklift load center and capacity', but it does not resolve the suspended load exclusion issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: suspended load exclusion",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "040f92df8073938852293d3047d71b5b24d36942783c37a641a77613cd846aac"
+    },
+    {
+      "id": "PV2-CORE-CH30-016",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "conveyor energy and guarding",
+      "itemFamilyId": "PV2-CORE-CH30-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a rigging-plan verification, the team reviews this case: A jam occurs inside a guarded conveyor transfer point. Operators routinely reach through an opening while the belt runs slowly. Which correction is most defensible? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Flatter sling angles require greater horizontal and total leg forces to support the same vertical load, potentially exceeding component ratings.",
+        "Damage affecting load-bearing material is a removal condition. Duration and informal repairs do not establish capacity.",
+        "People should not be positioned under suspended loads. Tag lines, planning, positioning, and other controls must manage the load without exposing workers to its fall path.",
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses conveyor energy and guarding and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'rigging angle forces', but it does not resolve the conveyor energy and guarding issue in this case.",
+        "This rationale supports the separate chapter topic 'sling inspection and removal', but it does not resolve the conveyor energy and guarding issue in this case.",
+        "This rationale supports the separate chapter topic 'suspended load exclusion', but it does not resolve the conveyor energy and guarding issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: conveyor energy and guarding",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "964d1f20ea6e9644f90cdd96439b9260f72406846a4777afa227f0dd653a9f46"
+    },
+    {
+      "id": "PV2-CORE-CH30-017",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Forklift stability triangle",
+      "itemFamilyId": "PV2-CORE-CH30-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a rigging-plan verification, the team reviews this question: A forklift turns quickly with an elevated off-center load. Why does tip-over risk increase? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Turning, elevation, and off-center loading shift the combined center of gravity toward or beyond the stability boundary.",
+        "Stored materials must remain stable and secure against sliding or collapse, with aisles kept safely clear.",
+        "Servicing that exposes workers to unexpected startup or stored energy requires an energy-control procedure and verification.",
+        "Mechanical assistance or redesign reduces the load and exposure at the source, which is stronger than behavior-dependent methods."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Material stacking', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Conveyor energy control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Manual handling control', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, powered industrial trucks and workplace conditions, pp. 702-712; Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4418dedf7d1202c0d06d2d5224e6c330792304a7bfe46fc91b408d6ebba8ee6f"
+    },
+    {
+      "id": "PV2-CORE-CH30-018",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Load-center capacity",
+      "itemFamilyId": "PV2-CORE-CH30-F018",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a crane signalperson briefing, solve the following problem and select the best answer: A forklift is rated for 4,000 pounds at a 24-inch load center. Ignoring other limits, what approximate load produces the same load moment at a 30-inch center?",
+      "options": [
+        "5,000 pounds",
+        "3,200 pounds",
+        "4,000 pounds",
+        "2,400 pounds"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Maintain the same moment: 4,000*24 = W*30, so W = 3,200 pounds.",
+      "incorrectOptionExplanations": [
+        "A longer load center reduces, rather than increases, the equivalent allowable load.",
+        null,
+        "Rated capacity at 24 inches cannot simply be used at the longer load center.",
+        "This applies the ratio in the wrong direction and reduces capacity too far."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, powered industrial truck load and stability principles, pp. 702-712; Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "rated load*rated center = allowable load*actual center",
+      "units": "pounds",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5f550a2795c36b1ba1c713469fb8e152a884d0550e79b245592b2f25d5f93112"
+    },
+    {
+      "id": "PV2-CORE-CH30-019",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pre-use forklift inspection",
+      "itemFamilyId": "PV2-CORE-CH30-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a warehouse pedestrian study, the team reviews this question: An operator finds a hydraulic leak during the pre-use inspection. What is the correct response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Mechanical assistance or redesign reduces the load and exposure at the source, which is stronger than behavior-dependent methods.",
+        "OSHA requires an evaluation of each operator performance at least once every three years, with refresher training when specified conditions occur.",
+        "Powered industrial trucks should not be placed in service when inspection identifies a condition that adversely affects safe operation.",
+        "Employees should be kept clear of suspended loads and the fall zone because rigging or equipment failure can be catastrophic."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Manual handling control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Operator evaluation frequency', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Suspended-load exclusion', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, powered industrial trucks, pp. 702-712; OSHA 1910.178; Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "56c6a5454a7efb8813f53a6351bc261d95bc35ce5b3838b6b5915f3d9d3dd918"
+    },
+    {
+      "id": "PV2-CORE-CH30-020",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Operator evaluation frequency",
+      "itemFamilyId": "PV2-CORE-CH30-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a sling inspection, the team reviews this question: How often must each powered-industrial-truck operator performance be evaluated at a minimum? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Mechanical assistance or redesign reduces the load and exposure at the source, which is stronger than behavior-dependent methods.",
+        "Powered industrial trucks should not be placed in service when inspection identifies a condition that adversely affects safe operation.",
+        "Employees should be kept clear of suspended loads and the fall zone because rigging or equipment failure can be catastrophic.",
+        "OSHA requires an evaluation of each operator performance at least once every three years, with refresher training when specified conditions occur."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Manual handling control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Pre-use forklift inspection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Suspended-load exclusion', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, powered industrial truck training, pp. 702-710; OSHA 1910.178(l); Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fd65e073285e04105046f8cb875713740169550a89f14bf0b35a3ffb92301ba8"
+    },
+    {
+      "id": "PV2-CORE-CH30-021",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dockboard control",
+      "itemFamilyId": "PV2-CORE-CH30-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a dockboard assessment, the team reviews this question: Before a forklift enters a trailer across a portable dockboard, which verification is most important? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Safe dock transfer depends on adequate dockboard capacity and securement plus prevention of trailer movement.",
+        "Stored materials must remain stable and secure against sliding or collapse, with aisles kept safely clear.",
+        "Servicing that exposes workers to unexpected startup or stored energy requires an energy-control procedure and verification.",
+        "Mechanical assistance or redesign reduces the load and exposure at the source, which is stronger than behavior-dependent methods."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Material stacking', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Conveyor energy control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Manual handling control', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, loading docks and entering semi-trailers, pp. 710-712; OSHA material handling; Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.176",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "93c6b4eb5c1c84d091ef787d13ba6ab860992f4bcad3810f81297f8099a49c93"
+    },
+    {
+      "id": "PV2-CORE-CH30-022",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Material stacking",
+      "itemFamilyId": "PV2-CORE-CH30-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a conveyor safeguarding audit, the team reviews this question: Palletized materials are leaning into an aisle after partial removal. What is the best response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Turning, elevation, and off-center loading shift the combined center of gravity toward or beyond the stability boundary.",
+        "Stored materials must remain stable and secure against sliding or collapse, with aisles kept safely clear.",
+        "Servicing that exposes workers to unexpected startup or stored energy requires an energy-control procedure and verification.",
+        "Mechanical assistance or redesign reduces the load and exposure at the source, which is stronger than behavior-dependent methods."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Forklift stability triangle', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Conveyor energy control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Manual handling control', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, materials storage and storage racks, pp. 687-715; OSHA 1910.176; Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.176",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d509a7fae00783289fcea39196ab6a24cb01e0cc59e15210929a9ace28ed9ace"
+    },
+    {
+      "id": "PV2-CORE-CH30-023",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Two-leg sling tension",
+      "itemFamilyId": "PV2-CORE-CH30-F023",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a suspended-load exclusion-zone decision, solve the following problem and select the best answer: A symmetric two-leg sling supports a 2,000-pound load. Each leg is 60 degrees above horizontal. Ignoring sling weight, what is the approximate tension in each leg?",
+      "options": [
+        "1,000 pounds",
+        "1,732 pounds",
+        "1,155 pounds",
+        "577 pounds"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "For two equal legs, 2*T*sin(60)=2,000. T=2,000/(2*0.866)=approximately 1,155 pounds.",
+      "incorrectOptionExplanations": [
+        "This assumes each leg carries half the load without accounting for sling angle.",
+        "This multiplies the half-load by the sine relationship rather than dividing by it.",
+        null,
+        "This divides by an extra factor of two after resolving the vertical components."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, materials handling and rigging principles, pp. 687-715; ASP11 rigging calculations; Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "T = W/(2*sin(theta))",
+      "units": "pounds-force",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "04203d45e7d18cb7f67a8c45344cfb6c8e7828a1b8f9b524342434e8fb1f6a6f"
+    },
+    {
+      "id": "PV2-CORE-CH30-024",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Manual handling control",
+      "itemFamilyId": "PV2-CORE-CH30-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a forklift operation review, the team reviews this question: A dense component has no good handholds and must be moved repeatedly. Which control should be considered first? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Employees should be kept clear of suspended loads and the fall zone because rigging or equipment failure can be catastrophic.",
+        "Turning, elevation, and off-center loading shift the combined center of gravity toward or beyond the stability boundary.",
+        "Powered industrial trucks should not be placed in service when inspection identifies a condition that adversely affects safe operation.",
+        "Mechanical assistance or redesign reduces the load and exposure at the source, which is stronger than behavior-dependent methods."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Suspended-load exclusion', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Forklift stability triangle', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Pre-use forklift inspection', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 24 and 30, manual material handling and lifting techniques, pp. 546-566 and 687-695; Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0bd534ba0fd8c2eded0114d3e3ad0f4eea1fba37f1c1a191ae58d2013213f91e"
+    },
+    {
+      "id": "PV2-CORE-CH30-025",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Conveyor energy control",
+      "itemFamilyId": "PV2-CORE-CH30-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a rigging-plan verification, the team reviews this question: A jammed conveyor must be cleared inside a guarded area. What is the strongest required approach? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Servicing that exposes workers to unexpected startup or stored energy requires an energy-control procedure and verification.",
+        "Turning, elevation, and off-center loading shift the combined center of gravity toward or beyond the stability boundary.",
+        "Mechanical assistance or redesign reduces the load and exposure at the source, which is stronger than behavior-dependent methods.",
+        "Stored materials must remain stable and secure against sliding or collapse, with aisles kept safely clear."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Forklift stability triangle', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Manual handling control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Material stacking', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 4 and 30, hazardous energy control and conveyors, pp. 68-71 and 713-715; OSHA 1910.147; Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "19fcbeacc10f39eebfc115ff5cd11109c65bd3db7c354d623046bf32ad5dc0e0"
+    },
+    {
+      "id": "PV2-CORE-CH30-026",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08f",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Suspended-load exclusion",
+      "itemFamilyId": "PV2-CORE-CH30-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a crane signalperson briefing, the team reviews this question: A crane is positioning a load while another crew plans to walk under it to save time. What is the best decision? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Mechanical assistance or redesign reduces the load and exposure at the source, which is stronger than behavior-dependent methods.",
+        "Employees should be kept clear of suspended loads and the fall zone because rigging or equipment failure can be catastrophic.",
+        "OSHA requires an evaluation of each operator performance at least once every three years, with refresher training when specified conditions occur.",
+        "Powered industrial trucks should not be placed in service when inspection identifies a condition that adversely affects safe operation."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Manual handling control', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Operator evaluation frequency', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Pre-use forklift inspection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 30, materials handling and lifting equipment, pp. 687-715; Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "49dd3aca376ad905f2757f95820b813456822fd1615f61add9fe7f5486b12f1f"
+    },
+    {
+      "id": "PV2-CORE-CH30-027",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "forklift stability triangle",
+      "itemFamilyId": "PV2-CORE-CH30-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a dockboard assessment, a supervisor proposes: \"An off-center load is safe whenever its total weight is below rated capacity\". The underlying case is: A forklift turns sharply while carrying a raised, off-center load. Which combined effect creates the greatest tip-over concern? Which alternative is the most defensible correction?",
+      "options": [
+        "The raised load lowers the center of gravity and increases the stability margin",
+        "An off-center load is safe whenever its total weight is below rated capacity",
+        "The elevated and shifted combined center of gravity can move outside the stability area under lateral acceleration",
+        "Turning force affects only the tires and cannot shift the stability relationship"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Forklift stability depends on the combined center of gravity remaining within the stability area. Height, lateral offset, speed, and turning reduce the margin even below nominal capacity.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The raised load lowers the center of gravity and increases the stability margin' remains incomplete or misapplies the controlling forklift stability triangle principle.",
+        "The proposed response 'An off-center load is safe whenever its total weight is below rated capacity' remains incomplete or misapplies the controlling forklift stability triangle principle.",
+        null,
+        "The proposed response 'Turning force affects only the tires and cannot shift the stability relationship' remains incomplete or misapplies the controlling forklift stability triangle principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: forklift stability triangle",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6309b1583fdf7f0ad32a72d1734aaee7d10dac442b75e3536a0a8adcb70c74c7"
+    },
+    {
+      "id": "PV2-CORE-CH30-028",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "forklift load center and capacity",
+      "itemFamilyId": "PV2-CORE-CH30-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a conveyor safeguarding audit, a supervisor proposes: \"Keep the 4,000-pound rating because the data plate is assumed not to change with load geometry\". The underlying case is: A truck is rated for 4,000 pounds at a 24-inch load center. A long load moves the actual load center substantially farther forward. What should the operator conclude? Which alternative is the most defensible correction?",
+      "options": [
+        "Add locally selected counterweight and continue operating without manufacturer-approved capacity or data-plate information",
+        "Keep the 4,000-pound rating because the data plate is assumed not to change with load geometry",
+        "Move the mast forward and travel slowly, treating operating technique as sufficient compensation for the longer load center",
+        "Available capacity is reduced, so the load must be evaluated using the truck data and any approved attachment or derating information"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Add locally selected counterweight and continue operating without manufacturer-approved capacity or data-plate information' remains incomplete or misapplies the controlling forklift load center and capacity principle.",
+        "The proposed response 'Keep the 4,000-pound rating because the data plate is assumed not to change with load geometry' remains incomplete or misapplies the controlling forklift load center and capacity principle.",
+        "The proposed response 'Move the mast forward and travel slowly, treating operating technique as sufficient compensation for the longer load center' remains incomplete or misapplies the controlling forklift load center and capacity principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: forklift load center and capacity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d6e90f06cfeeb8c11da87b590254f4eca261b717706adb885d03c4459b3c1799"
+    },
+    {
+      "id": "PV2-CORE-CH30-029",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pedestrian and forklift separation",
+      "itemFamilyId": "PV2-CORE-CH30-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a suspended-load exclusion-zone decision, a supervisor proposes: \"Tell pedestrians to listen for backup alarms as the sole control\". The underlying case is: A warehouse has frequent near misses where forklifts reverse through blind intersections used by pedestrians. Which control is strongest? Which alternative is the most defensible correction?",
+      "options": [
+        "Redesign traffic flow to separate people and trucks, improve sight distance and controls, and verify speeds and right-of-way behavior",
+        "Tell pedestrians to listen for backup alarms as the sole control",
+        "Remove near misses from the log because no one was struck",
+        "Issue high-visibility vests and leave routes and intersections unchanged"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Physical separation and traffic-system design are more reliable than visibility apparel or alarms alone, especially at predictable conflict points.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Tell pedestrians to listen for backup alarms as the sole control' remains incomplete or misapplies the controlling pedestrian and forklift separation principle.",
+        "The proposed response 'Remove near misses from the log because no one was struck' remains incomplete or misapplies the controlling pedestrian and forklift separation principle.",
+        "The proposed response 'Issue high-visibility vests and leave routes and intersections unchanged' remains incomplete or misapplies the controlling pedestrian and forklift separation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: pedestrian and forklift separation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bb420785fd6e47df48cac97348c852887ba451e5f810e5b9c3a0f8d835d744bf"
+    },
+    {
+      "id": "PV2-CORE-CH30-030",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "trailer and dock safety",
+      "itemFamilyId": "PV2-CORE-CH30-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a forklift operation review, a supervisor proposes: \"That the dockboard is the same color as the dock edge\". The underlying case is: A forklift must enter a detached trailer at a dock. What should be verified before entry? Which alternative is the most defensible correction?",
+      "options": [
+        "That the dockboard is the same color as the dock edge",
+        "Trailer restraint or wheel control, landing gear support as needed, dockboard capacity and securement, floor condition, lighting, and trailer stability",
+        "That the driver remains in the cab with the engine running",
+        "Only the forklift’s fuel level because the trailer is not powered equipment"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'That the dockboard is the same color as the dock edge' remains incomplete or misapplies the controlling trailer and dock safety principle.",
+        null,
+        "The proposed response 'That the driver remains in the cab with the engine running' remains incomplete or misapplies the controlling trailer and dock safety principle.",
+        "The proposed response 'Only the forklift’s fuel level because the trailer is not powered equipment' remains incomplete or misapplies the controlling trailer and dock safety principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: trailer and dock safety",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bed8b36eea356d8773a932f163790562fea5006624ef8288f2ec5a4f5e52bffc"
+    },
+    {
+      "id": "PV2-CORE-CH30-031",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sling inspection and removal",
+      "itemFamilyId": "PV2-CORE-CH30-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a rigging-plan verification, a supervisor proposes: \"Use it once because short lift duration offsets sling damage\". The underlying case is: A synthetic web sling has a cut exposing load-bearing yarns. The lift is light and scheduled to last one minute. What is the correct decision? Which alternative is the most defensible correction?",
+      "options": [
+        "Use it once because short lift duration offsets sling damage",
+        "Reduce the load by 10% and continue without manufacturer evaluation",
+        "Remove the sling from service under the applicable rejection criteria and use a suitable inspected replacement",
+        "Tie a knot over the cut to restore rated capacity"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Damage affecting load-bearing material is a removal condition. Duration and informal repairs do not establish capacity.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use it once because short lift duration offsets sling damage' remains incomplete or misapplies the controlling sling inspection and removal principle.",
+        "The proposed response 'Reduce the load by 10% and continue without manufacturer evaluation' remains incomplete or misapplies the controlling sling inspection and removal principle.",
+        null,
+        "The proposed response 'Tie a knot over the cut to restore rated capacity' remains incomplete or misapplies the controlling sling inspection and removal principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: sling inspection and removal",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "65dbdc3826125a1d0a12f1afcc7026591f52de57f26f58561eaefcd22c43816f"
+    },
+    {
+      "id": "PV2-CORE-CH30-032",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "rigging angle forces",
+      "itemFamilyId": "PV2-CORE-CH30-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a crane signalperson briefing, a supervisor proposes: \"Leg tension remains equal to half the load at every angle\". The underlying case is: A two-leg sling lifts a symmetric load. The sling legs are changed from near vertical to a much flatter angle while load weight stays the same. What happens to leg tension? Which alternative is the most defensible correction?",
+      "options": [
+        "Leg tension remains equal to half the load at every angle",
+        "Only hook weight changes; sling angle has no force effect",
+        "Leg tension decreases to zero as the legs approach horizontal",
+        "Leg tension increases as the sling angle becomes flatter"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Flatter sling angles require greater horizontal and total leg forces to support the same vertical load, potentially exceeding component ratings.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Leg tension remains equal to half the load at every angle' remains incomplete or misapplies the controlling rigging angle forces principle.",
+        "The proposed response 'Only hook weight changes; sling angle has no force effect' remains incomplete or misapplies the controlling rigging angle forces principle.",
+        "The proposed response 'Leg tension decreases to zero as the legs approach horizontal' remains incomplete or misapplies the controlling rigging angle forces principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: rigging angle forces",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "175adb2fcd70f4b601a8a9ca69024ec4ae68c705acd3014fc55ed9a7d98b2e71"
+    },
+    {
+      "id": "PV2-CORE-CH30-033",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08f",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "suspended load exclusion",
+      "itemFamilyId": "PV2-CORE-CH30-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a warehouse pedestrian study, a supervisor proposes: \"Use hand contact from directly below because it provides better control\". The underlying case is: A supervisor directs employees to guide a load by standing beneath it because the tag line is too short. What should the lift director require? Which alternative is the most defensible correction?",
+      "options": [
+        "Stop the lift, keep personnel clear of the suspended load and fall zone, and provide an appropriate method to control the load",
+        "Use hand contact from directly below because it provides better control",
+        "Allow the practice when workers wear hard hats",
+        "Lower the load faster to reduce time under suspension"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "People should not be positioned under suspended loads. Tag lines, planning, positioning, and other controls must manage the load without exposing workers to its fall path.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Use hand contact from directly below because it provides better control' remains incomplete or misapplies the controlling suspended load exclusion principle.",
+        "The proposed response 'Allow the practice when workers wear hard hats' remains incomplete or misapplies the controlling suspended load exclusion principle.",
+        "The proposed response 'Lower the load faster to reduce time under suspension' remains incomplete or misapplies the controlling suspended load exclusion principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: suspended load exclusion",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "07917b0757c41142b49f5e6a3b7376fb9de0b41a3d335c45462ca24885ef79a4"
+    },
+    {
+      "id": "PV2-CORE-CH30-034",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "conveyor energy and guarding",
+      "itemFamilyId": "PV2-CORE-CH30-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a sling inspection, a supervisor proposes: \"Keep slow speed because low-speed conveyors cannot cause serious injury\". The underlying case is: A jam occurs inside a guarded conveyor transfer point. Operators routinely reach through an opening while the belt runs slowly. Which correction is most defensible? Which alternative is the most defensible correction?",
+      "options": [
+        "Keep slow speed because low-speed conveyors cannot cause serious injury",
+        "Eliminate routine reach-in, improve guarding or jam-clearing design, and isolate hazardous energy before access",
+        "Use a spotter while the conveyor remains energized",
+        "Enlarge the opening so workers can reach more comfortably"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Keep slow speed because low-speed conveyors cannot cause serious injury' remains incomplete or misapplies the controlling conveyor energy and guarding principle.",
+        null,
+        "The proposed response 'Use a spotter while the conveyor remains energized' remains incomplete or misapplies the controlling conveyor energy and guarding principle.",
+        "The proposed response 'Enlarge the opening so workers can reach more comfortably' remains incomplete or misapplies the controlling conveyor energy and guarding principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: conveyor energy and guarding",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "baa1e6bfd092e10798936a15e6b2dfa32827d417448af85bd9440b4173f6425c"
+    },
+    {
+      "id": "PV2-CORE-CH30-035",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "forklift stability triangle",
+      "itemFamilyId": "PV2-CORE-CH30-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a conveyor safeguarding audit, the team selects \"The elevated and shifted combined center of gravity can move outside the stability area under lateral acceleration\" rather than \"The raised load lowers the center of gravity and increases the stability margin\" for this case: A forklift turns sharply while carrying a raised, off-center load. Which combined effect creates the greatest tip-over concern? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface.",
+        "Damage affecting load-bearing material is a removal condition. Duration and informal repairs do not establish capacity.",
+        "Forklift stability depends on the combined center of gravity remaining within the stability area. Height, lateral offset, speed, and turning reduce the margin even below nominal capacity.",
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the forklift stability triangle issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'trailer and dock safety' and does not distinguish the two responses in the present forklift stability triangle decision.",
+        "This explanation concerns 'sling inspection and removal' and does not distinguish the two responses in the present forklift stability triangle decision.",
+        null,
+        "This explanation concerns 'conveyor energy and guarding' and does not distinguish the two responses in the present forklift stability triangle decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: forklift stability triangle",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5e4aadd4c24829d5b15767b42226ae50f2b2ac8613252dad1431d25cd19bc9a1"
+    },
+    {
+      "id": "PV2-CORE-CH30-036",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "forklift load center and capacity",
+      "itemFamilyId": "PV2-CORE-CH30-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a suspended-load exclusion-zone decision, the team selects \"Available capacity is reduced, so the load must be evaluated using the truck data and any approved attachment or derating information\" rather than \"Move the mast forward and travel slowly, treating operating technique as sufficient compensation for the longer load center\" for this case: A truck is rated for 4,000 pounds at a 24-inch load center. A long load moves the actual load center substantially farther forward. What should the operator conclude? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation.",
+        "Forklift stability depends on the combined center of gravity remaining within the stability area. Height, lateral offset, speed, and turning reduce the margin even below nominal capacity.",
+        "Physical separation and traffic-system design are more reliable than visibility apparel or alarms alone, especially at predictable conflict points.",
+        "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the forklift load center and capacity issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'conveyor energy and guarding' and does not distinguish the two responses in the present forklift load center and capacity decision.",
+        "This explanation concerns 'forklift stability triangle' and does not distinguish the two responses in the present forklift load center and capacity decision.",
+        "This explanation concerns 'pedestrian and forklift separation' and does not distinguish the two responses in the present forklift load center and capacity decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: forklift load center and capacity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bbf791988430626f7df8fd26b95284711e9c229a8487b271607bec910fe3a92f"
+    },
+    {
+      "id": "PV2-CORE-CH30-037",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pedestrian and forklift separation",
+      "itemFamilyId": "PV2-CORE-CH30-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a forklift operation review, the team selects \"Redesign traffic flow to separate people and trucks, improve sight distance and controls, and verify speeds and right-of-way behavior\" rather than \"Remove near misses from the log because no one was struck\" for this case: A warehouse has frequent near misses where forklifts reverse through blind intersections used by pedestrians. Which control is strongest? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Physical separation and traffic-system design are more reliable than visibility apparel or alarms alone, especially at predictable conflict points.",
+        "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating.",
+        "Damage affecting load-bearing material is a removal condition. Duration and informal repairs do not establish capacity.",
+        "People should not be positioned under suspended loads. Tag lines, planning, positioning, and other controls must manage the load without exposing workers to its fall path."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the pedestrian and forklift separation issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'forklift load center and capacity' and does not distinguish the two responses in the present pedestrian and forklift separation decision.",
+        "This explanation concerns 'sling inspection and removal' and does not distinguish the two responses in the present pedestrian and forklift separation decision.",
+        "This explanation concerns 'suspended load exclusion' and does not distinguish the two responses in the present pedestrian and forklift separation decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: pedestrian and forklift separation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9cb2faa6737ede8ca8aad1a36f52b18ee984170a6c45f378eb22b19d8e1f7cf8"
+    },
+    {
+      "id": "PV2-CORE-CH30-038",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "trailer and dock safety",
+      "itemFamilyId": "PV2-CORE-CH30-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a rigging-plan verification, the team selects \"Trailer restraint or wheel control, landing gear support as needed, dockboard capacity and securement, floor condition, lighting, and trailer stability\" rather than \"Only the forklift’s fuel level because the trailer is not powered equipment\" for this case: A forklift must enter a detached trailer at a dock. What should be verified before entry? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating.",
+        "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface.",
+        "Forklift stability depends on the combined center of gravity remaining within the stability area. Height, lateral offset, speed, and turning reduce the margin even below nominal capacity.",
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the trailer and dock safety issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'forklift load center and capacity' and does not distinguish the two responses in the present trailer and dock safety decision.",
+        null,
+        "This explanation concerns 'forklift stability triangle' and does not distinguish the two responses in the present trailer and dock safety decision.",
+        "This explanation concerns 'conveyor energy and guarding' and does not distinguish the two responses in the present trailer and dock safety decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: trailer and dock safety",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "96e235ae517a5fd9acfbe970b4b2702ed4b4299ed3c45872fb2427fe5a3a5491"
+    },
+    {
+      "id": "PV2-CORE-CH30-039",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08e",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sling inspection and removal",
+      "itemFamilyId": "PV2-CORE-CH30-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a crane signalperson briefing, the team selects \"Remove the sling from service under the applicable rejection criteria and use a suitable inspected replacement\" rather than \"Tie a knot over the cut to restore rated capacity\" for this case: A synthetic web sling has a cut exposing load-bearing yarns. The lift is light and scheduled to last one minute. What is the correct decision? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Flatter sling angles require greater horizontal and total leg forces to support the same vertical load, potentially exceeding component ratings.",
+        "People should not be positioned under suspended loads. Tag lines, planning, positioning, and other controls must manage the load without exposing workers to its fall path.",
+        "Damage affecting load-bearing material is a removal condition. Duration and informal repairs do not establish capacity.",
+        "Slow movement can still entangle or crush. The design should prevent access and enable remote clearing or verified energy isolation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the sling inspection and removal issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'rigging angle forces' and does not distinguish the two responses in the present sling inspection and removal decision.",
+        "This explanation concerns 'suspended load exclusion' and does not distinguish the two responses in the present sling inspection and removal decision.",
+        null,
+        "This explanation concerns 'conveyor energy and guarding' and does not distinguish the two responses in the present sling inspection and removal decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: sling inspection and removal",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d6183160044794f46760c0fe344feba9b5fd0241c2196b6b6aea4e4f9bfe5982"
+    },
+    {
+      "id": "PV2-CORE-CH30-040",
+      "version": 1,
+      "chapterId": "ch-30",
+      "chapterTitle": "Materials Handling, Powered Industrial Trucks, and Rigging",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "rigging angle forces",
+      "itemFamilyId": "PV2-CORE-CH30-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a warehouse pedestrian study, the team selects \"Leg tension increases as the sling angle becomes flatter\" rather than \"Only hook weight changes; sling angle has no force effect\" for this case: A two-leg sling lifts a symmetric load. The sling legs are changed from near vertical to a much flatter angle while load weight stays the same. What happens to leg tension? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "People should not be positioned under suspended loads. Tag lines, planning, positioning, and other controls must manage the load without exposing workers to its fall path.",
+        "A longer load center increases overturning moment and can reduce capacity. Unauthorized counterweights or mast positioning do not restore the listed rating.",
+        "Trailer movement, collapse, dockboard failure, poor flooring, and visibility can be catastrophic. A pre-entry system must address each interface.",
+        "Flatter sling angles require greater horizontal and total leg forces to support the same vertical load, potentially exceeding component ratings."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the rigging angle forces issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'suspended load exclusion' and does not distinguish the two responses in the present rigging angle forces decision.",
+        "This explanation concerns 'forklift load center and capacity' and does not distinguish the two responses in the present rigging angle forces decision.",
+        "This explanation concerns 'trailer and dock safety' and does not distinguish the two responses in the present rigging angle forces decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 30, pp. 687-716; 29 CFR 1910.178, 1910.179, and 1910.184 as applicable; curated topic: rigging angle forces",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.178",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1ba65f16cd8a1f7b2f0fc3328a04f1f7983e1f18563333c059c019712d913407"
+    }
+  ]
+}

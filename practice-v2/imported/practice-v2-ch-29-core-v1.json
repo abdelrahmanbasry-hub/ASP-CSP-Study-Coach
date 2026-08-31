@@ -1,0 +1,2039 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-29-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-29",
+  "chapterTitle": "Walking and Working Surfaces",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH29-001",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "walking surface housekeeping",
+      "itemFamilyId": "PV2-CORE-CH29-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A production aisle repeatedly becomes slick from a leaking process line. Crews mop it several times per shift. What is the strongest corrective action?",
+      "options": [
+        "Repair or contain the leak and provide a surface and drainage design that prevents recurrent contamination, while using interim controls",
+        "Increase mopping frequency indefinitely without correcting the source",
+        "Post a permanent “slippery when wet” sign and accept the leak",
+        "Require workers to walk more slowly as the sole control"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Increase mopping frequency indefinitely without correcting the source' does not apply the controlling principle for walking surface housekeeping to the facts given, so it is not the best answer.",
+        "The option 'Post a permanent “slippery when wet” sign and accept the leak' does not apply the controlling principle for walking surface housekeeping to the facts given, so it is not the best answer.",
+        "The option 'Require workers to walk more slowly as the sole control' does not apply the controlling principle for walking surface housekeeping to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: walking surface housekeeping",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e10e7da64c396d60cb8c720a5319584720dc2f754ebe381cf9c24e0f9092d535"
+    },
+    {
+      "id": "PV2-CORE-CH29-002",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "floor opening protection",
+      "itemFamilyId": "PV2-CORE-CH29-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A floor opening is temporarily uncovered for material transfer. Workers will pass nearby, and the cover is stored across the room. What should be done?",
+      "options": [
+        "Rely on verbal warnings because the opening is temporary",
+        "Guard the opening or install a secured, load-capable, marked cover before exposing workers to the area",
+        "Place an empty pallet beside the opening as a visual cue",
+        "Allow access if workers wear high-visibility clothing"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Openings require positive guarding or a suitable secured cover. Temporary duration and visibility do not prevent a fall.",
+      "incorrectOptionExplanations": [
+        "The option 'Rely on verbal warnings because the opening is temporary' does not apply the controlling principle for floor opening protection to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Place an empty pallet beside the opening as a visual cue' does not apply the controlling principle for floor opening protection to the facts given, so it is not the best answer.",
+        "The option 'Allow access if workers wear high-visibility clothing' does not apply the controlling principle for floor opening protection to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: floor opening protection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "14a7e3f497e104bc058204b964d1f2800084bdfa7723881369cb6d00a393c7e3"
+    },
+    {
+      "id": "PV2-CORE-CH29-003",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "portable ladder angle",
+      "itemFamilyId": "PV2-CORE-CH29-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A non-self-supporting ladder is set with its base extremely close to the wall, making the ladder nearly vertical. What risk is increased?",
+      "options": [
+        "The ladder becomes stronger because vertical loading increases its rating",
+        "A near-vertical angle is required whenever the ladder extends above a landing",
+        "The base can slide outward or the user can fall backward because the ladder is not set at a stable angle",
+        "The only concern is that the ladder will be too short"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Straight and extension ladders need a stable setup angle, firm footing, and secure support; an excessively steep ladder is unstable.",
+      "incorrectOptionExplanations": [
+        "The option 'The ladder becomes stronger because vertical loading increases its rating' does not apply the controlling principle for portable ladder angle to the facts given, so it is not the best answer.",
+        "The option 'A near-vertical angle is required whenever the ladder extends above a landing' does not apply the controlling principle for portable ladder angle to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The only concern is that the ladder will be too short' does not apply the controlling principle for portable ladder angle to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: portable ladder angle",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9c40895d7408f5890f3fec3ee5034eed40bd929556de0f51f9fd1e27f6bf2e93"
+    },
+    {
+      "id": "PV2-CORE-CH29-004",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ladder top access",
+      "itemFamilyId": "PV2-CORE-CH29-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An extension ladder is used to access a roof, but its side rails stop at the roof edge and there are no grab rails. What is the proper correction?",
+      "options": [
+        "Leave it unchanged because workers can hold the roof edge",
+        "Place a loose board on the top rung to create a handhold",
+        "Ask workers to jump from the top rung to the roof quickly",
+        "Extend the rails sufficiently above the landing or provide an equivalent secure grasping arrangement and secure the ladder"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Safe transition at an upper landing requires adequate rail extension or an equivalent handhold and a stable, secured ladder.",
+      "incorrectOptionExplanations": [
+        "The option 'Leave it unchanged because workers can hold the roof edge' does not apply the controlling principle for ladder top access to the facts given, so it is not the best answer.",
+        "The option 'Place a loose board on the top rung to create a handhold' does not apply the controlling principle for ladder top access to the facts given, so it is not the best answer.",
+        "The option 'Ask workers to jump from the top rung to the roof quickly' does not apply the controlling principle for ladder top access to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: ladder top access",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b81e262abf3f94ee547a7abc8b76d91bed0639803c64d827c612a87435523987"
+    },
+    {
+      "id": "PV2-CORE-CH29-005",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fixed ladder fall protection",
+      "itemFamilyId": "PV2-CORE-CH29-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility replaces cages on a tall fixed ladder with a ladder safety system. What program element remains essential?",
+      "options": [
+        "Ensure the system is compatible, inspected, maintained, and used by trained employees throughout the required climbing path",
+        "Assume installation alone guarantees protection without inspecting connectors or anchorage",
+        "Allow employees to climb outside the system when carrying tools",
+        "Treat the system as a substitute for safe ladder condition and access design"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Assume installation alone guarantees protection without inspecting connectors or anchorage' does not apply the controlling principle for fixed ladder fall protection to the facts given, so it is not the best answer.",
+        "The option 'Allow employees to climb outside the system when carrying tools' does not apply the controlling principle for fixed ladder fall protection to the facts given, so it is not the best answer.",
+        "The option 'Treat the system as a substitute for safe ladder condition and access design' does not apply the controlling principle for fixed ladder fall protection to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: fixed ladder fall protection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "93c6fd1d307721694bfc9706ca22acc559c699fbdf82cc43c8847979165c1b83"
+    },
+    {
+      "id": "PV2-CORE-CH29-006",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "guardrail system integrity",
+      "itemFamilyId": "PV2-CORE-CH29-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A guardrail top rail is at the expected height but is loosely attached and deflects under light force. Which conclusion is correct?",
+      "options": [
+        "Tie caution tape to the rail to restore structural capacity",
+        "Height alone is insufficient; the system must meet strength and construction requirements and be repaired before reliance",
+        "The rail is compliant because measurement is the only guardrail criterion",
+        "Use the rail until an employee reports that it has failed"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Guardrails must resist required loads and maintain their protective geometry. A weak rail can create false confidence and cannot be accepted based on height alone.",
+      "incorrectOptionExplanations": [
+        "The option 'Tie caution tape to the rail to restore structural capacity' does not apply the controlling principle for guardrail system integrity to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The rail is compliant because measurement is the only guardrail criterion' does not apply the controlling principle for guardrail system integrity to the facts given, so it is not the best answer.",
+        "The option 'Use the rail until an employee reports that it has failed' does not apply the controlling principle for guardrail system integrity to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: guardrail system integrity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "690452a96b74dd037ba07eeedf4a6cfe08b6149a483532eb2707a2d908636c1e"
+    },
+    {
+      "id": "PV2-CORE-CH29-007",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "roof work warning lines",
+      "itemFamilyId": "PV2-CORE-CH29-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A crew uses a warning line close to an unprotected roof edge for work that requires conventional fall protection. What is the key issue?",
+      "options": [
+        "Any visible line is equivalent to a guardrail",
+        "The line may be placed directly at the edge if flags are bright enough",
+        "A warning line is not a universal substitute; the selected system must be permitted for the roofing work and configured with required setbacks and supplementary controls",
+        "Warning lines eliminate the need for training and supervision"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Warning-line use is limited and conditional. Applicability, location, work type, access, and accompanying protection must meet the governing requirements.",
+      "incorrectOptionExplanations": [
+        "The option 'Any visible line is equivalent to a guardrail' does not apply the controlling principle for roof work warning lines to the facts given, so it is not the best answer.",
+        "The option 'The line may be placed directly at the edge if flags are bright enough' does not apply the controlling principle for roof work warning lines to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Warning lines eliminate the need for training and supervision' does not apply the controlling principle for roof work warning lines to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: roof work warning lines",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "31a2422e7f0f31f6186a6e98ec1557e5afe858db10383ee35c9a0837dd8939d5"
+    },
+    {
+      "id": "PV2-CORE-CH29-008",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "slip resistance and footwear",
+      "itemFamilyId": "PV2-CORE-CH29-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A floor coating has low wet slip resistance, but management proposes requiring aggressive-tread shoes without changing the surface. What is the best long-term approach?",
+      "options": [
+        "Treat footwear as complete elimination of the floor hazard",
+        "Ban all liquids from the building without examining process sources",
+        "Base the assessment on dry-floor slip resistance and treat wet operating conditions as a housekeeping issue",
+        "Improve the surface, drainage, and contamination control, then select compatible footwear as an additional measure"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Surface and contamination controls address the hazard for everyone. Footwear can supplement but should not be the only response to a predictably slick wet surface.",
+      "incorrectOptionExplanations": [
+        "The option 'Treat footwear as complete elimination of the floor hazard' does not apply the controlling principle for slip resistance and footwear to the facts given, so it is not the best answer.",
+        "The option 'Ban all liquids from the building without examining process sources' does not apply the controlling principle for slip resistance and footwear to the facts given, so it is not the best answer.",
+        "The option 'Base the assessment on dry-floor slip resistance and treat wet operating conditions as a housekeeping issue' does not apply the controlling principle for slip resistance and footwear to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: slip resistance and footwear",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "efd13eb338ca7c89a3aa0c1cfbf801daea917af2644f57da01c55c984f01baee"
+    },
+    {
+      "id": "PV2-CORE-CH29-009",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "walking surface housekeeping",
+      "itemFamilyId": "PV2-CORE-CH29-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a floor opening assessment, the team reviews this case: A production aisle repeatedly becomes slick from a leaking process line. Crews mop it several times per shift. What is the strongest corrective action? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+        "Safe transition at an upper landing requires adequate rail extension or an equivalent handhold and a stable, secured ladder.",
+        "Surface and contamination controls address the hazard for everyone. Footwear can supplement but should not be the only response to a predictably slick wet surface.",
+        "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses walking surface housekeeping and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'ladder top access', but it does not resolve the walking surface housekeeping issue in this case.",
+        "This rationale supports the separate chapter topic 'slip resistance and footwear', but it does not resolve the walking surface housekeeping issue in this case.",
+        "This rationale supports the separate chapter topic 'fixed ladder fall protection', but it does not resolve the walking surface housekeeping issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: walking surface housekeeping",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2fc51bca8b47ae4fe0bd62a6f1319abcc99582f0380e4069e47d963dbd9d5848"
+    },
+    {
+      "id": "PV2-CORE-CH29-010",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "floor opening protection",
+      "itemFamilyId": "PV2-CORE-CH29-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a slip-resistance investigation, the team reviews this case: A floor opening is temporarily uncovered for material transfer. Workers will pass nearby, and the cover is stored across the room. What should be done? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+        "Openings require positive guarding or a suitable secured cover. Temporary duration and visibility do not prevent a fall.",
+        "Guardrails must resist required loads and maintain their protective geometry. A weak rail can create false confidence and cannot be accepted based on height alone.",
+        "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses floor opening protection and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'walking surface housekeeping', but it does not resolve the floor opening protection issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'guardrail system integrity', but it does not resolve the floor opening protection issue in this case.",
+        "This rationale supports the separate chapter topic 'fixed ladder fall protection', but it does not resolve the floor opening protection issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: floor opening protection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3d0559316871aad37424d4fadef4f8cd0036c0e2b086a835d8c796dbe05e7bef"
+    },
+    {
+      "id": "PV2-CORE-CH29-011",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "portable ladder angle",
+      "itemFamilyId": "PV2-CORE-CH29-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a portable ladder selection, the team reviews this case: A non-self-supporting ladder is set with its base extremely close to the wall, making the ladder nearly vertical. What risk is increased? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+        "Guardrails must resist required loads and maintain their protective geometry. A weak rail can create false confidence and cannot be accepted based on height alone.",
+        "Straight and extension ladders need a stable setup angle, firm footing, and secure support; an excessively steep ladder is unstable.",
+        "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses portable ladder angle and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'walking surface housekeeping', but it does not resolve the portable ladder angle issue in this case.",
+        "This rationale supports the separate chapter topic 'guardrail system integrity', but it does not resolve the portable ladder angle issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'fixed ladder fall protection', but it does not resolve the portable ladder angle issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: portable ladder angle",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "96bbc306f37e2479ce00bedf8fbfdff73df69e46b944b7043b4610c00419dbb1"
+    },
+    {
+      "id": "PV2-CORE-CH29-012",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ladder top access",
+      "itemFamilyId": "PV2-CORE-CH29-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a roof-work planning meeting, the team reviews this case: An extension ladder is used to access a roof, but its side rails stop at the roof edge and there are no grab rails. What is the proper correction? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+        "Straight and extension ladders need a stable setup angle, firm footing, and secure support; an excessively steep ladder is unstable.",
+        "Openings require positive guarding or a suitable secured cover. Temporary duration and visibility do not prevent a fall.",
+        "Safe transition at an upper landing requires adequate rail extension or an equivalent handhold and a stable, secured ladder."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses ladder top access and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'walking surface housekeeping', but it does not resolve the ladder top access issue in this case.",
+        "This rationale supports the separate chapter topic 'portable ladder angle', but it does not resolve the ladder top access issue in this case.",
+        "This rationale supports the separate chapter topic 'floor opening protection', but it does not resolve the ladder top access issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: ladder top access",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f8edd7ed5ebd6cfc01506b54963bec20daa70b71c5e6fadc10fbaed4d87d50b5"
+    },
+    {
+      "id": "PV2-CORE-CH29-013",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fixed ladder fall protection",
+      "itemFamilyId": "PV2-CORE-CH29-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a guardrail system audit, the team reviews this case: A facility replaces cages on a tall fixed ladder with a ladder safety system. What program element remains essential? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment.",
+        "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+        "Surface and contamination controls address the hazard for everyone. Footwear can supplement but should not be the only response to a predictably slick wet surface.",
+        "Openings require positive guarding or a suitable secured cover. Temporary duration and visibility do not prevent a fall."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses fixed ladder fall protection and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'walking surface housekeeping', but it does not resolve the fixed ladder fall protection issue in this case.",
+        "This rationale supports the separate chapter topic 'slip resistance and footwear', but it does not resolve the fixed ladder fall protection issue in this case.",
+        "This rationale supports the separate chapter topic 'floor opening protection', but it does not resolve the fixed ladder fall protection issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: fixed ladder fall protection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c978bd0ca0cae9a97423f5ae0704133d805205f57c08d10f7eccf13516072443"
+    },
+    {
+      "id": "PV2-CORE-CH29-014",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "guardrail system integrity",
+      "itemFamilyId": "PV2-CORE-CH29-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a housekeeping trend review, the team reviews this case: A guardrail top rail is at the expected height but is loosely attached and deflects under light force. Which conclusion is correct? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Straight and extension ladders need a stable setup angle, firm footing, and secure support; an excessively steep ladder is unstable.",
+        "Guardrails must resist required loads and maintain their protective geometry. A weak rail can create false confidence and cannot be accepted based on height alone.",
+        "Openings require positive guarding or a suitable secured cover. Temporary duration and visibility do not prevent a fall.",
+        "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses guardrail system integrity and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'portable ladder angle', but it does not resolve the guardrail system integrity issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'floor opening protection', but it does not resolve the guardrail system integrity issue in this case.",
+        "This rationale supports the separate chapter topic 'fixed ladder fall protection', but it does not resolve the guardrail system integrity issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: guardrail system integrity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "16200625d7ee7b715ba7e8417fd94ea9127ed6764e43c610c3c9cfc2c57436fb"
+    },
+    {
+      "id": "PV2-CORE-CH29-015",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "roof work warning lines",
+      "itemFamilyId": "PV2-CORE-CH29-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a walking-working surface inspection, the team reviews this case: A crew uses a warning line close to an unprotected roof edge for work that requires conventional fall protection. What is the key issue? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+        "Guardrails must resist required loads and maintain their protective geometry. A weak rail can create false confidence and cannot be accepted based on height alone.",
+        "Warning-line use is limited and conditional. Applicability, location, work type, access, and accompanying protection must meet the governing requirements.",
+        "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses roof work warning lines and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'walking surface housekeeping', but it does not resolve the roof work warning lines issue in this case.",
+        "This rationale supports the separate chapter topic 'guardrail system integrity', but it does not resolve the roof work warning lines issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'fixed ladder fall protection', but it does not resolve the roof work warning lines issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: roof work warning lines",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fddbabd6f51130574590b4e3a4435815cc946d58aa9ca149219fc968fa23636b"
+    },
+    {
+      "id": "PV2-CORE-CH29-016",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "slip resistance and footwear",
+      "itemFamilyId": "PV2-CORE-CH29-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fixed-ladder review, the team reviews this case: A floor coating has low wet slip resistance, but management proposes requiring aggressive-tread shoes without changing the surface. What is the best long-term approach? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Straight and extension ladders need a stable setup angle, firm footing, and secure support; an excessively steep ladder is unstable.",
+        "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+        "Safe transition at an upper landing requires adequate rail extension or an equivalent handhold and a stable, secured ladder.",
+        "Surface and contamination controls address the hazard for everyone. Footwear can supplement but should not be the only response to a predictably slick wet surface."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses slip resistance and footwear and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'portable ladder angle', but it does not resolve the slip resistance and footwear issue in this case.",
+        "This rationale supports the separate chapter topic 'walking surface housekeeping', but it does not resolve the slip resistance and footwear issue in this case.",
+        "This rationale supports the separate chapter topic 'ladder top access', but it does not resolve the slip resistance and footwear issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: slip resistance and footwear",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e79c80b9bdd19e490c5a905d1f291b6d797d0b24756a0977138ece51e2efd777"
+    },
+    {
+      "id": "PV2-CORE-CH29-017",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Portable ladder angle",
+      "itemFamilyId": "PV2-CORE-CH29-F017",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a fixed-ladder review, solve the following problem and select the best answer: A non-self-supporting ladder reaches a support point 16 feet above the ground. Using the 4-to-1 setup rule, how far should the base be from the support?",
+      "options": [
+        "4 feet",
+        "12 feet",
+        "2 feet",
+        "8 feet"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The base distance is one foot out for every four feet of vertical height: 16/4 = 4 feet.",
+      "incorrectOptionExplanations": [
+        null,
+        "This subtracts one quarter of the height instead of dividing by four.",
+        "This uses an 8-to-1 ratio rather than 4 to 1.",
+        "This uses a 2-to-1 ratio and places the base too far out."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, ladder basics and setup, pp. 657-665; OSHA walking-working surfaces; Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "base distance = vertical height/4",
+      "units": "feet",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3455356e9b313700a4fe759d409cff860b7a7b0cd3ccb06bf74ba27845f8b9e1"
+    },
+    {
+      "id": "PV2-CORE-CH29-018",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Stepladder use",
+      "itemFamilyId": "PV2-CORE-CH29-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a floor opening assessment, the team reviews this question: Which practice is acceptable when using a standard stepladder? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Rope descent systems require a suitable anchorage with verified capacity, not an improvised attachment point.",
+        "Stepladders should be fully opened with spreaders locked and used according to manufacturer step restrictions.",
+        "A reliable housekeeping system should prevent and promptly remove obstructions as part of the operating process.",
+        "New fixed ladders extending more than 24 feet require a personal fall-arrest or ladder safety system."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Rope descent anchorage', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Housekeeping and access', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Fixed ladder fall protection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, ladders and ladder accident prevention, pp. 658-665; OSHA 1910.23; Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "60a581faaa43164845e3fe8ef0c398512384ca3e6bb77c661132f18c6a254727"
+    },
+    {
+      "id": "PV2-CORE-CH29-019",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Guardrail height",
+      "itemFamilyId": "PV2-CORE-CH29-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a slip-resistance investigation, the team reviews this question: What is the nominal top-edge height for a general-industry top rail? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The base distance is one foot out for every four feet of vertical height: 16/4 = 4 feet.",
+        "New fixed ladders extending more than 24 feet require a personal fall-arrest or ladder safety system.",
+        "General-industry top rails are generally 42 inches, plus or minus 3 inches, above the walking-working surface.",
+        "A reliable housekeeping system should prevent and promptly remove obstructions as part of the operating process."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Portable ladder angle', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Fixed ladder fall protection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Housekeeping and access', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, fall protection systems, pp. 675-679; OSHA 1910.29(b); Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ab4743b847744bf5380ac63e0f057ab0f35e2f4072a8a18c437e18e5cd25726f"
+    },
+    {
+      "id": "PV2-CORE-CH29-020",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fixed ladder fall protection",
+      "itemFamilyId": "PV2-CORE-CH29-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a portable ladder selection, the team reviews this question: A new fixed ladder extends 32 feet above a lower level. What protection is required under the modern general-industry ladder provisions? Which rationale most directly supports the correct answer?",
+      "options": [
+        "General-industry top rails are generally 42 inches, plus or minus 3 inches, above the walking-working surface.",
+        "A reliable housekeeping system should prevent and promptly remove obstructions as part of the operating process.",
+        "The base distance is one foot out for every four feet of vertical height: 16/4 = 4 feet.",
+        "New fixed ladders extending more than 24 feet require a personal fall-arrest or ladder safety system."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Guardrail height', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Housekeeping and access', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Portable ladder angle', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, ladders and fall protection, pp. 657-679; OSHA 1910.28(b)(9); Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "770faea9f0d6ef82718403c5ea331efbc40f49ce47108ac94d06c99488bb43cf"
+    },
+    {
+      "id": "PV2-CORE-CH29-021",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hole cover control",
+      "itemFamilyId": "PV2-CORE-CH29-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a roof-work planning meeting, the team reviews this question: A temporary floor opening is covered during maintenance. Which condition is most important? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A floor-hole cover must resist expected loading, remain secured against displacement, and be marked or otherwise identified.",
+        "A reliable housekeeping system should prevent and promptly remove obstructions as part of the operating process.",
+        "The base distance is one foot out for every four feet of vertical height: 16/4 = 4 feet.",
+        "New fixed ladders extending more than 24 feet require a personal fall-arrest or ladder safety system."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Housekeeping and access', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Portable ladder angle', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Fixed ladder fall protection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, duty to have fall protection and cover criteria, pp. 675-679; OSHA 1910.28 and 1910.29; Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ebaa175af7d576300803f02dbdf7d5a276ac153d093a1d3006fea6cc1fd0c280"
+    },
+    {
+      "id": "PV2-CORE-CH29-022",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fall-arrest clearance",
+      "itemFamilyId": "PV2-CORE-CH29-F022",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a guardrail system audit, solve the following problem and select the best answer: A fall-arrest setup may involve 6 feet of free fall, 3.5 feet of deceleration, 1.5 feet from the D-ring to the worker feet, and a 2-foot safety margin. What minimum clearance is needed below the anchorage connection level?",
+      "options": [
+        "15 feet",
+        "13 feet",
+        "11 feet",
+        "9.5 feet"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Total clearance = 6 + 3.5 + 1.5 + 2 = 13 feet.",
+      "incorrectOptionExplanations": [
+        "This adds an unsupported extra 2 feet to the stated components.",
+        null,
+        "This omits the safety margin.",
+        "This omits the D-ring-to-feet distance and safety margin."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 25 and 29, fall distance and clearance calculations, pp. 583-589 and 676-679; Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "clearance = free fall + deceleration + D-ring-to-feet + safety margin",
+      "units": "feet",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8a75f627e9a3da3de48748b7381d353df9e115a8d41974c07a91dba91e67e185"
+    },
+    {
+      "id": "PV2-CORE-CH29-023",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Rope descent anchorage",
+      "itemFamilyId": "PV2-CORE-CH29-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a housekeeping trend review, the team reviews this question: Before a rope descent system is used for window cleaning, what must be confirmed about the anchorage? Which rationale most directly supports the correct answer?",
+      "options": [
+        "New fixed ladders extending more than 24 feet require a personal fall-arrest or ladder safety system.",
+        "Stepladders should be fully opened with spreaders locked and used according to manufacturer step restrictions.",
+        "Rope descent systems require a suitable anchorage with verified capacity, not an improvised attachment point.",
+        "A reliable housekeeping system should prevent and promptly remove obstructions as part of the operating process."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Fixed ladder fall protection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Stepladder use', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Housekeeping and access', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, rope descent systems, pp. 670-675; OSHA 1910.27; Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7f33ee0a437cadda5a5fc6f13fb5107fbfe86dec09fa8897c1aff7661d2b4c64"
+    },
+    {
+      "id": "PV2-CORE-CH29-024",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Housekeeping and access",
+      "itemFamilyId": "PV2-CORE-CH29-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a walking-working surface inspection, the team reviews this question: A distribution area has repeated same-level falls caused by shrink wrap and broken pallets in aisles. Which action is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A floor-hole cover must resist expected loading, remain secured against displacement, and be marked or otherwise identified.",
+        "General-industry top rails are generally 42 inches, plus or minus 3 inches, above the walking-working surface.",
+        "New fixed ladders extending more than 24 feet require a personal fall-arrest or ladder safety system.",
+        "A reliable housekeeping system should prevent and promptly remove obstructions as part of the operating process."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Hole cover control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Guardrail height', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Fixed ladder fall protection', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 29, general walking-working surface requirements, pp. 657-680; Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fd8a248c70c981752ed286962b6588938691d097e709a6b7eb9858c7e17a938c"
+    },
+    {
+      "id": "PV2-CORE-CH29-025",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "walking surface housekeeping",
+      "itemFamilyId": "PV2-CORE-CH29-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a slip-resistance investigation, a supervisor proposes: \"Increase mopping frequency indefinitely without correcting the source\". The underlying case is: A production aisle repeatedly becomes slick from a leaking process line. Crews mop it several times per shift. What is the strongest corrective action? Which alternative is the most defensible correction?",
+      "options": [
+        "Repair or contain the leak and provide a surface and drainage design that prevents recurrent contamination, while using interim controls",
+        "Require workers to walk more slowly as the sole control",
+        "Increase mopping frequency indefinitely without correcting the source",
+        "Post a permanent “slippery when wet” sign and accept the leak"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Require workers to walk more slowly as the sole control' remains incomplete or misapplies the controlling walking surface housekeeping principle.",
+        "The proposed response 'Increase mopping frequency indefinitely without correcting the source' remains incomplete or misapplies the controlling walking surface housekeeping principle.",
+        "The proposed response 'Post a permanent “slippery when wet” sign and accept the leak' remains incomplete or misapplies the controlling walking surface housekeeping principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: walking surface housekeeping",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fc886cd233e94bbb8d8e9b5e18785e27ce2698b7b84c722df43ec93ee9b9c5d3"
+    },
+    {
+      "id": "PV2-CORE-CH29-026",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "floor opening protection",
+      "itemFamilyId": "PV2-CORE-CH29-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a portable ladder selection, a supervisor proposes: \"Place an empty pallet beside the opening as a visual cue\". The underlying case is: A floor opening is temporarily uncovered for material transfer. Workers will pass nearby, and the cover is stored across the room. What should be done? Which alternative is the most defensible correction?",
+      "options": [
+        "Place an empty pallet beside the opening as a visual cue",
+        "Guard the opening or install a secured, load-capable, marked cover before exposing workers to the area",
+        "Allow access if workers wear high-visibility clothing",
+        "Rely on verbal warnings because the opening is temporary"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Openings require positive guarding or a suitable secured cover. Temporary duration and visibility do not prevent a fall.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Place an empty pallet beside the opening as a visual cue' remains incomplete or misapplies the controlling floor opening protection principle.",
+        null,
+        "The proposed response 'Allow access if workers wear high-visibility clothing' remains incomplete or misapplies the controlling floor opening protection principle.",
+        "The proposed response 'Rely on verbal warnings because the opening is temporary' remains incomplete or misapplies the controlling floor opening protection principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: floor opening protection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ebdbebe459f566b3f163bb848e0b75c6dda4523b1e92adbca10c1a3e5c3174d9"
+    },
+    {
+      "id": "PV2-CORE-CH29-027",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "portable ladder angle",
+      "itemFamilyId": "PV2-CORE-CH29-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a roof-work planning meeting, a supervisor proposes: \"A near-vertical angle is required whenever the ladder extends above a landing\". The underlying case is: A non-self-supporting ladder is set with its base extremely close to the wall, making the ladder nearly vertical. What risk is increased? Which alternative is the most defensible correction?",
+      "options": [
+        "A near-vertical angle is required whenever the ladder extends above a landing",
+        "The ladder becomes stronger because vertical loading increases its rating",
+        "The base can slide outward or the user can fall backward because the ladder is not set at a stable angle",
+        "The only concern is that the ladder will be too short"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Straight and extension ladders need a stable setup angle, firm footing, and secure support; an excessively steep ladder is unstable.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'A near-vertical angle is required whenever the ladder extends above a landing' remains incomplete or misapplies the controlling portable ladder angle principle.",
+        "The proposed response 'The ladder becomes stronger because vertical loading increases its rating' remains incomplete or misapplies the controlling portable ladder angle principle.",
+        null,
+        "The proposed response 'The only concern is that the ladder will be too short' remains incomplete or misapplies the controlling portable ladder angle principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: portable ladder angle",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e9eae58643a63876b7f87e07e7fb2d55787ec0763cbad8bbc26704e5fea3cb63"
+    },
+    {
+      "id": "PV2-CORE-CH29-028",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ladder top access",
+      "itemFamilyId": "PV2-CORE-CH29-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a guardrail system audit, a supervisor proposes: \"Leave it unchanged because workers can hold the roof edge\". The underlying case is: An extension ladder is used to access a roof, but its side rails stop at the roof edge and there are no grab rails. What is the proper correction? Which alternative is the most defensible correction?",
+      "options": [
+        "Ask workers to jump from the top rung to the roof quickly",
+        "Leave it unchanged because workers can hold the roof edge",
+        "Place a loose board on the top rung to create a handhold",
+        "Extend the rails sufficiently above the landing or provide an equivalent secure grasping arrangement and secure the ladder"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Safe transition at an upper landing requires adequate rail extension or an equivalent handhold and a stable, secured ladder.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Ask workers to jump from the top rung to the roof quickly' remains incomplete or misapplies the controlling ladder top access principle.",
+        "The proposed response 'Leave it unchanged because workers can hold the roof edge' remains incomplete or misapplies the controlling ladder top access principle.",
+        "The proposed response 'Place a loose board on the top rung to create a handhold' remains incomplete or misapplies the controlling ladder top access principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: ladder top access",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7781cc750c66d953d5d71db972740aa8a5b339d929fae76b627db6bd00974bc1"
+    },
+    {
+      "id": "PV2-CORE-CH29-029",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fixed ladder fall protection",
+      "itemFamilyId": "PV2-CORE-CH29-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a housekeeping trend review, a supervisor proposes: \"Allow employees to climb outside the system when carrying tools\". The underlying case is: A facility replaces cages on a tall fixed ladder with a ladder safety system. What program element remains essential? Which alternative is the most defensible correction?",
+      "options": [
+        "Ensure the system is compatible, inspected, maintained, and used by trained employees throughout the required climbing path",
+        "Assume installation alone guarantees protection without inspecting connectors or anchorage",
+        "Treat the system as a substitute for safe ladder condition and access design",
+        "Allow employees to climb outside the system when carrying tools"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Assume installation alone guarantees protection without inspecting connectors or anchorage' remains incomplete or misapplies the controlling fixed ladder fall protection principle.",
+        "The proposed response 'Treat the system as a substitute for safe ladder condition and access design' remains incomplete or misapplies the controlling fixed ladder fall protection principle.",
+        "The proposed response 'Allow employees to climb outside the system when carrying tools' remains incomplete or misapplies the controlling fixed ladder fall protection principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: fixed ladder fall protection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d809b9fecc59d2486806bf73296cf062c190a2fc486693e48ade34b6c3f5cf7f"
+    },
+    {
+      "id": "PV2-CORE-CH29-030",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "guardrail system integrity",
+      "itemFamilyId": "PV2-CORE-CH29-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a walking-working surface inspection, a supervisor proposes: \"Use the rail until an employee reports that it has failed\". The underlying case is: A guardrail top rail is at the expected height but is loosely attached and deflects under light force. Which conclusion is correct? Which alternative is the most defensible correction?",
+      "options": [
+        "Use the rail until an employee reports that it has failed",
+        "Height alone is insufficient; the system must meet strength and construction requirements and be repaired before reliance",
+        "Tie caution tape to the rail to restore structural capacity",
+        "The rail is compliant because measurement is the only guardrail criterion"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Guardrails must resist required loads and maintain their protective geometry. A weak rail can create false confidence and cannot be accepted based on height alone.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use the rail until an employee reports that it has failed' remains incomplete or misapplies the controlling guardrail system integrity principle.",
+        null,
+        "The proposed response 'Tie caution tape to the rail to restore structural capacity' remains incomplete or misapplies the controlling guardrail system integrity principle.",
+        "The proposed response 'The rail is compliant because measurement is the only guardrail criterion' remains incomplete or misapplies the controlling guardrail system integrity principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: guardrail system integrity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fdf7160c108e8208c5b0b216d4885349ea03121b052caa8ce61b7d7c59dbb1b2"
+    },
+    {
+      "id": "PV2-CORE-CH29-031",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "roof work warning lines",
+      "itemFamilyId": "PV2-CORE-CH29-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a fixed-ladder review, a supervisor proposes: \"Any visible line is equivalent to a guardrail\". The underlying case is: A crew uses a warning line close to an unprotected roof edge for work that requires conventional fall protection. What is the key issue? Which alternative is the most defensible correction?",
+      "options": [
+        "The line may be placed directly at the edge if flags are bright enough",
+        "Warning lines eliminate the need for training and supervision",
+        "A warning line is not a universal substitute; the selected system must be permitted for the roofing work and configured with required setbacks and supplementary controls",
+        "Any visible line is equivalent to a guardrail"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Warning-line use is limited and conditional. Applicability, location, work type, access, and accompanying protection must meet the governing requirements.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The line may be placed directly at the edge if flags are bright enough' remains incomplete or misapplies the controlling roof work warning lines principle.",
+        "The proposed response 'Warning lines eliminate the need for training and supervision' remains incomplete or misapplies the controlling roof work warning lines principle.",
+        null,
+        "The proposed response 'Any visible line is equivalent to a guardrail' remains incomplete or misapplies the controlling roof work warning lines principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: roof work warning lines",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9292103507c1d8ed1468e72520431e7dc13e1be136c63c71c9053d174aaf1787"
+    },
+    {
+      "id": "PV2-CORE-CH29-032",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "slip resistance and footwear",
+      "itemFamilyId": "PV2-CORE-CH29-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a floor opening assessment, a supervisor proposes: \"Ban all liquids from the building without examining process sources\". The underlying case is: A floor coating has low wet slip resistance, but management proposes requiring aggressive-tread shoes without changing the surface. What is the best long-term approach? Which alternative is the most defensible correction?",
+      "options": [
+        "Ban all liquids from the building without examining process sources",
+        "Treat footwear as complete elimination of the floor hazard",
+        "Base the assessment on dry-floor slip resistance and treat wet operating conditions as a housekeeping issue",
+        "Improve the surface, drainage, and contamination control, then select compatible footwear as an additional measure"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Surface and contamination controls address the hazard for everyone. Footwear can supplement but should not be the only response to a predictably slick wet surface.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Ban all liquids from the building without examining process sources' remains incomplete or misapplies the controlling slip resistance and footwear principle.",
+        "The proposed response 'Treat footwear as complete elimination of the floor hazard' remains incomplete or misapplies the controlling slip resistance and footwear principle.",
+        "The proposed response 'Base the assessment on dry-floor slip resistance and treat wet operating conditions as a housekeeping issue' remains incomplete or misapplies the controlling slip resistance and footwear principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: slip resistance and footwear",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d79ab8243a4cbe69c789638840360fdce7ccb91122ab243008647bf3068222f1"
+    },
+    {
+      "id": "PV2-CORE-CH29-033",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "walking surface housekeeping",
+      "itemFamilyId": "PV2-CORE-CH29-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a portable ladder selection, the team selects \"Repair or contain the leak and provide a surface and drainage design that prevents recurrent contamination, while using interim controls\" rather than \"Post a permanent “slippery when wet” sign and accept the leak\" for this case: A production aisle repeatedly becomes slick from a leaking process line. Crews mop it several times per shift. What is the strongest corrective action? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings.",
+        "Warning-line use is limited and conditional. Applicability, location, work type, access, and accompanying protection must meet the governing requirements.",
+        "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment.",
+        "Openings require positive guarding or a suitable secured cover. Temporary duration and visibility do not prevent a fall."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the walking surface housekeeping issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'roof work warning lines' and does not distinguish the two responses in the present walking surface housekeeping decision.",
+        "This explanation concerns 'fixed ladder fall protection' and does not distinguish the two responses in the present walking surface housekeeping decision.",
+        "This explanation concerns 'floor opening protection' and does not distinguish the two responses in the present walking surface housekeeping decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: walking surface housekeeping",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6458bcd1723a9787f1019724ea5bfa5f100c4e662334b3ac50cbe043631c63bd"
+    },
+    {
+      "id": "PV2-CORE-CH29-034",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "floor opening protection",
+      "itemFamilyId": "PV2-CORE-CH29-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a roof-work planning meeting, the team selects \"Guard the opening or install a secured, load-capable, marked cover before exposing workers to the area\" rather than \"Allow access if workers wear high-visibility clothing\" for this case: A floor opening is temporarily uncovered for material transfer. Workers will pass nearby, and the cover is stored across the room. What should be done? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Straight and extension ladders need a stable setup angle, firm footing, and secure support; an excessively steep ladder is unstable.",
+        "Openings require positive guarding or a suitable secured cover. Temporary duration and visibility do not prevent a fall.",
+        "Warning-line use is limited and conditional. Applicability, location, work type, access, and accompanying protection must meet the governing requirements.",
+        "A ladder safety system must function as an integrated system and be maintained and used correctly; it does not excuse damaged ladders or incompatible equipment."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the floor opening protection issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'portable ladder angle' and does not distinguish the two responses in the present floor opening protection decision.",
+        null,
+        "This explanation concerns 'roof work warning lines' and does not distinguish the two responses in the present floor opening protection decision.",
+        "This explanation concerns 'fixed ladder fall protection' and does not distinguish the two responses in the present floor opening protection decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: floor opening protection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e30b00eaf990a54b3f05724137ed1f77352864b0a540589d411858bf068d309b"
+    },
+    {
+      "id": "PV2-CORE-CH29-035",
+      "version": 1,
+      "chapterId": "ch-29",
+      "chapterTitle": "Walking and Working Surfaces",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "portable ladder angle",
+      "itemFamilyId": "PV2-CORE-CH29-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a guardrail system audit, the team selects \"The base can slide outward or the user can fall backward because the ladder is not set at a stable angle\" rather than \"The ladder becomes stronger because vertical loading increases its rating\" for this case: A non-self-supporting ladder is set with its base extremely close to the wall, making the ladder nearly vertical. What risk is increased? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Safe transition at an upper landing requires adequate rail extension or an equivalent handhold and a stable, secured ladder.",
+        "Guardrails must resist required loads and maintain their protective geometry. A weak rail can create false confidence and cannot be accepted based on height alone.",
+        "Straight and extension ladders need a stable setup angle, firm footing, and secure support; an excessively steep ladder is unstable.",
+        "Housekeeping is important, but recurrent contamination requires source correction and engineered drainage or containment rather than perpetual cleanup and warnings."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the portable ladder angle issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'ladder top access' and does not distinguish the two responses in the present portable ladder angle decision.",
+        "This explanation concerns 'guardrail system integrity' and does not distinguish the two responses in the present portable ladder angle decision.",
+        null,
+        "This explanation concerns 'walking surface housekeeping' and does not distinguish the two responses in the present portable ladder angle decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 29, pp. 657-686; 29 CFR 1910 Subpart D; curated topic: portable ladder angle",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartD",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8a6536de47fe412af4ffb101eeab36602de31b836c66152dabe0b0fccbdea70b"
+    }
+  ]
+}

@@ -1,0 +1,1757 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-11-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-11",
+  "chapterTitle": "Biological Hazards",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH11-001",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.09",
+          "role": "secondary"
+        }
+      ],
+      "concept": "bloodborne pathogens exposure control",
+      "itemFamilyId": "PV2-CORE-CH11-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A hospital unit reports repeated needlestick injuries during disposal of a specific device. Refresher training has not changed the trend. What is the strongest next control?",
+      "options": [
+        "Evaluate and implement a safer engineering control or needleless device with frontline employee input, then verify effectiveness",
+        "Require thicker general-purpose gloves as the primary needlestick control",
+        "Repeat the same slide presentation and treat injuries as individual carelessness",
+        "Post the injury count without changing the device or disposal process"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The bloodborne pathogens framework prioritizes engineering and work-practice controls and requires consideration of safer devices with input from affected nonmanagerial employees.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Require thicker general-purpose gloves as the primary needlestick control' does not apply the controlling principle for bloodborne pathogens exposure control to the facts given, so it is not the best answer.",
+        "The option 'Repeat the same slide presentation and treat injuries as individual carelessness' does not apply the controlling principle for bloodborne pathogens exposure control to the facts given, so it is not the best answer.",
+        "The option 'Post the injury count without changing the device or disposal process' does not apply the controlling principle for bloodborne pathogens exposure control to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: bloodborne pathogens exposure control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "eb52b6d0a829f98a63b5bca068a8e12ed12af7d9e69b14dbf86b2aba8d3f5119"
+    },
+    {
+      "id": "PV2-CORE-CH11-002",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "post-exposure response",
+      "itemFamilyId": "PV2-CORE-CH11-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee sustains a potentially infectious needlestick. Which immediate sequence is most appropriate?",
+      "options": [
+        "Wait for symptoms before seeking medical evaluation",
+        "Provide prompt first aid, report and document the exposure, arrange confidential medical evaluation and follow-up, and evaluate the source as permitted",
+        "Send the employee home with instructions to contact a personal physician next month",
+        "Begin discipline before documenting the route and circumstances of exposure"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Potential bloodborne exposure requires immediate care and timely confidential evaluation and follow-up; symptoms and fault are not prerequisites.",
+      "incorrectOptionExplanations": [
+        "The option 'Wait for symptoms before seeking medical evaluation' does not apply the controlling principle for post-exposure response to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Send the employee home with instructions to contact a personal physician next month' does not apply the controlling principle for post-exposure response to the facts given, so it is not the best answer.",
+        "The option 'Begin discipline before documenting the route and circumstances of exposure' does not apply the controlling principle for post-exposure response to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: post-exposure response",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "de2451d4d74dc4ec49f56a6e0e960a3c309ed646315965af341998ac17fb4534"
+    },
+    {
+      "id": "PV2-CORE-CH11-003",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "universal precautions",
+      "itemFamilyId": "PV2-CORE-CH11-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A cleanup team cannot determine whether visible blood came from a person known to have an infection. How should the material be handled?",
+      "options": [
+        "Delay cleanup until the source person’s complete medical record is obtained",
+        "Require respiratory protection but omit gloves and surface decontamination",
+        "Apply universal precautions and treat the blood and specified body fluids as potentially infectious",
+        "Use ordinary housekeeping methods because infection has not been confirmed"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Universal precautions do not depend on confirmed infection status; they provide a consistent approach to potentially infectious blood and body fluids.",
+      "incorrectOptionExplanations": [
+        "The option 'Delay cleanup until the source person’s complete medical record is obtained' does not apply the controlling principle for universal precautions to the facts given, so it is not the best answer.",
+        "The option 'Require respiratory protection but omit gloves and surface decontamination' does not apply the controlling principle for universal precautions to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use ordinary housekeeping methods because infection has not been confirmed' does not apply the controlling principle for universal precautions to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: universal precautions",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ec9d9a6d472b1a3e59269f06b9977342f4f4b12e624c96748c82bc20facb1d9f"
+    },
+    {
+      "id": "PV2-CORE-CH11-004",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mold and moisture control",
+      "itemFamilyId": "PV2-CORE-CH11-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Employees report musty odor and visible mold on drywall after a roof leak. Which corrective strategy addresses the root cause?",
+      "options": [
+        "Paint over the growth without removing moisture-damaged material",
+        "Collect extensive air samples before stopping the active leak",
+        "Spray fragrance to mask odor while leaving wet material in place",
+        "Correct the moisture intrusion, remove or remediate damaged porous material using controlled methods, and verify the area is dry"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Mold control depends primarily on eliminating moisture and properly addressing damaged materials. Sampling or cosmetic treatment does not substitute for source correction.",
+      "incorrectOptionExplanations": [
+        "The option 'Paint over the growth without removing moisture-damaged material' does not apply the controlling principle for mold and moisture control to the facts given, so it is not the best answer.",
+        "The option 'Collect extensive air samples before stopping the active leak' does not apply the controlling principle for mold and moisture control to the facts given, so it is not the best answer.",
+        "The option 'Spray fragrance to mask odor while leaving wet material in place' does not apply the controlling principle for mold and moisture control to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: mold and moisture control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c8aa0cd7e2ecbae5c308802195015cd2b44b997055e734440c492ad3c53fb15e"
+    },
+    {
+      "id": "PV2-CORE-CH11-005",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "biosafety risk assessment",
+      "itemFamilyId": "PV2-CORE-CH11-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A laboratory introduces an organism with uncertain pathogenicity and a procedure that may generate aerosols. What should occur before routine work begins?",
+      "options": [
+        "Perform a protocol-specific biosafety risk assessment covering agent hazards, aerosol generation, containment, practices, PPE, and emergency response",
+        "Rely on worker vaccination as a substitute for containment evaluation",
+        "Begin work and upgrade controls only after an exposure occurs",
+        "Assign a biosafety level based only on the room number"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Biosafety controls must be based on the agent and procedure, especially aerosol potential; containment, practices, equipment, and response planning are evaluated before work.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Rely on worker vaccination as a substitute for containment evaluation' does not apply the controlling principle for biosafety risk assessment to the facts given, so it is not the best answer.",
+        "The option 'Begin work and upgrade controls only after an exposure occurs' does not apply the controlling principle for biosafety risk assessment to the facts given, so it is not the best answer.",
+        "The option 'Assign a biosafety level based only on the room number' does not apply the controlling principle for biosafety risk assessment to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: biosafety risk assessment",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "146233f05b5bf5bc008d3de46b2dc802b7d1d0950e9d72eab3fb52ca1a6d6b84"
+    },
+    {
+      "id": "PV2-CORE-CH11-006",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "legionella control",
+      "itemFamilyId": "PV2-CORE-CH11-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A building has stagnant warm-water sections and aerosol-producing fixtures. Several occupants develop compatible illness. Which investigation focus is most appropriate?",
+      "options": [
+        "Focus only on person-to-person transmission in office cubicles",
+        "Evaluate water-system conditions, temperature, stagnation, aerosol sources, maintenance, and sampling under a competent water-management approach",
+        "Measure outdoor pollen and close the investigation if pollen is elevated",
+        "Add room air fresheners while leaving the water system unchanged"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Legionella risk is strongly associated with building water-system conditions and aerosolization. A structured water-management investigation addresses the likely source and controls.",
+      "incorrectOptionExplanations": [
+        "The option 'Focus only on person-to-person transmission in office cubicles' does not apply the controlling principle for legionella control to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Measure outdoor pollen and close the investigation if pollen is elevated' does not apply the controlling principle for legionella control to the facts given, so it is not the best answer.",
+        "The option 'Add room air fresheners while leaving the water system unchanged' does not apply the controlling principle for legionella control to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: legionella control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d240cfb1110903bbfbf060dfca544cc8c51f711efc22566df9ce776ae07bd4f7"
+    },
+    {
+      "id": "PV2-CORE-CH11-007",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.09",
+          "role": "secondary"
+        }
+      ],
+      "concept": "zoonotic exposure",
+      "itemFamilyId": "PV2-CORE-CH11-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Animal-care workers develop febrile illness after handling birthing materials. Which control package is most defensible?",
+      "options": [
+        "Treat the event only as an ergonomic lifting problem",
+        "Rely on animal vaccination records without assessing the task or exposure route",
+        "Identify the suspected zoonotic agent, control contact and aerosols, strengthen hygiene and PPE, manage waste, and coordinate medical evaluation",
+        "Move the work outdoors and discontinue hand hygiene requirements"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Zoonotic risk management integrates agent identification, route-specific controls, hygiene, PPE, waste handling, and occupational medical follow-up.",
+      "incorrectOptionExplanations": [
+        "The option 'Treat the event only as an ergonomic lifting problem' does not apply the controlling principle for zoonotic exposure to the facts given, so it is not the best answer.",
+        "The option 'Rely on animal vaccination records without assessing the task or exposure route' does not apply the controlling principle for zoonotic exposure to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Move the work outdoors and discontinue hand hygiene requirements' does not apply the controlling principle for zoonotic exposure to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: zoonotic exposure",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "86348a17851ef9548645c77a36d3c9fad59197eabb30144f957eacd0a4ca9ad1"
+    },
+    {
+      "id": "PV2-CORE-CH11-008",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "respiratory infectious disease hierarchy",
+      "itemFamilyId": "PV2-CORE-CH11-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A clinic has repeated airborne infectious disease exposures in a small intake room. Which improvement should be prioritized before relying solely on respirators?",
+      "options": [
+        "Increase room occupancy so exposure duration per person is shorter",
+        "Rely on symptom self-reporting after employees finish each shift",
+        "Use surgical masks as the only control for every airborne hazard",
+        "Improve source identification, isolation, airflow or ventilation, and administrative flow controls, with appropriate respirators for residual exposure"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Airborne infection control uses layered source, engineering, administrative, and respiratory protection measures; respirators are important but not the sole system control.",
+      "incorrectOptionExplanations": [
+        "The option 'Increase room occupancy so exposure duration per person is shorter' does not apply the controlling principle for respiratory infectious disease hierarchy to the facts given, so it is not the best answer.",
+        "The option 'Rely on symptom self-reporting after employees finish each shift' does not apply the controlling principle for respiratory infectious disease hierarchy to the facts given, so it is not the best answer.",
+        "The option 'Use surgical masks as the only control for every airborne hazard' does not apply the controlling principle for respiratory infectious disease hierarchy to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: respiratory infectious disease hierarchy",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2aa134ee46c855207713b20c96052eafaf9d8235fc28e8fd9b9c2fbc18898edf"
+    },
+    {
+      "id": "PV2-CORE-CH11-009",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.09",
+          "role": "secondary"
+        }
+      ],
+      "concept": "bloodborne pathogens exposure control",
+      "itemFamilyId": "PV2-CORE-CH11-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an indoor mold complaint, the team reviews this case: A hospital unit reports repeated needlestick injuries during disposal of a specific device. Refresher training has not changed the trend. What is the strongest next control? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The bloodborne pathogens framework prioritizes engineering and work-practice controls and requires consideration of safer devices with input from affected nonmanagerial employees.",
+        "Universal precautions do not depend on confirmed infection status; they provide a consistent approach to potentially infectious blood and body fluids.",
+        "Zoonotic risk management integrates agent identification, route-specific controls, hygiene, PPE, waste handling, and occupational medical follow-up.",
+        "Legionella risk is strongly associated with building water-system conditions and aerosolization. A structured water-management investigation addresses the likely source and controls."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses bloodborne pathogens exposure control and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'universal precautions', but it does not resolve the bloodborne pathogens exposure control issue in this case.",
+        "This rationale supports the separate chapter topic 'zoonotic exposure', but it does not resolve the bloodborne pathogens exposure control issue in this case.",
+        "This rationale supports the separate chapter topic 'legionella control', but it does not resolve the bloodborne pathogens exposure control issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: bloodborne pathogens exposure control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3493844b5dfca391e5aa91b0fd5c330c0cde1554d5b50a685b516a088ac7a1e7"
+    },
+    {
+      "id": "PV2-CORE-CH11-010",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "post-exposure response",
+      "itemFamilyId": "PV2-CORE-CH11-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a zoonotic exposure assessment, the team reviews this case: An employee sustains a potentially infectious needlestick. Which immediate sequence is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Legionella risk is strongly associated with building water-system conditions and aerosolization. A structured water-management investigation addresses the likely source and controls.",
+        "Potential bloodborne exposure requires immediate care and timely confidential evaluation and follow-up; symptoms and fault are not prerequisites.",
+        "Airborne infection control uses layered source, engineering, administrative, and respiratory protection measures; respirators are important but not the sole system control.",
+        "Zoonotic risk management integrates agent identification, route-specific controls, hygiene, PPE, waste handling, and occupational medical follow-up."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses post-exposure response and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'legionella control', but it does not resolve the post-exposure response issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'respiratory infectious disease hierarchy', but it does not resolve the post-exposure response issue in this case.",
+        "This rationale supports the separate chapter topic 'zoonotic exposure', but it does not resolve the post-exposure response issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: post-exposure response",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "760bdbaacbff32094dc5b9d7cc1439822c171d578b6161d5c7ee2e888267bcc6"
+    },
+    {
+      "id": "PV2-CORE-CH11-011",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "universal precautions",
+      "itemFamilyId": "PV2-CORE-CH11-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a laboratory biosafety review, the team reviews this case: A cleanup team cannot determine whether visible blood came from a person known to have an infection. How should the material be handled? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Biosafety controls must be based on the agent and procedure, especially aerosol potential; containment, practices, equipment, and response planning are evaluated before work.",
+        "Airborne infection control uses layered source, engineering, administrative, and respiratory protection measures; respirators are important but not the sole system control.",
+        "Universal precautions do not depend on confirmed infection status; they provide a consistent approach to potentially infectious blood and body fluids.",
+        "Mold control depends primarily on eliminating moisture and properly addressing damaged materials. Sampling or cosmetic treatment does not substitute for source correction."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses universal precautions and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'biosafety risk assessment', but it does not resolve the universal precautions issue in this case.",
+        "This rationale supports the separate chapter topic 'respiratory infectious disease hierarchy', but it does not resolve the universal precautions issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'mold and moisture control', but it does not resolve the universal precautions issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: universal precautions",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "464ceb9993da15159e08a1f05c7840ed2ebc34d024760ae06ce7921f2c42f23f"
+    },
+    {
+      "id": "PV2-CORE-CH11-012",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mold and moisture control",
+      "itemFamilyId": "PV2-CORE-CH11-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a sharps-injury investigation, the team reviews this case: Employees report musty odor and visible mold on drywall after a roof leak. Which corrective strategy addresses the root cause? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Biosafety controls must be based on the agent and procedure, especially aerosol potential; containment, practices, equipment, and response planning are evaluated before work.",
+        "The bloodborne pathogens framework prioritizes engineering and work-practice controls and requires consideration of safer devices with input from affected nonmanagerial employees.",
+        "Airborne infection control uses layered source, engineering, administrative, and respiratory protection measures; respirators are important but not the sole system control.",
+        "Mold control depends primarily on eliminating moisture and properly addressing damaged materials. Sampling or cosmetic treatment does not substitute for source correction."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses mold and moisture control and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'biosafety risk assessment', but it does not resolve the mold and moisture control issue in this case.",
+        "This rationale supports the separate chapter topic 'bloodborne pathogens exposure control', but it does not resolve the mold and moisture control issue in this case.",
+        "This rationale supports the separate chapter topic 'respiratory infectious disease hierarchy', but it does not resolve the mold and moisture control issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: mold and moisture control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c9132c5fa385b33b6a56b85bf3a2a5e2061a5bdfcf975e29a9b589ee94131014"
+    },
+    {
+      "id": "PV2-CORE-CH11-013",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "biosafety risk assessment",
+      "itemFamilyId": "PV2-CORE-CH11-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a sanitation and hygiene audit, the team reviews this case: A laboratory introduces an organism with uncertain pathogenicity and a procedure that may generate aerosols. What should occur before routine work begins? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Biosafety controls must be based on the agent and procedure, especially aerosol potential; containment, practices, equipment, and response planning are evaluated before work.",
+        "Airborne infection control uses layered source, engineering, administrative, and respiratory protection measures; respirators are important but not the sole system control.",
+        "Potential bloodborne exposure requires immediate care and timely confidential evaluation and follow-up; symptoms and fault are not prerequisites.",
+        "Mold control depends primarily on eliminating moisture and properly addressing damaged materials. Sampling or cosmetic treatment does not substitute for source correction."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses biosafety risk assessment and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'respiratory infectious disease hierarchy', but it does not resolve the biosafety risk assessment issue in this case.",
+        "This rationale supports the separate chapter topic 'post-exposure response', but it does not resolve the biosafety risk assessment issue in this case.",
+        "This rationale supports the separate chapter topic 'mold and moisture control', but it does not resolve the biosafety risk assessment issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: biosafety risk assessment",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0301871d8ce057dce2f9c39496e674e985d3b88f2b5bc971911f14ea0bd66d9b"
+    },
+    {
+      "id": "PV2-CORE-CH11-014",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "legionella control",
+      "itemFamilyId": "PV2-CORE-CH11-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a pandemic preparedness meeting, the team reviews this case: A building has stagnant warm-water sections and aerosol-producing fixtures. Several occupants develop compatible illness. Which investigation focus is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Biosafety controls must be based on the agent and procedure, especially aerosol potential; containment, practices, equipment, and response planning are evaluated before work.",
+        "Legionella risk is strongly associated with building water-system conditions and aerosolization. A structured water-management investigation addresses the likely source and controls.",
+        "Airborne infection control uses layered source, engineering, administrative, and respiratory protection measures; respirators are important but not the sole system control.",
+        "Zoonotic risk management integrates agent identification, route-specific controls, hygiene, PPE, waste handling, and occupational medical follow-up."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses legionella control and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'biosafety risk assessment', but it does not resolve the legionella control issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'respiratory infectious disease hierarchy', but it does not resolve the legionella control issue in this case.",
+        "This rationale supports the separate chapter topic 'zoonotic exposure', but it does not resolve the legionella control issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: legionella control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1e10fdeedb968294ec941f0fc289eb48635e6849dc0c008500e4fcf85041f782"
+    },
+    {
+      "id": "PV2-CORE-CH11-015",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.09",
+          "role": "secondary"
+        }
+      ],
+      "concept": "zoonotic exposure",
+      "itemFamilyId": "PV2-CORE-CH11-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an infection-control program review, the team reviews this case: Animal-care workers develop febrile illness after handling birthing materials. Which control package is most defensible? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Potential bloodborne exposure requires immediate care and timely confidential evaluation and follow-up; symptoms and fault are not prerequisites.",
+        "Universal precautions do not depend on confirmed infection status; they provide a consistent approach to potentially infectious blood and body fluids.",
+        "Zoonotic risk management integrates agent identification, route-specific controls, hygiene, PPE, waste handling, and occupational medical follow-up.",
+        "The bloodborne pathogens framework prioritizes engineering and work-practice controls and requires consideration of safer devices with input from affected nonmanagerial employees."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses zoonotic exposure and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'post-exposure response', but it does not resolve the zoonotic exposure issue in this case.",
+        "This rationale supports the separate chapter topic 'universal precautions', but it does not resolve the zoonotic exposure issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'bloodborne pathogens exposure control', but it does not resolve the zoonotic exposure issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: zoonotic exposure",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "381e7b08b749973c49f4655a1dfcb470e5cb9bc09f76956ba4063c2f8cec6163"
+    },
+    {
+      "id": "PV2-CORE-CH11-016",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "respiratory infectious disease hierarchy",
+      "itemFamilyId": "PV2-CORE-CH11-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a bloodborne pathogens exposure incident, the team reviews this case: A clinic has repeated airborne infectious disease exposures in a small intake room. Which improvement should be prioritized before relying solely on respirators? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Mold control depends primarily on eliminating moisture and properly addressing damaged materials. Sampling or cosmetic treatment does not substitute for source correction.",
+        "The bloodborne pathogens framework prioritizes engineering and work-practice controls and requires consideration of safer devices with input from affected nonmanagerial employees.",
+        "Zoonotic risk management integrates agent identification, route-specific controls, hygiene, PPE, waste handling, and occupational medical follow-up.",
+        "Airborne infection control uses layered source, engineering, administrative, and respiratory protection measures; respirators are important but not the sole system control."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses respiratory infectious disease hierarchy and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'mold and moisture control', but it does not resolve the respiratory infectious disease hierarchy issue in this case.",
+        "This rationale supports the separate chapter topic 'bloodborne pathogens exposure control', but it does not resolve the respiratory infectious disease hierarchy issue in this case.",
+        "This rationale supports the separate chapter topic 'zoonotic exposure', but it does not resolve the respiratory infectious disease hierarchy issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: respiratory infectious disease hierarchy",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7642b815e1649a6d19b80fe0cd226a1d884eb5632411ba2cc7d081cb93e46ca5"
+    },
+    {
+      "id": "PV2-CORE-CH11-017",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Protocol-driven biological risk assessment",
+      "itemFamilyId": "PV2-CORE-CH11-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a bloodborne pathogens exposure incident, the team reviews this question: A laboratory plans to culture a newly received human respiratory isolate and use a procedure that may generate aerosols. What should be completed before selecting the containment level and equipment? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Biosafety containment should be selected from the hazards of the agent and the work being performed. Protocol-driven risk assessment identifies the exposure routes and failure modes that the practices, safety equipment, and facility must control.",
+        "The exposure control plan is reviewed at least annually and whenever new or modified tasks, procedures, or positions affect occupational exposure. OSHA also requires consideration of safer devices and input from employees who use them.",
+        "OSHA gives priority to engineering and work-practice controls. Safety-engineered devices and accessible sharps containers reduce exposure at the source, while the work practice removes the recapping step that is producing injuries.",
+        "Human blood may contain bloodborne pathogens. BSL-2 practices are commonly used for routine clinical specimens, while a biological safety cabinet provides primary containment for procedures likely to create aerosols or splashes."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Exposure control plan review', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Sharps engineering controls', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'BSL-2 practices for human specimens', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); CDC/NIH Biosafety in Microbiological and Biomedical Laboratories, 6th ed.",
+      "sourceLocation": "Yates Chapter 11, biological safety, containment, and biosafety levels, pp. 343-348; CDC/NIH BMBL 6th ed., principles of protocol-driven risk assessment; Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/labs/bmbl/index.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c6e97037bb66c3e223ef05d26eff73b4088d429cbd0559a9f9b9bf1974615f2b"
+    },
+    {
+      "id": "PV2-CORE-CH11-018",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Universal precautions",
+      "itemFamilyId": "PV2-CORE-CH11-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an indoor mold complaint, the team reviews this question: A responder finds blood mixed with another body fluid and cannot reliably determine the fluid type. Which approach is required for handling the material? Which rationale most directly supports the correct answer?",
+      "options": [
+        "An employee may decline the vaccine initially and later accept it. OSHA requires the employer to make the vaccination available without cost to covered employees who remain occupationally exposed.",
+        "OSHA requires universal precautions for blood and other potentially infectious materials. When body fluids cannot be differentiated, they are treated as potentially infectious rather than judged by appearance.",
+        "People with inactive TB have viable but inactive organisms, usually test positive, have no symptoms, and cannot spread TB. Treatment reduces the risk of later active disease.",
+        "A Class II cabinet is designed to protect the worker, product, and environment during suitable biological procedures. Correct placement, certification, airflow, and work technique are necessary for that protection."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Hepatitis B vaccination access', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Inactive versus active tuberculosis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Class II biological safety cabinet function', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.1030 - Bloodborne Pathogens",
+      "sourceLocation": "Yates Chapter 11, biological exposure routes and containment, pp. 332-348; OSHA 1910.1030(d)(1)-(2); Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "82179c4809e740ec1ec2bad985adf43d714d23c9a8aa584de556c2cc944df450"
+    },
+    {
+      "id": "PV2-CORE-CH11-019",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sharps engineering controls",
+      "itemFamilyId": "PV2-CORE-CH11-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a zoonotic exposure assessment, the team reviews this question: A clinic has repeated needlestick injuries while staff recap conventional needles before disposal. Which corrective action best follows the bloodborne-pathogen control hierarchy? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A Class II cabinet is designed to protect the worker, product, and environment during suitable biological procedures. Correct placement, certification, airflow, and work technique are necessary for that protection.",
+        "An employee may decline the vaccine initially and later accept it. OSHA requires the employer to make the vaccination available without cost to covered employees who remain occupationally exposed.",
+        "OSHA gives priority to engineering and work-practice controls. Safety-engineered devices and accessible sharps containers reduce exposure at the source, while the work practice removes the recapping step that is producing injuries.",
+        "Human blood may contain bloodborne pathogens. BSL-2 practices are commonly used for routine clinical specimens, while a biological safety cabinet provides primary containment for procedures likely to create aerosols or splashes."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Class II biological safety cabinet function', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hepatitis B vaccination access', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'BSL-2 practices for human specimens', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.1030 - Bloodborne Pathogens; CDC/NIOSH - Bloodborne Infectious Disease Risk Factors and Post-Exposure Response",
+      "sourceLocation": "OSHA 1910.1030(d)(2), engineering and work-practice controls; CDC/NIOSH bloodborne disease prevention, safety-engineered sharps and disposal controls; Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://www.cdc.gov/niosh/healthcare/risk-factors/bloodborne-infectious-diseases.html",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "36a1c86809ebce9b2ae0cec261a9df447e7660e169eb7157d4aa703b3ded1d19"
+    },
+    {
+      "id": "PV2-CORE-CH11-020",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.09",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Exposure control plan review",
+      "itemFamilyId": "PV2-CORE-CH11-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a laboratory biosafety review, the team reviews this question: A hospital adds a new procedure that changes which employees may contact blood and introduces a safer needle device. What should happen to the bloodborne-pathogen exposure control plan? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Biosafety containment should be selected from the hazards of the agent and the work being performed. Protocol-driven risk assessment identifies the exposure routes and failure modes that the practices, safety equipment, and facility must control.",
+        "OSHA gives priority to engineering and work-practice controls. Safety-engineered devices and accessible sharps containers reduce exposure at the source, while the work practice removes the recapping step that is producing injuries.",
+        "Human blood may contain bloodborne pathogens. BSL-2 practices are commonly used for routine clinical specimens, while a biological safety cabinet provides primary containment for procedures likely to create aerosols or splashes.",
+        "The exposure control plan is reviewed at least annually and whenever new or modified tasks, procedures, or positions affect occupational exposure. OSHA also requires consideration of safer devices and input from employees who use them."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Protocol-driven biological risk assessment', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Sharps engineering controls', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'BSL-2 practices for human specimens', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.1030 - Bloodborne Pathogens",
+      "sourceLocation": "OSHA 1910.1030(c)(1), exposure control plan review and update; 1910.1030(c)(1)(iv)-(v), safer medical devices and employee input; Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1c413e7e2ebe6266863c61b5cb828819f6ee04e0a35c6c2ab695f69f8832f03b"
+    },
+    {
+      "id": "PV2-CORE-CH11-021",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hepatitis B vaccination access",
+      "itemFamilyId": "PV2-CORE-CH11-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a sharps-injury investigation, the team reviews this question: An employee with occupational exposure initially signs the hepatitis B vaccination declination but requests the vaccine three months later while still performing exposed work. What is the employer expected to do? Which rationale most directly supports the correct answer?",
+      "options": [
+        "An employee may decline the vaccine initially and later accept it. OSHA requires the employer to make the vaccination available without cost to covered employees who remain occupationally exposed.",
+        "A Class II cabinet is designed to protect the worker, product, and environment during suitable biological procedures. Correct placement, certification, airflow, and work technique are necessary for that protection.",
+        "People with inactive TB have viable but inactive organisms, usually test positive, have no symptoms, and cannot spread TB. Treatment reduces the risk of later active disease.",
+        "OSHA gives priority to engineering and work-practice controls. Safety-engineered devices and accessible sharps containers reduce exposure at the source, while the work practice removes the recapping step that is producing injuries."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Class II biological safety cabinet function', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Inactive versus active tuberculosis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Sharps engineering controls', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.1030 - Bloodborne Pathogens",
+      "sourceLocation": "OSHA 1910.1030(f)(1)-(2) and Appendix A, hepatitis B vaccination and declination; Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "503856da1d817d6eb2e901e2f5af6bd50857250ace13456e5f1bb7fcaba78e41"
+    },
+    {
+      "id": "PV2-CORE-CH11-022",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Immediate post-exposure response",
+      "itemFamilyId": "PV2-CORE-CH11-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a sanitation and hygiene audit, the team reviews this question: A technician receives a needlestick from a used hollow-bore needle. Which immediate response is most appropriate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "People with inactive TB have viable but inactive organisms, usually test positive, have no symptoms, and cannot spread TB. Treatment reduces the risk of later active disease.",
+        "Immediate cleansing and prompt reporting allow rapid exposure assessment, documentation, source evaluation where permitted, and time-sensitive post-exposure management.",
+        "A Class II cabinet is designed to protect the worker, product, and environment during suitable biological procedures. Correct placement, certification, airflow, and work technique are necessary for that protection.",
+        "Disturbing bird or bat droppings can aerosolize Histoplasma spores. Preventing dust generation and using task-specific containment and PPE reduce inhalation and take-home exposure."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Inactive versus active tuberculosis', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Class II biological safety cabinet function', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Histoplasma exposure control', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.1030 - Bloodborne Pathogens; CDC/NIOSH - Bloodborne Infectious Disease Risk Factors and Post-Exposure Response",
+      "sourceLocation": "OSHA 1910.1030(f)(3), post-exposure evaluation and follow-up; CDC/NIOSH immediate response to sharps and mucous-membrane exposures; Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://www.cdc.gov/niosh/healthcare/risk-factors/bloodborne-infectious-diseases.html",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "50da8168b8165d0e05fef780ef1560f8b5b1df3fd40cd3cb177dcfa1c7cfe4c8"
+    },
+    {
+      "id": "PV2-CORE-CH11-023",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Inactive versus active tuberculosis",
+      "itemFamilyId": "PV2-CORE-CH11-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a pandemic preparedness meeting, the team reviews this question: A worker has a positive TB blood test, no symptoms, a normal chest image, and negative sputum studies. Which interpretation is most accurate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA requires universal precautions for blood and other potentially infectious materials. When body fluids cannot be differentiated, they are treated as potentially infectious rather than judged by appearance.",
+        "A Class II cabinet is designed to protect the worker, product, and environment during suitable biological procedures. Correct placement, certification, airflow, and work technique are necessary for that protection.",
+        "People with inactive TB have viable but inactive organisms, usually test positive, have no symptoms, and cannot spread TB. Treatment reduces the risk of later active disease.",
+        "An employee may decline the vaccine initially and later accept it. OSHA requires the employer to make the vaccination available without cost to covered employees who remain occupationally exposed."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Universal precautions', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Class II biological safety cabinet function', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Hepatitis B vaccination access', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); CDC - About Inactive Tuberculosis and About Tuberculosis",
+      "sourceLocation": "Yates Chapter 11, tuberculosis, pp. 334-335; CDC inactive TB characteristics and progression risk; Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/tb/about/inactive-tuberculosis.html",
+        "https://www.cdc.gov/tb/about/index.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7bcc98e77bbe57438bfe4aa431783ac5f00ee42db56c6e75489eb963378ef228"
+    },
+    {
+      "id": "PV2-CORE-CH11-024",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "BSL-2 practices for human specimens",
+      "itemFamilyId": "PV2-CORE-CH11-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an infection-control program review, the team reviews this question: A clinical laboratory performs routine manipulations of human blood specimens, including steps that can create splashes or aerosols. Which baseline approach is most defensible? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A Class II cabinet is designed to protect the worker, product, and environment during suitable biological procedures. Correct placement, certification, airflow, and work technique are necessary for that protection.",
+        "OSHA gives priority to engineering and work-practice controls. Safety-engineered devices and accessible sharps containers reduce exposure at the source, while the work practice removes the recapping step that is producing injuries.",
+        "Biosafety containment should be selected from the hazards of the agent and the work being performed. Protocol-driven risk assessment identifies the exposure routes and failure modes that the practices, safety equipment, and facility must control.",
+        "Human blood may contain bloodborne pathogens. BSL-2 practices are commonly used for routine clinical specimens, while a biological safety cabinet provides primary containment for procedures likely to create aerosols or splashes."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Class II biological safety cabinet function', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Sharps engineering controls', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Protocol-driven biological risk assessment', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); CDC/NIH Biosafety in Microbiological and Biomedical Laboratories, 6th ed.; OSHA 29 CFR 1910.1030 - Bloodborne Pathogens",
+      "sourceLocation": "Yates Chapter 11, BSL-2 and biological safety cabinets, pp. 344-347; CDC/NIH BMBL 6th ed., BSL-2 and clinical laboratory biosafety; OSHA 1910.1030; Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/labs/bmbl/index.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a94fb3d9af254898b41a82265ac7a13e4688efd0257ece0865370487235edfcb"
+    },
+    {
+      "id": "PV2-CORE-CH11-025",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Class II biological safety cabinet function",
+      "itemFamilyId": "PV2-CORE-CH11-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a bloodborne pathogens exposure incident, the team reviews this question: Which statement best describes a properly used Class II biological safety cabinet during microbiological work? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A Class II cabinet is designed to protect the worker, product, and environment during suitable biological procedures. Correct placement, certification, airflow, and work technique are necessary for that protection.",
+        "An employee may decline the vaccine initially and later accept it. OSHA requires the employer to make the vaccination available without cost to covered employees who remain occupationally exposed.",
+        "Human blood may contain bloodborne pathogens. BSL-2 practices are commonly used for routine clinical specimens, while a biological safety cabinet provides primary containment for procedures likely to create aerosols or splashes.",
+        "OSHA gives priority to engineering and work-practice controls. Safety-engineered devices and accessible sharps containers reduce exposure at the source, while the work practice removes the recapping step that is producing injuries."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Hepatitis B vaccination access', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'BSL-2 practices for human specimens', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Sharps engineering controls', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); CDC/NIH Biosafety in Microbiological and Biomedical Laboratories, 6th ed.",
+      "sourceLocation": "Yates Chapter 11, Class II biological safety cabinets, pp. 344-346; CDC/NIH BMBL 6th ed., primary containment equipment; Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/labs/bmbl/index.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "38fbd77b07eeccdef5dbc9611e3e1519be5cdc6849ffbc25e08da36f70abc70f"
+    },
+    {
+      "id": "PV2-CORE-CH11-026",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Histoplasma exposure control",
+      "itemFamilyId": "PV2-CORE-CH11-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an indoor mold complaint, the team reviews this question: A demolition crew must remove a large, dry accumulation of bat droppings from an enclosed attic in an area where Histoplasma may occur. Which plan best reduces worker exposure? Which rationale most directly supports the correct answer?",
+      "options": [
+        "An employee may decline the vaccine initially and later accept it. OSHA requires the employer to make the vaccination available without cost to covered employees who remain occupationally exposed.",
+        "Disturbing bird or bat droppings can aerosolize Histoplasma spores. Preventing dust generation and using task-specific containment and PPE reduce inhalation and take-home exposure.",
+        "People with inactive TB have viable but inactive organisms, usually test positive, have no symptoms, and cannot spread TB. Treatment reduces the risk of later active disease.",
+        "A Class II cabinet is designed to protect the worker, product, and environment during suitable biological procedures. Correct placement, certification, airflow, and work technique are necessary for that protection."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Hepatitis B vaccination access', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Inactive versus active tuberculosis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Class II biological safety cabinet function', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); CDC/NIOSH - Histoplasmosis and Work",
+      "sourceLocation": "Yates Chapter 11, histoplasmosis and biological containment, pp. 343-347; CDC/NIOSH histoplasmosis work-risk and dust-control guidance; Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/histoplasmosis/about/index.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c070696219b00186c2751f532ea6baa60bc5e1d0a0044b63686d8ebdb2b6bebb"
+    },
+    {
+      "id": "PV2-CORE-CH11-027",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.09",
+          "role": "secondary"
+        }
+      ],
+      "concept": "bloodborne pathogens exposure control",
+      "itemFamilyId": "PV2-CORE-CH11-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a sharps-injury investigation, a supervisor proposes: \"Post the injury count without changing the device or disposal process\". The underlying case is: A hospital unit reports repeated needlestick injuries during disposal of a specific device. Refresher training has not changed the trend. What is the strongest next control? Which alternative is the most defensible correction?",
+      "options": [
+        "Repeat the same slide presentation and treat injuries as individual carelessness",
+        "Post the injury count without changing the device or disposal process",
+        "Evaluate and implement a safer engineering control or needleless device with frontline employee input, then verify effectiveness",
+        "Require thicker general-purpose gloves as the primary needlestick control"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The bloodborne pathogens framework prioritizes engineering and work-practice controls and requires consideration of safer devices with input from affected nonmanagerial employees.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Repeat the same slide presentation and treat injuries as individual carelessness' remains incomplete or misapplies the controlling bloodborne pathogens exposure control principle.",
+        "The proposed response 'Post the injury count without changing the device or disposal process' remains incomplete or misapplies the controlling bloodborne pathogens exposure control principle.",
+        null,
+        "The proposed response 'Require thicker general-purpose gloves as the primary needlestick control' remains incomplete or misapplies the controlling bloodborne pathogens exposure control principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: bloodborne pathogens exposure control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "533b903c6dc0fa0358427b3a5aff63d373779717d8cc09e227151c874964161a"
+    },
+    {
+      "id": "PV2-CORE-CH11-028",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "post-exposure response",
+      "itemFamilyId": "PV2-CORE-CH11-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a sanitation and hygiene audit, a supervisor proposes: \"Wait for symptoms before seeking medical evaluation\". The underlying case is: An employee sustains a potentially infectious needlestick. Which immediate sequence is most appropriate? Which alternative is the most defensible correction?",
+      "options": [
+        "Begin discipline before documenting the route and circumstances of exposure",
+        "Send the employee home with instructions to contact a personal physician next month",
+        "Wait for symptoms before seeking medical evaluation",
+        "Provide prompt first aid, report and document the exposure, arrange confidential medical evaluation and follow-up, and evaluate the source as permitted"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Potential bloodborne exposure requires immediate care and timely confidential evaluation and follow-up; symptoms and fault are not prerequisites.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Begin discipline before documenting the route and circumstances of exposure' remains incomplete or misapplies the controlling post-exposure response principle.",
+        "The proposed response 'Send the employee home with instructions to contact a personal physician next month' remains incomplete or misapplies the controlling post-exposure response principle.",
+        "The proposed response 'Wait for symptoms before seeking medical evaluation' remains incomplete or misapplies the controlling post-exposure response principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: post-exposure response",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6ec87d0801de3f7a3f6a6034820641ef230fd7b9a9931bafe89a8c2976f1705d"
+    },
+    {
+      "id": "PV2-CORE-CH11-029",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.08",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "universal precautions",
+      "itemFamilyId": "PV2-CORE-CH11-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a pandemic preparedness meeting, a supervisor proposes: \"Delay cleanup until the source person’s complete medical record is obtained\". The underlying case is: A cleanup team cannot determine whether visible blood came from a person known to have an infection. How should the material be handled? Which alternative is the most defensible correction?",
+      "options": [
+        "Apply universal precautions and treat the blood and specified body fluids as potentially infectious",
+        "Delay cleanup until the source person’s complete medical record is obtained",
+        "Require respiratory protection but omit gloves and surface decontamination",
+        "Use ordinary housekeeping methods because infection has not been confirmed"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Universal precautions do not depend on confirmed infection status; they provide a consistent approach to potentially infectious blood and body fluids.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Delay cleanup until the source person’s complete medical record is obtained' remains incomplete or misapplies the controlling universal precautions principle.",
+        "The proposed response 'Require respiratory protection but omit gloves and surface decontamination' remains incomplete or misapplies the controlling universal precautions principle.",
+        "The proposed response 'Use ordinary housekeeping methods because infection has not been confirmed' remains incomplete or misapplies the controlling universal precautions principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: universal precautions",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6dc939c540a996d58c2f88cec57906e85753cdca1b09745593f0884d7cf80a2a"
+    },
+    {
+      "id": "PV2-CORE-CH11-030",
+      "version": 1,
+      "chapterId": "ch-11",
+      "chapterTitle": "Biological Hazards",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04c",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mold and moisture control",
+      "itemFamilyId": "PV2-CORE-CH11-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an infection-control program review, a supervisor proposes: \"Paint over the growth without removing moisture-damaged material\". The underlying case is: Employees report musty odor and visible mold on drywall after a roof leak. Which corrective strategy addresses the root cause? Which alternative is the most defensible correction?",
+      "options": [
+        "Collect extensive air samples before stopping the active leak",
+        "Correct the moisture intrusion, remove or remediate damaged porous material using controlled methods, and verify the area is dry",
+        "Paint over the growth without removing moisture-damaged material",
+        "Spray fragrance to mask odor while leaving wet material in place"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Mold control depends primarily on eliminating moisture and properly addressing damaged materials. Sampling or cosmetic treatment does not substitute for source correction.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Collect extensive air samples before stopping the active leak' remains incomplete or misapplies the controlling mold and moisture control principle.",
+        null,
+        "The proposed response 'Paint over the growth without removing moisture-damaged material' remains incomplete or misapplies the controlling mold and moisture control principle.",
+        "The proposed response 'Spray fragrance to mask odor while leaving wet material in place' remains incomplete or misapplies the controlling mold and moisture control principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 11, pp. 332-349; 29 CFR 1910.1030 and applicable CDC/NIOSH guidance; curated topic: mold and moisture control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1030",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "da7f70168f361e704154733591732145c2906f5d8a9bedd0d20b4d4a4fa530c5"
+    }
+  ]
+}

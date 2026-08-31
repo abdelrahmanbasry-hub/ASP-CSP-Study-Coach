@@ -1,0 +1,2043 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-28-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-28",
+  "chapterTitle": "Radiation Safety",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH28-001",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "time distance shielding",
+      "itemFamilyId": "PV2-CORE-CH28-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A technician can reduce time near an ionizing radiation source, increase distance, or add shielding. Which planning approach is best?",
+      "options": [
+        "Optimize all practical time, distance, and shielding measures to keep exposure as low as reasonably achievable while completing the task",
+        "Use only distance because time and shielding cannot be combined",
+        "Eliminate dosimetry whenever shielding is installed",
+        "Rely on the regulatory limit as the target exposure"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Radiation protection is layered. ALARA means planning to reduce dose through practical combinations rather than treating a limit as a desired exposure.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Use only distance because time and shielding cannot be combined' does not apply the controlling principle for time distance shielding to the facts given, so it is not the best answer.",
+        "The option 'Eliminate dosimetry whenever shielding is installed' does not apply the controlling principle for time distance shielding to the facts given, so it is not the best answer.",
+        "The option 'Rely on the regulatory limit as the target exposure' does not apply the controlling principle for time distance shielding to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: time distance shielding",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5f5b3a08c4eabc4995d476280e357ca641e23ff6b4d48f130a3ae8096be9c3e8"
+    },
+    {
+      "id": "PV2-CORE-CH28-002",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inverse square application",
+      "itemFamilyId": "PV2-CORE-CH28-F002",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A point-source exposure rate is 80 mR/h at 1 meter. Ignoring scatter and attenuation, what is the approximate rate at 4 meters?",
+      "options": [
+        "320 mR/h",
+        "5 mR/h",
+        "20 mR/h",
+        "1.25 mR/h"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The distance increases by four, so intensity falls by 4² = 16: 80/16 = 5 mR/h.",
+      "incorrectOptionExplanations": [
+        "The option '320 mR/h' does not apply the controlling principle for inverse square application to the facts given, so it is not the best answer.",
+        null,
+        "The option '20 mR/h' does not apply the controlling principle for inverse square application to the facts given, so it is not the best answer.",
+        "The option '1.25 mR/h' does not apply the controlling principle for inverse square application to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: inverse square application",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "I_2 = I_1 × (d_1 / d_2)^2",
+      "units": "mR/h",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7c75ed89ee5d0d498bc3a93f7c0904f27e5c9710f601dcc09a55b9e6f544431e"
+    },
+    {
+      "id": "PV2-CORE-CH28-003",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "personal dosimetry placement",
+      "itemFamilyId": "PV2-CORE-CH28-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A worker wears a lead apron during fluoroscopic work. Where should dosimeters be placed when the program uses two badges to estimate whole-body exposure?",
+      "options": [
+        "Wear both dosimeters together outside the apron so they provide duplicate readings from the same body location",
+        "Share one badge among the crew because exposure is similar",
+        "Place one badge outside the apron near the collar and one under the apron at the torso, following the facility’s approved dosimetry protocol",
+        "Place both badges in a locker to avoid contaminating them"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn.",
+      "incorrectOptionExplanations": [
+        "The option 'Wear both dosimeters together outside the apron so they provide duplicate readings from the same body location' does not apply the controlling principle for personal dosimetry placement to the facts given, so it is not the best answer.",
+        "The option 'Share one badge among the crew because exposure is similar' does not apply the controlling principle for personal dosimetry placement to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Place both badges in a locker to avoid contaminating them' does not apply the controlling principle for personal dosimetry placement to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: personal dosimetry placement",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "353a86071a61f3806b4343ec0e114158c8de71b45484bb95ac553de1723e4875"
+    },
+    {
+      "id": "PV2-CORE-CH28-004",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contamination versus irradiation",
+      "itemFamilyId": "PV2-CORE-CH28-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A sealed source passes near a workbench. Survey results show no radioactive material on the surface, but a worker asks whether the bench was “contaminated by radiation.” What is the correct explanation?",
+      "options": [
+        "A clean smear proves no radiation field ever existed",
+        "Treat every object exposed to a radiation field as permanently radioactive even when no radioactive material is deposited",
+        "Contamination and irradiation are interchangeable terms",
+        "The bench may have been irradiated while the source was present, but contamination requires radioactive material to be deposited on it"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Irradiation is exposure to a field; contamination is unwanted radioactive material. A surface can be irradiated without retaining contamination or becoming activated.",
+      "incorrectOptionExplanations": [
+        "The option 'A clean smear proves no radiation field ever existed' does not apply the controlling principle for contamination versus irradiation to the facts given, so it is not the best answer.",
+        "The option 'Treat every object exposed to a radiation field as permanently radioactive even when no radioactive material is deposited' does not apply the controlling principle for contamination versus irradiation to the facts given, so it is not the best answer.",
+        "The option 'Contamination and irradiation are interchangeable terms' does not apply the controlling principle for contamination versus irradiation to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: contamination versus irradiation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1558a3d5c521e13f5a5817648fac7f041666057ce32d2a08cc9f8c34c969fdd8"
+    },
+    {
+      "id": "PV2-CORE-CH28-005",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "source inventory and leak testing",
+      "itemFamilyId": "PV2-CORE-CH28-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility cannot locate one sealed source listed in its inventory. What is the appropriate response?",
+      "options": [
+        "Initiate the license or program response for a missing source, secure areas, search and survey, notify required authorities, and investigate controls",
+        "Assume the source was disposed of with ordinary trash and close the issue",
+        "Wait for the next annual inventory before taking action",
+        "Delete the source from the inventory because it is no longer physically present"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Missing radioactive material is a security and exposure event requiring prompt controlled response and regulatory evaluation, not administrative deletion.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Assume the source was disposed of with ordinary trash and close the issue' does not apply the controlling principle for source inventory and leak testing to the facts given, so it is not the best answer.",
+        "The option 'Wait for the next annual inventory before taking action' does not apply the controlling principle for source inventory and leak testing to the facts given, so it is not the best answer.",
+        "The option 'Delete the source from the inventory because it is no longer physically present' does not apply the controlling principle for source inventory and leak testing to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: source inventory and leak testing",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "300140d6dc2461c61024bff98766caa3b1dfeac076f7e33a383baea48919742d"
+    },
+    {
+      "id": "PV2-CORE-CH28-006",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "laser hazard controls",
+      "itemFamilyId": "PV2-CORE-CH28-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A high-power laser beam crosses an occupied walkway at eye level. Operators wear eyewear, but there is no enclosure or interlock. What is the strongest control?",
+      "options": [
+        "Use darker eyewear without checking wavelength or optical density",
+        "Enclose or terminate the beam path and use interlocks and controlled access, with suitable eyewear for residual exposure",
+        "Increase room lighting to neutralize laser energy",
+        "Rely on warning signs because trained workers can avoid an invisible beam"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Laser safety prioritizes beam enclosure, termination, access control, and interlocks. Eyewear must be wavelength- and energy-appropriate and is not a substitute for engineering control.",
+      "incorrectOptionExplanations": [
+        "The option 'Use darker eyewear without checking wavelength or optical density' does not apply the controlling principle for laser hazard controls to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Increase room lighting to neutralize laser energy' does not apply the controlling principle for laser hazard controls to the facts given, so it is not the best answer.",
+        "The option 'Rely on warning signs because trained workers can avoid an invisible beam' does not apply the controlling principle for laser hazard controls to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: laser hazard controls",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "272bbdc6d14f78086daa03fb283dd2284f700536d252f488d22d5af714bb0d7a"
+    },
+    {
+      "id": "PV2-CORE-CH28-007",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ultraviolet exposure",
+      "itemFamilyId": "PV2-CORE-CH28-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Workers use an intense UV curing source that can expose skin and eyes through a partially open housing. Which control is most effective?",
+      "options": [
+        "Rely on the absence of visible brightness because UV is invisible",
+        "Apply sunscreen as the sole workplace control for eyes and skin",
+        "Complete the enclosure or interlock the access, control reflections, and provide wavelength-appropriate PPE for residual tasks",
+        "Use ordinary clear spectacles regardless of UV transmission"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "UV hazards require source enclosure, interlocks, reflection control, and suitable eye and skin protection. Visibility is not a reliable indicator of dose.",
+      "incorrectOptionExplanations": [
+        "The option 'Rely on the absence of visible brightness because UV is invisible' does not apply the controlling principle for ultraviolet exposure to the facts given, so it is not the best answer.",
+        "The option 'Apply sunscreen as the sole workplace control for eyes and skin' does not apply the controlling principle for ultraviolet exposure to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use ordinary clear spectacles regardless of UV transmission' does not apply the controlling principle for ultraviolet exposure to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: ultraviolet exposure",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "24be2f26ce04f3fb466431c740c45031fb101bee695c68e689784371369b5a14"
+    },
+    {
+      "id": "PV2-CORE-CH28-008",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "radiation survey instrument selection",
+      "itemFamilyId": "PV2-CORE-CH28-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A team must verify low-level removable beta contamination, but the available instrument has a thick window and poor beta response. What should they do?",
+      "options": [
+        "Increase survey speed so the detector covers more area",
+        "Use the unsuitable instrument and interpret a zero reading as proof of no contamination",
+        "Measure room temperature and convert it to contamination level",
+        "Select and calibrate an instrument or sampling method suitable for the radiation type, energy, geometry, and required sensitivity"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Survey validity depends on detector response, window, geometry, calibration, background, and counting method. An insensitive detector can produce false reassurance.",
+      "incorrectOptionExplanations": [
+        "The option 'Increase survey speed so the detector covers more area' does not apply the controlling principle for radiation survey instrument selection to the facts given, so it is not the best answer.",
+        "The option 'Use the unsuitable instrument and interpret a zero reading as proof of no contamination' does not apply the controlling principle for radiation survey instrument selection to the facts given, so it is not the best answer.",
+        "The option 'Measure room temperature and convert it to contamination level' does not apply the controlling principle for radiation survey instrument selection to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: radiation survey instrument selection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "39358cf5c5c0aea299df190bbb3c6d527117d14b86d18218491c1fa0ead8280b"
+    },
+    {
+      "id": "PV2-CORE-CH28-009",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "time distance shielding",
+      "itemFamilyId": "PV2-CORE-CH28-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a shielding calculation discussion, the team reviews this case: A technician can reduce time near an ionizing radiation source, increase distance, or add shielding. Which planning approach is best? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Radiation protection is layered. ALARA means planning to reduce dose through practical combinations rather than treating a limit as a desired exposure.",
+        "UV hazards require source enclosure, interlocks, reflection control, and suitable eye and skin protection. Visibility is not a reliable indicator of dose.",
+        "Missing radioactive material is a security and exposure event requiring prompt controlled response and regulatory evaluation, not administrative deletion.",
+        "Irradiation is exposure to a field; contamination is unwanted radioactive material. A surface can be irradiated without retaining contamination or becoming activated."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses time distance shielding and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'ultraviolet exposure', but it does not resolve the time distance shielding issue in this case.",
+        "This rationale supports the separate chapter topic 'source inventory and leak testing', but it does not resolve the time distance shielding issue in this case.",
+        "This rationale supports the separate chapter topic 'contamination versus irradiation', but it does not resolve the time distance shielding issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: time distance shielding",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d274d55295c65fe3fd20fbaaecf9e4dbe57072564d2cf87787d7801163b188dd"
+    },
+    {
+      "id": "PV2-CORE-CH28-010",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inverse square application",
+      "itemFamilyId": "PV2-CORE-CH28-F010",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a dosimetry program audit, the team reviews this case: A point-source exposure rate is 80 mR/h at 1 meter. Ignoring scatter and attenuation, what is the approximate rate at 4 meters? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Laser safety prioritizes beam enclosure, termination, access control, and interlocks. Eyewear must be wavelength- and energy-appropriate and is not a substitute for engineering control.",
+        "The distance increases by four, so intensity falls by 4² = 16: 80/16 = 5 mR/h.",
+        "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn.",
+        "Radiation protection is layered. ALARA means planning to reduce dose through practical combinations rather than treating a limit as a desired exposure."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses inverse square application and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'laser hazard controls', but it does not resolve the inverse square application issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'personal dosimetry placement', but it does not resolve the inverse square application issue in this case.",
+        "This rationale supports the separate chapter topic 'time distance shielding', but it does not resolve the inverse square application issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: inverse square application",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "I_2 = I_1 × (d_1 / d_2)^2",
+      "units": "mR/h",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8a11213802543605379f1077ac7dabf35ddee69966ec2ad687b94033e36d45f6"
+    },
+    {
+      "id": "PV2-CORE-CH28-011",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "personal dosimetry placement",
+      "itemFamilyId": "PV2-CORE-CH28-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a radioactive source inventory, the team reviews this case: A worker wears a lead apron during fluoroscopic work. Where should dosimeters be placed when the program uses two badges to estimate whole-body exposure? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Survey validity depends on detector response, window, geometry, calibration, background, and counting method. An insensitive detector can produce false reassurance.",
+        "Irradiation is exposure to a field; contamination is unwanted radioactive material. A surface can be irradiated without retaining contamination or becoming activated.",
+        "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn.",
+        "Missing radioactive material is a security and exposure event requiring prompt controlled response and regulatory evaluation, not administrative deletion."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses personal dosimetry placement and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'radiation survey instrument selection', but it does not resolve the personal dosimetry placement issue in this case.",
+        "This rationale supports the separate chapter topic 'contamination versus irradiation', but it does not resolve the personal dosimetry placement issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'source inventory and leak testing', but it does not resolve the personal dosimetry placement issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: personal dosimetry placement",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c9d47c454b4851cf9f8bdf7e651c2f8bc35b89156853c8fef32abf6d78d22714"
+    },
+    {
+      "id": "PV2-CORE-CH28-012",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contamination versus irradiation",
+      "itemFamilyId": "PV2-CORE-CH28-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a UV exposure assessment, the team reviews this case: A sealed source passes near a workbench. Survey results show no radioactive material on the surface, but a worker asks whether the bench was “contaminated by radiation.” What is the correct explanation? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn.",
+        "The distance increases by four, so intensity falls by 4² = 16: 80/16 = 5 mR/h.",
+        "Survey validity depends on detector response, window, geometry, calibration, background, and counting method. An insensitive detector can produce false reassurance.",
+        "Irradiation is exposure to a field; contamination is unwanted radioactive material. A surface can be irradiated without retaining contamination or becoming activated."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses contamination versus irradiation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'personal dosimetry placement', but it does not resolve the contamination versus irradiation issue in this case.",
+        "This rationale supports the separate chapter topic 'inverse square application', but it does not resolve the contamination versus irradiation issue in this case.",
+        "This rationale supports the separate chapter topic 'radiation survey instrument selection', but it does not resolve the contamination versus irradiation issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: contamination versus irradiation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d2bcc120046e9f16f47f220ba3a4ee56225931979fd2732a36f698104e6b51e3"
+    },
+    {
+      "id": "PV2-CORE-CH28-013",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "source inventory and leak testing",
+      "itemFamilyId": "PV2-CORE-CH28-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a time-distance-shielding decision, the team reviews this case: A facility cannot locate one sealed source listed in its inventory. What is the appropriate response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Missing radioactive material is a security and exposure event requiring prompt controlled response and regulatory evaluation, not administrative deletion.",
+        "Irradiation is exposure to a field; contamination is unwanted radioactive material. A surface can be irradiated without retaining contamination or becoming activated.",
+        "UV hazards require source enclosure, interlocks, reflection control, and suitable eye and skin protection. Visibility is not a reliable indicator of dose.",
+        "Survey validity depends on detector response, window, geometry, calibration, background, and counting method. An insensitive detector can produce false reassurance."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses source inventory and leak testing and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'contamination versus irradiation', but it does not resolve the source inventory and leak testing issue in this case.",
+        "This rationale supports the separate chapter topic 'ultraviolet exposure', but it does not resolve the source inventory and leak testing issue in this case.",
+        "This rationale supports the separate chapter topic 'radiation survey instrument selection', but it does not resolve the source inventory and leak testing issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: source inventory and leak testing",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "db6677904e5d901c911fffb8b20374950f065d455ea60d46f85d3a906d1171b9"
+    },
+    {
+      "id": "PV2-CORE-CH28-014",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "laser hazard controls",
+      "itemFamilyId": "PV2-CORE-CH28-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a contamination control response, the team reviews this case: A high-power laser beam crosses an occupied walkway at eye level. Operators wear eyewear, but there is no enclosure or interlock. What is the strongest control? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn.",
+        "Laser safety prioritizes beam enclosure, termination, access control, and interlocks. Eyewear must be wavelength- and energy-appropriate and is not a substitute for engineering control.",
+        "Survey validity depends on detector response, window, geometry, calibration, background, and counting method. An insensitive detector can produce false reassurance.",
+        "Irradiation is exposure to a field; contamination is unwanted radioactive material. A surface can be irradiated without retaining contamination or becoming activated."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses laser hazard controls and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'personal dosimetry placement', but it does not resolve the laser hazard controls issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'radiation survey instrument selection', but it does not resolve the laser hazard controls issue in this case.",
+        "This rationale supports the separate chapter topic 'contamination versus irradiation', but it does not resolve the laser hazard controls issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: laser hazard controls",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7401f165f3406a9c2bf6f99430a2293819402c5b6f739ccd61c9ceed7b68e589"
+    },
+    {
+      "id": "PV2-CORE-CH28-015",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ultraviolet exposure",
+      "itemFamilyId": "PV2-CORE-CH28-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an ionizing radiation work plan, the team reviews this case: Workers use an intense UV curing source that can expose skin and eyes through a partially open housing. Which control is most effective? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn.",
+        "Survey validity depends on detector response, window, geometry, calibration, background, and counting method. An insensitive detector can produce false reassurance.",
+        "UV hazards require source enclosure, interlocks, reflection control, and suitable eye and skin protection. Visibility is not a reliable indicator of dose.",
+        "Missing radioactive material is a security and exposure event requiring prompt controlled response and regulatory evaluation, not administrative deletion."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses ultraviolet exposure and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'personal dosimetry placement', but it does not resolve the ultraviolet exposure issue in this case.",
+        "This rationale supports the separate chapter topic 'radiation survey instrument selection', but it does not resolve the ultraviolet exposure issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'source inventory and leak testing', but it does not resolve the ultraviolet exposure issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: ultraviolet exposure",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a6f665d2a8052275c65d32f48456d902a86f189381b2867e88c160bd43c6e27c"
+    },
+    {
+      "id": "PV2-CORE-CH28-016",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "radiation survey instrument selection",
+      "itemFamilyId": "PV2-CORE-CH28-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a laser safety review, the team reviews this case: A team must verify low-level removable beta contamination, but the available instrument has a thick window and poor beta response. What should they do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The distance increases by four, so intensity falls by 4² = 16: 80/16 = 5 mR/h.",
+        "Irradiation is exposure to a field; contamination is unwanted radioactive material. A surface can be irradiated without retaining contamination or becoming activated.",
+        "Missing radioactive material is a security and exposure event requiring prompt controlled response and regulatory evaluation, not administrative deletion.",
+        "Survey validity depends on detector response, window, geometry, calibration, background, and counting method. An insensitive detector can produce false reassurance."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses radiation survey instrument selection and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'inverse square application', but it does not resolve the radiation survey instrument selection issue in this case.",
+        "This rationale supports the separate chapter topic 'contamination versus irradiation', but it does not resolve the radiation survey instrument selection issue in this case.",
+        "This rationale supports the separate chapter topic 'source inventory and leak testing', but it does not resolve the radiation survey instrument selection issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: radiation survey instrument selection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b1d160486e069321ac6a73484b9f5b2b2597cc70d706f464179c5869e6649437"
+    },
+    {
+      "id": "PV2-CORE-CH28-017",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Inverse square law",
+      "itemFamilyId": "PV2-CORE-CH28-F017",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a laser safety review, solve the following problem and select the best answer: An unshielded point source produces 18 mrem per hour at 2 feet. Approximately what dose rate is expected at 6 feet?",
+      "options": [
+        "2 mrem per hour",
+        "54 mrem per hour",
+        "9 mrem per hour",
+        "6 mrem per hour"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "I2 = I1(d1/d2)^2 = 18(2/6)^2 = 2 mrem per hour.",
+      "incorrectOptionExplanations": [
+        null,
+        "This multiplies the dose as distance increases.",
+        "This divides by two rather than by the square of the distance ratio.",
+        "This assumes dose rate changes directly with distance."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 28, distance and inverse-square control, pp. 642-646; NRC protection principles; Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.nrc.gov/about-nrc/radiation/protects-you/protection-principles.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "I2 = I1*(d1/d2)^2",
+      "units": "mrem/hour",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9413e14834cd281ee853637083df74766dcef9c1d16c295794ef99a5e8da2419"
+    },
+    {
+      "id": "PV2-CORE-CH28-018",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Radioactive decay",
+      "itemFamilyId": "PV2-CORE-CH28-F018",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a shielding calculation discussion, solve the following problem and select the best answer: A sealed source begins at 160 MBq and passes through three half-lives. What activity remains?",
+      "options": [
+        "80 MBq",
+        "20 MBq",
+        "40 MBq",
+        "120 MBq"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "After three half-lives, activity = 160*(1/2)^3 = 20 MBq.",
+      "incorrectOptionExplanations": [
+        "Eighty MBq remains after one half-life.",
+        null,
+        "Forty MBq remains after two half-lives, not three.",
+        "This subtracts a fixed amount rather than halving each period."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 28, radioactive decay and half-life, pp. 640-642; Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "A = A0*(1/2)^n",
+      "units": "MBq",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f676193317ff257dbd068770246a666d61f99eefa756ee0ec8a08006aecc1b3b"
+    },
+    {
+      "id": "PV2-CORE-CH28-019",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Time distance shielding",
+      "itemFamilyId": "PV2-CORE-CH28-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a dosimetry program audit, the team reviews this question: A maintenance task near a gamma source cannot be eliminated. Which plan best applies radiation protection principles? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Skin can stop most external alpha particles, but contamination control is critical because internalized emitters irradiate tissue directly.",
+        "Engineering controls that contain the beam and prevent access are stronger than reliance only on warnings and PPE.",
+        "Time, distance, shielding, containment, planning, and dosimetry are combined to keep exposure controlled and as low as reasonably achievable.",
+        "Shield type and thickness depend on radiation type and energy; dense materials are commonly used for gamma attenuation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Alpha hazard', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Laser control hierarchy', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Shielding selection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 28, radiation-control methods, pp. 642-648; NRC protection principles; Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.nrc.gov/about-nrc/radiation/protects-you/protection-principles.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7b0137fa5fc8c0f7dcafc717e49f0f1660c19b5a934e217f7c92e4490c9f789a"
+    },
+    {
+      "id": "PV2-CORE-CH28-020",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Alpha hazard",
+      "itemFamilyId": "PV2-CORE-CH28-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a radioactive source inventory, the team reviews this question: Why can an alpha-emitting powder be a serious hazard despite low external penetration? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Time, distance, shielding, containment, planning, and dosimetry are combined to keep exposure controlled and as low as reasonably achievable.",
+        "Shield type and thickness depend on radiation type and energy; dense materials are commonly used for gamma attenuation.",
+        "Engineering controls that contain the beam and prevent access are stronger than reliance only on warnings and PPE.",
+        "Skin can stop most external alpha particles, but contamination control is critical because internalized emitters irradiate tissue directly."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Time distance shielding', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Shielding selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Laser control hierarchy', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 28, alpha radiation and biological effects, pp. 636-640; Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0533467fab36d3f4690e0fc172be45a361ed101cd6b7fc65d98f8a694872c91c"
+    },
+    {
+      "id": "PV2-CORE-CH28-021",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Contamination versus exposure",
+      "itemFamilyId": "PV2-CORE-CH28-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a UV exposure assessment, the team reviews this question: Which statement correctly distinguishes radiation exposure from radioactive contamination? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Exposure describes interaction with radiation, while contamination involves radioactive material that can be transferred or internalized.",
+        "Skin can stop most external alpha particles, but contamination control is critical because internalized emitters irradiate tissue directly.",
+        "Shield type and thickness depend on radiation type and energy; dense materials are commonly used for gamma attenuation.",
+        "Engineering controls that contain the beam and prevent access are stronger than reliance only on warnings and PPE."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Alpha hazard', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Shielding selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Laser control hierarchy', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 28, radiation basics and control methods, pp. 636-648; Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7dd5e2ab0f66cd8ca5bc179a02d2adcaedf0c334e84e467ee59b2a2cd1d65dd1"
+    },
+    {
+      "id": "PV2-CORE-CH28-022",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dosimetry use",
+      "itemFamilyId": "PV2-CORE-CH28-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a time-distance-shielding decision, the team reviews this question: What is the main purpose of a personal dosimeter for a radiation worker? Which rationale most directly supports the correct answer?",
+      "options": [
+        "I2 = I1(d1/d2)^2 = 18(2/6)^2 = 2 mrem per hour.",
+        "Personal dosimetry supports dose monitoring, investigation, work planning, and compliance with exposure-control programs.",
+        "Shield type and thickness depend on radiation type and energy; dense materials are commonly used for gamma attenuation.",
+        "Exposure describes interaction with radiation, while contamination involves radioactive material that can be transferred or internalized."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Inverse square law', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Shielding selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Contamination versus exposure', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 28, radiation control and monitoring, pp. 642-648; NRC radiation protection; Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.nrc.gov/about-nrc/radiation/protects-you/protection-principles.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aee1585a59330ffb31594659f3c3d753ce7103c86df651d8a40812a450b43b78"
+    },
+    {
+      "id": "PV2-CORE-CH28-023",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Shielding selection",
+      "itemFamilyId": "PV2-CORE-CH28-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a contamination control response, the team reviews this question: Which shielding choice is generally most appropriate for penetrating gamma radiation? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Skin can stop most external alpha particles, but contamination control is critical because internalized emitters irradiate tissue directly.",
+        "Engineering controls that contain the beam and prevent access are stronger than reliance only on warnings and PPE.",
+        "Shield type and thickness depend on radiation type and energy; dense materials are commonly used for gamma attenuation.",
+        "Time, distance, shielding, containment, planning, and dosimetry are combined to keep exposure controlled and as low as reasonably achievable."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Alpha hazard', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Laser control hierarchy', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Time distance shielding', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 28, shielding, pp. 645-648; NRC protection principles; Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.nrc.gov/about-nrc/radiation/protects-you/protection-principles.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "239ad00fcca0785914b2459967d85d6d5cbe485814c5be5f9286365ee9f9043c"
+    },
+    {
+      "id": "PV2-CORE-CH28-024",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Laser control hierarchy",
+      "itemFamilyId": "PV2-CORE-CH28-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an ionizing radiation work plan, the team reviews this question: A high-power laser beam crosses an occupied walkway. Which control is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Shield type and thickness depend on radiation type and energy; dense materials are commonly used for gamma attenuation.",
+        "Skin can stop most external alpha particles, but contamination control is critical because internalized emitters irradiate tissue directly.",
+        "Time, distance, shielding, containment, planning, and dosimetry are combined to keep exposure controlled and as low as reasonably achievable.",
+        "Engineering controls that contain the beam and prevent access are stronger than reliance only on warnings and PPE."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Shielding selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Alpha hazard', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Time distance shielding', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 28, lasers and laser safety-control measures, pp. 652-654; Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8db16f4969a843bc200c6c33afbb29a7110c3934da53d9723eaad2c195078bbf"
+    },
+    {
+      "id": "PV2-CORE-CH28-025",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "time distance shielding",
+      "itemFamilyId": "PV2-CORE-CH28-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a dosimetry program audit, a supervisor proposes: \"Use only distance because time and shielding cannot be combined\". The underlying case is: A technician can reduce time near an ionizing radiation source, increase distance, or add shielding. Which planning approach is best? Which alternative is the most defensible correction?",
+      "options": [
+        "Optimize all practical time, distance, and shielding measures to keep exposure as low as reasonably achievable while completing the task",
+        "Rely on the regulatory limit as the target exposure",
+        "Eliminate dosimetry whenever shielding is installed",
+        "Use only distance because time and shielding cannot be combined"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Radiation protection is layered. ALARA means planning to reduce dose through practical combinations rather than treating a limit as a desired exposure.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Rely on the regulatory limit as the target exposure' remains incomplete or misapplies the controlling time distance shielding principle.",
+        "The proposed response 'Eliminate dosimetry whenever shielding is installed' remains incomplete or misapplies the controlling time distance shielding principle.",
+        "The proposed response 'Use only distance because time and shielding cannot be combined' remains incomplete or misapplies the controlling time distance shielding principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: time distance shielding",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "21a187380ff3bf02c8c0113d77676c5ee56de08531e39ca8740afa7814831e80"
+    },
+    {
+      "id": "PV2-CORE-CH28-026",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inverse square application",
+      "itemFamilyId": "PV2-CORE-CH28-F026",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a radioactive source inventory, a supervisor proposes: \"320 mR/h\". The underlying case is: A point-source exposure rate is 80 mR/h at 1 meter. Ignoring scatter and attenuation, what is the approximate rate at 4 meters? Which alternative is the most defensible correction?",
+      "options": [
+        "20 mR/h",
+        "5 mR/h",
+        "320 mR/h",
+        "1.25 mR/h"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The distance increases by four, so intensity falls by 4² = 16: 80/16 = 5 mR/h.",
+      "incorrectOptionExplanations": [
+        "The proposed response '20 mR/h' remains incomplete or misapplies the controlling inverse square application principle.",
+        null,
+        "The proposed response '320 mR/h' remains incomplete or misapplies the controlling inverse square application principle.",
+        "The proposed response '1.25 mR/h' remains incomplete or misapplies the controlling inverse square application principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: inverse square application",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "I_2 = I_1 × (d_1 / d_2)^2",
+      "units": "mR/h",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "62d90671701716930e6df6c212a5843aa5ad5dc770172b673509f5d66504a4ac"
+    },
+    {
+      "id": "PV2-CORE-CH28-027",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "personal dosimetry placement",
+      "itemFamilyId": "PV2-CORE-CH28-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a UV exposure assessment, a supervisor proposes: \"Share one badge among the crew because exposure is similar\". The underlying case is: A worker wears a lead apron during fluoroscopic work. Where should dosimeters be placed when the program uses two badges to estimate whole-body exposure? Which alternative is the most defensible correction?",
+      "options": [
+        "Share one badge among the crew because exposure is similar",
+        "Place both badges in a locker to avoid contaminating them",
+        "Place one badge outside the apron near the collar and one under the apron at the torso, following the facility’s approved dosimetry protocol",
+        "Wear both dosimeters together outside the apron so they provide duplicate readings from the same body location"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Share one badge among the crew because exposure is similar' remains incomplete or misapplies the controlling personal dosimetry placement principle.",
+        "The proposed response 'Place both badges in a locker to avoid contaminating them' remains incomplete or misapplies the controlling personal dosimetry placement principle.",
+        null,
+        "The proposed response 'Wear both dosimeters together outside the apron so they provide duplicate readings from the same body location' remains incomplete or misapplies the controlling personal dosimetry placement principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: personal dosimetry placement",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "26b87669025655e2f41fb632429077c77e31885705d8af2dff503de0179e1066"
+    },
+    {
+      "id": "PV2-CORE-CH28-028",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contamination versus irradiation",
+      "itemFamilyId": "PV2-CORE-CH28-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a time-distance-shielding decision, a supervisor proposes: \"Treat every object exposed to a radiation field as permanently radioactive even when no radioactive material is deposited\". The underlying case is: A sealed source passes near a workbench. Survey results show no radioactive material on the surface, but a worker asks whether the bench was “contaminated by radiation.” What is the correct explanation? Which alternative is the most defensible correction?",
+      "options": [
+        "Treat every object exposed to a radiation field as permanently radioactive even when no radioactive material is deposited",
+        "Contamination and irradiation are interchangeable terms",
+        "A clean smear proves no radiation field ever existed",
+        "The bench may have been irradiated while the source was present, but contamination requires radioactive material to be deposited on it"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Irradiation is exposure to a field; contamination is unwanted radioactive material. A surface can be irradiated without retaining contamination or becoming activated.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Treat every object exposed to a radiation field as permanently radioactive even when no radioactive material is deposited' remains incomplete or misapplies the controlling contamination versus irradiation principle.",
+        "The proposed response 'Contamination and irradiation are interchangeable terms' remains incomplete or misapplies the controlling contamination versus irradiation principle.",
+        "The proposed response 'A clean smear proves no radiation field ever existed' remains incomplete or misapplies the controlling contamination versus irradiation principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: contamination versus irradiation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f0d0d68b95b6216ac036ff6f066f3397aea5ba5865a87092025618f1b18d88a4"
+    },
+    {
+      "id": "PV2-CORE-CH28-029",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "source inventory and leak testing",
+      "itemFamilyId": "PV2-CORE-CH28-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a contamination control response, a supervisor proposes: \"Wait for the next annual inventory before taking action\". The underlying case is: A facility cannot locate one sealed source listed in its inventory. What is the appropriate response? Which alternative is the most defensible correction?",
+      "options": [
+        "Initiate the license or program response for a missing source, secure areas, search and survey, notify required authorities, and investigate controls",
+        "Assume the source was disposed of with ordinary trash and close the issue",
+        "Delete the source from the inventory because it is no longer physically present",
+        "Wait for the next annual inventory before taking action"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Missing radioactive material is a security and exposure event requiring prompt controlled response and regulatory evaluation, not administrative deletion.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Assume the source was disposed of with ordinary trash and close the issue' remains incomplete or misapplies the controlling source inventory and leak testing principle.",
+        "The proposed response 'Delete the source from the inventory because it is no longer physically present' remains incomplete or misapplies the controlling source inventory and leak testing principle.",
+        "The proposed response 'Wait for the next annual inventory before taking action' remains incomplete or misapplies the controlling source inventory and leak testing principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: source inventory and leak testing",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "02c90dcb542221d1ca382135e97c24254c4a0cb075f2da9d435a2f972dbb9c17"
+    },
+    {
+      "id": "PV2-CORE-CH28-030",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "laser hazard controls",
+      "itemFamilyId": "PV2-CORE-CH28-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an ionizing radiation work plan, a supervisor proposes: \"Use darker eyewear without checking wavelength or optical density\". The underlying case is: A high-power laser beam crosses an occupied walkway at eye level. Operators wear eyewear, but there is no enclosure or interlock. What is the strongest control? Which alternative is the most defensible correction?",
+      "options": [
+        "Increase room lighting to neutralize laser energy",
+        "Enclose or terminate the beam path and use interlocks and controlled access, with suitable eyewear for residual exposure",
+        "Rely on warning signs because trained workers can avoid an invisible beam",
+        "Use darker eyewear without checking wavelength or optical density"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Laser safety prioritizes beam enclosure, termination, access control, and interlocks. Eyewear must be wavelength- and energy-appropriate and is not a substitute for engineering control.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Increase room lighting to neutralize laser energy' remains incomplete or misapplies the controlling laser hazard controls principle.",
+        null,
+        "The proposed response 'Rely on warning signs because trained workers can avoid an invisible beam' remains incomplete or misapplies the controlling laser hazard controls principle.",
+        "The proposed response 'Use darker eyewear without checking wavelength or optical density' remains incomplete or misapplies the controlling laser hazard controls principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: laser hazard controls",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5b95c1bd8807e99e8d45316d8ad2ea73200463e379bce37d499a7066110fdf47"
+    },
+    {
+      "id": "PV2-CORE-CH28-031",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ultraviolet exposure",
+      "itemFamilyId": "PV2-CORE-CH28-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a laser safety review, a supervisor proposes: \"Use ordinary clear spectacles regardless of UV transmission\". The underlying case is: Workers use an intense UV curing source that can expose skin and eyes through a partially open housing. Which control is most effective? Which alternative is the most defensible correction?",
+      "options": [
+        "Rely on the absence of visible brightness because UV is invisible",
+        "Apply sunscreen as the sole workplace control for eyes and skin",
+        "Complete the enclosure or interlock the access, control reflections, and provide wavelength-appropriate PPE for residual tasks",
+        "Use ordinary clear spectacles regardless of UV transmission"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "UV hazards require source enclosure, interlocks, reflection control, and suitable eye and skin protection. Visibility is not a reliable indicator of dose.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Rely on the absence of visible brightness because UV is invisible' remains incomplete or misapplies the controlling ultraviolet exposure principle.",
+        "The proposed response 'Apply sunscreen as the sole workplace control for eyes and skin' remains incomplete or misapplies the controlling ultraviolet exposure principle.",
+        null,
+        "The proposed response 'Use ordinary clear spectacles regardless of UV transmission' remains incomplete or misapplies the controlling ultraviolet exposure principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: ultraviolet exposure",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "52631641065f61e1b716c8ec2054fcb88f82bddac61eb11fe637bd4f7a43ebdb"
+    },
+    {
+      "id": "PV2-CORE-CH28-032",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "radiation survey instrument selection",
+      "itemFamilyId": "PV2-CORE-CH28-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a shielding calculation discussion, a supervisor proposes: \"Increase survey speed so the detector covers more area\". The underlying case is: A team must verify low-level removable beta contamination, but the available instrument has a thick window and poor beta response. What should they do? Which alternative is the most defensible correction?",
+      "options": [
+        "Use the unsuitable instrument and interpret a zero reading as proof of no contamination",
+        "Increase survey speed so the detector covers more area",
+        "Measure room temperature and convert it to contamination level",
+        "Select and calibrate an instrument or sampling method suitable for the radiation type, energy, geometry, and required sensitivity"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Survey validity depends on detector response, window, geometry, calibration, background, and counting method. An insensitive detector can produce false reassurance.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use the unsuitable instrument and interpret a zero reading as proof of no contamination' remains incomplete or misapplies the controlling radiation survey instrument selection principle.",
+        "The proposed response 'Increase survey speed so the detector covers more area' remains incomplete or misapplies the controlling radiation survey instrument selection principle.",
+        "The proposed response 'Measure room temperature and convert it to contamination level' remains incomplete or misapplies the controlling radiation survey instrument selection principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: radiation survey instrument selection",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e35923933af6154263ead558d1a8d741d3d605551474028a7aae3d0c8ddb0193"
+    },
+    {
+      "id": "PV2-CORE-CH28-033",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "time distance shielding",
+      "itemFamilyId": "PV2-CORE-CH28-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a radioactive source inventory, the team selects \"Optimize all practical time, distance, and shielding measures to keep exposure as low as reasonably achievable while completing the task\" rather than \"Rely on the regulatory limit as the target exposure\" for this case: A technician can reduce time near an ionizing radiation source, increase distance, or add shielding. Which planning approach is best? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Radiation protection is layered. ALARA means planning to reduce dose through practical combinations rather than treating a limit as a desired exposure.",
+        "Irradiation is exposure to a field; contamination is unwanted radioactive material. A surface can be irradiated without retaining contamination or becoming activated.",
+        "UV hazards require source enclosure, interlocks, reflection control, and suitable eye and skin protection. Visibility is not a reliable indicator of dose.",
+        "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the time distance shielding issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'contamination versus irradiation' and does not distinguish the two responses in the present time distance shielding decision.",
+        "This explanation concerns 'ultraviolet exposure' and does not distinguish the two responses in the present time distance shielding decision.",
+        "This explanation concerns 'personal dosimetry placement' and does not distinguish the two responses in the present time distance shielding decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: time distance shielding",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1b3861d6facf130b8302a4dbb21c445eb9bb637bfcd09f11cdfcc4eb902bb971"
+    },
+    {
+      "id": "PV2-CORE-CH28-034",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inverse square application",
+      "itemFamilyId": "PV2-CORE-CH28-F034",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a UV exposure assessment, the team selects \"5 mR/h\" rather than \"1.25 mR/h\" for this case: A point-source exposure rate is 80 mR/h at 1 meter. Ignoring scatter and attenuation, what is the approximate rate at 4 meters? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn.",
+        "The distance increases by four, so intensity falls by 4² = 16: 80/16 = 5 mR/h.",
+        "Survey validity depends on detector response, window, geometry, calibration, background, and counting method. An insensitive detector can produce false reassurance.",
+        "UV hazards require source enclosure, interlocks, reflection control, and suitable eye and skin protection. Visibility is not a reliable indicator of dose."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the inverse square application issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'personal dosimetry placement' and does not distinguish the two responses in the present inverse square application decision.",
+        null,
+        "This explanation concerns 'radiation survey instrument selection' and does not distinguish the two responses in the present inverse square application decision.",
+        "This explanation concerns 'ultraviolet exposure' and does not distinguish the two responses in the present inverse square application decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: inverse square application",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "I_2 = I_1 × (d_1 / d_2)^2",
+      "units": "mR/h",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "06210bf1b0953fa66ff094e4bcefc3b87b1702dd8345fc88b8619be6fa62f88f"
+    },
+    {
+      "id": "PV2-CORE-CH28-035",
+      "version": 1,
+      "chapterId": "ch-28",
+      "chapterTitle": "Radiation Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "personal dosimetry placement",
+      "itemFamilyId": "PV2-CORE-CH28-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a time-distance-shielding decision, the team selects \"Place one badge outside the apron near the collar and one under the apron at the torso, following the facility’s approved dosimetry protocol\" rather than \"Place both badges in a locker to avoid contaminating them\" for this case: A worker wears a lead apron during fluoroscopic work. Where should dosimeters be placed when the program uses two badges to estimate whole-body exposure? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Laser safety prioritizes beam enclosure, termination, access control, and interlocks. Eyewear must be wavelength- and energy-appropriate and is not a substitute for engineering control.",
+        "Missing radioactive material is a security and exposure event requiring prompt controlled response and regulatory evaluation, not administrative deletion.",
+        "Two-badge protocols distinguish shielded torso dose from head and neck exposure. Exact placement follows the radiation safety program; badges must be individually assigned and worn.",
+        "Radiation protection is layered. ALARA means planning to reduce dose through practical combinations rather than treating a limit as a desired exposure."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the personal dosimetry placement issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'laser hazard controls' and does not distinguish the two responses in the present personal dosimetry placement decision.",
+        "This explanation concerns 'source inventory and leak testing' and does not distinguish the two responses in the present personal dosimetry placement decision.",
+        null,
+        "This explanation concerns 'time distance shielding' and does not distinguish the two responses in the present personal dosimetry placement decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 28, pp. 636-656; 29 CFR 1910.1096 and applicable NRC guidance; curated topic: personal dosimetry placement",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1096",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b6b2c03351f5ba8f7df72065170044d8d11cb105daaf1aef6210dbf646768c77"
+    }
+  ]
+}

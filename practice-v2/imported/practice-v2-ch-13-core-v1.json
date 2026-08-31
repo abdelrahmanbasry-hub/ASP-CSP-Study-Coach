@@ -1,0 +1,2053 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-13-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-13",
+  "chapterTitle": "Thermal Stressors",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH13-001",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "WBGT interpretation",
+      "itemFamilyId": "PV2-CORE-CH13-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A crew performs heavy work near radiant heat while wearing impermeable protective clothing. A basic WBGT result is below a screening value for ordinary clothing. What should the assessor do?",
+      "options": [
+        "Account for metabolic rate, clothing adjustment, acclimatization, work-rest pattern, and radiant conditions before concluding risk is controlled",
+        "Ignore workload once employees have access to drinking water",
+        "Use ambient dry-bulb temperature alone because clothing cannot affect heat strain",
+        "Declare the work safe because the unadjusted WBGT is below one screening value"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Heat-stress assessment integrates environmental heat, workload, clothing, acclimatization, and work organization. An unadjusted screening measurement is not a complete conclusion.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Ignore workload once employees have access to drinking water' does not apply the controlling principle for wbgt interpretation to the facts given, so it is not the best answer.",
+        "The option 'Use ambient dry-bulb temperature alone because clothing cannot affect heat strain' does not apply the controlling principle for wbgt interpretation to the facts given, so it is not the best answer.",
+        "The option 'Declare the work safe because the unadjusted WBGT is below one screening value' does not apply the controlling principle for wbgt interpretation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: WBGT interpretation",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "eb833f23241425596cbf900622ad36b5094185965c3b573e40e4693122ff549d"
+    },
+    {
+      "id": "PV2-CORE-CH13-002",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "acclimatization",
+      "itemFamilyId": "PV2-CORE-CH13-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "New workers begin strenuous outdoor work during the first hot week of summer. What approach best reduces heat-illness risk?",
+      "options": [
+        "Assign the full workload immediately so workers acclimatize in one shift",
+        "Use a gradual exposure and workload progression with close monitoring, hydration, rest, and supervision during the acclimatization period",
+        "Withhold scheduled breaks unless a worker faints",
+        "Rely on self-pacing without supervisor observation or emergency procedures"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Acclimatization develops over repeated exposures. Gradual progression and close monitoring are especially important for new or returning workers.",
+      "incorrectOptionExplanations": [
+        "The option 'Assign the full workload immediately so workers acclimatize in one shift' does not apply the controlling principle for acclimatization to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Withhold scheduled breaks unless a worker faints' does not apply the controlling principle for acclimatization to the facts given, so it is not the best answer.",
+        "The option 'Rely on self-pacing without supervisor observation or emergency procedures' does not apply the controlling principle for acclimatization to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: acclimatization",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bb5c5f64e25a34d5d582dc2473f6c66194ad2661c1664658246f6d490c8d7898"
+    },
+    {
+      "id": "PV2-CORE-CH13-003",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "heat illness emergency recognition",
+      "itemFamilyId": "PV2-CORE-CH13-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A worker in a hot area becomes confused, staggers, and has altered mental status. What is the priority response?",
+      "options": [
+        "Send the worker alone to an air-conditioned vehicle to rest",
+        "Wait for a core temperature measurement before starting any response",
+        "Treat it as a medical emergency, activate emergency services, begin rapid cooling, and do not leave the worker alone",
+        "Have the worker finish the task slowly while drinking a sports beverage"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Central nervous system changes can indicate heat stroke. Immediate emergency activation and rapid cooling are critical; delayed or unsupervised rest is unsafe.",
+      "incorrectOptionExplanations": [
+        "The option 'Send the worker alone to an air-conditioned vehicle to rest' does not apply the controlling principle for heat illness emergency recognition to the facts given, so it is not the best answer.",
+        "The option 'Wait for a core temperature measurement before starting any response' does not apply the controlling principle for heat illness emergency recognition to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Have the worker finish the task slowly while drinking a sports beverage' does not apply the controlling principle for heat illness emergency recognition to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: heat illness emergency recognition",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3366be7e8a548474a37090b64d18eb06ad8def25620dcfd5c60af0f09f61eabd"
+    },
+    {
+      "id": "PV2-CORE-CH13-004",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hydration program",
+      "itemFamilyId": "PV2-CORE-CH13-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Management proposes a single mandatory volume of water for every worker regardless of task, climate, health, or shift length. What is the better program design?",
+      "options": [
+        "Restrict drinking until scheduled meal periods to improve productivity",
+        "Require unlimited water intake because excessive fluid consumption cannot create risk",
+        "Use thirst as the only control and discontinue heat monitoring",
+        "Provide accessible cool fluids and guidance while monitoring conditions, workload, individual risk, electrolyte needs, and signs of over- or underhydration"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Hydration is essential but should be part of a broader heat program. Needs vary, and both dehydration and excessive intake can be harmful.",
+      "incorrectOptionExplanations": [
+        "The option 'Restrict drinking until scheduled meal periods to improve productivity' does not apply the controlling principle for hydration program to the facts given, so it is not the best answer.",
+        "The option 'Require unlimited water intake because excessive fluid consumption cannot create risk' does not apply the controlling principle for hydration program to the facts given, so it is not the best answer.",
+        "The option 'Use thirst as the only control and discontinue heat monitoring' does not apply the controlling principle for hydration program to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: hydration program",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "29813a08277f88a16dad038e2b3af6b020e66c148b521a9fb196d4a93e2c871e"
+    },
+    {
+      "id": "PV2-CORE-CH13-005",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "engineering control for radiant heat",
+      "itemFamilyId": "PV2-CORE-CH13-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A furnace operator’s main heat load comes from intense radiation rather than hot room air. Which control most directly targets the dominant source?",
+      "options": [
+        "Install an effective radiant barrier or shield and reduce required proximity or exposure time",
+        "Issue cotton gloves as the only whole-body heat control",
+        "Increase air temperature so the worker feels less contrast",
+        "Measure humidity but leave the line-of-sight radiation unchanged"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Radiant barriers and increased distance directly reduce radiative heat transfer; air movement alone may not adequately control a strong radiant source.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Issue cotton gloves as the only whole-body heat control' does not apply the controlling principle for engineering control for radiant heat to the facts given, so it is not the best answer.",
+        "The option 'Increase air temperature so the worker feels less contrast' does not apply the controlling principle for engineering control for radiant heat to the facts given, so it is not the best answer.",
+        "The option 'Measure humidity but leave the line-of-sight radiation unchanged' does not apply the controlling principle for engineering control for radiant heat to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: engineering control for radiant heat",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7c1203d04b5f3237c31bdb85ffbecb1f89f8748c36af69b937f33f0510c2abcc"
+    },
+    {
+      "id": "PV2-CORE-CH13-006",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cold stress and wind",
+      "itemFamilyId": "PV2-CORE-CH13-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A worker performs moderate outdoor work at a temperature that seems manageable, but strong wind develops. Why should the cold-stress assessment be revised?",
+      "options": [
+        "Wind warms exposed skin by accelerating evaporation",
+        "Wind increases convective heat loss and can lower effective temperature, increasing frostbite and hypothermia risk",
+        "Only precipitation, not air movement, changes heat loss",
+        "Wind affects comfort but cannot change cold injury risk"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs.",
+      "incorrectOptionExplanations": [
+        "The option 'Wind warms exposed skin by accelerating evaporation' does not apply the controlling principle for cold stress and wind to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Only precipitation, not air movement, changes heat loss' does not apply the controlling principle for cold stress and wind to the facts given, so it is not the best answer.",
+        "The option 'Wind affects comfort but cannot change cold injury risk' does not apply the controlling principle for cold stress and wind to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: cold stress and wind",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d5a5b5450c37cfd5bb9490839d44e05e912d885ef9f752fe4efcb40eccd23ed1"
+    },
+    {
+      "id": "PV2-CORE-CH13-007",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cold protective clothing",
+      "itemFamilyId": "PV2-CORE-CH13-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Workers in a freezer wear thick insulation but sweat heavily during intermittent high-exertion tasks. What program improvement is most appropriate?",
+      "options": [
+        "Use one impermeable layer for the entire shift so no heat escapes",
+        "Eliminate warm-up breaks because sweating proves workers are warm",
+        "Use layered clothing and work organization that allow moisture management and adjustment as workload changes",
+        "Require wet garments to remain in place until the shift ends"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Moisture reduces insulation and can accelerate cooling. Layering, task pacing, dry replacements, and warm-up opportunities help manage changing heat production.",
+      "incorrectOptionExplanations": [
+        "The option 'Use one impermeable layer for the entire shift so no heat escapes' does not apply the controlling principle for cold protective clothing to the facts given, so it is not the best answer.",
+        "The option 'Eliminate warm-up breaks because sweating proves workers are warm' does not apply the controlling principle for cold protective clothing to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Require wet garments to remain in place until the shift ends' does not apply the controlling principle for cold protective clothing to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: cold protective clothing",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d3d63fe860868d23f452c187f8f868c74c3c84a7ac170eb9b37fe50e3e27d23b"
+    },
+    {
+      "id": "PV2-CORE-CH13-008",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "heat program verification",
+      "itemFamilyId": "PV2-CORE-CH13-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility has hydration posters and fans but continues to experience heat-related symptoms. Which review provides the strongest evidence for improvement?",
+      "options": [
+        "Interview only employees who have not reported symptoms and use their experience as representative of the workforce",
+        "Stop collecting data because the existence of fans proves engineering control",
+        "Count the number of posters and assume more posters equal better control",
+        "Analyze tasks, environmental and metabolic data, clothing, symptoms, acclimatization, controls, and response performance to identify system gaps"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Program effectiveness is demonstrated through exposure and outcome data, control performance, and worker experience—not the presence of isolated program elements.",
+      "incorrectOptionExplanations": [
+        "The option 'Interview only employees who have not reported symptoms and use their experience as representative of the workforce' does not apply the controlling principle for heat program verification to the facts given, so it is not the best answer.",
+        "The option 'Stop collecting data because the existence of fans proves engineering control' does not apply the controlling principle for heat program verification to the facts given, so it is not the best answer.",
+        "The option 'Count the number of posters and assume more posters equal better control' does not apply the controlling principle for heat program verification to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: heat program verification",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aa883ba817adc45b8b5db4cf1d80c7dc0af0b8fe0df76cf35b63c678f8d9251a"
+    },
+    {
+      "id": "PV2-CORE-CH13-009",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "WBGT interpretation",
+      "itemFamilyId": "PV2-CORE-CH13-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a WBGT monitoring plan, the team reviews this case: A crew performs heavy work near radiant heat while wearing impermeable protective clothing. A basic WBGT result is below a screening value for ordinary clothing. What should the assessor do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Heat-stress assessment integrates environmental heat, workload, clothing, acclimatization, and work organization. An unadjusted screening measurement is not a complete conclusion.",
+        "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs.",
+        "Hydration is essential but should be part of a broader heat program. Needs vary, and both dehydration and excessive intake can be harmful.",
+        "Moisture reduces insulation and can accelerate cooling. Layering, task pacing, dry replacements, and warm-up opportunities help manage changing heat production."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses wbgt interpretation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'cold stress and wind', but it does not resolve the wbgt interpretation issue in this case.",
+        "This rationale supports the separate chapter topic 'hydration program', but it does not resolve the wbgt interpretation issue in this case.",
+        "This rationale supports the separate chapter topic 'cold protective clothing', but it does not resolve the wbgt interpretation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: WBGT interpretation",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2b87922d7f440162a250e9b8d4c2b56c76d18ec7833460678a2eaeef38149a55"
+    },
+    {
+      "id": "PV2-CORE-CH13-010",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "acclimatization",
+      "itemFamilyId": "PV2-CORE-CH13-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a heat-illness incident investigation, the team reviews this case: New workers begin strenuous outdoor work during the first hot week of summer. What approach best reduces heat-illness risk? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Hydration is essential but should be part of a broader heat program. Needs vary, and both dehydration and excessive intake can be harmful.",
+        "Acclimatization develops over repeated exposures. Gradual progression and close monitoring are especially important for new or returning workers.",
+        "Radiant barriers and increased distance directly reduce radiative heat transfer; air movement alone may not adequately control a strong radiant source.",
+        "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses acclimatization and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hydration program', but it does not resolve the acclimatization issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'engineering control for radiant heat', but it does not resolve the acclimatization issue in this case.",
+        "This rationale supports the separate chapter topic 'cold stress and wind', but it does not resolve the acclimatization issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: acclimatization",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f130d3eac56ab2845424ccef0f104c99571edae9333bf2f592a0ab924220a965"
+    },
+    {
+      "id": "PV2-CORE-CH13-011",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "heat illness emergency recognition",
+      "itemFamilyId": "PV2-CORE-CH13-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a work-rest schedule decision, the team reviews this case: A worker in a hot area becomes confused, staggers, and has altered mental status. What is the priority response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Moisture reduces insulation and can accelerate cooling. Layering, task pacing, dry replacements, and warm-up opportunities help manage changing heat production.",
+        "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs.",
+        "Central nervous system changes can indicate heat stroke. Immediate emergency activation and rapid cooling are critical; delayed or unsupervised rest is unsafe.",
+        "Heat-stress assessment integrates environmental heat, workload, clothing, acclimatization, and work organization. An unadjusted screening measurement is not a complete conclusion."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses heat illness emergency recognition and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'cold protective clothing', but it does not resolve the heat illness emergency recognition issue in this case.",
+        "This rationale supports the separate chapter topic 'cold stress and wind', but it does not resolve the heat illness emergency recognition issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'WBGT interpretation', but it does not resolve the heat illness emergency recognition issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: heat illness emergency recognition",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "de8c50a68d825c2e5066d513824168b3b8ed1e58f157302d4bdbfd1a34b5f786"
+    },
+    {
+      "id": "PV2-CORE-CH13-012",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hydration program",
+      "itemFamilyId": "PV2-CORE-CH13-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a radiant-heat control project, the team reviews this case: Management proposes a single mandatory volume of water for every worker regardless of task, climate, health, or shift length. What is the better program design? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs.",
+        "Acclimatization develops over repeated exposures. Gradual progression and close monitoring are especially important for new or returning workers.",
+        "Heat-stress assessment integrates environmental heat, workload, clothing, acclimatization, and work organization. An unadjusted screening measurement is not a complete conclusion.",
+        "Hydration is essential but should be part of a broader heat program. Needs vary, and both dehydration and excessive intake can be harmful."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses hydration program and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'cold stress and wind', but it does not resolve the hydration program issue in this case.",
+        "This rationale supports the separate chapter topic 'acclimatization', but it does not resolve the hydration program issue in this case.",
+        "This rationale supports the separate chapter topic 'WBGT interpretation', but it does not resolve the hydration program issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: hydration program",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "17d40c371714d95240fabdf88bd5e941fbe7ce45d8adb41b10144a534f9e01b4"
+    },
+    {
+      "id": "PV2-CORE-CH13-013",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "engineering control for radiant heat",
+      "itemFamilyId": "PV2-CORE-CH13-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a cold-weather emergency plan, the team reviews this case: A furnace operator’s main heat load comes from intense radiation rather than hot room air. Which control most directly targets the dominant source? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Radiant barriers and increased distance directly reduce radiative heat transfer; air movement alone may not adequately control a strong radiant source.",
+        "Hydration is essential but should be part of a broader heat program. Needs vary, and both dehydration and excessive intake can be harmful.",
+        "Central nervous system changes can indicate heat stroke. Immediate emergency activation and rapid cooling are critical; delayed or unsupervised rest is unsafe.",
+        "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses engineering control for radiant heat and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'hydration program', but it does not resolve the engineering control for radiant heat issue in this case.",
+        "This rationale supports the separate chapter topic 'heat illness emergency recognition', but it does not resolve the engineering control for radiant heat issue in this case.",
+        "This rationale supports the separate chapter topic 'cold stress and wind', but it does not resolve the engineering control for radiant heat issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: engineering control for radiant heat",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "22200004adb59a608707efa9922466656de303935753755438059ad82abef2dd"
+    },
+    {
+      "id": "PV2-CORE-CH13-014",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cold stress and wind",
+      "itemFamilyId": "PV2-CORE-CH13-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an acclimatization program review, the team reviews this case: A worker performs moderate outdoor work at a temperature that seems manageable, but strong wind develops. Why should the cold-stress assessment be revised? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Acclimatization develops over repeated exposures. Gradual progression and close monitoring are especially important for new or returning workers.",
+        "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs.",
+        "Radiant barriers and increased distance directly reduce radiative heat transfer; air movement alone may not adequately control a strong radiant source.",
+        "Heat-stress assessment integrates environmental heat, workload, clothing, acclimatization, and work organization. An unadjusted screening measurement is not a complete conclusion."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses cold stress and wind and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'acclimatization', but it does not resolve the cold stress and wind issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'engineering control for radiant heat', but it does not resolve the cold stress and wind issue in this case.",
+        "This rationale supports the separate chapter topic 'WBGT interpretation', but it does not resolve the cold stress and wind issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: cold stress and wind",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "de631bc125120214b1ce75a152621d25267d5895d46fb6f16549d78927b6d701"
+    },
+    {
+      "id": "PV2-CORE-CH13-015",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cold protective clothing",
+      "itemFamilyId": "PV2-CORE-CH13-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a summer heat-stress assessment, the team reviews this case: Workers in a freezer wear thick insulation but sweat heavily during intermittent high-exertion tasks. What program improvement is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Program effectiveness is demonstrated through exposure and outcome data, control performance, and worker experience—not the presence of isolated program elements.",
+        "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs.",
+        "Moisture reduces insulation and can accelerate cooling. Layering, task pacing, dry replacements, and warm-up opportunities help manage changing heat production.",
+        "Hydration is essential but should be part of a broader heat program. Needs vary, and both dehydration and excessive intake can be harmful."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses cold protective clothing and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'heat program verification', but it does not resolve the cold protective clothing issue in this case.",
+        "This rationale supports the separate chapter topic 'cold stress and wind', but it does not resolve the cold protective clothing issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'hydration program', but it does not resolve the cold protective clothing issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: cold protective clothing",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "489bd765c5519cec99703cca31d387fb9252f8d996c1671aab7145179d43327e"
+    },
+    {
+      "id": "PV2-CORE-CH13-016",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "heat program verification",
+      "itemFamilyId": "PV2-CORE-CH13-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a cold-storage work review, the team reviews this case: A facility has hydration posters and fans but continues to experience heat-related symptoms. Which review provides the strongest evidence for improvement? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs.",
+        "Moisture reduces insulation and can accelerate cooling. Layering, task pacing, dry replacements, and warm-up opportunities help manage changing heat production.",
+        "Acclimatization develops over repeated exposures. Gradual progression and close monitoring are especially important for new or returning workers.",
+        "Program effectiveness is demonstrated through exposure and outcome data, control performance, and worker experience—not the presence of isolated program elements."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses heat program verification and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'cold stress and wind', but it does not resolve the heat program verification issue in this case.",
+        "This rationale supports the separate chapter topic 'cold protective clothing', but it does not resolve the heat program verification issue in this case.",
+        "This rationale supports the separate chapter topic 'acclimatization', but it does not resolve the heat program verification issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: heat program verification",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "48e3d74db80e274525bc303c9bab48f24639825b8b6e3acdfc9ad42f1e6ba8be"
+    },
+    {
+      "id": "PV2-CORE-CH13-017",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Humidity and evaporative cooling",
+      "itemFamilyId": "PV2-CORE-CH13-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a cold-storage work review, the team reviews this question: Two employees perform the same work at the same air temperature, but one works in much higher humidity. Why is the high-humidity worker generally at greater risk of heat strain? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Sweat cools effectively when it evaporates. When the surrounding air already contains substantial moisture, evaporation slows even if sweating increases, so internal heat can accumulate.",
+        "Hypothermia can occur above freezing when rain, sweat, or immersion accelerates heat loss. Confusion and coordination loss are serious signs requiring prompt rewarming and medical evaluation.",
+        "A reflective barrier placed between the source and workers can reduce radiant heat transfer. Other controls may still be needed for convective heat, metabolic load, and process access.",
+        "Impermeable or insulating PPE limits evaporation and adds work burden. Work-rest decisions must account for environmental heat, workload, clothing, acclimatization, and the temperature of the recovery area."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Hypothermia in wet conditions', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Radiant heat engineering control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Work-rest and PPE heat burden', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 4 - Heat Stress",
+      "sourceLocation": "Yates Chapter 13, human heat balance and heat stress, pp. 367-371; OSHA OTM Section III, Chapter 4, environmental heat and evaporation; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-4",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0efc1019957ac2f448ada5a7f2476710fe4b669fac2e85164b896d4aa810f30f"
+    },
+    {
+      "id": "PV2-CORE-CH13-018",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Heat stroke recognition",
+      "itemFamilyId": "PV2-CORE-CH13-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a WBGT monitoring plan, the team reviews this question: A worker in a hot area becomes confused, speaks unclearly, stumbles, and has a very high body temperature. The worker is still sweating. What is the best interpretation? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Frequent small amounts help replace sweat losses before thirst becomes a reliable warning. Needs vary with conditions and individual factors, and excessive fluid intake should also be avoided.",
+        "Confusion, slurred speech, loss of coordination, seizures, or unconsciousness are critical heat-stroke signs. Sweating may be absent or profuse, so its presence does not rule out heat stroke.",
+        "A reflective barrier placed between the source and workers can reduce radiant heat transfer. Other controls may still be needed for convective heat, metabolic load, and process access.",
+        "Impermeable or insulating PPE limits evaporation and adds work burden. Work-rest decisions must account for environmental heat, workload, clothing, acclimatization, and the temperature of the recovery area."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Hydration during heat exposure', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Radiant heat engineering control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Work-rest and PPE heat burden', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 4 - Heat Stress; CDC/NIOSH - First Aid for Heat Illness",
+      "sourceLocation": "Yates Chapter 13, heat stroke, pp. 370-371; OSHA heat-stress illness recognition; NIOSH heat-illness first aid; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-4",
+        "https://www.cdc.gov/niosh/docs/2024-100/pdfs/2024-100.pdf",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "737b606745c5e47b9255276aa99f6712d02b7be169da0635c8b8e76c6a7e0552"
+    },
+    {
+      "id": "PV2-CORE-CH13-019",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Heat stroke emergency response",
+      "itemFamilyId": "PV2-CORE-CH13-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a heat-illness incident investigation, the team reviews this question: A coworker collapses during heavy outdoor work and shows confusion and seizure activity. What should the crew do first? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A reflective barrier placed between the source and workers can reduce radiant heat transfer. Other controls may still be needed for convective heat, metabolic load, and process access.",
+        "Frequent small amounts help replace sweat losses before thirst becomes a reliable warning. Needs vary with conditions and individual factors, and excessive fluid intake should also be avoided.",
+        "Suspected heat stroke is time critical. Emergency care and rapid cooling should begin at once; the worker should not be left alone or expected to recover by resting without observation.",
+        "Outdoor WBGT = 0.7(83) + 0.2(104) + 0.1(94) = 58.1 + 20.8 + 9.4 = 88.3 deg F. The result must then be interpreted with workload, clothing, acclimatization, and work-rest criteria."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Radiant heat engineering control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hydration during heat exposure', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Outdoor WBGT calculation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA Technical Manual, Section III, Chapter 4 - Heat Stress; CDC/NIOSH - First Aid for Heat Illness",
+      "sourceLocation": "OSHA heat-stress medical-emergency guidance; NIOSH first aid for exertional heat stroke; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-4",
+        "https://www.cdc.gov/niosh/docs/2024-100/pdfs/2024-100.pdf",
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "464980f763221ee06457a2f60b59dcb0df388260c0c85f083e96c51047a1227a"
+    },
+    {
+      "id": "PV2-CORE-CH13-020",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Acclimatization for new workers",
+      "itemFamilyId": "PV2-CORE-CH13-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a work-rest schedule decision, the team reviews this question: A new employee will begin a full-duration job in a hot environment. Which initial schedule best follows current NIOSH acclimatization guidance? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Sweat cools effectively when it evaporates. When the surrounding air already contains substantial moisture, evaporation slows even if sweating increases, so internal heat can accumulate.",
+        "Wind chill = 35.74 + 0.6215(15) - 35.75(20^0.16) + 0.4275(15)(20^0.16) = approximately -2.3 deg F, which rounds to -2 deg F.",
+        "Average = [(7.0x60) + (0.3x30) + (3.5x90)] / 180 = 744 / 180 = 4.13 kcal/min. Multiplying by 60 gives about 248 kcal/h.",
+        "New workers need gradual exposure over approximately 7 to 14 days. The 20% progression reduces early-shift risk while physiological adaptations develop."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Humidity and evaporative cooling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Wind chill calculation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Time-weighted metabolic rate', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); CDC/NIOSH - Heat Stress Acclimatization",
+      "sourceLocation": "Yates Chapter 13, acclimatization, p. 372; NIOSH acclimatization schedule for new workers; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/heat-stress/recommendations/acclimatization.html",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9ea9dfbec0754038e5c054b0fdb65717b0a6999bfd3affbc12398cf7a7ffa085"
+    },
+    {
+      "id": "PV2-CORE-CH13-021",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hydration during heat exposure",
+      "itemFamilyId": "PV2-CORE-CH13-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a radiant-heat control project, the team reviews this question: During moderate work in heat lasting less than two hours, which hydration instruction is most consistent with NIOSH guidance for a typical worker without a medical fluid restriction? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Frequent small amounts help replace sweat losses before thirst becomes a reliable warning. Needs vary with conditions and individual factors, and excessive fluid intake should also be avoided.",
+        "Suspected heat stroke is time critical. Emergency care and rapid cooling should begin at once; the worker should not be left alone or expected to recover by resting without observation.",
+        "A reflective barrier placed between the source and workers can reduce radiant heat transfer. Other controls may still be needed for convective heat, metabolic load, and process access.",
+        "Impermeable or insulating PPE limits evaporation and adds work burden. Work-rest decisions must account for environmental heat, workload, clothing, acclimatization, and the temperature of the recovery area."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Heat stroke emergency response', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Radiant heat engineering control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Work-rest and PPE heat burden', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "CDC/NIOSH - Workplace Recommendations for Heat Stress",
+      "sourceLocation": "NIOSH workplace heat recommendations, hydration for moderate activity and limits on excessive intake; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/heat-stress/recommendations/index.html",
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e92100457a3916244cae9a653f5459e9c3fd034631d97df2bdbf454488b49355"
+    },
+    {
+      "id": "PV2-CORE-CH13-022",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Outdoor WBGT calculation",
+      "itemFamilyId": "PV2-CORE-CH13-F022",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a cold-weather emergency plan, solve the following problem and select the best answer: At an outdoor work area with direct solar load, the natural wet-bulb temperature is 83 deg F, globe temperature is 104 deg F, and dry-bulb temperature is 94 deg F. What is the WBGT?",
+      "options": [
+        "83.7 deg F",
+        "88.3 deg F",
+        "98.5 deg F",
+        "93.7 deg F"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Outdoor WBGT = 0.7(83) + 0.2(104) + 0.1(94) = 58.1 + 20.8 + 9.4 = 88.3 deg F. The result must then be interpreted with workload, clothing, acclimatization, and work-rest criteria.",
+      "incorrectOptionExplanations": [
+        "This result underweights radiant and dry-bulb contributions and does not follow the outdoor WBGT equation.",
+        null,
+        "This result overweights the globe and dry-bulb temperatures.",
+        "This value is close to an unweighted average and does not apply the 70/20/10 factors."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 4 - Heat Stress",
+      "sourceLocation": "Yates Chapter 13, outdoor WBGT equation, pp. 374-375; OSHA OTM Section III, Chapter 4, outdoor WBGT calculation; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-4",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "WBGTout = 0.7(Tnwb) + 0.2(Tg) + 0.1(Tdb)",
+      "units": "deg F",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "91ba6bfbc5b3ea360e3961c6dcbfe14730b8b750734143b3f91f18147ef49d72"
+    },
+    {
+      "id": "PV2-CORE-CH13-023",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Indoor WBGT calculation",
+      "itemFamilyId": "PV2-CORE-CH13-F023",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During an acclimatization program review, solve the following problem and select the best answer: Inside a building with no solar load, the natural wet-bulb temperature is 78 deg F and globe temperature is 90 deg F. What is the WBGT?",
+      "options": [
+        "86.4 deg F",
+        "78.0 deg F",
+        "81.6 deg F",
+        "84.0 deg F"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Indoor or no-solar-load WBGT = 0.7(78) + 0.3(90) = 54.6 + 27.0 = 81.6 deg F.",
+      "incorrectOptionExplanations": [
+        "This reverses or misapplies the 70% wet-bulb and 30% globe weights.",
+        "This uses only the wet-bulb reading and omits radiant heat represented by the globe temperature.",
+        null,
+        "This is a simple average of the two measurements rather than the required weighted equation."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 4 - Heat Stress",
+      "sourceLocation": "Yates Chapter 13, indoor/no-solar WBGT equation, pp. 374-375; OSHA OTM Section III, Chapter 4; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-4",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "WBGTin = 0.7(Tnwb) + 0.3(Tg)",
+      "units": "deg F",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cd6cf101ad33da0ea9dd4a7cc81793754c0c700bb777d84b5affad7b26d26a5b"
+    },
+    {
+      "id": "PV2-CORE-CH13-024",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Time-weighted metabolic rate",
+      "itemFamilyId": "PV2-CORE-CH13-F024",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a summer heat-stress assessment, solve the following problem and select the best answer: A worker performs heavy whole-body work at 7.0 kcal/min for 60 min, sits at 0.3 kcal/min for 30 min, and performs light whole-body work at 3.5 kcal/min for 90 min. What is the time-weighted average metabolic rate?",
+      "options": [
+        "Approximately 7.00 kcal/min, or 420 kcal/h",
+        "Approximately 5.28 kcal/min, or 317 kcal/h",
+        "Approximately 3.60 kcal/min, or 216 kcal/h",
+        "4.13 kcal/min, or about 248 kcal/h"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Average = [(7.0x60) + (0.3x30) + (3.5x90)] / 180 = 744 / 180 = 4.13 kcal/min. Multiplying by 60 gives about 248 kcal/h.",
+      "incorrectOptionExplanations": [
+        "This uses only the highest task rate and ignores the rest and lighter-work periods.",
+        "This overweights the heavy-work period relative to the total 180 minutes.",
+        "This is close to an unweighted average and ignores the different task durations.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 13, time-weighted average metabolic rate and workload categories, pp. 372-374; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Mavg = sum(Mi x Ti) / sum(Ti)",
+      "units": "kcal/min and kcal/h",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d5d60cc11a89491a2b30ec46552c1ed32aabf9a153a02523bb9a86812ea06a46"
+    },
+    {
+      "id": "PV2-CORE-CH13-025",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Work-rest and PPE heat burden",
+      "itemFamilyId": "PV2-CORE-CH13-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a cold-storage work review, the team reviews this question: A crew changes from light clothing to vapor-barrier protective suits while performing the same heavy task in the same weather. What should the heat-stress assessment do? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Impermeable or insulating PPE limits evaporation and adds work burden. Work-rest decisions must account for environmental heat, workload, clothing, acclimatization, and the temperature of the recovery area.",
+        "Hypothermia can occur above freezing when rain, sweat, or immersion accelerates heat loss. Confusion and coordination loss are serious signs requiring prompt rewarming and medical evaluation.",
+        "Frequent small amounts help replace sweat losses before thirst becomes a reliable warning. Needs vary with conditions and individual factors, and excessive fluid intake should also be avoided.",
+        "A reflective barrier placed between the source and workers can reduce radiant heat transfer. Other controls may still be needed for convective heat, metabolic load, and process access."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Hypothermia in wet conditions', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hydration during heat exposure', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Radiant heat engineering control', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 4 - Heat Stress; CDC/NIOSH - Workplace Recommendations for Heat Stress",
+      "sourceLocation": "Yates Chapter 13, work-rest cycles and protective clothing, pp. 372-376; OSHA/NIOSH heat-risk assessment and work-schedule controls; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-4",
+        "https://www.cdc.gov/niosh/heat-stress/recommendations/index.html",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "05b4f2e92b9692f2586a95160c4c632e7ed33a430aa1b749e017f620395a0809"
+    },
+    {
+      "id": "PV2-CORE-CH13-026",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Radiant heat engineering control",
+      "itemFamilyId": "PV2-CORE-CH13-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a WBGT monitoring plan, the team reviews this question: Workers are exposed primarily to intense radiant heat from a furnace face. Which engineering control most directly interrupts that exposure pathway? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Impermeable or insulating PPE limits evaporation and adds work burden. Work-rest decisions must account for environmental heat, workload, clothing, acclimatization, and the temperature of the recovery area.",
+        "A reflective barrier placed between the source and workers can reduce radiant heat transfer. Other controls may still be needed for convective heat, metabolic load, and process access.",
+        "Confusion, slurred speech, loss of coordination, seizures, or unconsciousness are critical heat-stroke signs. Sweating may be absent or profuse, so its presence does not rule out heat stroke.",
+        "Frequent small amounts help replace sweat losses before thirst becomes a reliable warning. Needs vary with conditions and individual factors, and excessive fluid intake should also be avoided."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Work-rest and PPE heat burden', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Heat stroke recognition', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hydration during heat exposure', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 4 - Heat Stress",
+      "sourceLocation": "Yates Chapter 13, engineering controls and heat shields, pp. 371-372; OSHA OTM heat-stress engineering controls; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-4",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0c4709aa30384622567a7f7fc6b0e1a36eca561c2a69f5a65cc761d10523401a"
+    },
+    {
+      "id": "PV2-CORE-CH13-027",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hypothermia in wet conditions",
+      "itemFamilyId": "PV2-CORE-CH13-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a heat-illness incident investigation, the team reviews this question: A soaked outdoor worker in 45 deg F weather becomes confused, loses coordination, and speaks slowly. Which response is most appropriate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Frequent small amounts help replace sweat losses before thirst becomes a reliable warning. Needs vary with conditions and individual factors, and excessive fluid intake should also be avoided.",
+        "Impermeable or insulating PPE limits evaporation and adds work burden. Work-rest decisions must account for environmental heat, workload, clothing, acclimatization, and the temperature of the recovery area.",
+        "Hypothermia can occur above freezing when rain, sweat, or immersion accelerates heat loss. Confusion and coordination loss are serious signs requiring prompt rewarming and medical evaluation.",
+        "Sweat cools effectively when it evaporates. When the surrounding air already contains substantial moisture, evaporation slows even if sweating increases, so internal heat can accumulate."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Hydration during heat exposure', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Work-rest and PPE heat burden', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Humidity and evaporative cooling', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA - Cold Stress Guide",
+      "sourceLocation": "Yates Chapter 13, hypothermia and cold-stress treatment, pp. 380-383; OSHA cold-stress guide; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/emergency-preparedness/guides/cold-stress",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5cbe8aae51ac676e3faf433850262dadb7a07afde5c147b910598aa50e37d2f4"
+    },
+    {
+      "id": "PV2-CORE-CH13-028",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Wind chill calculation",
+      "itemFamilyId": "PV2-CORE-CH13-F028",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a work-rest schedule decision, solve the following problem and select the best answer: The air temperature is 15 deg F and wind speed is 20 mph. Using the National Weather Service wind-chill equation, what is the approximate wind-chill temperature?",
+      "options": [
+        "7 deg F",
+        "-15 deg F",
+        "15 deg F",
+        "-2 deg F"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Wind chill = 35.74 + 0.6215(15) - 35.75(20^0.16) + 0.4275(15)(20^0.16) = approximately -2.3 deg F, which rounds to -2 deg F.",
+      "incorrectOptionExplanations": [
+        "This underestimates the additional heat loss caused by a 20-mph wind.",
+        "This overstates the wind effect for the stated temperature and speed.",
+        "This repeats the air temperature and ignores the wind term.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); National Weather Service - Understanding Wind Chill",
+      "sourceLocation": "Yates Chapter 13, wind-chill equation and chart, pp. 381-382; National Weather Service wind-chill formula; Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.weather.gov/safety/cold-wind-chill-chart",
+        "https://www.osha.gov/heat-exposure"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "WCT = 35.74 + 0.6215T - 35.75(V^0.16) + 0.4275T(V^0.16)",
+      "units": "deg F, T in deg F, V in mph",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dba3570c31a5009ac29238ef470c1fd566d106bb8e4edbc117a08eb7865e6368"
+    },
+    {
+      "id": "PV2-CORE-CH13-029",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "WBGT interpretation",
+      "itemFamilyId": "PV2-CORE-CH13-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an acclimatization program review, a supervisor proposes: \"Use ambient dry-bulb temperature alone because clothing cannot affect heat strain\". The underlying case is: A crew performs heavy work near radiant heat while wearing impermeable protective clothing. A basic WBGT result is below a screening value for ordinary clothing. What should the assessor do? Which alternative is the most defensible correction?",
+      "options": [
+        "Account for metabolic rate, clothing adjustment, acclimatization, work-rest pattern, and radiant conditions before concluding risk is controlled",
+        "Declare the work safe because the unadjusted WBGT is below one screening value",
+        "Ignore workload once employees have access to drinking water",
+        "Use ambient dry-bulb temperature alone because clothing cannot affect heat strain"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Heat-stress assessment integrates environmental heat, workload, clothing, acclimatization, and work organization. An unadjusted screening measurement is not a complete conclusion.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Declare the work safe because the unadjusted WBGT is below one screening value' remains incomplete or misapplies the controlling wbgt interpretation principle.",
+        "The proposed response 'Ignore workload once employees have access to drinking water' remains incomplete or misapplies the controlling wbgt interpretation principle.",
+        "The proposed response 'Use ambient dry-bulb temperature alone because clothing cannot affect heat strain' remains incomplete or misapplies the controlling wbgt interpretation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: WBGT interpretation",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1b1cc7ed3b8452854ac51580457a4f3662cbd51d8499624b11787e493ee5eff8"
+    },
+    {
+      "id": "PV2-CORE-CH13-030",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "acclimatization",
+      "itemFamilyId": "PV2-CORE-CH13-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a summer heat-stress assessment, a supervisor proposes: \"Withhold scheduled breaks unless a worker faints\". The underlying case is: New workers begin strenuous outdoor work during the first hot week of summer. What approach best reduces heat-illness risk? Which alternative is the most defensible correction?",
+      "options": [
+        "Withhold scheduled breaks unless a worker faints",
+        "Use a gradual exposure and workload progression with close monitoring, hydration, rest, and supervision during the acclimatization period",
+        "Assign the full workload immediately so workers acclimatize in one shift",
+        "Rely on self-pacing without supervisor observation or emergency procedures"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Acclimatization develops over repeated exposures. Gradual progression and close monitoring are especially important for new or returning workers.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Withhold scheduled breaks unless a worker faints' remains incomplete or misapplies the controlling acclimatization principle.",
+        null,
+        "The proposed response 'Assign the full workload immediately so workers acclimatize in one shift' remains incomplete or misapplies the controlling acclimatization principle.",
+        "The proposed response 'Rely on self-pacing without supervisor observation or emergency procedures' remains incomplete or misapplies the controlling acclimatization principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: acclimatization",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b921924a19f03c5d67cf8faaff24eaa1a3238180a6a35525c1ef64f056446525"
+    },
+    {
+      "id": "PV2-CORE-CH13-031",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "heat illness emergency recognition",
+      "itemFamilyId": "PV2-CORE-CH13-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a cold-storage work review, a supervisor proposes: \"Have the worker finish the task slowly while drinking a sports beverage\". The underlying case is: A worker in a hot area becomes confused, staggers, and has altered mental status. What is the priority response? Which alternative is the most defensible correction?",
+      "options": [
+        "Send the worker alone to an air-conditioned vehicle to rest",
+        "Have the worker finish the task slowly while drinking a sports beverage",
+        "Treat it as a medical emergency, activate emergency services, begin rapid cooling, and do not leave the worker alone",
+        "Wait for a core temperature measurement before starting any response"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Central nervous system changes can indicate heat stroke. Immediate emergency activation and rapid cooling are critical; delayed or unsupervised rest is unsafe.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Send the worker alone to an air-conditioned vehicle to rest' remains incomplete or misapplies the controlling heat illness emergency recognition principle.",
+        "The proposed response 'Have the worker finish the task slowly while drinking a sports beverage' remains incomplete or misapplies the controlling heat illness emergency recognition principle.",
+        null,
+        "The proposed response 'Wait for a core temperature measurement before starting any response' remains incomplete or misapplies the controlling heat illness emergency recognition principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: heat illness emergency recognition",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3f3ff0a0ace7a9989b76a4607e8862f3b290f689ce61e2dd6f585075b9b7cde5"
+    },
+    {
+      "id": "PV2-CORE-CH13-032",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hydration program",
+      "itemFamilyId": "PV2-CORE-CH13-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a WBGT monitoring plan, a supervisor proposes: \"Restrict drinking until scheduled meal periods to improve productivity\". The underlying case is: Management proposes a single mandatory volume of water for every worker regardless of task, climate, health, or shift length. What is the better program design? Which alternative is the most defensible correction?",
+      "options": [
+        "Require unlimited water intake because excessive fluid consumption cannot create risk",
+        "Restrict drinking until scheduled meal periods to improve productivity",
+        "Use thirst as the only control and discontinue heat monitoring",
+        "Provide accessible cool fluids and guidance while monitoring conditions, workload, individual risk, electrolyte needs, and signs of over- or underhydration"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Hydration is essential but should be part of a broader heat program. Needs vary, and both dehydration and excessive intake can be harmful.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Require unlimited water intake because excessive fluid consumption cannot create risk' remains incomplete or misapplies the controlling hydration program principle.",
+        "The proposed response 'Restrict drinking until scheduled meal periods to improve productivity' remains incomplete or misapplies the controlling hydration program principle.",
+        "The proposed response 'Use thirst as the only control and discontinue heat monitoring' remains incomplete or misapplies the controlling hydration program principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: hydration program",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6cb591f0bf66a69111737d1513b057a340825f03cbe134cb94e5e001f42b593a"
+    },
+    {
+      "id": "PV2-CORE-CH13-033",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "engineering control for radiant heat",
+      "itemFamilyId": "PV2-CORE-CH13-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a heat-illness incident investigation, a supervisor proposes: \"Measure humidity but leave the line-of-sight radiation unchanged\". The underlying case is: A furnace operator’s main heat load comes from intense radiation rather than hot room air. Which control most directly targets the dominant source? Which alternative is the most defensible correction?",
+      "options": [
+        "Install an effective radiant barrier or shield and reduce required proximity or exposure time",
+        "Issue cotton gloves as the only whole-body heat control",
+        "Measure humidity but leave the line-of-sight radiation unchanged",
+        "Increase air temperature so the worker feels less contrast"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Radiant barriers and increased distance directly reduce radiative heat transfer; air movement alone may not adequately control a strong radiant source.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Issue cotton gloves as the only whole-body heat control' remains incomplete or misapplies the controlling engineering control for radiant heat principle.",
+        "The proposed response 'Measure humidity but leave the line-of-sight radiation unchanged' remains incomplete or misapplies the controlling engineering control for radiant heat principle.",
+        "The proposed response 'Increase air temperature so the worker feels less contrast' remains incomplete or misapplies the controlling engineering control for radiant heat principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: engineering control for radiant heat",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f611b8b5a9351bb50be31558e3dc3f6517f9e0b9a896aebcfce33df64da2089b"
+    },
+    {
+      "id": "PV2-CORE-CH13-034",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cold stress and wind",
+      "itemFamilyId": "PV2-CORE-CH13-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a work-rest schedule decision, a supervisor proposes: \"Wind warms exposed skin by accelerating evaporation\". The underlying case is: A worker performs moderate outdoor work at a temperature that seems manageable, but strong wind develops. Why should the cold-stress assessment be revised? Which alternative is the most defensible correction?",
+      "options": [
+        "Only precipitation, not air movement, changes heat loss",
+        "Wind increases convective heat loss and can lower effective temperature, increasing frostbite and hypothermia risk",
+        "Wind warms exposed skin by accelerating evaporation",
+        "Wind affects comfort but cannot change cold injury risk"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Wind substantially increases convective heat loss and is incorporated into wind-chill assessment; it can change both exposure limits and protective needs.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Only precipitation, not air movement, changes heat loss' remains incomplete or misapplies the controlling cold stress and wind principle.",
+        null,
+        "The proposed response 'Wind warms exposed skin by accelerating evaporation' remains incomplete or misapplies the controlling cold stress and wind principle.",
+        "The proposed response 'Wind affects comfort but cannot change cold injury risk' remains incomplete or misapplies the controlling cold stress and wind principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: cold stress and wind",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c5beb2fe03eda7f788e95d03dbb64610e67f8c066e18bf0b536065686589d60d"
+    },
+    {
+      "id": "PV2-CORE-CH13-035",
+      "version": 1,
+      "chapterId": "ch-13",
+      "chapterTitle": "Thermal Stressors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cold protective clothing",
+      "itemFamilyId": "PV2-CORE-CH13-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a radiant-heat control project, a supervisor proposes: \"Eliminate warm-up breaks because sweating proves workers are warm\". The underlying case is: Workers in a freezer wear thick insulation but sweat heavily during intermittent high-exertion tasks. What program improvement is most appropriate? Which alternative is the most defensible correction?",
+      "options": [
+        "Eliminate warm-up breaks because sweating proves workers are warm",
+        "Require wet garments to remain in place until the shift ends",
+        "Use layered clothing and work organization that allow moisture management and adjustment as workload changes",
+        "Use one impermeable layer for the entire shift so no heat escapes"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Moisture reduces insulation and can accelerate cooling. Layering, task pacing, dry replacements, and warm-up opportunities help manage changing heat production.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Eliminate warm-up breaks because sweating proves workers are warm' remains incomplete or misapplies the controlling cold protective clothing principle.",
+        "The proposed response 'Require wet garments to remain in place until the shift ends' remains incomplete or misapplies the controlling cold protective clothing principle.",
+        null,
+        "The proposed response 'Use one impermeable layer for the entire shift so no heat escapes' remains incomplete or misapplies the controlling cold protective clothing principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 13, pp. 367-384; OSHA and NIOSH heat/cold stress guidance; curated topic: cold protective clothing",
+      "sourceUrls": [
+        "https://www.osha.gov/heat-exposure",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4e0548f7a810e4c56c571684c5702d756c7355408b2755adb305052cfee27924"
+    }
+  ]
+}

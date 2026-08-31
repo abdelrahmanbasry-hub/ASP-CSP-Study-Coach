@@ -1,0 +1,1459 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-33-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-33",
+  "chapterTitle": "Sustainability and Sustainability Principles",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH33-001",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hierarchy of resource conservation",
+      "itemFamilyId": "PV2-CORE-CH33-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility generates large quantities of a hazardous offcut and proposes recycling it after production. Which sustainability action should be evaluated first?",
+      "options": [
+        "Redesign or modify the process to prevent or reduce generation before relying on reuse, recycling, treatment, or disposal",
+        "Recycle the waste without examining whether the hazardous material can be eliminated",
+        "Increase disposal capacity because waste generation is fixed",
+        "Dilute the waste so it is less concentrated but greater in volume"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Source reduction generally provides greater environmental and risk benefit than managing material after it becomes waste.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Recycle the waste without examining whether the hazardous material can be eliminated' does not apply the controlling principle for hierarchy of resource conservation to the facts given, so it is not the best answer.",
+        "The option 'Increase disposal capacity because waste generation is fixed' does not apply the controlling principle for hierarchy of resource conservation to the facts given, so it is not the best answer.",
+        "The option 'Dilute the waste so it is less concentrated but greater in volume' does not apply the controlling principle for hierarchy of resource conservation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: hierarchy of resource conservation",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b05575bb39fe0b95593bf4d150e1f387be1533f838bd8feb01d97ae1ddcc1098"
+    },
+    {
+      "id": "PV2-CORE-CH33-002",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "life-cycle thinking",
+      "itemFamilyId": "PV2-CORE-CH33-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A replacement material has lower worker toxicity during use but requires substantially more energy and creates persistent waste at end of life. What is the best decision method?",
+      "options": [
+        "Reject the safer-use material because the alternative does not improve every life-cycle category",
+        "Compare material and process impacts across sourcing, manufacture, use, maintenance, transport, and end of life while preserving worker safety",
+        "Limit the evaluation to use-phase worker exposure and exclude upstream and end-of-life material flows",
+        "Select the material primarily on purchase price and exclude downstream impacts from the decision boundary"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Life-cycle thinking identifies burden shifting. The choice should optimize total risk and impact without sacrificing critical occupational protections.",
+      "incorrectOptionExplanations": [
+        "The option 'Reject the safer-use material because the alternative does not improve every life-cycle category' does not apply the controlling principle for life-cycle thinking to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Limit the evaluation to use-phase worker exposure and exclude upstream and end-of-life material flows' does not apply the controlling principle for life-cycle thinking to the facts given, so it is not the best answer.",
+        "The option 'Select the material primarily on purchase price and exclude downstream impacts from the decision boundary' does not apply the controlling principle for life-cycle thinking to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: life-cycle thinking",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3be8e1334d41c1772b08a3b40d1011d96371d2aa852bdc936aab0982a6f516dd"
+    },
+    {
+      "id": "PV2-CORE-CH33-003",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sustainability metrics and boundaries",
+      "itemFamilyId": "PV2-CORE-CH33-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A company reports a 20% reduction in waste intensity after outsourcing a waste-generating step. Total supply-chain waste increased. What is the reporting concern?",
+      "options": [
+        "Exclude outsourced impacts from the sustainability boundary and report only direct facility performance",
+        "Use the financial reporting boundary as the environmental boundary without a value-chain analysis",
+        "The metric boundary may shift impact outside the reporting organization, so absolute and value-chain effects should be disclosed",
+        "Treat the improved intensity metric as sufficient evidence that total environmental burden decreased"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Changing organizational boundaries can create apparent improvement without real system benefit. Transparent scope and absolute as well as normalized measures reduce misleading claims.",
+      "incorrectOptionExplanations": [
+        "The option 'Exclude outsourced impacts from the sustainability boundary and report only direct facility performance' does not apply the controlling principle for sustainability metrics and boundaries to the facts given, so it is not the best answer.",
+        "The option 'Use the financial reporting boundary as the environmental boundary without a value-chain analysis' does not apply the controlling principle for sustainability metrics and boundaries to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Treat the improved intensity metric as sufficient evidence that total environmental burden decreased' does not apply the controlling principle for sustainability metrics and boundaries to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: sustainability metrics and boundaries",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "414e81b8924962af6b7630f6f9de44ab0afa134af1de7cd04db1c481b9b0a157"
+    },
+    {
+      "id": "PV2-CORE-CH33-004",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "triple bottom line tradeoffs",
+      "itemFamilyId": "PV2-CORE-CH33-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A project saves energy but increases serious worker exposure during maintenance. How should it be evaluated?",
+      "options": [
+        "Approve the project because its environmental benefits are assumed to outweigh the introduced occupational risk",
+        "Reject every energy project that introduces any new maintenance task",
+        "Move the hazardous maintenance to a contractor so the social impact disappears",
+        "Integrate environmental, social, safety, and economic consequences and redesign the project so energy gains do not rely on unacceptable worker risk"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Sustainability requires balanced, responsible value creation. Transferring or ignoring worker risk is not a sustainable solution.",
+      "incorrectOptionExplanations": [
+        "The option 'Approve the project because its environmental benefits are assumed to outweigh the introduced occupational risk' does not apply the controlling principle for triple bottom line tradeoffs to the facts given, so it is not the best answer.",
+        "The option 'Reject every energy project that introduces any new maintenance task' does not apply the controlling principle for triple bottom line tradeoffs to the facts given, so it is not the best answer.",
+        "The option 'Move the hazardous maintenance to a contractor so the social impact disappears' does not apply the controlling principle for triple bottom line tradeoffs to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: triple bottom line tradeoffs",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1c27b463aa3a146df276f01311dba0353d9085c497b342983f147c38908c2c49"
+    },
+    {
+      "id": "PV2-CORE-CH33-005",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "supplier sustainability due diligence",
+      "itemFamilyId": "PV2-CORE-CH33-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A low-cost supplier claims strong environmental performance but provides no data and has repeated labor and safety allegations. What should procurement do?",
+      "options": [
+        "Use risk-based due diligence, contractual expectations, evidence review, corrective action, and monitoring before relying on the claim",
+        "Ignore labor and safety because sustainability covers only emissions",
+        "Accept the marketing statement because supplier self-certification is conclusive",
+        "Terminate every supplier allegation without evaluating evidence or remedy capability"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Responsible sourcing requires verification proportionate to risk and a process for improvement or escalation, not blind acceptance or automatic conclusions.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Ignore labor and safety because sustainability covers only emissions' does not apply the controlling principle for supplier sustainability due diligence to the facts given, so it is not the best answer.",
+        "The option 'Accept the marketing statement because supplier self-certification is conclusive' does not apply the controlling principle for supplier sustainability due diligence to the facts given, so it is not the best answer.",
+        "The option 'Terminate every supplier allegation without evaluating evidence or remedy capability' does not apply the controlling principle for supplier sustainability due diligence to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: supplier sustainability due diligence",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f37fb2d349dafd7acf0d5d17398e5f76a2f50af56020b4fdf541d02a8ff4b6b5"
+    },
+    {
+      "id": "PV2-CORE-CH33-006",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "climate resilience and worker protection",
+      "itemFamilyId": "PV2-CORE-CH33-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Extreme heat and flooding are projected to disrupt a facility more often. Which sustainability response is most comprehensive?",
+      "options": [
+        "Wait for a disaster because projections cannot support preventive planning",
+        "Integrate climate scenarios into worker protection, emergency planning, infrastructure, supply continuity, and capital decisions",
+        "Buy carbon offsets and leave local heat and flood vulnerabilities unchanged",
+        "Address only property insurance renewal dates"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Resilience combines adaptation of people, assets, operations, and supply chains. Emissions actions do not by themselves control local physical hazards.",
+      "incorrectOptionExplanations": [
+        "The option 'Wait for a disaster because projections cannot support preventive planning' does not apply the controlling principle for climate resilience and worker protection to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Buy carbon offsets and leave local heat and flood vulnerabilities unchanged' does not apply the controlling principle for climate resilience and worker protection to the facts given, so it is not the best answer.",
+        "The option 'Address only property insurance renewal dates' does not apply the controlling principle for climate resilience and worker protection to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: climate resilience and worker protection",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "499ef47c7a4db211045bd9071d3a4c1b37150cf69fffab81d30ac9159157b702"
+    },
+    {
+      "id": "PV2-CORE-CH33-007",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "green claims and evidence",
+      "itemFamilyId": "PV2-CORE-CH33-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Marketing wants to label a product “zero environmental impact” based only on recyclable packaging. What should the EHS professional advise?",
+      "options": [
+        "Omit the packaging basis so customers focus on the broad claim",
+        "Replace “zero” with “natural” and publish the claim without substantiating criteria or data",
+        "Use specific, supportable claims with defined boundaries and evidence, and avoid absolute language that ignores other impacts",
+        "Approve the claim because recyclable packaging proves every life-cycle impact is zero"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Credible sustainability communication is precise, substantiated, and transparent about scope. Absolute unsupported claims create greenwashing risk.",
+      "incorrectOptionExplanations": [
+        "The option 'Omit the packaging basis so customers focus on the broad claim' does not apply the controlling principle for green claims and evidence to the facts given, so it is not the best answer.",
+        "The option 'Replace “zero” with “natural” and publish the claim without substantiating criteria or data' does not apply the controlling principle for green claims and evidence to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Approve the claim because recyclable packaging proves every life-cycle impact is zero' does not apply the controlling principle for green claims and evidence to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: green claims and evidence",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b07a80dc1b5cb1e0c309cc08be5b4834b00c206e2706e995efb32d47896a3b18"
+    },
+    {
+      "id": "PV2-CORE-CH33-008",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "circularity and hazardous content",
+      "itemFamilyId": "PV2-CORE-CH33-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A team proposes repeated reuse of a component containing a hazardous substance. What must be considered before calling the design circular?",
+      "options": [
+        "Any reuse is sustainable regardless of worker or consumer exposure",
+        "Hide the hazardous content so reuse markets remain available",
+        "Assume longer product life automatically eliminates end-of-life obligations",
+        "Ensure reuse does not prolong uncontrolled exposure, preserves performance, supports safe repair and disassembly, and has a responsible final pathway"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Circularity must be safe and responsible. Extending material use is not beneficial if it perpetuates hazardous exposure or prevents controlled end-of-life management.",
+      "incorrectOptionExplanations": [
+        "The option 'Any reuse is sustainable regardless of worker or consumer exposure' does not apply the controlling principle for circularity and hazardous content to the facts given, so it is not the best answer.",
+        "The option 'Hide the hazardous content so reuse markets remain available' does not apply the controlling principle for circularity and hazardous content to the facts given, so it is not the best answer.",
+        "The option 'Assume longer product life automatically eliminates end-of-life obligations' does not apply the controlling principle for circularity and hazardous content to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: circularity and hazardous content",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "44ee23218fefbc7d6fbfd7a65a266fefef7d2ada0a76da0d1fe282c9b8b51ff6"
+    },
+    {
+      "id": "PV2-CORE-CH33-009",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hierarchy of resource conservation",
+      "itemFamilyId": "PV2-CORE-CH33-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a life-cycle impact review, the team reviews this case: A facility generates large quantities of a hazardous offcut and proposes recycling it after production. Which sustainability action should be evaluated first? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Source reduction generally provides greater environmental and risk benefit than managing material after it becomes waste.",
+        "Life-cycle thinking identifies burden shifting. The choice should optimize total risk and impact without sacrificing critical occupational protections.",
+        "Credible sustainability communication is precise, substantiated, and transparent about scope. Absolute unsupported claims create greenwashing risk.",
+        "Resilience combines adaptation of people, assets, operations, and supply chains. Emissions actions do not by themselves control local physical hazards."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses hierarchy of resource conservation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'life-cycle thinking', but it does not resolve the hierarchy of resource conservation issue in this case.",
+        "This rationale supports the separate chapter topic 'green claims and evidence', but it does not resolve the hierarchy of resource conservation issue in this case.",
+        "This rationale supports the separate chapter topic 'climate resilience and worker protection', but it does not resolve the hierarchy of resource conservation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: hierarchy of resource conservation",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dda231155c653d711f07a152958c8b61f7af05db56e697ac31eab71a77562a44"
+    },
+    {
+      "id": "PV2-CORE-CH33-010",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "life-cycle thinking",
+      "itemFamilyId": "PV2-CORE-CH33-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a supplier sustainability assessment, the team reviews this case: A replacement material has lower worker toxicity during use but requires substantially more energy and creates persistent waste at end of life. What is the best decision method? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Credible sustainability communication is precise, substantiated, and transparent about scope. Absolute unsupported claims create greenwashing risk.",
+        "Life-cycle thinking identifies burden shifting. The choice should optimize total risk and impact without sacrificing critical occupational protections.",
+        "Resilience combines adaptation of people, assets, operations, and supply chains. Emissions actions do not by themselves control local physical hazards.",
+        "Circularity must be safe and responsible. Extending material use is not beneficial if it perpetuates hazardous exposure or prevents controlled end-of-life management."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses life-cycle thinking and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'green claims and evidence', but it does not resolve the life-cycle thinking issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'climate resilience and worker protection', but it does not resolve the life-cycle thinking issue in this case.",
+        "This rationale supports the separate chapter topic 'circularity and hazardous content', but it does not resolve the life-cycle thinking issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: life-cycle thinking",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "84f34ddd39dee622d84faef248c0fbf83bb459b174b01ddb69a42236319ef8a7"
+    },
+    {
+      "id": "PV2-CORE-CH33-011",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sustainability metrics and boundaries",
+      "itemFamilyId": "PV2-CORE-CH33-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a resource-efficiency proposal, the team reviews this case: A company reports a 20% reduction in waste intensity after outsourcing a waste-generating step. Total supply-chain waste increased. What is the reporting concern? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Responsible sourcing requires verification proportionate to risk and a process for improvement or escalation, not blind acceptance or automatic conclusions.",
+        "Source reduction generally provides greater environmental and risk benefit than managing material after it becomes waste.",
+        "Changing organizational boundaries can create apparent improvement without real system benefit. Transparent scope and absolute as well as normalized measures reduce misleading claims.",
+        "Life-cycle thinking identifies burden shifting. The choice should optimize total risk and impact without sacrificing critical occupational protections."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses sustainability metrics and boundaries and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'supplier sustainability due diligence', but it does not resolve the sustainability metrics and boundaries issue in this case.",
+        "This rationale supports the separate chapter topic 'hierarchy of resource conservation', but it does not resolve the sustainability metrics and boundaries issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'life-cycle thinking', but it does not resolve the sustainability metrics and boundaries issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: sustainability metrics and boundaries",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "967d94f51bc4b7b61e52ad23e813355daa84facd220fec665ee12b21e7889555"
+    },
+    {
+      "id": "PV2-CORE-CH33-012",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "triple bottom line tradeoffs",
+      "itemFamilyId": "PV2-CORE-CH33-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a climate resilience discussion, the team reviews this case: A project saves energy but increases serious worker exposure during maintenance. How should it be evaluated? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Source reduction generally provides greater environmental and risk benefit than managing material after it becomes waste.",
+        "Responsible sourcing requires verification proportionate to risk and a process for improvement or escalation, not blind acceptance or automatic conclusions.",
+        "Resilience combines adaptation of people, assets, operations, and supply chains. Emissions actions do not by themselves control local physical hazards.",
+        "Sustainability requires balanced, responsible value creation. Transferring or ignoring worker risk is not a sustainable solution."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses triple bottom line tradeoffs and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hierarchy of resource conservation', but it does not resolve the triple bottom line tradeoffs issue in this case.",
+        "This rationale supports the separate chapter topic 'supplier sustainability due diligence', but it does not resolve the triple bottom line tradeoffs issue in this case.",
+        "This rationale supports the separate chapter topic 'climate resilience and worker protection', but it does not resolve the triple bottom line tradeoffs issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: triple bottom line tradeoffs",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5aeb59da7e88bf193c37318dbee1386406a58271755f05b5202a9164399d32f0"
+    },
+    {
+      "id": "PV2-CORE-CH33-013",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "supplier sustainability due diligence",
+      "itemFamilyId": "PV2-CORE-CH33-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a social responsibility review, the team reviews this case: A low-cost supplier claims strong environmental performance but provides no data and has repeated labor and safety allegations. What should procurement do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Responsible sourcing requires verification proportionate to risk and a process for improvement or escalation, not blind acceptance or automatic conclusions.",
+        "Credible sustainability communication is precise, substantiated, and transparent about scope. Absolute unsupported claims create greenwashing risk.",
+        "Resilience combines adaptation of people, assets, operations, and supply chains. Emissions actions do not by themselves control local physical hazards.",
+        "Source reduction generally provides greater environmental and risk benefit than managing material after it becomes waste."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses supplier sustainability due diligence and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'green claims and evidence', but it does not resolve the supplier sustainability due diligence issue in this case.",
+        "This rationale supports the separate chapter topic 'climate resilience and worker protection', but it does not resolve the supplier sustainability due diligence issue in this case.",
+        "This rationale supports the separate chapter topic 'hierarchy of resource conservation', but it does not resolve the supplier sustainability due diligence issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: supplier sustainability due diligence",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3b3cd13f76d0efc7e50e859fbccd4a00d27b853971d88852c18f5b3284cf5c02"
+    },
+    {
+      "id": "PV2-CORE-CH33-014",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "climate resilience and worker protection",
+      "itemFamilyId": "PV2-CORE-CH33-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a sustainability metrics meeting, the team reviews this case: Extreme heat and flooding are projected to disrupt a facility more often. Which sustainability response is most comprehensive? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Credible sustainability communication is precise, substantiated, and transparent about scope. Absolute unsupported claims create greenwashing risk.",
+        "Resilience combines adaptation of people, assets, operations, and supply chains. Emissions actions do not by themselves control local physical hazards.",
+        "Source reduction generally provides greater environmental and risk benefit than managing material after it becomes waste.",
+        "Sustainability requires balanced, responsible value creation. Transferring or ignoring worker risk is not a sustainable solution."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses climate resilience and worker protection and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'green claims and evidence', but it does not resolve the climate resilience and worker protection issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'hierarchy of resource conservation', but it does not resolve the climate resilience and worker protection issue in this case.",
+        "This rationale supports the separate chapter topic 'triple bottom line tradeoffs', but it does not resolve the climate resilience and worker protection issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: climate resilience and worker protection",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1cfa8aefefce657ab9994ecdd4f60c9c7a032f216a6d6fdf7fe32b833baeafb1"
+    },
+    {
+      "id": "PV2-CORE-CH33-015",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "green claims and evidence",
+      "itemFamilyId": "PV2-CORE-CH33-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a sustainability strategy workshop, the team reviews this case: Marketing wants to label a product “zero environmental impact” based only on recyclable packaging. What should the EHS professional advise? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Source reduction generally provides greater environmental and risk benefit than managing material after it becomes waste.",
+        "Life-cycle thinking identifies burden shifting. The choice should optimize total risk and impact without sacrificing critical occupational protections.",
+        "Credible sustainability communication is precise, substantiated, and transparent about scope. Absolute unsupported claims create greenwashing risk.",
+        "Resilience combines adaptation of people, assets, operations, and supply chains. Emissions actions do not by themselves control local physical hazards."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses green claims and evidence and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hierarchy of resource conservation', but it does not resolve the green claims and evidence issue in this case.",
+        "This rationale supports the separate chapter topic 'life-cycle thinking', but it does not resolve the green claims and evidence issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'climate resilience and worker protection', but it does not resolve the green claims and evidence issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: green claims and evidence",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4ba642353a09a720cdb10120656609abc3340722d790d14f9bfa2e9976c91d17"
+    },
+    {
+      "id": "PV2-CORE-CH33-016",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "circularity and hazardous content",
+      "itemFamilyId": "PV2-CORE-CH33-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a waste-prevention project, the team reviews this case: A team proposes repeated reuse of a component containing a hazardous substance. What must be considered before calling the design circular? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Changing organizational boundaries can create apparent improvement without real system benefit. Transparent scope and absolute as well as normalized measures reduce misleading claims.",
+        "Source reduction generally provides greater environmental and risk benefit than managing material after it becomes waste.",
+        "Resilience combines adaptation of people, assets, operations, and supply chains. Emissions actions do not by themselves control local physical hazards.",
+        "Circularity must be safe and responsible. Extending material use is not beneficial if it perpetuates hazardous exposure or prevents controlled end-of-life management."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses circularity and hazardous content and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'sustainability metrics and boundaries', but it does not resolve the circularity and hazardous content issue in this case.",
+        "This rationale supports the separate chapter topic 'hierarchy of resource conservation', but it does not resolve the circularity and hazardous content issue in this case.",
+        "This rationale supports the separate chapter topic 'climate resilience and worker protection', but it does not resolve the circularity and hazardous content issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: circularity and hazardous content",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c8e587d5451e6434089d7295f548cd7a2cb1d25c7c7c6209e3c6f949e3b832eb"
+    },
+    {
+      "id": "PV2-CORE-CH33-017",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Triple bottom line",
+      "itemFamilyId": "PV2-CORE-CH33-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a waste-prevention project, the team reviews this question: What three dimensions are combined in the triple bottom line? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The triple bottom line evaluates social, environmental, and economic performance together rather than treating them as unrelated.",
+        "Credible sustainability communication uses complete, material evidence and does not exaggerate a narrow improvement.",
+        "Pollution prevention reduces or eliminates pollutants at the source before treatment, recycling, or disposal is needed.",
+        "An intensity metric normalized to production and linked to waste and exposure shows whether source reduction is real and sustained."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Greenwashing risk', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Pollution prevention', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Sustainability KPI', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, triple bottom line theory, pp. 749-750; Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/sustainability"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3d23017292690c007fc8ae7e286986d5bada0ce62093224484974c812197d81c"
+    },
+    {
+      "id": "PV2-CORE-CH33-018",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Lifecycle thinking",
+      "itemFamilyId": "PV2-CORE-CH33-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a life-cycle impact review, the team reviews this question: A product uses less energy during operation but creates substantially more hazardous waste during manufacture and disposal. What is the best sustainability approach? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Social sustainability includes health, equity, capability, participation, and effects on workers and communities.",
+        "Lifecycle thinking considers raw materials, production, use, transport, maintenance, and end-of-life effects.",
+        "Credible sustainability communication uses complete, material evidence and does not exaggerate a narrow improvement.",
+        "Pollution prevention reduces or eliminates pollutants at the source before treatment, recycling, or disposal is needed."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Social sustainability', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Greenwashing risk', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Pollution prevention', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, sustainable development and conservation principles, pp. 743-751; Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/sustainability"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "64cfec5890d82654fb545d5fd5585d1e86785a541801d0b1296006dce1c780bf"
+    },
+    {
+      "id": "PV2-CORE-CH33-019",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sustainability KPI",
+      "itemFamilyId": "PV2-CORE-CH33-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a supplier sustainability assessment, the team reviews this question: Which measure is the strongest sustainability KPI for a solvent-reduction program? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Credible sustainability communication uses complete, material evidence and does not exaggerate a narrow improvement.",
+        "The triple bottom line evaluates social, environmental, and economic performance together rather than treating them as unrelated.",
+        "An intensity metric normalized to production and linked to waste and exposure shows whether source reduction is real and sustained.",
+        "Pollution prevention reduces or eliminates pollutants at the source before treatment, recycling, or disposal is needed."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Greenwashing risk', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Triple bottom line', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Pollution prevention', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, key performance indicators and economic benefits, pp. 749-751; Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/sustainability"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "560fb19c1d76752a7142c3c37535b3e812a7125cf81685da64fb26b93d43784b"
+    },
+    {
+      "id": "PV2-CORE-CH33-020",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pollution prevention",
+      "itemFamilyId": "PV2-CORE-CH33-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a resource-efficiency proposal, the team reviews this question: Which initiative best reflects pollution prevention rather than end-of-pipe control? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The triple bottom line evaluates social, environmental, and economic performance together rather than treating them as unrelated.",
+        "Social sustainability includes health, equity, capability, participation, and effects on workers and communities.",
+        "Credible sustainability communication uses complete, material evidence and does not exaggerate a narrow improvement.",
+        "Pollution prevention reduces or eliminates pollutants at the source before treatment, recycling, or disposal is needed."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Triple bottom line', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Social sustainability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Greenwashing risk', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 33 and 34, conservation and pollution prevention, pp. 743-778; Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/sustainability"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "060547ed9c8fca2ad922cc491c26bc8281e70b2a32bb417cf8d45d843bd5eff7"
+    },
+    {
+      "id": "PV2-CORE-CH33-021",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Social sustainability",
+      "itemFamilyId": "PV2-CORE-CH33-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a climate resilience discussion, the team reviews this question: Which action most directly supports the people dimension of sustainability in a major process change? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Social sustainability includes health, equity, capability, participation, and effects on workers and communities.",
+        "Pollution prevention reduces or eliminates pollutants at the source before treatment, recycling, or disposal is needed.",
+        "Credible sustainability communication uses complete, material evidence and does not exaggerate a narrow improvement.",
+        "Lifecycle thinking considers raw materials, production, use, transport, maintenance, and end-of-life effects."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Pollution prevention', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Greenwashing risk', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Lifecycle thinking', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, sustainable development of society and conservation of human resources, pp. 746-749; Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/sustainability"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0bc087fdb890c771ec6cd0c1fa5cddf8560c0719c4c935e3d0d0890f48eb202a"
+    },
+    {
+      "id": "PV2-CORE-CH33-022",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Greenwashing risk",
+      "itemFamilyId": "PV2-CORE-CH33-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a social responsibility review, the team reviews this question: A company advertises a product as sustainable based on one minor packaging change while withholding increased emissions. What is the main concern? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Pollution prevention reduces or eliminates pollutants at the source before treatment, recycling, or disposal is needed.",
+        "Credible sustainability communication uses complete, material evidence and does not exaggerate a narrow improvement.",
+        "Social sustainability includes health, equity, capability, participation, and effects on workers and communities.",
+        "The triple bottom line evaluates social, environmental, and economic performance together rather than treating them as unrelated."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Pollution prevention', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Social sustainability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Triple bottom line', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 33, sustainability performance; Chapter 40, objective and truthful professional statements; Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/sustainability"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ae3df43c74f5626781acc06d37fa1527100076ce46e48d5a94a057e5f0088136"
+    },
+    {
+      "id": "PV2-CORE-CH33-023",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hierarchy of resource conservation",
+      "itemFamilyId": "PV2-CORE-CH33-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a waste-prevention project, a supervisor proposes: \"Recycle the waste without examining whether the hazardous material can be eliminated\". The underlying case is: A facility generates large quantities of a hazardous offcut and proposes recycling it after production. Which sustainability action should be evaluated first? Which alternative is the most defensible correction?",
+      "options": [
+        "Dilute the waste so it is less concentrated but greater in volume",
+        "Recycle the waste without examining whether the hazardous material can be eliminated",
+        "Redesign or modify the process to prevent or reduce generation before relying on reuse, recycling, treatment, or disposal",
+        "Increase disposal capacity because waste generation is fixed"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Source reduction generally provides greater environmental and risk benefit than managing material after it becomes waste.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Dilute the waste so it is less concentrated but greater in volume' remains incomplete or misapplies the controlling hierarchy of resource conservation principle.",
+        "The proposed response 'Recycle the waste without examining whether the hazardous material can be eliminated' remains incomplete or misapplies the controlling hierarchy of resource conservation principle.",
+        null,
+        "The proposed response 'Increase disposal capacity because waste generation is fixed' remains incomplete or misapplies the controlling hierarchy of resource conservation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: hierarchy of resource conservation",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9d7d878d7f787c569bfc272aae01654bc5a73f88bf88523669509b8d93f8044d"
+    },
+    {
+      "id": "PV2-CORE-CH33-024",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "life-cycle thinking",
+      "itemFamilyId": "PV2-CORE-CH33-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a life-cycle impact review, a supervisor proposes: \"Limit the evaluation to use-phase worker exposure and exclude upstream and end-of-life material flows\". The underlying case is: A replacement material has lower worker toxicity during use but requires substantially more energy and creates persistent waste at end of life. What is the best decision method? Which alternative is the most defensible correction?",
+      "options": [
+        "Select the material primarily on purchase price and exclude downstream impacts from the decision boundary",
+        "Reject the safer-use material because the alternative does not improve every life-cycle category",
+        "Limit the evaluation to use-phase worker exposure and exclude upstream and end-of-life material flows",
+        "Compare material and process impacts across sourcing, manufacture, use, maintenance, transport, and end of life while preserving worker safety"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Life-cycle thinking identifies burden shifting. The choice should optimize total risk and impact without sacrificing critical occupational protections.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Select the material primarily on purchase price and exclude downstream impacts from the decision boundary' remains incomplete or misapplies the controlling life-cycle thinking principle.",
+        "The proposed response 'Reject the safer-use material because the alternative does not improve every life-cycle category' remains incomplete or misapplies the controlling life-cycle thinking principle.",
+        "The proposed response 'Limit the evaluation to use-phase worker exposure and exclude upstream and end-of-life material flows' remains incomplete or misapplies the controlling life-cycle thinking principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: life-cycle thinking",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dc707b199ac1981db7c89f8889a4a61cc206572c13a058efca4a660557db635b"
+    },
+    {
+      "id": "PV2-CORE-CH33-025",
+      "version": 1,
+      "chapterId": "ch-33",
+      "chapterTitle": "Sustainability and Sustainability Principles",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sustainability metrics and boundaries",
+      "itemFamilyId": "PV2-CORE-CH33-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a supplier sustainability assessment, a supervisor proposes: \"Treat the improved intensity metric as sufficient evidence that total environmental burden decreased\". The underlying case is: A company reports a 20% reduction in waste intensity after outsourcing a waste-generating step. Total supply-chain waste increased. What is the reporting concern? Which alternative is the most defensible correction?",
+      "options": [
+        "The metric boundary may shift impact outside the reporting organization, so absolute and value-chain effects should be disclosed",
+        "Use the financial reporting boundary as the environmental boundary without a value-chain analysis",
+        "Exclude outsourced impacts from the sustainability boundary and report only direct facility performance",
+        "Treat the improved intensity metric as sufficient evidence that total environmental burden decreased"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Changing organizational boundaries can create apparent improvement without real system benefit. Transparent scope and absolute as well as normalized measures reduce misleading claims.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Use the financial reporting boundary as the environmental boundary without a value-chain analysis' remains incomplete or misapplies the controlling sustainability metrics and boundaries principle.",
+        "The proposed response 'Exclude outsourced impacts from the sustainability boundary and report only direct facility performance' remains incomplete or misapplies the controlling sustainability metrics and boundaries principle.",
+        "The proposed response 'Treat the improved intensity metric as sufficient evidence that total environmental burden decreased' remains incomplete or misapplies the controlling sustainability metrics and boundaries principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 33, pp. 743-753; EPA sustainability and pollution-prevention principles; curated topic: sustainability metrics and boundaries",
+      "sourceUrls": [
+        "https://www.epa.gov/sustainability",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "56d72b1a1fe5b77554bdd7d4fdd006cf46c28c6adeab8bf4ece5c956ae3ea6a9"
+    }
+  ]
+}

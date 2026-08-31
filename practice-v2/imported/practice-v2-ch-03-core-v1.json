@@ -1,0 +1,2048 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-03-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-03",
+  "chapterTitle": "OSHA Recordkeeping and Reporting",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH03-001",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work relationship and recordability",
+      "itemFamilyId": "PV2-CORE-CH03-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A mechanic cuts a finger at work, receives prescription medication at an urgent-care clinic, and returns to the next shift without restrictions. How should the employer classify the case for OSHA recordkeeping?",
+      "options": [
+        "Record the case because prescription medication is medical treatment beyond first aid",
+        "Record it only if the clinic bills the employer directly",
+        "Do not record it because the employee did not miss a scheduled workday",
+        "Do not record it unless the wound later becomes infected"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A work-related case involving medical treatment beyond first aid is recordable even without days away or restricted duty.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Record it only if the clinic bills the employer directly' does not apply the controlling principle for work relationship and recordability to the facts given, so it is not the best answer.",
+        "The option 'Do not record it because the employee did not miss a scheduled workday' does not apply the controlling principle for work relationship and recordability to the facts given, so it is not the best answer.",
+        "The option 'Do not record it unless the wound later becomes infected' does not apply the controlling principle for work relationship and recordability to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: work relationship and recordability",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e8893d24ff7fb61abc8573dbdcae253b04b0047d1157d08d1f84d59170a17517"
+    },
+    {
+      "id": "PV2-CORE-CH03-002",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "days away counting",
+      "itemFamilyId": "PV2-CORE-CH03-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee is injured late Friday and a physician states that the employee cannot work Saturday through Monday. The employee was not scheduled on the weekend and returns Tuesday. How should days away be counted?",
+      "options": [
+        "Count only Monday because it was the only scheduled workday missed",
+        "Count each calendar day the employee was unable to work, including the weekend days",
+        "Count the day of injury plus every calendar day through Tuesday",
+        "Count zero days because the employee returned for the next scheduled shift after Monday"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Days away are counted as calendar days beginning after the day of injury or illness, regardless of whether the employee was scheduled to work.",
+      "incorrectOptionExplanations": [
+        "The option 'Count only Monday because it was the only scheduled workday missed' does not apply the controlling principle for days away counting to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Count the day of injury plus every calendar day through Tuesday' does not apply the controlling principle for days away counting to the facts given, so it is not the best answer.",
+        "The option 'Count zero days because the employee returned for the next scheduled shift after Monday' does not apply the controlling principle for days away counting to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: days away counting",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0f5114ed6584d1ed9fd94e5c49b4eb552fbb906aa16a6c27a923a2ffcd9b0cb1"
+    },
+    {
+      "id": "PV2-CORE-CH03-003",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "restricted work",
+      "itemFamilyId": "PV2-CORE-CH03-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A physician allows an injured employee to work the full shift but prohibits lifting more than 10 pounds, an essential routine function of the normal job. What is the proper classification?",
+      "options": [
+        "A first-aid-only case unless the restriction continues for more than seven days",
+        "A nonrecordable case because the employee worked the full number of hours",
+        "A recordable restricted-work case because the employee cannot perform a routine job function",
+        "A days-away case because any medical restriction is treated as absence"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Restriction exists when an employee cannot perform one or more routine functions or cannot work the full day normally scheduled. Full attendance does not eliminate the restriction.",
+      "incorrectOptionExplanations": [
+        "The option 'A first-aid-only case unless the restriction continues for more than seven days' does not apply the controlling principle for restricted work to the facts given, so it is not the best answer.",
+        "The option 'A nonrecordable case because the employee worked the full number of hours' does not apply the controlling principle for restricted work to the facts given, so it is not the best answer.",
+        null,
+        "The option 'A days-away case because any medical restriction is treated as absence' does not apply the controlling principle for restricted work to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: restricted work",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4e0d271ad1eacc93e96d198c32228afd5a0dec43afa6d68a9c9a7ec1bcbe63ab"
+    },
+    {
+      "id": "PV2-CORE-CH03-004",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work-relatedness exception",
+      "itemFamilyId": "PV2-CORE-CH03-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee voluntarily uses the company cafeteria microwave to heat a personal meal and is burned by unexpectedly hot food. No defect or workplace condition contributed. Which conclusion is most defensible?",
+      "options": [
+        "Record every injury occurring on company property without considering an exception",
+        "Record the case because use of any employer-owned appliance makes it occupational",
+        "Exclude the case only if the employee ate outside the scheduled meal period",
+        "Evaluate the specific personal food-preparation exception before treating the case as work-related"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "OSHA recordkeeping begins with the geographic presumption but includes specific exceptions, including certain injuries resulting solely from personal food preparation or consumption.",
+      "incorrectOptionExplanations": [
+        "The option 'Record every injury occurring on company property without considering an exception' does not apply the controlling principle for work-relatedness exception to the facts given, so it is not the best answer.",
+        "The option 'Record the case because use of any employer-owned appliance makes it occupational' does not apply the controlling principle for work-relatedness exception to the facts given, so it is not the best answer.",
+        "The option 'Exclude the case only if the employee ate outside the scheduled meal period' does not apply the controlling principle for work-relatedness exception to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: work-relatedness exception",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ac5c2c1bc3677bc6060234f09be52b0d1e5d73de9749459aa384c514b222b2f5"
+    },
+    {
+      "id": "PV2-CORE-CH03-005",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "significant diagnosed injury or illness",
+      "itemFamilyId": "PV2-CORE-CH03-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A physician diagnoses a work-related fractured rib. The employee receives no treatment beyond observation and loses no time. How should the case be handled?",
+      "options": [
+        "Record it because a work-related fracture is a significant diagnosed injury",
+        "Do not record it because no medical treatment was provided",
+        "Wait to record it unless restricted work later occurs",
+        "Record it only if the employee requests workers compensation benefits"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Certain significant diagnosed injuries and illnesses are recordable upon diagnosis even when they do not independently meet the treatment, restriction, or days-away criteria.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Do not record it because no medical treatment was provided' does not apply the controlling principle for significant diagnosed injury or illness to the facts given, so it is not the best answer.",
+        "The option 'Wait to record it unless restricted work later occurs' does not apply the controlling principle for significant diagnosed injury or illness to the facts given, so it is not the best answer.",
+        "The option 'Record it only if the employee requests workers compensation benefits' does not apply the controlling principle for significant diagnosed injury or illness to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: significant diagnosed injury or illness",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "46d7f276fedc5e3fc998dc8120c23ad1aaad1ec0003cc9943e4504750f6c29ae"
+    },
+    {
+      "id": "PV2-CORE-CH03-006",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fatality and severe-injury reporting",
+      "itemFamilyId": "PV2-CORE-CH03-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A work-related in-patient hospitalization occurs after an incident. The recordkeeper is uncertain whether the event falls within the federal OSHA rapid-reporting rule. What should the employer do first?",
+      "options": [
+        "Wait until the annual OSHA 300A summary is prepared",
+        "Confirm the event type, timing, and reporting criteria promptly and report within the applicable federal deadline if covered",
+        "Delay reporting until the workers compensation carrier accepts the claim",
+        "Report only after the incident investigation identifies a regulatory violation"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Severe-event reporting is separate from annual recordkeeping and depends on the event, timing, and regulatory criteria, not on fault or claim acceptance.",
+      "incorrectOptionExplanations": [
+        "The option 'Wait until the annual OSHA 300A summary is prepared' does not apply the controlling principle for fatality and severe-injury reporting to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Delay reporting until the workers compensation carrier accepts the claim' does not apply the controlling principle for fatality and severe-injury reporting to the facts given, so it is not the best answer.",
+        "The option 'Report only after the incident investigation identifies a regulatory violation' does not apply the controlling principle for fatality and severe-injury reporting to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: fatality and severe-injury reporting",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e5dfa6e9e72cdf7e264563a13a2bd7f15e2a37225f25225b65f857c668807979"
+    },
+    {
+      "id": "PV2-CORE-CH03-007",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "temporary workers and supervision",
+      "itemFamilyId": "PV2-CORE-CH03-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A staffing agency employee is injured while working under the host employer’s day-to-day supervision. Which employer normally records the case?",
+      "options": [
+        "Both employers on separate OSHA logs to ensure the case is captured",
+        "The staffing agency in every case because it is the payroll employer",
+        "The employer that provides day-to-day supervision, regardless of who issues the paycheck",
+        "Neither employer until the staffing contract assigns responsibility after the injury"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "For recordkeeping, the controlling consideration is day-to-day supervision. Duplicate entry on both employers’ logs is not the intended approach.",
+      "incorrectOptionExplanations": [
+        "The option 'Both employers on separate OSHA logs to ensure the case is captured' does not apply the controlling principle for temporary workers and supervision to the facts given, so it is not the best answer.",
+        "The option 'The staffing agency in every case because it is the payroll employer' does not apply the controlling principle for temporary workers and supervision to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Neither employer until the staffing contract assigns responsibility after the injury' does not apply the controlling principle for temporary workers and supervision to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: temporary workers and supervision",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1beb2615435a1c633a7f6287830d422d89c950612be77b9171d8286557e3badd"
+    },
+    {
+      "id": "PV2-CORE-CH03-008",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "privacy concern cases",
+      "itemFamilyId": "PV2-CORE-CH03-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A recordable case involves a sensitive medical condition that qualifies as a privacy concern case. How should the OSHA log be completed?",
+      "options": [
+        "Use the employee's initials because they are presumed not to identify the individual",
+        "Record the name normally but hide the log from all employees and representatives",
+        "Omit the entire case from the log to protect confidentiality",
+        "Enter “privacy case” instead of the employee’s name and maintain the separate confidential name list as required"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Privacy concern cases remain recordable, but the public-facing log entry protects the employee’s identity through the prescribed privacy-case process.",
+      "incorrectOptionExplanations": [
+        "The option 'Use the employee's initials because they are presumed not to identify the individual' does not apply the controlling principle for privacy concern cases to the facts given, so it is not the best answer.",
+        "The option 'Record the name normally but hide the log from all employees and representatives' does not apply the controlling principle for privacy concern cases to the facts given, so it is not the best answer.",
+        "The option 'Omit the entire case from the log to protect confidentiality' does not apply the controlling principle for privacy concern cases to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: privacy concern cases",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6f1bc8ec0621610d545d391c548fa3cc8ce5b0b87bcec4d4da9fedf6dd25d21b"
+    },
+    {
+      "id": "PV2-CORE-CH03-009",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work relationship and recordability",
+      "itemFamilyId": "PV2-CORE-CH03-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a temporary-worker case review, the team reviews this case: A mechanic cuts a finger at work, receives prescription medication at an urgent-care clinic, and returns to the next shift without restrictions. How should the employer classify the case for OSHA recordkeeping? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A work-related case involving medical treatment beyond first aid is recordable even without days away or restricted duty.",
+        "Severe-event reporting is separate from annual recordkeeping and depends on the event, timing, and regulatory criteria, not on fault or claim acceptance.",
+        "Days away are counted as calendar days beginning after the day of injury or illness, regardless of whether the employee was scheduled to work.",
+        "Privacy concern cases remain recordable, but the public-facing log entry protects the employee’s identity through the prescribed privacy-case process."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses work relationship and recordability and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'fatality and severe-injury reporting', but it does not resolve the work relationship and recordability issue in this case.",
+        "This rationale supports the separate chapter topic 'days away counting', but it does not resolve the work relationship and recordability issue in this case.",
+        "This rationale supports the separate chapter topic 'privacy concern cases', but it does not resolve the work relationship and recordability issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: work relationship and recordability",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "024e4410975901bd90782c10f79faf422727f45689551444d7d2e34632c691b3"
+    },
+    {
+      "id": "PV2-CORE-CH03-010",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "days away counting",
+      "itemFamilyId": "PV2-CORE-CH03-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hospitalization reporting decision, the team reviews this case: An employee is injured late Friday and a physician states that the employee cannot work Saturday through Monday. The employee was not scheduled on the weekend and returns Tuesday. How should days away be counted? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Privacy concern cases remain recordable, but the public-facing log entry protects the employee’s identity through the prescribed privacy-case process.",
+        "Days away are counted as calendar days beginning after the day of injury or illness, regardless of whether the employee was scheduled to work.",
+        "Restriction exists when an employee cannot perform one or more routine functions or cannot work the full day normally scheduled. Full attendance does not eliminate the restriction.",
+        "A work-related case involving medical treatment beyond first aid is recordable even without days away or restricted duty."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses days away counting and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'privacy concern cases', but it does not resolve the days away counting issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'restricted work', but it does not resolve the days away counting issue in this case.",
+        "This rationale supports the separate chapter topic 'work relationship and recordability', but it does not resolve the days away counting issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: days away counting",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0062cb47d0ff6db0e74b764519f4943b1741010174f09276ba2a7d938d871046"
+    },
+    {
+      "id": "PV2-CORE-CH03-011",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "restricted work",
+      "itemFamilyId": "PV2-CORE-CH03-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a restricted-duty classification meeting, the team reviews this case: A physician allows an injured employee to work the full shift but prohibits lifting more than 10 pounds, an essential routine function of the normal job. What is the proper classification? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Days away are counted as calendar days beginning after the day of injury or illness, regardless of whether the employee was scheduled to work.",
+        "A work-related case involving medical treatment beyond first aid is recordable even without days away or restricted duty.",
+        "Restriction exists when an employee cannot perform one or more routine functions or cannot work the full day normally scheduled. Full attendance does not eliminate the restriction.",
+        "Certain significant diagnosed injuries and illnesses are recordable upon diagnosis even when they do not independently meet the treatment, restriction, or days-away criteria."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses restricted work and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'days away counting', but it does not resolve the restricted work issue in this case.",
+        "This rationale supports the separate chapter topic 'work relationship and recordability', but it does not resolve the restricted work issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'significant diagnosed injury or illness', but it does not resolve the restricted work issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: restricted work",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "47d7a7d94ffa20d7a487040c2e13f3000b4b0aee28f8279d6fa0acef2712dae6"
+    },
+    {
+      "id": "PV2-CORE-CH03-012",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work-relatedness exception",
+      "itemFamilyId": "PV2-CORE-CH03-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a multi-establishment recordkeeping audit, the team reviews this case: An employee voluntarily uses the company cafeteria microwave to heat a personal meal and is burned by unexpectedly hot food. No defect or workplace condition contributed. Which conclusion is most defensible? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Severe-event reporting is separate from annual recordkeeping and depends on the event, timing, and regulatory criteria, not on fault or claim acceptance.",
+        "Days away are counted as calendar days beginning after the day of injury or illness, regardless of whether the employee was scheduled to work.",
+        "Restriction exists when an employee cannot perform one or more routine functions or cannot work the full day normally scheduled. Full attendance does not eliminate the restriction.",
+        "OSHA recordkeeping begins with the geographic presumption but includes specific exceptions, including certain injuries resulting solely from personal food preparation or consumption."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses work-relatedness exception and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'fatality and severe-injury reporting', but it does not resolve the work-relatedness exception issue in this case.",
+        "This rationale supports the separate chapter topic 'days away counting', but it does not resolve the work-relatedness exception issue in this case.",
+        "This rationale supports the separate chapter topic 'restricted work', but it does not resolve the work-relatedness exception issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: work-relatedness exception",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "feec29655dedb26f00a1eac4c3f12be4d987a81878a68c74bd112273670d0a6d"
+    },
+    {
+      "id": "PV2-CORE-CH03-013",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "significant diagnosed injury or illness",
+      "itemFamilyId": "PV2-CORE-CH03-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a privacy-case review, the team reviews this case: A physician diagnoses a work-related fractured rib. The employee receives no treatment beyond observation and loses no time. How should the case be handled? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Certain significant diagnosed injuries and illnesses are recordable upon diagnosis even when they do not independently meet the treatment, restriction, or days-away criteria.",
+        "Privacy concern cases remain recordable, but the public-facing log entry protects the employee’s identity through the prescribed privacy-case process.",
+        "For recordkeeping, the controlling consideration is day-to-day supervision. Duplicate entry on both employers’ logs is not the intended approach.",
+        "Restriction exists when an employee cannot perform one or more routine functions or cannot work the full day normally scheduled. Full attendance does not eliminate the restriction."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses significant diagnosed injury or illness and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'privacy concern cases', but it does not resolve the significant diagnosed injury or illness issue in this case.",
+        "This rationale supports the separate chapter topic 'temporary workers and supervision', but it does not resolve the significant diagnosed injury or illness issue in this case.",
+        "This rationale supports the separate chapter topic 'restricted work', but it does not resolve the significant diagnosed injury or illness issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: significant diagnosed injury or illness",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a95ecb9fa144105881182bf5599806697ee5ff63fa42ea96fef9877d22a8ff28"
+    },
+    {
+      "id": "PV2-CORE-CH03-014",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fatality and severe-injury reporting",
+      "itemFamilyId": "PV2-CORE-CH03-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a post-incident recordability meeting, the team reviews this case: A work-related in-patient hospitalization occurs after an incident. The recordkeeper is uncertain whether the event falls within the federal OSHA rapid-reporting rule. What should the employer do first? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Restriction exists when an employee cannot perform one or more routine functions or cannot work the full day normally scheduled. Full attendance does not eliminate the restriction.",
+        "Severe-event reporting is separate from annual recordkeeping and depends on the event, timing, and regulatory criteria, not on fault or claim acceptance.",
+        "Certain significant diagnosed injuries and illnesses are recordable upon diagnosis even when they do not independently meet the treatment, restriction, or days-away criteria.",
+        "For recordkeeping, the controlling consideration is day-to-day supervision. Duplicate entry on both employers’ logs is not the intended approach."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses fatality and severe-injury reporting and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'restricted work', but it does not resolve the fatality and severe-injury reporting issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'significant diagnosed injury or illness', but it does not resolve the fatality and severe-injury reporting issue in this case.",
+        "This rationale supports the separate chapter topic 'temporary workers and supervision', but it does not resolve the fatality and severe-injury reporting issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: fatality and severe-injury reporting",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3e67906229f2ef696cdb533ee7d87ead705ffd8e6e66051adf6478bd94240d86"
+    },
+    {
+      "id": "PV2-CORE-CH03-015",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "temporary workers and supervision",
+      "itemFamilyId": "PV2-CORE-CH03-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a year-end OSHA log audit, the team reviews this case: A staffing agency employee is injured while working under the host employer’s day-to-day supervision. Which employer normally records the case? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Certain significant diagnosed injuries and illnesses are recordable upon diagnosis even when they do not independently meet the treatment, restriction, or days-away criteria.",
+        "Restriction exists when an employee cannot perform one or more routine functions or cannot work the full day normally scheduled. Full attendance does not eliminate the restriction.",
+        "For recordkeeping, the controlling consideration is day-to-day supervision. Duplicate entry on both employers’ logs is not the intended approach.",
+        "Severe-event reporting is separate from annual recordkeeping and depends on the event, timing, and regulatory criteria, not on fault or claim acceptance."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses temporary workers and supervision and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'significant diagnosed injury or illness', but it does not resolve the temporary workers and supervision issue in this case.",
+        "This rationale supports the separate chapter topic 'restricted work', but it does not resolve the temporary workers and supervision issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'fatality and severe-injury reporting', but it does not resolve the temporary workers and supervision issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: temporary workers and supervision",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4a205cf4e25737ecb1917c33fbe848c2dbac16b38946ae4983da8ebe894abcb2"
+    },
+    {
+      "id": "PV2-CORE-CH03-016",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "privacy concern cases",
+      "itemFamilyId": "PV2-CORE-CH03-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a remote-work injury review, the team reviews this case: A recordable case involves a sensitive medical condition that qualifies as a privacy concern case. How should the OSHA log be completed? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A work-related case involving medical treatment beyond first aid is recordable even without days away or restricted duty.",
+        "Days away are counted as calendar days beginning after the day of injury or illness, regardless of whether the employee was scheduled to work.",
+        "For recordkeeping, the controlling consideration is day-to-day supervision. Duplicate entry on both employers’ logs is not the intended approach.",
+        "Privacy concern cases remain recordable, but the public-facing log entry protects the employee’s identity through the prescribed privacy-case process."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses privacy concern cases and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'work relationship and recordability', but it does not resolve the privacy concern cases issue in this case.",
+        "This rationale supports the separate chapter topic 'days away counting', but it does not resolve the privacy concern cases issue in this case.",
+        "This rationale supports the separate chapter topic 'temporary workers and supervision', but it does not resolve the privacy concern cases issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: privacy concern cases",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f5948f84c87b83dccdce05912450bd9211b3263a878db178ee7e1c4fc27e2ac8"
+    },
+    {
+      "id": "PV2-CORE-CH03-017",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "OSHA forms",
+      "itemFamilyId": "PV2-CORE-CH03-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a remote-work injury review, the team reviews this question: Which OSHA form is the annual summary of work-related injuries and illnesses? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA 300A summarizes the establishment annual recordkeeping data and is certified and posted as required.",
+        "The host and staffing agency should coordinate so the employer providing day-to-day supervision records the case once.",
+        "Federal OSHA requires reporting a work-related fatality within 8 hours and specified severe nonfatal events within 24 hours.",
+        "The certified annual summary is posted in a conspicuous place from February 1 through April 30."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Temporary worker recording', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Severe event reporting', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Annual summary posting', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 3, OSHA forms, pp. 50-51; 29 CFR 1904.29 and 1904.32; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.29",
+        "https://www.osha.gov/recordkeeping"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "09a892f36a110884d01029d7ad0f514ce5d400d0a3b825b721273c6a37468260"
+    },
+    {
+      "id": "PV2-CORE-CH03-018",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Seven-day entry period",
+      "itemFamilyId": "PV2-CORE-CH03-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a temporary-worker case review, the team reviews this question: How quickly must a recordable case generally be entered on the OSHA 300 Log and 301 Incident Report after the employer receives the information? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A work-related new case is generally recordable when it results in medical treatment beyond first aid or another listed criterion.",
+        "29 CFR 1904.29 requires entry of each recordable injury or illness within seven calendar days of receiving information that it occurred.",
+        "Specified privacy cases are entered without the employee name, while the employer maintains a confidential key for required updating and access.",
+        "OSHA records are retained for five years, and the log is updated when recorded cases change status or new information becomes available."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'General recording criteria', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Privacy case', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Retention and updating', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR Part 1904",
+      "sourceLocation": "29 CFR 1904.29(b)(3); Yates Chapter 3, p. 50; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.29",
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f4d957e67b61121213872fbb83f5b1af266ee5af2d89df145ac4ebcfaae1e339"
+    },
+    {
+      "id": "PV2-CORE-CH03-019",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Work-relatedness at home",
+      "itemFamilyId": "PV2-CORE-CH03-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hospitalization reporting decision, the team reviews this question: A remote employee trips over a file box supplied for the assigned work and receives medical treatment beyond first aid. How is work-relatedness evaluated? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A work-related new case is generally recordable when it results in medical treatment beyond first aid or another listed criterion.",
+        "Specified privacy cases are entered without the employee name, while the employer maintains a confidential key for required updating and access.",
+        "Home cases are evaluated based on whether they are directly related to work performance rather than general home conditions.",
+        "Federal OSHA requires reporting a work-related fatality within 8 hours and specified severe nonfatal events within 24 hours."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'General recording criteria', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Privacy case', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Severe event reporting', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 3, work-relatedness for home injuries, pp. 45-46; 29 CFR 1904.5; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/",
+        "https://www.osha.gov/recordkeeping"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3083f33886e71f7c27c6e30ee3e185f6f559d3caaf0f068a9e19054f57d65567"
+    },
+    {
+      "id": "PV2-CORE-CH03-020",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "General recording criteria",
+      "itemFamilyId": "PV2-CORE-CH03-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a restricted-duty classification meeting, the team reviews this question: A work-related injury requires prescription medication. What is the general recordkeeping result? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Federal OSHA requires reporting a work-related fatality within 8 hours and specified severe nonfatal events within 24 hours.",
+        "Home cases are evaluated based on whether they are directly related to work performance rather than general home conditions.",
+        "29 CFR 1904.29 requires entry of each recordable injury or illness within seven calendar days of receiving information that it occurred.",
+        "A work-related new case is generally recordable when it results in medical treatment beyond first aid or another listed criterion."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Severe event reporting', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Work-relatedness at home', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Seven-day entry period', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 3, determining recordability, pp. 46-47; 29 CFR 1904.7; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/",
+        "https://www.osha.gov/recordkeeping"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f2e8ef71ede1ab142ec818be321e3e3072258176323876ab09c2bcfa828135d5"
+    },
+    {
+      "id": "PV2-CORE-CH03-021",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Severe event reporting",
+      "itemFamilyId": "PV2-CORE-CH03-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a multi-establishment recordkeeping audit, the team reviews this question: Which reporting time pair is correct under federal OSHA for covered work-related events? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Federal OSHA requires reporting a work-related fatality within 8 hours and specified severe nonfatal events within 24 hours.",
+        "Home cases are evaluated based on whether they are directly related to work performance rather than general home conditions.",
+        "A work-related new case is generally recordable when it results in medical treatment beyond first aid or another listed criterion.",
+        "The host and staffing agency should coordinate so the employer providing day-to-day supervision records the case once."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Work-relatedness at home', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'General recording criteria', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Temporary worker recording', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1904.39",
+      "sourceLocation": "29 CFR 1904.39; Yates Chapter 3, pp. 49-50; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.39",
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f44ebba342e3af74463674c33c8c59447684a46710d682e22df9b5acae435626"
+    },
+    {
+      "id": "PV2-CORE-CH03-022",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Privacy case",
+      "itemFamilyId": "PV2-CORE-CH03-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a privacy-case review, the team reviews this question: A recordable needlestick involves another person blood. How should the employee name be handled on the OSHA 300 Log? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA records are retained for five years, and the log is updated when recorded cases change status or new information becomes available.",
+        "Specified privacy cases are entered without the employee name, while the employer maintains a confidential key for required updating and access.",
+        "29 CFR 1904.29 requires entry of each recordable injury or illness within seven calendar days of receiving information that it occurred.",
+        "A work-related new case is generally recordable when it results in medical treatment beyond first aid or another listed criterion."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Retention and updating', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Seven-day entry period', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'General recording criteria', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1904.29",
+      "sourceLocation": "29 CFR 1904.29(b)(6)-(9); Yates Chapter 3, pp. 48 and 50; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.29",
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a0080840b0afc620370d61142aae2eee618b0b20c90519939195dc7eb28da731"
+    },
+    {
+      "id": "PV2-CORE-CH03-023",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Annual summary posting",
+      "itemFamilyId": "PV2-CORE-CH03-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a post-incident recordability meeting, the team reviews this question: When is the OSHA 300A annual summary generally posted? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA 300A summarizes the establishment annual recordkeeping data and is certified and posted as required.",
+        "The host and staffing agency should coordinate so the employer providing day-to-day supervision records the case once.",
+        "The certified annual summary is posted in a conspicuous place from February 1 through April 30.",
+        "Federal OSHA requires reporting a work-related fatality within 8 hours and specified severe nonfatal events within 24 hours."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'OSHA forms', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Temporary worker recording', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Severe event reporting', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 3, annual summary, p. 51; 29 CFR 1904.32; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/",
+        "https://www.osha.gov/recordkeeping"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "92e04e33f3014067a5a7ceb1ca555d688c6820cd83ab43db42f9717bb6d6c7bd"
+    },
+    {
+      "id": "PV2-CORE-CH03-024",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Retention and updating",
+      "itemFamilyId": "PV2-CORE-CH03-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a year-end OSHA log audit, the team reviews this question: A recorded restricted-work case later becomes a days-away case during the five-year retention period. What should the employer do? Which rationale most directly supports the correct answer?",
+      "options": [
+        "29 CFR 1904.29 requires entry of each recordable injury or illness within seven calendar days of receiving information that it occurred.",
+        "Specified privacy cases are entered without the employee name, while the employer maintains a confidential key for required updating and access.",
+        "A work-related new case is generally recordable when it results in medical treatment beyond first aid or another listed criterion.",
+        "OSHA records are retained for five years, and the log is updated when recorded cases change status or new information becomes available."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Seven-day entry period', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Privacy case', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'General recording criteria', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 3, retention and updating, p. 53; 29 CFR 1904.33; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/",
+        "https://www.osha.gov/recordkeeping"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6de36a9a25e643c264ae0fa5d1b6656f99dba154d9e33ed1399b67d7fd676d71"
+    },
+    {
+      "id": "PV2-CORE-CH03-025",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Temporary worker recording",
+      "itemFamilyId": "PV2-CORE-CH03-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a remote-work injury review, the team reviews this question: A host employer provides day-to-day supervision to a temporary worker who has a recordable injury. Who generally records the case? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The host and staffing agency should coordinate so the employer providing day-to-day supervision records the case once.",
+        "The certified annual summary is posted in a conspicuous place from February 1 through April 30.",
+        "A work-related new case is generally recordable when it results in medical treatment beyond first aid or another listed criterion.",
+        "Federal OSHA requires reporting a work-related fatality within 8 hours and specified severe nonfatal events within 24 hours."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Annual summary posting', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'General recording criteria', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Severe event reporting', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1904.31",
+      "sourceLocation": "29 CFR 1904.31; OSHA recordkeeping covered employees; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/",
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0898832fcf1310cd2c3e66145ed818b469c1353004e79b5acbbd0e9d3ed4e734"
+    },
+    {
+      "id": "PV2-CORE-CH03-026",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "TCIR calculation",
+      "itemFamilyId": "PV2-CORE-CH03-F026",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a temporary-worker case review, solve the following problem and select the best answer: A facility had 6 OSHA-recordable cases and 480,000 hours worked. What is the total case incident rate?",
+      "options": [
+        "0.8",
+        "2.5",
+        "25.0",
+        "8.0"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "TCIR = 6 x 200,000 / 480,000 = 2.5 cases per 100 full-time-equivalent workers.",
+      "incorrectOptionExplanations": [
+        "This divides hours by cases and scales incorrectly.",
+        null,
+        "This moves the decimal one place too far.",
+        "This uses 480,000/60,000 rather than the incident-rate formula."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 3, calculating TCIR, pp. 51-52; Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/recordkeeping"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "TCIR = recordable cases*200000/hours worked",
+      "units": "cases per 100 FTE workers",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e80673c1d9934c25a02e7a1756888e5f05879f9673c9e63083b60f8bf0b3041f"
+    },
+    {
+      "id": "PV2-CORE-CH03-027",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work relationship and recordability",
+      "itemFamilyId": "PV2-CORE-CH03-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a multi-establishment recordkeeping audit, a supervisor proposes: \"Do not record it unless the wound later becomes infected\". The underlying case is: A mechanic cuts a finger at work, receives prescription medication at an urgent-care clinic, and returns to the next shift without restrictions. How should the employer classify the case for OSHA recordkeeping? Which alternative is the most defensible correction?",
+      "options": [
+        "Record it only if the clinic bills the employer directly",
+        "Do not record it because the employee did not miss a scheduled workday",
+        "Record the case because prescription medication is medical treatment beyond first aid",
+        "Do not record it unless the wound later becomes infected"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A work-related case involving medical treatment beyond first aid is recordable even without days away or restricted duty.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Record it only if the clinic bills the employer directly' remains incomplete or misapplies the controlling work relationship and recordability principle.",
+        "The proposed response 'Do not record it because the employee did not miss a scheduled workday' remains incomplete or misapplies the controlling work relationship and recordability principle.",
+        null,
+        "The proposed response 'Do not record it unless the wound later becomes infected' remains incomplete or misapplies the controlling work relationship and recordability principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: work relationship and recordability",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "628819fd2a260870d1f25d2417d42a0bf95a0df6fe3a43151e54e93f1ba36f04"
+    },
+    {
+      "id": "PV2-CORE-CH03-028",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "days away counting",
+      "itemFamilyId": "PV2-CORE-CH03-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a privacy-case review, a supervisor proposes: \"Count only Monday because it was the only scheduled workday missed\". The underlying case is: An employee is injured late Friday and a physician states that the employee cannot work Saturday through Monday. The employee was not scheduled on the weekend and returns Tuesday. How should days away be counted? Which alternative is the most defensible correction?",
+      "options": [
+        "Count the day of injury plus every calendar day through Tuesday",
+        "Count zero days because the employee returned for the next scheduled shift after Monday",
+        "Count only Monday because it was the only scheduled workday missed",
+        "Count each calendar day the employee was unable to work, including the weekend days"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Days away are counted as calendar days beginning after the day of injury or illness, regardless of whether the employee was scheduled to work.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Count the day of injury plus every calendar day through Tuesday' remains incomplete or misapplies the controlling days away counting principle.",
+        "The proposed response 'Count zero days because the employee returned for the next scheduled shift after Monday' remains incomplete or misapplies the controlling days away counting principle.",
+        "The proposed response 'Count only Monday because it was the only scheduled workday missed' remains incomplete or misapplies the controlling days away counting principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: days away counting",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bc94f2ac041fa3a7d9929c340cea873b98ac6af0e9768ed142f7917b2dee4274"
+    },
+    {
+      "id": "PV2-CORE-CH03-029",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "restricted work",
+      "itemFamilyId": "PV2-CORE-CH03-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a post-incident recordability meeting, a supervisor proposes: \"A days-away case because any medical restriction is treated as absence\". The underlying case is: A physician allows an injured employee to work the full shift but prohibits lifting more than 10 pounds, an essential routine function of the normal job. What is the proper classification? Which alternative is the most defensible correction?",
+      "options": [
+        "A recordable restricted-work case because the employee cannot perform a routine job function",
+        "A days-away case because any medical restriction is treated as absence",
+        "A nonrecordable case because the employee worked the full number of hours",
+        "A first-aid-only case unless the restriction continues for more than seven days"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Restriction exists when an employee cannot perform one or more routine functions or cannot work the full day normally scheduled. Full attendance does not eliminate the restriction.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'A days-away case because any medical restriction is treated as absence' remains incomplete or misapplies the controlling restricted work principle.",
+        "The proposed response 'A nonrecordable case because the employee worked the full number of hours' remains incomplete or misapplies the controlling restricted work principle.",
+        "The proposed response 'A first-aid-only case unless the restriction continues for more than seven days' remains incomplete or misapplies the controlling restricted work principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: restricted work",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c4bce587592d7a770d706577ccd03b8d8278da6841944f0cd5df6b67b01ff8ff"
+    },
+    {
+      "id": "PV2-CORE-CH03-030",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work-relatedness exception",
+      "itemFamilyId": "PV2-CORE-CH03-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a year-end OSHA log audit, a supervisor proposes: \"Record the case because use of any employer-owned appliance makes it occupational\". The underlying case is: An employee voluntarily uses the company cafeteria microwave to heat a personal meal and is burned by unexpectedly hot food. No defect or workplace condition contributed. Which conclusion is most defensible? Which alternative is the most defensible correction?",
+      "options": [
+        "Record the case because use of any employer-owned appliance makes it occupational",
+        "Evaluate the specific personal food-preparation exception before treating the case as work-related",
+        "Exclude the case only if the employee ate outside the scheduled meal period",
+        "Record every injury occurring on company property without considering an exception"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "OSHA recordkeeping begins with the geographic presumption but includes specific exceptions, including certain injuries resulting solely from personal food preparation or consumption.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Record the case because use of any employer-owned appliance makes it occupational' remains incomplete or misapplies the controlling work-relatedness exception principle.",
+        null,
+        "The proposed response 'Exclude the case only if the employee ate outside the scheduled meal period' remains incomplete or misapplies the controlling work-relatedness exception principle.",
+        "The proposed response 'Record every injury occurring on company property without considering an exception' remains incomplete or misapplies the controlling work-relatedness exception principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: work-relatedness exception",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "22c1776cf6911be295d12afbc97c8fd25bfa273d481c240599ad96f6c6633155"
+    },
+    {
+      "id": "PV2-CORE-CH03-031",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "significant diagnosed injury or illness",
+      "itemFamilyId": "PV2-CORE-CH03-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a remote-work injury review, a supervisor proposes: \"Do not record it because no medical treatment was provided\". The underlying case is: A physician diagnoses a work-related fractured rib. The employee receives no treatment beyond observation and loses no time. How should the case be handled? Which alternative is the most defensible correction?",
+      "options": [
+        "Record it only if the employee requests workers compensation benefits",
+        "Do not record it because no medical treatment was provided",
+        "Record it because a work-related fracture is a significant diagnosed injury",
+        "Wait to record it unless restricted work later occurs"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Certain significant diagnosed injuries and illnesses are recordable upon diagnosis even when they do not independently meet the treatment, restriction, or days-away criteria.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Record it only if the employee requests workers compensation benefits' remains incomplete or misapplies the controlling significant diagnosed injury or illness principle.",
+        "The proposed response 'Do not record it because no medical treatment was provided' remains incomplete or misapplies the controlling significant diagnosed injury or illness principle.",
+        null,
+        "The proposed response 'Wait to record it unless restricted work later occurs' remains incomplete or misapplies the controlling significant diagnosed injury or illness principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: significant diagnosed injury or illness",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0dea8f05401c797a9c95ae4756ad6ed42c129e523d270c8d363c53e4952f3fe6"
+    },
+    {
+      "id": "PV2-CORE-CH03-032",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fatality and severe-injury reporting",
+      "itemFamilyId": "PV2-CORE-CH03-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a temporary-worker case review, a supervisor proposes: \"Delay reporting until the workers compensation carrier accepts the claim\". The underlying case is: A work-related in-patient hospitalization occurs after an incident. The recordkeeper is uncertain whether the event falls within the federal OSHA rapid-reporting rule. What should the employer do first? Which alternative is the most defensible correction?",
+      "options": [
+        "Report only after the incident investigation identifies a regulatory violation",
+        "Wait until the annual OSHA 300A summary is prepared",
+        "Delay reporting until the workers compensation carrier accepts the claim",
+        "Confirm the event type, timing, and reporting criteria promptly and report within the applicable federal deadline if covered"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Severe-event reporting is separate from annual recordkeeping and depends on the event, timing, and regulatory criteria, not on fault or claim acceptance.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Report only after the incident investigation identifies a regulatory violation' remains incomplete or misapplies the controlling fatality and severe-injury reporting principle.",
+        "The proposed response 'Wait until the annual OSHA 300A summary is prepared' remains incomplete or misapplies the controlling fatality and severe-injury reporting principle.",
+        "The proposed response 'Delay reporting until the workers compensation carrier accepts the claim' remains incomplete or misapplies the controlling fatality and severe-injury reporting principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: fatality and severe-injury reporting",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1d378d0b5ba032c81c6a38bf5ac1e1e8bee880013a4c2cb6e3903d10341eafbd"
+    },
+    {
+      "id": "PV2-CORE-CH03-033",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "temporary workers and supervision",
+      "itemFamilyId": "PV2-CORE-CH03-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hospitalization reporting decision, a supervisor proposes: \"Neither employer until the staffing contract assigns responsibility after the injury\". The underlying case is: A staffing agency employee is injured while working under the host employer’s day-to-day supervision. Which employer normally records the case? Which alternative is the most defensible correction?",
+      "options": [
+        "The employer that provides day-to-day supervision, regardless of who issues the paycheck",
+        "The staffing agency in every case because it is the payroll employer",
+        "Neither employer until the staffing contract assigns responsibility after the injury",
+        "Both employers on separate OSHA logs to ensure the case is captured"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "For recordkeeping, the controlling consideration is day-to-day supervision. Duplicate entry on both employers’ logs is not the intended approach.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'The staffing agency in every case because it is the payroll employer' remains incomplete or misapplies the controlling temporary workers and supervision principle.",
+        "The proposed response 'Neither employer until the staffing contract assigns responsibility after the injury' remains incomplete or misapplies the controlling temporary workers and supervision principle.",
+        "The proposed response 'Both employers on separate OSHA logs to ensure the case is captured' remains incomplete or misapplies the controlling temporary workers and supervision principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: temporary workers and supervision",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3e196e92f32a8f3bd3877db412684cbc4f172498127db871314ba3c4ddd20f9e"
+    },
+    {
+      "id": "PV2-CORE-CH03-034",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "privacy concern cases",
+      "itemFamilyId": "PV2-CORE-CH03-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a restricted-duty classification meeting, a supervisor proposes: \"Omit the entire case from the log to protect confidentiality\". The underlying case is: A recordable case involves a sensitive medical condition that qualifies as a privacy concern case. How should the OSHA log be completed? Which alternative is the most defensible correction?",
+      "options": [
+        "Use the employee's initials because they are presumed not to identify the individual",
+        "Enter “privacy case” instead of the employee’s name and maintain the separate confidential name list as required",
+        "Record the name normally but hide the log from all employees and representatives",
+        "Omit the entire case from the log to protect confidentiality"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Privacy concern cases remain recordable, but the public-facing log entry protects the employee’s identity through the prescribed privacy-case process.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use the employee's initials because they are presumed not to identify the individual' remains incomplete or misapplies the controlling privacy concern cases principle.",
+        null,
+        "The proposed response 'Record the name normally but hide the log from all employees and representatives' remains incomplete or misapplies the controlling privacy concern cases principle.",
+        "The proposed response 'Omit the entire case from the log to protect confidentiality' remains incomplete or misapplies the controlling privacy concern cases principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: privacy concern cases",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "091e309f77cdcd1bfaca83df800ece5616803156699e4d442ab2704703b76788"
+    },
+    {
+      "id": "PV2-CORE-CH03-035",
+      "version": 1,
+      "chapterId": "ch-03",
+      "chapterTitle": "OSHA Recordkeeping and Reporting",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.10",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work relationship and recordability",
+      "itemFamilyId": "PV2-CORE-CH03-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a privacy-case review, the team selects \"Record the case because prescription medication is medical treatment beyond first aid\" rather than \"Do not record it because the employee did not miss a scheduled workday\" for this case: A mechanic cuts a finger at work, receives prescription medication at an urgent-care clinic, and returns to the next shift without restrictions. How should the employer classify the case for OSHA recordkeeping? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "OSHA recordkeeping begins with the geographic presumption but includes specific exceptions, including certain injuries resulting solely from personal food preparation or consumption.",
+        "For recordkeeping, the controlling consideration is day-to-day supervision. Duplicate entry on both employers’ logs is not the intended approach.",
+        "A work-related case involving medical treatment beyond first aid is recordable even without days away or restricted duty.",
+        "Restriction exists when an employee cannot perform one or more routine functions or cannot work the full day normally scheduled. Full attendance does not eliminate the restriction."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the work relationship and recordability issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'work-relatedness exception' and does not distinguish the two responses in the present work relationship and recordability decision.",
+        "This explanation concerns 'temporary workers and supervision' and does not distinguish the two responses in the present work relationship and recordability decision.",
+        null,
+        "This explanation concerns 'restricted work' and does not distinguish the two responses in the present work relationship and recordability decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 3, pp. 44-54; 29 CFR Part 1904; curated topic: work relationship and recordability",
+      "sourceUrls": [
+        "https://www.osha.gov/recordkeeping",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "40b5039d5838d75febaec41568ad7db87120e4220fb0a09d89171a9ed42de38d"
+    }
+  ]
+}

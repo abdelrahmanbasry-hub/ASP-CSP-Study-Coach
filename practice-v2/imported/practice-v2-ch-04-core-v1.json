@@ -1,0 +1,2339 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-04-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-04",
+  "chapterTitle": "OSHA Regulations and Core Compliance",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH04-001",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "general duty clause application",
+      "itemFamilyId": "PV2-CORE-CH04-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A recognized serious hazard is not addressed by a specific OSHA standard, and feasible means of abatement are available. Which enforcement theory is most directly relevant?",
+      "options": [
+        "The General Duty Clause may apply if recognition, exposure, serious harm, and feasible abatement can be established",
+        "Treat the written safety policy as sufficient to exempt the employer from General Duty Clause exposure",
+        "No OSHA requirement can apply unless a vertical standard names the exact hazard",
+        "Defer corrective action unless a consensus-standards organization has issued an explicit requirement"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Treat the written safety policy as sufficient to exempt the employer from General Duty Clause exposure' does not apply the controlling principle for general duty clause application to the facts given, so it is not the best answer.",
+        "The option 'No OSHA requirement can apply unless a vertical standard names the exact hazard' does not apply the controlling principle for general duty clause application to the facts given, so it is not the best answer.",
+        "The option 'Defer corrective action unless a consensus-standards organization has issued an explicit requirement' does not apply the controlling principle for general duty clause application to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: general duty clause application",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "de48bf14a337a87095a32ba7887ee0dde43a132f566bbc56d69d1ebcefb381df"
+    },
+    {
+      "id": "PV2-CORE-CH04-002",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "vertical and horizontal standards",
+      "itemFamilyId": "PV2-CORE-CH04-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A chemical-processing task is covered by a specific substance standard and also by generally applicable PPE requirements. How should applicability be evaluated?",
+      "options": [
+        "Apply both standards literally even when their provisions directly conflict",
+        "Apply the specific requirements together with compatible general requirements, resolving any direct conflict in favor of the more specifically applicable provision",
+        "Apply the broad horizontal standard and set aside the substance-specific requirements",
+        "Allow the employer to choose whichever standard is less burdensome"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Specific and general standards can both apply. Where a true conflict exists, the specifically applicable provision generally governs the same condition.",
+      "incorrectOptionExplanations": [
+        "The option 'Apply both standards literally even when their provisions directly conflict' does not apply the controlling principle for vertical and horizontal standards to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Apply the broad horizontal standard and set aside the substance-specific requirements' does not apply the controlling principle for vertical and horizontal standards to the facts given, so it is not the best answer.",
+        "The option 'Allow the employer to choose whichever standard is less burdensome' does not apply the controlling principle for vertical and horizontal standards to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: vertical and horizontal standards",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8aac01f1722ecdd020a816a4b8c4b77021c985c228fe101fcb4f4a275b94b3a7"
+    },
+    {
+      "id": "PV2-CORE-CH04-003",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inspection opening conference",
+      "itemFamilyId": "PV2-CORE-CH04-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "OSHA arrives for an inspection and presents credentials. The site manager wants to begin immediately without clarifying scope or representatives. What should the safety professional recommend?",
+      "options": [
+        "Refuse all access until OSHA provides advance written notice",
+        "Destroy draft documents that were not specifically requested before the walkaround",
+        "Participate cooperatively while using the opening conference to clarify scope, purpose, records, route, and authorized representatives",
+        "Begin an unrestricted site tour before identifying the inspection basis"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The opening conference is used to establish the inspection basis and logistics while preserving lawful rights and cooperation. Obstruction or record alteration is inappropriate.",
+      "incorrectOptionExplanations": [
+        "The option 'Refuse all access until OSHA provides advance written notice' does not apply the controlling principle for inspection opening conference to the facts given, so it is not the best answer.",
+        "The option 'Destroy draft documents that were not specifically requested before the walkaround' does not apply the controlling principle for inspection opening conference to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Begin an unrestricted site tour before identifying the inspection basis' does not apply the controlling principle for inspection opening conference to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: inspection opening conference",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b4351d942d7c2263c27d7daddffa03449f6d18e4656c9399df4ade0c87638502"
+    },
+    {
+      "id": "PV2-CORE-CH04-004",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee representative participation",
+      "itemFamilyId": "PV2-CORE-CH04-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an OSHA walkaround, employees request a representative who can aid the inspection. What is the most defensible response?",
+      "options": [
+        "Cancel the inspection whenever confidential processes are present",
+        "Permit participation only if the representative signs away all employee rights",
+        "Exclude every employee representative because only management may accompany OSHA",
+        "Allow participation consistent with the Act and inspection rules while managing legitimate safety, security, and trade-secret controls"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Employee representation is part of the inspection framework. Legitimate confidentiality and safety concerns should be managed, not used to eliminate participation.",
+      "incorrectOptionExplanations": [
+        "The option 'Cancel the inspection whenever confidential processes are present' does not apply the controlling principle for employee representative participation to the facts given, so it is not the best answer.",
+        "The option 'Permit participation only if the representative signs away all employee rights' does not apply the controlling principle for employee representative participation to the facts given, so it is not the best answer.",
+        "The option 'Exclude every employee representative because only management may accompany OSHA' does not apply the controlling principle for employee representative participation to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: employee representative participation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9fc72ea9dc7f69b17a633ef13024c827d2a1b511516dc08741b15f35c23dd10b"
+    },
+    {
+      "id": "PV2-CORE-CH04-005",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "abatement verification",
+      "itemFamilyId": "PV2-CORE-CH04-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A citation requires abatement of a machine hazard. The company purchases a guard but leaves it in storage while production continues. What is the central compliance problem?",
+      "options": [
+        "Purchasing equipment does not constitute abatement until the hazard is actually corrected and required verification is completed",
+        "The citation is automatically withdrawn once management states its intent to comply",
+        "Verification is unnecessary for any correction involving engineering controls",
+        "Abatement is complete when a purchase order is approved by finance"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Abatement requires implemented correction of the cited condition, supported by any required documentation or certification; intent or procurement alone is insufficient.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'The citation is automatically withdrawn once management states its intent to comply' does not apply the controlling principle for abatement verification to the facts given, so it is not the best answer.",
+        "The option 'Verification is unnecessary for any correction involving engineering controls' does not apply the controlling principle for abatement verification to the facts given, so it is not the best answer.",
+        "The option 'Abatement is complete when a purchase order is approved by finance' does not apply the controlling principle for abatement verification to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: abatement verification",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "89f703322f776fd978f0bdf48b3e1d5be276946fb0a47385bfbe2bc6223f9229"
+    },
+    {
+      "id": "PV2-CORE-CH04-006",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "multiemployer worksite roles",
+      "itemFamilyId": "PV2-CORE-CH04-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "At a construction project, one employer creates a fall hazard, another controls the site, and a third employer’s workers are exposed. Which analysis is most appropriate?",
+      "options": [
+        "Cite only the employer whose employee is injured, regardless of control or creation",
+        "Evaluate each employer’s creating, controlling, correcting, or exposing role and whether it met the duties associated with that role",
+        "Assume the general contractor is the sole responsible employer in every case",
+        "Treat subcontractors as exempt whenever they did not create the hazard"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title.",
+      "incorrectOptionExplanations": [
+        "The option 'Cite only the employer whose employee is injured, regardless of control or creation' does not apply the controlling principle for multiemployer worksite roles to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Assume the general contractor is the sole responsible employer in every case' does not apply the controlling principle for multiemployer worksite roles to the facts given, so it is not the best answer.",
+        "The option 'Treat subcontractors as exempt whenever they did not create the hazard' does not apply the controlling principle for multiemployer worksite roles to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: multiemployer worksite roles",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0ae70f3b520dc1e763f6e601598a2b9075a6b3c67ad584573750748e8d893325"
+    },
+    {
+      "id": "PV2-CORE-CH04-007",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee complaint and retaliation",
+      "itemFamilyId": "PV2-CORE-CH04-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A supervisor proposes disciplining an employee for contacting OSHA after the employee’s internal concern was not corrected. What should the safety professional advise?",
+      "options": [
+        "Require future complaints to be waived as a condition of continued employment",
+        "Reduce the employee’s hours without documenting the reason",
+        "Stop retaliatory action and address the hazard through a neutral process that protects the employee’s right to raise safety concerns",
+        "Proceed with discipline if the employee did not first obtain management permission"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Employees have protected rights to raise safety concerns and contact OSHA. Adverse action motivated by protected activity can create retaliation exposure.",
+      "incorrectOptionExplanations": [
+        "The option 'Require future complaints to be waived as a condition of continued employment' does not apply the controlling principle for employee complaint and retaliation to the facts given, so it is not the best answer.",
+        "The option 'Reduce the employee’s hours without documenting the reason' does not apply the controlling principle for employee complaint and retaliation to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Proceed with discipline if the employee did not first obtain management permission' does not apply the controlling principle for employee complaint and retaliation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: employee complaint and retaliation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "82f67521a7fcff8ba9b232cf4150c1cb38486ae98b86ef0e3569593abae7067e"
+    },
+    {
+      "id": "PV2-CORE-CH04-008",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "variance versus alternative method",
+      "itemFamilyId": "PV2-CORE-CH04-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employer cannot comply with the literal method in a standard but has developed a different method that it believes provides equivalent protection. What is the best next step?",
+      "options": [
+        "Ignore the standard whenever a consensus standard supports a different method",
+        "Ask employees to sign acknowledgments accepting the alternative protection level",
+        "Use the alternative immediately because internal engineering approval replaces a variance",
+        "Use the applicable variance process and demonstrate the required level of employee protection before relying on the alternative"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "An employer generally cannot unilaterally substitute a conflicting method; the appropriate variance mechanism and required showing must be used.",
+      "incorrectOptionExplanations": [
+        "The option 'Ignore the standard whenever a consensus standard supports a different method' does not apply the controlling principle for variance versus alternative method to the facts given, so it is not the best answer.",
+        "The option 'Ask employees to sign acknowledgments accepting the alternative protection level' does not apply the controlling principle for variance versus alternative method to the facts given, so it is not the best answer.",
+        "The option 'Use the alternative immediately because internal engineering approval replaces a variance' does not apply the controlling principle for variance versus alternative method to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: variance versus alternative method",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8f1890b56c7080c9b165d191d8664231ae5815990f570250a4147355415bf8b7"
+    },
+    {
+      "id": "PV2-CORE-CH04-009",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "general duty clause application",
+      "itemFamilyId": "PV2-CORE-CH04-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an abatement planning meeting, the team reviews this case: A recognized serious hazard is not addressed by a specific OSHA standard, and feasible means of abatement are available. Which enforcement theory is most directly relevant? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+        "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title.",
+        "An employer generally cannot unilaterally substitute a conflicting method; the appropriate variance mechanism and required showing must be used.",
+        "Abatement requires implemented correction of the cited condition, supported by any required documentation or certification; intent or procurement alone is insufficient."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses general duty clause application and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'multiemployer worksite roles', but it does not resolve the general duty clause application issue in this case.",
+        "This rationale supports the separate chapter topic 'variance versus alternative method', but it does not resolve the general duty clause application issue in this case.",
+        "This rationale supports the separate chapter topic 'abatement verification', but it does not resolve the general duty clause application issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: general duty clause application",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e772879baad7070a63fbad28e200487d0b291c9d7d412714b0bdd04d72f7e9ac"
+    },
+    {
+      "id": "PV2-CORE-CH04-010",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "vertical and horizontal standards",
+      "itemFamilyId": "PV2-CORE-CH04-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a complaint-response review, the team reviews this case: A chemical-processing task is covered by a specific substance standard and also by generally applicable PPE requirements. How should applicability be evaluated? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Abatement requires implemented correction of the cited condition, supported by any required documentation or certification; intent or procurement alone is insufficient.",
+        "Specific and general standards can both apply. Where a true conflict exists, the specifically applicable provision generally governs the same condition.",
+        "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+        "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses vertical and horizontal standards and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'abatement verification', but it does not resolve the vertical and horizontal standards issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'general duty clause application', but it does not resolve the vertical and horizontal standards issue in this case.",
+        "This rationale supports the separate chapter topic 'multiemployer worksite roles', but it does not resolve the vertical and horizontal standards issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: vertical and horizontal standards",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "03d2aac0a6e9a4def541e35ed46e99390778b875237eb76dc15266a9c8ca98c8"
+    },
+    {
+      "id": "PV2-CORE-CH04-011",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inspection opening conference",
+      "itemFamilyId": "PV2-CORE-CH04-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a multiemployer inspection, the team reviews this case: OSHA arrives for an inspection and presents credentials. The site manager wants to begin immediately without clarifying scope or representatives. What should the safety professional recommend? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Abatement requires implemented correction of the cited condition, supported by any required documentation or certification; intent or procurement alone is insufficient.",
+        "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+        "The opening conference is used to establish the inspection basis and logistics while preserving lawful rights and cooperation. Obstruction or record alteration is inappropriate.",
+        "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses inspection opening conference and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'abatement verification', but it does not resolve the inspection opening conference issue in this case.",
+        "This rationale supports the separate chapter topic 'general duty clause application', but it does not resolve the inspection opening conference issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'multiemployer worksite roles', but it does not resolve the inspection opening conference issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: inspection opening conference",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8896c6ae549872f606175e5ec12b4d0853bcc44a391e4b9281804ec5252b01a5"
+    },
+    {
+      "id": "PV2-CORE-CH04-012",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee representative participation",
+      "itemFamilyId": "PV2-CORE-CH04-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a standard-applicability analysis, the team reviews this case: During an OSHA walkaround, employees request a representative who can aid the inspection. What is the most defensible response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The opening conference is used to establish the inspection basis and logistics while preserving lawful rights and cooperation. Obstruction or record alteration is inappropriate.",
+        "An employer generally cannot unilaterally substitute a conflicting method; the appropriate variance mechanism and required showing must be used.",
+        "Specific and general standards can both apply. Where a true conflict exists, the specifically applicable provision generally governs the same condition.",
+        "Employee representation is part of the inspection framework. Legitimate confidentiality and safety concerns should be managed, not used to eliminate participation."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses employee representative participation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'inspection opening conference', but it does not resolve the employee representative participation issue in this case.",
+        "This rationale supports the separate chapter topic 'variance versus alternative method', but it does not resolve the employee representative participation issue in this case.",
+        "This rationale supports the separate chapter topic 'vertical and horizontal standards', but it does not resolve the employee representative participation issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: employee representative participation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "57aee0c810999d31a8e090e52fdf2f89c22b3b5764ebd80d17b0126e24a9f6fe"
+    },
+    {
+      "id": "PV2-CORE-CH04-013",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "abatement verification",
+      "itemFamilyId": "PV2-CORE-CH04-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a citation contest decision, the team reviews this case: A citation requires abatement of a machine hazard. The company purchases a guard but leaves it in storage while production continues. What is the central compliance problem? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Abatement requires implemented correction of the cited condition, supported by any required documentation or certification; intent or procurement alone is insufficient.",
+        "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title.",
+        "Employees have protected rights to raise safety concerns and contact OSHA. Adverse action motivated by protected activity can create retaliation exposure.",
+        "Specific and general standards can both apply. Where a true conflict exists, the specifically applicable provision generally governs the same condition."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses abatement verification and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'multiemployer worksite roles', but it does not resolve the abatement verification issue in this case.",
+        "This rationale supports the separate chapter topic 'employee complaint and retaliation', but it does not resolve the abatement verification issue in this case.",
+        "This rationale supports the separate chapter topic 'vertical and horizontal standards', but it does not resolve the abatement verification issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: abatement verification",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "693d840e94471da67d6cb07214c7a9a103746bafcc13c8cd3bcf78eee9f630b3"
+    },
+    {
+      "id": "PV2-CORE-CH04-014",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "multiemployer worksite roles",
+      "itemFamilyId": "PV2-CORE-CH04-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hazard-control verification, the team reviews this case: At a construction project, one employer creates a fall hazard, another controls the site, and a third employer’s workers are exposed. Which analysis is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+        "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title.",
+        "Employees have protected rights to raise safety concerns and contact OSHA. Adverse action motivated by protected activity can create retaliation exposure.",
+        "Specific and general standards can both apply. Where a true conflict exists, the specifically applicable provision generally governs the same condition."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses multiemployer worksite roles and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'general duty clause application', but it does not resolve the multiemployer worksite roles issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'employee complaint and retaliation', but it does not resolve the multiemployer worksite roles issue in this case.",
+        "This rationale supports the separate chapter topic 'vertical and horizontal standards', but it does not resolve the multiemployer worksite roles issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: multiemployer worksite roles",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "02b988922c06da34595ff8eba89dbf5551f6d2b700a51dd1ee790498a63794bd"
+    },
+    {
+      "id": "PV2-CORE-CH04-015",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee complaint and retaliation",
+      "itemFamilyId": "PV2-CORE-CH04-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a federal OSHA compliance audit, the team reviews this case: A supervisor proposes disciplining an employee for contacting OSHA after the employee’s internal concern was not corrected. What should the safety professional advise? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The opening conference is used to establish the inspection basis and logistics while preserving lawful rights and cooperation. Obstruction or record alteration is inappropriate.",
+        "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title.",
+        "Employees have protected rights to raise safety concerns and contact OSHA. Adverse action motivated by protected activity can create retaliation exposure.",
+        "Employee representation is part of the inspection framework. Legitimate confidentiality and safety concerns should be managed, not used to eliminate participation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses employee complaint and retaliation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'inspection opening conference', but it does not resolve the employee complaint and retaliation issue in this case.",
+        "This rationale supports the separate chapter topic 'multiemployer worksite roles', but it does not resolve the employee complaint and retaliation issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'employee representative participation', but it does not resolve the employee complaint and retaliation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: employee complaint and retaliation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d16134c5d25f47e8767c7a7255b1577ef4f2f6648690cf31e6275bfe9a3c6863"
+    },
+    {
+      "id": "PV2-CORE-CH04-016",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "variance versus alternative method",
+      "itemFamilyId": "PV2-CORE-CH04-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an opening conference preparation, the team reviews this case: An employer cannot comply with the literal method in a standard but has developed a different method that it believes provides equivalent protection. What is the best next step? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Specific and general standards can both apply. Where a true conflict exists, the specifically applicable provision generally governs the same condition.",
+        "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title.",
+        "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+        "An employer generally cannot unilaterally substitute a conflicting method; the appropriate variance mechanism and required showing must be used."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses variance versus alternative method and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'vertical and horizontal standards', but it does not resolve the variance versus alternative method issue in this case.",
+        "This rationale supports the separate chapter topic 'multiemployer worksite roles', but it does not resolve the variance versus alternative method issue in this case.",
+        "This rationale supports the separate chapter topic 'general duty clause application', but it does not resolve the variance versus alternative method issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: variance versus alternative method",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d98c29fcbaadd499f6e2e96409dad626b0b525bda3dd96ee7a078391bc7a0a3a"
+    },
+    {
+      "id": "PV2-CORE-CH04-017",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "General Duty Clause",
+      "itemFamilyId": "PV2-CORE-CH04-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an opening conference preparation, the team reviews this question: When is OSHA most likely to use the General Duty Clause? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Section 5(a)(1) addresses recognized hazards causing or likely to cause death or serious harm when the legal elements are met.",
+        "Rescue arrangements must be credible for the space and hazards, coordinated in advance, and supported by appropriate equipment and practice.",
+        "An authorized employee other than those using the procedure performs the periodic inspection at least annually and deviations are corrected.",
+        "The citation must remain posted for three working days or until the violation is abated, whichever is longer."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Confined-space rescue', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'LOTO periodic inspection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Citation posting', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, General Duty Clause, pp. 56-57; OSH Act Section 5(a)(1); Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/oshact/section5-duties",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "836c5ba9433964661071e0a01b0a2585d67ec0333c4410316d580335e16f94a8"
+    },
+    {
+      "id": "PV2-CORE-CH04-018",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Horizontal and vertical standards",
+      "itemFamilyId": "PV2-CORE-CH04-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an abatement planning meeting, the team reviews this question: Which statement correctly describes horizontal and vertical OSHA standards? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Rescue arrangements must be credible for the space and hazards, coordinated in advance, and supported by appropriate equipment and practice.",
+        "A horizontal standard has broad industry application, while a vertical standard addresses a particular industry or type of work.",
+        "PPE selection follows a documented hazard assessment and must provide safe design, suitability, communication, training, and proper fit.",
+        "An authorized employee other than those using the procedure performs the periodic inspection at least annually and deviations are corrected."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Confined-space rescue', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'PPE hazard assessment', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'LOTO periodic inspection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, horizontal and vertical standards, p. 56; Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6ce08dadfe49b020ebfe20948f0e2678f2faa7cbb4a6e1be1d7852e414f3654a"
+    },
+    {
+      "id": "PV2-CORE-CH04-019",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Citation posting",
+      "itemFamilyId": "PV2-CORE-CH04-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a complaint-response review, the team reviews this question: After receiving an OSHA citation, how long must the employer generally post it at or near the violation? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A horizontal standard has broad industry application, while a vertical standard addresses a particular industry or type of work.",
+        "An authorized employee other than those using the procedure performs the periodic inspection at least annually and deviations are corrected.",
+        "The citation must remain posted for three working days or until the violation is abated, whichever is longer.",
+        "PPE selection follows a documented hazard assessment and must provide safe design, suitability, communication, training, and proper fit."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Horizontal and vertical standards', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'LOTO periodic inspection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'PPE hazard assessment', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, OSHA citations, pp. 59-60; OSHA inspection guidance; Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/sites/default/files/publications/factsheet-inspections.pdf",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "71a59bc48c26c8cea0a92abdddc9787c39fb2d2e27a6712fd71b07effb7ae118"
+    },
+    {
+      "id": "PV2-CORE-CH04-020",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Notice of contest",
+      "itemFamilyId": "PV2-CORE-CH04-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a multiemployer inspection, the team reviews this question: How long does an employer generally have to submit a written Notice of Contest after receiving an OSHA citation and proposed penalty? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Section 5(a)(1) addresses recognized hazards causing or likely to cause death or serious harm when the legal elements are met.",
+        "An authorized employee other than those using the procedure performs the periodic inspection at least annually and deviations are corrected.",
+        "Occupational disease should be controlled as far as feasible by engineering measures, with a complete respiratory program where respirators are necessary.",
+        "A written Notice of Contest must be submitted within 15 working days or the citation and proposed penalty become a final order."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'General Duty Clause', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'LOTO periodic inspection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Respiratory protection hierarchy', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, employer appeals and Notice of Contest, pp. 61-62; Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d65315e5d9c3234bdf73060a2932bf75736baab8c746ad99c3e6ec546d16da5e"
+    },
+    {
+      "id": "PV2-CORE-CH04-021",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "HazCom program",
+      "itemFamilyId": "PV2-CORE-CH04-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a standard-applicability analysis, the team reviews this question: What must a workplace Hazard Communication program coordinate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "HazCom connects chemical classification and inventory with labels, safety data sheets, training, and workplace communication procedures.",
+        "PPE selection follows a documented hazard assessment and must provide safe design, suitability, communication, training, and proper fit.",
+        "The rule defines oxygen deficiency below 19.5% by volume and oxygen enrichment above 23.5% by volume.",
+        "The citation must remain posted for three working days or until the violation is abated, whichever is longer."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'PPE hazard assessment', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Confined-space atmosphere', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Citation posting', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, Hazard Communication, pp. 63-66; OSHA 1910.1200(e)-(h); Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2571dd578d0e87a7884c943dfadd87a95bbd9ffe3530a56cea06255f9f4e3a40"
+    },
+    {
+      "id": "PV2-CORE-CH04-022",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "SDS section use",
+      "itemFamilyId": "PV2-CORE-CH04-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a citation contest decision, the team reviews this question: Which SDS section should be consulted first for occupational exposure limits and recommended engineering controls and PPE? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The rule defines oxygen deficiency below 19.5% by volume and oxygen enrichment above 23.5% by volume.",
+        "Section 8 contains control parameters, exposure limits, engineering controls, and personal-protection information.",
+        "LOTO requires use of energy-isolating devices, control of stored energy, and verification before servicing.",
+        "HazCom connects chemical classification and inventory with labels, safety data sheets, training, and workplace communication procedures."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Confined-space atmosphere', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'LOTO isolation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'HazCom program', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, Safety Data Sheet sections, pp. 65 and 116-121; OSHA 1910.1200 Appendix D; Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.1200",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a7b501fb4d4f96dca3b15004cc121c5ce2a91be56b443059e815c2845a84a6a3"
+    },
+    {
+      "id": "PV2-CORE-CH04-023",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "LOTO isolation",
+      "itemFamilyId": "PV2-CORE-CH04-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hazard-control verification, the team reviews this question: Why is pressing a machine stop button insufficient for lockout/tagout? Which rationale most directly supports the correct answer?",
+      "options": [
+        "HazCom connects chemical classification and inventory with labels, safety data sheets, training, and workplace communication procedures.",
+        "The rule defines oxygen deficiency below 19.5% by volume and oxygen enrichment above 23.5% by volume.",
+        "LOTO requires use of energy-isolating devices, control of stored energy, and verification before servicing.",
+        "Section 8 contains control parameters, exposure limits, engineering controls, and personal-protection information."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'HazCom program', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Confined-space atmosphere', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'SDS section use', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, control of hazardous energy, pp. 68-71; OSHA 1910.147; Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d07c90251132d23ef35d1b9c2f4ad7aa5c3ac0dda69c6c938daeb86e52fbb4c7"
+    },
+    {
+      "id": "PV2-CORE-CH04-024",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "LOTO periodic inspection",
+      "itemFamilyId": "PV2-CORE-CH04-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a federal OSHA compliance audit, the team reviews this question: How often must the energy-control procedure be periodically inspected at a minimum? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Section 5(a)(1) addresses recognized hazards causing or likely to cause death or serious harm when the legal elements are met.",
+        "Rescue arrangements must be credible for the space and hazards, coordinated in advance, and supported by appropriate equipment and practice.",
+        "A written Notice of Contest must be submitted within 15 working days or the citation and proposed penalty become a final order.",
+        "An authorized employee other than those using the procedure performs the periodic inspection at least annually and deviations are corrected."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'General Duty Clause', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Confined-space rescue', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Notice of contest', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, periodic inspection, p. 70; OSHA 1910.147(c)(6); Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c9354f7f1b92200764ceb233bf955642ecbd9a696ebd216fe93df86dcaf41320"
+    },
+    {
+      "id": "PV2-CORE-CH04-025",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Confined-space atmosphere",
+      "itemFamilyId": "PV2-CORE-CH04-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an opening conference preparation, the team reviews this question: Which oxygen concentrations define oxygen-deficient and oxygen-enriched atmospheres under the general-industry permit-space rule? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The rule defines oxygen deficiency below 19.5% by volume and oxygen enrichment above 23.5% by volume.",
+        "The citation must remain posted for three working days or until the violation is abated, whichever is longer.",
+        "HazCom connects chemical classification and inventory with labels, safety data sheets, training, and workplace communication procedures.",
+        "PPE selection follows a documented hazard assessment and must provide safe design, suitability, communication, training, and proper fit."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Citation posting', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'HazCom program', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PPE hazard assessment', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, confined-space definitions, pp. 71-73; OSHA 1910.146(b); Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.146",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9d250ef337e6792b1ecc11faf83497b46bc3ddf67c344f2031e7534bb92693d9"
+    },
+    {
+      "id": "PV2-CORE-CH04-026",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Confined-space rescue",
+      "itemFamilyId": "PV2-CORE-CH04-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an abatement planning meeting, the team reviews this question: A permit-space program lists the local fire department as rescue without evaluating or coordinating with it. What is the main gap? Which rationale most directly supports the correct answer?",
+      "options": [
+        "An authorized employee other than those using the procedure performs the periodic inspection at least annually and deviations are corrected.",
+        "Rescue arrangements must be credible for the space and hazards, coordinated in advance, and supported by appropriate equipment and practice.",
+        "Occupational disease should be controlled as far as feasible by engineering measures, with a complete respiratory program where respirators are necessary.",
+        "Section 5(a)(1) addresses recognized hazards causing or likely to cause death or serious harm when the legal elements are met."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'LOTO periodic inspection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Respiratory protection hierarchy', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'General Duty Clause', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "OSHA 1910.146(d)(9) and (k); Yates Chapter 4, confined spaces; Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.146",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fe0480d27498fead72a9310e350585f4a350dda07a5f005ef9a563ebaf2f6b97"
+    },
+    {
+      "id": "PV2-CORE-CH04-027",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Respiratory protection hierarchy",
+      "itemFamilyId": "PV2-CORE-CH04-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a complaint-response review, the team reviews this question: A vapor exposure exceeds the limit and feasible local exhaust can control it. What is the preferred approach? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A written Notice of Contest must be submitted within 15 working days or the citation and proposed penalty become a final order.",
+        "An authorized employee other than those using the procedure performs the periodic inspection at least annually and deviations are corrected.",
+        "Occupational disease should be controlled as far as feasible by engineering measures, with a complete respiratory program where respirators are necessary.",
+        "Section 5(a)(1) addresses recognized hazards causing or likely to cause death or serious harm when the legal elements are met."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Notice of contest', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'LOTO periodic inspection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'General Duty Clause', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 4, respiratory protection, pp. 75-77; OSHA 1910.134(a); Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6af9cdc2c6edbdf430f07e200ebc9d70e29ee7a05fed0c0cb1c2a59eacc5a37e"
+    },
+    {
+      "id": "PV2-CORE-CH04-028",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PPE hazard assessment",
+      "itemFamilyId": "PV2-CORE-CH04-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a multiemployer inspection, the team reviews this question: Before selecting PPE for a new task, what must the employer do? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The citation must remain posted for three working days or until the violation is abated, whichever is longer.",
+        "Rescue arrangements must be credible for the space and hazards, coordinated in advance, and supported by appropriate equipment and practice.",
+        "A horizontal standard has broad industry application, while a vertical standard addresses a particular industry or type of work.",
+        "PPE selection follows a documented hazard assessment and must provide safe design, suitability, communication, training, and proper fit."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Citation posting', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Confined-space rescue', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Horizontal and vertical standards', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 4 and 14, PPE hazard assessment; OSHA 1910.132(d); Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132",
+        "https://www.osha.gov/laws-regs"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3c29712512e13e9710119d000fcd1e07754224ad0402223a928c01be128fe36a"
+    },
+    {
+      "id": "PV2-CORE-CH04-029",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "general duty clause application",
+      "itemFamilyId": "PV2-CORE-CH04-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hazard-control verification, a supervisor proposes: \"Treat the written safety policy as sufficient to exempt the employer from General Duty Clause exposure\". The underlying case is: A recognized serious hazard is not addressed by a specific OSHA standard, and feasible means of abatement are available. Which enforcement theory is most directly relevant? Which alternative is the most defensible correction?",
+      "options": [
+        "The General Duty Clause may apply if recognition, exposure, serious harm, and feasible abatement can be established",
+        "No OSHA requirement can apply unless a vertical standard names the exact hazard",
+        "Defer corrective action unless a consensus-standards organization has issued an explicit requirement",
+        "Treat the written safety policy as sufficient to exempt the employer from General Duty Clause exposure"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'No OSHA requirement can apply unless a vertical standard names the exact hazard' remains incomplete or misapplies the controlling general duty clause application principle.",
+        "The proposed response 'Defer corrective action unless a consensus-standards organization has issued an explicit requirement' remains incomplete or misapplies the controlling general duty clause application principle.",
+        "The proposed response 'Treat the written safety policy as sufficient to exempt the employer from General Duty Clause exposure' remains incomplete or misapplies the controlling general duty clause application principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: general duty clause application",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "78e6c95a19a35234e0b6475d5e42c032e4c699a1376cff08b3311ddc24eb2db6"
+    },
+    {
+      "id": "PV2-CORE-CH04-030",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "vertical and horizontal standards",
+      "itemFamilyId": "PV2-CORE-CH04-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a federal OSHA compliance audit, a supervisor proposes: \"Apply both standards literally even when their provisions directly conflict\". The underlying case is: A chemical-processing task is covered by a specific substance standard and also by generally applicable PPE requirements. How should applicability be evaluated? Which alternative is the most defensible correction?",
+      "options": [
+        "Allow the employer to choose whichever standard is less burdensome",
+        "Apply the specific requirements together with compatible general requirements, resolving any direct conflict in favor of the more specifically applicable provision",
+        "Apply the broad horizontal standard and set aside the substance-specific requirements",
+        "Apply both standards literally even when their provisions directly conflict"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Specific and general standards can both apply. Where a true conflict exists, the specifically applicable provision generally governs the same condition.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Allow the employer to choose whichever standard is less burdensome' remains incomplete or misapplies the controlling vertical and horizontal standards principle.",
+        null,
+        "The proposed response 'Apply the broad horizontal standard and set aside the substance-specific requirements' remains incomplete or misapplies the controlling vertical and horizontal standards principle.",
+        "The proposed response 'Apply both standards literally even when their provisions directly conflict' remains incomplete or misapplies the controlling vertical and horizontal standards principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: vertical and horizontal standards",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "30e274c2e99192dabfc060bd9bc50456c1a36d0b385b8679593c91e459cea920"
+    },
+    {
+      "id": "PV2-CORE-CH04-031",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inspection opening conference",
+      "itemFamilyId": "PV2-CORE-CH04-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an opening conference preparation, a supervisor proposes: \"Refuse all access until OSHA provides advance written notice\". The underlying case is: OSHA arrives for an inspection and presents credentials. The site manager wants to begin immediately without clarifying scope or representatives. What should the safety professional recommend? Which alternative is the most defensible correction?",
+      "options": [
+        "Refuse all access until OSHA provides advance written notice",
+        "Destroy draft documents that were not specifically requested before the walkaround",
+        "Participate cooperatively while using the opening conference to clarify scope, purpose, records, route, and authorized representatives",
+        "Begin an unrestricted site tour before identifying the inspection basis"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The opening conference is used to establish the inspection basis and logistics while preserving lawful rights and cooperation. Obstruction or record alteration is inappropriate.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Refuse all access until OSHA provides advance written notice' remains incomplete or misapplies the controlling inspection opening conference principle.",
+        "The proposed response 'Destroy draft documents that were not specifically requested before the walkaround' remains incomplete or misapplies the controlling inspection opening conference principle.",
+        null,
+        "The proposed response 'Begin an unrestricted site tour before identifying the inspection basis' remains incomplete or misapplies the controlling inspection opening conference principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: inspection opening conference",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c20a5e9a3662295280c20be056f36ea3ee93cca3abe7dd06058a8089f35e8ade"
+    },
+    {
+      "id": "PV2-CORE-CH04-032",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee representative participation",
+      "itemFamilyId": "PV2-CORE-CH04-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an abatement planning meeting, a supervisor proposes: \"Permit participation only if the representative signs away all employee rights\". The underlying case is: During an OSHA walkaround, employees request a representative who can aid the inspection. What is the most defensible response? Which alternative is the most defensible correction?",
+      "options": [
+        "Cancel the inspection whenever confidential processes are present",
+        "Permit participation only if the representative signs away all employee rights",
+        "Exclude every employee representative because only management may accompany OSHA",
+        "Allow participation consistent with the Act and inspection rules while managing legitimate safety, security, and trade-secret controls"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Employee representation is part of the inspection framework. Legitimate confidentiality and safety concerns should be managed, not used to eliminate participation.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Cancel the inspection whenever confidential processes are present' remains incomplete or misapplies the controlling employee representative participation principle.",
+        "The proposed response 'Permit participation only if the representative signs away all employee rights' remains incomplete or misapplies the controlling employee representative participation principle.",
+        "The proposed response 'Exclude every employee representative because only management may accompany OSHA' remains incomplete or misapplies the controlling employee representative participation principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: employee representative participation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9a11c35614894a1da27681dec5ffebdafa9ea28e3fa5a336bee50c91686e5385"
+    },
+    {
+      "id": "PV2-CORE-CH04-033",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "abatement verification",
+      "itemFamilyId": "PV2-CORE-CH04-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a complaint-response review, a supervisor proposes: \"Verification is unnecessary for any correction involving engineering controls\". The underlying case is: A citation requires abatement of a machine hazard. The company purchases a guard but leaves it in storage while production continues. What is the central compliance problem? Which alternative is the most defensible correction?",
+      "options": [
+        "Purchasing equipment does not constitute abatement until the hazard is actually corrected and required verification is completed",
+        "Verification is unnecessary for any correction involving engineering controls",
+        "The citation is automatically withdrawn once management states its intent to comply",
+        "Abatement is complete when a purchase order is approved by finance"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Abatement requires implemented correction of the cited condition, supported by any required documentation or certification; intent or procurement alone is insufficient.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Verification is unnecessary for any correction involving engineering controls' remains incomplete or misapplies the controlling abatement verification principle.",
+        "The proposed response 'The citation is automatically withdrawn once management states its intent to comply' remains incomplete or misapplies the controlling abatement verification principle.",
+        "The proposed response 'Abatement is complete when a purchase order is approved by finance' remains incomplete or misapplies the controlling abatement verification principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: abatement verification",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c21c257f5291fa9f984bd60d88737a69c99bc415b8ac1529c173d939dd79ea76"
+    },
+    {
+      "id": "PV2-CORE-CH04-034",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "multiemployer worksite roles",
+      "itemFamilyId": "PV2-CORE-CH04-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a multiemployer inspection, a supervisor proposes: \"Cite only the employer whose employee is injured, regardless of control or creation\". The underlying case is: At a construction project, one employer creates a fall hazard, another controls the site, and a third employer’s workers are exposed. Which analysis is most appropriate? Which alternative is the most defensible correction?",
+      "options": [
+        "Treat subcontractors as exempt whenever they did not create the hazard",
+        "Evaluate each employer’s creating, controlling, correcting, or exposing role and whether it met the duties associated with that role",
+        "Assume the general contractor is the sole responsible employer in every case",
+        "Cite only the employer whose employee is injured, regardless of control or creation"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Treat subcontractors as exempt whenever they did not create the hazard' remains incomplete or misapplies the controlling multiemployer worksite roles principle.",
+        null,
+        "The proposed response 'Assume the general contractor is the sole responsible employer in every case' remains incomplete or misapplies the controlling multiemployer worksite roles principle.",
+        "The proposed response 'Cite only the employer whose employee is injured, regardless of control or creation' remains incomplete or misapplies the controlling multiemployer worksite roles principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: multiemployer worksite roles",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "375bd29df7ca26d9f8ce26ed8112fd7e1d9a3b354068ddb0628ed33bb8399b24"
+    },
+    {
+      "id": "PV2-CORE-CH04-035",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee complaint and retaliation",
+      "itemFamilyId": "PV2-CORE-CH04-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a standard-applicability analysis, a supervisor proposes: \"Reduce the employee’s hours without documenting the reason\". The underlying case is: A supervisor proposes disciplining an employee for contacting OSHA after the employee’s internal concern was not corrected. What should the safety professional advise? Which alternative is the most defensible correction?",
+      "options": [
+        "Reduce the employee’s hours without documenting the reason",
+        "Require future complaints to be waived as a condition of continued employment",
+        "Stop retaliatory action and address the hazard through a neutral process that protects the employee’s right to raise safety concerns",
+        "Proceed with discipline if the employee did not first obtain management permission"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Employees have protected rights to raise safety concerns and contact OSHA. Adverse action motivated by protected activity can create retaliation exposure.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Reduce the employee’s hours without documenting the reason' remains incomplete or misapplies the controlling employee complaint and retaliation principle.",
+        "The proposed response 'Require future complaints to be waived as a condition of continued employment' remains incomplete or misapplies the controlling employee complaint and retaliation principle.",
+        null,
+        "The proposed response 'Proceed with discipline if the employee did not first obtain management permission' remains incomplete or misapplies the controlling employee complaint and retaliation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: employee complaint and retaliation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d4826a46b3cc3dda182b9816ffd88279fd9ec20b1e9edc17b8f8f6c684bf9a77"
+    },
+    {
+      "id": "PV2-CORE-CH04-036",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "variance versus alternative method",
+      "itemFamilyId": "PV2-CORE-CH04-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a citation contest decision, a supervisor proposes: \"Ask employees to sign acknowledgments accepting the alternative protection level\". The underlying case is: An employer cannot comply with the literal method in a standard but has developed a different method that it believes provides equivalent protection. What is the best next step? Which alternative is the most defensible correction?",
+      "options": [
+        "Use the alternative immediately because internal engineering approval replaces a variance",
+        "Ignore the standard whenever a consensus standard supports a different method",
+        "Ask employees to sign acknowledgments accepting the alternative protection level",
+        "Use the applicable variance process and demonstrate the required level of employee protection before relying on the alternative"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "An employer generally cannot unilaterally substitute a conflicting method; the appropriate variance mechanism and required showing must be used.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use the alternative immediately because internal engineering approval replaces a variance' remains incomplete or misapplies the controlling variance versus alternative method principle.",
+        "The proposed response 'Ignore the standard whenever a consensus standard supports a different method' remains incomplete or misapplies the controlling variance versus alternative method principle.",
+        "The proposed response 'Ask employees to sign acknowledgments accepting the alternative protection level' remains incomplete or misapplies the controlling variance versus alternative method principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: variance versus alternative method",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2ec2c9b796c1da0d12fa401f1354a605f7dfcedb8ad8fe87a8a806e7a7ae0160"
+    },
+    {
+      "id": "PV2-CORE-CH04-037",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "general duty clause application",
+      "itemFamilyId": "PV2-CORE-CH04-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a federal OSHA compliance audit, the team selects \"The General Duty Clause may apply if recognition, exposure, serious harm, and feasible abatement can be established\" rather than \"Defer corrective action unless a consensus-standards organization has issued an explicit requirement\" for this case: A recognized serious hazard is not addressed by a specific OSHA standard, and feasible means of abatement are available. Which enforcement theory is most directly relevant? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+        "Federal OSHA’s multiemployer policy evaluates employer roles and their respective reasonable-care obligations rather than assigning responsibility solely by injury or contract title.",
+        "An employer generally cannot unilaterally substitute a conflicting method; the appropriate variance mechanism and required showing must be used.",
+        "Employees have protected rights to raise safety concerns and contact OSHA. Adverse action motivated by protected activity can create retaliation exposure."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the general duty clause application issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'multiemployer worksite roles' and does not distinguish the two responses in the present general duty clause application decision.",
+        "This explanation concerns 'variance versus alternative method' and does not distinguish the two responses in the present general duty clause application decision.",
+        "This explanation concerns 'employee complaint and retaliation' and does not distinguish the two responses in the present general duty clause application decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: general duty clause application",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5d4c54742ba8edbe4827378e49e18a80974cbf3bfafad19112a5c9f15eaddc93"
+    },
+    {
+      "id": "PV2-CORE-CH04-038",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "vertical and horizontal standards",
+      "itemFamilyId": "PV2-CORE-CH04-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an opening conference preparation, the team selects \"Apply the specific requirements together with compatible general requirements, resolving any direct conflict in favor of the more specifically applicable provision\" rather than \"Apply the broad horizontal standard and set aside the substance-specific requirements\" for this case: A chemical-processing task is covered by a specific substance standard and also by generally applicable PPE requirements. How should applicability be evaluated? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Employee representation is part of the inspection framework. Legitimate confidentiality and safety concerns should be managed, not used to eliminate participation.",
+        "Specific and general standards can both apply. Where a true conflict exists, the specifically applicable provision generally governs the same condition.",
+        "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+        "The opening conference is used to establish the inspection basis and logistics while preserving lawful rights and cooperation. Obstruction or record alteration is inappropriate."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the vertical and horizontal standards issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'employee representative participation' and does not distinguish the two responses in the present vertical and horizontal standards decision.",
+        null,
+        "This explanation concerns 'general duty clause application' and does not distinguish the two responses in the present vertical and horizontal standards decision.",
+        "This explanation concerns 'inspection opening conference' and does not distinguish the two responses in the present vertical and horizontal standards decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: vertical and horizontal standards",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "065f20fccd29beb2c1dd7cd18184b1300580fac30f9fe7d5226999d5d9b32c23"
+    },
+    {
+      "id": "PV2-CORE-CH04-039",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inspection opening conference",
+      "itemFamilyId": "PV2-CORE-CH04-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an abatement planning meeting, the team selects \"Participate cooperatively while using the opening conference to clarify scope, purpose, records, route, and authorized representatives\" rather than \"Begin an unrestricted site tour before identifying the inspection basis\" for this case: OSHA arrives for an inspection and presents credentials. The site manager wants to begin immediately without clarifying scope or representatives. What should the safety professional recommend? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "The General Duty Clause can address recognized serious hazards not covered by a specific standard when the required elements and feasible abatement are established.",
+        "Abatement requires implemented correction of the cited condition, supported by any required documentation or certification; intent or procurement alone is insufficient.",
+        "The opening conference is used to establish the inspection basis and logistics while preserving lawful rights and cooperation. Obstruction or record alteration is inappropriate.",
+        "Employees have protected rights to raise safety concerns and contact OSHA. Adverse action motivated by protected activity can create retaliation exposure."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the inspection opening conference issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'general duty clause application' and does not distinguish the two responses in the present inspection opening conference decision.",
+        "This explanation concerns 'abatement verification' and does not distinguish the two responses in the present inspection opening conference decision.",
+        null,
+        "This explanation concerns 'employee complaint and retaliation' and does not distinguish the two responses in the present inspection opening conference decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: inspection opening conference",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0aae389dde4cfc01034514a306164f558ae127281b213223b7b314c07ac6279c"
+    },
+    {
+      "id": "PV2-CORE-CH04-040",
+      "version": 1,
+      "chapterId": "ch-04",
+      "chapterTitle": "OSHA Regulations and Core Compliance",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee representative participation",
+      "itemFamilyId": "PV2-CORE-CH04-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a complaint-response review, the team selects \"Allow participation consistent with the Act and inspection rules while managing legitimate safety, security, and trade-secret controls\" rather than \"Cancel the inspection whenever confidential processes are present\" for this case: During an OSHA walkaround, employees request a representative who can aid the inspection. What is the most defensible response? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Specific and general standards can both apply. Where a true conflict exists, the specifically applicable provision generally governs the same condition.",
+        "Abatement requires implemented correction of the cited condition, supported by any required documentation or certification; intent or procurement alone is insufficient.",
+        "Employees have protected rights to raise safety concerns and contact OSHA. Adverse action motivated by protected activity can create retaliation exposure.",
+        "Employee representation is part of the inspection framework. Legitimate confidentiality and safety concerns should be managed, not used to eliminate participation."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the employee representative participation issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'vertical and horizontal standards' and does not distinguish the two responses in the present employee representative participation decision.",
+        "This explanation concerns 'abatement verification' and does not distinguish the two responses in the present employee representative participation decision.",
+        "This explanation concerns 'employee complaint and retaliation' and does not distinguish the two responses in the present employee representative participation decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 4, pp. 55-210; OSH Act, 29 CFR Part 1903, and applicable 29 CFR 1910/1926 standards; curated topic: employee representative participation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a133c88f656f8cf708af0e99b88ba93c55acdf2aed48fd1d5682cc7ed8338a89"
+    }
+  ]
+}

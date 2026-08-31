@@ -1,0 +1,2379 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-14-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-14",
+  "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH14-001",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PPE hazard assessment",
+      "itemFamilyId": "PV2-CORE-CH14-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility issues the same gloves and safety glasses to every department without documenting task hazards. Several chemicals permeate the selected gloves. What is the best corrective action?",
+      "options": [
+        "Perform and certify a task-based PPE hazard assessment, select compatible equipment, communicate limitations, and train affected employees",
+        "Replace the gloves only after a worker experiences visible skin injury",
+        "Keep the standardized PPE because uniformity is more important than chemical compatibility",
+        "Ask employees to choose any gloves that feel comfortable without reviewing permeation data"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "PPE selection must follow a documented hazard assessment and account for chemical, physical, fit, and task factors; one generic selection cannot be assumed protective.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Replace the gloves only after a worker experiences visible skin injury' does not apply the controlling principle for ppe hazard assessment to the facts given, so it is not the best answer.",
+        "The option 'Keep the standardized PPE because uniformity is more important than chemical compatibility' does not apply the controlling principle for ppe hazard assessment to the facts given, so it is not the best answer.",
+        "The option 'Ask employees to choose any gloves that feel comfortable without reviewing permeation data' does not apply the controlling principle for ppe hazard assessment to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: PPE hazard assessment",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "66b18a15098e8505ae7c4170f055da12dac207399edaa2ee99f5259b09ea2c95"
+    },
+    {
+      "id": "PV2-CORE-CH14-002",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "respirator selection and IDLH",
+      "itemFamilyId": "PV2-CORE-CH14-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A vessel may contain an unknown concentration of a highly toxic gas, and entry cannot be delayed for full characterization. Which respiratory protection approach is most defensible?",
+      "options": [
+        "Select any tight-fitting respirator if the worker passes a qualitative fit test",
+        "Treat the atmosphere as potentially IDLH and use an appropriate positive-pressure supplied-air respirator with auxiliary escape or a positive-pressure SCBA",
+        "Use an air-purifying respirator with the highest available cartridge",
+        "Use a filtering facepiece because the worker will remain inside only a few minutes"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Unknown concentrations and potentially IDLH conditions require atmosphere-supplying protection designed for IDLH entry; air-purifying devices depend on known contaminants and adequate oxygen.",
+      "incorrectOptionExplanations": [
+        "The option 'Select any tight-fitting respirator if the worker passes a qualitative fit test' does not apply the controlling principle for respirator selection and idlh to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use an air-purifying respirator with the highest available cartridge' does not apply the controlling principle for respirator selection and idlh to the facts given, so it is not the best answer.",
+        "The option 'Use a filtering facepiece because the worker will remain inside only a few minutes' does not apply the controlling principle for respirator selection and idlh to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: respirator selection and IDLH",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e88fd810770db69589ba2a2784eae70ca4ab90b65db20b4c93e1c7b3ee43319f"
+    },
+    {
+      "id": "PV2-CORE-CH14-003",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "medical evaluation before respirator use",
+      "itemFamilyId": "PV2-CORE-CH14-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A supervisor wants a new employee to complete a fit test and begin mandatory respirator use before medical review because the project is behind schedule. What should occur?",
+      "options": [
+        "Replace medical evaluation with a signed employee waiver",
+        "Allow one shift of use before medical evaluation if the respirator is negative pressure",
+        "Complete the required medical evaluation and obtain clearance before fit testing or required respirator use",
+        "Fit test first because fit testing determines medical ability to wear a respirator"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Mandatory respirator use can impose physiological burden. Medical evaluation must occur before fit testing or required use, and employees cannot waive that program element.",
+      "incorrectOptionExplanations": [
+        "The option 'Replace medical evaluation with a signed employee waiver' does not apply the controlling principle for medical evaluation before respirator use to the facts given, so it is not the best answer.",
+        "The option 'Allow one shift of use before medical evaluation if the respirator is negative pressure' does not apply the controlling principle for medical evaluation before respirator use to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Fit test first because fit testing determines medical ability to wear a respirator' does not apply the controlling principle for medical evaluation before respirator use to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: medical evaluation before respirator use",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a55439c8a12383dc5652c488650295a57192cd843695f688e609c5cfc3f45f2f"
+    },
+    {
+      "id": "PV2-CORE-CH14-004",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fit testing and facepiece changes",
+      "itemFamilyId": "PV2-CORE-CH14-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee passes a fit test, then loses substantial weight and reports that the facepiece seal feels different. What should the program administrator do?",
+      "options": [
+        "Tighten straps as much as possible and continue work without reassessment",
+        "Switch to a different tight-fitting facepiece without any fit test",
+        "Wait until the next annual test because early retesting is prohibited",
+        "Arrange an additional fit test and reassess facepiece size or model before relying on the respirator"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Changes in physical condition that could affect fit trigger additional evaluation. Each tight-fitting facepiece make, model, style, and size relied upon must be fit tested.",
+      "incorrectOptionExplanations": [
+        "The option 'Tighten straps as much as possible and continue work without reassessment' does not apply the controlling principle for fit testing and facepiece changes to the facts given, so it is not the best answer.",
+        "The option 'Switch to a different tight-fitting facepiece without any fit test' does not apply the controlling principle for fit testing and facepiece changes to the facts given, so it is not the best answer.",
+        "The option 'Wait until the next annual test because early retesting is prohibited' does not apply the controlling principle for fit testing and facepiece changes to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: fit testing and facepiece changes",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "45428a9f44ec24848812dc8815344355392c5cf24f46a6f4436d8dd327bfe654"
+    },
+    {
+      "id": "PV2-CORE-CH14-005",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cartridge change schedule",
+      "itemFamilyId": "PV2-CORE-CH14-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Employees use organic vapor cartridges for a contaminant with poor warning properties. The program replaces cartridges only when workers smell vapor. What is the main deficiency?",
+      "options": [
+        "The program needs an objective cartridge change schedule or end-of-service-life indicator based on service conditions, not odor detection",
+        "Replace cartridges only when breathing resistance increases, without using a change schedule or service-life information",
+        "A fit test automatically determines cartridge service life",
+        "Odor is the preferred federal method for every organic vapor"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Change schedules must protect before breakthrough. Odor thresholds and individual perception are unreliable and are not a substitute for an objective basis.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Replace cartridges only when breathing resistance increases, without using a change schedule or service-life information' does not apply the controlling principle for cartridge change schedule to the facts given, so it is not the best answer.",
+        "The option 'A fit test automatically determines cartridge service life' does not apply the controlling principle for cartridge change schedule to the facts given, so it is not the best answer.",
+        "The option 'Odor is the preferred federal method for every organic vapor' does not apply the controlling principle for cartridge change schedule to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: cartridge change schedule",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "df4fa21cde89030782d83f8c7a4ec4d6f80765e7157b345b8728484ba4b9aa0b"
+    },
+    {
+      "id": "PV2-CORE-CH14-006",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "voluntary respirator use",
+      "itemFamilyId": "PV2-CORE-CH14-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Air monitoring shows no respirator is required, but employees wish to use elastomeric half-mask respirators voluntarily. What should the employer evaluate?",
+      "options": [
+        "Treat voluntary use as identical to a full mandatory program in every respect",
+        "Ensure use does not create a hazard, provide the required voluntary-use information, and implement applicable medical and maintenance elements",
+        "Prohibit all voluntary use because respirators may be used only above an exposure limit",
+        "Allow use with no information or evaluation because the employer did not require it"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Voluntary use is permitted when safe, but elastomeric respirators trigger specified program safeguards beyond merely handing out equipment.",
+      "incorrectOptionExplanations": [
+        "The option 'Treat voluntary use as identical to a full mandatory program in every respect' does not apply the controlling principle for voluntary respirator use to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Prohibit all voluntary use because respirators may be used only above an exposure limit' does not apply the controlling principle for voluntary respirator use to the facts given, so it is not the best answer.",
+        "The option 'Allow use with no information or evaluation because the employer did not require it' does not apply the controlling principle for voluntary respirator use to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: voluntary respirator use",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "82e83c531250c58269eb5b7b4f508e7c081b44247505cb7a679fce693b649c09"
+    },
+    {
+      "id": "PV2-CORE-CH14-007",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "chemical protective clothing breakthrough",
+      "itemFamilyId": "PV2-CORE-CH14-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A glove chart lists excellent degradation resistance but a very short permeation breakthrough time for the solvent and task duration. Which conclusion is correct?",
+      "options": [
+        "Good degradation resistance proves the glove prevents permeation for the entire shift",
+        "Double-gloving with the same material always doubles breakthrough time exactly",
+        "The glove may remain physically intact while the chemical passes through, so a different material or replacement strategy is needed",
+        "Breakthrough time matters only when holes are visibly present"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Degradation and permeation are different properties. A glove can look sound while molecules pass through, and multilayer performance must be supported by data.",
+      "incorrectOptionExplanations": [
+        "The option 'Good degradation resistance proves the glove prevents permeation for the entire shift' does not apply the controlling principle for chemical protective clothing breakthrough to the facts given, so it is not the best answer.",
+        "The option 'Double-gloving with the same material always doubles breakthrough time exactly' does not apply the controlling principle for chemical protective clothing breakthrough to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Breakthrough time matters only when holes are visibly present' does not apply the controlling principle for chemical protective clothing breakthrough to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: chemical protective clothing breakthrough",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "321d21401af9b601bbbe174bb340c2d12aab6061221ef544427d66644db81672"
+    },
+    {
+      "id": "PV2-CORE-CH14-008",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "eye and face protection layering",
+      "itemFamilyId": "PV2-CORE-CH14-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A grinding task presents high-speed particle impact to the eyes and face. Which PPE arrangement is most appropriate?",
+      "options": [
+        "Close one eye while positioning the face shield near the tool",
+        "Use ordinary prescription glasses beneath no additional protection",
+        "Use a face shield alone because it replaces primary eye protection",
+        "Wear suitable safety spectacles or goggles as primary eye protection with a face shield as secondary face protection"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A face shield protects the face but generally does not replace primary eye protection against flying particles; compatible layered protection is required.",
+      "incorrectOptionExplanations": [
+        "The option 'Close one eye while positioning the face shield near the tool' does not apply the controlling principle for eye and face protection layering to the facts given, so it is not the best answer.",
+        "The option 'Use ordinary prescription glasses beneath no additional protection' does not apply the controlling principle for eye and face protection layering to the facts given, so it is not the best answer.",
+        "The option 'Use a face shield alone because it replaces primary eye protection' does not apply the controlling principle for eye and face protection layering to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: eye and face protection layering",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6a7133f99e60287f5855899c9fa203e5d689ebca5b360302b194aec1acdf97c5"
+    },
+    {
+      "id": "PV2-CORE-CH14-009",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PPE hazard assessment",
+      "itemFamilyId": "PV2-CORE-CH14-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fit-testing program audit, the team reviews this case: A facility issues the same gloves and safety glasses to every department without documenting task hazards. Several chemicals permeate the selected gloves. What is the best corrective action? Which rationale most directly supports the correct decision?",
+      "options": [
+        "PPE selection must follow a documented hazard assessment and account for chemical, physical, fit, and task factors; one generic selection cannot be assumed protective.",
+        "A face shield protects the face but generally does not replace primary eye protection against flying particles; compatible layered protection is required.",
+        "Degradation and permeation are different properties. A glove can look sound while molecules pass through, and multilayer performance must be supported by data.",
+        "Changes in physical condition that could affect fit trigger additional evaluation. Each tight-fitting facepiece make, model, style, and size relied upon must be fit tested."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses ppe hazard assessment and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'eye and face protection layering', but it does not resolve the ppe hazard assessment issue in this case.",
+        "This rationale supports the separate chapter topic 'chemical protective clothing breakthrough', but it does not resolve the ppe hazard assessment issue in this case.",
+        "This rationale supports the separate chapter topic 'fit testing and facepiece changes', but it does not resolve the ppe hazard assessment issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: PPE hazard assessment",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cb25dda268e981655de851b80c17cf4367be2cd298f4cab9fff2ea002b9fb945"
+    },
+    {
+      "id": "PV2-CORE-CH14-010",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "respirator selection and IDLH",
+      "itemFamilyId": "PV2-CORE-CH14-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a cartridge change-schedule review, the team reviews this case: A vessel may contain an unknown concentration of a highly toxic gas, and entry cannot be delayed for full characterization. Which respiratory protection approach is most defensible? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Change schedules must protect before breakthrough. Odor thresholds and individual perception are unreliable and are not a substitute for an objective basis.",
+        "Unknown concentrations and potentially IDLH conditions require atmosphere-supplying protection designed for IDLH entry; air-purifying devices depend on known contaminants and adequate oxygen.",
+        "PPE selection must follow a documented hazard assessment and account for chemical, physical, fit, and task factors; one generic selection cannot be assumed protective.",
+        "Mandatory respirator use can impose physiological burden. Medical evaluation must occur before fit testing or required use, and employees cannot waive that program element."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses respirator selection and idlh and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'cartridge change schedule', but it does not resolve the respirator selection and idlh issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'PPE hazard assessment', but it does not resolve the respirator selection and idlh issue in this case.",
+        "This rationale supports the separate chapter topic 'medical evaluation before respirator use', but it does not resolve the respirator selection and idlh issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: respirator selection and IDLH",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8800d7ae4e052403a39943af1eadebacd66e6155d906d0ad386ea08f3d7d3619"
+    },
+    {
+      "id": "PV2-CORE-CH14-011",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "medical evaluation before respirator use",
+      "itemFamilyId": "PV2-CORE-CH14-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a supplied-air respirator decision, the team reviews this case: A supervisor wants a new employee to complete a fit test and begin mandatory respirator use before medical review because the project is behind schedule. What should occur? Which rationale most directly supports the correct decision?",
+      "options": [
+        "PPE selection must follow a documented hazard assessment and account for chemical, physical, fit, and task factors; one generic selection cannot be assumed protective.",
+        "Change schedules must protect before breakthrough. Odor thresholds and individual perception are unreliable and are not a substitute for an objective basis.",
+        "Mandatory respirator use can impose physiological burden. Medical evaluation must occur before fit testing or required use, and employees cannot waive that program element.",
+        "Changes in physical condition that could affect fit trigger additional evaluation. Each tight-fitting facepiece make, model, style, and size relied upon must be fit tested."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses medical evaluation before respirator use and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'PPE hazard assessment', but it does not resolve the medical evaluation before respirator use issue in this case.",
+        "This rationale supports the separate chapter topic 'cartridge change schedule', but it does not resolve the medical evaluation before respirator use issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'fit testing and facepiece changes', but it does not resolve the medical evaluation before respirator use issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: medical evaluation before respirator use",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "84d4c98ddeef3600ba96d24f71c3260a91c5c7f0625e2fb132dc6527f153c6f3"
+    },
+    {
+      "id": "PV2-CORE-CH14-012",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fit testing and facepiece changes",
+      "itemFamilyId": "PV2-CORE-CH14-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a chemical protective clothing evaluation, the team reviews this case: An employee passes a fit test, then loses substantial weight and reports that the facepiece seal feels different. What should the program administrator do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Unknown concentrations and potentially IDLH conditions require atmosphere-supplying protection designed for IDLH entry; air-purifying devices depend on known contaminants and adequate oxygen.",
+        "Change schedules must protect before breakthrough. Odor thresholds and individual perception are unreliable and are not a substitute for an objective basis.",
+        "A face shield protects the face but generally does not replace primary eye protection against flying particles; compatible layered protection is required.",
+        "Changes in physical condition that could affect fit trigger additional evaluation. Each tight-fitting facepiece make, model, style, and size relied upon must be fit tested."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses fit testing and facepiece changes and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'respirator selection and IDLH', but it does not resolve the fit testing and facepiece changes issue in this case.",
+        "This rationale supports the separate chapter topic 'cartridge change schedule', but it does not resolve the fit testing and facepiece changes issue in this case.",
+        "This rationale supports the separate chapter topic 'eye and face protection layering', but it does not resolve the fit testing and facepiece changes issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: fit testing and facepiece changes",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3a35c3f9ed9bb708c7df653ad20b650a1cc45ad8d7f9e59a07ad742d3b6bad6c"
+    },
+    {
+      "id": "PV2-CORE-CH14-013",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cartridge change schedule",
+      "itemFamilyId": "PV2-CORE-CH14-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an eye and face protection review, the team reviews this case: Employees use organic vapor cartridges for a contaminant with poor warning properties. The program replaces cartridges only when workers smell vapor. What is the main deficiency? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Change schedules must protect before breakthrough. Odor thresholds and individual perception are unreliable and are not a substitute for an objective basis.",
+        "Degradation and permeation are different properties. A glove can look sound while molecules pass through, and multilayer performance must be supported by data.",
+        "Unknown concentrations and potentially IDLH conditions require atmosphere-supplying protection designed for IDLH entry; air-purifying devices depend on known contaminants and adequate oxygen.",
+        "Mandatory respirator use can impose physiological burden. Medical evaluation must occur before fit testing or required use, and employees cannot waive that program element."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses cartridge change schedule and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'chemical protective clothing breakthrough', but it does not resolve the cartridge change schedule issue in this case.",
+        "This rationale supports the separate chapter topic 'respirator selection and IDLH', but it does not resolve the cartridge change schedule issue in this case.",
+        "This rationale supports the separate chapter topic 'medical evaluation before respirator use', but it does not resolve the cartridge change schedule issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: cartridge change schedule",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "946300717c0ad59eb8691dce77912b9f63818c8737f23e59f281ddfb199172e1"
+    },
+    {
+      "id": "PV2-CORE-CH14-014",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "voluntary respirator use",
+      "itemFamilyId": "PV2-CORE-CH14-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a respiratory medical-evaluation audit, the team reviews this case: Air monitoring shows no respirator is required, but employees wish to use elastomeric half-mask respirators voluntarily. What should the employer evaluate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Change schedules must protect before breakthrough. Odor thresholds and individual perception are unreliable and are not a substitute for an objective basis.",
+        "Voluntary use is permitted when safe, but elastomeric respirators trigger specified program safeguards beyond merely handing out equipment.",
+        "Changes in physical condition that could affect fit trigger additional evaluation. Each tight-fitting facepiece make, model, style, and size relied upon must be fit tested.",
+        "A face shield protects the face but generally does not replace primary eye protection against flying particles; compatible layered protection is required."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses voluntary respirator use and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'cartridge change schedule', but it does not resolve the voluntary respirator use issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'fit testing and facepiece changes', but it does not resolve the voluntary respirator use issue in this case.",
+        "This rationale supports the separate chapter topic 'eye and face protection layering', but it does not resolve the voluntary respirator use issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: voluntary respirator use",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "86683ef891ef667819fa39c9dba22393778751f1730ae3daa7150fa87b92c567"
+    },
+    {
+      "id": "PV2-CORE-CH14-015",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "chemical protective clothing breakthrough",
+      "itemFamilyId": "PV2-CORE-CH14-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a PPE hazard assessment, the team reviews this case: A glove chart lists excellent degradation resistance but a very short permeation breakthrough time for the solvent and task duration. Which conclusion is correct? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Voluntary use is permitted when safe, but elastomeric respirators trigger specified program safeguards beyond merely handing out equipment.",
+        "Change schedules must protect before breakthrough. Odor thresholds and individual perception are unreliable and are not a substitute for an objective basis.",
+        "Degradation and permeation are different properties. A glove can look sound while molecules pass through, and multilayer performance must be supported by data.",
+        "Changes in physical condition that could affect fit trigger additional evaluation. Each tight-fitting facepiece make, model, style, and size relied upon must be fit tested."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses chemical protective clothing breakthrough and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'voluntary respirator use', but it does not resolve the chemical protective clothing breakthrough issue in this case.",
+        "This rationale supports the separate chapter topic 'cartridge change schedule', but it does not resolve the chemical protective clothing breakthrough issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'fit testing and facepiece changes', but it does not resolve the chemical protective clothing breakthrough issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: chemical protective clothing breakthrough",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2732ab66d99933845875d370b43b7e1c058da19aaa1b72d1c3d9d8b9eacb7638"
+    },
+    {
+      "id": "PV2-CORE-CH14-016",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "eye and face protection layering",
+      "itemFamilyId": "PV2-CORE-CH14-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a respirator selection meeting, the team reviews this case: A grinding task presents high-speed particle impact to the eyes and face. Which PPE arrangement is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "PPE selection must follow a documented hazard assessment and account for chemical, physical, fit, and task factors; one generic selection cannot be assumed protective.",
+        "Degradation and permeation are different properties. A glove can look sound while molecules pass through, and multilayer performance must be supported by data.",
+        "Mandatory respirator use can impose physiological burden. Medical evaluation must occur before fit testing or required use, and employees cannot waive that program element.",
+        "A face shield protects the face but generally does not replace primary eye protection against flying particles; compatible layered protection is required."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses eye and face protection layering and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'PPE hazard assessment', but it does not resolve the eye and face protection layering issue in this case.",
+        "This rationale supports the separate chapter topic 'chemical protective clothing breakthrough', but it does not resolve the eye and face protection layering issue in this case.",
+        "This rationale supports the separate chapter topic 'medical evaluation before respirator use', but it does not resolve the eye and face protection layering issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: eye and face protection layering",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9135ed0f0a4325fd0021aee9e3fd5271c017c133d518a9215ca39fea5170a33e"
+    },
+    {
+      "id": "PV2-CORE-CH14-017",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.02",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hierarchy of controls before PPE",
+      "itemFamilyId": "PV2-CORE-CH14-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a respirator selection meeting, the team reviews this question: Operators manually pour a corrosive liquid from open pails and currently rely on splash goggles, face shields, and aprons. Which action best improves the control strategy? Which rationale most directly supports the correct answer?",
+      "options": [
+        "PPE is the last line of defense because it does not remove the hazard. Feasible elimination, substitution, or engineering controls should reduce the source or pathway first; PPE remains necessary for residual and upset risks.",
+        "OSHA prohibits tight-fitting facepieces when facial hair lies between the sealing surface and the face or interferes with valve function. An annual fit test does not override a later condition that compromises the seal.",
+        "The calculated MUC is APF × exposure limit = 10 × 2 ppm = 20 ppm. Because 20 ppm is below the stated IDLH value and no lower cartridge limit is given, 20 ppm controls.",
+        "When no appropriate ESLI exists, OSHA requires a change schedule supported by objective information or data so cartridges are changed before the end of service life, with the basis documented in the program."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Tight-fitting facepiece seal', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Maximum use concentration', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Gas-vapor cartridge change schedule', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.132 - General Requirements",
+      "sourceLocation": "Yates Chapter 14, hazard assessment and PPE limitations, pp. 385-388; OSHA 1910.132(d), hazard assessment and equipment selection; Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "59e8f33a4ba70e9c423efe8ce2ffa2b9391b3181f3b5fe096b8a06f7fad6c0c4"
+    },
+    {
+      "id": "PV2-CORE-CH14-018",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.09",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PPE hazard-assessment certification",
+      "itemFamilyId": "PV2-CORE-CH14-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fit-testing program audit, the team reviews this question: A facility has completed a PPE hazard assessment for its machine shop. Which record best satisfies the OSHA certification requirement? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For severe splash exposure, goggles provide primary sealed eye protection and a face shield adds secondary coverage of the face. The combination addresses both the eye and face hazard.",
+        "OSHA requires written certification of the workplace hazard assessment with the workplace identified, the person certifying it, the date or dates, and language identifying the document as the certification.",
+        "Footwear must be selected for the specific hazards identified. Different performance features address impact, compression, puncture, static discharge, and electric shock; one feature does not automatically cover the others.",
+        "Respirator use can impose a physiological burden. OSHA requires the employer to provide a medical evaluation before the employee is fit tested or required to use the respirator at work."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Primary and secondary eye-face protection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Protective footwear selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Respirator medical evaluation sequence', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.132 - General Requirements",
+      "sourceLocation": "Yates Chapter 14, Hazard Assessment, pp. 385-388; OSHA 1910.132(d)(2); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f43a633eedcf569be49b0b6f21341d47000b1f6a0afa81a4e143700cd8d4939e"
+    },
+    {
+      "id": "PV2-CORE-CH14-019",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Prescription eye protection and side protection",
+      "itemFamilyId": "PV2-CORE-CH14-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a cartridge change-schedule review, the team reviews this question: An employee who wears prescription glasses must grind metal parts that can eject fragments from the side. Which arrangement is appropriate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The helmet must match all identified hazards. OSHA requires protective helmets for falling-object exposure and electrically protective helmets where exposed conductors could contact the head.",
+        "No glove protects against every hazard. Selection must be based on performance relative to the chemicals and the actual task, including duration, conditions, physical stress, and needed dexterity.",
+        "Eye protection must address the flying-object hazard, including side protection, while accommodating prescription lenses without disturbing the proper position of either the prescription or protective lenses.",
+        "A different respirator facepiece requires a new fit test before use. OSHA also requires fit testing at least annually and when physical changes could affect fit."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Head protection for impact and electrical hazards', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Chemical glove selection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Respirator fit-test triggers', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.133 - Eye and Face Protection",
+      "sourceLocation": "Yates Chapter 14, eye and face protection, pp. 391-393; OSHA 1910.133(a)(2)-(3); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.133/",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c6cb19bc82d9d17ad516f2ef3be0c29f5c789955a8b173e7ef5fd69c7a9c6b97"
+    },
+    {
+      "id": "PV2-CORE-CH14-020",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Primary and secondary eye-face protection",
+      "itemFamilyId": "PV2-CORE-CH14-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a supplied-air respirator decision, the team reviews this question: A technician opens a line that may release a pressurized corrosive splash. The procedure currently requires only a face shield. What is the best correction? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Footwear must be selected for the specific hazards identified. Different performance features address impact, compression, puncture, static discharge, and electric shock; one feature does not automatically cover the others.",
+        "Respirator use can impose a physiological burden. OSHA requires the employer to provide a medical evaluation before the employee is fit tested or required to use the respirator at work.",
+        "OSHA requires written certification of the workplace hazard assessment with the workplace identified, the person certifying it, the date or dates, and language identifying the document as the certification.",
+        "For severe splash exposure, goggles provide primary sealed eye protection and a face shield adds secondary coverage of the face. The combination addresses both the eye and face hazard."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Protective footwear selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Respirator medical evaluation sequence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PPE hazard-assessment certification', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 1910 Subpart I Appendix B - PPE Selection Guidelines",
+      "sourceLocation": "Yates Chapter 14, eye and face protection, pp. 391-393; OSHA Subpart I Appendix B, eye and face selection guidelines; Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910SubpartIAppB",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9d5330c8703bdb3f3230a3a818c8d8a6b18a01fa1037f42c1ab9dd306ba32b19"
+    },
+    {
+      "id": "PV2-CORE-CH14-021",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Head protection for impact and electrical hazards",
+      "itemFamilyId": "PV2-CORE-CH14-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a chemical protective clothing evaluation, the team reviews this question: Maintenance employees work below overhead material handling and near exposed conductors that could contact the head. What head-protection criterion is most important? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The helmet must match all identified hazards. OSHA requires protective helmets for falling-object exposure and electrically protective helmets where exposed conductors could contact the head.",
+        "Footwear must be selected for the specific hazards identified. Different performance features address impact, compression, puncture, static discharge, and electric shock; one feature does not automatically cover the others.",
+        "A different respirator facepiece requires a new fit test before use. OSHA also requires fit testing at least annually and when physical changes could affect fit.",
+        "Eye protection must address the flying-object hazard, including side protection, while accommodating prescription lenses without disturbing the proper position of either the prescription or protective lenses."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Protective footwear selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Respirator fit-test triggers', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Prescription eye protection and side protection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.135 - Head Protection",
+      "sourceLocation": "Yates Chapter 14, head protection, pp. 389-391; OSHA 1910.135(a); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.135",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d469ff6168bbad0ce0a9d1d4dd369584815a3401bde16731a32d7e25bca37762"
+    },
+    {
+      "id": "PV2-CORE-CH14-022",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Protective footwear selection",
+      "itemFamilyId": "PV2-CORE-CH14-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an eye and face protection review, the team reviews this question: A maintenance route exposes workers to dropped tools, sharp scrap that may pierce soles, and a residual electrical-shock hazard. Which footwear decision is best? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA requires written certification of the workplace hazard assessment with the workplace identified, the person certifying it, the date or dates, and language identifying the document as the certification.",
+        "Footwear must be selected for the specific hazards identified. Different performance features address impact, compression, puncture, static discharge, and electric shock; one feature does not automatically cover the others.",
+        "No glove protects against every hazard. Selection must be based on performance relative to the chemicals and the actual task, including duration, conditions, physical stress, and needed dexterity.",
+        "For severe splash exposure, goggles provide primary sealed eye protection and a face shield adds secondary coverage of the face. The combination addresses both the eye and face hazard."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'PPE hazard-assessment certification', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Chemical glove selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Primary and secondary eye-face protection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.136 - Foot Protection",
+      "sourceLocation": "Yates Chapter 14, foot and leg protection, pp. 400-406; OSHA 1910.136(a)-(b); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.136",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8c51459f3b2624bc311769a16c5e16c29f06fd1caa70937693a08950689a4ce1"
+    },
+    {
+      "id": "PV2-CORE-CH14-023",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Chemical glove selection",
+      "itemFamilyId": "PV2-CORE-CH14-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a respiratory medical-evaluation audit, the team reviews this question: A process changes from a dilute water-based cleaner to a concentrated solvent blend. What is the most defensible way to select replacement gloves? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For severe splash exposure, goggles provide primary sealed eye protection and a face shield adds secondary coverage of the face. The combination addresses both the eye and face hazard.",
+        "Footwear must be selected for the specific hazards identified. Different performance features address impact, compression, puncture, static discharge, and electric shock; one feature does not automatically cover the others.",
+        "No glove protects against every hazard. Selection must be based on performance relative to the chemicals and the actual task, including duration, conditions, physical stress, and needed dexterity.",
+        "Respirator use can impose a physiological burden. OSHA requires the employer to provide a medical evaluation before the employee is fit tested or required to use the respirator at work."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Primary and secondary eye-face protection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Protective footwear selection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Respirator medical evaluation sequence', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.138 - Hand Protection",
+      "sourceLocation": "Yates Chapter 14, arm and hand protection, pp. 398-400; OSHA 1910.138(b); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.138",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "09e79fff64c8030201c8fce58c34302ad3a699a3c1982875a1a65423a771f026"
+    },
+    {
+      "id": "PV2-CORE-CH14-024",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.09",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Employer payment for PPE",
+      "itemFamilyId": "PV2-CORE-CH14-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a PPE hazard assessment, the team reviews this question: Which PPE payment policy is consistent with OSHA general-industry requirements? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA defines oxygen deficiency below 19.5% and generally treats oxygen-deficient atmospheres as IDLH. Air-purifying respirators do not supply oxygen; IDLH entry requires the specified positive-pressure SCBA or supplied-air configuration with auxiliary SCBA.",
+        "PPE is the last line of defense because it does not remove the hazard. Feasible elimination, substitution, or engineering controls should reduce the source or pathway first; PPE remains necessary for residual and upset risks.",
+        "When no appropriate ESLI exists, OSHA requires a change schedule supported by objective information or data so cartridges are changed before the end of service life, with the basis documented in the program.",
+        "OSHA generally requires employer payment for required PPE but provides specific exceptions, including non-specialty safety-toe footwear permitted off the job. Replacement PPE is employer-paid except when lost or intentionally damaged by the employee."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Respirator selection for oxygen deficiency', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hierarchy of controls before PPE', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Gas-vapor cartridge change schedule', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.132 - General Requirements",
+      "sourceLocation": "Yates Chapter 14, PPE payment rule, p. 385; OSHA 1910.132(h); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.132",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9c9e4632d1b2ebd82fb06d670379ab5780cbca04b19f9ba938cc6ecc05b622ce"
+    },
+    {
+      "id": "PV2-CORE-CH14-025",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Respirator medical evaluation sequence",
+      "itemFamilyId": "PV2-CORE-CH14-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a respirator selection meeting, the team reviews this question: A new employee has been assigned a tight-fitting half-mask respirator. Which step must occur before fit testing or required workplace use? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Respirator use can impose a physiological burden. OSHA requires the employer to provide a medical evaluation before the employee is fit tested or required to use the respirator at work.",
+        "A different respirator facepiece requires a new fit test before use. OSHA also requires fit testing at least annually and when physical changes could affect fit.",
+        "OSHA requires written certification of the workplace hazard assessment with the workplace identified, the person certifying it, the date or dates, and language identifying the document as the certification.",
+        "OSHA prohibits tight-fitting facepieces when facial hair lies between the sealing surface and the face or interferes with valve function. An annual fit test does not override a later condition that compromises the seal."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Respirator fit-test triggers', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PPE hazard-assessment certification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Tight-fitting facepiece seal', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.134 - Respiratory Protection",
+      "sourceLocation": "Yates Chapter 14, respiratory protection program, pp. 396-398; OSHA 1910.134(e)(1); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "449be63255e3a928bd80d5a511065d20b25f322ae35808491d2762c547659061"
+    },
+    {
+      "id": "PV2-CORE-CH14-026",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Respirator fit-test triggers",
+      "itemFamilyId": "PV2-CORE-CH14-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fit-testing program audit, the team reviews this question: An employee passed a fit test six months ago, but the company changes to a different make and model of tight-fitting facepiece. What is required before use? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The helmet must match all identified hazards. OSHA requires protective helmets for falling-object exposure and electrically protective helmets where exposed conductors could contact the head.",
+        "A different respirator facepiece requires a new fit test before use. OSHA also requires fit testing at least annually and when physical changes could affect fit.",
+        "Eye protection must address the flying-object hazard, including side protection, while accommodating prescription lenses without disturbing the proper position of either the prescription or protective lenses.",
+        "No glove protects against every hazard. Selection must be based on performance relative to the chemicals and the actual task, including duration, conditions, physical stress, and needed dexterity."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Head protection for impact and electrical hazards', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Prescription eye protection and side protection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Chemical glove selection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.134 - Respiratory Protection",
+      "sourceLocation": "Yates Chapter 14, fit testing definitions and program elements, pp. 396-398; OSHA 1910.134(f)(2); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fc59b34956e55a200d7d176e8a3f2076a1e428732f4a5180c3c432e812ef95a2"
+    },
+    {
+      "id": "PV2-CORE-CH14-027",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Respirator selection for oxygen deficiency",
+      "itemFamilyId": "PV2-CORE-CH14-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a cartridge change-schedule review, the team reviews this question: Entry testing at sea level shows an atmosphere containing 18.8% oxygen, with the contaminant concentration not yet characterized. Which respiratory decision is appropriate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA generally requires employer payment for required PPE but provides specific exceptions, including non-specialty safety-toe footwear permitted off the job. Replacement PPE is employer-paid except when lost or intentionally damaged by the employee.",
+        "OSHA prohibits tight-fitting facepieces when facial hair lies between the sealing surface and the face or interferes with valve function. An annual fit test does not override a later condition that compromises the seal.",
+        "OSHA defines oxygen deficiency below 19.5% and generally treats oxygen-deficient atmospheres as IDLH. Air-purifying respirators do not supply oxygen; IDLH entry requires the specified positive-pressure SCBA or supplied-air configuration with auxiliary SCBA.",
+        "When no appropriate ESLI exists, OSHA requires a change schedule supported by objective information or data so cartridges are changed before the end of service life, with the basis documented in the program."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Employer payment for PPE', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Tight-fitting facepiece seal', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Gas-vapor cartridge change schedule', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.134 - Respiratory Protection",
+      "sourceLocation": "Yates Chapter 14, respirator types and limitations, pp. 396-398; OSHA 1910.134(b), (d)(2), and oxygen-deficiency definition; Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "39565ba40882dc256ccd6a7cf4a5af5a262828f3352dac773dfddf587b025659"
+    },
+    {
+      "id": "PV2-CORE-CH14-028",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Maximum use concentration",
+      "itemFamilyId": "PV2-CORE-CH14-F028",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a supplied-air respirator decision, solve the following problem and select the best answer: A contaminant has an OSHA exposure limit of 2 ppm. A selected half-mask respirator has an assigned protection factor of 10, and the contaminant IDLH value is 30 ppm. What is the maximum use concentration based on these facts?",
+      "options": [
+        "200 ppm, because the exposure limit is multiplied by the APF twice for a half-mask respirator.",
+        "30 ppm, because the IDLH value always becomes the routine maximum use concentration.",
+        "2 ppm, because a respirator cannot be used above the exposure limit.",
+        "20 ppm, because APF × exposure limit equals 20 ppm, below the IDLH concentration."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The calculated MUC is APF × exposure limit = 10 × 2 ppm = 20 ppm. Because 20 ppm is below the stated IDLH value and no lower cartridge limit is given, 20 ppm controls.",
+      "incorrectOptionExplanations": [
+        "The APF is applied once; multiplying it twice overstates the respirator’s protective capability.",
+        "The IDLH value is a ceiling on routine MUC calculations, but it does not replace a lower APF-based result.",
+        "Respirators may be selected to control exposure above a limit when used within their assigned protection and other program requirements.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.134 - Respiratory Protection",
+      "sourceLocation": "Yates Chapter 14, assigned protection concepts, pp. 396-398; OSHA 1910.134(b) and 1910.134(d)(3)(i)(B); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "MUC = APF × occupational exposure limit, limited by IDLH and cartridge/canister performance",
+      "units": "ppm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6761a3f8cab3a253948c64bd42d6a153cef2d9ac5c9d1c19ea0008e7b3d8ace5"
+    },
+    {
+      "id": "PV2-CORE-CH14-029",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Gas-vapor cartridge change schedule",
+      "itemFamilyId": "PV2-CORE-CH14-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a chemical protective clothing evaluation, the team reviews this question: A gas cartridge has no NIOSH-certified end-of-service-life indicator, and workers cannot reliably smell the contaminant. How should the employer control cartridge replacement? Which rationale most directly supports the correct answer?",
+      "options": [
+        "When no appropriate ESLI exists, OSHA requires a change schedule supported by objective information or data so cartridges are changed before the end of service life, with the basis documented in the program.",
+        "The calculated MUC is APF × exposure limit = 10 × 2 ppm = 20 ppm. Because 20 ppm is below the stated IDLH value and no lower cartridge limit is given, 20 ppm controls.",
+        "OSHA generally requires employer payment for required PPE but provides specific exceptions, including non-specialty safety-toe footwear permitted off the job. Replacement PPE is employer-paid except when lost or intentionally damaged by the employee.",
+        "PPE is the last line of defense because it does not remove the hazard. Feasible elimination, substitution, or engineering controls should reduce the source or pathway first; PPE remains necessary for residual and upset risks."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Maximum use concentration', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Employer payment for PPE', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hierarchy of controls before PPE', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.134 - Respiratory Protection",
+      "sourceLocation": "Yates Chapter 14, respirator limitations and program procedures, pp. 396-398; OSHA 1910.134(d)(3)(iii)(B)(2); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8c38fd98fbd8c042d7fb068cc7a70fdf17ab72e5416c1b3766a1e19b95bc0b0e"
+    },
+    {
+      "id": "PV2-CORE-CH14-030",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Tight-fitting facepiece seal",
+      "itemFamilyId": "PV2-CORE-CH14-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an eye and face protection review, the team reviews this question: A worker passed the annual fit test but later grows a beard that crosses the sealing surface of the tight-fitting respirator. What is the appropriate response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "PPE is the last line of defense because it does not remove the hazard. Feasible elimination, substitution, or engineering controls should reduce the source or pathway first; PPE remains necessary for residual and upset risks.",
+        "OSHA prohibits tight-fitting facepieces when facial hair lies between the sealing surface and the face or interferes with valve function. An annual fit test does not override a later condition that compromises the seal.",
+        "When no appropriate ESLI exists, OSHA requires a change schedule supported by objective information or data so cartridges are changed before the end of service life, with the basis documented in the program.",
+        "OSHA generally requires employer payment for required PPE but provides specific exceptions, including non-specialty safety-toe footwear permitted off the job. Replacement PPE is employer-paid except when lost or intentionally damaged by the employee."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Hierarchy of controls before PPE', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Gas-vapor cartridge change schedule', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Employer payment for PPE', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.134 - Respiratory Protection",
+      "sourceLocation": "Yates Chapter 14, respirator fit and limitations, pp. 396-398; OSHA 1910.134(g)(1); Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d7ad0e31097bcd84ebd727c3b47f8ce25128f2e2955f6ffe2ebb960f57bd64e3"
+    },
+    {
+      "id": "PV2-CORE-CH14-031",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PPE hazard assessment",
+      "itemFamilyId": "PV2-CORE-CH14-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a respirator selection meeting, a supervisor proposes: \"Keep the standardized PPE because uniformity is more important than chemical compatibility\". The underlying case is: A facility issues the same gloves and safety glasses to every department without documenting task hazards. Several chemicals permeate the selected gloves. What is the best corrective action? Which alternative is the most defensible correction?",
+      "options": [
+        "Keep the standardized PPE because uniformity is more important than chemical compatibility",
+        "Replace the gloves only after a worker experiences visible skin injury",
+        "Perform and certify a task-based PPE hazard assessment, select compatible equipment, communicate limitations, and train affected employees",
+        "Ask employees to choose any gloves that feel comfortable without reviewing permeation data"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "PPE selection must follow a documented hazard assessment and account for chemical, physical, fit, and task factors; one generic selection cannot be assumed protective.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Keep the standardized PPE because uniformity is more important than chemical compatibility' remains incomplete or misapplies the controlling ppe hazard assessment principle.",
+        "The proposed response 'Replace the gloves only after a worker experiences visible skin injury' remains incomplete or misapplies the controlling ppe hazard assessment principle.",
+        null,
+        "The proposed response 'Ask employees to choose any gloves that feel comfortable without reviewing permeation data' remains incomplete or misapplies the controlling ppe hazard assessment principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: PPE hazard assessment",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "36eacb63e0656aec22b3ed70fcd8847a0c4eea5fcd3fe87214ffaf4938782b5e"
+    },
+    {
+      "id": "PV2-CORE-CH14-032",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "respirator selection and IDLH",
+      "itemFamilyId": "PV2-CORE-CH14-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a fit-testing program audit, a supervisor proposes: \"Use a filtering facepiece because the worker will remain inside only a few minutes\". The underlying case is: A vessel may contain an unknown concentration of a highly toxic gas, and entry cannot be delayed for full characterization. Which respiratory protection approach is most defensible? Which alternative is the most defensible correction?",
+      "options": [
+        "Select any tight-fitting respirator if the worker passes a qualitative fit test",
+        "Use a filtering facepiece because the worker will remain inside only a few minutes",
+        "Use an air-purifying respirator with the highest available cartridge",
+        "Treat the atmosphere as potentially IDLH and use an appropriate positive-pressure supplied-air respirator with auxiliary escape or a positive-pressure SCBA"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Unknown concentrations and potentially IDLH conditions require atmosphere-supplying protection designed for IDLH entry; air-purifying devices depend on known contaminants and adequate oxygen.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Select any tight-fitting respirator if the worker passes a qualitative fit test' remains incomplete or misapplies the controlling respirator selection and idlh principle.",
+        "The proposed response 'Use a filtering facepiece because the worker will remain inside only a few minutes' remains incomplete or misapplies the controlling respirator selection and idlh principle.",
+        "The proposed response 'Use an air-purifying respirator with the highest available cartridge' remains incomplete or misapplies the controlling respirator selection and idlh principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: respirator selection and IDLH",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3be250339d104ec6024320d9281aeddc985f66c4f84e08be4b6939db37b0face"
+    },
+    {
+      "id": "PV2-CORE-CH14-033",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "medical evaluation before respirator use",
+      "itemFamilyId": "PV2-CORE-CH14-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a cartridge change-schedule review, a supervisor proposes: \"Replace medical evaluation with a signed employee waiver\". The underlying case is: A supervisor wants a new employee to complete a fit test and begin mandatory respirator use before medical review because the project is behind schedule. What should occur? Which alternative is the most defensible correction?",
+      "options": [
+        "Complete the required medical evaluation and obtain clearance before fit testing or required respirator use",
+        "Allow one shift of use before medical evaluation if the respirator is negative pressure",
+        "Replace medical evaluation with a signed employee waiver",
+        "Fit test first because fit testing determines medical ability to wear a respirator"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Mandatory respirator use can impose physiological burden. Medical evaluation must occur before fit testing or required use, and employees cannot waive that program element.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Allow one shift of use before medical evaluation if the respirator is negative pressure' remains incomplete or misapplies the controlling medical evaluation before respirator use principle.",
+        "The proposed response 'Replace medical evaluation with a signed employee waiver' remains incomplete or misapplies the controlling medical evaluation before respirator use principle.",
+        "The proposed response 'Fit test first because fit testing determines medical ability to wear a respirator' remains incomplete or misapplies the controlling medical evaluation before respirator use principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: medical evaluation before respirator use",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ec5f48d4c9c2ab6f8b132ac3b9c2935443006d448b34aaf4090ec93cf15cdb42"
+    },
+    {
+      "id": "PV2-CORE-CH14-034",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fit testing and facepiece changes",
+      "itemFamilyId": "PV2-CORE-CH14-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a supplied-air respirator decision, a supervisor proposes: \"Wait until the next annual test because early retesting is prohibited\". The underlying case is: An employee passes a fit test, then loses substantial weight and reports that the facepiece seal feels different. What should the program administrator do? Which alternative is the most defensible correction?",
+      "options": [
+        "Switch to a different tight-fitting facepiece without any fit test",
+        "Arrange an additional fit test and reassess facepiece size or model before relying on the respirator",
+        "Tighten straps as much as possible and continue work without reassessment",
+        "Wait until the next annual test because early retesting is prohibited"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Changes in physical condition that could affect fit trigger additional evaluation. Each tight-fitting facepiece make, model, style, and size relied upon must be fit tested.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Switch to a different tight-fitting facepiece without any fit test' remains incomplete or misapplies the controlling fit testing and facepiece changes principle.",
+        null,
+        "The proposed response 'Tighten straps as much as possible and continue work without reassessment' remains incomplete or misapplies the controlling fit testing and facepiece changes principle.",
+        "The proposed response 'Wait until the next annual test because early retesting is prohibited' remains incomplete or misapplies the controlling fit testing and facepiece changes principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: fit testing and facepiece changes",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "57d07402bceaf68b6179eb2f19375dbac4245d65af3ad8481ebe17ffff990991"
+    },
+    {
+      "id": "PV2-CORE-CH14-035",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cartridge change schedule",
+      "itemFamilyId": "PV2-CORE-CH14-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a chemical protective clothing evaluation, a supervisor proposes: \"Odor is the preferred federal method for every organic vapor\". The underlying case is: Employees use organic vapor cartridges for a contaminant with poor warning properties. The program replaces cartridges only when workers smell vapor. What is the main deficiency? Which alternative is the most defensible correction?",
+      "options": [
+        "A fit test automatically determines cartridge service life",
+        "Replace cartridges only when breathing resistance increases, without using a change schedule or service-life information",
+        "The program needs an objective cartridge change schedule or end-of-service-life indicator based on service conditions, not odor detection",
+        "Odor is the preferred federal method for every organic vapor"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Change schedules must protect before breakthrough. Odor thresholds and individual perception are unreliable and are not a substitute for an objective basis.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'A fit test automatically determines cartridge service life' remains incomplete or misapplies the controlling cartridge change schedule principle.",
+        "The proposed response 'Replace cartridges only when breathing resistance increases, without using a change schedule or service-life information' remains incomplete or misapplies the controlling cartridge change schedule principle.",
+        null,
+        "The proposed response 'Odor is the preferred federal method for every organic vapor' remains incomplete or misapplies the controlling cartridge change schedule principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: cartridge change schedule",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6c179435c964e98495f8d36d0975219dab62fb0a4b860c9f805490023f000a83"
+    },
+    {
+      "id": "PV2-CORE-CH14-036",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "voluntary respirator use",
+      "itemFamilyId": "PV2-CORE-CH14-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an eye and face protection review, a supervisor proposes: \"Allow use with no information or evaluation because the employer did not require it\". The underlying case is: Air monitoring shows no respirator is required, but employees wish to use elastomeric half-mask respirators voluntarily. What should the employer evaluate? Which alternative is the most defensible correction?",
+      "options": [
+        "Allow use with no information or evaluation because the employer did not require it",
+        "Treat voluntary use as identical to a full mandatory program in every respect",
+        "Prohibit all voluntary use because respirators may be used only above an exposure limit",
+        "Ensure use does not create a hazard, provide the required voluntary-use information, and implement applicable medical and maintenance elements"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Voluntary use is permitted when safe, but elastomeric respirators trigger specified program safeguards beyond merely handing out equipment.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Allow use with no information or evaluation because the employer did not require it' remains incomplete or misapplies the controlling voluntary respirator use principle.",
+        "The proposed response 'Treat voluntary use as identical to a full mandatory program in every respect' remains incomplete or misapplies the controlling voluntary respirator use principle.",
+        "The proposed response 'Prohibit all voluntary use because respirators may be used only above an exposure limit' remains incomplete or misapplies the controlling voluntary respirator use principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: voluntary respirator use",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b15469a0186cb5b0a6388d118f3c913438ca28fdea13b1859025cedee012efde"
+    },
+    {
+      "id": "PV2-CORE-CH14-037",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "chemical protective clothing breakthrough",
+      "itemFamilyId": "PV2-CORE-CH14-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a respiratory medical-evaluation audit, a supervisor proposes: \"Good degradation resistance proves the glove prevents permeation for the entire shift\". The underlying case is: A glove chart lists excellent degradation resistance but a very short permeation breakthrough time for the solvent and task duration. Which conclusion is correct? Which alternative is the most defensible correction?",
+      "options": [
+        "The glove may remain physically intact while the chemical passes through, so a different material or replacement strategy is needed",
+        "Breakthrough time matters only when holes are visibly present",
+        "Good degradation resistance proves the glove prevents permeation for the entire shift",
+        "Double-gloving with the same material always doubles breakthrough time exactly"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Degradation and permeation are different properties. A glove can look sound while molecules pass through, and multilayer performance must be supported by data.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Breakthrough time matters only when holes are visibly present' remains incomplete or misapplies the controlling chemical protective clothing breakthrough principle.",
+        "The proposed response 'Good degradation resistance proves the glove prevents permeation for the entire shift' remains incomplete or misapplies the controlling chemical protective clothing breakthrough principle.",
+        "The proposed response 'Double-gloving with the same material always doubles breakthrough time exactly' remains incomplete or misapplies the controlling chemical protective clothing breakthrough principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: chemical protective clothing breakthrough",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "51672a9879fe397c87396533ae37752595b8ea236329f034a565bcabe2c43210"
+    },
+    {
+      "id": "PV2-CORE-CH14-038",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "eye and face protection layering",
+      "itemFamilyId": "PV2-CORE-CH14-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a PPE hazard assessment, a supervisor proposes: \"Use ordinary prescription glasses beneath no additional protection\". The underlying case is: A grinding task presents high-speed particle impact to the eyes and face. Which PPE arrangement is most appropriate? Which alternative is the most defensible correction?",
+      "options": [
+        "Close one eye while positioning the face shield near the tool",
+        "Wear suitable safety spectacles or goggles as primary eye protection with a face shield as secondary face protection",
+        "Use a face shield alone because it replaces primary eye protection",
+        "Use ordinary prescription glasses beneath no additional protection"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A face shield protects the face but generally does not replace primary eye protection against flying particles; compatible layered protection is required.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Close one eye while positioning the face shield near the tool' remains incomplete or misapplies the controlling eye and face protection layering principle.",
+        null,
+        "The proposed response 'Use a face shield alone because it replaces primary eye protection' remains incomplete or misapplies the controlling eye and face protection layering principle.",
+        "The proposed response 'Use ordinary prescription glasses beneath no additional protection' remains incomplete or misapplies the controlling eye and face protection layering principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: eye and face protection layering",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3c53c94ae1835a23f3e21069bb16146463c50c2badb71a65c77c8013f769a6e8"
+    },
+    {
+      "id": "PV2-CORE-CH14-039",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PPE hazard assessment",
+      "itemFamilyId": "PV2-CORE-CH14-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fit-testing program audit, the team selects \"Perform and certify a task-based PPE hazard assessment, select compatible equipment, communicate limitations, and train affected employees\" rather than \"Ask employees to choose any gloves that feel comfortable without reviewing permeation data\" for this case: A facility issues the same gloves and safety glasses to every department without documenting task hazards. Several chemicals permeate the selected gloves. What is the best corrective action? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Degradation and permeation are different properties. A glove can look sound while molecules pass through, and multilayer performance must be supported by data.",
+        "Changes in physical condition that could affect fit trigger additional evaluation. Each tight-fitting facepiece make, model, style, and size relied upon must be fit tested.",
+        "PPE selection must follow a documented hazard assessment and account for chemical, physical, fit, and task factors; one generic selection cannot be assumed protective.",
+        "Unknown concentrations and potentially IDLH conditions require atmosphere-supplying protection designed for IDLH entry; air-purifying devices depend on known contaminants and adequate oxygen."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the ppe hazard assessment issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'chemical protective clothing breakthrough' and does not distinguish the two responses in the present ppe hazard assessment decision.",
+        "This explanation concerns 'fit testing and facepiece changes' and does not distinguish the two responses in the present ppe hazard assessment decision.",
+        null,
+        "This explanation concerns 'respirator selection and IDLH' and does not distinguish the two responses in the present ppe hazard assessment decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: PPE hazard assessment",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6060a73e85c3b6fbe3b274a1864725f8747aa2289fd5a8e3880fe65736826cd0"
+    },
+    {
+      "id": "PV2-CORE-CH14-040",
+      "version": 1,
+      "chapterId": "ch-14",
+      "chapterTitle": "Personal Protective Equipment and Respiratory Protection",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "respirator selection and IDLH",
+      "itemFamilyId": "PV2-CORE-CH14-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a cartridge change-schedule review, the team selects \"Treat the atmosphere as potentially IDLH and use an appropriate positive-pressure supplied-air respirator with auxiliary escape or a positive-pressure SCBA\" rather than \"Select any tight-fitting respirator if the worker passes a qualitative fit test\" for this case: A vessel may contain an unknown concentration of a highly toxic gas, and entry cannot be delayed for full characterization. Which respiratory protection approach is most defensible? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Changes in physical condition that could affect fit trigger additional evaluation. Each tight-fitting facepiece make, model, style, and size relied upon must be fit tested.",
+        "Voluntary use is permitted when safe, but elastomeric respirators trigger specified program safeguards beyond merely handing out equipment.",
+        "Degradation and permeation are different properties. A glove can look sound while molecules pass through, and multilayer performance must be supported by data.",
+        "Unknown concentrations and potentially IDLH conditions require atmosphere-supplying protection designed for IDLH entry; air-purifying devices depend on known contaminants and adequate oxygen."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the respirator selection and idlh issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'fit testing and facepiece changes' and does not distinguish the two responses in the present respirator selection and idlh decision.",
+        "This explanation concerns 'voluntary respirator use' and does not distinguish the two responses in the present respirator selection and idlh decision.",
+        "This explanation concerns 'chemical protective clothing breakthrough' and does not distinguish the two responses in the present respirator selection and idlh decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 14, pp. 385-407; 29 CFR 1910.132 and 1910.134; curated topic: respirator selection and IDLH",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.134",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6701fc8674feeeb1e89e1f4315f197098540948960d0ac6b56dd497e020cfa73"
+    }
+  ]
+}

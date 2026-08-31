@@ -1,0 +1,2329 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-38-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-38",
+  "chapterTitle": "Process Safety Management and Management of Change",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH38-001",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "process safety information quality",
+      "itemFamilyId": "PV2-CORE-CH38-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A process hazard analysis team receives incomplete chemical reactivity data and outdated piping drawings but is told to complete the review on schedule. What is the best response?",
+      "options": [
+        "Resolve or explicitly control the critical information gaps before relying on the analysis, and document validated process safety information",
+        "Complete the analysis using assumptions that are not identified in the record",
+        "Treat operator memory as a permanent substitute for current drawings",
+        "Remove reactivity scenarios so the review can finish on time"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A defensible PHA depends on accurate, complete process safety information. Material gaps should be corrected or managed transparently before conclusions are accepted.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Complete the analysis using assumptions that are not identified in the record' does not apply the controlling principle for process safety information quality to the facts given, so it is not the best answer.",
+        "The option 'Treat operator memory as a permanent substitute for current drawings' does not apply the controlling principle for process safety information quality to the facts given, so it is not the best answer.",
+        "The option 'Remove reactivity scenarios so the review can finish on time' does not apply the controlling principle for process safety information quality to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: process safety information quality",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "862c7c542673c2f45288db65183c60929667bb80fb8222e808ed9d3c398d27c8"
+    },
+    {
+      "id": "PV2-CORE-CH38-002",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "process hazard analysis safeguards",
+      "itemFamilyId": "PV2-CORE-CH38-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A PHA lists “operator training” as the only safeguard for high-pressure runaway reaction. Which challenge is most important?",
+      "options": [
+        "Accept training as independent of every equipment and procedural failure",
+        "Determine whether independent engineered prevention and mitigation layers are needed and whether the claimed safeguard has defined, verifiable performance",
+        "Delete the scenario because trained operators cannot make errors",
+        "Count each training topic as a separate independent protection layer"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "High-consequence scenarios usually require reliable, appropriately independent layers. Administrative controls should not be credited without realistic performance and assurance.",
+      "incorrectOptionExplanations": [
+        "The option 'Accept training as independent of every equipment and procedural failure' does not apply the controlling principle for process hazard analysis safeguards to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Delete the scenario because trained operators cannot make errors' does not apply the controlling principle for process hazard analysis safeguards to the facts given, so it is not the best answer.",
+        "The option 'Count each training topic as a separate independent protection layer' does not apply the controlling principle for process hazard analysis safeguards to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: process hazard analysis safeguards",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "93f5a76ac18b4b39b325871ec921078313570d8a5fb2b968d5e100bc4028f89f"
+    },
+    {
+      "id": "PV2-CORE-CH38-003",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PHA recommendation resolution",
+      "itemFamilyId": "PV2-CORE-CH38-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A PHA recommendation to install high-high shutdown protection remains open for three years, and production continues under an undocumented verbal agreement. What is the central deficiency?",
+      "options": [
+        "PHA recommendations are optional once the meeting ends",
+        "Recommendations can remain open indefinitely if no incident occurs",
+        "Recommendations require timely documented resolution, communicated decisions, interim risk management, and completion tracking",
+        "A verbal acceptance is equivalent to documented risk resolution"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+      "incorrectOptionExplanations": [
+        "The option 'PHA recommendations are optional once the meeting ends' does not apply the controlling principle for pha recommendation resolution to the facts given, so it is not the best answer.",
+        "The option 'Recommendations can remain open indefinitely if no incident occurs' does not apply the controlling principle for pha recommendation resolution to the facts given, so it is not the best answer.",
+        null,
+        "The option 'A verbal acceptance is equivalent to documented risk resolution' does not apply the controlling principle for pha recommendation resolution to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: PHA recommendation resolution",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3a753452ec733114ae4038d274a8cad288ab74fefc637870e6773acb15f8656e"
+    },
+    {
+      "id": "PV2-CORE-CH38-004",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management of change screening",
+      "itemFamilyId": "PV2-CORE-CH38-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Maintenance replaces a process valve with one having the same nominal size but a different trim material and failure position. Is MOC review warranted?",
+      "options": [
+        "Only the purchasing department needs to approve material substitution",
+        "No; MOC applies only to changes in production rate",
+        "No; classify the valve as replacement-in-kind based on nominal pipe size without reviewing trim material or failure position",
+        "Yes; seemingly equivalent replacement can change compatibility, flow, fail-safe behavior, and process risk and should be screened under the MOC process"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review.",
+      "incorrectOptionExplanations": [
+        "The option 'Only the purchasing department needs to approve material substitution' does not apply the controlling principle for management of change screening to the facts given, so it is not the best answer.",
+        "The option 'No; MOC applies only to changes in production rate' does not apply the controlling principle for management of change screening to the facts given, so it is not the best answer.",
+        "The option 'No; classify the valve as replacement-in-kind based on nominal pipe size without reviewing trim material or failure position' does not apply the controlling principle for management of change screening to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: management of change screening",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ec0fc1b0a6fbbf3d816b048c361bf618ed029bcfcfa954fd5fcba3b0e05a344f"
+    },
+    {
+      "id": "PV2-CORE-CH38-005",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "MOC affected information and training",
+      "itemFamilyId": "PV2-CORE-CH38-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A control logic change is approved and installed, but operating procedures, alarm response, drawings, and operator training are unchanged. What is missing?",
+      "options": [
+        "The MOC must update affected information and procedures and ensure impacted personnel are trained before or as the change becomes operational",
+        "Annual refresher training is sufficient regardless of when the change starts",
+        "Software changes do not affect process safety documentation",
+        "Only the programmer needs to understand the new alarm logic"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "MOC coordinates technical review, documentation, procedure changes, communication, and training so the organization operates the changed process as intended.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Annual refresher training is sufficient regardless of when the change starts' does not apply the controlling principle for moc affected information and training to the facts given, so it is not the best answer.",
+        "The option 'Software changes do not affect process safety documentation' does not apply the controlling principle for moc affected information and training to the facts given, so it is not the best answer.",
+        "The option 'Only the programmer needs to understand the new alarm logic' does not apply the controlling principle for moc affected information and training to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: MOC affected information and training",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "713bd582555b385f9fb7cc5d1dd2863909146532fd203b641960804ba4b62040"
+    },
+    {
+      "id": "PV2-CORE-CH38-006",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pre-startup safety review",
+      "itemFamilyId": "PV2-CORE-CH38-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A new covered process is mechanically complete, but relief-device documentation and operator training are incomplete. Management wants to introduce chemicals for a schedule milestone. What should happen?",
+      "options": [
+        "Replace the pre-startup review with a management email accepting the schedule risk",
+        "Delay startup until the pre-startup review confirms construction, procedures, training, and safety systems are complete and appropriate",
+        "Start at reduced rate because incomplete safeguards matter only at full production",
+        "Introduce chemicals and finish documentation during operation"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A PSSR verifies readiness before hazardous chemicals are introduced. Schedule pressure does not replace completion of critical design, procedure, and training requirements.",
+      "incorrectOptionExplanations": [
+        "The option 'Replace the pre-startup review with a management email accepting the schedule risk' does not apply the controlling principle for pre-startup safety review to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Start at reduced rate because incomplete safeguards matter only at full production' does not apply the controlling principle for pre-startup safety review to the facts given, so it is not the best answer.",
+        "The option 'Introduce chemicals and finish documentation during operation' does not apply the controlling principle for pre-startup safety review to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: pre-startup safety review",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e3de92b87e0ee5b53ed81b0987a344e3069dd5b031af4228f474a81061704f7c"
+    },
+    {
+      "id": "PV2-CORE-CH38-007",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mechanical integrity and deficiency management",
+      "itemFamilyId": "PV2-CORE-CH38-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Inspection finds thinning below the established minimum in a pressure boundary, but the unit can still operate at normal conditions for several weeks. What is the best response?",
+      "options": [
+        "Increase operating pressure to confirm whether the component will fail",
+        "Continue indefinitely because no leak is visible",
+        "Evaluate fitness for service through competent engineering, control the risk, and repair or replace within a documented safe operating basis",
+        "Delete the minimum thickness from the inspection plan"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Mechanical integrity requires timely correction of equipment deficiencies or documented safe operation based on technical evaluation—not waiting for loss of containment.",
+      "incorrectOptionExplanations": [
+        "The option 'Increase operating pressure to confirm whether the component will fail' does not apply the controlling principle for mechanical integrity and deficiency management to the facts given, so it is not the best answer.",
+        "The option 'Continue indefinitely because no leak is visible' does not apply the controlling principle for mechanical integrity and deficiency management to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Delete the minimum thickness from the inspection plan' does not apply the controlling principle for mechanical integrity and deficiency management to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: mechanical integrity and deficiency management",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5fba4a5f04f733cdb04629d7105299eae4b1982984fc63039751a927683fce4a"
+    },
+    {
+      "id": "PV2-CORE-CH38-008",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contractor coordination under PSM",
+      "itemFamilyId": "PV2-CORE-CH38-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A turnaround contractor receives site orientation but no information about process hazards, emergency actions, or the effect of its hot work on adjacent units. What is missing?",
+      "options": [
+        "Contractor injury rates replace task-specific hazard communication",
+        "Hot work permits are unnecessary when the contractor has its own safety manual",
+        "General orientation is sufficient because contractors control all site hazards",
+        "Host and contractor must coordinate process hazards, safe work practices, emergency information, performance expectations, and control of contractor activities"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "PSM contractor management is a two-way coordination process tied to covered-process hazards and work interfaces, not a generic orientation alone.",
+      "incorrectOptionExplanations": [
+        "The option 'Contractor injury rates replace task-specific hazard communication' does not apply the controlling principle for contractor coordination under psm to the facts given, so it is not the best answer.",
+        "The option 'Hot work permits are unnecessary when the contractor has its own safety manual' does not apply the controlling principle for contractor coordination under psm to the facts given, so it is not the best answer.",
+        "The option 'General orientation is sufficient because contractors control all site hazards' does not apply the controlling principle for contractor coordination under psm to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: contractor coordination under PSM",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7b39455e16b440a03a5261a5d6f9ca0076ee00ba1dd7422c33afa0d0295f35a8"
+    },
+    {
+      "id": "PV2-CORE-CH38-009",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "process safety information quality",
+      "itemFamilyId": "PV2-CORE-CH38-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a management-of-change request, the team reviews this case: A process hazard analysis team receives incomplete chemical reactivity data and outdated piping drawings but is told to complete the review on schedule. What is the best response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A defensible PHA depends on accurate, complete process safety information. Material gaps should be corrected or managed transparently before conclusions are accepted.",
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review.",
+        "A PSSR verifies readiness before hazardous chemicals are introduced. Schedule pressure does not replace completion of critical design, procedure, and training requirements.",
+        "PSM contractor management is a two-way coordination process tied to covered-process hazards and work interfaces, not a generic orientation alone."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses process safety information quality and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'management of change screening', but it does not resolve the process safety information quality issue in this case.",
+        "This rationale supports the separate chapter topic 'pre-startup safety review', but it does not resolve the process safety information quality issue in this case.",
+        "This rationale supports the separate chapter topic 'contractor coordination under PSM', but it does not resolve the process safety information quality issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: process safety information quality",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "92e673120f3275f1565c45031b336416e01334f407992dfa67fde23ab2dab09e"
+    },
+    {
+      "id": "PV2-CORE-CH38-010",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "process hazard analysis safeguards",
+      "itemFamilyId": "PV2-CORE-CH38-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a pre-startup safety review, the team reviews this case: A PHA lists “operator training” as the only safeguard for high-pressure runaway reaction. Which challenge is most important? Which rationale most directly supports the correct decision?",
+      "options": [
+        "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+        "High-consequence scenarios usually require reliable, appropriately independent layers. Administrative controls should not be credited without realistic performance and assurance.",
+        "A defensible PHA depends on accurate, complete process safety information. Material gaps should be corrected or managed transparently before conclusions are accepted.",
+        "Mechanical integrity requires timely correction of equipment deficiencies or documented safe operation based on technical evaluation—not waiting for loss of containment."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses process hazard analysis safeguards and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'PHA recommendation resolution', but it does not resolve the process hazard analysis safeguards issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'process safety information quality', but it does not resolve the process hazard analysis safeguards issue in this case.",
+        "This rationale supports the separate chapter topic 'mechanical integrity and deficiency management', but it does not resolve the process hazard analysis safeguards issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: process hazard analysis safeguards",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0f15758c59732779f4be6c089f51590e59f02256d30315e404076371adebefc5"
+    },
+    {
+      "id": "PV2-CORE-CH38-011",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PHA recommendation resolution",
+      "itemFamilyId": "PV2-CORE-CH38-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a mechanical integrity finding, the team reviews this case: A PHA recommendation to install high-high shutdown protection remains open for three years, and production continues under an undocumented verbal agreement. What is the central deficiency? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A PSSR verifies readiness before hazardous chemicals are introduced. Schedule pressure does not replace completion of critical design, procedure, and training requirements.",
+        "A defensible PHA depends on accurate, complete process safety information. Material gaps should be corrected or managed transparently before conclusions are accepted.",
+        "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses pha recommendation resolution and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'pre-startup safety review', but it does not resolve the pha recommendation resolution issue in this case.",
+        "This rationale supports the separate chapter topic 'process safety information quality', but it does not resolve the pha recommendation resolution issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'management of change screening', but it does not resolve the pha recommendation resolution issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: PHA recommendation resolution",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3ab9cff454ee297decd2a00a5d40e01506ad09ebe750e22adc1c014bca2b86a3"
+    },
+    {
+      "id": "PV2-CORE-CH38-012",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management of change screening",
+      "itemFamilyId": "PV2-CORE-CH38-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a contractor PSM coordination meeting, the team reviews this case: Maintenance replaces a process valve with one having the same nominal size but a different trim material and failure position. Is MOC review warranted? Which rationale most directly supports the correct decision?",
+      "options": [
+        "PSM contractor management is a two-way coordination process tied to covered-process hazards and work interfaces, not a generic orientation alone.",
+        "A defensible PHA depends on accurate, complete process safety information. Material gaps should be corrected or managed transparently before conclusions are accepted.",
+        "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses management of change screening and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'contractor coordination under PSM', but it does not resolve the management of change screening issue in this case.",
+        "This rationale supports the separate chapter topic 'process safety information quality', but it does not resolve the management of change screening issue in this case.",
+        "This rationale supports the separate chapter topic 'PHA recommendation resolution', but it does not resolve the management of change screening issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: management of change screening",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7e8d3d6cc2b2e43524e0ce7ac62167a2059540e858e8a6955915aa4370b55b9c"
+    },
+    {
+      "id": "PV2-CORE-CH38-013",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "MOC affected information and training",
+      "itemFamilyId": "PV2-CORE-CH38-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an emergency planning interface, the team reviews this case: A control logic change is approved and installed, but operating procedures, alarm response, drawings, and operator training are unchanged. What is missing? Which rationale most directly supports the correct decision?",
+      "options": [
+        "MOC coordinates technical review, documentation, procedure changes, communication, and training so the organization operates the changed process as intended.",
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review.",
+        "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+        "PSM contractor management is a two-way coordination process tied to covered-process hazards and work interfaces, not a generic orientation alone."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses moc affected information and training and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'management of change screening', but it does not resolve the moc affected information and training issue in this case.",
+        "This rationale supports the separate chapter topic 'PHA recommendation resolution', but it does not resolve the moc affected information and training issue in this case.",
+        "This rationale supports the separate chapter topic 'contractor coordination under PSM', but it does not resolve the moc affected information and training issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: MOC affected information and training",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2aba7a7f34aba8fa2f5296c02001755e3d5937772bce5449013abda6f48f4206"
+    },
+    {
+      "id": "PV2-CORE-CH38-014",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pre-startup safety review",
+      "itemFamilyId": "PV2-CORE-CH38-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an operating-procedure change, the team reviews this case: A new covered process is mechanically complete, but relief-device documentation and operator training are incomplete. Management wants to introduce chemicals for a schedule milestone. What should happen? Which rationale most directly supports the correct decision?",
+      "options": [
+        "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+        "A PSSR verifies readiness before hazardous chemicals are introduced. Schedule pressure does not replace completion of critical design, procedure, and training requirements.",
+        "A defensible PHA depends on accurate, complete process safety information. Material gaps should be corrected or managed transparently before conclusions are accepted.",
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses pre-startup safety review and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'PHA recommendation resolution', but it does not resolve the pre-startup safety review issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'process safety information quality', but it does not resolve the pre-startup safety review issue in this case.",
+        "This rationale supports the separate chapter topic 'management of change screening', but it does not resolve the pre-startup safety review issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: pre-startup safety review",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ef19f79e962085054903f2a01aecee369135f10ea7cf08151db2882b28f670d1"
+    },
+    {
+      "id": "PV2-CORE-CH38-015",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mechanical integrity and deficiency management",
+      "itemFamilyId": "PV2-CORE-CH38-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a process safety information review, the team reviews this case: Inspection finds thinning below the established minimum in a pressure boundary, but the unit can still operate at normal conditions for several weeks. What is the best response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+        "A defensible PHA depends on accurate, complete process safety information. Material gaps should be corrected or managed transparently before conclusions are accepted.",
+        "Mechanical integrity requires timely correction of equipment deficiencies or documented safe operation based on technical evaluation—not waiting for loss of containment.",
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses mechanical integrity and deficiency management and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'PHA recommendation resolution', but it does not resolve the mechanical integrity and deficiency management issue in this case.",
+        "This rationale supports the separate chapter topic 'process safety information quality', but it does not resolve the mechanical integrity and deficiency management issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'management of change screening', but it does not resolve the mechanical integrity and deficiency management issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: mechanical integrity and deficiency management",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dcc72385d95071cc68ad657013c8de6a489d0c4f856ac2fa98c1850e76c00deb"
+    },
+    {
+      "id": "PV2-CORE-CH38-016",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contractor coordination under PSM",
+      "itemFamilyId": "PV2-CORE-CH38-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a process hazard analysis revalidation, the team reviews this case: A turnaround contractor receives site orientation but no information about process hazards, emergency actions, or the effect of its hot work on adjacent units. What is missing? Which rationale most directly supports the correct decision?",
+      "options": [
+        "MOC coordinates technical review, documentation, procedure changes, communication, and training so the organization operates the changed process as intended.",
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review.",
+        "High-consequence scenarios usually require reliable, appropriately independent layers. Administrative controls should not be credited without realistic performance and assurance.",
+        "PSM contractor management is a two-way coordination process tied to covered-process hazards and work interfaces, not a generic orientation alone."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses contractor coordination under psm and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'MOC affected information and training', but it does not resolve the contractor coordination under psm issue in this case.",
+        "This rationale supports the separate chapter topic 'management of change screening', but it does not resolve the contractor coordination under psm issue in this case.",
+        "This rationale supports the separate chapter topic 'process hazard analysis safeguards', but it does not resolve the contractor coordination under psm issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: contractor coordination under PSM",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f8e3f68ce647aeacfda31122f31e46e568bf781a206f82d93e395dcaf449508d"
+    },
+    {
+      "id": "PV2-CORE-CH38-017",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PSM purpose",
+      "itemFamilyId": "PV2-CORE-CH38-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a process hazard analysis revalidation, the team reviews this question: What is the central purpose of OSHA process safety management? Which rationale most directly supports the correct answer?",
+      "options": [
+        "PSM integrates process information, hazard analysis, operating discipline, integrity, change control, and learning to prevent major releases.",
+        "A change in equipment capability or process conditions is not replacement in kind and requires formal pre-change evaluation.",
+        "Process safety includes both prevention and preparation for credible releases through appropriate emergency action or response arrangements.",
+        "PSM requires prompt initiation, no later than 48 hours, to preserve evidence and begin learning from the event."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'MOC trigger', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Emergency planning interface', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Incident investigation timing', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM homework; OSHA 1910.119 purpose and elements; Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f23472803a766c32e7176bfbc3181e5b04291ee55a7f79de7ba3320bfd79d66a"
+    },
+    {
+      "id": "PV2-CORE-CH38-018",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PSI before PHA",
+      "itemFamilyId": "PV2-CORE-CH38-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a management-of-change request, the team reviews this question: A team begins a process hazard analysis without current chemical, technology, or equipment information. What should happen? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The team must combine process knowledge, operating experience, engineering expertise, and competence in the analysis methodology.",
+        "A meaningful PHA depends on accurate process safety information about hazards, process technology, and equipment.",
+        "PSM contractor provisions require informed selection, hazard and emergency communication, safe-work coordination, and performance oversight.",
+        "PSM integrates process information, hazard analysis, operating discipline, integrity, change control, and learning to prevent major releases."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'PHA team composition', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Contractor process safety', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PSM purpose', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38; OSHA 1910.119(d) and (e); Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ae3449d7f79f859459de3ae94e7743933556f1b8180299ae4ce1f0eb1d38e75a"
+    },
+    {
+      "id": "PV2-CORE-CH38-019",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PHA team composition",
+      "itemFamilyId": "PV2-CORE-CH38-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a pre-startup safety review, the team reviews this question: Which team composition best supports a PHA? Which rationale most directly supports the correct answer?",
+      "options": [
+        "PSM integrates process information, hazard analysis, operating discipline, integrity, change control, and learning to prevent major releases.",
+        "Operating limits define safe conditions and consequences of deviation; recurring departures require control and formal evaluation.",
+        "The team must combine process knowledge, operating experience, engineering expertise, and competence in the analysis methodology.",
+        "A meaningful PHA depends on accurate process safety information about hazards, process technology, and equipment."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'PSM purpose', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Operating procedures', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'PSI before PHA', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM material; OSHA 1910.119(e); Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "004b12fe6749cab7d4c62a945cf0847ee378cb75b3327e5e03f2e4e57a9b4019"
+    },
+    {
+      "id": "PV2-CORE-CH38-020",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "MOC trigger",
+      "itemFamilyId": "PV2-CORE-CH38-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a mechanical integrity finding, the team reviews this question: A pump is replaced with a higher-capacity model that changes flow and pressure. How should the change be managed? Which rationale most directly supports the correct answer?",
+      "options": [
+        "PSM requires prompt initiation, no later than 48 hours, to preserve evidence and begin learning from the event.",
+        "PSM requires a compliance audit at least every three years, with at least one knowledgeable person on the audit team.",
+        "PSM integrates process information, hazard analysis, operating discipline, integrity, change control, and learning to prevent major releases.",
+        "A change in equipment capability or process conditions is not replacement in kind and requires formal pre-change evaluation."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Incident investigation timing', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Compliance audit interval', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PSM purpose', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38, what constitutes a change; OSHA 1910.119(l); Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "91f80d3c346c780db78aac175c3287009a9667fe9d23a866b26445dc5cd1997c"
+    },
+    {
+      "id": "PV2-CORE-CH38-021",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "MOC required considerations",
+      "itemFamilyId": "PV2-CORE-CH38-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a contractor PSM coordination meeting, the team reviews this question: Which item must be addressed before a covered process change is made? Which rationale most directly supports the correct answer?",
+      "options": [
+        "MOC evaluates why the change is proposed, how it affects risk, what documents and training change, its duration, and who authorizes it.",
+        "PSM integrates process information, hazard analysis, operating discipline, integrity, change control, and learning to prevent major releases.",
+        "A change in equipment capability or process conditions is not replacement in kind and requires formal pre-change evaluation.",
+        "PSM requires a compliance audit at least every three years, with at least one knowledgeable person on the audit team."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'PSM purpose', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'MOC trigger', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Compliance audit interval', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38, MOC process, pp. 859-868; OSHA 1910.119(l); Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "187cc6f671aa3394c2a2945fdc0b6ce2af0698f70a4f363d3483c7990d1363f0"
+    },
+    {
+      "id": "PV2-CORE-CH38-022",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pre-startup safety review",
+      "itemFamilyId": "PV2-CORE-CH38-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an emergency planning interface, the team reviews this question: A modified covered process is mechanically complete, but procedures and operator training are unfinished. Can startup proceed? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Deficiencies outside acceptable limits require timely correction using recognized engineering and mechanical-integrity practices.",
+        "PSSR confirms design conformity, procedure readiness, resolved PHA/MOC requirements, and training before startup.",
+        "A meaningful PHA depends on accurate process safety information about hazards, process technology, and equipment.",
+        "PSM contractor provisions require informed selection, hazard and emergency communication, safe-work coordination, and performance oversight."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Mechanical integrity', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'PSI before PHA', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Contractor process safety', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM material; OSHA 1910.119(i); Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9b054c02d4c43ba046428c376e8ce0b932f82000185d6d9ca55d87dd5af9c7f8"
+    },
+    {
+      "id": "PV2-CORE-CH38-023",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Mechanical integrity",
+      "itemFamilyId": "PV2-CORE-CH38-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an operating-procedure change, the team reviews this question: Inspection finds corrosion below the documented acceptable thickness on process piping. What is the strongest response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A meaningful PHA depends on accurate process safety information about hazards, process technology, and equipment.",
+        "PSM contractor provisions require informed selection, hazard and emergency communication, safe-work coordination, and performance oversight.",
+        "Deficiencies outside acceptable limits require timely correction using recognized engineering and mechanical-integrity practices.",
+        "PSSR confirms design conformity, procedure readiness, resolved PHA/MOC requirements, and training before startup."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'PSI before PHA', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Contractor process safety', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Pre-startup safety review', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM material; OSHA 1910.119(j); Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e8382fa875acaa9108505db68931136cacc447bd4a7a748e560201cf73d9f1f3"
+    },
+    {
+      "id": "PV2-CORE-CH38-024",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Operating procedures",
+      "itemFamilyId": "PV2-CORE-CH38-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a process safety information review, the team reviews this question: A process is routinely operated outside its written safe upper limit to meet demand. What should happen first? Which rationale most directly supports the correct answer?",
+      "options": [
+        "PSM integrates process information, hazard analysis, operating discipline, integrity, change control, and learning to prevent major releases.",
+        "The team must combine process knowledge, operating experience, engineering expertise, and competence in the analysis methodology.",
+        "A meaningful PHA depends on accurate process safety information about hazards, process technology, and equipment.",
+        "Operating limits define safe conditions and consequences of deviation; recurring departures require control and formal evaluation."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'PSM purpose', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PHA team composition', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PSI before PHA', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM material; OSHA 1910.119(f) and (l); Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "af9a3b106726281afc804c44e51ac87f07082fc7aa493afa362fd02767b06325"
+    },
+    {
+      "id": "PV2-CORE-CH38-025",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Contractor process safety",
+      "itemFamilyId": "PV2-CORE-CH38-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a process hazard analysis revalidation, the team reviews this question: A contractor will perform turnaround work inside a covered process. Which host action is essential? Which rationale most directly supports the correct answer?",
+      "options": [
+        "PSM contractor provisions require informed selection, hazard and emergency communication, safe-work coordination, and performance oversight.",
+        "A meaningful PHA depends on accurate process safety information about hazards, process technology, and equipment.",
+        "Process safety includes both prevention and preparation for credible releases through appropriate emergency action or response arrangements.",
+        "The team must combine process knowledge, operating experience, engineering expertise, and competence in the analysis methodology."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'PSI before PHA', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Emergency planning interface', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PHA team composition', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 38 and PSM homework; OSHA 1910.119(h); Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ec1c657f321d7040f799221ae00e10de94b522849fc1996ca297e602be988acc"
+    },
+    {
+      "id": "PV2-CORE-CH38-026",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Incident investigation timing",
+      "itemFamilyId": "PV2-CORE-CH38-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a management-of-change request, the team reviews this question: Under OSHA PSM, when must an incident investigation be initiated after an incident that resulted in or could reasonably have resulted in a catastrophic release? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A change in equipment capability or process conditions is not replacement in kind and requires formal pre-change evaluation.",
+        "PSM requires prompt initiation, no later than 48 hours, to preserve evidence and begin learning from the event.",
+        "PSM integrates process information, hazard analysis, operating discipline, integrity, change control, and learning to prevent major releases.",
+        "Process safety includes both prevention and preparation for credible releases through appropriate emergency action or response arrangements."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'MOC trigger', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'PSM purpose', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Emergency planning interface', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.119, Process Safety Management",
+      "sourceLocation": "OSHA 1910.119(m), incident investigation; Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c031f23b6e8c8307cc45e504074f3e52eafd9820ec4bbea21a5945440ea45225"
+    },
+    {
+      "id": "PV2-CORE-CH38-027",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Compliance audit interval",
+      "itemFamilyId": "PV2-CORE-CH38-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a pre-startup safety review, the team reviews this question: At what minimum frequency must an employer certify that it has evaluated compliance with OSHA PSM provisions? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A change in equipment capability or process conditions is not replacement in kind and requires formal pre-change evaluation.",
+        "MOC evaluates why the change is proposed, how it affects risk, what documents and training change, its duration, and who authorizes it.",
+        "PSM requires a compliance audit at least every three years, with at least one knowledgeable person on the audit team.",
+        "PSM requires prompt initiation, no later than 48 hours, to preserve evidence and begin learning from the event."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'MOC trigger', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'MOC required considerations', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Incident investigation timing', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.119, Process Safety Management",
+      "sourceLocation": "OSHA 1910.119(o), compliance audits; Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b8fd5a37037be1d431088e4de557224a431e847b9055e06882af4fad01dd9d36"
+    },
+    {
+      "id": "PV2-CORE-CH38-028",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Emergency planning interface",
+      "itemFamilyId": "PV2-CORE-CH38-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a mechanical integrity finding, the team reviews this question: A process has detection and shutdown systems but no coordinated response plan for a toxic release. What gap remains? Which rationale most directly supports the correct answer?",
+      "options": [
+        "PSM requires prompt initiation, no later than 48 hours, to preserve evidence and begin learning from the event.",
+        "PSM integrates process information, hazard analysis, operating discipline, integrity, change control, and learning to prevent major releases.",
+        "A change in equipment capability or process conditions is not replacement in kind and requires formal pre-change evaluation.",
+        "Process safety includes both prevention and preparation for credible releases through appropriate emergency action or response arrangements."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Incident investigation timing', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PSM purpose', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'MOC trigger', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 38 and 39; OSHA 1910.119(n); Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b71313921de0f24dbbeb2cc3f5d3a9b07c8c5fb28992137ef289e5dd3873f967"
+    },
+    {
+      "id": "PV2-CORE-CH38-029",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "process safety information quality",
+      "itemFamilyId": "PV2-CORE-CH38-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an operating-procedure change, a supervisor proposes: \"Treat operator memory as a permanent substitute for current drawings\". The underlying case is: A process hazard analysis team receives incomplete chemical reactivity data and outdated piping drawings but is told to complete the review on schedule. What is the best response? Which alternative is the most defensible correction?",
+      "options": [
+        "Resolve or explicitly control the critical information gaps before relying on the analysis, and document validated process safety information",
+        "Complete the analysis using assumptions that are not identified in the record",
+        "Remove reactivity scenarios so the review can finish on time",
+        "Treat operator memory as a permanent substitute for current drawings"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A defensible PHA depends on accurate, complete process safety information. Material gaps should be corrected or managed transparently before conclusions are accepted.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Complete the analysis using assumptions that are not identified in the record' remains incomplete or misapplies the controlling process safety information quality principle.",
+        "The proposed response 'Remove reactivity scenarios so the review can finish on time' remains incomplete or misapplies the controlling process safety information quality principle.",
+        "The proposed response 'Treat operator memory as a permanent substitute for current drawings' remains incomplete or misapplies the controlling process safety information quality principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: process safety information quality",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "25bb94126548e31d1f2b265393da076917781298b0ec19b90182514c2c2fae3e"
+    },
+    {
+      "id": "PV2-CORE-CH38-030",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "process hazard analysis safeguards",
+      "itemFamilyId": "PV2-CORE-CH38-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a process safety information review, a supervisor proposes: \"Count each training topic as a separate independent protection layer\". The underlying case is: A PHA lists “operator training” as the only safeguard for high-pressure runaway reaction. Which challenge is most important? Which alternative is the most defensible correction?",
+      "options": [
+        "Count each training topic as a separate independent protection layer",
+        "Determine whether independent engineered prevention and mitigation layers are needed and whether the claimed safeguard has defined, verifiable performance",
+        "Delete the scenario because trained operators cannot make errors",
+        "Accept training as independent of every equipment and procedural failure"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "High-consequence scenarios usually require reliable, appropriately independent layers. Administrative controls should not be credited without realistic performance and assurance.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Count each training topic as a separate independent protection layer' remains incomplete or misapplies the controlling process hazard analysis safeguards principle.",
+        null,
+        "The proposed response 'Delete the scenario because trained operators cannot make errors' remains incomplete or misapplies the controlling process hazard analysis safeguards principle.",
+        "The proposed response 'Accept training as independent of every equipment and procedural failure' remains incomplete or misapplies the controlling process hazard analysis safeguards principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: process hazard analysis safeguards",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2be86d832a5a7772f9581167cfdb5647c34d2da4c5a8dfbf7cd2b157f34267c8"
+    },
+    {
+      "id": "PV2-CORE-CH38-031",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PHA recommendation resolution",
+      "itemFamilyId": "PV2-CORE-CH38-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a process hazard analysis revalidation, a supervisor proposes: \"PHA recommendations are optional once the meeting ends\". The underlying case is: A PHA recommendation to install high-high shutdown protection remains open for three years, and production continues under an undocumented verbal agreement. What is the central deficiency? Which alternative is the most defensible correction?",
+      "options": [
+        "PHA recommendations are optional once the meeting ends",
+        "A verbal acceptance is equivalent to documented risk resolution",
+        "Recommendations require timely documented resolution, communicated decisions, interim risk management, and completion tracking",
+        "Recommendations can remain open indefinitely if no incident occurs"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'PHA recommendations are optional once the meeting ends' remains incomplete or misapplies the controlling pha recommendation resolution principle.",
+        "The proposed response 'A verbal acceptance is equivalent to documented risk resolution' remains incomplete or misapplies the controlling pha recommendation resolution principle.",
+        null,
+        "The proposed response 'Recommendations can remain open indefinitely if no incident occurs' remains incomplete or misapplies the controlling pha recommendation resolution principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: PHA recommendation resolution",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f8b19ce114b3c7d694582abedfd74347453dae2881be369d752eb5dc227cf292"
+    },
+    {
+      "id": "PV2-CORE-CH38-032",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management of change screening",
+      "itemFamilyId": "PV2-CORE-CH38-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a management-of-change request, a supervisor proposes: \"No; MOC applies only to changes in production rate\". The underlying case is: Maintenance replaces a process valve with one having the same nominal size but a different trim material and failure position. Is MOC review warranted? Which alternative is the most defensible correction?",
+      "options": [
+        "Only the purchasing department needs to approve material substitution",
+        "No; classify the valve as replacement-in-kind based on nominal pipe size without reviewing trim material or failure position",
+        "No; MOC applies only to changes in production rate",
+        "Yes; seemingly equivalent replacement can change compatibility, flow, fail-safe behavior, and process risk and should be screened under the MOC process"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Only the purchasing department needs to approve material substitution' remains incomplete or misapplies the controlling management of change screening principle.",
+        "The proposed response 'No; classify the valve as replacement-in-kind based on nominal pipe size without reviewing trim material or failure position' remains incomplete or misapplies the controlling management of change screening principle.",
+        "The proposed response 'No; MOC applies only to changes in production rate' remains incomplete or misapplies the controlling management of change screening principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: management of change screening",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ee5d667283fb7080ea79cc74924bbe8ca82afbc60f05dffa8ba18458cbadb111"
+    },
+    {
+      "id": "PV2-CORE-CH38-033",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "MOC affected information and training",
+      "itemFamilyId": "PV2-CORE-CH38-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a pre-startup safety review, a supervisor proposes: \"Only the programmer needs to understand the new alarm logic\". The underlying case is: A control logic change is approved and installed, but operating procedures, alarm response, drawings, and operator training are unchanged. What is missing? Which alternative is the most defensible correction?",
+      "options": [
+        "The MOC must update affected information and procedures and ensure impacted personnel are trained before or as the change becomes operational",
+        "Annual refresher training is sufficient regardless of when the change starts",
+        "Software changes do not affect process safety documentation",
+        "Only the programmer needs to understand the new alarm logic"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "MOC coordinates technical review, documentation, procedure changes, communication, and training so the organization operates the changed process as intended.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Annual refresher training is sufficient regardless of when the change starts' remains incomplete or misapplies the controlling moc affected information and training principle.",
+        "The proposed response 'Software changes do not affect process safety documentation' remains incomplete or misapplies the controlling moc affected information and training principle.",
+        "The proposed response 'Only the programmer needs to understand the new alarm logic' remains incomplete or misapplies the controlling moc affected information and training principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: MOC affected information and training",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b0b1c8eccbf00c8ea9a45ee82a32fdf32edd534348f6b44c9d23ffadd2ea70d8"
+    },
+    {
+      "id": "PV2-CORE-CH38-034",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pre-startup safety review",
+      "itemFamilyId": "PV2-CORE-CH38-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a mechanical integrity finding, a supervisor proposes: \"Start at reduced rate because incomplete safeguards matter only at full production\". The underlying case is: A new covered process is mechanically complete, but relief-device documentation and operator training are incomplete. Management wants to introduce chemicals for a schedule milestone. What should happen? Which alternative is the most defensible correction?",
+      "options": [
+        "Start at reduced rate because incomplete safeguards matter only at full production",
+        "Delay startup until the pre-startup review confirms construction, procedures, training, and safety systems are complete and appropriate",
+        "Replace the pre-startup review with a management email accepting the schedule risk",
+        "Introduce chemicals and finish documentation during operation"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A PSSR verifies readiness before hazardous chemicals are introduced. Schedule pressure does not replace completion of critical design, procedure, and training requirements.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Start at reduced rate because incomplete safeguards matter only at full production' remains incomplete or misapplies the controlling pre-startup safety review principle.",
+        null,
+        "The proposed response 'Replace the pre-startup review with a management email accepting the schedule risk' remains incomplete or misapplies the controlling pre-startup safety review principle.",
+        "The proposed response 'Introduce chemicals and finish documentation during operation' remains incomplete or misapplies the controlling pre-startup safety review principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: pre-startup safety review",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "13a51eaf4beb75c624346442ce7588325a4da43065fb4760632bf55406a8f6cd"
+    },
+    {
+      "id": "PV2-CORE-CH38-035",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mechanical integrity and deficiency management",
+      "itemFamilyId": "PV2-CORE-CH38-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a contractor PSM coordination meeting, a supervisor proposes: \"Increase operating pressure to confirm whether the component will fail\". The underlying case is: Inspection finds thinning below the established minimum in a pressure boundary, but the unit can still operate at normal conditions for several weeks. What is the best response? Which alternative is the most defensible correction?",
+      "options": [
+        "Increase operating pressure to confirm whether the component will fail",
+        "Continue indefinitely because no leak is visible",
+        "Evaluate fitness for service through competent engineering, control the risk, and repair or replace within a documented safe operating basis",
+        "Delete the minimum thickness from the inspection plan"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Mechanical integrity requires timely correction of equipment deficiencies or documented safe operation based on technical evaluation—not waiting for loss of containment.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Increase operating pressure to confirm whether the component will fail' remains incomplete or misapplies the controlling mechanical integrity and deficiency management principle.",
+        "The proposed response 'Continue indefinitely because no leak is visible' remains incomplete or misapplies the controlling mechanical integrity and deficiency management principle.",
+        null,
+        "The proposed response 'Delete the minimum thickness from the inspection plan' remains incomplete or misapplies the controlling mechanical integrity and deficiency management principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: mechanical integrity and deficiency management",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d0c7079d86868b66a29de1c555cd2033af7564afe1a87332eb13c09804e2dd10"
+    },
+    {
+      "id": "PV2-CORE-CH38-036",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contractor coordination under PSM",
+      "itemFamilyId": "PV2-CORE-CH38-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an emergency planning interface, a supervisor proposes: \"Hot work permits are unnecessary when the contractor has its own safety manual\". The underlying case is: A turnaround contractor receives site orientation but no information about process hazards, emergency actions, or the effect of its hot work on adjacent units. What is missing? Which alternative is the most defensible correction?",
+      "options": [
+        "Hot work permits are unnecessary when the contractor has its own safety manual",
+        "General orientation is sufficient because contractors control all site hazards",
+        "Contractor injury rates replace task-specific hazard communication",
+        "Host and contractor must coordinate process hazards, safe work practices, emergency information, performance expectations, and control of contractor activities"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "PSM contractor management is a two-way coordination process tied to covered-process hazards and work interfaces, not a generic orientation alone.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Hot work permits are unnecessary when the contractor has its own safety manual' remains incomplete or misapplies the controlling contractor coordination under psm principle.",
+        "The proposed response 'General orientation is sufficient because contractors control all site hazards' remains incomplete or misapplies the controlling contractor coordination under psm principle.",
+        "The proposed response 'Contractor injury rates replace task-specific hazard communication' remains incomplete or misapplies the controlling contractor coordination under psm principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: contractor coordination under PSM",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cb70644e924b3a25f16aed2d1f32950d1a590a11e6b9932e78e389f61e0aa039"
+    },
+    {
+      "id": "PV2-CORE-CH38-037",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "process safety information quality",
+      "itemFamilyId": "PV2-CORE-CH38-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a process safety information review, the team selects \"Resolve or explicitly control the critical information gaps before relying on the analysis, and document validated process safety information\" rather than \"Remove reactivity scenarios so the review can finish on time\" for this case: A process hazard analysis team receives incomplete chemical reactivity data and outdated piping drawings but is told to complete the review on schedule. What is the best response? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "A defensible PHA depends on accurate, complete process safety information. Material gaps should be corrected or managed transparently before conclusions are accepted.",
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review.",
+        "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+        "High-consequence scenarios usually require reliable, appropriately independent layers. Administrative controls should not be credited without realistic performance and assurance."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the process safety information quality issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'management of change screening' and does not distinguish the two responses in the present process safety information quality decision.",
+        "This explanation concerns 'PHA recommendation resolution' and does not distinguish the two responses in the present process safety information quality decision.",
+        "This explanation concerns 'process hazard analysis safeguards' and does not distinguish the two responses in the present process safety information quality decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: process safety information quality",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "40284f1e9f12640203db5242b9036c83ebb6baf6a9576d0ebdd6b9b5ec691484"
+    },
+    {
+      "id": "PV2-CORE-CH38-038",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "process hazard analysis safeguards",
+      "itemFamilyId": "PV2-CORE-CH38-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a process hazard analysis revalidation, the team selects \"Determine whether independent engineered prevention and mitigation layers are needed and whether the claimed safeguard has defined, verifiable performance\" rather than \"Accept training as independent of every equipment and procedural failure\" for this case: A PHA lists “operator training” as the only safeguard for high-pressure runaway reaction. Which challenge is most important? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review.",
+        "High-consequence scenarios usually require reliable, appropriately independent layers. Administrative controls should not be credited without realistic performance and assurance.",
+        "A PSSR verifies readiness before hazardous chemicals are introduced. Schedule pressure does not replace completion of critical design, procedure, and training requirements.",
+        "PSM contractor management is a two-way coordination process tied to covered-process hazards and work interfaces, not a generic orientation alone."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the process hazard analysis safeguards issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'management of change screening' and does not distinguish the two responses in the present process hazard analysis safeguards decision.",
+        null,
+        "This explanation concerns 'pre-startup safety review' and does not distinguish the two responses in the present process hazard analysis safeguards decision.",
+        "This explanation concerns 'contractor coordination under PSM' and does not distinguish the two responses in the present process hazard analysis safeguards decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: process hazard analysis safeguards",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dc3a3ec1e0e26a26749e69080cd00b1f972750273bd1f6a30f6240a6a5730c4a"
+    },
+    {
+      "id": "PV2-CORE-CH38-039",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PHA recommendation resolution",
+      "itemFamilyId": "PV2-CORE-CH38-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a management-of-change request, the team selects \"Recommendations require timely documented resolution, communicated decisions, interim risk management, and completion tracking\" rather than \"A verbal acceptance is equivalent to documented risk resolution\" for this case: A PHA recommendation to install high-high shutdown protection remains open for three years, and production continues under an undocumented verbal agreement. What is the central deficiency? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review.",
+        "MOC coordinates technical review, documentation, procedure changes, communication, and training so the organization operates the changed process as intended.",
+        "PHA follow-up is a managed process. Delayed action requires transparent rationale, authority, interim protection, schedule, and verification.",
+        "High-consequence scenarios usually require reliable, appropriately independent layers. Administrative controls should not be credited without realistic performance and assurance."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the pha recommendation resolution issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'management of change screening' and does not distinguish the two responses in the present pha recommendation resolution decision.",
+        "This explanation concerns 'MOC affected information and training' and does not distinguish the two responses in the present pha recommendation resolution decision.",
+        null,
+        "This explanation concerns 'process hazard analysis safeguards' and does not distinguish the two responses in the present pha recommendation resolution decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: PHA recommendation resolution",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6222dcceb7a06620672ac79a6cfabc5426e41bd265685a350cc2cb37e1d7b5e0"
+    },
+    {
+      "id": "PV2-CORE-CH38-040",
+      "version": 1,
+      "chapterId": "ch-38",
+      "chapterTitle": "Process Safety Management and Management of Change",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management of change screening",
+      "itemFamilyId": "PV2-CORE-CH38-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a pre-startup safety review, the team selects \"Yes; seemingly equivalent replacement can change compatibility, flow, fail-safe behavior, and process risk and should be screened under the MOC process\" rather than \"Only the purchasing department needs to approve material substitution\" for this case: Maintenance replaces a process valve with one having the same nominal size but a different trim material and failure position. Is MOC review warranted? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "High-consequence scenarios usually require reliable, appropriately independent layers. Administrative controls should not be credited without realistic performance and assurance.",
+        "PSM contractor management is a two-way coordination process tied to covered-process hazards and work interfaces, not a generic orientation alone.",
+        "MOC coordinates technical review, documentation, procedure changes, communication, and training so the organization operates the changed process as intended.",
+        "Replacement-in-kind requires equivalent design and function. Material and failure-position differences can affect process safety and therefore require review."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the management of change screening issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'process hazard analysis safeguards' and does not distinguish the two responses in the present management of change screening decision.",
+        "This explanation concerns 'contractor coordination under PSM' and does not distinguish the two responses in the present management of change screening decision.",
+        "This explanation concerns 'MOC affected information and training' and does not distinguish the two responses in the present management of change screening decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 38, pp. 859-869; 29 CFR 1910.119; curated topic: management of change screening",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.119",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f430f194e0ce51ce486e60d3b01079f87e27895055c8116d282522c5d5b8e40b"
+    }
+  ]
+}

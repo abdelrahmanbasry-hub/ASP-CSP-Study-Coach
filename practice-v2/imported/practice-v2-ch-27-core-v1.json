@@ -1,0 +1,2332 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-27-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-27",
+  "chapterTitle": "Hazardous Materials Management",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH27-001",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "chemical compatibility",
+      "itemFamilyId": "PV2-CORE-CH27-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A warehouse plans to store an oxidizer beside an organic solvent because both are packaged in sealed drums. What is the strongest concern?",
+      "options": [
+        "A leak, fire, or container failure could bring incompatible materials together, so segregation must be based on reactivity and credible release scenarios",
+        "Sealed drums make chemical compatibility irrelevant",
+        "Store the materials together so one inventory area can be ventilated",
+        "Use alphabetical order because product name is the most reliable segregation system"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Compatibility controls consider what happens during credible loss of containment, fire, or response—not just normal closed-container conditions.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Sealed drums make chemical compatibility irrelevant' does not apply the controlling principle for chemical compatibility to the facts given, so it is not the best answer.",
+        "The option 'Store the materials together so one inventory area can be ventilated' does not apply the controlling principle for chemical compatibility to the facts given, so it is not the best answer.",
+        "The option 'Use alphabetical order because product name is the most reliable segregation system' does not apply the controlling principle for chemical compatibility to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: chemical compatibility",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d21e3b0c418658c86e0d9229b16d151c85dba3a4d7f5226aabc5c98569d3b770"
+    },
+    {
+      "id": "PV2-CORE-CH27-002",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "secondary containment",
+      "itemFamilyId": "PV2-CORE-CH27-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A liquid storage area has a berm sized for the largest tank but contains an open drain connected to the storm sewer. What is the key deficiency?",
+      "options": [
+        "Storm sewers are appropriate disposal routes for any diluted chemical release",
+        "Containment integrity is defeated unless the drain is controlled so a release cannot escape to the environment",
+        "The drain improves containment by removing liquid quickly",
+        "The berm is adequate because volume is the only containment criterion"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Secondary containment must retain a credible release and account for drains, precipitation, compatibility, and response; nominal volume alone is not enough.",
+      "incorrectOptionExplanations": [
+        "The option 'Storm sewers are appropriate disposal routes for any diluted chemical release' does not apply the controlling principle for secondary containment to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The drain improves containment by removing liquid quickly' does not apply the controlling principle for secondary containment to the facts given, so it is not the best answer.",
+        "The option 'The berm is adequate because volume is the only containment criterion' does not apply the controlling principle for secondary containment to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: secondary containment",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3be422db52f06a03484ab39e982c7d02bf68e487f84170fec988c176cd7c2461"
+    },
+    {
+      "id": "PV2-CORE-CH27-003",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazardous waste determination",
+      "itemFamilyId": "PV2-CORE-CH27-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A spent process solvent is no longer usable. The generator wants to call it “recyclable material” and avoid evaluating it as waste. What should occur?",
+      "options": [
+        "Wait until the transporter arrives to decide whether the material is hazardous",
+        "Use the word recyclable on the label because terminology determines regulatory status",
+        "Make and document the hazardous waste determination at the point of generation based on process knowledge or testing and applicable exclusions",
+        "Assume all spent solvents are nonhazardous if they retain commercial value"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+      "incorrectOptionExplanations": [
+        "The option 'Wait until the transporter arrives to decide whether the material is hazardous' does not apply the controlling principle for hazardous waste determination to the facts given, so it is not the best answer.",
+        "The option 'Use the word recyclable on the label because terminology determines regulatory status' does not apply the controlling principle for hazardous waste determination to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Assume all spent solvents are nonhazardous if they retain commercial value' does not apply the controlling principle for hazardous waste determination to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: hazardous waste determination",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b211a964cdb29c4a8e7ecf19526e63d28c61fb21368d4e1d7db66d23ac2691f9"
+    },
+    {
+      "id": "PV2-CORE-CH27-004",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "DOT shipping description",
+      "itemFamilyId": "PV2-CORE-CH27-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A shipper selects packaging based on a familiar trade name but has not determined hazard class, identification number, packing group, or special provisions. What is the correct next step?",
+      "options": [
+        "Rely only on the workplace SDS section title without checking transport requirements",
+        "Use the most severe label available without identifying the material",
+        "Ship under the trade name because carriers can determine classification in transit",
+        "Classify the material using current hazardous materials regulations and prepare packaging, marks, labels, papers, and training accordingly"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient.",
+      "incorrectOptionExplanations": [
+        "The option 'Rely only on the workplace SDS section title without checking transport requirements' does not apply the controlling principle for dot shipping description to the facts given, so it is not the best answer.",
+        "The option 'Use the most severe label available without identifying the material' does not apply the controlling principle for dot shipping description to the facts given, so it is not the best answer.",
+        "The option 'Ship under the trade name because carriers can determine classification in transit' does not apply the controlling principle for dot shipping description to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: DOT shipping description",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4856f0f08892239bf47cdf687b2305dafdade6d2b67003987e75d728309a92cd"
+    },
+    {
+      "id": "PV2-CORE-CH27-005",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "compressed gas cylinder handling",
+      "itemFamilyId": "PV2-CORE-CH27-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A compressed gas cylinder is moved with the regulator attached and no protective cap. What should be done?",
+      "options": [
+        "Close the valve, remove the regulator as appropriate, install the protective cap, and use a suitable cylinder cart and restraint",
+        "Carry it by the valve because the valve is designed as a lifting point",
+        "Move it horizontally with two workers holding the regulator",
+        "Roll the cylinder on its bottom edge to avoid handling equipment"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Carry it by the valve because the valve is designed as a lifting point' does not apply the controlling principle for compressed gas cylinder handling to the facts given, so it is not the best answer.",
+        "The option 'Move it horizontally with two workers holding the regulator' does not apply the controlling principle for compressed gas cylinder handling to the facts given, so it is not the best answer.",
+        "The option 'Roll the cylinder on its bottom edge to avoid handling equipment' does not apply the controlling principle for compressed gas cylinder handling to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: compressed gas cylinder handling",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9b39ddfc16ac0bf9ab076734695ce6bb2a73dad47b0f50340d5e206c9412f72c"
+    },
+    {
+      "id": "PV2-CORE-CH27-006",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "spill response versus incidental release",
+      "itemFamilyId": "PV2-CORE-CH27-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A release is beyond employees’ training and PPE, is spreading toward a drain, and may create an inhalation hazard. A supervisor calls it incidental and orders cleanup. What is the best response?",
+      "options": [
+        "Dilute the release into the drain to reduce concentration",
+        "Stop unqualified cleanup, isolate the area, activate the emergency response plan, and use personnel trained and equipped for the release",
+        "Send one employee in quickly before vapor levels rise",
+        "Continue cleanup because every spill becomes incidental when absorbent is available"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A release requiring emergency response cannot be reclassified by a supervisor’s label. Hazard, quantity, exposure, and capability determine the response level.",
+      "incorrectOptionExplanations": [
+        "The option 'Dilute the release into the drain to reduce concentration' does not apply the controlling principle for spill response versus incidental release to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Send one employee in quickly before vapor levels rise' does not apply the controlling principle for spill response versus incidental release to the facts given, so it is not the best answer.",
+        "The option 'Continue cleanup because every spill becomes incidental when absorbent is available' does not apply the controlling principle for spill response versus incidental release to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: spill response versus incidental release",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "051618c885ada90fb3aacf5db2e842f0670df060686867afc6dd30d33b749803"
+    },
+    {
+      "id": "PV2-CORE-CH27-007",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inventory reconciliation and security",
+      "itemFamilyId": "PV2-CORE-CH27-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A highly hazardous chemical inventory repeatedly differs from purchasing and usage records. What should the facility do?",
+      "options": [
+        "Adjust the spreadsheet to match the expected value without investigation",
+        "Ignore small recurring differences because hazardous materials cannot be diverted",
+        "Investigate measurement, transfer, loss, theft, and record controls, reconcile quantities, and address security and release implications",
+        "Order additional product so the physical inventory equals the records"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Unexplained discrepancies can indicate leaks, accounting errors, or diversion. Reconciliation is a safety, environmental, and security control.",
+      "incorrectOptionExplanations": [
+        "The option 'Adjust the spreadsheet to match the expected value without investigation' does not apply the controlling principle for inventory reconciliation and security to the facts given, so it is not the best answer.",
+        "The option 'Ignore small recurring differences because hazardous materials cannot be diverted' does not apply the controlling principle for inventory reconciliation and security to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Order additional product so the physical inventory equals the records' does not apply the controlling principle for inventory reconciliation and security to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: inventory reconciliation and security",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1d0ac490cba7a8d0726cd1be7aa6e42d509b006a796cf5c884bb6bf81b48fb74"
+    },
+    {
+      "id": "PV2-CORE-CH27-008",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emergency information and labeling",
+      "itemFamilyId": "PV2-CORE-CH27-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A secondary container of a hazardous chemical is found unlabeled during a shift change, and the employee who filled it has left. What is the best action?",
+      "options": [
+        "Assume it contains the product most commonly used in the area",
+        "Use odor and color to identify it before continuing work",
+        "Pour it into a floor drain to eliminate the uncertainty",
+        "Remove it from use until identity and hazards are reliably established and the container is labeled under the applicable workplace system"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Unknown chemicals should not be used or disposed of by guesswork. Identity, hazards, and proper labeling must be established through reliable information.",
+      "incorrectOptionExplanations": [
+        "The option 'Assume it contains the product most commonly used in the area' does not apply the controlling principle for emergency information and labeling to the facts given, so it is not the best answer.",
+        "The option 'Use odor and color to identify it before continuing work' does not apply the controlling principle for emergency information and labeling to the facts given, so it is not the best answer.",
+        "The option 'Pour it into a floor drain to eliminate the uncertainty' does not apply the controlling principle for emergency information and labeling to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: emergency information and labeling",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "27a1378c2c4d97d585bbd0a65c5966b6027b6990c8f1ea19a1fd6a85481e79cd"
+    },
+    {
+      "id": "PV2-CORE-CH27-009",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "chemical compatibility",
+      "itemFamilyId": "PV2-CORE-CH27-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a spill-containment design, the team reviews this case: A warehouse plans to store an oxidizer beside an organic solvent because both are packaged in sealed drums. What is the strongest concern? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Compatibility controls consider what happens during credible loss of containment, fire, or response—not just normal closed-container conditions.",
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "Unknown chemicals should not be used or disposed of by guesswork. Identity, hazards, and proper labeling must be established through reliable information.",
+        "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses chemical compatibility and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'hazardous waste determination', but it does not resolve the chemical compatibility issue in this case.",
+        "This rationale supports the separate chapter topic 'emergency information and labeling', but it does not resolve the chemical compatibility issue in this case.",
+        "This rationale supports the separate chapter topic 'compressed gas cylinder handling', but it does not resolve the chemical compatibility issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: chemical compatibility",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d603d563b1afb7335c051b5e26a2c8de8f821f1e646c52dee1a73aa27b961b87"
+    },
+    {
+      "id": "PV2-CORE-CH27-010",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "secondary containment",
+      "itemFamilyId": "PV2-CORE-CH27-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a chemical incompatibility review, the team reviews this case: A liquid storage area has a berm sized for the largest tank but contains an open drain connected to the storm sewer. What is the key deficiency? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A release requiring emergency response cannot be reclassified by a supervisor’s label. Hazard, quantity, exposure, and capability determine the response level.",
+        "Secondary containment must retain a credible release and account for drains, precipitation, compatibility, and response; nominal volume alone is not enough.",
+        "Compatibility controls consider what happens during credible loss of containment, fire, or response—not just normal closed-container conditions.",
+        "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses secondary containment and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'spill response versus incidental release', but it does not resolve the secondary containment issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'chemical compatibility', but it does not resolve the secondary containment issue in this case.",
+        "This rationale supports the separate chapter topic 'DOT shipping description', but it does not resolve the secondary containment issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: secondary containment",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "126e056b16b5b5063c3a80a3ac27ac9b04febe6ab92d9ee2d06f477eeb9fa5bb"
+    },
+    {
+      "id": "PV2-CORE-CH27-011",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazardous waste determination",
+      "itemFamilyId": "PV2-CORE-CH27-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hazardous waste accumulation inspection, the team reviews this case: A spent process solvent is no longer usable. The generator wants to call it “recyclable material” and avoid evaluating it as waste. What should occur? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards.",
+        "A release requiring emergency response cannot be reclassified by a supervisor’s label. Hazard, quantity, exposure, and capability determine the response level.",
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses hazardous waste determination and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'compressed gas cylinder handling', but it does not resolve the hazardous waste determination issue in this case.",
+        "This rationale supports the separate chapter topic 'spill response versus incidental release', but it does not resolve the hazardous waste determination issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'DOT shipping description', but it does not resolve the hazardous waste determination issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: hazardous waste determination",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e24746b3dd87d3f188f46876d87bb60234a53825008432a9ab8ee84ce37b1398"
+    },
+    {
+      "id": "PV2-CORE-CH27-012",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "DOT shipping description",
+      "itemFamilyId": "PV2-CORE-CH27-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an emergency release response, the team reviews this case: A shipper selects packaging based on a familiar trade name but has not determined hazard class, identification number, packing group, or special provisions. What is the correct next step? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Compatibility controls consider what happens during credible loss of containment, fire, or response—not just normal closed-container conditions.",
+        "Secondary containment must retain a credible release and account for drains, precipitation, compatibility, and response; nominal volume alone is not enough.",
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses dot shipping description and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'chemical compatibility', but it does not resolve the dot shipping description issue in this case.",
+        "This rationale supports the separate chapter topic 'secondary containment', but it does not resolve the dot shipping description issue in this case.",
+        "This rationale supports the separate chapter topic 'hazardous waste determination', but it does not resolve the dot shipping description issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: DOT shipping description",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bd88996ad5ccbbdc78a812d6356ee99473bf71a18e30e88900bce6d256d1ed1f"
+    },
+    {
+      "id": "PV2-CORE-CH27-013",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "compressed gas cylinder handling",
+      "itemFamilyId": "PV2-CORE-CH27-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a cylinder handling assessment, the team reviews this case: A compressed gas cylinder is moved with the regulator attached and no protective cap. What should be done? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards.",
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "A release requiring emergency response cannot be reclassified by a supervisor’s label. Hazard, quantity, exposure, and capability determine the response level.",
+        "Unexplained discrepancies can indicate leaks, accounting errors, or diversion. Reconciliation is a safety, environmental, and security control."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses compressed gas cylinder handling and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'hazardous waste determination', but it does not resolve the compressed gas cylinder handling issue in this case.",
+        "This rationale supports the separate chapter topic 'spill response versus incidental release', but it does not resolve the compressed gas cylinder handling issue in this case.",
+        "This rationale supports the separate chapter topic 'inventory reconciliation and security', but it does not resolve the compressed gas cylinder handling issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: compressed gas cylinder handling",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b5c53f2eaad2b86b6f2d9ecef0b3c56215c4234ff7f8e4d7591cc107b7e9a019"
+    },
+    {
+      "id": "PV2-CORE-CH27-014",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "spill response versus incidental release",
+      "itemFamilyId": "PV2-CORE-CH27-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hazardous materials inventory reconciliation, the team reviews this case: A release is beyond employees’ training and PPE, is spreading toward a drain, and may create an inhalation hazard. A supervisor calls it incidental and orders cleanup. What is the best response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient.",
+        "A release requiring emergency response cannot be reclassified by a supervisor’s label. Hazard, quantity, exposure, and capability determine the response level.",
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "Secondary containment must retain a credible release and account for drains, precipitation, compatibility, and response; nominal volume alone is not enough."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses spill response versus incidental release and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'DOT shipping description', but it does not resolve the spill response versus incidental release issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'hazardous waste determination', but it does not resolve the spill response versus incidental release issue in this case.",
+        "This rationale supports the separate chapter topic 'secondary containment', but it does not resolve the spill response versus incidental release issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: spill response versus incidental release",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d38d248ee884a28c779178cdb1a26f367b7cc8004a5f9a25907af89ee4d9053e"
+    },
+    {
+      "id": "PV2-CORE-CH27-015",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inventory reconciliation and security",
+      "itemFamilyId": "PV2-CORE-CH27-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hazardous materials storage audit, the team reviews this case: A highly hazardous chemical inventory repeatedly differs from purchasing and usage records. What should the facility do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards.",
+        "Compatibility controls consider what happens during credible loss of containment, fire, or response—not just normal closed-container conditions.",
+        "Unexplained discrepancies can indicate leaks, accounting errors, or diversion. Reconciliation is a safety, environmental, and security control.",
+        "Secondary containment must retain a credible release and account for drains, precipitation, compatibility, and response; nominal volume alone is not enough."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses inventory reconciliation and security and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'compressed gas cylinder handling', but it does not resolve the inventory reconciliation and security issue in this case.",
+        "This rationale supports the separate chapter topic 'chemical compatibility', but it does not resolve the inventory reconciliation and security issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'secondary containment', but it does not resolve the inventory reconciliation and security issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: inventory reconciliation and security",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d210b2b3779168e656fbd73bec7b59a82e5cd65bf5c62074fea1d486e890a87d"
+    },
+    {
+      "id": "PV2-CORE-CH27-016",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emergency information and labeling",
+      "itemFamilyId": "PV2-CORE-CH27-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a DOT shipping preparation, the team reviews this case: A secondary container of a hazardous chemical is found unlabeled during a shift change, and the employee who filled it has left. What is the best action? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient.",
+        "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards.",
+        "A release requiring emergency response cannot be reclassified by a supervisor’s label. Hazard, quantity, exposure, and capability determine the response level.",
+        "Unknown chemicals should not be used or disposed of by guesswork. Identity, hazards, and proper labeling must be established through reliable information."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses emergency information and labeling and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'DOT shipping description', but it does not resolve the emergency information and labeling issue in this case.",
+        "This rationale supports the separate chapter topic 'compressed gas cylinder handling', but it does not resolve the emergency information and labeling issue in this case.",
+        "This rationale supports the separate chapter topic 'spill response versus incidental release', but it does not resolve the emergency information and labeling issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: emergency information and labeling",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "47b7776e60e3be17e289b0abce7b4af32f862d8be187eeb3a0fef60e80d46dab"
+    },
+    {
+      "id": "PV2-CORE-CH27-017",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hazardous waste determination",
+      "itemFamilyId": "PV2-CORE-CH27-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a DOT shipping preparation, the team reviews this question: A facility discards a spent solvent mixture. What is the first regulatory management decision? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The generator must identify each waste stream and make an accurate hazardous-waste determination using process knowledge or appropriate analysis.",
+        "Waste containers must be suitable for the material so corrosion, reaction, leakage, pressure, and loss of containment are prevented.",
+        "Waste characterization integrates process knowledge, analytical data when needed, and reliable hazard information rather than relying on a single document.",
+        "Secondary containment and drainage control interrupt the pathway from a failed primary container to soil, water, and public systems."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Container compatibility', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hazard communication and waste', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Secondary containment', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 27, hazardous waste and governing regulations, pp. 616-629; 40 CFR 262.11; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/hwgenerators/steps-complying-regulations-hazardous-waste",
+        "https://www.osha.gov/hazardous-materials"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "658d11eee1a3403555769aa5f2835d93e31e18191d925794df1274c57b8a2b6e"
+    },
+    {
+      "id": "PV2-CORE-CH27-018",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Cradle-to-grave tracking",
+      "itemFamilyId": "PV2-CORE-CH27-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a spill-containment design, the team reviews this question: What is the primary function of the hazardous-waste manifest system? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Federal generator categories are based on monthly generation quantities, including separate thresholds for acute hazardous waste.",
+        "The manifest provides cradle-to-grave shipment documentation and accountability among generators, transporters, and receiving facilities.",
+        "An uncontrolled release beyond incidental-spill capability requires emergency notification, isolation, and appropriately trained response resources.",
+        "Controlled work zones and decontamination prevent contaminants from being carried into support areas and communities."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Generator category', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Emergency response level', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Decontamination zoning', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 27, RCRA and hazardous waste operations, pp. 622-629; 40 CFR Part 262; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/hwgenerators/steps-complying-regulations-hazardous-waste",
+        "https://www.osha.gov/hazardous-materials"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b84dfdb913724d6dea43ad05f7d7c709b6d7e9c657c39cfdfb0980567332f4fe"
+    },
+    {
+      "id": "PV2-CORE-CH27-019",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Generator category",
+      "itemFamilyId": "PV2-CORE-CH27-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a chemical incompatibility review, the team reviews this question: What determines whether a federal hazardous-waste generator is a very small, small, or large quantity generator? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Source reduction avoids generation and usually provides stronger environmental and risk benefits than treatment or disposal.",
+        "Storage design should prevent incompatible chemicals from contacting one another during normal handling or a release.",
+        "Federal generator categories are based on monthly generation quantities, including separate thresholds for acute hazardous waste.",
+        "The generator must identify each waste stream and make an accurate hazardous-waste determination using process knowledge or appropriate analysis."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Waste minimization', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Chemical segregation', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Hazardous waste determination', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "US EPA Hazardous Waste Generator Regulatory Summary",
+      "sourceLocation": "EPA hazardous-waste generator regulatory summary; Yates Chapter 27; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://www.epa.gov/hwgenerators",
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "350dacc19181231cfe04081531216bf9d0ffc9b1ac0fb90c69151a04cd8a14ed"
+    },
+    {
+      "id": "PV2-CORE-CH27-020",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Container compatibility",
+      "itemFamilyId": "PV2-CORE-CH27-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hazardous waste accumulation inspection, the team reviews this question: A corrosive hazardous waste is placed into a metal drum that reacts with the waste. What control principle was violated? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Secondary containment and drainage control interrupt the pathway from a failed primary container to soil, water, and public systems.",
+        "Waste characterization integrates process knowledge, analytical data when needed, and reliable hazard information rather than relying on a single document.",
+        "The generator must identify each waste stream and make an accurate hazardous-waste determination using process knowledge or appropriate analysis.",
+        "Waste containers must be suitable for the material so corrosion, reaction, leakage, pressure, and loss of containment are prevented."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Secondary containment', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hazard communication and waste', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hazardous waste determination', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 27, hazardous-material properties, storage, and site control, pp. 619-632; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/hazardous-materials"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "077092a4620339e1f9f937270daab9700688df15d93c2edddc7253e9e292a6bc"
+    },
+    {
+      "id": "PV2-CORE-CH27-021",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Chemical segregation",
+      "itemFamilyId": "PV2-CORE-CH27-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an emergency release response, the team reviews this question: An oxidizer and an organic solvent are stored together because both fit in the same cabinet. What is the strongest correction? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Storage design should prevent incompatible chemicals from contacting one another during normal handling or a release.",
+        "Source reduction avoids generation and usually provides stronger environmental and risk benefits than treatment or disposal.",
+        "An uncontrolled release beyond incidental-spill capability requires emergency notification, isolation, and appropriately trained response resources.",
+        "Federal generator categories are based on monthly generation quantities, including separate thresholds for acute hazardous waste."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Waste minimization', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Emergency response level', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Generator category', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 27, hazardous material properties, fires, explosions, and storage, pp. 619-629; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/hazardous-materials"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e0597293743a6d35ada4c7da8e91c32dfd41f06488296616b013a5e096b7e01a"
+    },
+    {
+      "id": "PV2-CORE-CH27-022",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Emergency response level",
+      "itemFamilyId": "PV2-CORE-CH27-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a cylinder handling assessment, the team reviews this question: A spill exceeds employee training and available protective equipment and is moving toward a drain. What is the best immediate decision? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Controlled work zones and decontamination prevent contaminants from being carried into support areas and communities.",
+        "An uncontrolled release beyond incidental-spill capability requires emergency notification, isolation, and appropriately trained response resources.",
+        "The manifest provides cradle-to-grave shipment documentation and accountability among generators, transporters, and receiving facilities.",
+        "Storage design should prevent incompatible chemicals from contacting one another during normal handling or a release."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Decontamination zoning', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Cradle-to-grave tracking', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Chemical segregation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 27, hazardous waste operations, emergency planning, and site control, pp. 629-633; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/hazardous-materials"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ca170ef853311c5bd176d169603186c981ec2841ca698d41e7acb665bdea6598"
+    },
+    {
+      "id": "PV2-CORE-CH27-023",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Decontamination zoning",
+      "itemFamilyId": "PV2-CORE-CH27-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hazardous materials inventory reconciliation, the team reviews this question: Why is a contamination-reduction zone established between the hot zone and support zone? Which rationale most directly supports the correct answer?",
+      "options": [
+        "An uncontrolled release beyond incidental-spill capability requires emergency notification, isolation, and appropriately trained response resources.",
+        "The manifest provides cradle-to-grave shipment documentation and accountability among generators, transporters, and receiving facilities.",
+        "Controlled work zones and decontamination prevent contaminants from being carried into support areas and communities.",
+        "Source reduction avoids generation and usually provides stronger environmental and risk benefits than treatment or disposal."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Emergency response level', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Cradle-to-grave tracking', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Waste minimization', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 27, site control and decontamination, pp. 629-633; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/hazardous-materials"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1e75619466c20379fd57bb52cb34b5b11ebe3830595022c3ac6be57d89b345ac"
+    },
+    {
+      "id": "PV2-CORE-CH27-024",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hazard communication and waste",
+      "itemFamilyId": "PV2-CORE-CH27-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hazardous materials storage audit, the team reviews this question: A waste stream contains several process chemicals. How should the safety professional use supplier SDS information? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Secondary containment and drainage control interrupt the pathway from a failed primary container to soil, water, and public systems.",
+        "The generator must identify each waste stream and make an accurate hazardous-waste determination using process knowledge or appropriate analysis.",
+        "Waste containers must be suitable for the material so corrosion, reaction, leakage, pressure, and loss of containment are prevented.",
+        "Waste characterization integrates process knowledge, analytical data when needed, and reliable hazard information rather than relying on a single document."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Secondary containment', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hazardous waste determination', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Container compatibility', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 27, hazardous-material properties and classification, pp. 616-629; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/hazardous-materials"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4aa226e31bb3be8b0b117a618944fa659ebd56eb3a52787b699eff22067f2908"
+    },
+    {
+      "id": "PV2-CORE-CH27-025",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Secondary containment",
+      "itemFamilyId": "PV2-CORE-CH27-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a DOT shipping preparation, the team reviews this question: Drums of liquid hazardous material are stored near a storm drain. Which improvement most directly limits release migration? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Secondary containment and drainage control interrupt the pathway from a failed primary container to soil, water, and public systems.",
+        "The generator must identify each waste stream and make an accurate hazardous-waste determination using process knowledge or appropriate analysis.",
+        "Waste containers must be suitable for the material so corrosion, reaction, leakage, pressure, and loss of containment are prevented.",
+        "Waste characterization integrates process knowledge, analytical data when needed, and reliable hazard information rather than relying on a single document."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Hazardous waste determination', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Container compatibility', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hazard communication and waste', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 27 and 34, site control, containment, and environmental protection, pp. 629-633 and 754-778; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/hazardous-materials"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ec9f81ab9fdd9a0d09f1e1a4fef7603608f3287a5508f944ccc35644f350f0b8"
+    },
+    {
+      "id": "PV2-CORE-CH27-026",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Waste minimization",
+      "itemFamilyId": "PV2-CORE-CH27-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a spill-containment design, the team reviews this question: Which action is highest in a waste-management hierarchy? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Federal generator categories are based on monthly generation quantities, including separate thresholds for acute hazardous waste.",
+        "Source reduction avoids generation and usually provides stronger environmental and risk benefits than treatment or disposal.",
+        "An uncontrolled release beyond incidental-spill capability requires emergency notification, isolation, and appropriately trained response resources.",
+        "Storage design should prevent incompatible chemicals from contacting one another during normal handling or a release."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Generator category', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Emergency response level', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Chemical segregation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 27 and 34, hazardous waste management and pollution prevention, pp. 616-634 and 754-778; Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/hazardous-materials"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e40c1898d685de2e1a9ae9be978046e3eb88b75481e94acb7f6baec87fc4e0d1"
+    },
+    {
+      "id": "PV2-CORE-CH27-027",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "chemical compatibility",
+      "itemFamilyId": "PV2-CORE-CH27-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an emergency release response, a supervisor proposes: \"Use alphabetical order because product name is the most reliable segregation system\". The underlying case is: A warehouse plans to store an oxidizer beside an organic solvent because both are packaged in sealed drums. What is the strongest concern? Which alternative is the most defensible correction?",
+      "options": [
+        "Sealed drums make chemical compatibility irrelevant",
+        "Use alphabetical order because product name is the most reliable segregation system",
+        "A leak, fire, or container failure could bring incompatible materials together, so segregation must be based on reactivity and credible release scenarios",
+        "Store the materials together so one inventory area can be ventilated"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Compatibility controls consider what happens during credible loss of containment, fire, or response—not just normal closed-container conditions.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Sealed drums make chemical compatibility irrelevant' remains incomplete or misapplies the controlling chemical compatibility principle.",
+        "The proposed response 'Use alphabetical order because product name is the most reliable segregation system' remains incomplete or misapplies the controlling chemical compatibility principle.",
+        null,
+        "The proposed response 'Store the materials together so one inventory area can be ventilated' remains incomplete or misapplies the controlling chemical compatibility principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: chemical compatibility",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "770426b187a71eef43538344f6e4f2de4aa15ea6c9844c2f3237542aae1dc59f"
+    },
+    {
+      "id": "PV2-CORE-CH27-028",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "secondary containment",
+      "itemFamilyId": "PV2-CORE-CH27-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a cylinder handling assessment, a supervisor proposes: \"The berm is adequate because volume is the only containment criterion\". The underlying case is: A liquid storage area has a berm sized for the largest tank but contains an open drain connected to the storm sewer. What is the key deficiency? Which alternative is the most defensible correction?",
+      "options": [
+        "Storm sewers are appropriate disposal routes for any diluted chemical release",
+        "The berm is adequate because volume is the only containment criterion",
+        "The drain improves containment by removing liquid quickly",
+        "Containment integrity is defeated unless the drain is controlled so a release cannot escape to the environment"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Secondary containment must retain a credible release and account for drains, precipitation, compatibility, and response; nominal volume alone is not enough.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Storm sewers are appropriate disposal routes for any diluted chemical release' remains incomplete or misapplies the controlling secondary containment principle.",
+        "The proposed response 'The berm is adequate because volume is the only containment criterion' remains incomplete or misapplies the controlling secondary containment principle.",
+        "The proposed response 'The drain improves containment by removing liquid quickly' remains incomplete or misapplies the controlling secondary containment principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: secondary containment",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "58886cccf92e86d3d8e969a9cb02cd21727902f6d04268c3b9d90e9734765c5a"
+    },
+    {
+      "id": "PV2-CORE-CH27-029",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazardous waste determination",
+      "itemFamilyId": "PV2-CORE-CH27-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hazardous materials inventory reconciliation, a supervisor proposes: \"Wait until the transporter arrives to decide whether the material is hazardous\". The underlying case is: A spent process solvent is no longer usable. The generator wants to call it “recyclable material” and avoid evaluating it as waste. What should occur? Which alternative is the most defensible correction?",
+      "options": [
+        "Make and document the hazardous waste determination at the point of generation based on process knowledge or testing and applicable exclusions",
+        "Assume all spent solvents are nonhazardous if they retain commercial value",
+        "Use the word recyclable on the label because terminology determines regulatory status",
+        "Wait until the transporter arrives to decide whether the material is hazardous"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Assume all spent solvents are nonhazardous if they retain commercial value' remains incomplete or misapplies the controlling hazardous waste determination principle.",
+        "The proposed response 'Use the word recyclable on the label because terminology determines regulatory status' remains incomplete or misapplies the controlling hazardous waste determination principle.",
+        "The proposed response 'Wait until the transporter arrives to decide whether the material is hazardous' remains incomplete or misapplies the controlling hazardous waste determination principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: hazardous waste determination",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aea81185346bf836c40daba059416370d55b89451223f4d103bb1b7c86543ef6"
+    },
+    {
+      "id": "PV2-CORE-CH27-030",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "DOT shipping description",
+      "itemFamilyId": "PV2-CORE-CH27-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hazardous materials storage audit, a supervisor proposes: \"Rely only on the workplace SDS section title without checking transport requirements\". The underlying case is: A shipper selects packaging based on a familiar trade name but has not determined hazard class, identification number, packing group, or special provisions. What is the correct next step? Which alternative is the most defensible correction?",
+      "options": [
+        "Rely only on the workplace SDS section title without checking transport requirements",
+        "Classify the material using current hazardous materials regulations and prepare packaging, marks, labels, papers, and training accordingly",
+        "Use the most severe label available without identifying the material",
+        "Ship under the trade name because carriers can determine classification in transit"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Rely only on the workplace SDS section title without checking transport requirements' remains incomplete or misapplies the controlling dot shipping description principle.",
+        null,
+        "The proposed response 'Use the most severe label available without identifying the material' remains incomplete or misapplies the controlling dot shipping description principle.",
+        "The proposed response 'Ship under the trade name because carriers can determine classification in transit' remains incomplete or misapplies the controlling dot shipping description principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: DOT shipping description",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "988b025c70e7ba9021a42e51529ede09c465634a5cf86395ae9440cac32a7adc"
+    },
+    {
+      "id": "PV2-CORE-CH27-031",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "compressed gas cylinder handling",
+      "itemFamilyId": "PV2-CORE-CH27-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a DOT shipping preparation, a supervisor proposes: \"Roll the cylinder on its bottom edge to avoid handling equipment\". The underlying case is: A compressed gas cylinder is moved with the regulator attached and no protective cap. What should be done? Which alternative is the most defensible correction?",
+      "options": [
+        "Carry it by the valve because the valve is designed as a lifting point",
+        "Move it horizontally with two workers holding the regulator",
+        "Close the valve, remove the regulator as appropriate, install the protective cap, and use a suitable cylinder cart and restraint",
+        "Roll the cylinder on its bottom edge to avoid handling equipment"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Carry it by the valve because the valve is designed as a lifting point' remains incomplete or misapplies the controlling compressed gas cylinder handling principle.",
+        "The proposed response 'Move it horizontally with two workers holding the regulator' remains incomplete or misapplies the controlling compressed gas cylinder handling principle.",
+        null,
+        "The proposed response 'Roll the cylinder on its bottom edge to avoid handling equipment' remains incomplete or misapplies the controlling compressed gas cylinder handling principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: compressed gas cylinder handling",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "31feb5a0dff3ce4131042114e5f7fe2d6eb2bc1d5d2c1763dbecb36a71ffce62"
+    },
+    {
+      "id": "PV2-CORE-CH27-032",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "spill response versus incidental release",
+      "itemFamilyId": "PV2-CORE-CH27-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a spill-containment design, a supervisor proposes: \"Send one employee in quickly before vapor levels rise\". The underlying case is: A release is beyond employees’ training and PPE, is spreading toward a drain, and may create an inhalation hazard. A supervisor calls it incidental and orders cleanup. What is the best response? Which alternative is the most defensible correction?",
+      "options": [
+        "Send one employee in quickly before vapor levels rise",
+        "Dilute the release into the drain to reduce concentration",
+        "Continue cleanup because every spill becomes incidental when absorbent is available",
+        "Stop unqualified cleanup, isolate the area, activate the emergency response plan, and use personnel trained and equipped for the release"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A release requiring emergency response cannot be reclassified by a supervisor’s label. Hazard, quantity, exposure, and capability determine the response level.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Send one employee in quickly before vapor levels rise' remains incomplete or misapplies the controlling spill response versus incidental release principle.",
+        "The proposed response 'Dilute the release into the drain to reduce concentration' remains incomplete or misapplies the controlling spill response versus incidental release principle.",
+        "The proposed response 'Continue cleanup because every spill becomes incidental when absorbent is available' remains incomplete or misapplies the controlling spill response versus incidental release principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: spill response versus incidental release",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "073cc81cb78bc9aa2da8f14c1a6c292be63f70707d17d56935a579e37d1729cf"
+    },
+    {
+      "id": "PV2-CORE-CH27-033",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inventory reconciliation and security",
+      "itemFamilyId": "PV2-CORE-CH27-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a chemical incompatibility review, a supervisor proposes: \"Order additional product so the physical inventory equals the records\". The underlying case is: A highly hazardous chemical inventory repeatedly differs from purchasing and usage records. What should the facility do? Which alternative is the most defensible correction?",
+      "options": [
+        "Investigate measurement, transfer, loss, theft, and record controls, reconcile quantities, and address security and release implications",
+        "Ignore small recurring differences because hazardous materials cannot be diverted",
+        "Order additional product so the physical inventory equals the records",
+        "Adjust the spreadsheet to match the expected value without investigation"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Unexplained discrepancies can indicate leaks, accounting errors, or diversion. Reconciliation is a safety, environmental, and security control.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Ignore small recurring differences because hazardous materials cannot be diverted' remains incomplete or misapplies the controlling inventory reconciliation and security principle.",
+        "The proposed response 'Order additional product so the physical inventory equals the records' remains incomplete or misapplies the controlling inventory reconciliation and security principle.",
+        "The proposed response 'Adjust the spreadsheet to match the expected value without investigation' remains incomplete or misapplies the controlling inventory reconciliation and security principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: inventory reconciliation and security",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "28ad573d45af9cd255b5efc8dd8081713bbae70d515548dd3f54797e072b8311"
+    },
+    {
+      "id": "PV2-CORE-CH27-034",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emergency information and labeling",
+      "itemFamilyId": "PV2-CORE-CH27-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hazardous waste accumulation inspection, a supervisor proposes: \"Use odor and color to identify it before continuing work\". The underlying case is: A secondary container of a hazardous chemical is found unlabeled during a shift change, and the employee who filled it has left. What is the best action? Which alternative is the most defensible correction?",
+      "options": [
+        "Assume it contains the product most commonly used in the area",
+        "Remove it from use until identity and hazards are reliably established and the container is labeled under the applicable workplace system",
+        "Use odor and color to identify it before continuing work",
+        "Pour it into a floor drain to eliminate the uncertainty"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Unknown chemicals should not be used or disposed of by guesswork. Identity, hazards, and proper labeling must be established through reliable information.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Assume it contains the product most commonly used in the area' remains incomplete or misapplies the controlling emergency information and labeling principle.",
+        null,
+        "The proposed response 'Use odor and color to identify it before continuing work' remains incomplete or misapplies the controlling emergency information and labeling principle.",
+        "The proposed response 'Pour it into a floor drain to eliminate the uncertainty' remains incomplete or misapplies the controlling emergency information and labeling principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: emergency information and labeling",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "00cc73d7dafce7c1d61dbb1ffc35b7811441d27ff33096678d92b247a17de0a5"
+    },
+    {
+      "id": "PV2-CORE-CH27-035",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "chemical compatibility",
+      "itemFamilyId": "PV2-CORE-CH27-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a cylinder handling assessment, the team selects \"A leak, fire, or container failure could bring incompatible materials together, so segregation must be based on reactivity and credible release scenarios\" rather than \"Sealed drums make chemical compatibility irrelevant\" for this case: A warehouse plans to store an oxidizer beside an organic solvent because both are packaged in sealed drums. What is the strongest concern? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient.",
+        "Compatibility controls consider what happens during credible loss of containment, fire, or response—not just normal closed-container conditions.",
+        "Unexplained discrepancies can indicate leaks, accounting errors, or diversion. Reconciliation is a safety, environmental, and security control."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the chemical compatibility issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'hazardous waste determination' and does not distinguish the two responses in the present chemical compatibility decision.",
+        "This explanation concerns 'DOT shipping description' and does not distinguish the two responses in the present chemical compatibility decision.",
+        null,
+        "This explanation concerns 'inventory reconciliation and security' and does not distinguish the two responses in the present chemical compatibility decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: chemical compatibility",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f95bacc97537c76624eb3183cecfcaf92ae2e8325058d8b3f8069fe88982ff7b"
+    },
+    {
+      "id": "PV2-CORE-CH27-036",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "secondary containment",
+      "itemFamilyId": "PV2-CORE-CH27-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hazardous materials inventory reconciliation, the team selects \"Containment integrity is defeated unless the drain is controlled so a release cannot escape to the environment\" rather than \"The drain improves containment by removing liquid quickly\" for this case: A liquid storage area has a berm sized for the largest tank but contains an open drain connected to the storm sewer. What is the key deficiency? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Unexplained discrepancies can indicate leaks, accounting errors, or diversion. Reconciliation is a safety, environmental, and security control.",
+        "Unknown chemicals should not be used or disposed of by guesswork. Identity, hazards, and proper labeling must be established through reliable information.",
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "Secondary containment must retain a credible release and account for drains, precipitation, compatibility, and response; nominal volume alone is not enough."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the secondary containment issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'inventory reconciliation and security' and does not distinguish the two responses in the present secondary containment decision.",
+        "This explanation concerns 'emergency information and labeling' and does not distinguish the two responses in the present secondary containment decision.",
+        "This explanation concerns 'hazardous waste determination' and does not distinguish the two responses in the present secondary containment decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: secondary containment",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1c5d19c35ce4a3c446816197cf23dbbdb3ab8c24c9f213c081112a44ec253313"
+    },
+    {
+      "id": "PV2-CORE-CH27-037",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazardous waste determination",
+      "itemFamilyId": "PV2-CORE-CH27-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hazardous materials storage audit, the team selects \"Make and document the hazardous waste determination at the point of generation based on process knowledge or testing and applicable exclusions\" rather than \"Assume all spent solvents are nonhazardous if they retain commercial value\" for this case: A spent process solvent is no longer usable. The generator wants to call it “recyclable material” and avoid evaluating it as waste. What should occur? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards.",
+        "Secondary containment must retain a credible release and account for drains, precipitation, compatibility, and response; nominal volume alone is not enough.",
+        "Unexplained discrepancies can indicate leaks, accounting errors, or diversion. Reconciliation is a safety, environmental, and security control."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the hazardous waste determination issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'compressed gas cylinder handling' and does not distinguish the two responses in the present hazardous waste determination decision.",
+        "This explanation concerns 'secondary containment' and does not distinguish the two responses in the present hazardous waste determination decision.",
+        "This explanation concerns 'inventory reconciliation and security' and does not distinguish the two responses in the present hazardous waste determination decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: hazardous waste determination",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3648fbdf02ff1504af57c1e2caf858abfc241c7749602b5e540832c37fe09169"
+    },
+    {
+      "id": "PV2-CORE-CH27-038",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "DOT shipping description",
+      "itemFamilyId": "PV2-CORE-CH27-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a DOT shipping preparation, the team selects \"Classify the material using current hazardous materials regulations and prepare packaging, marks, labels, papers, and training accordingly\" rather than \"Ship under the trade name because carriers can determine classification in transit\" for this case: A shipper selects packaging based on a familiar trade name but has not determined hazard class, identification number, packing group, or special provisions. What is the correct next step? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient.",
+        "Unexplained discrepancies can indicate leaks, accounting errors, or diversion. Reconciliation is a safety, environmental, and security control.",
+        "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the dot shipping description issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'hazardous waste determination' and does not distinguish the two responses in the present dot shipping description decision.",
+        null,
+        "This explanation concerns 'inventory reconciliation and security' and does not distinguish the two responses in the present dot shipping description decision.",
+        "This explanation concerns 'compressed gas cylinder handling' and does not distinguish the two responses in the present dot shipping description decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: DOT shipping description",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cc16092fd3da34016d13ab1332995a5cc658e3eca5a2705a1666c779480f8812"
+    },
+    {
+      "id": "PV2-CORE-CH27-039",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "compressed gas cylinder handling",
+      "itemFamilyId": "PV2-CORE-CH27-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a spill-containment design, the team selects \"Close the valve, remove the regulator as appropriate, install the protective cap, and use a suitable cylinder cart and restraint\" rather than \"Carry it by the valve because the valve is designed as a lifting point\" for this case: A compressed gas cylinder is moved with the regulator attached and no protective cap. What should be done? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Regulatory status depends on the material and management conditions, not a label. The generator must make an accurate, timely determination.",
+        "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient.",
+        "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards.",
+        "Compatibility controls consider what happens during credible loss of containment, fire, or response—not just normal closed-container conditions."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the compressed gas cylinder handling issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'hazardous waste determination' and does not distinguish the two responses in the present compressed gas cylinder handling decision.",
+        "This explanation concerns 'DOT shipping description' and does not distinguish the two responses in the present compressed gas cylinder handling decision.",
+        null,
+        "This explanation concerns 'chemical compatibility' and does not distinguish the two responses in the present compressed gas cylinder handling decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: compressed gas cylinder handling",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "33933e7c7c3b5b0e37877b94e6c11167c0a6fd7f8e1fe4e02266d1a44fa9363d"
+    },
+    {
+      "id": "PV2-CORE-CH27-040",
+      "version": 1,
+      "chapterId": "ch-27",
+      "chapterTitle": "Hazardous Materials Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "spill response versus incidental release",
+      "itemFamilyId": "PV2-CORE-CH27-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a chemical incompatibility review, the team selects \"Stop unqualified cleanup, isolate the area, activate the emergency response plan, and use personnel trained and equipped for the release\" rather than \"Dilute the release into the drain to reduce concentration\" for this case: A release is beyond employees’ training and PPE, is spreading toward a drain, and may create an inhalation hazard. A supervisor calls it incidental and orders cleanup. What is the best response? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Transportation compliance requires accurate classification and communication under the hazardous materials regulations; workplace naming alone is not sufficient.",
+        "Cylinder valves are vulnerable to impact. Proper closure, cap protection, handling equipment, and restraint reduce projectile and release hazards.",
+        "Unexplained discrepancies can indicate leaks, accounting errors, or diversion. Reconciliation is a safety, environmental, and security control.",
+        "A release requiring emergency response cannot be reclassified by a supervisor’s label. Hazard, quantity, exposure, and capability determine the response level."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the spill response versus incidental release issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'DOT shipping description' and does not distinguish the two responses in the present spill response versus incidental release decision.",
+        "This explanation concerns 'compressed gas cylinder handling' and does not distinguish the two responses in the present spill response versus incidental release decision.",
+        "This explanation concerns 'inventory reconciliation and security' and does not distinguish the two responses in the present spill response versus incidental release decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 27, pp. 616-635; OSHA, EPA, and PHMSA hazardous-materials requirements as applicable; curated topic: spill response versus incidental release",
+      "sourceUrls": [
+        "https://www.osha.gov/hazardous-materials",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "48e7edd7638db096eba14a06461fa3e6f80d408de4cd12698113e1ded4dc43af"
+    }
+  ]
+}

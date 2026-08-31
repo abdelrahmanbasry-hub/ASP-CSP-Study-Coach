@@ -1,0 +1,2005 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-18-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-18",
+  "chapterTitle": "Hydrostatics and Hydraulics",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH18-001",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pascal law and hydraulic force",
+      "itemFamilyId": "PV2-CORE-CH18-F001",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A hydraulic press has a 2-square-inch input piston and a 50-square-inch output piston. If 100 pounds of force is applied to the input and losses are ignored, what output force is produced?",
+      "options": [
+        "2,500 pounds",
+        "250 pounds",
+        "5,000 pounds",
+        "4 pounds"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Input pressure is 100/2 = 50 psi. That pressure acts on 50 in², producing 2,500 pounds of output force.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option '250 pounds' does not apply the controlling principle for pascal law and hydraulic force to the facts given, so it is not the best answer.",
+        "The option '5,000 pounds' does not apply the controlling principle for pascal law and hydraulic force to the facts given, so it is not the best answer.",
+        "The option '4 pounds' does not apply the controlling principle for pascal law and hydraulic force to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: Pascal law and hydraulic force",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "P = F/A; F_output = P × A_output",
+      "units": "pounds-force and pounds per square inch",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "272882d1208e8ee976a72c0db0da701cf9cb14415bf2c23de67a59ab9a94e69a"
+    },
+    {
+      "id": "PV2-CORE-CH18-002",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hydrostatic pressure",
+      "itemFamilyId": "PV2-CORE-CH18-F002",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "Two open tanks contain the same liquid to the same depth but have very different shapes and volumes. How does pressure at the bottom compare?",
+      "options": [
+        "The wider tank has greater bottom pressure because it contains more liquid",
+        "It is the same because hydrostatic pressure depends on liquid density and vertical depth, not total volume or tank shape",
+        "Pressure depends only on tank material and not on depth",
+        "The narrow tank has greater pressure because the liquid column is more concentrated"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "For a static liquid open to the same atmosphere, gauge pressure at a depth is density times gravitational acceleration times depth.",
+      "incorrectOptionExplanations": [
+        "The option 'The wider tank has greater bottom pressure because it contains more liquid' does not apply the controlling principle for hydrostatic pressure to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Pressure depends only on tank material and not on depth' does not apply the controlling principle for hydrostatic pressure to the facts given, so it is not the best answer.",
+        "The option 'The narrow tank has greater pressure because the liquid column is more concentrated' does not apply the controlling principle for hydrostatic pressure to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: hydrostatic pressure",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Gauge pressure = density × gravitational acceleration × depth",
+      "units": "pressure units consistent with density, gravity, and depth",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "400f276787c626cd925104443b08933173817cfecd15b73ad7b4136efdecd4d4"
+    },
+    {
+      "id": "PV2-CORE-CH18-003",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pressure multiplication and safeguarding",
+      "itemFamilyId": "PV2-CORE-CH18-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A small manual input on a hydraulic system can create a very large clamping force. Which safety implication is most important?",
+      "options": [
+        "Hydraulic pressure disappears immediately whenever the pump motor stops",
+        "The small input force proves the machine cannot cause crushing injury",
+        "Safeguards and energy isolation must be designed for the amplified force and trapped hydraulic energy, not the operator’s small input force",
+        "PPE alone is sufficient because fluid power cannot store energy"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Hydraulic systems multiply force and can retain pressure after shutdown. Guarding, blocking, pressure release, and verified isolation must address the actual stored and generated forces.",
+      "incorrectOptionExplanations": [
+        "The option 'Hydraulic pressure disappears immediately whenever the pump motor stops' does not apply the controlling principle for pressure multiplication and safeguarding to the facts given, so it is not the best answer.",
+        "The option 'The small input force proves the machine cannot cause crushing injury' does not apply the controlling principle for pressure multiplication and safeguarding to the facts given, so it is not the best answer.",
+        null,
+        "The option 'PPE alone is sufficient because fluid power cannot store energy' does not apply the controlling principle for pressure multiplication and safeguarding to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: pressure multiplication and safeguarding",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "22d118d21e41a2c548189a24d8bc8591e66462df8f611960d8cb081378aff5c6"
+    },
+    {
+      "id": "PV2-CORE-CH18-004",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Bernoulli and restrictions",
+      "itemFamilyId": "PV2-CORE-CH18-F004",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A flowing incompressible liquid enters a smaller pipe section at the same elevation. Ignoring losses, what general change occurs?",
+      "options": [
+        "Velocity decreases and static pressure increases",
+        "Both velocity and static pressure remain constant",
+        "The liquid density doubles as the pipe narrows",
+        "Velocity increases and static pressure tends to decrease"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Continuity requires higher velocity in the smaller area, and Bernoulli’s relationship predicts conversion of static pressure to velocity pressure when elevation and losses are unchanged.",
+      "incorrectOptionExplanations": [
+        "The option 'Velocity decreases and static pressure increases' does not apply the controlling principle for bernoulli and restrictions to the facts given, so it is not the best answer.",
+        "The option 'Both velocity and static pressure remain constant' does not apply the controlling principle for bernoulli and restrictions to the facts given, so it is not the best answer.",
+        "The option 'The liquid density doubles as the pipe narrows' does not apply the controlling principle for bernoulli and restrictions to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: Bernoulli and restrictions",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "P/(ρg) + v^2/(2g) + z = constant, ignoring losses",
+      "units": "consistent pressure/head and velocity units",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "84d37667b4d066d02b71f8f32f885a2a02a00eb2cb05f060c2136a15762dd3b9"
+    },
+    {
+      "id": "PV2-CORE-CH18-005",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cavitation",
+      "itemFamilyId": "PV2-CORE-CH18-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A pump becomes noisy, vibrates, and shows pitted impeller surfaces after suction pressure falls. What condition is most likely?",
+      "options": [
+        "Cavitation caused by vapor bubble formation and collapse at inadequate suction pressure",
+        "Hydrostatic equilibrium caused by a fully flooded suction line",
+        "Laminar flow caused by excessive net positive suction head",
+        "Pressure relief operation caused solely by low discharge resistance"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Low suction pressure can drop below vapor pressure, forming bubbles that collapse in higher-pressure regions and damage the impeller.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Hydrostatic equilibrium caused by a fully flooded suction line' does not apply the controlling principle for cavitation to the facts given, so it is not the best answer.",
+        "The option 'Laminar flow caused by excessive net positive suction head' does not apply the controlling principle for cavitation to the facts given, so it is not the best answer.",
+        "The option 'Pressure relief operation caused solely by low discharge resistance' does not apply the controlling principle for cavitation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: cavitation",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "97c81af4082f73436a7f8cd823f0bb16a0c1b44be090a8393e459ea11fa78505"
+    },
+    {
+      "id": "PV2-CORE-CH18-006",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fluid injection injury",
+      "itemFamilyId": "PV2-CORE-CH18-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A worker uses a bare hand to search for a pinhole leak in a high-pressure hydraulic hose. No visible cut is found, but the hand becomes painful and swollen. What is the proper response?",
+      "options": [
+        "Apply a bandage and return to work because no external wound is visible",
+        "Treat it as a possible high-pressure injection injury requiring immediate emergency medical evaluation",
+        "Lower system pressure and repeat the hand test to locate the leak",
+        "Wait for skin discoloration before seeking care"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "High-pressure fluid can penetrate through a tiny wound and cause severe deep-tissue injury. It is a medical emergency even when the entry point is difficult to see.",
+      "incorrectOptionExplanations": [
+        "The option 'Apply a bandage and return to work because no external wound is visible' does not apply the controlling principle for fluid injection injury to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Lower system pressure and repeat the hand test to locate the leak' does not apply the controlling principle for fluid injection injury to the facts given, so it is not the best answer.",
+        "The option 'Wait for skin discoloration before seeking care' does not apply the controlling principle for fluid injection injury to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: fluid injection injury",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e5cbd3a1c36e089597d00f463908b88a15ff9dc8ef86587e68919a1c19b12f7a"
+    },
+    {
+      "id": "PV2-CORE-CH18-007",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pressure relief protection",
+      "itemFamilyId": "PV2-CORE-CH18-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A positive-displacement pump can continue building pressure against a closed discharge valve. Which protection is essential?",
+      "options": [
+        "A pressure gauge alone with no automatic means to limit pressure",
+        "A larger motor so the pump can overcome the closed valve",
+        "A correctly set and routed pressure-relief device that protects the pump and downstream system",
+        "A check valve installed in place of pressure relief"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Positive-displacement pumps can generate destructive pressure when flow is blocked. A gauge indicates pressure but does not limit it; relief protection must safely control the maximum.",
+      "incorrectOptionExplanations": [
+        "The option 'A pressure gauge alone with no automatic means to limit pressure' does not apply the controlling principle for pressure relief protection to the facts given, so it is not the best answer.",
+        "The option 'A larger motor so the pump can overcome the closed valve' does not apply the controlling principle for pressure relief protection to the facts given, so it is not the best answer.",
+        null,
+        "The option 'A check valve installed in place of pressure relief' does not apply the controlling principle for pressure relief protection to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: pressure relief protection",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d91b52ca9bfd6858cd2de3d9dfb1e3519f16d2c205881e33f8a76e4b00ff6448"
+    },
+    {
+      "id": "PV2-CORE-CH18-008",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pipe friction loss",
+      "itemFamilyId": "PV2-CORE-CH18-F008",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A hydraulic line is replaced with a much longer line of the same diameter and roughness while flow is held constant. What is the expected effect?",
+      "options": [
+        "Required pump pressure will remain unchanged because diameter is the same",
+        "Frictional head loss will decrease because pressure is spread over more pipe",
+        "Static head will become zero regardless of elevation",
+        "Frictional head loss and required pump pressure will increase"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "For otherwise identical conditions, friction loss increases with pipe length. Maintaining the same flow therefore requires greater pressure or head from the pump.",
+      "incorrectOptionExplanations": [
+        "The option 'Required pump pressure will remain unchanged because diameter is the same' does not apply the controlling principle for pipe friction loss to the facts given, so it is not the best answer.",
+        "The option 'Frictional head loss will decrease because pressure is spread over more pipe' does not apply the controlling principle for pipe friction loss to the facts given, so it is not the best answer.",
+        "The option 'Static head will become zero regardless of elevation' does not apply the controlling principle for pipe friction loss to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: pipe friction loss",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Head loss increases with pipe length for fixed diameter, roughness, and flow",
+      "units": "head or pressure loss",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3ee223b87a508a82712174029904d8e1834af942b6871a83bd0c3b9b5fc8ccd2"
+    },
+    {
+      "id": "PV2-CORE-CH18-009",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pascal law and hydraulic force",
+      "itemFamilyId": "PV2-CORE-CH18-F009",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a pump-system design check, the team reviews this case: A hydraulic press has a 2-square-inch input piston and a 50-square-inch output piston. If 100 pounds of force is applied to the input and losses are ignored, what output force is produced? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Input pressure is 100/2 = 50 psi. That pressure acts on 50 in², producing 2,500 pounds of output force.",
+        "Hydraulic systems multiply force and can retain pressure after shutdown. Guarding, blocking, pressure release, and verified isolation must address the actual stored and generated forces.",
+        "Positive-displacement pumps can generate destructive pressure when flow is blocked. A gauge indicates pressure but does not limit it; relief protection must safely control the maximum.",
+        "Continuity requires higher velocity in the smaller area, and Bernoulli’s relationship predicts conversion of static pressure to velocity pressure when elevation and losses are unchanged."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses pascal law and hydraulic force and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'pressure multiplication and safeguarding', but it does not resolve the pascal law and hydraulic force issue in this case.",
+        "This rationale supports the separate chapter topic 'pressure relief protection', but it does not resolve the pascal law and hydraulic force issue in this case.",
+        "This rationale supports the separate chapter topic 'Bernoulli and restrictions', but it does not resolve the pascal law and hydraulic force issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: Pascal law and hydraulic force",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "P = F/A; F_output = P × A_output",
+      "units": "pounds-force and pounds per square inch",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "84b2b5d62def6f38ded00d685d0e18afd268ad4681311d0927317191d47f76a3"
+    },
+    {
+      "id": "PV2-CORE-CH18-010",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hydrostatic pressure",
+      "itemFamilyId": "PV2-CORE-CH18-F010",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a fluid-flow restriction analysis, the team reviews this case: Two open tanks contain the same liquid to the same depth but have very different shapes and volumes. How does pressure at the bottom compare? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Input pressure is 100/2 = 50 psi. That pressure acts on 50 in², producing 2,500 pounds of output force.",
+        "For a static liquid open to the same atmosphere, gauge pressure at a depth is density times gravitational acceleration times depth.",
+        "Low suction pressure can drop below vapor pressure, forming bubbles that collapse in higher-pressure regions and damage the impeller.",
+        "High-pressure fluid can penetrate through a tiny wound and cause severe deep-tissue injury. It is a medical emergency even when the entry point is difficult to see."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses hydrostatic pressure and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'Pascal law and hydraulic force', but it does not resolve the hydrostatic pressure issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'cavitation', but it does not resolve the hydrostatic pressure issue in this case.",
+        "This rationale supports the separate chapter topic 'fluid injection injury', but it does not resolve the hydrostatic pressure issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: hydrostatic pressure",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Gauge pressure = density × gravitational acceleration × depth",
+      "units": "pressure units consistent with density, gravity, and depth",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "48e5ceebdb315f22a9a30e0a30e5d70cecbcc665b4368cc9615025d1626ff7fd"
+    },
+    {
+      "id": "PV2-CORE-CH18-011",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pressure multiplication and safeguarding",
+      "itemFamilyId": "PV2-CORE-CH18-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a pressure-relief evaluation, the team reviews this case: A small manual input on a hydraulic system can create a very large clamping force. Which safety implication is most important? Which rationale most directly supports the correct decision?",
+      "options": [
+        "High-pressure fluid can penetrate through a tiny wound and cause severe deep-tissue injury. It is a medical emergency even when the entry point is difficult to see.",
+        "Low suction pressure can drop below vapor pressure, forming bubbles that collapse in higher-pressure regions and damage the impeller.",
+        "Hydraulic systems multiply force and can retain pressure after shutdown. Guarding, blocking, pressure release, and verified isolation must address the actual stored and generated forces.",
+        "Input pressure is 100/2 = 50 psi. That pressure acts on 50 in², producing 2,500 pounds of output force."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses pressure multiplication and safeguarding and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'fluid injection injury', but it does not resolve the pressure multiplication and safeguarding issue in this case.",
+        "This rationale supports the separate chapter topic 'cavitation', but it does not resolve the pressure multiplication and safeguarding issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'Pascal law and hydraulic force', but it does not resolve the pressure multiplication and safeguarding issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: pressure multiplication and safeguarding",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "432ad08fb31e0f002e00af5d6188a9c8a72a9810e10fbf69baa134f363135a38"
+    },
+    {
+      "id": "PV2-CORE-CH18-012",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Bernoulli and restrictions",
+      "itemFamilyId": "PV2-CORE-CH18-F012",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a buoyancy and displacement problem, the team reviews this case: A flowing incompressible liquid enters a smaller pipe section at the same elevation. Ignoring losses, what general change occurs? Which rationale most directly supports the correct decision?",
+      "options": [
+        "For a static liquid open to the same atmosphere, gauge pressure at a depth is density times gravitational acceleration times depth.",
+        "High-pressure fluid can penetrate through a tiny wound and cause severe deep-tissue injury. It is a medical emergency even when the entry point is difficult to see.",
+        "Hydraulic systems multiply force and can retain pressure after shutdown. Guarding, blocking, pressure release, and verified isolation must address the actual stored and generated forces.",
+        "Continuity requires higher velocity in the smaller area, and Bernoulli’s relationship predicts conversion of static pressure to velocity pressure when elevation and losses are unchanged."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses bernoulli and restrictions and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hydrostatic pressure', but it does not resolve the bernoulli and restrictions issue in this case.",
+        "This rationale supports the separate chapter topic 'fluid injection injury', but it does not resolve the bernoulli and restrictions issue in this case.",
+        "This rationale supports the separate chapter topic 'pressure multiplication and safeguarding', but it does not resolve the bernoulli and restrictions issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: Bernoulli and restrictions",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "P/(ρg) + v^2/(2g) + z = constant, ignoring losses",
+      "units": "consistent pressure/head and velocity units",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "67bbe3500e37fb3deb45436c85017fdd779c4c6631528fc39736938b4eb3fe75"
+    },
+    {
+      "id": "PV2-CORE-CH18-013",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cavitation",
+      "itemFamilyId": "PV2-CORE-CH18-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a pipe friction-loss estimate, the team reviews this case: A pump becomes noisy, vibrates, and shows pitted impeller surfaces after suction pressure falls. What condition is most likely? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Low suction pressure can drop below vapor pressure, forming bubbles that collapse in higher-pressure regions and damage the impeller.",
+        "For otherwise identical conditions, friction loss increases with pipe length. Maintaining the same flow therefore requires greater pressure or head from the pump.",
+        "Input pressure is 100/2 = 50 psi. That pressure acts on 50 in², producing 2,500 pounds of output force.",
+        "Continuity requires higher velocity in the smaller area, and Bernoulli’s relationship predicts conversion of static pressure to velocity pressure when elevation and losses are unchanged."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses cavitation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'pipe friction loss', but it does not resolve the cavitation issue in this case.",
+        "This rationale supports the separate chapter topic 'Pascal law and hydraulic force', but it does not resolve the cavitation issue in this case.",
+        "This rationale supports the separate chapter topic 'Bernoulli and restrictions', but it does not resolve the cavitation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: cavitation",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9f19c8794d967afdb9fd8ceaeb9815795ec9a0d12ba9caa2d6828819b9a5c705"
+    },
+    {
+      "id": "PV2-CORE-CH18-014",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fluid injection injury",
+      "itemFamilyId": "PV2-CORE-CH18-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a Pascal-law application, the team reviews this case: A worker uses a bare hand to search for a pinhole leak in a high-pressure hydraulic hose. No visible cut is found, but the hand becomes painful and swollen. What is the proper response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "For otherwise identical conditions, friction loss increases with pipe length. Maintaining the same flow therefore requires greater pressure or head from the pump.",
+        "High-pressure fluid can penetrate through a tiny wound and cause severe deep-tissue injury. It is a medical emergency even when the entry point is difficult to see.",
+        "Input pressure is 100/2 = 50 psi. That pressure acts on 50 in², producing 2,500 pounds of output force.",
+        "Hydraulic systems multiply force and can retain pressure after shutdown. Guarding, blocking, pressure release, and verified isolation must address the actual stored and generated forces."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses fluid injection injury and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'pipe friction loss', but it does not resolve the fluid injection injury issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'Pascal law and hydraulic force', but it does not resolve the fluid injection injury issue in this case.",
+        "This rationale supports the separate chapter topic 'pressure multiplication and safeguarding', but it does not resolve the fluid injection injury issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: fluid injection injury",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "00f40a37b8f77674b3b8d9d1191eedba9e2ba3e9a4d3df47b2c9cf681d042bc7"
+    },
+    {
+      "id": "PV2-CORE-CH18-015",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pressure relief protection",
+      "itemFamilyId": "PV2-CORE-CH18-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hydraulic press troubleshooting review, the team reviews this case: A positive-displacement pump can continue building pressure against a closed discharge valve. Which protection is essential? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Low suction pressure can drop below vapor pressure, forming bubbles that collapse in higher-pressure regions and damage the impeller.",
+        "Hydraulic systems multiply force and can retain pressure after shutdown. Guarding, blocking, pressure release, and verified isolation must address the actual stored and generated forces.",
+        "Positive-displacement pumps can generate destructive pressure when flow is blocked. A gauge indicates pressure but does not limit it; relief protection must safely control the maximum.",
+        "For a static liquid open to the same atmosphere, gauge pressure at a depth is density times gravitational acceleration times depth."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses pressure relief protection and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'cavitation', but it does not resolve the pressure relief protection issue in this case.",
+        "This rationale supports the separate chapter topic 'pressure multiplication and safeguarding', but it does not resolve the pressure relief protection issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'hydrostatic pressure', but it does not resolve the pressure relief protection issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: pressure relief protection",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "43913fd755488bc5187935739d143091ab1de2e0a30e9cd3c70f3ee4ac554320"
+    },
+    {
+      "id": "PV2-CORE-CH18-016",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pipe friction loss",
+      "itemFamilyId": "PV2-CORE-CH18-F016",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a tank pressure calculation, the team reviews this case: A hydraulic line is replaced with a much longer line of the same diameter and roughness while flow is held constant. What is the expected effect? Which rationale most directly supports the correct decision?",
+      "options": [
+        "High-pressure fluid can penetrate through a tiny wound and cause severe deep-tissue injury. It is a medical emergency even when the entry point is difficult to see.",
+        "For a static liquid open to the same atmosphere, gauge pressure at a depth is density times gravitational acceleration times depth.",
+        "Hydraulic systems multiply force and can retain pressure after shutdown. Guarding, blocking, pressure release, and verified isolation must address the actual stored and generated forces.",
+        "For otherwise identical conditions, friction loss increases with pipe length. Maintaining the same flow therefore requires greater pressure or head from the pump."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses pipe friction loss and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'fluid injection injury', but it does not resolve the pipe friction loss issue in this case.",
+        "This rationale supports the separate chapter topic 'hydrostatic pressure', but it does not resolve the pipe friction loss issue in this case.",
+        "This rationale supports the separate chapter topic 'pressure multiplication and safeguarding', but it does not resolve the pipe friction loss issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: pipe friction loss",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Head loss increases with pipe length for fixed diameter, roughness, and flow",
+      "units": "head or pressure loss",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5bbcde5905a082b919de9601d14198b3b05d08b842f9eed4b919322f75fcd9c6"
+    },
+    {
+      "id": "PV2-CORE-CH18-017",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Water head to pressure",
+      "itemFamilyId": "PV2-CORE-CH18-F017",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a tank pressure calculation, solve the following problem and select the best answer: A gauge tap is 36 ft below the free surface of a water tank. Ignoring losses, what hydrostatic pressure is expected at the tap?",
+      "options": [
+        "15.6 psi",
+        "83.1 psi",
+        "2.4 psi",
+        "36.0 psi"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "For water, pressure is approximately P = 0.433*h. Thus 0.433*36 ft = 15.588 psi, or 15.6 psi.",
+      "incorrectOptionExplanations": [
+        null,
+        "This divides head by 0.433, which calculates equivalent head from pressure instead.",
+        "This reverses the conversion and understates the pressure.",
+        "This treats feet of head as numerically equal to psi."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Water Properties and Torricelli pressure relation, pp. 469-473; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "P = 0.433*h",
+      "units": "pounds per square inch (psi)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "84388d88ac673c8807e30af17714cfb78468dd0e9a0c22eef7e6f43d1f17520b"
+    },
+    {
+      "id": "PV2-CORE-CH18-018",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pressure to water head",
+      "itemFamilyId": "PV2-CORE-CH18-F018",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a pump-system design check, solve the following problem and select the best answer: A water line has a static pressure of 52 psi. Approximately how many feet of water head does this represent?",
+      "options": [
+        "451 ft",
+        "120 ft",
+        "225 ft",
+        "22.5 ft"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Rearrange P = 0.433*h to h = P/0.433. Then 52/0.433 = 120.1 ft, approximately 120 ft.",
+      "incorrectOptionExplanations": [
+        "This divides by the square of 0.433 without justification.",
+        null,
+        "This uses an incorrect conversion of about 0.231 psi per foot.",
+        "This multiplies pressure by 0.433 instead of dividing."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, pressure and head relationship, pp. 472-473; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "h = P/0.433",
+      "units": "feet of water head (ft)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "db406e78b5df5016573ea3bce891d96dc9170ec5120b7ceca69dd56c7289e5a5"
+    },
+    {
+      "id": "PV2-CORE-CH18-019",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Torricelli efflux velocity",
+      "itemFamilyId": "PV2-CORE-CH18-F019",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a fluid-flow restriction analysis, solve the following problem and select the best answer: A sharp-edged opening is 18 ft below the water surface in an open tank. Ignoring losses, what is the theoretical exit velocity?",
+      "options": [
+        "64.4 ft/s",
+        "25.4 ft/s",
+        "34.0 ft/s",
+        "18.0 ft/s"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Torricelli law gives v = sqrt(2*g*h) = sqrt(2*32.2*18) = 34.0 ft/s.",
+      "incorrectOptionExplanations": [
+        "This reports 2*g without applying the head or square root.",
+        "This uses only sqrt(2*h) and omits gravitational acceleration.",
+        null,
+        "This uses the head directly as velocity."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Torricelli Law, pp. 471-473; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "v = sqrt(2*g*h)",
+      "units": "feet per second (ft/s)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ce32ec55939412ea83649f3591d05de7150c49746cd53ae395de64b3137a2f70"
+    },
+    {
+      "id": "PV2-CORE-CH18-020",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Volumetric flow rate",
+      "itemFamilyId": "PV2-CORE-CH18-F020",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a pressure-relief evaluation, solve the following problem and select the best answer: Water moves through a 4.0 in inside-diameter pipe at an average velocity of 9.0 ft/s. What is the volumetric flow rate?",
+      "options": [
+        "3.142 ft^3/s",
+        "1.047 ft^3/s",
+        "0.262 ft^3/s",
+        "0.785 ft^3/s"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Convert diameter to 0.333 ft. Area = pi*d^2/4 = 0.0873 ft^2, so Q = A*v = 0.0873*9.0 = 0.785 ft^3/s.",
+      "incorrectOptionExplanations": [
+        "This applies pi directly to the velocity without calculating area.",
+        "This multiplies velocity by diameter rather than the pipe cross-sectional area.",
+        "This uses radius as though it were diameter in the circular-area calculation.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Flow Rates and Pressure Drops, pp. 476-478; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Q = A*v; A = pi*d^2/4",
+      "units": "cubic feet per second (ft^3/s)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1f5205a16aa4055c9186c36a85af71e823dfa0089ebe312f45a5abdc2a7b76ec"
+    },
+    {
+      "id": "PV2-CORE-CH18-021",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Velocity head",
+      "itemFamilyId": "PV2-CORE-CH18-F021",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a buoyancy and displacement problem, solve the following problem and select the best answer: A water stream travels at 24 ft/s. Using g = 32.2 ft/s^2, what is its velocity head?",
+      "options": [
+        "8.9 ft",
+        "64.4 ft",
+        "18.6 ft",
+        "12.0 ft"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Velocity head is hv = v^2/(2*g) = 24^2/(2*32.2) = 8.94 ft, or 8.9 ft.",
+      "incorrectOptionExplanations": [
+        null,
+        "This reports the denominator 2g as the answer.",
+        "This uses 24^2/31 rather than the required 2g denominator.",
+        "This divides velocity by two rather than squaring velocity and dividing by 2g."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Velocity Head, pp. 474-475; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "h_v = v^2/(2*g)",
+      "units": "feet of head (ft)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7fc360c13b7cf0698206857b42b996539083193664b9db344c18faec403da9da"
+    },
+    {
+      "id": "PV2-CORE-CH18-022",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Static pump head",
+      "itemFamilyId": "PV2-CORE-CH18-F022",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a pipe friction-loss estimate, solve the following problem and select the best answer: A pump draws water from a level 38 ft below grade and discharges to an outlet 17 ft above grade. Ignoring system losses, what static head must the pump overcome?",
+      "options": [
+        "21 ft",
+        "55 ft",
+        "646 ft",
+        "38 ft"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The pump must lift from 38 ft below grade to 17 ft above grade, so static head is 38 + 17 = 55 ft.",
+      "incorrectOptionExplanations": [
+        "This subtracts the elevations even though the suction and discharge are on opposite sides of grade.",
+        null,
+        "This multiplies the two elevations rather than finding their vertical difference.",
+        "This includes only the suction lift and omits the discharge elevation."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Head Pressure and elevation head, pp. 473-474; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "static head = suction lift + discharge elevation",
+      "units": "feet of head (ft)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aff1f530349da71fbf24d5a1f1794c41c18c82947aa9c0e20966e09da7ce0bc7"
+    },
+    {
+      "id": "PV2-CORE-CH18-023",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pressure force on an area",
+      "itemFamilyId": "PV2-CORE-CH18-F023",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a Pascal-law application, solve the following problem and select the best answer: A closed hydraulic access cover has an exposed area of 18 in^2 and internal pressure of 72 psi. What outward force acts on the cover?",
+      "options": [
+        "4.0 lbf",
+        "90 lbf",
+        "1,296 lbf",
+        "1,080 lbf"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Pressure is force per area, so F = P*A = 72 lbf/in^2*18 in^2 = 1,296 lbf.",
+      "incorrectOptionExplanations": [
+        "This divides pressure by area, which does not produce the applied force.",
+        "This adds pressure and area instead of multiplying them.",
+        null,
+        "This uses 60 psi rather than the stated 72 psi."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Hydrostatic Pressure, pp. 470-471; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "F = P*A",
+      "units": "pounds-force (lbf)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "44b5676c18e110b524e473a6ef1f113b03dcf037f0876bee1018bb4080a6db4f"
+    },
+    {
+      "id": "PV2-CORE-CH18-024",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Bernoulli pressure-velocity relationship",
+      "itemFamilyId": "PV2-CORE-CH18-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hydraulic press troubleshooting review, the team reviews this question: In a horizontal, lossless water line, the pipe narrows and fluid velocity increases. What change is expected in static pressure? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The pump must lift from 38 ft below grade to 17 ft above grade, so static head is 38 + 17 = 55 ft.",
+        "The chapter classifies Reynolds numbers below 2,000 as laminar, from 2,000 to 4,000 as transitional, and above 4,000 as turbulent.",
+        "Hydraulic pressure is stored hazardous energy. The energy-control procedure must isolate, restrain or dissipate it and verify the effectiveness of the controls before servicing.",
+        "For steady, incompressible, lossless flow at the same elevation, Bernoulli energy is conserved. Increasing velocity head is accompanied by lower pressure head."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Static pump head', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Reynolds number flow regime', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Control of stored hydraulic energy', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Bernoulli Principle, pp. 479-481; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ded3660b5a4ff6c43d1d676c0743283598565c091ce6187d6ecb7e3fba3e2623"
+    },
+    {
+      "id": "PV2-CORE-CH18-025",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pipe friction pressure loss",
+      "itemFamilyId": "PV2-CORE-CH18-F025",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a tank pressure calculation, solve the following problem and select the best answer: Using Pd = 4.52*Q^1.85/(C^1.85*d^4.87), estimate total pressure loss for 300 ft of 6 in pipe carrying 500 gpm with C = 120.",
+      "options": [
+        "3.1 psi",
+        "6.2 psi",
+        "30.9 psi",
+        "0.010 psi"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The equation gives about 0.01028 psi/ft. Multiplying by 300 ft gives 3.09 psi, rounded to 3.1 psi.",
+      "incorrectOptionExplanations": [
+        null,
+        "This doubles the correctly calculated total loss.",
+        "This moves the decimal one place and overstates the total loss by a factor of ten.",
+        "This is approximately the loss per foot, not the total for 300 ft."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Calculating Pressure Loss Due to Friction, pp. 478-479; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Pd = 4.52*Q^1.85/(C^1.85*d^4.87); total loss = Pd*length",
+      "units": "pounds per square inch (psi)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7aafa2c3fe8a5f3cf2a2af4c85bc8f226e159ac32ef975dcedad65443ebf2a04"
+    },
+    {
+      "id": "PV2-CORE-CH18-026",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Reynolds number flow regime",
+      "itemFamilyId": "PV2-CORE-CH18-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a pump-system design check, the team reviews this question: A calculated Reynolds number for a liquid-flow condition is 1,500. How should the flow regime be classified using the chapter thresholds? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For steady, incompressible, lossless flow at the same elevation, Bernoulli energy is conserved. Increasing velocity head is accompanied by lower pressure head.",
+        "The chapter classifies Reynolds numbers below 2,000 as laminar, from 2,000 to 4,000 as transitional, and above 4,000 as turbulent.",
+        "Convert diameter to 0.333 ft. Area = pi*d^2/4 = 0.0873 ft^2, so Q = A*v = 0.0873*9.0 = 0.785 ft^3/s.",
+        "For water, pressure is approximately P = 0.433*h. Thus 0.433*36 ft = 15.588 psi, or 15.6 psi."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Bernoulli pressure-velocity relationship', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Volumetric flow rate', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Water head to pressure', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, flow regimes and key information, pp. 476 and 481; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aa0c39ae90efc5abc031950944e164c8aeb93583629379f4152407a55a378198"
+    },
+    {
+      "id": "PV2-CORE-CH18-027",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Control of stored hydraulic energy",
+      "itemFamilyId": "PV2-CORE-CH18-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fluid-flow restriction analysis, the team reviews this question: A press has been switched off and electrically locked out, but its hydraulic accumulator remains pressurized. What must occur before a worker enters the danger zone? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The chapter classifies Reynolds numbers below 2,000 as laminar, from 2,000 to 4,000 as transitional, and above 4,000 as turbulent.",
+        "The pump must lift from 38 ft below grade to 17 ft above grade, so static head is 38 + 17 = 55 ft.",
+        "Hydraulic pressure is stored hazardous energy. The energy-control procedure must isolate, restrain or dissipate it and verify the effectiveness of the controls before servicing.",
+        "For steady, incompressible, lossless flow at the same elevation, Bernoulli energy is conserved. Increasing velocity head is accompanied by lower pressure head."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Reynolds number flow regime', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Static pump head', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Bernoulli pressure-velocity relationship', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.147 - Control of Hazardous Energy",
+      "sourceLocation": "Yates Chapter 18, hydraulic power and pressure concepts, pp. 469-481; OSHA 1910.147(a)(1)(i), (a)(3)(i), (c)(1), and energy-source definition; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "310f8c678cfbf93a5d28d30f7bc5e5fc25a30730d0b44b7f92417305b73e363b"
+    },
+    {
+      "id": "PV2-CORE-CH18-028",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hydrostatic pressure independence from tank shape",
+      "itemFamilyId": "PV2-CORE-CH18-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a pressure-relief evaluation, the team reviews this question: Two open tanks contain water to the same depth. One tank is narrow and the other is wide. At equal depth below each free surface, how do their hydrostatic pressures compare? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Hydraulic pressure is stored hazardous energy. The energy-control procedure must isolate, restrain or dissipate it and verify the effectiveness of the controls before servicing.",
+        "The pump must lift from 38 ft below grade to 17 ft above grade, so static head is 38 + 17 = 55 ft.",
+        "For steady, incompressible, lossless flow at the same elevation, Bernoulli energy is conserved. Increasing velocity head is accompanied by lower pressure head.",
+        "For the same liquid and gravitational acceleration, hydrostatic pressure at a point depends on vertical depth or head. Container width and total volume do not change pressure at equal depth."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Control of stored hydraulic energy', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Static pump head', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Bernoulli pressure-velocity relationship', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 18, Water Properties and hydrostatic pressure, pp. 469-470; Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "874391d8c4bdf3807e0a4b997a1b4e7472a9cfc14756192cadae89f4c81f3a77"
+    },
+    {
+      "id": "PV2-CORE-CH18-029",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Pascal law and hydraulic force",
+      "itemFamilyId": "PV2-CORE-CH18-F029",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a Pascal-law application, a supervisor proposes: \"250 pounds\". The underlying case is: A hydraulic press has a 2-square-inch input piston and a 50-square-inch output piston. If 100 pounds of force is applied to the input and losses are ignored, what output force is produced? Which alternative is the most defensible correction?",
+      "options": [
+        "2,500 pounds",
+        "5,000 pounds",
+        "4 pounds",
+        "250 pounds"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Input pressure is 100/2 = 50 psi. That pressure acts on 50 in², producing 2,500 pounds of output force.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response '5,000 pounds' remains incomplete or misapplies the controlling pascal law and hydraulic force principle.",
+        "The proposed response '4 pounds' remains incomplete or misapplies the controlling pascal law and hydraulic force principle.",
+        "The proposed response '250 pounds' remains incomplete or misapplies the controlling pascal law and hydraulic force principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: Pascal law and hydraulic force",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "P = F/A; F_output = P × A_output",
+      "units": "pounds-force and pounds per square inch",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ca3bccec8d4d04df79644a056b6cff2e0669ff68316938b43dbf52a606c3b988"
+    },
+    {
+      "id": "PV2-CORE-CH18-030",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hydrostatic pressure",
+      "itemFamilyId": "PV2-CORE-CH18-F030",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a hydraulic press troubleshooting review, a supervisor proposes: \"Pressure depends only on tank material and not on depth\". The underlying case is: Two open tanks contain the same liquid to the same depth but have very different shapes and volumes. How does pressure at the bottom compare? Which alternative is the most defensible correction?",
+      "options": [
+        "The wider tank has greater bottom pressure because it contains more liquid",
+        "It is the same because hydrostatic pressure depends on liquid density and vertical depth, not total volume or tank shape",
+        "The narrow tank has greater pressure because the liquid column is more concentrated",
+        "Pressure depends only on tank material and not on depth"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "For a static liquid open to the same atmosphere, gauge pressure at a depth is density times gravitational acceleration times depth.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The wider tank has greater bottom pressure because it contains more liquid' remains incomplete or misapplies the controlling hydrostatic pressure principle.",
+        null,
+        "The proposed response 'The narrow tank has greater pressure because the liquid column is more concentrated' remains incomplete or misapplies the controlling hydrostatic pressure principle.",
+        "The proposed response 'Pressure depends only on tank material and not on depth' remains incomplete or misapplies the controlling hydrostatic pressure principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: hydrostatic pressure",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Gauge pressure = density × gravitational acceleration × depth",
+      "units": "pressure units consistent with density, gravity, and depth",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2ffc735c12e2fd2057e7b78b7f0160cd59cd02c1dae11eda7d7ca23093ef2d87"
+    },
+    {
+      "id": "PV2-CORE-CH18-031",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pressure multiplication and safeguarding",
+      "itemFamilyId": "PV2-CORE-CH18-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a tank pressure calculation, a supervisor proposes: \"The small input force proves the machine cannot cause crushing injury\". The underlying case is: A small manual input on a hydraulic system can create a very large clamping force. Which safety implication is most important? Which alternative is the most defensible correction?",
+      "options": [
+        "Hydraulic pressure disappears immediately whenever the pump motor stops",
+        "The small input force proves the machine cannot cause crushing injury",
+        "Safeguards and energy isolation must be designed for the amplified force and trapped hydraulic energy, not the operator’s small input force",
+        "PPE alone is sufficient because fluid power cannot store energy"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Hydraulic systems multiply force and can retain pressure after shutdown. Guarding, blocking, pressure release, and verified isolation must address the actual stored and generated forces.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Hydraulic pressure disappears immediately whenever the pump motor stops' remains incomplete or misapplies the controlling pressure multiplication and safeguarding principle.",
+        "The proposed response 'The small input force proves the machine cannot cause crushing injury' remains incomplete or misapplies the controlling pressure multiplication and safeguarding principle.",
+        null,
+        "The proposed response 'PPE alone is sufficient because fluid power cannot store energy' remains incomplete or misapplies the controlling pressure multiplication and safeguarding principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: pressure multiplication and safeguarding",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bd346f0483a1fccc133153a92c4bc93857013869b71591e7f027960311b31f36"
+    },
+    {
+      "id": "PV2-CORE-CH18-032",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Bernoulli and restrictions",
+      "itemFamilyId": "PV2-CORE-CH18-F032",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a pump-system design check, a supervisor proposes: \"Both velocity and static pressure remain constant\". The underlying case is: A flowing incompressible liquid enters a smaller pipe section at the same elevation. Ignoring losses, what general change occurs? Which alternative is the most defensible correction?",
+      "options": [
+        "Velocity decreases and static pressure increases",
+        "The liquid density doubles as the pipe narrows",
+        "Both velocity and static pressure remain constant",
+        "Velocity increases and static pressure tends to decrease"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Continuity requires higher velocity in the smaller area, and Bernoulli’s relationship predicts conversion of static pressure to velocity pressure when elevation and losses are unchanged.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Velocity decreases and static pressure increases' remains incomplete or misapplies the controlling bernoulli and restrictions principle.",
+        "The proposed response 'The liquid density doubles as the pipe narrows' remains incomplete or misapplies the controlling bernoulli and restrictions principle.",
+        "The proposed response 'Both velocity and static pressure remain constant' remains incomplete or misapplies the controlling bernoulli and restrictions principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: Bernoulli and restrictions",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "P/(ρg) + v^2/(2g) + z = constant, ignoring losses",
+      "units": "consistent pressure/head and velocity units",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "87424df8d4414a4bfd17f4e64ff67e91524551b99df9f8560be3dc3fde74bf4d"
+    },
+    {
+      "id": "PV2-CORE-CH18-033",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cavitation",
+      "itemFamilyId": "PV2-CORE-CH18-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a fluid-flow restriction analysis, a supervisor proposes: \"Pressure relief operation caused solely by low discharge resistance\". The underlying case is: A pump becomes noisy, vibrates, and shows pitted impeller surfaces after suction pressure falls. What condition is most likely? Which alternative is the most defensible correction?",
+      "options": [
+        "Cavitation caused by vapor bubble formation and collapse at inadequate suction pressure",
+        "Pressure relief operation caused solely by low discharge resistance",
+        "Hydrostatic equilibrium caused by a fully flooded suction line",
+        "Laminar flow caused by excessive net positive suction head"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Low suction pressure can drop below vapor pressure, forming bubbles that collapse in higher-pressure regions and damage the impeller.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Pressure relief operation caused solely by low discharge resistance' remains incomplete or misapplies the controlling cavitation principle.",
+        "The proposed response 'Hydrostatic equilibrium caused by a fully flooded suction line' remains incomplete or misapplies the controlling cavitation principle.",
+        "The proposed response 'Laminar flow caused by excessive net positive suction head' remains incomplete or misapplies the controlling cavitation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: cavitation",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c827aedc1c5b80725f011f829a449c3be8235e4ac4f56c829d0b59e90f154328"
+    },
+    {
+      "id": "PV2-CORE-CH18-034",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fluid injection injury",
+      "itemFamilyId": "PV2-CORE-CH18-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a pressure-relief evaluation, a supervisor proposes: \"Apply a bandage and return to work because no external wound is visible\". The underlying case is: A worker uses a bare hand to search for a pinhole leak in a high-pressure hydraulic hose. No visible cut is found, but the hand becomes painful and swollen. What is the proper response? Which alternative is the most defensible correction?",
+      "options": [
+        "Apply a bandage and return to work because no external wound is visible",
+        "Treat it as a possible high-pressure injection injury requiring immediate emergency medical evaluation",
+        "Lower system pressure and repeat the hand test to locate the leak",
+        "Wait for skin discoloration before seeking care"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "High-pressure fluid can penetrate through a tiny wound and cause severe deep-tissue injury. It is a medical emergency even when the entry point is difficult to see.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Apply a bandage and return to work because no external wound is visible' remains incomplete or misapplies the controlling fluid injection injury principle.",
+        null,
+        "The proposed response 'Lower system pressure and repeat the hand test to locate the leak' remains incomplete or misapplies the controlling fluid injection injury principle.",
+        "The proposed response 'Wait for skin discoloration before seeking care' remains incomplete or misapplies the controlling fluid injection injury principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: fluid injection injury",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "25c0a3273e0034b54b0c7a3885f50d414db21f67201f97bff1adc1ff593dc0ed"
+    },
+    {
+      "id": "PV2-CORE-CH18-035",
+      "version": 1,
+      "chapterId": "ch-18",
+      "chapterTitle": "Hydrostatics and Hydraulics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pressure relief protection",
+      "itemFamilyId": "PV2-CORE-CH18-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a buoyancy and displacement problem, a supervisor proposes: \"A check valve installed in place of pressure relief\". The underlying case is: A positive-displacement pump can continue building pressure against a closed discharge valve. Which protection is essential? Which alternative is the most defensible correction?",
+      "options": [
+        "A check valve installed in place of pressure relief",
+        "A larger motor so the pump can overcome the closed valve",
+        "A correctly set and routed pressure-relief device that protects the pump and downstream system",
+        "A pressure gauge alone with no automatic means to limit pressure"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Positive-displacement pumps can generate destructive pressure when flow is blocked. A gauge indicates pressure but does not limit it; relief protection must safely control the maximum.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'A check valve installed in place of pressure relief' remains incomplete or misapplies the controlling pressure relief protection principle.",
+        "The proposed response 'A larger motor so the pump can overcome the closed valve' remains incomplete or misapplies the controlling pressure relief protection principle.",
+        null,
+        "The proposed response 'A pressure gauge alone with no automatic means to limit pressure' remains incomplete or misapplies the controlling pressure relief protection principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 18, pp. 469-482 and BCSP-supplied hydrostatics/hydraulics equations; curated topic: pressure relief protection",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c8f95f74c10af17a060988714657f0ce9daef1f703847960df7e2e7df5731ee3"
+    }
+  ]
+}

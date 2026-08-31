@@ -1,0 +1,2039 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-37-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-37",
+  "chapterTitle": "Safety Program Auditing",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH37-001",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audit criteria and scope",
+      "itemFamilyId": "PV2-CORE-CH37-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An audit team begins interviews without defining which standards, locations, processes, or time period will be evaluated. What is the primary risk?",
+      "options": [
+        "Findings may be inconsistent or indefensible because scope and criteria were not established before evidence collection",
+        "Interviews alone can establish criteria after conclusions are written",
+        "The audit will automatically cover every legal and voluntary requirement",
+        "Undefined scope guarantees greater auditor independence"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Audit scope and criteria frame evidence needs and conclusions. They should be agreed and documented before fieldwork, with justified adjustments recorded.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Interviews alone can establish criteria after conclusions are written' does not apply the controlling principle for audit criteria and scope to the facts given, so it is not the best answer.",
+        "The option 'The audit will automatically cover every legal and voluntary requirement' does not apply the controlling principle for audit criteria and scope to the facts given, so it is not the best answer.",
+        "The option 'Undefined scope guarantees greater auditor independence' does not apply the controlling principle for audit criteria and scope to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: audit criteria and scope",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8999ef55679b0ec3d28326353acbb8828e61c09c3bf711c603b3023ef719bc5a"
+    },
+    {
+      "id": "PV2-CORE-CH37-002",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "objective evidence",
+      "itemFamilyId": "PV2-CORE-CH37-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A manager states that inspections occur weekly, but no records exist and employees describe irregular inspections. How should the auditor report this?",
+      "options": [
+        "Accept management’s statement because position determines reliability",
+        "Base the finding on corroborated evidence and note the inconsistency rather than accepting assertion alone",
+        "Create missing inspection records so the program can be evaluated",
+        "Assume employee recollections are always conclusive without sampling records"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Auditors use verifiable evidence from documents, interviews, and observation. Conflicts should be investigated and reported objectively.",
+      "incorrectOptionExplanations": [
+        "The option 'Accept management’s statement because position determines reliability' does not apply the controlling principle for objective evidence to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Create missing inspection records so the program can be evaluated' does not apply the controlling principle for objective evidence to the facts given, so it is not the best answer.",
+        "The option 'Assume employee recollections are always conclusive without sampling records' does not apply the controlling principle for objective evidence to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: objective evidence",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "36cfc37361054d980ac26123b95cf489e7e4890aa5ba4798e18b1107a57c716d"
+    },
+    {
+      "id": "PV2-CORE-CH37-003",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling risk",
+      "itemFamilyId": "PV2-CORE-CH37-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A corporate audit samples only the newest and best-performing site because it is easiest to visit. What weakness does this create?",
+      "options": [
+        "Sampling one site proves every site conforms when procedures are corporate",
+        "Convenience sampling is always statistically random",
+        "Selection bias can produce an unrepresentative conclusion about the broader audit population",
+        "The best-performing site should be excluded from all audits"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Risk-based or representative sampling should reflect the audit objective. Convenience selection can systematically miss important conditions.",
+      "incorrectOptionExplanations": [
+        "The option 'Sampling one site proves every site conforms when procedures are corporate' does not apply the controlling principle for sampling risk to the facts given, so it is not the best answer.",
+        "The option 'Convenience sampling is always statistically random' does not apply the controlling principle for sampling risk to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The best-performing site should be excluded from all audits' does not apply the controlling principle for sampling risk to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: sampling risk",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6f86fd9366dd311d027c58b45e489adaa1188f0a7fbafb63ffc98d30776abca3"
+    },
+    {
+      "id": "PV2-CORE-CH37-004",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "auditor independence",
+      "itemFamilyId": "PV2-CORE-CH37-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A manager is assigned to audit the corrective-action system that the manager designed, operates, and reports as successful. What concern should be addressed?",
+      "options": [
+        "Self-audit is prohibited in every circumstance regardless of safeguards",
+        "Technical familiarity automatically eliminates all bias",
+        "Independence matters only in financial audits",
+        "Objectivity may be impaired, so independent review or safeguards should be used"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Auditors should be sufficiently objective and free from self-review threats. Expertise can help, but it does not remove the need for impartiality.",
+      "incorrectOptionExplanations": [
+        "The option 'Self-audit is prohibited in every circumstance regardless of safeguards' does not apply the controlling principle for auditor independence to the facts given, so it is not the best answer.",
+        "The option 'Technical familiarity automatically eliminates all bias' does not apply the controlling principle for auditor independence to the facts given, so it is not the best answer.",
+        "The option 'Independence matters only in financial audits' does not apply the controlling principle for auditor independence to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: auditor independence",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "94300fde937e5f5a225156f326bf18b79f8918cb5bca8028bb92e423be6b9ba5"
+    },
+    {
+      "id": "PV2-CORE-CH37-005",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "finding classification",
+      "itemFamilyId": "PV2-CORE-CH37-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An auditor observes a missing signature on one low-risk form and a systemic failure to control hazardous energy. Why should findings not be classified solely by count?",
+      "options": [
+        "Classification should reflect significance, systemic nature, consequence, and requirement—not the number of examples alone",
+        "Every paperwork issue must be ranked above a physical hazard",
+        "All findings should receive identical priority to avoid judgment",
+        "Only the oldest finding can be considered major"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "One systemic high-consequence breakdown can be more significant than many minor documentation lapses. Classification needs defined risk and system criteria.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Every paperwork issue must be ranked above a physical hazard' does not apply the controlling principle for finding classification to the facts given, so it is not the best answer.",
+        "The option 'All findings should receive identical priority to avoid judgment' does not apply the controlling principle for finding classification to the facts given, so it is not the best answer.",
+        "The option 'Only the oldest finding can be considered major' does not apply the controlling principle for finding classification to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: finding classification",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cc4ca19aca91c8e781f26aa3dc797382634034b3d989a32bb75fe7676d0e6ab4"
+    },
+    {
+      "id": "PV2-CORE-CH37-006",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "root cause of audit finding",
+      "itemFamilyId": "PV2-CORE-CH37-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A recurring audit finding is repeatedly closed by retraining employees, but procedures and equipment remain confusing. What should the follow-up examine?",
+      "options": [
+        "Whether training attendance sheets contain more signatures",
+        "Whether the corrective action addressed underlying process, design, ownership, and verification weaknesses rather than symptoms",
+        "Whether the next audit can omit the area to avoid duplication",
+        "Whether the finding can be renamed so it is not considered recurring"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Recurring findings indicate ineffective corrective action or deeper systemic causes. Follow-up should test risk reduction, not administrative closure.",
+      "incorrectOptionExplanations": [
+        "The option 'Whether training attendance sheets contain more signatures' does not apply the controlling principle for root cause of audit finding to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Whether the next audit can omit the area to avoid duplication' does not apply the controlling principle for root cause of audit finding to the facts given, so it is not the best answer.",
+        "The option 'Whether the finding can be renamed so it is not considered recurring' does not apply the controlling principle for root cause of audit finding to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: root cause of audit finding",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cd5f96b5c08d0170995dd6e1f930bd85529746bbc7a1d52f6b49440475371f10"
+    },
+    {
+      "id": "PV2-CORE-CH37-007",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "closing meeting communication",
+      "itemFamilyId": "PV2-CORE-CH37-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During the closing meeting, site leaders dispute a finding because they first see the evidence and criteria in the final slide. What practice would have improved the audit?",
+      "options": [
+        "Withhold all concerns until the final report to surprise management",
+        "Avoid identifying criteria because standards can be interpreted differently",
+        "Discuss factual observations and emerging concerns during fieldwork, then present evidence, criteria, significance, and next steps clearly at closing",
+        "Negotiate away any disputed finding regardless of evidence"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "No-surprise communication allows factual correction while preserving auditor judgment. Findings should be traceable to evidence and criteria.",
+      "incorrectOptionExplanations": [
+        "The option 'Withhold all concerns until the final report to surprise management' does not apply the controlling principle for closing meeting communication to the facts given, so it is not the best answer.",
+        "The option 'Avoid identifying criteria because standards can be interpreted differently' does not apply the controlling principle for closing meeting communication to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Negotiate away any disputed finding regardless of evidence' does not apply the controlling principle for closing meeting communication to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: closing meeting communication",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d6e8ddba62ba42f1e2c95507434b4de6f1f84fa9919303982b77b3facc5eeab6"
+    },
+    {
+      "id": "PV2-CORE-CH37-008",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audit program risk management",
+      "itemFamilyId": "PV2-CORE-CH37-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A three-year audit schedule treats every site identically despite major differences in hazard, change, past performance, and legal exposure. What improvement is best?",
+      "options": [
+        "Eliminate periodic review of the audit program itself",
+        "Use the longest interval for high-hazard sites to reduce disruption",
+        "Audit only sites that volunteer because they are easiest to coordinate",
+        "Use a risk-based audit program that adjusts frequency, scope, competence, and methods using site and system information"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Audit resources should be directed by risk, change, previous results, and strategic importance while maintaining appropriate coverage and independence.",
+      "incorrectOptionExplanations": [
+        "The option 'Eliminate periodic review of the audit program itself' does not apply the controlling principle for audit program risk management to the facts given, so it is not the best answer.",
+        "The option 'Use the longest interval for high-hazard sites to reduce disruption' does not apply the controlling principle for audit program risk management to the facts given, so it is not the best answer.",
+        "The option 'Audit only sites that volunteer because they are easiest to coordinate' does not apply the controlling principle for audit program risk management to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: audit program risk management",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a0cf3e83ab8942149729f93716e9eae2680d6a54a1f51fa9b6a53f5a053afd7a"
+    },
+    {
+      "id": "PV2-CORE-CH37-009",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audit criteria and scope",
+      "itemFamilyId": "PV2-CORE-CH37-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a finding-classification discussion, the team reviews this case: An audit team begins interviews without defining which standards, locations, processes, or time period will be evaluated. What is the primary risk? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Audit scope and criteria frame evidence needs and conclusions. They should be agreed and documented before fieldwork, with justified adjustments recorded.",
+        "Audit resources should be directed by risk, change, previous results, and strategic importance while maintaining appropriate coverage and independence.",
+        "Risk-based or representative sampling should reflect the audit objective. Convenience selection can systematically miss important conditions.",
+        "Auditors use verifiable evidence from documents, interviews, and observation. Conflicts should be investigated and reported objectively."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses audit criteria and scope and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'audit program risk management', but it does not resolve the audit criteria and scope issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling risk', but it does not resolve the audit criteria and scope issue in this case.",
+        "This rationale supports the separate chapter topic 'objective evidence', but it does not resolve the audit criteria and scope issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: audit criteria and scope",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3172100fbfb8aac322c206d4ef126df926e8c5f55886304d23c9b1c43cb71329"
+    },
+    {
+      "id": "PV2-CORE-CH37-010",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "objective evidence",
+      "itemFamilyId": "PV2-CORE-CH37-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a corrective-action follow-up, the team reviews this case: A manager states that inspections occur weekly, but no records exist and employees describe irregular inspections. How should the auditor report this? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Recurring findings indicate ineffective corrective action or deeper systemic causes. Follow-up should test risk reduction, not administrative closure.",
+        "Auditors use verifiable evidence from documents, interviews, and observation. Conflicts should be investigated and reported objectively.",
+        "One systemic high-consequence breakdown can be more significant than many minor documentation lapses. Classification needs defined risk and system criteria.",
+        "Auditors should be sufficiently objective and free from self-review threats. Expertise can help, but it does not remove the need for impartiality."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses objective evidence and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'root cause of audit finding', but it does not resolve the objective evidence issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'finding classification', but it does not resolve the objective evidence issue in this case.",
+        "This rationale supports the separate chapter topic 'auditor independence', but it does not resolve the objective evidence issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: objective evidence",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "16fcb2f752e84f395b78a0dd416803c83ae65be2840d57ae73716362de7c5a32"
+    },
+    {
+      "id": "PV2-CORE-CH37-011",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling risk",
+      "itemFamilyId": "PV2-CORE-CH37-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an auditor independence review, the team reviews this case: A corporate audit samples only the newest and best-performing site because it is easiest to visit. What weakness does this create? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Audit scope and criteria frame evidence needs and conclusions. They should be agreed and documented before fieldwork, with justified adjustments recorded.",
+        "Auditors should be sufficiently objective and free from self-review threats. Expertise can help, but it does not remove the need for impartiality.",
+        "Risk-based or representative sampling should reflect the audit objective. Convenience selection can systematically miss important conditions.",
+        "Audit resources should be directed by risk, change, previous results, and strategic importance while maintaining appropriate coverage and independence."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses sampling risk and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'audit criteria and scope', but it does not resolve the sampling risk issue in this case.",
+        "This rationale supports the separate chapter topic 'auditor independence', but it does not resolve the sampling risk issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'audit program risk management', but it does not resolve the sampling risk issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: sampling risk",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4fd7879fdb2de43891fbd2b0ea7d035a744d6067e79937449f5a719021a11334"
+    },
+    {
+      "id": "PV2-CORE-CH37-012",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "auditor independence",
+      "itemFamilyId": "PV2-CORE-CH37-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a compliance-versus-system audit decision, the team reviews this case: A manager is assigned to audit the corrective-action system that the manager designed, operates, and reports as successful. What concern should be addressed? Which rationale most directly supports the correct decision?",
+      "options": [
+        "One systemic high-consequence breakdown can be more significant than many minor documentation lapses. Classification needs defined risk and system criteria.",
+        "Audit resources should be directed by risk, change, previous results, and strategic importance while maintaining appropriate coverage and independence.",
+        "Risk-based or representative sampling should reflect the audit objective. Convenience selection can systematically miss important conditions.",
+        "Auditors should be sufficiently objective and free from self-review threats. Expertise can help, but it does not remove the need for impartiality."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses auditor independence and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'finding classification', but it does not resolve the auditor independence issue in this case.",
+        "This rationale supports the separate chapter topic 'audit program risk management', but it does not resolve the auditor independence issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling risk', but it does not resolve the auditor independence issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: auditor independence",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e0edd8f52f674b8678cb5fc83ffdd5c794fa4623fd5ea9a7449563c89cab555e"
+    },
+    {
+      "id": "PV2-CORE-CH37-013",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "finding classification",
+      "itemFamilyId": "PV2-CORE-CH37-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a closing conference, the team reviews this case: An auditor observes a missing signature on one low-risk form and a systemic failure to control hazardous energy. Why should findings not be classified solely by count? Which rationale most directly supports the correct decision?",
+      "options": [
+        "One systemic high-consequence breakdown can be more significant than many minor documentation lapses. Classification needs defined risk and system criteria.",
+        "Auditors should be sufficiently objective and free from self-review threats. Expertise can help, but it does not remove the need for impartiality.",
+        "Recurring findings indicate ineffective corrective action or deeper systemic causes. Follow-up should test risk reduction, not administrative closure.",
+        "Risk-based or representative sampling should reflect the audit objective. Convenience selection can systematically miss important conditions."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses finding classification and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'auditor independence', but it does not resolve the finding classification issue in this case.",
+        "This rationale supports the separate chapter topic 'root cause of audit finding', but it does not resolve the finding classification issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling risk', but it does not resolve the finding classification issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: finding classification",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2e1ccbeae151cba90929e1c714d8e4276713c8cff91670b11e8f942c262ae5d0"
+    },
+    {
+      "id": "PV2-CORE-CH37-014",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "root cause of audit finding",
+      "itemFamilyId": "PV2-CORE-CH37-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an audit-program risk assessment, the team reviews this case: A recurring audit finding is repeatedly closed by retraining employees, but procedures and equipment remain confusing. What should the follow-up examine? Which rationale most directly supports the correct decision?",
+      "options": [
+        "No-surprise communication allows factual correction while preserving auditor judgment. Findings should be traceable to evidence and criteria.",
+        "Recurring findings indicate ineffective corrective action or deeper systemic causes. Follow-up should test risk reduction, not administrative closure.",
+        "Auditors should be sufficiently objective and free from self-review threats. Expertise can help, but it does not remove the need for impartiality.",
+        "Audit resources should be directed by risk, change, previous results, and strategic importance while maintaining appropriate coverage and independence."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses root cause of audit finding and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'closing meeting communication', but it does not resolve the root cause of audit finding issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'auditor independence', but it does not resolve the root cause of audit finding issue in this case.",
+        "This rationale supports the separate chapter topic 'audit program risk management', but it does not resolve the root cause of audit finding issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: root cause of audit finding",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ff3e75584adc6ab0c95e9cbd6d65cb4c1550efda0a88ac0b0f7803336a58bbc2"
+    },
+    {
+      "id": "PV2-CORE-CH37-015",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "closing meeting communication",
+      "itemFamilyId": "PV2-CORE-CH37-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an opening audit meeting, the team reviews this case: During the closing meeting, site leaders dispute a finding because they first see the evidence and criteria in the final slide. What practice would have improved the audit? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Auditors should be sufficiently objective and free from self-review threats. Expertise can help, but it does not remove the need for impartiality.",
+        "Audit resources should be directed by risk, change, previous results, and strategic importance while maintaining appropriate coverage and independence.",
+        "No-surprise communication allows factual correction while preserving auditor judgment. Findings should be traceable to evidence and criteria.",
+        "Auditors use verifiable evidence from documents, interviews, and observation. Conflicts should be investigated and reported objectively."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses closing meeting communication and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'auditor independence', but it does not resolve the closing meeting communication issue in this case.",
+        "This rationale supports the separate chapter topic 'audit program risk management', but it does not resolve the closing meeting communication issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'objective evidence', but it does not resolve the closing meeting communication issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: closing meeting communication",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "040619e7d500274c5017369333c115ace979f87a11e62fb21dab1f3f5132bcbf"
+    },
+    {
+      "id": "PV2-CORE-CH37-016",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audit program risk management",
+      "itemFamilyId": "PV2-CORE-CH37-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an evidence-sampling plan, the team reviews this case: A three-year audit schedule treats every site identically despite major differences in hazard, change, past performance, and legal exposure. What improvement is best? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Risk-based or representative sampling should reflect the audit objective. Convenience selection can systematically miss important conditions.",
+        "No-surprise communication allows factual correction while preserving auditor judgment. Findings should be traceable to evidence and criteria.",
+        "Audit scope and criteria frame evidence needs and conclusions. They should be agreed and documented before fieldwork, with justified adjustments recorded.",
+        "Audit resources should be directed by risk, change, previous results, and strategic importance while maintaining appropriate coverage and independence."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses audit program risk management and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'sampling risk', but it does not resolve the audit program risk management issue in this case.",
+        "This rationale supports the separate chapter topic 'closing meeting communication', but it does not resolve the audit program risk management issue in this case.",
+        "This rationale supports the separate chapter topic 'audit criteria and scope', but it does not resolve the audit program risk management issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: audit program risk management",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8056a6207272333aab6d924443d336b2aefdb9dae22a06e287c18209eef7f10c"
+    },
+    {
+      "id": "PV2-CORE-CH37-017",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Audit versus inspection",
+      "itemFamilyId": "PV2-CORE-CH37-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an evidence-sampling plan, the team reviews this question: Which statement best distinguishes a program audit from a workplace inspection? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Audits test whether the system is designed, implemented, and effective; inspections more directly identify current workplace conditions.",
+        "Auditors need freedom to evaluate and report evidence without inappropriate influence from the function being audited.",
+        "Closure should show both implementation and effectiveness, including evidence that the causal process failure has been addressed.",
+        "A strong finding connects an applicable criterion to specific evidence and explains the gap without unsupported blame."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Audit independence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit follow-up', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Finding classification', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37, purpose and methodology of auditing, pp. 818-825; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "82d927d5bad1461c8e462b63a8e8d8a657060bd1db5f14fa0c8715ce9f025a8a"
+    },
+    {
+      "id": "PV2-CORE-CH37-018",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Audit independence",
+      "itemFamilyId": "PV2-CORE-CH37-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a finding-classification discussion, the team reviews this question: A department manager selects evidence and removes two adverse findings before the audit report is issued. Which audit principle is most threatened? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Audits test whether the system is designed, implemented, and effective; inspections more directly identify current workplace conditions.",
+        "Auditors need freedom to evaluate and report evidence without inappropriate influence from the function being audited.",
+        "A strong finding connects an applicable criterion to specific evidence and explains the gap without unsupported blame.",
+        "Risk-based and representative sampling reduces selection bias and supports a defensible conclusion within the stated scope."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Audit versus inspection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Finding classification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit sampling', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37, audit methodology, documentation, and interviews, pp. 818-843; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aa6df1a02da5cb179382e308ec75d4ed547cd982126badfc91ed7be81a4914b0"
+    },
+    {
+      "id": "PV2-CORE-CH37-019",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Audit evidence triangulation",
+      "itemFamilyId": "PV2-CORE-CH37-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a corrective-action follow-up, the team reviews this question: A procedure states that weekly inspections occur, but employees describe monthly inspections and records show long gaps. What should the auditor conclude? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Auditors need freedom to evaluate and report evidence without inappropriate influence from the function being audited.",
+        "Cross-audit analysis can identify organizational patterns that require enterprise-level ownership, standards, resources, and verification.",
+        "Triangulating documents, interviews, records, and observations tests both system design and actual implementation.",
+        "Closure should require action on causes and evidence that the change is implemented and sustained."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Audit independence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit trend analysis', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Corrective action quality', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37, documentation, employee interviews, and site conditions, pp. 818-843; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a88b196059a2b5bb5976c3dddd72d9da1d5351f4a80cb617c2f4bb49bc33bacd"
+    },
+    {
+      "id": "PV2-CORE-CH37-020",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Audit sampling",
+      "itemFamilyId": "PV2-CORE-CH37-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an auditor independence review, the team reviews this question: A multisite audit examines only one high-performing location selected by management. What is the primary weakness? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Auditors need freedom to evaluate and report evidence without inappropriate influence from the function being audited.",
+        "A strong finding connects an applicable criterion to specific evidence and explains the gap without unsupported blame.",
+        "Audits test whether the system is designed, implemented, and effective; inspections more directly identify current workplace conditions.",
+        "Risk-based and representative sampling reduces selection bias and supports a defensible conclusion within the stated scope."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Audit independence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Finding classification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit versus inspection', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37, audit methodology and worksite analysis, pp. 818-839; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "de7920ca900f7c47306fcd76a38be9aab27957fd1b8f632d2e1200f5a20b6419"
+    },
+    {
+      "id": "PV2-CORE-CH37-021",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Finding classification",
+      "itemFamilyId": "PV2-CORE-CH37-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a compliance-versus-system audit decision, the team reviews this question: An audit finds that required emergency drills were not performed at three facilities. What makes the finding defensible? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A strong finding connects an applicable criterion to specific evidence and explains the gap without unsupported blame.",
+        "Audits test whether the system is designed, implemented, and effective; inspections more directly identify current workplace conditions.",
+        "Risk-based and representative sampling reduces selection bias and supports a defensible conclusion within the stated scope.",
+        "Closure should show both implementation and effectiveness, including evidence that the causal process failure has been addressed."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Audit versus inspection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit follow-up', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37, audit documentation and assessment of program elements, pp. 818-843; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0ef28ea83f2a5fe7241f7c6e14bec7fb2b1fc242e37c9e7080b6d9423c832f89"
+    },
+    {
+      "id": "PV2-CORE-CH37-022",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Corrective action quality",
+      "itemFamilyId": "PV2-CORE-CH37-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a closing conference, the team reviews this question: An audit finding is closed after a memo is issued, but the same failure recurs. What was most likely missing? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Auditors need freedom to evaluate and report evidence without inappropriate influence from the function being audited.",
+        "Closure should require action on causes and evidence that the change is implemented and sustained.",
+        "A strong finding connects an applicable criterion to specific evidence and explains the gap without unsupported blame.",
+        "Risk-based and representative sampling reduces selection bias and supports a defensible conclusion within the stated scope."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Audit independence', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Finding classification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit sampling', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37, program effectiveness and root causes, pp. 820-857; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "47b86517b6fd722c21a6402b4e1f7ca8f1b439ea0ea9ff04b945a829de871d1c"
+    },
+    {
+      "id": "PV2-CORE-CH37-023",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Audit scope",
+      "itemFamilyId": "PV2-CORE-CH37-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an audit-program risk assessment, the team reviews this question: Before fieldwork begins, which audit element should be agreed and documented? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Risk-based and representative sampling reduces selection bias and supports a defensible conclusion within the stated scope.",
+        "Audits test whether the system is designed, implemented, and effective; inspections more directly identify current workplace conditions.",
+        "Clear scope and criteria establish what will be evaluated, against what requirements, and how the audit will be conducted.",
+        "Closure should show both implementation and effectiveness, including evidence that the causal process failure has been addressed."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Audit sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit versus inspection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Audit follow-up', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37, purpose and methodology for conducting audits, pp. 818-825; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "054b0ab5e32407e4e817c97c56ae4d94b0526d2e274366a5c60c444bbdc1c6aa"
+    },
+    {
+      "id": "PV2-CORE-CH37-024",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Internal and external audits",
+      "itemFamilyId": "PV2-CORE-CH37-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an opening audit meeting, the team reviews this question: What is a common advantage of an external audit team? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A strong finding connects an applicable criterion to specific evidence and explains the gap without unsupported blame.",
+        "Closure should show both implementation and effectiveness, including evidence that the causal process failure has been addressed.",
+        "Audits test whether the system is designed, implemented, and effective; inspections more directly identify current workplace conditions.",
+        "External reviewers can add objectivity and broader experience, while internal teams often add local knowledge and continuity."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Finding classification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit follow-up', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit versus inspection', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37 and homework, internal and external audit advantages and limitations; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7fd67e6d4bae252049bc76ed78e64cb76ba6056ffa17c9aac316c93e452da718"
+    },
+    {
+      "id": "PV2-CORE-CH37-025",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Audit follow-up",
+      "itemFamilyId": "PV2-CORE-CH37-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an evidence-sampling plan, the team reviews this question: Which evidence best supports closing a corrective action for missing machine-guard inspections? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Closure should show both implementation and effectiveness, including evidence that the causal process failure has been addressed.",
+        "A strong finding connects an applicable criterion to specific evidence and explains the gap without unsupported blame.",
+        "Risk-based and representative sampling reduces selection bias and supports a defensible conclusion within the stated scope.",
+        "Audits test whether the system is designed, implemented, and effective; inspections more directly identify current workplace conditions."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Finding classification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit versus inspection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37, assessing effectiveness and program controls, pp. 832-857; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a51152cf3b25740ab4e4c3912c25c9f507bc0f986132c64fac34c22551fa04c7"
+    },
+    {
+      "id": "PV2-CORE-CH37-026",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Audit trend analysis",
+      "itemFamilyId": "PV2-CORE-CH37-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a finding-classification discussion, the team reviews this question: Three audits show repeated findings in contractor orientation across different sites. What is the best management response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Closure should require action on causes and evidence that the change is implemented and sustained.",
+        "Cross-audit analysis can identify organizational patterns that require enterprise-level ownership, standards, resources, and verification.",
+        "Audits test whether the system is designed, implemented, and effective; inspections more directly identify current workplace conditions.",
+        "Triangulating documents, interviews, records, and observations tests both system design and actual implementation."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Corrective action quality', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Audit versus inspection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit evidence triangulation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 37, trend analysis and assessing overall program effectiveness, pp. 829-857; Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6abcadb136291d1009bab349b818debc61d9812c92b2d7f1732580322df6f157"
+    },
+    {
+      "id": "PV2-CORE-CH37-027",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audit criteria and scope",
+      "itemFamilyId": "PV2-CORE-CH37-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a compliance-versus-system audit decision, a supervisor proposes: \"Interviews alone can establish criteria after conclusions are written\". The underlying case is: An audit team begins interviews without defining which standards, locations, processes, or time period will be evaluated. What is the primary risk? Which alternative is the most defensible correction?",
+      "options": [
+        "The audit will automatically cover every legal and voluntary requirement",
+        "Undefined scope guarantees greater auditor independence",
+        "Findings may be inconsistent or indefensible because scope and criteria were not established before evidence collection",
+        "Interviews alone can establish criteria after conclusions are written"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Audit scope and criteria frame evidence needs and conclusions. They should be agreed and documented before fieldwork, with justified adjustments recorded.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The audit will automatically cover every legal and voluntary requirement' remains incomplete or misapplies the controlling audit criteria and scope principle.",
+        "The proposed response 'Undefined scope guarantees greater auditor independence' remains incomplete or misapplies the controlling audit criteria and scope principle.",
+        null,
+        "The proposed response 'Interviews alone can establish criteria after conclusions are written' remains incomplete or misapplies the controlling audit criteria and scope principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: audit criteria and scope",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "432be9c7508677520df6f7bdab2182ef33691e8310c49fb16048738b047a7ba2"
+    },
+    {
+      "id": "PV2-CORE-CH37-028",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "objective evidence",
+      "itemFamilyId": "PV2-CORE-CH37-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a closing conference, a supervisor proposes: \"Accept management’s statement because position determines reliability\". The underlying case is: A manager states that inspections occur weekly, but no records exist and employees describe irregular inspections. How should the auditor report this? Which alternative is the most defensible correction?",
+      "options": [
+        "Accept management’s statement because position determines reliability",
+        "Create missing inspection records so the program can be evaluated",
+        "Assume employee recollections are always conclusive without sampling records",
+        "Base the finding on corroborated evidence and note the inconsistency rather than accepting assertion alone"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Auditors use verifiable evidence from documents, interviews, and observation. Conflicts should be investigated and reported objectively.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Accept management’s statement because position determines reliability' remains incomplete or misapplies the controlling objective evidence principle.",
+        "The proposed response 'Create missing inspection records so the program can be evaluated' remains incomplete or misapplies the controlling objective evidence principle.",
+        "The proposed response 'Assume employee recollections are always conclusive without sampling records' remains incomplete or misapplies the controlling objective evidence principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: objective evidence",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e87585e13cfa511cb95deb35c9a268cb4e312b1dbbc733b639a3977f8117416d"
+    },
+    {
+      "id": "PV2-CORE-CH37-029",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling risk",
+      "itemFamilyId": "PV2-CORE-CH37-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an audit-program risk assessment, a supervisor proposes: \"Convenience sampling is always statistically random\". The underlying case is: A corporate audit samples only the newest and best-performing site because it is easiest to visit. What weakness does this create? Which alternative is the most defensible correction?",
+      "options": [
+        "Selection bias can produce an unrepresentative conclusion about the broader audit population",
+        "Convenience sampling is always statistically random",
+        "Sampling one site proves every site conforms when procedures are corporate",
+        "The best-performing site should be excluded from all audits"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Risk-based or representative sampling should reflect the audit objective. Convenience selection can systematically miss important conditions.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Convenience sampling is always statistically random' remains incomplete or misapplies the controlling sampling risk principle.",
+        "The proposed response 'Sampling one site proves every site conforms when procedures are corporate' remains incomplete or misapplies the controlling sampling risk principle.",
+        "The proposed response 'The best-performing site should be excluded from all audits' remains incomplete or misapplies the controlling sampling risk principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: sampling risk",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "58c39fe9a88913aacf88519060e3e96682f6b73e03b59fbdcae094df78821d10"
+    },
+    {
+      "id": "PV2-CORE-CH37-030",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "auditor independence",
+      "itemFamilyId": "PV2-CORE-CH37-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an opening audit meeting, a supervisor proposes: \"Independence matters only in financial audits\". The underlying case is: A manager is assigned to audit the corrective-action system that the manager designed, operates, and reports as successful. What concern should be addressed? Which alternative is the most defensible correction?",
+      "options": [
+        "Self-audit is prohibited in every circumstance regardless of safeguards",
+        "Objectivity may be impaired, so independent review or safeguards should be used",
+        "Independence matters only in financial audits",
+        "Technical familiarity automatically eliminates all bias"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Auditors should be sufficiently objective and free from self-review threats. Expertise can help, but it does not remove the need for impartiality.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Self-audit is prohibited in every circumstance regardless of safeguards' remains incomplete or misapplies the controlling auditor independence principle.",
+        null,
+        "The proposed response 'Independence matters only in financial audits' remains incomplete or misapplies the controlling auditor independence principle.",
+        "The proposed response 'Technical familiarity automatically eliminates all bias' remains incomplete or misapplies the controlling auditor independence principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: auditor independence",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2f22fe75ab8302f58cb28b161f56641d799b6b61d7224bfc0ea53fee55817f04"
+    },
+    {
+      "id": "PV2-CORE-CH37-031",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "finding classification",
+      "itemFamilyId": "PV2-CORE-CH37-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an evidence-sampling plan, a supervisor proposes: \"Every paperwork issue must be ranked above a physical hazard\". The underlying case is: An auditor observes a missing signature on one low-risk form and a systemic failure to control hazardous energy. Why should findings not be classified solely by count? Which alternative is the most defensible correction?",
+      "options": [
+        "Every paperwork issue must be ranked above a physical hazard",
+        "All findings should receive identical priority to avoid judgment",
+        "Classification should reflect significance, systemic nature, consequence, and requirement—not the number of examples alone",
+        "Only the oldest finding can be considered major"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "One systemic high-consequence breakdown can be more significant than many minor documentation lapses. Classification needs defined risk and system criteria.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Every paperwork issue must be ranked above a physical hazard' remains incomplete or misapplies the controlling finding classification principle.",
+        "The proposed response 'All findings should receive identical priority to avoid judgment' remains incomplete or misapplies the controlling finding classification principle.",
+        null,
+        "The proposed response 'Only the oldest finding can be considered major' remains incomplete or misapplies the controlling finding classification principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: finding classification",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3ecbbf05ad943481f3d8d2b1a6d1a0f458595714124cc607e67bfbf56b1f188f"
+    },
+    {
+      "id": "PV2-CORE-CH37-032",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "root cause of audit finding",
+      "itemFamilyId": "PV2-CORE-CH37-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a finding-classification discussion, a supervisor proposes: \"Whether the finding can be renamed so it is not considered recurring\". The underlying case is: A recurring audit finding is repeatedly closed by retraining employees, but procedures and equipment remain confusing. What should the follow-up examine? Which alternative is the most defensible correction?",
+      "options": [
+        "Whether the finding can be renamed so it is not considered recurring",
+        "Whether the next audit can omit the area to avoid duplication",
+        "Whether training attendance sheets contain more signatures",
+        "Whether the corrective action addressed underlying process, design, ownership, and verification weaknesses rather than symptoms"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Recurring findings indicate ineffective corrective action or deeper systemic causes. Follow-up should test risk reduction, not administrative closure.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Whether the finding can be renamed so it is not considered recurring' remains incomplete or misapplies the controlling root cause of audit finding principle.",
+        "The proposed response 'Whether the next audit can omit the area to avoid duplication' remains incomplete or misapplies the controlling root cause of audit finding principle.",
+        "The proposed response 'Whether training attendance sheets contain more signatures' remains incomplete or misapplies the controlling root cause of audit finding principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: root cause of audit finding",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e34d97d1a9eab88e3727286253c14a687145fd058aad86a40ae09096b249ae2d"
+    },
+    {
+      "id": "PV2-CORE-CH37-033",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "closing meeting communication",
+      "itemFamilyId": "PV2-CORE-CH37-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a corrective-action follow-up, a supervisor proposes: \"Avoid identifying criteria because standards can be interpreted differently\". The underlying case is: During the closing meeting, site leaders dispute a finding because they first see the evidence and criteria in the final slide. What practice would have improved the audit? Which alternative is the most defensible correction?",
+      "options": [
+        "Discuss factual observations and emerging concerns during fieldwork, then present evidence, criteria, significance, and next steps clearly at closing",
+        "Avoid identifying criteria because standards can be interpreted differently",
+        "Negotiate away any disputed finding regardless of evidence",
+        "Withhold all concerns until the final report to surprise management"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "No-surprise communication allows factual correction while preserving auditor judgment. Findings should be traceable to evidence and criteria.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Avoid identifying criteria because standards can be interpreted differently' remains incomplete or misapplies the controlling closing meeting communication principle.",
+        "The proposed response 'Negotiate away any disputed finding regardless of evidence' remains incomplete or misapplies the controlling closing meeting communication principle.",
+        "The proposed response 'Withhold all concerns until the final report to surprise management' remains incomplete or misapplies the controlling closing meeting communication principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: closing meeting communication",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4fc001f6796315b2040af418e43aa5ea181499b0f1b6998229f4a2ff433bd5fd"
+    },
+    {
+      "id": "PV2-CORE-CH37-034",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audit program risk management",
+      "itemFamilyId": "PV2-CORE-CH37-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an auditor independence review, a supervisor proposes: \"Audit only sites that volunteer because they are easiest to coordinate\". The underlying case is: A three-year audit schedule treats every site identically despite major differences in hazard, change, past performance, and legal exposure. What improvement is best? Which alternative is the most defensible correction?",
+      "options": [
+        "Eliminate periodic review of the audit program itself",
+        "Use a risk-based audit program that adjusts frequency, scope, competence, and methods using site and system information",
+        "Audit only sites that volunteer because they are easiest to coordinate",
+        "Use the longest interval for high-hazard sites to reduce disruption"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Audit resources should be directed by risk, change, previous results, and strategic importance while maintaining appropriate coverage and independence.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Eliminate periodic review of the audit program itself' remains incomplete or misapplies the controlling audit program risk management principle.",
+        null,
+        "The proposed response 'Audit only sites that volunteer because they are easiest to coordinate' remains incomplete or misapplies the controlling audit program risk management principle.",
+        "The proposed response 'Use the longest interval for high-hazard sites to reduce disruption' remains incomplete or misapplies the controlling audit program risk management principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: audit program risk management",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b661a01f41ed5b2b3cb22c6d1dcf4335e3461b0423c3a0b852fd8817c8202b96"
+    },
+    {
+      "id": "PV2-CORE-CH37-035",
+      "version": 1,
+      "chapterId": "ch-37",
+      "chapterTitle": "Safety Program Auditing",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audit criteria and scope",
+      "itemFamilyId": "PV2-CORE-CH37-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a closing conference, the team selects \"Findings may be inconsistent or indefensible because scope and criteria were not established before evidence collection\" rather than \"The audit will automatically cover every legal and voluntary requirement\" for this case: An audit team begins interviews without defining which standards, locations, processes, or time period will be evaluated. What is the primary risk? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "No-surprise communication allows factual correction while preserving auditor judgment. Findings should be traceable to evidence and criteria.",
+        "Recurring findings indicate ineffective corrective action or deeper systemic causes. Follow-up should test risk reduction, not administrative closure.",
+        "Audit scope and criteria frame evidence needs and conclusions. They should be agreed and documented before fieldwork, with justified adjustments recorded.",
+        "One systemic high-consequence breakdown can be more significant than many minor documentation lapses. Classification needs defined risk and system criteria."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the audit criteria and scope issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'closing meeting communication' and does not distinguish the two responses in the present audit criteria and scope decision.",
+        "This explanation concerns 'root cause of audit finding' and does not distinguish the two responses in the present audit criteria and scope decision.",
+        null,
+        "This explanation concerns 'finding classification' and does not distinguish the two responses in the present audit criteria and scope decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 37, pp. 818-858; safety-management audit principles; curated topic: audit criteria and scope",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c5cfe0d1dcbc16623542592086e913cc30263df9a9b696cc69a2130305d7d47d"
+    }
+  ]
+}

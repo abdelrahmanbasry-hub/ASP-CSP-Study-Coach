@@ -1,0 +1,1459 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-23-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-23",
+  "chapterTitle": "Workers Compensation",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH23-001",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "compensability and fault",
+      "itemFamilyId": "PV2-CORE-CH23-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A supervisor argues that a worker should receive no workers compensation benefits because the worker made an error that contributed to the injury. What is the best general response?",
+      "options": [
+        "Workers compensation is generally a no-fault system, subject to jurisdiction-specific coverage and defenses, so ordinary negligence does not automatically bar benefits",
+        "Treat ordinary employee error as a complete bar to compensability without reviewing jurisdiction-specific rules",
+        "Limit workers compensation coverage to occupational disease cases and exclude acute workplace injuries",
+        "Require an employer admission of negligence before accepting a workers compensation claim"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The system generally trades tort litigation for defined no-fault benefits. Coverage still depends on the governing jurisdiction and facts, but ordinary fault is not the central test.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Treat ordinary employee error as a complete bar to compensability without reviewing jurisdiction-specific rules' does not apply the controlling principle for compensability and fault to the facts given, so it is not the best answer.",
+        "The option 'Limit workers compensation coverage to occupational disease cases and exclude acute workplace injuries' does not apply the controlling principle for compensability and fault to the facts given, so it is not the best answer.",
+        "The option 'Require an employer admission of negligence before accepting a workers compensation claim' does not apply the controlling principle for compensability and fault to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: compensability and fault",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9a2f46ac0d1a6e7e4cfcac5af228d119dd44d59286581875d934c03837cc066d"
+    },
+    {
+      "id": "PV2-CORE-CH23-002",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "arising out of and course of employment",
+      "itemFamilyId": "PV2-CORE-CH23-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee is injured during an activity loosely connected to work but outside the normal location and schedule. What framework should guide the initial claim analysis?",
+      "options": [
+        "Accept the claim automatically because the person was still an employee",
+        "Evaluate whether the injury arose out of and occurred in the course of employment under the applicable jurisdiction’s tests and exceptions",
+        "Decide coverage solely from whether the employee clocked in electronically",
+        "Deny the claim automatically because it occurred away from the main facility"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Compensability commonly turns on the relationship between the employment and the activity, time, place, purpose, and recognized exceptions—not one fact alone.",
+      "incorrectOptionExplanations": [
+        "The option 'Accept the claim automatically because the person was still an employee' does not apply the controlling principle for arising out of and course of employment to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Decide coverage solely from whether the employee clocked in electronically' does not apply the controlling principle for arising out of and course of employment to the facts given, so it is not the best answer.",
+        "The option 'Deny the claim automatically because it occurred away from the main facility' does not apply the controlling principle for arising out of and course of employment to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: arising out of and course of employment",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3ebeab0cccdb214f9c7c1f22e04328c395b088ec829a191ca1de8284e4609054"
+    },
+    {
+      "id": "PV2-CORE-CH23-003",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "return-to-work planning",
+      "itemFamilyId": "PV2-CORE-CH23-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A recovering employee can perform meaningful duties within medical restrictions. Which program approach is most effective?",
+      "options": [
+        "Assign busywork unrelated to restrictions or organizational needs",
+        "Keep the employee off work until capable of every preinjury task",
+        "Develop a medically consistent transitional-duty plan with clear tasks, communication, supervision, and periodic review",
+        "Pressure the employee to exceed restrictions to shorten claim duration"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Well-designed transitional work supports recovery and function while respecting restrictions. It should be productive, communicated, and regularly reevaluated.",
+      "incorrectOptionExplanations": [
+        "The option 'Assign busywork unrelated to restrictions or organizational needs' does not apply the controlling principle for return-to-work planning to the facts given, so it is not the best answer.",
+        "The option 'Keep the employee off work until capable of every preinjury task' does not apply the controlling principle for return-to-work planning to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Pressure the employee to exceed restrictions to shorten claim duration' does not apply the controlling principle for return-to-work planning to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: return-to-work planning",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8b5d6541c4e170974485100bbb2332a7d238dc1767188604b28cb7a0fed11394"
+    },
+    {
+      "id": "PV2-CORE-CH23-004",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "experience modification and prevention",
+      "itemFamilyId": "PV2-CORE-CH23-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A company wants to improve its experience modification factor solely by contesting every claim. What broader strategy is more defensible?",
+      "options": [
+        "Reclassify high-risk work as clerical without changing the actual operations",
+        "Delay reporting so claims fall outside the current policy period",
+        "Discourage employees from seeking treatment for minor symptoms",
+        "Prevent losses, report and manage claims promptly, provide effective medical and return-to-work coordination, and verify classification and payroll data"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Long-term workers compensation performance depends on prevention, timely claim management, return to work, and accurate rating data—not indiscriminate contesting or misclassification.",
+      "incorrectOptionExplanations": [
+        "The option 'Reclassify high-risk work as clerical without changing the actual operations' does not apply the controlling principle for experience modification and prevention to the facts given, so it is not the best answer.",
+        "The option 'Delay reporting so claims fall outside the current policy period' does not apply the controlling principle for experience modification and prevention to the facts given, so it is not the best answer.",
+        "The option 'Discourage employees from seeking treatment for minor symptoms' does not apply the controlling principle for experience modification and prevention to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: experience modification and prevention",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bbaf7528bd2ed30869551dd8b7cdb0ca066bbc7a03c6aa99c4ebb08b01c310d6"
+    },
+    {
+      "id": "PV2-CORE-CH23-005",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "claim reserves and uncertainty",
+      "itemFamilyId": "PV2-CORE-CH23-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A severe claim reserve increases after new medical information. Management treats the change as proof the insurer made an error. What is the better interpretation?",
+      "options": [
+        "Reserves are estimates that should be reviewed as facts develop; the organization should understand assumptions and focus on legitimate claim and prevention actions",
+        "The original reserve is legally fixed and cannot be updated",
+        "Reserve estimates have no relationship to expected claim cost or financial planning",
+        "Every reserve change proves fraud by the injured employee"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Reserves evolve with medical, legal, and vocational information. They should be monitored and understood without confusing estimate changes with misconduct.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'The original reserve is legally fixed and cannot be updated' does not apply the controlling principle for claim reserves and uncertainty to the facts given, so it is not the best answer.",
+        "The option 'Reserve estimates have no relationship to expected claim cost or financial planning' does not apply the controlling principle for claim reserves and uncertainty to the facts given, so it is not the best answer.",
+        "The option 'Every reserve change proves fraud by the injured employee' does not apply the controlling principle for claim reserves and uncertainty to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: claim reserves and uncertainty",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "703637200d8de9cdc11f098ebff2fa5d4f9fca191307cb79942338905ee72a61"
+    },
+    {
+      "id": "PV2-CORE-CH23-006",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "medical case management and privacy",
+      "itemFamilyId": "PV2-CORE-CH23-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A safety manager requests an employee’s complete unrelated medical history to manage a work injury. What is the most appropriate approach?",
+      "options": [
+        "Share medical details broadly with supervisors to discourage future claims",
+        "Limit access to information necessary for lawful claim and work-capacity decisions and protect medical confidentiality",
+        "Refuse all functional information because privacy prevents any return-to-work planning",
+        "Collect every medical record because a work injury eliminates privacy rights"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Claim management should use necessary, authorized information while preserving confidentiality. Functional restrictions can often be communicated without broad diagnostic disclosure.",
+      "incorrectOptionExplanations": [
+        "The option 'Share medical details broadly with supervisors to discourage future claims' does not apply the controlling principle for medical case management and privacy to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Refuse all functional information because privacy prevents any return-to-work planning' does not apply the controlling principle for medical case management and privacy to the facts given, so it is not the best answer.",
+        "The option 'Collect every medical record because a work injury eliminates privacy rights' does not apply the controlling principle for medical case management and privacy to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: medical case management and privacy",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "257745f5d2524707f4f6847044fd1fc1e4969dd4145c19f333db27d53bb1f081"
+    },
+    {
+      "id": "PV2-CORE-CH23-007",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "exclusive remedy and third parties",
+      "itemFamilyId": "PV2-CORE-CH23-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A defective rented machine may have contributed to an employee injury. Which statement is most accurate?",
+      "options": [
+        "Only the employer’s insurer can investigate a defective product",
+        "Workers compensation always prevents every claim against any third party",
+        "Workers compensation may provide employee benefits while a separate third-party action against a responsible nonemployer may also be possible",
+        "A third-party claim eliminates the employee’s eligibility for workers compensation"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Exclusive remedy generally concerns claims against the employer, while responsible third parties may face separate liability subject to jurisdictional rules and subrogation rights.",
+      "incorrectOptionExplanations": [
+        "The option 'Only the employer’s insurer can investigate a defective product' does not apply the controlling principle for exclusive remedy and third parties to the facts given, so it is not the best answer.",
+        "The option 'Workers compensation always prevents every claim against any third party' does not apply the controlling principle for exclusive remedy and third parties to the facts given, so it is not the best answer.",
+        null,
+        "The option 'A third-party claim eliminates the employee’s eligibility for workers compensation' does not apply the controlling principle for exclusive remedy and third parties to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: exclusive remedy and third parties",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1bdc47fefa37bff1f8018d11eb80b1ec64606c3813678e9d06a95a98a0c5ba98"
+    },
+    {
+      "id": "PV2-CORE-CH23-008",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "lag and early reporting",
+      "itemFamilyId": "PV2-CORE-CH23-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Musculoskeletal claims are often reported weeks after symptoms begin, limiting early intervention. Which program improvement is best?",
+      "options": [
+        "Penalize delayed reports and discourage reporting until a diagnosis is confirmed",
+        "Record every discomfort report as a lost-time claim immediately",
+        "Require employees to use personal leave before notifying supervision",
+        "Create a trusted early-reporting and response process that addresses symptoms promptly without retaliation or automatic recordkeeping assumptions"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Early, nonpunitive reporting supports timely evaluation and control. Reporting a concern does not itself determine compensability or OSHA classification.",
+      "incorrectOptionExplanations": [
+        "The option 'Penalize delayed reports and discourage reporting until a diagnosis is confirmed' does not apply the controlling principle for lag and early reporting to the facts given, so it is not the best answer.",
+        "The option 'Record every discomfort report as a lost-time claim immediately' does not apply the controlling principle for lag and early reporting to the facts given, so it is not the best answer.",
+        "The option 'Require employees to use personal leave before notifying supervision' does not apply the controlling principle for lag and early reporting to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: lag and early reporting",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2171e8bad8cb8220241d10604bf3079f54561c50af8414fd4f5c26e47d8352ff"
+    },
+    {
+      "id": "PV2-CORE-CH23-009",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "compensability and fault",
+      "itemFamilyId": "PV2-CORE-CH23-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an experience-modification discussion, the team reviews this case: A supervisor argues that a worker should receive no workers compensation benefits because the worker made an error that contributed to the injury. What is the best general response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The system generally trades tort litigation for defined no-fault benefits. Coverage still depends on the governing jurisdiction and facts, but ordinary fault is not the central test.",
+        "Early, nonpunitive reporting supports timely evaluation and control. Reporting a concern does not itself determine compensability or OSHA classification.",
+        "Well-designed transitional work supports recovery and function while respecting restrictions. It should be productive, communicated, and regularly reevaluated.",
+        "Claim management should use necessary, authorized information while preserving confidentiality. Functional restrictions can often be communicated without broad diagnostic disclosure."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses compensability and fault and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'lag and early reporting', but it does not resolve the compensability and fault issue in this case.",
+        "This rationale supports the separate chapter topic 'return-to-work planning', but it does not resolve the compensability and fault issue in this case.",
+        "This rationale supports the separate chapter topic 'medical case management and privacy', but it does not resolve the compensability and fault issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: compensability and fault",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9570ebbc58829e36c7317055f09046f6ecab248e430cd40f6486cb1e1498de92"
+    },
+    {
+      "id": "PV2-CORE-CH23-010",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "arising out of and course of employment",
+      "itemFamilyId": "PV2-CORE-CH23-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a compensability question, the team reviews this case: An employee is injured during an activity loosely connected to work but outside the normal location and schedule. What framework should guide the initial claim analysis? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Exclusive remedy generally concerns claims against the employer, while responsible third parties may face separate liability subject to jurisdictional rules and subrogation rights.",
+        "Compensability commonly turns on the relationship between the employment and the activity, time, place, purpose, and recognized exceptions—not one fact alone.",
+        "Reserves evolve with medical, legal, and vocational information. They should be monitored and understood without confusing estimate changes with misconduct.",
+        "Long-term workers compensation performance depends on prevention, timely claim management, return to work, and accurate rating data—not indiscriminate contesting or misclassification."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses arising out of and course of employment and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'exclusive remedy and third parties', but it does not resolve the arising out of and course of employment issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'claim reserves and uncertainty', but it does not resolve the arising out of and course of employment issue in this case.",
+        "This rationale supports the separate chapter topic 'experience modification and prevention', but it does not resolve the arising out of and course of employment issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: arising out of and course of employment",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6727751ea851eecdb1120ff76c2c8b9532af32e4ae8e7f9e251ebf402c3c0e1c"
+    },
+    {
+      "id": "PV2-CORE-CH23-011",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "return-to-work planning",
+      "itemFamilyId": "PV2-CORE-CH23-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a medical-management decision, the team reviews this case: A recovering employee can perform meaningful duties within medical restrictions. Which program approach is most effective? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Long-term workers compensation performance depends on prevention, timely claim management, return to work, and accurate rating data—not indiscriminate contesting or misclassification.",
+        "Early, nonpunitive reporting supports timely evaluation and control. Reporting a concern does not itself determine compensability or OSHA classification.",
+        "Well-designed transitional work supports recovery and function while respecting restrictions. It should be productive, communicated, and regularly reevaluated.",
+        "The system generally trades tort litigation for defined no-fault benefits. Coverage still depends on the governing jurisdiction and facts, but ordinary fault is not the central test."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses return-to-work planning and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'experience modification and prevention', but it does not resolve the return-to-work planning issue in this case.",
+        "This rationale supports the separate chapter topic 'lag and early reporting', but it does not resolve the return-to-work planning issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'compensability and fault', but it does not resolve the return-to-work planning issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: return-to-work planning",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "97f8e8c22fc10de5851667584be22d5a91e8f788f92ca3f8e5da4810a2f27862"
+    },
+    {
+      "id": "PV2-CORE-CH23-012",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "experience modification and prevention",
+      "itemFamilyId": "PV2-CORE-CH23-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a reserve and loss-cost review, the team reviews this case: A company wants to improve its experience modification factor solely by contesting every claim. What broader strategy is more defensible? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Compensability commonly turns on the relationship between the employment and the activity, time, place, purpose, and recognized exceptions—not one fact alone.",
+        "Well-designed transitional work supports recovery and function while respecting restrictions. It should be productive, communicated, and regularly reevaluated.",
+        "Exclusive remedy generally concerns claims against the employer, while responsible third parties may face separate liability subject to jurisdictional rules and subrogation rights.",
+        "Long-term workers compensation performance depends on prevention, timely claim management, return to work, and accurate rating data—not indiscriminate contesting or misclassification."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses experience modification and prevention and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'arising out of and course of employment', but it does not resolve the experience modification and prevention issue in this case.",
+        "This rationale supports the separate chapter topic 'return-to-work planning', but it does not resolve the experience modification and prevention issue in this case.",
+        "This rationale supports the separate chapter topic 'exclusive remedy and third parties', but it does not resolve the experience modification and prevention issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: experience modification and prevention",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "70a7dec285929eb48f44a948abac761f2ccb7cb8f86beae1e92faa059f1033fd"
+    },
+    {
+      "id": "PV2-CORE-CH23-013",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "claim reserves and uncertainty",
+      "itemFamilyId": "PV2-CORE-CH23-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fraud-control concern, the team reviews this case: A severe claim reserve increases after new medical information. Management treats the change as proof the insurer made an error. What is the better interpretation? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Reserves evolve with medical, legal, and vocational information. They should be monitored and understood without confusing estimate changes with misconduct.",
+        "Exclusive remedy generally concerns claims against the employer, while responsible third parties may face separate liability subject to jurisdictional rules and subrogation rights.",
+        "Early, nonpunitive reporting supports timely evaluation and control. Reporting a concern does not itself determine compensability or OSHA classification.",
+        "The system generally trades tort litigation for defined no-fault benefits. Coverage still depends on the governing jurisdiction and facts, but ordinary fault is not the central test."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses claim reserves and uncertainty and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'exclusive remedy and third parties', but it does not resolve the claim reserves and uncertainty issue in this case.",
+        "This rationale supports the separate chapter topic 'lag and early reporting', but it does not resolve the claim reserves and uncertainty issue in this case.",
+        "This rationale supports the separate chapter topic 'compensability and fault', but it does not resolve the claim reserves and uncertainty issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: claim reserves and uncertainty",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f9c9b0f37fd752695a0653c4ebdf2a4c384397a3ac0d579d5cb758e13abb620a"
+    },
+    {
+      "id": "PV2-CORE-CH23-014",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "medical case management and privacy",
+      "itemFamilyId": "PV2-CORE-CH23-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a jurisdictional benefits discussion, the team reviews this case: A safety manager requests an employee’s complete unrelated medical history to manage a work injury. What is the most appropriate approach? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Well-designed transitional work supports recovery and function while respecting restrictions. It should be productive, communicated, and regularly reevaluated.",
+        "Claim management should use necessary, authorized information while preserving confidentiality. Functional restrictions can often be communicated without broad diagnostic disclosure.",
+        "The system generally trades tort litigation for defined no-fault benefits. Coverage still depends on the governing jurisdiction and facts, but ordinary fault is not the central test.",
+        "Reserves evolve with medical, legal, and vocational information. They should be monitored and understood without confusing estimate changes with misconduct."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses medical case management and privacy and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'return-to-work planning', but it does not resolve the medical case management and privacy issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'compensability and fault', but it does not resolve the medical case management and privacy issue in this case.",
+        "This rationale supports the separate chapter topic 'claim reserves and uncertainty', but it does not resolve the medical case management and privacy issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: medical case management and privacy",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "15a0065ce51736e9c36f949c14b072c9a771c7f49014b06470107e6b9a67088e"
+    },
+    {
+      "id": "PV2-CORE-CH23-015",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "exclusive remedy and third parties",
+      "itemFamilyId": "PV2-CORE-CH23-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a claim-management review, the team reviews this case: A defective rented machine may have contributed to an employee injury. Which statement is most accurate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Long-term workers compensation performance depends on prevention, timely claim management, return to work, and accurate rating data—not indiscriminate contesting or misclassification.",
+        "Early, nonpunitive reporting supports timely evaluation and control. Reporting a concern does not itself determine compensability or OSHA classification.",
+        "Exclusive remedy generally concerns claims against the employer, while responsible third parties may face separate liability subject to jurisdictional rules and subrogation rights.",
+        "Compensability commonly turns on the relationship between the employment and the activity, time, place, purpose, and recognized exceptions—not one fact alone."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses exclusive remedy and third parties and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'experience modification and prevention', but it does not resolve the exclusive remedy and third parties issue in this case.",
+        "This rationale supports the separate chapter topic 'lag and early reporting', but it does not resolve the exclusive remedy and third parties issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'arising out of and course of employment', but it does not resolve the exclusive remedy and third parties issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: exclusive remedy and third parties",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5ac051562dbf669871362d33ba9c57e3d004828ab260a78c6b2ad3b40be8eeff"
+    },
+    {
+      "id": "PV2-CORE-CH23-016",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "lag and early reporting",
+      "itemFamilyId": "PV2-CORE-CH23-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a return-to-work planning meeting, the team reviews this case: Musculoskeletal claims are often reported weeks after symptoms begin, limiting early intervention. Which program improvement is best? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Well-designed transitional work supports recovery and function while respecting restrictions. It should be productive, communicated, and regularly reevaluated.",
+        "Long-term workers compensation performance depends on prevention, timely claim management, return to work, and accurate rating data—not indiscriminate contesting or misclassification.",
+        "Reserves evolve with medical, legal, and vocational information. They should be monitored and understood without confusing estimate changes with misconduct.",
+        "Early, nonpunitive reporting supports timely evaluation and control. Reporting a concern does not itself determine compensability or OSHA classification."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses lag and early reporting and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'return-to-work planning', but it does not resolve the lag and early reporting issue in this case.",
+        "This rationale supports the separate chapter topic 'experience modification and prevention', but it does not resolve the lag and early reporting issue in this case.",
+        "This rationale supports the separate chapter topic 'claim reserves and uncertainty', but it does not resolve the lag and early reporting issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: lag and early reporting",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fbbd65774e091b7e35a862d26e54ab78085288ee16da2d654e71dfa9992bf819"
+    },
+    {
+      "id": "PV2-CORE-CH23-017",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "State-based system",
+      "itemFamilyId": "PV2-CORE-CH23-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a return-to-work planning meeting, the team reviews this question: Which statement about workers compensation in the United States is most accurate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Workers compensation is largely state-based, so a safety professional should verify the law and claims process for the applicable jurisdiction.",
+        "The experience factor adjusts premium based on actual loss experience relative to expected experience, subject to the rating system rules.",
+        "Subrogation prevents a responsible third party from escaping liability and can recover costs paid under the compensation system.",
+        "A case may be compensable but not recordable, recordable but disputed for compensation, or both, depending on the governing criteria."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Experience modification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Subrogation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Recordability versus compensability', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 23, current workers compensation laws, pp. 538-545; Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.dol.gov/agencies/owcp"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8d9fffa2063768fe00ce045f47acabf4fe3a8a9865e8005efb9ba06897c25051"
+    },
+    {
+      "id": "PV2-CORE-CH23-018",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Recordability versus compensability",
+      "itemFamilyId": "PV2-CORE-CH23-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an experience-modification discussion, the team reviews this question: A claim is accepted for workers compensation but does not meet OSHA recording criteria. What is the correct conclusion? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Subrogation prevents a responsible third party from escaping liability and can recover costs paid under the compensation system.",
+        "A case may be compensable but not recordable, recordable but disputed for compensation, or both, depending on the governing criteria.",
+        "The experience factor adjusts premium based on actual loss experience relative to expected experience, subject to the rating system rules.",
+        "Workers compensation is largely state-based, so a safety professional should verify the law and claims process for the applicable jurisdiction."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Subrogation', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Experience modification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'State-based system', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 3 and 23, recordability and compensability, pp. 44-54 and 538-545; Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.dol.gov/agencies/owcp"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cec0094d480ec3748b3156e6254b2db599515f6178bb89fedb44e22ad825c911"
+    },
+    {
+      "id": "PV2-CORE-CH23-019",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Experience modification",
+      "itemFamilyId": "PV2-CORE-CH23-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a compensability question, the team reviews this question: What does an experience modification factor generally compare? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A case may be compensable but not recordable, recordable but disputed for compensation, or both, depending on the governing criteria.",
+        "Subrogation prevents a responsible third party from escaping liability and can recover costs paid under the compensation system.",
+        "The experience factor adjusts premium based on actual loss experience relative to expected experience, subject to the rating system rules.",
+        "Workers compensation is largely state-based, so a safety professional should verify the law and claims process for the applicable jurisdiction."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Recordability versus compensability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Subrogation', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'State-based system', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 23, premiums and experience modification rates, pp. 541-542; Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.dol.gov/agencies/owcp"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c492ffe56ca2a34e972e09f7bb9d27377953794cdd2cf57e9f627585b9511775"
+    },
+    {
+      "id": "PV2-CORE-CH23-020",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Return to work",
+      "itemFamilyId": "PV2-CORE-CH23-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a medical-management decision, the team reviews this question: Which return-to-work practice is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Workers compensation is largely state-based, so a safety professional should verify the law and claims process for the applicable jurisdiction.",
+        "Subrogation prevents a responsible third party from escaping liability and can recover costs paid under the compensation system.",
+        "Early information allows appropriate treatment and coordinated decisions while facts are still available.",
+        "A coordinated program matches safe productive work to current capability and adjusts as recovery progresses."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'State-based system', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Subrogation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Prompt reporting', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 23, case management and return-to-work programs, pp. 543-545; Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.dol.gov/agencies/owcp"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "783268f1f867df2935742a95c22dfb33f6aacb5881e73c15f20dfdce63dde2ef"
+    },
+    {
+      "id": "PV2-CORE-CH23-021",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Prompt reporting",
+      "itemFamilyId": "PV2-CORE-CH23-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a reserve and loss-cost review, the team reviews this question: Why is prompt injury reporting valuable beyond administrative compliance? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Early information allows appropriate treatment and coordinated decisions while facts are still available.",
+        "A coordinated program matches safe productive work to current capability and adjusts as recovery progresses.",
+        "Workers compensation is largely state-based, so a safety professional should verify the law and claims process for the applicable jurisdiction.",
+        "Subrogation prevents a responsible third party from escaping liability and can recover costs paid under the compensation system."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Return to work', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'State-based system', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Subrogation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 23, reporting injuries and claims and prompt reporting, pp. 543-544; Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.dol.gov/agencies/owcp"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b9c62981a0b0a95375f8743f54b1db708a5abf1987acb02af3e84ef16dd63071"
+    },
+    {
+      "id": "PV2-CORE-CH23-022",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Subrogation",
+      "itemFamilyId": "PV2-CORE-CH23-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fraud-control concern, the team reviews this question: What is subrogation in a workers compensation context? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A case may be compensable but not recordable, recordable but disputed for compensation, or both, depending on the governing criteria.",
+        "Subrogation prevents a responsible third party from escaping liability and can recover costs paid under the compensation system.",
+        "Workers compensation is largely state-based, so a safety professional should verify the law and claims process for the applicable jurisdiction.",
+        "The experience factor adjusts premium based on actual loss experience relative to expected experience, subject to the rating system rules."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Recordability versus compensability', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'State-based system', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Experience modification', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 23, waiver of subrogation and insurance concepts, pp. 541-543; Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.dol.gov/agencies/owcp"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0f3558b8fb633741ad0e978f2c7c1e02c96013eb06ca18853bdd5551cc783699"
+    },
+    {
+      "id": "PV2-CORE-CH23-023",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "compensability and fault",
+      "itemFamilyId": "PV2-CORE-CH23-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a return-to-work planning meeting, a supervisor proposes: \"Treat ordinary employee error as a complete bar to compensability without reviewing jurisdiction-specific rules\". The underlying case is: A supervisor argues that a worker should receive no workers compensation benefits because the worker made an error that contributed to the injury. What is the best general response? Which alternative is the most defensible correction?",
+      "options": [
+        "Treat ordinary employee error as a complete bar to compensability without reviewing jurisdiction-specific rules",
+        "Require an employer admission of negligence before accepting a workers compensation claim",
+        "Workers compensation is generally a no-fault system, subject to jurisdiction-specific coverage and defenses, so ordinary negligence does not automatically bar benefits",
+        "Limit workers compensation coverage to occupational disease cases and exclude acute workplace injuries"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The system generally trades tort litigation for defined no-fault benefits. Coverage still depends on the governing jurisdiction and facts, but ordinary fault is not the central test.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Treat ordinary employee error as a complete bar to compensability without reviewing jurisdiction-specific rules' remains incomplete or misapplies the controlling compensability and fault principle.",
+        "The proposed response 'Require an employer admission of negligence before accepting a workers compensation claim' remains incomplete or misapplies the controlling compensability and fault principle.",
+        null,
+        "The proposed response 'Limit workers compensation coverage to occupational disease cases and exclude acute workplace injuries' remains incomplete or misapplies the controlling compensability and fault principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: compensability and fault",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f61a9295d4a3b83045ae325e7d483fff39d28a20446f5368b422a1ec40c79c92"
+    },
+    {
+      "id": "PV2-CORE-CH23-024",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "arising out of and course of employment",
+      "itemFamilyId": "PV2-CORE-CH23-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an experience-modification discussion, a supervisor proposes: \"Decide coverage solely from whether the employee clocked in electronically\". The underlying case is: An employee is injured during an activity loosely connected to work but outside the normal location and schedule. What framework should guide the initial claim analysis? Which alternative is the most defensible correction?",
+      "options": [
+        "Accept the claim automatically because the person was still an employee",
+        "Decide coverage solely from whether the employee clocked in electronically",
+        "Deny the claim automatically because it occurred away from the main facility",
+        "Evaluate whether the injury arose out of and occurred in the course of employment under the applicable jurisdiction’s tests and exceptions"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Compensability commonly turns on the relationship between the employment and the activity, time, place, purpose, and recognized exceptions—not one fact alone.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Accept the claim automatically because the person was still an employee' remains incomplete or misapplies the controlling arising out of and course of employment principle.",
+        "The proposed response 'Decide coverage solely from whether the employee clocked in electronically' remains incomplete or misapplies the controlling arising out of and course of employment principle.",
+        "The proposed response 'Deny the claim automatically because it occurred away from the main facility' remains incomplete or misapplies the controlling arising out of and course of employment principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: arising out of and course of employment",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0efd4f4597fff742dc5faf2cfd289a4886c9073d516ed27276020baaf8c69b7a"
+    },
+    {
+      "id": "PV2-CORE-CH23-025",
+      "version": 1,
+      "chapterId": "ch-23",
+      "chapterTitle": "Workers Compensation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "return-to-work planning",
+      "itemFamilyId": "PV2-CORE-CH23-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a compensability question, a supervisor proposes: \"Keep the employee off work until capable of every preinjury task\". The underlying case is: A recovering employee can perform meaningful duties within medical restrictions. Which program approach is most effective? Which alternative is the most defensible correction?",
+      "options": [
+        "Develop a medically consistent transitional-duty plan with clear tasks, communication, supervision, and periodic review",
+        "Assign busywork unrelated to restrictions or organizational needs",
+        "Keep the employee off work until capable of every preinjury task",
+        "Pressure the employee to exceed restrictions to shorten claim duration"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Well-designed transitional work supports recovery and function while respecting restrictions. It should be productive, communicated, and regularly reevaluated.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Assign busywork unrelated to restrictions or organizational needs' remains incomplete or misapplies the controlling return-to-work planning principle.",
+        "The proposed response 'Keep the employee off work until capable of every preinjury task' remains incomplete or misapplies the controlling return-to-work planning principle.",
+        "The proposed response 'Pressure the employee to exceed restrictions to shorten claim duration' remains incomplete or misapplies the controlling return-to-work planning principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 23, pp. 538-545; general workers compensation principles subject to jurisdiction; curated topic: return-to-work planning",
+      "sourceUrls": [
+        "https://www.dol.gov/agencies/owcp",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d657fbf788c5606f785c7565defb23016cbd3b3cf8672d61de97e93109fc1d5a"
+    }
+  ]
+}

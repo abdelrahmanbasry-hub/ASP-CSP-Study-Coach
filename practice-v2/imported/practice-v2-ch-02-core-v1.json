@@ -1,0 +1,2039 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-02-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-02",
+  "chapterTitle": "Legal Aspects of the Safety Profession",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH02-001",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "negligence and duty of care",
+      "itemFamilyId": "PV2-CORE-CH02-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A safety consultant notices an unguarded point of operation during a limited document review. The contract does not assign site-control duties, but the consultant gives the supervisor detailed instructions and promises to verify completion. An injury occurs before verification. Which fact is most important when evaluating whether the consultant may have assumed a duty?",
+      "options": [
+        "Whether the consultant undertook responsibility in a way that reasonably induced reliance on the promised follow-up",
+        "Whether the consultant held a professional certification on the day of the visit",
+        "Whether the employer had purchased workers compensation insurance for the site",
+        "Whether the injured employee had previously completed annual safety training"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A duty can arise from an undertaking and reasonable reliance even when the original contract was narrower; certification, training history, and insurance do not by themselves determine whether a duty was assumed.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Whether the consultant held a professional certification on the day of the visit' does not apply the controlling principle for negligence and duty of care to the facts given, so it is not the best answer.",
+        "The option 'Whether the employer had purchased workers compensation insurance for the site' does not apply the controlling principle for negligence and duty of care to the facts given, so it is not the best answer.",
+        "The option 'Whether the injured employee had previously completed annual safety training' does not apply the controlling principle for negligence and duty of care to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: negligence and duty of care",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ea1d81eb095fef48abfa56da01fdd0ff35408548a93b2747e680726a425c3ac7"
+    },
+    {
+      "id": "PV2-CORE-CH02-002",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "elements of negligence",
+      "itemFamilyId": "PV2-CORE-CH02-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee alleges that a safety professional’s recommendation caused an injury. The recommendation was imperfect, but the same injury would have occurred because a separate machine failure was already in progress. Which negligence element is least supported by these facts?",
+      "options": [
+        "The existence of a professional duty under the engagement",
+        "Causation linking the alleged breach to the injury",
+        "The occurrence of actual damages after the event",
+        "A possible departure from the expected standard of care"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Negligence requires duty, breach, causation, and damages. When the harm would have occurred independently, the causal connection between the alleged breach and the injury is weak.",
+      "incorrectOptionExplanations": [
+        "The option 'The existence of a professional duty under the engagement' does not apply the controlling principle for elements of negligence to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The occurrence of actual damages after the event' does not apply the controlling principle for elements of negligence to the facts given, so it is not the best answer.",
+        "The option 'A possible departure from the expected standard of care' does not apply the controlling principle for elements of negligence to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: elements of negligence",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d7583e7d6390fdb5f6416a98ed979b87bba5328d24ca6b4268a9cc98fe00c8e4"
+    },
+    {
+      "id": "PV2-CORE-CH02-003",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "privileged and discoverable records",
+      "itemFamilyId": "PV2-CORE-CH02-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "After a serious incident, operations asks the safety manager to rewrite contemporaneous inspection notes so they appear more favorable before counsel reviews them. What is the most defensible response?",
+      "options": [
+        "Delete informal drafts once a final investigation report is issued",
+        "Replace the notes with a management summary and assume the summary is privileged because of its format",
+        "Preserve the original records, stop alteration, and coordinate lawful document handling with counsel under the organization’s retention process",
+        "Send every record to outside counsel and label it privileged without considering why it was created"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Records should be preserved accurately and handled under a legitimate retention and legal-review process. Privilege depends on purpose and context; labels, deletion, or rewriting do not create protection and can create spoliation concerns.",
+      "incorrectOptionExplanations": [
+        "The option 'Delete informal drafts once a final investigation report is issued' does not apply the controlling principle for privileged and discoverable records to the facts given, so it is not the best answer.",
+        "The option 'Replace the notes with a management summary and assume the summary is privileged because of its format' does not apply the controlling principle for privileged and discoverable records to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Send every record to outside counsel and label it privileged without considering why it was created' does not apply the controlling principle for privileged and discoverable records to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: privileged and discoverable records",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f494f81a5b73f85b653bad2f4cf48846182d9280afc7094378b56fe25676574f"
+    },
+    {
+      "id": "PV2-CORE-CH02-004",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "product liability and foreseeable misuse",
+      "itemFamilyId": "PV2-CORE-CH02-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A manufacturer learns that customers routinely defeat an interlock to clear jams faster. The manual prohibits the practice, but the bypass is simple and predictable. Which design response most directly addresses product-liability exposure?",
+      "options": [
+        "Require purchasers to sign a statement accepting all future injury risk",
+        "Add a longer warning paragraph while leaving the bypass equally accessible",
+        "Rely on operator discipline because the misuse is technically prohibited",
+        "Redesign the system so foreseeable jam clearing can be performed without defeating the protective function"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard.",
+      "incorrectOptionExplanations": [
+        "The option 'Require purchasers to sign a statement accepting all future injury risk' does not apply the controlling principle for product liability and foreseeable misuse to the facts given, so it is not the best answer.",
+        "The option 'Add a longer warning paragraph while leaving the bypass equally accessible' does not apply the controlling principle for product liability and foreseeable misuse to the facts given, so it is not the best answer.",
+        "The option 'Rely on operator discipline because the misuse is technically prohibited' does not apply the controlling principle for product liability and foreseeable misuse to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: product liability and foreseeable misuse",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5d1be261e8b01edc241dae237df7bdd893df2e7384b019962041ca458040b164"
+    },
+    {
+      "id": "PV2-CORE-CH02-005",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "expert witness integrity",
+      "itemFamilyId": "PV2-CORE-CH02-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An attorney asks a safety professional serving as an expert to omit test results that weaken the retaining party’s theory. The data are valid and material. What should the professional do?",
+      "options": [
+        "Refuse to omit the material data and provide an objective opinion limited to the professional’s competence and evidence",
+        "Include the data only if opposing counsel independently discovers it",
+        "Omit the data because an expert’s only duty is to the party paying the fee",
+        "Adjust the conclusion to match the attorney’s theory but retain the raw data privately"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "An expert must remain objective, disclose material evidence relevant to the opinion, and avoid advocacy that distorts professional judgment.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Include the data only if opposing counsel independently discovers it' does not apply the controlling principle for expert witness integrity to the facts given, so it is not the best answer.",
+        "The option 'Omit the data because an expert’s only duty is to the party paying the fee' does not apply the controlling principle for expert witness integrity to the facts given, so it is not the best answer.",
+        "The option 'Adjust the conclusion to match the attorney’s theory but retain the raw data privately' does not apply the controlling principle for expert witness integrity to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: expert witness integrity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7dab0d2433e2707bbe8cb8ab0efdc874315d6b2d2f2537cc0b424e5dee13b734"
+    },
+    {
+      "id": "PV2-CORE-CH02-006",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contract risk allocation",
+      "itemFamilyId": "PV2-CORE-CH02-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A host employer wants a service contract to make the contractor “solely responsible for all safety,” although the host controls energized equipment, schedules, and access. Which revision best manages risk without creating a false allocation of operational control?",
+      "options": [
+        "Remove all safety language so neither party can be alleged to have assumed a duty",
+        "Define each party’s actual responsibilities, coordination duties, authority, and information-sharing obligations based on who controls each hazard",
+        "Keep the broad transfer clause because contract language eliminates the host’s statutory duties",
+        "State that the contractor controls every hazard even when the host retains exclusive equipment control"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Clear, realistic allocation based on actual control and coordination is more defensible than attempting to transfer nondelegable or retained responsibilities through broad wording.",
+      "incorrectOptionExplanations": [
+        "The option 'Remove all safety language so neither party can be alleged to have assumed a duty' does not apply the controlling principle for contract risk allocation to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Keep the broad transfer clause because contract language eliminates the host’s statutory duties' does not apply the controlling principle for contract risk allocation to the facts given, so it is not the best answer.",
+        "The option 'State that the contractor controls every hazard even when the host retains exclusive equipment control' does not apply the controlling principle for contract risk allocation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: contract risk allocation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4f234e332d7446bf50155c2e7be02c17fd557acc0ea3b1e6c092931ed8b0ef17"
+    },
+    {
+      "id": "PV2-CORE-CH02-007",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "confidentiality and mandatory disclosure",
+      "itemFamilyId": "PV2-CORE-CH02-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A client labels exposure results confidential, but the safety professional learns that workers have a legal right to relevant exposure information. What is the best course?",
+      "options": [
+        "Publish the complete client file publicly to avoid any appearance of concealment",
+        "Destroy identifiers and the underlying measurements before deciding what must be disclosed",
+        "Protect confidential information to the extent lawful while ensuring required worker access and disclosures are provided through the proper process",
+        "Withhold all results because a client confidentiality instruction overrides access requirements"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Professional confidentiality is subject to legal duties. The correct response is a controlled disclosure that satisfies applicable access requirements without unnecessarily releasing unrelated confidential information.",
+      "incorrectOptionExplanations": [
+        "The option 'Publish the complete client file publicly to avoid any appearance of concealment' does not apply the controlling principle for confidentiality and mandatory disclosure to the facts given, so it is not the best answer.",
+        "The option 'Destroy identifiers and the underlying measurements before deciding what must be disclosed' does not apply the controlling principle for confidentiality and mandatory disclosure to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Withhold all results because a client confidentiality instruction overrides access requirements' does not apply the controlling principle for confidentiality and mandatory disclosure to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: confidentiality and mandatory disclosure",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "98bff59053ed4dc7057f8a037571303ec631d92c1e027b0f0a3739957abef05f"
+    },
+    {
+      "id": "PV2-CORE-CH02-008",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "standard of care",
+      "itemFamilyId": "PV2-CORE-CH02-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A safety engineer is evaluating a novel robotic cell for which no single prescriptive standard addresses every hazard. Which approach best establishes a defensible standard of care?",
+      "options": [
+        "Use only the employer’s historical practices because they define the legal standard",
+        "Adopt the least costly control and document that no exact OSHA paragraph was found",
+        "Treat the absence of one prescriptive rule as proof that no safeguards are required",
+        "Use applicable regulations, consensus standards, manufacturer information, recognized risk methods, and competent professional judgment together"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards.",
+      "incorrectOptionExplanations": [
+        "The option 'Use only the employer’s historical practices because they define the legal standard' does not apply the controlling principle for standard of care to the facts given, so it is not the best answer.",
+        "The option 'Adopt the least costly control and document that no exact OSHA paragraph was found' does not apply the controlling principle for standard of care to the facts given, so it is not the best answer.",
+        "The option 'Treat the absence of one prescriptive rule as proof that no safeguards are required' does not apply the controlling principle for standard of care to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: standard of care",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fcab1494bc356e85c294fcd50f66ed15a82dbb132ec4a7898be8ce5e1c2fe38a"
+    },
+    {
+      "id": "PV2-CORE-CH02-009",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "negligence and duty of care",
+      "itemFamilyId": "PV2-CORE-CH02-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a product-liability consultation, the team reviews this case: A safety consultant notices an unguarded point of operation during a limited document review. The contract does not assign site-control duties, but the consultant gives the supervisor detailed instructions and promises to verify completion. An injury occurs before verification. Which fact is most important when evaluating whether the consultant may have assumed a duty? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A duty can arise from an undertaking and reasonable reliance even when the original contract was narrower; certification, training history, and insurance do not by themselves determine whether a duty was assumed.",
+        "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard.",
+        "Professional confidentiality is subject to legal duties. The correct response is a controlled disclosure that satisfies applicable access requirements without unnecessarily releasing unrelated confidential information.",
+        "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses negligence and duty of care and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'product liability and foreseeable misuse', but it does not resolve the negligence and duty of care issue in this case.",
+        "This rationale supports the separate chapter topic 'confidentiality and mandatory disclosure', but it does not resolve the negligence and duty of care issue in this case.",
+        "This rationale supports the separate chapter topic 'standard of care', but it does not resolve the negligence and duty of care issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: negligence and duty of care",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8f5d0bd3bb851d157a1b27a81812e1239b19ce2f77412b2523c3680177aa7ef1"
+    },
+    {
+      "id": "PV2-CORE-CH02-010",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "elements of negligence",
+      "itemFamilyId": "PV2-CORE-CH02-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a multiemployer worksite dispute, the team reviews this case: An employee alleges that a safety professional’s recommendation caused an injury. The recommendation was imperfect, but the same injury would have occurred because a separate machine failure was already in progress. Which negligence element is least supported by these facts? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Clear, realistic allocation based on actual control and coordination is more defensible than attempting to transfer nondelegable or retained responsibilities through broad wording.",
+        "Negligence requires duty, breach, causation, and damages. When the harm would have occurred independently, the causal connection between the alleged breach and the injury is weak.",
+        "An expert must remain objective, disclose material evidence relevant to the opinion, and avoid advocacy that distorts professional judgment.",
+        "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses elements of negligence and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'contract risk allocation', but it does not resolve the elements of negligence issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'expert witness integrity', but it does not resolve the elements of negligence issue in this case.",
+        "This rationale supports the separate chapter topic 'product liability and foreseeable misuse', but it does not resolve the elements of negligence issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: elements of negligence",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8207b02706898b1f70c14310e9a4d0fb56cdc694cec3dd48b5e387c6959baef8"
+    },
+    {
+      "id": "PV2-CORE-CH02-011",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "privileged and discoverable records",
+      "itemFamilyId": "PV2-CORE-CH02-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an expert-witness preparation meeting, the team reviews this case: After a serious incident, operations asks the safety manager to rewrite contemporaneous inspection notes so they appear more favorable before counsel reviews them. What is the most defensible response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A duty can arise from an undertaking and reasonable reliance even when the original contract was narrower; certification, training history, and insurance do not by themselves determine whether a duty was assumed.",
+        "Negligence requires duty, breach, causation, and damages. When the harm would have occurred independently, the causal connection between the alleged breach and the injury is weak.",
+        "Records should be preserved accurately and handled under a legitimate retention and legal-review process. Privilege depends on purpose and context; labels, deletion, or rewriting do not create protection and can create spoliation concerns.",
+        "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses privileged and discoverable records and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'negligence and duty of care', but it does not resolve the privileged and discoverable records issue in this case.",
+        "This rationale supports the separate chapter topic 'elements of negligence', but it does not resolve the privileged and discoverable records issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'product liability and foreseeable misuse', but it does not resolve the privileged and discoverable records issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: privileged and discoverable records",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0350c1c7875fa8d8d2ef88a515aa033654ff57ec1007fcf479cc38f9d0458e3f"
+    },
+    {
+      "id": "PV2-CORE-CH02-012",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "product liability and foreseeable misuse",
+      "itemFamilyId": "PV2-CORE-CH02-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a negligence claim after an injury, the team reviews this case: A manufacturer learns that customers routinely defeat an interlock to clear jams faster. The manual prohibits the practice, but the bypass is simple and predictable. Which design response most directly addresses product-liability exposure? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Professional confidentiality is subject to legal duties. The correct response is a controlled disclosure that satisfies applicable access requirements without unnecessarily releasing unrelated confidential information.",
+        "Clear, realistic allocation based on actual control and coordination is more defensible than attempting to transfer nondelegable or retained responsibilities through broad wording.",
+        "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards.",
+        "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses product liability and foreseeable misuse and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'confidentiality and mandatory disclosure', but it does not resolve the product liability and foreseeable misuse issue in this case.",
+        "This rationale supports the separate chapter topic 'contract risk allocation', but it does not resolve the product liability and foreseeable misuse issue in this case.",
+        "This rationale supports the separate chapter topic 'standard of care', but it does not resolve the product liability and foreseeable misuse issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: product liability and foreseeable misuse",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "138dd657ac0b3f8b2c3c4eb8d98e9262ca87b93140dfb8635c82e1b9eb6c9da0"
+    },
+    {
+      "id": "PV2-CORE-CH02-013",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "expert witness integrity",
+      "itemFamilyId": "PV2-CORE-CH02-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a contract-scope review, the team reviews this case: An attorney asks a safety professional serving as an expert to omit test results that weaken the retaining party’s theory. The data are valid and material. What should the professional do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An expert must remain objective, disclose material evidence relevant to the opinion, and avoid advocacy that distorts professional judgment.",
+        "A duty can arise from an undertaking and reasonable reliance even when the original contract was narrower; certification, training history, and insurance do not by themselves determine whether a duty was assumed.",
+        "Records should be preserved accurately and handled under a legitimate retention and legal-review process. Privilege depends on purpose and context; labels, deletion, or rewriting do not create protection and can create spoliation concerns.",
+        "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses expert witness integrity and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'negligence and duty of care', but it does not resolve the expert witness integrity issue in this case.",
+        "This rationale supports the separate chapter topic 'privileged and discoverable records', but it does not resolve the expert witness integrity issue in this case.",
+        "This rationale supports the separate chapter topic 'product liability and foreseeable misuse', but it does not resolve the expert witness integrity issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: expert witness integrity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "585dca5e40548395d3c2ab08b0414bb4583b4f1ffa468e68f84fba24dd19d336"
+    },
+    {
+      "id": "PV2-CORE-CH02-014",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contract risk allocation",
+      "itemFamilyId": "PV2-CORE-CH02-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a privacy and records decision, the team reviews this case: A host employer wants a service contract to make the contractor “solely responsible for all safety,” although the host controls energized equipment, schedules, and access. Which revision best manages risk without creating a false allocation of operational control? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An expert must remain objective, disclose material evidence relevant to the opinion, and avoid advocacy that distorts professional judgment.",
+        "Clear, realistic allocation based on actual control and coordination is more defensible than attempting to transfer nondelegable or retained responsibilities through broad wording.",
+        "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards.",
+        "A duty can arise from an undertaking and reasonable reliance even when the original contract was narrower; certification, training history, and insurance do not by themselves determine whether a duty was assumed."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses contract risk allocation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'expert witness integrity', but it does not resolve the contract risk allocation issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'standard of care', but it does not resolve the contract risk allocation issue in this case.",
+        "This rationale supports the separate chapter topic 'negligence and duty of care', but it does not resolve the contract risk allocation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: contract risk allocation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "32d2f0f4d46a43c1ca2d95dcde89baee78a7823fd927b681190a565887f30527"
+    },
+    {
+      "id": "PV2-CORE-CH02-015",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "confidentiality and mandatory disclosure",
+      "itemFamilyId": "PV2-CORE-CH02-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a contractor-liability review, the team reviews this case: A client labels exposure results confidential, but the safety professional learns that workers have a legal right to relevant exposure information. What is the best course? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards.",
+        "Negligence requires duty, breach, causation, and damages. When the harm would have occurred independently, the causal connection between the alleged breach and the injury is weak.",
+        "Professional confidentiality is subject to legal duties. The correct response is a controlled disclosure that satisfies applicable access requirements without unnecessarily releasing unrelated confidential information.",
+        "Records should be preserved accurately and handled under a legitimate retention and legal-review process. Privilege depends on purpose and context; labels, deletion, or rewriting do not create protection and can create spoliation concerns."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses confidentiality and mandatory disclosure and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'standard of care', but it does not resolve the confidentiality and mandatory disclosure issue in this case.",
+        "This rationale supports the separate chapter topic 'elements of negligence', but it does not resolve the confidentiality and mandatory disclosure issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'privileged and discoverable records', but it does not resolve the confidentiality and mandatory disclosure issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: confidentiality and mandatory disclosure",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b9a4e4255d70d7aa2ebef85937b6d19f8c98ce137fef6e12301391ae5d40ec6f"
+    },
+    {
+      "id": "PV2-CORE-CH02-016",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "standard of care",
+      "itemFamilyId": "PV2-CORE-CH02-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a pre-litigation document review, the team reviews this case: A safety engineer is evaluating a novel robotic cell for which no single prescriptive standard addresses every hazard. Which approach best establishes a defensible standard of care? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Negligence requires duty, breach, causation, and damages. When the harm would have occurred independently, the causal connection between the alleged breach and the injury is weak.",
+        "A duty can arise from an undertaking and reasonable reliance even when the original contract was narrower; certification, training history, and insurance do not by themselves determine whether a duty was assumed.",
+        "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard.",
+        "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses standard of care and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'elements of negligence', but it does not resolve the standard of care issue in this case.",
+        "This rationale supports the separate chapter topic 'negligence and duty of care', but it does not resolve the standard of care issue in this case.",
+        "This rationale supports the separate chapter topic 'product liability and foreseeable misuse', but it does not resolve the standard of care issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: standard of care",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b0ea17e57840c7d9782d8754a93a7c305d43c75faaf201510b12bfb3bb4f1396"
+    },
+    {
+      "id": "PV2-CORE-CH02-017",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Negligence elements",
+      "itemFamilyId": "PV2-CORE-CH02-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a pre-litigation document review, the team reviews this question: A visitor sues after a fall in a known unguarded opening. Which set lists the core elements the plaintiff generally must establish for negligence? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A negligence claim generally requires a duty of care, breach of that duty, causal connection, and actual harm or damages.",
+        "Vicarious liability can hold an employer responsible for employee conduct within the scope of employment even without direct employer negligence.",
+        "Evidence should be preserved accurately, securely, and traceably when it may be relevant to a claim, investigation, or proceeding.",
+        "A court must have legal authority over the category of case, along with any other required jurisdiction and due-process conditions."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Vicarious liability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Evidence preservation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Jurisdiction', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, torts and negligent torts, pp. 34-38; Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/oshact/completeoshact"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "486e2991758d4e758de06dbe2a55e3fdeedbd3506633a451534a705c42283784"
+    },
+    {
+      "id": "PV2-CORE-CH02-018",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Administrative law",
+      "itemFamilyId": "PV2-CORE-CH02-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a product-liability consultation, the team reviews this question: OSHA standards codified in the Code of Federal Regulations are primarily an example of what type of law? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Vicarious liability can hold an employer responsible for employee conduct within the scope of employment even without direct employer negligence.",
+        "Administrative agencies issue regulations under authority delegated by statutes, and those regulations are codified in the CFR.",
+        "Strict liability can attach to specified abnormally dangerous activities or defective products without proving ordinary lack of reasonable care.",
+        "A court must have legal authority over the category of case, along with any other required jurisdiction and due-process conditions."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Vicarious liability', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Strict liability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Jurisdiction', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, types of law and administrative law, pp. 33-34; Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/oshact/completeoshact"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2f51d6ef809d31da13e9290f6d3441cd35e54a76e880b5b65f18cd44c6f86f98"
+    },
+    {
+      "id": "PV2-CORE-CH02-019",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Strict liability",
+      "itemFamilyId": "PV2-CORE-CH02-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a multiemployer worksite dispute, the team reviews this question: Which situation most closely illustrates strict liability rather than ordinary negligence? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A negligence claim generally requires a duty of care, breach of that duty, causal connection, and actual harm or damages.",
+        "Vicarious liability can hold an employer responsible for employee conduct within the scope of employment even without direct employer negligence.",
+        "Strict liability can attach to specified abnormally dangerous activities or defective products without proving ordinary lack of reasonable care.",
+        "Evidence should be preserved accurately, securely, and traceably when it may be relevant to a claim, investigation, or proceeding."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Negligence elements', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Vicarious liability', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Evidence preservation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, strict liability and abnormally dangerous activities, pp. 38-40; Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/oshact/completeoshact"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "635a136ee7ff8b5f18faf6d317489d6e16e47594218b66d46025febde5409dfc"
+    },
+    {
+      "id": "PV2-CORE-CH02-020",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Vicarious liability",
+      "itemFamilyId": "PV2-CORE-CH02-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an expert-witness preparation meeting, the team reviews this question: An employee negligently injures a customer while performing assigned delivery duties. Which doctrine may make the employer responsible? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Evidence should be preserved accurately, securely, and traceably when it may be relevant to a claim, investigation, or proceeding.",
+        "A court must have legal authority over the category of case, along with any other required jurisdiction and due-process conditions.",
+        "A negligence claim generally requires a duty of care, breach of that duty, causal connection, and actual harm or damages.",
+        "Vicarious liability can hold an employer responsible for employee conduct within the scope of employment even without direct employer negligence."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Evidence preservation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Jurisdiction', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Negligence elements', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, vicarious liability and employer-employee examples, pp. 40-42; Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/oshact/completeoshact"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bb313a8a199803977a4491368b1896369a599d5b8e843118f000d03bdbde2524"
+    },
+    {
+      "id": "PV2-CORE-CH02-021",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Evidence preservation",
+      "itemFamilyId": "PV2-CORE-CH02-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a negligence claim after an injury, the team reviews this question: After a serious incident, litigation is reasonably anticipated. What is the strongest records practice? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Evidence should be preserved accurately, securely, and traceably when it may be relevant to a claim, investigation, or proceeding.",
+        "A court must have legal authority over the category of case, along with any other required jurisdiction and due-process conditions.",
+        "A negligence claim generally requires a duty of care, breach of that duty, causal connection, and actual harm or damages.",
+        "Strict liability can attach to specified abnormally dangerous activities or defective products without proving ordinary lack of reasonable care."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Jurisdiction', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Negligence elements', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Strict liability', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, legal responsibilities and court process; Chapter 22, investigation records; Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/oshact/completeoshact"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e4426a31edd93940bca2f9bd7bd512c2fad64fba31b45fb8a5338afc6ec7bc14"
+    },
+    {
+      "id": "PV2-CORE-CH02-022",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Jurisdiction",
+      "itemFamilyId": "PV2-CORE-CH02-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a contract-scope review, the team reviews this question: What does subject-matter jurisdiction address? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Strict liability can attach to specified abnormally dangerous activities or defective products without proving ordinary lack of reasonable care.",
+        "A court must have legal authority over the category of case, along with any other required jurisdiction and due-process conditions.",
+        "Vicarious liability can hold an employer responsible for employee conduct within the scope of employment even without direct employer negligence.",
+        "A negligence claim generally requires a duty of care, breach of that duty, causal connection, and actual harm or damages."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Strict liability', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Vicarious liability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Negligence elements', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 2, court system and jurisdiction, pp. 29-33; Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/oshact/completeoshact"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a63abf79a88e4f7a4c517bc3deba492ccefa71620557ef1597e1f9402eadcea8"
+    },
+    {
+      "id": "PV2-CORE-CH02-023",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "negligence and duty of care",
+      "itemFamilyId": "PV2-CORE-CH02-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a pre-litigation document review, a supervisor proposes: \"Whether the injured employee had previously completed annual safety training\". The underlying case is: A safety consultant notices an unguarded point of operation during a limited document review. The contract does not assign site-control duties, but the consultant gives the supervisor detailed instructions and promises to verify completion. An injury occurs before verification. Which fact is most important when evaluating whether the consultant may have assumed a duty? Which alternative is the most defensible correction?",
+      "options": [
+        "Whether the employer had purchased workers compensation insurance for the site",
+        "Whether the consultant held a professional certification on the day of the visit",
+        "Whether the consultant undertook responsibility in a way that reasonably induced reliance on the promised follow-up",
+        "Whether the injured employee had previously completed annual safety training"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A duty can arise from an undertaking and reasonable reliance even when the original contract was narrower; certification, training history, and insurance do not by themselves determine whether a duty was assumed.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Whether the employer had purchased workers compensation insurance for the site' remains incomplete or misapplies the controlling negligence and duty of care principle.",
+        "The proposed response 'Whether the consultant held a professional certification on the day of the visit' remains incomplete or misapplies the controlling negligence and duty of care principle.",
+        null,
+        "The proposed response 'Whether the injured employee had previously completed annual safety training' remains incomplete or misapplies the controlling negligence and duty of care principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: negligence and duty of care",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "be5004691cca177b0262f5e5685af8b7f766cf6b64cd5a95bc3a3b6532bc88d8"
+    },
+    {
+      "id": "PV2-CORE-CH02-024",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "elements of negligence",
+      "itemFamilyId": "PV2-CORE-CH02-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a product-liability consultation, a supervisor proposes: \"The occurrence of actual damages after the event\". The underlying case is: An employee alleges that a safety professional’s recommendation caused an injury. The recommendation was imperfect, but the same injury would have occurred because a separate machine failure was already in progress. Which negligence element is least supported by these facts? Which alternative is the most defensible correction?",
+      "options": [
+        "The occurrence of actual damages after the event",
+        "A possible departure from the expected standard of care",
+        "The existence of a professional duty under the engagement",
+        "Causation linking the alleged breach to the injury"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Negligence requires duty, breach, causation, and damages. When the harm would have occurred independently, the causal connection between the alleged breach and the injury is weak.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The occurrence of actual damages after the event' remains incomplete or misapplies the controlling elements of negligence principle.",
+        "The proposed response 'A possible departure from the expected standard of care' remains incomplete or misapplies the controlling elements of negligence principle.",
+        "The proposed response 'The existence of a professional duty under the engagement' remains incomplete or misapplies the controlling elements of negligence principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: elements of negligence",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8e81898cc7aac4449cec0470b34ef5e820a3f1e98cf180fcb0880dbea672fd37"
+    },
+    {
+      "id": "PV2-CORE-CH02-025",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "privileged and discoverable records",
+      "itemFamilyId": "PV2-CORE-CH02-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a multiemployer worksite dispute, a supervisor proposes: \"Replace the notes with a management summary and assume the summary is privileged because of its format\". The underlying case is: After a serious incident, operations asks the safety manager to rewrite contemporaneous inspection notes so they appear more favorable before counsel reviews them. What is the most defensible response? Which alternative is the most defensible correction?",
+      "options": [
+        "Preserve the original records, stop alteration, and coordinate lawful document handling with counsel under the organization’s retention process",
+        "Delete informal drafts once a final investigation report is issued",
+        "Send every record to outside counsel and label it privileged without considering why it was created",
+        "Replace the notes with a management summary and assume the summary is privileged because of its format"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Records should be preserved accurately and handled under a legitimate retention and legal-review process. Privilege depends on purpose and context; labels, deletion, or rewriting do not create protection and can create spoliation concerns.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Delete informal drafts once a final investigation report is issued' remains incomplete or misapplies the controlling privileged and discoverable records principle.",
+        "The proposed response 'Send every record to outside counsel and label it privileged without considering why it was created' remains incomplete or misapplies the controlling privileged and discoverable records principle.",
+        "The proposed response 'Replace the notes with a management summary and assume the summary is privileged because of its format' remains incomplete or misapplies the controlling privileged and discoverable records principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: privileged and discoverable records",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "57bfba1bcbaa41d887c9b7de4532982f4bd30cb7710e74b54dcd2f3881aa029b"
+    },
+    {
+      "id": "PV2-CORE-CH02-026",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "product liability and foreseeable misuse",
+      "itemFamilyId": "PV2-CORE-CH02-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an expert-witness preparation meeting, a supervisor proposes: \"Require purchasers to sign a statement accepting all future injury risk\". The underlying case is: A manufacturer learns that customers routinely defeat an interlock to clear jams faster. The manual prohibits the practice, but the bypass is simple and predictable. Which design response most directly addresses product-liability exposure? Which alternative is the most defensible correction?",
+      "options": [
+        "Add a longer warning paragraph while leaving the bypass equally accessible",
+        "Redesign the system so foreseeable jam clearing can be performed without defeating the protective function",
+        "Require purchasers to sign a statement accepting all future injury risk",
+        "Rely on operator discipline because the misuse is technically prohibited"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Add a longer warning paragraph while leaving the bypass equally accessible' remains incomplete or misapplies the controlling product liability and foreseeable misuse principle.",
+        null,
+        "The proposed response 'Require purchasers to sign a statement accepting all future injury risk' remains incomplete or misapplies the controlling product liability and foreseeable misuse principle.",
+        "The proposed response 'Rely on operator discipline because the misuse is technically prohibited' remains incomplete or misapplies the controlling product liability and foreseeable misuse principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: product liability and foreseeable misuse",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f45ecb55eae0ae33eba09b55db9fa69d0e8704e41b8d6bc82f0dbbd6e02b7fc4"
+    },
+    {
+      "id": "PV2-CORE-CH02-027",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "expert witness integrity",
+      "itemFamilyId": "PV2-CORE-CH02-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a negligence claim after an injury, a supervisor proposes: \"Adjust the conclusion to match the attorney’s theory but retain the raw data privately\". The underlying case is: An attorney asks a safety professional serving as an expert to omit test results that weaken the retaining party’s theory. The data are valid and material. What should the professional do? Which alternative is the most defensible correction?",
+      "options": [
+        "Omit the data because an expert’s only duty is to the party paying the fee",
+        "Include the data only if opposing counsel independently discovers it",
+        "Refuse to omit the material data and provide an objective opinion limited to the professional’s competence and evidence",
+        "Adjust the conclusion to match the attorney’s theory but retain the raw data privately"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "An expert must remain objective, disclose material evidence relevant to the opinion, and avoid advocacy that distorts professional judgment.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Omit the data because an expert’s only duty is to the party paying the fee' remains incomplete or misapplies the controlling expert witness integrity principle.",
+        "The proposed response 'Include the data only if opposing counsel independently discovers it' remains incomplete or misapplies the controlling expert witness integrity principle.",
+        null,
+        "The proposed response 'Adjust the conclusion to match the attorney’s theory but retain the raw data privately' remains incomplete or misapplies the controlling expert witness integrity principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: expert witness integrity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cb0f3334847063637b832741be3d5a9c3080286627399a99fbff44b00693e28e"
+    },
+    {
+      "id": "PV2-CORE-CH02-028",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contract risk allocation",
+      "itemFamilyId": "PV2-CORE-CH02-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a contract-scope review, a supervisor proposes: \"Keep the broad transfer clause because contract language eliminates the host’s statutory duties\". The underlying case is: A host employer wants a service contract to make the contractor “solely responsible for all safety,” although the host controls energized equipment, schedules, and access. Which revision best manages risk without creating a false allocation of operational control? Which alternative is the most defensible correction?",
+      "options": [
+        "Remove all safety language so neither party can be alleged to have assumed a duty",
+        "Keep the broad transfer clause because contract language eliminates the host’s statutory duties",
+        "State that the contractor controls every hazard even when the host retains exclusive equipment control",
+        "Define each party’s actual responsibilities, coordination duties, authority, and information-sharing obligations based on who controls each hazard"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Clear, realistic allocation based on actual control and coordination is more defensible than attempting to transfer nondelegable or retained responsibilities through broad wording.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Remove all safety language so neither party can be alleged to have assumed a duty' remains incomplete or misapplies the controlling contract risk allocation principle.",
+        "The proposed response 'Keep the broad transfer clause because contract language eliminates the host’s statutory duties' remains incomplete or misapplies the controlling contract risk allocation principle.",
+        "The proposed response 'State that the contractor controls every hazard even when the host retains exclusive equipment control' remains incomplete or misapplies the controlling contract risk allocation principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: contract risk allocation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5e93e67b0059a3923e434fbac6f977444ebc0bbb0ecf92921373a5cf8d628219"
+    },
+    {
+      "id": "PV2-CORE-CH02-029",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "confidentiality and mandatory disclosure",
+      "itemFamilyId": "PV2-CORE-CH02-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a privacy and records decision, a supervisor proposes: \"Publish the complete client file publicly to avoid any appearance of concealment\". The underlying case is: A client labels exposure results confidential, but the safety professional learns that workers have a legal right to relevant exposure information. What is the best course? Which alternative is the most defensible correction?",
+      "options": [
+        "Protect confidential information to the extent lawful while ensuring required worker access and disclosures are provided through the proper process",
+        "Withhold all results because a client confidentiality instruction overrides access requirements",
+        "Publish the complete client file publicly to avoid any appearance of concealment",
+        "Destroy identifiers and the underlying measurements before deciding what must be disclosed"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Professional confidentiality is subject to legal duties. The correct response is a controlled disclosure that satisfies applicable access requirements without unnecessarily releasing unrelated confidential information.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Withhold all results because a client confidentiality instruction overrides access requirements' remains incomplete or misapplies the controlling confidentiality and mandatory disclosure principle.",
+        "The proposed response 'Publish the complete client file publicly to avoid any appearance of concealment' remains incomplete or misapplies the controlling confidentiality and mandatory disclosure principle.",
+        "The proposed response 'Destroy identifiers and the underlying measurements before deciding what must be disclosed' remains incomplete or misapplies the controlling confidentiality and mandatory disclosure principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: confidentiality and mandatory disclosure",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "26caa9df6f09ce542778745cbe09d425f10d8827f9a9384702856c0e6cc76d49"
+    },
+    {
+      "id": "PV2-CORE-CH02-030",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "standard of care",
+      "itemFamilyId": "PV2-CORE-CH02-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a contractor-liability review, a supervisor proposes: \"Adopt the least costly control and document that no exact OSHA paragraph was found\". The underlying case is: A safety engineer is evaluating a novel robotic cell for which no single prescriptive standard addresses every hazard. Which approach best establishes a defensible standard of care? Which alternative is the most defensible correction?",
+      "options": [
+        "Use only the employer’s historical practices because they define the legal standard",
+        "Use applicable regulations, consensus standards, manufacturer information, recognized risk methods, and competent professional judgment together",
+        "Treat the absence of one prescriptive rule as proof that no safeguards are required",
+        "Adopt the least costly control and document that no exact OSHA paragraph was found"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use only the employer’s historical practices because they define the legal standard' remains incomplete or misapplies the controlling standard of care principle.",
+        null,
+        "The proposed response 'Treat the absence of one prescriptive rule as proof that no safeguards are required' remains incomplete or misapplies the controlling standard of care principle.",
+        "The proposed response 'Adopt the least costly control and document that no exact OSHA paragraph was found' remains incomplete or misapplies the controlling standard of care principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: standard of care",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "262e7aba2a7f94e561aa1a3cb5db7050dd41e82f9d1274b049f1cba1ff35b3b5"
+    },
+    {
+      "id": "PV2-CORE-CH02-031",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "negligence and duty of care",
+      "itemFamilyId": "PV2-CORE-CH02-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a product-liability consultation, the team selects \"Whether the consultant undertook responsibility in a way that reasonably induced reliance on the promised follow-up\" rather than \"Whether the employer had purchased workers compensation insurance for the site\" for this case: A safety consultant notices an unguarded point of operation during a limited document review. The contract does not assign site-control duties, but the consultant gives the supervisor detailed instructions and promises to verify completion. An injury occurs before verification. Which fact is most important when evaluating whether the consultant may have assumed a duty? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Records should be preserved accurately and handled under a legitimate retention and legal-review process. Privilege depends on purpose and context; labels, deletion, or rewriting do not create protection and can create spoliation concerns.",
+        "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard.",
+        "A duty can arise from an undertaking and reasonable reliance even when the original contract was narrower; certification, training history, and insurance do not by themselves determine whether a duty was assumed.",
+        "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the negligence and duty of care issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'privileged and discoverable records' and does not distinguish the two responses in the present negligence and duty of care decision.",
+        "This explanation concerns 'product liability and foreseeable misuse' and does not distinguish the two responses in the present negligence and duty of care decision.",
+        null,
+        "This explanation concerns 'standard of care' and does not distinguish the two responses in the present negligence and duty of care decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: negligence and duty of care",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4a1067582ba82598fc981c8b366474cdd33064ad03c62e6dc6303a1d936149ba"
+    },
+    {
+      "id": "PV2-CORE-CH02-032",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "elements of negligence",
+      "itemFamilyId": "PV2-CORE-CH02-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a multiemployer worksite dispute, the team selects \"Causation linking the alleged breach to the injury\" rather than \"The existence of a professional duty under the engagement\" for this case: An employee alleges that a safety professional’s recommendation caused an injury. The recommendation was imperfect, but the same injury would have occurred because a separate machine failure was already in progress. Which negligence element is least supported by these facts? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard.",
+        "Clear, realistic allocation based on actual control and coordination is more defensible than attempting to transfer nondelegable or retained responsibilities through broad wording.",
+        "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards.",
+        "Negligence requires duty, breach, causation, and damages. When the harm would have occurred independently, the causal connection between the alleged breach and the injury is weak."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the elements of negligence issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'product liability and foreseeable misuse' and does not distinguish the two responses in the present elements of negligence decision.",
+        "This explanation concerns 'contract risk allocation' and does not distinguish the two responses in the present elements of negligence decision.",
+        "This explanation concerns 'standard of care' and does not distinguish the two responses in the present elements of negligence decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: elements of negligence",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "72679f977ead3c545a8e2d0610fd6879ca675a4f0d46edf6119551b290813833"
+    },
+    {
+      "id": "PV2-CORE-CH02-033",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "privileged and discoverable records",
+      "itemFamilyId": "PV2-CORE-CH02-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an expert-witness preparation meeting, the team selects \"Preserve the original records, stop alteration, and coordinate lawful document handling with counsel under the organization’s retention process\" rather than \"Delete informal drafts once a final investigation report is issued\" for this case: After a serious incident, operations asks the safety manager to rewrite contemporaneous inspection notes so they appear more favorable before counsel reviews them. What is the most defensible response? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Records should be preserved accurately and handled under a legitimate retention and legal-review process. Privilege depends on purpose and context; labels, deletion, or rewriting do not create protection and can create spoliation concerns.",
+        "Professional confidentiality is subject to legal duties. The correct response is a controlled disclosure that satisfies applicable access requirements without unnecessarily releasing unrelated confidential information.",
+        "An expert must remain objective, disclose material evidence relevant to the opinion, and avoid advocacy that distorts professional judgment.",
+        "Negligence requires duty, breach, causation, and damages. When the harm would have occurred independently, the causal connection between the alleged breach and the injury is weak."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the privileged and discoverable records issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'confidentiality and mandatory disclosure' and does not distinguish the two responses in the present privileged and discoverable records decision.",
+        "This explanation concerns 'expert witness integrity' and does not distinguish the two responses in the present privileged and discoverable records decision.",
+        "This explanation concerns 'elements of negligence' and does not distinguish the two responses in the present privileged and discoverable records decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: privileged and discoverable records",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0fd990d0a371e9a5fe0dc790cdfb1200941d45c28c0b7ad901a52bfacededaff"
+    },
+    {
+      "id": "PV2-CORE-CH02-034",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "product liability and foreseeable misuse",
+      "itemFamilyId": "PV2-CORE-CH02-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a negligence claim after an injury, the team selects \"Redesign the system so foreseeable jam clearing can be performed without defeating the protective function\" rather than \"Rely on operator discipline because the misuse is technically prohibited\" for this case: A manufacturer learns that customers routinely defeat an interlock to clear jams faster. The manual prohibits the practice, but the bypass is simple and predictable. Which design response most directly addresses product-liability exposure? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Clear, realistic allocation based on actual control and coordination is more defensible than attempting to transfer nondelegable or retained responsibilities through broad wording.",
+        "Foreseeable misuse should be addressed through reasonably practicable design safeguards when possible. Warnings and contractual language are weaker than eliminating or controlling the predictable hazard.",
+        "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards.",
+        "Records should be preserved accurately and handled under a legitimate retention and legal-review process. Privilege depends on purpose and context; labels, deletion, or rewriting do not create protection and can create spoliation concerns."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the product liability and foreseeable misuse issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'contract risk allocation' and does not distinguish the two responses in the present product liability and foreseeable misuse decision.",
+        null,
+        "This explanation concerns 'standard of care' and does not distinguish the two responses in the present product liability and foreseeable misuse decision.",
+        "This explanation concerns 'privileged and discoverable records' and does not distinguish the two responses in the present product liability and foreseeable misuse decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: product liability and foreseeable misuse",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "13058a336e16ab5512c8363d2a2c87ea5f7eabeb3c974312b25126ff32930a89"
+    },
+    {
+      "id": "PV2-CORE-CH02-035",
+      "version": 1,
+      "chapterId": "ch-02",
+      "chapterTitle": "Legal Aspects of the Safety Profession",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "expert witness integrity",
+      "itemFamilyId": "PV2-CORE-CH02-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a contract-scope review, the team selects \"Refuse to omit the material data and provide an objective opinion limited to the professional’s competence and evidence\" rather than \"Omit the data because an expert’s only duty is to the party paying the fee\" for this case: An attorney asks a safety professional serving as an expert to omit test results that weaken the retaining party’s theory. The data are valid and material. What should the professional do? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "The standard of care is informed by multiple authoritative and professional sources. Lack of a single prescriptive rule does not eliminate the duty to identify and control recognized hazards.",
+        "Records should be preserved accurately and handled under a legitimate retention and legal-review process. Privilege depends on purpose and context; labels, deletion, or rewriting do not create protection and can create spoliation concerns.",
+        "An expert must remain objective, disclose material evidence relevant to the opinion, and avoid advocacy that distorts professional judgment.",
+        "Clear, realistic allocation based on actual control and coordination is more defensible than attempting to transfer nondelegable or retained responsibilities through broad wording."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the expert witness integrity issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'standard of care' and does not distinguish the two responses in the present expert witness integrity decision.",
+        "This explanation concerns 'privileged and discoverable records' and does not distinguish the two responses in the present expert witness integrity decision.",
+        null,
+        "This explanation concerns 'contract risk allocation' and does not distinguish the two responses in the present expert witness integrity decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 2, pp. 17-43; OSH Act and professional-liability principles; curated topic: expert witness integrity",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/oshact/completeoshact",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e2fc9a0b8d6cbcf5ded7273d598fffc9872331d41877bfe65bd61974c4680891"
+    }
+  ]
+}

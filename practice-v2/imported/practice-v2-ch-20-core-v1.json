@@ -1,0 +1,2001 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-20-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-20",
+  "chapterTitle": "Engineering Economics and Project Management",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH20-001",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "life-cycle cost analysis",
+      "itemFamilyId": "PV2-CORE-CH20-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Two machine guards provide equivalent risk reduction. Guard A has a lower purchase price but high maintenance and downtime costs; Guard B costs more initially but little over its service life. Which comparison is most defensible?",
+      "options": [
+        "Compare discounted life-cycle costs, performance, reliability, and residual risk rather than purchase price alone",
+        "Select Guard B solely because the higher price proves higher quality",
+        "Ignore maintenance and downtime because safety projects do not require economic analysis",
+        "Select Guard A because capital price is the only relevant economic criterion"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Sound investment analysis considers total ownership cost and risk performance across the expected life, not one initial price signal.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Select Guard B solely because the higher price proves higher quality' does not apply the controlling principle for life-cycle cost analysis to the facts given, so it is not the best answer.",
+        "The option 'Ignore maintenance and downtime because safety projects do not require economic analysis' does not apply the controlling principle for life-cycle cost analysis to the facts given, so it is not the best answer.",
+        "The option 'Select Guard A because capital price is the only relevant economic criterion' does not apply the controlling principle for life-cycle cost analysis to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: life-cycle cost analysis",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "35b35ef2104e3f1c1245d702c3e50d9cc248a78dd922b3c6f6e1bdb019059e25"
+    },
+    {
+      "id": "PV2-CORE-CH20-002",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "net present value",
+      "itemFamilyId": "PV2-CORE-CH20-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A project has a positive net present value using a risk-appropriate discount rate and conservative benefit assumptions. What does that indicate?",
+      "options": [
+        "The project has the shortest possible payback period",
+        "The present value of expected benefits exceeds the present value of costs under the stated assumptions",
+        "The project’s accounting profit will be identical in every future year",
+        "The project is guaranteed to eliminate every future loss"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Positive NPV means discounted benefits exceed discounted costs for the modeled assumptions; it does not guarantee outcomes or establish shortest payback.",
+      "incorrectOptionExplanations": [
+        "The option 'The project has the shortest possible payback period' does not apply the controlling principle for net present value to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The project’s accounting profit will be identical in every future year' does not apply the controlling principle for net present value to the facts given, so it is not the best answer.",
+        "The option 'The project is guaranteed to eliminate every future loss' does not apply the controlling principle for net present value to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: net present value",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "77765cc742f6448395093778ca6938a7e0c9565263503b15884ba4f263fe7c53"
+    },
+    {
+      "id": "PV2-CORE-CH20-003",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sunk costs",
+      "itemFamilyId": "PV2-CORE-CH20-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A project has already spent $80,000 on a control concept that now appears ineffective. A better alternative costs $40,000 from today forward. How should the prior spending influence the decision?",
+      "options": [
+        "Continue the ineffective concept until the $80,000 is recovered",
+        "Select the original concept because changing direction admits a management error",
+        "Treat the $80,000 as sunk and compare the future costs, benefits, and risks of the available options",
+        "Add the sunk cost only to the new alternative to make comparison fair"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Costs already incurred and unrecoverable should not distort a forward-looking decision. The choice should be based on incremental future consequences.",
+      "incorrectOptionExplanations": [
+        "The option 'Continue the ineffective concept until the $80,000 is recovered' does not apply the controlling principle for sunk costs to the facts given, so it is not the best answer.",
+        "The option 'Select the original concept because changing direction admits a management error' does not apply the controlling principle for sunk costs to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Add the sunk cost only to the new alternative to make comparison fair' does not apply the controlling principle for sunk costs to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: sunk costs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6626e8feb8e2821497d2a88472e8f68e07e22b9dbfd21f248b9ee665727d7d47"
+    },
+    {
+      "id": "PV2-CORE-CH20-004",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "critical path",
+      "itemFamilyId": "PV2-CORE-CH20-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A safety project has several parallel activities. One noncritical task slips two days but has five days of float. What is the most likely schedule effect?",
+      "options": [
+        "Every task delay automatically delays the project by the same amount",
+        "Float means the task can be omitted without consequence",
+        "The project must finish two days early to compensate",
+        "The overall completion date need not change if the slip remains within available float and does not alter dependencies"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Float is allowable delay before a task affects the critical path or project finish, assuming dependencies and resource constraints remain as planned.",
+      "incorrectOptionExplanations": [
+        "The option 'Every task delay automatically delays the project by the same amount' does not apply the controlling principle for critical path to the facts given, so it is not the best answer.",
+        "The option 'Float means the task can be omitted without consequence' does not apply the controlling principle for critical path to the facts given, so it is not the best answer.",
+        "The option 'The project must finish two days early to compensate' does not apply the controlling principle for critical path to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: critical path",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8871e4e5820a0c9383f54ad22eca11b9f0fb177294c91941c91f8aabdbfd9218"
+    },
+    {
+      "id": "PV2-CORE-CH20-005",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "project scope control",
+      "itemFamilyId": "PV2-CORE-CH20-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During installation, stakeholders request several useful features unrelated to the approved hazard-control objective. What should the project manager do?",
+      "options": [
+        "Evaluate the requests through change control for scope, risk, cost, schedule, and approval before adding them",
+        "Let the installer decide informally without updating design or budget records",
+        "Reject all changes automatically even when they reduce risk materially",
+        "Add every request immediately because stakeholder ideas cannot create project risk"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Controlled change evaluation prevents scope creep while allowing justified improvements to be assessed, approved, documented, and integrated.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Let the installer decide informally without updating design or budget records' does not apply the controlling principle for project scope control to the facts given, so it is not the best answer.",
+        "The option 'Reject all changes automatically even when they reduce risk materially' does not apply the controlling principle for project scope control to the facts given, so it is not the best answer.",
+        "The option 'Add every request immediately because stakeholder ideas cannot create project risk' does not apply the controlling principle for project scope control to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: project scope control",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e6f21d367f4b276e538dc16e158d7d6157135ff2a41e6c3460153fd2d1ac33e9"
+    },
+    {
+      "id": "PV2-CORE-CH20-006",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "benefit-cost uncertainty",
+      "itemFamilyId": "PV2-CORE-CH20-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "The estimated financial benefit of a prevention project depends heavily on a rare catastrophic event. How should the proposal communicate this?",
+      "options": [
+        "Claim the project will pay for itself in the first year without supporting data",
+        "Present assumptions, probability and consequence ranges, sensitivity analysis, and nonfinancial compliance or ethical considerations",
+        "Use one precise benefit number and omit uncertainty to strengthen approval",
+        "Exclude low-frequency high-consequence scenarios from all analysis"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Transparent uncertainty and sensitivity analysis improve decision quality, especially when rare severe events dominate expected value.",
+      "incorrectOptionExplanations": [
+        "The option 'Claim the project will pay for itself in the first year without supporting data' does not apply the controlling principle for benefit-cost uncertainty to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use one precise benefit number and omit uncertainty to strengthen approval' does not apply the controlling principle for benefit-cost uncertainty to the facts given, so it is not the best answer.",
+        "The option 'Exclude low-frequency high-consequence scenarios from all analysis' does not apply the controlling principle for benefit-cost uncertainty to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: benefit-cost uncertainty",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c5598f20cd22716b23504fa657354585f7d1d7853c80d3a323d4b447b593d6b4"
+    },
+    {
+      "id": "PV2-CORE-CH20-007",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cost of risk and uninsured loss",
+      "itemFamilyId": "PV2-CORE-CH20-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A manager counts only the insurer-paid medical portion of an incident when evaluating prevention. Which cost category is most likely understated?",
+      "options": [
+        "Only the annual insurance premium, which is the same as every incident cost",
+        "Depreciation on unrelated office furniture",
+        "Indirect and uninsured costs such as disruption, investigation, retraining, replacement labor, delay, and reputation effects",
+        "Revenue from products manufactured before the incident"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Incident cost extends beyond insured payments. Operational interruption, management time, labor effects, and reputational consequences can be material.",
+      "incorrectOptionExplanations": [
+        "The option 'Only the annual insurance premium, which is the same as every incident cost' does not apply the controlling principle for cost of risk and uninsured loss to the facts given, so it is not the best answer.",
+        "The option 'Depreciation on unrelated office furniture' does not apply the controlling principle for cost of risk and uninsured loss to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Revenue from products manufactured before the incident' does not apply the controlling principle for cost of risk and uninsured loss to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: cost of risk and uninsured loss",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "81381834c295bf76d67ac0a7ce7716e737c998cf8ffd39b454f4f1a812784902"
+    },
+    {
+      "id": "PV2-CORE-CH20-008",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "project risk register",
+      "itemFamilyId": "PV2-CORE-CH20-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A ventilation project depends on a shutdown window and a custom fan with a long lead time. What is the best project-management response?",
+      "options": [
+        "Move the final due date without analyzing the shutdown dependency",
+        "Leave the risks undocumented so the team is not discouraged",
+        "Assume the vendor will accelerate delivery if a delay occurs",
+        "Record the schedule risks, owners, triggers, mitigations, contingencies, and dependencies and review them throughout execution"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A live risk register makes uncertainty explicit and assigns proactive treatment and contingency actions rather than relying on optimism.",
+      "incorrectOptionExplanations": [
+        "The option 'Move the final due date without analyzing the shutdown dependency' does not apply the controlling principle for project risk register to the facts given, so it is not the best answer.",
+        "The option 'Leave the risks undocumented so the team is not discouraged' does not apply the controlling principle for project risk register to the facts given, so it is not the best answer.",
+        "The option 'Assume the vendor will accelerate delivery if a delay occurs' does not apply the controlling principle for project risk register to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: project risk register",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "71b7528064057f40eda1552265b379bed8c1b93f6c572c3130b01c1f8822bf0a"
+    },
+    {
+      "id": "PV2-CORE-CH20-009",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "life-cycle cost analysis",
+      "itemFamilyId": "PV2-CORE-CH20-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a project schedule recovery meeting, the team reviews this case: Two machine guards provide equivalent risk reduction. Guard A has a lower purchase price but high maintenance and downtime costs; Guard B costs more initially but little over its service life. Which comparison is most defensible? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Sound investment analysis considers total ownership cost and risk performance across the expected life, not one initial price signal.",
+        "Costs already incurred and unrecoverable should not distort a forward-looking decision. The choice should be based on incremental future consequences.",
+        "A live risk register makes uncertainty explicit and assigns proactive treatment and contingency actions rather than relying on optimism.",
+        "Positive NPV means discounted benefits exceed discounted costs for the modeled assumptions; it does not guarantee outcomes or establish shortest payback."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses life-cycle cost analysis and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'sunk costs', but it does not resolve the life-cycle cost analysis issue in this case.",
+        "This rationale supports the separate chapter topic 'project risk register', but it does not resolve the life-cycle cost analysis issue in this case.",
+        "This rationale supports the separate chapter topic 'net present value', but it does not resolve the life-cycle cost analysis issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: life-cycle cost analysis",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e911a40c9eeb05ad6b0966e31c4ba604b49ff36544349df4cee8a01eba2b6859"
+    },
+    {
+      "id": "PV2-CORE-CH20-010",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "net present value",
+      "itemFamilyId": "PV2-CORE-CH20-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a safety investment justification, the team reviews this case: A project has a positive net present value using a risk-appropriate discount rate and conservative benefit assumptions. What does that indicate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A live risk register makes uncertainty explicit and assigns proactive treatment and contingency actions rather than relying on optimism.",
+        "Positive NPV means discounted benefits exceed discounted costs for the modeled assumptions; it does not guarantee outcomes or establish shortest payback.",
+        "Controlled change evaluation prevents scope creep while allowing justified improvements to be assessed, approved, documented, and integrated.",
+        "Incident cost extends beyond insured payments. Operational interruption, management time, labor effects, and reputational consequences can be material."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses net present value and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'project risk register', but it does not resolve the net present value issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'project scope control', but it does not resolve the net present value issue in this case.",
+        "This rationale supports the separate chapter topic 'cost of risk and uninsured loss', but it does not resolve the net present value issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: net present value",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "991aa77749e2b0583d6dfc9cb2b6e86995130379415426c361d65371c148a191"
+    },
+    {
+      "id": "PV2-CORE-CH20-011",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sunk costs",
+      "itemFamilyId": "PV2-CORE-CH20-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a net-present-value review, the team reviews this case: A project has already spent $80,000 on a control concept that now appears ineffective. A better alternative costs $40,000 from today forward. How should the prior spending influence the decision? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Sound investment analysis considers total ownership cost and risk performance across the expected life, not one initial price signal.",
+        "A live risk register makes uncertainty explicit and assigns proactive treatment and contingency actions rather than relying on optimism.",
+        "Costs already incurred and unrecoverable should not distort a forward-looking decision. The choice should be based on incremental future consequences.",
+        "Float is allowable delay before a task affects the critical path or project finish, assuming dependencies and resource constraints remain as planned."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses sunk costs and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'life-cycle cost analysis', but it does not resolve the sunk costs issue in this case.",
+        "This rationale supports the separate chapter topic 'project risk register', but it does not resolve the sunk costs issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'critical path', but it does not resolve the sunk costs issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: sunk costs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "49636060ea081b780517dc37a2e86ca1b2d5afe0194bc7e689fc11c1fe9e8142"
+    },
+    {
+      "id": "PV2-CORE-CH20-012",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "critical path",
+      "itemFamilyId": "PV2-CORE-CH20-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a project risk register update, the team reviews this case: A safety project has several parallel activities. One noncritical task slips two days but has five days of float. What is the most likely schedule effect? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Positive NPV means discounted benefits exceed discounted costs for the modeled assumptions; it does not guarantee outcomes or establish shortest payback.",
+        "Controlled change evaluation prevents scope creep while allowing justified improvements to be assessed, approved, documented, and integrated.",
+        "Incident cost extends beyond insured payments. Operational interruption, management time, labor effects, and reputational consequences can be material.",
+        "Float is allowable delay before a task affects the critical path or project finish, assuming dependencies and resource constraints remain as planned."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses critical path and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'net present value', but it does not resolve the critical path issue in this case.",
+        "This rationale supports the separate chapter topic 'project scope control', but it does not resolve the critical path issue in this case.",
+        "This rationale supports the separate chapter topic 'cost of risk and uninsured loss', but it does not resolve the critical path issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: critical path",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2abe3c0d80737e858f9cd52added17a58b629d086517baa8048d1c70cfa9b37a"
+    },
+    {
+      "id": "PV2-CORE-CH20-013",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "project scope control",
+      "itemFamilyId": "PV2-CORE-CH20-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a contractor budget decision, the team reviews this case: During installation, stakeholders request several useful features unrelated to the approved hazard-control objective. What should the project manager do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Controlled change evaluation prevents scope creep while allowing justified improvements to be assessed, approved, documented, and integrated.",
+        "Transparent uncertainty and sensitivity analysis improve decision quality, especially when rare severe events dominate expected value.",
+        "Costs already incurred and unrecoverable should not distort a forward-looking decision. The choice should be based on incremental future consequences.",
+        "A live risk register makes uncertainty explicit and assigns proactive treatment and contingency actions rather than relying on optimism."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses project scope control and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'benefit-cost uncertainty', but it does not resolve the project scope control issue in this case.",
+        "This rationale supports the separate chapter topic 'sunk costs', but it does not resolve the project scope control issue in this case.",
+        "This rationale supports the separate chapter topic 'project risk register', but it does not resolve the project scope control issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: project scope control",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "12d074cb8007029ade711c5a8a86351da860161505262616f242e567de906579"
+    },
+    {
+      "id": "PV2-CORE-CH20-014",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "benefit-cost uncertainty",
+      "itemFamilyId": "PV2-CORE-CH20-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a cost-of-incident analysis, the team reviews this case: The estimated financial benefit of a prevention project depends heavily on a rare catastrophic event. How should the proposal communicate this? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Costs already incurred and unrecoverable should not distort a forward-looking decision. The choice should be based on incremental future consequences.",
+        "Transparent uncertainty and sensitivity analysis improve decision quality, especially when rare severe events dominate expected value.",
+        "Float is allowable delay before a task affects the critical path or project finish, assuming dependencies and resource constraints remain as planned.",
+        "Incident cost extends beyond insured payments. Operational interruption, management time, labor effects, and reputational consequences can be material."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses benefit-cost uncertainty and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'sunk costs', but it does not resolve the benefit-cost uncertainty issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'critical path', but it does not resolve the benefit-cost uncertainty issue in this case.",
+        "This rationale supports the separate chapter topic 'cost of risk and uninsured loss', but it does not resolve the benefit-cost uncertainty issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: benefit-cost uncertainty",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c95d2e57744a35916f4f92fc3d7a745805b9bc4ec6ff2fa9ad2c475e089aaa60"
+    },
+    {
+      "id": "PV2-CORE-CH20-015",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cost of risk and uninsured loss",
+      "itemFamilyId": "PV2-CORE-CH20-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a capital-project proposal, the team reviews this case: A manager counts only the insurer-paid medical portion of an incident when evaluating prevention. Which cost category is most likely understated? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Transparent uncertainty and sensitivity analysis improve decision quality, especially when rare severe events dominate expected value.",
+        "Positive NPV means discounted benefits exceed discounted costs for the modeled assumptions; it does not guarantee outcomes or establish shortest payback.",
+        "Incident cost extends beyond insured payments. Operational interruption, management time, labor effects, and reputational consequences can be material.",
+        "Float is allowable delay before a task affects the critical path or project finish, assuming dependencies and resource constraints remain as planned."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses cost of risk and uninsured loss and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'benefit-cost uncertainty', but it does not resolve the cost of risk and uninsured loss issue in this case.",
+        "This rationale supports the separate chapter topic 'net present value', but it does not resolve the cost of risk and uninsured loss issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'critical path', but it does not resolve the cost of risk and uninsured loss issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: cost of risk and uninsured loss",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9c3f9c541d0f02348736b2bbeb3a4cad64abdc6209be7c1f92dfeba8ab086f87"
+    },
+    {
+      "id": "PV2-CORE-CH20-016",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "project risk register",
+      "itemFamilyId": "PV2-CORE-CH20-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a life-cycle cost comparison, the team reviews this case: A ventilation project depends on a shutdown window and a custom fan with a long lead time. What is the best project-management response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Transparent uncertainty and sensitivity analysis improve decision quality, especially when rare severe events dominate expected value.",
+        "Incident cost extends beyond insured payments. Operational interruption, management time, labor effects, and reputational consequences can be material.",
+        "Controlled change evaluation prevents scope creep while allowing justified improvements to be assessed, approved, documented, and integrated.",
+        "A live risk register makes uncertainty explicit and assigns proactive treatment and contingency actions rather than relying on optimism."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses project risk register and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'benefit-cost uncertainty', but it does not resolve the project risk register issue in this case.",
+        "This rationale supports the separate chapter topic 'cost of risk and uninsured loss', but it does not resolve the project risk register issue in this case.",
+        "This rationale supports the separate chapter topic 'project scope control', but it does not resolve the project risk register issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: project risk register",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c148126dabc7313fb0f4f09b44234cf7ae3c74ac9eabe5ed99dabd23f91fa1af"
+    },
+    {
+      "id": "PV2-CORE-CH20-017",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Present value",
+      "itemFamilyId": "PV2-CORE-CH20-F017",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a life-cycle cost comparison, solve the following problem and select the best answer: A replacement guarding system will cost $84,000 in four years. If funds can earn 5% annually, approximately how much should be invested today?",
+      "options": [
+        "$69,108",
+        "$73,500",
+        "$102,102",
+        "$68,000"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Use P = F/(1+i)^n. P = 84,000/(1.05)^4 = approximately $69,108.",
+      "incorrectOptionExplanations": [
+        null,
+        "This applies an unsupported flat reduction rather than the present-value equation.",
+        "This compounds the future cost forward instead of discounting it to today.",
+        "This rounds by subtracting four years of simple interest instead of discounting compound growth."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20, future and present value of money, pp. 495-499; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "P = F/(1+i)^n",
+      "units": "US dollars",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "155da13fa7cdcad71202144948ac35a3f89ea18448d241b037a5ae34a75e0196"
+    },
+    {
+      "id": "PV2-CORE-CH20-018",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Future value",
+      "itemFamilyId": "PV2-CORE-CH20-F018",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a project schedule recovery meeting, solve the following problem and select the best answer: A company places $30,000 in a safety-capital reserve earning 4% annually. What is the approximate value after five years?",
+      "options": [
+        "$45,000",
+        "$36,500",
+        "$36,000",
+        "$31,200"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Use F = P(1+i)^n. F = 30,000(1.04)^5 = approximately $36,500.",
+      "incorrectOptionExplanations": [
+        "This applies a 50% increase that is unsupported by the stated rate and period.",
+        null,
+        "This uses simple interest and ignores annual compounding.",
+        "This adds only one year of interest to the principal."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20, compound interest and future value, pp. 496-499; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "F = P(1+i)^n",
+      "units": "US dollars",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7b8e70bac18dc9aaeb570c2174bd8db4119afb421e32d6a14779940c8053193b"
+    },
+    {
+      "id": "PV2-CORE-CH20-019",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Simple interest",
+      "itemFamilyId": "PV2-CORE-CH20-F019",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a safety investment justification, solve the following problem and select the best answer: A short-term safety project borrows $50,000 for 18 months at 6% simple annual interest. How much interest will accrue?",
+      "options": [
+        "$3,000",
+        "$54,500",
+        "$4,500",
+        "$6,000"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Simple interest is I = P*r*t = 50,000*0.06*1.5 = $4,500.",
+      "incorrectOptionExplanations": [
+        "This calculates only one year of interest instead of 1.5 years.",
+        "This is the principal plus interest, not the interest amount requested.",
+        null,
+        "This treats the 18-month period as two full years."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20, simple interest, pp. 495-496; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "I = P*r*t",
+      "units": "US dollars",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "900a68a2c94b9a4869b73728af005b9717b75f78362732bd5a5e225ab5b6b592"
+    },
+    {
+      "id": "PV2-CORE-CH20-020",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Return on investment",
+      "itemFamilyId": "PV2-CORE-CH20-F020",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a net-present-value review, solve the following problem and select the best answer: A machine-guarding upgrade costs $80,000 and produces documented annual benefits of $112,000. Using net benefit divided by cost, what is the first-year ROI?",
+      "options": [
+        "28.6%",
+        "71.4%",
+        "140%",
+        "40%"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Net benefit is $112,000 - $80,000 = $32,000. ROI = 32,000/80,000*100 = 40%.",
+      "incorrectOptionExplanations": [
+        "This divides the net benefit by the gross benefit rather than by the investment cost.",
+        "This divides cost by benefit and reports the inverse relationship.",
+        "This reports gross benefit divided by cost without subtracting the investment.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20, engineering economic comparisons and return on investment, pp. 495-504; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "ROI = (benefit - cost)/cost * 100",
+      "units": "percent",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "597be6f6d18a36328d665c01a94182eb94650b100e89f9f154aa4e9140e86f82"
+    },
+    {
+      "id": "PV2-CORE-CH20-021",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Payback period",
+      "itemFamilyId": "PV2-CORE-CH20-F021",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a project risk register update, solve the following problem and select the best answer: A $180,000 ventilation improvement is expected to save $45,000 per year in operating and loss costs. Ignoring discounting, what is the payback period?",
+      "options": [
+        "4 years",
+        "5 years",
+        "2.5 years",
+        "3 years"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Payback period = initial cost/annual savings = 180,000/45,000 = 4 years.",
+      "incorrectOptionExplanations": [
+        null,
+        "This assumes only $36,000 annual savings and overstates the period.",
+        "This divides annual savings by investment instead of investment by annual savings.",
+        "This assumes $60,000 annual savings, which is not stated."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20, economic comparison of alternatives, pp. 495-504; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Payback = initial cost/annual net savings",
+      "units": "years",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4d80dd5666751ef89c6a886a43eb7ed174338e5dd497b07fa0a98dc0514f466c"
+    },
+    {
+      "id": "PV2-CORE-CH20-022",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Cost-benefit ratio",
+      "itemFamilyId": "PV2-CORE-CH20-F022",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a contractor budget decision, solve the following problem and select the best answer: A proposed control costs $150,000 and is expected to produce $270,000 in monetized benefits. What is the benefit-cost ratio?",
+      "options": [
+        "0.56",
+        "1.8",
+        "1.20",
+        "0.80"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Benefit-cost ratio = benefits/costs = 270,000/150,000 = 1.8. A value above 1 indicates benefits exceed costs under the assumptions.",
+      "incorrectOptionExplanations": [
+        "This is the inverse cost-to-benefit ratio.",
+        null,
+        "This divides the net benefit by the total benefit.",
+        "This subtracts cost from benefit and then divides by cost."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20, engineering economics and economic analysis, pp. 495-504; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "BCR = total benefits/total costs",
+      "units": "ratio",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "168f28d0b2b16e2c37a2e3469b54a6f5a99f1363c2c006c78044511e51620c05"
+    },
+    {
+      "id": "PV2-CORE-CH20-023",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Cost-effectiveness",
+      "itemFamilyId": "PV2-CORE-CH20-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a cost-of-incident analysis, the team reviews this question: Two controls produce the same verified risk reduction. Control A costs $90,000 and Control B costs $125,000. Which economic comparison is most appropriate for selecting between them? Which rationale most directly supports the correct answer?",
+      "options": [
+        "In a RACI model, the accountable person owns the outcome and final approval; that role should be unambiguous for each deliverable.",
+        "A critical-path task has no available float; a delay directly delays the project finish unless corrective action changes the schedule.",
+        "When alternatives achieve the same outcome, cost-effectiveness compares the cost required to achieve that common unit of benefit or risk reduction.",
+        "Benefit-cost ratio = benefits/costs = 270,000/150,000 = 1.8. A value above 1 indicates benefits exceed costs under the assumptions."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'RACI accountability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Critical path', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Cost-benefit ratio', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20, cost-effectiveness and economic decision methods, pp. 495-504; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d6d02109d72de2eafd70cc072e740c63cb5e0e97f1578226cea2a38d0672e9f5"
+    },
+    {
+      "id": "PV2-CORE-CH20-024",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Project scope control",
+      "itemFamilyId": "PV2-CORE-CH20-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a capital-project proposal, the team reviews this question: During installation of a fall-protection system, several departments request unrelated lighting and flooring upgrades. What should the project manager do first? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Mitigation reduces probability or impact before the event by adding schedule protection and a credible alternate source.",
+        "Benefit-cost ratio = benefits/costs = 270,000/150,000 = 1.8. A value above 1 indicates benefits exceed costs under the assumptions.",
+        "A Gantt chart displays project activities across a time axis, making duration, overlap, milestones, and progress visible.",
+        "Formal change control protects the approved objective while allowing justified changes to be evaluated for impact and authorization."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Project risk response', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Cost-benefit ratio', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Gantt chart use', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20 and accompanying project-management homework, project scope and change control; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ce78eb18f9d27e73689ed999bf554ba9ec258c7d3a7c36f4cc2506b61a55e203"
+    },
+    {
+      "id": "PV2-CORE-CH20-025",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Critical path",
+      "itemFamilyId": "PV2-CORE-CH20-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a life-cycle cost comparison, the team reviews this question: A project schedule shows that delaying Task C by one day delays the final completion date, while Task D has three days of float. What does this indicate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A critical-path task has no available float; a delay directly delays the project finish unless corrective action changes the schedule.",
+        "Benefit-cost ratio = benefits/costs = 270,000/150,000 = 1.8. A value above 1 indicates benefits exceed costs under the assumptions.",
+        "When alternatives achieve the same outcome, cost-effectiveness compares the cost required to achieve that common unit of benefit or risk reduction.",
+        "In a RACI model, the accountable person owns the outcome and final approval; that role should be unambiguous for each deliverable."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Cost-benefit ratio', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Cost-effectiveness', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'RACI accountability', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20 and project-management homework, scheduling and project-control concepts; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "70bf0cb05699f8f4fc93a4035e4e0fbe77c9f5f36ea56693d32ad27420aa1396"
+    },
+    {
+      "id": "PV2-CORE-CH20-026",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Gantt chart use",
+      "itemFamilyId": "PV2-CORE-CH20-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a project schedule recovery meeting, the team reviews this question: Which project-management display is best for showing activities as horizontal bars against calendar time, including planned start and finish dates? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Mitigation reduces probability or impact before the event by adding schedule protection and a credible alternate source.",
+        "A Gantt chart displays project activities across a time axis, making duration, overlap, milestones, and progress visible.",
+        "Formal change control protects the approved objective while allowing justified changes to be evaluated for impact and authorization.",
+        "A critical-path task has no available float; a delay directly delays the project finish unless corrective action changes the schedule."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Project risk response', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Project scope control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Critical path', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20 project-management homework, scheduling tools; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9298d5283ac88b0aa1aa9d242bdc8fc969480478c5a2387667e04e7a9a0a4c6e"
+    },
+    {
+      "id": "PV2-CORE-CH20-027",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "RACI accountability",
+      "itemFamilyId": "PV2-CORE-CH20-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a safety investment justification, the team reviews this question: A safety-system implementation repeatedly stalls because no one has final decision authority. Which RACI role should be assigned to one person for each deliverable? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Formal change control protects the approved objective while allowing justified changes to be evaluated for impact and authorization.",
+        "A critical-path task has no available float; a delay directly delays the project finish unless corrective action changes the schedule.",
+        "In a RACI model, the accountable person owns the outcome and final approval; that role should be unambiguous for each deliverable.",
+        "When alternatives achieve the same outcome, cost-effectiveness compares the cost required to achieve that common unit of benefit or risk reduction."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Project scope control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Critical path', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Cost-effectiveness', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Project-management principles aligned to Yates Chapter 20 course homework; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0724f5076dbdd1127ae95e1246f8e639fe9c4940b3e1e521f7654fb525bb3095"
+    },
+    {
+      "id": "PV2-CORE-CH20-028",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Project risk response",
+      "itemFamilyId": "PV2-CORE-CH20-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a net-present-value review, the team reviews this question: A critical ventilation component has a moderate probability of arriving late and would delay startup by six weeks. Which response best represents risk mitigation? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A critical-path task has no available float; a delay directly delays the project finish unless corrective action changes the schedule.",
+        "A Gantt chart displays project activities across a time axis, making duration, overlap, milestones, and progress visible.",
+        "Formal change control protects the approved objective while allowing justified changes to be evaluated for impact and authorization.",
+        "Mitigation reduces probability or impact before the event by adding schedule protection and a credible alternate source."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Critical path', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Gantt chart use', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Project scope control', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 20 project-management homework, project risk mitigation; Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "00fff1573ecd2d625884a0b57f6efb3155088e624d18498cd833afb1b9fe810b"
+    },
+    {
+      "id": "PV2-CORE-CH20-029",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "life-cycle cost analysis",
+      "itemFamilyId": "PV2-CORE-CH20-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a cost-of-incident analysis, a supervisor proposes: \"Select Guard B solely because the higher price proves higher quality\". The underlying case is: Two machine guards provide equivalent risk reduction. Guard A has a lower purchase price but high maintenance and downtime costs; Guard B costs more initially but little over its service life. Which comparison is most defensible? Which alternative is the most defensible correction?",
+      "options": [
+        "Compare discounted life-cycle costs, performance, reliability, and residual risk rather than purchase price alone",
+        "Ignore maintenance and downtime because safety projects do not require economic analysis",
+        "Select Guard B solely because the higher price proves higher quality",
+        "Select Guard A because capital price is the only relevant economic criterion"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Sound investment analysis considers total ownership cost and risk performance across the expected life, not one initial price signal.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Ignore maintenance and downtime because safety projects do not require economic analysis' remains incomplete or misapplies the controlling life-cycle cost analysis principle.",
+        "The proposed response 'Select Guard B solely because the higher price proves higher quality' remains incomplete or misapplies the controlling life-cycle cost analysis principle.",
+        "The proposed response 'Select Guard A because capital price is the only relevant economic criterion' remains incomplete or misapplies the controlling life-cycle cost analysis principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: life-cycle cost analysis",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0ae541d38a1a480d580f026625248f7c953c31c2aaa1511ced5f859a12deded1"
+    },
+    {
+      "id": "PV2-CORE-CH20-030",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "net present value",
+      "itemFamilyId": "PV2-CORE-CH20-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a capital-project proposal, a supervisor proposes: \"The project’s accounting profit will be identical in every future year\". The underlying case is: A project has a positive net present value using a risk-appropriate discount rate and conservative benefit assumptions. What does that indicate? Which alternative is the most defensible correction?",
+      "options": [
+        "The project has the shortest possible payback period",
+        "The present value of expected benefits exceeds the present value of costs under the stated assumptions",
+        "The project’s accounting profit will be identical in every future year",
+        "The project is guaranteed to eliminate every future loss"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Positive NPV means discounted benefits exceed discounted costs for the modeled assumptions; it does not guarantee outcomes or establish shortest payback.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The project has the shortest possible payback period' remains incomplete or misapplies the controlling net present value principle.",
+        null,
+        "The proposed response 'The project’s accounting profit will be identical in every future year' remains incomplete or misapplies the controlling net present value principle.",
+        "The proposed response 'The project is guaranteed to eliminate every future loss' remains incomplete or misapplies the controlling net present value principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: net present value",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a8402bbcdb66e5e9dfb449f7e7f3a6de0e53c7f4c09785aab6792c8b37b4e659"
+    },
+    {
+      "id": "PV2-CORE-CH20-031",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sunk costs",
+      "itemFamilyId": "PV2-CORE-CH20-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a life-cycle cost comparison, a supervisor proposes: \"Continue the ineffective concept until the $80,000 is recovered\". The underlying case is: A project has already spent $80,000 on a control concept that now appears ineffective. A better alternative costs $40,000 from today forward. How should the prior spending influence the decision? Which alternative is the most defensible correction?",
+      "options": [
+        "Select the original concept because changing direction admits a management error",
+        "Add the sunk cost only to the new alternative to make comparison fair",
+        "Treat the $80,000 as sunk and compare the future costs, benefits, and risks of the available options",
+        "Continue the ineffective concept until the $80,000 is recovered"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Costs already incurred and unrecoverable should not distort a forward-looking decision. The choice should be based on incremental future consequences.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Select the original concept because changing direction admits a management error' remains incomplete or misapplies the controlling sunk costs principle.",
+        "The proposed response 'Add the sunk cost only to the new alternative to make comparison fair' remains incomplete or misapplies the controlling sunk costs principle.",
+        null,
+        "The proposed response 'Continue the ineffective concept until the $80,000 is recovered' remains incomplete or misapplies the controlling sunk costs principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: sunk costs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "70d362d61384f3a61bbecf6230d0a6a3654290575056d64526f40a7c10056731"
+    },
+    {
+      "id": "PV2-CORE-CH20-032",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "critical path",
+      "itemFamilyId": "PV2-CORE-CH20-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a project schedule recovery meeting, a supervisor proposes: \"The project must finish two days early to compensate\". The underlying case is: A safety project has several parallel activities. One noncritical task slips two days but has five days of float. What is the most likely schedule effect? Which alternative is the most defensible correction?",
+      "options": [
+        "Float means the task can be omitted without consequence",
+        "The project must finish two days early to compensate",
+        "Every task delay automatically delays the project by the same amount",
+        "The overall completion date need not change if the slip remains within available float and does not alter dependencies"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Float is allowable delay before a task affects the critical path or project finish, assuming dependencies and resource constraints remain as planned.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Float means the task can be omitted without consequence' remains incomplete or misapplies the controlling critical path principle.",
+        "The proposed response 'The project must finish two days early to compensate' remains incomplete or misapplies the controlling critical path principle.",
+        "The proposed response 'Every task delay automatically delays the project by the same amount' remains incomplete or misapplies the controlling critical path principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: critical path",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f05e11c43ad63c12981524b5f4ba8d3ff9b182543c723aa54e902ce782a0bc32"
+    },
+    {
+      "id": "PV2-CORE-CH20-033",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "CSP",
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.13",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "project scope control",
+      "itemFamilyId": "PV2-CORE-CH20-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a safety investment justification, a supervisor proposes: \"Let the installer decide informally without updating design or budget records\". The underlying case is: During installation, stakeholders request several useful features unrelated to the approved hazard-control objective. What should the project manager do? Which alternative is the most defensible correction?",
+      "options": [
+        "Evaluate the requests through change control for scope, risk, cost, schedule, and approval before adding them",
+        "Let the installer decide informally without updating design or budget records",
+        "Reject all changes automatically even when they reduce risk materially",
+        "Add every request immediately because stakeholder ideas cannot create project risk"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Controlled change evaluation prevents scope creep while allowing justified improvements to be assessed, approved, documented, and integrated.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Let the installer decide informally without updating design or budget records' remains incomplete or misapplies the controlling project scope control principle.",
+        "The proposed response 'Reject all changes automatically even when they reduce risk materially' remains incomplete or misapplies the controlling project scope control principle.",
+        "The proposed response 'Add every request immediately because stakeholder ideas cannot create project risk' remains incomplete or misapplies the controlling project scope control principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: project scope control",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "30322535e824ac5e85eabb120b6c4f5edb2551c188db2f03c376cd528b33af6a"
+    },
+    {
+      "id": "PV2-CORE-CH20-034",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "benefit-cost uncertainty",
+      "itemFamilyId": "PV2-CORE-CH20-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a net-present-value review, a supervisor proposes: \"Use one precise benefit number and omit uncertainty to strengthen approval\". The underlying case is: The estimated financial benefit of a prevention project depends heavily on a rare catastrophic event. How should the proposal communicate this? Which alternative is the most defensible correction?",
+      "options": [
+        "Use one precise benefit number and omit uncertainty to strengthen approval",
+        "Present assumptions, probability and consequence ranges, sensitivity analysis, and nonfinancial compliance or ethical considerations",
+        "Claim the project will pay for itself in the first year without supporting data",
+        "Exclude low-frequency high-consequence scenarios from all analysis"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Transparent uncertainty and sensitivity analysis improve decision quality, especially when rare severe events dominate expected value.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use one precise benefit number and omit uncertainty to strengthen approval' remains incomplete or misapplies the controlling benefit-cost uncertainty principle.",
+        null,
+        "The proposed response 'Claim the project will pay for itself in the first year without supporting data' remains incomplete or misapplies the controlling benefit-cost uncertainty principle.",
+        "The proposed response 'Exclude low-frequency high-consequence scenarios from all analysis' remains incomplete or misapplies the controlling benefit-cost uncertainty principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: benefit-cost uncertainty",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ed7a08263759c69b0ca1e383550b3bed77fc855886810c87b716cfcb2918c9fa"
+    },
+    {
+      "id": "PV2-CORE-CH20-035",
+      "version": 1,
+      "chapterId": "ch-20",
+      "chapterTitle": "Engineering Economics and Project Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.13",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.11",
+          "role": "secondary"
+        }
+      ],
+      "concept": "cost of risk and uninsured loss",
+      "itemFamilyId": "PV2-CORE-CH20-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a project risk register update, a supervisor proposes: \"Depreciation on unrelated office furniture\". The underlying case is: A manager counts only the insurer-paid medical portion of an incident when evaluating prevention. Which cost category is most likely understated? Which alternative is the most defensible correction?",
+      "options": [
+        "Revenue from products manufactured before the incident",
+        "Depreciation on unrelated office furniture",
+        "Indirect and uninsured costs such as disruption, investigation, retraining, replacement labor, delay, and reputation effects",
+        "Only the annual insurance premium, which is the same as every incident cost"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Incident cost extends beyond insured payments. Operational interruption, management time, labor effects, and reputational consequences can be material.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Revenue from products manufactured before the incident' remains incomplete or misapplies the controlling cost of risk and uninsured loss principle.",
+        "The proposed response 'Depreciation on unrelated office furniture' remains incomplete or misapplies the controlling cost of risk and uninsured loss principle.",
+        null,
+        "The proposed response 'Only the annual insurance premium, which is the same as every incident cost' remains incomplete or misapplies the controlling cost of risk and uninsured loss principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 20, pp. 495-504; engineering economics and project-management methods; curated topic: cost of risk and uninsured loss",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "afda6ed49a4621f7df992ce0c95444948461b124927b6ff12712084734be544d"
+    }
+  ]
+}

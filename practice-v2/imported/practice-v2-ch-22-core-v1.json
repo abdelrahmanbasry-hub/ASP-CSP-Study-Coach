@@ -1,0 +1,2328 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-22-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-22",
+  "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH22-001",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "scene control and evidence preservation",
+      "itemFamilyId": "PV2-CORE-CH22-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A serious machine incident occurs, and production wants to clean the area immediately. Emergency hazards are controlled and the injured employee has been transported. What should the investigation leader do next?",
+      "options": [
+        "Secure the scene, preserve perishable evidence, document conditions, and authorize changes only when necessary for safety or rescue",
+        "Discard damaged components once photographs are taken",
+        "Interview witnesses together while they discuss and harmonize their recollections",
+        "Return the equipment to service before documenting it so investigators can observe normal production"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "After emergency needs are addressed, scene control and preservation protect the reliability of physical, documentary, and human evidence.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Discard damaged components once photographs are taken' does not apply the controlling principle for scene control and evidence preservation to the facts given, so it is not the best answer.",
+        "The option 'Interview witnesses together while they discuss and harmonize their recollections' does not apply the controlling principle for scene control and evidence preservation to the facts given, so it is not the best answer.",
+        "The option 'Return the equipment to service before documenting it so investigators can observe normal production' does not apply the controlling principle for scene control and evidence preservation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: scene control and evidence preservation",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dac91ad57fac465de3d768628b823762a07da27831a889c05564dd25d236dad6"
+    },
+    {
+      "id": "PV2-CORE-CH22-002",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "witness interviewing",
+      "itemFamilyId": "PV2-CORE-CH22-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Three witnesses saw different portions of an incident. Which interview method is most likely to produce reliable information?",
+      "options": [
+        "Begin by stating management’s suspected cause and ask each witness to confirm it",
+        "Interview them separately as soon as practical using open questions, then clarify sequence, observations, and uncertainty without leading",
+        "Interview them as a group so they can agree on one account",
+        "Ask only yes-or-no questions and stop once the first consistent answer is obtained"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Separate, timely, nonleading interviews reduce memory contamination and allow investigators to distinguish observation, inference, and uncertainty.",
+      "incorrectOptionExplanations": [
+        "The option 'Begin by stating management’s suspected cause and ask each witness to confirm it' does not apply the controlling principle for witness interviewing to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Interview them as a group so they can agree on one account' does not apply the controlling principle for witness interviewing to the facts given, so it is not the best answer.",
+        "The option 'Ask only yes-or-no questions and stop once the first consistent answer is obtained' does not apply the controlling principle for witness interviewing to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: witness interviewing",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "37c9e6c392c6639ee3c74097e9f6058a628eb24761f9deccef3a8136ebe7e43a"
+    },
+    {
+      "id": "PV2-CORE-CH22-003",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "root cause versus immediate cause",
+      "itemFamilyId": "PV2-CORE-CH22-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee bypassed a guard before an injury. The investigation stops at “employee failed to follow procedure.” What is the strongest critique?",
+      "options": [
+        "Exclude human actions from causal analysis and focus the investigation only on physical equipment conditions",
+        "Close the investigation once the rule violation is documented and assign retraining as the corrective action",
+        "The conclusion identifies an act but does not examine why bypass was possible or attractive, including design, production pressure, supervision, and procedure quality",
+        "Treat the guard bypass as proof that equipment design and production conditions did not contribute"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A useful causal analysis examines system conditions that shape behavior and barrier failure rather than treating the last unsafe act as the full explanation.",
+      "incorrectOptionExplanations": [
+        "The option 'Exclude human actions from causal analysis and focus the investigation only on physical equipment conditions' does not apply the controlling principle for root cause versus immediate cause to the facts given, so it is not the best answer.",
+        "The option 'Close the investigation once the rule violation is documented and assign retraining as the corrective action' does not apply the controlling principle for root cause versus immediate cause to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Treat the guard bypass as proof that equipment design and production conditions did not contribute' does not apply the controlling principle for root cause versus immediate cause to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: root cause versus immediate cause",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2d4244ad4b0a56595402d57b64f03be946caa1d99ffbf24236b94789088ef1a2"
+    },
+    {
+      "id": "PV2-CORE-CH22-004",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "barrier analysis",
+      "itemFamilyId": "PV2-CORE-CH22-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A chemical transfer relied on a level alarm, operator response, and an overflow line. All three failed during a release. Which analysis best supports prevention?",
+      "options": [
+        "Replace only the operator because human error is the sole barrier type",
+        "Add another alarm on the same failed power supply without reviewing independence",
+        "Calculate injury rates and omit the physical safeguards from the investigation",
+        "Examine each barrier’s intended function, independence, condition, failure mode, and management controls, including common-cause weaknesses"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Barrier analysis asks how prevention and mitigation layers failed and whether they shared dependencies; adding nominal redundancy without independence may not reduce risk.",
+      "incorrectOptionExplanations": [
+        "The option 'Replace only the operator because human error is the sole barrier type' does not apply the controlling principle for barrier analysis to the facts given, so it is not the best answer.",
+        "The option 'Add another alarm on the same failed power supply without reviewing independence' does not apply the controlling principle for barrier analysis to the facts given, so it is not the best answer.",
+        "The option 'Calculate injury rates and omit the physical safeguards from the investigation' does not apply the controlling principle for barrier analysis to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: barrier analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "66f9700c41605517a34f245ec036028ebf3009acf294511400bf90aef1dff2e4"
+    },
+    {
+      "id": "PV2-CORE-CH22-005",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fault tree logic",
+      "itemFamilyId": "PV2-CORE-CH22-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A top event occurs only when cooling is lost and an automatic shutdown also fails. How should the relationship be represented in a fault tree?",
+      "options": [
+        "Use an AND gate because both lower-level events are required for the top event",
+        "Use a transfer symbol to indicate that probability is zero",
+        "Use no gate because fault trees cannot represent multiple causes",
+        "Use an OR gate because either event alone produces the stated top event"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "An AND gate represents a condition requiring simultaneous or combined occurrence of all input events; an OR gate means any one input is sufficient.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Use a transfer symbol to indicate that probability is zero' does not apply the controlling principle for fault tree logic to the facts given, so it is not the best answer.",
+        "The option 'Use no gate because fault trees cannot represent multiple causes' does not apply the controlling principle for fault tree logic to the facts given, so it is not the best answer.",
+        "The option 'Use an OR gate because either event alone produces the stated top event' does not apply the controlling principle for fault tree logic to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: fault tree logic",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8923429b223356945d5837d67518d1ff4e8b40496204e56ef4e9f15868e9817e"
+    },
+    {
+      "id": "PV2-CORE-CH22-006",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "corrective action hierarchy",
+      "itemFamilyId": "PV2-CORE-CH22-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An investigation finds that workers routinely enter a pinch zone to clear jams. Which corrective action is strongest?",
+      "options": [
+        "Remind workers to be careful during the next toolbox talk",
+        "Redesign the process to prevent jams or provide remote clearing with interlocked access, then verify effectiveness",
+        "Require a second employee to watch the first employee enter the zone",
+        "Post a larger pinch-point sign while leaving the same access need"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Eliminating the need for exposure or engineering controlled access is more reliable than warnings, observation, or repeated behavioral reminders.",
+      "incorrectOptionExplanations": [
+        "The option 'Remind workers to be careful during the next toolbox talk' does not apply the controlling principle for corrective action hierarchy to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Require a second employee to watch the first employee enter the zone' does not apply the controlling principle for corrective action hierarchy to the facts given, so it is not the best answer.",
+        "The option 'Post a larger pinch-point sign while leaving the same access need' does not apply the controlling principle for corrective action hierarchy to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: corrective action hierarchy",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9e8f4d9210438b81c2853214f6eab61f0c54c70911d80334d1bc86d5ba882ca6"
+    },
+    {
+      "id": "PV2-CORE-CH22-007",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "causal evidence and certainty",
+      "itemFamilyId": "PV2-CORE-CH22-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "The investigation team has conflicting evidence and cannot determine exactly which of two valve positions existed at the moment of release. How should the report handle this?",
+      "options": [
+        "Delay all corrective action until absolute certainty is achieved",
+        "Average the two valve positions and report the result as observed fact",
+        "State the uncertainty, document evidence for each credible scenario, and recommend controls robust to both where practicable",
+        "Select the scenario preferred by senior management and omit the conflict"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Transparent uncertainty preserves credibility and supports precautionary controls. Investigations should distinguish facts, inferences, and unresolved questions.",
+      "incorrectOptionExplanations": [
+        "The option 'Delay all corrective action until absolute certainty is achieved' does not apply the controlling principle for causal evidence and certainty to the facts given, so it is not the best answer.",
+        "The option 'Average the two valve positions and report the result as observed fact' does not apply the controlling principle for causal evidence and certainty to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Select the scenario preferred by senior management and omit the conflict' does not apply the controlling principle for causal evidence and certainty to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: causal evidence and certainty",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "edb865457e4709de53e3764c5359d4e64aa730cc050f98c831b304e9924ee21c"
+    },
+    {
+      "id": "PV2-CORE-CH22-008",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "effectiveness verification",
+      "itemFamilyId": "PV2-CORE-CH22-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A corrective action is marked complete when a new procedure is issued. Similar deviations continue during observations. What is missing?",
+      "options": [
+        "Removal of the recurring events from trend reports",
+        "Closure approval based only on the issue date of the procedure",
+        "A more polished document cover page",
+        "Verification that the action was implemented, understood, used, and effective at controlling the causal factors"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Administrative closure is not evidence of risk reduction. Corrective actions require implementation and effectiveness checks tied to the causal mechanism.",
+      "incorrectOptionExplanations": [
+        "The option 'Removal of the recurring events from trend reports' does not apply the controlling principle for effectiveness verification to the facts given, so it is not the best answer.",
+        "The option 'Closure approval based only on the issue date of the procedure' does not apply the controlling principle for effectiveness verification to the facts given, so it is not the best answer.",
+        "The option 'A more polished document cover page' does not apply the controlling principle for effectiveness verification to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: effectiveness verification",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9e064f696dcef2f1de207e5c22eb5f9944e92a0443051f34bdc28ca44b75978f"
+    },
+    {
+      "id": "PV2-CORE-CH22-009",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "scene control and evidence preservation",
+      "itemFamilyId": "PV2-CORE-CH22-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a witness interview plan, the team reviews this case: A serious machine incident occurs, and production wants to clean the area immediately. Emergency hazards are controlled and the injured employee has been transported. What should the investigation leader do next? Which rationale most directly supports the correct decision?",
+      "options": [
+        "After emergency needs are addressed, scene control and preservation protect the reliability of physical, documentary, and human evidence.",
+        "A useful causal analysis examines system conditions that shape behavior and barrier failure rather than treating the last unsafe act as the full explanation.",
+        "Eliminating the need for exposure or engineering controlled access is more reliable than warnings, observation, or repeated behavioral reminders.",
+        "Separate, timely, nonleading interviews reduce memory contamination and allow investigators to distinguish observation, inference, and uncertainty."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses scene control and evidence preservation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'root cause versus immediate cause', but it does not resolve the scene control and evidence preservation issue in this case.",
+        "This rationale supports the separate chapter topic 'corrective action hierarchy', but it does not resolve the scene control and evidence preservation issue in this case.",
+        "This rationale supports the separate chapter topic 'witness interviewing', but it does not resolve the scene control and evidence preservation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: scene control and evidence preservation",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "633c9d2822537562e380b693083162e1f222961a174b2d9a23610f6c8a1ef274"
+    },
+    {
+      "id": "PV2-CORE-CH22-010",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "witness interviewing",
+      "itemFamilyId": "PV2-CORE-CH22-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fault-tree review, the team reviews this case: Three witnesses saw different portions of an incident. Which interview method is most likely to produce reliable information? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An AND gate represents a condition requiring simultaneous or combined occurrence of all input events; an OR gate means any one input is sufficient.",
+        "Separate, timely, nonleading interviews reduce memory contamination and allow investigators to distinguish observation, inference, and uncertainty.",
+        "Eliminating the need for exposure or engineering controlled access is more reliable than warnings, observation, or repeated behavioral reminders.",
+        "Barrier analysis asks how prevention and mitigation layers failed and whether they shared dependencies; adding nominal redundancy without independence may not reduce risk."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses witness interviewing and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'fault tree logic', but it does not resolve the witness interviewing issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'corrective action hierarchy', but it does not resolve the witness interviewing issue in this case.",
+        "This rationale supports the separate chapter topic 'barrier analysis', but it does not resolve the witness interviewing issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: witness interviewing",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "91d4a55c40e62bca86c559bb316abb2dd4a5eefe26da7342a9ae09ea8615ce37"
+    },
+    {
+      "id": "PV2-CORE-CH22-011",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "root cause versus immediate cause",
+      "itemFamilyId": "PV2-CORE-CH22-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a corrective-action verification, the team reviews this case: An employee bypassed a guard before an injury. The investigation stops at “employee failed to follow procedure.” What is the strongest critique? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Transparent uncertainty preserves credibility and supports precautionary controls. Investigations should distinguish facts, inferences, and unresolved questions.",
+        "An AND gate represents a condition requiring simultaneous or combined occurrence of all input events; an OR gate means any one input is sufficient.",
+        "A useful causal analysis examines system conditions that shape behavior and barrier failure rather than treating the last unsafe act as the full explanation.",
+        "Administrative closure is not evidence of risk reduction. Corrective actions require implementation and effectiveness checks tied to the causal mechanism."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses root cause versus immediate cause and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'causal evidence and certainty', but it does not resolve the root cause versus immediate cause issue in this case.",
+        "This rationale supports the separate chapter topic 'fault tree logic', but it does not resolve the root cause versus immediate cause issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'effectiveness verification', but it does not resolve the root cause versus immediate cause issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: root cause versus immediate cause",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f0fd8c9a0b4d9ecfe3d1a2f10b737c02514d71b0915c746b7f6054df7d10430a"
+    },
+    {
+      "id": "PV2-CORE-CH22-012",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "barrier analysis",
+      "itemFamilyId": "PV2-CORE-CH22-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a near-miss investigation, the team reviews this case: A chemical transfer relied on a level alarm, operator response, and an overflow line. All three failed during a release. Which analysis best supports prevention? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Administrative closure is not evidence of risk reduction. Corrective actions require implementation and effectiveness checks tied to the causal mechanism.",
+        "Eliminating the need for exposure or engineering controlled access is more reliable than warnings, observation, or repeated behavioral reminders.",
+        "A useful causal analysis examines system conditions that shape behavior and barrier failure rather than treating the last unsafe act as the full explanation.",
+        "Barrier analysis asks how prevention and mitigation layers failed and whether they shared dependencies; adding nominal redundancy without independence may not reduce risk."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses barrier analysis and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'effectiveness verification', but it does not resolve the barrier analysis issue in this case.",
+        "This rationale supports the separate chapter topic 'corrective action hierarchy', but it does not resolve the barrier analysis issue in this case.",
+        "This rationale supports the separate chapter topic 'root cause versus immediate cause', but it does not resolve the barrier analysis issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: barrier analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f3b94047fb984b7206252ca70ce8e012a96b6914095462172d76a2433b47ab99"
+    },
+    {
+      "id": "PV2-CORE-CH22-013",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fault tree logic",
+      "itemFamilyId": "PV2-CORE-CH22-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a barrier analysis, the team reviews this case: A top event occurs only when cooling is lost and an automatic shutdown also fails. How should the relationship be represented in a fault tree? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An AND gate represents a condition requiring simultaneous or combined occurrence of all input events; an OR gate means any one input is sufficient.",
+        "After emergency needs are addressed, scene control and preservation protect the reliability of physical, documentary, and human evidence.",
+        "Separate, timely, nonleading interviews reduce memory contamination and allow investigators to distinguish observation, inference, and uncertainty.",
+        "A useful causal analysis examines system conditions that shape behavior and barrier failure rather than treating the last unsafe act as the full explanation."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses fault tree logic and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'scene control and evidence preservation', but it does not resolve the fault tree logic issue in this case.",
+        "This rationale supports the separate chapter topic 'witness interviewing', but it does not resolve the fault tree logic issue in this case.",
+        "This rationale supports the separate chapter topic 'root cause versus immediate cause', but it does not resolve the fault tree logic issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: fault tree logic",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "66013e95d595bc85454f0c05df1449659fa6fc9eff63722e1f4a0c1ee5ede33a"
+    },
+    {
+      "id": "PV2-CORE-CH22-014",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "corrective action hierarchy",
+      "itemFamilyId": "PV2-CORE-CH22-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a trend of recurring incidents, the team reviews this case: An investigation finds that workers routinely enter a pinch zone to clear jams. Which corrective action is strongest? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An AND gate represents a condition requiring simultaneous or combined occurrence of all input events; an OR gate means any one input is sufficient.",
+        "Eliminating the need for exposure or engineering controlled access is more reliable than warnings, observation, or repeated behavioral reminders.",
+        "Transparent uncertainty preserves credibility and supports precautionary controls. Investigations should distinguish facts, inferences, and unresolved questions.",
+        "Barrier analysis asks how prevention and mitigation layers failed and whether they shared dependencies; adding nominal redundancy without independence may not reduce risk."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses corrective action hierarchy and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'fault tree logic', but it does not resolve the corrective action hierarchy issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'causal evidence and certainty', but it does not resolve the corrective action hierarchy issue in this case.",
+        "This rationale supports the separate chapter topic 'barrier analysis', but it does not resolve the corrective action hierarchy issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: corrective action hierarchy",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e928847bb2dad8859d1f9807e9b19f99f6a6fd866d536b5be995217a9186b95a"
+    },
+    {
+      "id": "PV2-CORE-CH22-015",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "causal evidence and certainty",
+      "itemFamilyId": "PV2-CORE-CH22-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an incident-scene response, the team reviews this case: The investigation team has conflicting evidence and cannot determine exactly which of two valve positions existed at the moment of release. How should the report handle this? Which rationale most directly supports the correct decision?",
+      "options": [
+        "After emergency needs are addressed, scene control and preservation protect the reliability of physical, documentary, and human evidence.",
+        "Separate, timely, nonleading interviews reduce memory contamination and allow investigators to distinguish observation, inference, and uncertainty.",
+        "Transparent uncertainty preserves credibility and supports precautionary controls. Investigations should distinguish facts, inferences, and unresolved questions.",
+        "A useful causal analysis examines system conditions that shape behavior and barrier failure rather than treating the last unsafe act as the full explanation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses causal evidence and certainty and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'scene control and evidence preservation', but it does not resolve the causal evidence and certainty issue in this case.",
+        "This rationale supports the separate chapter topic 'witness interviewing', but it does not resolve the causal evidence and certainty issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'root cause versus immediate cause', but it does not resolve the causal evidence and certainty issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: causal evidence and certainty",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5fce54933ed2cefd93d924e35c74667080ce6f0a98c2ea1e87c34bcdc550d9d4"
+    },
+    {
+      "id": "PV2-CORE-CH22-016",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "effectiveness verification",
+      "itemFamilyId": "PV2-CORE-CH22-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a root-cause analysis workshop, the team reviews this case: A corrective action is marked complete when a new procedure is issued. Similar deviations continue during observations. What is missing? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Transparent uncertainty preserves credibility and supports precautionary controls. Investigations should distinguish facts, inferences, and unresolved questions.",
+        "Barrier analysis asks how prevention and mitigation layers failed and whether they shared dependencies; adding nominal redundancy without independence may not reduce risk.",
+        "Separate, timely, nonleading interviews reduce memory contamination and allow investigators to distinguish observation, inference, and uncertainty.",
+        "Administrative closure is not evidence of risk reduction. Corrective actions require implementation and effectiveness checks tied to the causal mechanism."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses effectiveness verification and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'causal evidence and certainty', but it does not resolve the effectiveness verification issue in this case.",
+        "This rationale supports the separate chapter topic 'barrier analysis', but it does not resolve the effectiveness verification issue in this case.",
+        "This rationale supports the separate chapter topic 'witness interviewing', but it does not resolve the effectiveness verification issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: effectiveness verification",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "90901a21d65496b66b87c672a4084d597060f7a7866f93f0bc3f3869e8991191"
+    },
+    {
+      "id": "PV2-CORE-CH22-017",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Root cause versus immediate cause",
+      "itemFamilyId": "PV2-CORE-CH22-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a root-cause analysis workshop, the team reviews this question: An employee slipped on oil leaking from a pump. Which finding is most likely a root cause rather than an immediate cause? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A root cause is an underlying, correctable system failure. Weak maintenance controls explain why the leak recurred and remained uncontrolled.",
+        "Event tree analysis starts with an initiating event and follows the success or failure of subsequent barriers to possible outcomes.",
+        "A design change that eliminates hazardous access addresses the system and follows the hierarchy of controls more effectively than reminders.",
+        "Fault tree analysis is a deductive method that works backward from a top event through AND and OR relationships."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Event tree analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Corrective action hierarchy', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Fault tree analysis', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, investigation procedures and causation models, pp. 515-536; OSHA Incident Investigation overview; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7a6a8f8168395714dbc071b25a8bcf364c4fe998d361a0eff04e5071603b4867"
+    },
+    {
+      "id": "PV2-CORE-CH22-018",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Scene preservation",
+      "itemFamilyId": "PV2-CORE-CH22-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a witness interview plan, the team reviews this question: After emergency care is complete, what should the investigation team do before equipment is moved or production resumes? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Fault tree analysis is a deductive method that works backward from a top event through AND and OR relationships.",
+        "Securing and documenting the scene protects evidence needed to reconstruct the event and test causal explanations.",
+        "An open, neutral invitation obtains the witness account without embedding assumptions or blame.",
+        "A job safety analysis breaks work into steps and evaluates the hazards and controls associated with each step."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Fault tree analysis', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Witness interviewing', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Job safety analysis', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, fact finding and investigation procedures, pp. 528-530; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "df9561142abca04be085e0df8968db1300ebc5f76c7907ad2cbbd00ccc630557"
+    },
+    {
+      "id": "PV2-CORE-CH22-019",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Witness interviewing",
+      "itemFamilyId": "PV2-CORE-CH22-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fault-tree review, the team reviews this question: Which opening question is most appropriate when interviewing a witness soon after an incident? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A job safety analysis breaks work into steps and evaluates the hazards and controls associated with each step.",
+        "Securing and documenting the scene protects evidence needed to reconstruct the event and test causal explanations.",
+        "An open, neutral invitation obtains the witness account without embedding assumptions or blame.",
+        "FMEA systematically examines potential failure modes, consequences, controls, and priorities for action."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Job safety analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Scene preservation', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Failure modes and effects analysis', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, interviews and fact finding, pp. 529-530; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c1463d0a33afe2d21e0782e9a539947ab16f94b6d898a06f9921e9aa1f3632cd"
+    },
+    {
+      "id": "PV2-CORE-CH22-020",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Chain of custody",
+      "itemFamilyId": "PV2-CORE-CH22-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a corrective-action verification, the team reviews this question: Why should a failed lifting component collected after an incident have a documented chain of custody? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A root cause is an underlying, correctable system failure. Weak maintenance controls explain why the leak recurred and remained uncontrolled.",
+        "A useful root-cause analysis goes beyond labels and identifies conditions such as design, workload, training, incentives, or supervision that can be changed.",
+        "High-potential near misses reveal failed or weak controls without the cost of an injury and should be investigated for preventive action.",
+        "A chain of custody records possession and handling so the evidence can be shown to be the same item and not altered or substituted."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Root cause versus immediate cause', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Five-whys analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Near-miss investigation', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, fact finding and report of investigation, pp. 528-535; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d969820fcfa2f41d2e38647ac15c307c2b70dcb5afe486b6f8a031fe946ac59d"
+    },
+    {
+      "id": "PV2-CORE-CH22-021",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Five-whys analysis",
+      "itemFamilyId": "PV2-CORE-CH22-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a near-miss investigation, the team reviews this question: A five-whys review ends with the statement, \"The employee was careless.\" What is the strongest criticism of that conclusion? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A useful root-cause analysis goes beyond labels and identifies conditions such as design, workload, training, incentives, or supervision that can be changed.",
+        "A design change that eliminates hazardous access addresses the system and follows the hierarchy of controls more effectively than reminders.",
+        "Closure should require evidence that the action was implemented, used as intended, and reduced the causal risk without creating new hazards.",
+        "Event tree analysis starts with an initiating event and follows the success or failure of subsequent barriers to possible outcomes."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Corrective action hierarchy', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Corrective action verification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Event tree analysis', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, problem-solving and investigation techniques, pp. 530-533; OSHA root-cause guidance; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1372879a5379c2e421b2a766d140ccd5b925a93f7f23432508e01ece57bf939f"
+    },
+    {
+      "id": "PV2-CORE-CH22-022",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fault tree analysis",
+      "itemFamilyId": "PV2-CORE-CH22-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a barrier analysis, the team reviews this question: Which analysis starts with an undesired top event and uses logical gates to identify combinations of lower-level failures that could produce it? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A design change that eliminates hazardous access addresses the system and follows the hierarchy of controls more effectively than reminders.",
+        "Fault tree analysis is a deductive method that works backward from a top event through AND and OR relationships.",
+        "A job safety analysis breaks work into steps and evaluates the hazards and controls associated with each step.",
+        "Event tree analysis starts with an initiating event and follows the success or failure of subsequent barriers to possible outcomes."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Corrective action hierarchy', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Job safety analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Event tree analysis', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, fault tree analysis, p. 532; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fbcc215e716e091905a5ad0cfea6671cd5bf06036ae3ce70ecf60f3867e98274"
+    },
+    {
+      "id": "PV2-CORE-CH22-023",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Failure modes and effects analysis",
+      "itemFamilyId": "PV2-CORE-CH22-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a trend of recurring incidents, the team reviews this question: A design team lists how each valve can fail, the effect of each failure, existing safeguards, and recommended actions. Which method is being used? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A job safety analysis breaks work into steps and evaluates the hazards and controls associated with each step.",
+        "An open, neutral invitation obtains the witness account without embedding assumptions or blame.",
+        "FMEA systematically examines potential failure modes, consequences, controls, and priorities for action.",
+        "Securing and documenting the scene protects evidence needed to reconstruct the event and test causal explanations."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Job safety analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Witness interviewing', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Scene preservation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, failure modes and effects analysis, p. 532; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "87d320fcc1b70add1596323c01de2dcfc5640ada0fcceb5e4ac71d4c35602853"
+    },
+    {
+      "id": "PV2-CORE-CH22-024",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Event tree analysis",
+      "itemFamilyId": "PV2-CORE-CH22-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an incident-scene response, the team reviews this question: Following a solvent release, an analyst maps whether detection succeeds, isolation succeeds, and ignition occurs, producing different outcome branches. Which method is this? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Fault tree analysis is a deductive method that works backward from a top event through AND and OR relationships.",
+        "A root cause is an underlying, correctable system failure. Weak maintenance controls explain why the leak recurred and remained uncontrolled.",
+        "A design change that eliminates hazardous access addresses the system and follows the hierarchy of controls more effectively than reminders.",
+        "Event tree analysis starts with an initiating event and follows the success or failure of subsequent barriers to possible outcomes."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Fault tree analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Root cause versus immediate cause', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Corrective action hierarchy', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 22 and 35, system safety analysis methods, pp. 532-533 and 793-794; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "356b2c2b301c4725c1361ee25e95f5ba0cce0c4b489c8ccdce58f1f578203245"
+    },
+    {
+      "id": "PV2-CORE-CH22-025",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Job safety analysis",
+      "itemFamilyId": "PV2-CORE-CH22-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a root-cause analysis workshop, the team reviews this question: A team separates filter replacement into shutdown, isolation, opening, removal, installation, and restart, then identifies hazards and controls for each step. Which method best fits? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A job safety analysis breaks work into steps and evaluates the hazards and controls associated with each step.",
+        "Fault tree analysis is a deductive method that works backward from a top event through AND and OR relationships.",
+        "A root cause is an underlying, correctable system failure. Weak maintenance controls explain why the leak recurred and remained uncontrolled.",
+        "A design change that eliminates hazardous access addresses the system and follows the hierarchy of controls more effectively than reminders."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Fault tree analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Root cause versus immediate cause', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Corrective action hierarchy', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, job safety analysis, p. 531; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "95b3370495bd0640ae241caea8b7f8da4ec816a4b5d43c6721b73f677d5b850d"
+    },
+    {
+      "id": "PV2-CORE-CH22-026",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Near-miss investigation",
+      "itemFamilyId": "PV2-CORE-CH22-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a witness interview plan, the team reviews this question: A suspended load falls into an unoccupied barricaded area and no one is injured. What is the best investigation decision? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Event tree analysis starts with an initiating event and follows the success or failure of subsequent barriers to possible outcomes.",
+        "High-potential near misses reveal failed or weak controls without the cost of an injury and should be investigated for preventive action.",
+        "A root cause is an underlying, correctable system failure. Weak maintenance controls explain why the leak recurred and remained uncontrolled.",
+        "Closure should require evidence that the action was implemented, used as intended, and reduced the causal risk without creating new hazards."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Event tree analysis', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Root cause versus immediate cause', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Corrective action verification', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, near-miss relationship and investigation, pp. 527-535; OSHA Incident Investigation overview; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a755315981824301de3cb3703bb2fd3265da4b18adfea0b72ab5701fedd8d06f"
+    },
+    {
+      "id": "PV2-CORE-CH22-027",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Corrective action hierarchy",
+      "itemFamilyId": "PV2-CORE-CH22-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fault-tree review, the team reviews this question: An investigation finds workers repeatedly reach through a point-of-operation opening to clear jams. Which corrective action is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Event tree analysis starts with an initiating event and follows the success or failure of subsequent barriers to possible outcomes.",
+        "A root cause is an underlying, correctable system failure. Weak maintenance controls explain why the leak recurred and remained uncontrolled.",
+        "A design change that eliminates hazardous access addresses the system and follows the hierarchy of controls more effectively than reminders.",
+        "High-potential near misses reveal failed or weak controls without the cost of an injury and should be investigated for preventive action."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Event tree analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Root cause versus immediate cause', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Near-miss investigation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, countermeasures and investigation reports, pp. 524-536; OSHA root-cause guidance; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8ffa939f865a65628f88437d3974175f2c484847f5cb4024636f782c9a10b6fa"
+    },
+    {
+      "id": "PV2-CORE-CH22-028",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Corrective action verification",
+      "itemFamilyId": "PV2-CORE-CH22-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a corrective-action verification, the team reviews this question: A corrective action is marked complete when a new procedure is issued. What additional evidence is most important before closing the investigation action? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A design change that eliminates hazardous access addresses the system and follows the hierarchy of controls more effectively than reminders.",
+        "A root cause is an underlying, correctable system failure. Weak maintenance controls explain why the leak recurred and remained uncontrolled.",
+        "High-potential near misses reveal failed or weak controls without the cost of an injury and should be investigated for preventive action.",
+        "Closure should require evidence that the action was implemented, used as intended, and reduced the causal risk without creating new hazards."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Corrective action hierarchy', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Root cause versus immediate cause', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Near-miss investigation', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 22, report of investigation and countermeasures, pp. 525-536; Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/incident-investigation"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f364868883ef8f9915c07391c895cc512dc065ad7fce4009ceaf64284659d62a"
+    },
+    {
+      "id": "PV2-CORE-CH22-029",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "scene control and evidence preservation",
+      "itemFamilyId": "PV2-CORE-CH22-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a trend of recurring incidents, a supervisor proposes: \"Interview witnesses together while they discuss and harmonize their recollections\". The underlying case is: A serious machine incident occurs, and production wants to clean the area immediately. Emergency hazards are controlled and the injured employee has been transported. What should the investigation leader do next? Which alternative is the most defensible correction?",
+      "options": [
+        "Secure the scene, preserve perishable evidence, document conditions, and authorize changes only when necessary for safety or rescue",
+        "Interview witnesses together while they discuss and harmonize their recollections",
+        "Discard damaged components once photographs are taken",
+        "Return the equipment to service before documenting it so investigators can observe normal production"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "After emergency needs are addressed, scene control and preservation protect the reliability of physical, documentary, and human evidence.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Interview witnesses together while they discuss and harmonize their recollections' remains incomplete or misapplies the controlling scene control and evidence preservation principle.",
+        "The proposed response 'Discard damaged components once photographs are taken' remains incomplete or misapplies the controlling scene control and evidence preservation principle.",
+        "The proposed response 'Return the equipment to service before documenting it so investigators can observe normal production' remains incomplete or misapplies the controlling scene control and evidence preservation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: scene control and evidence preservation",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dfd840dfb0d433a90ec2899a54f7a18f1019b58f903d186dc817892d7aea61e7"
+    },
+    {
+      "id": "PV2-CORE-CH22-030",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "witness interviewing",
+      "itemFamilyId": "PV2-CORE-CH22-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an incident-scene response, a supervisor proposes: \"Ask only yes-or-no questions and stop once the first consistent answer is obtained\". The underlying case is: Three witnesses saw different portions of an incident. Which interview method is most likely to produce reliable information? Which alternative is the most defensible correction?",
+      "options": [
+        "Interview them as a group so they can agree on one account",
+        "Interview them separately as soon as practical using open questions, then clarify sequence, observations, and uncertainty without leading",
+        "Begin by stating management’s suspected cause and ask each witness to confirm it",
+        "Ask only yes-or-no questions and stop once the first consistent answer is obtained"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Separate, timely, nonleading interviews reduce memory contamination and allow investigators to distinguish observation, inference, and uncertainty.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Interview them as a group so they can agree on one account' remains incomplete or misapplies the controlling witness interviewing principle.",
+        null,
+        "The proposed response 'Begin by stating management’s suspected cause and ask each witness to confirm it' remains incomplete or misapplies the controlling witness interviewing principle.",
+        "The proposed response 'Ask only yes-or-no questions and stop once the first consistent answer is obtained' remains incomplete or misapplies the controlling witness interviewing principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: witness interviewing",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1ca0272537b05c63b71cfc817aace938e955ce9ecaf0e7ee3f07d2f72589ccaf"
+    },
+    {
+      "id": "PV2-CORE-CH22-031",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "root cause versus immediate cause",
+      "itemFamilyId": "PV2-CORE-CH22-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a root-cause analysis workshop, a supervisor proposes: \"Exclude human actions from causal analysis and focus the investigation only on physical equipment conditions\". The underlying case is: An employee bypassed a guard before an injury. The investigation stops at “employee failed to follow procedure.” What is the strongest critique? Which alternative is the most defensible correction?",
+      "options": [
+        "Close the investigation once the rule violation is documented and assign retraining as the corrective action",
+        "Exclude human actions from causal analysis and focus the investigation only on physical equipment conditions",
+        "The conclusion identifies an act but does not examine why bypass was possible or attractive, including design, production pressure, supervision, and procedure quality",
+        "Treat the guard bypass as proof that equipment design and production conditions did not contribute"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "A useful causal analysis examines system conditions that shape behavior and barrier failure rather than treating the last unsafe act as the full explanation.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Close the investigation once the rule violation is documented and assign retraining as the corrective action' remains incomplete or misapplies the controlling root cause versus immediate cause principle.",
+        "The proposed response 'Exclude human actions from causal analysis and focus the investigation only on physical equipment conditions' remains incomplete or misapplies the controlling root cause versus immediate cause principle.",
+        null,
+        "The proposed response 'Treat the guard bypass as proof that equipment design and production conditions did not contribute' remains incomplete or misapplies the controlling root cause versus immediate cause principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: root cause versus immediate cause",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dc474e67af9b3a2469cb96ec30121c384aef9ddc9fc31cba98ec6a1bbef97ae3"
+    },
+    {
+      "id": "PV2-CORE-CH22-032",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "barrier analysis",
+      "itemFamilyId": "PV2-CORE-CH22-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a witness interview plan, a supervisor proposes: \"Add another alarm on the same failed power supply without reviewing independence\". The underlying case is: A chemical transfer relied on a level alarm, operator response, and an overflow line. All three failed during a release. Which analysis best supports prevention? Which alternative is the most defensible correction?",
+      "options": [
+        "Add another alarm on the same failed power supply without reviewing independence",
+        "Calculate injury rates and omit the physical safeguards from the investigation",
+        "Replace only the operator because human error is the sole barrier type",
+        "Examine each barrier’s intended function, independence, condition, failure mode, and management controls, including common-cause weaknesses"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Barrier analysis asks how prevention and mitigation layers failed and whether they shared dependencies; adding nominal redundancy without independence may not reduce risk.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Add another alarm on the same failed power supply without reviewing independence' remains incomplete or misapplies the controlling barrier analysis principle.",
+        "The proposed response 'Calculate injury rates and omit the physical safeguards from the investigation' remains incomplete or misapplies the controlling barrier analysis principle.",
+        "The proposed response 'Replace only the operator because human error is the sole barrier type' remains incomplete or misapplies the controlling barrier analysis principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: barrier analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e2b92f52c92ce8f15aae1a945602ac22fff7df4509579ad7b3dccaf17b305c3a"
+    },
+    {
+      "id": "PV2-CORE-CH22-033",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fault tree logic",
+      "itemFamilyId": "PV2-CORE-CH22-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a fault-tree review, a supervisor proposes: \"Use a transfer symbol to indicate that probability is zero\". The underlying case is: A top event occurs only when cooling is lost and an automatic shutdown also fails. How should the relationship be represented in a fault tree? Which alternative is the most defensible correction?",
+      "options": [
+        "Use an AND gate because both lower-level events are required for the top event",
+        "Use an OR gate because either event alone produces the stated top event",
+        "Use no gate because fault trees cannot represent multiple causes",
+        "Use a transfer symbol to indicate that probability is zero"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "An AND gate represents a condition requiring simultaneous or combined occurrence of all input events; an OR gate means any one input is sufficient.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Use an OR gate because either event alone produces the stated top event' remains incomplete or misapplies the controlling fault tree logic principle.",
+        "The proposed response 'Use no gate because fault trees cannot represent multiple causes' remains incomplete or misapplies the controlling fault tree logic principle.",
+        "The proposed response 'Use a transfer symbol to indicate that probability is zero' remains incomplete or misapplies the controlling fault tree logic principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: fault tree logic",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4a68770cf8681063fddd5471e564ad7e5793b5e14c51c526db668b11b0d37fb4"
+    },
+    {
+      "id": "PV2-CORE-CH22-034",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "corrective action hierarchy",
+      "itemFamilyId": "PV2-CORE-CH22-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a corrective-action verification, a supervisor proposes: \"Remind workers to be careful during the next toolbox talk\". The underlying case is: An investigation finds that workers routinely enter a pinch zone to clear jams. Which corrective action is strongest? Which alternative is the most defensible correction?",
+      "options": [
+        "Remind workers to be careful during the next toolbox talk",
+        "Redesign the process to prevent jams or provide remote clearing with interlocked access, then verify effectiveness",
+        "Post a larger pinch-point sign while leaving the same access need",
+        "Require a second employee to watch the first employee enter the zone"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Eliminating the need for exposure or engineering controlled access is more reliable than warnings, observation, or repeated behavioral reminders.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Remind workers to be careful during the next toolbox talk' remains incomplete or misapplies the controlling corrective action hierarchy principle.",
+        null,
+        "The proposed response 'Post a larger pinch-point sign while leaving the same access need' remains incomplete or misapplies the controlling corrective action hierarchy principle.",
+        "The proposed response 'Require a second employee to watch the first employee enter the zone' remains incomplete or misapplies the controlling corrective action hierarchy principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: corrective action hierarchy",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2057aefb7f12d499ccd4209d9a55cc1572db21ecddcb3e35162358ffac66d567"
+    },
+    {
+      "id": "PV2-CORE-CH22-035",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "causal evidence and certainty",
+      "itemFamilyId": "PV2-CORE-CH22-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a near-miss investigation, a supervisor proposes: \"Delay all corrective action until absolute certainty is achieved\". The underlying case is: The investigation team has conflicting evidence and cannot determine exactly which of two valve positions existed at the moment of release. How should the report handle this? Which alternative is the most defensible correction?",
+      "options": [
+        "Select the scenario preferred by senior management and omit the conflict",
+        "Delay all corrective action until absolute certainty is achieved",
+        "State the uncertainty, document evidence for each credible scenario, and recommend controls robust to both where practicable",
+        "Average the two valve positions and report the result as observed fact"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Transparent uncertainty preserves credibility and supports precautionary controls. Investigations should distinguish facts, inferences, and unresolved questions.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Select the scenario preferred by senior management and omit the conflict' remains incomplete or misapplies the controlling causal evidence and certainty principle.",
+        "The proposed response 'Delay all corrective action until absolute certainty is achieved' remains incomplete or misapplies the controlling causal evidence and certainty principle.",
+        null,
+        "The proposed response 'Average the two valve positions and report the result as observed fact' remains incomplete or misapplies the controlling causal evidence and certainty principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: causal evidence and certainty",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "591a0de519b0edbd56585a46e967562551222f9fb692c9bb01cb901bfc9c0d07"
+    },
+    {
+      "id": "PV2-CORE-CH22-036",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "effectiveness verification",
+      "itemFamilyId": "PV2-CORE-CH22-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a barrier analysis, a supervisor proposes: \"Removal of the recurring events from trend reports\". The underlying case is: A corrective action is marked complete when a new procedure is issued. Similar deviations continue during observations. What is missing? Which alternative is the most defensible correction?",
+      "options": [
+        "Removal of the recurring events from trend reports",
+        "Closure approval based only on the issue date of the procedure",
+        "A more polished document cover page",
+        "Verification that the action was implemented, understood, used, and effective at controlling the causal factors"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Administrative closure is not evidence of risk reduction. Corrective actions require implementation and effectiveness checks tied to the causal mechanism.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Removal of the recurring events from trend reports' remains incomplete or misapplies the controlling effectiveness verification principle.",
+        "The proposed response 'Closure approval based only on the issue date of the procedure' remains incomplete or misapplies the controlling effectiveness verification principle.",
+        "The proposed response 'A more polished document cover page' remains incomplete or misapplies the controlling effectiveness verification principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: effectiveness verification",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3d68b2f02d3a891074e495330b3c1ccb35556acdcf1a3b477d9b1498a1d561a7"
+    },
+    {
+      "id": "PV2-CORE-CH22-037",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "scene control and evidence preservation",
+      "itemFamilyId": "PV2-CORE-CH22-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an incident-scene response, the team selects \"Secure the scene, preserve perishable evidence, document conditions, and authorize changes only when necessary for safety or rescue\" rather than \"Discard damaged components once photographs are taken\" for this case: A serious machine incident occurs, and production wants to clean the area immediately. Emergency hazards are controlled and the injured employee has been transported. What should the investigation leader do next? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "After emergency needs are addressed, scene control and preservation protect the reliability of physical, documentary, and human evidence.",
+        "Administrative closure is not evidence of risk reduction. Corrective actions require implementation and effectiveness checks tied to the causal mechanism.",
+        "Transparent uncertainty preserves credibility and supports precautionary controls. Investigations should distinguish facts, inferences, and unresolved questions.",
+        "Eliminating the need for exposure or engineering controlled access is more reliable than warnings, observation, or repeated behavioral reminders."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the scene control and evidence preservation issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'effectiveness verification' and does not distinguish the two responses in the present scene control and evidence preservation decision.",
+        "This explanation concerns 'causal evidence and certainty' and does not distinguish the two responses in the present scene control and evidence preservation decision.",
+        "This explanation concerns 'corrective action hierarchy' and does not distinguish the two responses in the present scene control and evidence preservation decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: scene control and evidence preservation",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "34d2ca39a7ef14a19144dedbf5b907417f427c9c4b858e516ac2aa046780620a"
+    },
+    {
+      "id": "PV2-CORE-CH22-038",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "witness interviewing",
+      "itemFamilyId": "PV2-CORE-CH22-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a root-cause analysis workshop, the team selects \"Interview them separately as soon as practical using open questions, then clarify sequence, observations, and uncertainty without leading\" rather than \"Interview them as a group so they can agree on one account\" for this case: Three witnesses saw different portions of an incident. Which interview method is most likely to produce reliable information? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Administrative closure is not evidence of risk reduction. Corrective actions require implementation and effectiveness checks tied to the causal mechanism.",
+        "Separate, timely, nonleading interviews reduce memory contamination and allow investigators to distinguish observation, inference, and uncertainty.",
+        "Barrier analysis asks how prevention and mitigation layers failed and whether they shared dependencies; adding nominal redundancy without independence may not reduce risk.",
+        "An AND gate represents a condition requiring simultaneous or combined occurrence of all input events; an OR gate means any one input is sufficient."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the witness interviewing issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'effectiveness verification' and does not distinguish the two responses in the present witness interviewing decision.",
+        null,
+        "This explanation concerns 'barrier analysis' and does not distinguish the two responses in the present witness interviewing decision.",
+        "This explanation concerns 'fault tree logic' and does not distinguish the two responses in the present witness interviewing decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: witness interviewing",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6dee95cdd47602a868bde7b38eb3e97e8c04028013c39f56c375d1e39e912fe1"
+    },
+    {
+      "id": "PV2-CORE-CH22-039",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.09",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "root cause versus immediate cause",
+      "itemFamilyId": "PV2-CORE-CH22-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a witness interview plan, the team selects \"The conclusion identifies an act but does not examine why bypass was possible or attractive, including design, production pressure, supervision, and procedure quality\" rather than \"Treat the guard bypass as proof that equipment design and production conditions did not contribute\" for this case: An employee bypassed a guard before an injury. The investigation stops at “employee failed to follow procedure.” What is the strongest critique? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "After emergency needs are addressed, scene control and preservation protect the reliability of physical, documentary, and human evidence.",
+        "Barrier analysis asks how prevention and mitigation layers failed and whether they shared dependencies; adding nominal redundancy without independence may not reduce risk.",
+        "A useful causal analysis examines system conditions that shape behavior and barrier failure rather than treating the last unsafe act as the full explanation.",
+        "Administrative closure is not evidence of risk reduction. Corrective actions require implementation and effectiveness checks tied to the causal mechanism."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the root cause versus immediate cause issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'scene control and evidence preservation' and does not distinguish the two responses in the present root cause versus immediate cause decision.",
+        "This explanation concerns 'barrier analysis' and does not distinguish the two responses in the present root cause versus immediate cause decision.",
+        null,
+        "This explanation concerns 'effectiveness verification' and does not distinguish the two responses in the present root cause versus immediate cause decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: root cause versus immediate cause",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "28866dc88e9bb32c0052e5222da55d2f4867af3cdc250fa5d46df8d29950b294"
+    },
+    {
+      "id": "PV2-CORE-CH22-040",
+      "version": 1,
+      "chapterId": "ch-22",
+      "chapterTitle": "Incident Causation, Investigation, and System Analysis",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D3.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "barrier analysis",
+      "itemFamilyId": "PV2-CORE-CH22-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fault-tree review, the team selects \"Examine each barrier’s intended function, independence, condition, failure mode, and management controls, including common-cause weaknesses\" rather than \"Calculate injury rates and omit the physical safeguards from the investigation\" for this case: A chemical transfer relied on a level alarm, operator response, and an overflow line. All three failed during a release. Which analysis best supports prevention? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "A useful causal analysis examines system conditions that shape behavior and barrier failure rather than treating the last unsafe act as the full explanation.",
+        "Administrative closure is not evidence of risk reduction. Corrective actions require implementation and effectiveness checks tied to the causal mechanism.",
+        "Eliminating the need for exposure or engineering controlled access is more reliable than warnings, observation, or repeated behavioral reminders.",
+        "Barrier analysis asks how prevention and mitigation layers failed and whether they shared dependencies; adding nominal redundancy without independence may not reduce risk."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the barrier analysis issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'root cause versus immediate cause' and does not distinguish the two responses in the present barrier analysis decision.",
+        "This explanation concerns 'effectiveness verification' and does not distinguish the two responses in the present barrier analysis decision.",
+        "This explanation concerns 'corrective action hierarchy' and does not distinguish the two responses in the present barrier analysis decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 22, pp. 515-537; OSHA incident investigation guidance; curated topic: barrier analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/incident-investigation",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a1cff104d997ff2138f9a6b06295ea919da559625ee73e7e027aaef5661781fc"
+    }
+  ]
+}

@@ -1,0 +1,1466 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-40-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-40",
+  "chapterTitle": "BCSP Code of Ethics",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH40-001",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "professional competence",
+      "itemFamilyId": "PV2-CORE-CH40-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A client asks a safety professional to certify a complex structural design outside the professional’s education and experience. What is the ethical response?",
+      "options": [
+        "Decline or limit the assignment and involve a qualified professional while clearly communicating the boundaries of competence",
+        "Certify it because a general safety credential covers every engineering specialty",
+        "Approve it if the client accepts responsibility in writing",
+        "Copy a prior design and omit the limitation from the report"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Professionals should undertake work only within their competence and seek qualified assistance when needed. Client pressure or waiver does not create expertise.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Certify it because a general safety credential covers every engineering specialty' does not apply the controlling principle for professional competence to the facts given, so it is not the best answer.",
+        "The option 'Approve it if the client accepts responsibility in writing' does not apply the controlling principle for professional competence to the facts given, so it is not the best answer.",
+        "The option 'Copy a prior design and omit the limitation from the report' does not apply the controlling principle for professional competence to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: professional competence",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "835aff0313805458404d1cfc6b266be38d22ea7878967a07326569b7406eb8d9"
+    },
+    {
+      "id": "PV2-CORE-CH40-002",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "conflict of interest",
+      "itemFamilyId": "PV2-CORE-CH40-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A consultant recommends a monitoring vendor in which the consultant has a financial interest. The service may be suitable. What should the consultant do?",
+      "options": [
+        "Recommend the vendor as the only option without comparing alternatives",
+        "Disclose the material interest, preserve objective selection criteria, and obtain appropriate informed agreement or avoid the conflict",
+        "Keep the interest secret because the vendor’s work may be competent",
+        "Increase the consulting fee so the financial relationship becomes immaterial"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Actual or apparent conflicts should be disclosed and managed so professional judgment and client trust are not compromised.",
+      "incorrectOptionExplanations": [
+        "The option 'Recommend the vendor as the only option without comparing alternatives' does not apply the controlling principle for conflict of interest to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Keep the interest secret because the vendor’s work may be competent' does not apply the controlling principle for conflict of interest to the facts given, so it is not the best answer.",
+        "The option 'Increase the consulting fee so the financial relationship becomes immaterial' does not apply the controlling principle for conflict of interest to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: conflict of interest",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "03afe69a260780392b831fb8c7914f12ae49ead2d1162c3dec6b9c5cab5fd420"
+    },
+    {
+      "id": "PV2-CORE-CH40-003",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "truthful professional records",
+      "itemFamilyId": "PV2-CORE-CH40-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Management asks a CSP to change a sampling date so an overdue test appears timely. The result itself is accurate. What should the CSP do?",
+      "options": [
+        "Delete the record and collect a new sample without documenting the gap",
+        "Alter only the electronic version and retain the original privately",
+        "Refuse to falsify the record, preserve accurate information, and escalate the integrity concern through appropriate channels",
+        "Change the date because the concentration result did not change"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Professional records must be truthful and complete. Falsifying timing misrepresents compliance and undermines evidence integrity even when the numerical result is valid.",
+      "incorrectOptionExplanations": [
+        "The option 'Delete the record and collect a new sample without documenting the gap' does not apply the controlling principle for truthful professional records to the facts given, so it is not the best answer.",
+        "The option 'Alter only the electronic version and retain the original privately' does not apply the controlling principle for truthful professional records to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Change the date because the concentration result did not change' does not apply the controlling principle for truthful professional records to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: truthful professional records",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "77634543d282ceb58f9d9870903f135c755dd703a15aafc98a645f4c175fcc5d"
+    },
+    {
+      "id": "PV2-CORE-CH40-004",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "public and worker protection",
+      "itemFamilyId": "PV2-CORE-CH40-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A professional discovers a credible imminent hazard that management refuses to address and that could seriously harm workers. What ethical principle should guide the response?",
+      "options": [
+        "Publish all confidential company information regardless of relevance",
+        "Remain silent because loyalty to the employer overrides all other obligations",
+        "Wait for an injury so the hazard becomes a documented fact",
+        "Place protection of people and the public foremost, pursue appropriate escalation, and make required disclosures consistent with law and professional duty"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Safety professionals owe a primary duty to protect people while using lawful, proportionate escalation and disclosure—not silence or indiscriminate release.",
+      "incorrectOptionExplanations": [
+        "The option 'Publish all confidential company information regardless of relevance' does not apply the controlling principle for public and worker protection to the facts given, so it is not the best answer.",
+        "The option 'Remain silent because loyalty to the employer overrides all other obligations' does not apply the controlling principle for public and worker protection to the facts given, so it is not the best answer.",
+        "The option 'Wait for an injury so the hazard becomes a documented fact' does not apply the controlling principle for public and worker protection to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: public and worker protection",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e7f98ad11974d9fbb05d6b8a0888546ca4884f95f74f8d5dc4ae81c9de99c6f7"
+    },
+    {
+      "id": "PV2-CORE-CH40-005",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "confidentiality limits",
+      "itemFamilyId": "PV2-CORE-CH40-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A former client’s proprietary process details would help a new client, but disclosure is not authorized and no legal duty requires it. What should the professional do?",
+      "options": [
+        "Protect the former client’s confidential information and use only knowledge that can be applied without unauthorized disclosure",
+        "Share the details because the prior engagement has ended",
+        "Post the information publicly so all clients receive equal access",
+        "Sell the information if identifying names are removed but the process remains recognizable"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Confidential obligations generally continue after an engagement. General expertise may be used, but protected client information should not be disclosed without authority or legal basis.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Share the details because the prior engagement has ended' does not apply the controlling principle for confidentiality limits to the facts given, so it is not the best answer.",
+        "The option 'Post the information publicly so all clients receive equal access' does not apply the controlling principle for confidentiality limits to the facts given, so it is not the best answer.",
+        "The option 'Sell the information if identifying names are removed but the process remains recognizable' does not apply the controlling principle for confidentiality limits to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: confidentiality limits",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3b541be7f7ca2cc2ec0661fb134aad32624a68b723b62d483edbd92ffd136da4"
+    },
+    {
+      "id": "PV2-CORE-CH40-006",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "objective communication of uncertainty",
+      "itemFamilyId": "PV2-CORE-CH40-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Evidence from an exposure study is limited, but an executive asks for a statement that the workplace is “completely safe.” What is the ethical response?",
+      "options": [
+        "State that any uncertainty proves the workplace is unsafe in every respect",
+        "Communicate the findings, limitations, uncertainty, and needed controls accurately without giving an unsupported absolute assurance",
+        "Use the requested phrase because executives are responsible for interpretation",
+        "Withhold all results until uncertainty can be eliminated"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Professional communication should be accurate, objective, and transparent about limitations. Absolute assurances can mislead when evidence is incomplete.",
+      "incorrectOptionExplanations": [
+        "The option 'State that any uncertainty proves the workplace is unsafe in every respect' does not apply the controlling principle for objective communication of uncertainty to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use the requested phrase because executives are responsible for interpretation' does not apply the controlling principle for objective communication of uncertainty to the facts given, so it is not the best answer.",
+        "The option 'Withhold all results until uncertainty can be eliminated' does not apply the controlling principle for objective communication of uncertainty to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: objective communication of uncertainty",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2d6a77063d9cb876d58fbe3bc57a7b7d52e010063c5526373aab6c630c9c2bcf"
+    },
+    {
+      "id": "PV2-CORE-CH40-007",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "credit and attribution",
+      "itemFamilyId": "PV2-CORE-CH40-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A safety manager presents a junior employee’s original analysis to executives as the manager’s own work. What is the ethical concern?",
+      "options": [
+        "Credit matters only when the analysis is published externally",
+        "Managers automatically own authorship of every subordinate’s technical work",
+        "The manager should provide appropriate credit and avoid misrepresentation of authorship or contribution",
+        "Attribution can be omitted if the manager agrees with the conclusion"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Integrity includes fair recognition and truthful representation of professional work and contributions.",
+      "incorrectOptionExplanations": [
+        "The option 'Credit matters only when the analysis is published externally' does not apply the controlling principle for credit and attribution to the facts given, so it is not the best answer.",
+        "The option 'Managers automatically own authorship of every subordinate’s technical work' does not apply the controlling principle for credit and attribution to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Attribution can be omitted if the manager agrees with the conclusion' does not apply the controlling principle for credit and attribution to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: credit and attribution",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4e346f93f749c49d7e96e0c139c20feca632c50734019b747f6e81413d109c0b"
+    },
+    {
+      "id": "PV2-CORE-CH40-008",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ethical response to pressure",
+      "itemFamilyId": "PV2-CORE-CH40-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A client threatens to terminate a contract unless the professional removes a valid high-risk finding from an audit report. What is the best response?",
+      "options": [
+        "Keep a private copy but issue the altered report under the professional’s name",
+        "Replace the finding with a vague compliment so no one is accountable",
+        "Remove the finding because client retention is the primary professional duty",
+        "Maintain the evidence-based finding, explain its basis, use the dispute process, and withdraw if necessary rather than issue a misleading report"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Professional independence and truthful reporting should not be traded for commercial advantage. Legitimate disagreements can be documented without falsifying conclusions.",
+      "incorrectOptionExplanations": [
+        "The option 'Keep a private copy but issue the altered report under the professional’s name' does not apply the controlling principle for ethical response to pressure to the facts given, so it is not the best answer.",
+        "The option 'Replace the finding with a vague compliment so no one is accountable' does not apply the controlling principle for ethical response to pressure to the facts given, so it is not the best answer.",
+        "The option 'Remove the finding because client retention is the primary professional duty' does not apply the controlling principle for ethical response to pressure to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: ethical response to pressure",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b294a3a6a6814372874757f512b70ec707bb2ead8b487ecc3ecc4c46b43aa901"
+    },
+    {
+      "id": "PV2-CORE-CH40-009",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "professional competence",
+      "itemFamilyId": "PV2-CORE-CH40-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a confidentiality decision, the team reviews this case: A client asks a safety professional to certify a complex structural design outside the professional’s education and experience. What is the ethical response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Professionals should undertake work only within their competence and seek qualified assistance when needed. Client pressure or waiver does not create expertise.",
+        "Professional communication should be accurate, objective, and transparent about limitations. Absolute assurances can mislead when evidence is incomplete.",
+        "Actual or apparent conflicts should be disclosed and managed so professional judgment and client trust are not compromised.",
+        "Safety professionals owe a primary duty to protect people while using lawful, proportionate escalation and disclosure—not silence or indiscriminate release."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses professional competence and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'objective communication of uncertainty', but it does not resolve the professional competence issue in this case.",
+        "This rationale supports the separate chapter topic 'conflict of interest', but it does not resolve the professional competence issue in this case.",
+        "This rationale supports the separate chapter topic 'public and worker protection', but it does not resolve the professional competence issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: professional competence",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bb85022fadb7618884b8e73273e5cd2ed4d8f8b548682606e14e61762bce134e"
+    },
+    {
+      "id": "PV2-CORE-CH40-010",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "conflict of interest",
+      "itemFamilyId": "PV2-CORE-CH40-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a competence boundary review, the team reviews this case: A consultant recommends a monitoring vendor in which the consultant has a financial interest. The service may be suitable. What should the consultant do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Integrity includes fair recognition and truthful representation of professional work and contributions.",
+        "Actual or apparent conflicts should be disclosed and managed so professional judgment and client trust are not compromised.",
+        "Professional communication should be accurate, objective, and transparent about limitations. Absolute assurances can mislead when evidence is incomplete.",
+        "Safety professionals owe a primary duty to protect people while using lawful, proportionate escalation and disclosure—not silence or indiscriminate release."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses conflict of interest and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'credit and attribution', but it does not resolve the conflict of interest issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'objective communication of uncertainty', but it does not resolve the conflict of interest issue in this case.",
+        "This rationale supports the separate chapter topic 'public and worker protection', but it does not resolve the conflict of interest issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: conflict of interest",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "eba0436c6cc9b12409e3e56afb455b12389bd19228d5ba2d168018f052b2312a"
+    },
+    {
+      "id": "PV2-CORE-CH40-011",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "truthful professional records",
+      "itemFamilyId": "PV2-CORE-CH40-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a public-risk communication, the team reviews this case: Management asks a CSP to change a sampling date so an overdue test appears timely. The result itself is accurate. What should the CSP do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Professional independence and truthful reporting should not be traded for commercial advantage. Legitimate disagreements can be documented without falsifying conclusions.",
+        "Safety professionals owe a primary duty to protect people while using lawful, proportionate escalation and disclosure—not silence or indiscriminate release.",
+        "Professional records must be truthful and complete. Falsifying timing misrepresents compliance and undermines evidence integrity even when the numerical result is valid.",
+        "Professional communication should be accurate, objective, and transparent about limitations. Absolute assurances can mislead when evidence is incomplete."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses truthful professional records and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'ethical response to pressure', but it does not resolve the truthful professional records issue in this case.",
+        "This rationale supports the separate chapter topic 'public and worker protection', but it does not resolve the truthful professional records issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'objective communication of uncertainty', but it does not resolve the truthful professional records issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: truthful professional records",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "17c86f0a15e57b7e1fe7fc45fe20dac5b07a86b2c79198348c791d2c3538a76d"
+    },
+    {
+      "id": "PV2-CORE-CH40-012",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "public and worker protection",
+      "itemFamilyId": "PV2-CORE-CH40-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a professional opinion dispute, the team reviews this case: A professional discovers a credible imminent hazard that management refuses to address and that could seriously harm workers. What ethical principle should guide the response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Professionals should undertake work only within their competence and seek qualified assistance when needed. Client pressure or waiver does not create expertise.",
+        "Professional independence and truthful reporting should not be traded for commercial advantage. Legitimate disagreements can be documented without falsifying conclusions.",
+        "Professional records must be truthful and complete. Falsifying timing misrepresents compliance and undermines evidence integrity even when the numerical result is valid.",
+        "Safety professionals owe a primary duty to protect people while using lawful, proportionate escalation and disclosure—not silence or indiscriminate release."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses public and worker protection and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'professional competence', but it does not resolve the public and worker protection issue in this case.",
+        "This rationale supports the separate chapter topic 'ethical response to pressure', but it does not resolve the public and worker protection issue in this case.",
+        "This rationale supports the separate chapter topic 'truthful professional records', but it does not resolve the public and worker protection issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: public and worker protection",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a501995df8a2108a1b36233145d48ed127713a30265fad729cc8b5550bfa5c5d"
+    },
+    {
+      "id": "PV2-CORE-CH40-013",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "confidentiality limits",
+      "itemFamilyId": "PV2-CORE-CH40-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a record-integrity concern, the team reviews this case: A former client’s proprietary process details would help a new client, but disclosure is not authorized and no legal duty requires it. What should the professional do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Confidential obligations generally continue after an engagement. General expertise may be used, but protected client information should not be disclosed without authority or legal basis.",
+        "Professionals should undertake work only within their competence and seek qualified assistance when needed. Client pressure or waiver does not create expertise.",
+        "Integrity includes fair recognition and truthful representation of professional work and contributions.",
+        "Professional communication should be accurate, objective, and transparent about limitations. Absolute assurances can mislead when evidence is incomplete."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses confidentiality limits and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'professional competence', but it does not resolve the confidentiality limits issue in this case.",
+        "This rationale supports the separate chapter topic 'credit and attribution', but it does not resolve the confidentiality limits issue in this case.",
+        "This rationale supports the separate chapter topic 'objective communication of uncertainty', but it does not resolve the confidentiality limits issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: confidentiality limits",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d6098f90b46667425403a344a73a9e5287f645a8e5f7e3bb34e4771ded2730e3"
+    },
+    {
+      "id": "PV2-CORE-CH40-014",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "objective communication of uncertainty",
+      "itemFamilyId": "PV2-CORE-CH40-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an employer pressure scenario, the team reviews this case: Evidence from an exposure study is limited, but an executive asks for a statement that the workplace is “completely safe.” What is the ethical response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Integrity includes fair recognition and truthful representation of professional work and contributions.",
+        "Professional communication should be accurate, objective, and transparent about limitations. Absolute assurances can mislead when evidence is incomplete.",
+        "Professional independence and truthful reporting should not be traded for commercial advantage. Legitimate disagreements can be documented without falsifying conclusions.",
+        "Professionals should undertake work only within their competence and seek qualified assistance when needed. Client pressure or waiver does not create expertise."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses objective communication of uncertainty and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'credit and attribution', but it does not resolve the objective communication of uncertainty issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'ethical response to pressure', but it does not resolve the objective communication of uncertainty issue in this case.",
+        "This rationale supports the separate chapter topic 'professional competence', but it does not resolve the objective communication of uncertainty issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: objective communication of uncertainty",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d6941dcb41149ec09b7e6fce3842e89821be0fe0622a2b65a37fe6d6562b2d80"
+    },
+    {
+      "id": "PV2-CORE-CH40-015",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "credit and attribution",
+      "itemFamilyId": "PV2-CORE-CH40-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an ethics consultation, the team reviews this case: A safety manager presents a junior employee’s original analysis to executives as the manager’s own work. What is the ethical concern? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Professional records must be truthful and complete. Falsifying timing misrepresents compliance and undermines evidence integrity even when the numerical result is valid.",
+        "Professionals should undertake work only within their competence and seek qualified assistance when needed. Client pressure or waiver does not create expertise.",
+        "Integrity includes fair recognition and truthful representation of professional work and contributions.",
+        "Actual or apparent conflicts should be disclosed and managed so professional judgment and client trust are not compromised."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses credit and attribution and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'truthful professional records', but it does not resolve the credit and attribution issue in this case.",
+        "This rationale supports the separate chapter topic 'professional competence', but it does not resolve the credit and attribution issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'conflict of interest', but it does not resolve the credit and attribution issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: credit and attribution",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b1fcece243c8ee251b35742770b575da1226ce8438d42d4b5d6ac5c016f07f41"
+    },
+    {
+      "id": "PV2-CORE-CH40-016",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ethical response to pressure",
+      "itemFamilyId": "PV2-CORE-CH40-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a conflict-of-interest disclosure, the team reviews this case: A client threatens to terminate a contract unless the professional removes a valid high-risk finding from an audit report. What is the best response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Integrity includes fair recognition and truthful representation of professional work and contributions.",
+        "Confidential obligations generally continue after an engagement. General expertise may be used, but protected client information should not be disclosed without authority or legal basis.",
+        "Professional communication should be accurate, objective, and transparent about limitations. Absolute assurances can mislead when evidence is incomplete.",
+        "Professional independence and truthful reporting should not be traded for commercial advantage. Legitimate disagreements can be documented without falsifying conclusions."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses ethical response to pressure and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'credit and attribution', but it does not resolve the ethical response to pressure issue in this case.",
+        "This rationale supports the separate chapter topic 'confidentiality limits', but it does not resolve the ethical response to pressure issue in this case.",
+        "This rationale supports the separate chapter topic 'objective communication of uncertainty', but it does not resolve the ethical response to pressure issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: ethical response to pressure",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e99def05d6d9a19f32cd5bf6cc116e0906c4bbdaa2bd9068f57dedaae741adde"
+    },
+    {
+      "id": "PV2-CORE-CH40-017",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hold safety paramount",
+      "itemFamilyId": "PV2-CORE-CH40-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a conflict-of-interest disclosure, the team reviews this question: Management asks a safety professional to omit an imminent life-safety hazard from a report. What is the most ethical response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The BCSP Code requires holding safety and health paramount and advising employers, clients, employees, the public, and authorities of danger and unacceptable risk.",
+        "The code calls for integrity, truthful records, and action to bring professional misconduct by another status holder to BCSP attention.",
+        "Ethical practice requires assignments to be undertaken only when qualified and qualifications to be represented accurately.",
+        "Professional relations should be conducted with integrity and conflicts that could compromise judgment must be avoided or transparently managed."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Reporting professional misconduct', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Competence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Conflict of interest', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "BCSP Code of Ethics",
+      "sourceLocation": "BCSP Code of Ethics, Standard 1; Yates Chapter 40; Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics",
+      "sourceUrls": [
+        "https://www.bcsp.org/hubfs/8981246/Downloads-PDFs-and-PPTs/BCSPcodeofethics.pdf",
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6bb8eeb447d2165453e9090229a2226650f40fe7862977598814fb06995c592c"
+    },
+    {
+      "id": "PV2-CORE-CH40-018",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Competence",
+      "itemFamilyId": "PV2-CORE-CH40-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a confidentiality decision, the team reviews this question: A client requests a specialized radiation-shielding design outside the professional current competence. What should the professional do? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Public statements should be objective, truthful, and founded on facts and competence.",
+        "Ethical practice requires assignments to be undertaken only when qualified and qualifications to be represented accurately.",
+        "Professional relations should be conducted with integrity and conflicts that could compromise judgment must be avoided or transparently managed.",
+        "The code calls for integrity, truthful records, and action to bring professional misconduct by another status holder to BCSP attention."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Truthful public statements', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Conflict of interest', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Reporting professional misconduct', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "BCSP Code of Ethics",
+      "sourceLocation": "BCSP Code of Ethics, Standards 4 and 5; Yates Chapter 40; Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics",
+      "sourceUrls": [
+        "https://www.bcsp.org/hubfs/8981246/Downloads-PDFs-and-PPTs/BCSPcodeofethics.pdf",
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cfb97037c7874f2c99a82107107ff92f766ba32f32c98c33327852a0c1710dc1"
+    },
+    {
+      "id": "PV2-CORE-CH40-019",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Conflict of interest",
+      "itemFamilyId": "PV2-CORE-CH40-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a competence boundary review, the team reviews this question: A consultant receives an undisclosed commission if a specific vendor product is selected. What is required? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Ethical practice requires assignments to be undertaken only when qualified and qualifications to be represented accurately.",
+        "The code calls for integrity, truthful records, and action to bring professional misconduct by another status holder to BCSP attention.",
+        "Professional relations should be conducted with integrity and conflicts that could compromise judgment must be avoided or transparently managed.",
+        "The BCSP Code requires holding safety and health paramount and advising employers, clients, employees, the public, and authorities of danger and unacceptable risk."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Competence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Reporting professional misconduct', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Hold safety paramount', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "BCSP Code of Ethics",
+      "sourceLocation": "BCSP Code of Ethics, Standard 6; Yates Chapter 40; Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics",
+      "sourceUrls": [
+        "https://www.bcsp.org/hubfs/8981246/Downloads-PDFs-and-PPTs/BCSPcodeofethics.pdf",
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "089a117d82c12b710e83f84e86c64e4b0aa3905bdd09d3d352ef0179cff419a3"
+    },
+    {
+      "id": "PV2-CORE-CH40-020",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Truthful public statements",
+      "itemFamilyId": "PV2-CORE-CH40-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a public-risk communication, the team reviews this question: A company asks the safety professional to state publicly that a control is proven effective when verification data are incomplete. What is the ethical response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The code calls for integrity, truthful records, and action to bring professional misconduct by another status holder to BCSP attention.",
+        "Academic and professional qualifications and levels of responsibility must be represented accurately.",
+        "Ethical practice requires assignments to be undertaken only when qualified and qualifications to be represented accurately.",
+        "Public statements should be objective, truthful, and founded on facts and competence."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Reporting professional misconduct', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Accurate credentials', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Competence', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "BCSP Code of Ethics",
+      "sourceLocation": "BCSP Code of Ethics, Standards 2 and 3; Yates Chapter 40; Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics",
+      "sourceUrls": [
+        "https://www.bcsp.org/hubfs/8981246/Downloads-PDFs-and-PPTs/BCSPcodeofethics.pdf",
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1043002a7109c71b366edc74194210939a0ab0f869dca7a926c5026b8015e97e"
+    },
+    {
+      "id": "PV2-CORE-CH40-021",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Accurate credentials",
+      "itemFamilyId": "PV2-CORE-CH40-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a professional opinion dispute, the team reviews this question: A candidate has passed a course but has not earned the CSP credential. How should the qualification be represented? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Academic and professional qualifications and levels of responsibility must be represented accurately.",
+        "Professional relations should be conducted with integrity and conflicts that could compromise judgment must be avoided or transparently managed.",
+        "Ethical practice requires assignments to be undertaken only when qualified and qualifications to be represented accurately.",
+        "Public statements should be objective, truthful, and founded on facts and competence."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Conflict of interest', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Competence', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Truthful public statements', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "BCSP Code of Ethics",
+      "sourceLocation": "BCSP Code of Ethics, Standard 5; Yates Chapter 40; Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics",
+      "sourceUrls": [
+        "https://www.bcsp.org/hubfs/8981246/Downloads-PDFs-and-PPTs/BCSPcodeofethics.pdf",
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f6b096c3ae7a236237dfeb8ace1e0b3f438679dc521712096362d0444696876c"
+    },
+    {
+      "id": "PV2-CORE-CH40-022",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Reporting professional misconduct",
+      "itemFamilyId": "PV2-CORE-CH40-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a record-integrity concern, the team reviews this question: A credential holder discovers credible evidence that another credential holder falsified exposure data. What is the ethical course? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Ethical practice requires assignments to be undertaken only when qualified and qualifications to be represented accurately.",
+        "The code calls for integrity, truthful records, and action to bring professional misconduct by another status holder to BCSP attention.",
+        "Professional relations should be conducted with integrity and conflicts that could compromise judgment must be avoided or transparently managed.",
+        "The BCSP Code requires holding safety and health paramount and advising employers, clients, employees, the public, and authorities of danger and unacceptable risk."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Competence', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Conflict of interest', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Hold safety paramount', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "BCSP Code of Ethics",
+      "sourceLocation": "BCSP Code of Ethics, Standards 2 and 6; BCSP policies and forms; Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics",
+      "sourceUrls": [
+        "https://www.bcsp.org/hubfs/8981246/Downloads-PDFs-and-PPTs/BCSPcodeofethics.pdf",
+        "https://www.bcsp.org/policies-forms",
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c4cb59aece49fb22787ad4beb371a81a9a6bf1299fd208f61d92d012f0259060"
+    },
+    {
+      "id": "PV2-CORE-CH40-023",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "professional competence",
+      "itemFamilyId": "PV2-CORE-CH40-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a conflict-of-interest disclosure, a supervisor proposes: \"Approve it if the client accepts responsibility in writing\". The underlying case is: A client asks a safety professional to certify a complex structural design outside the professional’s education and experience. What is the ethical response? Which alternative is the most defensible correction?",
+      "options": [
+        "Certify it because a general safety credential covers every engineering specialty",
+        "Copy a prior design and omit the limitation from the report",
+        "Decline or limit the assignment and involve a qualified professional while clearly communicating the boundaries of competence",
+        "Approve it if the client accepts responsibility in writing"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Professionals should undertake work only within their competence and seek qualified assistance when needed. Client pressure or waiver does not create expertise.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Certify it because a general safety credential covers every engineering specialty' remains incomplete or misapplies the controlling professional competence principle.",
+        "The proposed response 'Copy a prior design and omit the limitation from the report' remains incomplete or misapplies the controlling professional competence principle.",
+        null,
+        "The proposed response 'Approve it if the client accepts responsibility in writing' remains incomplete or misapplies the controlling professional competence principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: professional competence",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7965e521505e99f25d8679b57e8eaaa3b7abfa74cd123add18e353d7663e03f0"
+    },
+    {
+      "id": "PV2-CORE-CH40-024",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "conflict of interest",
+      "itemFamilyId": "PV2-CORE-CH40-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a confidentiality decision, a supervisor proposes: \"Recommend the vendor as the only option without comparing alternatives\". The underlying case is: A consultant recommends a monitoring vendor in which the consultant has a financial interest. The service may be suitable. What should the consultant do? Which alternative is the most defensible correction?",
+      "options": [
+        "Increase the consulting fee so the financial relationship becomes immaterial",
+        "Keep the interest secret because the vendor’s work may be competent",
+        "Recommend the vendor as the only option without comparing alternatives",
+        "Disclose the material interest, preserve objective selection criteria, and obtain appropriate informed agreement or avoid the conflict"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Actual or apparent conflicts should be disclosed and managed so professional judgment and client trust are not compromised.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Increase the consulting fee so the financial relationship becomes immaterial' remains incomplete or misapplies the controlling conflict of interest principle.",
+        "The proposed response 'Keep the interest secret because the vendor’s work may be competent' remains incomplete or misapplies the controlling conflict of interest principle.",
+        "The proposed response 'Recommend the vendor as the only option without comparing alternatives' remains incomplete or misapplies the controlling conflict of interest principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: conflict of interest",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "409ccf6883ea8674e4d22c3cd4981c2ad8622d452542bace42abf6d2351fb70f"
+    },
+    {
+      "id": "PV2-CORE-CH40-025",
+      "version": 1,
+      "chapterId": "ch-40",
+      "chapterTitle": "BCSP Code of Ethics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A9.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "truthful professional records",
+      "itemFamilyId": "PV2-CORE-CH40-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a competence boundary review, a supervisor proposes: \"Change the date because the concentration result did not change\". The underlying case is: Management asks a CSP to change a sampling date so an overdue test appears timely. The result itself is accurate. What should the CSP do? Which alternative is the most defensible correction?",
+      "options": [
+        "Refuse to falsify the record, preserve accurate information, and escalate the integrity concern through appropriate channels",
+        "Delete the record and collect a new sample without documenting the gap",
+        "Change the date because the concentration result did not change",
+        "Alter only the electronic version and retain the original privately"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Professional records must be truthful and complete. Falsifying timing misrepresents compliance and undermines evidence integrity even when the numerical result is valid.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Delete the record and collect a new sample without documenting the gap' remains incomplete or misapplies the controlling truthful professional records principle.",
+        "The proposed response 'Change the date because the concentration result did not change' remains incomplete or misapplies the controlling truthful professional records principle.",
+        "The proposed response 'Alter only the electronic version and retain the original privately' remains incomplete or misapplies the controlling truthful professional records principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 40, pp. 890-891; BCSP Code of Ethics; curated topic: truthful professional records",
+      "sourceUrls": [
+        "https://www.bcsp.org/code-of-ethics",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5ae6a6a2dabc3cc63298e0eaf66aa089239ae3e4138077bd9a3852393bb55f94"
+    }
+  ]
+}

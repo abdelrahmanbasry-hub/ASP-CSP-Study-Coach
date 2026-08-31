@@ -1,0 +1,2338 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-10-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-10",
+  "chapterTitle": "Noise and Hearing Conservation",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH10-001",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hearing conservation action level",
+      "itemFamilyId": "PV2-CORE-CH10-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Personal dosimetry shows an employee’s 8-hour TWA is 86 dBA before accounting for hearing protector attenuation. The employee has no prior hearing loss. What program decision is required under the federal general-industry hearing conservation framework?",
+      "options": [
+        "Include the employee in a continuing hearing conservation program because exposure meets or exceeds the 85 dBA action level",
+        "Subtract the labeled hearing protector rating before deciding whether the employee is covered",
+        "Exclude the employee because the 90 dBA permissible exposure limit was not exceeded",
+        "Wait for an audiogram to show a threshold shift before enrolling the employee"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Program inclusion is triggered at an 8-hour TWA of 85 dBA or 50% dose and is determined without credit for hearing protectors.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Subtract the labeled hearing protector rating before deciding whether the employee is covered' does not apply the controlling principle for hearing conservation action level to the facts given, so it is not the best answer.",
+        "The option 'Exclude the employee because the 90 dBA permissible exposure limit was not exceeded' does not apply the controlling principle for hearing conservation action level to the facts given, so it is not the best answer.",
+        "The option 'Wait for an audiogram to show a threshold shift before enrolling the employee' does not apply the controlling principle for hearing conservation action level to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: hearing conservation action level",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "667e949f2095b9f1c628b2306bbd62aacbef6d0d2fc28a6db9623a850ce83abc"
+    },
+    {
+      "id": "PV2-CORE-CH10-002",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "noise dose summation",
+      "itemFamilyId": "PV2-CORE-CH10-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A maintenance worker experiences several noise levels during a shift. No single segment exceeds its allowable duration, but the sum of exposure fractions is greater than 1. What is the correct interpretation?",
+      "options": [
+        "The fractions should be averaged rather than added",
+        "The combined daily noise exposure exceeds the allowable dose even though each segment alone is below its individual duration limit",
+        "The exposure is acceptable because only the loudest segment is considered",
+        "The result is relevant only when every segment exceeds 100 dBA"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Variable noise exposure is evaluated by summing the fractions of actual duration divided by allowable duration; the combined dose can exceed the limit without one segment doing so alone.",
+      "incorrectOptionExplanations": [
+        "The option 'The fractions should be averaged rather than added' does not apply the controlling principle for noise dose summation to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The exposure is acceptable because only the loudest segment is considered' does not apply the controlling principle for noise dose summation to the facts given, so it is not the best answer.",
+        "The option 'The result is relevant only when every segment exceeds 100 dBA' does not apply the controlling principle for noise dose summation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: noise dose summation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "77cd4e600af363e749c227248879556fb41b68ff166994d4701583f35fc4d0af"
+    },
+    {
+      "id": "PV2-CORE-CH10-003",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audiometric standard threshold shift",
+      "itemFamilyId": "PV2-CORE-CH10-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee’s annual audiogram shows an average worsening of 11 dB at 2,000, 3,000, and 4,000 Hz in one ear compared with the baseline, before any permitted age correction. What should the program do?",
+      "options": [
+        "Wait until the average shift reaches 25 dB at every test frequency",
+        "Ignore it because hearing changes must occur in both ears to be significant",
+        "Treat the result as a potential standard threshold shift, arrange required evaluation and follow-up, and determine whether the baseline should later be revised",
+        "Replace the baseline immediately before confirming the result"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "An average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear meets the STS criterion and triggers follow-up steps.",
+      "incorrectOptionExplanations": [
+        "The option 'Wait until the average shift reaches 25 dB at every test frequency' does not apply the controlling principle for audiometric standard threshold shift to the facts given, so it is not the best answer.",
+        "The option 'Ignore it because hearing changes must occur in both ears to be significant' does not apply the controlling principle for audiometric standard threshold shift to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Replace the baseline immediately before confirming the result' does not apply the controlling principle for audiometric standard threshold shift to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: audiometric standard threshold shift",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "db46db46c37536f1c57a4336d0054c07875eb355ebb77237cc6a3432179542d5"
+    },
+    {
+      "id": "PV2-CORE-CH10-004",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "engineering controls and feasibility",
+      "itemFamilyId": "PV2-CORE-CH10-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A press produces 96 dBA at the operator position. Management proposes relying indefinitely on earplugs because they are inexpensive. Which recommendation best follows the hierarchy and OSHA framework?",
+      "options": [
+        "Post a warning sign and discontinue exposure monitoring",
+        "Rotate workers without evaluating whether rotation creates additional exposed employees",
+        "Use hearing protection alone because PPE always replaces feasible source controls",
+        "Evaluate and implement feasible engineering or administrative controls, then use hearing protection for remaining exposure and program requirements"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "When exposure exceeds the permissible level, feasible controls are required, with PPE addressing residual risk. Cost alone does not justify skipping control feasibility analysis.",
+      "incorrectOptionExplanations": [
+        "The option 'Post a warning sign and discontinue exposure monitoring' does not apply the controlling principle for engineering controls and feasibility to the facts given, so it is not the best answer.",
+        "The option 'Rotate workers without evaluating whether rotation creates additional exposed employees' does not apply the controlling principle for engineering controls and feasibility to the facts given, so it is not the best answer.",
+        "The option 'Use hearing protection alone because PPE always replaces feasible source controls' does not apply the controlling principle for engineering controls and feasibility to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: engineering controls and feasibility",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e0b99c178cc1a808544a28d052e90f173de7f546fbf43f262f2804ac69335cb5"
+    },
+    {
+      "id": "PV2-CORE-CH10-005",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hearing protector attenuation",
+      "itemFamilyId": "PV2-CORE-CH10-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A worker must use two hearing protectors together in a very high-noise task. Which approach is most defensible for estimating protected exposure?",
+      "options": [
+        "Use an accepted field attenuation method, account for dual-protection limitations, and verify that the selected protection is adequate and wearable",
+        "Add both manufacturer NRR values directly to obtain total attenuation",
+        "Select the maximum-rated protectors without considering communication, fit, or overprotection",
+        "Assume the higher NRR device alone provides its full labeled value in every workplace"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Real-world attenuation is not the arithmetic sum of labels. A defensible estimate uses an accepted adjustment and confirms fit, compatibility, and task usability.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Add both manufacturer NRR values directly to obtain total attenuation' does not apply the controlling principle for hearing protector attenuation to the facts given, so it is not the best answer.",
+        "The option 'Select the maximum-rated protectors without considering communication, fit, or overprotection' does not apply the controlling principle for hearing protector attenuation to the facts given, so it is not the best answer.",
+        "The option 'Assume the higher NRR device alone provides its full labeled value in every workplace' does not apply the controlling principle for hearing protector attenuation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: hearing protector attenuation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8d07f8ea80a843e84ddc4d9ecd8a122aa3ea11262f8a0e5c45b7f033f03580e2"
+    },
+    {
+      "id": "PV2-CORE-CH10-006",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "instrument selection and settings",
+      "itemFamilyId": "PV2-CORE-CH10-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A sound level survey will be compared with an OSHA occupational-noise criterion. Which practice is essential before interpreting readings?",
+      "options": [
+        "Calibrate only after a result exceeds the limit",
+        "Use appropriate A-weighting, response settings, exchange rate or criterion configuration, and calibration consistent with the intended comparison",
+        "Use any instrument setting because decibels are independent of weighting and response",
+        "Use C-weighting data as an exact substitute for every A-weighted criterion"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Instrument configuration determines what the reading represents. Weighting, time response, criterion, exchange rate, and calibration must match the assessment objective.",
+      "incorrectOptionExplanations": [
+        "The option 'Calibrate only after a result exceeds the limit' does not apply the controlling principle for instrument selection and settings to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use any instrument setting because decibels are independent of weighting and response' does not apply the controlling principle for instrument selection and settings to the facts given, so it is not the best answer.",
+        "The option 'Use C-weighting data as an exact substitute for every A-weighted criterion' does not apply the controlling principle for instrument selection and settings to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: instrument selection and settings",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "debc4eb835b16d709eb8d666e5912bfb1424e12950598300d54fb4b1fc521804"
+    },
+    {
+      "id": "PV2-CORE-CH10-007",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "octave-band control analysis",
+      "itemFamilyId": "PV2-CORE-CH10-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Two machines produce the same overall dBA, but only one has a dominant narrow-frequency component. Why would octave-band data be useful?",
+      "options": [
+        "It eliminates the need to measure overall exposure over time",
+        "It proves that tonal noise is harmless when overall dBA is unchanged",
+        "It can identify the frequency bands that dominate exposure and guide source, barrier, enclosure, or absorption controls",
+        "It converts sound pressure directly into employee hearing ability"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Frequency analysis helps diagnose sources and select controls even when overall levels are similar; it does not replace exposure or audiometric assessment.",
+      "incorrectOptionExplanations": [
+        "The option 'It eliminates the need to measure overall exposure over time' does not apply the controlling principle for octave-band control analysis to the facts given, so it is not the best answer.",
+        "The option 'It proves that tonal noise is harmless when overall dBA is unchanged' does not apply the controlling principle for octave-band control analysis to the facts given, so it is not the best answer.",
+        null,
+        "The option 'It converts sound pressure directly into employee hearing ability' does not apply the controlling principle for octave-band control analysis to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: octave-band control analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "03861e2fe1dcd29a118436136ceceb72423ff3657da9bddbb78c405b3d483db5"
+    },
+    {
+      "id": "PV2-CORE-CH10-008",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "monitoring after change",
+      "itemFamilyId": "PV2-CORE-CH10-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility replaces pneumatic tools with a different model and changes production rate. Previous dosimetry was below the action level. What should the hearing program do?",
+      "options": [
+        "Repeat monitoring only after an employee files a hearing-loss claim",
+        "Assume newer equipment is quieter without measurement or manufacturer data",
+        "Rely permanently on the earlier data because the job title is unchanged",
+        "Reevaluate exposure because equipment and production changes can alter noise levels and program coverage"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Monitoring should be repeated when changes in process, equipment, controls, or production may create new or additional exposures.",
+      "incorrectOptionExplanations": [
+        "The option 'Repeat monitoring only after an employee files a hearing-loss claim' does not apply the controlling principle for monitoring after change to the facts given, so it is not the best answer.",
+        "The option 'Assume newer equipment is quieter without measurement or manufacturer data' does not apply the controlling principle for monitoring after change to the facts given, so it is not the best answer.",
+        "The option 'Rely permanently on the earlier data because the job title is unchanged' does not apply the controlling principle for monitoring after change to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: monitoring after change",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6db174ed4358ecc5ac29489e2d7ab01984f397d14bbd6cd7da84b6dc32259ef1"
+    },
+    {
+      "id": "PV2-CORE-CH10-009",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hearing conservation action level",
+      "itemFamilyId": "PV2-CORE-CH10-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an engineering-control feasibility study, the team reviews this case: Personal dosimetry shows an employee’s 8-hour TWA is 86 dBA before accounting for hearing protector attenuation. The employee has no prior hearing loss. What program decision is required under the federal general-industry hearing conservation framework? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Program inclusion is triggered at an 8-hour TWA of 85 dBA or 50% dose and is determined without credit for hearing protectors.",
+        "An average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear meets the STS criterion and triggers follow-up steps.",
+        "Instrument configuration determines what the reading represents. Weighting, time response, criterion, exchange rate, and calibration must match the assessment objective.",
+        "Variable noise exposure is evaluated by summing the fractions of actual duration divided by allowable duration; the combined dose can exceed the limit without one segment doing so alone."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses hearing conservation action level and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'audiometric standard threshold shift', but it does not resolve the hearing conservation action level issue in this case.",
+        "This rationale supports the separate chapter topic 'instrument selection and settings', but it does not resolve the hearing conservation action level issue in this case.",
+        "This rationale supports the separate chapter topic 'noise dose summation', but it does not resolve the hearing conservation action level issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: hearing conservation action level",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "66742aa746366fd01725a9dddc341506d418cbf13f8850923d0c88004881c548"
+    },
+    {
+      "id": "PV2-CORE-CH10-010",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "noise dose summation",
+      "itemFamilyId": "PV2-CORE-CH10-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an audiogram follow-up, the team reviews this case: A maintenance worker experiences several noise levels during a shift. No single segment exceeds its allowable duration, but the sum of exposure fractions is greater than 1. What is the correct interpretation? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Program inclusion is triggered at an 8-hour TWA of 85 dBA or 50% dose and is determined without credit for hearing protectors.",
+        "Variable noise exposure is evaluated by summing the fractions of actual duration divided by allowable duration; the combined dose can exceed the limit without one segment doing so alone.",
+        "Monitoring should be repeated when changes in process, equipment, controls, or production may create new or additional exposures.",
+        "Real-world attenuation is not the arithmetic sum of labels. A defensible estimate uses an accepted adjustment and confirms fit, compatibility, and task usability."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses noise dose summation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hearing conservation action level', but it does not resolve the noise dose summation issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'monitoring after change', but it does not resolve the noise dose summation issue in this case.",
+        "This rationale supports the separate chapter topic 'hearing protector attenuation', but it does not resolve the noise dose summation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: noise dose summation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a7fb5e5dd32a40a9448da49c7e1aa9a5ba6573cbe0f51079c3e5e059536fd7ea"
+    },
+    {
+      "id": "PV2-CORE-CH10-011",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audiometric standard threshold shift",
+      "itemFamilyId": "PV2-CORE-CH10-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a noisy maintenance outage, the team reviews this case: An employee’s annual audiogram shows an average worsening of 11 dB at 2,000, 3,000, and 4,000 Hz in one ear compared with the baseline, before any permitted age correction. What should the program do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Instrument configuration determines what the reading represents. Weighting, time response, criterion, exchange rate, and calibration must match the assessment objective.",
+        "Variable noise exposure is evaluated by summing the fractions of actual duration divided by allowable duration; the combined dose can exceed the limit without one segment doing so alone.",
+        "An average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear meets the STS criterion and triggers follow-up steps.",
+        "Frequency analysis helps diagnose sources and select controls even when overall levels are similar; it does not replace exposure or audiometric assessment."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses audiometric standard threshold shift and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'instrument selection and settings', but it does not resolve the audiometric standard threshold shift issue in this case.",
+        "This rationale supports the separate chapter topic 'noise dose summation', but it does not resolve the audiometric standard threshold shift issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'octave-band control analysis', but it does not resolve the audiometric standard threshold shift issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: audiometric standard threshold shift",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f0a7fabe356a637c4749a2cac2cad28e409287108cf87eee34a922578bb4105b"
+    },
+    {
+      "id": "PV2-CORE-CH10-012",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "engineering controls and feasibility",
+      "itemFamilyId": "PV2-CORE-CH10-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hearing protector evaluation, the team reviews this case: A press produces 96 dBA at the operator position. Management proposes relying indefinitely on earplugs because they are inexpensive. Which recommendation best follows the hierarchy and OSHA framework? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear meets the STS criterion and triggers follow-up steps.",
+        "Instrument configuration determines what the reading represents. Weighting, time response, criterion, exchange rate, and calibration must match the assessment objective.",
+        "Program inclusion is triggered at an 8-hour TWA of 85 dBA or 50% dose and is determined without credit for hearing protectors.",
+        "When exposure exceeds the permissible level, feasible controls are required, with PPE addressing residual risk. Cost alone does not justify skipping control feasibility analysis."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses engineering controls and feasibility and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'audiometric standard threshold shift', but it does not resolve the engineering controls and feasibility issue in this case.",
+        "This rationale supports the separate chapter topic 'instrument selection and settings', but it does not resolve the engineering controls and feasibility issue in this case.",
+        "This rationale supports the separate chapter topic 'hearing conservation action level', but it does not resolve the engineering controls and feasibility issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: engineering controls and feasibility",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1d28b331abd37231e78261bed7b1ef6f03549f35c31f21b210f0920a1b553f48"
+    },
+    {
+      "id": "PV2-CORE-CH10-013",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hearing protector attenuation",
+      "itemFamilyId": "PV2-CORE-CH10-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an octave-band analysis, the team reviews this case: A worker must use two hearing protectors together in a very high-noise task. Which approach is most defensible for estimating protected exposure? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Real-world attenuation is not the arithmetic sum of labels. A defensible estimate uses an accepted adjustment and confirms fit, compatibility, and task usability.",
+        "When exposure exceeds the permissible level, feasible controls are required, with PPE addressing residual risk. Cost alone does not justify skipping control feasibility analysis.",
+        "An average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear meets the STS criterion and triggers follow-up steps.",
+        "Monitoring should be repeated when changes in process, equipment, controls, or production may create new or additional exposures."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses hearing protector attenuation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'engineering controls and feasibility', but it does not resolve the hearing protector attenuation issue in this case.",
+        "This rationale supports the separate chapter topic 'audiometric standard threshold shift', but it does not resolve the hearing protector attenuation issue in this case.",
+        "This rationale supports the separate chapter topic 'monitoring after change', but it does not resolve the hearing protector attenuation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: hearing protector attenuation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "78a1eb66a7cf9d6dbc716fbcc9fb47eef871d8f1161eba6d0091904cae597f44"
+    },
+    {
+      "id": "PV2-CORE-CH10-014",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "instrument selection and settings",
+      "itemFamilyId": "PV2-CORE-CH10-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a change in production equipment, the team reviews this case: A sound level survey will be compared with an OSHA occupational-noise criterion. Which practice is essential before interpreting readings? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Program inclusion is triggered at an 8-hour TWA of 85 dBA or 50% dose and is determined without credit for hearing protectors.",
+        "Instrument configuration determines what the reading represents. Weighting, time response, criterion, exchange rate, and calibration must match the assessment objective.",
+        "When exposure exceeds the permissible level, feasible controls are required, with PPE addressing residual risk. Cost alone does not justify skipping control feasibility analysis.",
+        "Variable noise exposure is evaluated by summing the fractions of actual duration divided by allowable duration; the combined dose can exceed the limit without one segment doing so alone."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses instrument selection and settings and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hearing conservation action level', but it does not resolve the instrument selection and settings issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'engineering controls and feasibility', but it does not resolve the instrument selection and settings issue in this case.",
+        "This rationale supports the separate chapter topic 'noise dose summation', but it does not resolve the instrument selection and settings issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: instrument selection and settings",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "674b4ab3ac0aa027787d7ca4be9ba7ba8a7f83b3e2f38bf7fd25da75279e62d5"
+    },
+    {
+      "id": "PV2-CORE-CH10-015",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "octave-band control analysis",
+      "itemFamilyId": "PV2-CORE-CH10-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hearing conservation program audit, the team reviews this case: Two machines produce the same overall dBA, but only one has a dominant narrow-frequency component. Why would octave-band data be useful? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Real-world attenuation is not the arithmetic sum of labels. A defensible estimate uses an accepted adjustment and confirms fit, compatibility, and task usability.",
+        "Variable noise exposure is evaluated by summing the fractions of actual duration divided by allowable duration; the combined dose can exceed the limit without one segment doing so alone.",
+        "Frequency analysis helps diagnose sources and select controls even when overall levels are similar; it does not replace exposure or audiometric assessment.",
+        "An average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear meets the STS criterion and triggers follow-up steps."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses octave-band control analysis and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hearing protector attenuation', but it does not resolve the octave-band control analysis issue in this case.",
+        "This rationale supports the separate chapter topic 'noise dose summation', but it does not resolve the octave-band control analysis issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'audiometric standard threshold shift', but it does not resolve the octave-band control analysis issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: octave-band control analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1793d666fad2e31f488e478546d17cf4ffcd874fb631660069a891dc9ac0ed71"
+    },
+    {
+      "id": "PV2-CORE-CH10-016",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "monitoring after change",
+      "itemFamilyId": "PV2-CORE-CH10-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a dosimetry plan review, the team reviews this case: A facility replaces pneumatic tools with a different model and changes production rate. Previous dosimetry was below the action level. What should the hearing program do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Variable noise exposure is evaluated by summing the fractions of actual duration divided by allowable duration; the combined dose can exceed the limit without one segment doing so alone.",
+        "Real-world attenuation is not the arithmetic sum of labels. A defensible estimate uses an accepted adjustment and confirms fit, compatibility, and task usability.",
+        "When exposure exceeds the permissible level, feasible controls are required, with PPE addressing residual risk. Cost alone does not justify skipping control feasibility analysis.",
+        "Monitoring should be repeated when changes in process, equipment, controls, or production may create new or additional exposures."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses monitoring after change and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'noise dose summation', but it does not resolve the monitoring after change issue in this case.",
+        "This rationale supports the separate chapter topic 'hearing protector attenuation', but it does not resolve the monitoring after change issue in this case.",
+        "This rationale supports the separate chapter topic 'engineering controls and feasibility', but it does not resolve the monitoring after change issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: monitoring after change",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b54ab47ca4a5472e73b270055c0e852216ef1366eb01e7c8b33c46c505b15dc9"
+    },
+    {
+      "id": "PV2-CORE-CH10-017",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Noise dosimetry for variable work",
+      "itemFamilyId": "PV2-CORE-CH10-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a dosimetry plan review, the team reviews this question: A maintenance mechanic moves among compressors, pumps, and quiet control rooms, with task durations changing each day. Which instrument best estimates the mechanic’s full-shift noise dose? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A dosimeter follows a mobile worker and integrates changing sound levels and durations. Its criterion level, exchange rate, threshold, weighting, and response settings must match the decision framework.",
+        "Octave-band data show how sound energy is distributed across frequency ranges. That information helps identify dominant frequencies and select controls or hearing protection suited to the actual spectrum.",
+        "Correcting the source defect can reduce noise for everyone. Hearing protection and administrative measures may be needed temporarily but should not replace feasible source control.",
+        "OSHA requires a baseline within six months, with a one-year exception for mobile test vans. Baseline testing requires 14 hours without workplace noise; hearing protectors may substitute for that quiet period."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Octave-band analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Engineering noise control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Baseline audiogram timing and quiet period', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure; NIOSH Noise and Hearing Loss Prevention — Understand Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, sound-measuring instruments and monitoring, pp. 314-317; OSHA 1910.95(d) and App. G; NIOSH noise measurement guidance; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://www.cdc.gov/niosh/noise/prevent/understand.html"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bce7936ed34c758939262975ef9e00d2e44f9bcea04b163ef7df129ea950c766"
+    },
+    {
+      "id": "PV2-CORE-CH10-018",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Octave-band analysis",
+      "itemFamilyId": "PV2-CORE-CH10-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an engineering-control feasibility study, the team reviews this question: Two machines produce nearly identical overall dBA readings, but the engineer must choose between controls aimed at different frequency ranges. Which additional measurement is most useful? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A dosimeter follows a mobile worker and integrates changing sound levels and durations. Its criterion level, exchange rate, threshold, weighting, and response settings must match the decision framework.",
+        "Octave-band data show how sound energy is distributed across frequency ranges. That information helps identify dominant frequencies and select controls or hearing protection suited to the actual spectrum.",
+        "Correcting the source defect can reduce noise for everyone. Hearing protection and administrative measures may be needed temporarily but should not replace feasible source control.",
+        "The average is (12 + 8 + 10)/3 = 10 dB. OSHA defines an STS as an average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Noise dosimetry for variable work', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Engineering noise control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Standard Threshold Shift definition', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure; NIOSH Noise and Hearing Loss Prevention — Understand Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, octave-band analyzers, p. 315; NIOSH noise measurement guidance; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://www.cdc.gov/niosh/noise/prevent/understand.html"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8d65bc9a4825a7f79b698e0947aacb7295e56cae94d7a8662f0981498380340b"
+    },
+    {
+      "id": "PV2-CORE-CH10-019",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sensorineural hearing loss",
+      "itemFamilyId": "PV2-CORE-CH10-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an audiogram follow-up, the team reviews this question: Long-term hazardous noise damages cochlear hair cells and produces permanent hearing loss. How is this loss classified? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA specifically identifies mobility, significant sound-level variation, and impulse components as circumstances where representative personal sampling is generally required.",
+        "L₂ = L₁ + 20 log₁₀(d₁/d₂) = 104 + 20 log₁₀(4/16) = 104 − 12.04 = 91.96 dBA, approximately 92.0 dBA.",
+        "Noise-induced damage to the cochlea or auditory nerve is sensorineural. Conductive loss involves impaired transmission through the outer or middle ear.",
+        "OSHA’s hearing-conservation action level is an eight-hour TWA of 85 dBA or a 50% dose. Program enrollment is based on unattenuated exposure."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Representative personal noise monitoring', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Free-field distance attenuation', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'OSHA hearing-conservation action level', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure; NIOSH Noise and Hearing Loss Prevention — Understand Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, anatomy of the ear and types of hearing loss, pp. 318-321; NIOSH noise-induced hearing loss guidance; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://www.cdc.gov/niosh/noise/prevent/understand.html"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e4509e15bb919f323256200e9d72a5865b9ac899a4d511dec57522af119dc76d"
+    },
+    {
+      "id": "PV2-CORE-CH10-020",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "OSHA hearing-conservation action level",
+      "itemFamilyId": "PV2-CORE-CH10-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a noisy maintenance outage, the team reviews this question: OSHA exposure monitoring shows an employee’s eight-hour TWA is 86 dBA, calculated without credit for hearing-protector attenuation. What program action is required? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Noise-induced damage to the cochlea or auditory nerve is sensorineural. Conductive loss involves impaired transmission through the outer or middle ear.",
+        "L₂ = L₁ + 20 log₁₀(d₁/d₂) = 104 + 20 log₁₀(4/16) = 104 − 12.04 = 91.96 dBA, approximately 92.0 dBA.",
+        "Laboratory ratings do not guarantee field performance. OSHA requires suitable protectors, training in use and care, and evaluation of attenuation for the employee’s environment.",
+        "OSHA’s hearing-conservation action level is an eight-hour TWA of 85 dBA or a 50% dose. Program enrollment is based on unattenuated exposure."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Sensorineural hearing loss', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Free-field distance attenuation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Real-world hearing-protector attenuation', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure; NIOSH Noise and Hearing Loss Prevention — Understand Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, hearing conservation program, pp. 314-317; OSHA 1910.95(c); Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://www.cdc.gov/niosh/noise/prevent/understand.html"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3bd80f5d632d21b2ee4b17f3d1493f737350cb196990e6f5ef0277edda79d91b"
+    },
+    {
+      "id": "PV2-CORE-CH10-021",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Representative personal noise monitoring",
+      "itemFamilyId": "PV2-CORE-CH10-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hearing protector evaluation, the team reviews this question: Employees are highly mobile, sound levels vary substantially, and impact noise occurs during some tasks. Which monitoring strategy best meets OSHA’s intent? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA specifically identifies mobility, significant sound-level variation, and impulse components as circumstances where representative personal sampling is generally required.",
+        "OSHA’s hearing-conservation action level is an eight-hour TWA of 85 dBA or a 50% dose. Program enrollment is based on unattenuated exposure.",
+        "Noise-induced damage to the cochlea or auditory nerve is sensorineural. Conductive loss involves impaired transmission through the outer or middle ear.",
+        "The standard requires notification of affected employees and an opportunity for employees or representatives to observe exposure monitoring."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'OSHA hearing-conservation action level', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Sensorineural hearing loss', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Employee notification and observation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure; NIOSH Noise and Hearing Loss Prevention — Understand Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, monitoring, p. 315; OSHA 1910.95(d)(1); OSHA App. G; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://www.cdc.gov/niosh/noise/prevent/understand.html"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a7ae6f0a9591fb5098c5ec27aa210da4271fb6df5534e59e31053127bd8caa7a"
+    },
+    {
+      "id": "PV2-CORE-CH10-022",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Employee notification and observation",
+      "itemFamilyId": "PV2-CORE-CH10-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an octave-band analysis, the team reviews this question: Monitoring identifies employees exposed at or above the 85-dBA action level. Which communication step is required by OSHA’s noise standard? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA’s hearing-conservation action level is an eight-hour TWA of 85 dBA or a 50% dose. Program enrollment is based on unattenuated exposure.",
+        "The standard requires notification of affected employees and an opportunity for employees or representatives to observe exposure monitoring.",
+        "Noise-induced damage to the cochlea or auditory nerve is sensorineural. Conductive loss involves impaired transmission through the outer or middle ear.",
+        "OSHA specifically identifies mobility, significant sound-level variation, and impulse components as circumstances where representative personal sampling is generally required."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'OSHA hearing-conservation action level', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Sensorineural hearing loss', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Representative personal noise monitoring', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, employee notification, pp. 315-316; OSHA 1910.95(e)-(f); Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "068df0db0fe491f6b371b0493409b611afe6b7925c7bb2cdac6a63a5ac95e23f"
+    },
+    {
+      "id": "PV2-CORE-CH10-023",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Baseline audiogram timing and quiet period",
+      "itemFamilyId": "PV2-CORE-CH10-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a change in production equipment, the team reviews this question: A newly enrolled employee will receive a baseline audiogram under OSHA’s general-industry noise standard. Which plan is compliant with the core baseline requirements? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For OSHA 300 recordability, the case must be work-related, include an STS, and have a total hearing level of 25 dB or more above audiometric zero at the same frequencies in the same ear.",
+        "A dosimeter follows a mobile worker and integrates changing sound levels and durations. Its criterion level, exchange rate, threshold, weighting, and response settings must match the decision framework.",
+        "OSHA requires a baseline within six months, with a one-year exception for mobile test vans. Baseline testing requires 14 hours without workplace noise; hearing protectors may substitute for that quiet period.",
+        "The average is (12 + 8 + 10)/3 = 10 dB. OSHA defines an STS as an average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'OSHA hearing-loss recordability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Noise dosimetry for variable work', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Standard Threshold Shift definition', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, audiometric testing, p. 316; OSHA 1910.95(g)(5); Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "13c55f475dc4f2867736c9b5d9d6f71ba52c9511ee5fe13f0ffce4baad42d4e6"
+    },
+    {
+      "id": "PV2-CORE-CH10-024",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Mixed-exposure OSHA noise dose",
+      "itemFamilyId": "PV2-CORE-CH10-F024",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a hearing conservation program audit, solve the following problem and select the best answer: A worker is exposed to 100 dBA for 0.5 h, 95 dBA for 1.5 h, 90 dBA for 2 h, and 85 dBA for 3 h. Using OSHA allowable durations of 2, 4, 8, and 16 h, what is the approximate daily dose?",
+      "options": [
+        "88%",
+        "213%",
+        "74%",
+        "106%"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Dose = 100[(0.5/2) + (1.5/4) + (2/8) + (3/16)] = 100(1.0625) = 106.25%, approximately 106%.",
+      "incorrectOptionExplanations": [
+        "This does not sum all four time-to-allowable-time fractions correctly.",
+        "This approximately doubles the correct summed dose.",
+        "This omits or underweights one or more exposure fractions.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, noise dosage, pp. 322-324; OSHA 1910.95(b)(1), Table G-16 and App. A; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "D (%) = 100 × Σ(Cᵢ/Tᵢ)",
+      "units": "%",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bb372da2dc0bd692170c597f610bb58f22e5a29d34cb1a2361bf309fba112e7a"
+    },
+    {
+      "id": "PV2-CORE-CH10-025",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Noise dose to TWA conversion",
+      "itemFamilyId": "PV2-CORE-CH10-F025",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a dosimetry plan review, solve the following problem and select the best answer: A dosimeter configured to OSHA’s 5-dB exchange-rate criterion reports a 125% dose. What is the corresponding eight-hour TWA?",
+      "options": [
+        "91.6 dBA",
+        "90.0 dBA",
+        "95.0 dBA",
+        "85.0 dBA"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "TWA = 16.61 log₁₀(D/100) + 90 = 16.61 log₁₀(1.25) + 90 = 91.61 dBA.",
+      "incorrectOptionExplanations": [
+        null,
+        "A 100% dose corresponds to 90 dBA; 125% is higher.",
+        "A 95-dBA TWA corresponds to a substantially larger OSHA dose.",
+        "Under the OSHA relationship, 50% dose corresponds to 85 dBA, not 125%."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, converting dose into TWA, pp. 324-325; OSHA 1910.95 App. A; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "TWA = 16.61 log₁₀(D/100) + 90",
+      "units": "dBA",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5b3508e4287a1e32308afdc36a69fcf2bb0d9319b09a847a813bc8863f4ca030"
+    },
+    {
+      "id": "PV2-CORE-CH10-026",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Combining sound levels",
+      "itemFamilyId": "PV2-CORE-CH10-F026",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During an engineering-control feasibility study, solve the following problem and select the best answer: At one location, two independent machines produce 91 dB and 96 dB. What is their approximate combined sound level?",
+      "options": [
+        "93.5 dB",
+        "97.2 dB",
+        "96.0 dB",
+        "187 dB"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Ltotal = 10 log₁₀(10^(91/10) + 10^(96/10)) = 97.19 dB, approximately 97.2 dB.",
+      "incorrectOptionExplanations": [
+        "This arithmetically averages logarithmic levels, which is not valid for combining sound energy.",
+        null,
+        "The combined level must be slightly higher than the larger individual level.",
+        "Sound levels are not combined by simple addition."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 10, combining noise levels, pp. 325-326; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Ltotal = 10 log₁₀[Σ10^(Lᵢ/10)]",
+      "units": "dB",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c56ed88d47738f4a59dd0a8457f11d19a9828a7d53f551c9ae803dd92b4429e3"
+    },
+    {
+      "id": "PV2-CORE-CH10-027",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Free-field distance attenuation",
+      "itemFamilyId": "PV2-CORE-CH10-F027",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During an audiogram follow-up, solve the following problem and select the best answer: A point source measures 104 dBA at 4 ft. What level is expected at 16 ft in a free field, ignoring reflections and other sources?",
+      "options": [
+        "116.0 dBA",
+        "98.0 dBA",
+        "92.0 dBA",
+        "80.0 dBA"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "L₂ = L₁ + 20 log₁₀(d₁/d₂) = 104 + 20 log₁₀(4/16) = 104 − 12.04 = 91.96 dBA, approximately 92.0 dBA.",
+      "incorrectOptionExplanations": [
+        "This reverses the distance ratio and predicts an increase with greater distance.",
+        "A 6-dB decrease corresponds to doubling distance once; the distance here doubles twice.",
+        null,
+        "This subtracts 6 dB for each fourfold increase rather than each doubling."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 10, calculating sound levels at various distances, pp. 326-327; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "L₂ = L₁ + 20 log₁₀(d₁/d₂)",
+      "units": "dBA",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d4736c4a7da30e4b0054347c6e9d61e750e990f9e8518aa0741f6df7387c4b1a"
+    },
+    {
+      "id": "PV2-CORE-CH10-028",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sound wavelength",
+      "itemFamilyId": "PV2-CORE-CH10-F028",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a noisy maintenance outage, solve the following problem and select the best answer: Using a sound speed of 332 m/s, what is the wavelength of a 500-Hz tone?",
+      "options": [
+        "0.00664 m",
+        "1.51 m",
+        "166,000 m",
+        "0.664 m"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "c = λf, so λ = c/f = 332 m/s ÷ 500 s⁻¹ = 0.664 m.",
+      "incorrectOptionExplanations": [
+        "This introduces an incorrect factor-of-100 conversion.",
+        "This reverses the frequency and wave-speed relationship.",
+        "This multiplies sound speed by frequency instead of dividing.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 10, frequency, speed of sound, and wavelength, pp. 317-319; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "λ = c/f",
+      "units": "m",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6daa9febda210dc20cef08c2473ff1f76e6a9ef47199b7700ceb375ed6b081e9"
+    },
+    {
+      "id": "PV2-CORE-CH10-029",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Standard Threshold Shift definition",
+      "itemFamilyId": "PV2-CORE-CH10-F029",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a hearing protector evaluation, solve the following problem and select the best answer: Compared with baseline, one ear has threshold changes of 12 dB at 2,000 Hz, 8 dB at 3,000 Hz, and 10 dB at 4,000 Hz. What is the OSHA STS interpretation before any permitted age adjustment or retest?",
+      "options": [
+        "The calculated 10-dB average meets OSHA’s numerical STS definition for the affected ear.",
+        "It is an STS only if both ears show the same change.",
+        "It is not an STS because every individual frequency must shift by at least 10 dB.",
+        "It is automatically an OSHA 300 recordable case regardless of total hearing level and work-relatedness."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The average is (12 + 8 + 10)/3 = 10 dB. OSHA defines an STS as an average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear.",
+      "incorrectOptionExplanations": [
+        null,
+        "An STS may occur in one or both ears.",
+        "The definition uses the average of the three frequencies, not a minimum at each one.",
+        "Recordability under 1904.10 requires additional criteria beyond the STS definition."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure; OSHA 29 CFR 1904.10 — Recording Criteria for Occupational Hearing Loss",
+      "sourceLocation": "Yates Chapter 10, STS, p. 316; OSHA 1910.95(g)(10)(i); OSHA 1904.10; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.10"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Average shift = (Δ2k + Δ3k + Δ4k)/3",
+      "units": "dB",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6bc1d5b7b5358ddbd57fb6e388f225994638303610cfddd9d70e6f381fcb5cda"
+    },
+    {
+      "id": "PV2-CORE-CH10-030",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "OSHA hearing-loss recordability",
+      "itemFamilyId": "PV2-CORE-CH10-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an octave-band analysis, the team reviews this question: An employee has a confirmed work-related STS, but the current average hearing level at 2,000, 3,000, and 4,000 Hz in the same ear is 24 dB above audiometric zero. What is the correct OSHA 300 conclusion? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A dosimeter follows a mobile worker and integrates changing sound levels and durations. Its criterion level, exchange rate, threshold, weighting, and response settings must match the decision framework.",
+        "For OSHA 300 recordability, the case must be work-related, include an STS, and have a total hearing level of 25 dB or more above audiometric zero at the same frequencies in the same ear.",
+        "The average is (12 + 8 + 10)/3 = 10 dB. OSHA defines an STS as an average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear.",
+        "OSHA requires a baseline within six months, with a one-year exception for mobile test vans. Baseline testing requires 14 hours without workplace noise; hearing protectors may substitute for that quiet period."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Noise dosimetry for variable work', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Standard Threshold Shift definition', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Baseline audiogram timing and quiet period', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "OSHA 29 CFR 1910.95 — Occupational Noise Exposure; OSHA 29 CFR 1904.10 — Recording Criteria for Occupational Hearing Loss",
+      "sourceLocation": "OSHA 1910.95(g)(8)-(10); OSHA 1904.10(a)-(b); Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.10",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c9152fac8875781f56a223ef266dcf74a7453a3fff68aabd1393d7e75cb80470"
+    },
+    {
+      "id": "PV2-CORE-CH10-031",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Engineering noise control",
+      "itemFamilyId": "PV2-CORE-CH10-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a change in production equipment, the team reviews this question: A packaging machine becomes substantially louder after a bearing begins to fail. Which response best follows the hierarchy of controls? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Laboratory ratings do not guarantee field performance. OSHA requires suitable protectors, training in use and care, and evaluation of attenuation for the employee’s environment.",
+        "A dosimeter follows a mobile worker and integrates changing sound levels and durations. Its criterion level, exchange rate, threshold, weighting, and response settings must match the decision framework.",
+        "Correcting the source defect can reduce noise for everyone. Hearing protection and administrative measures may be needed temporarily but should not replace feasible source control.",
+        "Octave-band data show how sound energy is distributed across frequency ranges. That information helps identify dominant frequencies and select controls or hearing protection suited to the actual spectrum."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Real-world hearing-protector attenuation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Noise dosimetry for variable work', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Octave-band analysis', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); NIOSH Noise and Hearing Loss Prevention — Understand Noise Exposure",
+      "sourceLocation": "Yates Chapter 10, noise evaluation and control, pp. 314-331; NIOSH noise-prevention guidance; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/noise/prevent/understand.html",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "91b573870776dc106ebfb48716f9a27842e7401dbdeedd7f1e2f4d23979f1c20"
+    },
+    {
+      "id": "PV2-CORE-CH10-032",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Real-world hearing-protector attenuation",
+      "itemFamilyId": "PV2-CORE-CH10-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hearing conservation program audit, the team reviews this question: A plug is labeled NRR 30 dB, but workers insert it inconsistently and receive no fit instruction. What is the most defensible conclusion? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA’s hearing-conservation action level is an eight-hour TWA of 85 dBA or a 50% dose. Program enrollment is based on unattenuated exposure.",
+        "Correcting the source defect can reduce noise for everyone. Hearing protection and administrative measures may be needed temporarily but should not replace feasible source control.",
+        "Octave-band data show how sound energy is distributed across frequency ranges. That information helps identify dominant frequencies and select controls or hearing protection suited to the actual spectrum.",
+        "Laboratory ratings do not guarantee field performance. OSHA requires suitable protectors, training in use and care, and evaluation of attenuation for the employee’s environment."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'OSHA hearing-conservation action level', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Engineering noise control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Octave-band analysis', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA 29 CFR 1910.95 — Occupational Noise Exposure; NIOSH Noise and Hearing Loss Prevention — Understand Noise Exposure",
+      "sourceLocation": "Yates Chapter 14, hearing protection, pp. 392-395; OSHA 1910.95(i)-(j) and App. B; NIOSH noise guidance; Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://www.cdc.gov/niosh/noise/prevent/understand.html"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b71569a37268055c76dc6ee67d4efc66473165a446f9377d7e40317eb3f766d0"
+    },
+    {
+      "id": "PV2-CORE-CH10-033",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hearing conservation action level",
+      "itemFamilyId": "PV2-CORE-CH10-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an audiogram follow-up, a supervisor proposes: \"Wait for an audiogram to show a threshold shift before enrolling the employee\". The underlying case is: Personal dosimetry shows an employee’s 8-hour TWA is 86 dBA before accounting for hearing protector attenuation. The employee has no prior hearing loss. What program decision is required under the federal general-industry hearing conservation framework? Which alternative is the most defensible correction?",
+      "options": [
+        "Include the employee in a continuing hearing conservation program because exposure meets or exceeds the 85 dBA action level",
+        "Exclude the employee because the 90 dBA permissible exposure limit was not exceeded",
+        "Wait for an audiogram to show a threshold shift before enrolling the employee",
+        "Subtract the labeled hearing protector rating before deciding whether the employee is covered"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Program inclusion is triggered at an 8-hour TWA of 85 dBA or 50% dose and is determined without credit for hearing protectors.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Exclude the employee because the 90 dBA permissible exposure limit was not exceeded' remains incomplete or misapplies the controlling hearing conservation action level principle.",
+        "The proposed response 'Wait for an audiogram to show a threshold shift before enrolling the employee' remains incomplete or misapplies the controlling hearing conservation action level principle.",
+        "The proposed response 'Subtract the labeled hearing protector rating before deciding whether the employee is covered' remains incomplete or misapplies the controlling hearing conservation action level principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: hearing conservation action level",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "535096bc75c5af73299079f488e31b2fdf46d9fc2ee4bb2fb4040da473b646ae"
+    },
+    {
+      "id": "PV2-CORE-CH10-034",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "noise dose summation",
+      "itemFamilyId": "PV2-CORE-CH10-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a noisy maintenance outage, a supervisor proposes: \"The exposure is acceptable because only the loudest segment is considered\". The underlying case is: A maintenance worker experiences several noise levels during a shift. No single segment exceeds its allowable duration, but the sum of exposure fractions is greater than 1. What is the correct interpretation? Which alternative is the most defensible correction?",
+      "options": [
+        "The exposure is acceptable because only the loudest segment is considered",
+        "The combined daily noise exposure exceeds the allowable dose even though each segment alone is below its individual duration limit",
+        "The fractions should be averaged rather than added",
+        "The result is relevant only when every segment exceeds 100 dBA"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Variable noise exposure is evaluated by summing the fractions of actual duration divided by allowable duration; the combined dose can exceed the limit without one segment doing so alone.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The exposure is acceptable because only the loudest segment is considered' remains incomplete or misapplies the controlling noise dose summation principle.",
+        null,
+        "The proposed response 'The fractions should be averaged rather than added' remains incomplete or misapplies the controlling noise dose summation principle.",
+        "The proposed response 'The result is relevant only when every segment exceeds 100 dBA' remains incomplete or misapplies the controlling noise dose summation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: noise dose summation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5c96ceee040d3541984e0bb271d028140042995565b62ddcd894ee174c3e0719"
+    },
+    {
+      "id": "PV2-CORE-CH10-035",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "audiometric standard threshold shift",
+      "itemFamilyId": "PV2-CORE-CH10-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hearing protector evaluation, a supervisor proposes: \"Replace the baseline immediately before confirming the result\". The underlying case is: An employee’s annual audiogram shows an average worsening of 11 dB at 2,000, 3,000, and 4,000 Hz in one ear compared with the baseline, before any permitted age correction. What should the program do? Which alternative is the most defensible correction?",
+      "options": [
+        "Ignore it because hearing changes must occur in both ears to be significant",
+        "Wait until the average shift reaches 25 dB at every test frequency",
+        "Treat the result as a potential standard threshold shift, arrange required evaluation and follow-up, and determine whether the baseline should later be revised",
+        "Replace the baseline immediately before confirming the result"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "An average change of 10 dB or more at 2,000, 3,000, and 4,000 Hz in either ear meets the STS criterion and triggers follow-up steps.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Ignore it because hearing changes must occur in both ears to be significant' remains incomplete or misapplies the controlling audiometric standard threshold shift principle.",
+        "The proposed response 'Wait until the average shift reaches 25 dB at every test frequency' remains incomplete or misapplies the controlling audiometric standard threshold shift principle.",
+        null,
+        "The proposed response 'Replace the baseline immediately before confirming the result' remains incomplete or misapplies the controlling audiometric standard threshold shift principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: audiometric standard threshold shift",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "21ff292b5fe415169c9986a71bec8db4a850fcbf3d71509d07bbda95a03b1a16"
+    },
+    {
+      "id": "PV2-CORE-CH10-036",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "engineering controls and feasibility",
+      "itemFamilyId": "PV2-CORE-CH10-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an octave-band analysis, a supervisor proposes: \"Post a warning sign and discontinue exposure monitoring\". The underlying case is: A press produces 96 dBA at the operator position. Management proposes relying indefinitely on earplugs because they are inexpensive. Which recommendation best follows the hierarchy and OSHA framework? Which alternative is the most defensible correction?",
+      "options": [
+        "Use hearing protection alone because PPE always replaces feasible source controls",
+        "Post a warning sign and discontinue exposure monitoring",
+        "Rotate workers without evaluating whether rotation creates additional exposed employees",
+        "Evaluate and implement feasible engineering or administrative controls, then use hearing protection for remaining exposure and program requirements"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "When exposure exceeds the permissible level, feasible controls are required, with PPE addressing residual risk. Cost alone does not justify skipping control feasibility analysis.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use hearing protection alone because PPE always replaces feasible source controls' remains incomplete or misapplies the controlling engineering controls and feasibility principle.",
+        "The proposed response 'Post a warning sign and discontinue exposure monitoring' remains incomplete or misapplies the controlling engineering controls and feasibility principle.",
+        "The proposed response 'Rotate workers without evaluating whether rotation creates additional exposed employees' remains incomplete or misapplies the controlling engineering controls and feasibility principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: engineering controls and feasibility",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f125a5b86db986c4a9952ed8d60839f0fbfcd921bdaf25b17274545e1cfc37e3"
+    },
+    {
+      "id": "PV2-CORE-CH10-037",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hearing protector attenuation",
+      "itemFamilyId": "PV2-CORE-CH10-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a change in production equipment, a supervisor proposes: \"Add both manufacturer NRR values directly to obtain total attenuation\". The underlying case is: A worker must use two hearing protectors together in a very high-noise task. Which approach is most defensible for estimating protected exposure? Which alternative is the most defensible correction?",
+      "options": [
+        "Use an accepted field attenuation method, account for dual-protection limitations, and verify that the selected protection is adequate and wearable",
+        "Add both manufacturer NRR values directly to obtain total attenuation",
+        "Select the maximum-rated protectors without considering communication, fit, or overprotection",
+        "Assume the higher NRR device alone provides its full labeled value in every workplace"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Real-world attenuation is not the arithmetic sum of labels. A defensible estimate uses an accepted adjustment and confirms fit, compatibility, and task usability.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Add both manufacturer NRR values directly to obtain total attenuation' remains incomplete or misapplies the controlling hearing protector attenuation principle.",
+        "The proposed response 'Select the maximum-rated protectors without considering communication, fit, or overprotection' remains incomplete or misapplies the controlling hearing protector attenuation principle.",
+        "The proposed response 'Assume the higher NRR device alone provides its full labeled value in every workplace' remains incomplete or misapplies the controlling hearing protector attenuation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: hearing protector attenuation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "04a08fc16f7055b13c18478c0d8ce9c32944c3e9f66233052f020dffc1e22feb"
+    },
+    {
+      "id": "PV2-CORE-CH10-038",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "instrument selection and settings",
+      "itemFamilyId": "PV2-CORE-CH10-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hearing conservation program audit, a supervisor proposes: \"Calibrate only after a result exceeds the limit\". The underlying case is: A sound level survey will be compared with an OSHA occupational-noise criterion. Which practice is essential before interpreting readings? Which alternative is the most defensible correction?",
+      "options": [
+        "Calibrate only after a result exceeds the limit",
+        "Use appropriate A-weighting, response settings, exchange rate or criterion configuration, and calibration consistent with the intended comparison",
+        "Use any instrument setting because decibels are independent of weighting and response",
+        "Use C-weighting data as an exact substitute for every A-weighted criterion"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Instrument configuration determines what the reading represents. Weighting, time response, criterion, exchange rate, and calibration must match the assessment objective.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Calibrate only after a result exceeds the limit' remains incomplete or misapplies the controlling instrument selection and settings principle.",
+        null,
+        "The proposed response 'Use any instrument setting because decibels are independent of weighting and response' remains incomplete or misapplies the controlling instrument selection and settings principle.",
+        "The proposed response 'Use C-weighting data as an exact substitute for every A-weighted criterion' remains incomplete or misapplies the controlling instrument selection and settings principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: instrument selection and settings",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3d33f8583a3c2f0e4037ba9b245ea70b6d32fde4fce2fe261e235a5398df9a31"
+    },
+    {
+      "id": "PV2-CORE-CH10-039",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "octave-band control analysis",
+      "itemFamilyId": "PV2-CORE-CH10-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a dosimetry plan review, a supervisor proposes: \"It proves that tonal noise is harmless when overall dBA is unchanged\". The underlying case is: Two machines produce the same overall dBA, but only one has a dominant narrow-frequency component. Why would octave-band data be useful? Which alternative is the most defensible correction?",
+      "options": [
+        "It converts sound pressure directly into employee hearing ability",
+        "It eliminates the need to measure overall exposure over time",
+        "It can identify the frequency bands that dominate exposure and guide source, barrier, enclosure, or absorption controls",
+        "It proves that tonal noise is harmless when overall dBA is unchanged"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Frequency analysis helps diagnose sources and select controls even when overall levels are similar; it does not replace exposure or audiometric assessment.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'It converts sound pressure directly into employee hearing ability' remains incomplete or misapplies the controlling octave-band control analysis principle.",
+        "The proposed response 'It eliminates the need to measure overall exposure over time' remains incomplete or misapplies the controlling octave-band control analysis principle.",
+        null,
+        "The proposed response 'It proves that tonal noise is harmless when overall dBA is unchanged' remains incomplete or misapplies the controlling octave-band control analysis principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: octave-band control analysis",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "017b7f60fc180cb5a8a461ff1b6dc5d2267db52959e68746ec099dcd6bc84fce"
+    },
+    {
+      "id": "PV2-CORE-CH10-040",
+      "version": 1,
+      "chapterId": "ch-10",
+      "chapterTitle": "Noise and Hearing Conservation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "monitoring after change",
+      "itemFamilyId": "PV2-CORE-CH10-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an engineering-control feasibility study, a supervisor proposes: \"Rely permanently on the earlier data because the job title is unchanged\". The underlying case is: A facility replaces pneumatic tools with a different model and changes production rate. Previous dosimetry was below the action level. What should the hearing program do? Which alternative is the most defensible correction?",
+      "options": [
+        "Repeat monitoring only after an employee files a hearing-loss claim",
+        "Rely permanently on the earlier data because the job title is unchanged",
+        "Assume newer equipment is quieter without measurement or manufacturer data",
+        "Reevaluate exposure because equipment and production changes can alter noise levels and program coverage"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Monitoring should be repeated when changes in process, equipment, controls, or production may create new or additional exposures.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Repeat monitoring only after an employee files a hearing-loss claim' remains incomplete or misapplies the controlling monitoring after change principle.",
+        "The proposed response 'Rely permanently on the earlier data because the job title is unchanged' remains incomplete or misapplies the controlling monitoring after change principle.",
+        "The proposed response 'Assume newer equipment is quieter without measurement or manufacturer data' remains incomplete or misapplies the controlling monitoring after change principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 10, pp. 314-331; 29 CFR 1910.95; curated topic: monitoring after change",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.95",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b08e1ea51ae4e5283ef83d3981e20f3a4a47649cc0404c059007454f1927f5f7"
+    }
+  ]
+}

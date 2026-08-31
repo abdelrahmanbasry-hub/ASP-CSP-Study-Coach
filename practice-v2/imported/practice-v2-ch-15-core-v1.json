@@ -1,0 +1,2353 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-15-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-15",
+  "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH15-001",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mean versus median under skew",
+      "itemFamilyId": "PV2-CORE-CH15-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A small set of injury costs contains one catastrophic loss that is far larger than all other cases. Which summary best describes the typical case without being dominated by the outlier?",
+      "options": [
+        "The median, reported together with the range or other spread information",
+        "The coefficient of variation without reporting any central value",
+        "The maximum because the largest loss represents the typical event",
+        "The arithmetic mean alone because it is unaffected by extreme values"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The median is resistant to extreme values and can better represent the center of a skewed distribution, while spread and the catastrophic tail should still be reported.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'The coefficient of variation without reporting any central value' does not apply the controlling principle for mean versus median under skew to the facts given, so it is not the best answer.",
+        "The option 'The maximum because the largest loss represents the typical event' does not apply the controlling principle for mean versus median under skew to the facts given, so it is not the best answer.",
+        "The option 'The arithmetic mean alone because it is unaffected by extreme values' does not apply the controlling principle for mean versus median under skew to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: mean versus median under skew",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ce6f2153367329283d51c460fa8d424ba32af33517b7637512d6219d44e4a73f"
+    },
+    {
+      "id": "PV2-CORE-CH15-002",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "correlation and causation",
+      "itemFamilyId": "PV2-CORE-CH15-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Facilities with more safety observations also have fewer injuries. Leadership concludes that observations caused the reduction. What is the most defensible interpretation?",
+      "options": [
+        "Disregard the relationship because correlation cannot establish a useful basis for further investigation",
+        "The association is useful but does not prove causation without considering confounding, timing, data quality, and a plausible mechanism",
+        "Injury reduction proves every observation was high quality and acted upon",
+        "Any negative correlation proves that the observation program caused the decline"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Correlation can support further investigation but does not establish causal effect. Other differences between facilities, reverse causation, and measurement issues must be assessed.",
+      "incorrectOptionExplanations": [
+        "The option 'Disregard the relationship because correlation cannot establish a useful basis for further investigation' does not apply the controlling principle for correlation and causation to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Injury reduction proves every observation was high quality and acted upon' does not apply the controlling principle for correlation and causation to the facts given, so it is not the best answer.",
+        "The option 'Any negative correlation proves that the observation program caused the decline' does not apply the controlling principle for correlation and causation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: correlation and causation",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4e99eb6adf2a292487380bcb3e75ea4ea0da2e3e44b53e1d55fd5e68454a4259"
+    },
+    {
+      "id": "PV2-CORE-CH15-003",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "confidence interval interpretation",
+      "itemFamilyId": "PV2-CORE-CH15-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A study estimates a risk ratio of 1.4 with a 95% confidence interval of 0.8 to 2.3. Which conclusion is best?",
+      "options": [
+        "The study proves a 40% increase because confidence intervals do not affect interpretation",
+        "The exposure is proven protective because the lower bound is below 1.0",
+        "The estimate suggests increased risk, but the interval includes 1.0 and is compatible with no association at the stated confidence level",
+        "There is a 95% probability that the true value is exactly 1.4"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "For a ratio measure, an interval that includes 1.0 does not exclude no association. The wide interval also indicates substantial uncertainty.",
+      "incorrectOptionExplanations": [
+        "The option 'The study proves a 40% increase because confidence intervals do not affect interpretation' does not apply the controlling principle for confidence interval interpretation to the facts given, so it is not the best answer.",
+        "The option 'The exposure is proven protective because the lower bound is below 1.0' does not apply the controlling principle for confidence interval interpretation to the facts given, so it is not the best answer.",
+        null,
+        "The option 'There is a 95% probability that the true value is exactly 1.4' does not apply the controlling principle for confidence interval interpretation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: confidence interval interpretation",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a15f0a9b34f20d36c44de46dadc952fbbdb2b4cee42ecb0511e3a2aeeed5388d"
+    },
+    {
+      "id": "PV2-CORE-CH15-004",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "type I and type II errors",
+      "itemFamilyId": "PV2-CORE-CH15-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A test concludes that a new control reduced exposure when in truth it did not. What type of statistical error occurred?",
+      "options": [
+        "Regression to the mean only, which cannot coexist with hypothesis testing error",
+        "A Type II error because every incorrect decision is a false negative",
+        "Sampling bias by definition, regardless of how subjects were selected",
+        "A Type I error, or false positive rejection of a true null hypothesis"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect.",
+      "incorrectOptionExplanations": [
+        "The option 'Regression to the mean only, which cannot coexist with hypothesis testing error' does not apply the controlling principle for type i and type ii errors to the facts given, so it is not the best answer.",
+        "The option 'A Type II error because every incorrect decision is a false negative' does not apply the controlling principle for type i and type ii errors to the facts given, so it is not the best answer.",
+        "The option 'Sampling bias by definition, regardless of how subjects were selected' does not apply the controlling principle for type i and type ii errors to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: type I and type II errors",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "913385f48c3f4e0645ee489234ed6df2fab4fca56f59b4ff14caa5a9dcc2d137"
+    },
+    {
+      "id": "PV2-CORE-CH15-005",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "control chart special cause",
+      "itemFamilyId": "PV2-CORE-CH15-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A process has stable variation around its centerline, then one point appears beyond a control limit after a maintenance change. What should the team do first?",
+      "options": [
+        "Investigate the maintenance change and other assignable causes before adjusting the entire process",
+        "Increase inspection frequency without examining the process change",
+        "Treat every point within specification as proof the process is in control",
+        "Recalculate limits to include the point so the chart appears stable"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A point beyond a control limit signals potential special-cause variation. The appropriate response is investigation, not masking the signal by changing limits.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Increase inspection frequency without examining the process change' does not apply the controlling principle for control chart special cause to the facts given, so it is not the best answer.",
+        "The option 'Treat every point within specification as proof the process is in control' does not apply the controlling principle for control chart special cause to the facts given, so it is not the best answer.",
+        "The option 'Recalculate limits to include the point so the chart appears stable' does not apply the controlling principle for control chart special cause to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: control chart special cause",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "27211470387c18f15f178beb0d6bfb546b219634c9a695e417677d61cecb94fd"
+    },
+    {
+      "id": "PV2-CORE-CH15-006",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling bias",
+      "itemFamilyId": "PV2-CORE-CH15-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A safety climate survey is emailed only to supervisors, yet the results are reported as the view of all employees. What is the primary statistical problem?",
+      "options": [
+        "Type I error because supervisors answered voluntarily",
+        "Selection bias because the sampling frame excludes major portions of the population of interest",
+        "Random error only, which is solved by calculating a mean",
+        "Instrument precision because email cannot measure attitudes"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A sample that systematically excludes frontline employees cannot represent the whole workforce, regardless of the number of supervisor responses.",
+      "incorrectOptionExplanations": [
+        "The option 'Type I error because supervisors answered voluntarily' does not apply the controlling principle for sampling bias to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Random error only, which is solved by calculating a mean' does not apply the controlling principle for sampling bias to the facts given, so it is not the best answer.",
+        "The option 'Instrument precision because email cannot measure attitudes' does not apply the controlling principle for sampling bias to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: sampling bias",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7063b731143df09f971f740ac7612d146b2c62a27b63a005bb108866e9464277"
+    },
+    {
+      "id": "PV2-CORE-CH15-007",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "series and parallel reliability",
+      "itemFamilyId": "PV2-CORE-CH15-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A critical alarm has two independent sensors arranged so either one can initiate the alarm. Compared with one sensor alone, what does the parallel arrangement generally do?",
+      "options": [
+        "It always doubles reliability even when both sensors share the same power supply",
+        "It has no effect unless both sensors must operate simultaneously",
+        "It increases functional reliability if common-cause failures and voting logic do not defeat the redundancy",
+        "Treat the second device as an added failure opportunity rather than a redundant success path"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Parallel redundancy can improve success probability, but independence, common-cause failure, diagnostics, and logic must be considered.",
+      "incorrectOptionExplanations": [
+        "The option 'It always doubles reliability even when both sensors share the same power supply' does not apply the controlling principle for series and parallel reliability to the facts given, so it is not the best answer.",
+        "The option 'It has no effect unless both sensors must operate simultaneously' does not apply the controlling principle for series and parallel reliability to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Treat the second device as an added failure opportunity rather than a redundant success path' does not apply the controlling principle for series and parallel reliability to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: series and parallel reliability",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f35d780b196df18669280c216ab068e87b16c3b623b87ffc161081647a69b0fc"
+    },
+    {
+      "id": "PV2-CORE-CH15-008",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "rate comparison and exposure opportunity",
+      "itemFamilyId": "PV2-CORE-CH15-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Two sites each report five recordable cases, but one worked four times as many hours. Which comparison is most meaningful?",
+      "options": [
+        "Rank the larger site worse because it has more employees",
+        "Treat performance as identical because the case counts match",
+        "Use only total payroll because it automatically measures hazard exposure",
+        "Use a normalized rate with hours or another valid exposure denominator, while also examining case severity and work mix"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation.",
+      "incorrectOptionExplanations": [
+        "The option 'Rank the larger site worse because it has more employees' does not apply the controlling principle for rate comparison and exposure opportunity to the facts given, so it is not the best answer.",
+        "The option 'Treat performance as identical because the case counts match' does not apply the controlling principle for rate comparison and exposure opportunity to the facts given, so it is not the best answer.",
+        "The option 'Use only total payroll because it automatically measures hazard exposure' does not apply the controlling principle for rate comparison and exposure opportunity to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: rate comparison and exposure opportunity",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ebe675b6bdc875bc0142c3e31f78c7e9c27602b6d33076defdf2d2ea5319ea4b"
+    },
+    {
+      "id": "PV2-CORE-CH15-009",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mean versus median under skew",
+      "itemFamilyId": "PV2-CORE-CH15-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a confidence-interval discussion, the team reviews this case: A small set of injury costs contains one catastrophic loss that is far larger than all other cases. Which summary best describes the typical case without being dominated by the outlier? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The median is resistant to extreme values and can better represent the center of a skewed distribution, while spread and the catastrophic tail should still be reported.",
+        "For a ratio measure, an interval that includes 1.0 does not exclude no association. The wide interval also indicates substantial uncertainty.",
+        "A sample that systematically excludes frontline employees cannot represent the whole workforce, regardless of the number of supervisor responses.",
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses mean versus median under skew and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'confidence interval interpretation', but it does not resolve the mean versus median under skew issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling bias', but it does not resolve the mean versus median under skew issue in this case.",
+        "This rationale supports the separate chapter topic 'type I and type II errors', but it does not resolve the mean versus median under skew issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: mean versus median under skew",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "830f0fd041745a5cf3568240f97b36405cef51714d1f41c1df2fc6d73c84ff5f"
+    },
+    {
+      "id": "PV2-CORE-CH15-010",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "correlation and causation",
+      "itemFamilyId": "PV2-CORE-CH15-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hypothesis-test interpretation, the team reviews this case: Facilities with more safety observations also have fewer injuries. Leadership concludes that observations caused the reduction. What is the most defensible interpretation? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect.",
+        "Correlation can support further investigation but does not establish causal effect. Other differences between facilities, reverse causation, and measurement issues must be assessed.",
+        "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation.",
+        "A sample that systematically excludes frontline employees cannot represent the whole workforce, regardless of the number of supervisor responses."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses correlation and causation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'type I and type II errors', but it does not resolve the correlation and causation issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'rate comparison and exposure opportunity', but it does not resolve the correlation and causation issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling bias', but it does not resolve the correlation and causation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: correlation and causation",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "41578fe47c2295138aca7f7f533ab248658f0e54597df0f04ad0a6ba29aa8006"
+    },
+    {
+      "id": "PV2-CORE-CH15-011",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "confidence interval interpretation",
+      "itemFamilyId": "PV2-CORE-CH15-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a sampling-distribution problem, the team reviews this case: A study estimates a risk ratio of 1.4 with a 95% confidence interval of 0.8 to 2.3. Which conclusion is best? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation.",
+        "A point beyond a control limit signals potential special-cause variation. The appropriate response is investigation, not masking the signal by changing limits.",
+        "For a ratio measure, an interval that includes 1.0 does not exclude no association. The wide interval also indicates substantial uncertainty.",
+        "Parallel redundancy can improve success probability, but independence, common-cause failure, diagnostics, and logic must be considered."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses confidence interval interpretation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'rate comparison and exposure opportunity', but it does not resolve the confidence interval interpretation issue in this case.",
+        "This rationale supports the separate chapter topic 'control chart special cause', but it does not resolve the confidence interval interpretation issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'series and parallel reliability', but it does not resolve the confidence interval interpretation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: confidence interval interpretation",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1d9daf7fc9ffe7406719d892282d888666553c08049ba744fbe0f76f8d6301f3"
+    },
+    {
+      "id": "PV2-CORE-CH15-012",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "type I and type II errors",
+      "itemFamilyId": "PV2-CORE-CH15-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a control-chart investigation, the team reviews this case: A test concludes that a new control reduced exposure when in truth it did not. What type of statistical error occurred? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Correlation can support further investigation but does not establish causal effect. Other differences between facilities, reverse causation, and measurement issues must be assessed.",
+        "Parallel redundancy can improve success probability, but independence, common-cause failure, diagnostics, and logic must be considered.",
+        "The median is resistant to extreme values and can better represent the center of a skewed distribution, while spread and the catastrophic tail should still be reported.",
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses type i and type ii errors and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'correlation and causation', but it does not resolve the type i and type ii errors issue in this case.",
+        "This rationale supports the separate chapter topic 'series and parallel reliability', but it does not resolve the type i and type ii errors issue in this case.",
+        "This rationale supports the separate chapter topic 'mean versus median under skew', but it does not resolve the type i and type ii errors issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: type I and type II errors",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "71ad0cb713574b3d53e610af713b6a2fb1bb11f91b4e5e0a8be5dcf13c5f0e30"
+    },
+    {
+      "id": "PV2-CORE-CH15-013",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "control chart special cause",
+      "itemFamilyId": "PV2-CORE-CH15-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a probability estimate, the team reviews this case: A process has stable variation around its centerline, then one point appears beyond a control limit after a maintenance change. What should the team do first? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A point beyond a control limit signals potential special-cause variation. The appropriate response is investigation, not masking the signal by changing limits.",
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect.",
+        "A sample that systematically excludes frontline employees cannot represent the whole workforce, regardless of the number of supervisor responses.",
+        "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses control chart special cause and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'type I and type II errors', but it does not resolve the control chart special cause issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling bias', but it does not resolve the control chart special cause issue in this case.",
+        "This rationale supports the separate chapter topic 'rate comparison and exposure opportunity', but it does not resolve the control chart special cause issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: control chart special cause",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "28b3639e5007afb6bdd6d788d3150809a756d967a84b1c48207cec81d77a7b53"
+    },
+    {
+      "id": "PV2-CORE-CH15-014",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling bias",
+      "itemFamilyId": "PV2-CORE-CH15-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a data-quality and bias review, the team reviews this case: A safety climate survey is emailed only to supervisors, yet the results are reported as the view of all employees. What is the primary statistical problem? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect.",
+        "A sample that systematically excludes frontline employees cannot represent the whole workforce, regardless of the number of supervisor responses.",
+        "For a ratio measure, an interval that includes 1.0 does not exclude no association. The wide interval also indicates substantial uncertainty.",
+        "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses sampling bias and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'type I and type II errors', but it does not resolve the sampling bias issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'confidence interval interpretation', but it does not resolve the sampling bias issue in this case.",
+        "This rationale supports the separate chapter topic 'rate comparison and exposure opportunity', but it does not resolve the sampling bias issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: sampling bias",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "61673d6d99f59f35e60e0e8f4a826addc955ea2622feccd20c90ffadd11c2b33"
+    },
+    {
+      "id": "PV2-CORE-CH15-015",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "series and parallel reliability",
+      "itemFamilyId": "PV2-CORE-CH15-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an injury-data trend review, the team reviews this case: A critical alarm has two independent sensors arranged so either one can initiate the alarm. Compared with one sensor alone, what does the parallel arrangement generally do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation.",
+        "A point beyond a control limit signals potential special-cause variation. The appropriate response is investigation, not masking the signal by changing limits.",
+        "Parallel redundancy can improve success probability, but independence, common-cause failure, diagnostics, and logic must be considered.",
+        "Correlation can support further investigation but does not establish causal effect. Other differences between facilities, reverse causation, and measurement issues must be assessed."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses series and parallel reliability and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'rate comparison and exposure opportunity', but it does not resolve the series and parallel reliability issue in this case.",
+        "This rationale supports the separate chapter topic 'control chart special cause', but it does not resolve the series and parallel reliability issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'correlation and causation', but it does not resolve the series and parallel reliability issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: series and parallel reliability",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "35d4a81a60930e631d5b505e2dde73c8111144bcbd7974eb129791bac1dd3b20"
+    },
+    {
+      "id": "PV2-CORE-CH15-016",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "rate comparison and exposure opportunity",
+      "itemFamilyId": "PV2-CORE-CH15-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a reliability demonstration, the team reviews this case: Two sites each report five recordable cases, but one worked four times as many hours. Which comparison is most meaningful? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The median is resistant to extreme values and can better represent the center of a skewed distribution, while spread and the catastrophic tail should still be reported.",
+        "For a ratio measure, an interval that includes 1.0 does not exclude no association. The wide interval also indicates substantial uncertainty.",
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect.",
+        "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses rate comparison and exposure opportunity and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'mean versus median under skew', but it does not resolve the rate comparison and exposure opportunity issue in this case.",
+        "This rationale supports the separate chapter topic 'confidence interval interpretation', but it does not resolve the rate comparison and exposure opportunity issue in this case.",
+        "This rationale supports the separate chapter topic 'type I and type II errors', but it does not resolve the rate comparison and exposure opportunity issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: rate comparison and exposure opportunity",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ace4ba4bf455aabe281f7f9e6bd7eec21c48f83fb443743b1d0433be46d1610a"
+    },
+    {
+      "id": "PV2-CORE-CH15-017",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Arithmetic mean",
+      "itemFamilyId": "PV2-CORE-CH15-F017",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a reliability demonstration, solve the following problem and select the best answer: A department recorded 6, 9, 7, 8, and 10 first-aid cases during five equal reporting periods. What is the arithmetic mean?",
+      "options": [
+        "8 cases per reporting period.",
+        "7.5 cases per reporting period.",
+        "10 cases per reporting period.",
+        "7 cases per reporting period."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Add the five observations and divide by five: (6 + 9 + 7 + 8 + 10) / 5 = 40 / 5 = 8.",
+      "incorrectOptionExplanations": [
+        null,
+        "A result of 7.5 would follow from an incorrect total or divisor.",
+        "Ten is the maximum observation, not the arithmetic mean.",
+        "Seven is below the sum divided by the number of observations."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, descriptive statistics and mean, pp. 408-409; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Mean = sum of observations / number of observations",
+      "units": "cases per reporting period",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e8b4c1c577bfd56e056431b8fb73e5914c5523c78729418bb02110bdfc383fd7"
+    },
+    {
+      "id": "PV2-CORE-CH15-018",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Median and resistance to outliers",
+      "itemFamilyId": "PV2-CORE-CH15-F018",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a confidence-interval discussion, solve the following problem and select the best answer: Corrective-action closure times were 2, 3, 4, 4, 5, and 27 days. Which value is the median and why is it useful here?",
+      "options": [
+        "3 days; the median is always the second observation after sorting.",
+        "4 days; the median is the middle of the ordered data.",
+        "7.5 days; the median is calculated by averaging all observations.",
+        "5 days; the median equals the most frequent upper-half observation."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "With six ordered observations, the median is the average of the third and fourth values: (4 + 4) / 2 = 4. It is robust to the extreme 27-day value.",
+      "incorrectOptionExplanations": [
+        "For six observations, the middle lies between the third and fourth values, not at the second value.",
+        null,
+        "Averaging all observations produces the mean, not the median.",
+        "Five is an observed value but not the midpoint of the ordered data set."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, median and central tendency, pp. 409-411; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Median for even n = average of the two middle ordered observations",
+      "units": "days",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "00848f1bbe9409b88818b4d0ee40d6f32b10ae8baa54e04cdd266dd6109af82e"
+    },
+    {
+      "id": "PV2-CORE-CH15-019",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sample standard deviation",
+      "itemFamilyId": "PV2-CORE-CH15-F019",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a hypothesis-test interpretation, solve the following problem and select the best answer: A sample contains the values 4, 6, 8, 10, and 12. What is the sample standard deviation, rounded to two decimals?",
+      "options": [
+        "4.00",
+        "10.00",
+        "3.16",
+        "2.83"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The mean is 8. Squared deviations total 40. For a sample, divide by n - 1: 40 / 4 = 10, then take the square root: s = 3.16.",
+      "incorrectOptionExplanations": [
+        "Four is the number of degrees of freedom, not the standard deviation.",
+        "Ten is the sample variance before taking the square root.",
+        null,
+        "2.83 is the population standard deviation obtained by dividing by n rather than n - 1."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, variance and standard deviation, pp. 409-411; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "s = sqrt[sum(x - x-bar)^2 / (n - 1)]",
+      "units": "same units as the observations",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "50139034f2041ada56401a75c388f6e90e5ca06821e31dfd47e7913d3cb2d207"
+    },
+    {
+      "id": "PV2-CORE-CH15-020",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Z-score",
+      "itemFamilyId": "PV2-CORE-CH15-F020",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a sampling-distribution problem, solve the following problem and select the best answer: A safety metric has a mean of 50 and a standard deviation of 6. What is the z-score for an observed value of 68?",
+      "options": [
+        "18.0",
+        "8.0",
+        "2.0",
+        "3.0"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "z = (X - mean) / standard deviation = (68 - 50) / 6 = 18 / 6 = 3.0.",
+      "incorrectOptionExplanations": [
+        "Eighteen is the raw difference, not the difference expressed in standard-deviation units.",
+        "Eight is not obtained by standardizing the difference from the mean.",
+        "A z-score of 2.0 would correspond to a value 12 units above the mean.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, z-score, pp. 420-422; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "z = (X - mean) / standard deviation",
+      "units": "standard deviations",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d72c2cc19661fb08754a3e673be0c15b7c2a0c80bd802d06d343817dd12ca90f"
+    },
+    {
+      "id": "PV2-CORE-CH15-021",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Normal distribution tail probability",
+      "itemFamilyId": "PV2-CORE-CH15-F021",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a control-chart investigation, solve the following problem and select the best answer: Annual exposure measurements are approximately normal with a mean of 100 and a standard deviation of 10. Approximately what proportion exceeds 120?",
+      "options": [
+        "About 2.3%.",
+        "About 15.9%.",
+        "About 97.7%.",
+        "About 50.0%."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A value of 120 is two standard deviations above the mean. The upper-tail probability beyond z = 2.00 is approximately 0.0228, or 2.3%.",
+      "incorrectOptionExplanations": [
+        null,
+        "About 15.9% is the upper-tail probability above one standard deviation, not two.",
+        "About 97.7% is the cumulative proportion below 120, not the proportion above it.",
+        "Half the observations exceed the mean of 100, not a point two standard deviations above it."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, normal distribution and z-score application, pp. 411-412 and 420-422; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "z = (X - mean) / standard deviation; upper tail = 1 - Phi(z)",
+      "units": "percent",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9eb6348b00e719d9aacc731340279d1f7ee7a0f79603888c372b0baa05be9ed6"
+    },
+    {
+      "id": "PV2-CORE-CH15-022",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Expected frequency from a sample proportion",
+      "itemFamilyId": "PV2-CORE-CH15-F022",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a probability estimate, solve the following problem and select the best answer: A random sample found 8 defective units among 400 inspected. At the same observed defect rate, how many defective units would be expected in a lot of 2,500?",
+      "options": [
+        "20 defective units.",
+        "50 defective units.",
+        "80 defective units.",
+        "125 defective units."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The observed defect proportion is 8 / 400 = 0.02. Applying 2% to 2,500 gives 0.02 × 2,500 = 50.",
+      "incorrectOptionExplanations": [
+        "Twenty would represent only 0.8% of the larger lot.",
+        null,
+        "Eighty would represent 3.2%, exceeding the observed sample rate.",
+        "One hundred twenty-five would represent 5%, not the observed 2%."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, probability and proportional estimation examples, pp. 417-420; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Expected count = sample proportion × target population",
+      "units": "defective units",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ee2875805f28c45c606d7e7a7ae618492bc592175204848fa424b2a99f813e41"
+    },
+    {
+      "id": "PV2-CORE-CH15-023",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Correlation interpretation",
+      "itemFamilyId": "PV2-CORE-CH15-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a data-quality and bias review, the team reviews this question: An analysis finds a Pearson correlation of -0.88 between preventive-maintenance completion and unplanned equipment failures. What is the best interpretation? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A value of 120 is two standard deviations above the mean. The upper-tail probability beyond z = 2.00 is approximately 0.0228, or 2.3%.",
+        "Total operations = 3 × 365 × 8 = 8,760. The observed rate is 1 / 8,760 = 0.000114, or 1.14 × 10^-4 per operation.",
+        "A coefficient near -1 indicates a strong negative linear association: higher maintenance completion tends to accompany fewer failures. Correlation does not, by itself, demonstrate causation.",
+        "Add the five observations and divide by five: (6 + 9 + 7 + 8 + 10) / 5 = 40 / 5 = 8."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Normal distribution tail probability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Observed failure rate per operation', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Arithmetic mean', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, Pearson correlation coefficient, pp. 412-415; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d56e6255ecdc119fe782837db87505baee7f928c682b51e753ff72d67c157274"
+    },
+    {
+      "id": "PV2-CORE-CH15-024",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Coefficient of determination",
+      "itemFamilyId": "PV2-CORE-CH15-F024",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During an injury-data trend review, solve the following problem and select the best answer: Two continuous safety variables have a Pearson correlation coefficient of 0.80. What is the coefficient of determination?",
+      "options": [
+        "0.20, or 20%.",
+        "1.60, or 160%.",
+        "0.80, or 80%.",
+        "0.64, or 64%."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The coefficient of determination is r squared: 0.80² = 0.64. It represents the proportion of variation associated with the fitted linear relationship, subject to the study design and assumptions.",
+      "incorrectOptionExplanations": [
+        "Subtracting r from 1 does not calculate the coefficient of determination.",
+        "Doubling r is not meaningful and produces an impossible proportion above 100%.",
+        "The correlation coefficient and coefficient of determination are different measures.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, coefficient of determination and correlation, pp. 422-425; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "R^2 = r^2",
+      "units": "proportion or percent",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bc071183244de8d78902fa06eeed3b47782939618ec8f0f066a89f955149078a"
+    },
+    {
+      "id": "PV2-CORE-CH15-025",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Series system reliability",
+      "itemFamilyId": "PV2-CORE-CH15-F025",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a reliability demonstration, solve the following problem and select the best answer: Three independent components in a series safety system have reliabilities of 0.98, 0.95, and 0.97. What is the system reliability?",
+      "options": [
+        "Approximately 0.903, or 90.3%.",
+        "Approximately 0.999, or 99.9%.",
+        "Approximately 2.900, or 290.0%.",
+        "Approximately 0.970, or 97.0%."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Every component must work in a series system, so multiply the component reliabilities: 0.98 × 0.95 × 0.97 = 0.90307.",
+      "incorrectOptionExplanations": [
+        null,
+        "Series reliability is lower than each individual reliability, not nearly perfect for these values.",
+        "Adding reliabilities produces a value above 1 and is not a valid probability.",
+        "Averaging or choosing a middle component does not represent the requirement that all components succeed."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, system and series reliability, pp. 424-425; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "R_series = R1 × R2 × ... × Rn",
+      "units": "probability or percent",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "624705ff1071f5d18d078928179b12be82dfc084e64c434c6c533a799870cc0a"
+    },
+    {
+      "id": "PV2-CORE-CH15-026",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Parallel system reliability",
+      "itemFamilyId": "PV2-CORE-CH15-F026",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a confidence-interval discussion, solve the following problem and select the best answer: Two independent redundant components operate in parallel. Their reliabilities are 0.90 and 0.80, and the system succeeds if either component works. What is system reliability?",
+      "options": [
+        "0.85, or 85%.",
+        "0.98, or 98%.",
+        "1.70, or 170%.",
+        "0.72, or 72%."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Both components must fail for the parallel system to fail. Failure probability is (0.10)(0.20) = 0.02, so reliability is 1 - 0.02 = 0.98.",
+      "incorrectOptionExplanations": [
+        "A simple average ignores the redundancy logic and the probability of both components failing.",
+        null,
+        "Adding probabilities without accounting for overlap yields an impossible value above 1.",
+        "Multiplying the component reliabilities calculates joint success, not the reliability of an either-can-succeed parallel system."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, parallel reliability, pp. 424-425; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "R_parallel = 1 - [(1 - R1)(1 - R2)...(1 - Rn)]",
+      "units": "probability or percent",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "484ec648b5052c3464ab97af8d42bede189cc56220d1d9ad680ba928a1260b06"
+    },
+    {
+      "id": "PV2-CORE-CH15-027",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Observed failure rate per operation",
+      "itemFamilyId": "PV2-CORE-CH15-F027",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a hypothesis-test interpretation, solve the following problem and select the best answer: A switch is operated three times per day and records one failure after eight years of operation. Using 365 days per year, what is the observed failure rate per operation?",
+      "options": [
+        "Approximately 8.76 × 10^3 failures per operation.",
+        "Approximately 3.42 × 10^-4 failures per operation.",
+        "Approximately 1.14 × 10^-4 failures per operation.",
+        "Approximately 8.76 × 10^-3 failures per operation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Total operations = 3 × 365 × 8 = 8,760. The observed rate is 1 / 8,760 = 0.000114, or 1.14 × 10^-4 per operation.",
+      "incorrectOptionExplanations": [
+        "This is the number of operations, not failures per operation.",
+        "This result fails to divide by the three daily operations correctly.",
+        null,
+        "This rate is much too large and does not use the total number of operating cycles."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, component reliability and probability of failure, pp. 422-425; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Observed failure rate = number of failures / number of operations",
+      "units": "failures per operation",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c21c5e289c5b053a3b30bd9afd003f0466cc45fcbf405c3d2d8f003dae8adab3"
+    },
+    {
+      "id": "PV2-CORE-CH15-028",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Selecting a chi-square test",
+      "itemFamilyId": "PV2-CORE-CH15-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a sampling-distribution problem, the team reviews this question: A safety analyst wants to test whether training completion status (completed/not completed) is associated with incident involvement (yes/no). Which statistical test is most appropriate for the resulting count table? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A coefficient near -1 indicates a strong negative linear association: higher maintenance completion tends to accompany fewer failures. Correlation does not, by itself, demonstrate causation.",
+        "The mean is 8. Squared deviations total 40. For a sample, divide by n - 1: 40 / 4 = 10, then take the square root: s = 3.16.",
+        "The coefficient of determination is r squared: 0.80² = 0.64. It represents the proportion of variation associated with the fitted linear relationship, subject to the study design and assumptions.",
+        "Both variables are categorical, and the data are frequencies in a contingency table. A chi-square test evaluates whether the observed counts differ from counts expected under independence."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Correlation interpretation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Sample standard deviation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Coefficient of determination', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 15, chi-square statistic and degrees of freedom, pp. 416-417; Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.itl.nist.gov/div898/handbook/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7c0ee993bd7a71df38f4b562c6f0c64858682cb3384dc0f32c46eb71dd847521"
+    },
+    {
+      "id": "PV2-CORE-CH15-029",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mean versus median under skew",
+      "itemFamilyId": "PV2-CORE-CH15-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a data-quality and bias review, a supervisor proposes: \"The maximum because the largest loss represents the typical event\". The underlying case is: A small set of injury costs contains one catastrophic loss that is far larger than all other cases. Which summary best describes the typical case without being dominated by the outlier? Which alternative is the most defensible correction?",
+      "options": [
+        "The median, reported together with the range or other spread information",
+        "The coefficient of variation without reporting any central value",
+        "The maximum because the largest loss represents the typical event",
+        "The arithmetic mean alone because it is unaffected by extreme values"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The median is resistant to extreme values and can better represent the center of a skewed distribution, while spread and the catastrophic tail should still be reported.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'The coefficient of variation without reporting any central value' remains incomplete or misapplies the controlling mean versus median under skew principle.",
+        "The proposed response 'The maximum because the largest loss represents the typical event' remains incomplete or misapplies the controlling mean versus median under skew principle.",
+        "The proposed response 'The arithmetic mean alone because it is unaffected by extreme values' remains incomplete or misapplies the controlling mean versus median under skew principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: mean versus median under skew",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0d2b1c8bb4aff8de7223abfab42e6c36909411f161a8be28964018d815cd30af"
+    },
+    {
+      "id": "PV2-CORE-CH15-030",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "correlation and causation",
+      "itemFamilyId": "PV2-CORE-CH15-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an injury-data trend review, a supervisor proposes: \"Injury reduction proves every observation was high quality and acted upon\". The underlying case is: Facilities with more safety observations also have fewer injuries. Leadership concludes that observations caused the reduction. What is the most defensible interpretation? Which alternative is the most defensible correction?",
+      "options": [
+        "Injury reduction proves every observation was high quality and acted upon",
+        "The association is useful but does not prove causation without considering confounding, timing, data quality, and a plausible mechanism",
+        "Any negative correlation proves that the observation program caused the decline",
+        "Disregard the relationship because correlation cannot establish a useful basis for further investigation"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Correlation can support further investigation but does not establish causal effect. Other differences between facilities, reverse causation, and measurement issues must be assessed.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Injury reduction proves every observation was high quality and acted upon' remains incomplete or misapplies the controlling correlation and causation principle.",
+        null,
+        "The proposed response 'Any negative correlation proves that the observation program caused the decline' remains incomplete or misapplies the controlling correlation and causation principle.",
+        "The proposed response 'Disregard the relationship because correlation cannot establish a useful basis for further investigation' remains incomplete or misapplies the controlling correlation and causation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: correlation and causation",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fb5a2a82c2a48dae3d7f17427fceca8969e9ff8c502b9fd72cc33dba059c51b2"
+    },
+    {
+      "id": "PV2-CORE-CH15-031",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "confidence interval interpretation",
+      "itemFamilyId": "PV2-CORE-CH15-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a reliability demonstration, a supervisor proposes: \"There is a 95% probability that the true value is exactly 1.4\". The underlying case is: A study estimates a risk ratio of 1.4 with a 95% confidence interval of 0.8 to 2.3. Which conclusion is best? Which alternative is the most defensible correction?",
+      "options": [
+        "The exposure is proven protective because the lower bound is below 1.0",
+        "The study proves a 40% increase because confidence intervals do not affect interpretation",
+        "The estimate suggests increased risk, but the interval includes 1.0 and is compatible with no association at the stated confidence level",
+        "There is a 95% probability that the true value is exactly 1.4"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "For a ratio measure, an interval that includes 1.0 does not exclude no association. The wide interval also indicates substantial uncertainty.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The exposure is proven protective because the lower bound is below 1.0' remains incomplete or misapplies the controlling confidence interval interpretation principle.",
+        "The proposed response 'The study proves a 40% increase because confidence intervals do not affect interpretation' remains incomplete or misapplies the controlling confidence interval interpretation principle.",
+        null,
+        "The proposed response 'There is a 95% probability that the true value is exactly 1.4' remains incomplete or misapplies the controlling confidence interval interpretation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: confidence interval interpretation",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9ff6e4af5db2c554b7d49ceff2737aa27cc71cc1364adf2bedabe114716919e6"
+    },
+    {
+      "id": "PV2-CORE-CH15-032",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "type I and type II errors",
+      "itemFamilyId": "PV2-CORE-CH15-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a confidence-interval discussion, a supervisor proposes: \"Sampling bias by definition, regardless of how subjects were selected\". The underlying case is: A test concludes that a new control reduced exposure when in truth it did not. What type of statistical error occurred? Which alternative is the most defensible correction?",
+      "options": [
+        "Sampling bias by definition, regardless of how subjects were selected",
+        "A Type II error because every incorrect decision is a false negative",
+        "Regression to the mean only, which cannot coexist with hypothesis testing error",
+        "A Type I error, or false positive rejection of a true null hypothesis"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Sampling bias by definition, regardless of how subjects were selected' remains incomplete or misapplies the controlling type i and type ii errors principle.",
+        "The proposed response 'A Type II error because every incorrect decision is a false negative' remains incomplete or misapplies the controlling type i and type ii errors principle.",
+        "The proposed response 'Regression to the mean only, which cannot coexist with hypothesis testing error' remains incomplete or misapplies the controlling type i and type ii errors principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: type I and type II errors",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b23481ba4873b8e8a2c35a09eacbc210220811bf6d6f655c478f6071d39d077c"
+    },
+    {
+      "id": "PV2-CORE-CH15-033",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "control chart special cause",
+      "itemFamilyId": "PV2-CORE-CH15-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hypothesis-test interpretation, a supervisor proposes: \"Increase inspection frequency without examining the process change\". The underlying case is: A process has stable variation around its centerline, then one point appears beyond a control limit after a maintenance change. What should the team do first? Which alternative is the most defensible correction?",
+      "options": [
+        "Investigate the maintenance change and other assignable causes before adjusting the entire process",
+        "Increase inspection frequency without examining the process change",
+        "Recalculate limits to include the point so the chart appears stable",
+        "Treat every point within specification as proof the process is in control"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A point beyond a control limit signals potential special-cause variation. The appropriate response is investigation, not masking the signal by changing limits.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Increase inspection frequency without examining the process change' remains incomplete or misapplies the controlling control chart special cause principle.",
+        "The proposed response 'Recalculate limits to include the point so the chart appears stable' remains incomplete or misapplies the controlling control chart special cause principle.",
+        "The proposed response 'Treat every point within specification as proof the process is in control' remains incomplete or misapplies the controlling control chart special cause principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: control chart special cause",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7ee3de26b3e544615a6f72bd3d05ad9c4e5283a3e4ff776d0e249dccfdf7b4c1"
+    },
+    {
+      "id": "PV2-CORE-CH15-034",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling bias",
+      "itemFamilyId": "PV2-CORE-CH15-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a sampling-distribution problem, a supervisor proposes: \"Random error only, which is solved by calculating a mean\". The underlying case is: A safety climate survey is emailed only to supervisors, yet the results are reported as the view of all employees. What is the primary statistical problem? Which alternative is the most defensible correction?",
+      "options": [
+        "Instrument precision because email cannot measure attitudes",
+        "Selection bias because the sampling frame excludes major portions of the population of interest",
+        "Type I error because supervisors answered voluntarily",
+        "Random error only, which is solved by calculating a mean"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A sample that systematically excludes frontline employees cannot represent the whole workforce, regardless of the number of supervisor responses.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Instrument precision because email cannot measure attitudes' remains incomplete or misapplies the controlling sampling bias principle.",
+        null,
+        "The proposed response 'Type I error because supervisors answered voluntarily' remains incomplete or misapplies the controlling sampling bias principle.",
+        "The proposed response 'Random error only, which is solved by calculating a mean' remains incomplete or misapplies the controlling sampling bias principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: sampling bias",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a69258f1c1538c15b4513cf60378d4bacc90da2dfbdc0b16804cc758c1512f95"
+    },
+    {
+      "id": "PV2-CORE-CH15-035",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.12",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "series and parallel reliability",
+      "itemFamilyId": "PV2-CORE-CH15-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a control-chart investigation, a supervisor proposes: \"Treat the second device as an added failure opportunity rather than a redundant success path\". The underlying case is: A critical alarm has two independent sensors arranged so either one can initiate the alarm. Compared with one sensor alone, what does the parallel arrangement generally do? Which alternative is the most defensible correction?",
+      "options": [
+        "Treat the second device as an added failure opportunity rather than a redundant success path",
+        "It has no effect unless both sensors must operate simultaneously",
+        "It increases functional reliability if common-cause failures and voting logic do not defeat the redundancy",
+        "It always doubles reliability even when both sensors share the same power supply"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Parallel redundancy can improve success probability, but independence, common-cause failure, diagnostics, and logic must be considered.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Treat the second device as an added failure opportunity rather than a redundant success path' remains incomplete or misapplies the controlling series and parallel reliability principle.",
+        "The proposed response 'It has no effect unless both sensors must operate simultaneously' remains incomplete or misapplies the controlling series and parallel reliability principle.",
+        null,
+        "The proposed response 'It always doubles reliability even when both sensors share the same power supply' remains incomplete or misapplies the controlling series and parallel reliability principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: series and parallel reliability",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0d3d39ef88366cdda42fb70f85ac6042fdbb89ba2402748edc1c9dcee6e5a6cb"
+    },
+    {
+      "id": "PV2-CORE-CH15-036",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "rate comparison and exposure opportunity",
+      "itemFamilyId": "PV2-CORE-CH15-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a probability estimate, a supervisor proposes: \"Use only total payroll because it automatically measures hazard exposure\". The underlying case is: Two sites each report five recordable cases, but one worked four times as many hours. Which comparison is most meaningful? Which alternative is the most defensible correction?",
+      "options": [
+        "Rank the larger site worse because it has more employees",
+        "Treat performance as identical because the case counts match",
+        "Use only total payroll because it automatically measures hazard exposure",
+        "Use a normalized rate with hours or another valid exposure denominator, while also examining case severity and work mix"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Rank the larger site worse because it has more employees' remains incomplete or misapplies the controlling rate comparison and exposure opportunity principle.",
+        "The proposed response 'Treat performance as identical because the case counts match' remains incomplete or misapplies the controlling rate comparison and exposure opportunity principle.",
+        "The proposed response 'Use only total payroll because it automatically measures hazard exposure' remains incomplete or misapplies the controlling rate comparison and exposure opportunity principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: rate comparison and exposure opportunity",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "da9645d72f1d11a3a7eb2fbace589713e52ccf2510265eb39593e98bb13daa06"
+    },
+    {
+      "id": "PV2-CORE-CH15-037",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mean versus median under skew",
+      "itemFamilyId": "PV2-CORE-CH15-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an injury-data trend review, the team selects \"The median, reported together with the range or other spread information\" rather than \"The coefficient of variation without reporting any central value\" for this case: A small set of injury costs contains one catastrophic loss that is far larger than all other cases. Which summary best describes the typical case without being dominated by the outlier? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "The median is resistant to extreme values and can better represent the center of a skewed distribution, while spread and the catastrophic tail should still be reported.",
+        "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation.",
+        "Correlation can support further investigation but does not establish causal effect. Other differences between facilities, reverse causation, and measurement issues must be assessed.",
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the mean versus median under skew issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'rate comparison and exposure opportunity' and does not distinguish the two responses in the present mean versus median under skew decision.",
+        "This explanation concerns 'correlation and causation' and does not distinguish the two responses in the present mean versus median under skew decision.",
+        "This explanation concerns 'type I and type II errors' and does not distinguish the two responses in the present mean versus median under skew decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: mean versus median under skew",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "909daefcb6c8cf8d740f16e03abd7cd34c97b95be568a72a9a0346d15f3df3a2"
+    },
+    {
+      "id": "PV2-CORE-CH15-038",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "correlation and causation",
+      "itemFamilyId": "PV2-CORE-CH15-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a reliability demonstration, the team selects \"The association is useful but does not prove causation without considering confounding, timing, data quality, and a plausible mechanism\" rather than \"Any negative correlation proves that the observation program caused the decline\" for this case: Facilities with more safety observations also have fewer injuries. Leadership concludes that observations caused the reduction. What is the most defensible interpretation? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "For a ratio measure, an interval that includes 1.0 does not exclude no association. The wide interval also indicates substantial uncertainty.",
+        "Correlation can support further investigation but does not establish causal effect. Other differences between facilities, reverse causation, and measurement issues must be assessed.",
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect.",
+        "Raw counts do not account for opportunity. Normalized rates improve comparison, but differences in work, severity, and data quality still require interpretation."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the correlation and causation issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'confidence interval interpretation' and does not distinguish the two responses in the present correlation and causation decision.",
+        null,
+        "This explanation concerns 'type I and type II errors' and does not distinguish the two responses in the present correlation and causation decision.",
+        "This explanation concerns 'rate comparison and exposure opportunity' and does not distinguish the two responses in the present correlation and causation decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: correlation and causation",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8ec076c25f3cda38c04f3c969afa7007ce06e503d0632211d75265cd24b5aa38"
+    },
+    {
+      "id": "PV2-CORE-CH15-039",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "confidence interval interpretation",
+      "itemFamilyId": "PV2-CORE-CH15-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a confidence-interval discussion, the team selects \"The estimate suggests increased risk, but the interval includes 1.0 and is compatible with no association at the stated confidence level\" rather than \"The exposure is proven protective because the lower bound is below 1.0\" for this case: A study estimates a risk ratio of 1.4 with a 95% confidence interval of 0.8 to 2.3. Which conclusion is best? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Parallel redundancy can improve success probability, but independence, common-cause failure, diagnostics, and logic must be considered.",
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect.",
+        "For a ratio measure, an interval that includes 1.0 does not exclude no association. The wide interval also indicates substantial uncertainty.",
+        "Correlation can support further investigation but does not establish causal effect. Other differences between facilities, reverse causation, and measurement issues must be assessed."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the confidence interval interpretation issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'series and parallel reliability' and does not distinguish the two responses in the present confidence interval interpretation decision.",
+        "This explanation concerns 'type I and type II errors' and does not distinguish the two responses in the present confidence interval interpretation decision.",
+        null,
+        "This explanation concerns 'correlation and causation' and does not distinguish the two responses in the present confidence interval interpretation decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: confidence interval interpretation",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a99638e25ef19f20570731517dd838405274919ab84ca62dfe47d61e0e4168f6"
+    },
+    {
+      "id": "PV2-CORE-CH15-040",
+      "version": 1,
+      "chapterId": "ch-15",
+      "chapterTitle": "Statistics, Reliability, and Data Interpretation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.14",
+          "role": "secondary"
+        }
+      ],
+      "concept": "type I and type II errors",
+      "itemFamilyId": "PV2-CORE-CH15-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hypothesis-test interpretation, the team selects \"A Type I error, or false positive rejection of a true null hypothesis\" rather than \"Regression to the mean only, which cannot coexist with hypothesis testing error\" for this case: A test concludes that a new control reduced exposure when in truth it did not. What type of statistical error occurred? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Parallel redundancy can improve success probability, but independence, common-cause failure, diagnostics, and logic must be considered.",
+        "The median is resistant to extreme values and can better represent the center of a skewed distribution, while spread and the catastrophic tail should still be reported.",
+        "A point beyond a control limit signals potential special-cause variation. The appropriate response is investigation, not masking the signal by changing limits.",
+        "A Type I error occurs when the analysis reports an effect that is not actually present. Type II error is failure to detect a real effect."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the type i and type ii errors issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'series and parallel reliability' and does not distinguish the two responses in the present type i and type ii errors decision.",
+        "This explanation concerns 'mean versus median under skew' and does not distinguish the two responses in the present type i and type ii errors decision.",
+        "This explanation concerns 'control chart special cause' and does not distinguish the two responses in the present type i and type ii errors decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 15, pp. 408-426; NIST statistical methods and reliability principles; curated topic: type I and type II errors",
+      "sourceUrls": [
+        "https://www.itl.nist.gov/div898/handbook/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6c7f5d65a51fe2c2c2f94a51607b406e8a14e4f4c5a5fec005d7cbd0418111dd"
+    }
+  ]
+}

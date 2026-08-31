@@ -1,0 +1,2008 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-17-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-17",
+  "chapterTitle": "Mechanics",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH17-001",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "center of gravity and stability",
+      "itemFamilyId": "PV2-CORE-CH17-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A mobile platform carries the same load at two heights. Why does raising the load generally reduce stability during a turn?",
+      "options": [
+        "The combined center of gravity rises and can move outside the stability base with a smaller lateral force or tilt",
+        "Higher loads automatically increase tire-ground friction enough to prevent tipping",
+        "The load loses mass as it is raised",
+        "Stability depends only on forward speed and not on center-of-gravity location"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Raising a load elevates the system center of gravity and reduces the margin before the resultant force crosses the support boundary.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Higher loads automatically increase tire-ground friction enough to prevent tipping' does not apply the controlling principle for center of gravity and stability to the facts given, so it is not the best answer.",
+        "The option 'The load loses mass as it is raised' does not apply the controlling principle for center of gravity and stability to the facts given, so it is not the best answer.",
+        "The option 'Stability depends only on forward speed and not on center-of-gravity location' does not apply the controlling principle for center of gravity and stability to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: center of gravity and stability",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f88facdc33030e994caefed9e403188e10a6e6c5c99c0399e9cb585313293110"
+    },
+    {
+      "id": "PV2-CORE-CH17-002",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "torque",
+      "itemFamilyId": "PV2-CORE-CH17-F002",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A worker applies 120 pounds of perpendicular force at the end of a 2-foot wrench. Ignoring losses, what torque is produced?",
+      "options": [
+        "122 foot-pounds",
+        "240 foot-pounds",
+        "60 foot-pounds",
+        "14,400 foot-pounds"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Torque equals force multiplied by perpendicular moment arm: 120 lb × 2 ft = 240 ft-lb.",
+      "incorrectOptionExplanations": [
+        "The option '122 foot-pounds' does not apply the controlling principle for torque to the facts given, so it is not the best answer.",
+        null,
+        "The option '60 foot-pounds' does not apply the controlling principle for torque to the facts given, so it is not the best answer.",
+        "The option '14,400 foot-pounds' does not apply the controlling principle for torque to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: torque",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Torque = force × perpendicular moment arm",
+      "units": "foot-pounds",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "937016fdbe9aa3eca46c1c3cbf0b7c37af3aaf617851af0447d5a6a184c31b35"
+    },
+    {
+      "id": "PV2-CORE-CH17-003",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mechanical advantage",
+      "itemFamilyId": "PV2-CORE-CH17-F003",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "An ideal pulley system has four rope segments supporting the load. Approximately what input force is required to hold an 800-pound load, ignoring friction?",
+      "options": [
+        "400 pounds",
+        "3,200 pounds",
+        "200 pounds",
+        "50 pounds"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Ideal mechanical advantage equals the number of supporting rope segments, so required force is 800/4 = 200 pounds.",
+      "incorrectOptionExplanations": [
+        "The option '400 pounds' does not apply the controlling principle for mechanical advantage to the facts given, so it is not the best answer.",
+        "The option '3,200 pounds' does not apply the controlling principle for mechanical advantage to the facts given, so it is not the best answer.",
+        null,
+        "The option '50 pounds' does not apply the controlling principle for mechanical advantage to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: mechanical advantage",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Ideal input force = load / mechanical advantage",
+      "units": "pounds-force",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "96ad3a31b434fcb80aa8fb0875cc6e0506b2cd5110c4e6a019e5613270db9883"
+    },
+    {
+      "id": "PV2-CORE-CH17-004",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "kinetic energy and speed",
+      "itemFamilyId": "PV2-CORE-CH17-F004",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A vehicle’s speed doubles while mass remains constant. What happens to its kinetic energy?",
+      "options": [
+        "It increases by a factor of eight",
+        "It doubles",
+        "It remains unchanged",
+        "It increases by a factor of four"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Kinetic energy is one-half mass times velocity squared, so doubling velocity multiplies energy by four.",
+      "incorrectOptionExplanations": [
+        "The option 'It increases by a factor of eight' does not apply the controlling principle for kinetic energy and speed to the facts given, so it is not the best answer.",
+        "The option 'It doubles' does not apply the controlling principle for kinetic energy and speed to the facts given, so it is not the best answer.",
+        "The option 'It remains unchanged' does not apply the controlling principle for kinetic energy and speed to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: kinetic energy and speed",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "KE = 1/2 × m × v^2",
+      "units": "relative energy factor",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "16e8b9f67384a885114d8e42c6a758c6956f8d87b72d5747f568a521eb5b6247"
+    },
+    {
+      "id": "PV2-CORE-CH17-005",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work and energy",
+      "itemFamilyId": "PV2-CORE-CH17-F005",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "A hoist raises a 500-pound load vertically 12 feet at constant speed. Ignoring losses, how much work is performed?",
+      "options": [
+        "6,000 foot-pounds",
+        "72,000 foot-pounds",
+        "41.7 foot-pounds",
+        "512 foot-pounds"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Mechanical work equals force through distance: 500 lb × 12 ft = 6,000 ft-lb.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option '72,000 foot-pounds' does not apply the controlling principle for work and energy to the facts given, so it is not the best answer.",
+        "The option '41.7 foot-pounds' does not apply the controlling principle for work and energy to the facts given, so it is not the best answer.",
+        "The option '512 foot-pounds' does not apply the controlling principle for work and energy to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: work and energy",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Work = force × distance",
+      "units": "foot-pounds",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "380f9887c76ee5eb6a10eb30ffb999366806c012b4e680275766ab69b09758ac"
+    },
+    {
+      "id": "PV2-CORE-CH17-006",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "friction and stopping distance",
+      "itemFamilyId": "PV2-CORE-CH17-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A vehicle travels on a surface with lower friction than assumed in the stopping-distance calculation. All other factors are unchanged. What is the expected effect?",
+      "options": [
+        "Stopping distance will decrease because the tires slide more easily",
+        "Stopping distance will increase because less frictional force is available for deceleration",
+        "Only reaction distance changes; braking distance remains constant",
+        "Stopping distance is independent of surface friction"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Reduced coefficient of friction limits braking force and increases braking distance, while reaction distance is primarily governed by speed and reaction time.",
+      "incorrectOptionExplanations": [
+        "The option 'Stopping distance will decrease because the tires slide more easily' does not apply the controlling principle for friction and stopping distance to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Only reaction distance changes; braking distance remains constant' does not apply the controlling principle for friction and stopping distance to the facts given, so it is not the best answer.",
+        "The option 'Stopping distance is independent of surface friction' does not apply the controlling principle for friction and stopping distance to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: friction and stopping distance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "51977ccaa220d51791b4f31f99aa4b3b8ed8f9be51be92feeaf9ecd602a4f4c2"
+    },
+    {
+      "id": "PV2-CORE-CH17-007",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "stress and cross-sectional area",
+      "itemFamilyId": "PV2-CORE-CH17-F007",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "Two vertical rods carry the same tensile load, but one has half the cross-sectional area. How does the average tensile stress compare?",
+      "options": [
+        "The smaller rod has half the stress",
+        "Both rods have the same stress because the load is equal",
+        "The smaller rod has twice the average stress",
+        "The smaller rod has four times the stress regardless of shape"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Average normal stress equals force divided by area. Halving the area while keeping force constant doubles stress.",
+      "incorrectOptionExplanations": [
+        "The option 'The smaller rod has half the stress' does not apply the controlling principle for stress and cross-sectional area to the facts given, so it is not the best answer.",
+        "The option 'Both rods have the same stress because the load is equal' does not apply the controlling principle for stress and cross-sectional area to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The smaller rod has four times the stress regardless of shape' does not apply the controlling principle for stress and cross-sectional area to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: stress and cross-sectional area",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Stress = force / cross-sectional area",
+      "units": "force per unit area",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e1cf8ff5b34a1e70b90576d1f5b13df487a19af9f942f1ab11277c70567f10fe"
+    },
+    {
+      "id": "PV2-CORE-CH17-008",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "projectile trajectory and stored energy",
+      "itemFamilyId": "PV2-CORE-CH17-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A compressed spring can eject a machine component if a retaining pin is removed. Which control best addresses the mechanical hazard before maintenance?",
+      "options": [
+        "Stand farther away while leaving the spring fully compressed",
+        "Mark the spring with its force rating but do not block or discharge it",
+        "Wear safety glasses and remove the pin quickly",
+        "Release or restrain stored energy and verify a zero-energy state before removing the retaining device"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Stored mechanical energy must be dissipated or positively restrained. Distance and PPE may reduce consequence but do not establish safe control.",
+      "incorrectOptionExplanations": [
+        "The option 'Stand farther away while leaving the spring fully compressed' does not apply the controlling principle for projectile trajectory and stored energy to the facts given, so it is not the best answer.",
+        "The option 'Mark the spring with its force rating but do not block or discharge it' does not apply the controlling principle for projectile trajectory and stored energy to the facts given, so it is not the best answer.",
+        "The option 'Wear safety glasses and remove the pin quickly' does not apply the controlling principle for projectile trajectory and stored energy to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: projectile trajectory and stored energy",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3c43f64c3ace8640f3380cddf5037597b906f807ad533ab1092d92168882dfd7"
+    },
+    {
+      "id": "PV2-CORE-CH17-009",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "center of gravity and stability",
+      "itemFamilyId": "PV2-CORE-CH17-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a vehicle braking analysis, the team reviews this case: A mobile platform carries the same load at two heights. Why does raising the load generally reduce stability during a turn? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Raising a load elevates the system center of gravity and reduces the margin before the resultant force crosses the support boundary.",
+        "Reduced coefficient of friction limits braking force and increases braking distance, while reaction distance is primarily governed by speed and reaction time.",
+        "Mechanical work equals force through distance: 500 lb × 12 ft = 6,000 ft-lb.",
+        "Torque equals force multiplied by perpendicular moment arm: 120 lb × 2 ft = 240 ft-lb."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses center of gravity and stability and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'friction and stopping distance', but it does not resolve the center of gravity and stability issue in this case.",
+        "This rationale supports the separate chapter topic 'work and energy', but it does not resolve the center of gravity and stability issue in this case.",
+        "This rationale supports the separate chapter topic 'torque', but it does not resolve the center of gravity and stability issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: center of gravity and stability",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "482c713c93a305fcf94824d0b0707adbd8f3fb52072f738b8037ffa5047d101e"
+    },
+    {
+      "id": "PV2-CORE-CH17-010",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "torque",
+      "itemFamilyId": "PV2-CORE-CH17-F010",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a center-of-gravity review, the team reviews this case: A worker applies 120 pounds of perpendicular force at the end of a 2-foot wrench. Ignoring losses, what torque is produced? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Raising a load elevates the system center of gravity and reduces the margin before the resultant force crosses the support boundary.",
+        "Torque equals force multiplied by perpendicular moment arm: 120 lb × 2 ft = 240 ft-lb.",
+        "Reduced coefficient of friction limits braking force and increases braking distance, while reaction distance is primarily governed by speed and reaction time.",
+        "Stored mechanical energy must be dissipated or positively restrained. Distance and PPE may reduce consequence but do not establish safe control."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses torque and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'center of gravity and stability', but it does not resolve the torque issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'friction and stopping distance', but it does not resolve the torque issue in this case.",
+        "This rationale supports the separate chapter topic 'projectile trajectory and stored energy', but it does not resolve the torque issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: torque",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Torque = force × perpendicular moment arm",
+      "units": "foot-pounds",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e1f6537f85ca33362360991d3c3c15318380bc4358579b4bfff08cdf421e8f8a"
+    },
+    {
+      "id": "PV2-CORE-CH17-011",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mechanical advantage",
+      "itemFamilyId": "PV2-CORE-CH17-F011",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a torque requirement calculation, the team reviews this case: An ideal pulley system has four rope segments supporting the load. Approximately what input force is required to hold an 800-pound load, ignoring friction? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Kinetic energy is one-half mass times velocity squared, so doubling velocity multiplies energy by four.",
+        "Mechanical work equals force through distance: 500 lb × 12 ft = 6,000 ft-lb.",
+        "Ideal mechanical advantage equals the number of supporting rope segments, so required force is 800/4 = 200 pounds.",
+        "Average normal stress equals force divided by area. Halving the area while keeping force constant doubles stress."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses mechanical advantage and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'kinetic energy and speed', but it does not resolve the mechanical advantage issue in this case.",
+        "This rationale supports the separate chapter topic 'work and energy', but it does not resolve the mechanical advantage issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'stress and cross-sectional area', but it does not resolve the mechanical advantage issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: mechanical advantage",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Ideal input force = load / mechanical advantage",
+      "units": "pounds-force",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "967910eac3652cd40ad7c54cf8f3c258d036049c4e1b375016eec1aafeb15bd7"
+    },
+    {
+      "id": "PV2-CORE-CH17-012",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "kinetic energy and speed",
+      "itemFamilyId": "PV2-CORE-CH17-F012",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a projectile-energy assessment, the team reviews this case: A vehicle’s speed doubles while mass remains constant. What happens to its kinetic energy? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Stored mechanical energy must be dissipated or positively restrained. Distance and PPE may reduce consequence but do not establish safe control.",
+        "Average normal stress equals force divided by area. Halving the area while keeping force constant doubles stress.",
+        "Raising a load elevates the system center of gravity and reduces the margin before the resultant force crosses the support boundary.",
+        "Kinetic energy is one-half mass times velocity squared, so doubling velocity multiplies energy by four."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses kinetic energy and speed and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'projectile trajectory and stored energy', but it does not resolve the kinetic energy and speed issue in this case.",
+        "This rationale supports the separate chapter topic 'stress and cross-sectional area', but it does not resolve the kinetic energy and speed issue in this case.",
+        "This rationale supports the separate chapter topic 'center of gravity and stability', but it does not resolve the kinetic energy and speed issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: kinetic energy and speed",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "KE = 1/2 × m × v^2",
+      "units": "relative energy factor",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "072e18e7322a06e0d1f4c05fbfce6d0bccd270f9cfb1d91f3c407ce1470fe328"
+    },
+    {
+      "id": "PV2-CORE-CH17-013",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work and energy",
+      "itemFamilyId": "PV2-CORE-CH17-F013",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a simple-machine evaluation, the team reviews this case: A hoist raises a 500-pound load vertically 12 feet at constant speed. Ignoring losses, how much work is performed? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Mechanical work equals force through distance: 500 lb × 12 ft = 6,000 ft-lb.",
+        "Kinetic energy is one-half mass times velocity squared, so doubling velocity multiplies energy by four.",
+        "Ideal mechanical advantage equals the number of supporting rope segments, so required force is 800/4 = 200 pounds.",
+        "Torque equals force multiplied by perpendicular moment arm: 120 lb × 2 ft = 240 ft-lb."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses work and energy and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'kinetic energy and speed', but it does not resolve the work and energy issue in this case.",
+        "This rationale supports the separate chapter topic 'mechanical advantage', but it does not resolve the work and energy issue in this case.",
+        "This rationale supports the separate chapter topic 'torque', but it does not resolve the work and energy issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: work and energy",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Work = force × distance",
+      "units": "foot-pounds",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7bac50b163f23baf798437f59f6ea0277bae338e88e34982e12ef5ee57f14e3d"
+    },
+    {
+      "id": "PV2-CORE-CH17-014",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "friction and stopping distance",
+      "itemFamilyId": "PV2-CORE-CH17-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a structural load estimate, the team reviews this case: A vehicle travels on a surface with lower friction than assumed in the stopping-distance calculation. All other factors are unchanged. What is the expected effect? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Stored mechanical energy must be dissipated or positively restrained. Distance and PPE may reduce consequence but do not establish safe control.",
+        "Reduced coefficient of friction limits braking force and increases braking distance, while reaction distance is primarily governed by speed and reaction time.",
+        "Kinetic energy is one-half mass times velocity squared, so doubling velocity multiplies energy by four.",
+        "Raising a load elevates the system center of gravity and reduces the margin before the resultant force crosses the support boundary."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses friction and stopping distance and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'projectile trajectory and stored energy', but it does not resolve the friction and stopping distance issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'kinetic energy and speed', but it does not resolve the friction and stopping distance issue in this case.",
+        "This rationale supports the separate chapter topic 'center of gravity and stability', but it does not resolve the friction and stopping distance issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: friction and stopping distance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6605a2135a68ba7209f34e83386e16824f0cfd420649158fe27afea718b7ed0b"
+    },
+    {
+      "id": "PV2-CORE-CH17-015",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "stress and cross-sectional area",
+      "itemFamilyId": "PV2-CORE-CH17-F015",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a machine-force calculation, the team reviews this case: Two vertical rods carry the same tensile load, but one has half the cross-sectional area. How does the average tensile stress compare? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Ideal mechanical advantage equals the number of supporting rope segments, so required force is 800/4 = 200 pounds.",
+        "Reduced coefficient of friction limits braking force and increases braking distance, while reaction distance is primarily governed by speed and reaction time.",
+        "Average normal stress equals force divided by area. Halving the area while keeping force constant doubles stress.",
+        "Torque equals force multiplied by perpendicular moment arm: 120 lb × 2 ft = 240 ft-lb."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses stress and cross-sectional area and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'mechanical advantage', but it does not resolve the stress and cross-sectional area issue in this case.",
+        "This rationale supports the separate chapter topic 'friction and stopping distance', but it does not resolve the stress and cross-sectional area issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'torque', but it does not resolve the stress and cross-sectional area issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: stress and cross-sectional area",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Stress = force / cross-sectional area",
+      "units": "force per unit area",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9ed40eadb89c15834a8fe6c5e863e7b2de5cb9f1e5e62ae43e7cffa5016d949e"
+    },
+    {
+      "id": "PV2-CORE-CH17-016",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "projectile trajectory and stored energy",
+      "itemFamilyId": "PV2-CORE-CH17-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a lifting-device design check, the team reviews this case: A compressed spring can eject a machine component if a retaining pin is removed. Which control best addresses the mechanical hazard before maintenance? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Average normal stress equals force divided by area. Halving the area while keeping force constant doubles stress.",
+        "Torque equals force multiplied by perpendicular moment arm: 120 lb × 2 ft = 240 ft-lb.",
+        "Mechanical work equals force through distance: 500 lb × 12 ft = 6,000 ft-lb.",
+        "Stored mechanical energy must be dissipated or positively restrained. Distance and PPE may reduce consequence but do not establish safe control."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses projectile trajectory and stored energy and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'stress and cross-sectional area', but it does not resolve the projectile trajectory and stored energy issue in this case.",
+        "This rationale supports the separate chapter topic 'torque', but it does not resolve the projectile trajectory and stored energy issue in this case.",
+        "This rationale supports the separate chapter topic 'work and energy', but it does not resolve the projectile trajectory and stored energy issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: projectile trajectory and stored energy",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4c04611436c279d15c21d464feb853ad85675eadf68234a8fef55b4982383fdc"
+    },
+    {
+      "id": "PV2-CORE-CH17-017",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Frictional force",
+      "itemFamilyId": "PV2-CORE-CH17-F017",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a lifting-device design check, solve the following problem and select the best answer: A 420 N equipment case rests on a level floor. If the coefficient of friction is 0.28, what horizontal force is required to just overcome friction?",
+      "options": [
+        "117.6 N",
+        "420.0 N",
+        "84.0 N",
+        "150.0 N"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "For a level surface, the normal force equals the weight. Frictional force is F = mu*N = 0.28*420 N = 117.6 N.",
+      "incorrectOptionExplanations": [
+        null,
+        "This treats the full normal force as friction and ignores the coefficient.",
+        "This multiplies the weight by 0.20 rather than the stated coefficient.",
+        "This value does not result from multiplying the normal force by 0.28."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 17, Frictional Force, pp. 459-460; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "F_friction = mu*N",
+      "units": "newtons (N)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ba0b187e3b456ce53b8e45173e64abc421d64aae1a35646f58f98123d5bfceab"
+    },
+    {
+      "id": "PV2-CORE-CH17-018",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Kinetic energy",
+      "itemFamilyId": "PV2-CORE-CH17-F018",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a vehicle braking analysis, solve the following problem and select the best answer: A 18 kg inspection cart is moving at 4.0 m/s. What is its kinetic energy?",
+      "options": [
+        "72 J",
+        "144 J",
+        "288 J",
+        "324 J"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Kinetic energy is KE = 0.5*m*v^2 = 0.5*18*4^2 = 144 J.",
+      "incorrectOptionExplanations": [
+        "This omits half of the squared-velocity contribution.",
+        null,
+        "This doubles the correct result after calculating m*v^2.",
+        "This multiplies mass by velocity squared without the one-half factor."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); NIST Joule definition",
+      "sourceLocation": "Yates Chapter 17, Kinetic Energy, pp. 454-455; NIST, joule as one newton-meter of work; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.nist.gov/glossary-term/26261"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "KE = 0.5*m*v^2",
+      "units": "joules (J)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ca72161636641be5350ecbf5ed55bdcb4ce06ab34ce94e97d9c2ff991f36b6bc"
+    },
+    {
+      "id": "PV2-CORE-CH17-019",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Gravitational potential energy",
+      "itemFamilyId": "PV2-CORE-CH17-F019",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a center-of-gravity review, solve the following problem and select the best answer: A 32 kg tool chest is lifted 2.5 m onto a platform. Using g = 9.8 m/s^2, how much gravitational potential energy is added?",
+      "options": [
+        "1,280 J",
+        "320 J",
+        "784 J",
+        "640 J"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Potential energy is PE = m*g*h = 32*9.8*2.5 = 784 J.",
+      "incorrectOptionExplanations": [
+        "This multiplies mass and height by an unsupported factor of 16.",
+        "This multiplies mass by height but omits gravitational acceleration.",
+        null,
+        "This uses an incorrect gravitational acceleration of 8 m/s^2."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); NIST Joule definition",
+      "sourceLocation": "Yates Chapter 17, Potential Energy, pp. 455-456; NIST, joule definition; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.nist.gov/glossary-term/26261"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "PE = m*g*h",
+      "units": "joules (J)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "daace67086761843264778b69f41a2c0f83dd70601490dc906c3716b19892a87"
+    },
+    {
+      "id": "PV2-CORE-CH17-020",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Force from mass and acceleration",
+      "itemFamilyId": "PV2-CORE-CH17-F020",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a torque requirement calculation, solve the following problem and select the best answer: A powered carrier with a mass of 900 kg accelerates at 1.8 m/s^2. What net force produces this acceleration?",
+      "options": [
+        "500 N",
+        "900 N",
+        "1,800 N",
+        "1,620 N"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Newton second law gives F = m*a = 900 kg*1.8 m/s^2 = 1,620 N.",
+      "incorrectOptionExplanations": [
+        "This divides mass by acceleration instead of multiplying.",
+        "This reports the mass as though it were already a force.",
+        "This uses 2.0 m/s^2 rather than the stated acceleration.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 17, Amount of Force and Newton second law, pp. 458-464; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "F = m*a",
+      "units": "newtons (N)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "56b0e7cf42a41749f27196826152f0c6c53602e7c2b944c0021373a7a38d175f"
+    },
+    {
+      "id": "PV2-CORE-CH17-021",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Lever force-distance relationship",
+      "itemFamilyId": "PV2-CORE-CH17-F021",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a projectile-energy assessment, solve the following problem and select the best answer: A 480 N load is 0.75 m from a fulcrum. What force applied 2.4 m from the fulcrum will balance the load?",
+      "options": [
+        "150 N",
+        "640 N",
+        "1,536 N",
+        "360 N"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Balance moments using F1*D1 = F2*D2. The required force is (480*0.75)/2.4 = 150 N.",
+      "incorrectOptionExplanations": [
+        null,
+        "This divides the load by the short distance and ignores the longer lever arm.",
+        "This multiplies the load by the long arm instead of balancing moments.",
+        "This is the load-side moment, not the balancing force at 2.4 m."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 17, Force and Distance, pp. 460-461; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "F1*D1 = F2*D2",
+      "units": "newtons (N)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c6ddf6ee88bf6a2dc7f04494080ad404aaee60036be868c2ec7191ef28700a4c"
+    },
+    {
+      "id": "PV2-CORE-CH17-022",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Linear momentum",
+      "itemFamilyId": "PV2-CORE-CH17-F022",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a simple-machine evaluation, solve the following problem and select the best answer: A 1,200 kg utility vehicle travels at 6.0 m/s. What is its linear momentum?",
+      "options": [
+        "3,600 kg*m/s",
+        "7,200 kg*m/s",
+        "43,200 kg*m/s",
+        "200 kg*m/s"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Momentum is p = m*v = 1,200 kg*6.0 m/s = 7,200 kg*m/s.",
+      "incorrectOptionExplanations": [
+        "This applies an unnecessary one-half factor from the kinetic-energy equation.",
+        null,
+        "This multiplies by velocity twice, which belongs to neither momentum nor the stated data.",
+        "This divides mass by velocity rather than multiplying."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 17, Momentum, pp. 461-462; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "p = m*v",
+      "units": "kilogram-meters per second (kg*m/s)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "62d1196a025b8193456c24a431fcdbcd85a5463d2e0c12f54429e1da25fe895c"
+    },
+    {
+      "id": "PV2-CORE-CH17-023",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Mechanical work",
+      "itemFamilyId": "PV2-CORE-CH17-F023",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a structural load estimate, solve the following problem and select the best answer: A horizontal force of 350 N moves a crate 12 m in the same direction as the force. How much work is done?",
+      "options": [
+        "362 J",
+        "8,400 J",
+        "4,200 J",
+        "700 J"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "When force and displacement are aligned, W = F*s = 350 N*12 m = 4,200 J.",
+      "incorrectOptionExplanations": [
+        "This adds the force and distance instead of multiplying them.",
+        "This applies an unnecessary factor of two to the correct work.",
+        null,
+        "This doubles the force but does not account for the 12 m displacement."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); NIST Joule definition",
+      "sourceLocation": "Yates Chapter 17, Work, pp. 462-463; NIST, joule definition; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.nist.gov/glossary-term/26261"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "W = F*s",
+      "units": "joules (J)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "68ca00ff8e2d8ae9eb7372fe8826066be4fbc99c423cd503248765297894c4ac"
+    },
+    {
+      "id": "PV2-CORE-CH17-024",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Work by an angled force",
+      "itemFamilyId": "PV2-CORE-CH17-F024",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a machine-force calculation, solve the following problem and select the best answer: A worker pulls a cart with a 500 N force at 30 degrees above horizontal for 8.0 m. Using cos 30 degrees = 0.866, how much work acts in the direction of travel?",
+      "options": [
+        "2,000 J",
+        "3,200 J",
+        "4,000 J",
+        "3,464 J"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Only the force component parallel to travel performs this work: W = F*s*cos(theta) = 500*8*0.866 = 3,464 J.",
+      "incorrectOptionExplanations": [
+        "This applies an unsupported one-half factor to F*s.",
+        "This uses 0.80 rather than the given cosine value.",
+        "This uses all of F*s and ignores the angle between force and displacement.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); NIST Joule definition",
+      "sourceLocation": "Yates Chapter 17, Modified Work, pp. 463-464; NIST, joule definition; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.nist.gov/glossary-term/26261"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "W = F*s*cos(theta)",
+      "units": "joules (J)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "62a98d82378ecf0630ea87ff4895aed4c28dff9f84cf294be3f4b2f63d28c448"
+    },
+    {
+      "id": "PV2-CORE-CH17-025",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Stopping time under constant deceleration",
+      "itemFamilyId": "PV2-CORE-CH17-F025",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a lifting-device design check, solve the following problem and select the best answer: A cart is moving at 18 m/s and decelerates uniformly at 3.0 m/s^2. How long will it take to stop?",
+      "options": [
+        "6.0 s",
+        "54.0 s",
+        "9.0 s",
+        "5.0 s"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Use v = v0 + a*t. Setting final velocity to zero gives t = (0-18)/(-3.0) = 6.0 s.",
+      "incorrectOptionExplanations": [
+        null,
+        "This multiplies speed by deceleration instead of dividing the speed change by acceleration.",
+        "Nine seconds would imply the cart continued accelerating backward after stopping.",
+        "Five seconds would leave the cart moving at 3 m/s."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 17, Velocity, pp. 464-465; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "v = v0 + a*t",
+      "units": "seconds (s)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d9809b69333055ec62113d2f7d43d5f43659519158cfccf36eb17f8f07b2135a"
+    },
+    {
+      "id": "PV2-CORE-CH17-026",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Final velocity from displacement",
+      "itemFamilyId": "PV2-CORE-CH17-F026",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a vehicle braking analysis, solve the following problem and select the best answer: A maintenance cart starts at 4.0 m/s and accelerates at 2.5 m/s^2 over 24 m. What is its final speed?",
+      "options": [
+        "16.0 m/s",
+        "11.7 m/s",
+        "9.8 m/s",
+        "136.0 m/s"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Use v^2 = v0^2 + 2*a*s. Then v = sqrt(4^2 + 2*2.5*24) = sqrt(136) = 11.7 m/s.",
+      "incorrectOptionExplanations": [
+        "This adds the raw terms without taking the square root of the final squared velocity.",
+        null,
+        "This substitutes gravitational acceleration rather than solving the stated motion equation.",
+        "This reports v^2 as though it were velocity."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 17, Calculating Final Velocity, pp. 465-466; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "v^2 = v0^2 + 2*a*s",
+      "units": "meters per second (m/s)",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d91a04af7a1d5db964313a7ff3fdb3e32e66bded988caf1705cb10eec0ef11d3"
+    },
+    {
+      "id": "PV2-CORE-CH17-027",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Newton third law",
+      "itemFamilyId": "PV2-CORE-CH17-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a center-of-gravity review, the team reviews this question: A suspended load pushes a tagline outward while the worker pulling the tagline feels an equal force in the opposite direction. Which principle best explains this interaction? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For a level surface, the normal force equals the weight. Frictional force is F = mu*N = 0.28*420 N = 117.6 N.",
+        "Use v = v0 + a*t. Setting final velocity to zero gives t = (0-18)/(-3.0) = 6.0 s.",
+        "The load and worker exert forces on each other as an action-reaction pair, equal in magnitude and opposite in direction.",
+        "Only the force component parallel to travel performs this work: W = F*s*cos(theta) = 500*8*0.866 = 3,464 J."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Frictional force', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Stopping time under constant deceleration', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Work by an angled force', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 17, Newton Laws of Motion, p. 464; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b0bcc84562a3d478d915cbade83c22431b89296c16b4f333025fff32652a085d"
+    },
+    {
+      "id": "PV2-CORE-CH17-028",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Difference between mass and weight",
+      "itemFamilyId": "PV2-CORE-CH17-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a torque requirement calculation, the team reviews this question: A calibrated test mass is moved from Earth to a location with lower gravitational acceleration. Which statement is correct? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Use v = v0 + a*t. Setting final velocity to zero gives t = (0-18)/(-3.0) = 6.0 s.",
+        "The load and worker exert forces on each other as an action-reaction pair, equal in magnitude and opposite in direction.",
+        "For a level surface, the normal force equals the weight. Frictional force is F = mu*N = 0.28*420 N = 117.6 N.",
+        "Mass is the amount of matter and remains constant. Weight is gravitational force, W = m*g, so lower local gravity produces lower weight."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Stopping time under constant deceleration', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Newton third law', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Frictional force', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 17, Defining Mass and Weight, pp. 458-459; Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3b7524f5d0c54b2b649a93d6f12bfe106d13a36e060392e89f881c91594c74df"
+    },
+    {
+      "id": "PV2-CORE-CH17-029",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "center of gravity and stability",
+      "itemFamilyId": "PV2-CORE-CH17-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a structural load estimate, a supervisor proposes: \"Higher loads automatically increase tire-ground friction enough to prevent tipping\". The underlying case is: A mobile platform carries the same load at two heights. Why does raising the load generally reduce stability during a turn? Which alternative is the most defensible correction?",
+      "options": [
+        "The combined center of gravity rises and can move outside the stability base with a smaller lateral force or tilt",
+        "Stability depends only on forward speed and not on center-of-gravity location",
+        "Higher loads automatically increase tire-ground friction enough to prevent tipping",
+        "The load loses mass as it is raised"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Raising a load elevates the system center of gravity and reduces the margin before the resultant force crosses the support boundary.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Stability depends only on forward speed and not on center-of-gravity location' remains incomplete or misapplies the controlling center of gravity and stability principle.",
+        "The proposed response 'Higher loads automatically increase tire-ground friction enough to prevent tipping' remains incomplete or misapplies the controlling center of gravity and stability principle.",
+        "The proposed response 'The load loses mass as it is raised' remains incomplete or misapplies the controlling center of gravity and stability principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: center of gravity and stability",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "143fa1246460dd8665aa04a2acd8f3049bf3b1bd6ca174719b080998afb387d2"
+    },
+    {
+      "id": "PV2-CORE-CH17-030",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "torque",
+      "itemFamilyId": "PV2-CORE-CH17-F030",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a machine-force calculation, a supervisor proposes: \"14,400 foot-pounds\". The underlying case is: A worker applies 120 pounds of perpendicular force at the end of a 2-foot wrench. Ignoring losses, what torque is produced? Which alternative is the most defensible correction?",
+      "options": [
+        "122 foot-pounds",
+        "240 foot-pounds",
+        "14,400 foot-pounds",
+        "60 foot-pounds"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Torque equals force multiplied by perpendicular moment arm: 120 lb × 2 ft = 240 ft-lb.",
+      "incorrectOptionExplanations": [
+        "The proposed response '122 foot-pounds' remains incomplete or misapplies the controlling torque principle.",
+        null,
+        "The proposed response '14,400 foot-pounds' remains incomplete or misapplies the controlling torque principle.",
+        "The proposed response '60 foot-pounds' remains incomplete or misapplies the controlling torque principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: torque",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Torque = force × perpendicular moment arm",
+      "units": "foot-pounds",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1fa87092c889e2095fdb80dd963076357137572bc406f0ba1ee3478c8d24416d"
+    },
+    {
+      "id": "PV2-CORE-CH17-031",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "mechanical advantage",
+      "itemFamilyId": "PV2-CORE-CH17-F031",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a lifting-device design check, a supervisor proposes: \"50 pounds\". The underlying case is: An ideal pulley system has four rope segments supporting the load. Approximately what input force is required to hold an 800-pound load, ignoring friction? Which alternative is the most defensible correction?",
+      "options": [
+        "3,200 pounds",
+        "400 pounds",
+        "200 pounds",
+        "50 pounds"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Ideal mechanical advantage equals the number of supporting rope segments, so required force is 800/4 = 200 pounds.",
+      "incorrectOptionExplanations": [
+        "The proposed response '3,200 pounds' remains incomplete or misapplies the controlling mechanical advantage principle.",
+        "The proposed response '400 pounds' remains incomplete or misapplies the controlling mechanical advantage principle.",
+        null,
+        "The proposed response '50 pounds' remains incomplete or misapplies the controlling mechanical advantage principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: mechanical advantage",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Ideal input force = load / mechanical advantage",
+      "units": "pounds-force",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3ae2c500375616d83d0c6f9a69f8f4ce9fe1fbdb35cdad9e13003a933a1a2c26"
+    },
+    {
+      "id": "PV2-CORE-CH17-032",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "kinetic energy and speed",
+      "itemFamilyId": "PV2-CORE-CH17-F032",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a vehicle braking analysis, a supervisor proposes: \"It remains unchanged\". The underlying case is: A vehicle’s speed doubles while mass remains constant. What happens to its kinetic energy? Which alternative is the most defensible correction?",
+      "options": [
+        "It remains unchanged",
+        "It increases by a factor of eight",
+        "It doubles",
+        "It increases by a factor of four"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Kinetic energy is one-half mass times velocity squared, so doubling velocity multiplies energy by four.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'It remains unchanged' remains incomplete or misapplies the controlling kinetic energy and speed principle.",
+        "The proposed response 'It increases by a factor of eight' remains incomplete or misapplies the controlling kinetic energy and speed principle.",
+        "The proposed response 'It doubles' remains incomplete or misapplies the controlling kinetic energy and speed principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: kinetic energy and speed",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "KE = 1/2 × m × v^2",
+      "units": "relative energy factor",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a5c04267c46f65211094d3f1e9d38c8a69bbddf8d05c92ca7649e35e955c06af"
+    },
+    {
+      "id": "PV2-CORE-CH17-033",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "work and energy",
+      "itemFamilyId": "PV2-CORE-CH17-F033",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a center-of-gravity review, a supervisor proposes: \"72,000 foot-pounds\". The underlying case is: A hoist raises a 500-pound load vertically 12 feet at constant speed. Ignoring losses, how much work is performed? Which alternative is the most defensible correction?",
+      "options": [
+        "6,000 foot-pounds",
+        "41.7 foot-pounds",
+        "512 foot-pounds",
+        "72,000 foot-pounds"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Mechanical work equals force through distance: 500 lb × 12 ft = 6,000 ft-lb.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response '41.7 foot-pounds' remains incomplete or misapplies the controlling work and energy principle.",
+        "The proposed response '512 foot-pounds' remains incomplete or misapplies the controlling work and energy principle.",
+        "The proposed response '72,000 foot-pounds' remains incomplete or misapplies the controlling work and energy principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: work and energy",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Work = force × distance",
+      "units": "foot-pounds",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ef94d1441e4454b72565baec2ddd05a9cb38c2813073c762e56f79efe91e3657"
+    },
+    {
+      "id": "PV2-CORE-CH17-034",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "friction and stopping distance",
+      "itemFamilyId": "PV2-CORE-CH17-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a torque requirement calculation, a supervisor proposes: \"Stopping distance will decrease because the tires slide more easily\". The underlying case is: A vehicle travels on a surface with lower friction than assumed in the stopping-distance calculation. All other factors are unchanged. What is the expected effect? Which alternative is the most defensible correction?",
+      "options": [
+        "Stopping distance is independent of surface friction",
+        "Stopping distance will increase because less frictional force is available for deceleration",
+        "Stopping distance will decrease because the tires slide more easily",
+        "Only reaction distance changes; braking distance remains constant"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Reduced coefficient of friction limits braking force and increases braking distance, while reaction distance is primarily governed by speed and reaction time.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Stopping distance is independent of surface friction' remains incomplete or misapplies the controlling friction and stopping distance principle.",
+        null,
+        "The proposed response 'Stopping distance will decrease because the tires slide more easily' remains incomplete or misapplies the controlling friction and stopping distance principle.",
+        "The proposed response 'Only reaction distance changes; braking distance remains constant' remains incomplete or misapplies the controlling friction and stopping distance principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: friction and stopping distance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "591d37221b3b73f7693927eda8021ab6f248524ea5d6bd4e911c58fa879ca88e"
+    },
+    {
+      "id": "PV2-CORE-CH17-035",
+      "version": 1,
+      "chapterId": "ch-17",
+      "chapterTitle": "Mechanics",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.10",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "stress and cross-sectional area",
+      "itemFamilyId": "PV2-CORE-CH17-F035",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "At a projectile-energy assessment, a supervisor proposes: \"Both rods have the same stress because the load is equal\". The underlying case is: Two vertical rods carry the same tensile load, but one has half the cross-sectional area. How does the average tensile stress compare? Which alternative is the most defensible correction?",
+      "options": [
+        "Both rods have the same stress because the load is equal",
+        "The smaller rod has half the stress",
+        "The smaller rod has twice the average stress",
+        "The smaller rod has four times the stress regardless of shape"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Average normal stress equals force divided by area. Halving the area while keeping force constant doubles stress.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Both rods have the same stress because the load is equal' remains incomplete or misapplies the controlling stress and cross-sectional area principle.",
+        "The proposed response 'The smaller rod has half the stress' remains incomplete or misapplies the controlling stress and cross-sectional area principle.",
+        null,
+        "The proposed response 'The smaller rod has four times the stress regardless of shape' remains incomplete or misapplies the controlling stress and cross-sectional area principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 17, pp. 454-468 and BCSP-supplied mechanics equations; curated topic: stress and cross-sectional area",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Stress = force / cross-sectional area",
+      "units": "force per unit area",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2e46d917b1c505380aa4acd95c0a7821e6f1b901e1cd430f1b92644e390a3599"
+    }
+  ]
+}

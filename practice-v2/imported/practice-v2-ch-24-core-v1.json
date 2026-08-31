@@ -1,0 +1,2331 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-24-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-24",
+  "chapterTitle": "Ergonomics and Human Factors",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH24-001",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ergonomic risk-factor interaction",
+      "itemFamilyId": "PV2-CORE-CH24-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A task involves moderate force, high repetition, awkward wrist posture, and little recovery time. Each factor alone appears tolerable. What is the best assessment?",
+      "options": [
+        "Evaluate the combined exposure because interacting risk factors can materially increase musculoskeletal risk",
+        "Conclude the task is safe if no employee reports pain during one observation",
+        "Average the four factors so high and low values cancel each other",
+        "Assess only force because repetition and posture cannot interact with it"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Conclude the task is safe if no employee reports pain during one observation' does not apply the controlling principle for ergonomic risk-factor interaction to the facts given, so it is not the best answer.",
+        "The option 'Average the four factors so high and low values cancel each other' does not apply the controlling principle for ergonomic risk-factor interaction to the facts given, so it is not the best answer.",
+        "The option 'Assess only force because repetition and posture cannot interact with it' does not apply the controlling principle for ergonomic risk-factor interaction to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: ergonomic risk-factor interaction",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0b281d4d2e6ad78d8c76b65dad9999a1efd3db265bf3fbdbe28d7f51b00b3cc9"
+    },
+    {
+      "id": "PV2-CORE-CH24-002",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "NIOSH lifting equation application",
+      "itemFamilyId": "PV2-CORE-CH24-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A lift has a low load weight but requires extended horizontal reach, twisting, and high frequency. What conclusion is most appropriate?",
+      "options": [
+        "Use object weight alone because the equation applies only above 50 pounds",
+        "The acceptable load can be substantially reduced by the multipliers, so the full lifting equation and task variability should be evaluated",
+        "Low object weight makes posture and frequency irrelevant",
+        "Add the multipliers together to increase the recommended weight limit"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The lifting equation reduces the recommended limit for unfavorable reach, asymmetry, frequency, travel, coupling, and location. Low nominal weight does not end the analysis.",
+      "incorrectOptionExplanations": [
+        "The option 'Use object weight alone because the equation applies only above 50 pounds' does not apply the controlling principle for niosh lifting equation application to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Low object weight makes posture and frequency irrelevant' does not apply the controlling principle for niosh lifting equation application to the facts given, so it is not the best answer.",
+        "The option 'Add the multipliers together to increase the recommended weight limit' does not apply the controlling principle for niosh lifting equation application to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: NIOSH lifting equation application",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4001e549eaa5c1a3d6dc2aa2ca7bc1908c0b236d67ba6899b248ce6b01d0944e"
+    },
+    {
+      "id": "PV2-CORE-CH24-003",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "anthropometric design",
+      "itemFamilyId": "PV2-CORE-CH24-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A fixed control panel is designed around the average worker and is unreachable for many shorter employees. What design principle should replace the average-user approach?",
+      "options": [
+        "Design all dimensions for the largest worker regardless of reach",
+        "Require shorter workers to use improvised platforms instead of changing the design",
+        "Design reach requirements for an appropriate smaller percentile and clearances for an appropriate larger percentile, with adjustability where feasible",
+        "Use the 50th percentile for every dimension because it represents most people"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+      "incorrectOptionExplanations": [
+        "The option 'Design all dimensions for the largest worker regardless of reach' does not apply the controlling principle for anthropometric design to the facts given, so it is not the best answer.",
+        "The option 'Require shorter workers to use improvised platforms instead of changing the design' does not apply the controlling principle for anthropometric design to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use the 50th percentile for every dimension because it represents most people' does not apply the controlling principle for anthropometric design to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: anthropometric design",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ec83747e4fa019616701bbf53399a402a7efbcb084f54e995c827740d6f2c2aa"
+    },
+    {
+      "id": "PV2-CORE-CH24-004",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "workstation neutral posture",
+      "itemFamilyId": "PV2-CORE-CH24-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A computer user elevates the shoulders and extends the wrists because the desk and keyboard are too high. Which redesign is best?",
+      "options": [
+        "Use wrist braces as the sole permanent correction while leaving the workstation unchanged",
+        "Raise the monitor further and ask the employee to type faster",
+        "Move the keyboard farther away to encourage arm exercise",
+        "Adjust the workstation so shoulders are relaxed, elbows supported near a comfortable angle, wrists are neutral, and input devices are within easy reach"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Workstation geometry should support neutral posture and low reach. Bracing or behavioral instructions do not correct a poor physical layout.",
+      "incorrectOptionExplanations": [
+        "The option 'Use wrist braces as the sole permanent correction while leaving the workstation unchanged' does not apply the controlling principle for workstation neutral posture to the facts given, so it is not the best answer.",
+        "The option 'Raise the monitor further and ask the employee to type faster' does not apply the controlling principle for workstation neutral posture to the facts given, so it is not the best answer.",
+        "The option 'Move the keyboard farther away to encourage arm exercise' does not apply the controlling principle for workstation neutral posture to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: workstation neutral posture",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9f15a3fe1fc32f8488dff7cefc63fc14acbb9da4b396d5f37d638005211eb108"
+    },
+    {
+      "id": "PV2-CORE-CH24-005",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hand-arm vibration",
+      "itemFamilyId": "PV2-CORE-CH24-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Workers use high-vibration grinders for long periods and report numbness and blanching. Which control package is strongest?",
+      "options": [
+        "Reduce vibration at the tool and process, maintain equipment, limit exposure duration, manage cold, train workers, and arrange medical evaluation",
+        "Increase grip force so the tool cannot move in the hands",
+        "Issue thicker gloves and make no change to tools or exposure time",
+        "Wait for permanent symptoms before evaluating the process"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Hand-arm vibration risk is addressed through lower-vibration tools and methods, maintenance, exposure management, warmth, training, and health response; gloves alone have limited control value.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Increase grip force so the tool cannot move in the hands' does not apply the controlling principle for hand-arm vibration to the facts given, so it is not the best answer.",
+        "The option 'Issue thicker gloves and make no change to tools or exposure time' does not apply the controlling principle for hand-arm vibration to the facts given, so it is not the best answer.",
+        "The option 'Wait for permanent symptoms before evaluating the process' does not apply the controlling principle for hand-arm vibration to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: hand-arm vibration",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "489746555ca1cf310fc1b3491a33f70faaf54a8085bd374e883492dd96285356"
+    },
+    {
+      "id": "PV2-CORE-CH24-006",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fatigue risk management",
+      "itemFamilyId": "PV2-CORE-CH24-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A schedule change adds repeated 14-hour night shifts with short turnaround time. Error rates rise. Which intervention is most defensible?",
+      "options": [
+        "Provide caffeine and keep the schedule unchanged",
+        "Redesign schedules and staffing to provide adequate sleep opportunity and recovery, while managing workload, breaks, commuting, and fatigue reporting",
+        "Tell employees to sleep more without changing turnaround time",
+        "Use disciplinary action whenever a fatigued employee reports difficulty concentrating"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Fatigue is a system risk influenced by schedule, workload, circadian timing, recovery, and commuting. Personal countermeasures cannot replace adequate opportunity for sleep.",
+      "incorrectOptionExplanations": [
+        "The option 'Provide caffeine and keep the schedule unchanged' does not apply the controlling principle for fatigue risk management to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Tell employees to sleep more without changing turnaround time' does not apply the controlling principle for fatigue risk management to the facts given, so it is not the best answer.",
+        "The option 'Use disciplinary action whenever a fatigued employee reports difficulty concentrating' does not apply the controlling principle for fatigue risk management to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: fatigue risk management",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e59245ab960aed4314cf64a360acb814e5184a98490db3123576c9c0227930de"
+    },
+    {
+      "id": "PV2-CORE-CH24-007",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "human-machine interface",
+      "itemFamilyId": "PV2-CORE-CH24-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Two adjacent controls look identical, and activating the wrong one can create a hazardous release. Which design change is strongest?",
+      "options": [
+        "Make both controls smaller so operators pay closer attention",
+        "Add a general warning sign while leaving the controls identical",
+        "Differentiate and arrange controls by function, use compatible coding and labeling, and provide error-tolerant interlocks or confirmation where warranted",
+        "Rely on operator memory and annual retraining alone"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Good interface design prevents foreseeable selection errors through differentiation, compatibility, layout, feedback, and error tolerance.",
+      "incorrectOptionExplanations": [
+        "The option 'Make both controls smaller so operators pay closer attention' does not apply the controlling principle for human-machine interface to the facts given, so it is not the best answer.",
+        "The option 'Add a general warning sign while leaving the controls identical' does not apply the controlling principle for human-machine interface to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Rely on operator memory and annual retraining alone' does not apply the controlling principle for human-machine interface to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: human-machine interface",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d24560a6036e0a4076230a6c84fb2145b8c071d571623eb2aa9d23916873ce5a"
+    },
+    {
+      "id": "PV2-CORE-CH24-008",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "participatory ergonomics and verification",
+      "itemFamilyId": "PV2-CORE-CH24-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An ergonomic team installs a lift assist that employees rarely use because it slows the task and does not fit larger products. What should happen next?",
+      "options": [
+        "Remove employee participation because users resisted the original design",
+        "Discipline every nonuser before evaluating task fit",
+        "Count installation as completion and close the finding",
+        "Engage users to identify usability barriers, redesign the device or workflow, and verify exposure and adoption after changes"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A control must be usable and effective under real conditions. Participatory redesign and verification address mismatch between technical intent and work practice.",
+      "incorrectOptionExplanations": [
+        "The option 'Remove employee participation because users resisted the original design' does not apply the controlling principle for participatory ergonomics and verification to the facts given, so it is not the best answer.",
+        "The option 'Discipline every nonuser before evaluating task fit' does not apply the controlling principle for participatory ergonomics and verification to the facts given, so it is not the best answer.",
+        "The option 'Count installation as completion and close the finding' does not apply the controlling principle for participatory ergonomics and verification to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: participatory ergonomics and verification",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3d4e54cd4ef3be996642a2d7068528086fc6918843bc117e248b2e22e23dc5b2"
+    },
+    {
+      "id": "PV2-CORE-CH24-009",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ergonomic risk-factor interaction",
+      "itemFamilyId": "PV2-CORE-CH24-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fatigue-risk review, the team reviews this case: A task involves moderate force, high repetition, awkward wrist posture, and little recovery time. Each factor alone appears tolerable. What is the best assessment? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+        "Good interface design prevents foreseeable selection errors through differentiation, compatibility, layout, feedback, and error tolerance.",
+        "A control must be usable and effective under real conditions. Participatory redesign and verification address mismatch between technical intent and work practice.",
+        "Fatigue is a system risk influenced by schedule, workload, circadian timing, recovery, and commuting. Personal countermeasures cannot replace adequate opportunity for sleep."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses ergonomic risk-factor interaction and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'human-machine interface', but it does not resolve the ergonomic risk-factor interaction issue in this case.",
+        "This rationale supports the separate chapter topic 'participatory ergonomics and verification', but it does not resolve the ergonomic risk-factor interaction issue in this case.",
+        "This rationale supports the separate chapter topic 'fatigue risk management', but it does not resolve the ergonomic risk-factor interaction issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: ergonomic risk-factor interaction",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "221c4ce9d563d8daaae0f89ebf3cd4dfcc84efa8dfaf56a66f84c36bd55ab3a5"
+    },
+    {
+      "id": "PV2-CORE-CH24-010",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "NIOSH lifting equation application",
+      "itemFamilyId": "PV2-CORE-CH24-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a vibration exposure evaluation, the team reviews this case: A lift has a low load weight but requires extended horizontal reach, twisting, and high frequency. What conclusion is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Workstation geometry should support neutral posture and low reach. Bracing or behavioral instructions do not correct a poor physical layout.",
+        "The lifting equation reduces the recommended limit for unfavorable reach, asymmetry, frequency, travel, coupling, and location. Low nominal weight does not end the analysis.",
+        "A control must be usable and effective under real conditions. Participatory redesign and verification address mismatch between technical intent and work practice.",
+        "Fatigue is a system risk influenced by schedule, workload, circadian timing, recovery, and commuting. Personal countermeasures cannot replace adequate opportunity for sleep."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses niosh lifting equation application and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'workstation neutral posture', but it does not resolve the niosh lifting equation application issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'participatory ergonomics and verification', but it does not resolve the niosh lifting equation application issue in this case.",
+        "This rationale supports the separate chapter topic 'fatigue risk management', but it does not resolve the niosh lifting equation application issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: NIOSH lifting equation application",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "92b02e1cdb478141be4ef1bc8542c25f3ffe940a3e1ac50e8a857664aa52e952"
+    },
+    {
+      "id": "PV2-CORE-CH24-011",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "anthropometric design",
+      "itemFamilyId": "PV2-CORE-CH24-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a repetitive-motion investigation, the team reviews this case: A fixed control panel is designed around the average worker and is unreachable for many shorter employees. What design principle should replace the average-user approach? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The lifting equation reduces the recommended limit for unfavorable reach, asymmetry, frequency, travel, coupling, and location. Low nominal weight does not end the analysis.",
+        "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+        "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+        "Hand-arm vibration risk is addressed through lower-vibration tools and methods, maintenance, exposure management, warmth, training, and health response; gloves alone have limited control value."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses anthropometric design and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'NIOSH lifting equation application', but it does not resolve the anthropometric design issue in this case.",
+        "This rationale supports the separate chapter topic 'ergonomic risk-factor interaction', but it does not resolve the anthropometric design issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'hand-arm vibration', but it does not resolve the anthropometric design issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: anthropometric design",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7bb5123437d591e13b8a77d5b65b26d5d366aca9d6a673ab1d1e50eaa1f1e8e7"
+    },
+    {
+      "id": "PV2-CORE-CH24-012",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "workstation neutral posture",
+      "itemFamilyId": "PV2-CORE-CH24-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an anthropometric design check, the team reviews this case: A computer user elevates the shoulders and extends the wrists because the desk and keyboard are too high. Which redesign is best? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Hand-arm vibration risk is addressed through lower-vibration tools and methods, maintenance, exposure management, warmth, training, and health response; gloves alone have limited control value.",
+        "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+        "A control must be usable and effective under real conditions. Participatory redesign and verification address mismatch between technical intent and work practice.",
+        "Workstation geometry should support neutral posture and low reach. Bracing or behavioral instructions do not correct a poor physical layout."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses workstation neutral posture and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hand-arm vibration', but it does not resolve the workstation neutral posture issue in this case.",
+        "This rationale supports the separate chapter topic 'ergonomic risk-factor interaction', but it does not resolve the workstation neutral posture issue in this case.",
+        "This rationale supports the separate chapter topic 'participatory ergonomics and verification', but it does not resolve the workstation neutral posture issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: workstation neutral posture",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1818cbd61b700c9d52d072983b3886888c69dcc2542631c19c66182b69a5cbe8"
+    },
+    {
+      "id": "PV2-CORE-CH24-013",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hand-arm vibration",
+      "itemFamilyId": "PV2-CORE-CH24-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a human-machine interface review, the team reviews this case: Workers use high-vibration grinders for long periods and report numbness and blanching. Which control package is strongest? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Hand-arm vibration risk is addressed through lower-vibration tools and methods, maintenance, exposure management, warmth, training, and health response; gloves alone have limited control value.",
+        "Good interface design prevents foreseeable selection errors through differentiation, compatibility, layout, feedback, and error tolerance.",
+        "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+        "A control must be usable and effective under real conditions. Participatory redesign and verification address mismatch between technical intent and work practice."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses hand-arm vibration and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'human-machine interface', but it does not resolve the hand-arm vibration issue in this case.",
+        "This rationale supports the separate chapter topic 'anthropometric design', but it does not resolve the hand-arm vibration issue in this case.",
+        "This rationale supports the separate chapter topic 'participatory ergonomics and verification', but it does not resolve the hand-arm vibration issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: hand-arm vibration",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "68e03d66c6fbc9364388761647e068f103cb20bfab04f1a9f6c12c77d8f6af22"
+    },
+    {
+      "id": "PV2-CORE-CH24-014",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fatigue risk management",
+      "itemFamilyId": "PV2-CORE-CH24-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a shift-schedule redesign, the team reviews this case: A schedule change adds repeated 14-hour night shifts with short turnaround time. Error rates rise. Which intervention is most defensible? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A control must be usable and effective under real conditions. Participatory redesign and verification address mismatch between technical intent and work practice.",
+        "Fatigue is a system risk influenced by schedule, workload, circadian timing, recovery, and commuting. Personal countermeasures cannot replace adequate opportunity for sleep.",
+        "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+        "Good interface design prevents foreseeable selection errors through differentiation, compatibility, layout, feedback, and error tolerance."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses fatigue risk management and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'participatory ergonomics and verification', but it does not resolve the fatigue risk management issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'ergonomic risk-factor interaction', but it does not resolve the fatigue risk management issue in this case.",
+        "This rationale supports the separate chapter topic 'human-machine interface', but it does not resolve the fatigue risk management issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: fatigue risk management",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8ccbb145210190e2bed610668bcdb9b0e7b2ec18a4386726d1280f53b4f097a6"
+    },
+    {
+      "id": "PV2-CORE-CH24-015",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "human-machine interface",
+      "itemFamilyId": "PV2-CORE-CH24-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a manual-lifting redesign, the team reviews this case: Two adjacent controls look identical, and activating the wrong one can create a hazardous release. Which design change is strongest? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The lifting equation reduces the recommended limit for unfavorable reach, asymmetry, frequency, travel, coupling, and location. Low nominal weight does not end the analysis.",
+        "Hand-arm vibration risk is addressed through lower-vibration tools and methods, maintenance, exposure management, warmth, training, and health response; gloves alone have limited control value.",
+        "Good interface design prevents foreseeable selection errors through differentiation, compatibility, layout, feedback, and error tolerance.",
+        "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses human-machine interface and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'NIOSH lifting equation application', but it does not resolve the human-machine interface issue in this case.",
+        "This rationale supports the separate chapter topic 'hand-arm vibration', but it does not resolve the human-machine interface issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'ergonomic risk-factor interaction', but it does not resolve the human-machine interface issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: human-machine interface",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "456621a25930f3026680beae196bfc31fe846cff58bf0da4e497756c34b44ed9"
+    },
+    {
+      "id": "PV2-CORE-CH24-016",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "participatory ergonomics and verification",
+      "itemFamilyId": "PV2-CORE-CH24-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a workstation assessment, the team reviews this case: An ergonomic team installs a lift assist that employees rarely use because it slows the task and does not fit larger products. What should happen next? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Hand-arm vibration risk is addressed through lower-vibration tools and methods, maintenance, exposure management, warmth, training, and health response; gloves alone have limited control value.",
+        "The lifting equation reduces the recommended limit for unfavorable reach, asymmetry, frequency, travel, coupling, and location. Low nominal weight does not end the analysis.",
+        "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+        "A control must be usable and effective under real conditions. Participatory redesign and verification address mismatch between technical intent and work practice."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses participatory ergonomics and verification and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'hand-arm vibration', but it does not resolve the participatory ergonomics and verification issue in this case.",
+        "This rationale supports the separate chapter topic 'NIOSH lifting equation application', but it does not resolve the participatory ergonomics and verification issue in this case.",
+        "This rationale supports the separate chapter topic 'anthropometric design', but it does not resolve the participatory ergonomics and verification issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: participatory ergonomics and verification",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "860b24fe77223aec7733eb45013f01002b3db253b8ddd6d4a0f2919a6f3d03a0"
+    },
+    {
+      "id": "PV2-CORE-CH24-017",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Lifting index",
+      "itemFamilyId": "PV2-CORE-CH24-F017",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a workstation assessment, solve the following problem and select the best answer: A task has a recommended weight limit of 18 kg and an actual load of 27 kg. What is the lifting index?",
+      "options": [
+        "1.5",
+        "45.0",
+        "0.67",
+        "9.0"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "LI = load weight/RWL = 27/18 = 1.5. A value above 1 indicates increased lifting demand relative to the recommended limit.",
+      "incorrectOptionExplanations": [
+        null,
+        "This adds the actual load and recommended limit.",
+        "This reverses the required load-to-limit ratio.",
+        "This subtracts the recommended limit from the actual load."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, NIOSH lifting index, pp. 548-555; NIOSH Revised Lifting Equation; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/about/RNLE.html",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "LI = load weight/RWL",
+      "units": "dimensionless",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "caeef747b4743c57c1c1b14b830a2ed8dfcdcb3df7efb1339075a934ea79dcee"
+    },
+    {
+      "id": "PV2-CORE-CH24-018",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Horizontal reach risk",
+      "itemFamilyId": "PV2-CORE-CH24-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fatigue-risk review, the team reviews this question: During a lift redesign, the load is moved closer to the worker while all other factors remain unchanged. What is the expected ergonomic effect? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A controlled pilot should evaluate total-system effects, worker variability, transfer of load, compatibility, and operational risks before scale-up.",
+        "Keeping the load close reduces the moment on the low back, improves the horizontal multiplier, and generally increases the recommended weight limit.",
+        "LI = load weight/RWL = 27/18 = 1.5. A value above 1 indicates increased lifting demand relative to the recommended limit.",
+        "Rapid Upper Limb Assessment is designed to screen posture, force, and muscle use affecting the neck, trunk, and upper limbs."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Exoskeleton evaluation', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Lifting index', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'RULA versus REBA', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, horizontal component and multiplier, pp. 548-551; NIOSH RNLE; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/about/RNLE.html",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b043738daee4816d6f29a1aee3853c475a4ac37c6ce7d1bda3766c22064aca91"
+    },
+    {
+      "id": "PV2-CORE-CH24-019",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Ergonomic risk factors",
+      "itemFamilyId": "PV2-CORE-CH24-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a vibration exposure evaluation, the team reviews this question: A worker uses a pinch grip with high force, wrist deviation, and repeated motion for most of the shift. Which risk-factor combination is most important? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Early reporting, evaluation, and exposure modification can prevent progression and provide useful information about task design.",
+        "For reach, a smaller-user percentile helps ensure controls remain accessible; different percentile logic applies to clearance.",
+        "Ergonomic risk increases when forceful exertion, awkward posture, and repetition occur together and for sustained durations.",
+        "A controlled pilot should evaluate total-system effects, worker variability, transfer of load, compatibility, and operational risks before scale-up."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Early symptom intervention', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Anthropometric design', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Exoskeleton evaluation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, ergonomic definitions and risk factors, pp. 546-548; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "29347ad4d6a8ae07cbaa8e8cf96754fbca4dc0b5d7473c0da028d7006d2c645d"
+    },
+    {
+      "id": "PV2-CORE-CH24-020",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "RULA versus REBA",
+      "itemFamilyId": "PV2-CORE-CH24-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a repetitive-motion investigation, the team reviews this question: A safety professional needs a rapid screening tool focused mainly on upper-limb posture during seated microscope work. Which tool is most appropriate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A controlled pilot should evaluate total-system effects, worker variability, transfer of load, compatibility, and operational risks before scale-up.",
+        "LI = load weight/RWL = 27/18 = 1.5. A value above 1 indicates increased lifting demand relative to the recommended limit.",
+        "Keeping the load close reduces the moment on the low back, improves the horizontal multiplier, and generally increases the recommended weight limit.",
+        "Rapid Upper Limb Assessment is designed to screen posture, force, and muscle use affecting the neck, trunk, and upper limbs."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Exoskeleton evaluation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Lifting index', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Horizontal reach risk', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, RULA and REBA, pp. 561-563; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5ade06d3642b01a3a141742a3f198360c38a0aac4816ac0e04c389e61b1bf71a"
+    },
+    {
+      "id": "PV2-CORE-CH24-021",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Workstation design",
+      "itemFamilyId": "PV2-CORE-CH24-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an anthropometric design check, the team reviews this question: A fixed-height assembly bench forces shorter workers to elevate their shoulders and taller workers to bend their trunks. Which redesign is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Adjustability or properly selected fixtures accommodate anthropometric variation and reduce sustained shoulder and trunk loading.",
+        "A better handle distributes pressure while source-level vibration reduction addresses the transmitted mechanical exposure.",
+        "For reach, a smaller-user percentile helps ensure controls remain accessible; different percentile logic applies to clearance.",
+        "Early reporting, evaluation, and exposure modification can prevent progression and provide useful information about task design."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Contact stress and vibration', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Anthropometric design', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Early symptom intervention', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, ergonomic job analysis and workspace design, pp. 546-566; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5b49946510b702f53d8d4de9c21996cca6507b6ce41107e622c2bc9bc80dfba1"
+    },
+    {
+      "id": "PV2-CORE-CH24-022",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Job rotation limitation",
+      "itemFamilyId": "PV2-CORE-CH24-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a human-machine interface review, the team reviews this question: A company rotates employees between two jobs that both require high-force wrist flexion. What is the main weakness of this control? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For reach, a smaller-user percentile helps ensure controls remain accessible; different percentile logic applies to clearance.",
+        "Effective rotation should alternate different muscle groups or exposure patterns; rotating between similar high-demand tasks provides little recovery.",
+        "Rapid Upper Limb Assessment is designed to screen posture, force, and muscle use affecting the neck, trunk, and upper limbs.",
+        "A controlled pilot should evaluate total-system effects, worker variability, transfer of load, compatibility, and operational risks before scale-up."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Anthropometric design', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'RULA versus REBA', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Exoskeleton evaluation', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, work practice controls and ergonomic job analysis, pp. 546-566; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2bb0bc4f0bc0ca3d40494b0c440721aa9eb0d11bef2fc6ed2c538d4f210f224a"
+    },
+    {
+      "id": "PV2-CORE-CH24-023",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Contact stress and vibration",
+      "itemFamilyId": "PV2-CORE-CH24-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a shift-schedule redesign, the team reviews this question: A handheld tool has a narrow hard edge pressing into the palm and transmits high vibration. Which improvement best addresses both exposures? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Early reporting, evaluation, and exposure modification can prevent progression and provide useful information about task design.",
+        "Ergonomic risk increases when forceful exertion, awkward posture, and repetition occur together and for sustained durations.",
+        "A better handle distributes pressure while source-level vibration reduction addresses the transmitted mechanical exposure.",
+        "Adjustability or properly selected fixtures accommodate anthropometric variation and reduce sustained shoulder and trunk loading."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Early symptom intervention', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Ergonomic risk factors', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Workstation design', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, ergonomic stressors and work design, pp. 546-566; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8f23066ced40d5aeefb8acd6cd29c6486cce8cc85149b7f3f2b70625600e002c"
+    },
+    {
+      "id": "PV2-CORE-CH24-024",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Early symptom intervention",
+      "itemFamilyId": "PV2-CORE-CH24-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a manual-lifting redesign, the team reviews this question: Which program feature best supports early intervention for work-related musculoskeletal symptoms? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Adjustability or properly selected fixtures accommodate anthropometric variation and reduce sustained shoulder and trunk loading.",
+        "Ergonomic risk increases when forceful exertion, awkward posture, and repetition occur together and for sustained durations.",
+        "For reach, a smaller-user percentile helps ensure controls remain accessible; different percentile logic applies to clearance.",
+        "Early reporting, evaluation, and exposure modification can prevent progression and provide useful information about task design."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Workstation design', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Ergonomic risk factors', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Anthropometric design', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, ergonomic resources and work practice controls, pp. 546-566; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "298648926da40a615865924a245f1549750f89d602afd441a2b211ec3ccfeedf"
+    },
+    {
+      "id": "PV2-CORE-CH24-025",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Anthropometric design",
+      "itemFamilyId": "PV2-CORE-CH24-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a workstation assessment, the team reviews this question: A reach control must be usable by nearly all operators. Which design principle is generally most appropriate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For reach, a smaller-user percentile helps ensure controls remain accessible; different percentile logic applies to clearance.",
+        "Adjustability or properly selected fixtures accommodate anthropometric variation and reduce sustained shoulder and trunk loading.",
+        "Ergonomic risk increases when forceful exertion, awkward posture, and repetition occur together and for sustained durations.",
+        "Early reporting, evaluation, and exposure modification can prevent progression and provide useful information about task design."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Workstation design', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Ergonomic risk factors', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Early symptom intervention', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, ergonomic job design and anthropometric principles, pp. 546-566; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f1700a601df0a15e2e6aedaee56cdcf84a147cc3afc083b2318536622df3ebd2"
+    },
+    {
+      "id": "PV2-CORE-CH24-026",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Exoskeleton evaluation",
+      "itemFamilyId": "PV2-CORE-CH24-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fatigue-risk review, the team reviews this question: Before broadly deploying an industrial exoskeleton, what is the best evaluation approach? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Rapid Upper Limb Assessment is designed to screen posture, force, and muscle use affecting the neck, trunk, and upper limbs.",
+        "A controlled pilot should evaluate total-system effects, worker variability, transfer of load, compatibility, and operational risks before scale-up.",
+        "Effective rotation should alternate different muscle groups or exposure patterns; rotating between similar high-demand tasks provides little recovery.",
+        "Early reporting, evaluation, and exposure modification can prevent progression and provide useful information about task design."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'RULA versus REBA', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Job rotation limitation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Early symptom intervention', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 24, ergonomic controls and resources, pp. 546-566; ASP11 ergonomics objective; Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ergonomics/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "82a87f4e8ea5c3ff29d49278051674c4c09353601b7220f5d2d1218260021ae2"
+    },
+    {
+      "id": "PV2-CORE-CH24-027",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ergonomic risk-factor interaction",
+      "itemFamilyId": "PV2-CORE-CH24-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an anthropometric design check, a supervisor proposes: \"Conclude the task is safe if no employee reports pain during one observation\". The underlying case is: A task involves moderate force, high repetition, awkward wrist posture, and little recovery time. Each factor alone appears tolerable. What is the best assessment? Which alternative is the most defensible correction?",
+      "options": [
+        "Average the four factors so high and low values cancel each other",
+        "Assess only force because repetition and posture cannot interact with it",
+        "Evaluate the combined exposure because interacting risk factors can materially increase musculoskeletal risk",
+        "Conclude the task is safe if no employee reports pain during one observation"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Average the four factors so high and low values cancel each other' remains incomplete or misapplies the controlling ergonomic risk-factor interaction principle.",
+        "The proposed response 'Assess only force because repetition and posture cannot interact with it' remains incomplete or misapplies the controlling ergonomic risk-factor interaction principle.",
+        null,
+        "The proposed response 'Conclude the task is safe if no employee reports pain during one observation' remains incomplete or misapplies the controlling ergonomic risk-factor interaction principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: ergonomic risk-factor interaction",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ea0da72cce9fd1380b30a3a100abf4f1520269508d71c26a1223458a75fd3795"
+    },
+    {
+      "id": "PV2-CORE-CH24-028",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "NIOSH lifting equation application",
+      "itemFamilyId": "PV2-CORE-CH24-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a human-machine interface review, a supervisor proposes: \"Low object weight makes posture and frequency irrelevant\". The underlying case is: A lift has a low load weight but requires extended horizontal reach, twisting, and high frequency. What conclusion is most appropriate? Which alternative is the most defensible correction?",
+      "options": [
+        "Add the multipliers together to increase the recommended weight limit",
+        "Low object weight makes posture and frequency irrelevant",
+        "Use object weight alone because the equation applies only above 50 pounds",
+        "The acceptable load can be substantially reduced by the multipliers, so the full lifting equation and task variability should be evaluated"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The lifting equation reduces the recommended limit for unfavorable reach, asymmetry, frequency, travel, coupling, and location. Low nominal weight does not end the analysis.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Add the multipliers together to increase the recommended weight limit' remains incomplete or misapplies the controlling niosh lifting equation application principle.",
+        "The proposed response 'Low object weight makes posture and frequency irrelevant' remains incomplete or misapplies the controlling niosh lifting equation application principle.",
+        "The proposed response 'Use object weight alone because the equation applies only above 50 pounds' remains incomplete or misapplies the controlling niosh lifting equation application principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: NIOSH lifting equation application",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a001e134731c4240fc82abbaf6017750bd5a5f299eed12925043affe6508b578"
+    },
+    {
+      "id": "PV2-CORE-CH24-029",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "anthropometric design",
+      "itemFamilyId": "PV2-CORE-CH24-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a shift-schedule redesign, a supervisor proposes: \"Design all dimensions for the largest worker regardless of reach\". The underlying case is: A fixed control panel is designed around the average worker and is unreachable for many shorter employees. What design principle should replace the average-user approach? Which alternative is the most defensible correction?",
+      "options": [
+        "Design reach requirements for an appropriate smaller percentile and clearances for an appropriate larger percentile, with adjustability where feasible",
+        "Require shorter workers to use improvised platforms instead of changing the design",
+        "Design all dimensions for the largest worker regardless of reach",
+        "Use the 50th percentile for every dimension because it represents most people"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Require shorter workers to use improvised platforms instead of changing the design' remains incomplete or misapplies the controlling anthropometric design principle.",
+        "The proposed response 'Design all dimensions for the largest worker regardless of reach' remains incomplete or misapplies the controlling anthropometric design principle.",
+        "The proposed response 'Use the 50th percentile for every dimension because it represents most people' remains incomplete or misapplies the controlling anthropometric design principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: anthropometric design",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ea29317118020eadab645dfdd28d3d856b42099cd177f12ece79b502b7c952d5"
+    },
+    {
+      "id": "PV2-CORE-CH24-030",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "workstation neutral posture",
+      "itemFamilyId": "PV2-CORE-CH24-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a manual-lifting redesign, a supervisor proposes: \"Move the keyboard farther away to encourage arm exercise\". The underlying case is: A computer user elevates the shoulders and extends the wrists because the desk and keyboard are too high. Which redesign is best? Which alternative is the most defensible correction?",
+      "options": [
+        "Use wrist braces as the sole permanent correction while leaving the workstation unchanged",
+        "Adjust the workstation so shoulders are relaxed, elbows supported near a comfortable angle, wrists are neutral, and input devices are within easy reach",
+        "Move the keyboard farther away to encourage arm exercise",
+        "Raise the monitor further and ask the employee to type faster"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Workstation geometry should support neutral posture and low reach. Bracing or behavioral instructions do not correct a poor physical layout.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use wrist braces as the sole permanent correction while leaving the workstation unchanged' remains incomplete or misapplies the controlling workstation neutral posture principle.",
+        null,
+        "The proposed response 'Move the keyboard farther away to encourage arm exercise' remains incomplete or misapplies the controlling workstation neutral posture principle.",
+        "The proposed response 'Raise the monitor further and ask the employee to type faster' remains incomplete or misapplies the controlling workstation neutral posture principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: workstation neutral posture",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "21af03b89d31a6ce403cc67db3762121b7ee9e3a74a72c58e6378e1636751549"
+    },
+    {
+      "id": "PV2-CORE-CH24-031",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hand-arm vibration",
+      "itemFamilyId": "PV2-CORE-CH24-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a workstation assessment, a supervisor proposes: \"Issue thicker gloves and make no change to tools or exposure time\". The underlying case is: Workers use high-vibration grinders for long periods and report numbness and blanching. Which control package is strongest? Which alternative is the most defensible correction?",
+      "options": [
+        "Issue thicker gloves and make no change to tools or exposure time",
+        "Wait for permanent symptoms before evaluating the process",
+        "Reduce vibration at the tool and process, maintain equipment, limit exposure duration, manage cold, train workers, and arrange medical evaluation",
+        "Increase grip force so the tool cannot move in the hands"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Hand-arm vibration risk is addressed through lower-vibration tools and methods, maintenance, exposure management, warmth, training, and health response; gloves alone have limited control value.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Issue thicker gloves and make no change to tools or exposure time' remains incomplete or misapplies the controlling hand-arm vibration principle.",
+        "The proposed response 'Wait for permanent symptoms before evaluating the process' remains incomplete or misapplies the controlling hand-arm vibration principle.",
+        null,
+        "The proposed response 'Increase grip force so the tool cannot move in the hands' remains incomplete or misapplies the controlling hand-arm vibration principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: hand-arm vibration",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "91d8db5e8f54fce7fb02cc3c3b4a6a4c40b94cb34ea9f551f89ef38d97f9ecd4"
+    },
+    {
+      "id": "PV2-CORE-CH24-032",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fatigue risk management",
+      "itemFamilyId": "PV2-CORE-CH24-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a fatigue-risk review, a supervisor proposes: \"Tell employees to sleep more without changing turnaround time\". The underlying case is: A schedule change adds repeated 14-hour night shifts with short turnaround time. Error rates rise. Which intervention is most defensible? Which alternative is the most defensible correction?",
+      "options": [
+        "Use disciplinary action whenever a fatigued employee reports difficulty concentrating",
+        "Provide caffeine and keep the schedule unchanged",
+        "Tell employees to sleep more without changing turnaround time",
+        "Redesign schedules and staffing to provide adequate sleep opportunity and recovery, while managing workload, breaks, commuting, and fatigue reporting"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Fatigue is a system risk influenced by schedule, workload, circadian timing, recovery, and commuting. Personal countermeasures cannot replace adequate opportunity for sleep.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use disciplinary action whenever a fatigued employee reports difficulty concentrating' remains incomplete or misapplies the controlling fatigue risk management principle.",
+        "The proposed response 'Provide caffeine and keep the schedule unchanged' remains incomplete or misapplies the controlling fatigue risk management principle.",
+        "The proposed response 'Tell employees to sleep more without changing turnaround time' remains incomplete or misapplies the controlling fatigue risk management principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: fatigue risk management",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "622c2fa9c7bc818b42aad517ba9d4ca47aaf0f24b5c66f78a5d91b708429872d"
+    },
+    {
+      "id": "PV2-CORE-CH24-033",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "human-machine interface",
+      "itemFamilyId": "PV2-CORE-CH24-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a vibration exposure evaluation, a supervisor proposes: \"Make both controls smaller so operators pay closer attention\". The underlying case is: Two adjacent controls look identical, and activating the wrong one can create a hazardous release. Which design change is strongest? Which alternative is the most defensible correction?",
+      "options": [
+        "Differentiate and arrange controls by function, use compatible coding and labeling, and provide error-tolerant interlocks or confirmation where warranted",
+        "Rely on operator memory and annual retraining alone",
+        "Add a general warning sign while leaving the controls identical",
+        "Make both controls smaller so operators pay closer attention"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Good interface design prevents foreseeable selection errors through differentiation, compatibility, layout, feedback, and error tolerance.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Rely on operator memory and annual retraining alone' remains incomplete or misapplies the controlling human-machine interface principle.",
+        "The proposed response 'Add a general warning sign while leaving the controls identical' remains incomplete or misapplies the controlling human-machine interface principle.",
+        "The proposed response 'Make both controls smaller so operators pay closer attention' remains incomplete or misapplies the controlling human-machine interface principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: human-machine interface",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3682e7e0c9c78253bd2b9549c81a40ae9af4b66b4697d9dba75078868aa30b1e"
+    },
+    {
+      "id": "PV2-CORE-CH24-034",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "participatory ergonomics and verification",
+      "itemFamilyId": "PV2-CORE-CH24-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a repetitive-motion investigation, a supervisor proposes: \"Count installation as completion and close the finding\". The underlying case is: An ergonomic team installs a lift assist that employees rarely use because it slows the task and does not fit larger products. What should happen next? Which alternative is the most defensible correction?",
+      "options": [
+        "Count installation as completion and close the finding",
+        "Engage users to identify usability barriers, redesign the device or workflow, and verify exposure and adoption after changes",
+        "Discipline every nonuser before evaluating task fit",
+        "Remove employee participation because users resisted the original design"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A control must be usable and effective under real conditions. Participatory redesign and verification address mismatch between technical intent and work practice.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Count installation as completion and close the finding' remains incomplete or misapplies the controlling participatory ergonomics and verification principle.",
+        null,
+        "The proposed response 'Discipline every nonuser before evaluating task fit' remains incomplete or misapplies the controlling participatory ergonomics and verification principle.",
+        "The proposed response 'Remove employee participation because users resisted the original design' remains incomplete or misapplies the controlling participatory ergonomics and verification principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: participatory ergonomics and verification",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c620cffc0d3e6df00ef2aebd582b77a0e8b00401b6b31882869668507d6ebeb9"
+    },
+    {
+      "id": "PV2-CORE-CH24-035",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "ergonomic risk-factor interaction",
+      "itemFamilyId": "PV2-CORE-CH24-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a human-machine interface review, the team selects \"Evaluate the combined exposure because interacting risk factors can materially increase musculoskeletal risk\" rather than \"Assess only force because repetition and posture cannot interact with it\" for this case: A task involves moderate force, high repetition, awkward wrist posture, and little recovery time. Each factor alone appears tolerable. What is the best assessment? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Good interface design prevents foreseeable selection errors through differentiation, compatibility, layout, feedback, and error tolerance.",
+        "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+        "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+        "Fatigue is a system risk influenced by schedule, workload, circadian timing, recovery, and commuting. Personal countermeasures cannot replace adequate opportunity for sleep."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the ergonomic risk-factor interaction issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'human-machine interface' and does not distinguish the two responses in the present ergonomic risk-factor interaction decision.",
+        "This explanation concerns 'anthropometric design' and does not distinguish the two responses in the present ergonomic risk-factor interaction decision.",
+        null,
+        "This explanation concerns 'fatigue risk management' and does not distinguish the two responses in the present ergonomic risk-factor interaction decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: ergonomic risk-factor interaction",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a445cc9a2b052d0631b98d820012aec21bf867ee4c2b0d013170fda458471d87"
+    },
+    {
+      "id": "PV2-CORE-CH24-036",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "NIOSH lifting equation application",
+      "itemFamilyId": "PV2-CORE-CH24-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a shift-schedule redesign, the team selects \"The acceptable load can be substantially reduced by the multipliers, so the full lifting equation and task variability should be evaluated\" rather than \"Use object weight alone because the equation applies only above 50 pounds\" for this case: A lift has a low load weight but requires extended horizontal reach, twisting, and high frequency. What conclusion is most appropriate? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+        "Fatigue is a system risk influenced by schedule, workload, circadian timing, recovery, and commuting. Personal countermeasures cannot replace adequate opportunity for sleep.",
+        "Workstation geometry should support neutral posture and low reach. Bracing or behavioral instructions do not correct a poor physical layout.",
+        "The lifting equation reduces the recommended limit for unfavorable reach, asymmetry, frequency, travel, coupling, and location. Low nominal weight does not end the analysis."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the niosh lifting equation application issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'anthropometric design' and does not distinguish the two responses in the present niosh lifting equation application decision.",
+        "This explanation concerns 'fatigue risk management' and does not distinguish the two responses in the present niosh lifting equation application decision.",
+        "This explanation concerns 'workstation neutral posture' and does not distinguish the two responses in the present niosh lifting equation application decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: NIOSH lifting equation application",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "35922fffbbe4094fee8616306ca48bd2b42ea139d2a3edf212f98268952f2d6e"
+    },
+    {
+      "id": "PV2-CORE-CH24-037",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "anthropometric design",
+      "itemFamilyId": "PV2-CORE-CH24-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a manual-lifting redesign, the team selects \"Design reach requirements for an appropriate smaller percentile and clearances for an appropriate larger percentile, with adjustability where feasible\" rather than \"Require shorter workers to use improvised platforms instead of changing the design\" for this case: A fixed control panel is designed around the average worker and is unreachable for many shorter employees. What design principle should replace the average-user approach? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+        "Good interface design prevents foreseeable selection errors through differentiation, compatibility, layout, feedback, and error tolerance.",
+        "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+        "Workstation geometry should support neutral posture and low reach. Bracing or behavioral instructions do not correct a poor physical layout."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the anthropometric design issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'human-machine interface' and does not distinguish the two responses in the present anthropometric design decision.",
+        "This explanation concerns 'ergonomic risk-factor interaction' and does not distinguish the two responses in the present anthropometric design decision.",
+        "This explanation concerns 'workstation neutral posture' and does not distinguish the two responses in the present anthropometric design decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: anthropometric design",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d1cf93242660e944bba260b6c4d638ab17d22843e73ebdb062a5200bd80393ef"
+    },
+    {
+      "id": "PV2-CORE-CH24-038",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "workstation neutral posture",
+      "itemFamilyId": "PV2-CORE-CH24-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a workstation assessment, the team selects \"Adjust the workstation so shoulders are relaxed, elbows supported near a comfortable angle, wrists are neutral, and input devices are within easy reach\" rather than \"Raise the monitor further and ask the employee to type faster\" for this case: A computer user elevates the shoulders and extends the wrists because the desk and keyboard are too high. Which redesign is best? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+        "Workstation geometry should support neutral posture and low reach. Bracing or behavioral instructions do not correct a poor physical layout.",
+        "Hand-arm vibration risk is addressed through lower-vibration tools and methods, maintenance, exposure management, warmth, training, and health response; gloves alone have limited control value.",
+        "A control must be usable and effective under real conditions. Participatory redesign and verification address mismatch between technical intent and work practice."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the workstation neutral posture issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'ergonomic risk-factor interaction' and does not distinguish the two responses in the present workstation neutral posture decision.",
+        null,
+        "This explanation concerns 'hand-arm vibration' and does not distinguish the two responses in the present workstation neutral posture decision.",
+        "This explanation concerns 'participatory ergonomics and verification' and does not distinguish the two responses in the present workstation neutral posture decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: workstation neutral posture",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "747ba01d465991b574e3027af399a70552a36293f3cf27976a9cf51be392fe10"
+    },
+    {
+      "id": "PV2-CORE-CH24-039",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hand-arm vibration",
+      "itemFamilyId": "PV2-CORE-CH24-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fatigue-risk review, the team selects \"Reduce vibration at the tool and process, maintain equipment, limit exposure duration, manage cold, train workers, and arrange medical evaluation\" rather than \"Increase grip force so the tool cannot move in the hands\" for this case: Workers use high-vibration grinders for long periods and report numbness and blanching. Which control package is strongest? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+        "Ergonomic risk is often driven by combinations of force, repetition, posture, duration, vibration, and recovery rather than one isolated threshold.",
+        "Hand-arm vibration risk is addressed through lower-vibration tools and methods, maintenance, exposure management, warmth, training, and health response; gloves alone have limited control value.",
+        "Workstation geometry should support neutral posture and low reach. Bracing or behavioral instructions do not correct a poor physical layout."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the hand-arm vibration issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'anthropometric design' and does not distinguish the two responses in the present hand-arm vibration decision.",
+        "This explanation concerns 'ergonomic risk-factor interaction' and does not distinguish the two responses in the present hand-arm vibration decision.",
+        null,
+        "This explanation concerns 'workstation neutral posture' and does not distinguish the two responses in the present hand-arm vibration decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: hand-arm vibration",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f3d2a3c3d7197b7ca99e95adace9ddbfd5c22eac4891bb467f42ec97cca643fc"
+    },
+    {
+      "id": "PV2-CORE-CH24-040",
+      "version": 1,
+      "chapterId": "ch-24",
+      "chapterTitle": "Ergonomics and Human Factors",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fatigue risk management",
+      "itemFamilyId": "PV2-CORE-CH24-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a vibration exposure evaluation, the team selects \"Redesign schedules and staffing to provide adequate sleep opportunity and recovery, while managing workload, breaks, commuting, and fatigue reporting\" rather than \"Use disciplinary action whenever a fatigued employee reports difficulty concentrating\" for this case: A schedule change adds repeated 14-hour night shifts with short turnaround time. Error rates rise. Which intervention is most defensible? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "The lifting equation reduces the recommended limit for unfavorable reach, asymmetry, frequency, travel, coupling, and location. Low nominal weight does not end the analysis.",
+        "Designing only for the average excludes substantial portions of the population. Reach and clearance require different percentile strategies and often adjustability.",
+        "Good interface design prevents foreseeable selection errors through differentiation, compatibility, layout, feedback, and error tolerance.",
+        "Fatigue is a system risk influenced by schedule, workload, circadian timing, recovery, and commuting. Personal countermeasures cannot replace adequate opportunity for sleep."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the fatigue risk management issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'NIOSH lifting equation application' and does not distinguish the two responses in the present fatigue risk management decision.",
+        "This explanation concerns 'anthropometric design' and does not distinguish the two responses in the present fatigue risk management decision.",
+        "This explanation concerns 'human-machine interface' and does not distinguish the two responses in the present fatigue risk management decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 24, pp. 546-566; NIOSH ergonomics and human-factors guidance; curated topic: fatigue risk management",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/ergonomics/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "319566f1a29afa9cad5b3357cffa47a88e8ebaaaae9b4a188d8ada4482277747"
+    }
+  ]
+}

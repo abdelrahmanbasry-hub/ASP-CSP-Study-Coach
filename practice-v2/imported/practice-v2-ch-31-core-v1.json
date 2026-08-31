@@ -1,0 +1,2039 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-31-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-31",
+  "chapterTitle": "Safety Management Systems",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH31-001",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management system versus program collection",
+      "itemFamilyId": "PV2-CORE-CH31-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A company has many written safety programs, but responsibilities conflict, objectives are not measured, and corrective actions are not tracked across departments. What distinguishes the needed management-system approach?",
+      "options": [
+        "Integrate policy, roles, risk processes, resources, performance evaluation, corrective action, and continual improvement into one governed system",
+        "Assign every safety responsibility to the EHS department alone",
+        "Create more stand-alone binders without changing accountability or interfaces",
+        "Replace all procedures with a single annual safety meeting"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Assign every safety responsibility to the EHS department alone' does not apply the controlling principle for management system versus program collection to the facts given, so it is not the best answer.",
+        "The option 'Create more stand-alone binders without changing accountability or interfaces' does not apply the controlling principle for management system versus program collection to the facts given, so it is not the best answer.",
+        "The option 'Replace all procedures with a single annual safety meeting' does not apply the controlling principle for management system versus program collection to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: management system versus program collection",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "26770736878bab48a203a39ecf343cf4a6a2838100d204215ec1bd8f6cf58a9e"
+    },
+    {
+      "id": "PV2-CORE-CH31-002",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PDCA application",
+      "itemFamilyId": "PV2-CORE-CH31-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A site implements a new inspection checklist but never evaluates whether findings decline or controls improve. Which PDCA stage is weakest?",
+      "options": [
+        "Plan, because no policy can ever exist before a checklist",
+        "Check, because performance and effectiveness are not being measured before further action",
+        "Do, because using the checklist is not implementation",
+        "Act, because corrective action must occur before any measurement"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The checklist was planned and implemented, but the organization is not checking outcomes. Evaluation informs corrective and continual-improvement action.",
+      "incorrectOptionExplanations": [
+        "The option 'Plan, because no policy can ever exist before a checklist' does not apply the controlling principle for pdca application to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Do, because using the checklist is not implementation' does not apply the controlling principle for pdca application to the facts given, so it is not the best answer.",
+        "The option 'Act, because corrective action must occur before any measurement' does not apply the controlling principle for pdca application to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: PDCA application",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d4a76d15c1582b12f4bd1a2634e8260cad660ca6c8aa7bb4341b797cdccaab80"
+    },
+    {
+      "id": "PV2-CORE-CH31-003",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "leadership accountability",
+      "itemFamilyId": "PV2-CORE-CH31-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Executives approve a safety policy but routinely override shutdown decisions for schedule reasons. What system element is most undermined?",
+      "options": [
+        "Procurement only, because production schedules are unrelated to leadership behavior",
+        "Document formatting because the policy needs a different font",
+        "Leadership commitment and consistency between stated policy, decision authority, and resource priorities",
+        "Employee competence because executives do not perform field tasks"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Management-system credibility depends on leaders’ decisions aligning with policy and delegated authority. Repeated overrides communicate the true priorities.",
+      "incorrectOptionExplanations": [
+        "The option 'Procurement only, because production schedules are unrelated to leadership behavior' does not apply the controlling principle for leadership accountability to the facts given, so it is not the best answer.",
+        "The option 'Document formatting because the policy needs a different font' does not apply the controlling principle for leadership accountability to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Employee competence because executives do not perform field tasks' does not apply the controlling principle for leadership accountability to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: leadership accountability",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7c2b2e888e7e72b00243a8702abe831d5d76db273b7435d32369ca740a65f937"
+    },
+    {
+      "id": "PV2-CORE-CH31-004",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "worker participation",
+      "itemFamilyId": "PV2-CORE-CH31-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A hazard-identification process is designed entirely by managers and excludes workers who perform the tasks. What is the most likely system weakness?",
+      "options": [
+        "Worker participation necessarily removes management accountability",
+        "Managers can identify every task variation from written procedures alone",
+        "Participation matters only after an injury occurs",
+        "Critical operational knowledge and reporting trust may be lost, reducing hazard recognition and control usability"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Workers contribute practical knowledge about normal and nonroutine work. Participation improves identification, design fit, ownership, and feedback while management retains responsibility.",
+      "incorrectOptionExplanations": [
+        "The option 'Worker participation necessarily removes management accountability' does not apply the controlling principle for worker participation to the facts given, so it is not the best answer.",
+        "The option 'Managers can identify every task variation from written procedures alone' does not apply the controlling principle for worker participation to the facts given, so it is not the best answer.",
+        "The option 'Participation matters only after an injury occurs' does not apply the controlling principle for worker participation to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: worker participation",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "afcd52dde2511d5e03e2d831e98ea6ec7eec0b331896196dd759deeec99e9842"
+    },
+    {
+      "id": "PV2-CORE-CH31-005",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "document control",
+      "itemFamilyId": "PV2-CORE-CH31-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Different departments use conflicting versions of an energy-control procedure downloaded from shared drives. Which system control is needed?",
+      "options": [
+        "A controlled process for approval, revision, distribution, access, obsolete-document removal, and retention",
+        "Delete revision dates because dates cause confusion",
+        "Allow each department to select the version it prefers",
+        "Print additional uncontrolled copies so employees have more choices"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Document control ensures users can identify and access the current approved information while obsolete versions are prevented from unintended use.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Delete revision dates because dates cause confusion' does not apply the controlling principle for document control to the facts given, so it is not the best answer.",
+        "The option 'Allow each department to select the version it prefers' does not apply the controlling principle for document control to the facts given, so it is not the best answer.",
+        "The option 'Print additional uncontrolled copies so employees have more choices' does not apply the controlling principle for document control to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: document control",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "edb80640738e25abf84cc472e9a435fb8eb750a0fe6db6d473a3d5f6bc6d1564"
+    },
+    {
+      "id": "PV2-CORE-CH31-006",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "corrective action systemic review",
+      "itemFamilyId": "PV2-CORE-CH31-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A corrective action closes one damaged guard, but similar machines use the same weak mounting design. What management-system response is best?",
+      "options": [
+        "Limit correction to the machine involved because the finding was local",
+        "Extend the review across comparable assets and processes, address systemic causes, assign ownership, and verify effectiveness",
+        "Wait for each similar guard to fail before entering a new action",
+        "Close the action when replacement parts are ordered"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Management systems seek systemic learning. Similar exposure should be evaluated proactively rather than treating repeated design weaknesses as isolated events.",
+      "incorrectOptionExplanations": [
+        "The option 'Limit correction to the machine involved because the finding was local' does not apply the controlling principle for corrective action systemic review to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Wait for each similar guard to fail before entering a new action' does not apply the controlling principle for corrective action systemic review to the facts given, so it is not the best answer.",
+        "The option 'Close the action when replacement parts are ordered' does not apply the controlling principle for corrective action systemic review to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: corrective action systemic review",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f73c0c57d8556051f586081e61083fbf9d8622ef8d5555f4cca1ddf99d4aa133"
+    },
+    {
+      "id": "PV2-CORE-CH31-007",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management review inputs",
+      "itemFamilyId": "PV2-CORE-CH31-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Senior management reviews injury rates once a year but receives no information on audit results, legal changes, objectives, resources, worker feedback, or corrective actions. What is the problem?",
+      "options": [
+        "Injury rates are the only permissible management-review input",
+        "Management review should avoid resource and compliance topics",
+        "The review lacks the balanced inputs needed to judge system suitability, adequacy, effectiveness, and improvement needs",
+        "Worker feedback is relevant only to training records"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Effective management review integrates performance, compliance, risk, objectives, resources, changes, and participation information—not one lagging metric.",
+      "incorrectOptionExplanations": [
+        "The option 'Injury rates are the only permissible management-review input' does not apply the controlling principle for management review inputs to the facts given, so it is not the best answer.",
+        "The option 'Management review should avoid resource and compliance topics' does not apply the controlling principle for management review inputs to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Worker feedback is relevant only to training records' does not apply the controlling principle for management review inputs to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: management review inputs",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "09d0f795d6b6a397fa927ea746830025bfb7d2b4b0b34a3106189dfb75987815"
+    },
+    {
+      "id": "PV2-CORE-CH31-008",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "integration with business processes",
+      "itemFamilyId": "PV2-CORE-CH31-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Safety risk reviews occur after equipment contracts are signed and design changes are expensive. Which system improvement is strongest?",
+      "options": [
+        "Keep safety review separate so business decisions are not delayed",
+        "Ask vendors for a generic safety statement after purchase",
+        "Rely on post-installation training to compensate for design hazards",
+        "Embed EHS requirements and risk review into procurement, design, capital approval, change management, and acceptance testing"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Early integration into core business processes prevents hazards and reduces retrofit cost; late parallel review has less influence.",
+      "incorrectOptionExplanations": [
+        "The option 'Keep safety review separate so business decisions are not delayed' does not apply the controlling principle for integration with business processes to the facts given, so it is not the best answer.",
+        "The option 'Ask vendors for a generic safety statement after purchase' does not apply the controlling principle for integration with business processes to the facts given, so it is not the best answer.",
+        "The option 'Rely on post-installation training to compensate for design hazards' does not apply the controlling principle for integration with business processes to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: integration with business processes",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "af4af231aadf8cc9143f5cd50cb2ca724b6bbb3575e92ab9eadb1d51ad97cb6b"
+    },
+    {
+      "id": "PV2-CORE-CH31-009",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management system versus program collection",
+      "itemFamilyId": "PV2-CORE-CH31-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a policy and objectives workshop, the team reviews this case: A company has many written safety programs, but responsibilities conflict, objectives are not measured, and corrective actions are not tracked across departments. What distinguishes the needed management-system approach? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement.",
+        "Management-system credibility depends on leaders’ decisions aligning with policy and delegated authority. Repeated overrides communicate the true priorities.",
+        "Early integration into core business processes prevents hazards and reduces retrofit cost; late parallel review has less influence.",
+        "Management systems seek systemic learning. Similar exposure should be evaluated proactively rather than treating repeated design weaknesses as isolated events."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses management system versus program collection and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'leadership accountability', but it does not resolve the management system versus program collection issue in this case.",
+        "This rationale supports the separate chapter topic 'integration with business processes', but it does not resolve the management system versus program collection issue in this case.",
+        "This rationale supports the separate chapter topic 'corrective action systemic review', but it does not resolve the management system versus program collection issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: management system versus program collection",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ab5b38f6c735a103552318f5a063fc6e64764e838bf900b7296ef29c81024fcc"
+    },
+    {
+      "id": "PV2-CORE-CH31-010",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PDCA application",
+      "itemFamilyId": "PV2-CORE-CH31-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a worker-participation meeting, the team reviews this case: A site implements a new inspection checklist but never evaluates whether findings decline or controls improve. Which PDCA stage is weakest? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Effective management review integrates performance, compliance, risk, objectives, resources, changes, and participation information—not one lagging metric.",
+        "The checklist was planned and implemented, but the organization is not checking outcomes. Evaluation informs corrective and continual-improvement action.",
+        "Document control ensures users can identify and access the current approved information while obsolete versions are prevented from unintended use.",
+        "Workers contribute practical knowledge about normal and nonroutine work. Participation improves identification, design fit, ownership, and feedback while management retains responsibility."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses pdca application and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'management review inputs', but it does not resolve the pdca application issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'document control', but it does not resolve the pdca application issue in this case.",
+        "This rationale supports the separate chapter topic 'worker participation', but it does not resolve the pdca application issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: PDCA application",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bf200d7f7050a07447686bd11c92c8e57d11a28e828fbf6f4256e594146c4629"
+    },
+    {
+      "id": "PV2-CORE-CH31-011",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "leadership accountability",
+      "itemFamilyId": "PV2-CORE-CH31-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a corrective-action system audit, the team reviews this case: Executives approve a safety policy but routinely override shutdown decisions for schedule reasons. What system element is most undermined? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Document control ensures users can identify and access the current approved information while obsolete versions are prevented from unintended use.",
+        "Management systems seek systemic learning. Similar exposure should be evaluated proactively rather than treating repeated design weaknesses as isolated events.",
+        "Management-system credibility depends on leaders’ decisions aligning with policy and delegated authority. Repeated overrides communicate the true priorities.",
+        "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses leadership accountability and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'document control', but it does not resolve the leadership accountability issue in this case.",
+        "This rationale supports the separate chapter topic 'corrective action systemic review', but it does not resolve the leadership accountability issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'management system versus program collection', but it does not resolve the leadership accountability issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: leadership accountability",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "92c38e9164d9ef6fbd0c75af7079a9e48a626ddeb3144aa4258a599b78fcb67d"
+    },
+    {
+      "id": "PV2-CORE-CH31-012",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "worker participation",
+      "itemFamilyId": "PV2-CORE-CH31-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a leadership accountability review, the team reviews this case: A hazard-identification process is designed entirely by managers and excludes workers who perform the tasks. What is the most likely system weakness? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Management-system credibility depends on leaders’ decisions aligning with policy and delegated authority. Repeated overrides communicate the true priorities.",
+        "Early integration into core business processes prevents hazards and reduces retrofit cost; late parallel review has less influence.",
+        "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement.",
+        "Workers contribute practical knowledge about normal and nonroutine work. Participation improves identification, design fit, ownership, and feedback while management retains responsibility."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses worker participation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'leadership accountability', but it does not resolve the worker participation issue in this case.",
+        "This rationale supports the separate chapter topic 'integration with business processes', but it does not resolve the worker participation issue in this case.",
+        "This rationale supports the separate chapter topic 'management system versus program collection', but it does not resolve the worker participation issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: worker participation",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6bbc0c3cfe8ce6a37c5544dbcdf84c084ba8a7326e0eb7892ac0e64db3fa1a05"
+    },
+    {
+      "id": "PV2-CORE-CH31-013",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "document control",
+      "itemFamilyId": "PV2-CORE-CH31-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a management review meeting, the team reviews this case: Different departments use conflicting versions of an energy-control procedure downloaded from shared drives. Which system control is needed? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Document control ensures users can identify and access the current approved information while obsolete versions are prevented from unintended use.",
+        "Management-system credibility depends on leaders’ decisions aligning with policy and delegated authority. Repeated overrides communicate the true priorities.",
+        "Management systems seek systemic learning. Similar exposure should be evaluated proactively rather than treating repeated design weaknesses as isolated events.",
+        "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses document control and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'leadership accountability', but it does not resolve the document control issue in this case.",
+        "This rationale supports the separate chapter topic 'corrective action systemic review', but it does not resolve the document control issue in this case.",
+        "This rationale supports the separate chapter topic 'management system versus program collection', but it does not resolve the document control issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: document control",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a3891748005e11c5772b49f3075ad734c7d944f1576196a8176da6d19574d209"
+    },
+    {
+      "id": "PV2-CORE-CH31-014",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "corrective action systemic review",
+      "itemFamilyId": "PV2-CORE-CH31-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an integration-of-systems project, the team reviews this case: A corrective action closes one damaged guard, but similar machines use the same weak mounting design. What management-system response is best? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The checklist was planned and implemented, but the organization is not checking outcomes. Evaluation informs corrective and continual-improvement action.",
+        "Management systems seek systemic learning. Similar exposure should be evaluated proactively rather than treating repeated design weaknesses as isolated events.",
+        "Management-system credibility depends on leaders’ decisions aligning with policy and delegated authority. Repeated overrides communicate the true priorities.",
+        "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses corrective action systemic review and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'PDCA application', but it does not resolve the corrective action systemic review issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'leadership accountability', but it does not resolve the corrective action systemic review issue in this case.",
+        "This rationale supports the separate chapter topic 'management system versus program collection', but it does not resolve the corrective action systemic review issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: corrective action systemic review",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "29556a47029297783699d7ebdf6e1cdce7c68c520bf4eb15a4437f1d2878a7fd"
+    },
+    {
+      "id": "PV2-CORE-CH31-015",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management review inputs",
+      "itemFamilyId": "PV2-CORE-CH31-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a management-system gap assessment, the team reviews this case: Senior management reviews injury rates once a year but receives no information on audit results, legal changes, objectives, resources, worker feedback, or corrective actions. What is the problem? Which rationale most directly supports the correct decision?",
+      "options": [
+        "The checklist was planned and implemented, but the organization is not checking outcomes. Evaluation informs corrective and continual-improvement action.",
+        "Document control ensures users can identify and access the current approved information while obsolete versions are prevented from unintended use.",
+        "Effective management review integrates performance, compliance, risk, objectives, resources, changes, and participation information—not one lagging metric.",
+        "Management systems seek systemic learning. Similar exposure should be evaluated proactively rather than treating repeated design weaknesses as isolated events."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses management review inputs and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'PDCA application', but it does not resolve the management review inputs issue in this case.",
+        "This rationale supports the separate chapter topic 'document control', but it does not resolve the management review inputs issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'corrective action systemic review', but it does not resolve the management review inputs issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: management review inputs",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "39ad8acad6964950254c0f20dc331c2327c8ec9974295ad2d9c6f3e035bba1c1"
+    },
+    {
+      "id": "PV2-CORE-CH31-016",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "integration with business processes",
+      "itemFamilyId": "PV2-CORE-CH31-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a PDCA review, the team reviews this case: Safety risk reviews occur after equipment contracts are signed and design changes are expensive. Which system improvement is strongest? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Effective management review integrates performance, compliance, risk, objectives, resources, changes, and participation information—not one lagging metric.",
+        "Workers contribute practical knowledge about normal and nonroutine work. Participation improves identification, design fit, ownership, and feedback while management retains responsibility.",
+        "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement.",
+        "Early integration into core business processes prevents hazards and reduces retrofit cost; late parallel review has less influence."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses integration with business processes and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'management review inputs', but it does not resolve the integration with business processes issue in this case.",
+        "This rationale supports the separate chapter topic 'worker participation', but it does not resolve the integration with business processes issue in this case.",
+        "This rationale supports the separate chapter topic 'management system versus program collection', but it does not resolve the integration with business processes issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: integration with business processes",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "13a8f58a36ed22ebd31426eb155480da730a171951ba1fccfdba486b3bc8c5aa"
+    },
+    {
+      "id": "PV2-CORE-CH31-017",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Safety management system components",
+      "itemFamilyId": "PV2-CORE-CH31-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a PDCA review, the team reviews this question: Which set best represents an integrated safety management system rather than a collection of isolated activities? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A management system links policy and accountability with risk control, assurance, communication, competence, and continual improvement.",
+        "A balanced dashboard combines leading and lagging evidence so leaders can understand risk, implementation, effectiveness, and outcomes.",
+        "Meaningful participation gives workers accessible channels and a real role in identifying, controlling, and evaluating hazards.",
+        "The Act phase uses evaluation results to standardize success, correct deficiencies, and improve the management system."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Balanced indicators', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Worker participation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PDCA continual improvement', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 31, components of a safety management system, pp. 717-720; Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ad370156a2c6ced9a462b63c099d63f1b10426cf326d55db8710401508701d5d"
+    },
+    {
+      "id": "PV2-CORE-CH31-018",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Policy and accountability",
+      "itemFamilyId": "PV2-CORE-CH31-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a policy and objectives workshop, the team reviews this question: A safety policy promises prevention but assigns no authority, resources, or accountability. What is the most important weakness? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Safety assurance evaluates whether the system and its controls are implemented, effective, and improving.",
+        "A credible policy must be supported by defined responsibilities, authority, resources, objectives, and accountability mechanisms.",
+        "Meaningful participation gives workers accessible channels and a real role in identifying, controlling, and evaluating hazards.",
+        "A management system links policy and accountability with risk control, assurance, communication, competence, and continual improvement."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Safety assurance', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Worker participation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Safety management system components', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 31, safety policy and organizational structure, pp. 718-720; Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "57c2f3d2b952d30313e61f4b3d122e9f0847e47bd360223c8a3c3688be493344"
+    },
+    {
+      "id": "PV2-CORE-CH31-019",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Worker participation",
+      "itemFamilyId": "PV2-CORE-CH31-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a worker-participation meeting, the team reviews this question: Which practice best demonstrates meaningful worker participation in the management system? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A management system links policy and accountability with risk control, assurance, communication, competence, and continual improvement.",
+        "A balanced dashboard combines leading and lagging evidence so leaders can understand risk, implementation, effectiveness, and outcomes.",
+        "Meaningful participation gives workers accessible channels and a real role in identifying, controlling, and evaluating hazards.",
+        "The Act phase uses evaluation results to standardize success, correct deficiencies, and improve the management system."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Safety management system components', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Balanced indicators', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'PDCA continual improvement', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 31, management systems and safety promotion, pp. 717-729; Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "97eff8a96935ac1b4577fdfa82c616561f363a8e68ca8c6132e92ebd25870509"
+    },
+    {
+      "id": "PV2-CORE-CH31-020",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PDCA continual improvement",
+      "itemFamilyId": "PV2-CORE-CH31-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a corrective-action system audit, the team reviews this question: An organization standardizes a successful pilot control and revises system requirements based on evaluation results. Which PDCA phase is represented? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Meaningful participation gives workers accessible channels and a real role in identifying, controlling, and evaluating hazards.",
+        "A management system links policy and accountability with risk control, assurance, communication, competence, and continual improvement.",
+        "A balanced dashboard combines leading and lagging evidence so leaders can understand risk, implementation, effectiveness, and outcomes.",
+        "The Act phase uses evaluation results to standardize success, correct deficiencies, and improve the management system."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Worker participation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Safety management system components', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Balanced indicators', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 31, PDCA model, pp. 721-723; Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e75332145d7c90e8306d52bda4066a57fad561a92b7034f17af4ee30f1cbd1ff"
+    },
+    {
+      "id": "PV2-CORE-CH31-021",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Safety assurance",
+      "itemFamilyId": "PV2-CORE-CH31-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a leadership accountability review, the team reviews this question: Which activity is primarily part of safety assurance? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Safety assurance evaluates whether the system and its controls are implemented, effective, and improving.",
+        "Management review converts assurance information into strategic decisions, resource commitments, and direction for improvement.",
+        "Safety promotion builds competence, communication, awareness, and a learning culture across the organization.",
+        "A credible policy must be supported by defined responsibilities, authority, resources, objectives, and accountability mechanisms."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Audit and management review', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Safety promotion', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Policy and accountability', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 31, safety assurance, p. 720; Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3d09bb0d687c3b72ae19304385713264b5f8f7141c7039cc1365e2b32d370095"
+    },
+    {
+      "id": "PV2-CORE-CH31-022",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A8.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Safety promotion",
+      "itemFamilyId": "PV2-CORE-CH31-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a management review meeting, the team reviews this question: Which action most directly supports safety promotion within a management system? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Safety assurance evaluates whether the system and its controls are implemented, effective, and improving.",
+        "Safety promotion builds competence, communication, awareness, and a learning culture across the organization.",
+        "A management system links policy and accountability with risk control, assurance, communication, competence, and continual improvement.",
+        "Management review converts assurance information into strategic decisions, resource commitments, and direction for improvement."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Safety assurance', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Safety management system components', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Audit and management review', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 31, safety promotion, p. 720; Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c95d11fb12b1de4a6930de214e385b8341398e5692bf33f7810dbda7ce537e7a"
+    },
+    {
+      "id": "PV2-CORE-CH31-023",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Audit and management review",
+      "itemFamilyId": "PV2-CORE-CH31-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an integration-of-systems project, the team reviews this question: An internal audit identifies recurring weaknesses in contractor control. What should management review add beyond the audit finding itself? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Safety promotion builds competence, communication, awareness, and a learning culture across the organization.",
+        "A credible policy must be supported by defined responsibilities, authority, resources, objectives, and accountability mechanisms.",
+        "Management review converts assurance information into strategic decisions, resource commitments, and direction for improvement.",
+        "Safety assurance evaluates whether the system and its controls are implemented, effective, and improving."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Safety promotion', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Policy and accountability', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Safety assurance', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 31, review of safety management systems and PDCA, pp. 721-729; Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "98727ed3bb469ce8da586f5bbe494a79e44e562bd7490cfab5074c6a6e7afcaf"
+    },
+    {
+      "id": "PV2-CORE-CH31-024",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Balanced indicators",
+      "itemFamilyId": "PV2-CORE-CH31-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a management-system gap assessment, the team reviews this question: Which dashboard best supports management-system decision making? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A management system links policy and accountability with risk control, assurance, communication, competence, and continual improvement.",
+        "Meaningful participation gives workers accessible channels and a real role in identifying, controlling, and evaluating hazards.",
+        "The Act phase uses evaluation results to standardize success, correct deficiencies, and improve the management system.",
+        "A balanced dashboard combines leading and lagging evidence so leaders can understand risk, implementation, effectiveness, and outcomes."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Safety management system components', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Worker participation', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PDCA continual improvement', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 31 and 36, safety assurance and performance measurement, pp. 717-730 and 797-816; Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/safety-management"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "38393bd587f1f52a0d7ba72869b5dc3799fa602282501a3739bf835dac15428c"
+    },
+    {
+      "id": "PV2-CORE-CH31-025",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management system versus program collection",
+      "itemFamilyId": "PV2-CORE-CH31-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a worker-participation meeting, a supervisor proposes: \"Create more stand-alone binders without changing accountability or interfaces\". The underlying case is: A company has many written safety programs, but responsibilities conflict, objectives are not measured, and corrective actions are not tracked across departments. What distinguishes the needed management-system approach? Which alternative is the most defensible correction?",
+      "options": [
+        "Integrate policy, roles, risk processes, resources, performance evaluation, corrective action, and continual improvement into one governed system",
+        "Replace all procedures with a single annual safety meeting",
+        "Create more stand-alone binders without changing accountability or interfaces",
+        "Assign every safety responsibility to the EHS department alone"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Replace all procedures with a single annual safety meeting' remains incomplete or misapplies the controlling management system versus program collection principle.",
+        "The proposed response 'Create more stand-alone binders without changing accountability or interfaces' remains incomplete or misapplies the controlling management system versus program collection principle.",
+        "The proposed response 'Assign every safety responsibility to the EHS department alone' remains incomplete or misapplies the controlling management system versus program collection principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: management system versus program collection",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "839950bf18ec43799263899666a2c5d395b80dee1b482f62a725098a63ce2ffe"
+    },
+    {
+      "id": "PV2-CORE-CH31-026",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PDCA application",
+      "itemFamilyId": "PV2-CORE-CH31-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a corrective-action system audit, a supervisor proposes: \"Do, because using the checklist is not implementation\". The underlying case is: A site implements a new inspection checklist but never evaluates whether findings decline or controls improve. Which PDCA stage is weakest? Which alternative is the most defensible correction?",
+      "options": [
+        "Act, because corrective action must occur before any measurement",
+        "Check, because performance and effectiveness are not being measured before further action",
+        "Do, because using the checklist is not implementation",
+        "Plan, because no policy can ever exist before a checklist"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The checklist was planned and implemented, but the organization is not checking outcomes. Evaluation informs corrective and continual-improvement action.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Act, because corrective action must occur before any measurement' remains incomplete or misapplies the controlling pdca application principle.",
+        null,
+        "The proposed response 'Do, because using the checklist is not implementation' remains incomplete or misapplies the controlling pdca application principle.",
+        "The proposed response 'Plan, because no policy can ever exist before a checklist' remains incomplete or misapplies the controlling pdca application principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: PDCA application",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bc16013e1ad91a6fd3806565bba2a74b20584b76b877a518c70c88bbb126657c"
+    },
+    {
+      "id": "PV2-CORE-CH31-027",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "leadership accountability",
+      "itemFamilyId": "PV2-CORE-CH31-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a leadership accountability review, a supervisor proposes: \"Procurement only, because production schedules are unrelated to leadership behavior\". The underlying case is: Executives approve a safety policy but routinely override shutdown decisions for schedule reasons. What system element is most undermined? Which alternative is the most defensible correction?",
+      "options": [
+        "Document formatting because the policy needs a different font",
+        "Employee competence because executives do not perform field tasks",
+        "Leadership commitment and consistency between stated policy, decision authority, and resource priorities",
+        "Procurement only, because production schedules are unrelated to leadership behavior"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Management-system credibility depends on leaders’ decisions aligning with policy and delegated authority. Repeated overrides communicate the true priorities.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Document formatting because the policy needs a different font' remains incomplete or misapplies the controlling leadership accountability principle.",
+        "The proposed response 'Employee competence because executives do not perform field tasks' remains incomplete or misapplies the controlling leadership accountability principle.",
+        null,
+        "The proposed response 'Procurement only, because production schedules are unrelated to leadership behavior' remains incomplete or misapplies the controlling leadership accountability principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: leadership accountability",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ba2550cedf1b329c3d796f38a7986d69f0766c69a0047f98af4f4bc3c11aba1e"
+    },
+    {
+      "id": "PV2-CORE-CH31-028",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "worker participation",
+      "itemFamilyId": "PV2-CORE-CH31-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a management review meeting, a supervisor proposes: \"Worker participation necessarily removes management accountability\". The underlying case is: A hazard-identification process is designed entirely by managers and excludes workers who perform the tasks. What is the most likely system weakness? Which alternative is the most defensible correction?",
+      "options": [
+        "Participation matters only after an injury occurs",
+        "Worker participation necessarily removes management accountability",
+        "Managers can identify every task variation from written procedures alone",
+        "Critical operational knowledge and reporting trust may be lost, reducing hazard recognition and control usability"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Workers contribute practical knowledge about normal and nonroutine work. Participation improves identification, design fit, ownership, and feedback while management retains responsibility.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Participation matters only after an injury occurs' remains incomplete or misapplies the controlling worker participation principle.",
+        "The proposed response 'Worker participation necessarily removes management accountability' remains incomplete or misapplies the controlling worker participation principle.",
+        "The proposed response 'Managers can identify every task variation from written procedures alone' remains incomplete or misapplies the controlling worker participation principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: worker participation",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7a11c04ee3d78efff3815be65fb62551c175ef3319236b430eb93a93fcf80df9"
+    },
+    {
+      "id": "PV2-CORE-CH31-029",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "document control",
+      "itemFamilyId": "PV2-CORE-CH31-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an integration-of-systems project, a supervisor proposes: \"Print additional uncontrolled copies so employees have more choices\". The underlying case is: Different departments use conflicting versions of an energy-control procedure downloaded from shared drives. Which system control is needed? Which alternative is the most defensible correction?",
+      "options": [
+        "A controlled process for approval, revision, distribution, access, obsolete-document removal, and retention",
+        "Delete revision dates because dates cause confusion",
+        "Allow each department to select the version it prefers",
+        "Print additional uncontrolled copies so employees have more choices"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Document control ensures users can identify and access the current approved information while obsolete versions are prevented from unintended use.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Delete revision dates because dates cause confusion' remains incomplete or misapplies the controlling document control principle.",
+        "The proposed response 'Allow each department to select the version it prefers' remains incomplete or misapplies the controlling document control principle.",
+        "The proposed response 'Print additional uncontrolled copies so employees have more choices' remains incomplete or misapplies the controlling document control principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: document control",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e4a540cdcd3426628a9998adc47bc6c113fc87574d45fa425daebaf72c17d226"
+    },
+    {
+      "id": "PV2-CORE-CH31-030",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "corrective action systemic review",
+      "itemFamilyId": "PV2-CORE-CH31-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a management-system gap assessment, a supervisor proposes: \"Wait for each similar guard to fail before entering a new action\". The underlying case is: A corrective action closes one damaged guard, but similar machines use the same weak mounting design. What management-system response is best? Which alternative is the most defensible correction?",
+      "options": [
+        "Close the action when replacement parts are ordered",
+        "Extend the review across comparable assets and processes, address systemic causes, assign ownership, and verify effectiveness",
+        "Limit correction to the machine involved because the finding was local",
+        "Wait for each similar guard to fail before entering a new action"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Management systems seek systemic learning. Similar exposure should be evaluated proactively rather than treating repeated design weaknesses as isolated events.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Close the action when replacement parts are ordered' remains incomplete or misapplies the controlling corrective action systemic review principle.",
+        null,
+        "The proposed response 'Limit correction to the machine involved because the finding was local' remains incomplete or misapplies the controlling corrective action systemic review principle.",
+        "The proposed response 'Wait for each similar guard to fail before entering a new action' remains incomplete or misapplies the controlling corrective action systemic review principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: corrective action systemic review",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fc5eb409033709d9742d487cb56637b2b316f1071ff6402b72da816fd0891f93"
+    },
+    {
+      "id": "PV2-CORE-CH31-031",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management review inputs",
+      "itemFamilyId": "PV2-CORE-CH31-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a PDCA review, a supervisor proposes: \"Injury rates are the only permissible management-review input\". The underlying case is: Senior management reviews injury rates once a year but receives no information on audit results, legal changes, objectives, resources, worker feedback, or corrective actions. What is the problem? Which alternative is the most defensible correction?",
+      "options": [
+        "Management review should avoid resource and compliance topics",
+        "Worker feedback is relevant only to training records",
+        "The review lacks the balanced inputs needed to judge system suitability, adequacy, effectiveness, and improvement needs",
+        "Injury rates are the only permissible management-review input"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Effective management review integrates performance, compliance, risk, objectives, resources, changes, and participation information—not one lagging metric.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Management review should avoid resource and compliance topics' remains incomplete or misapplies the controlling management review inputs principle.",
+        "The proposed response 'Worker feedback is relevant only to training records' remains incomplete or misapplies the controlling management review inputs principle.",
+        null,
+        "The proposed response 'Injury rates are the only permissible management-review input' remains incomplete or misapplies the controlling management review inputs principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: management review inputs",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "45810b4dc313b3949ca8d0e8d93a51d991e8d964fc0bd27918fe05fb89967c5d"
+    },
+    {
+      "id": "PV2-CORE-CH31-032",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "integration with business processes",
+      "itemFamilyId": "PV2-CORE-CH31-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a policy and objectives workshop, a supervisor proposes: \"Rely on post-installation training to compensate for design hazards\". The underlying case is: Safety risk reviews occur after equipment contracts are signed and design changes are expensive. Which system improvement is strongest? Which alternative is the most defensible correction?",
+      "options": [
+        "Rely on post-installation training to compensate for design hazards",
+        "Keep safety review separate so business decisions are not delayed",
+        "Ask vendors for a generic safety statement after purchase",
+        "Embed EHS requirements and risk review into procurement, design, capital approval, change management, and acceptance testing"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Early integration into core business processes prevents hazards and reduces retrofit cost; late parallel review has less influence.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Rely on post-installation training to compensate for design hazards' remains incomplete or misapplies the controlling integration with business processes principle.",
+        "The proposed response 'Keep safety review separate so business decisions are not delayed' remains incomplete or misapplies the controlling integration with business processes principle.",
+        "The proposed response 'Ask vendors for a generic safety statement after purchase' remains incomplete or misapplies the controlling integration with business processes principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: integration with business processes",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0ae78019de6eeca12fb317399c75c4a410b64a4895923e51822332eabd0a1adb"
+    },
+    {
+      "id": "PV2-CORE-CH31-033",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "management system versus program collection",
+      "itemFamilyId": "PV2-CORE-CH31-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a corrective-action system audit, the team selects \"Integrate policy, roles, risk processes, resources, performance evaluation, corrective action, and continual improvement into one governed system\" rather than \"Replace all procedures with a single annual safety meeting\" for this case: A company has many written safety programs, but responsibilities conflict, objectives are not measured, and corrective actions are not tracked across departments. What distinguishes the needed management-system approach? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement.",
+        "The checklist was planned and implemented, but the organization is not checking outcomes. Evaluation informs corrective and continual-improvement action.",
+        "Effective management review integrates performance, compliance, risk, objectives, resources, changes, and participation information—not one lagging metric.",
+        "Management-system credibility depends on leaders’ decisions aligning with policy and delegated authority. Repeated overrides communicate the true priorities."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the management system versus program collection issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'PDCA application' and does not distinguish the two responses in the present management system versus program collection decision.",
+        "This explanation concerns 'management review inputs' and does not distinguish the two responses in the present management system versus program collection decision.",
+        "This explanation concerns 'leadership accountability' and does not distinguish the two responses in the present management system versus program collection decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: management system versus program collection",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8e3954ad3c49ee65acfce0e6fcbd00561f5a30f83ae02fc479a6c779e9131d38"
+    },
+    {
+      "id": "PV2-CORE-CH31-034",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PDCA application",
+      "itemFamilyId": "PV2-CORE-CH31-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a leadership accountability review, the team selects \"Check, because performance and effectiveness are not being measured before further action\" rather than \"Act, because corrective action must occur before any measurement\" for this case: A site implements a new inspection checklist but never evaluates whether findings decline or controls improve. Which PDCA stage is weakest? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Workers contribute practical knowledge about normal and nonroutine work. Participation improves identification, design fit, ownership, and feedback while management retains responsibility.",
+        "The checklist was planned and implemented, but the organization is not checking outcomes. Evaluation informs corrective and continual-improvement action.",
+        "A management system coordinates interacting processes and leadership accountability; a collection of disconnected programs does not ensure consistent control or improvement.",
+        "Document control ensures users can identify and access the current approved information while obsolete versions are prevented from unintended use."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the pdca application issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'worker participation' and does not distinguish the two responses in the present pdca application decision.",
+        null,
+        "This explanation concerns 'management system versus program collection' and does not distinguish the two responses in the present pdca application decision.",
+        "This explanation concerns 'document control' and does not distinguish the two responses in the present pdca application decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: PDCA application",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a2ee12ebb244b44f98e0d6248afd8e02d286c426926bc9c0f9fdf031eb5c14e0"
+    },
+    {
+      "id": "PV2-CORE-CH31-035",
+      "version": 1,
+      "chapterId": "ch-31",
+      "chapterTitle": "Safety Management Systems",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.08",
+          "role": "secondary"
+        }
+      ],
+      "concept": "leadership accountability",
+      "itemFamilyId": "PV2-CORE-CH31-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a management review meeting, the team selects \"Leadership commitment and consistency between stated policy, decision authority, and resource priorities\" rather than \"Document formatting because the policy needs a different font\" for this case: Executives approve a safety policy but routinely override shutdown decisions for schedule reasons. What system element is most undermined? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Effective management review integrates performance, compliance, risk, objectives, resources, changes, and participation information—not one lagging metric.",
+        "The checklist was planned and implemented, but the organization is not checking outcomes. Evaluation informs corrective and continual-improvement action.",
+        "Management-system credibility depends on leaders’ decisions aligning with policy and delegated authority. Repeated overrides communicate the true priorities.",
+        "Management systems seek systemic learning. Similar exposure should be evaluated proactively rather than treating repeated design weaknesses as isolated events."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the leadership accountability issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'management review inputs' and does not distinguish the two responses in the present leadership accountability decision.",
+        "This explanation concerns 'PDCA application' and does not distinguish the two responses in the present leadership accountability decision.",
+        null,
+        "This explanation concerns 'corrective action systemic review' and does not distinguish the two responses in the present leadership accountability decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 31, pp. 717-730; OSHA Recommended Practices for Safety and Health Programs; curated topic: leadership accountability",
+      "sourceUrls": [
+        "https://www.osha.gov/safety-management",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fe532d1090dea2ff257445e3d9115d4ad2ec4704b8860dd1ce84e1d3b74b0cd2"
+    }
+  ]
+}

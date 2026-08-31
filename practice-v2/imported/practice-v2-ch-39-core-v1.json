@@ -1,0 +1,2330 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-39-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-39",
+  "chapterTitle": "Emergency Management and Preparedness",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH39-001",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emergency action plan roles",
+      "itemFamilyId": "PV2-CORE-CH39-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An emergency action plan lists evacuation routes but does not identify who reports emergencies, accounts for people, performs rescue or medical duties, or can answer plan questions. What is the key deficiency?",
+      "options": [
+        "The plan lacks required functions and assigned responsibilities needed to execute evacuation and response",
+        "Routes alone are sufficient if employees have seen the map",
+        "Names and duties should be decided during the emergency",
+        "Accounting is unnecessary when the building has electronic badges"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "An actionable plan identifies reporting, evacuation, critical operations, accounting, rescue and medical duties, contacts, and training—not just maps.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Routes alone are sufficient if employees have seen the map' does not apply the controlling principle for emergency action plan roles to the facts given, so it is not the best answer.",
+        "The option 'Names and duties should be decided during the emergency' does not apply the controlling principle for emergency action plan roles to the facts given, so it is not the best answer.",
+        "The option 'Accounting is unnecessary when the building has electronic badges' does not apply the controlling principle for emergency action plan roles to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: emergency action plan roles",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aaa9026c83ab58d8d1611d0e8e62275e6e1b4e9bdff3f253ef887b380c4d8048"
+    },
+    {
+      "id": "PV2-CORE-CH39-002",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "protective action decision",
+      "itemFamilyId": "PV2-CORE-CH39-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A toxic outdoor release is moving toward a facility. Evacuation routes would pass through the plume, while the building can temporarily isolate outdoor air. What should incident leadership consider?",
+      "options": [
+        "Shelter in place because evacuation outside the building should not be selected for this type of emergency",
+        "Use plume, timing, building protection, route, population, and authority information to choose shelter-in-place or evacuation dynamically",
+        "Let each employee choose without centralized information or accountability",
+        "Evacuate automatically because evacuation is always safer than sheltering"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Protective actions are scenario-dependent. The safest decision considers hazard movement, time, building protection, routes, communication, and changing conditions.",
+      "incorrectOptionExplanations": [
+        "The option 'Shelter in place because evacuation outside the building should not be selected for this type of emergency' does not apply the controlling principle for protective action decision to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Let each employee choose without centralized information or accountability' does not apply the controlling principle for protective action decision to the facts given, so it is not the best answer.",
+        "The option 'Evacuate automatically because evacuation is always safer than sheltering' does not apply the controlling principle for protective action decision to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: protective action decision",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "68073ba99c4dd73c5bf3a212cf3eaa468f292ffce7b1c9c7516bb7489910f881"
+    },
+    {
+      "id": "PV2-CORE-CH39-003",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee accountability",
+      "itemFamilyId": "PV2-CORE-CH39-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "After an evacuation, supervisors use paper rosters that omit contractors and visitors. What system improvement is strongest?",
+      "options": [
+        "Assume unlisted people have already left the property",
+        "Use payroll records as the sole real-time occupancy list",
+        "Create a tested accountability process covering employees, contractors, visitors, alternates, missing-person escalation, and responder communication",
+        "Delay accountability until the fire department completes its search"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Emergency accountability must reflect actual occupants and rapidly communicate unresolved persons without creating unplanned reentry.",
+      "incorrectOptionExplanations": [
+        "The option 'Assume unlisted people have already left the property' does not apply the controlling principle for employee accountability to the facts given, so it is not the best answer.",
+        "The option 'Use payroll records as the sole real-time occupancy list' does not apply the controlling principle for employee accountability to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Delay accountability until the fire department completes its search' does not apply the controlling principle for employee accountability to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: employee accountability",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f54e33641bb96a701495505ac06ef79d82c9dbade5958bd4423c378ef177096b"
+    },
+    {
+      "id": "PV2-CORE-CH39-004",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "critical operations before evacuation",
+      "itemFamilyId": "PV2-CORE-CH39-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Operators are expected to shut down a hazardous process before evacuating, but the plan does not define limits or when to abandon shutdown. What is needed?",
+      "options": [
+        "Require shutdown completion regardless of fire, release, or escape-route conditions",
+        "Remove shutdown procedures and assume automatic systems cannot fail",
+        "Let any nearby employee decide whether to operate the process",
+        "Specify trained roles, safe shutdown steps, decision triggers, protective equipment, communications, and conditions requiring immediate evacuation"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety.",
+      "incorrectOptionExplanations": [
+        "The option 'Require shutdown completion regardless of fire, release, or escape-route conditions' does not apply the controlling principle for critical operations before evacuation to the facts given, so it is not the best answer.",
+        "The option 'Remove shutdown procedures and assume automatic systems cannot fail' does not apply the controlling principle for critical operations before evacuation to the facts given, so it is not the best answer.",
+        "The option 'Let any nearby employee decide whether to operate the process' does not apply the controlling principle for critical operations before evacuation to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: critical operations before evacuation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "49e617a71d5a537792c5b2bfc7400d9e75185ade3edf138432ebd7574a01c9a4"
+    },
+    {
+      "id": "PV2-CORE-CH39-005",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "drill evaluation",
+      "itemFamilyId": "PV2-CORE-CH39-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A drill ends when the last employee reaches the assembly area, and no observations or corrective actions are recorded. What is missing?",
+      "options": [
+        "Evaluate objectives, timing, communications, decisions, accessibility, accountability, and control failures, then track improvements to completion",
+        "Use attendance alone as the sole measure of preparedness",
+        "A drill is successful whenever no real emergency occurs",
+        "Repeat the same drill without changing any conditions or objectives"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Exercises are learning tools. Structured evaluation and corrective-action follow-up convert performance observations into improved capability.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Use attendance alone as the sole measure of preparedness' does not apply the controlling principle for drill evaluation to the facts given, so it is not the best answer.",
+        "The option 'A drill is successful whenever no real emergency occurs' does not apply the controlling principle for drill evaluation to the facts given, so it is not the best answer.",
+        "The option 'Repeat the same drill without changing any conditions or objectives' does not apply the controlling principle for drill evaluation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: drill evaluation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1708a28ca032e282e41d4b0ef59d56e1bffa910684c933e03e7caeb74e45341e"
+    },
+    {
+      "id": "PV2-CORE-CH39-006",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "business continuity priorities",
+      "itemFamilyId": "PV2-CORE-CH39-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A continuity plan lists all business functions as equally urgent. During an outage, resources cannot support every function. What planning step is needed?",
+      "options": [
+        "Prioritize whichever manager communicates first",
+        "Conduct a business impact analysis to identify critical services, dependencies, recovery time objectives, minimum resources, and acceptable data loss",
+        "Use annual revenue alone without considering safety, legal, customer, or dependency impacts",
+        "Restore departments alphabetically to avoid judgment"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Business impact analysis establishes recovery priorities and requirements based on consequences and dependencies rather than equal treatment or influence.",
+      "incorrectOptionExplanations": [
+        "The option 'Prioritize whichever manager communicates first' does not apply the controlling principle for business continuity priorities to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use annual revenue alone without considering safety, legal, customer, or dependency impacts' does not apply the controlling principle for business continuity priorities to the facts given, so it is not the best answer.",
+        "The option 'Restore departments alphabetically to avoid judgment' does not apply the controlling principle for business continuity priorities to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: business continuity priorities",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "33b56c026ab18a31bab3da5f2610039e152a92d50a6c6eb3ac971d8036874d8c"
+    },
+    {
+      "id": "PV2-CORE-CH39-007",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "crisis communication",
+      "itemFamilyId": "PV2-CORE-CH39-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Conflicting unofficial messages spread after a chemical release. The organization has no designated spokesperson or verification process. What should the plan establish?",
+      "options": [
+        "Delete employee social media accounts during the event",
+        "Delay all communication until every detail is known with certainty",
+        "A coordinated communication structure with authorized spokespeople, verified facts, audience-specific messages, monitoring, and timely updates",
+        "Allow every manager to publish independent estimates"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Credible crisis communication must be timely, accurate, coordinated, transparent about uncertainty, and adapted as facts change.",
+      "incorrectOptionExplanations": [
+        "The option 'Delete employee social media accounts during the event' does not apply the controlling principle for crisis communication to the facts given, so it is not the best answer.",
+        "The option 'Delay all communication until every detail is known with certainty' does not apply the controlling principle for crisis communication to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Allow every manager to publish independent estimates' does not apply the controlling principle for crisis communication to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: crisis communication",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3096827ff0dd854e2d5d9d7650dc914db4218ebe47f92122af792e4a273834fa"
+    },
+    {
+      "id": "PV2-CORE-CH39-008",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "recovery and lessons learned",
+      "itemFamilyId": "PV2-CORE-CH39-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Operations resume after a flood, but damaged safeguards and temporary changes are not reviewed. Which recovery action is most important?",
+      "options": [
+        "Postpone safeguard and temporary-repair inspections until the next scheduled annual management-system audit",
+        "Resume full production once electrical power returns and rely on operators to identify any damaged safeguards during startup",
+        "Leave temporary repairs in service as permanent controls without engineering review, change management, or follow-up verification",
+        "Verify facility and control integrity, manage temporary changes, confirm worker readiness, and capture lessons before normalizing operations"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Recovery includes safe restoration and controlled transition, not merely restarting. Damage, staffing, temporary systems, and changed hazards require verification.",
+      "incorrectOptionExplanations": [
+        "The option 'Postpone safeguard and temporary-repair inspections until the next scheduled annual management-system audit' does not apply the controlling principle for recovery and lessons learned to the facts given, so it is not the best answer.",
+        "The option 'Resume full production once electrical power returns and rely on operators to identify any damaged safeguards during startup' does not apply the controlling principle for recovery and lessons learned to the facts given, so it is not the best answer.",
+        "The option 'Leave temporary repairs in service as permanent controls without engineering review, change management, or follow-up verification' does not apply the controlling principle for recovery and lessons learned to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: recovery and lessons learned",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1cc899a5b18b4b051b962336353e13c33e23bfa348d4c981ca2512ce1d4e158c"
+    },
+    {
+      "id": "PV2-CORE-CH39-009",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emergency action plan roles",
+      "itemFamilyId": "PV2-CORE-CH39-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a chemical release exercise, the team reviews this case: An emergency action plan lists evacuation routes but does not identify who reports emergencies, accounts for people, performs rescue or medical duties, or can answer plan questions. What is the key deficiency? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An actionable plan identifies reporting, evacuation, critical operations, accounting, rescue and medical duties, contacts, and training—not just maps.",
+        "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety.",
+        "Exercises are learning tools. Structured evaluation and corrective-action follow-up convert performance observations into improved capability.",
+        "Business impact analysis establishes recovery priorities and requirements based on consequences and dependencies rather than equal treatment or influence."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses emergency action plan roles and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'critical operations before evacuation', but it does not resolve the emergency action plan roles issue in this case.",
+        "This rationale supports the separate chapter topic 'drill evaluation', but it does not resolve the emergency action plan roles issue in this case.",
+        "This rationale supports the separate chapter topic 'business continuity priorities', but it does not resolve the emergency action plan roles issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: emergency action plan roles",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f67724a46d8036965103020409bd70cc31a65df0a57156a36a34d6469a72e45b"
+    },
+    {
+      "id": "PV2-CORE-CH39-010",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "protective action decision",
+      "itemFamilyId": "PV2-CORE-CH39-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a business continuity test, the team reviews this case: A toxic outdoor release is moving toward a facility. Evacuation routes would pass through the plume, while the building can temporarily isolate outdoor air. What should incident leadership consider? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Credible crisis communication must be timely, accurate, coordinated, transparent about uncertainty, and adapted as facts change.",
+        "Protective actions are scenario-dependent. The safest decision considers hazard movement, time, building protection, routes, communication, and changing conditions.",
+        "Emergency accountability must reflect actual occupants and rapidly communicate unresolved persons without creating unplanned reentry.",
+        "An actionable plan identifies reporting, evacuation, critical operations, accounting, rescue and medical duties, contacts, and training—not just maps."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses protective action decision and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'crisis communication', but it does not resolve the protective action decision issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'employee accountability', but it does not resolve the protective action decision issue in this case.",
+        "This rationale supports the separate chapter topic 'emergency action plan roles', but it does not resolve the protective action decision issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: protective action decision",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "38468ebc1a698198f978259cd18818e5144197fa40b2d3c75a9c9901bf1f3d0b"
+    },
+    {
+      "id": "PV2-CORE-CH39-011",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee accountability",
+      "itemFamilyId": "PV2-CORE-CH39-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an accountability-system evaluation, the team reviews this case: After an evacuation, supervisors use paper rosters that omit contractors and visitors. What system improvement is strongest? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety.",
+        "Protective actions are scenario-dependent. The safest decision considers hazard movement, time, building protection, routes, communication, and changing conditions.",
+        "Emergency accountability must reflect actual occupants and rapidly communicate unresolved persons without creating unplanned reentry.",
+        "Exercises are learning tools. Structured evaluation and corrective-action follow-up convert performance observations into improved capability."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses employee accountability and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'critical operations before evacuation', but it does not resolve the employee accountability issue in this case.",
+        "This rationale supports the separate chapter topic 'protective action decision', but it does not resolve the employee accountability issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'drill evaluation', but it does not resolve the employee accountability issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: employee accountability",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dcc12b6ffab2171a19aea87b48a42c24cd889999db2524f78ebe4211f7b4bc8f"
+    },
+    {
+      "id": "PV2-CORE-CH39-012",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "critical operations before evacuation",
+      "itemFamilyId": "PV2-CORE-CH39-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a crisis communication meeting, the team reviews this case: Operators are expected to shut down a hazardous process before evacuating, but the plan does not define limits or when to abandon shutdown. What is needed? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An actionable plan identifies reporting, evacuation, critical operations, accounting, rescue and medical duties, contacts, and training—not just maps.",
+        "Emergency accountability must reflect actual occupants and rapidly communicate unresolved persons without creating unplanned reentry.",
+        "Business impact analysis establishes recovery priorities and requirements based on consequences and dependencies rather than equal treatment or influence.",
+        "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses critical operations before evacuation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'emergency action plan roles', but it does not resolve the critical operations before evacuation issue in this case.",
+        "This rationale supports the separate chapter topic 'employee accountability', but it does not resolve the critical operations before evacuation issue in this case.",
+        "This rationale supports the separate chapter topic 'business continuity priorities', but it does not resolve the critical operations before evacuation issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: critical operations before evacuation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3b79ed701abb2e36971e6db3585f77363dd1ba373e7a0042596b60e5fe8540b6"
+    },
+    {
+      "id": "PV2-CORE-CH39-013",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "drill evaluation",
+      "itemFamilyId": "PV2-CORE-CH39-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a medical emergency response review, the team reviews this case: A drill ends when the last employee reaches the assembly area, and no observations or corrective actions are recorded. What is missing? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Exercises are learning tools. Structured evaluation and corrective-action follow-up convert performance observations into improved capability.",
+        "Business impact analysis establishes recovery priorities and requirements based on consequences and dependencies rather than equal treatment or influence.",
+        "Protective actions are scenario-dependent. The safest decision considers hazard movement, time, building protection, routes, communication, and changing conditions.",
+        "Recovery includes safe restoration and controlled transition, not merely restarting. Damage, staffing, temporary systems, and changed hazards require verification."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses drill evaluation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'business continuity priorities', but it does not resolve the drill evaluation issue in this case.",
+        "This rationale supports the separate chapter topic 'protective action decision', but it does not resolve the drill evaluation issue in this case.",
+        "This rationale supports the separate chapter topic 'recovery and lessons learned', but it does not resolve the drill evaluation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: drill evaluation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b8937ececba61364ac2b5a8a31528c3a1abb6fb02fdf4fc605d27fc6eae9309e"
+    },
+    {
+      "id": "PV2-CORE-CH39-014",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "business continuity priorities",
+      "itemFamilyId": "PV2-CORE-CH39-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a recovery-priority workshop, the team reviews this case: A continuity plan lists all business functions as equally urgent. During an outage, resources cannot support every function. What planning step is needed? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety.",
+        "Business impact analysis establishes recovery priorities and requirements based on consequences and dependencies rather than equal treatment or influence.",
+        "Recovery includes safe restoration and controlled transition, not merely restarting. Damage, staffing, temporary systems, and changed hazards require verification.",
+        "Emergency accountability must reflect actual occupants and rapidly communicate unresolved persons without creating unplanned reentry."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses business continuity priorities and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'critical operations before evacuation', but it does not resolve the business continuity priorities issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'recovery and lessons learned', but it does not resolve the business continuity priorities issue in this case.",
+        "This rationale supports the separate chapter topic 'employee accountability', but it does not resolve the business continuity priorities issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: business continuity priorities",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d752baeda53f3d8ee5a759f5c3b1db9a7290541595398ebe6b157e47856f7ab5"
+    },
+    {
+      "id": "PV2-CORE-CH39-015",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "crisis communication",
+      "itemFamilyId": "PV2-CORE-CH39-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an emergency action plan drill, the team reviews this case: Conflicting unofficial messages spread after a chemical release. The organization has no designated spokesperson or verification process. What should the plan establish? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Business impact analysis establishes recovery priorities and requirements based on consequences and dependencies rather than equal treatment or influence.",
+        "Recovery includes safe restoration and controlled transition, not merely restarting. Damage, staffing, temporary systems, and changed hazards require verification.",
+        "Credible crisis communication must be timely, accurate, coordinated, transparent about uncertainty, and adapted as facts change.",
+        "An actionable plan identifies reporting, evacuation, critical operations, accounting, rescue and medical duties, contacts, and training—not just maps."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses crisis communication and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'business continuity priorities', but it does not resolve the crisis communication issue in this case.",
+        "This rationale supports the separate chapter topic 'recovery and lessons learned', but it does not resolve the crisis communication issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'emergency action plan roles', but it does not resolve the crisis communication issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: crisis communication",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4c69455ba25d52c02fdfdee547f03fecfd1cf23b8ae95613d962124d6c5dab7f"
+    },
+    {
+      "id": "PV2-CORE-CH39-016",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "recovery and lessons learned",
+      "itemFamilyId": "PV2-CORE-CH39-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hurricane preparedness review, the team reviews this case: Operations resume after a flood, but damaged safeguards and temporary changes are not reviewed. Which recovery action is most important? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Emergency accountability must reflect actual occupants and rapidly communicate unresolved persons without creating unplanned reentry.",
+        "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety.",
+        "Business impact analysis establishes recovery priorities and requirements based on consequences and dependencies rather than equal treatment or influence.",
+        "Recovery includes safe restoration and controlled transition, not merely restarting. Damage, staffing, temporary systems, and changed hazards require verification."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses recovery and lessons learned and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'employee accountability', but it does not resolve the recovery and lessons learned issue in this case.",
+        "This rationale supports the separate chapter topic 'critical operations before evacuation', but it does not resolve the recovery and lessons learned issue in this case.",
+        "This rationale supports the separate chapter topic 'business continuity priorities', but it does not resolve the recovery and lessons learned issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: recovery and lessons learned",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6c08c18e0c3f3d7875142116fcb81473168d119eb54877f99a729558e7edfe9c"
+    },
+    {
+      "id": "PV2-CORE-CH39-017",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Emergency management cycle",
+      "itemFamilyId": "PV2-CORE-CH39-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hurricane preparedness review, the team reviews this question: Which four activities form the commonly used emergency-management cycle? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Emergency management reduces likelihood and consequence, prepares capabilities, manages the event, and restores operations and communities.",
+        "RTO guides continuity strategies and resources by defining how quickly an essential process should be restored.",
+        "After-action learning should convert observations into owned, verified improvements to plans, resources, training, and coordination.",
+        "Mutual-aid arrangements should be planned, documented, shared, and tested so outside resources integrate with site command."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Recovery objective', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Post-incident review', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Mutual aid', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency-management phases, pp. 870-874; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d61b4ef2d4158f8dea82b0f79990c2facc555818c3ad2d91bfd1b0a84d79536b"
+    },
+    {
+      "id": "PV2-CORE-CH39-018",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "EAP minimum elements",
+      "itemFamilyId": "PV2-CORE-CH39-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a chemical release exercise, the team reviews this question: Which item belongs in an emergency action plan? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Protective action should be based on hazard location, duration, building protection, routes, and emergency authority rather than assuming evacuation is always safest.",
+        "An EAP establishes who does what, how emergencies are reported, how people evacuate or shelter, and how accountability and assistance are managed.",
+        "A BIA identifies what must continue or recover, by when, and which people, information, facilities, suppliers, and technology it depends on.",
+        "Accountability must include all people on site and link entry records, assembly areas, supervisors, and escalation for missing persons."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Shelter in place', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Business impact analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Evacuation accountability', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency action plan components, pp. 874-877; OSHA 1910.38; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "950d860153536022da4d18cc0c2c549afd6a029aa000b023cdf991a8b467ab41"
+    },
+    {
+      "id": "PV2-CORE-CH39-019",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Evacuation accountability",
+      "itemFamilyId": "PV2-CORE-CH39-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a business continuity test, the team reviews this question: A drill shows that supervisors cannot account for contractors and visitors. What is the strongest correction? Which rationale most directly supports the correct answer?",
+      "options": [
+        "An EAP establishes who does what, how emergencies are reported, how people evacuate or shelter, and how accountability and assistance are managed.",
+        "A BIA identifies what must continue or recover, by when, and which people, information, facilities, suppliers, and technology it depends on.",
+        "Accountability must include all people on site and link entry records, assembly areas, supervisors, and escalation for missing persons.",
+        "Protective action should be based on hazard location, duration, building protection, routes, and emergency authority rather than assuming evacuation is always safest."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'EAP minimum elements', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Business impact analysis', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Shelter in place', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, accounting for employees after evacuation, pp. 875-877; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fef087dc4b29dc8dcfbb4ffb1e57ff14235633a95e8d2d84259730f912b9f029"
+    },
+    {
+      "id": "PV2-CORE-CH39-020",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Shelter in place",
+      "itemFamilyId": "PV2-CORE-CH39-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an accountability-system evaluation, the team reviews this question: A toxic outdoor plume is moving across the only evacuation route. Which protective action may be preferable if the building can be secured? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A BIA identifies what must continue or recover, by when, and which people, information, facilities, suppliers, and technology it depends on.",
+        "An EAP establishes who does what, how emergencies are reported, how people evacuate or shelter, and how accountability and assistance are managed.",
+        "Accountability must include all people on site and link entry records, assembly areas, supervisors, and escalation for missing persons.",
+        "Protective action should be based on hazard location, duration, building protection, routes, and emergency authority rather than assuming evacuation is always safest."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Business impact analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'EAP minimum elements', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Evacuation accountability', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, chemical spills, evacuation, and emergency planning considerations, pp. 874-880; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bb650290025bb3b7001c6977cc13c03ef27c65ddaea839ca04d1010a03fc1229"
+    },
+    {
+      "id": "PV2-CORE-CH39-021",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Emergency communications",
+      "itemFamilyId": "PV2-CORE-CH39-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a crisis communication meeting, the team reviews this question: Which emergency communication system is most resilient? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Redundant channels and predefined messages improve speed, reach, accessibility, and reliability under disrupted conditions.",
+        "Plans must remain aligned with current hazards, people, facilities, resources, contacts, and external arrangements.",
+        "After-action learning should convert observations into owned, verified improvements to plans, resources, training, and coordination.",
+        "Progressive exercises build knowledge and complexity while allowing findings to be corrected between stages."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Plan maintenance', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Post-incident review', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Exercise design', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, reporting emergencies, crisis management, and continuity communications, pp. 874-888; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6262fbdabb35aff7496ff3ac472f7bac36ef783421f4e5cec53995f0021d53cf"
+    },
+    {
+      "id": "PV2-CORE-CH39-022",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Exercise design",
+      "itemFamilyId": "PV2-CORE-CH39-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a medical emergency response review, the team reviews this question: A site has never tested its emergency plan. What is the best first exercise progression? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Redundant channels and predefined messages improve speed, reach, accessibility, and reliability under disrupted conditions.",
+        "Progressive exercises build knowledge and complexity while allowing findings to be corrected between stages.",
+        "Plans must remain aligned with current hazards, people, facilities, resources, contacts, and external arrangements.",
+        "After-action learning should convert observations into owned, verified improvements to plans, resources, training, and coordination."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Emergency communications', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Plan maintenance', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Post-incident review', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency planning and preparedness, pp. 870-889; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2d5bf3cd6f19a81d374305d6a6b6c7c342be7876a4e12462bde22b494f29b316"
+    },
+    {
+      "id": "PV2-CORE-CH39-023",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Mutual aid",
+      "itemFamilyId": "PV2-CORE-CH39-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a recovery-priority workshop, the team reviews this question: A facility relies on the local fire department for hazardous-material response. What is needed before an emergency? Which rationale most directly supports the correct answer?",
+      "options": [
+        "After-action learning should convert observations into owned, verified improvements to plans, resources, training, and coordination.",
+        "RTO guides continuity strategies and resources by defining how quickly an essential process should be restored.",
+        "Mutual-aid arrangements should be planned, documented, shared, and tested so outside resources integrate with site command.",
+        "Emergency management reduces likelihood and consequence, prepares capabilities, manages the event, and restores operations and communities."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Post-incident review', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Recovery objective', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Emergency management cycle', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency planning, contacts, and response coordination, pp. 870-889; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6e8f505754c5a6edbd580d23a04f6c9676c0c106c45009916d9a74b4d993cf54"
+    },
+    {
+      "id": "PV2-CORE-CH39-024",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Business impact analysis",
+      "itemFamilyId": "PV2-CORE-CH39-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an emergency action plan drill, the team reviews this question: What is the main output of a business impact analysis for continuity planning? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Accountability must include all people on site and link entry records, assembly areas, supervisors, and escalation for missing persons.",
+        "An EAP establishes who does what, how emergencies are reported, how people evacuate or shelter, and how accountability and assistance are managed.",
+        "Protective action should be based on hazard location, duration, building protection, routes, and emergency authority rather than assuming evacuation is always safest.",
+        "A BIA identifies what must continue or recover, by when, and which people, information, facilities, suppliers, and technology it depends on."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Evacuation accountability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'EAP minimum elements', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Shelter in place', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, business continuity planning and plan components, pp. 885-888; FEMA continuity toolkit; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.fema.gov/emergency-managers/national-preparedness/continuity",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9d738ea427815a23d155c887794bd3adbd05b4497319dc7ad229ca62895c45df"
+    },
+    {
+      "id": "PV2-CORE-CH39-025",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Recovery objective",
+      "itemFamilyId": "PV2-CORE-CH39-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hurricane preparedness review, the team reviews this question: What does a recovery time objective describe? Which rationale most directly supports the correct answer?",
+      "options": [
+        "RTO guides continuity strategies and resources by defining how quickly an essential process should be restored.",
+        "Emergency management reduces likelihood and consequence, prepares capabilities, manages the event, and restores operations and communities.",
+        "Mutual-aid arrangements should be planned, documented, shared, and tested so outside resources integrate with site command.",
+        "After-action learning should convert observations into owned, verified improvements to plans, resources, training, and coordination."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Emergency management cycle', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Mutual aid', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Post-incident review', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, business continuity plan components, pp. 885-888; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "67a38f40adb1200c2315e13a835c984670cdf78f7d048aa7670b454ae715cd07"
+    },
+    {
+      "id": "PV2-CORE-CH39-026",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Incident command",
+      "itemFamilyId": "PV2-CORE-CH39-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a chemical release exercise, the team reviews this question: Two departments issue conflicting evacuation and shutdown instructions during a release. What system weakness is most evident? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Plans must remain aligned with current hazards, people, facilities, resources, contacts, and external arrangements.",
+        "An incident-management structure aligns authority, objectives, information, operations, and external coordination.",
+        "Progressive exercises build knowledge and complexity while allowing findings to be corrected between stages.",
+        "Redundant channels and predefined messages improve speed, reach, accessibility, and reliability under disrupted conditions."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Plan maintenance', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Exercise design', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Emergency communications', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency management, crisis management, and response organization, pp. 870-888; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "690b7841997e0ed7b750fe585132cccc4792190cd9ebc16b7c6a21814b68b112"
+    },
+    {
+      "id": "PV2-CORE-CH39-027",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Post-incident review",
+      "itemFamilyId": "PV2-CORE-CH39-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a business continuity test, the team reviews this question: What should an after-action review produce? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Mutual-aid arrangements should be planned, documented, shared, and tested so outside resources integrate with site command.",
+        "Emergency management reduces likelihood and consequence, prepares capabilities, manages the event, and restores operations and communities.",
+        "After-action learning should convert observations into owned, verified improvements to plans, resources, training, and coordination.",
+        "RTO guides continuity strategies and resources by defining how quickly an essential process should be restored."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Mutual aid', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Emergency management cycle', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Recovery objective', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, preparedness, response, recovery, and continuity, pp. 870-889; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "812b6423218a9c38f774884de1609f2ecfeeeceb1e28fcd0fe0fcb97ef96c895"
+    },
+    {
+      "id": "PV2-CORE-CH39-028",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Plan maintenance",
+      "itemFamilyId": "PV2-CORE-CH39-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an accountability-system evaluation, the team reviews this question: Which event should trigger review of an emergency plan before the normal review date? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Redundant channels and predefined messages improve speed, reach, accessibility, and reliability under disrupted conditions.",
+        "After-action learning should convert observations into owned, verified improvements to plans, resources, training, and coordination.",
+        "Progressive exercises build knowledge and complexity while allowing findings to be corrected between stages.",
+        "Plans must remain aligned with current hazards, people, facilities, resources, contacts, and external arrangements."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Emergency communications', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Post-incident review', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Exercise design', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 39, emergency planning requirements and continuity maintenance, pp. 870-889; Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c33f1de11af8e78377be590d91104cf061613ba87ac80b38857847a240fdc735"
+    },
+    {
+      "id": "PV2-CORE-CH39-029",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emergency action plan roles",
+      "itemFamilyId": "PV2-CORE-CH39-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a recovery-priority workshop, a supervisor proposes: \"Names and duties should be decided during the emergency\". The underlying case is: An emergency action plan lists evacuation routes but does not identify who reports emergencies, accounts for people, performs rescue or medical duties, or can answer plan questions. What is the key deficiency? Which alternative is the most defensible correction?",
+      "options": [
+        "The plan lacks required functions and assigned responsibilities needed to execute evacuation and response",
+        "Accounting is unnecessary when the building has electronic badges",
+        "Names and duties should be decided during the emergency",
+        "Routes alone are sufficient if employees have seen the map"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "An actionable plan identifies reporting, evacuation, critical operations, accounting, rescue and medical duties, contacts, and training—not just maps.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Accounting is unnecessary when the building has electronic badges' remains incomplete or misapplies the controlling emergency action plan roles principle.",
+        "The proposed response 'Names and duties should be decided during the emergency' remains incomplete or misapplies the controlling emergency action plan roles principle.",
+        "The proposed response 'Routes alone are sufficient if employees have seen the map' remains incomplete or misapplies the controlling emergency action plan roles principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: emergency action plan roles",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2ac4e4913553f5ab15723341e169678102a231556f931ee7dedb1690b071ffcf"
+    },
+    {
+      "id": "PV2-CORE-CH39-030",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "protective action decision",
+      "itemFamilyId": "PV2-CORE-CH39-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an emergency action plan drill, a supervisor proposes: \"Let each employee choose without centralized information or accountability\". The underlying case is: A toxic outdoor release is moving toward a facility. Evacuation routes would pass through the plume, while the building can temporarily isolate outdoor air. What should incident leadership consider? Which alternative is the most defensible correction?",
+      "options": [
+        "Evacuate automatically because evacuation is always safer than sheltering",
+        "Use plume, timing, building protection, route, population, and authority information to choose shelter-in-place or evacuation dynamically",
+        "Let each employee choose without centralized information or accountability",
+        "Shelter in place because evacuation outside the building should not be selected for this type of emergency"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Protective actions are scenario-dependent. The safest decision considers hazard movement, time, building protection, routes, communication, and changing conditions.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Evacuate automatically because evacuation is always safer than sheltering' remains incomplete or misapplies the controlling protective action decision principle.",
+        null,
+        "The proposed response 'Let each employee choose without centralized information or accountability' remains incomplete or misapplies the controlling protective action decision principle.",
+        "The proposed response 'Shelter in place because evacuation outside the building should not be selected for this type of emergency' remains incomplete or misapplies the controlling protective action decision principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: protective action decision",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0114e463ac718af542b28b9bfbb281fea8d6d5d42c21b534bdc32649b14387ee"
+    },
+    {
+      "id": "PV2-CORE-CH39-031",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee accountability",
+      "itemFamilyId": "PV2-CORE-CH39-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hurricane preparedness review, a supervisor proposes: \"Assume unlisted people have already left the property\". The underlying case is: After an evacuation, supervisors use paper rosters that omit contractors and visitors. What system improvement is strongest? Which alternative is the most defensible correction?",
+      "options": [
+        "Assume unlisted people have already left the property",
+        "Delay accountability until the fire department completes its search",
+        "Create a tested accountability process covering employees, contractors, visitors, alternates, missing-person escalation, and responder communication",
+        "Use payroll records as the sole real-time occupancy list"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Emergency accountability must reflect actual occupants and rapidly communicate unresolved persons without creating unplanned reentry.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Assume unlisted people have already left the property' remains incomplete or misapplies the controlling employee accountability principle.",
+        "The proposed response 'Delay accountability until the fire department completes its search' remains incomplete or misapplies the controlling employee accountability principle.",
+        null,
+        "The proposed response 'Use payroll records as the sole real-time occupancy list' remains incomplete or misapplies the controlling employee accountability principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: employee accountability",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a8d9e1a1933c6f95c22cf0d75166485bed05ed129d300b6ffb4848f973a826ba"
+    },
+    {
+      "id": "PV2-CORE-CH39-032",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "critical operations before evacuation",
+      "itemFamilyId": "PV2-CORE-CH39-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a chemical release exercise, a supervisor proposes: \"Let any nearby employee decide whether to operate the process\". The underlying case is: Operators are expected to shut down a hazardous process before evacuating, but the plan does not define limits or when to abandon shutdown. What is needed? Which alternative is the most defensible correction?",
+      "options": [
+        "Let any nearby employee decide whether to operate the process",
+        "Remove shutdown procedures and assume automatic systems cannot fail",
+        "Require shutdown completion regardless of fire, release, or escape-route conditions",
+        "Specify trained roles, safe shutdown steps, decision triggers, protective equipment, communications, and conditions requiring immediate evacuation"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Let any nearby employee decide whether to operate the process' remains incomplete or misapplies the controlling critical operations before evacuation principle.",
+        "The proposed response 'Remove shutdown procedures and assume automatic systems cannot fail' remains incomplete or misapplies the controlling critical operations before evacuation principle.",
+        "The proposed response 'Require shutdown completion regardless of fire, release, or escape-route conditions' remains incomplete or misapplies the controlling critical operations before evacuation principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: critical operations before evacuation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4af0ad2085b4661ef446d2740075dad9a5bf569a16addcaa2194a5f803edee1e"
+    },
+    {
+      "id": "PV2-CORE-CH39-033",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "drill evaluation",
+      "itemFamilyId": "PV2-CORE-CH39-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a business continuity test, a supervisor proposes: \"Use attendance alone as the sole measure of preparedness\". The underlying case is: A drill ends when the last employee reaches the assembly area, and no observations or corrective actions are recorded. What is missing? Which alternative is the most defensible correction?",
+      "options": [
+        "Evaluate objectives, timing, communications, decisions, accessibility, accountability, and control failures, then track improvements to completion",
+        "Use attendance alone as the sole measure of preparedness",
+        "Repeat the same drill without changing any conditions or objectives",
+        "A drill is successful whenever no real emergency occurs"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Exercises are learning tools. Structured evaluation and corrective-action follow-up convert performance observations into improved capability.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Use attendance alone as the sole measure of preparedness' remains incomplete or misapplies the controlling drill evaluation principle.",
+        "The proposed response 'Repeat the same drill without changing any conditions or objectives' remains incomplete or misapplies the controlling drill evaluation principle.",
+        "The proposed response 'A drill is successful whenever no real emergency occurs' remains incomplete or misapplies the controlling drill evaluation principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: drill evaluation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cfd5fa7f930a8ae280b560d0fb40e013245f78ce2cdbab5cfaa9242002c16ae1"
+    },
+    {
+      "id": "PV2-CORE-CH39-034",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "business continuity priorities",
+      "itemFamilyId": "PV2-CORE-CH39-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an accountability-system evaluation, a supervisor proposes: \"Restore departments alphabetically to avoid judgment\". The underlying case is: A continuity plan lists all business functions as equally urgent. During an outage, resources cannot support every function. What planning step is needed? Which alternative is the most defensible correction?",
+      "options": [
+        "Use annual revenue alone without considering safety, legal, customer, or dependency impacts",
+        "Conduct a business impact analysis to identify critical services, dependencies, recovery time objectives, minimum resources, and acceptable data loss",
+        "Prioritize whichever manager communicates first",
+        "Restore departments alphabetically to avoid judgment"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Business impact analysis establishes recovery priorities and requirements based on consequences and dependencies rather than equal treatment or influence.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use annual revenue alone without considering safety, legal, customer, or dependency impacts' remains incomplete or misapplies the controlling business continuity priorities principle.",
+        null,
+        "The proposed response 'Prioritize whichever manager communicates first' remains incomplete or misapplies the controlling business continuity priorities principle.",
+        "The proposed response 'Restore departments alphabetically to avoid judgment' remains incomplete or misapplies the controlling business continuity priorities principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: business continuity priorities",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0bcf06858f3372a3b72359f0f42e20dcb382ac02fbd8ab7dff47f3701f75205e"
+    },
+    {
+      "id": "PV2-CORE-CH39-035",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "crisis communication",
+      "itemFamilyId": "PV2-CORE-CH39-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a crisis communication meeting, a supervisor proposes: \"Delay all communication until every detail is known with certainty\". The underlying case is: Conflicting unofficial messages spread after a chemical release. The organization has no designated spokesperson or verification process. What should the plan establish? Which alternative is the most defensible correction?",
+      "options": [
+        "Delay all communication until every detail is known with certainty",
+        "Allow every manager to publish independent estimates",
+        "A coordinated communication structure with authorized spokespeople, verified facts, audience-specific messages, monitoring, and timely updates",
+        "Delete employee social media accounts during the event"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Credible crisis communication must be timely, accurate, coordinated, transparent about uncertainty, and adapted as facts change.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Delay all communication until every detail is known with certainty' remains incomplete or misapplies the controlling crisis communication principle.",
+        "The proposed response 'Allow every manager to publish independent estimates' remains incomplete or misapplies the controlling crisis communication principle.",
+        null,
+        "The proposed response 'Delete employee social media accounts during the event' remains incomplete or misapplies the controlling crisis communication principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: crisis communication",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "33e17f41ed5b2da330ca97952912661eba9e8577d5ba291f5b1e4e15ef6d429a"
+    },
+    {
+      "id": "PV2-CORE-CH39-036",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "recovery and lessons learned",
+      "itemFamilyId": "PV2-CORE-CH39-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a medical emergency response review, a supervisor proposes: \"Postpone safeguard and temporary-repair inspections until the next scheduled annual management-system audit\". The underlying case is: Operations resume after a flood, but damaged safeguards and temporary changes are not reviewed. Which recovery action is most important? Which alternative is the most defensible correction?",
+      "options": [
+        "Resume full production once electrical power returns and rely on operators to identify any damaged safeguards during startup",
+        "Postpone safeguard and temporary-repair inspections until the next scheduled annual management-system audit",
+        "Leave temporary repairs in service as permanent controls without engineering review, change management, or follow-up verification",
+        "Verify facility and control integrity, manage temporary changes, confirm worker readiness, and capture lessons before normalizing operations"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Recovery includes safe restoration and controlled transition, not merely restarting. Damage, staffing, temporary systems, and changed hazards require verification.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Resume full production once electrical power returns and rely on operators to identify any damaged safeguards during startup' remains incomplete or misapplies the controlling recovery and lessons learned principle.",
+        "The proposed response 'Postpone safeguard and temporary-repair inspections until the next scheduled annual management-system audit' remains incomplete or misapplies the controlling recovery and lessons learned principle.",
+        "The proposed response 'Leave temporary repairs in service as permanent controls without engineering review, change management, or follow-up verification' remains incomplete or misapplies the controlling recovery and lessons learned principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: recovery and lessons learned",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ec0a3c619be98e968a90f42a6494f32fe4e2a81eae1d4a11aca2dbd9661c7da8"
+    },
+    {
+      "id": "PV2-CORE-CH39-037",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emergency action plan roles",
+      "itemFamilyId": "PV2-CORE-CH39-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an emergency action plan drill, the team selects \"The plan lacks required functions and assigned responsibilities needed to execute evacuation and response\" rather than \"Accounting is unnecessary when the building has electronic badges\" for this case: An emergency action plan lists evacuation routes but does not identify who reports emergencies, accounts for people, performs rescue or medical duties, or can answer plan questions. What is the key deficiency? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "An actionable plan identifies reporting, evacuation, critical operations, accounting, rescue and medical duties, contacts, and training—not just maps.",
+        "Credible crisis communication must be timely, accurate, coordinated, transparent about uncertainty, and adapted as facts change.",
+        "Exercises are learning tools. Structured evaluation and corrective-action follow-up convert performance observations into improved capability.",
+        "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the emergency action plan roles issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'crisis communication' and does not distinguish the two responses in the present emergency action plan roles decision.",
+        "This explanation concerns 'drill evaluation' and does not distinguish the two responses in the present emergency action plan roles decision.",
+        "This explanation concerns 'critical operations before evacuation' and does not distinguish the two responses in the present emergency action plan roles decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: emergency action plan roles",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b485fe9b2eb36a0b13ffbb13659a32202d2599e9c8fde45c731b6f07207deab7"
+    },
+    {
+      "id": "PV2-CORE-CH39-038",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "protective action decision",
+      "itemFamilyId": "PV2-CORE-CH39-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hurricane preparedness review, the team selects \"Use plume, timing, building protection, route, population, and authority information to choose shelter-in-place or evacuation dynamically\" rather than \"Evacuate automatically because evacuation is always safer than sheltering\" for this case: A toxic outdoor release is moving toward a facility. Evacuation routes would pass through the plume, while the building can temporarily isolate outdoor air. What should incident leadership consider? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Recovery includes safe restoration and controlled transition, not merely restarting. Damage, staffing, temporary systems, and changed hazards require verification.",
+        "Protective actions are scenario-dependent. The safest decision considers hazard movement, time, building protection, routes, communication, and changing conditions.",
+        "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety.",
+        "Business impact analysis establishes recovery priorities and requirements based on consequences and dependencies rather than equal treatment or influence."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the protective action decision issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'recovery and lessons learned' and does not distinguish the two responses in the present protective action decision decision.",
+        null,
+        "This explanation concerns 'critical operations before evacuation' and does not distinguish the two responses in the present protective action decision decision.",
+        "This explanation concerns 'business continuity priorities' and does not distinguish the two responses in the present protective action decision decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: protective action decision",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d97c6cd30f62b34206fb9ba0de34895933de5e2f5f8f58481b46fad87acc21e1"
+    },
+    {
+      "id": "PV2-CORE-CH39-039",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "employee accountability",
+      "itemFamilyId": "PV2-CORE-CH39-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a chemical release exercise, the team selects \"Create a tested accountability process covering employees, contractors, visitors, alternates, missing-person escalation, and responder communication\" rather than \"Delay accountability until the fire department completes its search\" for this case: After an evacuation, supervisors use paper rosters that omit contractors and visitors. What system improvement is strongest? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Protective actions are scenario-dependent. The safest decision considers hazard movement, time, building protection, routes, communication, and changing conditions.",
+        "Recovery includes safe restoration and controlled transition, not merely restarting. Damage, staffing, temporary systems, and changed hazards require verification.",
+        "Emergency accountability must reflect actual occupants and rapidly communicate unresolved persons without creating unplanned reentry.",
+        "Credible crisis communication must be timely, accurate, coordinated, transparent about uncertainty, and adapted as facts change."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the employee accountability issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'protective action decision' and does not distinguish the two responses in the present employee accountability decision.",
+        "This explanation concerns 'recovery and lessons learned' and does not distinguish the two responses in the present employee accountability decision.",
+        null,
+        "This explanation concerns 'crisis communication' and does not distinguish the two responses in the present employee accountability decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: employee accountability",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d3eb1b71349e5f2e8a7b6bd439cf21b84892638bca7c1187a461fd472ec084f0"
+    },
+    {
+      "id": "PV2-CORE-CH39-040",
+      "version": 1,
+      "chapterId": "ch-39",
+      "chapterTitle": "Emergency Management and Preparedness",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "critical operations before evacuation",
+      "itemFamilyId": "PV2-CORE-CH39-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a business continuity test, the team selects \"Specify trained roles, safe shutdown steps, decision triggers, protective equipment, communications, and conditions requiring immediate evacuation\" rather than \"Remove shutdown procedures and assume automatic systems cannot fail\" for this case: Operators are expected to shut down a hazardous process before evacuating, but the plan does not define limits or when to abandon shutdown. What is needed? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Exercises are learning tools. Structured evaluation and corrective-action follow-up convert performance observations into improved capability.",
+        "Recovery includes safe restoration and controlled transition, not merely restarting. Damage, staffing, temporary systems, and changed hazards require verification.",
+        "An actionable plan identifies reporting, evacuation, critical operations, accounting, rescue and medical duties, contacts, and training—not just maps.",
+        "Critical operations may be performed only under planned, trained, and bounded conditions that do not sacrifice life safety."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the critical operations before evacuation issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'drill evaluation' and does not distinguish the two responses in the present critical operations before evacuation decision.",
+        "This explanation concerns 'recovery and lessons learned' and does not distinguish the two responses in the present critical operations before evacuation decision.",
+        "This explanation concerns 'emergency action plan roles' and does not distinguish the two responses in the present critical operations before evacuation decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 39, pp. 870-889; 29 CFR 1910.38 and FEMA continuity guidance; curated topic: critical operations before evacuation",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.38",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6812de783e78f6800de3647d06de22157a44508eadb001f610bc095f9a61a4f8"
+    }
+  ]
+}

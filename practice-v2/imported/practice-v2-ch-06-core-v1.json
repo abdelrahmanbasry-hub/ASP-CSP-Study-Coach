@@ -1,0 +1,2089 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-06-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-06",
+  "chapterTitle": "Particulates and Gases",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH06-001",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "particle aerodynamic behavior",
+      "itemFamilyId": "PV2-CORE-CH06-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A process produces irregular mineral particles with the same mass but different shapes. The industrial hygienist must predict where they may deposit in the respiratory tract. Which particle characteristic is most useful for this purpose?",
+      "options": [
+        "Aerodynamic diameter, because it reflects settling behavior rather than geometric size alone",
+        "The molecular weight of the mineral as if it were a gas",
+        "Bulk density of the unopened product container",
+        "Visible color under normal workplace lighting"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'The molecular weight of the mineral as if it were a gas' does not apply the controlling principle for particle aerodynamic behavior to the facts given, so it is not the best answer.",
+        "The option 'Bulk density of the unopened product container' does not apply the controlling principle for particle aerodynamic behavior to the facts given, so it is not the best answer.",
+        "The option 'Visible color under normal workplace lighting' does not apply the controlling principle for particle aerodynamic behavior to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: particle aerodynamic behavior",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "31c859fcbd307e32bbc12330bc42c1eae1a3ea2b05b50e1d02c8358ed6fbc077"
+    },
+    {
+      "id": "PV2-CORE-CH06-002",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "respirable fraction control",
+      "itemFamilyId": "PV2-CORE-CH06-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A dry cutting operation generates a broad particle-size distribution containing respirable crystalline silica. Which control strategy most directly reduces the hazardous respirable fraction at the source?",
+      "options": [
+        "Issue disposable dust masks without evaluating exposure or fit",
+        "Use effective wet methods or local exhaust at the cutting point and verify performance with exposure monitoring",
+        "Increase general room air movement so the dust is less visible near the saw",
+        "Schedule the cutting at night while using the same uncontrolled process"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Source controls such as wet cutting and local exhaust suppress or capture respirable particles before worker exposure; visibility, scheduling, and unverified respirators are not equivalent controls.",
+      "incorrectOptionExplanations": [
+        "The option 'Issue disposable dust masks without evaluating exposure or fit' does not apply the controlling principle for respirable fraction control to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Increase general room air movement so the dust is less visible near the saw' does not apply the controlling principle for respirable fraction control to the facts given, so it is not the best answer.",
+        "The option 'Schedule the cutting at night while using the same uncontrolled process' does not apply the controlling principle for respirable fraction control to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: respirable fraction control",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8c729df807dfc02bc35b7fac15af5aca8dc48a10741a3a5bf5584db2a6d1c961"
+    },
+    {
+      "id": "PV2-CORE-CH06-003",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "vapor pressure and temperature",
+      "itemFamilyId": "PV2-CORE-CH06-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Two solvents have similar toxicity, but solvent A has a substantially higher vapor pressure at the process temperature. All other conditions are equal. Which conclusion is most defensible?",
+      "options": [
+        "Vapor pressure matters only after a solvent reaches its boiling point",
+        "Solvent A will remain in the liquid phase longer because higher vapor pressure reduces evaporation",
+        "Solvent A is more likely to generate a higher airborne vapor concentration and may require stronger exposure controls",
+        "Both solvents must produce identical airborne concentrations because their toxicity is similar"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Higher vapor pressure at a given temperature generally indicates greater volatility and a stronger tendency to enter the air; toxicity does not determine evaporation rate.",
+      "incorrectOptionExplanations": [
+        "The option 'Vapor pressure matters only after a solvent reaches its boiling point' does not apply the controlling principle for vapor pressure and temperature to the facts given, so it is not the best answer.",
+        "The option 'Solvent A will remain in the liquid phase longer because higher vapor pressure reduces evaporation' does not apply the controlling principle for vapor pressure and temperature to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Both solvents must produce identical airborne concentrations because their toxicity is similar' does not apply the controlling principle for vapor pressure and temperature to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: vapor pressure and temperature",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ed863a056f2a1dd189ef05d92ec34a3036e00003078f62047372250ad9b77e6c"
+    },
+    {
+      "id": "PV2-CORE-CH06-004",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "gas density and monitoring location",
+      "itemFamilyId": "PV2-CORE-CH06-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A heavier-than-air gas may leak in a poorly mixed room containing pits and low points. How should density information influence the initial monitoring plan?",
+      "options": [
+        "Use gas density to replace a site-specific ventilation and dispersion assessment",
+        "Place one fixed monitor at waist height and assume it represents every location",
+        "Sample only at the ceiling because all gases rise after release",
+        "Include low locations and breathing-zone measurements while recognizing that turbulence and temperature can alter stratification"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Relative density helps identify likely accumulation zones, but real releases are affected by mixing and thermal conditions, so multiple relevant locations and breathing-zone data are needed.",
+      "incorrectOptionExplanations": [
+        "The option 'Use gas density to replace a site-specific ventilation and dispersion assessment' does not apply the controlling principle for gas density and monitoring location to the facts given, so it is not the best answer.",
+        "The option 'Place one fixed monitor at waist height and assume it represents every location' does not apply the controlling principle for gas density and monitoring location to the facts given, so it is not the best answer.",
+        "The option 'Sample only at the ceiling because all gases rise after release' does not apply the controlling principle for gas density and monitoring location to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: gas density and monitoring location",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "11f120219b6db859bfe8459c2619f1eb66ae59aab51bd0c512c6185f17536fa7"
+    },
+    {
+      "id": "PV2-CORE-CH06-005",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "oxygen displacement",
+      "itemFamilyId": "PV2-CORE-CH06-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Nitrogen is used to purge a vessel in an enclosed room. Nitrogen is not toxic at ordinary concentrations, yet workers become dizzy near the vessel opening. What hazard should be evaluated first?",
+      "options": [
+        "Oxygen deficiency caused by displacement of air",
+        "Chemical burns caused by nitrogen becoming strongly acidic",
+        "Radiation exposure caused by the compressed-gas cylinder",
+        "Carbon monoxide generation from spontaneous nitrogen combustion"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "An inert gas can create an immediately dangerous atmosphere by displacing oxygen even though it has no conventional toxicity at normal pressure.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Chemical burns caused by nitrogen becoming strongly acidic' does not apply the controlling principle for oxygen displacement to the facts given, so it is not the best answer.",
+        "The option 'Radiation exposure caused by the compressed-gas cylinder' does not apply the controlling principle for oxygen displacement to the facts given, so it is not the best answer.",
+        "The option 'Carbon monoxide generation from spontaneous nitrogen combustion' does not apply the controlling principle for oxygen displacement to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: oxygen displacement",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2f5ee57fc3ac15ff31a6fef3d11202a63933d8d109e9730c6e3f5f736c55890a"
+    },
+    {
+      "id": "PV2-CORE-CH06-006",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "flammable range interpretation",
+      "itemFamilyId": "PV2-CORE-CH06-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A solvent has a lower flammable limit of 1% by volume and an upper flammable limit of 8%. A vapor reading is 0.5% by volume. What is the best interpretation?",
+      "options": [
+        "The vapor cannot present a health hazard until it enters the flammable range",
+        "The reading is below the lower flammable limit, but continued release or poor mixing could still create a flammable region",
+        "The atmosphere is permanently nonflammable because the current reading is below 1%",
+        "The reading is above the upper flammable limit and therefore oxygen-free"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "A value below the LFL is not presently within the flammable range at the measurement point, but concentration can rise or vary spatially; health limits are independent of flammability limits.",
+      "incorrectOptionExplanations": [
+        "The option 'The vapor cannot present a health hazard until it enters the flammable range' does not apply the controlling principle for flammable range interpretation to the facts given, so it is not the best answer.",
+        null,
+        "The option 'The atmosphere is permanently nonflammable because the current reading is below 1%' does not apply the controlling principle for flammable range interpretation to the facts given, so it is not the best answer.",
+        "The option 'The reading is above the upper flammable limit and therefore oxygen-free' does not apply the controlling principle for flammable range interpretation to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: flammable range interpretation",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c3a4a9ac1fbbe1c50776c93ba131ede95530fee5d16a6f12b8441af9d8d05fda"
+    },
+    {
+      "id": "PV2-CORE-CH06-007",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "combustible dust layers",
+      "itemFamilyId": "PV2-CORE-CH06-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility has thin accumulations of combustible dust on beams and cable trays. Air samples near workers are usually low. Which conclusion is most appropriate?",
+      "options": [
+        "Low personal exposure results prove the dust cannot create a fire or explosion hazard",
+        "Dust on elevated surfaces is harmless because it is outside the normal breathing zone",
+        "Deposited dust can fuel a secondary explosion and requires housekeeping and process controls even when routine breathing-zone results are low",
+        "Only particles visible as an airborne cloud can participate in combustion"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Combustible dust risk includes accumulated material that can become suspended during a primary event; occupational exposure measurements alone do not characterize explosion severity.",
+      "incorrectOptionExplanations": [
+        "The option 'Low personal exposure results prove the dust cannot create a fire or explosion hazard' does not apply the controlling principle for combustible dust layers to the facts given, so it is not the best answer.",
+        "The option 'Dust on elevated surfaces is harmless because it is outside the normal breathing zone' does not apply the controlling principle for combustible dust layers to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Only particles visible as an airborne cloud can participate in combustion' does not apply the controlling principle for combustible dust layers to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: combustible dust layers",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9c61f2bfa8714ef037862d2e4a2a73b1d18b15bd540f3e386fb98dfbeddc081d"
+    },
+    {
+      "id": "PV2-CORE-CH06-008",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "compressed gas release",
+      "itemFamilyId": "PV2-CORE-CH06-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A compressed liquefied gas escapes from a cylinder and rapidly expands. Which combined hazard assessment is most appropriate?",
+      "options": [
+        "Assume outdoor release makes monitoring and exclusion zones unnecessary",
+        "Treat the event solely as a pressure hazard because phase change eliminates chemical hazards",
+        "Evaluate only the chemical’s odor threshold because workers can leave when they smell it",
+        "Evaluate toxicity, oxygen displacement, flammability, cold burns, pressure effects, and likely dispersion"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Compressed or liquefied gas releases can present multiple simultaneous physical and health hazards; one property such as odor or pressure is not an adequate assessment.",
+      "incorrectOptionExplanations": [
+        "The option 'Assume outdoor release makes monitoring and exclusion zones unnecessary' does not apply the controlling principle for compressed gas release to the facts given, so it is not the best answer.",
+        "The option 'Treat the event solely as a pressure hazard because phase change eliminates chemical hazards' does not apply the controlling principle for compressed gas release to the facts given, so it is not the best answer.",
+        "The option 'Evaluate only the chemical’s odor threshold because workers can leave when they smell it' does not apply the controlling principle for compressed gas release to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: compressed gas release",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3d3bc58aa14077c735dfdd832904d445bf5ce8d3b93d6b7c51a41617fbf6179f"
+    },
+    {
+      "id": "PV2-CORE-CH06-009",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "particle aerodynamic behavior",
+      "itemFamilyId": "PV2-CORE-CH06-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a welding-fume evaluation, the team reviews this case: A process produces irregular mineral particles with the same mass but different shapes. The industrial hygienist must predict where they may deposit in the respiratory tract. Which particle characteristic is most useful for this purpose? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior.",
+        "Source controls such as wet cutting and local exhaust suppress or capture respirable particles before worker exposure; visibility, scheduling, and unverified respirators are not equivalent controls.",
+        "Higher vapor pressure at a given temperature generally indicates greater volatility and a stronger tendency to enter the air; toxicity does not determine evaporation rate.",
+        "An inert gas can create an immediately dangerous atmosphere by displacing oxygen even though it has no conventional toxicity at normal pressure."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses particle aerodynamic behavior and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'respirable fraction control', but it does not resolve the particle aerodynamic behavior issue in this case.",
+        "This rationale supports the separate chapter topic 'vapor pressure and temperature', but it does not resolve the particle aerodynamic behavior issue in this case.",
+        "This rationale supports the separate chapter topic 'oxygen displacement', but it does not resolve the particle aerodynamic behavior issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: particle aerodynamic behavior",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "84c3f99537c88e8144ea57a75b8f7d536532732bba38399c2a3f72b4aa6415b7"
+    },
+    {
+      "id": "PV2-CORE-CH06-010",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "respirable fraction control",
+      "itemFamilyId": "PV2-CORE-CH06-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a solvent-vapor investigation, the team reviews this case: A dry cutting operation generates a broad particle-size distribution containing respirable crystalline silica. Which control strategy most directly reduces the hazardous respirable fraction at the source? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior.",
+        "Source controls such as wet cutting and local exhaust suppress or capture respirable particles before worker exposure; visibility, scheduling, and unverified respirators are not equivalent controls.",
+        "A value below the LFL is not presently within the flammable range at the measurement point, but concentration can rise or vary spatially; health limits are independent of flammability limits.",
+        "Compressed or liquefied gas releases can present multiple simultaneous physical and health hazards; one property such as odor or pressure is not an adequate assessment."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses respirable fraction control and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'particle aerodynamic behavior', but it does not resolve the respirable fraction control issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'flammable range interpretation', but it does not resolve the respirable fraction control issue in this case.",
+        "This rationale supports the separate chapter topic 'compressed gas release', but it does not resolve the respirable fraction control issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: respirable fraction control",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "89c4d5a60a6e5f6d766b6653878d75a057095173139549dc297ab965a8697172"
+    },
+    {
+      "id": "PV2-CORE-CH06-011",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "vapor pressure and temperature",
+      "itemFamilyId": "PV2-CORE-CH06-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a combustible-dust walkthrough, the team reviews this case: Two solvents have similar toxicity, but solvent A has a substantially higher vapor pressure at the process temperature. All other conditions are equal. Which conclusion is most defensible? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior.",
+        "An inert gas can create an immediately dangerous atmosphere by displacing oxygen even though it has no conventional toxicity at normal pressure.",
+        "Higher vapor pressure at a given temperature generally indicates greater volatility and a stronger tendency to enter the air; toxicity does not determine evaporation rate.",
+        "Combustible dust risk includes accumulated material that can become suspended during a primary event; occupational exposure measurements alone do not characterize explosion severity."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses vapor pressure and temperature and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'particle aerodynamic behavior', but it does not resolve the vapor pressure and temperature issue in this case.",
+        "This rationale supports the separate chapter topic 'oxygen displacement', but it does not resolve the vapor pressure and temperature issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'combustible dust layers', but it does not resolve the vapor pressure and temperature issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: vapor pressure and temperature",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "89a985d561633e8063427877e38c11c0f8f4c49afc391808b4b9b7a8ac2b3880"
+    },
+    {
+      "id": "PV2-CORE-CH06-012",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "gas density and monitoring location",
+      "itemFamilyId": "PV2-CORE-CH06-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a respiratory-hazard characterization, the team reviews this case: A heavier-than-air gas may leak in a poorly mixed room containing pits and low points. How should density information influence the initial monitoring plan? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An inert gas can create an immediately dangerous atmosphere by displacing oxygen even though it has no conventional toxicity at normal pressure.",
+        "Source controls such as wet cutting and local exhaust suppress or capture respirable particles before worker exposure; visibility, scheduling, and unverified respirators are not equivalent controls.",
+        "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior.",
+        "Relative density helps identify likely accumulation zones, but real releases are affected by mixing and thermal conditions, so multiple relevant locations and breathing-zone data are needed."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses gas density and monitoring location and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'oxygen displacement', but it does not resolve the gas density and monitoring location issue in this case.",
+        "This rationale supports the separate chapter topic 'respirable fraction control', but it does not resolve the gas density and monitoring location issue in this case.",
+        "This rationale supports the separate chapter topic 'particle aerodynamic behavior', but it does not resolve the gas density and monitoring location issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: gas density and monitoring location",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bf1ff7d4031639bf97f25951f457575b02d5ab93be6122f81a04061b0401fe67"
+    },
+    {
+      "id": "PV2-CORE-CH06-013",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "oxygen displacement",
+      "itemFamilyId": "PV2-CORE-CH06-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a gas-cylinder release analysis, the team reviews this case: Nitrogen is used to purge a vessel in an enclosed room. Nitrogen is not toxic at ordinary concentrations, yet workers become dizzy near the vessel opening. What hazard should be evaluated first? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An inert gas can create an immediately dangerous atmosphere by displacing oxygen even though it has no conventional toxicity at normal pressure.",
+        "Compressed or liquefied gas releases can present multiple simultaneous physical and health hazards; one property such as odor or pressure is not an adequate assessment.",
+        "Higher vapor pressure at a given temperature generally indicates greater volatility and a stronger tendency to enter the air; toxicity does not determine evaporation rate.",
+        "Source controls such as wet cutting and local exhaust suppress or capture respirable particles before worker exposure; visibility, scheduling, and unverified respirators are not equivalent controls."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses oxygen displacement and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'compressed gas release', but it does not resolve the oxygen displacement issue in this case.",
+        "This rationale supports the separate chapter topic 'vapor pressure and temperature', but it does not resolve the oxygen displacement issue in this case.",
+        "This rationale supports the separate chapter topic 'respirable fraction control', but it does not resolve the oxygen displacement issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: oxygen displacement",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9024a10f38c8bfe45e373e5fadef7d4ba727929bdbbd47c068e3b06229772113"
+    },
+    {
+      "id": "PV2-CORE-CH06-014",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "flammable range interpretation",
+      "itemFamilyId": "PV2-CORE-CH06-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an indoor-air complaint investigation, the team reviews this case: A solvent has a lower flammable limit of 1% by volume and an upper flammable limit of 8%. A vapor reading is 0.5% by volume. What is the best interpretation? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Compressed or liquefied gas releases can present multiple simultaneous physical and health hazards; one property such as odor or pressure is not an adequate assessment.",
+        "A value below the LFL is not presently within the flammable range at the measurement point, but concentration can rise or vary spatially; health limits are independent of flammability limits.",
+        "Relative density helps identify likely accumulation zones, but real releases are affected by mixing and thermal conditions, so multiple relevant locations and breathing-zone data are needed.",
+        "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses flammable range interpretation and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'compressed gas release', but it does not resolve the flammable range interpretation issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'gas density and monitoring location', but it does not resolve the flammable range interpretation issue in this case.",
+        "This rationale supports the separate chapter topic 'particle aerodynamic behavior', but it does not resolve the flammable range interpretation issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: flammable range interpretation",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a4c3f0d4ef4442b5ef10c72aacc52f5f857f8f5dc6d69514b57aa61cd841aee7"
+    },
+    {
+      "id": "PV2-CORE-CH06-015",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "combustible dust layers",
+      "itemFamilyId": "PV2-CORE-CH06-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a powder-handling process review, the team reviews this case: A facility has thin accumulations of combustible dust on beams and cable trays. Air samples near workers are usually low. Which conclusion is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "An inert gas can create an immediately dangerous atmosphere by displacing oxygen even though it has no conventional toxicity at normal pressure.",
+        "Relative density helps identify likely accumulation zones, but real releases are affected by mixing and thermal conditions, so multiple relevant locations and breathing-zone data are needed.",
+        "Combustible dust risk includes accumulated material that can become suspended during a primary event; occupational exposure measurements alone do not characterize explosion severity.",
+        "Source controls such as wet cutting and local exhaust suppress or capture respirable particles before worker exposure; visibility, scheduling, and unverified respirators are not equivalent controls."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses combustible dust layers and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'oxygen displacement', but it does not resolve the combustible dust layers issue in this case.",
+        "This rationale supports the separate chapter topic 'gas density and monitoring location', but it does not resolve the combustible dust layers issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'respirable fraction control', but it does not resolve the combustible dust layers issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: combustible dust layers",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d929d04feddf7ae20d70b39da0ab02250f3daa7a0fcd7ee6594c0cb4c3f846a9"
+    },
+    {
+      "id": "PV2-CORE-CH06-016",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "compressed gas release",
+      "itemFamilyId": "PV2-CORE-CH06-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a confined-space gas assessment, the team reviews this case: A compressed liquefied gas escapes from a cylinder and rapidly expands. Which combined hazard assessment is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Higher vapor pressure at a given temperature generally indicates greater volatility and a stronger tendency to enter the air; toxicity does not determine evaporation rate.",
+        "A value below the LFL is not presently within the flammable range at the measurement point, but concentration can rise or vary spatially; health limits are independent of flammability limits.",
+        "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior.",
+        "Compressed or liquefied gas releases can present multiple simultaneous physical and health hazards; one property such as odor or pressure is not an adequate assessment."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses compressed gas release and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'vapor pressure and temperature', but it does not resolve the compressed gas release issue in this case.",
+        "This rationale supports the separate chapter topic 'flammable range interpretation', but it does not resolve the compressed gas release issue in this case.",
+        "This rationale supports the separate chapter topic 'particle aerodynamic behavior', but it does not resolve the compressed gas release issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: compressed gas release",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5d0d797a557bac4883993c50ee2f9d47aa38a6f366eb8cb11791e83538eeb15f"
+    },
+    {
+      "id": "PV2-CORE-CH06-017",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "Eight-hour time-weighted average",
+      "itemFamilyId": "PV2-CORE-CH06-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a confined-space gas assessment, the team reviews this question: A worker’s average airborne exposure over a conventional 8-hour shift is being compared with an occupational limit. Which exposure metric is being used? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A TWA weights each concentration by the time spent at that concentration and expresses the average exposure over the stated work period.",
+        "Unlike a TWA, a ceiling is intended to limit peak concentration and should not be exceeded at any time during the working exposure.",
+        "mg/m³ = ppm × MW / 24.45 = 75 × 78.11 / 24.45 = 239.6 mg/m³, which rounds to about 240 mg/m³.",
+        "When agents have similar additive effects, individual compliance does not ensure the mixture is acceptable. The exposure fractions are summed and compared with 1.0."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Ceiling exposure limit', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'ppm to mg/m³ conversion', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Additive exposure mixtures', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, time-weighted average and exposure-limit concepts, pp. 240-243; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1db845d7b324287f94a1d32756104372b4569a9f9ccb77e1503f88b7ffa602c0"
+    },
+    {
+      "id": "PV2-CORE-CH06-018",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "Acids, bases, and pH",
+      "itemFamilyId": "PV2-CORE-CH06-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a welding-fume evaluation, the team reviews this question: A water-based cleaning concentrate has a very low pH and damages tissue on contact. Which description is most accurate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For gases under specified conditions, ppm is a volume or mole fraction, while mg/m³ is a mass concentration. Molecular weight converts moles to mass.",
+        "Low pH indicates acidity, and strong acids can cause corrosive tissue damage. pH alone should be considered with concentration, reactivity, and exposure conditions.",
+        "When agents have similar additive effects, individual compliance does not ensure the mixture is acceptable. The exposure fractions are summed and compared with 1.0.",
+        "Unlike a TWA, a ceiling is intended to limit peak concentration and should not be exceeded at any time during the working exposure."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Gas concentration conversion', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Additive exposure mixtures', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Ceiling exposure limit', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, acids, bases, and pH, pp. 234-235; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9f8931359a1553ac1dcf2c45f231dbb7d09b54c3caa5ec3a62a16de61261fe4b"
+    },
+    {
+      "id": "PV2-CORE-CH06-019",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "Gas concentration conversion",
+      "itemFamilyId": "PV2-CORE-CH06-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a solvent-vapor investigation, the team reviews this question: Why is molecular weight needed when converting a gas or vapor concentration between ppm and mg/m³ at a specified temperature and pressure? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Unlike a TWA, a ceiling is intended to limit peak concentration and should not be exceeded at any time during the working exposure.",
+        "A TWA weights each concentration by the time spent at that concentration and expresses the average exposure over the stated work period.",
+        "For gases under specified conditions, ppm is a volume or mole fraction, while mg/m³ is a mass concentration. Molecular weight converts moles to mass.",
+        "When agents have similar additive effects, individual compliance does not ensure the mixture is acceptable. The exposure fractions are summed and compared with 1.0."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Ceiling exposure limit', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Eight-hour time-weighted average', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Additive exposure mixtures', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, converting mg/m³ and ppm, pp. 245-246; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4375a225b4448430a491611a778bb75109d2430fe5142ea447b231972ce5e807"
+    },
+    {
+      "id": "PV2-CORE-CH06-020",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "Additive exposure mixtures",
+      "itemFamilyId": "PV2-CORE-CH06-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a combustible-dust walkthrough, the team reviews this question: Several solvents with similar toxic effects are each measured below their individual limits. What additional evaluation may still be necessary? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Low pH indicates acidity, and strong acids can cause corrosive tissue damage. pH alone should be considered with concentration, reactivity, and exposure conditions.",
+        "For gases under specified conditions, ppm is a volume or mole fraction, while mg/m³ is a mass concentration. Molecular weight converts moles to mass.",
+        "Unlike a TWA, a ceiling is intended to limit peak concentration and should not be exceeded at any time during the working exposure.",
+        "When agents have similar additive effects, individual compliance does not ensure the mixture is acceptable. The exposure fractions are summed and compared with 1.0."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Acids, bases, and pH', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Gas concentration conversion', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Ceiling exposure limit', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, gaseous mixtures and percentage of mixture limits, pp. 243-245; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fe3270715a1081f198bec41dae6dce5e20d165b146e45ca8423b64092e1acbaf"
+    },
+    {
+      "id": "PV2-CORE-CH06-021",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "Volume concentration",
+      "itemFamilyId": "PV2-CORE-CH06-F021",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a respiratory-hazard characterization, solve the following problem and select the best answer: A tracer gas is present at 0.018% by volume. What is the concentration in ppm?",
+      "options": [
+        "180 ppm",
+        "0.18 ppm",
+        "1,800 ppm",
+        "18 ppm"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "One percent equals 10,000 ppm. Therefore, 0.018% × 10,000 ppm/% = 180 ppm.",
+      "incorrectOptionExplanations": [
+        null,
+        "This moves the decimal in the wrong direction.",
+        "This is a factor-of-ten high conversion.",
+        "This uses 1% = 1,000 ppm instead of 10,000 ppm."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, concentrations of vapors, gases, and particulates, pp. 240-241; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "ppm = percent by volume × 10,000",
+      "units": "ppm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6591eab602849dd871a54cf9034efe46910288ef587cd2bc422926b773146304"
+    },
+    {
+      "id": "PV2-CORE-CH06-022",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "mg/m³ to ppm conversion",
+      "itemFamilyId": "PV2-CORE-CH06-F022",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a gas-cylinder release analysis, solve the following problem and select the best answer: At 25°C and 1 atm, a toluene concentration is 185 mg/m³. Using a molecular weight of 92.14 g/mol, what is the approximate concentration in ppm?",
+      "options": [
+        "697 ppm",
+        "49.1 ppm",
+        "452 ppm",
+        "2.01 ppm"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "ppm = (mg/m³ × 24.45) / MW = (185 × 24.45) / 92.14 = 49.09 ppm, or about 49.1 ppm.",
+      "incorrectOptionExplanations": [
+        "This multiplies by molecular weight rather than dividing by it.",
+        null,
+        "This omits the molecular-weight divisor and applies only the molar-volume factor.",
+        "This divides by both molecular weight and molar volume."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, converting mg/m³ to ppm, pp. 245-246; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "ppm = mg/m³ × 24.45 / MW at 25°C and 1 atm",
+      "units": "ppm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7aa9a79484003107493a02cf4ce5be95267a645e14b817c95c857fec1a6fff8a"
+    },
+    {
+      "id": "PV2-CORE-CH06-023",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "ppm to mg/m³ conversion",
+      "itemFamilyId": "PV2-CORE-CH06-F023",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During an indoor-air complaint investigation, solve the following problem and select the best answer: At 25°C and 1 atm, a benzene concentration is 75 ppm. Using a molecular weight of 78.11 g/mol, what is the approximate concentration in mg/m³?",
+      "options": [
+        "5,858 mg/m³",
+        "23.5 mg/m³",
+        "240 mg/m³",
+        "75 mg/m³"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "mg/m³ = ppm × MW / 24.45 = 75 × 78.11 / 24.45 = 239.6 mg/m³, which rounds to about 240 mg/m³.",
+      "incorrectOptionExplanations": [
+        "This multiplies ppm by molecular weight but omits the molar-volume divisor.",
+        "This is a factor-of-ten low result.",
+        null,
+        "This treats ppm and mg/m³ as numerically interchangeable."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, converting ppm to mg/m³, pp. 245-246; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "mg/m³ = ppm × MW / 24.45 at 25°C and 1 atm",
+      "units": "mg/m³",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "952f16b6df7cbc5dc851005f7f993d9264af8751915a96324875137450698dc0"
+    },
+    {
+      "id": "PV2-CORE-CH06-024",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "Time-weighted average calculation",
+      "itemFamilyId": "PV2-CORE-CH06-F024",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a powder-handling process review, solve the following problem and select the best answer: A worker is exposed to 18 ppm for 2 hours, 8 ppm for 3 hours, and 2 ppm for 3 hours. What is the 8-hour TWA?",
+      "options": [
+        "28 ppm",
+        "11.0 ppm",
+        "9.33 ppm",
+        "8.25 ppm"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "TWA = [(18×2) + (8×3) + (2×3)] / 8 = 66 / 8 = 8.25 ppm.",
+      "incorrectOptionExplanations": [
+        "This adds the concentrations without dividing by total time.",
+        "This omits or misweights one of the exposure periods.",
+        "This takes a simple average of the three concentrations without weighting by time.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, time-weighted average, pp. 241-243; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "TWA = Σ(Cᵢtᵢ) / Σtᵢ",
+      "units": "ppm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "24261c537810f9e4ae3a64f251871e7fc5d2cccd19d2ee6f383988e6a65be56d"
+    },
+    {
+      "id": "PV2-CORE-CH06-025",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "Additive mixture fraction",
+      "itemFamilyId": "PV2-CORE-CH06-F025",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a confined-space gas assessment, solve the following problem and select the best answer: Three solvents with similar toxic effects are present at 40 ppm with a 100-ppm limit, 12 ppm with a 50-ppm limit, and 5 ppm with a 25-ppm limit. What is the additive mixture fraction?",
+      "options": [
+        "0.84",
+        "3.00",
+        "0.57",
+        "1.24"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Mixture fraction = 40/100 + 12/50 + 5/25 = 0.40 + 0.24 + 0.20 = 0.84. Because it is below 1.0, the additive criterion is not exceeded on these data.",
+      "incorrectOptionExplanations": [
+        null,
+        "This counts the number of chemicals rather than calculating exposure fractions.",
+        "This adds the concentrations and divides by a single limit, ignoring the separate limits.",
+        "This overstates one or more concentration-to-limit fractions."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, gaseous mixtures, pp. 243-245; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Mixture index = Σ(Cᵢ/Lᵢ)",
+      "units": "dimensionless",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3f3a5d1247031570ff798027411a5d74e1256d22a30956ec360cc9a8e19d934e"
+    },
+    {
+      "id": "PV2-CORE-CH06-026",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "Boyle’s law gas release",
+      "itemFamilyId": "PV2-CORE-CH06-F026",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a welding-fume evaluation, solve the following problem and select the best answer: A rigid 6.0-ft³ gas cylinder drops from 1,800 psia to 1,770 psia while temperature remains constant. Approximately what free-gas volume was released at 14.7 psia?",
+      "options": [
+        "6.0 ft³",
+        "12.2 ft³",
+        "180 ft³",
+        "0.10 ft³"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The pressure decrease is 30 psia. At constant temperature, released free-gas volume = cylinder volume × pressure drop / atmospheric pressure = 6.0 × 30 / 14.7 = 12.24 ft³.",
+      "incorrectOptionExplanations": [
+        "This assumes the released free-gas volume equals the cylinder’s internal volume.",
+        null,
+        "This multiplies cylinder volume by the pressure drop but omits division by atmospheric pressure.",
+        "This reverses the pressure ratio."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, Boyle’s law and referenced equations, pp. 235-248; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Vfree = Vcylinder × ΔP / Patm, at constant temperature",
+      "units": "ft³",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a6551bbf951fe23c75716350031d8d1141c22e8155aa6bfcac571d790158e283"
+    },
+    {
+      "id": "PV2-CORE-CH06-027",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "Charles’ law",
+      "itemFamilyId": "PV2-CORE-CH06-F027",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a solvent-vapor investigation, solve the following problem and select the best answer: A flexible gas bag occupies 2.5 m³ at 295 K. If pressure remains constant and temperature rises to 350 K, what volume will it occupy?",
+      "options": [
+        "2.50 m³",
+        "2.11 m³",
+        "2.97 m³",
+        "55.0 m³"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "At constant pressure, V₂ = V₁T₂/T₁ = 2.5 × 350 / 295 = 2.966 m³, which rounds to 2.97 m³.",
+      "incorrectOptionExplanations": [
+        "This assumes volume does not change with absolute temperature.",
+        "This reverses the absolute-temperature ratio.",
+        null,
+        "This uses the temperature difference as a direct volume multiplier."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, Charles’ law, pp. 235-240; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "V₁/T₁ = V₂/T₂",
+      "units": "m³",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c7d4caf2109f8ac37ececea9372be082bf104bdc1140bfbd3daac085acdd7284"
+    },
+    {
+      "id": "PV2-CORE-CH06-028",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "Ideal gas law",
+      "itemFamilyId": "PV2-CORE-CH06-F028",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a combustible-dust walkthrough, solve the following problem and select the best answer: A 2.0-m³ vessel contains an ideal gas at 101.3 kPa and 298 K. Approximately how many kilomoles are present? Use R = 8.314 kPa·m³/(kmol·K).",
+      "options": [
+        "8.18 kmol",
+        "0.818 kmol",
+        "60.4 kmol",
+        "0.0818 kmol"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "n = PV/RT = (101.3 × 2.0) / (8.314 × 298) = 0.08177 kmol, which rounds to 0.0818 kmol.",
+      "incorrectOptionExplanations": [
+        "This is a factor-of-100 high result.",
+        "This is a factor-of-ten high result.",
+        "This multiplies by temperature rather than dividing by RT.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, ideal gas law, pp. 236-240; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "PV = nRT; n = PV/(RT)",
+      "units": "kmol",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ef2a26fc1dea81963460e9edfd05de3223a6ddea4cb8ea98293fcedd84304bc0"
+    },
+    {
+      "id": "PV2-CORE-CH06-029",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "Lower flammability limit of mixtures",
+      "itemFamilyId": "PV2-CORE-CH06-F029",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a respiratory-hazard characterization, solve the following problem and select the best answer: A vapor mixture is 40% component A with an LFL of 2.5 vol% and 60% component B with an LFL of 4.0 vol%. Estimate the mixture LFL using Le Chatelier’s relation.",
+      "options": [
+        "3.23 vol%",
+        "3.40 vol%",
+        "6.50 vol%",
+        "0.31 vol%"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "LFLmix = 1 / [(0.40/2.5) + (0.60/4.0)] = 1 / 0.31 = 3.226 vol%, or 3.23 vol%.",
+      "incorrectOptionExplanations": [
+        null,
+        "This is the simple weighted arithmetic average, not Le Chatelier’s reciprocal relation.",
+        "This adds the two component LFLs without weighting.",
+        "This reports the denominator of the reciprocal equation as the final LFL."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, lower flammability limit of mixtures, pp. 246-249; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "LFLmix = 1 / Σ(fᵢ/LFLᵢ)",
+      "units": "vol%",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b7576ed75ee79fe3fe12cb724669937cba8a1f74d6198027e90633470d6ab956"
+    },
+    {
+      "id": "PV2-CORE-CH06-030",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "Ceiling exposure limit",
+      "itemFamilyId": "PV2-CORE-CH06-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a gas-cylinder release analysis, the team reviews this question: A substance has an occupational exposure ceiling limit. How should the exposure be managed? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Low pH indicates acidity, and strong acids can cause corrosive tissue damage. pH alone should be considered with concentration, reactivity, and exposure conditions.",
+        "Unlike a TWA, a ceiling is intended to limit peak concentration and should not be exceeded at any time during the working exposure.",
+        "A TWA weights each concentration by the time spent at that concentration and expresses the average exposure over the stated work period.",
+        "When agents have similar additive effects, individual compliance does not ensure the mixture is acceptable. The exposure fractions are summed and compared with 1.0."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Acids, bases, and pH', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Eight-hour time-weighted average', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Additive exposure mixtures', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 6, occupational exposure limits and time-weighted averages, pp. 240-243; Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/chemicaldata"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1977979ae2a4f882cbef2b198df94d13bc28e82b5b27a08e0e637ab31beb8662"
+    },
+    {
+      "id": "PV2-CORE-CH06-031",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "particle aerodynamic behavior",
+      "itemFamilyId": "PV2-CORE-CH06-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a confined-space gas assessment, a supervisor proposes: \"Bulk density of the unopened product container\". The underlying case is: A process produces irregular mineral particles with the same mass but different shapes. The industrial hygienist must predict where they may deposit in the respiratory tract. Which particle characteristic is most useful for this purpose? Which alternative is the most defensible correction?",
+      "options": [
+        "Visible color under normal workplace lighting",
+        "Bulk density of the unopened product container",
+        "Aerodynamic diameter, because it reflects settling behavior rather than geometric size alone",
+        "The molecular weight of the mineral as if it were a gas"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Visible color under normal workplace lighting' remains incomplete or misapplies the controlling particle aerodynamic behavior principle.",
+        "The proposed response 'Bulk density of the unopened product container' remains incomplete or misapplies the controlling particle aerodynamic behavior principle.",
+        null,
+        "The proposed response 'The molecular weight of the mineral as if it were a gas' remains incomplete or misapplies the controlling particle aerodynamic behavior principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: particle aerodynamic behavior",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "076d2fe30ec4459329324f590e6990c1fa2eaa01f185ea8dddb9edf9531c87cd"
+    },
+    {
+      "id": "PV2-CORE-CH06-032",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "respirable fraction control",
+      "itemFamilyId": "PV2-CORE-CH06-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a welding-fume evaluation, a supervisor proposes: \"Increase general room air movement so the dust is less visible near the saw\". The underlying case is: A dry cutting operation generates a broad particle-size distribution containing respirable crystalline silica. Which control strategy most directly reduces the hazardous respirable fraction at the source? Which alternative is the most defensible correction?",
+      "options": [
+        "Issue disposable dust masks without evaluating exposure or fit",
+        "Increase general room air movement so the dust is less visible near the saw",
+        "Schedule the cutting at night while using the same uncontrolled process",
+        "Use effective wet methods or local exhaust at the cutting point and verify performance with exposure monitoring"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Source controls such as wet cutting and local exhaust suppress or capture respirable particles before worker exposure; visibility, scheduling, and unverified respirators are not equivalent controls.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Issue disposable dust masks without evaluating exposure or fit' remains incomplete or misapplies the controlling respirable fraction control principle.",
+        "The proposed response 'Increase general room air movement so the dust is less visible near the saw' remains incomplete or misapplies the controlling respirable fraction control principle.",
+        "The proposed response 'Schedule the cutting at night while using the same uncontrolled process' remains incomplete or misapplies the controlling respirable fraction control principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: respirable fraction control",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b65d07b7fe6e9811fd49efc51cd01b40be6d32e01abf4ac95ae838d719dce824"
+    },
+    {
+      "id": "PV2-CORE-CH06-033",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "vapor pressure and temperature",
+      "itemFamilyId": "PV2-CORE-CH06-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a solvent-vapor investigation, a supervisor proposes: \"Vapor pressure matters only after a solvent reaches its boiling point\". The underlying case is: Two solvents have similar toxicity, but solvent A has a substantially higher vapor pressure at the process temperature. All other conditions are equal. Which conclusion is most defensible? Which alternative is the most defensible correction?",
+      "options": [
+        "Solvent A is more likely to generate a higher airborne vapor concentration and may require stronger exposure controls",
+        "Solvent A will remain in the liquid phase longer because higher vapor pressure reduces evaporation",
+        "Both solvents must produce identical airborne concentrations because their toxicity is similar",
+        "Vapor pressure matters only after a solvent reaches its boiling point"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Higher vapor pressure at a given temperature generally indicates greater volatility and a stronger tendency to enter the air; toxicity does not determine evaporation rate.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Solvent A will remain in the liquid phase longer because higher vapor pressure reduces evaporation' remains incomplete or misapplies the controlling vapor pressure and temperature principle.",
+        "The proposed response 'Both solvents must produce identical airborne concentrations because their toxicity is similar' remains incomplete or misapplies the controlling vapor pressure and temperature principle.",
+        "The proposed response 'Vapor pressure matters only after a solvent reaches its boiling point' remains incomplete or misapplies the controlling vapor pressure and temperature principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: vapor pressure and temperature",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "45ba95ea2a300183b07e70d9eb9f96eaee488caa6121bc69d48cb315ab050cff"
+    },
+    {
+      "id": "PV2-CORE-CH06-034",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "gas density and monitoring location",
+      "itemFamilyId": "PV2-CORE-CH06-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a combustible-dust walkthrough, a supervisor proposes: \"Sample only at the ceiling because all gases rise after release\". The underlying case is: A heavier-than-air gas may leak in a poorly mixed room containing pits and low points. How should density information influence the initial monitoring plan? Which alternative is the most defensible correction?",
+      "options": [
+        "Sample only at the ceiling because all gases rise after release",
+        "Include low locations and breathing-zone measurements while recognizing that turbulence and temperature can alter stratification",
+        "Place one fixed monitor at waist height and assume it represents every location",
+        "Use gas density to replace a site-specific ventilation and dispersion assessment"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Relative density helps identify likely accumulation zones, but real releases are affected by mixing and thermal conditions, so multiple relevant locations and breathing-zone data are needed.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Sample only at the ceiling because all gases rise after release' remains incomplete or misapplies the controlling gas density and monitoring location principle.",
+        null,
+        "The proposed response 'Place one fixed monitor at waist height and assume it represents every location' remains incomplete or misapplies the controlling gas density and monitoring location principle.",
+        "The proposed response 'Use gas density to replace a site-specific ventilation and dispersion assessment' remains incomplete or misapplies the controlling gas density and monitoring location principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: gas density and monitoring location",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a35d460a47bf4a9b6fa86b6814614e755f37b5e3e286611a68f4d5cb01536be5"
+    },
+    {
+      "id": "PV2-CORE-CH06-035",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "oxygen displacement",
+      "itemFamilyId": "PV2-CORE-CH06-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a respiratory-hazard characterization, a supervisor proposes: \"Chemical burns caused by nitrogen becoming strongly acidic\". The underlying case is: Nitrogen is used to purge a vessel in an enclosed room. Nitrogen is not toxic at ordinary concentrations, yet workers become dizzy near the vessel opening. What hazard should be evaluated first? Which alternative is the most defensible correction?",
+      "options": [
+        "Chemical burns caused by nitrogen becoming strongly acidic",
+        "Carbon monoxide generation from spontaneous nitrogen combustion",
+        "Oxygen deficiency caused by displacement of air",
+        "Radiation exposure caused by the compressed-gas cylinder"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "An inert gas can create an immediately dangerous atmosphere by displacing oxygen even though it has no conventional toxicity at normal pressure.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Chemical burns caused by nitrogen becoming strongly acidic' remains incomplete or misapplies the controlling oxygen displacement principle.",
+        "The proposed response 'Carbon monoxide generation from spontaneous nitrogen combustion' remains incomplete or misapplies the controlling oxygen displacement principle.",
+        null,
+        "The proposed response 'Radiation exposure caused by the compressed-gas cylinder' remains incomplete or misapplies the controlling oxygen displacement principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: oxygen displacement",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1cd10eb2bf287c7a82f11ddd1660c7c70def7ec73fbf45aa7eec93921b9f531c"
+    },
+    {
+      "id": "PV2-CORE-CH06-036",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "flammable range interpretation",
+      "itemFamilyId": "PV2-CORE-CH06-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a gas-cylinder release analysis, a supervisor proposes: \"The vapor cannot present a health hazard until it enters the flammable range\". The underlying case is: A solvent has a lower flammable limit of 1% by volume and an upper flammable limit of 8%. A vapor reading is 0.5% by volume. What is the best interpretation? Which alternative is the most defensible correction?",
+      "options": [
+        "The reading is above the upper flammable limit and therefore oxygen-free",
+        "The vapor cannot present a health hazard until it enters the flammable range",
+        "The atmosphere is permanently nonflammable because the current reading is below 1%",
+        "The reading is below the lower flammable limit, but continued release or poor mixing could still create a flammable region"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "A value below the LFL is not presently within the flammable range at the measurement point, but concentration can rise or vary spatially; health limits are independent of flammability limits.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The reading is above the upper flammable limit and therefore oxygen-free' remains incomplete or misapplies the controlling flammable range interpretation principle.",
+        "The proposed response 'The vapor cannot present a health hazard until it enters the flammable range' remains incomplete or misapplies the controlling flammable range interpretation principle.",
+        "The proposed response 'The atmosphere is permanently nonflammable because the current reading is below 1%' remains incomplete or misapplies the controlling flammable range interpretation principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: flammable range interpretation",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2f7426994a11fe17c63902f7337591a067705f71b1987a27368e7eb4cfa60b17"
+    },
+    {
+      "id": "PV2-CORE-CH06-037",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.02",
+          "role": "primary"
+        }
+      ],
+      "concept": "combustible dust layers",
+      "itemFamilyId": "PV2-CORE-CH06-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an indoor-air complaint investigation, a supervisor proposes: \"Low personal exposure results prove the dust cannot create a fire or explosion hazard\". The underlying case is: A facility has thin accumulations of combustible dust on beams and cable trays. Air samples near workers are usually low. Which conclusion is most appropriate? Which alternative is the most defensible correction?",
+      "options": [
+        "Deposited dust can fuel a secondary explosion and requires housekeeping and process controls even when routine breathing-zone results are low",
+        "Dust on elevated surfaces is harmless because it is outside the normal breathing zone",
+        "Only particles visible as an airborne cloud can participate in combustion",
+        "Low personal exposure results prove the dust cannot create a fire or explosion hazard"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Combustible dust risk includes accumulated material that can become suspended during a primary event; occupational exposure measurements alone do not characterize explosion severity.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Dust on elevated surfaces is harmless because it is outside the normal breathing zone' remains incomplete or misapplies the controlling combustible dust layers principle.",
+        "The proposed response 'Only particles visible as an airborne cloud can participate in combustion' remains incomplete or misapplies the controlling combustible dust layers principle.",
+        "The proposed response 'Low personal exposure results prove the dust cannot create a fire or explosion hazard' remains incomplete or misapplies the controlling combustible dust layers principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: combustible dust layers",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "98858524acacb0576436ff30098085e382155adf3fb1745237a3b83aea6ca787"
+    },
+    {
+      "id": "PV2-CORE-CH06-038",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.14",
+          "role": "primary"
+        }
+      ],
+      "concept": "compressed gas release",
+      "itemFamilyId": "PV2-CORE-CH06-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a powder-handling process review, a supervisor proposes: \"Treat the event solely as a pressure hazard because phase change eliminates chemical hazards\". The underlying case is: A compressed liquefied gas escapes from a cylinder and rapidly expands. Which combined hazard assessment is most appropriate? Which alternative is the most defensible correction?",
+      "options": [
+        "Assume outdoor release makes monitoring and exclusion zones unnecessary",
+        "Evaluate toxicity, oxygen displacement, flammability, cold burns, pressure effects, and likely dispersion",
+        "Evaluate only the chemical’s odor threshold because workers can leave when they smell it",
+        "Treat the event solely as a pressure hazard because phase change eliminates chemical hazards"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Compressed or liquefied gas releases can present multiple simultaneous physical and health hazards; one property such as odor or pressure is not an adequate assessment.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Assume outdoor release makes monitoring and exclusion zones unnecessary' remains incomplete or misapplies the controlling compressed gas release principle.",
+        null,
+        "The proposed response 'Evaluate only the chemical’s odor threshold because workers can leave when they smell it' remains incomplete or misapplies the controlling compressed gas release principle.",
+        "The proposed response 'Treat the event solely as a pressure hazard because phase change eliminates chemical hazards' remains incomplete or misapplies the controlling compressed gas release principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: compressed gas release",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e17b64933ea734e022458371b58b9ce64d9b18b6ed44cb5b0400ec68750b149b"
+    },
+    {
+      "id": "PV2-CORE-CH06-039",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "particle aerodynamic behavior",
+      "itemFamilyId": "PV2-CORE-CH06-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a welding-fume evaluation, the team selects \"Aerodynamic diameter, because it reflects settling behavior rather than geometric size alone\" rather than \"Visible color under normal workplace lighting\" for this case: A process produces irregular mineral particles with the same mass but different shapes. The industrial hygienist must predict where they may deposit in the respiratory tract. Which particle characteristic is most useful for this purpose? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "A value below the LFL is not presently within the flammable range at the measurement point, but concentration can rise or vary spatially; health limits are independent of flammability limits.",
+        "Higher vapor pressure at a given temperature generally indicates greater volatility and a stronger tendency to enter the air; toxicity does not determine evaporation rate.",
+        "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior.",
+        "Combustible dust risk includes accumulated material that can become suspended during a primary event; occupational exposure measurements alone do not characterize explosion severity."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the particle aerodynamic behavior issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'flammable range interpretation' and does not distinguish the two responses in the present particle aerodynamic behavior decision.",
+        "This explanation concerns 'vapor pressure and temperature' and does not distinguish the two responses in the present particle aerodynamic behavior decision.",
+        null,
+        "This explanation concerns 'combustible dust layers' and does not distinguish the two responses in the present particle aerodynamic behavior decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: particle aerodynamic behavior",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8960d543b681aaffae5b372841e155694fd7b14a399bbe2d3bc8b802a6d902d1"
+    },
+    {
+      "id": "PV2-CORE-CH06-040",
+      "version": 1,
+      "chapterId": "ch-06",
+      "chapterTitle": "Particulates and Gases",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        }
+      ],
+      "concept": "respirable fraction control",
+      "itemFamilyId": "PV2-CORE-CH06-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a solvent-vapor investigation, the team selects \"Use effective wet methods or local exhaust at the cutting point and verify performance with exposure monitoring\" rather than \"Schedule the cutting at night while using the same uncontrolled process\" for this case: A dry cutting operation generates a broad particle-size distribution containing respirable crystalline silica. Which control strategy most directly reduces the hazardous respirable fraction at the source? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Higher vapor pressure at a given temperature generally indicates greater volatility and a stronger tendency to enter the air; toxicity does not determine evaporation rate.",
+        "Aerodynamic diameter combines size, shape, and density effects relevant to airborne motion and respiratory deposition; bulk appearance or molecular weight alone does not predict particle behavior.",
+        "Relative density helps identify likely accumulation zones, but real releases are affected by mixing and thermal conditions, so multiple relevant locations and breathing-zone data are needed.",
+        "Source controls such as wet cutting and local exhaust suppress or capture respirable particles before worker exposure; visibility, scheduling, and unverified respirators are not equivalent controls."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the respirable fraction control issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'vapor pressure and temperature' and does not distinguish the two responses in the present respirable fraction control decision.",
+        "This explanation concerns 'particle aerodynamic behavior' and does not distinguish the two responses in the present respirable fraction control decision.",
+        "This explanation concerns 'gas density and monitoring location' and does not distinguish the two responses in the present respirable fraction control decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 6, pp. 228-250; applicable federal OSHA substance and physical-hazard guidance; curated topic: respirable fraction control",
+      "sourceUrls": [
+        "https://www.osha.gov/chemicaldata",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ee6e5f1b3692164db67ded11328eb2fc262fdca25011c4c9c92ca4aae03e7ac5"
+    }
+  ]
+}

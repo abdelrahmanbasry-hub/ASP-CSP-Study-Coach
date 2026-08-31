@@ -1,0 +1,1749 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-32-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-32",
+  "chapterTitle": "Site Security",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH32-001",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "threat assessment and behavior",
+      "itemFamilyId": "PV2-CORE-CH32-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An employee makes concerning statements and shows escalating behavior, but has not made a direct threat. What is the best organizational response?",
+      "options": [
+        "Use a trained multidisciplinary threat-assessment process focused on behavior, context, access, stressors, protective factors, and proportionate intervention",
+        "Terminate the employee immediately based only on rumor",
+        "Wait for an explicit threat because no preventive action is justified before one",
+        "Ask coworkers to investigate privately without professional or management support"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Threat assessment evaluates patterns and context rather than relying solely on explicit threats or labels. Early proportionate intervention can reduce risk while respecting rights.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Terminate the employee immediately based only on rumor' does not apply the controlling principle for threat assessment and behavior to the facts given, so it is not the best answer.",
+        "The option 'Wait for an explicit threat because no preventive action is justified before one' does not apply the controlling principle for threat assessment and behavior to the facts given, so it is not the best answer.",
+        "The option 'Ask coworkers to investigate privately without professional or management support' does not apply the controlling principle for threat assessment and behavior to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: threat assessment and behavior",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e164651410ebd891edb0286822f94870affcefdd8c306307cd196cfca924b1fb"
+    },
+    {
+      "id": "PV2-CORE-CH32-002",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "access control and tailgating",
+      "itemFamilyId": "PV2-CORE-CH32-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Badge readers protect a restricted area, but employees routinely hold the door for unknown persons. Which control improvement is most effective?",
+      "options": [
+        "Disable the reader during busy arrival periods",
+        "Combine physical anti-tailgating measures, visitor procedures, employee expectations, reporting, and supervision based on the area’s risk",
+        "Post the access code publicly so visitors do not need escorts",
+        "Issue more badges without addressing door behavior"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Access technology is undermined by social and procedural bypass. Layered physical, administrative, and cultural controls address the actual failure mode.",
+      "incorrectOptionExplanations": [
+        "The option 'Disable the reader during busy arrival periods' does not apply the controlling principle for access control and tailgating to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Post the access code publicly so visitors do not need escorts' does not apply the controlling principle for access control and tailgating to the facts given, so it is not the best answer.",
+        "The option 'Issue more badges without addressing door behavior' does not apply the controlling principle for access control and tailgating to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: access control and tailgating",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ea12e549c4a986118b3ad3ac884bbbace879bd97de027c932c51a0c9c7f4b0f7"
+    },
+    {
+      "id": "PV2-CORE-CH32-003",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "visitor management",
+      "itemFamilyId": "PV2-CORE-CH32-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A vendor technician needs temporary access to a process control room. What is the most defensible approach?",
+      "options": [
+        "Allow entry using another employee’s credentials",
+        "Issue a permanent unrestricted badge so future vendor visits do not require repeated authorization, escort, or access termination",
+        "Verify identity and need, authorize least-privilege access, brief hazards and security rules, escort or monitor as required, and terminate access afterward",
+        "Rely on the vendor uniform as sufficient identity verification"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Visitor access should be verified, limited, monitored, and time-bound according to risk. Shared or permanent credentials defeat accountability.",
+      "incorrectOptionExplanations": [
+        "The option 'Allow entry using another employee’s credentials' does not apply the controlling principle for visitor management to the facts given, so it is not the best answer.",
+        "The option 'Issue a permanent unrestricted badge so future vendor visits do not require repeated authorization, escort, or access termination' does not apply the controlling principle for visitor management to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Rely on the vendor uniform as sufficient identity verification' does not apply the controlling principle for visitor management to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: visitor management",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fc98f80ab248d6e08afa068d6372336e453f222b2738b877485e503827f89e81"
+    },
+    {
+      "id": "PV2-CORE-CH32-004",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "lone worker protection",
+      "itemFamilyId": "PV2-CORE-CH32-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A technician works alone at remote pump stations with unreliable cellular coverage. Which protection plan is strongest?",
+      "options": [
+        "Rely only on personal confidence and experience",
+        "Prohibit all communication to preserve battery life until an emergency occurs",
+        "Require the technician to send a text at the end of the week",
+        "Use a risk-based check-in and escalation system with reliable communication alternatives, location information, task limits, and emergency response capability"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Lone-worker controls must detect missed check-ins and support timely response under actual coverage and task conditions.",
+      "incorrectOptionExplanations": [
+        "The option 'Rely only on personal confidence and experience' does not apply the controlling principle for lone worker protection to the facts given, so it is not the best answer.",
+        "The option 'Prohibit all communication to preserve battery life until an emergency occurs' does not apply the controlling principle for lone worker protection to the facts given, so it is not the best answer.",
+        "The option 'Require the technician to send a text at the end of the week' does not apply the controlling principle for lone worker protection to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: lone worker protection",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "edc13e9ae57b03c7fc8d145046a5d26f7fac3c8db953ef1719c8cf4de5eadd18"
+    },
+    {
+      "id": "PV2-CORE-CH32-005",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "active assailant preparedness",
+      "itemFamilyId": "PV2-CORE-CH32-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility wants to prepare for an active assailant but plans only an annual evacuation drill. What is missing?",
+      "options": [
+        "A broader, site-specific plan covering notification, escape and shelter options, law-enforcement interface, accessibility, reunification, medical response, and recovery",
+        "A public list of all security vulnerabilities and access codes",
+        "A single fixed response that applies regardless of the attacker’s location",
+        "A requirement that every employee physically confront an attacker"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Violence emergencies require flexible, integrated planning beyond routine fire evacuation, including communication, law enforcement, medical, and continuity considerations.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'A public list of all security vulnerabilities and access codes' does not apply the controlling principle for active assailant preparedness to the facts given, so it is not the best answer.",
+        "The option 'A single fixed response that applies regardless of the attacker’s location' does not apply the controlling principle for active assailant preparedness to the facts given, so it is not the best answer.",
+        "The option 'A requirement that every employee physically confront an attacker' does not apply the controlling principle for active assailant preparedness to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: active assailant preparedness",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "61f5c09a2ce23691d73e39d523e633c031414bd9c378082cad1af7979086290a"
+    },
+    {
+      "id": "PV2-CORE-CH32-006",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "security risk assessment",
+      "itemFamilyId": "PV2-CORE-CH32-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A site spends heavily on perimeter cameras but has not identified critical assets, credible threats, consequences, or internal vulnerabilities. What should happen first?",
+      "options": [
+        "Treat all assets as equally critical and apply identical controls",
+        "Conduct a structured security risk assessment to align protective layers with assets, threats, vulnerabilities, and consequences",
+        "Copy another facility’s plan without considering site differences",
+        "Add more cameras because equipment count is the best security metric"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Security investment should be risk-based. Asset criticality, threat plausibility, vulnerabilities, and consequences guide proportionate layered protection.",
+      "incorrectOptionExplanations": [
+        "The option 'Treat all assets as equally critical and apply identical controls' does not apply the controlling principle for security risk assessment to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Copy another facility’s plan without considering site differences' does not apply the controlling principle for security risk assessment to the facts given, so it is not the best answer.",
+        "The option 'Add more cameras because equipment count is the best security metric' does not apply the controlling principle for security risk assessment to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: security risk assessment",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "25f955deb12854410150e573e44a96485cd4538c4fb6619a219f1f3534255eb7"
+    },
+    {
+      "id": "PV2-CORE-CH32-007",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "evidence and privacy in investigations",
+      "itemFamilyId": "PV2-CORE-CH32-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "After suspected theft, a manager wants to search employees’ personal devices without policy, consent, or legal review. What is the best response?",
+      "options": [
+        "Publicly name the suspected employee before evidence is reviewed",
+        "Search every device immediately because workplace suspicion eliminates privacy interests",
+        "Preserve relevant evidence through authorized procedures and coordinate privacy, employment, and legal requirements before intrusive searches",
+        "Delete access logs to avoid identifying the wrong person"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Security investigations require evidence integrity and lawful, proportionate methods. Uncontrolled searches and public accusations create legal and ethical risk.",
+      "incorrectOptionExplanations": [
+        "The option 'Publicly name the suspected employee before evidence is reviewed' does not apply the controlling principle for evidence and privacy in investigations to the facts given, so it is not the best answer.",
+        "The option 'Search every device immediately because workplace suspicion eliminates privacy interests' does not apply the controlling principle for evidence and privacy in investigations to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Delete access logs to avoid identifying the wrong person' does not apply the controlling principle for evidence and privacy in investigations to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: evidence and privacy in investigations",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9698fed86b64ab80e98e2ad448edcf5ef1b6657de40302fa57f8b086022cf846"
+    },
+    {
+      "id": "PV2-CORE-CH32-008",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "security and business continuity",
+      "itemFamilyId": "PV2-CORE-CH32-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A cyberattack disables electronic badges during an emergency. Which resilience measure is most important?",
+      "options": [
+        "Continue normal occupancy without knowing who can enter or evacuate",
+        "Assume mechanical and human fallback controls are unnecessary",
+        "Lock every door until the electronic system is restored",
+        "Maintain tested manual access, accountability, communication, and life-safety procedures that function when primary security technology fails"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Security systems must fail safely and support life safety. Tested manual contingencies preserve controlled access and accountability during technology outages.",
+      "incorrectOptionExplanations": [
+        "The option 'Continue normal occupancy without knowing who can enter or evacuate' does not apply the controlling principle for security and business continuity to the facts given, so it is not the best answer.",
+        "The option 'Assume mechanical and human fallback controls are unnecessary' does not apply the controlling principle for security and business continuity to the facts given, so it is not the best answer.",
+        "The option 'Lock every door until the electronic system is restored' does not apply the controlling principle for security and business continuity to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: security and business continuity",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "76e2f0c1fd6188daacf404a7a9550706721303d8e41d98386299f094e966050c"
+    },
+    {
+      "id": "PV2-CORE-CH32-009",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "threat assessment and behavior",
+      "itemFamilyId": "PV2-CORE-CH32-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a visitor-management audit, the team reviews this case: An employee makes concerning statements and shows escalating behavior, but has not made a direct threat. What is the best organizational response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Threat assessment evaluates patterns and context rather than relying solely on explicit threats or labels. Early proportionate intervention can reduce risk while respecting rights.",
+        "Visitor access should be verified, limited, monitored, and time-bound according to risk. Shared or permanent credentials defeat accountability.",
+        "Security investigations require evidence integrity and lawful, proportionate methods. Uncontrolled searches and public accusations create legal and ethical risk.",
+        "Access technology is undermined by social and procedural bypass. Layered physical, administrative, and cultural controls address the actual failure mode."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses threat assessment and behavior and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'visitor management', but it does not resolve the threat assessment and behavior issue in this case.",
+        "This rationale supports the separate chapter topic 'evidence and privacy in investigations', but it does not resolve the threat assessment and behavior issue in this case.",
+        "This rationale supports the separate chapter topic 'access control and tailgating', but it does not resolve the threat assessment and behavior issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: threat assessment and behavior",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9d2cfe1e5eee4250e92bdf58c191b0a013519976f4cb386455e11c8f5468b5ab"
+    },
+    {
+      "id": "PV2-CORE-CH32-010",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "access control and tailgating",
+      "itemFamilyId": "PV2-CORE-CH32-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a critical-asset vulnerability study, the team reviews this case: Badge readers protect a restricted area, but employees routinely hold the door for unknown persons. Which control improvement is most effective? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Violence emergencies require flexible, integrated planning beyond routine fire evacuation, including communication, law enforcement, medical, and continuity considerations.",
+        "Access technology is undermined by social and procedural bypass. Layered physical, administrative, and cultural controls address the actual failure mode.",
+        "Security systems must fail safely and support life safety. Tested manual contingencies preserve controlled access and accountability during technology outages.",
+        "Visitor access should be verified, limited, monitored, and time-bound according to risk. Shared or permanent credentials defeat accountability."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses access control and tailgating and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'active assailant preparedness', but it does not resolve the access control and tailgating issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'security and business continuity', but it does not resolve the access control and tailgating issue in this case.",
+        "This rationale supports the separate chapter topic 'visitor management', but it does not resolve the access control and tailgating issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: access control and tailgating",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d8b2c62d91ebe98e09b4f6a11182492bb2d6153d43857f74430d81a88371ec2a"
+    },
+    {
+      "id": "PV2-CORE-CH32-011",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "visitor management",
+      "itemFamilyId": "PV2-CORE-CH32-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a lone-worker security plan, the team reviews this case: A vendor technician needs temporary access to a process control room. What is the most defensible approach? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Threat assessment evaluates patterns and context rather than relying solely on explicit threats or labels. Early proportionate intervention can reduce risk while respecting rights.",
+        "Access technology is undermined by social and procedural bypass. Layered physical, administrative, and cultural controls address the actual failure mode.",
+        "Visitor access should be verified, limited, monitored, and time-bound according to risk. Shared or permanent credentials defeat accountability.",
+        "Security investigations require evidence integrity and lawful, proportionate methods. Uncontrolled searches and public accusations create legal and ethical risk."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses visitor management and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'threat assessment and behavior', but it does not resolve the visitor management issue in this case.",
+        "This rationale supports the separate chapter topic 'access control and tailgating', but it does not resolve the visitor management issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'evidence and privacy in investigations', but it does not resolve the visitor management issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: visitor management",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "89bf116ca0faf195a864f1deae61f65adc80602f8eca4f8f68bbfb9d2f4c0def"
+    },
+    {
+      "id": "PV2-CORE-CH32-012",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "lone worker protection",
+      "itemFamilyId": "PV2-CORE-CH32-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an active-assailant preparedness meeting, the team reviews this case: A technician works alone at remote pump stations with unreliable cellular coverage. Which protection plan is strongest? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Security systems must fail safely and support life safety. Tested manual contingencies preserve controlled access and accountability during technology outages.",
+        "Access technology is undermined by social and procedural bypass. Layered physical, administrative, and cultural controls address the actual failure mode.",
+        "Threat assessment evaluates patterns and context rather than relying solely on explicit threats or labels. Early proportionate intervention can reduce risk while respecting rights.",
+        "Lone-worker controls must detect missed check-ins and support timely response under actual coverage and task conditions."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses lone worker protection and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'security and business continuity', but it does not resolve the lone worker protection issue in this case.",
+        "This rationale supports the separate chapter topic 'access control and tailgating', but it does not resolve the lone worker protection issue in this case.",
+        "This rationale supports the separate chapter topic 'threat assessment and behavior', but it does not resolve the lone worker protection issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: lone worker protection",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "718ea61a4cb8d75e8ec6c40b9fe83c74b069e78cbbd09ac548b0ca9ac9456024"
+    },
+    {
+      "id": "PV2-CORE-CH32-013",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "active assailant preparedness",
+      "itemFamilyId": "PV2-CORE-CH32-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a theft and diversion investigation, the team reviews this case: A facility wants to prepare for an active assailant but plans only an annual evacuation drill. What is missing? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Violence emergencies require flexible, integrated planning beyond routine fire evacuation, including communication, law enforcement, medical, and continuity considerations.",
+        "Security systems must fail safely and support life safety. Tested manual contingencies preserve controlled access and accountability during technology outages.",
+        "Threat assessment evaluates patterns and context rather than relying solely on explicit threats or labels. Early proportionate intervention can reduce risk while respecting rights.",
+        "Security investment should be risk-based. Asset criticality, threat plausibility, vulnerabilities, and consequences guide proportionate layered protection."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses active assailant preparedness and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'security and business continuity', but it does not resolve the active assailant preparedness issue in this case.",
+        "This rationale supports the separate chapter topic 'threat assessment and behavior', but it does not resolve the active assailant preparedness issue in this case.",
+        "This rationale supports the separate chapter topic 'security risk assessment', but it does not resolve the active assailant preparedness issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: active assailant preparedness",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "63f65731e541d4b961fac0435044e79af64f3cac2fd293f6efd74b9e72daf795"
+    },
+    {
+      "id": "PV2-CORE-CH32-014",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "security risk assessment",
+      "itemFamilyId": "PV2-CORE-CH32-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a security-business continuity exercise, the team reviews this case: A site spends heavily on perimeter cameras but has not identified critical assets, credible threats, consequences, or internal vulnerabilities. What should happen first? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Visitor access should be verified, limited, monitored, and time-bound according to risk. Shared or permanent credentials defeat accountability.",
+        "Security investment should be risk-based. Asset criticality, threat plausibility, vulnerabilities, and consequences guide proportionate layered protection.",
+        "Threat assessment evaluates patterns and context rather than relying solely on explicit threats or labels. Early proportionate intervention can reduce risk while respecting rights.",
+        "Security systems must fail safely and support life safety. Tested manual contingencies preserve controlled access and accountability during technology outages."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses security risk assessment and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'visitor management', but it does not resolve the security risk assessment issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'threat assessment and behavior', but it does not resolve the security risk assessment issue in this case.",
+        "This rationale supports the separate chapter topic 'security and business continuity', but it does not resolve the security risk assessment issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: security risk assessment",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e9a6b5c9b855c643099f8d7e14cffd5916873c5932102dee344f5203249beb26"
+    },
+    {
+      "id": "PV2-CORE-CH32-015",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "evidence and privacy in investigations",
+      "itemFamilyId": "PV2-CORE-CH32-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a workplace violence threat assessment, the team reviews this case: After suspected theft, a manager wants to search employees’ personal devices without policy, consent, or legal review. What is the best response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Threat assessment evaluates patterns and context rather than relying solely on explicit threats or labels. Early proportionate intervention can reduce risk while respecting rights.",
+        "Access technology is undermined by social and procedural bypass. Layered physical, administrative, and cultural controls address the actual failure mode.",
+        "Security investigations require evidence integrity and lawful, proportionate methods. Uncontrolled searches and public accusations create legal and ethical risk.",
+        "Visitor access should be verified, limited, monitored, and time-bound according to risk. Shared or permanent credentials defeat accountability."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses evidence and privacy in investigations and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'threat assessment and behavior', but it does not resolve the evidence and privacy in investigations issue in this case.",
+        "This rationale supports the separate chapter topic 'access control and tailgating', but it does not resolve the evidence and privacy in investigations issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'visitor management', but it does not resolve the evidence and privacy in investigations issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: evidence and privacy in investigations",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d6cc930b71940d1173dbe988d569948682f8259a17247ef695d6faa363aeccd6"
+    },
+    {
+      "id": "PV2-CORE-CH32-016",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "security and business continuity",
+      "itemFamilyId": "PV2-CORE-CH32-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an access-control review, the team reviews this case: A cyberattack disables electronic badges during an emergency. Which resilience measure is most important? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Threat assessment evaluates patterns and context rather than relying solely on explicit threats or labels. Early proportionate intervention can reduce risk while respecting rights.",
+        "Access technology is undermined by social and procedural bypass. Layered physical, administrative, and cultural controls address the actual failure mode.",
+        "Violence emergencies require flexible, integrated planning beyond routine fire evacuation, including communication, law enforcement, medical, and continuity considerations.",
+        "Security systems must fail safely and support life safety. Tested manual contingencies preserve controlled access and accountability during technology outages."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses security and business continuity and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'threat assessment and behavior', but it does not resolve the security and business continuity issue in this case.",
+        "This rationale supports the separate chapter topic 'access control and tailgating', but it does not resolve the security and business continuity issue in this case.",
+        "This rationale supports the separate chapter topic 'active assailant preparedness', but it does not resolve the security and business continuity issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: security and business continuity",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "88fe74f5a6a300c1756381da1b7fcac5dfaf639f0da6c725e131c58a2e303b43"
+    },
+    {
+      "id": "PV2-CORE-CH32-017",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Layered security",
+      "itemFamilyId": "PV2-CORE-CH32-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an access-control review, the team reviews this question: Which facility-security design best uses defense in depth? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Layered security uses independent and complementary measures so failure of one control does not expose the entire facility.",
+        "Security planning protects information that could expose critical assets while preserving authorized safety and operating access.",
+        "Least-privilege access should be specific to the person, purpose, place, and duration, with logging and closure.",
+        "Security controls should be risk-based and aligned with the assets and pathways that matter most to the facility."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Information security interface', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Access authorization', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Security risk assessment', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, physical security, access control, and facility protection, pp. 731-741; Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/workplace-violence"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8c02b84d29fd2c29edbba704b1571967158ba3acf9c4da6c7829ebc2cc858d30"
+    },
+    {
+      "id": "PV2-CORE-CH32-018",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Access authorization",
+      "itemFamilyId": "PV2-CORE-CH32-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a visitor-management audit, the team reviews this question: A contractor needs temporary access to one process area for two days. What is the strongest access-control approach? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Layered security uses independent and complementary measures so failure of one control does not expose the entire facility.",
+        "Least-privilege access should be specific to the person, purpose, place, and duration, with logging and closure.",
+        "Suspicious items should be left undisturbed while trained authorities evaluate them under the emergency plan.",
+        "Security planning protects information that could expose critical assets while preserving authorized safety and operating access."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Layered security', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Suspicious package', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Information security interface', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, access control and employee control, pp. 733-735; Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/workplace-violence"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "73c852cae8dd20ec30321215e44974066baebac8918bfd88f0f0f749deca66ce"
+    },
+    {
+      "id": "PV2-CORE-CH32-019",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Security risk assessment",
+      "itemFamilyId": "PV2-CORE-CH32-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a critical-asset vulnerability study, the team reviews this question: What should a site-security risk assessment consider before choosing controls? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Least-privilege access should be specific to the person, purpose, place, and duration, with logging and closure.",
+        "Security planning protects information that could expose critical assets while preserving authorized safety and operating access.",
+        "Security controls should be risk-based and aligned with the assets and pathways that matter most to the facility.",
+        "Layered security uses independent and complementary measures so failure of one control does not expose the entire facility."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Access authorization', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Information security interface', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Layered security', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, site security plan and protection elements, pp. 731-741; Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/workplace-violence"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "86b025b1dcb55cb01fb54bbce38d842d9577f92e9c7ed17dfa6a378c88a2cd19"
+    },
+    {
+      "id": "PV2-CORE-CH32-020",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Visitor control",
+      "itemFamilyId": "PV2-CORE-CH32-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a lone-worker security plan, the team reviews this question: Which visitor-control practice provides the strongest accountability? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Effective correction combines engineering, administrative, behavioral, and monitoring controls based on why tailgating occurs.",
+        "Exercises validate the entire detection-to-response chain and should produce assigned, verified corrective actions.",
+        "Suspicious items should be left undisturbed while trained authorities evaluate them under the emergency plan.",
+        "A complete visitor process controls identity, purpose, movement, sponsor responsibility, and credential recovery."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Tailgating control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Security exercise', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Suspicious package', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, access control and employee control, pp. 733-735; Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/workplace-violence"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "512228e4f80e2838ca4bf7d4f25e796e30dbea8044183478af6e9b83a755d44f"
+    },
+    {
+      "id": "PV2-CORE-CH32-021",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Information security interface",
+      "itemFamilyId": "PV2-CORE-CH32-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an active-assailant preparedness meeting, the team reviews this question: A printed process diagram with emergency isolation points is left in a public lobby. What should be done? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Security planning protects information that could expose critical assets while preserving authorized safety and operating access.",
+        "Least-privilege access should be specific to the person, purpose, place, and duration, with logging and closure.",
+        "Security controls should be risk-based and aligned with the assets and pathways that matter most to the facility.",
+        "Suspicious items should be left undisturbed while trained authorities evaluate them under the emergency plan."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Access authorization', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Security risk assessment', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Suspicious package', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, information security and equipment/facility protection, pp. 734-736; Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/workplace-violence"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fcbc315eaaddcd9ac8197c75b6414548344bbbefa9c1c3828ad17640ba0f8624"
+    },
+    {
+      "id": "PV2-CORE-CH32-022",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Tailgating control",
+      "itemFamilyId": "PV2-CORE-CH32-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a theft and diversion investigation, the team reviews this question: Unauthorized tailgating occurs repeatedly at a controlled entrance. Which response is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Exercises validate the entire detection-to-response chain and should produce assigned, verified corrective actions.",
+        "Effective correction combines engineering, administrative, behavioral, and monitoring controls based on why tailgating occurs.",
+        "A complete visitor process controls identity, purpose, movement, sponsor responsibility, and credential recovery.",
+        "Suspicious items should be left undisturbed while trained authorities evaluate them under the emergency plan."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Security exercise', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Visitor control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Suspicious package', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 32, physical security and access control, pp. 733-735; Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/workplace-violence"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f44616f358eba444c8d14f0de23cc0ce5140b4e0325c858ba5408162cc6bde8b"
+    },
+    {
+      "id": "PV2-CORE-CH32-023",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Suspicious package",
+      "itemFamilyId": "PV2-CORE-CH32-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a security-business continuity exercise, the team reviews this question: An unattended package with unusual wiring is found near a critical entrance. What is the best immediate action? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Least-privilege access should be specific to the person, purpose, place, and duration, with logging and closure.",
+        "Effective correction combines engineering, administrative, behavioral, and monitoring controls based on why tailgating occurs.",
+        "Suspicious items should be left undisturbed while trained authorities evaluate them under the emergency plan.",
+        "Security planning protects information that could expose critical assets while preserving authorized safety and operating access."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Access authorization', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Tailgating control', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Information security interface', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 32 and 39, site security and bomb-threat response, pp. 731-741 and 882-884; Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/workplace-violence"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d4bf8dfd0ebe33bd9b807f3dcfd1cd9a9190463e34cbae758128fecd8f3101f2"
+    },
+    {
+      "id": "PV2-CORE-CH32-024",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Security exercise",
+      "itemFamilyId": "PV2-CORE-CH32-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a workplace violence threat assessment, the team reviews this question: A security drill shows that an alarm is detected but no one knows who contacts law enforcement. What should follow? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Suspicious items should be left undisturbed while trained authorities evaluate them under the emergency plan.",
+        "A complete visitor process controls identity, purpose, movement, sponsor responsibility, and credential recovery.",
+        "Effective correction combines engineering, administrative, behavioral, and monitoring controls based on why tailgating occurs.",
+        "Exercises validate the entire detection-to-response chain and should produce assigned, verified corrective actions."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Suspicious package', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Visitor control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Tailgating control', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 32 and 39, site security response and emergency exercises, pp. 731-741 and 870-889; Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/workplace-violence"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0602e2c309faace5c7b83f628395125f845eaf306b3c4da10388d406e40647c9"
+    },
+    {
+      "id": "PV2-CORE-CH32-025",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "threat assessment and behavior",
+      "itemFamilyId": "PV2-CORE-CH32-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a critical-asset vulnerability study, a supervisor proposes: \"Wait for an explicit threat because no preventive action is justified before one\". The underlying case is: An employee makes concerning statements and shows escalating behavior, but has not made a direct threat. What is the best organizational response? Which alternative is the most defensible correction?",
+      "options": [
+        "Use a trained multidisciplinary threat-assessment process focused on behavior, context, access, stressors, protective factors, and proportionate intervention",
+        "Terminate the employee immediately based only on rumor",
+        "Ask coworkers to investigate privately without professional or management support",
+        "Wait for an explicit threat because no preventive action is justified before one"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Threat assessment evaluates patterns and context rather than relying solely on explicit threats or labels. Early proportionate intervention can reduce risk while respecting rights.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Terminate the employee immediately based only on rumor' remains incomplete or misapplies the controlling threat assessment and behavior principle.",
+        "The proposed response 'Ask coworkers to investigate privately without professional or management support' remains incomplete or misapplies the controlling threat assessment and behavior principle.",
+        "The proposed response 'Wait for an explicit threat because no preventive action is justified before one' remains incomplete or misapplies the controlling threat assessment and behavior principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: threat assessment and behavior",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5dfb485239a495d16f3d2c530b8b0d4bf7f0b3f13549c65796065a5993b7f6fb"
+    },
+    {
+      "id": "PV2-CORE-CH32-026",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "access control and tailgating",
+      "itemFamilyId": "PV2-CORE-CH32-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a lone-worker security plan, a supervisor proposes: \"Post the access code publicly so visitors do not need escorts\". The underlying case is: Badge readers protect a restricted area, but employees routinely hold the door for unknown persons. Which control improvement is most effective? Which alternative is the most defensible correction?",
+      "options": [
+        "Disable the reader during busy arrival periods",
+        "Combine physical anti-tailgating measures, visitor procedures, employee expectations, reporting, and supervision based on the area’s risk",
+        "Issue more badges without addressing door behavior",
+        "Post the access code publicly so visitors do not need escorts"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Access technology is undermined by social and procedural bypass. Layered physical, administrative, and cultural controls address the actual failure mode.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Disable the reader during busy arrival periods' remains incomplete or misapplies the controlling access control and tailgating principle.",
+        null,
+        "The proposed response 'Issue more badges without addressing door behavior' remains incomplete or misapplies the controlling access control and tailgating principle.",
+        "The proposed response 'Post the access code publicly so visitors do not need escorts' remains incomplete or misapplies the controlling access control and tailgating principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: access control and tailgating",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d299286771ef921a57bebea95a031598e54edfce95671df94e0cbad7e8174763"
+    },
+    {
+      "id": "PV2-CORE-CH32-027",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "visitor management",
+      "itemFamilyId": "PV2-CORE-CH32-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an active-assailant preparedness meeting, a supervisor proposes: \"Rely on the vendor uniform as sufficient identity verification\". The underlying case is: A vendor technician needs temporary access to a process control room. What is the most defensible approach? Which alternative is the most defensible correction?",
+      "options": [
+        "Rely on the vendor uniform as sufficient identity verification",
+        "Issue a permanent unrestricted badge so future vendor visits do not require repeated authorization, escort, or access termination",
+        "Verify identity and need, authorize least-privilege access, brief hazards and security rules, escort or monitor as required, and terminate access afterward",
+        "Allow entry using another employee’s credentials"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Visitor access should be verified, limited, monitored, and time-bound according to risk. Shared or permanent credentials defeat accountability.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Rely on the vendor uniform as sufficient identity verification' remains incomplete or misapplies the controlling visitor management principle.",
+        "The proposed response 'Issue a permanent unrestricted badge so future vendor visits do not require repeated authorization, escort, or access termination' remains incomplete or misapplies the controlling visitor management principle.",
+        null,
+        "The proposed response 'Allow entry using another employee’s credentials' remains incomplete or misapplies the controlling visitor management principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: visitor management",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "66c3e0db69016b5b7e93306b80a3e10324f5f0a91eb96510ff4c9c53eb2a8294"
+    },
+    {
+      "id": "PV2-CORE-CH32-028",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "lone worker protection",
+      "itemFamilyId": "PV2-CORE-CH32-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a theft and diversion investigation, a supervisor proposes: \"Require the technician to send a text at the end of the week\". The underlying case is: A technician works alone at remote pump stations with unreliable cellular coverage. Which protection plan is strongest? Which alternative is the most defensible correction?",
+      "options": [
+        "Prohibit all communication to preserve battery life until an emergency occurs",
+        "Rely only on personal confidence and experience",
+        "Require the technician to send a text at the end of the week",
+        "Use a risk-based check-in and escalation system with reliable communication alternatives, location information, task limits, and emergency response capability"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Lone-worker controls must detect missed check-ins and support timely response under actual coverage and task conditions.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Prohibit all communication to preserve battery life until an emergency occurs' remains incomplete or misapplies the controlling lone worker protection principle.",
+        "The proposed response 'Rely only on personal confidence and experience' remains incomplete or misapplies the controlling lone worker protection principle.",
+        "The proposed response 'Require the technician to send a text at the end of the week' remains incomplete or misapplies the controlling lone worker protection principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: lone worker protection",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5163d6e20ecc45260b186b9e5a0a7254801a138b9ef751b1bdb1148ada430613"
+    },
+    {
+      "id": "PV2-CORE-CH32-029",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "active assailant preparedness",
+      "itemFamilyId": "PV2-CORE-CH32-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a security-business continuity exercise, a supervisor proposes: \"A public list of all security vulnerabilities and access codes\". The underlying case is: A facility wants to prepare for an active assailant but plans only an annual evacuation drill. What is missing? Which alternative is the most defensible correction?",
+      "options": [
+        "A broader, site-specific plan covering notification, escape and shelter options, law-enforcement interface, accessibility, reunification, medical response, and recovery",
+        "A requirement that every employee physically confront an attacker",
+        "A public list of all security vulnerabilities and access codes",
+        "A single fixed response that applies regardless of the attacker’s location"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Violence emergencies require flexible, integrated planning beyond routine fire evacuation, including communication, law enforcement, medical, and continuity considerations.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'A requirement that every employee physically confront an attacker' remains incomplete or misapplies the controlling active assailant preparedness principle.",
+        "The proposed response 'A public list of all security vulnerabilities and access codes' remains incomplete or misapplies the controlling active assailant preparedness principle.",
+        "The proposed response 'A single fixed response that applies regardless of the attacker’s location' remains incomplete or misapplies the controlling active assailant preparedness principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: active assailant preparedness",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7695147d5912793cbd7c3c8325685f42424e072200cf6070857547d9d90b3b39"
+    },
+    {
+      "id": "PV2-CORE-CH32-030",
+      "version": 1,
+      "chapterId": "ch-32",
+      "chapterTitle": "Site Security",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A5.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.05",
+          "role": "secondary"
+        }
+      ],
+      "concept": "security risk assessment",
+      "itemFamilyId": "PV2-CORE-CH32-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a workplace violence threat assessment, a supervisor proposes: \"Treat all assets as equally critical and apply identical controls\". The underlying case is: A site spends heavily on perimeter cameras but has not identified critical assets, credible threats, consequences, or internal vulnerabilities. What should happen first? Which alternative is the most defensible correction?",
+      "options": [
+        "Copy another facility’s plan without considering site differences",
+        "Conduct a structured security risk assessment to align protective layers with assets, threats, vulnerabilities, and consequences",
+        "Add more cameras because equipment count is the best security metric",
+        "Treat all assets as equally critical and apply identical controls"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Security investment should be risk-based. Asset criticality, threat plausibility, vulnerabilities, and consequences guide proportionate layered protection.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Copy another facility’s plan without considering site differences' remains incomplete or misapplies the controlling security risk assessment principle.",
+        null,
+        "The proposed response 'Add more cameras because equipment count is the best security metric' remains incomplete or misapplies the controlling security risk assessment principle.",
+        "The proposed response 'Treat all assets as equally critical and apply identical controls' remains incomplete or misapplies the controlling security risk assessment principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 32, pp. 731-742; OSHA workplace-violence and security guidance; curated topic: security risk assessment",
+      "sourceUrls": [
+        "https://www.osha.gov/workplace-violence",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "37a30b7f080862d442f237ae93be751fe8a132b18b3923ed4f60e0ebb8fd0cd0"
+    }
+  ]
+}

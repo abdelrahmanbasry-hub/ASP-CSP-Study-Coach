@@ -1,0 +1,2337 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-25-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-25",
+  "chapterTitle": "Construction Safety",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH25-001",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "competent person authority",
+      "itemFamilyId": "PV2-CORE-CH25-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A contractor designates a competent person for excavations but gives that person no authority to stop work or correct hazards. What is the main deficiency?",
+      "options": [
+        "A competent person must be capable of identifying hazards and have authorization to take prompt corrective measures",
+        "The designation is valid as long as it appears on a daily form",
+        "Authority is unnecessary when a superintendent is somewhere on the project",
+        "The person must hold a CSP credential for every excavation"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Competence includes both knowledge and authority to act. A title without correction authority does not meet the operational role.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'The designation is valid as long as it appears on a daily form' does not apply the controlling principle for competent person authority to the facts given, so it is not the best answer.",
+        "The option 'Authority is unnecessary when a superintendent is somewhere on the project' does not apply the controlling principle for competent person authority to the facts given, so it is not the best answer.",
+        "The option 'The person must hold a CSP credential for every excavation' does not apply the controlling principle for competent person authority to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: competent person authority",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d73201dba7a1889a1e1d0820890ebc83d924c02dc6e4804731cfb131e1b028b7"
+    },
+    {
+      "id": "PV2-CORE-CH25-002",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "trench protective systems",
+      "itemFamilyId": "PV2-CORE-CH25-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Workers enter an 8-foot-deep trench in unstable soil. The walls are near vertical, and no protective system is installed. What is the best response?",
+      "options": [
+        "Use a ladder as the protective system because it provides egress",
+        "Stop entry and provide a properly designed sloping, shoring, or shielding system unless a specific exception is established",
+        "Allow entry if workers remain at least two feet apart",
+        "Permit the work when the excavation has been open less than one shift"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Employees in excavations generally require cave-in protection based on depth, soil, and conditions. Spacing, duration, and ladders do not prevent collapse.",
+      "incorrectOptionExplanations": [
+        "The option 'Use a ladder as the protective system because it provides egress' does not apply the controlling principle for trench protective systems to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Allow entry if workers remain at least two feet apart' does not apply the controlling principle for trench protective systems to the facts given, so it is not the best answer.",
+        "The option 'Permit the work when the excavation has been open less than one shift' does not apply the controlling principle for trench protective systems to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: trench protective systems",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e4d6f033ea96dbe9f5803fd9fbb2bbee785192caf4d016ef99ba5c1c42ce5563"
+    },
+    {
+      "id": "PV2-CORE-CH25-003",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "excavation inspection after change",
+      "itemFamilyId": "PV2-CORE-CH25-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A trench was inspected in the morning, then heavy rain occurs and spoil begins sloughing. What is required before reentry?",
+      "options": [
+        "Workers may reenter if they wear hard hats and high-visibility vests",
+        "The morning inspection remains valid for the entire shift",
+        "A competent person should reinspect the excavation and protective system after the hazard-increasing event and correct unsafe conditions",
+        "Inspection can wait until the next scheduled weekly audit"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Excavations require inspection after rainstorms or other events that could increase hazards, not merely at fixed intervals.",
+      "incorrectOptionExplanations": [
+        "The option 'Workers may reenter if they wear hard hats and high-visibility vests' does not apply the controlling principle for excavation inspection after change to the facts given, so it is not the best answer.",
+        "The option 'The morning inspection remains valid for the entire shift' does not apply the controlling principle for excavation inspection after change to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Inspection can wait until the next scheduled weekly audit' does not apply the controlling principle for excavation inspection after change to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: excavation inspection after change",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ce4f917b4b6c9a0486eb0f02df7ebb470757cb2e56b7a5c990b40f472afac501"
+    },
+    {
+      "id": "PV2-CORE-CH25-004",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08g",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "scaffold platform and access",
+      "itemFamilyId": "PV2-CORE-CH25-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A scaffold is adequately supported, but workers climb cross braces and the platform has large gaps. Which conclusion is correct?",
+      "options": [
+        "Cross braces are acceptable access whenever employees maintain three points of contact",
+        "Platform gaps are irrelevant if workers use personal fall arrest",
+        "The scaffold is safe because foundation and load capacity are adequate",
+        "Provide proper access and a fully planked or decked platform within applicable allowances before use"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Structural support alone is not sufficient. Scaffold rules address safe access, platform construction, fall protection, capacity, and inspection as interacting requirements.",
+      "incorrectOptionExplanations": [
+        "The option 'Cross braces are acceptable access whenever employees maintain three points of contact' does not apply the controlling principle for scaffold platform and access to the facts given, so it is not the best answer.",
+        "The option 'Platform gaps are irrelevant if workers use personal fall arrest' does not apply the controlling principle for scaffold platform and access to the facts given, so it is not the best answer.",
+        "The option 'The scaffold is safe because foundation and load capacity are adequate' does not apply the controlling principle for scaffold platform and access to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: scaffold platform and access",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b078ce54539abf39b786e2387f526c9a5cf3afdbf6e155c19fa7bae9cfcaae84"
+    },
+    {
+      "id": "PV2-CORE-CH25-005",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fall protection planning",
+      "itemFamilyId": "PV2-CORE-CH25-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Roof work occurs near an unprotected edge. Management proposes a monitor but cannot show that a safety-monitoring system is permitted for the work and configuration. What should be done?",
+      "options": [
+        "Select a compliant conventional or specifically authorized fall-protection method based on the task, roof, and standard requirements",
+        "Rely on worker experience when the work will take less than 30 minutes",
+        "Mark the edge with paint and treat it as a guardrail system",
+        "Use a monitor for any construction task because verbal warnings are always acceptable"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Fall-protection method depends on the applicable construction provisions. Informal monitoring, short duration, and painted lines do not replace a permitted system.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Rely on worker experience when the work will take less than 30 minutes' does not apply the controlling principle for fall protection planning to the facts given, so it is not the best answer.",
+        "The option 'Mark the edge with paint and treat it as a guardrail system' does not apply the controlling principle for fall protection planning to the facts given, so it is not the best answer.",
+        "The option 'Use a monitor for any construction task because verbal warnings are always acceptable' does not apply the controlling principle for fall protection planning to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: fall protection planning",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cda1ff870a458e47d1764e6db9ccc532d99d9f57ebe61bd4265843df536850b0"
+    },
+    {
+      "id": "PV2-CORE-CH25-006",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "crane lift planning and ground conditions",
+      "itemFamilyId": "PV2-CORE-CH25-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A mobile crane’s load chart supports the planned load and radius, but outriggers will be placed over an unverified underground utility vault. What should occur?",
+      "options": [
+        "Proceed because the load chart already accounts for every possible ground condition",
+        "Verify ground and supporting conditions and provide adequate support before setting up or lifting",
+        "Place loose scrap lumber under the outriggers without engineering evaluation",
+        "Increase boom angle to compensate for weak support"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Crane capacity assumes stable support. Ground bearing, voids, utilities, setup, and outrigger support must be addressed separately from the load chart.",
+      "incorrectOptionExplanations": [
+        "The option 'Proceed because the load chart already accounts for every possible ground condition' does not apply the controlling principle for crane lift planning and ground conditions to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Place loose scrap lumber under the outriggers without engineering evaluation' does not apply the controlling principle for crane lift planning and ground conditions to the facts given, so it is not the best answer.",
+        "The option 'Increase boom angle to compensate for weak support' does not apply the controlling principle for crane lift planning and ground conditions to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: crane lift planning and ground conditions",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1697c793747c075fe0c3ce78df7509d7b7b52ee8e3fccf230d99772463f4914b"
+    },
+    {
+      "id": "PV2-CORE-CH25-007",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "silica exposure control",
+      "itemFamilyId": "PV2-CORE-CH25-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Workers dry-cut concrete indoors with visible dust. A supervisor proposes disposable respirators without changing the task. What is the strongest response?",
+      "options": [
+        "Rely on voluntary filtering facepieces because visible dust is only a nuisance",
+        "Use compressed air to clean clothing and the work area after cutting",
+        "Use the applicable specified control method or exposure assessment, implement effective engineering and work-practice controls, and provide respiratory protection as required",
+        "Move the cutting closer to other workers so the dust disperses"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Respirable crystalline silica control prioritizes specified wet or ventilation methods and exposure-based program requirements; respirators do not replace feasible source controls.",
+      "incorrectOptionExplanations": [
+        "The option 'Rely on voluntary filtering facepieces because visible dust is only a nuisance' does not apply the controlling principle for silica exposure control to the facts given, so it is not the best answer.",
+        "The option 'Use compressed air to clean clothing and the work area after cutting' does not apply the controlling principle for silica exposure control to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Move the cutting closer to other workers so the dust disperses' does not apply the controlling principle for silica exposure control to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: silica exposure control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3e84dd397d6454a93913373a403126e6a298f14a85ea339fc6a2eb1aa62c1084"
+    },
+    {
+      "id": "PV2-CORE-CH25-008",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "demolition engineering survey",
+      "itemFamilyId": "PV2-CORE-CH25-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A building is scheduled for demolition, but no one has evaluated structural condition, utilities, hazardous materials, or collapse sequence. What should happen first?",
+      "options": [
+        "Disconnect utilities only after the first structural members are removed",
+        "Rely on the demolition contractor’s general experience without documenting site conditions",
+        "Begin with interior removal so hidden conditions become visible during work",
+        "Complete the required engineering and hazard survey, control utilities and hazardous materials, and plan the demolition sequence before work begins"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Demolition requires preplanning based on an engineering survey and hazard controls. Discovering critical conditions by starting demolition creates uncontrolled collapse and exposure risk.",
+      "incorrectOptionExplanations": [
+        "The option 'Disconnect utilities only after the first structural members are removed' does not apply the controlling principle for demolition engineering survey to the facts given, so it is not the best answer.",
+        "The option 'Rely on the demolition contractor’s general experience without documenting site conditions' does not apply the controlling principle for demolition engineering survey to the facts given, so it is not the best answer.",
+        "The option 'Begin with interior removal so hidden conditions become visible during work' does not apply the controlling principle for demolition engineering survey to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: demolition engineering survey",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "483b1cf151ec4d29394de9b54a4dcfff860d4c98efe9491bea43fa2e79bdc162"
+    },
+    {
+      "id": "PV2-CORE-CH25-009",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "competent person authority",
+      "itemFamilyId": "PV2-CORE-CH25-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a trench protective-system review, the team reviews this case: A contractor designates a competent person for excavations but gives that person no authority to stop work or correct hazards. What is the main deficiency? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Competence includes both knowledge and authority to act. A title without correction authority does not meet the operational role.",
+        "Demolition requires preplanning based on an engineering survey and hazard controls. Discovering critical conditions by starting demolition creates uncontrolled collapse and exposure risk.",
+        "Fall-protection method depends on the applicable construction provisions. Informal monitoring, short duration, and painted lines do not replace a permitted system.",
+        "Respirable crystalline silica control prioritizes specified wet or ventilation methods and exposure-based program requirements; respirators do not replace feasible source controls."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses competent person authority and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'demolition engineering survey', but it does not resolve the competent person authority issue in this case.",
+        "This rationale supports the separate chapter topic 'fall protection planning', but it does not resolve the competent person authority issue in this case.",
+        "This rationale supports the separate chapter topic 'silica exposure control', but it does not resolve the competent person authority issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: competent person authority",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e42eb9db51ecca1905df149d16fa6e190fd80ee9cb65dc08849ad2406f3a7dbf"
+    },
+    {
+      "id": "PV2-CORE-CH25-010",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "trench protective systems",
+      "itemFamilyId": "PV2-CORE-CH25-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a crane lift plan, the team reviews this case: Workers enter an 8-foot-deep trench in unstable soil. The walls are near vertical, and no protective system is installed. What is the best response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Crane capacity assumes stable support. Ground bearing, voids, utilities, setup, and outrigger support must be addressed separately from the load chart.",
+        "Employees in excavations generally require cave-in protection based on depth, soil, and conditions. Spacing, duration, and ladders do not prevent collapse.",
+        "Structural support alone is not sufficient. Scaffold rules address safe access, platform construction, fall protection, capacity, and inspection as interacting requirements.",
+        "Fall-protection method depends on the applicable construction provisions. Informal monitoring, short duration, and painted lines do not replace a permitted system."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses trench protective systems and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'crane lift planning and ground conditions', but it does not resolve the trench protective systems issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'scaffold platform and access', but it does not resolve the trench protective systems issue in this case.",
+        "This rationale supports the separate chapter topic 'fall protection planning', but it does not resolve the trench protective systems issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: trench protective systems",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "efaa8229ea3c46ae9498bbe2e49386223accc639e7af81c3d633152c1a63c4f9"
+    },
+    {
+      "id": "PV2-CORE-CH25-011",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "excavation inspection after change",
+      "itemFamilyId": "PV2-CORE-CH25-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fall-protection decision, the team reviews this case: A trench was inspected in the morning, then heavy rain occurs and spoil begins sloughing. What is required before reentry? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Respirable crystalline silica control prioritizes specified wet or ventilation methods and exposure-based program requirements; respirators do not replace feasible source controls.",
+        "Fall-protection method depends on the applicable construction provisions. Informal monitoring, short duration, and painted lines do not replace a permitted system.",
+        "Excavations require inspection after rainstorms or other events that could increase hazards, not merely at fixed intervals.",
+        "Structural support alone is not sufficient. Scaffold rules address safe access, platform construction, fall protection, capacity, and inspection as interacting requirements."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses excavation inspection after change and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'silica exposure control', but it does not resolve the excavation inspection after change issue in this case.",
+        "This rationale supports the separate chapter topic 'fall protection planning', but it does not resolve the excavation inspection after change issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'scaffold platform and access', but it does not resolve the excavation inspection after change issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: excavation inspection after change",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "472bd6388408f48be4a4e6df0a7b4c6b7a85b9eb59b6cb545f2ec2f5d2349b75"
+    },
+    {
+      "id": "PV2-CORE-CH25-012",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08g",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "scaffold platform and access",
+      "itemFamilyId": "PV2-CORE-CH25-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a steel-erection coordination meeting, the team reviews this case: A scaffold is adequately supported, but workers climb cross braces and the platform has large gaps. Which conclusion is correct? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Competence includes both knowledge and authority to act. A title without correction authority does not meet the operational role.",
+        "Excavations require inspection after rainstorms or other events that could increase hazards, not merely at fixed intervals.",
+        "Crane capacity assumes stable support. Ground bearing, voids, utilities, setup, and outrigger support must be addressed separately from the load chart.",
+        "Structural support alone is not sufficient. Scaffold rules address safe access, platform construction, fall protection, capacity, and inspection as interacting requirements."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses scaffold platform and access and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'competent person authority', but it does not resolve the scaffold platform and access issue in this case.",
+        "This rationale supports the separate chapter topic 'excavation inspection after change', but it does not resolve the scaffold platform and access issue in this case.",
+        "This rationale supports the separate chapter topic 'crane lift planning and ground conditions', but it does not resolve the scaffold platform and access issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: scaffold platform and access",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a25a3689e68684e98ee9899447a63c376b7186edeb0a912f12a7dee559512753"
+    },
+    {
+      "id": "PV2-CORE-CH25-013",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fall protection planning",
+      "itemFamilyId": "PV2-CORE-CH25-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a concrete and masonry work audit, the team reviews this case: Roof work occurs near an unprotected edge. Management proposes a monitor but cannot show that a safety-monitoring system is permitted for the work and configuration. What should be done? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Fall-protection method depends on the applicable construction provisions. Informal monitoring, short duration, and painted lines do not replace a permitted system.",
+        "Competence includes both knowledge and authority to act. A title without correction authority does not meet the operational role.",
+        "Demolition requires preplanning based on an engineering survey and hazard controls. Discovering critical conditions by starting demolition creates uncontrolled collapse and exposure risk.",
+        "Employees in excavations generally require cave-in protection based on depth, soil, and conditions. Spacing, duration, and ladders do not prevent collapse."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses fall protection planning and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'competent person authority', but it does not resolve the fall protection planning issue in this case.",
+        "This rationale supports the separate chapter topic 'demolition engineering survey', but it does not resolve the fall protection planning issue in this case.",
+        "This rationale supports the separate chapter topic 'trench protective systems', but it does not resolve the fall protection planning issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: fall protection planning",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "932e147fb5dd97e67ad0dfc894650e01f61a4407bff03f90f9d2fc922a1f869c"
+    },
+    {
+      "id": "PV2-CORE-CH25-014",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "crane lift planning and ground conditions",
+      "itemFamilyId": "PV2-CORE-CH25-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a demolition hazard assessment, the team reviews this case: A mobile crane’s load chart supports the planned load and radius, but outriggers will be placed over an unverified underground utility vault. What should occur? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Structural support alone is not sufficient. Scaffold rules address safe access, platform construction, fall protection, capacity, and inspection as interacting requirements.",
+        "Crane capacity assumes stable support. Ground bearing, voids, utilities, setup, and outrigger support must be addressed separately from the load chart.",
+        "Employees in excavations generally require cave-in protection based on depth, soil, and conditions. Spacing, duration, and ladders do not prevent collapse.",
+        "Demolition requires preplanning based on an engineering survey and hazard controls. Discovering critical conditions by starting demolition creates uncontrolled collapse and exposure risk."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses crane lift planning and ground conditions and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'scaffold platform and access', but it does not resolve the crane lift planning and ground conditions issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'trench protective systems', but it does not resolve the crane lift planning and ground conditions issue in this case.",
+        "This rationale supports the separate chapter topic 'demolition engineering survey', but it does not resolve the crane lift planning and ground conditions issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: crane lift planning and ground conditions",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1deb889988f470ddf046c63b6fcc33f674ac2723856e4c34075702a67b457f80"
+    },
+    {
+      "id": "PV2-CORE-CH25-015",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "silica exposure control",
+      "itemFamilyId": "PV2-CORE-CH25-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a construction preplanning meeting, the team reviews this case: Workers dry-cut concrete indoors with visible dust. A supervisor proposes disposable respirators without changing the task. What is the strongest response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Competence includes both knowledge and authority to act. A title without correction authority does not meet the operational role.",
+        "Crane capacity assumes stable support. Ground bearing, voids, utilities, setup, and outrigger support must be addressed separately from the load chart.",
+        "Respirable crystalline silica control prioritizes specified wet or ventilation methods and exposure-based program requirements; respirators do not replace feasible source controls.",
+        "Excavations require inspection after rainstorms or other events that could increase hazards, not merely at fixed intervals."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses silica exposure control and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'competent person authority', but it does not resolve the silica exposure control issue in this case.",
+        "This rationale supports the separate chapter topic 'crane lift planning and ground conditions', but it does not resolve the silica exposure control issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'excavation inspection after change', but it does not resolve the silica exposure control issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: silica exposure control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7cd3de12c98565b858134a186d578a6927d5a76631cb18b7865b77fb92be2900"
+    },
+    {
+      "id": "PV2-CORE-CH25-016",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "demolition engineering survey",
+      "itemFamilyId": "PV2-CORE-CH25-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a scaffold inspection, the team reviews this case: A building is scheduled for demolition, but no one has evaluated structural condition, utilities, hazardous materials, or collapse sequence. What should happen first? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Excavations require inspection after rainstorms or other events that could increase hazards, not merely at fixed intervals.",
+        "Employees in excavations generally require cave-in protection based on depth, soil, and conditions. Spacing, duration, and ladders do not prevent collapse.",
+        "Structural support alone is not sufficient. Scaffold rules address safe access, platform construction, fall protection, capacity, and inspection as interacting requirements.",
+        "Demolition requires preplanning based on an engineering survey and hazard controls. Discovering critical conditions by starting demolition creates uncontrolled collapse and exposure risk."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses demolition engineering survey and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'excavation inspection after change', but it does not resolve the demolition engineering survey issue in this case.",
+        "This rationale supports the separate chapter topic 'trench protective systems', but it does not resolve the demolition engineering survey issue in this case.",
+        "This rationale supports the separate chapter topic 'scaffold platform and access', but it does not resolve the demolition engineering survey issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: demolition engineering survey",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "78340abe3f76b42d437b76891ea4f4c79e1f4e1d1f9c22cf7a5a21484e17a3b1"
+    },
+    {
+      "id": "PV2-CORE-CH25-017",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Trench protective systems",
+      "itemFamilyId": "PV2-CORE-CH25-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a scaffold inspection, the team reviews this question: Employees will enter an 8-foot-deep trench in soil that is not stable rock. What is required before entry? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Trenches 5 feet or deeper require a protective system unless the excavation is entirely in stable rock.",
+        "Scaffold components generally must support their own weight and at least four times the maximum intended load.",
+        "Where a hazardous atmosphere could reasonably exist in an excavation over 4 feet deep, testing is required before entry.",
+        "Source control and exclusion of the drop zone are stronger than relying only on personal protective equipment."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Scaffold capacity', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Excavation atmospheric testing', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Falling-object control', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, excavation protective systems, pp. 567-572; OSHA trenching requirements; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/trenching-excavation",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5885f21f04486f618111fa73f2d85d1d8e5fa2caa1e11e86cf3797c977ba72be"
+    },
+    {
+      "id": "PV2-CORE-CH25-018",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Spoil pile setback",
+      "itemFamilyId": "PV2-CORE-CH25-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a trench protective-system review, the team reviews this question: Where should excavated spoil generally be placed relative to the edge of a trench? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For lines up to 50 kV, the commonly applied minimum clearance is 10 feet unless a compliant alternative is established.",
+        "Keeping spoil at least 2 feet back reduces surcharge and material-fall hazards unless an effective retaining method is used.",
+        "Where a hazardous atmosphere could reasonably exist in an excavation over 4 feet deep, testing is required before entry.",
+        "Employees on scaffolds more than 10 feet above a lower level require fall protection appropriate to the scaffold type."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Power line clearance', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Excavation atmospheric testing', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Scaffold fall protection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, excavation safety, pp. 567-572; OSHA 1926.651(j); Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/trenching-excavation",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "05d9fb8ae9f2be4b98e1d18ef11d050fa7405a0df39bfda3a92368822db4cd71"
+    },
+    {
+      "id": "PV2-CORE-CH25-019",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Trench access and egress",
+      "itemFamilyId": "PV2-CORE-CH25-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a crane lift plan, the team reviews this question: Workers are in a trench 5 feet deep. How should a ladder or other safe egress be located? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Where a hazardous atmosphere could reasonably exist in an excavation over 4 feet deep, testing is required before entry.",
+        "For lines up to 50 kV, the commonly applied minimum clearance is 10 feet unless a compliant alternative is established.",
+        "For trenches 4 feet or deeper, safe egress must be located so employees travel no more than 25 feet laterally.",
+        "OSHA permits compressed air for cleaning only when reduced below 30 psi and used with effective chip guarding and PPE."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Excavation atmospheric testing', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Power line clearance', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Compressed-air cleaning', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, safe entry and exit, p. 571; OSHA 1926.651(c)(2); Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/trenching-excavation",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d967d4035904ecad97860b016b3d3ed0688e67da566226a3e298411187945ef8"
+    },
+    {
+      "id": "PV2-CORE-CH25-020",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Competent person inspection",
+      "itemFamilyId": "PV2-CORE-CH25-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fall-protection decision, the team reviews this question: Heavy rain occurs overnight at an active excavation. What must happen before employees reenter? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Hot-work controls should remove or protect combustibles and provide a fire watch when conditions warrant.",
+        "Scaffold components generally must support their own weight and at least four times the maximum intended load.",
+        "Construction rules allow GFCI protection or a compliant assured equipment grounding conductor program for covered receptacles.",
+        "Excavations require competent-person inspections daily and after events such as rainstorms that could increase hazards."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Hot-work fire prevention', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Scaffold capacity', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Construction electrical protection', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, excavation inspections, pp. 567-572; OSHA trenching guidance; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/trenching-excavation",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "68fd2e17208cbbe1699c677168472326d7c52b312640bb53cb38fd2865540ed5"
+    },
+    {
+      "id": "PV2-CORE-CH25-021",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.04",
+          "role": "primary"
+        },
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Type C sloping",
+      "itemFamilyId": "PV2-CORE-CH25-F021",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a steel-erection coordination meeting, solve the following problem and select the best answer: Using a 1.5 horizontal to 1 vertical slope for an 8-foot-deep Type C excavation, how far must the slope extend horizontally on each side?",
+      "options": [
+        "12 feet",
+        "5.3 feet",
+        "8 feet",
+        "16 feet"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Horizontal distance = 1.5*8 feet = 12 feet on each side.",
+      "incorrectOptionExplanations": [
+        null,
+        "This divides depth by 1.5 instead of multiplying by the horizontal ratio.",
+        "This assumes a 1:1 slope.",
+        "This assumes a 2:1 slope rather than the stated ratio."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, soil classifications and sloping, pp. 569-571; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "horizontal distance = depth*1.5",
+      "units": "feet",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "68ce40c75bbb331685f481a7204186c13cac86c6cf7ae2c72114f0829f64cdc8"
+    },
+    {
+      "id": "PV2-CORE-CH25-022",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Construction fall protection threshold",
+      "itemFamilyId": "PV2-CORE-CH25-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a concrete and masonry work audit, the team reviews this question: A construction employee works beside an unprotected edge 9 feet above a lower level. Which statement is correct? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Keeping spoil at least 2 feet back reduces surcharge and material-fall hazards unless an effective retaining method is used.",
+        "At 6 feet or more above a lower level, employees at unprotected sides and edges generally require guardrails, safety nets, or personal fall arrest.",
+        "For lines up to 50 kV, the commonly applied minimum clearance is 10 feet unless a compliant alternative is established.",
+        "Employees on scaffolds more than 10 feet above a lower level require fall protection appropriate to the scaffold type."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Spoil pile setback', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Power line clearance', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Scaffold fall protection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, fall protection in construction, pp. 583-590; OSHA 1926.501; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.501",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2f80971a7d85d2960d528031681151307a1b112cd09bd090f36296e1dd172591"
+    },
+    {
+      "id": "PV2-CORE-CH25-023",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08g",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Scaffold capacity",
+      "itemFamilyId": "PV2-CORE-CH25-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a demolition hazard assessment, the team reviews this question: A supported scaffold is expected to carry a maximum intended load of 1,200 pounds, excluding its own weight. What minimum load capacity must the components generally support without failure? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Source control and exclusion of the drop zone are stronger than relying only on personal protective equipment.",
+        "Employees on scaffolds more than 10 feet above a lower level require fall protection appropriate to the scaffold type.",
+        "Scaffold components generally must support their own weight and at least four times the maximum intended load.",
+        "Trenches 5 feet or deeper require a protective system unless the excavation is entirely in stable rock."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Falling-object control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Scaffold fall protection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Trench protective systems', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, scaffolds, pp. 580-583; OSHA 1926.451(a)(1); Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.451",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dcd285f269504617a7afc0ceb2a4ed478e53c751079aff7939d3b05bfa8ccccc"
+    },
+    {
+      "id": "PV2-CORE-CH25-024",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08g",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Scaffold fall protection",
+      "itemFamilyId": "PV2-CORE-CH25-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a construction preplanning meeting, the team reviews this question: An employee works on a supported scaffold platform 13 feet above a lower level. What protection is generally required? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Keeping spoil at least 2 feet back reduces surcharge and material-fall hazards unless an effective retaining method is used.",
+        "For lines up to 50 kV, the commonly applied minimum clearance is 10 feet unless a compliant alternative is established.",
+        "Where a hazardous atmosphere could reasonably exist in an excavation over 4 feet deep, testing is required before entry.",
+        "Employees on scaffolds more than 10 feet above a lower level require fall protection appropriate to the scaffold type."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Spoil pile setback', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Power line clearance', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Excavation atmospheric testing', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, scaffold fall hazards, pp. 580-583; OSHA 1926.451(g); Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.451",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f62f4a57c4a7247e552e81fb1a16dd503b696a49aa86b7447b1901c15c30725a"
+    },
+    {
+      "id": "PV2-CORE-CH25-025",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.07",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Construction electrical protection",
+      "itemFamilyId": "PV2-CORE-CH25-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a scaffold inspection, the team reviews this question: Temporary 120-volt receptacles are used on a construction site. Which program approach is acceptable for employee protection? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Construction rules allow GFCI protection or a compliant assured equipment grounding conductor program for covered receptacles.",
+        "Properly adjusted rests and guards prevent the workpiece from being caught between the rest and wheel.",
+        "Trenches 5 feet or deeper require a protective system unless the excavation is entirely in stable rock.",
+        "Source control and exclusion of the drop zone are stronger than relying only on personal protective equipment."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Abrasive grinder control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Trench protective systems', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Falling-object control', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, electrical safety in construction, pp. 572-578; OSHA construction electrical requirements; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "aae922007e9954281f48d1efb1b7d39f9b0893d0605fb21c25b84f6a787b8758"
+    },
+    {
+      "id": "PV2-CORE-CH25-026",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08f",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Power line clearance",
+      "itemFamilyId": "PV2-CORE-CH25-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a trench protective-system review, the team reviews this question: A crane will operate near a 34.5 kV overhead power line. Unless the line is deenergized and grounded or other compliant protections are used, what minimum clearance is generally required? Which rationale most directly supports the correct answer?",
+      "options": [
+        "OSHA permits compressed air for cleaning only when reduced below 30 psi and used with effective chip guarding and PPE.",
+        "For lines up to 50 kV, the commonly applied minimum clearance is 10 feet unless a compliant alternative is established.",
+        "For trenches 4 feet or deeper, safe egress must be located so employees travel no more than 25 feet laterally.",
+        "Keeping spoil at least 2 feet back reduces surcharge and material-fall hazards unless an effective retaining method is used."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Compressed-air cleaning', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Trench access and egress', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Spoil pile setback', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, cranes and electrical hazards, pp. 572-590; OSHA construction power-line rules; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2e47d8e38de8fea707a6062846593368b2c3db46e73dd61c75a646714b4ba536"
+    },
+    {
+      "id": "PV2-CORE-CH25-027",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Hot-work fire prevention",
+      "itemFamilyId": "PV2-CORE-CH25-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a crane lift plan, the team reviews this question: Welding will occur near combustible packaging that cannot be moved beyond the exposure area. What is the best control before work begins? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Trenches 5 feet or deeper require a protective system unless the excavation is entirely in stable rock.",
+        "Excavations require competent-person inspections daily and after events such as rainstorms that could increase hazards.",
+        "Hot-work controls should remove or protect combustibles and provide a fire watch when conditions warrant.",
+        "Properly adjusted rests and guards prevent the workpiece from being caught between the rest and wheel."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Trench protective systems', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Competent person inspection', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Abrasive grinder control', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, welding, cutting, brazing, and fire prevention, pp. 592-597; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3f1c1df15331974d77310f80223a88e4f8268bb77c0eadf071c737df4045a607"
+    },
+    {
+      "id": "PV2-CORE-CH25-028",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Compressed-air cleaning",
+      "itemFamilyId": "PV2-CORE-CH25-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fall-protection decision, the team reviews this question: Compressed air is proposed for cleaning metal chips from a workbench. Which condition is required for permissible cleaning use? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For trenches 4 feet or deeper, safe egress must be located so employees travel no more than 25 feet laterally.",
+        "Where a hazardous atmosphere could reasonably exist in an excavation over 4 feet deep, testing is required before entry.",
+        "For lines up to 50 kV, the commonly applied minimum clearance is 10 feet unless a compliant alternative is established.",
+        "OSHA permits compressed air for cleaning only when reduced below 30 psi and used with effective chip guarding and PPE."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Trench access and egress', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Excavation atmospheric testing', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Power line clearance', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, compressed air systems, pp. 601-602; OSHA 1926.302(b)(4); Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926/1926.302",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "866aec20d5524d946b85ec97450c0854d58d9e685ce4bc0e563d970b2a47cfd2"
+    },
+    {
+      "id": "PV2-CORE-CH25-029",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Abrasive grinder control",
+      "itemFamilyId": "PV2-CORE-CH25-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a steel-erection coordination meeting, the team reviews this question: A bench grinder has an intact wheel but the work rest is far from the wheel, allowing the workpiece to become trapped. What is the best correction? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Properly adjusted rests and guards prevent the workpiece from being caught between the rest and wheel.",
+        "Construction rules allow GFCI protection or a compliant assured equipment grounding conductor program for covered receptacles.",
+        "Trenches 5 feet or deeper require a protective system unless the excavation is entirely in stable rock.",
+        "Source control and exclusion of the drop zone are stronger than relying only on personal protective equipment."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Construction electrical protection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Trench protective systems', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Falling-object control', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, abrasive grinders and hand/power tools, pp. 597-601; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0aebfc5a3323d498df94303785d86c90722962dc999f25a2cdeae7317e6d8a0d"
+    },
+    {
+      "id": "PV2-CORE-CH25-030",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Excavation atmospheric testing",
+      "itemFamilyId": "PV2-CORE-CH25-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a concrete and masonry work audit, the team reviews this question: A trench more than 4 feet deep is opened near a former fuel line. What should occur before employees enter? Which rationale most directly supports the correct answer?",
+      "options": [
+        "For lines up to 50 kV, the commonly applied minimum clearance is 10 feet unless a compliant alternative is established.",
+        "Where a hazardous atmosphere could reasonably exist in an excavation over 4 feet deep, testing is required before entry.",
+        "Employees on scaffolds more than 10 feet above a lower level require fall protection appropriate to the scaffold type.",
+        "For trenches 4 feet or deeper, safe egress must be located so employees travel no more than 25 feet laterally."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Power line clearance', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Scaffold fall protection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Trench access and egress', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, excavation hazards, pp. 567-572; OSHA trenching guidance; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/trenching-excavation",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9db84a65f5053b55cf9c8feceef7cd94985d13971317be99b17c3c4b35c53f0a"
+    },
+    {
+      "id": "PV2-CORE-CH25-031",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08g",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Falling-object control",
+      "itemFamilyId": "PV2-CORE-CH25-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a demolition hazard assessment, the team reviews this question: Workers must pass beneath a scaffold where tools are used above. Which control combination is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Employees on scaffolds more than 10 feet above a lower level require fall protection appropriate to the scaffold type.",
+        "Scaffold components generally must support their own weight and at least four times the maximum intended load.",
+        "Source control and exclusion of the drop zone are stronger than relying only on personal protective equipment.",
+        "Trenches 5 feet or deeper require a protective system unless the excavation is entirely in stable rock."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Scaffold fall protection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Scaffold capacity', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Trench protective systems', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 25, scaffold and falling-object protection, pp. 580-584; Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cc3be1cc65b1d3ee4089f6c8bc56d60d7a2211a090851b971181178ea267c21f"
+    },
+    {
+      "id": "PV2-CORE-CH25-032",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "competent person authority",
+      "itemFamilyId": "PV2-CORE-CH25-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a trench protective-system review, a supervisor proposes: \"The designation is valid as long as it appears on a daily form\". The underlying case is: A contractor designates a competent person for excavations but gives that person no authority to stop work or correct hazards. What is the main deficiency? Which alternative is the most defensible correction?",
+      "options": [
+        "The person must hold a CSP credential for every excavation",
+        "Authority is unnecessary when a superintendent is somewhere on the project",
+        "The designation is valid as long as it appears on a daily form",
+        "A competent person must be capable of identifying hazards and have authorization to take prompt corrective measures"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Competence includes both knowledge and authority to act. A title without correction authority does not meet the operational role.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The person must hold a CSP credential for every excavation' remains incomplete or misapplies the controlling competent person authority principle.",
+        "The proposed response 'Authority is unnecessary when a superintendent is somewhere on the project' remains incomplete or misapplies the controlling competent person authority principle.",
+        "The proposed response 'The designation is valid as long as it appears on a daily form' remains incomplete or misapplies the controlling competent person authority principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: competent person authority",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "53a6710b98e885cccf46430fbb7018c3b32ee2c646938053d254bf8432482488"
+    },
+    {
+      "id": "PV2-CORE-CH25-033",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "trench protective systems",
+      "itemFamilyId": "PV2-CORE-CH25-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a crane lift plan, a supervisor proposes: \"Permit the work when the excavation has been open less than one shift\". The underlying case is: Workers enter an 8-foot-deep trench in unstable soil. The walls are near vertical, and no protective system is installed. What is the best response? Which alternative is the most defensible correction?",
+      "options": [
+        "Stop entry and provide a properly designed sloping, shoring, or shielding system unless a specific exception is established",
+        "Use a ladder as the protective system because it provides egress",
+        "Permit the work when the excavation has been open less than one shift",
+        "Allow entry if workers remain at least two feet apart"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Employees in excavations generally require cave-in protection based on depth, soil, and conditions. Spacing, duration, and ladders do not prevent collapse.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Use a ladder as the protective system because it provides egress' remains incomplete or misapplies the controlling trench protective systems principle.",
+        "The proposed response 'Permit the work when the excavation has been open less than one shift' remains incomplete or misapplies the controlling trench protective systems principle.",
+        "The proposed response 'Allow entry if workers remain at least two feet apart' remains incomplete or misapplies the controlling trench protective systems principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: trench protective systems",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fa716e3c7888764d894e58dc33c40004536f45ca162a31ed210f51160cdf105b"
+    },
+    {
+      "id": "PV2-CORE-CH25-034",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "excavation inspection after change",
+      "itemFamilyId": "PV2-CORE-CH25-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a fall-protection decision, a supervisor proposes: \"The morning inspection remains valid for the entire shift\". The underlying case is: A trench was inspected in the morning, then heavy rain occurs and spoil begins sloughing. What is required before reentry? Which alternative is the most defensible correction?",
+      "options": [
+        "Workers may reenter if they wear hard hats and high-visibility vests",
+        "A competent person should reinspect the excavation and protective system after the hazard-increasing event and correct unsafe conditions",
+        "The morning inspection remains valid for the entire shift",
+        "Inspection can wait until the next scheduled weekly audit"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Excavations require inspection after rainstorms or other events that could increase hazards, not merely at fixed intervals.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Workers may reenter if they wear hard hats and high-visibility vests' remains incomplete or misapplies the controlling excavation inspection after change principle.",
+        null,
+        "The proposed response 'The morning inspection remains valid for the entire shift' remains incomplete or misapplies the controlling excavation inspection after change principle.",
+        "The proposed response 'Inspection can wait until the next scheduled weekly audit' remains incomplete or misapplies the controlling excavation inspection after change principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: excavation inspection after change",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4e1cddd990fe2456de5db75621c5a8599d4628a5f66eb816b88303ec288ca6fb"
+    },
+    {
+      "id": "PV2-CORE-CH25-035",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08g",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "scaffold platform and access",
+      "itemFamilyId": "PV2-CORE-CH25-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a steel-erection coordination meeting, a supervisor proposes: \"Platform gaps are irrelevant if workers use personal fall arrest\". The underlying case is: A scaffold is adequately supported, but workers climb cross braces and the platform has large gaps. Which conclusion is correct? Which alternative is the most defensible correction?",
+      "options": [
+        "The scaffold is safe because foundation and load capacity are adequate",
+        "Cross braces are acceptable access whenever employees maintain three points of contact",
+        "Provide proper access and a fully planked or decked platform within applicable allowances before use",
+        "Platform gaps are irrelevant if workers use personal fall arrest"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Structural support alone is not sufficient. Scaffold rules address safe access, platform construction, fall protection, capacity, and inspection as interacting requirements.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The scaffold is safe because foundation and load capacity are adequate' remains incomplete or misapplies the controlling scaffold platform and access principle.",
+        "The proposed response 'Cross braces are acceptable access whenever employees maintain three points of contact' remains incomplete or misapplies the controlling scaffold platform and access principle.",
+        null,
+        "The proposed response 'Platform gaps are irrelevant if workers use personal fall arrest' remains incomplete or misapplies the controlling scaffold platform and access principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: scaffold platform and access",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7702937c94b8b4594280637d1cac20b3514a652fa12625c434750d1f9c34865d"
+    },
+    {
+      "id": "PV2-CORE-CH25-036",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fall protection planning",
+      "itemFamilyId": "PV2-CORE-CH25-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a concrete and masonry work audit, a supervisor proposes: \"Mark the edge with paint and treat it as a guardrail system\". The underlying case is: Roof work occurs near an unprotected edge. Management proposes a monitor but cannot show that a safety-monitoring system is permitted for the work and configuration. What should be done? Which alternative is the most defensible correction?",
+      "options": [
+        "Rely on worker experience when the work will take less than 30 minutes",
+        "Use a monitor for any construction task because verbal warnings are always acceptable",
+        "Mark the edge with paint and treat it as a guardrail system",
+        "Select a compliant conventional or specifically authorized fall-protection method based on the task, roof, and standard requirements"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Fall-protection method depends on the applicable construction provisions. Informal monitoring, short duration, and painted lines do not replace a permitted system.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Rely on worker experience when the work will take less than 30 minutes' remains incomplete or misapplies the controlling fall protection planning principle.",
+        "The proposed response 'Use a monitor for any construction task because verbal warnings are always acceptable' remains incomplete or misapplies the controlling fall protection planning principle.",
+        "The proposed response 'Mark the edge with paint and treat it as a guardrail system' remains incomplete or misapplies the controlling fall protection planning principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: fall protection planning",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f33c1c4550b5d076efc743291572e8831f21299a4b1f0b4a3cea8907cc3c8d33"
+    },
+    {
+      "id": "PV2-CORE-CH25-037",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "crane lift planning and ground conditions",
+      "itemFamilyId": "PV2-CORE-CH25-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a demolition hazard assessment, a supervisor proposes: \"Proceed because the load chart already accounts for every possible ground condition\". The underlying case is: A mobile crane’s load chart supports the planned load and radius, but outriggers will be placed over an unverified underground utility vault. What should occur? Which alternative is the most defensible correction?",
+      "options": [
+        "Verify ground and supporting conditions and provide adequate support before setting up or lifting",
+        "Proceed because the load chart already accounts for every possible ground condition",
+        "Increase boom angle to compensate for weak support",
+        "Place loose scrap lumber under the outriggers without engineering evaluation"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Crane capacity assumes stable support. Ground bearing, voids, utilities, setup, and outrigger support must be addressed separately from the load chart.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Proceed because the load chart already accounts for every possible ground condition' remains incomplete or misapplies the controlling crane lift planning and ground conditions principle.",
+        "The proposed response 'Increase boom angle to compensate for weak support' remains incomplete or misapplies the controlling crane lift planning and ground conditions principle.",
+        "The proposed response 'Place loose scrap lumber under the outriggers without engineering evaluation' remains incomplete or misapplies the controlling crane lift planning and ground conditions principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: crane lift planning and ground conditions",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c23538c2f13e3cf55fabbaf74f642db538484dd77e329f3f1647eef8336d2afe"
+    },
+    {
+      "id": "PV2-CORE-CH25-038",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "silica exposure control",
+      "itemFamilyId": "PV2-CORE-CH25-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a construction preplanning meeting, a supervisor proposes: \"Move the cutting closer to other workers so the dust disperses\". The underlying case is: Workers dry-cut concrete indoors with visible dust. A supervisor proposes disposable respirators without changing the task. What is the strongest response? Which alternative is the most defensible correction?",
+      "options": [
+        "Rely on voluntary filtering facepieces because visible dust is only a nuisance",
+        "Use the applicable specified control method or exposure assessment, implement effective engineering and work-practice controls, and provide respiratory protection as required",
+        "Move the cutting closer to other workers so the dust disperses",
+        "Use compressed air to clean clothing and the work area after cutting"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Respirable crystalline silica control prioritizes specified wet or ventilation methods and exposure-based program requirements; respirators do not replace feasible source controls.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Rely on voluntary filtering facepieces because visible dust is only a nuisance' remains incomplete or misapplies the controlling silica exposure control principle.",
+        null,
+        "The proposed response 'Move the cutting closer to other workers so the dust disperses' remains incomplete or misapplies the controlling silica exposure control principle.",
+        "The proposed response 'Use compressed air to clean clothing and the work area after cutting' remains incomplete or misapplies the controlling silica exposure control principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: silica exposure control",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e8ac6b63d7e394afa76fc073db7c1b50eeb5058c73e7be9505cb9e59b5299d2c"
+    },
+    {
+      "id": "PV2-CORE-CH25-039",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "demolition engineering survey",
+      "itemFamilyId": "PV2-CORE-CH25-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a scaffold inspection, a supervisor proposes: \"Disconnect utilities only after the first structural members are removed\". The underlying case is: A building is scheduled for demolition, but no one has evaluated structural condition, utilities, hazardous materials, or collapse sequence. What should happen first? Which alternative is the most defensible correction?",
+      "options": [
+        "Rely on the demolition contractor’s general experience without documenting site conditions",
+        "Disconnect utilities only after the first structural members are removed",
+        "Complete the required engineering and hazard survey, control utilities and hazardous materials, and plan the demolition sequence before work begins",
+        "Begin with interior removal so hidden conditions become visible during work"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Demolition requires preplanning based on an engineering survey and hazard controls. Discovering critical conditions by starting demolition creates uncontrolled collapse and exposure risk.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Rely on the demolition contractor’s general experience without documenting site conditions' remains incomplete or misapplies the controlling demolition engineering survey principle.",
+        "The proposed response 'Disconnect utilities only after the first structural members are removed' remains incomplete or misapplies the controlling demolition engineering survey principle.",
+        null,
+        "The proposed response 'Begin with interior removal so hidden conditions become visible during work' remains incomplete or misapplies the controlling demolition engineering survey principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: demolition engineering survey",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "74ae292aaa3b64009d8a8374f455c47d0a650448fe1d8084df1817ec74e5249f"
+    },
+    {
+      "id": "PV2-CORE-CH25-040",
+      "version": 1,
+      "chapterId": "ch-25",
+      "chapterTitle": "Construction Safety",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "competent person authority",
+      "itemFamilyId": "PV2-CORE-CH25-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a crane lift plan, the team selects \"A competent person must be capable of identifying hazards and have authorization to take prompt corrective measures\" rather than \"Authority is unnecessary when a superintendent is somewhere on the project\" for this case: A contractor designates a competent person for excavations but gives that person no authority to stop work or correct hazards. What is the main deficiency? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Crane capacity assumes stable support. Ground bearing, voids, utilities, setup, and outrigger support must be addressed separately from the load chart.",
+        "Fall-protection method depends on the applicable construction provisions. Informal monitoring, short duration, and painted lines do not replace a permitted system.",
+        "Structural support alone is not sufficient. Scaffold rules address safe access, platform construction, fall protection, capacity, and inspection as interacting requirements.",
+        "Competence includes both knowledge and authority to act. A title without correction authority does not meet the operational role."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the competent person authority issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'crane lift planning and ground conditions' and does not distinguish the two responses in the present competent person authority decision.",
+        "This explanation concerns 'fall protection planning' and does not distinguish the two responses in the present competent person authority decision.",
+        "This explanation concerns 'scaffold platform and access' and does not distinguish the two responses in the present competent person authority decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 25, pp. 567-603; 29 CFR Part 1926; curated topic: competent person authority",
+      "sourceUrls": [
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1926",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "838d3c60ffeb748437acfec111d4eb8c5243b53470655620f79480572d20a90c"
+    }
+  ]
+}

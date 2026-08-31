@@ -1,0 +1,1751 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-41-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-41",
+  "chapterTitle": "Integrated and Emerging Safety Practice",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH41-001",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contractor interface risk",
+      "itemFamilyId": "PV2-CORE-CH41-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A host and contractor each have adequate procedures, but their simultaneous work creates an unexpected line-breaking and ignition-source interaction. What control is most important?",
+      "options": [
+        "Use an interface risk review and coordinated permit, scheduling, isolation, communication, and stop-work process across both employers",
+        "Allow each crew to manage only hazards inside its immediate work boundary",
+        "Assign responsibility after the work is complete based on contract price",
+        "Assume the two separate compliant programs by themselves control the hazards created by simultaneous work"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Emergent risk often occurs at organizational and task interfaces. Coordination must address simultaneous operations and shared controls, not just each employer’s internal program.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Allow each crew to manage only hazards inside its immediate work boundary' does not apply the controlling principle for contractor interface risk to the facts given, so it is not the best answer.",
+        "The option 'Assign responsibility after the work is complete based on contract price' does not apply the controlling principle for contractor interface risk to the facts given, so it is not the best answer.",
+        "The option 'Assume the two separate compliant programs by themselves control the hazards created by simultaneous work' does not apply the controlling principle for contractor interface risk to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: contractor interface risk",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "359d980a5e1a6b1cc8cad0e322e8957719e58fbfbb0be4af9380aa5f8bbfdfe1"
+    },
+    {
+      "id": "PV2-CORE-CH41-002",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fleet safety systems",
+      "itemFamilyId": "PV2-CORE-CH41-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A company’s crash rate rises among drivers using personal vehicles for business. The fleet program covers only company-owned trucks. What is the strongest improvement?",
+      "options": [
+        "Address the trend with post-incident defensive-driving videos without changing qualification, journey, or vehicle controls",
+        "Extend risk-based driver qualification, journey planning, distraction, fatigue, vehicle condition, reporting, and incident review controls to all business driving",
+        "Exclude personally owned vehicles from the fleet program because vehicle ownership determines program scope",
+        "Pay mileage and treat all vehicle safety responsibility as transferred to the driver"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Business-driving risk depends on the work activity, not just vehicle ownership. A comprehensive program covers drivers, journeys, vehicles, and organizational conditions.",
+      "incorrectOptionExplanations": [
+        "The option 'Address the trend with post-incident defensive-driving videos without changing qualification, journey, or vehicle controls' does not apply the controlling principle for fleet safety systems to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Exclude personally owned vehicles from the fleet program because vehicle ownership determines program scope' does not apply the controlling principle for fleet safety systems to the facts given, so it is not the best answer.",
+        "The option 'Pay mileage and treat all vehicle safety responsibility as transferred to the driver' does not apply the controlling principle for fleet safety systems to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: fleet safety systems",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1dc7dc015645d387528f5f89f529309a96a74105e406ce90d65b7be7fae24583"
+    },
+    {
+      "id": "PV2-CORE-CH41-003",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "AI hazard detection governance",
+      "itemFamilyId": "PV2-CORE-CH41-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An AI camera flags unsafe acts, but validation shows higher false-negative rates on night shift and the vendor will not explain model limitations. What should the organization do?",
+      "options": [
+        "Deploy fully because automated detection is inherently more objective than people",
+        "Use the system as the sole basis for discipline without human review",
+        "Limit deployment until performance, bias, privacy, failure modes, human oversight, and fallback controls are validated for actual conditions",
+        "Treat false negatives as secondary because false alarms have the more visible productivity impact"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "AI is a safety-related tool whose limitations, bias, privacy, and failure modes must be governed. It should not replace critical controls or accountable judgment without validation.",
+      "incorrectOptionExplanations": [
+        "The option 'Deploy fully because automated detection is inherently more objective than people' does not apply the controlling principle for ai hazard detection governance to the facts given, so it is not the best answer.",
+        "The option 'Use the system as the sole basis for discipline without human review' does not apply the controlling principle for ai hazard detection governance to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Treat false negatives as secondary because false alarms have the more visible productivity impact' does not apply the controlling principle for ai hazard detection governance to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: AI hazard detection governance",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "476e1d11de1fc1d2dab31a2e6ed0b1857bffc437061a368005393c663b7c2bd5"
+    },
+    {
+      "id": "PV2-CORE-CH41-004",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "robotics and collaborative work",
+      "itemFamilyId": "PV2-CORE-CH41-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A collaborative robot meets force limits in a laboratory test, but a sharp workpiece attached to its arm can contact employees. What is the key assessment point?",
+      "options": [
+        "Force limits measured without the workpiece apply unchanged to all configurations",
+        "Training employees to avoid the robot removes the need for application risk assessment",
+        "The collaborative robot label makes every attached tool safe",
+        "Evaluate the complete application, including end effector, workpiece, speed, foreseeable contact, faults, and task changes—not the robot alone"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Collaborative safety depends on the integrated system and task. Tools, payloads, geometry, speed, faults, and changes can create hazards not represented by robot-only testing.",
+      "incorrectOptionExplanations": [
+        "The option 'Force limits measured without the workpiece apply unchanged to all configurations' does not apply the controlling principle for robotics and collaborative work to the facts given, so it is not the best answer.",
+        "The option 'Training employees to avoid the robot removes the need for application risk assessment' does not apply the controlling principle for robotics and collaborative work to the facts given, so it is not the best answer.",
+        "The option 'The collaborative robot label makes every attached tool safe' does not apply the controlling principle for robotics and collaborative work to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: robotics and collaborative work",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "55613ca783b417bb8a76f222a0e8e51531c252be2a7422548cacd3b1310d4c23"
+    },
+    {
+      "id": "PV2-CORE-CH41-005",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "remote and home work risk",
+      "itemFamilyId": "PV2-CORE-CH41-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Employees perform prolonged computer work from home using improvised furniture and report discomfort. What is the most practical organizational response?",
+      "options": [
+        "Provide remote-work ergonomic guidance, self-assessment and support, suitable equipment options, early reporting, and reasonable follow-up",
+        "Treat home work as outside all organizational influence",
+        "Require employees to send full video surveillance of their homes",
+        "Wait for workers compensation claims before offering any assistance"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Remote work changes control methods but not the value of prevention. Scalable guidance, equipment support, privacy-respecting assessment, and early intervention are appropriate.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Treat home work as outside all organizational influence' does not apply the controlling principle for remote and home work risk to the facts given, so it is not the best answer.",
+        "The option 'Require employees to send full video surveillance of their homes' does not apply the controlling principle for remote and home work risk to the facts given, so it is not the best answer.",
+        "The option 'Wait for workers compensation claims before offering any assistance' does not apply the controlling principle for remote and home work risk to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: remote and home work risk",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1a40db16ee49f734a7cb3a49d36555439056f233733de5521dcbcbc768d72139"
+    },
+    {
+      "id": "PV2-CORE-CH41-006",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "nanomaterial uncertainty",
+      "itemFamilyId": "PV2-CORE-CH41-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A process introduces an engineered nanomaterial with limited toxicology data and potential airborne release during powder handling. What approach is most defensible?",
+      "options": [
+        "Assume the bulk material’s hazard profile fully predicts nanoscale behavior",
+        "Use a precautionary exposure assessment with enclosure, local exhaust, controlled handling, suitable PPE, housekeeping, and review as evidence develops",
+        "Delay controls until an occupational exposure limit is issued",
+        "Use ordinary dry sweeping because the particles are too small to see"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Uncertain nanomaterial hazards warrant prudent containment and exposure control based on form and task. Absence of a specific limit is not proof of safety.",
+      "incorrectOptionExplanations": [
+        "The option 'Assume the bulk material’s hazard profile fully predicts nanoscale behavior' does not apply the controlling principle for nanomaterial uncertainty to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Delay controls until an occupational exposure limit is issued' does not apply the controlling principle for nanomaterial uncertainty to the facts given, so it is not the best answer.",
+        "The option 'Use ordinary dry sweeping because the particles are too small to see' does not apply the controlling principle for nanomaterial uncertainty to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: nanomaterial uncertainty",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8b4cb2226bf0d9229113f5ab7e2c26daa7674bc831f5cb13ec3908b95426a043"
+    },
+    {
+      "id": "PV2-CORE-CH41-007",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "wearable technology and privacy",
+      "itemFamilyId": "PV2-CORE-CH41-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A fatigue wearable collects sleep and location data. Management wants unrestricted individual access for disciplinary decisions. What governance is most appropriate?",
+      "options": [
+        "Keep the algorithm secret from employees and use scores as conclusive evidence",
+        "Publish individual sleep data to encourage peer accountability",
+        "Define a legitimate safety purpose, data minimization, consent or legal basis, access limits, security, retention, validation, and protections against misuse",
+        "Collect every available data field because more data always improves safety"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Worker technology can help only when accuracy, privacy, purpose, security, and fair use are governed. Sensitive data should not become uncontrolled surveillance.",
+      "incorrectOptionExplanations": [
+        "The option 'Keep the algorithm secret from employees and use scores as conclusive evidence' does not apply the controlling principle for wearable technology and privacy to the facts given, so it is not the best answer.",
+        "The option 'Publish individual sleep data to encourage peer accountability' does not apply the controlling principle for wearable technology and privacy to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Collect every available data field because more data always improves safety' does not apply the controlling principle for wearable technology and privacy to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: wearable technology and privacy",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "46b931a3892119d7dcc40c30626e44c6e0159e495b89a44374277df4f5b782e5"
+    },
+    {
+      "id": "PV2-CORE-CH41-008",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emerging risk and change management",
+      "itemFamilyId": "PV2-CORE-CH41-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility rapidly adopts battery energy storage, autonomous vehicles, and new fire suppression technology. Each vendor addresses only its own product. What is the safety professional’s highest-value role?",
+      "options": [
+        "Accept each vendor certificate as proof the combined system is safe",
+        "Review only injury statistics after one year of operation",
+        "Assign every interface risk to the vendor with the largest contract",
+        "Lead an integrated system and change risk review covering interactions, standards, emergency response, competence, cybersecurity, maintenance, and lifecycle hazards"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Emerging technologies create interface and lifecycle risks that component reviews can miss. Integrated change management and system assurance are essential.",
+      "incorrectOptionExplanations": [
+        "The option 'Accept each vendor certificate as proof the combined system is safe' does not apply the controlling principle for emerging risk and change management to the facts given, so it is not the best answer.",
+        "The option 'Review only injury statistics after one year of operation' does not apply the controlling principle for emerging risk and change management to the facts given, so it is not the best answer.",
+        "The option 'Assign every interface risk to the vendor with the largest contract' does not apply the controlling principle for emerging risk and change management to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: emerging risk and change management",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "96b9dfe35c543b6d94680f7efd25190b3768f0a2f4d85d89cfb331d28d75da8a"
+    },
+    {
+      "id": "PV2-CORE-CH41-009",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contractor interface risk",
+      "itemFamilyId": "PV2-CORE-CH41-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a lone-worker technology rollout, the team reviews this case: A host and contractor each have adequate procedures, but their simultaneous work creates an unexpected line-breaking and ignition-source interaction. What control is most important? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Emergent risk often occurs at organizational and task interfaces. Coordination must address simultaneous operations and shared controls, not just each employer’s internal program.",
+        "Business-driving risk depends on the work activity, not just vehicle ownership. A comprehensive program covers drivers, journeys, vehicles, and organizational conditions.",
+        "Uncertain nanomaterial hazards warrant prudent containment and exposure control based on form and task. Absence of a specific limit is not proof of safety.",
+        "AI is a safety-related tool whose limitations, bias, privacy, and failure modes must be governed. It should not replace critical controls or accountable judgment without validation."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses contractor interface risk and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'fleet safety systems', but it does not resolve the contractor interface risk issue in this case.",
+        "This rationale supports the separate chapter topic 'nanomaterial uncertainty', but it does not resolve the contractor interface risk issue in this case.",
+        "This rationale supports the separate chapter topic 'AI hazard detection governance', but it does not resolve the contractor interface risk issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: contractor interface risk",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c4af71da538770ed96efe5404d745c3aa6a8c597e5ccd0d88f24008e6ceec462"
+    },
+    {
+      "id": "PV2-CORE-CH41-010",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fleet safety systems",
+      "itemFamilyId": "PV2-CORE-CH41-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an AI-enabled hazard detection pilot, the team reviews this case: A company’s crash rate rises among drivers using personal vehicles for business. The fleet program covers only company-owned trucks. What is the strongest improvement? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Uncertain nanomaterial hazards warrant prudent containment and exposure control based on form and task. Absence of a specific limit is not proof of safety.",
+        "Business-driving risk depends on the work activity, not just vehicle ownership. A comprehensive program covers drivers, journeys, vehicles, and organizational conditions.",
+        "Emerging technologies create interface and lifecycle risks that component reviews can miss. Integrated change management and system assurance are essential.",
+        "Worker technology can help only when accuracy, privacy, purpose, security, and fair use are governed. Sensitive data should not become uncontrolled surveillance."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses fleet safety systems and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'nanomaterial uncertainty', but it does not resolve the fleet safety systems issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'emerging risk and change management', but it does not resolve the fleet safety systems issue in this case.",
+        "This rationale supports the separate chapter topic 'wearable technology and privacy', but it does not resolve the fleet safety systems issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: fleet safety systems",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "04911bc8a6384f6083410c5876131857771555d482d6715367b95e11479f34bb"
+    },
+    {
+      "id": "PV2-CORE-CH41-011",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "AI hazard detection governance",
+      "itemFamilyId": "PV2-CORE-CH41-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a remote work risk assessment, the team reviews this case: An AI camera flags unsafe acts, but validation shows higher false-negative rates on night shift and the vendor will not explain model limitations. What should the organization do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Worker technology can help only when accuracy, privacy, purpose, security, and fair use are governed. Sensitive data should not become uncontrolled surveillance.",
+        "Collaborative safety depends on the integrated system and task. Tools, payloads, geometry, speed, faults, and changes can create hazards not represented by robot-only testing.",
+        "AI is a safety-related tool whose limitations, bias, privacy, and failure modes must be governed. It should not replace critical controls or accountable judgment without validation.",
+        "Emerging technologies create interface and lifecycle risks that component reviews can miss. Integrated change management and system assurance are essential."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses ai hazard detection governance and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'wearable technology and privacy', but it does not resolve the ai hazard detection governance issue in this case.",
+        "This rationale supports the separate chapter topic 'robotics and collaborative work', but it does not resolve the ai hazard detection governance issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'emerging risk and change management', but it does not resolve the ai hazard detection governance issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: AI hazard detection governance",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "beb4890459930d49d218b380a9c30edb88d8734dc400ef4a6a0b0da8eff39fed"
+    },
+    {
+      "id": "PV2-CORE-CH41-012",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "robotics and collaborative work",
+      "itemFamilyId": "PV2-CORE-CH41-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a robotics integration review, the team reviews this case: A collaborative robot meets force limits in a laboratory test, but a sharp workpiece attached to its arm can contact employees. What is the key assessment point? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Remote work changes control methods but not the value of prevention. Scalable guidance, equipment support, privacy-respecting assessment, and early intervention are appropriate.",
+        "Emergent risk often occurs at organizational and task interfaces. Coordination must address simultaneous operations and shared controls, not just each employer’s internal program.",
+        "Business-driving risk depends on the work activity, not just vehicle ownership. A comprehensive program covers drivers, journeys, vehicles, and organizational conditions.",
+        "Collaborative safety depends on the integrated system and task. Tools, payloads, geometry, speed, faults, and changes can create hazards not represented by robot-only testing."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses robotics and collaborative work and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'remote and home work risk', but it does not resolve the robotics and collaborative work issue in this case.",
+        "This rationale supports the separate chapter topic 'contractor interface risk', but it does not resolve the robotics and collaborative work issue in this case.",
+        "This rationale supports the separate chapter topic 'fleet safety systems', but it does not resolve the robotics and collaborative work issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: robotics and collaborative work",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4556aa5cbd269638dcaa4b52fc9be9abde1ecd9056e14f2d4b25b240f5d26ebc"
+    },
+    {
+      "id": "PV2-CORE-CH41-013",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "remote and home work risk",
+      "itemFamilyId": "PV2-CORE-CH41-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a nanomaterial process introduction, the team reviews this case: Employees perform prolonged computer work from home using improvised furniture and report discomfort. What is the most practical organizational response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Remote work changes control methods but not the value of prevention. Scalable guidance, equipment support, privacy-respecting assessment, and early intervention are appropriate.",
+        "Worker technology can help only when accuracy, privacy, purpose, security, and fair use are governed. Sensitive data should not become uncontrolled surveillance.",
+        "Emerging technologies create interface and lifecycle risks that component reviews can miss. Integrated change management and system assurance are essential.",
+        "AI is a safety-related tool whose limitations, bias, privacy, and failure modes must be governed. It should not replace critical controls or accountable judgment without validation."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses remote and home work risk and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'wearable technology and privacy', but it does not resolve the remote and home work risk issue in this case.",
+        "This rationale supports the separate chapter topic 'emerging risk and change management', but it does not resolve the remote and home work risk issue in this case.",
+        "This rationale supports the separate chapter topic 'AI hazard detection governance', but it does not resolve the remote and home work risk issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: remote and home work risk",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f6d02179ddc9a9f8700e4ceeea545fe9aa8d6203e767ad3cc1930f5d425af039"
+    },
+    {
+      "id": "PV2-CORE-CH41-014",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "nanomaterial uncertainty",
+      "itemFamilyId": "PV2-CORE-CH41-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a cross-border supplier risk decision, the team reviews this case: A process introduces an engineered nanomaterial with limited toxicology data and potential airborne release during powder handling. What approach is most defensible? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Emergent risk often occurs at organizational and task interfaces. Coordination must address simultaneous operations and shared controls, not just each employer’s internal program.",
+        "Uncertain nanomaterial hazards warrant prudent containment and exposure control based on form and task. Absence of a specific limit is not proof of safety.",
+        "Business-driving risk depends on the work activity, not just vehicle ownership. A comprehensive program covers drivers, journeys, vehicles, and organizational conditions.",
+        "Collaborative safety depends on the integrated system and task. Tools, payloads, geometry, speed, faults, and changes can create hazards not represented by robot-only testing."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses nanomaterial uncertainty and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'contractor interface risk', but it does not resolve the nanomaterial uncertainty issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'fleet safety systems', but it does not resolve the nanomaterial uncertainty issue in this case.",
+        "This rationale supports the separate chapter topic 'robotics and collaborative work', but it does not resolve the nanomaterial uncertainty issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: nanomaterial uncertainty",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "603a05886ffd4182ec3f13c58bdadc7d8a1ed2c2b434a40ec77b85390108480a"
+    },
+    {
+      "id": "PV2-CORE-CH41-015",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "wearable technology and privacy",
+      "itemFamilyId": "PV2-CORE-CH41-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a contractor coordination project, the team reviews this case: A fatigue wearable collects sleep and location data. Management wants unrestricted individual access for disciplinary decisions. What governance is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Collaborative safety depends on the integrated system and task. Tools, payloads, geometry, speed, faults, and changes can create hazards not represented by robot-only testing.",
+        "Remote work changes control methods but not the value of prevention. Scalable guidance, equipment support, privacy-respecting assessment, and early intervention are appropriate.",
+        "Worker technology can help only when accuracy, privacy, purpose, security, and fair use are governed. Sensitive data should not become uncontrolled surveillance.",
+        "AI is a safety-related tool whose limitations, bias, privacy, and failure modes must be governed. It should not replace critical controls or accountable judgment without validation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses wearable technology and privacy and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'robotics and collaborative work', but it does not resolve the wearable technology and privacy issue in this case.",
+        "This rationale supports the separate chapter topic 'remote and home work risk', but it does not resolve the wearable technology and privacy issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'AI hazard detection governance', but it does not resolve the wearable technology and privacy issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: wearable technology and privacy",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fd771993645afecc5dcc99e26e8ecd731226890fb7ae8760cffe9b4b2d0b64cd"
+    },
+    {
+      "id": "PV2-CORE-CH41-016",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emerging risk and change management",
+      "itemFamilyId": "PV2-CORE-CH41-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fleet safety review, the team reviews this case: A facility rapidly adopts battery energy storage, autonomous vehicles, and new fire suppression technology. Each vendor addresses only its own product. What is the safety professional’s highest-value role? Which rationale most directly supports the correct decision?",
+      "options": [
+        "AI is a safety-related tool whose limitations, bias, privacy, and failure modes must be governed. It should not replace critical controls or accountable judgment without validation.",
+        "Worker technology can help only when accuracy, privacy, purpose, security, and fair use are governed. Sensitive data should not become uncontrolled surveillance.",
+        "Business-driving risk depends on the work activity, not just vehicle ownership. A comprehensive program covers drivers, journeys, vehicles, and organizational conditions.",
+        "Emerging technologies create interface and lifecycle risks that component reviews can miss. Integrated change management and system assurance are essential."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses emerging risk and change management and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'AI hazard detection governance', but it does not resolve the emerging risk and change management issue in this case.",
+        "This rationale supports the separate chapter topic 'wearable technology and privacy', but it does not resolve the emerging risk and change management issue in this case.",
+        "This rationale supports the separate chapter topic 'fleet safety systems', but it does not resolve the emerging risk and change management issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: emerging risk and change management",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d3d1a9f93e0076a941696ef2b95ea0cf352d4dc384a44cf95a7f2cba7e31e8c8"
+    },
+    {
+      "id": "PV2-CORE-CH41-017",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Contractor coordination",
+      "itemFamilyId": "PV2-CORE-CH41-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fleet safety review, the team reviews this question: A host and contractor each assume the other will isolate shared energy sources. What is the strongest preventive control? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Multi-employer work requires explicit interface control so responsibilities and hazardous states are understood and verified by all parties.",
+        "Facility changes can affect life-safety assumptions and should be reviewed through controlled design and change processes before occupancy.",
+        "Emerging technology should be managed through risk assessment, validation, access control, change management, performance monitoring, and accountable human decisions.",
+        "Lone-work controls should detect missed contact, summon help, and prevent solo performance of tasks whose rescue needs exceed available capability."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Facility life safety', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'AI decision support', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Lone worker protection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 4, 31, and 38, multi-employer coordination, management systems, and contractor safety; Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/future-of-work/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f9baa3df376b149120bb5225234b4520a0fa877c73a871d3ad5dc8ea8877acbf"
+    },
+    {
+      "id": "PV2-CORE-CH41-018",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fleet fatigue risk",
+      "itemFamilyId": "PV2-CORE-CH41-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a lone-worker technology rollout, the team reviews this question: Vehicle telematics show repeated lane departures near the end of long night shifts. What is the strongest response? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Emerging technology should be managed through risk assessment, validation, access control, change management, performance monitoring, and accountable human decisions.",
+        "Fleet risk management should integrate human performance, work hours, vehicle data, training, maintenance, and reporting.",
+        "Facility changes can affect life-safety assumptions and should be reviewed through controlled design and change processes before occupancy.",
+        "Multi-employer work requires explicit interface control so responsibilities and hazardous states are understood and verified by all parties."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'AI decision support', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Facility life safety', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Contractor coordination', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "NIOSH Work Schedules and Fatigue Resources",
+      "sourceLocation": "Current ASP11/CSP11 fleet and human-performance objectives; NIOSH work-hours and fatigue guidance; Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod3/05.html",
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5c390757081f2a49225d593eed6b9c0fe8597b4b2deecb904af632583a86d26b"
+    },
+    {
+      "id": "PV2-CORE-CH41-019",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Lone worker protection",
+      "itemFamilyId": "PV2-CORE-CH41-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an AI-enabled hazard detection pilot, the team reviews this question: A technician works alone at a remote pumping station with poor cellular coverage. Which protection is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Facility changes can affect life-safety assumptions and should be reviewed through controlled design and change processes before occupancy.",
+        "Multi-employer work requires explicit interface control so responsibilities and hazardous states are understood and verified by all parties.",
+        "Lone-work controls should detect missed contact, summon help, and prevent solo performance of tasks whose rescue needs exceed available capability.",
+        "Emerging technology should be managed through risk assessment, validation, access control, change management, performance monitoring, and accountable human decisions."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Facility life safety', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Contractor coordination', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'AI decision support', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "NIOSH Emergency Communications and Lone Worker Guidance",
+      "sourceLocation": "Current ASP11 lone-worker objective and NIOSH emergency communication concepts; Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/docs/2012-136/default.html",
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8b161926b98b3b83644df9509b722e10f21c2741f337f172da38602d2a67a4cb"
+    },
+    {
+      "id": "PV2-CORE-CH41-020",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08k",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D2.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "AI decision support",
+      "itemFamilyId": "PV2-CORE-CH41-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a remote work risk assessment, the team reviews this question: An AI tool recommends closing high-risk findings based on incomplete text records. How should it be governed? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Facility changes can affect life-safety assumptions and should be reviewed through controlled design and change processes before occupancy.",
+        "Multi-employer work requires explicit interface control so responsibilities and hazardous states are understood and verified by all parties.",
+        "Lone-work controls should detect missed contact, summon help, and prevent solo performance of tasks whose rescue needs exceed available capability.",
+        "Emerging technology should be managed through risk assessment, validation, access control, change management, performance monitoring, and accountable human decisions."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Facility life safety', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Contractor coordination', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Lone worker protection', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Current ASP11 emerging-technology objective; Yates Chapters 31, 36, and 38 on systems, measurement, and change management; Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/future-of-work/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dbbc87b5cd05a4cf01386b18b1d417e198ef4ba20a97db3061aa3440115a049d"
+    },
+    {
+      "id": "PV2-CORE-CH41-021",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Facility life safety",
+      "itemFamilyId": "PV2-CORE-CH41-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a robotics integration review, the team reviews this question: A storage change increases occupant load and blocks part of an exit access route. What should occur before use of the area? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Facility changes can affect life-safety assumptions and should be reviewed through controlled design and change processes before occupancy.",
+        "Emerging technology should be managed through risk assessment, validation, access control, change management, performance monitoring, and accountable human decisions.",
+        "Multi-employer work requires explicit interface control so responsibilities and hazardous states are understood and verified by all parties.",
+        "Lone-work controls should detect missed contact, summon help, and prevent solo performance of tasks whose rescue needs exceed available capability."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'AI decision support', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Contractor coordination', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Lone worker protection', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Current CSP11 facility life-safety objective; Yates Chapters 12, 29, 35, 38, and 39; Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/future-of-work/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2098c385e5a35e54153092958128aca4e1fba2fcd6c7af88acdb4d376c43dfc7"
+    },
+    {
+      "id": "PV2-CORE-CH41-022",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contractor interface risk",
+      "itemFamilyId": "PV2-CORE-CH41-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a contractor coordination project, a supervisor proposes: \"Assume the two separate compliant programs by themselves control the hazards created by simultaneous work\". The underlying case is: A host and contractor each have adequate procedures, but their simultaneous work creates an unexpected line-breaking and ignition-source interaction. What control is most important? Which alternative is the most defensible correction?",
+      "options": [
+        "Assume the two separate compliant programs by themselves control the hazards created by simultaneous work",
+        "Use an interface risk review and coordinated permit, scheduling, isolation, communication, and stop-work process across both employers",
+        "Assign responsibility after the work is complete based on contract price",
+        "Allow each crew to manage only hazards inside its immediate work boundary"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Emergent risk often occurs at organizational and task interfaces. Coordination must address simultaneous operations and shared controls, not just each employer’s internal program.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Assume the two separate compliant programs by themselves control the hazards created by simultaneous work' remains incomplete or misapplies the controlling contractor interface risk principle.",
+        null,
+        "The proposed response 'Assign responsibility after the work is complete based on contract price' remains incomplete or misapplies the controlling contractor interface risk principle.",
+        "The proposed response 'Allow each crew to manage only hazards inside its immediate work boundary' remains incomplete or misapplies the controlling contractor interface risk principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: contractor interface risk",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e3a8439fcf5b12dc657ce54b5ec1b4858155f5bdfbbfd571f2ff6598a5879207"
+    },
+    {
+      "id": "PV2-CORE-CH41-023",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fleet safety systems",
+      "itemFamilyId": "PV2-CORE-CH41-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a fleet safety review, a supervisor proposes: \"Address the trend with post-incident defensive-driving videos without changing qualification, journey, or vehicle controls\". The underlying case is: A company’s crash rate rises among drivers using personal vehicles for business. The fleet program covers only company-owned trucks. What is the strongest improvement? Which alternative is the most defensible correction?",
+      "options": [
+        "Pay mileage and treat all vehicle safety responsibility as transferred to the driver",
+        "Exclude personally owned vehicles from the fleet program because vehicle ownership determines program scope",
+        "Extend risk-based driver qualification, journey planning, distraction, fatigue, vehicle condition, reporting, and incident review controls to all business driving",
+        "Address the trend with post-incident defensive-driving videos without changing qualification, journey, or vehicle controls"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Business-driving risk depends on the work activity, not just vehicle ownership. A comprehensive program covers drivers, journeys, vehicles, and organizational conditions.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Pay mileage and treat all vehicle safety responsibility as transferred to the driver' remains incomplete or misapplies the controlling fleet safety systems principle.",
+        "The proposed response 'Exclude personally owned vehicles from the fleet program because vehicle ownership determines program scope' remains incomplete or misapplies the controlling fleet safety systems principle.",
+        null,
+        "The proposed response 'Address the trend with post-incident defensive-driving videos without changing qualification, journey, or vehicle controls' remains incomplete or misapplies the controlling fleet safety systems principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: fleet safety systems",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "82ddcf50bc3391e80b94c8ffee419a0e8471ebe1ca3ae98cf344c8ebca7cfebb"
+    },
+    {
+      "id": "PV2-CORE-CH41-024",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "AI hazard detection governance",
+      "itemFamilyId": "PV2-CORE-CH41-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a lone-worker technology rollout, a supervisor proposes: \"Treat false negatives as secondary because false alarms have the more visible productivity impact\". The underlying case is: An AI camera flags unsafe acts, but validation shows higher false-negative rates on night shift and the vendor will not explain model limitations. What should the organization do? Which alternative is the most defensible correction?",
+      "options": [
+        "Use the system as the sole basis for discipline without human review",
+        "Treat false negatives as secondary because false alarms have the more visible productivity impact",
+        "Deploy fully because automated detection is inherently more objective than people",
+        "Limit deployment until performance, bias, privacy, failure modes, human oversight, and fallback controls are validated for actual conditions"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "AI is a safety-related tool whose limitations, bias, privacy, and failure modes must be governed. It should not replace critical controls or accountable judgment without validation.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use the system as the sole basis for discipline without human review' remains incomplete or misapplies the controlling ai hazard detection governance principle.",
+        "The proposed response 'Treat false negatives as secondary because false alarms have the more visible productivity impact' remains incomplete or misapplies the controlling ai hazard detection governance principle.",
+        "The proposed response 'Deploy fully because automated detection is inherently more objective than people' remains incomplete or misapplies the controlling ai hazard detection governance principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: AI hazard detection governance",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ce700c3e6d18d03239c99ff2b2c3d0a6892d47b8765df01c77e79b74904b6dae"
+    },
+    {
+      "id": "PV2-CORE-CH41-025",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.03",
+          "role": "secondary"
+        }
+      ],
+      "concept": "robotics and collaborative work",
+      "itemFamilyId": "PV2-CORE-CH41-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an AI-enabled hazard detection pilot, a supervisor proposes: \"The collaborative robot label makes every attached tool safe\". The underlying case is: A collaborative robot meets force limits in a laboratory test, but a sharp workpiece attached to its arm can contact employees. What is the key assessment point? Which alternative is the most defensible correction?",
+      "options": [
+        "Evaluate the complete application, including end effector, workpiece, speed, foreseeable contact, faults, and task changes—not the robot alone",
+        "The collaborative robot label makes every attached tool safe",
+        "Training employees to avoid the robot removes the need for application risk assessment",
+        "Force limits measured without the workpiece apply unchanged to all configurations"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Collaborative safety depends on the integrated system and task. Tools, payloads, geometry, speed, faults, and changes can create hazards not represented by robot-only testing.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'The collaborative robot label makes every attached tool safe' remains incomplete or misapplies the controlling robotics and collaborative work principle.",
+        "The proposed response 'Training employees to avoid the robot removes the need for application risk assessment' remains incomplete or misapplies the controlling robotics and collaborative work principle.",
+        "The proposed response 'Force limits measured without the workpiece apply unchanged to all configurations' remains incomplete or misapplies the controlling robotics and collaborative work principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: robotics and collaborative work",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "453790e99d104f52359a69e5fe3904577a4b85905d2ea314935ac38f13850048"
+    },
+    {
+      "id": "PV2-CORE-CH41-026",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "remote and home work risk",
+      "itemFamilyId": "PV2-CORE-CH41-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a remote work risk assessment, a supervisor proposes: \"Require employees to send full video surveillance of their homes\". The underlying case is: Employees perform prolonged computer work from home using improvised furniture and report discomfort. What is the most practical organizational response? Which alternative is the most defensible correction?",
+      "options": [
+        "Require employees to send full video surveillance of their homes",
+        "Provide remote-work ergonomic guidance, self-assessment and support, suitable equipment options, early reporting, and reasonable follow-up",
+        "Treat home work as outside all organizational influence",
+        "Wait for workers compensation claims before offering any assistance"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Remote work changes control methods but not the value of prevention. Scalable guidance, equipment support, privacy-respecting assessment, and early intervention are appropriate.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Require employees to send full video surveillance of their homes' remains incomplete or misapplies the controlling remote and home work risk principle.",
+        null,
+        "The proposed response 'Treat home work as outside all organizational influence' remains incomplete or misapplies the controlling remote and home work risk principle.",
+        "The proposed response 'Wait for workers compensation claims before offering any assistance' remains incomplete or misapplies the controlling remote and home work risk principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: remote and home work risk",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3c2062696025d8dd7bd337ca8f9914131d4b06bd7d1158fd59b0064742ae66b0"
+    },
+    {
+      "id": "PV2-CORE-CH41-027",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08d",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.06",
+          "role": "secondary"
+        }
+      ],
+      "concept": "nanomaterial uncertainty",
+      "itemFamilyId": "PV2-CORE-CH41-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a robotics integration review, a supervisor proposes: \"Use ordinary dry sweeping because the particles are too small to see\". The underlying case is: A process introduces an engineered nanomaterial with limited toxicology data and potential airborne release during powder handling. What approach is most defensible? Which alternative is the most defensible correction?",
+      "options": [
+        "Assume the bulk material’s hazard profile fully predicts nanoscale behavior",
+        "Delay controls until an occupational exposure limit is issued",
+        "Use a precautionary exposure assessment with enclosure, local exhaust, controlled handling, suitable PPE, housekeeping, and review as evidence develops",
+        "Use ordinary dry sweeping because the particles are too small to see"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Uncertain nanomaterial hazards warrant prudent containment and exposure control based on form and task. Absence of a specific limit is not proof of safety.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Assume the bulk material’s hazard profile fully predicts nanoscale behavior' remains incomplete or misapplies the controlling nanomaterial uncertainty principle.",
+        "The proposed response 'Delay controls until an occupational exposure limit is issued' remains incomplete or misapplies the controlling nanomaterial uncertainty principle.",
+        null,
+        "The proposed response 'Use ordinary dry sweeping because the particles are too small to see' remains incomplete or misapplies the controlling nanomaterial uncertainty principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: nanomaterial uncertainty",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "adceaf6c832dbb96a6ea5251932427357a5697cf678c6ea9dde46c3340b36c47"
+    },
+    {
+      "id": "PV2-CORE-CH41-028",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "wearable technology and privacy",
+      "itemFamilyId": "PV2-CORE-CH41-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a nanomaterial process introduction, a supervisor proposes: \"Collect every available data field because more data always improves safety\". The underlying case is: A fatigue wearable collects sleep and location data. Management wants unrestricted individual access for disciplinary decisions. What governance is most appropriate? Which alternative is the most defensible correction?",
+      "options": [
+        "Collect every available data field because more data always improves safety",
+        "Keep the algorithm secret from employees and use scores as conclusive evidence",
+        "Publish individual sleep data to encourage peer accountability",
+        "Define a legitimate safety purpose, data minimization, consent or legal basis, access limits, security, retention, validation, and protections against misuse"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Worker technology can help only when accuracy, privacy, purpose, security, and fair use are governed. Sensitive data should not become uncontrolled surveillance.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Collect every available data field because more data always improves safety' remains incomplete or misapplies the controlling wearable technology and privacy principle.",
+        "The proposed response 'Keep the algorithm secret from employees and use scores as conclusive evidence' remains incomplete or misapplies the controlling wearable technology and privacy principle.",
+        "The proposed response 'Publish individual sleep data to encourage peer accountability' remains incomplete or misapplies the controlling wearable technology and privacy principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: wearable technology and privacy",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "27496ba4fc94ae117db8729e7de40f81e4d477564512481373e30ba6d0f27e3c"
+    },
+    {
+      "id": "PV2-CORE-CH41-029",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A4.11",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.04",
+          "role": "secondary"
+        }
+      ],
+      "concept": "emerging risk and change management",
+      "itemFamilyId": "PV2-CORE-CH41-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a cross-border supplier risk decision, a supervisor proposes: \"Review only injury statistics after one year of operation\". The underlying case is: A facility rapidly adopts battery energy storage, autonomous vehicles, and new fire suppression technology. Each vendor addresses only its own product. What is the safety professional’s highest-value role? Which alternative is the most defensible correction?",
+      "options": [
+        "Lead an integrated system and change risk review covering interactions, standards, emergency response, competence, cybersecurity, maintenance, and lifecycle hazards",
+        "Accept each vendor certificate as proof the combined system is safe",
+        "Assign every interface risk to the vendor with the largest contract",
+        "Review only injury statistics after one year of operation"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Emerging technologies create interface and lifecycle risks that component reviews can miss. Integrated change management and system assurance are essential.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Accept each vendor certificate as proof the combined system is safe' remains incomplete or misapplies the controlling emerging risk and change management principle.",
+        "The proposed response 'Assign every interface risk to the vendor with the largest contract' remains incomplete or misapplies the controlling emerging risk and change management principle.",
+        "The proposed response 'Review only injury statistics after one year of operation' remains incomplete or misapplies the controlling emerging risk and change management principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: emerging risk and change management",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9b8197349e01fcab2a610662baa51f8c6723420ce193ce331449c20b55eabaa9"
+    },
+    {
+      "id": "PV2-CORE-CH41-030",
+      "version": 1,
+      "chapterId": "ch-41",
+      "chapterTitle": "Integrated and Emerging Safety Practice",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.08l",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.07",
+          "role": "secondary"
+        }
+      ],
+      "concept": "contractor interface risk",
+      "itemFamilyId": "PV2-CORE-CH41-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fleet safety review, the team selects \"Use an interface risk review and coordinated permit, scheduling, isolation, communication, and stop-work process across both employers\" rather than \"Assign responsibility after the work is complete based on contract price\" for this case: A host and contractor each have adequate procedures, but their simultaneous work creates an unexpected line-breaking and ignition-source interaction. What control is most important? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Worker technology can help only when accuracy, privacy, purpose, security, and fair use are governed. Sensitive data should not become uncontrolled surveillance.",
+        "Emergent risk often occurs at organizational and task interfaces. Coordination must address simultaneous operations and shared controls, not just each employer’s internal program.",
+        "Remote work changes control methods but not the value of prevention. Scalable guidance, equipment support, privacy-respecting assessment, and early intervention are appropriate.",
+        "Business-driving risk depends on the work activity, not just vehicle ownership. A comprehensive program covers drivers, journeys, vehicles, and organizational conditions."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the contractor interface risk issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'wearable technology and privacy' and does not distinguish the two responses in the present contractor interface risk decision.",
+        null,
+        "This explanation concerns 'remote and home work risk' and does not distinguish the two responses in the present contractor interface risk decision.",
+        "This explanation concerns 'fleet safety systems' and does not distinguish the two responses in the present contractor interface risk decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 1, pp. 8-13; Integrated federal and professional guidance for emerging safety practice; curated topic: contractor interface risk",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/future-of-work/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b13562ffa6ad8076828a090d5d6d7f20f39f5dee42b1cda62b414e055d269680"
+    }
+  ]
+}

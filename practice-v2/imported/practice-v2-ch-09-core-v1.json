@@ -1,0 +1,2329 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-09-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-09",
+  "chapterTitle": "Ventilation",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH09-001",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "source capture and hood placement",
+      "itemFamilyId": "PV2-CORE-CH09-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A local exhaust hood is moved twice as far from a small contaminant source without changing airflow. What is the most likely result?",
+      "options": [
+        "Capture effectiveness will decrease sharply, so the hood should be repositioned close to the source or airflow redesigned",
+        "Capture velocity will remain unchanged at every distance from the hood",
+        "Capture will improve because a larger room volume is drawn toward the hood",
+        "Only duct friction changes; source capture is unaffected by hood distance"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Exterior hood capture velocity falls rapidly with distance. Placing the hood close to the source is generally more effective and energy efficient than relying on remote capture.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Capture velocity will remain unchanged at every distance from the hood' does not apply the controlling principle for source capture and hood placement to the facts given, so it is not the best answer.",
+        "The option 'Capture will improve because a larger room volume is drawn toward the hood' does not apply the controlling principle for source capture and hood placement to the facts given, so it is not the best answer.",
+        "The option 'Only duct friction changes; source capture is unaffected by hood distance' does not apply the controlling principle for source capture and hood placement to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: source capture and hood placement",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cb0119921da5415a04b0e6f29a4a6ee5d4caaefbaed609472da14bd52968e1d6"
+    },
+    {
+      "id": "PV2-CORE-CH09-002",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "enclosing hood design",
+      "itemFamilyId": "PV2-CORE-CH09-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A powder transfer can be partially enclosed without interfering with operation. Which ventilation design is generally preferred?",
+      "options": [
+        "Use an open canopy hood above the worker for a heavy settling dust",
+        "Use as much enclosure as practicable with inward airflow through controlled openings",
+        "Increase duct velocity while leaving the source fully open and distant from the hood",
+        "Place a pedestal fan behind the worker to disperse dust through the room"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Enclosure reduces required airflow and prevents contaminant escape. Canopy and dilution approaches are usually weaker for source-generated dust where enclosure is feasible.",
+      "incorrectOptionExplanations": [
+        "The option 'Use an open canopy hood above the worker for a heavy settling dust' does not apply the controlling principle for enclosing hood design to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Increase duct velocity while leaving the source fully open and distant from the hood' does not apply the controlling principle for enclosing hood design to the facts given, so it is not the best answer.",
+        "The option 'Place a pedestal fan behind the worker to disperse dust through the room' does not apply the controlling principle for enclosing hood design to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: enclosing hood design",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "74c4f22e7338313619540b0cdcf39f77b4db76057a2ad6d5b0b5b845f42744d6"
+    },
+    {
+      "id": "PV2-CORE-CH09-003",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "make-up air",
+      "itemFamilyId": "PV2-CORE-CH09-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A new exhaust system removes substantial air from a tightly closed building. Doors become difficult to open and hood performance is unstable. What should be evaluated first?",
+      "options": [
+        "Increase fan speed indefinitely without replacing exhausted air",
+        "Reduce hood openings while keeping the same process emissions and no make-up air",
+        "Provide and balance conditioned make-up air so replacement air reaches the space without disrupting capture",
+        "Seal remaining building openings to increase negative pressure"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Exhausted air must be replaced. Excessive negative pressure can reduce flow, interfere with doors and combustion equipment, and destabilize ventilation performance.",
+      "incorrectOptionExplanations": [
+        "The option 'Increase fan speed indefinitely without replacing exhausted air' does not apply the controlling principle for make-up air to the facts given, so it is not the best answer.",
+        "The option 'Reduce hood openings while keeping the same process emissions and no make-up air' does not apply the controlling principle for make-up air to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Seal remaining building openings to increase negative pressure' does not apply the controlling principle for make-up air to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: make-up air",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9aadd7df276a52b5d5d7c8a7286e5f8d8d4bf88dc2210ae9bce6c09e74a71070"
+    },
+    {
+      "id": "PV2-CORE-CH09-004",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "duct transport velocity",
+      "itemFamilyId": "PV2-CORE-CH09-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Dust settles in horizontal ducts even though the hood captures material at the source. Which corrective action is most relevant?",
+      "options": [
+        "Close the branch damper serving the highest dust-loading process",
+        "Add room dilution fans while leaving deposited dust in the duct",
+        "Lower duct velocity so particles have more time to reach the collector",
+        "Verify transport velocity, duct geometry, and balance, then correct the conditions allowing particulate deposition"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Particulate systems require sufficient transport velocity and suitable duct design to keep material suspended; reducing velocity or adding room mixing does not solve deposition.",
+      "incorrectOptionExplanations": [
+        "The option 'Close the branch damper serving the highest dust-loading process' does not apply the controlling principle for duct transport velocity to the facts given, so it is not the best answer.",
+        "The option 'Add room dilution fans while leaving deposited dust in the duct' does not apply the controlling principle for duct transport velocity to the facts given, so it is not the best answer.",
+        "The option 'Lower duct velocity so particles have more time to reach the collector' does not apply the controlling principle for duct transport velocity to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: duct transport velocity",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "550d738b08d500dfce529dcc4c7931332120c5f5f9faa302bd94209c62fe6578"
+    },
+    {
+      "id": "PV2-CORE-CH09-005",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "static pressure troubleshooting",
+      "itemFamilyId": "PV2-CORE-CH09-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A branch hood has inadequate flow after another branch is opened. The fan is operating normally. Which diagnostic step is most useful?",
+      "options": [
+        "Measure branch flows and static pressures to determine whether the system is unbalanced or losses differ from design",
+        "Assume the contaminant concentration changed and replace sampling media",
+        "Remove all blast gates so no branch can ever be adjusted",
+        "Judge performance solely by whether the fan motor sounds louder"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Simultaneous branches interact through system resistance. Flow and pressure measurements reveal imbalance, blockage, or loss conditions that visual or auditory impressions cannot establish.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Assume the contaminant concentration changed and replace sampling media' does not apply the controlling principle for static pressure troubleshooting to the facts given, so it is not the best answer.",
+        "The option 'Remove all blast gates so no branch can ever be adjusted' does not apply the controlling principle for static pressure troubleshooting to the facts given, so it is not the best answer.",
+        "The option 'Judge performance solely by whether the fan motor sounds louder' does not apply the controlling principle for static pressure troubleshooting to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: static pressure troubleshooting",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "72fc73c46eb451cce87bca722a732c42456e75de40f60eb4ba667cc0189e2f0b"
+    },
+    {
+      "id": "PV2-CORE-CH09-006",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fan operating point",
+      "itemFamilyId": "PV2-CORE-CH09-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A fan is selected only by its free-air flow rating, but the installed system includes long ducts, elbows, and a collector. Why may actual airflow be inadequate?",
+      "options": [
+        "Duct losses increase airflow above the free-air rating",
+        "The fan must operate against total system resistance, and its operating point is where the fan curve intersects the system curve",
+        "Fan curves apply only to natural ventilation systems",
+        "Treat collector resistance as affecting removal efficiency but not the fan operating point or delivered airflow"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Free-air ratings do not represent installed performance. The fan and system curves determine the actual flow at the required pressure.",
+      "incorrectOptionExplanations": [
+        "The option 'Duct losses increase airflow above the free-air rating' does not apply the controlling principle for fan operating point to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Fan curves apply only to natural ventilation systems' does not apply the controlling principle for fan operating point to the facts given, so it is not the best answer.",
+        "The option 'Treat collector resistance as affecting removal efficiency but not the fan operating point or delivered airflow' does not apply the controlling principle for fan operating point to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: fan operating point",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "af4056d9f581d33f9b120a2d299fc0fb91cf0f32441a9ed5419354e8bbf87b36"
+    },
+    {
+      "id": "PV2-CORE-CH09-007",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "dilution ventilation suitability",
+      "itemFamilyId": "PV2-CORE-CH09-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A highly toxic contaminant is released unpredictably near workers, and the generation rate can vary rapidly. Why is general dilution ventilation a weak primary control?",
+      "options": [
+        "Dilution works only when contaminants are visible as dust",
+        "Dilution ventilation is prohibited for every gas and vapor regardless of conditions",
+        "It may not prevent high local concentrations, and the uncertain generation rate makes reliable dilution difficult",
+        "General ventilation always creates an oxygen-deficient atmosphere"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Dilution is best for relatively low-toxicity contaminants with predictable generation and good mixing. Highly toxic, variable, near-worker releases favor source capture or enclosure.",
+      "incorrectOptionExplanations": [
+        "The option 'Dilution works only when contaminants are visible as dust' does not apply the controlling principle for dilution ventilation suitability to the facts given, so it is not the best answer.",
+        "The option 'Dilution ventilation is prohibited for every gas and vapor regardless of conditions' does not apply the controlling principle for dilution ventilation suitability to the facts given, so it is not the best answer.",
+        null,
+        "The option 'General ventilation always creates an oxygen-deficient atmosphere' does not apply the controlling principle for dilution ventilation suitability to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: dilution ventilation suitability",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ee51bccfe15b7240ed071e49da26cadb92597c96ef717499ab26a5bb974cd912"
+    },
+    {
+      "id": "PV2-CORE-CH09-008",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "commissioning and verification",
+      "itemFamilyId": "PV2-CORE-CH09-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A new local exhaust system meets the design airflow on startup. What ongoing program best supports continued control?",
+      "options": [
+        "Assume performance remains acceptable until employees report symptoms",
+        "Measure room temperature annually as the sole ventilation indicator",
+        "Disable alarms after commissioning to prevent nuisance reports",
+        "Document baseline airflow and pressure indicators, inspect components, maintain the system, and remeasure after changes or performance drift"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Ventilation systems degrade or are altered. Baseline indicators, inspection, maintenance, and periodic verification are needed to confirm continuing performance.",
+      "incorrectOptionExplanations": [
+        "The option 'Assume performance remains acceptable until employees report symptoms' does not apply the controlling principle for commissioning and verification to the facts given, so it is not the best answer.",
+        "The option 'Measure room temperature annually as the sole ventilation indicator' does not apply the controlling principle for commissioning and verification to the facts given, so it is not the best answer.",
+        "The option 'Disable alarms after commissioning to prevent nuisance reports' does not apply the controlling principle for commissioning and verification to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: commissioning and verification",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c0f7ac8da88dc54d409f86c969c46e3a6dd5b5f25d315396f1b700205b2c458c"
+    },
+    {
+      "id": "PV2-CORE-CH09-009",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "source capture and hood placement",
+      "itemFamilyId": "PV2-CORE-CH09-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a duct-system balance check, the team reviews this case: A local exhaust hood is moved twice as far from a small contaminant source without changing airflow. What is the most likely result? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Exterior hood capture velocity falls rapidly with distance. Placing the hood close to the source is generally more effective and energy efficient than relying on remote capture.",
+        "Ventilation systems degrade or are altered. Baseline indicators, inspection, maintenance, and periodic verification are needed to confirm continuing performance.",
+        "Enclosure reduces required airflow and prevents contaminant escape. Canopy and dilution approaches are usually weaker for source-generated dust where enclosure is feasible.",
+        "Exhausted air must be replaced. Excessive negative pressure can reduce flow, interfere with doors and combustion equipment, and destabilize ventilation performance."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses source capture and hood placement and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'commissioning and verification', but it does not resolve the source capture and hood placement issue in this case.",
+        "This rationale supports the separate chapter topic 'enclosing hood design', but it does not resolve the source capture and hood placement issue in this case.",
+        "This rationale supports the separate chapter topic 'make-up air', but it does not resolve the source capture and hood placement issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: source capture and hood placement",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bb853cef3b582d0e03fee678ac6d606e03d5fc2a5e338bfb1987b4abfcf92cd3"
+    },
+    {
+      "id": "PV2-CORE-CH09-010",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "enclosing hood design",
+      "itemFamilyId": "PV2-CORE-CH09-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a contaminant-control retrofit, the team reviews this case: A powder transfer can be partially enclosed without interfering with operation. Which ventilation design is generally preferred? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Exhausted air must be replaced. Excessive negative pressure can reduce flow, interfere with doors and combustion equipment, and destabilize ventilation performance.",
+        "Enclosure reduces required airflow and prevents contaminant escape. Canopy and dilution approaches are usually weaker for source-generated dust where enclosure is feasible.",
+        "Dilution is best for relatively low-toxicity contaminants with predictable generation and good mixing. Highly toxic, variable, near-worker releases favor source capture or enclosure.",
+        "Particulate systems require sufficient transport velocity and suitable duct design to keep material suspended; reducing velocity or adding room mixing does not solve deposition."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses enclosing hood design and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'make-up air', but it does not resolve the enclosing hood design issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'dilution ventilation suitability', but it does not resolve the enclosing hood design issue in this case.",
+        "This rationale supports the separate chapter topic 'duct transport velocity', but it does not resolve the enclosing hood design issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: enclosing hood design",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3a6d37ff05aaccd57d2cd0febf0766c3451a08b219a694a78dfcb6d4ffaaaa51"
+    },
+    {
+      "id": "PV2-CORE-CH09-011",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "make-up air",
+      "itemFamilyId": "PV2-CORE-CH09-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a make-up air assessment, the team reviews this case: A new exhaust system removes substantial air from a tightly closed building. Doors become difficult to open and hood performance is unstable. What should be evaluated first? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Simultaneous branches interact through system resistance. Flow and pressure measurements reveal imbalance, blockage, or loss conditions that visual or auditory impressions cannot establish.",
+        "Particulate systems require sufficient transport velocity and suitable duct design to keep material suspended; reducing velocity or adding room mixing does not solve deposition.",
+        "Exhausted air must be replaced. Excessive negative pressure can reduce flow, interfere with doors and combustion equipment, and destabilize ventilation performance.",
+        "Ventilation systems degrade or are altered. Baseline indicators, inspection, maintenance, and periodic verification are needed to confirm continuing performance."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses make-up air and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'static pressure troubleshooting', but it does not resolve the make-up air issue in this case.",
+        "This rationale supports the separate chapter topic 'duct transport velocity', but it does not resolve the make-up air issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'commissioning and verification', but it does not resolve the make-up air issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: make-up air",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ee16335e739b99325debe7fa10ed27b2c4fe953bf85be1be1e37f4593046b29e"
+    },
+    {
+      "id": "PV2-CORE-CH09-012",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "duct transport velocity",
+      "itemFamilyId": "PV2-CORE-CH09-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a fan selection meeting, the team reviews this case: Dust settles in horizontal ducts even though the hood captures material at the source. Which corrective action is most relevant? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Exterior hood capture velocity falls rapidly with distance. Placing the hood close to the source is generally more effective and energy efficient than relying on remote capture.",
+        "Exhausted air must be replaced. Excessive negative pressure can reduce flow, interfere with doors and combustion equipment, and destabilize ventilation performance.",
+        "Ventilation systems degrade or are altered. Baseline indicators, inspection, maintenance, and periodic verification are needed to confirm continuing performance.",
+        "Particulate systems require sufficient transport velocity and suitable duct design to keep material suspended; reducing velocity or adding room mixing does not solve deposition."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses duct transport velocity and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'source capture and hood placement', but it does not resolve the duct transport velocity issue in this case.",
+        "This rationale supports the separate chapter topic 'make-up air', but it does not resolve the duct transport velocity issue in this case.",
+        "This rationale supports the separate chapter topic 'commissioning and verification', but it does not resolve the duct transport velocity issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: duct transport velocity",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f3459b4f2b97177da8580c4b2212b47c5cd2393d62ae477adec94fe4c01fa660"
+    },
+    {
+      "id": "PV2-CORE-CH09-013",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "static pressure troubleshooting",
+      "itemFamilyId": "PV2-CORE-CH09-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a confined-space purge estimate, the team reviews this case: A branch hood has inadequate flow after another branch is opened. The fan is operating normally. Which diagnostic step is most useful? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Simultaneous branches interact through system resistance. Flow and pressure measurements reveal imbalance, blockage, or loss conditions that visual or auditory impressions cannot establish.",
+        "Dilution is best for relatively low-toxicity contaminants with predictable generation and good mixing. Highly toxic, variable, near-worker releases favor source capture or enclosure.",
+        "Exterior hood capture velocity falls rapidly with distance. Placing the hood close to the source is generally more effective and energy efficient than relying on remote capture.",
+        "Enclosure reduces required airflow and prevents contaminant escape. Canopy and dilution approaches are usually weaker for source-generated dust where enclosure is feasible."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses static pressure troubleshooting and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'dilution ventilation suitability', but it does not resolve the static pressure troubleshooting issue in this case.",
+        "This rationale supports the separate chapter topic 'source capture and hood placement', but it does not resolve the static pressure troubleshooting issue in this case.",
+        "This rationale supports the separate chapter topic 'enclosing hood design', but it does not resolve the static pressure troubleshooting issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: static pressure troubleshooting",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a07c16931457e97ad59df0c4066e6d004888760ffe5b818410129f48460c2d97"
+    },
+    {
+      "id": "PV2-CORE-CH09-014",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fan operating point",
+      "itemFamilyId": "PV2-CORE-CH09-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a ventilation commissioning test, the team reviews this case: A fan is selected only by its free-air flow rating, but the installed system includes long ducts, elbows, and a collector. Why may actual airflow be inadequate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Simultaneous branches interact through system resistance. Flow and pressure measurements reveal imbalance, blockage, or loss conditions that visual or auditory impressions cannot establish.",
+        "Free-air ratings do not represent installed performance. The fan and system curves determine the actual flow at the required pressure.",
+        "Enclosure reduces required airflow and prevents contaminant escape. Canopy and dilution approaches are usually weaker for source-generated dust where enclosure is feasible.",
+        "Exterior hood capture velocity falls rapidly with distance. Placing the hood close to the source is generally more effective and energy efficient than relying on remote capture."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses fan operating point and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'static pressure troubleshooting', but it does not resolve the fan operating point issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'enclosing hood design', but it does not resolve the fan operating point issue in this case.",
+        "This rationale supports the separate chapter topic 'source capture and hood placement', but it does not resolve the fan operating point issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: fan operating point",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6cf81d34396b404987b8bfbc2e4366bf10098f4dd55835ff17c6f964cc4e921e"
+    },
+    {
+      "id": "PV2-CORE-CH09-015",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "dilution ventilation suitability",
+      "itemFamilyId": "PV2-CORE-CH09-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a local exhaust ventilation design review, the team reviews this case: A highly toxic contaminant is released unpredictably near workers, and the generation rate can vary rapidly. Why is general dilution ventilation a weak primary control? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Particulate systems require sufficient transport velocity and suitable duct design to keep material suspended; reducing velocity or adding room mixing does not solve deposition.",
+        "Exterior hood capture velocity falls rapidly with distance. Placing the hood close to the source is generally more effective and energy efficient than relying on remote capture.",
+        "Dilution is best for relatively low-toxicity contaminants with predictable generation and good mixing. Highly toxic, variable, near-worker releases favor source capture or enclosure.",
+        "Simultaneous branches interact through system resistance. Flow and pressure measurements reveal imbalance, blockage, or loss conditions that visual or auditory impressions cannot establish."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses dilution ventilation suitability and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'duct transport velocity', but it does not resolve the dilution ventilation suitability issue in this case.",
+        "This rationale supports the separate chapter topic 'source capture and hood placement', but it does not resolve the dilution ventilation suitability issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'static pressure troubleshooting', but it does not resolve the dilution ventilation suitability issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: dilution ventilation suitability",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8150f9dfc454897c48bf195e1bf2653f1d2f9b63fd5a157852bc67ffbcb2203a"
+    },
+    {
+      "id": "PV2-CORE-CH09-016",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "commissioning and verification",
+      "itemFamilyId": "PV2-CORE-CH09-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hood-performance troubleshooting visit, the team reviews this case: A new local exhaust system meets the design airflow on startup. What ongoing program best supports continued control? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Dilution is best for relatively low-toxicity contaminants with predictable generation and good mixing. Highly toxic, variable, near-worker releases favor source capture or enclosure.",
+        "Particulate systems require sufficient transport velocity and suitable duct design to keep material suspended; reducing velocity or adding room mixing does not solve deposition.",
+        "Simultaneous branches interact through system resistance. Flow and pressure measurements reveal imbalance, blockage, or loss conditions that visual or auditory impressions cannot establish.",
+        "Ventilation systems degrade or are altered. Baseline indicators, inspection, maintenance, and periodic verification are needed to confirm continuing performance."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses commissioning and verification and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'dilution ventilation suitability', but it does not resolve the commissioning and verification issue in this case.",
+        "This rationale supports the separate chapter topic 'duct transport velocity', but it does not resolve the commissioning and verification issue in this case.",
+        "This rationale supports the separate chapter topic 'static pressure troubleshooting', but it does not resolve the commissioning and verification issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: commissioning and verification",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "53795cb885607bf7aa2f25c9aed0e7f2ceb8b8c1b92d6b9f55182e7853289f27"
+    },
+    {
+      "id": "PV2-CORE-CH09-017",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Local exhaust selection",
+      "itemFamilyId": "PV2-CORE-CH09-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hood-performance troubleshooting visit, the team reviews this question: A highly toxic powder is released from one charging port directly beside the operator. Which ventilation strategy is most appropriate? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Local exhaust is preferred for high-hazard contaminants and point sources because it captures emissions near their origin before they disperse through the room.",
+        "Total airflow alone does not prove effective capture. Cross-drafts and poor geometry can overpower hood-induced velocity and carry contaminant through the worker’s breathing zone.",
+        "A Pitot traverse measures pressure components in the duct. Velocity pressure can then be converted to air velocity using the applicable relationship and density correction.",
+        "Room volume = 30 × 40 × 15 = 18,000 ft³. ACH = 60Q/V = 60 × 1,500 / 18,000 = 5 h⁻¹."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Cross-draft interference with capture', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Velocity-pressure measurement', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Air changes per hour', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, ventilation selection and local exhaust, pp. 294-305; OSHA OTM Section III, Chapter 3, dilution versus local exhaust; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "25b2013503714b9370338fc399c2a9b24afe20889b43796a18a3b31ac00e20a5"
+    },
+    {
+      "id": "PV2-CORE-CH09-018",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Dilution ventilation suitability",
+      "itemFamilyId": "PV2-CORE-CH09-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a duct-system balance check, the team reviews this question: Which condition most strongly supports considering dilution ventilation as an exposure control? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The diameter is 1.5 ft, so area = π(0.75 ft)² = 1.767 ft². Q = VA = 1,600 × 1.767 ≈ 2,827 cfm, or about 2,830 cfm.",
+        "Dilution can be suitable for gases or vapors of moderate toxicity when generation is predictable, sources are dispersed, mixing is adequate, and required air volumes are feasible.",
+        "Air removed by exhaust must be replaced. Inadequate make-up air increases building negative pressure, can reduce fan delivery, disrupt hood capture, and draw uncontrolled air through openings.",
+        "A canopy hood can receive hot gases or vapors that rise naturally, provided the worker is not positioned between the source and the hood and cross-drafts are controlled."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Round-duct volumetric airflow', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Make-up air and exhaust-system performance', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Canopy hood application', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, dilution and local ventilation selection, pp. 294-296; OSHA OTM Section III, Chapter 3; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "bab2cff10331c7299175b4104d10b2b81028bbd1c4fcb02d227e8ff2f3667eaa"
+    },
+    {
+      "id": "PV2-CORE-CH09-019",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Round-duct volumetric airflow",
+      "itemFamilyId": "PV2-CORE-CH09-F019",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a contaminant-control retrofit, solve the following problem and select the best answer: Air velocity is 1,600 ft/min in an 18-in.-diameter round duct. What is the approximate volumetric airflow?",
+      "options": [
+        "5,650 cfm",
+        "28,800 cfm",
+        "2,830 cfm",
+        "1,200 cfm"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The diameter is 1.5 ft, so area = π(0.75 ft)² = 1.767 ft². Q = VA = 1,600 × 1.767 ≈ 2,827 cfm, or about 2,830 cfm.",
+      "incorrectOptionExplanations": [
+        "This is approximately twice the correct flow and results from an incorrect circular area.",
+        "This multiplies by the diameter in inches instead of converting and calculating area.",
+        null,
+        "This multiplies velocity by the radius rather than by cross-sectional area."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, volumetric airflow, pp. 296-297; OSHA OTM ventilation primer; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Q = V × A; A = π(D/2)²",
+      "units": "cfm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6c521e5beac00f20e5303e8eb6c13d9c397551f37f48f400e87caa074d789e3b"
+    },
+    {
+      "id": "PV2-CORE-CH09-020",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Velocity from velocity pressure",
+      "itemFamilyId": "PV2-CORE-CH09-F020",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a make-up air assessment, solve the following problem and select the best answer: A duct traverse yields a velocity pressure of 0.36 in. water gauge. What air velocity does this represent at standard conditions?",
+      "options": [
+        "6,675 ft/min",
+        "14,418 ft/min",
+        "1,442 ft/min",
+        "2,400 ft/min"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "V = 4,005√VP = 4,005√0.36 = 4,005 × 0.60 = 2,403 ft/min, approximately 2,400 ft/min.",
+      "incorrectOptionExplanations": [
+        "This divides by √0.36 instead of multiplying.",
+        "This applies an additional factor to the velocity-pressure relationship.",
+        "This multiplies 4,005 directly by 0.36 instead of by its square root.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, velocity and velocity pressure, pp. 296-298; OSHA OTM ventilation primer; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "V = 4,005√VP",
+      "units": "ft/min",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f87a5a25e3a86ed05001bc5d00aede561de58869aeb4bf842468305f52d3f6b4"
+    },
+    {
+      "id": "PV2-CORE-CH09-021",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Total pressure relationship",
+      "itemFamilyId": "PV2-CORE-CH09-F021",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a fan selection meeting, solve the following problem and select the best answer: At a point upstream of an exhaust fan, static pressure is −1.8 in. water gauge and velocity pressure is 0.5 in. water gauge. What is total pressure at that point?",
+      "options": [
+        "−1.3 in. water gauge",
+        "+1.3 in. water gauge",
+        "−2.3 in. water gauge",
+        "+2.3 in. water gauge"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Total pressure is the algebraic sum: TP = SP + VP = −1.8 + 0.5 = −1.3 in. water gauge.",
+      "incorrectOptionExplanations": [
+        null,
+        "This ignores the negative static-pressure sign upstream of the fan.",
+        "This subtracts velocity pressure instead of adding it algebraically.",
+        "This adds magnitudes and also changes the sign."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, static, velocity, and total pressure, pp. 296-297; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "TP = SP + VP",
+      "units": "in. water gauge",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6e2fb1b1a0adb0ea1a722a1fd44557073d6a0375571b464e56ad420695b6e93e"
+    },
+    {
+      "id": "PV2-CORE-CH09-022",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Air changes per hour",
+      "itemFamilyId": "PV2-CORE-CH09-F022",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a confined-space purge estimate, solve the following problem and select the best answer: A room measures 30 ft by 40 ft by 15 ft and receives 1,500 cfm of ventilation air. What is the nominal air-change rate?",
+      "options": [
+        "12 air changes per hour",
+        "5 air changes per hour",
+        "50 air changes per hour",
+        "0.083 air changes per hour"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Room volume = 30 × 40 × 15 = 18,000 ft³. ACH = 60Q/V = 60 × 1,500 / 18,000 = 5 h⁻¹.",
+      "incorrectOptionExplanations": [
+        "This uses an incorrect room volume or airflow ratio.",
+        null,
+        "This introduces a factor-of-ten error.",
+        "This omits the conversion from minutes to hours."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, calculating room air changes, pp. 303-304; OSHA OTM ventilation primer; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "ACH = 60Q / room volume",
+      "units": "air changes/hour",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "786c8ae81d7a40f9dea2c4c0881212d31d1f5b263b47af8b917fd82fb7d55a0c"
+    },
+    {
+      "id": "PV2-CORE-CH09-023",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Purge time after generation stops",
+      "itemFamilyId": "PV2-CORE-CH09-F023",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a ventilation commissioning test, solve the following problem and select the best answer: Contaminant generation has stopped in a 40,000-ft³ room. The effective ventilation rate is 2,000 cfm. Assuming complete mixing, how long will it take to reduce concentration from 300 ppm to 30 ppm?",
+      "options": [
+        "92.1 min",
+        "10.0 min",
+        "46.1 min",
+        "20.0 min"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Use t = −(V/Q′) ln(C₂/C₁). Thus t = −(40,000/2,000)ln(30/300) = −20ln(0.10) = 46.05 min.",
+      "incorrectOptionExplanations": [
+        "This doubles the correct logarithmic purge time.",
+        "This treats a tenfold concentration reduction as a ten-minute arithmetic change.",
+        null,
+        "This calculates V/Q′, the time constant, but does not apply the logarithmic concentration ratio."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, calculating purge rates, pp. 300-301; OSHA OTM dilution-ventilation equations; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "t = −(V/Q′) ln(C₂/C₁)",
+      "units": "min",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fdca11763dc89206ec96be0cc2d2b112b25cf09cb40d728b5a7bed7832988519"
+    },
+    {
+      "id": "PV2-CORE-CH09-024",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Steady-state concentration",
+      "itemFamilyId": "PV2-CORE-CH09-F024",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a local exhaust ventilation design review, solve the following problem and select the best answer: A vapor is generated at 0.8 ft³/min and the effective dilution airflow is 4,000 cfm. Assuming steady state and complete expression of the ratio as ppm, what concentration is expected?",
+      "options": [
+        "5,000 ppm",
+        "320 ppm",
+        "0.0002 ppm",
+        "200 ppm"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "C = G/Q′ = 0.8/4,000 = 0.0002 by volume. Multiplying by 10⁶ gives 200 ppm.",
+      "incorrectOptionExplanations": [
+        "This reverses the generation-to-airflow ratio.",
+        "This uses an unrelated multiplication of generation and airflow.",
+        "This reports the volume fraction as though it were already ppm.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, steady-state concentration, pp. 301-302; OSHA OTM dilution ventilation; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "C (ppm) = (G/Q′) × 10⁶",
+      "units": "ppm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "74fed0d03447a056f8395b9a611c673553b13fe5673ce8002ce91c1f47fc2d46"
+    },
+    {
+      "id": "PV2-CORE-CH09-025",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Liquid-solvent dilution airflow",
+      "itemFamilyId": "PV2-CORE-CH09-F025",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a hood-performance troubleshooting visit, solve the following problem and select the best answer: For a screening calculation, a solvent has specific gravity 0.785, evaporation rate 0.010 pint/min, molecular weight 60.1, design concentration 400 ppm, and mixing factor 3. Using Q = (403×10⁶×SG×ER×K)/(MW×C), what airflow is required?",
+      "options": [
+        "395 cfm",
+        "132 cfm",
+        "1,184 cfm",
+        "39.5 cfm"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Q = (403×10⁶×0.785×0.010×3)/(60.1×400) = 394.8 cfm, which rounds to 395 cfm.",
+      "incorrectOptionExplanations": [
+        null,
+        "This omits the mixing factor of 3.",
+        "This applies the mixing factor twice.",
+        "This introduces a factor-of-ten error in evaporation rate or unit conversion."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, rate of generation for liquid solvents, p. 302; OSHA OTM dilution-ventilation equations; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Q = (403×10⁶×SG×ER×K)/(MW×C)",
+      "units": "cfm",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d14979e96d650c72afca76dc5e3e672c34a7041ab2f0957ccf5c1cb26780380e"
+    },
+    {
+      "id": "PV2-CORE-CH09-026",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Canopy hood application",
+      "itemFamilyId": "PV2-CORE-CH09-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a duct-system balance check, the team reviews this question: Hot vapors rise from a heated tank, and the operator can remain outside the upward contaminant path. Which hood type is most appropriate among the listed choices? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Air removed by exhaust must be replaced. Inadequate make-up air increases building negative pressure, can reduce fan delivery, disrupt hood capture, and draw uncontrolled air through openings.",
+        "A canopy hood can receive hot gases or vapors that rise naturally, provided the worker is not positioned between the source and the hood and cross-drafts are controlled.",
+        "Dilution can be suitable for gases or vapors of moderate toxicity when generation is predictable, sources are dispersed, mixing is adequate, and required air volumes are feasible.",
+        "The diameter is 1.5 ft, so area = π(0.75 ft)² = 1.767 ft². Q = VA = 1,600 × 1.767 ≈ 2,827 cfm, or about 2,830 cfm."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Make-up air and exhaust-system performance', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Dilution ventilation suitability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Round-duct volumetric airflow', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, canopy, downdraft, enclosure, and receiving hoods, pp. 305-306; OSHA OTM hood selection; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "60eff9278b3105371de968fe9c0201634ccf878eda73fe23901fcde6736f8348"
+    },
+    {
+      "id": "PV2-CORE-CH09-027",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Capture velocity at a plain opening",
+      "itemFamilyId": "PV2-CORE-CH09-F027",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a contaminant-control retrofit, solve the following problem and select the best answer: A plain-opening hood moves 900 cfm. The source is 1.0 ft from the opening, and the hood area is 0.75 ft². Using V = Q/(10X² + A), what is the approximate capture velocity at the source?",
+      "options": [
+        "120 ft/min",
+        "9.3 ft/min",
+        "83.7 ft/min",
+        "1,200 ft/min"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "V = 900/[10(1.0)² + 0.75] = 900/10.75 = 83.72 ft/min, approximately 83.7 ft/min.",
+      "incorrectOptionExplanations": [
+        "This divides flow by hood area and ignores distance from the opening.",
+        "This introduces an extra factor of ten in the denominator.",
+        null,
+        "This calculates face velocity Q/A rather than capture velocity at the remote source."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, capture velocity for a plain opening hood, pp. 309-310; OSHA OTM ventilation primer; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "V = Q/(10X² + A)",
+      "units": "ft/min",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6c126fceca3e2cbe84a38143ade53755227ca10d4e57a76d8ace0a43a8d3e299"
+    },
+    {
+      "id": "PV2-CORE-CH09-028",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Cross-draft interference with capture",
+      "itemFamilyId": "PV2-CORE-CH09-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a make-up air assessment, the team reviews this question: A local exhaust hood has the specified flow, but a pedestal fan pushes the contaminant plume past the operator before it reaches the hood. What is the best corrective action? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Air removed by exhaust must be replaced. Inadequate make-up air increases building negative pressure, can reduce fan delivery, disrupt hood capture, and draw uncontrolled air through openings.",
+        "Local exhaust is preferred for high-hazard contaminants and point sources because it captures emissions near their origin before they disperse through the room.",
+        "A Pitot traverse measures pressure components in the duct. Velocity pressure can then be converted to air velocity using the applicable relationship and density correction.",
+        "Total airflow alone does not prove effective capture. Cross-drafts and poor geometry can overpower hood-induced velocity and carry contaminant through the worker’s breathing zone."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Make-up air and exhaust-system performance', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Local exhaust selection', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Velocity-pressure measurement', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, local exhaust and capture velocity, pp. 305-310; OSHA OTM Section III, Chapter 3, hood and cross-draft evaluation; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4edb1a42912583f479e57a5ccecf2b4781b8eb10d3db8713f0df4ec30b20fa79"
+    },
+    {
+      "id": "PV2-CORE-CH09-029",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Velocity-pressure measurement",
+      "itemFamilyId": "PV2-CORE-CH09-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a fan selection meeting, the team reviews this question: Which instrument arrangement is used to determine velocity pressure inside a ventilation duct? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A Pitot traverse measures pressure components in the duct. Velocity pressure can then be converted to air velocity using the applicable relationship and density correction.",
+        "Total airflow alone does not prove effective capture. Cross-drafts and poor geometry can overpower hood-induced velocity and carry contaminant through the worker’s breathing zone.",
+        "Dilution can be suitable for gases or vapors of moderate toxicity when generation is predictable, sources are dispersed, mixing is adequate, and required air volumes are feasible.",
+        "The diameter is 1.5 ft, so area = π(0.75 ft)² = 1.767 ft². Q = VA = 1,600 × 1.767 ≈ 2,827 cfm, or about 2,830 cfm."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Cross-draft interference with capture', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Dilution ventilation suitability', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Round-duct volumetric airflow', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, ventilation measurement equipment and Pitot tubes, p. 312; OSHA OTM ventilation primer; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "59455277eaf14746b6a8c8d6b8a19b21b87bf38588edf38c05dcaa22f7e6d474"
+    },
+    {
+      "id": "PV2-CORE-CH09-030",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Make-up air and exhaust-system performance",
+      "itemFamilyId": "PV2-CORE-CH09-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a confined-space purge estimate, the team reviews this question: After a large exhaust fan is commissioned, exterior doors become difficult to open and measured hood flows fall below design. What is the most likely system issue? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A Pitot traverse measures pressure components in the duct. Velocity pressure can then be converted to air velocity using the applicable relationship and density correction.",
+        "Air removed by exhaust must be replaced. Inadequate make-up air increases building negative pressure, can reduce fan delivery, disrupt hood capture, and draw uncontrolled air through openings.",
+        "A canopy hood can receive hot gases or vapors that rise naturally, provided the worker is not positioned between the source and the hood and cross-drafts are controlled.",
+        "Dilution can be suitable for gases or vapors of moderate toxicity when generation is predictable, sources are dispersed, mixing is adequate, and required air volumes are feasible."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Velocity-pressure measurement', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Canopy hood application', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Dilution ventilation suitability', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section III, Chapter 3 — Ventilation Investigation",
+      "sourceLocation": "Yates Chapter 9, general ventilation concepts, fans, and system performance, pp. 294-312; OSHA OTM Section III, Chapter 3, make-up air; Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "164d86856fbe18868443fdd03ceb50bdbc78ced826d49b331c370e06c99abd7d"
+    },
+    {
+      "id": "PV2-CORE-CH09-031",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "source capture and hood placement",
+      "itemFamilyId": "PV2-CORE-CH09-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hood-performance troubleshooting visit, a supervisor proposes: \"Capture will improve because a larger room volume is drawn toward the hood\". The underlying case is: A local exhaust hood is moved twice as far from a small contaminant source without changing airflow. What is the most likely result? Which alternative is the most defensible correction?",
+      "options": [
+        "Capture will improve because a larger room volume is drawn toward the hood",
+        "Capture velocity will remain unchanged at every distance from the hood",
+        "Capture effectiveness will decrease sharply, so the hood should be repositioned close to the source or airflow redesigned",
+        "Only duct friction changes; source capture is unaffected by hood distance"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Exterior hood capture velocity falls rapidly with distance. Placing the hood close to the source is generally more effective and energy efficient than relying on remote capture.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Capture will improve because a larger room volume is drawn toward the hood' remains incomplete or misapplies the controlling source capture and hood placement principle.",
+        "The proposed response 'Capture velocity will remain unchanged at every distance from the hood' remains incomplete or misapplies the controlling source capture and hood placement principle.",
+        null,
+        "The proposed response 'Only duct friction changes; source capture is unaffected by hood distance' remains incomplete or misapplies the controlling source capture and hood placement principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: source capture and hood placement",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b1608b651a0aca7ce5ce6411f0f1af99369da29e54540a339974082d21ef84cb"
+    },
+    {
+      "id": "PV2-CORE-CH09-032",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "enclosing hood design",
+      "itemFamilyId": "PV2-CORE-CH09-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a duct-system balance check, a supervisor proposes: \"Place a pedestal fan behind the worker to disperse dust through the room\". The underlying case is: A powder transfer can be partially enclosed without interfering with operation. Which ventilation design is generally preferred? Which alternative is the most defensible correction?",
+      "options": [
+        "Use an open canopy hood above the worker for a heavy settling dust",
+        "Place a pedestal fan behind the worker to disperse dust through the room",
+        "Increase duct velocity while leaving the source fully open and distant from the hood",
+        "Use as much enclosure as practicable with inward airflow through controlled openings"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Enclosure reduces required airflow and prevents contaminant escape. Canopy and dilution approaches are usually weaker for source-generated dust where enclosure is feasible.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use an open canopy hood above the worker for a heavy settling dust' remains incomplete or misapplies the controlling enclosing hood design principle.",
+        "The proposed response 'Place a pedestal fan behind the worker to disperse dust through the room' remains incomplete or misapplies the controlling enclosing hood design principle.",
+        "The proposed response 'Increase duct velocity while leaving the source fully open and distant from the hood' remains incomplete or misapplies the controlling enclosing hood design principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: enclosing hood design",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b8e0e0742eef3ee2d82ea66c8be3302db853a931dae6d9b976cb670c73e3aac8"
+    },
+    {
+      "id": "PV2-CORE-CH09-033",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "make-up air",
+      "itemFamilyId": "PV2-CORE-CH09-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a contaminant-control retrofit, a supervisor proposes: \"Reduce hood openings while keeping the same process emissions and no make-up air\". The underlying case is: A new exhaust system removes substantial air from a tightly closed building. Doors become difficult to open and hood performance is unstable. What should be evaluated first? Which alternative is the most defensible correction?",
+      "options": [
+        "Provide and balance conditioned make-up air so replacement air reaches the space without disrupting capture",
+        "Increase fan speed indefinitely without replacing exhausted air",
+        "Seal remaining building openings to increase negative pressure",
+        "Reduce hood openings while keeping the same process emissions and no make-up air"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Exhausted air must be replaced. Excessive negative pressure can reduce flow, interfere with doors and combustion equipment, and destabilize ventilation performance.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Increase fan speed indefinitely without replacing exhausted air' remains incomplete or misapplies the controlling make-up air principle.",
+        "The proposed response 'Seal remaining building openings to increase negative pressure' remains incomplete or misapplies the controlling make-up air principle.",
+        "The proposed response 'Reduce hood openings while keeping the same process emissions and no make-up air' remains incomplete or misapplies the controlling make-up air principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: make-up air",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "33a64efa391e97e6c893d499acde3c8ca6acad7dbec71472b2085aa931538b95"
+    },
+    {
+      "id": "PV2-CORE-CH09-034",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "duct transport velocity",
+      "itemFamilyId": "PV2-CORE-CH09-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a make-up air assessment, a supervisor proposes: \"Lower duct velocity so particles have more time to reach the collector\". The underlying case is: Dust settles in horizontal ducts even though the hood captures material at the source. Which corrective action is most relevant? Which alternative is the most defensible correction?",
+      "options": [
+        "Add room dilution fans while leaving deposited dust in the duct",
+        "Verify transport velocity, duct geometry, and balance, then correct the conditions allowing particulate deposition",
+        "Lower duct velocity so particles have more time to reach the collector",
+        "Close the branch damper serving the highest dust-loading process"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Particulate systems require sufficient transport velocity and suitable duct design to keep material suspended; reducing velocity or adding room mixing does not solve deposition.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Add room dilution fans while leaving deposited dust in the duct' remains incomplete or misapplies the controlling duct transport velocity principle.",
+        null,
+        "The proposed response 'Lower duct velocity so particles have more time to reach the collector' remains incomplete or misapplies the controlling duct transport velocity principle.",
+        "The proposed response 'Close the branch damper serving the highest dust-loading process' remains incomplete or misapplies the controlling duct transport velocity principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: duct transport velocity",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1a52cec238f3a0fafa0242bbb09d8a2a460b594543a90c2f4c7227f833ff54cb"
+    },
+    {
+      "id": "PV2-CORE-CH09-035",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "static pressure troubleshooting",
+      "itemFamilyId": "PV2-CORE-CH09-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a fan selection meeting, a supervisor proposes: \"Remove all blast gates so no branch can ever be adjusted\". The underlying case is: A branch hood has inadequate flow after another branch is opened. The fan is operating normally. Which diagnostic step is most useful? Which alternative is the most defensible correction?",
+      "options": [
+        "Remove all blast gates so no branch can ever be adjusted",
+        "Judge performance solely by whether the fan motor sounds louder",
+        "Measure branch flows and static pressures to determine whether the system is unbalanced or losses differ from design",
+        "Assume the contaminant concentration changed and replace sampling media"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Simultaneous branches interact through system resistance. Flow and pressure measurements reveal imbalance, blockage, or loss conditions that visual or auditory impressions cannot establish.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Remove all blast gates so no branch can ever be adjusted' remains incomplete or misapplies the controlling static pressure troubleshooting principle.",
+        "The proposed response 'Judge performance solely by whether the fan motor sounds louder' remains incomplete or misapplies the controlling static pressure troubleshooting principle.",
+        null,
+        "The proposed response 'Assume the contaminant concentration changed and replace sampling media' remains incomplete or misapplies the controlling static pressure troubleshooting principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: static pressure troubleshooting",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0682734ae093cb3578b26e17c379a84eccbc0648f75d34c229b5e72e4d181f66"
+    },
+    {
+      "id": "PV2-CORE-CH09-036",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A1.03",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "fan operating point",
+      "itemFamilyId": "PV2-CORE-CH09-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a confined-space purge estimate, a supervisor proposes: \"Treat collector resistance as affecting removal efficiency but not the fan operating point or delivered airflow\". The underlying case is: A fan is selected only by its free-air flow rating, but the installed system includes long ducts, elbows, and a collector. Why may actual airflow be inadequate? Which alternative is the most defensible correction?",
+      "options": [
+        "Treat collector resistance as affecting removal efficiency but not the fan operating point or delivered airflow",
+        "Fan curves apply only to natural ventilation systems",
+        "Duct losses increase airflow above the free-air rating",
+        "The fan must operate against total system resistance, and its operating point is where the fan curve intersects the system curve"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Free-air ratings do not represent installed performance. The fan and system curves determine the actual flow at the required pressure.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Treat collector resistance as affecting removal efficiency but not the fan operating point or delivered airflow' remains incomplete or misapplies the controlling fan operating point principle.",
+        "The proposed response 'Fan curves apply only to natural ventilation systems' remains incomplete or misapplies the controlling fan operating point principle.",
+        "The proposed response 'Duct losses increase airflow above the free-air rating' remains incomplete or misapplies the controlling fan operating point principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: fan operating point",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f821ebb53571236ea3b53e217d1349c075d793e1055d37e2bebc303bac862486"
+    },
+    {
+      "id": "PV2-CORE-CH09-037",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "dilution ventilation suitability",
+      "itemFamilyId": "PV2-CORE-CH09-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a ventilation commissioning test, a supervisor proposes: \"Dilution ventilation is prohibited for every gas and vapor regardless of conditions\". The underlying case is: A highly toxic contaminant is released unpredictably near workers, and the generation rate can vary rapidly. Why is general dilution ventilation a weak primary control? Which alternative is the most defensible correction?",
+      "options": [
+        "It may not prevent high local concentrations, and the uncertain generation rate makes reliable dilution difficult",
+        "Dilution ventilation is prohibited for every gas and vapor regardless of conditions",
+        "Dilution works only when contaminants are visible as dust",
+        "General ventilation always creates an oxygen-deficient atmosphere"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Dilution is best for relatively low-toxicity contaminants with predictable generation and good mixing. Highly toxic, variable, near-worker releases favor source capture or enclosure.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Dilution ventilation is prohibited for every gas and vapor regardless of conditions' remains incomplete or misapplies the controlling dilution ventilation suitability principle.",
+        "The proposed response 'Dilution works only when contaminants are visible as dust' remains incomplete or misapplies the controlling dilution ventilation suitability principle.",
+        "The proposed response 'General ventilation always creates an oxygen-deficient atmosphere' remains incomplete or misapplies the controlling dilution ventilation suitability principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: dilution ventilation suitability",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1bce8ce0ee794d00f0c53f1d391a2f89df8d353056aac7dc4cbc4598e29e34ca"
+    },
+    {
+      "id": "PV2-CORE-CH09-038",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "commissioning and verification",
+      "itemFamilyId": "PV2-CORE-CH09-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a local exhaust ventilation design review, a supervisor proposes: \"Measure room temperature annually as the sole ventilation indicator\". The underlying case is: A new local exhaust system meets the design airflow on startup. What ongoing program best supports continued control? Which alternative is the most defensible correction?",
+      "options": [
+        "Measure room temperature annually as the sole ventilation indicator",
+        "Document baseline airflow and pressure indicators, inspect components, maintain the system, and remeasure after changes or performance drift",
+        "Disable alarms after commissioning to prevent nuisance reports",
+        "Assume performance remains acceptable until employees report symptoms"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Ventilation systems degrade or are altered. Baseline indicators, inspection, maintenance, and periodic verification are needed to confirm continuing performance.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Measure room temperature annually as the sole ventilation indicator' remains incomplete or misapplies the controlling commissioning and verification principle.",
+        null,
+        "The proposed response 'Disable alarms after commissioning to prevent nuisance reports' remains incomplete or misapplies the controlling commissioning and verification principle.",
+        "The proposed response 'Assume performance remains acceptable until employees report symptoms' remains incomplete or misapplies the controlling commissioning and verification principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: commissioning and verification",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8c083d5f851f51a35771b12a2b5f167537dcf4a788976356b6059bbf16f59ab6"
+    },
+    {
+      "id": "PV2-CORE-CH09-039",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "source capture and hood placement",
+      "itemFamilyId": "PV2-CORE-CH09-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a duct-system balance check, the team selects \"Capture effectiveness will decrease sharply, so the hood should be repositioned close to the source or airflow redesigned\" rather than \"Capture velocity will remain unchanged at every distance from the hood\" for this case: A local exhaust hood is moved twice as far from a small contaminant source without changing airflow. What is the most likely result? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Exhausted air must be replaced. Excessive negative pressure can reduce flow, interfere with doors and combustion equipment, and destabilize ventilation performance.",
+        "Enclosure reduces required airflow and prevents contaminant escape. Canopy and dilution approaches are usually weaker for source-generated dust where enclosure is feasible.",
+        "Exterior hood capture velocity falls rapidly with distance. Placing the hood close to the source is generally more effective and energy efficient than relying on remote capture.",
+        "Free-air ratings do not represent installed performance. The fan and system curves determine the actual flow at the required pressure."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the source capture and hood placement issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'make-up air' and does not distinguish the two responses in the present source capture and hood placement decision.",
+        "This explanation concerns 'enclosing hood design' and does not distinguish the two responses in the present source capture and hood placement decision.",
+        null,
+        "This explanation concerns 'fan operating point' and does not distinguish the two responses in the present source capture and hood placement decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: source capture and hood placement",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "622eb36e279982a0cc1723938fdfe5af52acaf27549f951ce4c276d48d1853b5"
+    },
+    {
+      "id": "PV2-CORE-CH09-040",
+      "version": 1,
+      "chapterId": "ch-09",
+      "chapterTitle": "Ventilation",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "enclosing hood design",
+      "itemFamilyId": "PV2-CORE-CH09-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a contaminant-control retrofit, the team selects \"Use as much enclosure as practicable with inward airflow through controlled openings\" rather than \"Increase duct velocity while leaving the source fully open and distant from the hood\" for this case: A powder transfer can be partially enclosed without interfering with operation. Which ventilation design is generally preferred? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Exhausted air must be replaced. Excessive negative pressure can reduce flow, interfere with doors and combustion equipment, and destabilize ventilation performance.",
+        "Exterior hood capture velocity falls rapidly with distance. Placing the hood close to the source is generally more effective and energy efficient than relying on remote capture.",
+        "Particulate systems require sufficient transport velocity and suitable duct design to keep material suspended; reducing velocity or adding room mixing does not solve deposition.",
+        "Enclosure reduces required airflow and prevents contaminant escape. Canopy and dilution approaches are usually weaker for source-generated dust where enclosure is feasible."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the enclosing hood design issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'make-up air' and does not distinguish the two responses in the present enclosing hood design decision.",
+        "This explanation concerns 'source capture and hood placement' and does not distinguish the two responses in the present enclosing hood design decision.",
+        "This explanation concerns 'duct transport velocity' and does not distinguish the two responses in the present enclosing hood design decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 9, pp. 294-313; OSHA Technical Manual, Section III, Chapter 3; curated topic: enclosing hood design",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-3-health-hazards/chapter-3",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1a7dd07d786e0901e0c1b1ba960b452f81f9af7e697d31062198ca41907143c6"
+    }
+  ]
+}

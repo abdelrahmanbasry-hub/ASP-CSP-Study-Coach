@@ -1,0 +1,2061 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-08-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-08",
+  "chapterTitle": "Industrial Hygiene Air Sampling",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH08-001",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "personal versus area sampling",
+      "itemFamilyId": "PV2-CORE-CH08-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "The objective is to estimate an operator’s inhalation exposure while the operator moves among several process areas. Which sampling approach is most appropriate?",
+      "options": [
+        "Personal breathing-zone sampling using media and flow appropriate for the contaminant and task",
+        "A wipe sample collected from the operator’s locker",
+        "One stationary area sample placed at the center of the building",
+        "A bulk sample of the raw material without any airborne measurement"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Personal breathing-zone sampling follows the worker and best estimates inhalation exposure; area, wipe, and bulk samples answer different questions.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'A wipe sample collected from the operator’s locker' does not apply the controlling principle for personal versus area sampling to the facts given, so it is not the best answer.",
+        "The option 'One stationary area sample placed at the center of the building' does not apply the controlling principle for personal versus area sampling to the facts given, so it is not the best answer.",
+        "The option 'A bulk sample of the raw material without any airborne measurement' does not apply the controlling principle for personal versus area sampling to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: personal versus area sampling",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e5eb275bfb20502c95f214e1a04b08c32a973553f951b59b2badee7a3d7b929e"
+    },
+    {
+      "id": "PV2-CORE-CH08-002",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "representative sampling strategy",
+      "itemFamilyId": "PV2-CORE-CH08-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A department has 40 employees performing similar tasks, but three workers handle higher-throughput equipment and spend more time near the source. How should the sampling strategy be designed?",
+      "options": [
+        "Average all job titles into one group before collecting any data",
+        "Define similar exposure groups carefully and prioritize employees with the highest reasonably expected exposure while confirming representativeness",
+        "Select workers solely by volunteering so the sample is convenient",
+        "Sample only the median-tenure employee because tenure determines exposure"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Representative sampling should account for tasks, duration, controls, and potential worst-case conditions rather than assuming all workers share the same exposure profile.",
+      "incorrectOptionExplanations": [
+        "The option 'Average all job titles into one group before collecting any data' does not apply the controlling principle for representative sampling strategy to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Select workers solely by volunteering so the sample is convenient' does not apply the controlling principle for representative sampling strategy to the facts given, so it is not the best answer.",
+        "The option 'Sample only the median-tenure employee because tenure determines exposure' does not apply the controlling principle for representative sampling strategy to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: representative sampling strategy",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ac96ebcc4c9971158a4ab2cb2c7de3547760841beeb69f29d852b36cf0be61ba"
+    },
+    {
+      "id": "PV2-CORE-CH08-003",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pump calibration",
+      "itemFamilyId": "PV2-CORE-CH08-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A sampling pump is calibrated before use, but the post-sampling flow differs materially from the pre-sampling value. What is the best response?",
+      "options": [
+        "Average the flows automatically regardless of the method’s quality-control requirements",
+        "Use the higher of the two flows because it produces the most conservative concentration",
+        "Evaluate the allowed flow-difference criterion, investigate the cause, and invalidate or qualify the result when sample volume cannot be supported",
+        "Use the pre-calibration value without documenting the post-calibration result"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Sample volume depends on defensible flow data. Significant drift must be evaluated under the method and documented; arbitrary selection or averaging can bias the result.",
+      "incorrectOptionExplanations": [
+        "The option 'Average the flows automatically regardless of the method’s quality-control requirements' does not apply the controlling principle for pump calibration to the facts given, so it is not the best answer.",
+        "The option 'Use the higher of the two flows because it produces the most conservative concentration' does not apply the controlling principle for pump calibration to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Use the pre-calibration value without documenting the post-calibration result' does not apply the controlling principle for pump calibration to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: pump calibration",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f11db764a9c30b50fa385aa3d1e4ac6dc7e146bf172aae8bc1c9dc8ac2c1b6f4"
+    },
+    {
+      "id": "PV2-CORE-CH08-004",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "field blanks",
+      "itemFamilyId": "PV2-CORE-CH08-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Several field blanks contain the target analyte at levels similar to the samples. What should the industrial hygienist do?",
+      "options": [
+        "Subtract the blank value from every result without checking method requirements or variability",
+        "Report all sample results as confirmed overexposures",
+        "Ignore blanks because they were not connected to sampling pumps",
+        "Investigate contamination during handling, transport, media preparation, or analysis before interpreting worker exposure"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Field blanks are quality-control indicators. Significant blank contamination can invalidate or materially affect results and must be investigated before exposure conclusions are drawn.",
+      "incorrectOptionExplanations": [
+        "The option 'Subtract the blank value from every result without checking method requirements or variability' does not apply the controlling principle for field blanks to the facts given, so it is not the best answer.",
+        "The option 'Report all sample results as confirmed overexposures' does not apply the controlling principle for field blanks to the facts given, so it is not the best answer.",
+        "The option 'Ignore blanks because they were not connected to sampling pumps' does not apply the controlling principle for field blanks to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: field blanks",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1b406f0f1e60c7af04238f5452a0ca92e89db22b1d5b57726478f0c2f6e3bcde"
+    },
+    {
+      "id": "PV2-CORE-CH08-005",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "limit of detection",
+      "itemFamilyId": "PV2-CORE-CH08-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A laboratory reports “less than the limit of detection” for a short sample with a high analytical detection limit. Which conclusion is justified?",
+      "options": [
+        "The analyte was not quantified above that method limit; the result does not prove zero exposure or compliance with a lower criterion",
+        "Interpret the nondetect as proof that the employee had no airborne exposure at any time during the sampled task",
+        "The result automatically demonstrates compliance with every occupational limit",
+        "The concentration was exactly one-half of the detection limit"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A nondetect is bounded by method capability. Whether it supports a compliance conclusion depends on sample volume, detection limit, and the comparison criterion.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Interpret the nondetect as proof that the employee had no airborne exposure at any time during the sampled task' does not apply the controlling principle for limit of detection to the facts given, so it is not the best answer.",
+        "The option 'The result automatically demonstrates compliance with every occupational limit' does not apply the controlling principle for limit of detection to the facts given, so it is not the best answer.",
+        "The option 'The concentration was exactly one-half of the detection limit' does not apply the controlling principle for limit of detection to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: limit of detection",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "42b0f46dcf08dcbb20cd2863d0cd550838926964adac45e16246bff727d4d28e"
+    },
+    {
+      "id": "PV2-CORE-CH08-006",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling media breakthrough",
+      "itemFamilyId": "PV2-CORE-CH08-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A sorbent tube’s backup section contains substantial analyte. What is the most important interpretation?",
+      "options": [
+        "The backup result should always be added without considering the method’s breakthrough criterion",
+        "Breakthrough may have occurred, so the front section may not have retained the full sample and the result requires method-specific evaluation",
+        "Breakthrough proves the workplace concentration was below the analytical limit",
+        "The sampling pump must have operated at zero flow"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Analyte on the backup section can indicate capacity was exceeded or migration occurred. The sample must be assessed using method acceptance criteria.",
+      "incorrectOptionExplanations": [
+        "The option 'The backup result should always be added without considering the method’s breakthrough criterion' does not apply the controlling principle for sampling media breakthrough to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Breakthrough proves the workplace concentration was below the analytical limit' does not apply the controlling principle for sampling media breakthrough to the facts given, so it is not the best answer.",
+        "The option 'The sampling pump must have operated at zero flow' does not apply the controlling principle for sampling media breakthrough to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: sampling media breakthrough",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5550ecb5ef7017fe60d850647b0413f0a4e96698b598e6caa0ad542b3f5d7c00"
+    },
+    {
+      "id": "PV2-CORE-CH08-007",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "direct-reading instrument limitations",
+      "itemFamilyId": "PV2-CORE-CH08-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A photoionization detector responds strongly during a mixed-solvent release, but the exact composition is unknown. How should the reading be used?",
+      "options": [
+        "Set aside the result because a direct-reading instrument cannot support an operational decision without identifying every component",
+        "Treat the displayed value as an exact concentration of every solvent present",
+        "Use it for screening and trend decisions while recognizing response-factor and interference limits, and obtain specific analysis when needed",
+        "Convert the reading to oxygen percentage without additional instrumentation"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Direct-reading instruments are valuable for rapid screening, but mixed atmospheres and response factors can limit specificity and quantitative accuracy.",
+      "incorrectOptionExplanations": [
+        "The option 'Set aside the result because a direct-reading instrument cannot support an operational decision without identifying every component' does not apply the controlling principle for direct-reading instrument limitations to the facts given, so it is not the best answer.",
+        "The option 'Treat the displayed value as an exact concentration of every solvent present' does not apply the controlling principle for direct-reading instrument limitations to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Convert the reading to oxygen percentage without additional instrumentation' does not apply the controlling principle for direct-reading instrument limitations to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: direct-reading instrument limitations",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a9d2f480781ca0f94aacb8948d0f3b0876cd676c3c4a8e8833de6a8b4ad5f6a2"
+    },
+    {
+      "id": "PV2-CORE-CH08-008",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling duration and comparison limit",
+      "itemFamilyId": "PV2-CORE-CH08-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A 15-minute exposure limit is the decision criterion, but the hygienist collects one 8-hour integrated sample. What is the principal limitation?",
+      "options": [
+        "Use the 8-hour result as a conservative estimate of the highest 15-minute exposure",
+        "The sample is invalid only because it exceeds the laboratory holding time",
+        "The result can be divided by 32 to obtain the highest 15-minute concentration",
+        "The long-duration average can mask short high exposures and cannot by itself determine compliance with a 15-minute limit"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Averaging over eight hours can dilute peaks. Sampling duration must match the exposure limit and task pattern when evaluating short-term limits.",
+      "incorrectOptionExplanations": [
+        "The option 'Use the 8-hour result as a conservative estimate of the highest 15-minute exposure' does not apply the controlling principle for sampling duration and comparison limit to the facts given, so it is not the best answer.",
+        "The option 'The sample is invalid only because it exceeds the laboratory holding time' does not apply the controlling principle for sampling duration and comparison limit to the facts given, so it is not the best answer.",
+        "The option 'The result can be divided by 32 to obtain the highest 15-minute concentration' does not apply the controlling principle for sampling duration and comparison limit to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: sampling duration and comparison limit",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "9d304ada9e21c4faef5e434ab642e7b3498fe93f69fb55531290233a284d3eb3"
+    },
+    {
+      "id": "PV2-CORE-CH08-009",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "personal versus area sampling",
+      "itemFamilyId": "PV2-CORE-CH08-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a pump-calibration check, the team reviews this case: The objective is to estimate an operator’s inhalation exposure while the operator moves among several process areas. Which sampling approach is most appropriate? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Personal breathing-zone sampling follows the worker and best estimates inhalation exposure; area, wipe, and bulk samples answer different questions.",
+        "Direct-reading instruments are valuable for rapid screening, but mixed atmospheres and response factors can limit specificity and quantitative accuracy.",
+        "Sample volume depends on defensible flow data. Significant drift must be evaluated under the method and documented; arbitrary selection or averaging can bias the result.",
+        "Analyte on the backup section can indicate capacity was exceeded or migration occurred. The sample must be assessed using method acceptance criteria."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses personal versus area sampling and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'direct-reading instrument limitations', but it does not resolve the personal versus area sampling issue in this case.",
+        "This rationale supports the separate chapter topic 'pump calibration', but it does not resolve the personal versus area sampling issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling media breakthrough', but it does not resolve the personal versus area sampling issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: personal versus area sampling",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3cc5f3737ec38a8c5a1a70e12bdad56c4ad8d557ebc977a5c97c12b58e45ba56"
+    },
+    {
+      "id": "PV2-CORE-CH08-010",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "representative sampling strategy",
+      "itemFamilyId": "PV2-CORE-CH08-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a direct-reading instrument survey, the team reviews this case: A department has 40 employees performing similar tasks, but three workers handle higher-throughput equipment and spend more time near the source. How should the sampling strategy be designed? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Direct-reading instruments are valuable for rapid screening, but mixed atmospheres and response factors can limit specificity and quantitative accuracy.",
+        "Representative sampling should account for tasks, duration, controls, and potential worst-case conditions rather than assuming all workers share the same exposure profile.",
+        "A nondetect is bounded by method capability. Whether it supports a compliance conclusion depends on sample volume, detection limit, and the comparison criterion.",
+        "Analyte on the backup section can indicate capacity was exceeded or migration occurred. The sample must be assessed using method acceptance criteria."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses representative sampling strategy and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'direct-reading instrument limitations', but it does not resolve the representative sampling strategy issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'limit of detection', but it does not resolve the representative sampling strategy issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling media breakthrough', but it does not resolve the representative sampling strategy issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: representative sampling strategy",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "57b34f47c21bc44ac2824af0c5f42b8cf2293f12a357658d804152b3c7dfa4f4"
+    },
+    {
+      "id": "PV2-CORE-CH08-011",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pump calibration",
+      "itemFamilyId": "PV2-CORE-CH08-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a similar-exposure-group assessment, the team reviews this case: A sampling pump is calibrated before use, but the post-sampling flow differs materially from the pre-sampling value. What is the best response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Representative sampling should account for tasks, duration, controls, and potential worst-case conditions rather than assuming all workers share the same exposure profile.",
+        "Direct-reading instruments are valuable for rapid screening, but mixed atmospheres and response factors can limit specificity and quantitative accuracy.",
+        "Sample volume depends on defensible flow data. Significant drift must be evaluated under the method and documented; arbitrary selection or averaging can bias the result.",
+        "Field blanks are quality-control indicators. Significant blank contamination can invalidate or materially affect results and must be investigated before exposure conclusions are drawn."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses pump calibration and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'representative sampling strategy', but it does not resolve the pump calibration issue in this case.",
+        "This rationale supports the separate chapter topic 'direct-reading instrument limitations', but it does not resolve the pump calibration issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'field blanks', but it does not resolve the pump calibration issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: pump calibration",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e43f94bb45766c89586fd29a466216ad90b15c4925cdbd52940bb60dcff91ece"
+    },
+    {
+      "id": "PV2-CORE-CH08-012",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "field blanks",
+      "itemFamilyId": "PV2-CORE-CH08-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a blank-sample investigation, the team reviews this case: Several field blanks contain the target analyte at levels similar to the samples. What should the industrial hygienist do? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Representative sampling should account for tasks, duration, controls, and potential worst-case conditions rather than assuming all workers share the same exposure profile.",
+        "Direct-reading instruments are valuable for rapid screening, but mixed atmospheres and response factors can limit specificity and quantitative accuracy.",
+        "Averaging over eight hours can dilute peaks. Sampling duration must match the exposure limit and task pattern when evaluating short-term limits.",
+        "Field blanks are quality-control indicators. Significant blank contamination can invalidate or materially affect results and must be investigated before exposure conclusions are drawn."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses field blanks and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'representative sampling strategy', but it does not resolve the field blanks issue in this case.",
+        "This rationale supports the separate chapter topic 'direct-reading instrument limitations', but it does not resolve the field blanks issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling duration and comparison limit', but it does not resolve the field blanks issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: field blanks",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "da45a8ce151bcfa8878ebff2f3d6339d3f5a1ff025679b5699ce61fb8a1d192d"
+    },
+    {
+      "id": "PV2-CORE-CH08-013",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "limit of detection",
+      "itemFamilyId": "PV2-CORE-CH08-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a breakthrough-risk review, the team reviews this case: A laboratory reports “less than the limit of detection” for a short sample with a high analytical detection limit. Which conclusion is justified? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A nondetect is bounded by method capability. Whether it supports a compliance conclusion depends on sample volume, detection limit, and the comparison criterion.",
+        "Field blanks are quality-control indicators. Significant blank contamination can invalidate or materially affect results and must be investigated before exposure conclusions are drawn.",
+        "Analyte on the backup section can indicate capacity was exceeded or migration occurred. The sample must be assessed using method acceptance criteria.",
+        "Averaging over eight hours can dilute peaks. Sampling duration must match the exposure limit and task pattern when evaluating short-term limits."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses limit of detection and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'field blanks', but it does not resolve the limit of detection issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling media breakthrough', but it does not resolve the limit of detection issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling duration and comparison limit', but it does not resolve the limit of detection issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: limit of detection",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0488da43e3eaffb56af724ea452ec0c11e8106a7e686bb8419f4f8e22c49bd61"
+    },
+    {
+      "id": "PV2-CORE-CH08-014",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling media breakthrough",
+      "itemFamilyId": "PV2-CORE-CH08-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a sampling result interpretation, the team reviews this case: A sorbent tube’s backup section contains substantial analyte. What is the most important interpretation? Which rationale most directly supports the correct decision?",
+      "options": [
+        "A nondetect is bounded by method capability. Whether it supports a compliance conclusion depends on sample volume, detection limit, and the comparison criterion.",
+        "Analyte on the backup section can indicate capacity was exceeded or migration occurred. The sample must be assessed using method acceptance criteria.",
+        "Representative sampling should account for tasks, duration, controls, and potential worst-case conditions rather than assuming all workers share the same exposure profile.",
+        "Averaging over eight hours can dilute peaks. Sampling duration must match the exposure limit and task pattern when evaluating short-term limits."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses sampling media breakthrough and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'limit of detection', but it does not resolve the sampling media breakthrough issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'representative sampling strategy', but it does not resolve the sampling media breakthrough issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling duration and comparison limit', but it does not resolve the sampling media breakthrough issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: sampling media breakthrough",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e16dcac6f99e9efe40c00f1b88f736c2840a0e6bb007fb3c0741f4e0b8be1865"
+    },
+    {
+      "id": "PV2-CORE-CH08-015",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "direct-reading instrument limitations",
+      "itemFamilyId": "PV2-CORE-CH08-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a personal sampling strategy meeting, the team reviews this case: A photoionization detector responds strongly during a mixed-solvent release, but the exact composition is unknown. How should the reading be used? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Representative sampling should account for tasks, duration, controls, and potential worst-case conditions rather than assuming all workers share the same exposure profile.",
+        "A nondetect is bounded by method capability. Whether it supports a compliance conclusion depends on sample volume, detection limit, and the comparison criterion.",
+        "Direct-reading instruments are valuable for rapid screening, but mixed atmospheres and response factors can limit specificity and quantitative accuracy.",
+        "Sample volume depends on defensible flow data. Significant drift must be evaluated under the method and documented; arbitrary selection or averaging can bias the result."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses direct-reading instrument limitations and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'representative sampling strategy', but it does not resolve the direct-reading instrument limitations issue in this case.",
+        "This rationale supports the separate chapter topic 'limit of detection', but it does not resolve the direct-reading instrument limitations issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'pump calibration', but it does not resolve the direct-reading instrument limitations issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: direct-reading instrument limitations",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5b935d8b84d8249fa1c8d2b61d90af715e39a2ddb895a3a186cfc3176ed76ac1"
+    },
+    {
+      "id": "PV2-CORE-CH08-016",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling duration and comparison limit",
+      "itemFamilyId": "PV2-CORE-CH08-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a laboratory data-quality review, the team reviews this case: A 15-minute exposure limit is the decision criterion, but the hygienist collects one 8-hour integrated sample. What is the principal limitation? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Field blanks are quality-control indicators. Significant blank contamination can invalidate or materially affect results and must be investigated before exposure conclusions are drawn.",
+        "Analyte on the backup section can indicate capacity was exceeded or migration occurred. The sample must be assessed using method acceptance criteria.",
+        "Representative sampling should account for tasks, duration, controls, and potential worst-case conditions rather than assuming all workers share the same exposure profile.",
+        "Averaging over eight hours can dilute peaks. Sampling duration must match the exposure limit and task pattern when evaluating short-term limits."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses sampling duration and comparison limit and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'field blanks', but it does not resolve the sampling duration and comparison limit issue in this case.",
+        "This rationale supports the separate chapter topic 'sampling media breakthrough', but it does not resolve the sampling duration and comparison limit issue in this case.",
+        "This rationale supports the separate chapter topic 'representative sampling strategy', but it does not resolve the sampling duration and comparison limit issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: sampling duration and comparison limit",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ea7754d40c3be34c104a70196d9b56d64330c95f49d7988f37536735e8b7f7c0"
+    },
+    {
+      "id": "PV2-CORE-CH08-017",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Anticipation before exposure assessment",
+      "itemFamilyId": "PV2-CORE-CH08-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a laboratory data-quality review, the team reviews this question: A plant plans to introduce a two-part coating next month. Before selecting instruments or respirators, what should the hygienist do first? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Industrial hygiene begins with anticipation and recognition. Process and material information define what could be released, who may be exposed, and what evaluation strategy is appropriate before controls are selected.",
+        "Personal sampling follows the worker and places the collection inlet near the nose and mouth, so it can represent the changing tasks and locations that contribute to inhalation exposure.",
+        "A cyclone separates much of the larger particle fraction so the downstream filter represents the respirable aerosol convention. Flow rate and sampler geometry are method-specific and affect the size cut.",
+        "“Less than 0.20 mg/m³” means the concentration was not quantified above that reporting threshold. Because the threshold is higher than the decision limit, compliance below 0.05 mg/m³ has not been demonstrated."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Personal breathing-zone sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Respirable aerosol sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Interpreting a nondetect above the decision limit', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Chapter 8, anticipation, recognition, evaluation, and control, pp. 273-275; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2603c2c59956a66a4271b0b084ffa9503f866dba6609abf96967df1fa85b7701"
+    },
+    {
+      "id": "PV2-CORE-CH08-018",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Personal breathing-zone sampling",
+      "itemFamilyId": "PV2-CORE-CH08-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a pump-calibration check, the team reviews this question: A blender operator moves between charging, mixing, and bagging stations during the shift. Which setup best estimates the operator’s inhalation exposure? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A cyclone separates much of the larger particle fraction so the downstream filter represents the respirable aerosol convention. Flow rate and sampler geometry are method-specific and affect the size cut.",
+        "Personal sampling follows the worker and places the collection inlet near the nose and mouth, so it can represent the changing tasks and locations that contribute to inhalation exposure.",
+        "A brief release requires a method capable of resolving the short time interval. A full-shift integrated result may dilute the peak and fail to answer the stated question.",
+        "Industrial hygiene begins with anticipation and recognition. Process and material information define what could be released, who may be exposed, and what evaluation strategy is appropriate before controls are selected."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Respirable aerosol sampling', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Short-duration peak sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Anticipation before exposure assessment', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, personal sampling and sampling process, pp. 275-287; OSHA OTM Section II, Chapter 1, breathing-zone placement; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ea19662174797d2bb50d67cfd77f2f15cb154e5abaa23c5090e60676e7b9acaa"
+    },
+    {
+      "id": "PV2-CORE-CH08-019",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Short-duration peak sampling",
+      "itemFamilyId": "PV2-CORE-CH08-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a direct-reading instrument survey, the team reviews this question: Opening a process valve can release a solvent vapor plume for less than one minute. The assessment objective is to determine the concentration during that brief event. Which approach is most suitable? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Personal sampling follows the worker and places the collection inlet near the nose and mouth, so it can represent the changing tasks and locations that contribute to inhalation exposure.",
+        "“Less than 0.20 mg/m³” means the concentration was not quantified above that reporting threshold. Because the threshold is higher than the decision limit, compliance below 0.05 mg/m³ has not been demonstrated.",
+        "A brief release requires a method capable of resolving the short time interval. A full-shift integrated result may dilute the peak and fail to answer the stated question.",
+        "Passive samplers use a physical transport process rather than an active pump. Exposure time and the sampler’s validated uptake characteristics are needed to calculate concentration."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Personal breathing-zone sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Interpreting a nondetect above the decision limit', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Passive diffusive sampling', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, grab sampling and direct-reading instruments, pp. 275-280; NIOSH NMAM sampling guidance; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e243ace8f248d2df5a34050e3f36c39e5a38fba2b7ce744af7c0ba66c464144d"
+    },
+    {
+      "id": "PV2-CORE-CH08-020",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Particulate sampling media",
+      "itemFamilyId": "PV2-CORE-CH08-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a similar-exposure-group assessment, the team reviews this question: The objective is to measure airborne metal particulate generated by grinding. Which collection media is generally the most appropriate starting choice, subject to the selected analytical method? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A brief release requires a method capable of resolving the short time interval. A full-shift integrated result may dilute the peak and fail to answer the stated question.",
+        "Sampler resistance affects pump flow. Calibration should be performed with representative media and connections in line, followed by post-sampling verification according to the method.",
+        "Passive samplers use a physical transport process rather than an active pump. Exposure time and the sampler’s validated uptake characteristics are needed to calculate concentration.",
+        "Filters are commonly used to collect airborne particulate, including many metal aerosols. The exact filter type, flow rate, and sample volume must follow the analytical method."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Short-duration peak sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Calibration with the complete sampling train', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Passive diffusive sampling', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, filters and sampling media, pp. 278-280; NIOSH NMAM method-selection guidance; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4310b729d4b3a75f154d04199b80c8570c3f4456bca261694b9251707ba4375e"
+    },
+    {
+      "id": "PV2-CORE-CH08-021",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Gas and vapor sampling media",
+      "itemFamilyId": "PV2-CORE-CH08-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a blank-sample investigation, the team reviews this question: A full-shift personal sample is needed for an organic solvent vapor. Which sampling train is most defensible? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Solid sorbent tubes are commonly used for organic vapors. The specific method determines sorbent, flow, duration, orientation, and maximum volume to avoid breakthrough.",
+        "Filters are commonly used to collect airborne particulate, including many metal aerosols. The exact filter type, flow rate, and sample volume must follow the analytical method.",
+        "Passive samplers use a physical transport process rather than an active pump. Exposure time and the sampler’s validated uptake characteristics are needed to calculate concentration.",
+        "Sampler resistance affects pump flow. Calibration should be performed with representative media and connections in line, followed by post-sampling verification according to the method."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Particulate sampling media', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Passive diffusive sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Calibration with the complete sampling train', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, sorbent tubes and personal sampling, pp. 275-280; NIOSH NMAM Chapter SA; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0ebca98815bde4b01f3bd1d72e6443374de94261ab7544187e97d1da47d7bb05"
+    },
+    {
+      "id": "PV2-CORE-CH08-022",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04a",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Respirable aerosol sampling",
+      "itemFamilyId": "PV2-CORE-CH08-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a breakthrough-risk review, the team reviews this question: A hygienist must evaluate the respirable fraction of dust generated during concrete finishing. Which configuration best addresses that objective? Which rationale most directly supports the correct answer?",
+      "options": [
+        "“Less than 0.20 mg/m³” means the concentration was not quantified above that reporting threshold. Because the threshold is higher than the decision limit, compliance below 0.05 mg/m³ has not been demonstrated.",
+        "A cyclone separates much of the larger particle fraction so the downstream filter represents the respirable aerosol convention. Flow rate and sampler geometry are method-specific and affect the size cut.",
+        "A brief release requires a method capable of resolving the short time interval. A full-shift integrated result may dilute the peak and fail to answer the stated question.",
+        "Personal sampling follows the worker and places the collection inlet near the nose and mouth, so it can represent the changing tasks and locations that contribute to inhalation exposure."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Interpreting a nondetect above the decision limit', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Short-duration peak sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Personal breathing-zone sampling', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, cyclones and respirable sampling, pp. 277-279; NIOSH NMAM aerosol sampling guidance; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "25987bdffcda2998e7c64883c7c87bc45a371b4471ee1b38956022975a21a07e"
+    },
+    {
+      "id": "PV2-CORE-CH08-023",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Passive diffusive sampling",
+      "itemFamilyId": "PV2-CORE-CH08-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a sampling result interpretation, the team reviews this question: What feature distinguishes a passive vapor sampler from a pumped personal sampler? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Filters are commonly used to collect airborne particulate, including many metal aerosols. The exact filter type, flow rate, and sample volume must follow the analytical method.",
+        "Sampler resistance affects pump flow. Calibration should be performed with representative media and connections in line, followed by post-sampling verification according to the method.",
+        "Passive samplers use a physical transport process rather than an active pump. Exposure time and the sampler’s validated uptake characteristics are needed to calculate concentration.",
+        "Average flow = (1.98 + 2.02) / 2 = 2.00 L/min. Volume = 2.00 L/min × 360 min = 720 L, or 0.720 m³."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Particulate sampling media', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Calibration with the complete sampling train', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Sampled-air volume from average flow', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, passive samplers, p. 280; NIOSH NMAM diffusive-sampler methods; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "862a32efe4bea2a33b5723f7312ceb2be7e7b495b6521e98be6efe909c36c445"
+    },
+    {
+      "id": "PV2-CORE-CH08-024",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Calibration with the complete sampling train",
+      "itemFamilyId": "PV2-CORE-CH08-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a personal sampling strategy meeting, the team reviews this question: A technician calibrates a personal pump with open tubing, then attaches a high-resistance sorbent tube for sampling. What is the main data-quality concern? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Average flow = (1.98 + 2.02) / 2 = 2.00 L/min. Volume = 2.00 L/min × 360 min = 720 L, or 0.720 m³.",
+        "Solid sorbent tubes are commonly used for organic vapors. The specific method determines sorbent, flow, duration, orientation, and maximum volume to avoid breakthrough.",
+        "Passive samplers use a physical transport process rather than an active pump. Exposure time and the sampler’s validated uptake characteristics are needed to calculate concentration.",
+        "Sampler resistance affects pump flow. Calibration should be performed with representative media and connections in line, followed by post-sampling verification according to the method."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Sampled-air volume from average flow', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Gas and vapor sampling media', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Passive diffusive sampling', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, sampling-pump calibration, pp. 280-283; OSHA OTM Section II, Chapter 1; NIOSH NMAM method instructions; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e27ced6cf28c292554e4e0b85b702925601f27ec538ca109751db6f6eda20407"
+    },
+    {
+      "id": "PV2-CORE-CH08-025",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Sampled-air volume from average flow",
+      "itemFamilyId": "PV2-CORE-CH08-F025",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a laboratory data-quality review, solve the following problem and select the best answer: A sampling pump reads 1.98 L/min before sampling and 2.02 L/min after sampling. The sample ran for 360 minutes. Using the average flow, what air volume was collected?",
+      "options": [
+        "720 L",
+        "1,440 L",
+        "360 L",
+        "7.20 L"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Average flow = (1.98 + 2.02) / 2 = 2.00 L/min. Volume = 2.00 L/min × 360 min = 720 L, or 0.720 m³.",
+      "incorrectOptionExplanations": [
+        null,
+        "This adds the two flow readings and multiplies without dividing by two.",
+        "This uses 1.00 L/min instead of the calculated average flow.",
+        "This introduces an incorrect factor-of-100 conversion."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, pump calibration and sampled volume, pp. 280-287; NIOSH NMAM method calculations; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "V = ((Qpre + Qpost) / 2) × t",
+      "units": "L",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "783b7cb3861abb19c63d88413963ff54bcad5aa30571515d90c649ccc91e847e"
+    },
+    {
+      "id": "PV2-CORE-CH08-026",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Air concentration from collected mass",
+      "itemFamilyId": "PV2-CORE-CH08-F026",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a pump-calibration check, solve the following problem and select the best answer: A laboratory reports 0.54 mg of contaminant on a sample collected from 360 L of air. What is the airborne concentration?",
+      "options": [
+        "0.0015 mg/m³",
+        "1.50 mg/m³",
+        "194 mg/m³",
+        "1,500 mg/m³"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Convert 360 L to 0.360 m³. Concentration = 0.54 mg / 0.360 m³ = 1.50 mg/m³.",
+      "incorrectOptionExplanations": [
+        "This fails to convert liters to cubic meters correctly.",
+        null,
+        "This multiplies mass by volume instead of dividing mass by air volume.",
+        "This applies the liters-to-cubic-meters factor in the wrong direction."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, sample volume and interpretation, pp. 283-292; NIOSH NMAM air-concentration calculations; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "C = mass / sampled air volume",
+      "units": "mg/m³",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "efaa1aa7091c021c0b1f5cc3d4d873c0f99d89751889d77d5b61cc18e549eaa6"
+    },
+    {
+      "id": "PV2-CORE-CH08-027",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Minimum sample volume",
+      "itemFamilyId": "PV2-CORE-CH08-F027",
+      "questionType": "calculation",
+      "cognitiveLevel": "apply",
+      "stem": "During a direct-reading instrument survey, solve the following problem and select the best answer: An analytical method has a limit of quantification of 0.004 mg per sample. The target airborne concentration is 1.6 mg/m³. What minimum air volume is required?",
+      "options": [
+        "0.0025 L",
+        "400 L",
+        "2.5 L",
+        "6.4 L"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Vmin = LOQ × 1,000 / target concentration = 0.004 mg × 1,000 L/m³ ÷ 1.6 mg/m³ = 2.5 L.",
+      "incorrectOptionExplanations": [
+        "This omits the cubic-meter-to-liter conversion factor.",
+        "This reverses the concentration and LOQ relationship.",
+        null,
+        "This multiplies the two values rather than dividing LOQ by target concentration."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, determining minimum sample volume, pp. 283-284; NIOSH NMAM method limits; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": "Vmin (L) = LOQ (mg) × 1,000 / Ct (mg/m³)",
+      "units": "L",
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2c0c64ea357132bd7cf84b7049a6df3566ca2e2a86e967eea3a40d56e4b84c64"
+    },
+    {
+      "id": "PV2-CORE-CH08-028",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Interpreting a nondetect above the decision limit",
+      "itemFamilyId": "PV2-CORE-CH08-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a similar-exposure-group assessment, the team reviews this question: A laboratory reports a result as less than 0.20 mg/m³, but the occupational limit used for the assessment is 0.05 mg/m³. What is the most defensible conclusion? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Industrial hygiene begins with anticipation and recognition. Process and material information define what could be released, who may be exposed, and what evaluation strategy is appropriate before controls are selected.",
+        "A brief release requires a method capable of resolving the short time interval. A full-shift integrated result may dilute the peak and fail to answer the stated question.",
+        "A cyclone separates much of the larger particle fraction so the downstream filter represents the respirable aerosol convention. Flow rate and sampler geometry are method-specific and affect the size cut.",
+        "“Less than 0.20 mg/m³” means the concentration was not quantified above that reporting threshold. Because the threshold is higher than the decision limit, compliance below 0.05 mg/m³ has not been demonstrated."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Anticipation before exposure assessment', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Short-duration peak sampling', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Respirable aerosol sampling', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025); OSHA Technical Manual, Section II, Chapter 1 — Personal Sampling for Air Contaminants; NIOSH Manual of Analytical Methods (NMAM), Fifth Edition",
+      "sourceLocation": "Yates Chapter 8, limit of detection, limit of quantification, and interpretation, pp. 283 and 290-293; NIOSH NMAM measurement guidance; Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.osha.gov/otm/section-2-health-hazards/chapter-1",
+        "https://www.cdc.gov/niosh/nmam/",
+        "https://www.osha.gov/otm/section-2-health-hazards"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "555903c66ceba8cfc90456f419d73ea76b1d829ee19a5359992a7f592df401ae"
+    },
+    {
+      "id": "PV2-CORE-CH08-029",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "personal versus area sampling",
+      "itemFamilyId": "PV2-CORE-CH08-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a sampling result interpretation, a supervisor proposes: \"A wipe sample collected from the operator’s locker\". The underlying case is: The objective is to estimate an operator’s inhalation exposure while the operator moves among several process areas. Which sampling approach is most appropriate? Which alternative is the most defensible correction?",
+      "options": [
+        "Personal breathing-zone sampling using media and flow appropriate for the contaminant and task",
+        "A bulk sample of the raw material without any airborne measurement",
+        "A wipe sample collected from the operator’s locker",
+        "One stationary area sample placed at the center of the building"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Personal breathing-zone sampling follows the worker and best estimates inhalation exposure; area, wipe, and bulk samples answer different questions.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'A bulk sample of the raw material without any airborne measurement' remains incomplete or misapplies the controlling personal versus area sampling principle.",
+        "The proposed response 'A wipe sample collected from the operator’s locker' remains incomplete or misapplies the controlling personal versus area sampling principle.",
+        "The proposed response 'One stationary area sample placed at the center of the building' remains incomplete or misapplies the controlling personal versus area sampling principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: personal versus area sampling",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "353ca34f58c601fc3d558c747b698662baac464e774e3e693548951d01c884b7"
+    },
+    {
+      "id": "PV2-CORE-CH08-030",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "representative sampling strategy",
+      "itemFamilyId": "PV2-CORE-CH08-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a personal sampling strategy meeting, a supervisor proposes: \"Select workers solely by volunteering so the sample is convenient\". The underlying case is: A department has 40 employees performing similar tasks, but three workers handle higher-throughput equipment and spend more time near the source. How should the sampling strategy be designed? Which alternative is the most defensible correction?",
+      "options": [
+        "Sample only the median-tenure employee because tenure determines exposure",
+        "Define similar exposure groups carefully and prioritize employees with the highest reasonably expected exposure while confirming representativeness",
+        "Select workers solely by volunteering so the sample is convenient",
+        "Average all job titles into one group before collecting any data"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Representative sampling should account for tasks, duration, controls, and potential worst-case conditions rather than assuming all workers share the same exposure profile.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Sample only the median-tenure employee because tenure determines exposure' remains incomplete or misapplies the controlling representative sampling strategy principle.",
+        null,
+        "The proposed response 'Select workers solely by volunteering so the sample is convenient' remains incomplete or misapplies the controlling representative sampling strategy principle.",
+        "The proposed response 'Average all job titles into one group before collecting any data' remains incomplete or misapplies the controlling representative sampling strategy principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: representative sampling strategy",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "21ca68bd770e56ed74ef24ee657d07d1248674e60f884ca05d4e8a6345cfa0c5"
+    },
+    {
+      "id": "PV2-CORE-CH08-031",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "pump calibration",
+      "itemFamilyId": "PV2-CORE-CH08-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a laboratory data-quality review, a supervisor proposes: \"Use the pre-calibration value without documenting the post-calibration result\". The underlying case is: A sampling pump is calibrated before use, but the post-sampling flow differs materially from the pre-sampling value. What is the best response? Which alternative is the most defensible correction?",
+      "options": [
+        "Use the higher of the two flows because it produces the most conservative concentration",
+        "Average the flows automatically regardless of the method’s quality-control requirements",
+        "Evaluate the allowed flow-difference criterion, investigate the cause, and invalidate or qualify the result when sample volume cannot be supported",
+        "Use the pre-calibration value without documenting the post-calibration result"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Sample volume depends on defensible flow data. Significant drift must be evaluated under the method and documented; arbitrary selection or averaging can bias the result.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Use the higher of the two flows because it produces the most conservative concentration' remains incomplete or misapplies the controlling pump calibration principle.",
+        "The proposed response 'Average the flows automatically regardless of the method’s quality-control requirements' remains incomplete or misapplies the controlling pump calibration principle.",
+        null,
+        "The proposed response 'Use the pre-calibration value without documenting the post-calibration result' remains incomplete or misapplies the controlling pump calibration principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: pump calibration",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fc39cceeabbba42aeeb30860484be37beb983f921ba06bec0c1f5d4d0039e4da"
+    },
+    {
+      "id": "PV2-CORE-CH08-032",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "field blanks",
+      "itemFamilyId": "PV2-CORE-CH08-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a pump-calibration check, a supervisor proposes: \"Ignore blanks because they were not connected to sampling pumps\". The underlying case is: Several field blanks contain the target analyte at levels similar to the samples. What should the industrial hygienist do? Which alternative is the most defensible correction?",
+      "options": [
+        "Subtract the blank value from every result without checking method requirements or variability",
+        "Ignore blanks because they were not connected to sampling pumps",
+        "Report all sample results as confirmed overexposures",
+        "Investigate contamination during handling, transport, media preparation, or analysis before interpreting worker exposure"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Field blanks are quality-control indicators. Significant blank contamination can invalidate or materially affect results and must be investigated before exposure conclusions are drawn.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Subtract the blank value from every result without checking method requirements or variability' remains incomplete or misapplies the controlling field blanks principle.",
+        "The proposed response 'Ignore blanks because they were not connected to sampling pumps' remains incomplete or misapplies the controlling field blanks principle.",
+        "The proposed response 'Report all sample results as confirmed overexposures' remains incomplete or misapplies the controlling field blanks principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: field blanks",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d94afb1b481dd7f067fc8063fef3c61ddcbb3905830d58be048098a17397234c"
+    },
+    {
+      "id": "PV2-CORE-CH08-033",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "limit of detection",
+      "itemFamilyId": "PV2-CORE-CH08-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a direct-reading instrument survey, a supervisor proposes: \"The result automatically demonstrates compliance with every occupational limit\". The underlying case is: A laboratory reports “less than the limit of detection” for a short sample with a high analytical detection limit. Which conclusion is justified? Which alternative is the most defensible correction?",
+      "options": [
+        "The analyte was not quantified above that method limit; the result does not prove zero exposure or compliance with a lower criterion",
+        "The result automatically demonstrates compliance with every occupational limit",
+        "Interpret the nondetect as proof that the employee had no airborne exposure at any time during the sampled task",
+        "The concentration was exactly one-half of the detection limit"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "A nondetect is bounded by method capability. Whether it supports a compliance conclusion depends on sample volume, detection limit, and the comparison criterion.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'The result automatically demonstrates compliance with every occupational limit' remains incomplete or misapplies the controlling limit of detection principle.",
+        "The proposed response 'Interpret the nondetect as proof that the employee had no airborne exposure at any time during the sampled task' remains incomplete or misapplies the controlling limit of detection principle.",
+        "The proposed response 'The concentration was exactly one-half of the detection limit' remains incomplete or misapplies the controlling limit of detection principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: limit of detection",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e147fb0ee48b4ea903b896d0e9ba5c9bc486b27eaa37e3be10c5fad85b1ba7ab"
+    },
+    {
+      "id": "PV2-CORE-CH08-034",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "sampling media breakthrough",
+      "itemFamilyId": "PV2-CORE-CH08-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a similar-exposure-group assessment, a supervisor proposes: \"The backup result should always be added without considering the method’s breakthrough criterion\". The underlying case is: A sorbent tube’s backup section contains substantial analyte. What is the most important interpretation? Which alternative is the most defensible correction?",
+      "options": [
+        "Breakthrough proves the workplace concentration was below the analytical limit",
+        "Breakthrough may have occurred, so the front section may not have retained the full sample and the result requires method-specific evaluation",
+        "The backup result should always be added without considering the method’s breakthrough criterion",
+        "The sampling pump must have operated at zero flow"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Analyte on the backup section can indicate capacity was exceeded or migration occurred. The sample must be assessed using method acceptance criteria.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Breakthrough proves the workplace concentration was below the analytical limit' remains incomplete or misapplies the controlling sampling media breakthrough principle.",
+        null,
+        "The proposed response 'The backup result should always be added without considering the method’s breakthrough criterion' remains incomplete or misapplies the controlling sampling media breakthrough principle.",
+        "The proposed response 'The sampling pump must have operated at zero flow' remains incomplete or misapplies the controlling sampling media breakthrough principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: sampling media breakthrough",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3bae0d9b35df5c3ea08e4c183536c2870c7ab29301bee963082e218c30327389"
+    },
+    {
+      "id": "PV2-CORE-CH08-035",
+      "version": 1,
+      "chapterId": "ch-08",
+      "chapterTitle": "Industrial Hygiene Air Sampling",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A6.04b",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D6.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "direct-reading instrument limitations",
+      "itemFamilyId": "PV2-CORE-CH08-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a blank-sample investigation, a supervisor proposes: \"Set aside the result because a direct-reading instrument cannot support an operational decision without identifying every component\". The underlying case is: A photoionization detector responds strongly during a mixed-solvent release, but the exact composition is unknown. How should the reading be used? Which alternative is the most defensible correction?",
+      "options": [
+        "Treat the displayed value as an exact concentration of every solvent present",
+        "Convert the reading to oxygen percentage without additional instrumentation",
+        "Use it for screening and trend decisions while recognizing response-factor and interference limits, and obtain specific analysis when needed",
+        "Set aside the result because a direct-reading instrument cannot support an operational decision without identifying every component"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Direct-reading instruments are valuable for rapid screening, but mixed atmospheres and response factors can limit specificity and quantitative accuracy.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Treat the displayed value as an exact concentration of every solvent present' remains incomplete or misapplies the controlling direct-reading instrument limitations principle.",
+        "The proposed response 'Convert the reading to oxygen percentage without additional instrumentation' remains incomplete or misapplies the controlling direct-reading instrument limitations principle.",
+        null,
+        "The proposed response 'Set aside the result because a direct-reading instrument cannot support an operational decision without identifying every component' remains incomplete or misapplies the controlling direct-reading instrument limitations principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 8, pp. 273-293; OSHA Technical Manual, Section II; curated topic: direct-reading instrument limitations",
+      "sourceUrls": [
+        "https://www.osha.gov/otm/section-2-health-hazards",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f3f6524ca015589573b5117009965ac7d38d67dd59448de7d71f276064c8ede2"
+    }
+  ]
+}

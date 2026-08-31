@@ -1,0 +1,2041 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-35-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-35",
+  "chapterTitle": "Prevention through Design",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH35-001",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "early design influence",
+      "itemFamilyId": "PV2-CORE-CH35-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A project team postpones hazard review until construction drawings are nearly complete. What Prevention through Design principle is being missed?",
+      "options": [
+        "Hazards and life-cycle risks should be addressed when design freedom is greatest and changes are least costly",
+        "Design teams should consider only normal production, not maintenance or disposal",
+        "Safety review is most effective after equipment is installed and operating",
+        "Late warnings provide the same risk reduction as early elimination"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Early design decisions shape process, layout, access, energy, and materials. Eliminating hazards early is usually more effective and economical than retrofitting.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Design teams should consider only normal production, not maintenance or disposal' does not apply the controlling principle for early design influence to the facts given, so it is not the best answer.",
+        "The option 'Safety review is most effective after equipment is installed and operating' does not apply the controlling principle for early design influence to the facts given, so it is not the best answer.",
+        "The option 'Late warnings provide the same risk reduction as early elimination' does not apply the controlling principle for early design influence to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: early design influence",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7bf19424b26c33308109785c1dd520ec51b76625332888f110555f39643e3e7b"
+    },
+    {
+      "id": "PV2-CORE-CH35-002",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "design for maintenance",
+      "itemFamilyId": "PV2-CORE-CH35-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A filter requires monthly replacement from a narrow elevated ledge beside hot piping. Which redesign best applies PtD?",
+      "options": [
+        "Add a warning label while retaining the access and heat hazards",
+        "Relocate or redesign the filter for safe ground-level access, isolation, drainage, and handling with adequate clearance",
+        "Require two employees to use the same narrow ledge",
+        "Issue a shorter ladder so the worker cannot reach the hot piping"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Designing maintainability into equipment eliminates routine exposure and reduces reliance on PPE, ladders, and procedural coordination.",
+      "incorrectOptionExplanations": [
+        "The option 'Add a warning label while retaining the access and heat hazards' does not apply the controlling principle for design for maintenance to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Require two employees to use the same narrow ledge' does not apply the controlling principle for design for maintenance to the facts given, so it is not the best answer.",
+        "The option 'Issue a shorter ladder so the worker cannot reach the hot piping' does not apply the controlling principle for design for maintenance to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: design for maintenance",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c80988fc148a8984a0bca99ac7a81ee050ee6c4aaec404aab63448b625e9b090"
+    },
+    {
+      "id": "PV2-CORE-CH35-003",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inherently safer substitution",
+      "itemFamilyId": "PV2-CORE-CH35-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A cleaning process can use either a highly volatile toxic solvent or a less hazardous aqueous chemistry that meets quality needs with minor process changes. Which option best reflects PtD?",
+      "options": [
+        "Choose the solvent with the strongest odor so leaks are easier to detect",
+        "Keep the toxic solvent and rely only on respirators because the process is familiar",
+        "Evaluate and adopt the less hazardous chemistry while controlling any new process risks created by the substitution",
+        "Assume the aqueous option has zero hazards and skip assessment"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Substitution can reduce inherent hazard, but alternatives must be evaluated for new chemical, ergonomic, biological, energy, or quality risks.",
+      "incorrectOptionExplanations": [
+        "The option 'Choose the solvent with the strongest odor so leaks are easier to detect' does not apply the controlling principle for inherently safer substitution to the facts given, so it is not the best answer.",
+        "The option 'Keep the toxic solvent and rely only on respirators because the process is familiar' does not apply the controlling principle for inherently safer substitution to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Assume the aqueous option has zero hazards and skip assessment' does not apply the controlling principle for inherently safer substitution to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: inherently safer substitution",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5de1d15d013ca651dc3f0c8e39c7289e8e957c9ce056439bd0cea88cee1ecb36"
+    },
+    {
+      "id": "PV2-CORE-CH35-004",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "design risk register ownership",
+      "itemFamilyId": "PV2-CORE-CH35-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A design review identifies a serious hazard but records it only in meeting notes with no owner or closure criterion. What should happen?",
+      "options": [
+        "Delete it if the project schedule cannot accommodate correction",
+        "Transfer it to the future operations team without design action",
+        "Leave it in notes because formal tracking begins only after construction",
+        "Enter it into a controlled design risk process with an owner, treatment decision, due date, verification, and residual-risk acceptance"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Design risks require traceable decisions and closure. Informal notes do not ensure treatment, verification, or accountable acceptance.",
+      "incorrectOptionExplanations": [
+        "The option 'Delete it if the project schedule cannot accommodate correction' does not apply the controlling principle for design risk register ownership to the facts given, so it is not the best answer.",
+        "The option 'Transfer it to the future operations team without design action' does not apply the controlling principle for design risk register ownership to the facts given, so it is not the best answer.",
+        "The option 'Leave it in notes because formal tracking begins only after construction' does not apply the controlling principle for design risk register ownership to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: design risk register ownership",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6aa7254e75cfff92a3b7be5e9afff0f6f3ff7ceff0f1fdaf03d380735cb38bcc"
+    },
+    {
+      "id": "PV2-CORE-CH35-005",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "safe construction sequencing",
+      "itemFamilyId": "PV2-CORE-CH35-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A building design requires workers to install heavy facade panels from an exposed edge because permanent anchor points are added only after installation. What is the strongest redesign?",
+      "options": [
+        "Change the sequence or incorporate prefabrication, temporary and permanent anchorage, and access provisions before exposure occurs",
+        "Accept the exposure because construction hazards end when the building is complete",
+        "Rely on experienced installers to improvise anchorage",
+        "Add a note instructing workers not to fall"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "PtD includes construction-phase safety. Sequencing, prefabrication, access, and anchor design can remove predictable high-risk work.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Accept the exposure because construction hazards end when the building is complete' does not apply the controlling principle for safe construction sequencing to the facts given, so it is not the best answer.",
+        "The option 'Rely on experienced installers to improvise anchorage' does not apply the controlling principle for safe construction sequencing to the facts given, so it is not the best answer.",
+        "The option 'Add a note instructing workers not to fall' does not apply the controlling principle for safe construction sequencing to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: safe construction sequencing",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6f8dc959457cb0d20c8e6a56f26ae855c90b94e703c13fd0bae96ef2c10739b9"
+    },
+    {
+      "id": "PV2-CORE-CH35-006",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "error-tolerant design",
+      "itemFamilyId": "PV2-CORE-CH35-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A control valve can be opened in the wrong direction, and one error causes an immediate hazardous release. Which design improvement is strongest?",
+      "options": [
+        "Use a longer procedure while retaining the ambiguous control",
+        "Use fail-safe, keyed, interlocked, or otherwise error-tolerant design with clear feedback and differentiation",
+        "Increase disciplinary penalties for the next wrong movement",
+        "Rely on color alone even when lighting and color vision vary"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Error-tolerant design prevents or limits foreseeable mistakes through physical and functional features rather than depending solely on perfect human performance.",
+      "incorrectOptionExplanations": [
+        "The option 'Use a longer procedure while retaining the ambiguous control' does not apply the controlling principle for error-tolerant design to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Increase disciplinary penalties for the next wrong movement' does not apply the controlling principle for error-tolerant design to the facts given, so it is not the best answer.",
+        "The option 'Rely on color alone even when lighting and color vision vary' does not apply the controlling principle for error-tolerant design to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: error-tolerant design",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c3e2468f2a9c80105b7af9c04334a0d2a1722afb0868a2a51d0f4d6479c96482"
+    },
+    {
+      "id": "PV2-CORE-CH35-007",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "design for decommissioning",
+      "itemFamilyId": "PV2-CORE-CH35-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A vessel will eventually contain hazardous residue, but the design provides no drain, cleanout, lifting point, or sampling access. What PtD issue is present?",
+      "options": [
+        "A disposal budget alone eliminates decommissioning hazards",
+        "Decommissioning is not part of design because it occurs years later",
+        "End-of-life isolation, cleaning, dismantling, material handling, and waste management were not designed into the asset",
+        "Future contractors can resolve access by cutting the vessel open"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Life-cycle design considers installation, operation, maintenance, change, and disposal. Planned drain, access, isolation, and lifting features reduce future exposure.",
+      "incorrectOptionExplanations": [
+        "The option 'A disposal budget alone eliminates decommissioning hazards' does not apply the controlling principle for design for decommissioning to the facts given, so it is not the best answer.",
+        "The option 'Decommissioning is not part of design because it occurs years later' does not apply the controlling principle for design for decommissioning to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Future contractors can resolve access by cutting the vessel open' does not apply the controlling principle for design for decommissioning to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: design for decommissioning",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "42ba177b56255aad81b35a1aebb270752bbcdf4f7f061dc93e754e65e30e4b6e"
+    },
+    {
+      "id": "PV2-CORE-CH35-008",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "procurement specification",
+      "itemFamilyId": "PV2-CORE-CH35-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A purchaser compares machines only on price and throughput, then asks safety to add guards after delivery. What process change is best?",
+      "options": [
+        "Select the cheapest machine and reserve a small PPE budget",
+        "Continue buying first because every hazard can be corrected with training",
+        "Ask vendors for a generic compliance statement after the purchase order",
+        "Include safety, ergonomics, maintainability, energy control, standards, documentation, and acceptance tests in procurement specifications"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Procurement is a design decision point. Explicit specifications and acceptance criteria prevent hazardous features from becoming expensive installed conditions.",
+      "incorrectOptionExplanations": [
+        "The option 'Select the cheapest machine and reserve a small PPE budget' does not apply the controlling principle for procurement specification to the facts given, so it is not the best answer.",
+        "The option 'Continue buying first because every hazard can be corrected with training' does not apply the controlling principle for procurement specification to the facts given, so it is not the best answer.",
+        "The option 'Ask vendors for a generic compliance statement after the purchase order' does not apply the controlling principle for procurement specification to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: procurement specification",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "77be6b70f0ba91f1cc24a455a803580f21a913834e186ffe87aa0606a84a2b01"
+    },
+    {
+      "id": "PV2-CORE-CH35-009",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "early design influence",
+      "itemFamilyId": "PV2-CORE-CH35-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a maintainability assessment, the team reviews this case: A project team postpones hazard review until construction drawings are nearly complete. What Prevention through Design principle is being missed? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Early design decisions shape process, layout, access, energy, and materials. Eliminating hazards early is usually more effective and economical than retrofitting.",
+        "Life-cycle design considers installation, operation, maintenance, change, and disposal. Planned drain, access, isolation, and lifting features reduce future exposure.",
+        "Design risks require traceable decisions and closure. Informal notes do not ensure treatment, verification, or accountable acceptance.",
+        "Error-tolerant design prevents or limits foreseeable mistakes through physical and functional features rather than depending solely on perfect human performance."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses early design influence and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'design for decommissioning', but it does not resolve the early design influence issue in this case.",
+        "This rationale supports the separate chapter topic 'design risk register ownership', but it does not resolve the early design influence issue in this case.",
+        "This rationale supports the separate chapter topic 'error-tolerant design', but it does not resolve the early design influence issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: early design influence",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a6a3b6d7edeab0a1ddc87b0dffba32650b2506b5382a4c7e61cc92a3b80f8af7"
+    },
+    {
+      "id": "PV2-CORE-CH35-010",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "design for maintenance",
+      "itemFamilyId": "PV2-CORE-CH35-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a substitution decision, the team reviews this case: A filter requires monthly replacement from a narrow elevated ledge beside hot piping. Which redesign best applies PtD? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Substitution can reduce inherent hazard, but alternatives must be evaluated for new chemical, ergonomic, biological, energy, or quality risks.",
+        "Designing maintainability into equipment eliminates routine exposure and reduces reliance on PPE, ladders, and procedural coordination.",
+        "Life-cycle design considers installation, operation, maintenance, change, and disposal. Planned drain, access, isolation, and lifting features reduce future exposure.",
+        "PtD includes construction-phase safety. Sequencing, prefabrication, access, and anchor design can remove predictable high-risk work."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses design for maintenance and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'inherently safer substitution', but it does not resolve the design for maintenance issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'design for decommissioning', but it does not resolve the design for maintenance issue in this case.",
+        "This rationale supports the separate chapter topic 'safe construction sequencing', but it does not resolve the design for maintenance issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: design for maintenance",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b17853c978bda2f72421f268a6eaca626f45d980e0eca898e9c0e182f8bce789"
+    },
+    {
+      "id": "PV2-CORE-CH35-011",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inherently safer substitution",
+      "itemFamilyId": "PV2-CORE-CH35-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a facility layout project, the team reviews this case: A cleaning process can use either a highly volatile toxic solvent or a less hazardous aqueous chemistry that meets quality needs with minor process changes. Which option best reflects PtD? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Early design decisions shape process, layout, access, energy, and materials. Eliminating hazards early is usually more effective and economical than retrofitting.",
+        "Design risks require traceable decisions and closure. Informal notes do not ensure treatment, verification, or accountable acceptance.",
+        "Substitution can reduce inherent hazard, but alternatives must be evaluated for new chemical, ergonomic, biological, energy, or quality risks.",
+        "PtD includes construction-phase safety. Sequencing, prefabrication, access, and anchor design can remove predictable high-risk work."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses inherently safer substitution and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'early design influence', but it does not resolve the inherently safer substitution issue in this case.",
+        "This rationale supports the separate chapter topic 'design risk register ownership', but it does not resolve the inherently safer substitution issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'safe construction sequencing', but it does not resolve the inherently safer substitution issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: inherently safer substitution",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d93a4a9e72eba4d9dc6d679c237adcd6b271602a7e5600d1ad3659fa11cd11c4"
+    },
+    {
+      "id": "PV2-CORE-CH35-012",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "design risk register ownership",
+      "itemFamilyId": "PV2-CORE-CH35-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a decommissioning design review, the team reviews this case: A design review identifies a serious hazard but records it only in meeting notes with no owner or closure criterion. What should happen? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Early design decisions shape process, layout, access, energy, and materials. Eliminating hazards early is usually more effective and economical than retrofitting.",
+        "Procurement is a design decision point. Explicit specifications and acceptance criteria prevent hazardous features from becoming expensive installed conditions.",
+        "PtD includes construction-phase safety. Sequencing, prefabrication, access, and anchor design can remove predictable high-risk work.",
+        "Design risks require traceable decisions and closure. Informal notes do not ensure treatment, verification, or accountable acceptance."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses design risk register ownership and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'early design influence', but it does not resolve the design risk register ownership issue in this case.",
+        "This rationale supports the separate chapter topic 'procurement specification', but it does not resolve the design risk register ownership issue in this case.",
+        "This rationale supports the separate chapter topic 'safe construction sequencing', but it does not resolve the design risk register ownership issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: design risk register ownership",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0a1e04266dfc640c17f51719376ca8d27362768f615e277ab9aa0021051a09d2"
+    },
+    {
+      "id": "PV2-CORE-CH35-013",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "safe construction sequencing",
+      "itemFamilyId": "PV2-CORE-CH35-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a design risk register meeting, the team reviews this case: A building design requires workers to install heavy facade panels from an exposed edge because permanent anchor points are added only after installation. What is the strongest redesign? Which rationale most directly supports the correct decision?",
+      "options": [
+        "PtD includes construction-phase safety. Sequencing, prefabrication, access, and anchor design can remove predictable high-risk work.",
+        "Design risks require traceable decisions and closure. Informal notes do not ensure treatment, verification, or accountable acceptance.",
+        "Procurement is a design decision point. Explicit specifications and acceptance criteria prevent hazardous features from becoming expensive installed conditions.",
+        "Error-tolerant design prevents or limits foreseeable mistakes through physical and functional features rather than depending solely on perfect human performance."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses safe construction sequencing and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'design risk register ownership', but it does not resolve the safe construction sequencing issue in this case.",
+        "This rationale supports the separate chapter topic 'procurement specification', but it does not resolve the safe construction sequencing issue in this case.",
+        "This rationale supports the separate chapter topic 'error-tolerant design', but it does not resolve the safe construction sequencing issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: safe construction sequencing",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "81f07371856d4a20fda9c97cd543aea6c21c4d272a36f1cb8550a76c785c6cb6"
+    },
+    {
+      "id": "PV2-CORE-CH35-014",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "error-tolerant design",
+      "itemFamilyId": "PV2-CORE-CH35-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a construction design coordination session, the team reviews this case: A control valve can be opened in the wrong direction, and one error causes an immediate hazardous release. Which design improvement is strongest? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Design risks require traceable decisions and closure. Informal notes do not ensure treatment, verification, or accountable acceptance.",
+        "Error-tolerant design prevents or limits foreseeable mistakes through physical and functional features rather than depending solely on perfect human performance.",
+        "Designing maintainability into equipment eliminates routine exposure and reduces reliance on PPE, ladders, and procedural coordination.",
+        "Early design decisions shape process, layout, access, energy, and materials. Eliminating hazards early is usually more effective and economical than retrofitting."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses error-tolerant design and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'design risk register ownership', but it does not resolve the error-tolerant design issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'design for maintenance', but it does not resolve the error-tolerant design issue in this case.",
+        "This rationale supports the separate chapter topic 'early design influence', but it does not resolve the error-tolerant design issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: error-tolerant design",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "699368bad10a76bc9e4a27c6b58476d32aabb7098a2b34eca70bc829b226445d"
+    },
+    {
+      "id": "PV2-CORE-CH35-015",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "design for decommissioning",
+      "itemFamilyId": "PV2-CORE-CH35-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an early design review, the team reviews this case: A vessel will eventually contain hazardous residue, but the design provides no drain, cleanout, lifting point, or sampling access. What PtD issue is present? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Substitution can reduce inherent hazard, but alternatives must be evaluated for new chemical, ergonomic, biological, energy, or quality risks.",
+        "Design risks require traceable decisions and closure. Informal notes do not ensure treatment, verification, or accountable acceptance.",
+        "Life-cycle design considers installation, operation, maintenance, change, and disposal. Planned drain, access, isolation, and lifting features reduce future exposure.",
+        "Error-tolerant design prevents or limits foreseeable mistakes through physical and functional features rather than depending solely on perfect human performance."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses design for decommissioning and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'inherently safer substitution', but it does not resolve the design for decommissioning issue in this case.",
+        "This rationale supports the separate chapter topic 'design risk register ownership', but it does not resolve the design for decommissioning issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'error-tolerant design', but it does not resolve the design for decommissioning issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: design for decommissioning",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7fa815d9e8dad1db20d3c4ce95eb3b188be122074616045cfe60c37ae0a66416"
+    },
+    {
+      "id": "PV2-CORE-CH35-016",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "procurement specification",
+      "itemFamilyId": "PV2-CORE-CH35-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a machine procurement specification, the team reviews this case: A purchaser compares machines only on price and throughput, then asks safety to add guards after delivery. What process change is best? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Substitution can reduce inherent hazard, but alternatives must be evaluated for new chemical, ergonomic, biological, energy, or quality risks.",
+        "Designing maintainability into equipment eliminates routine exposure and reduces reliance on PPE, ladders, and procedural coordination.",
+        "Error-tolerant design prevents or limits foreseeable mistakes through physical and functional features rather than depending solely on perfect human performance.",
+        "Procurement is a design decision point. Explicit specifications and acceptance criteria prevent hazardous features from becoming expensive installed conditions."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses procurement specification and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'inherently safer substitution', but it does not resolve the procurement specification issue in this case.",
+        "This rationale supports the separate chapter topic 'design for maintenance', but it does not resolve the procurement specification issue in this case.",
+        "This rationale supports the separate chapter topic 'error-tolerant design', but it does not resolve the procurement specification issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: procurement specification",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5d8b43b61f3aa0cdfbd3dc4c84d26b7541791493618bfb4b5fcba8767ddb0fb4"
+    },
+    {
+      "id": "PV2-CORE-CH35-017",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "PtD timing",
+      "itemFamilyId": "PV2-CORE-CH35-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a machine procurement specification, the team reviews this question: When is the greatest opportunity to eliminate a lifecycle hazard at the lowest redesign cost? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Early decisions determine materials, layout, access, energy, and process choices before change becomes difficult and expensive.",
+        "Fail-safe design selects a predictable state that minimizes the analyzed consequence when power or control energy is lost.",
+        "PtD considers predictable maintenance and provides safe reach, access, isolation, and replacement space in the design.",
+        "Designing the maintenance function to occur without entry eliminates the exposure rather than managing repeated entry."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Fail-safe design', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Safe maintenance access', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Design out confined-space entry', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 35, PtD assessment stages, pp. 780-788; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ptd/about/index.html",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3f1e530cb99c646f0f940214e05aa5d235e5b94649651b8b33e4f0884d34a08e"
+    },
+    {
+      "id": "PV2-CORE-CH35-018",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Design out confined-space entry",
+      "itemFamilyId": "PV2-CORE-CH35-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a maintainability assessment, the team reviews this question: A new tank requires frequent internal cleaning. Which design most strongly applies PtD? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Early decisions determine materials, layout, access, energy, and process choices before change becomes difficult and expensive.",
+        "Designing the maintenance function to occur without entry eliminates the exposure rather than managing repeated entry.",
+        "HAZOP uses guide words and process parameters to identify credible deviations, causes, consequences, and safeguards.",
+        "PtD considers predictable maintenance and provides safe reach, access, isolation, and replacement space in the design."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'PtD timing', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Design review methods', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Safe maintenance access', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 35, hierarchy of controls and lifecycle design reviews, pp. 783-791; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/ptd/about/index.html",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e56697d68640391bd9d220e9b5d39fd2d4b699f6fd610287aff56992b0b8085e"
+    },
+    {
+      "id": "PV2-CORE-CH35-019",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Inherently safer material",
+      "itemFamilyId": "PV2-CORE-CH35-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a substitution decision, the team reviews this question: A process can use either a large inventory of concentrated corrosive or a smaller on-demand dilute stream. Which choice is more inherently safer? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Designing the maintenance function to occur without entry eliminates the exposure rather than managing repeated entry.",
+        "Early decisions determine materials, layout, access, energy, and process choices before change becomes difficult and expensive.",
+        "Minimization and moderation reduce the quantity and severity of hazardous material present in the process.",
+        "HAZOP uses guide words and process parameters to identify credible deviations, causes, consequences, and safeguards."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Design out confined-space entry', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PtD timing', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Design review methods', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 35, risk avoidance, elimination, substitution, and inherently safer design, pp. 780-791; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f7abd3765fd4eb15cf6459d20742f8bfffb7e67239c951b2258760475a765867"
+    },
+    {
+      "id": "PV2-CORE-CH35-020",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Safe maintenance access",
+      "itemFamilyId": "PV2-CORE-CH35-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a facility layout project, the team reviews this question: A valve requiring monthly service is placed above an operating line with no permanent access. What is the best design correction? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Early decisions determine materials, layout, access, energy, and process choices before change becomes difficult and expensive.",
+        "Fail-safe design selects a predictable state that minimizes the analyzed consequence when power or control energy is lost.",
+        "Designing the maintenance function to occur without entry eliminates the exposure rather than managing repeated entry.",
+        "PtD considers predictable maintenance and provides safe reach, access, isolation, and replacement space in the design."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'PtD timing', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Fail-safe design', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Design out confined-space entry', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 35, design stages and design safety reviews, pp. 785-795; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4f91b6dd1d1ec3d7027373a94c31c7667be87e1df96af291c16702f0a71d2cb8"
+    },
+    {
+      "id": "PV2-CORE-CH35-021",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Fail-safe design",
+      "itemFamilyId": "PV2-CORE-CH35-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a decommissioning design review, the team reviews this question: Which valve design best demonstrates a fail-safe principle for loss of instrument air to a fuel line? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Fail-safe design selects a predictable state that minimizes the analyzed consequence when power or control energy is lost.",
+        "Designing the maintenance function to occur without entry eliminates the exposure rather than managing repeated entry.",
+        "Explicit safety requirements early in design allow suppliers and reviewers to verify that hazards are eliminated or controlled by design.",
+        "A design change should be reviewed and validated to confirm it does not introduce new hazards or defeat existing safeguards."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Design out confined-space entry', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Safety requirements specification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Design change verification', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 35, safety design reviews and hierarchy of controls, pp. 783-795; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "8c0881bb1bc2d5b6e3ccd1bf78ee2d473eca62b4cd9b293633f824836e31679f"
+    },
+    {
+      "id": "PV2-CORE-CH35-022",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Lifecycle review",
+      "itemFamilyId": "PV2-CORE-CH35-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a design risk register meeting, the team reviews this question: Which design review question best addresses end-of-life risk? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Minimization and moderation reduce the quantity and severity of hazardous material present in the process.",
+        "Lifecycle design includes construction, operation, maintenance, modification, and decommissioning hazards.",
+        "Human-centered design reduces error-likely conditions through compatible layout, differentiation, feedback, and recovery.",
+        "HAZOP uses guide words and process parameters to identify credible deviations, causes, consequences, and safeguards."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Inherently safer material', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Human factors in design', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Design review methods', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 35, PtD stages including decommissioning, pp. 785-788; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0cf505c82facfa6e7dd6908135c8f77ab9877e23feece89e571527539148469d"
+    },
+    {
+      "id": "PV2-CORE-CH35-023",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Design review methods",
+      "itemFamilyId": "PV2-CORE-CH35-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a construction design coordination session, the team reviews this question: A multidisciplinary team needs a structured review of deviations such as more flow, less pressure, or reverse flow in a new process. Which method fits best? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Minimization and moderation reduce the quantity and severity of hazardous material present in the process.",
+        "Early decisions determine materials, layout, access, energy, and process choices before change becomes difficult and expensive.",
+        "HAZOP uses guide words and process parameters to identify credible deviations, causes, consequences, and safeguards.",
+        "PtD considers predictable maintenance and provides safe reach, access, isolation, and replacement space in the design."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Inherently safer material', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PtD timing', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Safe maintenance access', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 35, HAZOP and risk-assessment tools, pp. 791-793; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "175b51bce64f91dde5a0054c57aec949c1352499854b3471cba58f6a635d2045"
+    },
+    {
+      "id": "PV2-CORE-CH35-024",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Safety requirements specification",
+      "itemFamilyId": "PV2-CORE-CH35-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an early design review, the team reviews this question: A design team says safety requirements will be decided after equipment purchase. What is the main problem? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A design change should be reviewed and validated to confirm it does not introduce new hazards or defeat existing safeguards.",
+        "Designing the maintenance function to occur without entry eliminates the exposure rather than managing repeated entry.",
+        "Fail-safe design selects a predictable state that minimizes the analyzed consequence when power or control energy is lost.",
+        "Explicit safety requirements early in design allow suppliers and reviewers to verify that hazards are eliminated or controlled by design."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Design change verification', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Design out confined-space entry', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Fail-safe design', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 35, design stages and safety design reviews, pp. 785-795; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "af1b3c144548dc520fe2da42795ad534baacc23da461b2f88ed43cdfb71fde83"
+    },
+    {
+      "id": "PV2-CORE-CH35-025",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Human factors in design",
+      "itemFamilyId": "PV2-CORE-CH35-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a machine procurement specification, the team reviews this question: Two adjacent controls look identical but operate opposite equipment states. What design improvement is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Human-centered design reduces error-likely conditions through compatible layout, differentiation, feedback, and recovery.",
+        "HAZOP uses guide words and process parameters to identify credible deviations, causes, consequences, and safeguards.",
+        "Minimization and moderation reduce the quantity and severity of hazardous material present in the process.",
+        "Lifecycle design includes construction, operation, maintenance, modification, and decommissioning hazards."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Design review methods', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Inherently safer material', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Lifecycle review', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 24 and 35, human factors and prevention through design, pp. 546-566 and 780-795; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3d1ebcc8c4726dabb339e766e90bd7b08d4bd28ff89ea999a8425d4ea6e45a25"
+    },
+    {
+      "id": "PV2-CORE-CH35-026",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Design change verification",
+      "itemFamilyId": "PV2-CORE-CH35-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a maintainability assessment, the team reviews this question: A machine guard was redesigned to improve access. What is needed before routine use? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Explicit safety requirements early in design allow suppliers and reviewers to verify that hazards are eliminated or controlled by design.",
+        "A design change should be reviewed and validated to confirm it does not introduce new hazards or defeat existing safeguards.",
+        "Fail-safe design selects a predictable state that minimizes the analyzed consequence when power or control energy is lost.",
+        "Early decisions determine materials, layout, access, energy, and process choices before change becomes difficult and expensive."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Safety requirements specification', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Fail-safe design', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'PtD timing', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 35, design safety reviews and lifecycle assessment, pp. 785-795; Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.cdc.gov/niosh/programs/ptdesign/"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c846075cd8098210544be51ffbd8ef47dc9d8a3fa97d2b62eb4db934488671de"
+    },
+    {
+      "id": "PV2-CORE-CH35-027",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "early design influence",
+      "itemFamilyId": "PV2-CORE-CH35-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a decommissioning design review, a supervisor proposes: \"Late warnings provide the same risk reduction as early elimination\". The underlying case is: A project team postpones hazard review until construction drawings are nearly complete. What Prevention through Design principle is being missed? Which alternative is the most defensible correction?",
+      "options": [
+        "Safety review is most effective after equipment is installed and operating",
+        "Late warnings provide the same risk reduction as early elimination",
+        "Hazards and life-cycle risks should be addressed when design freedom is greatest and changes are least costly",
+        "Design teams should consider only normal production, not maintenance or disposal"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Early design decisions shape process, layout, access, energy, and materials. Eliminating hazards early is usually more effective and economical than retrofitting.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Safety review is most effective after equipment is installed and operating' remains incomplete or misapplies the controlling early design influence principle.",
+        "The proposed response 'Late warnings provide the same risk reduction as early elimination' remains incomplete or misapplies the controlling early design influence principle.",
+        null,
+        "The proposed response 'Design teams should consider only normal production, not maintenance or disposal' remains incomplete or misapplies the controlling early design influence principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: early design influence",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7081c45e4b63ca86daace27d2a10bb889e91e4547b2cc89ee3f860f303f717cd"
+    },
+    {
+      "id": "PV2-CORE-CH35-028",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "design for maintenance",
+      "itemFamilyId": "PV2-CORE-CH35-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a design risk register meeting, a supervisor proposes: \"Issue a shorter ladder so the worker cannot reach the hot piping\". The underlying case is: A filter requires monthly replacement from a narrow elevated ledge beside hot piping. Which redesign best applies PtD? Which alternative is the most defensible correction?",
+      "options": [
+        "Add a warning label while retaining the access and heat hazards",
+        "Issue a shorter ladder so the worker cannot reach the hot piping",
+        "Require two employees to use the same narrow ledge",
+        "Relocate or redesign the filter for safe ground-level access, isolation, drainage, and handling with adequate clearance"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Designing maintainability into equipment eliminates routine exposure and reduces reliance on PPE, ladders, and procedural coordination.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Add a warning label while retaining the access and heat hazards' remains incomplete or misapplies the controlling design for maintenance principle.",
+        "The proposed response 'Issue a shorter ladder so the worker cannot reach the hot piping' remains incomplete or misapplies the controlling design for maintenance principle.",
+        "The proposed response 'Require two employees to use the same narrow ledge' remains incomplete or misapplies the controlling design for maintenance principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: design for maintenance",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e75ffb9bb515d5ab8a1509fa43ea2252b4fa68d374dd6b73276384b4ae613379"
+    },
+    {
+      "id": "PV2-CORE-CH35-029",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "inherently safer substitution",
+      "itemFamilyId": "PV2-CORE-CH35-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a construction design coordination session, a supervisor proposes: \"Assume the aqueous option has zero hazards and skip assessment\". The underlying case is: A cleaning process can use either a highly volatile toxic solvent or a less hazardous aqueous chemistry that meets quality needs with minor process changes. Which option best reflects PtD? Which alternative is the most defensible correction?",
+      "options": [
+        "Evaluate and adopt the less hazardous chemistry while controlling any new process risks created by the substitution",
+        "Keep the toxic solvent and rely only on respirators because the process is familiar",
+        "Assume the aqueous option has zero hazards and skip assessment",
+        "Choose the solvent with the strongest odor so leaks are easier to detect"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Substitution can reduce inherent hazard, but alternatives must be evaluated for new chemical, ergonomic, biological, energy, or quality risks.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Keep the toxic solvent and rely only on respirators because the process is familiar' remains incomplete or misapplies the controlling inherently safer substitution principle.",
+        "The proposed response 'Assume the aqueous option has zero hazards and skip assessment' remains incomplete or misapplies the controlling inherently safer substitution principle.",
+        "The proposed response 'Choose the solvent with the strongest odor so leaks are easier to detect' remains incomplete or misapplies the controlling inherently safer substitution principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: inherently safer substitution",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4765a20e0fe1a8b5291b304478f4890e5d01e4d585b695f52634bec337703106"
+    },
+    {
+      "id": "PV2-CORE-CH35-030",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "design risk register ownership",
+      "itemFamilyId": "PV2-CORE-CH35-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an early design review, a supervisor proposes: \"Delete it if the project schedule cannot accommodate correction\". The underlying case is: A design review identifies a serious hazard but records it only in meeting notes with no owner or closure criterion. What should happen? Which alternative is the most defensible correction?",
+      "options": [
+        "Transfer it to the future operations team without design action",
+        "Enter it into a controlled design risk process with an owner, treatment decision, due date, verification, and residual-risk acceptance",
+        "Leave it in notes because formal tracking begins only after construction",
+        "Delete it if the project schedule cannot accommodate correction"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Design risks require traceable decisions and closure. Informal notes do not ensure treatment, verification, or accountable acceptance.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Transfer it to the future operations team without design action' remains incomplete or misapplies the controlling design risk register ownership principle.",
+        null,
+        "The proposed response 'Leave it in notes because formal tracking begins only after construction' remains incomplete or misapplies the controlling design risk register ownership principle.",
+        "The proposed response 'Delete it if the project schedule cannot accommodate correction' remains incomplete or misapplies the controlling design risk register ownership principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: design risk register ownership",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e3b93bfda8afbf6d3cdf8b7d05f387fcb99f101f8467e28b65d9836f84117fe5"
+    },
+    {
+      "id": "PV2-CORE-CH35-031",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "safe construction sequencing",
+      "itemFamilyId": "PV2-CORE-CH35-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a machine procurement specification, a supervisor proposes: \"Rely on experienced installers to improvise anchorage\". The underlying case is: A building design requires workers to install heavy facade panels from an exposed edge because permanent anchor points are added only after installation. What is the strongest redesign? Which alternative is the most defensible correction?",
+      "options": [
+        "Accept the exposure because construction hazards end when the building is complete",
+        "Rely on experienced installers to improvise anchorage",
+        "Change the sequence or incorporate prefabrication, temporary and permanent anchorage, and access provisions before exposure occurs",
+        "Add a note instructing workers not to fall"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "PtD includes construction-phase safety. Sequencing, prefabrication, access, and anchor design can remove predictable high-risk work.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Accept the exposure because construction hazards end when the building is complete' remains incomplete or misapplies the controlling safe construction sequencing principle.",
+        "The proposed response 'Rely on experienced installers to improvise anchorage' remains incomplete or misapplies the controlling safe construction sequencing principle.",
+        null,
+        "The proposed response 'Add a note instructing workers not to fall' remains incomplete or misapplies the controlling safe construction sequencing principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: safe construction sequencing",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "77fb44e9383aeca0604f7e5da2f135c12fef98c37d6ccfa909714b8e25904a36"
+    },
+    {
+      "id": "PV2-CORE-CH35-032",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A3.06",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "error-tolerant design",
+      "itemFamilyId": "PV2-CORE-CH35-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a maintainability assessment, a supervisor proposes: \"Use a longer procedure while retaining the ambiguous control\". The underlying case is: A control valve can be opened in the wrong direction, and one error causes an immediate hazardous release. Which design improvement is strongest? Which alternative is the most defensible correction?",
+      "options": [
+        "Increase disciplinary penalties for the next wrong movement",
+        "Use a longer procedure while retaining the ambiguous control",
+        "Rely on color alone even when lighting and color vision vary",
+        "Use fail-safe, keyed, interlocked, or otherwise error-tolerant design with clear feedback and differentiation"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Error-tolerant design prevents or limits foreseeable mistakes through physical and functional features rather than depending solely on perfect human performance.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Increase disciplinary penalties for the next wrong movement' remains incomplete or misapplies the controlling error-tolerant design principle.",
+        "The proposed response 'Use a longer procedure while retaining the ambiguous control' remains incomplete or misapplies the controlling error-tolerant design principle.",
+        "The proposed response 'Rely on color alone even when lighting and color vision vary' remains incomplete or misapplies the controlling error-tolerant design principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: error-tolerant design",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "39472b10476baf0ac55324d937289a706f5000661f3961927c982981378390b2"
+    },
+    {
+      "id": "PV2-CORE-CH35-033",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "design for decommissioning",
+      "itemFamilyId": "PV2-CORE-CH35-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a substitution decision, a supervisor proposes: \"A disposal budget alone eliminates decommissioning hazards\". The underlying case is: A vessel will eventually contain hazardous residue, but the design provides no drain, cleanout, lifting point, or sampling access. What PtD issue is present? Which alternative is the most defensible correction?",
+      "options": [
+        "End-of-life isolation, cleaning, dismantling, material handling, and waste management were not designed into the asset",
+        "Future contractors can resolve access by cutting the vessel open",
+        "A disposal budget alone eliminates decommissioning hazards",
+        "Decommissioning is not part of design because it occurs years later"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Life-cycle design considers installation, operation, maintenance, change, and disposal. Planned drain, access, isolation, and lifting features reduce future exposure.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Future contractors can resolve access by cutting the vessel open' remains incomplete or misapplies the controlling design for decommissioning principle.",
+        "The proposed response 'A disposal budget alone eliminates decommissioning hazards' remains incomplete or misapplies the controlling design for decommissioning principle.",
+        "The proposed response 'Decommissioning is not part of design because it occurs years later' remains incomplete or misapplies the controlling design for decommissioning principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: design for decommissioning",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "31bd71cff25f9297b562aae8aa03f76ab55769fd7252bbd0c7b70f0cedfeee56"
+    },
+    {
+      "id": "PV2-CORE-CH35-034",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "procurement specification",
+      "itemFamilyId": "PV2-CORE-CH35-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a facility layout project, a supervisor proposes: \"Continue buying first because every hazard can be corrected with training\". The underlying case is: A purchaser compares machines only on price and throughput, then asks safety to add guards after delivery. What process change is best? Which alternative is the most defensible correction?",
+      "options": [
+        "Continue buying first because every hazard can be corrected with training",
+        "Include safety, ergonomics, maintainability, energy control, standards, documentation, and acceptance tests in procurement specifications",
+        "Ask vendors for a generic compliance statement after the purchase order",
+        "Select the cheapest machine and reserve a small PPE budget"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Procurement is a design decision point. Explicit specifications and acceptance criteria prevent hazardous features from becoming expensive installed conditions.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Continue buying first because every hazard can be corrected with training' remains incomplete or misapplies the controlling procurement specification principle.",
+        null,
+        "The proposed response 'Ask vendors for a generic compliance statement after the purchase order' remains incomplete or misapplies the controlling procurement specification principle.",
+        "The proposed response 'Select the cheapest machine and reserve a small PPE budget' remains incomplete or misapplies the controlling procurement specification principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: procurement specification",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "3dde6d17a244a2b809a97ce7c4bdf0458a90e301a360990cda9c12331080caf7"
+    },
+    {
+      "id": "PV2-CORE-CH35-035",
+      "version": 1,
+      "chapterId": "ch-35",
+      "chapterTitle": "Prevention through Design",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A2.05",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D1.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "early design influence",
+      "itemFamilyId": "PV2-CORE-CH35-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a design risk register meeting, the team selects \"Hazards and life-cycle risks should be addressed when design freedom is greatest and changes are least costly\" rather than \"Safety review is most effective after equipment is installed and operating\" for this case: A project team postpones hazard review until construction drawings are nearly complete. What Prevention through Design principle is being missed? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Error-tolerant design prevents or limits foreseeable mistakes through physical and functional features rather than depending solely on perfect human performance.",
+        "Design risks require traceable decisions and closure. Informal notes do not ensure treatment, verification, or accountable acceptance.",
+        "Early design decisions shape process, layout, access, energy, and materials. Eliminating hazards early is usually more effective and economical than retrofitting.",
+        "Procurement is a design decision point. Explicit specifications and acceptance criteria prevent hazardous features from becoming expensive installed conditions."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the early design influence issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'error-tolerant design' and does not distinguish the two responses in the present early design influence decision.",
+        "This explanation concerns 'design risk register ownership' and does not distinguish the two responses in the present early design influence decision.",
+        null,
+        "This explanation concerns 'procurement specification' and does not distinguish the two responses in the present early design influence decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 35, pp. 780-796; NIOSH Prevention through Design guidance; curated topic: early design influence",
+      "sourceUrls": [
+        "https://www.cdc.gov/niosh/programs/ptdesign/",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d84b78a88523ce64007c9ae615f48aaf3edb9afb96ed99c0ed1ba57852a90652"
+    }
+  ]
+}

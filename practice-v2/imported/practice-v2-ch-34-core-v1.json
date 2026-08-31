@@ -1,0 +1,2332 @@
+{
+  "schemaVersion": 3,
+  "packId": "practice-v2-ch-34-core-v1",
+  "packStatus": "content",
+  "chapterId": "ch-34",
+  "chapterTitle": "Environmental Management",
+  "questions": [
+    {
+      "id": "PV2-CORE-CH34-001",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "environmental aspects and impacts",
+      "itemFamilyId": "PV2-CORE-CH34-F001",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An office ranks paper use as its top environmental issue while a small process area has a credible toxic release to a nearby stream. What is wrong with the ranking method?",
+      "options": [
+        "Significance should consider severity, likelihood, scale, legal obligations, stakeholder concern, and control—not just routine quantity",
+        "Legal and emergency consequences should be excluded from aspect ranking",
+        "Only aspects that have already caused a violation can be significant",
+        "The largest visible waste stream must always be the most significant aspect"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Environmental significance is multidimensional. A lower-frequency release with severe consequence and legal exposure can outrank a high-volume but low-impact routine aspect.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Legal and emergency consequences should be excluded from aspect ranking' does not apply the controlling principle for environmental aspects and impacts to the facts given, so it is not the best answer.",
+        "The option 'Only aspects that have already caused a violation can be significant' does not apply the controlling principle for environmental aspects and impacts to the facts given, so it is not the best answer.",
+        "The option 'The largest visible waste stream must always be the most significant aspect' does not apply the controlling principle for environmental aspects and impacts to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: environmental aspects and impacts",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f50a7005f5bd3a6c64e67a13257b14df484ffc86c726d5f9f432d98ddfa43369"
+    },
+    {
+      "id": "PV2-CORE-CH34-002",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazardous waste accumulation controls",
+      "itemFamilyId": "PV2-CORE-CH34-F002",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A hazardous waste container in a satellite area is open, unlabeled, and located away from the process where the waste is generated. What should be corrected?",
+      "options": [
+        "Treat it as product inventory until the day it is shipped",
+        "Close and properly mark the container, keep it at or near the point of generation under operator control, and manage quantities and transfer under applicable rules",
+        "Leave it open so employees can see whether it is full",
+        "Move the open container to a public hallway, add a location sign, and rely on responder visibility rather than satellite-area controls"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Satellite accumulation depends on controlled location, closed compatible containers, marking, quantity limits, and timely movement when thresholds are reached.",
+      "incorrectOptionExplanations": [
+        "The option 'Treat it as product inventory until the day it is shipped' does not apply the controlling principle for hazardous waste accumulation controls to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Leave it open so employees can see whether it is full' does not apply the controlling principle for hazardous waste accumulation controls to the facts given, so it is not the best answer.",
+        "The option 'Move the open container to a public hallway, add a location sign, and rely on responder visibility rather than satellite-area controls' does not apply the controlling principle for hazardous waste accumulation controls to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: hazardous waste accumulation controls",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "dbc09ec7f932503ada36719181426a39af53c0d15771ae2d2fc762b2232f4860"
+    },
+    {
+      "id": "PV2-CORE-CH34-003",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "stormwater pollution prevention",
+      "itemFamilyId": "PV2-CORE-CH34-F003",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Outdoor drums are intact, but rainwater flows through residue from loading operations into a storm drain. Which control is most effective?",
+      "options": [
+        "Label the drain “stormwater only” and take no physical action",
+        "Sample the drain once a year while leaving residue and flow paths unchanged",
+        "Prevent exposure and releases through covered handling, housekeeping, containment, drainage control, inspection, and response measures",
+        "Dilute the runoff with additional clean water before discharge"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Stormwater control emphasizes preventing pollutants from contacting runoff and managing flow pathways. Sampling and labels do not replace source and exposure controls.",
+      "incorrectOptionExplanations": [
+        "The option 'Label the drain “stormwater only” and take no physical action' does not apply the controlling principle for stormwater pollution prevention to the facts given, so it is not the best answer.",
+        "The option 'Sample the drain once a year while leaving residue and flow paths unchanged' does not apply the controlling principle for stormwater pollution prevention to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Dilute the runoff with additional clean water before discharge' does not apply the controlling principle for stormwater pollution prevention to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: stormwater pollution prevention",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c24773e20f2c71b26d0518c468e066c6bb2a57774d838dbc4f105b5565c1ba08"
+    },
+    {
+      "id": "PV2-CORE-CH34-004",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "air permit change review",
+      "itemFamilyId": "PV2-CORE-CH34-F004",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Production plans to increase throughput and add a solvent without checking the facility’s air permit. What should occur before the change?",
+      "options": [
+        "Operate first and determine permit impact after annual reporting",
+        "Use the SDS odor description as the air-emissions calculation",
+        "Assume an existing permit covers every future material and production rate",
+        "Evaluate emissions, permit applicability and limits, control capacity, monitoring, recordkeeping, and approval needs before implementation"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls.",
+      "incorrectOptionExplanations": [
+        "The option 'Operate first and determine permit impact after annual reporting' does not apply the controlling principle for air permit change review to the facts given, so it is not the best answer.",
+        "The option 'Use the SDS odor description as the air-emissions calculation' does not apply the controlling principle for air permit change review to the facts given, so it is not the best answer.",
+        "The option 'Assume an existing permit covers every future material and production rate' does not apply the controlling principle for air permit change review to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: air permit change review",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ee16c5605db3d433f65a3bfe6e5829e40cfca1283e7e2966f152da2838dfd201"
+    },
+    {
+      "id": "PV2-CORE-CH34-005",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "wastewater pretreatment",
+      "itemFamilyId": "PV2-CORE-CH34-F005",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A process proposes discharging a concentrated metal-bearing waste to the sanitary sewer because it is not going directly to a river. What is the best response?",
+      "options": [
+        "Characterize the waste and evaluate pretreatment standards, local limits, permit conditions, and treatment-system impacts before discharge",
+        "Rely on the municipal plant to determine compliance after receiving the waste",
+        "Dilute it until the color disappears and then release it",
+        "Discharge it because sanitary sewers can accept any industrial liquid"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Indirect discharges remain regulated and can interfere with treatment or pass through pollutants. Characterization and authorization must precede discharge.",
+      "incorrectOptionExplanations": [
+        null,
+        "The option 'Rely on the municipal plant to determine compliance after receiving the waste' does not apply the controlling principle for wastewater pretreatment to the facts given, so it is not the best answer.",
+        "The option 'Dilute it until the color disappears and then release it' does not apply the controlling principle for wastewater pretreatment to the facts given, so it is not the best answer.",
+        "The option 'Discharge it because sanitary sewers can accept any industrial liquid' does not apply the controlling principle for wastewater pretreatment to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: wastewater pretreatment",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "429e2b9a55712384c3e17471aa14b835e8106e343ab047ac93b42c0a72f4b783"
+    },
+    {
+      "id": "PV2-CORE-CH34-006",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "spill prevention and response",
+      "itemFamilyId": "PV2-CORE-CH34-F006",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "A facility has adequate secondary containment but no inspection, transfer procedure, or response equipment. Which conclusion is correct?",
+      "options": [
+        "Response equipment is unnecessary whenever a berm exists",
+        "Containment is one layer; prevention, inspection, transfer controls, training, response capability, and maintenance are also needed",
+        "Transfers are outside spill-prevention programs because material is moving",
+        "Containment volume alone eliminates spill risk and planning duties"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Effective spill management combines structural and operational controls. Containment can fail or be bypassed, and releases still require detection and response.",
+      "incorrectOptionExplanations": [
+        "The option 'Response equipment is unnecessary whenever a berm exists' does not apply the controlling principle for spill prevention and response to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Transfers are outside spill-prevention programs because material is moving' does not apply the controlling principle for spill prevention and response to the facts given, so it is not the best answer.",
+        "The option 'Containment volume alone eliminates spill risk and planning duties' does not apply the controlling principle for spill prevention and response to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: spill prevention and response",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a522281128d4c5778d1ed9487f94313ecbb0ab9c3b83b59064e46b2baf3e61fb"
+    },
+    {
+      "id": "PV2-CORE-CH34-007",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "environmental management system objective",
+      "itemFamilyId": "PV2-CORE-CH34-F007",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "An organization sets an objective to “be greener” but assigns no baseline, target, owner, resources, or deadline. How should it be improved?",
+      "options": [
+        "Keep the wording vague so any outcome can be reported as success",
+        "Replace environmental data with employee satisfaction scores",
+        "Define a measurable objective and target linked to significant aspects, assign responsibility and resources, and monitor progress",
+        "Wait until certification audit to decide what the objective means"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+      "incorrectOptionExplanations": [
+        "The option 'Keep the wording vague so any outcome can be reported as success' does not apply the controlling principle for environmental management system objective to the facts given, so it is not the best answer.",
+        "The option 'Replace environmental data with employee satisfaction scores' does not apply the controlling principle for environmental management system objective to the facts given, so it is not the best answer.",
+        null,
+        "The option 'Wait until certification audit to decide what the objective means' does not apply the controlling principle for environmental management system objective to the facts given, so it is not the best answer."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: environmental management system objective",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5a9a4ec6a98fc12e5a4f92f4ae331752d6671f3e36f700415193c330161e0492"
+    },
+    {
+      "id": "PV2-CORE-CH34-008",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "remediation risk prioritization",
+      "itemFamilyId": "PV2-CORE-CH34-F008",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "Two contaminated areas require attention: one has high concentration in isolated soil, while the other has lower concentration migrating toward a drinking-water receptor. Which factor should drive priority?",
+      "options": [
+        "Prioritize the area with the simplest paperwork regardless of receptor risk",
+        "Always address the highest numerical concentration first",
+        "Ignore migration until contamination reaches the property boundary",
+        "Risk should consider source, pathway, exposure, receptor, mobility, and consequence—not concentration alone"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Environmental risk depends on whether contaminants can reach receptors and cause harm. Concentration is important but not sufficient without pathway and exposure analysis.",
+      "incorrectOptionExplanations": [
+        "The option 'Prioritize the area with the simplest paperwork regardless of receptor risk' does not apply the controlling principle for remediation risk prioritization to the facts given, so it is not the best answer.",
+        "The option 'Always address the highest numerical concentration first' does not apply the controlling principle for remediation risk prioritization to the facts given, so it is not the best answer.",
+        "The option 'Ignore migration until contamination reaches the property boundary' does not apply the controlling principle for remediation risk prioritization to the facts given, so it is not the best answer.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: remediation risk prioritization",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1a63bc4c7a3eb7f39ef25a791e2e0d09ac9273d5a24da07395d906ebb408e09e"
+    },
+    {
+      "id": "PV2-CORE-CH34-009",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "environmental aspects and impacts",
+      "itemFamilyId": "PV2-CORE-CH34-F009",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hazardous waste determination, the team reviews this case: An office ranks paper use as its top environmental issue while a small process area has a credible toxic release to a nearby stream. What is wrong with the ranking method? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Environmental significance is multidimensional. A lower-frequency release with severe consequence and legal exposure can outrank a high-volume but low-impact routine aspect.",
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+        "Satellite accumulation depends on controlled location, closed compatible containers, marking, quantity limits, and timely movement when thresholds are reached.",
+        "Indirect discharges remain regulated and can interfere with treatment or pass through pollutants. Characterization and authorization must precede discharge."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses environmental aspects and impacts and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'environmental management system objective', but it does not resolve the environmental aspects and impacts issue in this case.",
+        "This rationale supports the separate chapter topic 'hazardous waste accumulation controls', but it does not resolve the environmental aspects and impacts issue in this case.",
+        "This rationale supports the separate chapter topic 'wastewater pretreatment', but it does not resolve the environmental aspects and impacts issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: environmental aspects and impacts",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "ccd18a1255dec4a5419bb493caf10ed938c2cbe909fba582c3560641f0026063"
+    },
+    {
+      "id": "PV2-CORE-CH34-010",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazardous waste accumulation controls",
+      "itemFamilyId": "PV2-CORE-CH34-F010",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an air-emissions compliance check, the team reviews this case: A hazardous waste container in a satellite area is open, unlabeled, and located away from the process where the waste is generated. What should be corrected? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Stormwater control emphasizes preventing pollutants from contacting runoff and managing flow pathways. Sampling and labels do not replace source and exposure controls.",
+        "Satellite accumulation depends on controlled location, closed compatible containers, marking, quantity limits, and timely movement when thresholds are reached.",
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+        "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses hazardous waste accumulation controls and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'stormwater pollution prevention', but it does not resolve the hazardous waste accumulation controls issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'environmental management system objective', but it does not resolve the hazardous waste accumulation controls issue in this case.",
+        "This rationale supports the separate chapter topic 'air permit change review', but it does not resolve the hazardous waste accumulation controls issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: hazardous waste accumulation controls",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "181a25d7dab22632ad3da108e1006199527a9011264ab4fe4906edf3bf27a7c2"
+    },
+    {
+      "id": "PV2-CORE-CH34-011",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "stormwater pollution prevention",
+      "itemFamilyId": "PV2-CORE-CH34-F011",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a stormwater inspection, the team reviews this case: Outdoor drums are intact, but rainwater flows through residue from loading operations into a storm drain. Which control is most effective? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Effective spill management combines structural and operational controls. Containment can fail or be bypassed, and releases still require detection and response.",
+        "Indirect discharges remain regulated and can interfere with treatment or pass through pollutants. Characterization and authorization must precede discharge.",
+        "Stormwater control emphasizes preventing pollutants from contacting runoff and managing flow pathways. Sampling and labels do not replace source and exposure controls.",
+        "Environmental risk depends on whether contaminants can reach receptors and cause harm. Concentration is important but not sufficient without pathway and exposure analysis."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses stormwater pollution prevention and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'spill prevention and response', but it does not resolve the stormwater pollution prevention issue in this case.",
+        "This rationale supports the separate chapter topic 'wastewater pretreatment', but it does not resolve the stormwater pollution prevention issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'remediation risk prioritization', but it does not resolve the stormwater pollution prevention issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: stormwater pollution prevention",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fe6f07a9af7925e6f9af40e6058546afcfddcea8eb816fa00437cbcca7d22b90"
+    },
+    {
+      "id": "PV2-CORE-CH34-012",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "air permit change review",
+      "itemFamilyId": "PV2-CORE-CH34-F012",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a wastewater discharge review, the team reviews this case: Production plans to increase throughput and add a solvent without checking the facility’s air permit. What should occur before the change? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Environmental risk depends on whether contaminants can reach receptors and cause harm. Concentration is important but not sufficient without pathway and exposure analysis.",
+        "Environmental significance is multidimensional. A lower-frequency release with severe consequence and legal exposure can outrank a high-volume but low-impact routine aspect.",
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+        "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses air permit change review and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'remediation risk prioritization', but it does not resolve the air permit change review issue in this case.",
+        "This rationale supports the separate chapter topic 'environmental aspects and impacts', but it does not resolve the air permit change review issue in this case.",
+        "This rationale supports the separate chapter topic 'environmental management system objective', but it does not resolve the air permit change review issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: air permit change review",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cf7877ad511566fbfb6429c70d9515f86cb13d07b2d78b2cd9c98d8ebbe0de9a"
+    },
+    {
+      "id": "PV2-CORE-CH34-013",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "wastewater pretreatment",
+      "itemFamilyId": "PV2-CORE-CH34-F013",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an ISO 14001 gap analysis, the team reviews this case: A process proposes discharging a concentrated metal-bearing waste to the sanitary sewer because it is not going directly to a river. What is the best response? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Indirect discharges remain regulated and can interfere with treatment or pass through pollutants. Characterization and authorization must precede discharge.",
+        "Effective spill management combines structural and operational controls. Containment can fail or be bypassed, and releases still require detection and response.",
+        "Environmental risk depends on whether contaminants can reach receptors and cause harm. Concentration is important but not sufficient without pathway and exposure analysis.",
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This rationale directly addresses wastewater pretreatment and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale supports the separate chapter topic 'spill prevention and response', but it does not resolve the wastewater pretreatment issue in this case.",
+        "This rationale supports the separate chapter topic 'remediation risk prioritization', but it does not resolve the wastewater pretreatment issue in this case.",
+        "This rationale supports the separate chapter topic 'environmental management system objective', but it does not resolve the wastewater pretreatment issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: wastewater pretreatment",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "fabef9b3f6c9a017dc83c97841211898aa608e7122750ccdbeccbd0d13f41e46"
+    },
+    {
+      "id": "PV2-CORE-CH34-014",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "spill prevention and response",
+      "itemFamilyId": "PV2-CORE-CH34-F014",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a remediation-priority meeting, the team reviews this case: A facility has adequate secondary containment but no inspection, transfer procedure, or response equipment. Which conclusion is correct? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+        "Effective spill management combines structural and operational controls. Containment can fail or be bypassed, and releases still require detection and response.",
+        "Satellite accumulation depends on controlled location, closed compatible containers, marking, quantity limits, and timely movement when thresholds are reached.",
+        "Environmental significance is multidimensional. A lower-frequency release with severe consequence and legal exposure can outrank a high-volume but low-impact routine aspect."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This rationale directly addresses spill prevention and response and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'environmental management system objective', but it does not resolve the spill prevention and response issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'hazardous waste accumulation controls', but it does not resolve the spill prevention and response issue in this case.",
+        "This rationale supports the separate chapter topic 'environmental aspects and impacts', but it does not resolve the spill prevention and response issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: spill prevention and response",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "4eb96c9a06959ec52920dfe755e055628da43d13eee8457ebdcaf5facae81d58"
+    },
+    {
+      "id": "PV2-CORE-CH34-015",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "environmental management system objective",
+      "itemFamilyId": "PV2-CORE-CH34-F015",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an environmental aspects review, the team reviews this case: An organization sets an objective to “be greener” but assigns no baseline, target, owner, resources, or deadline. How should it be improved? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Environmental risk depends on whether contaminants can reach receptors and cause harm. Concentration is important but not sufficient without pathway and exposure analysis.",
+        "Stormwater control emphasizes preventing pollutants from contacting runoff and managing flow pathways. Sampling and labels do not replace source and exposure controls.",
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+        "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This rationale directly addresses environmental management system objective and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'remediation risk prioritization', but it does not resolve the environmental management system objective issue in this case.",
+        "This rationale supports the separate chapter topic 'stormwater pollution prevention', but it does not resolve the environmental management system objective issue in this case.",
+        null,
+        "This rationale supports the separate chapter topic 'air permit change review', but it does not resolve the environmental management system objective issue in this case."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: environmental management system objective",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b0dbf283270b4549d94e96a21acde577d702296e449be411c5f2805579603212"
+    },
+    {
+      "id": "PV2-CORE-CH34-016",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "remediation risk prioritization",
+      "itemFamilyId": "PV2-CORE-CH34-F016",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a spill prevention audit, the team reviews this case: Two contaminated areas require attention: one has high concentration in isolated soil, while the other has lower concentration migrating toward a drinking-water receptor. Which factor should drive priority? Which rationale most directly supports the correct decision?",
+      "options": [
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+        "Indirect discharges remain regulated and can interfere with treatment or pass through pollutants. Characterization and authorization must precede discharge.",
+        "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls.",
+        "Environmental risk depends on whether contaminants can reach receptors and cause harm. Concentration is important but not sufficient without pathway and exposure analysis."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This rationale directly addresses remediation risk prioritization and connects the governing principle to the stated facts.",
+      "incorrectOptionExplanations": [
+        "This rationale supports the separate chapter topic 'environmental management system objective', but it does not resolve the remediation risk prioritization issue in this case.",
+        "This rationale supports the separate chapter topic 'wastewater pretreatment', but it does not resolve the remediation risk prioritization issue in this case.",
+        "This rationale supports the separate chapter topic 'air permit change review', but it does not resolve the remediation risk prioritization issue in this case.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: remediation risk prioritization",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1b2f742618a6e83a2b01616c4b12d911555d7927c037ecb721ec2b2e1b458bce"
+    },
+    {
+      "id": "PV2-CORE-CH34-017",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Aspect and impact",
+      "itemFamilyId": "PV2-CORE-CH34-F017",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a spill prevention audit, the team reviews this question: In an environmental management system, which pair correctly identifies an aspect and an impact? Which rationale most directly supports the correct answer?",
+      "options": [
+        "An aspect is an element of activities, products, or services that can interact with the environment; an impact is the resulting change.",
+        "Environmental risk follows the chain from source through transport media to human or ecological receptors and available barriers.",
+        "The streamlined framework encourages proper collection and recycling of common waste streams such as certain batteries, lamps, and equipment.",
+        "Environmental compliance should be integrated into change control so approvals, limits, monitoring, and records are addressed before operation."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Spill pathway analysis', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Universal waste', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Air permit compliance', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34 and Chapter 31, environmental management and ISO 14001 concepts, pp. 754-778 and 723-727; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0832a3e39e74c911606f9d187aa3aa0cc23765d5d86855a93779a6f81f65aaa7"
+    },
+    {
+      "id": "PV2-CORE-CH34-018",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "NEPA decision process",
+      "itemFamilyId": "PV2-CORE-CH34-F018",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hazardous waste determination, the team reviews this question: A federal agency proposes a major action with potentially significant environmental effects. Which process may be required before the decision? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A robust response protects receptors, meets notification duties, preserves data, addresses root causes, and prevents recurrence.",
+        "NEPA integrates environmental information into federal agency planning and decision-making, including appropriate public and alternatives review.",
+        "A useful objective defines the outcome, baseline or metric, target, timeframe, ownership, and verification method.",
+        "A controlled obligations process links applicable requirements to responsible owners, operating controls, monitoring, and periodic evaluation."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Corrective action after exceedance', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Environmental objective', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Environmental compliance obligations', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, NEPA requirements and process, pp. 754-758; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/nepa",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f3718c83cec75f862d2e4daab7386cdea113b7273b94a37a741ee4572cbfad75"
+    },
+    {
+      "id": "PV2-CORE-CH34-019",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Air permit compliance",
+      "itemFamilyId": "PV2-CORE-CH34-F019",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an air-emissions compliance check, the team reviews this question: A production increase may raise emissions above the assumptions used in an air permit. What should occur before the change? Which rationale most directly supports the correct answer?",
+      "options": [
+        "The streamlined framework encourages proper collection and recycling of common waste streams such as certain batteries, lamps, and equipment.",
+        "Environmental risk follows the chain from source through transport media to human or ecological receptors and available barriers.",
+        "Environmental compliance should be integrated into change control so approvals, limits, monitoring, and records are addressed before operation.",
+        "A controlled obligations process links applicable requirements to responsible owners, operating controls, monitoring, and periodic evaluation."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Universal waste', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Spill pathway analysis', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Environmental compliance obligations', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, Clean Air Act permits and enforcement, pp. 770-778; Chapter 38 MOC; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/clean-air-act-overview",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "28760fe269ed038ee17f4854e3ca9178dd6965929c46c08a38bdd0709b0663c7"
+    },
+    {
+      "id": "PV2-CORE-CH34-020",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Wastewater source control",
+      "itemFamilyId": "PV2-CORE-CH34-F020",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a stormwater inspection, the team reviews this question: A process intermittently sends a high-strength contaminant slug to wastewater treatment. Which control is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Release response should pair immediate protective actions with a documented applicability and notification determination.",
+        "A controlled obligations process links applicable requirements to responsible owners, operating controls, monitoring, and periodic evaluation.",
+        "A useful objective defines the outcome, baseline or metric, target, timeframe, ownership, and verification method.",
+        "Source reduction, segregation, containment, and flow equalization prevent shock loading and protect treatment performance."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Emergency release reporting', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Environmental compliance obligations', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Environmental objective', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, pollution prevention and water-management concepts, pp. 754-778; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "b96fe0f26b36cb3d417fce7b3b8bb1785b032bfb77796ed95142db37c390fbbd"
+    },
+    {
+      "id": "PV2-CORE-CH34-021",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Spill pathway analysis",
+      "itemFamilyId": "PV2-CORE-CH34-F021",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a wastewater discharge review, the team reviews this question: A tank is near soil drains that connect to surface water. What should the environmental risk assessment emphasize? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Environmental risk follows the chain from source through transport media to human or ecological receptors and available barriers.",
+        "Environmental compliance should be integrated into change control so approvals, limits, monitoring, and records are addressed before operation.",
+        "A controlled obligations process links applicable requirements to responsible owners, operating controls, monitoring, and periodic evaluation.",
+        "The streamlined framework encourages proper collection and recycling of common waste streams such as certain batteries, lamps, and equipment."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Air permit compliance', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Environmental compliance obligations', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Universal waste', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, environmental policy, waste, air, and water controls, pp. 754-778; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "0cc45cbe5a498d63b6afe1ad7c3821e2453a6da5e6c11acaab742aab75cd9ccc"
+    },
+    {
+      "id": "PV2-CORE-CH34-022",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Universal waste",
+      "itemFamilyId": "PV2-CORE-CH34-F022",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an ISO 14001 gap analysis, the team reviews this question: Why do universal-waste rules exist for specified common hazardous wastes? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Environmental risk follows the chain from source through transport media to human or ecological receptors and available barriers.",
+        "The streamlined framework encourages proper collection and recycling of common waste streams such as certain batteries, lamps, and equipment.",
+        "An aspect is an element of activities, products, or services that can interact with the environment; an impact is the resulting change.",
+        "Environmental compliance should be integrated into change control so approvals, limits, monitoring, and records are addressed before operation."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Spill pathway analysis', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Aspect and impact', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Air permit compliance', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapter 34, RCRA and universal waste, pp. 758-764; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/rcra",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "343bb536bcdcafaf01f3f5dddfb15ef54eb24a955dc532d749971b1661a74331"
+    },
+    {
+      "id": "PV2-CORE-CH34-023",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Environmental compliance obligations",
+      "itemFamilyId": "PV2-CORE-CH34-F023",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a remediation-priority meeting, the team reviews this question: What is the best way for a multisite organization to keep environmental obligations current? Which rationale most directly supports the correct answer?",
+      "options": [
+        "NEPA integrates environmental information into federal agency planning and decision-making, including appropriate public and alternatives review.",
+        "A useful objective defines the outcome, baseline or metric, target, timeframe, ownership, and verification method.",
+        "A controlled obligations process links applicable requirements to responsible owners, operating controls, monitoring, and periodic evaluation.",
+        "A robust response protects receptors, meets notification duties, preserves data, addresses root causes, and prevents recurrence."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'NEPA decision process', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Environmental objective', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Corrective action after exceedance', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 31, 34, and 37, management systems, environmental law, and compliance auditing; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "73dbf49adb752f5389612befca0af9d003d3db781d2b100d34429e4c25348589"
+    },
+    {
+      "id": "PV2-CORE-CH34-024",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.04",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D4.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Emergency release reporting",
+      "itemFamilyId": "PV2-CORE-CH34-F024",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During an environmental aspects review, the team reviews this question: A reportable chemical release may have crossed the property boundary. What is the safest compliance approach? Which rationale most directly supports the correct answer?",
+      "options": [
+        "Source reduction, segregation, containment, and flow equalization prevent shock loading and protect treatment performance.",
+        "A useful objective defines the outcome, baseline or metric, target, timeframe, ownership, and verification method.",
+        "A controlled obligations process links applicable requirements to responsible owners, operating controls, monitoring, and periodic evaluation.",
+        "Release response should pair immediate protective actions with a documented applicability and notification determination."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Wastewater source control', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Environmental objective', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Environmental compliance obligations', but it does not answer the issue presented here.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 27, 34, and 39, hazardous releases and emergency management, pp. 616-634, 754-778, and 870-889; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "81c4365893eb4233dc3c7466a72edb89d42df0961fc1040386b2140139a95b74"
+    },
+    {
+      "id": "PV2-CORE-CH34-025",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Environmental objective",
+      "itemFamilyId": "PV2-CORE-CH34-F025",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a spill prevention audit, the team reviews this question: Which environmental objective is best written? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A useful objective defines the outcome, baseline or metric, target, timeframe, ownership, and verification method.",
+        "A controlled obligations process links applicable requirements to responsible owners, operating controls, monitoring, and periodic evaluation.",
+        "NEPA integrates environmental information into federal agency planning and decision-making, including appropriate public and alternatives review.",
+        "A robust response protects receptors, meets notification duties, preserves data, addresses root causes, and prevents recurrence."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        null,
+        "This rationale correctly addresses the separate concept 'Environmental compliance obligations', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'NEPA decision process', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'Corrective action after exceedance', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 31, 33, and 34, management systems, sustainability KPIs, and environmental management; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7d4e814fb33f9a7b0b9f468d18b734f05abeaadc44fdc0d26b191b29875d7e06"
+    },
+    {
+      "id": "PV2-CORE-CH34-026",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "Corrective action after exceedance",
+      "itemFamilyId": "PV2-CORE-CH34-F026",
+      "questionType": "scenario",
+      "cognitiveLevel": "analyze",
+      "stem": "During a hazardous waste determination, the team reviews this question: Monitoring confirms a permit limit exceedance. What response is strongest? Which rationale most directly supports the correct answer?",
+      "options": [
+        "A controlled obligations process links applicable requirements to responsible owners, operating controls, monitoring, and periodic evaluation.",
+        "A robust response protects receptors, meets notification duties, preserves data, addresses root causes, and prevents recurrence.",
+        "A useful objective defines the outcome, baseline or metric, target, timeframe, ownership, and verification method.",
+        "NEPA integrates environmental information into federal agency planning and decision-making, including appropriate public and alternatives review."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "The selected rationale states the governing principle and is directly responsive to the facts in the stem.",
+      "incorrectOptionExplanations": [
+        "This rationale correctly addresses the separate concept 'Environmental compliance obligations', but it does not answer the issue presented here.",
+        null,
+        "This rationale correctly addresses the separate concept 'Environmental objective', but it does not answer the issue presented here.",
+        "This rationale correctly addresses the separate concept 'NEPA decision process', but it does not answer the issue presented here."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, 4th ed. (W. David Yates, CRC Press, 2025)",
+      "sourceLocation": "Yates Chapters 34 and 37, environmental compliance and corrective action, pp. 754-778 and 818-857; Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles",
+      "sourceUrls": [
+        "https://doi.org/10.1201/9781003511786",
+        "https://www.epa.gov/ems"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "e67d7a65149c49dfa230bc1291122d55409e96b2fb65ca28d30c8a97929762d5"
+    },
+    {
+      "id": "PV2-CORE-CH34-027",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "environmental aspects and impacts",
+      "itemFamilyId": "PV2-CORE-CH34-F027",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a wastewater discharge review, a supervisor proposes: \"Only aspects that have already caused a violation can be significant\". The underlying case is: An office ranks paper use as its top environmental issue while a small process area has a credible toxic release to a nearby stream. What is wrong with the ranking method? Which alternative is the most defensible correction?",
+      "options": [
+        "The largest visible waste stream must always be the most significant aspect",
+        "Legal and emergency consequences should be excluded from aspect ranking",
+        "Significance should consider severity, likelihood, scale, legal obligations, stakeholder concern, and control—not just routine quantity",
+        "Only aspects that have already caused a violation can be significant"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Environmental significance is multidimensional. A lower-frequency release with severe consequence and legal exposure can outrank a high-volume but low-impact routine aspect.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'The largest visible waste stream must always be the most significant aspect' remains incomplete or misapplies the controlling environmental aspects and impacts principle.",
+        "The proposed response 'Legal and emergency consequences should be excluded from aspect ranking' remains incomplete or misapplies the controlling environmental aspects and impacts principle.",
+        null,
+        "The proposed response 'Only aspects that have already caused a violation can be significant' remains incomplete or misapplies the controlling environmental aspects and impacts principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: environmental aspects and impacts",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "5ea3d9085fd76c8cbd02325c6b7d341e4bf1e14372eb75eaa563e4e36e3c6e77"
+    },
+    {
+      "id": "PV2-CORE-CH34-028",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazardous waste accumulation controls",
+      "itemFamilyId": "PV2-CORE-CH34-F028",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an ISO 14001 gap analysis, a supervisor proposes: \"Leave it open so employees can see whether it is full\". The underlying case is: A hazardous waste container in a satellite area is open, unlabeled, and located away from the process where the waste is generated. What should be corrected? Which alternative is the most defensible correction?",
+      "options": [
+        "Leave it open so employees can see whether it is full",
+        "Treat it as product inventory until the day it is shipped",
+        "Move the open container to a public hallway, add a location sign, and rely on responder visibility rather than satellite-area controls",
+        "Close and properly mark the container, keep it at or near the point of generation under operator control, and manage quantities and transfer under applicable rules"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Satellite accumulation depends on controlled location, closed compatible containers, marking, quantity limits, and timely movement when thresholds are reached.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Leave it open so employees can see whether it is full' remains incomplete or misapplies the controlling hazardous waste accumulation controls principle.",
+        "The proposed response 'Treat it as product inventory until the day it is shipped' remains incomplete or misapplies the controlling hazardous waste accumulation controls principle.",
+        "The proposed response 'Move the open container to a public hallway, add a location sign, and rely on responder visibility rather than satellite-area controls' remains incomplete or misapplies the controlling hazardous waste accumulation controls principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: hazardous waste accumulation controls",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "cfed0b095cc2eb6164ced208a73aaa69eff39bbc30f20da000aa1843395e35bf"
+    },
+    {
+      "id": "PV2-CORE-CH34-029",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "stormwater pollution prevention",
+      "itemFamilyId": "PV2-CORE-CH34-F029",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a remediation-priority meeting, a supervisor proposes: \"Label the drain “stormwater only” and take no physical action\". The underlying case is: Outdoor drums are intact, but rainwater flows through residue from loading operations into a storm drain. Which control is most effective? Which alternative is the most defensible correction?",
+      "options": [
+        "Prevent exposure and releases through covered handling, housekeeping, containment, drainage control, inspection, and response measures",
+        "Label the drain “stormwater only” and take no physical action",
+        "Sample the drain once a year while leaving residue and flow paths unchanged",
+        "Dilute the runoff with additional clean water before discharge"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Stormwater control emphasizes preventing pollutants from contacting runoff and managing flow pathways. Sampling and labels do not replace source and exposure controls.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Label the drain “stormwater only” and take no physical action' remains incomplete or misapplies the controlling stormwater pollution prevention principle.",
+        "The proposed response 'Sample the drain once a year while leaving residue and flow paths unchanged' remains incomplete or misapplies the controlling stormwater pollution prevention principle.",
+        "The proposed response 'Dilute the runoff with additional clean water before discharge' remains incomplete or misapplies the controlling stormwater pollution prevention principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: stormwater pollution prevention",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "d7277f122556093594e67445821108df167ebfb07fd53e31c00d354d68d39a79"
+    },
+    {
+      "id": "PV2-CORE-CH34-030",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "air permit change review",
+      "itemFamilyId": "PV2-CORE-CH34-F030",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an environmental aspects review, a supervisor proposes: \"Use the SDS odor description as the air-emissions calculation\". The underlying case is: Production plans to increase throughput and add a solvent without checking the facility’s air permit. What should occur before the change? Which alternative is the most defensible correction?",
+      "options": [
+        "Assume an existing permit covers every future material and production rate",
+        "Evaluate emissions, permit applicability and limits, control capacity, monitoring, recordkeeping, and approval needs before implementation",
+        "Operate first and determine permit impact after annual reporting",
+        "Use the SDS odor description as the air-emissions calculation"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Assume an existing permit covers every future material and production rate' remains incomplete or misapplies the controlling air permit change review principle.",
+        null,
+        "The proposed response 'Operate first and determine permit impact after annual reporting' remains incomplete or misapplies the controlling air permit change review principle.",
+        "The proposed response 'Use the SDS odor description as the air-emissions calculation' remains incomplete or misapplies the controlling air permit change review principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: air permit change review",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "6599c76c9d82ac228d531bb87b38856adbbd74a51c952eb2817e8170b2fbcdb6"
+    },
+    {
+      "id": "PV2-CORE-CH34-031",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "wastewater pretreatment",
+      "itemFamilyId": "PV2-CORE-CH34-F031",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a spill prevention audit, a supervisor proposes: \"Discharge it because sanitary sewers can accept any industrial liquid\". The underlying case is: A process proposes discharging a concentrated metal-bearing waste to the sanitary sewer because it is not going directly to a river. What is the best response? Which alternative is the most defensible correction?",
+      "options": [
+        "Rely on the municipal plant to determine compliance after receiving the waste",
+        "Discharge it because sanitary sewers can accept any industrial liquid",
+        "Characterize the waste and evaluate pretreatment standards, local limits, permit conditions, and treatment-system impacts before discharge",
+        "Dilute it until the color disappears and then release it"
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "Indirect discharges remain regulated and can interfere with treatment or pass through pollutants. Characterization and authorization must precede discharge.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Rely on the municipal plant to determine compliance after receiving the waste' remains incomplete or misapplies the controlling wastewater pretreatment principle.",
+        "The proposed response 'Discharge it because sanitary sewers can accept any industrial liquid' remains incomplete or misapplies the controlling wastewater pretreatment principle.",
+        null,
+        "The proposed response 'Dilute it until the color disappears and then release it' remains incomplete or misapplies the controlling wastewater pretreatment principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: wastewater pretreatment",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "1d15a83b77f59cfcb11a79d7909d89e54ac41f02ae400a472e0968aa7b375eb4"
+    },
+    {
+      "id": "PV2-CORE-CH34-032",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "spill prevention and response",
+      "itemFamilyId": "PV2-CORE-CH34-F032",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a hazardous waste determination, a supervisor proposes: \"Response equipment is unnecessary whenever a berm exists\". The underlying case is: A facility has adequate secondary containment but no inspection, transfer procedure, or response equipment. Which conclusion is correct? Which alternative is the most defensible correction?",
+      "options": [
+        "Response equipment is unnecessary whenever a berm exists",
+        "Containment volume alone eliminates spill risk and planning duties",
+        "Transfers are outside spill-prevention programs because material is moving",
+        "Containment is one layer; prevention, inspection, transfer controls, training, response capability, and maintenance are also needed"
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "Effective spill management combines structural and operational controls. Containment can fail or be bypassed, and releases still require detection and response.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Response equipment is unnecessary whenever a berm exists' remains incomplete or misapplies the controlling spill prevention and response principle.",
+        "The proposed response 'Containment volume alone eliminates spill risk and planning duties' remains incomplete or misapplies the controlling spill prevention and response principle.",
+        "The proposed response 'Transfers are outside spill-prevention programs because material is moving' remains incomplete or misapplies the controlling spill prevention and response principle.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: spill prevention and response",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "2beabb40ae1057718af1657885a94793122ae295b7a128fe51c57c02afe15c60"
+    },
+    {
+      "id": "PV2-CORE-CH34-033",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "environmental management system objective",
+      "itemFamilyId": "PV2-CORE-CH34-F033",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At an air-emissions compliance check, a supervisor proposes: \"Wait until certification audit to decide what the objective means\". The underlying case is: An organization sets an objective to “be greener” but assigns no baseline, target, owner, resources, or deadline. How should it be improved? Which alternative is the most defensible correction?",
+      "options": [
+        "Define a measurable objective and target linked to significant aspects, assign responsibility and resources, and monitor progress",
+        "Keep the wording vague so any outcome can be reported as success",
+        "Replace environmental data with employee satisfaction scores",
+        "Wait until certification audit to decide what the objective means"
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+      "incorrectOptionExplanations": [
+        null,
+        "The proposed response 'Keep the wording vague so any outcome can be reported as success' remains incomplete or misapplies the controlling environmental management system objective principle.",
+        "The proposed response 'Replace environmental data with employee satisfaction scores' remains incomplete or misapplies the controlling environmental management system objective principle.",
+        "The proposed response 'Wait until certification audit to decide what the objective means' remains incomplete or misapplies the controlling environmental management system objective principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: environmental management system objective",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f2ce799937710add11fec6bea4f5ffeb0c9a73632ccc138bdea857af0a84f4ec"
+    },
+    {
+      "id": "PV2-CORE-CH34-034",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "remediation risk prioritization",
+      "itemFamilyId": "PV2-CORE-CH34-F034",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "At a stormwater inspection, a supervisor proposes: \"Always address the highest numerical concentration first\". The underlying case is: Two contaminated areas require attention: one has high concentration in isolated soil, while the other has lower concentration migrating toward a drinking-water receptor. Which factor should drive priority? Which alternative is the most defensible correction?",
+      "options": [
+        "Prioritize the area with the simplest paperwork regardless of receptor risk",
+        "Risk should consider source, pathway, exposure, receptor, mobility, and consequence—not concentration alone",
+        "Ignore migration until contamination reaches the property boundary",
+        "Always address the highest numerical concentration first"
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "Environmental risk depends on whether contaminants can reach receptors and cause harm. Concentration is important but not sufficient without pathway and exposure analysis.",
+      "incorrectOptionExplanations": [
+        "The proposed response 'Prioritize the area with the simplest paperwork regardless of receptor risk' remains incomplete or misapplies the controlling remediation risk prioritization principle.",
+        null,
+        "The proposed response 'Ignore migration until contamination reaches the property boundary' remains incomplete or misapplies the controlling remediation risk prioritization principle.",
+        "The proposed response 'Always address the highest numerical concentration first' remains incomplete or misapplies the controlling remediation risk prioritization principle."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: remediation risk prioritization",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "245d7476f9ed0c5f903a8d348a246a914f8c3953a459e061c4993b7e7608a5a7"
+    },
+    {
+      "id": "PV2-CORE-CH34-035",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "environmental aspects and impacts",
+      "itemFamilyId": "PV2-CORE-CH34-F035",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an ISO 14001 gap analysis, the team selects \"Significance should consider severity, likelihood, scale, legal obligations, stakeholder concern, and control—not just routine quantity\" rather than \"The largest visible waste stream must always be the most significant aspect\" for this case: An office ranks paper use as its top environmental issue while a small process area has a credible toxic release to a nearby stream. What is wrong with the ranking method? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Environmental risk depends on whether contaminants can reach receptors and cause harm. Concentration is important but not sufficient without pathway and exposure analysis.",
+        "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls.",
+        "Environmental significance is multidimensional. A lower-frequency release with severe consequence and legal exposure can outrank a high-volume but low-impact routine aspect.",
+        "Stormwater control emphasizes preventing pollutants from contacting runoff and managing flow pathways. Sampling and labels do not replace source and exposure controls."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the environmental aspects and impacts issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'remediation risk prioritization' and does not distinguish the two responses in the present environmental aspects and impacts decision.",
+        "This explanation concerns 'air permit change review' and does not distinguish the two responses in the present environmental aspects and impacts decision.",
+        null,
+        "This explanation concerns 'stormwater pollution prevention' and does not distinguish the two responses in the present environmental aspects and impacts decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: environmental aspects and impacts",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "082820a5005f0e38bb5dcf57c682cb87562f98a633180bb97293f76d0fd047ef"
+    },
+    {
+      "id": "PV2-CORE-CH34-036",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.02",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.02",
+          "role": "secondary"
+        }
+      ],
+      "concept": "hazardous waste accumulation controls",
+      "itemFamilyId": "PV2-CORE-CH34-F036",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a remediation-priority meeting, the team selects \"Close and properly mark the container, keep it at or near the point of generation under operator control, and manage quantities and transfer under applicable rules\" rather than \"Move the open container to a public hallway, add a location sign, and rely on responder visibility rather than satellite-area controls\" for this case: A hazardous waste container in a satellite area is open, unlabeled, and located away from the process where the waste is generated. What should be corrected? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Indirect discharges remain regulated and can interfere with treatment or pass through pollutants. Characterization and authorization must precede discharge.",
+        "Effective spill management combines structural and operational controls. Containment can fail or be bypassed, and releases still require detection and response.",
+        "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls.",
+        "Satellite accumulation depends on controlled location, closed compatible containers, marking, quantity limits, and timely movement when thresholds are reached."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the hazardous waste accumulation controls issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'wastewater pretreatment' and does not distinguish the two responses in the present hazardous waste accumulation controls decision.",
+        "This explanation concerns 'spill prevention and response' and does not distinguish the two responses in the present hazardous waste accumulation controls decision.",
+        "This explanation concerns 'air permit change review' and does not distinguish the two responses in the present hazardous waste accumulation controls decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: hazardous waste accumulation controls",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "c5d4279b4fb8524437037b566ae5e9c186fac31cd0577f4b681cfe2138f8f44c"
+    },
+    {
+      "id": "PV2-CORE-CH34-037",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "stormwater pollution prevention",
+      "itemFamilyId": "PV2-CORE-CH34-F037",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an environmental aspects review, the team selects \"Prevent exposure and releases through covered handling, housekeeping, containment, drainage control, inspection, and response measures\" rather than \"Dilute the runoff with additional clean water before discharge\" for this case: Outdoor drums are intact, but rainwater flows through residue from loading operations into a storm drain. Which control is most effective? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Stormwater control emphasizes preventing pollutants from contacting runoff and managing flow pathways. Sampling and labels do not replace source and exposure controls.",
+        "Environmental significance is multidimensional. A lower-frequency release with severe consequence and legal exposure can outrank a high-volume but low-impact routine aspect.",
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+        "Satellite accumulation depends on controlled location, closed compatible containers, marking, quantity limits, and timely movement when thresholds are reached."
+      ],
+      "correctOptionIndex": 0,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the stormwater pollution prevention issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        null,
+        "This explanation concerns 'environmental aspects and impacts' and does not distinguish the two responses in the present stormwater pollution prevention decision.",
+        "This explanation concerns 'environmental management system objective' and does not distinguish the two responses in the present stormwater pollution prevention decision.",
+        "This explanation concerns 'hazardous waste accumulation controls' and does not distinguish the two responses in the present stormwater pollution prevention decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: stormwater pollution prevention",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "7c1dec627e7dfa62f650d581d7c8ee48e30950280c42efed9a6e268d4612b50e"
+    },
+    {
+      "id": "PV2-CORE-CH34-038",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "air permit change review",
+      "itemFamilyId": "PV2-CORE-CH34-F038",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a spill prevention audit, the team selects \"Evaluate emissions, permit applicability and limits, control capacity, monitoring, recordkeeping, and approval needs before implementation\" rather than \"Operate first and determine permit impact after annual reporting\" for this case: Production plans to increase throughput and add a solvent without checking the facility’s air permit. What should occur before the change? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Environmental significance is multidimensional. A lower-frequency release with severe consequence and legal exposure can outrank a high-volume but low-impact routine aspect.",
+        "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls.",
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+        "Satellite accumulation depends on controlled location, closed compatible containers, marking, quantity limits, and timely movement when thresholds are reached."
+      ],
+      "correctOptionIndex": 1,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the air permit change review issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'environmental aspects and impacts' and does not distinguish the two responses in the present air permit change review decision.",
+        null,
+        "This explanation concerns 'environmental management system objective' and does not distinguish the two responses in the present air permit change review decision.",
+        "This explanation concerns 'hazardous waste accumulation controls' and does not distinguish the two responses in the present air permit change review decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: air permit change review",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "f6e2c601e07e27cd1d2332eaff0d12c2918e1b84b2764d01b13ca4a8d6084d7a"
+    },
+    {
+      "id": "PV2-CORE-CH34-039",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "wastewater pretreatment",
+      "itemFamilyId": "PV2-CORE-CH34-F039",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During a hazardous waste determination, the team selects \"Characterize the waste and evaluate pretreatment standards, local limits, permit conditions, and treatment-system impacts before discharge\" rather than \"Dilute it until the color disappears and then release it\" for this case: A process proposes discharging a concentrated metal-bearing waste to the sanitary sewer because it is not going directly to a river. What is the best response? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Stormwater control emphasizes preventing pollutants from contacting runoff and managing flow pathways. Sampling and labels do not replace source and exposure controls.",
+        "Satellite accumulation depends on controlled location, closed compatible containers, marking, quantity limits, and timely movement when thresholds are reached.",
+        "Indirect discharges remain regulated and can interfere with treatment or pass through pollutants. Characterization and authorization must precede discharge.",
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement."
+      ],
+      "correctOptionIndex": 2,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the wastewater pretreatment issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'stormwater pollution prevention' and does not distinguish the two responses in the present wastewater pretreatment decision.",
+        "This explanation concerns 'hazardous waste accumulation controls' and does not distinguish the two responses in the present wastewater pretreatment decision.",
+        null,
+        "This explanation concerns 'environmental management system objective' and does not distinguish the two responses in the present wastewater pretreatment decision."
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: wastewater pretreatment",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "a7ee319c2a571be87151f18ac0de45ef0caac01e66934aed03272407801e1aba"
+    },
+    {
+      "id": "PV2-CORE-CH34-040",
+      "version": 1,
+      "chapterId": "ch-34",
+      "chapterTitle": "Environmental Management",
+      "examAlignments": [
+        "ASP",
+        "CSP"
+      ],
+      "blueprintMappings": [
+        {
+          "credential": "ASP",
+          "blueprintVersion": "ASP11",
+          "objectiveId": "ASP11-A7.01",
+          "role": "primary"
+        },
+        {
+          "credential": "CSP",
+          "blueprintVersion": "CSP11",
+          "objectiveId": "CSP11-D5.01",
+          "role": "secondary"
+        }
+      ],
+      "concept": "spill prevention and response",
+      "itemFamilyId": "PV2-CORE-CH34-F040",
+      "questionType": "scenario",
+      "cognitiveLevel": "evaluate",
+      "stem": "During an air-emissions compliance check, the team selects \"Containment is one layer; prevention, inspection, transfer controls, training, response capability, and maintenance are also needed\" rather than \"Transfers are outside spill-prevention programs because material is moving\" for this case: A facility has adequate secondary containment but no inspection, transfer procedure, or response equipment. Which conclusion is correct? Which explanation best distinguishes the stronger response?",
+      "options": [
+        "Environmental significance is multidimensional. A lower-frequency release with severe consequence and legal exposure can outrank a high-volume but low-impact routine aspect.",
+        "Management-system objectives need measurable intent, ownership, planning, resources, and evaluation to drive improvement.",
+        "Operational changes can affect permit applicability and enforceable conditions. Pre-change review avoids unauthorized construction or operation and underdesigned controls.",
+        "Effective spill management combines structural and operational controls. Containment can fail or be bypassed, and releases still require detection and response."
+      ],
+      "correctOptionIndex": 3,
+      "correctAnswerExplanation": "This explanation identifies why the selected response controls the spill prevention and response issue and why the competing response does not.",
+      "incorrectOptionExplanations": [
+        "This explanation concerns 'environmental aspects and impacts' and does not distinguish the two responses in the present spill prevention and response decision.",
+        "This explanation concerns 'environmental management system objective' and does not distinguish the two responses in the present spill prevention and response decision.",
+        "This explanation concerns 'air permit change review' and does not distinguish the two responses in the present spill prevention and response decision.",
+        null
+      ],
+      "sourceTitle": "Safety Professional's Reference and Study Guide, Fourth Edition (W. David Yates, CRC Press, 2025); applicable official federal or professional source listed in sourceUrls",
+      "sourceLocation": "Yates 4th ed., Chapter 34, pp. 754-779; applicable federal EPA environmental requirements and EMS principles; curated topic: spill prevention and response",
+      "sourceUrls": [
+        "https://www.epa.gov/ems",
+        "https://doi.org/10.1201/9781003511786"
+      ],
+      "sourceVerifiedOn": "2026-08-30",
+      "formula": null,
+      "units": null,
+      "reviewStatus": "ready",
+      "verificationStatus": "source-checked",
+      "authoringOrigin": "ai-assisted",
+      "contentValidationStatus": "passed",
+      "duplicateSimilarityCheckStatus": "passed",
+      "contentFingerprint": "270c7e9e6d43099476338077c2ab64a2b9648d77a7b7d3b9f29bf7cbeaf5e3b3"
+    }
+  ]
+}
