@@ -9,6 +9,8 @@ import tseslint from "typescript-eslint";
 
 const eslintConfig = defineConfig([
   globalIgnores([
+    // Bundled agent tooling is not application code; keep application rules intact.
+    ".agents/skills/**",
     ".next/**",
     "dist/**",
     "out/**",

@@ -34,6 +34,8 @@ import {
   Zap,
 } from "lucide-react";
 import { useEffect, useMemo, useRef, useState } from "react";
+import { CHAPTERS } from "./homeworkData";
+import { ScoreHistory } from "./ui/ScoreHistory";
 import { CSP_DOMAINS, QUESTION_BANK as CSP_QUESTION_BANK } from "./questionBank";
 import { CSP_QUESTION_BANK_EXTRA } from "./cspQuestionBankExtra";
 import { ASP_DOMAINS, ASP_QUESTION_BANK_A } from "./aspQuestionBankA";
@@ -84,6 +86,8 @@ import StudyLibrary from "./StudyLibrary";
 import { HazardsLibrary } from "./hazard-library/HazardsLibrary";
 import { coachRouteHref, normalizeCoachTarget, readCoachRoute, type CoachView } from "./coachRoutes";
 import GlobalSmartSearch from "./GlobalSmartSearch";
+import LearningActivity from "./LearningActivity";
+import { focusLearningContent, useDialogFocus } from "./ui/learning-ui";
 import type { SearchResult, SearchTarget } from "./globalSearch";
 import type { ResourceReferences } from "./hazardTypes";
 import {
@@ -531,6 +535,7 @@ export default function AdaptiveCoach() {
   const [cloudReady, setCloudReady] = useState(false);
   const [cloudStatus, setCloudStatus] = useState<"local" | "loading" | "synced" | "saving" | "conflict" | "offline">("loading");
   const [resetDialogOpen, setResetDialogOpen] = useState(false);
+  const resetDialogRef = useDialogFocus(resetDialogOpen, () => setResetDialogOpen(false));
   const [resettingProgress, setResettingProgress] = useState(false);
   const [resetError, setResetError] = useState<string | null>(null);
   const [view, setView] = useState<ActiveView>("study");
@@ -559,6 +564,11 @@ export default function AdaptiveCoach() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchTarget, setSearchTarget] = useState<(SearchTarget & { requestKey: number }) | null>(null);
   const lastHazardHref = useRef("/hazards");
+  const pendingScroll = useRef<number | null>(null);
+  useEffect(() => {
+    const frame=requestAnimationFrame(()=>{focusLearningContent();if(pendingScroll.current!==null){const top=pendingScroll.current;pendingScroll.current=null;requestAnimationFrame(()=>window.scrollTo({top,behavior:"instant"}));}});
+    return()=>cancelAnimationFrame(frame);
+  }, [view, searchTarget?.requestKey]);
   const [hazardLanguage, setHazardLanguage] = useState("both");
   const hazardArabic = view === "hazards" && hazardLanguage === "ar";
   const lastMoveAt = useRef(Date.now());
@@ -574,7 +584,9 @@ export default function AdaptiveCoach() {
     const restoreRoute = () => {
       const url = new URL(window.location.href);
       const route = readCoachRoute(url);
-      const target = route.view === "hazards" ? route.target : window.history.state?.coachTarget ?? route.target;
+      const target = route.target;
+      pendingScroll.current=window.history.state?.scrollY??0;
+      if(route.view==="review")setReviewSearch(target?.query??"");
       setView(route.view);
       setSearchTarget(target ? { ...normalizeCoachTarget(target), requestKey: Date.now() } : null);
       setNavOpen(false);
@@ -1111,47 +1123,50 @@ export default function AdaptiveCoach() {
     setView("study");
   }
 
+  function rememberScroll() { window.history.replaceState({...window.history.state,scrollY:window.scrollY},""); }
   function navigate(next: MainView, preserveSearchTarget = false) {
+    rememberScroll();
     if (window.location.pathname === "/hazards") lastHazardHref.current = window.location.pathname + window.location.search;
     if (next === "hazards") {
       const href = lastHazardHref.current;
       const route = readCoachRoute(new URL(href, window.location.origin));
       setSearchTarget(route.target ? { ...route.target, requestKey: Date.now() } : null);
-      window.history.pushState({ ...window.history.state, coachTarget: null }, "", href);
+      window.history.pushState({ ...window.history.state, scrollY: 0, coachTarget: null }, "", href);
       setView("hazards"); setNavOpen(false);
       return;
     }
     if (!preserveSearchTarget) setSearchTarget(null);
-    window.history.pushState({ ...window.history.state, coachTarget: preserveSearchTarget ? searchTarget : null }, "", coachRouteHref(next));
+    window.history.pushState({ ...window.history.state, scrollY: 0, coachTarget: preserveSearchTarget ? searchTarget : null }, "", coachRouteHref(next));
     setView(next);
     setNavOpen(false);
   }
 
-  function openSearchResult(result: SearchResult) {
+  function openSearchResult(result: Pick<SearchResult, "target">) {
+    rememberScroll();
     if (window.location.pathname === "/hazards") lastHazardHref.current = window.location.pathname + window.location.search;
     const target = { ...normalizeCoachTarget(result.target), requestKey: Date.now() };
     setSearchTarget(target);
     if (target.view === "review" && target.query) setReviewSearch(target.query);
     setView(target.view);
     setNavOpen(false);
-    window.history.pushState({ ...window.history.state, coachTarget: target }, "", coachRouteHref(target.view, target));
+    window.history.pushState({ ...window.history.state, scrollY: 0, coachTarget: target }, "", coachRouteHref(target.view, target));
     setSearchOpen(false);
   }
 
-  function openConnectedResource(next: MainView, query?: string, chapterId?: string, references?: ResourceReferences & Pick<SearchTarget, "libraryTab">) {
+  function openConnectedResource(next: MainView, query?: string, chapterId?: string, references?: ResourceReferences & Partial<SearchTarget>) {
+    rememberScroll();
     if (window.location.pathname === "/hazards") lastHazardHref.current = window.location.pathname + window.location.search;
     if (next === "library" && references?.libraryTab === "hazards") next = "hazards";
     const target: SearchTarget & { requestKey: number } = {
-      view: next === "mastery" || next === "notebook" || next === "stats" ? "study" : next,
+      view: next,
       ...references,
       query: query ?? "",
       chapterId,
       requestKey: Date.now(),
     };
     if (next === "review" && query) setReviewSearch(query);
-    if (next === "notebook" || next === "mastery") setSearchTarget(null);
-    else setSearchTarget(target);
-    window.history.pushState({ ...window.history.state, coachTarget: target }, "", coachRouteHref(next, next === "notebook" || next === "mastery" ? null : target));
+    setSearchTarget(target);
+    window.history.pushState({ ...window.history.state, scrollY: 0, coachTarget: target }, "", coachRouteHref(next, target));
     setView(next);
     setNavOpen(false);
   }
@@ -1270,11 +1285,12 @@ export default function AdaptiveCoach() {
 
   return (
     <div className="app-shell">
+      <a className="skip-link" href="#learning-content" onClick={(event)=>{event.preventDefault();focusLearningContent();}}>Skip to learning content</a>
       <header className="topbar">
         <div className="brand-zone">
           <button className="brand" onClick={() => navigate("study")} aria-label="ASP and CSP Coach home">
             <span className="brand-mark"><ShieldCheck size={22} /></span>
-            <span><strong>{saved.activeExam}</strong><em>{"// COACH"}</em></span>
+            <span><strong>{saved.activeExam}</strong><em>{" / COACH"}</em></span>
           </button>
           <label className="exam-switcher">
             <span>Preparing for</span>
@@ -1285,14 +1301,14 @@ export default function AdaptiveCoach() {
           </label>
         </div>
         <nav className={navOpen ? "main-nav open" : "main-nav"} aria-label="Main navigation">
-          <button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard size={17} /> {hazardArabic ? "الدراسة" : "Study"}</button>
-          <button className={view === "homework" ? "active" : ""} onClick={() => navigate("homework")}><BookOpenCheck size={17} /> {hazardArabic ? "الواجبات" : "Homework"}</button>
-          <button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion size={17} /> {hazardArabic ? "التدريب" : "Practice"}</button>
-          <button className={view === "key-information" ? "active" : ""} onClick={() => navigate("key-information")}><BookOpenCheck size={17} /> {hazardArabic ? "معلومات أساسية" : "Key Info"}</button>
-          <button className={view === "library" ? "active" : ""} onClick={() => navigate("library")}><Library size={17} /> {hazardArabic ? "المكتبة" : "Library"}</button>
+          <button className={view === "study" ? "active" : ""} aria-current={view === "study" ? "page" : undefined} onClick={() => navigate("study")}><LayoutDashboard size={17} /> {hazardArabic ? "الدراسة" : "Study"}</button>
+          <button className={view === "homework" ? "active" : ""} aria-current={view === "homework" ? "page" : undefined} onClick={() => navigate("homework")}><BookOpenCheck size={17} /> {hazardArabic ? "الواجبات" : "Homework"}</button>
+          <button className={view === "practice" ? "active" : ""} aria-current={view === "practice" ? "page" : undefined} onClick={() => navigate("practice")}><FileQuestion size={17} /> {hazardArabic ? "التدريب" : "Practice"}</button>
+          <button className={view === "key-information" ? "active" : ""} aria-current={view === "key-information" ? "page" : undefined} onClick={() => navigate("key-information")}><BookOpenCheck size={17} /> {hazardArabic ? "معلومات أساسية" : "Key Info"}</button>
+          <button className={view === "library" ? "active" : ""} aria-current={view === "library" ? "page" : undefined} onClick={() => navigate("library")}><Library size={17} /> {hazardArabic ? "المكتبة" : "Library"}</button>
           <button className={view === "hazards" ? "active" : ""} aria-current={view === "hazards" ? "page" : undefined} onClick={() => navigate("hazards")}><Forklift size={17} aria-hidden="true" /> {hazardArabic ? "المخاطر" : "Hazards"}</button>
-          <button className={view === "stats" ? "active" : ""} onClick={() => navigate("stats")}><BarChart3 size={17} /> {hazardArabic ? "التحليلات" : "Analytics"}</button>
-          <button className={view === "review" ? "active" : ""} onClick={() => navigate("review")}><BookOpenCheck size={17} /> {hazardArabic ? "المراجعة" : "Review"}</button>
+          <button className={view === "stats" ? "active" : ""} aria-current={view === "stats" ? "page" : undefined} onClick={() => navigate("stats")}><BarChart3 size={17} /> {hazardArabic ? "التحليلات" : "Analytics"}</button>
+          <button className={view === "review" ? "active" : ""} aria-current={view === "review" ? "page" : undefined} onClick={() => navigate("review")}><BookOpenCheck size={17} /> {hazardArabic ? "المراجعة" : "Review"}</button>
         </nav>
         <div className="topbar-meta">
           <button type="button" className="global-search-trigger" onClick={() => setSearchOpen(true)} aria-label="Search all study resources"><Search size={17} /><span>Search</span><kbd>Ctrl K</kbd></button>
@@ -1330,17 +1346,17 @@ export default function AdaptiveCoach() {
           onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))}
         />
       )}
-      {view === "stats" && <Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} mockExposures={saved.mockExposures[saved.activeExam]} overall={overall} onStudy={() => navigate("study")} />}
+      {view === "stats" && <LearningActivity key={searchTarget?.requestKey ?? "stats"} view="stats" target={searchTarget} learning={saved.learning} onOpen={target=>openSearchResult({target})}><Analytics config={activeConfig} mastery={activeMastery} attempts={activeAttempts} sessions={activeSessions} mockExposures={saved.mockExposures[saved.activeExam]} overall={overall} onStudy={() => setSetupMode("daily")} onDomain={id=>{setCustomDomains([id]);setSetupMode("custom");}} /></LearningActivity>}
       {view === "homework" && <HomeworkHub key={searchTarget?.view === "homework" ? searchTarget.requestKey : "homework"} progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} searchTarget={searchTarget?.view === "homework" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
       {view === "practice" && <PracticeV2 key={searchTarget?.view === "practice" ? searchTarget.requestKey : "practice"} searchTarget={searchTarget?.view === "practice" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
-      {view === "key-information" && <KeyInformation key={searchTarget?.view === "key-information" ? searchTarget.requestKey : "key-information"} searchTarget={searchTarget?.view === "key-information" ? searchTarget : null} />}
+      {view === "key-information" && <KeyInformation key={searchTarget?.view === "key-information" ? searchTarget.requestKey : "key-information"} searchTarget={searchTarget?.view === "key-information" ? searchTarget : null} system={saved.system} onSystem={system=>setSaved(current=>({...current,system}))} onOpen={target=>openSearchResult({target})} />}
       {view === "library" && <StudyLibrary key={searchTarget?.view === "library" ? searchTarget.requestKey : "library"} progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} searchTarget={searchTarget?.view === "library" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} mistakeAttempts={activeAttempts.filter((attempt) => !attempt.correct)} onOpen={(next, query, references) => openConnectedResource(next, query, undefined, references)} />}
-      {view === "mastery" && <ChapterMasteryMap learning={saved.learning} attempts={activeAttempts} onOpen={openConnectedResource} />}
+      {view === "mastery" && <ChapterMasteryMap key={searchTarget?.requestKey ?? "mastery"} initialChapterId={searchTarget?.chapterId} learning={saved.learning} attempts={activeAttempts} onOpen={openConnectedResource} />}
       {view === "hazards" && <main className="hazard-product-page"><HazardsLibrary key={searchTarget?.requestKey ?? "hazards"} initialItemId={searchTarget?.itemId} initialSearch={searchTarget?.query} syncRoute onLanguageChange={setHazardLanguage} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} onOpen={(next, query, references) => openConnectedResource(next, query, undefined, references)} onNotebook={() => navigate("notebook")} /></main>}
-      {view === "notebook" && <StudyNotebook system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
+      {view === "notebook" && <StudyNotebook key={searchTarget?.requestKey ?? "notebook"} initialQuery={searchTarget?.query} onOpen={target=>openSearchResult({target})} system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
       {view === "standards" && <StandardsExplorer key={searchTarget?.view === "standards" ? searchTarget.requestKey : "standards"} system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} onOpen={(next, query, target) => openConnectedResource(next, query, undefined, target)} initialQuery={searchTarget?.view === "standards" ? searchTarget.query : undefined} initialStandardIds={searchTarget?.view === "standards" ? searchTarget.standardIds ?? (searchTarget.itemId ? [searchTarget.itemId] : undefined) : undefined} />}
       {view === "review" && (
-        <Review
+        <LearningActivity key={searchTarget?.requestKey ?? "review"} view="review" target={searchTarget} learning={saved.learning} onOpen={target=>openSearchResult({target})}><Review
           attempts={activeAttempts}
           config={activeConfig}
           search={reviewSearch}
@@ -1349,11 +1365,11 @@ export default function AdaptiveCoach() {
           onSearch={setReviewSearch}
           onDomain={setReviewDomain}
           onType={setReviewType}
-          onStudy={() => navigate("study")}
+          onStudy={() => setSetupMode("daily")}
           system={saved.system}
           onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))}
           sessions={activeSessions}
-        />
+        /></LearningActivity>
       )}
       {view === "results" && (
         <Results
@@ -1373,7 +1389,7 @@ export default function AdaptiveCoach() {
       )}
       {resetDialogOpen && (
         <div className="modal-backdrop" role="presentation">
-          <section className="modal reset-progress-modal" role="dialog" aria-modal="true" aria-labelledby="reset-progress-title">
+          <section ref={resetDialogRef} tabIndex={-1} className="modal reset-progress-modal" role="dialog" aria-modal="true" aria-labelledby="reset-progress-title">
             <button className="icon-button modal-close" type="button" onClick={() => setResetDialogOpen(false)} disabled={resettingProgress} aria-label="Cancel reset"><X /></button>
             <div className="modal-icon"><RotateCcw /></div>
             <h2 id="reset-progress-title">Reset your progress?</h2>
@@ -1396,8 +1412,8 @@ export default function AdaptiveCoach() {
           onStart={() => startSession(setupMode)}
         />
       )}
-      {mounted && !saved.system.onboardingComplete && view !== "quiz" && <Onboarding activeExam={saved.activeExam} examDate={saved.examDate} completedChapterIds={saved.system.completedChapterIds} onComplete={({ activeExam, examDate, completedChapterIds }) => setSaved((currentSaved) => ({ ...currentSaved, activeExam, examDate, system: { ...currentSaved.system, onboardingComplete: true, completedChapterIds } }))} />}
-      <nav className="mobile-study-nav" aria-label="Mobile study navigation"><button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard /><span>{hazardArabic ? "اليوم" : "Today"}</span></button><button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion /><span>{hazardArabic ? "التدريب" : "Practice"}</span></button><button className={view === "hazards" ? "active" : ""} aria-current={view === "hazards" ? "page" : undefined} onClick={() => navigate("hazards")}><Forklift /><span>{hazardArabic ? "المخاطر" : "Hazards"}</span></button><button className={view === "notebook" ? "active" : ""} onClick={() => navigate("notebook")}><BookOpenCheck /><span>{hazardArabic ? "الدفتر" : "Notebook"}</span></button><button onClick={() => setSearchOpen(true)}><Search /><span>{hazardArabic ? "البحث" : "Search"}</span></button></nav>
+      {mounted && !saved.system.onboardingComplete && view !== "quiz" && <Onboarding onCancel={()=>setSaved(current=>({...current,system:{...current.system,onboardingComplete:true}}))} activeExam={saved.activeExam} examDate={saved.examDate} completedChapterIds={saved.system.completedChapterIds} onComplete={({ activeExam, examDate, completedChapterIds }) => setSaved((currentSaved) => ({ ...currentSaved, activeExam, examDate, system: { ...currentSaved.system, onboardingComplete: true, completedChapterIds } }))} />}
+      <nav className="mobile-study-nav" aria-label="Mobile study navigation"><button className={view === "study" ? "active" : ""} aria-current={view === "study" ? "page" : undefined} onClick={() => navigate("study")}><LayoutDashboard /><span>{hazardArabic ? "الدراسة" : "Study"}</span></button><button className={view === "practice" ? "active" : ""} aria-current={view === "practice" ? "page" : undefined} onClick={() => navigate("practice")}><FileQuestion /><span>{hazardArabic ? "التدريب" : "Practice"}</span></button><button className={view === "hazards" ? "active" : ""} aria-current={view === "hazards" ? "page" : undefined} onClick={() => navigate("hazards")}><Forklift /><span>{hazardArabic ? "المخاطر" : "Hazards"}</span></button><button className={view === "notebook" ? "active" : ""} aria-current={view === "notebook" ? "page" : undefined} onClick={() => navigate("notebook")}><BookOpenCheck /><span>{hazardArabic ? "الدفتر" : "Notebook"}</span></button><button onClick={() => setSearchOpen(true)}><Search /><span>{hazardArabic ? "البحث" : "Search"}</span></button></nav>
     </div>
   );
 }
@@ -1461,11 +1477,12 @@ function StudyDashboard({
   const dueFlashcards = Object.values(saved.learning.flashcards).filter((card) => card.dueAt <= studyNow).length;
   const nextChapter = STUDY_CHAPTERS.find((chapter) => !saved.system.completedChapterIds.includes(chapter.id)) ?? STUDY_CHAPTERS[0];
   const incorrect = activeAttempts.filter((attempt) => !attempt.correct);
+  const nextHomework = CHAPTERS.find(chapter=>chapter.status==="ready"&&!saved.learning.chapterScores[chapter.id]) ?? CHAPTERS.find(chapter=>chapter.status==="ready")!;
   const tasks: CoachTask[] = [
-    { id: `${todayKey}:weak`, title: `10 questions · ${weakest.name}`, detail: "Target the lowest current evidence before comfortable topics.", action: "practice", query: weakest.name },
-    { id: `${todayKey}:mistakes`, title: `Review ${Math.min(4, Math.max(1, incorrect.length))} mistakes`, detail: "Classify each error and earn the correction.", action: "review" },
-    { id: `${todayKey}:cards`, title: `${Math.max(5, Math.min(10, dueFlashcards || 5))} flashcards`, detail: dueFlashcards ? `${dueFlashcards} cards are currently due.` : "Build retrieval strength before the next interval.", action: "library" },
-    { id: `${todayKey}:homework`, title: `Homework · ${nextChapter.title}`, detail: `Continue at chapter ${STUDY_CHAPTERS.indexOf(nextChapter) + 1}.`, action: "homework", query: nextChapter.title },
+    { id: `${todayKey}:weak`, title: `Practice · ${nextChapter.title}`, detail: "Build chapter evidence with a focused question set.", action: "practice", chapterId: nextChapter.id },
+    { id: `${todayKey}:mistakes`, title: incorrect.length ? `Review ${Math.min(4, incorrect.length)} mistakes` : "Build your review history", detail: incorrect.length ? "Revisit your answer and the underlying concept." : "No mistakes recorded yet. Start with chapter practice.", action: incorrect.length ? "review" : "practice" },
+    { id: `${todayKey}:cards`, title: "Review flashcards", detail: dueFlashcards ? `${dueFlashcards} previously reviewed cards are due, plus any new cards.` : "Review new cards and check your next interval.", action: "library" },
+    { id: `${todayKey}:homework`, title: `Homework · ${nextHomework.courseTitle}`, detail: `Course chapter ${nextHomework.courseNumber}.`, action: "homework", chapterId: nextHomework.id },
   ];
   return (
     <main>
@@ -1474,7 +1491,7 @@ function StudyDashboard({
           <div className="welcome-copy">
             <p className="eyebrow"><CalendarDays size={15} /> {new Intl.DateTimeFormat("en", { weekday: "long", month: "long", day: "numeric" }).format(new Date())}</p>
             <h1>{greeting()}, <span>{saved.displayName}.</span></h1>
-            <p className="hero-sub">Your weakest domain still controls today’s work. Comfort is not the objective; stable recall under pressure is.</p>
+            <p className="hero-sub">{overall===null?"Start with a practice block to build your evidence, or choose a chapter below.":"Continue your plan and revisit the concepts that need more evidence."}</p><button className="primary-button hero-start" onClick={onStart}>Start adaptive session <ArrowRight size={18}/></button>
             <div className="streak-row">
               <span><Flame size={17} /> {completedToday ? "Today complete" : "Session due"}</span>
               <span title={PROVISIONAL_DIFFICULTY_NOTE}><BrainCircuit size={17} /> {difficultyLabel(level)}</span>
@@ -1494,10 +1511,10 @@ function StudyDashboard({
         <section className="daily-card">
           <div className="daily-header">
             <div>
-              <p className="eyebrow"><Sparkles size={15} /> Today’s prescription</p>
-              <h2>One focused hour. Twenty consequential decisions.</h2>
+              <p className="eyebrow"><Sparkles size={15} /> Your study plan</p>
+              <h2>A clear next step.</h2>
             </div>
-            <span className="duration-pill"><Clock3 size={15} /> 60 min</span>
+            <span className="scope-label">Personal checklist</span>
           </div>
           <CoachPlan tasks={tasks} completions={saved.system.planCompletions} onToggle={(id) => onSystem({ ...saved.system, planCompletions: { ...saved.system.planCompletions, [id]: !saved.system.planCompletions[id] } })} onOpen={onOpen} />
           <div className="coach-callout">
@@ -1507,7 +1524,7 @@ function StudyDashboard({
               <p><strong>{weakest.name}</strong> {weakestScore === null ? "does not yet have enough evidence for a domain indicator" : `is at ${weakestScore}%`}. It receives extra exposure until current evidence qualifies across two stable blocks.</p>
             </div>
           </div>
-          <button className="primary-button start-button" onClick={onStart}>Start adaptive session <ArrowRight size={18} /></button>
+          <p className="scope-label">Checking off a task organizes your plan; it does not change assessed progress.</p>
         </section>
 
         <aside className="readiness-panel">
@@ -1535,7 +1552,7 @@ function StudyDashboard({
       </div>
 
       <section className="page-width system-launchpad">
-        <div className="section-heading"><div><p className="eyebrow">Connected study system</p><h2>Move by need, not by tab</h2></div><p>Every destination keeps the study context attached.</p></div>
+        <div className="section-heading"><div><p className="eyebrow">Connected study system</p><h2>Your study resources</h2></div><p>Open a chapter, your notes, or a source reference.</p></div>
         <div className="system-launch-grid"><button onClick={() => onOpen("mastery")}><Target /><span><strong>Chapter mastery map</strong><small>Strong, developing, weak, or needs evidence</small></span><ArrowRight /></button><button onClick={() => onOpen("notebook")}><BookOpenCheck /><span><strong>My Study Notebook</strong><small>{Object.keys(saved.system.notebook).length} saved resources and notes</small></span><ArrowRight /></button><button onClick={() => onOpen("standards")}><ShieldCheck /><span><strong>OSHA Standards Explorer</strong><small>Rules, key numbers, definitions, and connections</small></span><ArrowRight /></button></div>
       </section>
 
@@ -1545,7 +1562,7 @@ function StudyDashboard({
 
       <section className="mode-section page-width">
         <div className="section-heading">
-          <div><p className="eyebrow">Drill room</p><h2>Choose the kind of pressure</h2></div>
+          <div><p className="eyebrow">Drill room</p><h2>Adaptive drills & mock exams</h2></div>
           <p>Rationales stay locked until every block is submitted.</p>
         </div>
         <div className="mode-grid">
@@ -1619,9 +1636,10 @@ function SessionSetup({
   const canStart = mode !== "custom" || customDomains.length > 0;
   const weak = [...config.domains].sort((a, b) => readinessPriority(mastery[a.id]) - readinessPriority(mastery[b.id])).slice(0, 2);
   const copy = getModeCopy(mode, config);
+  const dialogRef = useDialogFocus(true,onClose);
   return (
     <div className="modal-backdrop">
-      <div className={`modal setup-modal ${mode === "exam" ? "wide-modal" : ""}`} role="dialog" aria-modal="true" aria-labelledby="setup-title">
+      <div ref={node=>{dialogRef.current=node;}} tabIndex={-1} className={`modal setup-modal ${mode === "exam" ? "wide-modal" : ""}`} role="dialog" aria-modal="true" aria-labelledby="setup-title">
         <button className="icon-button modal-close" onClick={onClose} aria-label="Close"><X /></button>
         <span className="modal-icon"><ModeIcon mode={mode} /></span>
         <p className="eyebrow">{copy.eyebrow}</p>
@@ -1833,7 +1851,7 @@ function RationaleCard({ attempt, index, domains, system, onSystem }: { attempt:
   );
 }
 
-function Analytics({ config, mastery, attempts, sessions, mockExposures, overall, onStudy }: { config: ExamConfig; mastery: Record<DomainId, DomainMastery>; attempts: Attempt[]; sessions: SessionSummary[]; mockExposures: Partial<Record<MockForm, number>>; overall: number | null; onStudy: () => void }) {
+function Analytics({ config, mastery, attempts, sessions, mockExposures, overall, onStudy, onDomain }: { config: ExamConfig; mastery: Record<DomainId, DomainMastery>; attempts: Attempt[]; sessions: SessionSummary[]; mockExposures: Partial<Record<MockForm, number>>; overall: number | null; onStudy: () => void; onDomain:(id:string)=>void }) {
   const total = attempts.length;
   const correct = attempts.filter((attempt) => attempt.correct).length;
   const avg = total ? Math.round((correct / total) * 100) : 0;
@@ -1845,14 +1863,14 @@ function Analytics({ config, mastery, attempts, sessions, mockExposures, overall
   const recentSessions = [...sessions].slice(0, 8).reverse();
   const mockAStatus = mockExposures.A ? "used" : "unseen";
   const mockBStatus = mockExposures.B ? "used" : "unseen";
-  const chartMax = Math.max(1, ...recentSessions.map((session) => Math.round((session.score / session.count) * 100)));
+  const chartScores = recentSessions.map(session=>({date:new Date(session.date).toLocaleDateString(),count:session.count,value:session.count?Math.round(session.score/session.count*100):0}));
   return (
     <main className="analytics-page">
-      <section className="page-title page-width"><div><p className="eyebrow"><BarChart3 size={15} /> {config.name} {READINESS_LABEL}</p><h1>Evidence, not optimism.</h1><p>Performance is weighted to {config.blueprint}; stability requires sufficient current-block evidence and repeated success above 80%.</p></div><button className="primary-button" onClick={onStudy}>Start today’s session <ArrowRight size={18} /></button></section>
+      <section className="page-title page-width"><div><p className="eyebrow"><BarChart3 size={15} /> {config.name} {READINESS_LABEL}</p><h1>Analytics</h1><p>Performance is weighted to {config.blueprint}; stability requires sufficient current-block evidence and repeated success above 80%.</p></div><button className="primary-button" onClick={onStudy}>Start adaptive block <ArrowRight size={18} /></button></section>
       <section className="analytics-kpis page-width">
         <div className="hero-kpi"><span>{READINESS_LABEL}</span><strong>{overall === null ? READINESS_INSUFFICIENT_LABEL : `${overall}%`}</strong><div className="meter large"><i style={{ width: `${overall ?? 0}%` }} /></div><small>{overall === null ? READINESS_INSUFFICIENT_EXPLANATION : READINESS_DISCLAIMER}</small></div>
         <div><span>Answered</span><strong>{total.toLocaleString()}</strong><small>across {sessions.length} blocks</small></div>
-        <div><span>Raw accuracy</span><strong>{avg}%</strong><small>Observed practice responses only</small></div>
+        <div><span>Raw accuracy</span><strong>{total ? `${avg}%` : "—"}</strong><small>{total?"Adaptive and mock responses only":"No answers recorded yet"}</small></div>
         <div><span>Average pace</span><strong>{avgPace || "—"}{avgPace ? "s" : ""}</strong><small>{config.paceSeconds}s exam target</small></div>
         <div><span>Stable domains</span><strong>{stable} / {config.domains.length}</strong><small>two qualifying blocks each</small></div>
       </section>
@@ -1864,13 +1882,13 @@ function Analytics({ config, mastery, attempts, sessions, mockExposures, overall
               const state = mastery[domain.id];
               const score = readinessScore(state);
               const status = masteryStatus(score, state);
-              return <div className="domain-detail" key={domain.id}><span className="domain-code">{domain.short}</span><div><strong>{domain.name}</strong><small>{state.answered} answered · {state.correct} correct · {difficultyLabel(state.difficulty)}</small><div className="meter threshold-meter"><i style={{ width: `${score ?? 0}%` }} /><b /></div></div><span className={`status ${status.tone}`}>{status.label}</span><b>{score === null ? "—" : `${score}%`}</b></div>;
+              return <div className="domain-detail" key={domain.id}><span className="domain-code">{domain.short}</span><div><strong>{domain.name}</strong><small>{state.answered} answered · {state.correct} correct · {difficultyLabel(state.difficulty)}</small><div className="meter threshold-meter"><i style={{ width: `${score ?? 0}%` }} /><b /></div></div><span className={`status ${status.tone}`}>{status.label}</span><b>{score === null ? "—" : `${score}%`}</b><button className="domain-practice-action" onClick={()=>onDomain(domain.id)} aria-label={`Practice ${domain.name}`}>Practice <ArrowRight size={14}/></button></div>;
             })}
           </div>
         </div>
         <div className="analytics-card trend-card">
           <div className="panel-heading"><div><p className="eyebrow">Trend</p><h2>Recent block scores</h2></div></div>
-          {recentSessions.length ? <div className="bar-chart">{recentSessions.map((session) => { const value = Math.round((session.score / session.count) * 100); return <div className="bar-column" key={session.id}><span>{value}%</span><i style={{ height: `${Math.max(8, (value / chartMax) * 150)}px` }} /><small>{new Date(session.date).toLocaleDateString(undefined, { month: "short", day: "numeric" })}</small></div>; })}<div className="target-line"><span>80%</span></div></div> : <div className="empty-small"><BarChart3 /><p>Your score trend appears after the first block.</p></div>}
+          {recentSessions.length ? <ScoreHistory records={chartScores.map((score,i)=>({...score,id:recentSessions[i].id}))}/>:<div className="empty-small"><BarChart3/><p>Complete your first adaptive block to see a score trend.</p><button className="secondary-button" onClick={onStudy}>Start a block</button></div>}
           <div className="analytics-rule"><BrainCircuit size={18} /><p><strong>Evidence-first logic:</strong> unseen questions and weak areas lead selection; recent and high-confidence errors, due reviews, and independent families follow. Provisional level is only a tie-breaker.</p></div>
         </div>
       </section>
@@ -1923,12 +1941,12 @@ function Review({
   const latestAccuracy = sessions.length ? Math.round((sessions[0].score / sessions[0].count) * 100) : null;
   return (
     <main className="review-page">
-      <section className="page-title page-width"><div><p className="eyebrow"><BookOpenCheck size={15} /> Evidence archive</p><h1>Review what you actually decided.</h1><p>Search every submitted response. Rationales remain tied to the exact answer and confidence you recorded.</p></div><button className="primary-button" onClick={onStudy}>New adaptive block <ArrowRight size={18} /></button></section>
-      <section className="review-counts page-width"><button className={type === "all" ? "active" : ""} onClick={() => onType("all")}><strong>{attempts.length}</strong><span>All attempts</span></button><button className={type === "incorrect" ? "active" : ""} onClick={() => onType("incorrect")}><strong>{attempts.filter((attempt) => !attempt.correct).length}</strong><span>Incorrect</span></button><button className={type === "correct" ? "active" : ""} onClick={() => onType("correct")}><strong>{attempts.filter((attempt) => attempt.correct).length}</strong><span>Correct</span></button></section>
-      <section className="page-width review-intelligence"><MistakeInsight system={system} />{firstAccuracy !== null && latestAccuracy !== null && <div className="improvement-card"><TrendingUp /><span><strong>{latestAccuracy - firstAccuracy >= 0 ? "+" : ""}{latestAccuracy - firstAccuracy} points</strong><small>First block {firstAccuracy}% → latest {latestAccuracy}%</small></span></div>}</section>
-      <section className="review-tools page-width"><label><Search size={17} /><input value={search} onChange={(event) => onSearch(event.target.value)} placeholder="Search question or competency" /></label><select value={domain} onChange={(event) => onDomain(event.target.value as DomainId | "all")} aria-label="Filter by domain"><option value="all">All {config.blueprint} domains</option>{config.domains.map((item) => <option key={item.id} value={item.id}>{item.short} · {item.name}</option>)}</select><select value={sessionId} onChange={(event) => setSessionId(event.target.value)} aria-label="Revisit a past session"><option value="all">All past sessions</option>{sessions.map((session) => <option value={session.id} key={session.id}>{new Date(session.date).toLocaleDateString()} · {getModeCopy(session.mode, config).title} · {Math.round((session.score / session.count) * 100)}%</option>)}</select></section>
+      <section className="page-title page-width"><div><p className="eyebrow"><BookOpenCheck size={15} /> Evidence archive</p><h1>Review</h1><p>Review adaptive and mock responses. Switch evidence source above for Chapter Practice or Homework.</p></div><button className="primary-button" onClick={onStudy}>New adaptive block <ArrowRight size={18} /></button></section>
+      <section className="review-counts page-width"><button className={type === "all" ? "active" : ""} aria-pressed={type === "all"} onClick={() => onType("all")}><strong>{attempts.length}</strong><span>All attempts</span></button><button className={type === "incorrect" ? "active" : ""} aria-pressed={type === "incorrect"} onClick={() => onType("incorrect")}><strong>{attempts.filter((attempt) => !attempt.correct).length}</strong><span>Incorrect</span></button><button className={type === "correct" ? "active" : ""} aria-pressed={type === "correct"} onClick={() => onType("correct")}><strong>{attempts.filter((attempt) => attempt.correct).length}</strong><span>Correct</span></button></section>
+      <section className="page-width review-intelligence">{Object.keys(system.mistakeReasons).length>0&&<MistakeInsight system={system} />}{sessions.length > 1 && firstAccuracy !== null && latestAccuracy !== null && <div className="improvement-card" title="Raw accuracy change between different blocks; not a readiness trend"><TrendingUp /><span><strong>{latestAccuracy - firstAccuracy >= 0 ? "+" : ""}{latestAccuracy - firstAccuracy} points</strong><small>First block {firstAccuracy}% → latest {latestAccuracy}%</small></span></div>}</section>
+      <section className="review-tools page-width"><label><Search size={17} /><input value={search} onChange={(event) => onSearch(event.target.value)} aria-label="Search adaptive and mock responses" placeholder="Question or competency" /></label><select value={domain} onChange={(event) => onDomain(event.target.value as DomainId | "all")} aria-label="Filter by domain"><option value="all">All {config.blueprint} domains</option>{config.domains.map((item) => <option key={item.id} value={item.id}>{item.short} · {item.name}</option>)}</select><select value={sessionId} onChange={(event) => setSessionId(event.target.value)} aria-label="Revisit a past session"><option value="all">All past sessions</option>{sessions.map((session) => <option value={session.id} key={session.id}>{new Date(session.date).toLocaleDateString()} · {getModeCopy(session.mode, config).title} · {Math.round((session.score / session.count) * 100)}%</option>)}</select></section>
       <section className="page-width review-list">
-        {filtered.length ? filtered.map((attempt, index) => <RationaleCard key={`${attempt.sessionId}-${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} system={system} onSystem={onSystem} />) : <div className="empty-state"><Search /><h3>No matching attempts.</h3><p>Adjust the filters or complete a study block to build your evidence archive.</p></div>}
+        {filtered.length ? filtered.map((attempt, index) => <RationaleCard key={`${attempt.sessionId}-${attempt.questionId}-${index}`} attempt={attempt} index={attempts.indexOf(attempt) + 1} domains={config.domains} system={system} onSystem={onSystem} />) : <div className="empty-state"><Search /><h3>{attempts.length ? type==="incorrect" && !search && domain==="all" && sessionId==="all" ? "No mistakes in this view" : "No matching responses" : "Your review history starts here"}</h3><p>{attempts.length?"Adjust your filters to see other responses.":"Complete an adaptive block, or switch the evidence source above to review Chapter Practice or Homework."}</p><button className="primary-button" onClick={()=>attempts.length?(onSearch(""),onType("all"),onDomain("all"),setSessionId("all")):onStudy()}>{attempts.length?"Clear filters":"Start an adaptive block"}</button></div>}
       </section>
       <Disclaimer config={config} />
     </main>

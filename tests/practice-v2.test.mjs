@@ -140,7 +140,7 @@ test("Practice V2 renders the required source disclaimer and keeps verified cont
   const catalog = await readFile(new URL("../app/practiceV2Catalog.ts", import.meta.url), "utf8");
   assert.match(view, /These practice questions were checked against cited study and regulatory sources/);
   assert.match(view, /not official BCSP questions and have not necessarily been reviewed by an instructor/);
-  assert.match(view, /does not update Homework, legacy Practice, Mock Exams, cloud synchronization, or the Practice Readiness Indicator/);
+  assert.match(view, /does not change Homework, adaptive block scores, Mock Exams, or the Practice Readiness Indicator/);
   assert.match(view, /not psychometrically calibrated/);
   assert.match(catalog, /filter\(isPracticeV2ProductionEligible\)/);
 });
@@ -219,11 +219,13 @@ test("learner interface contains chapter controls and no credential selector", a
   const view = await readFile(new URL("../app/PracticeV2View.tsx", import.meta.url), "utf8");
   assert.doesNotMatch(view, /Select credential|1\. Credential|setCredential|question\.credential/);
   assert.doesNotMatch(view, /[>"]Practice V2(?:<|")/);
-  assert.match(view, /<h1>Practice<\/h1>/);
-  assert.match(view, /Chapters or topics/);
+  assert.match(view, /PageHeader title="Chapter Practice"/);
+  assert.match(view, /Choose chapters/);
   assert.match(view, /question\.chapterTitle/);
-  assert.match(view, /useState<PracticeV2Progress>\(emptyPracticeV2Progress\)/);
-  assert.match(view, /requestAnimationFrame\(\(\) => setProgress\(loadPracticeV2Progress\(window\.localStorage\)\)\)/);
+  assert.match(view, /useChapterPracticeProgress\(\)/);
+  const hook = await readFile(new URL("../app/useChapterPracticeProgress.ts", import.meta.url), "utf8");
+  assert.match(hook, /loadPracticeV2Progress\(window.localStorage\)/);
+  assert.match(hook, /window.requestAnimationFrame\(refresh\)/);
 });
 
 test("primary Practice mounts chapter-first Practice and preserves the legacy route", async () => {

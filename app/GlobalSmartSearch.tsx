@@ -1,149 +1,28 @@
 "use client";
-
-import {
-  AlertTriangle,
-  BookMarked,
-  BookOpenCheck,
-  Calculator,
-  FileQuestion,
-  FlaskConical,
-  History,
-  Layers3,
-  Search,
-  ShieldCheck,
-  X,
-} from "lucide-react";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { Search, X, ArrowRight } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
 import type { Attempt, CoachQuestion } from "./adaptiveEngine";
 import { PRACTICE_V2_QUESTIONS } from "./practiceV2Catalog";
 import { buildGlobalSearchIndex, searchGlobalIndex, type SearchKind, type SearchResult } from "./globalSearch";
+import { useDialogFocus } from "./ui/learning-ui";
 
-const KIND_ICON: Record<SearchKind, typeof Search> = {
-  chapter: BookOpenCheck,
-  question: FileQuestion,
-  homework: BookMarked,
-  formula: Calculator,
-  standard: ShieldCheck,
-  hazard: FlaskConical,
-  flashcard: Layers3,
-  mistake: History,
-  library: BookMarked,
-};
-
-const SUGGESTIONS = ["ventilation", "1910.95 noise", "unit conversion", "confined space"];
-
-export default function GlobalSmartSearch({
-  open,
-  examName,
-  practiceBank,
-  attempts,
-  onClose,
-  onOpenResult,
-}: {
-  open: boolean;
-  examName: "ASP" | "CSP";
-  practiceBank: readonly CoachQuestion[];
-  attempts: readonly Attempt[];
-  onClose: () => void;
-  onOpenResult: (result: SearchResult) => void;
-}) {
-  const [query, setQuery] = useState("");
-  const [activeIndex, setActiveIndex] = useState(0);
-  const inputRef = useRef<HTMLInputElement>(null);
-  const index = useMemo(
-    () => buildGlobalSearchIndex({ examName, practiceBank, chapterPractice: PRACTICE_V2_QUESTIONS, attempts }),
-    [examName, practiceBank, attempts],
-  );
-  const results = useMemo(() => searchGlobalIndex(index, query), [index, query]);
-
-  useEffect(() => {
-    if (!open) return;
-    const frame = window.requestAnimationFrame(() => inputRef.current?.focus());
-    return () => window.cancelAnimationFrame(frame);
-  }, [open]);
-
-  if (!open) return null;
-  const openResult = (result: SearchResult) => {
-    onOpenResult(result);
-    setQuery("");
-  };
-
-  return (
-    <div className="smart-search-backdrop" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && onClose()}>
-      <section className="smart-search-dialog" role="dialog" aria-modal="true" aria-labelledby="smart-search-title">
-        <div className="smart-search-input-row">
-          <Search size={21} aria-hidden="true" />
-          <label htmlFor="global-smart-search" className="sr-only">Search all study resources</label>
-          <input
-            ref={inputRef}
-            id="global-smart-search"
-            value={query}
-            onChange={(event) => { setQuery(event.target.value); setActiveIndex(0); }}
-            onKeyDown={(event) => {
-              if (event.key === "Escape") onClose();
-              if (event.key === "ArrowDown" && results.length) {
-                event.preventDefault();
-                setActiveIndex((value) => (value + 1) % results.length);
-              }
-              if (event.key === "ArrowUp" && results.length) {
-                event.preventDefault();
-                setActiveIndex((value) => (value - 1 + results.length) % results.length);
-              }
-              if (event.key === "Enter" && results[activeIndex]) openResult(results[activeIndex]);
-            }}
-            placeholder="Search chapters, questions, formulas, hazards, OSHA, flashcards…"
-            autoComplete="off"
-          />
-          <button type="button" className="smart-search-close" onClick={onClose} aria-label="Close search"><X size={19} /></button>
-        </div>
-
-        <div className="smart-search-body">
-          {!query.trim() ? (
-            <div className="smart-search-welcome">
-              <span className="smart-search-mark"><Search size={24} /></span>
-              <p className="eyebrow">One search · every study resource</p>
-              <h2 id="smart-search-title">What do you need to understand?</h2>
-              <p>Search concepts, standards, calculations, your mistakes, and the study material connected to them.</p>
-              <div className="smart-search-suggestions" aria-label="Suggested searches">
-                {SUGGESTIONS.map((suggestion) => <button key={suggestion} onClick={() => setQuery(suggestion)}>{suggestion}</button>)}
-              </div>
-            </div>
-          ) : results.length ? (
-            <div className="smart-search-results" role="listbox" aria-label={`${results.length} search results`}>
-              <div className="smart-search-summary"><strong>{results.length} best matches</strong><span>across {new Set(results.map((result) => result.kind)).size} resource types</span></div>
-              {results.map((result, indexValue) => {
-                const Icon = KIND_ICON[result.kind];
-                return (
-                  <button
-                    type="button"
-                    role="option"
-                    aria-selected={activeIndex === indexValue}
-                    className={activeIndex === indexValue ? "smart-search-result active" : "smart-search-result"}
-                    key={result.id}
-                    onMouseEnter={() => setActiveIndex(indexValue)}
-                    onClick={() => openResult(result)}
-                  >
-                    <span className={`smart-search-result-icon ${result.kind}`}><Icon size={18} aria-hidden="true" /></span>
-                    <span className="smart-search-result-copy">
-                      <span><small>{result.label}</small><em>{result.meta}</em></span>
-                      <strong>{result.title}</strong>
-                      <p>{result.excerpt}</p>
-                    </span>
-                    <span className="smart-search-open">Open</span>
-                  </button>
-                );
-              })}
-            </div>
-          ) : (
-            <div className="smart-search-empty">
-              <AlertTriangle size={24} />
-              <h2 id="smart-search-title">No connected resource found</h2>
-              <p>Try a broader concept, a chapter name, or a standard number such as 1910.95.</p>
-            </div>
-          )}
-        </div>
-        <footer className="smart-search-footer"><span><kbd>↑</kbd><kbd>↓</kbd> move</span><span><kbd>Enter</kbd> open</span><span><kbd>Esc</kbd> close</span></footer>
-      </section>
-    </div>
-  );
+export default function GlobalSmartSearch({open,examName,practiceBank,attempts,onClose,onOpenResult}:{open:boolean;examName:"ASP"|"CSP";practiceBank:readonly CoachQuestion[];attempts:readonly Attempt[];onClose:()=>void;onOpenResult:(r:SearchResult)=>void}) {
+  const dialogRef=useDialogFocus(open,onClose);
+  const [query,setQuery]=useState("");
+  const [kind,setKind]=useState<SearchKind|"all">("all");
+  const [active,setActive]=useState(0);
+  const index=useMemo(()=>buildGlobalSearchIndex({examName,practiceBank,chapterPractice:PRACTICE_V2_QUESTIONS,attempts}),[examName,practiceBank,attempts]);
+  const results=useMemo(()=>searchGlobalIndex(kind==="all"?index:index.filter(item=>item.kind===kind),query),[index,query,kind]);
+  useEffect(()=>{if(open)document.getElementById(`study-search-${active}`)?.scrollIntoView({block:"nearest"});},[active,open]);
+  if(!open)return null;
+  return <div className="smart-search-backdrop" role="presentation" onMouseDown={e=>{if(e.target===e.currentTarget)onClose();}}>
+    <section ref={dialogRef} tabIndex={-1} className="smart-search-dialog" role="dialog" aria-modal="true" aria-labelledby="smart-search-title">
+      <h2 id="smart-search-title" className="sr-only">Search study resources</h2>
+      <div className="smart-search-input-row"><Search aria-hidden="true"/><label htmlFor="global-smart-search" className="sr-only">Search all study resources</label><input id="global-smart-search" data-dialog-initial-focus role="combobox" aria-autocomplete="list" aria-expanded={Boolean(query.trim())} aria-controls={query.trim() ? "study-search-results" : undefined} aria-activedescendant={results[active]&&query.trim()?`study-search-${active}`:undefined} value={query} onChange={e=>{setQuery(e.target.value);setActive(0);}} placeholder="Chapter, question, formula, hazard, or standard" onKeyDown={e=>{if(e.key==="ArrowDown"&&results.length){e.preventDefault();setActive((active+1)%results.length);}if(e.key==="ArrowUp"&&results.length){e.preventDefault();setActive((active-1+results.length)%results.length);}if(e.key==="Enter"&&query.trim()&&results[active])onOpenResult(results[active]);}}/><button className="smart-search-close" aria-label="Close search" onClick={onClose}><X/></button></div>
+      <label className="search-kind-filter">Resource type<select value={kind} onChange={e=>{setKind(e.target.value as SearchKind|"all");setActive(0);}}><option value="all">All resources</option>{(["chapter","question","homework","formula","standard","hazard","flashcard","mistake"] as const).map(k=><option key={k} value={k}>{k}</option>)}</select></label>
+      <div className="smart-search-body">
+        {!query.trim()?<div className="smart-search-welcome"><h3>What are you studying?</h3><p>Find connected resources by concept or source reference.</p><div className="smart-search-suggestions">{["ventilation","1910.95 noise","unit conversion","confined space"].map(q=><button key={q} onClick={()=>{setQuery(q);setActive(0);}}>{q}</button>)}</div></div>:<><p className="smart-search-summary" role="status">{results.length} matches{kind!=="all"?` · ${kind}`:""}</p><div className="smart-search-results" role="listbox" id="study-search-results" aria-label="Search results">{results.map((result,i)=><button id={`study-search-${i}`} key={result.id} role="option" aria-selected={i===active} tabIndex={-1} className={`smart-search-result ${i===active?"active":""}`} onMouseEnter={()=>setActive(i)} onClick={()=>onOpenResult(result)}><span className="smart-search-result-copy"><span><small>{result.label}</small><em>{result.meta}</em></span><strong>{result.title}</strong><p>{result.kind==="question"||result.kind==="homework"?"Open the question to practice; the answer is not shown here.":result.excerpt}</p></span><ArrowRight aria-hidden="true"/></button>)}</div>{!results.length&&<div className="smart-search-empty"><h3>No matching resources</h3><p>Try a shorter concept, a standard number, or another resource type.</p><button className="secondary-button" onClick={()=>{setKind("all");setQuery("");}}>Clear search</button></div>}</>}
+      </div><footer className="smart-search-footer"><span>↑ ↓ Choose</span><span>Enter Open</span><span>Esc Close</span></footer>
+    </section>
+  </div>;
 }

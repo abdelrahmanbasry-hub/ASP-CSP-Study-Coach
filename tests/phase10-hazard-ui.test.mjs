@@ -39,7 +39,7 @@ test("top-level Hazards is independent of Library in desktop/mobile shared navig
   assert.match(shell, /window.addEventListener\("popstate", restoreRoute\)/);
   assert.match(shell, /lastHazardHref/);
   assert.doesNotMatch(library, /tab === "hazards"|setTab\("hazards"\)/);
-  assert.match(library, /Retrieve\. Apply\. Space the review\./);
+  assert.match(library, /PageHeader title="Study Library"/);
 });
 
 test("legacy URLs and saved prototype IDs deterministically resolve to the dedicated product", () => {

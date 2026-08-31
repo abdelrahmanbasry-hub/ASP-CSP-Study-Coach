@@ -1,7 +1,6 @@
 "use client";
 
 import {
-  BookMarked,
   CheckCircle2,
   ChevronLeft,
   ChevronRight,
@@ -10,7 +9,11 @@ import {
   Search,
   X,
 } from "lucide-react";
-import { useDeferredValue, useMemo, useRef, useState } from "react";
+import { useDeferredValue, useMemo, useRef, useState, useEffect } from "react";
+import { PageHeader } from "./ui/learning-ui";
+import { BookmarkAction } from "./StudySystem";
+import type { StudySystemState } from "./studySystemState";
+import { updateResourceRoute } from "./coachRoutes";
 import type { SearchTarget } from "./globalSearch";
 import { KEY_INFORMATION, type KeyInformationChapter } from "./keyInformationData";
 
@@ -36,7 +39,7 @@ function highlightMatch(text: string, query: string) {
   );
 }
 
-export default function KeyInformation({ searchTarget }: { searchTarget?: (SearchTarget & { requestKey: number }) | null }) {
+export default function KeyInformation({ searchTarget, system, onSystem, onOpen }: { searchTarget?: (SearchTarget & { requestKey: number }) | null; system?: StudySystemState; onSystem?: (s:StudySystemState)=>void; onOpen?: (t:SearchTarget)=>void }) {
   const initialChapter = searchTarget?.chapterNumber ?? KEY_INFORMATION[0]?.chapter ?? 1;
   const initialQuery = searchTarget?.query?.replace(/…$/, "").trimEnd() ?? "";
   const [query, setQuery] = useState(initialQuery);
@@ -47,7 +50,7 @@ export default function KeyInformation({ searchTarget }: { searchTarget?: (Searc
   const chapterMatches = useMemo<readonly ChapterMatch[]>(() => {
     const needle = deferredQuery.trim().toLocaleLowerCase();
 
-    return KEY_INFORMATION.flatMap((chapter) => {
+    return KEY_INFORMATION.flatMap<ChapterMatch>((chapter) => {
       if (!needle) return [{ chapter, matchingPoints: chapter.points, titleMatches: false }];
 
       const titleMatches = chapter.title.toLocaleLowerCase().includes(needle);
@@ -70,9 +73,11 @@ export default function KeyInformation({ searchTarget }: { searchTarget?: (Searc
 
   const chooseChapter = (chapterNumber: number, moveFocus = false) => {
     setSelectedChapter(chapterNumber);
+    updateResourceRoute({view:"key-information",chapterNumber,query});
     if (moveFocus) requestAnimationFrame(() => readingTitleRef.current?.focus());
   };
 
+  useEffect(()=>{if(searchTarget?.itemId){const frame=requestAnimationFrame(()=>document.getElementById(searchTarget.itemId!)?.scrollIntoView({block:"center"}));return()=>cancelAnimationFrame(frame);}},[searchTarget?.itemId]);
   const moveChapter = (direction: -1 | 1) => {
     const nextMatch = chapterMatches[activeIndex + direction];
     if (nextMatch) chooseChapter(nextMatch.chapter.chapter, true);
@@ -80,18 +85,7 @@ export default function KeyInformation({ searchTarget }: { searchTarget?: (Searc
 
   return (
     <main className="resource-page key-information-page">
-      <section className="library-hero page-width key-information-hero">
-        <div>
-          <p className="eyebrow"><BookMarked size={16} aria-hidden="true" /> Yates companion notes</p>
-          <h1>Key Information</h1>
-          <p>Find the chapter you need, then study its source-backed points in a focused reading view.</p>
-        </div>
-        <div className="key-information-hero-stats" aria-label={`${KEY_INFORMATION.length} chapters and ${totalPoints} key points`}>
-          <div><strong>{KEY_INFORMATION.length}</strong><span>chapters</span></div>
-          <div><strong>{totalPoints}</strong><span>key points</span></div>
-        </div>
-      </section>
-
+      <div className="page-width"><PageHeader title="Key Information" description={`${KEY_INFORMATION.length} source chapters · ${totalPoints} key points. Find a chapter and start reading.`}/></div>
       <section className="page-width key-information-content">
         <div className="key-information-source-note">
           <FileCheck2 size={18} aria-hidden="true" />
@@ -105,7 +99,7 @@ export default function KeyInformation({ searchTarget }: { searchTarget?: (Searc
             <input
               id="key-information-search"
               value={query}
-              onChange={(event) => setQuery(event.target.value)}
+              onChange={(event) => {setQuery(event.target.value);updateResourceRoute({view:"key-information",chapterNumber:selectedChapter,query:event.target.value});}}
               placeholder="Search standards, formulas, numbers, or concepts"
               type="search"
             />
@@ -173,11 +167,11 @@ export default function KeyInformation({ searchTarget }: { searchTarget?: (Searc
               <article className="key-information-reading-pane">
                 <header>
                   <div className="key-information-chapter-number">
-                    <span>Chapter</span>
+                    <span>Source chapter</span>
                     <strong>{String(activeMatch.chapter.chapter).padStart(2, "0")}</strong>
                   </div>
                   <div className="key-information-reading-heading">
-                    <p><CheckCircle2 size={15} aria-hidden="true" /> Source verified · printed pp. {activeMatch.chapter.sourcePages?.join(", ")}</p>
+                    <p><CheckCircle2 size={15} aria-hidden="true" /> Source wording preserved · printed pp. {activeMatch.chapter.sourcePages?.join(", ")}</p>
                     <h2 ref={readingTitleRef} tabIndex={-1}>{highlightMatch(activeMatch.chapter.title, deferredQuery)}</h2>
                     <span>{activePoints.length} {showingPointMatches ? "matching" : "source"} point{activePoints.length === 1 ? "" : "s"}</span>
                   </div>
@@ -185,13 +179,14 @@ export default function KeyInformation({ searchTarget }: { searchTarget?: (Searc
 
                 <ol className="key-information-points">
                   {activePoints.map((point) => (
-                    <li key={point}>
+                    <li key={point} id={`key-point:${activeMatch.chapter.chapter}:${activeMatch.chapter.points.indexOf(point)}`}>
                       <span aria-hidden="true">{String(activeMatch.chapter.points.indexOf(point) + 1).padStart(2, "0")}</span>
-                      <p>{highlightMatch(point, deferredQuery)}</p>
+                      <div><p>{highlightMatch(point, deferredQuery)}</p>{system&&onSystem&&<BookmarkAction kind="chapter" itemId={`key-point:${activeMatch.chapter.chapter}:${activeMatch.chapter.points.indexOf(point)}`} title={`${activeMatch.chapter.title} · Point ${activeMatch.chapter.points.indexOf(point)+1}`} subtitle={point} system={system} onChange={onSystem}/>}</div>
                     </li>
                   ))}
                 </ol>
 
+                {onOpen&&<div className="reading-connections"><button className="secondary-button" onClick={()=>onOpen({view:"practice",query:activeMatch.chapter.title,practiceTags:[activeMatch.chapter.title]})}>Related practice</button><button className="secondary-button" onClick={()=>onOpen({view:"notebook",query:activeMatch.chapter.title})}>Open chapter notes</button></div>}
                 <footer className="key-information-pagination" aria-label="Chapter navigation">
                   <button type="button" onClick={() => moveChapter(-1)} disabled={activeIndex <= 0}>
                     <ChevronLeft size={17} aria-hidden="true" /> Previous

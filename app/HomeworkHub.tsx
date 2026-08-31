@@ -1,7 +1,9 @@
 "use client";
 
-import { ArrowLeft, ArrowRight, BookOpenCheck, Check, ChevronDown, LockKeyhole, RotateCcw, Trophy, X } from "lucide-react";
+import { ArrowLeft, ArrowRight, BookOpenCheck, Check, ChevronDown, LockKeyhole, Trophy, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import { PageHeader, useLearningFocus } from "./ui/learning-ui";
+import { updateResourceRoute } from "./coachRoutes";
 import type { SearchTarget } from "./globalSearch";
 import {
   CHAPTERS,
@@ -41,6 +43,9 @@ export default function HomeworkHub({
 }) {
   const [runner, setRunner] = useState<Runner | null>(null);
   const [result, setResult] = useState<HomeworkResult | null>(null);
+  const [search,setSearch]=useState(searchTarget?.query??"");
+  const [status,setStatus]=useState("all");
+  useLearningFocus(runner ? "assignment" : result ? "result" : "chapters");
 
   useEffect(() => {
     if (!searchTarget?.chapterId) return;
@@ -157,35 +162,33 @@ export default function HomeworkHub({
   }
 
   const completed = ready.filter((chapter) => progress.chapterScores[chapter.id]).length;
+  const nextChapter=ready.find(c=>!progress.chapterScores[c.id])??ready[0];
+  const visible=ready.filter(c=>{
+    const score=progress.chapterScores[c.id];
+    return `${c.courseTitle} ${c.courseNumber} ${c.yatesChapterTitle}`.toLowerCase().includes(search.toLowerCase()) && (status==="all"||status==="completed"&&!!score||status==="new"&&!score||status==="review"&&!!score?.missedQuestionIds.length);
+  });
   return (
     <main className="resource-page homework-page">
-      <section className="library-hero page-width">
-        <div><p className="eyebrow"><BookOpenCheck size={16} /> Chapter homework</p><h1>Study the chapter. Then prove it.</h1><p>Each available deck is paraphrased into original practice, scored separately from exam readiness, and followed by explanations after submission.</p></div>
-        <div className="library-hero-stat"><strong>{completed}/{ready.length}</strong><span>chapters completed</span></div>
-      </section>
-
-      <section className="page-width homework-guidance">
-        <div><RotateCcw /><strong>Optional previous-chapter warm-up</strong><span>Use five recall questions before the next homework, or skip straight to the assignment.</span></div>
-        <div><LockKeyhole /><strong>Answers stay sealed</strong><span>Score and explanations unlock only after the whole assignment is submitted.</span></div>
-        <div><Trophy /><strong>Chapter analytics</strong><span>Last score, best score, attempts, and percentage are saved to your learner profile.</span></div>
-      </section>
-
+      <div className="page-width"><PageHeader title="Homework" description={`${completed} of ${ready.length} available chapters completed. Submit an assignment to unlock its explanations.`}>{nextChapter&&<button className="primary-button" onClick={()=>begin(nextChapter.id)}>{completed?"Continue Homework":"Start first chapter"}<ArrowRight size={18}/></button>}</PageHeader>
+      <div className="learning-filter-bar"><label className="field-label">Find a chapter<input type="search" value={search} onChange={e=>{setSearch(e.target.value);updateResourceRoute({view:"homework",query:e.target.value});}} placeholder="Title or course number"/></label><label className="field-label">Chapter status<select value={status} onChange={e=>setStatus(e.target.value)}><option value="all">All chapters</option><option value="new">Not started</option><option value="completed">Completed</option><option value="review">Needs review</option></select></label></div>
+      <details className="learning-disclosure"><summary>How assignments work</summary><p>Answers stay sealed until submission. An optional previous-chapter warm-up supports recall. Homework is saved in your learner profile, separately from exam readiness.</p></details></div>
       <section className="page-width chapter-section">
-        <div className="section-heading"><div><p className="eyebrow">Available now</p><h2>Homework by course chapter</h2></div><p>Course labels are preserved; Yates Third Edition mappings are shown on each card.</p></div>
+        <div className="section-heading"><div><p className="eyebrow">Available now</p><h2>Course chapters</h2></div><p>Course labels are preserved; Yates Third Edition mappings are shown on each card.</p></div>
+        {!visible.length&&<div className="empty-state"><h3>No chapters match</h3><button className="secondary-button" onClick={()=>{setSearch("");setStatus("all");}}>Clear filters</button></div>}
         <div className="chapter-grid">
-          {ready.map((chapter) => {
+          {visible.map((chapter) => {
             const score = progress.chapterScores[chapter.id];
             const count = HOMEWORK_QUESTIONS.filter((question) => question.chapterId === chapter.id).length;
             const lastPercent = score ? Math.round((score.lastScore / score.total) * 100) : null;
             const bestPercent = score ? Math.round((score.bestScore / score.total) * 100) : null;
             return (
               <article id={`homework-${chapter.id}`} className={`chapter-card${searchTarget?.chapterId === chapter.id ? " search-highlight" : ""}`} key={chapter.id}>
-                <div className="chapter-card-top"><span className="chapter-number">CH {String(chapter.courseNumber).padStart(2, "0")}</span><span className={score ? "chapter-status complete" : "chapter-status"}>{score ? "Completed" : "Ready"}</span></div>
+                <div className="chapter-card-top"><span className="chapter-number">Course {String(chapter.courseNumber).padStart(2, "0")}</span><span className={score ? "chapter-status complete" : "chapter-status"}>{score ? "Completed" : "Ready"}</span></div>
                 <h3>{chapter.courseTitle}</h3>
                 <p>{`Yates 3e Ch. ${chapter.yatesChapterNumber}: ${chapter.yatesChapterTitle}`}</p>
                 <div className="chapter-metrics"><span><strong>{count}</strong> questions</span><span><strong>{lastPercent ?? "—"}{lastPercent !== null ? "%" : ""}</strong> last</span><span><strong>{bestPercent ?? "—"}{bestPercent !== null ? "%" : ""}</strong> best</span></div>
                 {score && <div className="chapter-review-actions"><button className="secondary-button" disabled={(score.missedQuestionIds ?? []).length === 0} onClick={() => openSavedReview(chapter.id, "missed")}>Review missed</button><button className="secondary-button" onClick={() => openSavedReview(chapter.id, "all")}>Review all</button></div>}
-                <button className="primary-button full" onClick={() => begin(chapter.id)}>{score ? "Retake chapter" : "Start chapter"} <ArrowRight size={17} /></button>
+                <button className="secondary-button full" aria-label={`${score?"Retake":"Start"} ${chapter.courseTitle} homework`} onClick={() => begin(chapter.id)}>{score ? "Retake chapter" : "Start chapter"} <ArrowRight size={17} /></button>
               </article>
             );
           })}
@@ -193,10 +196,10 @@ export default function HomeworkHub({
       </section>
 
       {pending.length > 0 && (
-        <section className="page-width coming-section">
+        <details className="page-width coming-section learning-disclosure"><summary>{pending.length} chapters awaiting source material</summary>
           <div className="section-heading"><div><p className="eyebrow">Planned library</p><h2>Still waiting for source material</h2></div></div>
           <div className="coming-grid">{pending.map((chapter) => <div key={chapter.id}><span>CH {String(chapter.courseNumber).padStart(2, "0")}</span><strong>{chapter.courseTitle}</strong><small>Homework source not supplied yet</small></div>)}</div>
-        </section>
+        </details>
       )}
     </main>
   );
@@ -217,7 +220,7 @@ function HomeworkRunner({ runner, onExit, onSkipWarmup, onSubmit, system, onSyst
       <section className="homework-question-card">
         <div className="question-meta"><span>Question {index + 1} / {runner.questions.length}</span><span className="difficulty-chip">{current.difficulty}</span></div><div className="question-personal-row"><BookmarkAction kind="question" itemId={current.id} title={current.stem} subtitle={chapter?.courseTitle} chapterId={runner.chapterId} system={system} onChange={onSystem} /></div>
         <h1>{current.stem}</h1>
-        <div className="answer-list">{current.options.map((option, optionIndex) => <button className={answers[index] === optionIndex ? "answer selected" : "answer"} key={option} onClick={() => setAnswers((existing) => ({ ...existing, [index]: optionIndex }))}><span>{String.fromCharCode(65 + optionIndex)}</span><strong>{option}</strong>{answers[index] === optionIndex && <Check size={18} />}</button>)}</div>
+        <div className="answer-list">{current.options.map((option, optionIndex) => <button aria-pressed={answers[index] === optionIndex} className={answers[index] === optionIndex ? "answer selected" : "answer"} key={option} onClick={() => setAnswers((existing) => ({ ...existing, [index]: optionIndex }))}><span>{String.fromCharCode(65 + optionIndex)}</span><strong>{option}</strong>{answers[index] === optionIndex && <Check size={18} />}</button>)}</div>
         <div className="homework-nav"><button className="secondary-button" onClick={() => setIndex((value) => Math.max(0, value - 1))} disabled={index === 0}><ArrowLeft size={16} /> Previous</button>{index < runner.questions.length - 1 ? <button className="primary-button" onClick={() => setIndex((value) => value + 1)}>Next <ArrowRight size={16} /></button> : <button className="primary-button" disabled={answered < runner.questions.length} title={answered < runner.questions.length ? "Answer every question before submitting" : undefined} onClick={() => { const score = runner.questions.filter((question, questionIndex) => answers[questionIndex] === question.correctIndex).length; onSubmit(answers, score); }}>Submit assignment <Check size={16} /></button>}</div>
       </section>
       <QuestionTools formulaQuery={`${current.stem} ${chapter?.courseTitle ?? ""}`} />

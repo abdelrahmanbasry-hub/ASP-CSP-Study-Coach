@@ -21,7 +21,7 @@ export type SearchKind =
   | "mistake"
   | "library";
 
-export type SearchView = "study" | "homework" | "practice" | "key-information" | "library" | "hazards" | "stats" | "review" | "standards";
+export type SearchView = "study" | "homework" | "practice" | "key-information" | "library" | "hazards" | "stats" | "review" | "standards" | "notebook" | "mastery";
 
 export type SearchTarget = ResourceReferences & {
   view: SearchView;
@@ -30,6 +30,11 @@ export type SearchTarget = ResourceReferences & {
   chapterNumber?: number;
   itemId?: string;
   libraryTab?: "flashcards" | "formulas" | "hazards";
+  category?: string;
+  deck?: string;
+  formulaSet?: "all" | "frequent";
+  reviewSource?: "adaptive" | "chapter" | "homework";
+  practiceFocus?: "balanced" | "weak" | "unseen" | "mistakes" | "calculation" | "scenario";
 };
 
 export type SearchDocument = {

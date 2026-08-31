@@ -250,10 +250,10 @@ test("Practice links resolve existing topic/ID references and never synthesize q
   assert.deepEqual(filterPracticeV2References(PRACTICE_V2_QUESTIONS, { practiceQuestionIds: [exact.id] }), [exact]);
   assert.deepEqual(filterPracticeV2References(PRACTICE_V2_QUESTIONS, { practiceTags: ["unmapped-example"] }), []);
   await act(() => root.render(createElement(PracticeV2, { system: savedState, onSystem: () => {}, searchTarget: { view: "practice", query: opens[0][1], ...opens[0][2], requestKey: 1 } })));
-  assert.match(container.querySelector('[aria-label="Related hazard practice"]').textContent, /existing questions match/);
+  assert.match(container.querySelector('.context-banner').textContent, /source-checked questions match/);
   assert.equal(button("Start practice").disabled, false);
-  await click(button("Browse all Practice"));
-  assert.equal(container.querySelector('[aria-label="Related hazard practice"]'), null);
+  await click(button("Browse all chapters"));
+  assert.equal(container.querySelector('.context-banner'), null);
 });
 
 test("category navigation supports focus keys, More disclosure/Escape and RTL direction", async () => {

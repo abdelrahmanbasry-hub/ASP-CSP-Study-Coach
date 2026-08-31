@@ -1,13 +1,15 @@
 "use client";
 
 import { useId, useMemo, useRef, useState } from "react";
+import { CHAPTERS, HOMEWORK_QUESTIONS } from "./homeworkData";
+import { PageHeader, useDialogFocus } from "./ui/learning-ui";
+import { useChapterPracticeProgress } from "./useChapterPracticeProgress";
+import { updateResourceRoute } from "./coachRoutes";
 import { BookMarked, Calculator, CalendarDays, Check, ChevronDown, ChevronRight, ExternalLink, FileQuestion, FlaskConical, Library, NotebookPen, Search, ShieldCheck, Sparkles, Star, Target, X } from "lucide-react";
 import type { Attempt } from "./adaptiveEngine";
 import type { LearningProgress } from "./learningProgress";
-import { loadPracticeV2Progress, type PracticeV2Progress } from "./practiceV2";
 import { PRACTICE_V2_QUESTIONS } from "./practiceV2Catalog";
-import { FLASHCARDS, FORMULA_ENTRIES } from "./studyLibraryData";
-import { HAZARD_LIBRARY_RECORDS as HAZARD_RECORDS } from "./hazardLibraryData";
+import { FORMULA_ENTRIES } from "./studyLibraryData";
 import { canonicalHazardId, hazardNotebookKeys } from "./hazardAliases";
 import { notebookResourceGroups } from "./hazardNotebook";
 import { OSHA_STANDARDS } from "./standardsData";
@@ -15,49 +17,77 @@ import { MISTAKE_REASONS, attemptKey, mistakeInsight, type MistakeReason, type N
 import ScientificCalculator from "./ScientificCalculator";
 import type { SearchTarget } from "./globalSearch";
 
-export const STUDY_CHAPTERS = [...new Map(PRACTICE_V2_QUESTIONS.filter((question) => question.reviewStatus !== "demo").map((question) => [question.chapterId, question.chapterTitle])).entries()].map(([id, title], index) => ({ id, title, courseNumber: index + 1 }));
+export const STUDY_CHAPTERS = [...new Map(PRACTICE_V2_QUESTIONS.filter((question) => question.reviewStatus !== "demo").map((question) => [question.chapterId, question.chapterTitle])).entries()].map(([id, title], index) => ({ id, title, courseNumber: CHAPTERS.find(chapter => chapter.id === id)?.courseNumber ?? (Number(id.split("-").at(-1)) || index + 1), courseMapped: CHAPTERS.some(chapter=>chapter.id===id), homeworkReady: CHAPTERS.some(chapter=>chapter.id===id&&chapter.status==="ready") }));
 
-type ResourceView = "homework" | "practice" | "key-information" | "library" | "review" | "standards" | "notebook" | "mastery";
+export type ResourceView = "homework" | "practice" | "key-information" | "library" | "review" | "standards" | "notebook" | "mastery" | "hazards";
 
-function relatedCount(chapterTitle: string, values: string[]) {
-  const terms = chapterTitle.toLowerCase().split(/[^a-z0-9]+/).filter((term) => term.length > 4);
-  return values.filter((value) => terms.some((term) => value.toLowerCase().includes(term))).length;
-}
-
-export function ChapterMasteryMap({ learning, attempts, onOpen }: { learning: LearningProgress; attempts: Attempt[]; onOpen: (view: ResourceView, query?: string, chapterId?: string) => void }) {
-  const [selectedId, setSelectedId] = useState<string | null>(null);
-  const [filter, setFilter] = useState<"all" | "strong" | "developing" | "weak" | "not-enough">("all");
-  const [practice] = useState<PracticeV2Progress>(() => typeof window === "undefined" ? { schemaVersion: 1, seenQuestionIds: [], incorrectQuestionIds: [], highConfidenceIncorrectQuestionIds: [], attempts: {} } : loadPracticeV2Progress(window.localStorage));
-  const records = STUDY_CHAPTERS.map((chapter) => {
-    const questionIds = PRACTICE_V2_QUESTIONS.filter((question) => question.chapterId === chapter.id).map((question) => question.id);
-    const practiceAttempts = questionIds.reduce((sum, id) => sum + (practice.attempts[id]?.attempts ?? 0), 0);
-    const practiceCorrect = questionIds.reduce((sum, id) => sum + (practice.attempts[id]?.correct ?? 0), 0);
-    const homework = learning.chapterScores[chapter.id];
-    const evidence = practiceAttempts + (homework?.total ?? 0);
-    const score = evidence ? Math.round(((practiceCorrect + (homework?.lastScore ?? 0)) / evidence) * 100) : 0;
-    const status = evidence < 5 ? "not-enough" : score >= 80 ? "strong" : score >= 65 ? "developing" : "weak";
-    return { ...chapter, evidence, score, status };
+export function ChapterMasteryMap({ learning, onOpen, initialChapterId }: { learning: LearningProgress; attempts: Attempt[]; initialChapterId?: string; onOpen: (view: ResourceView, query?: string, chapterId?: string, references?: Partial<SearchTarget>) => void }) {
+  const [selectedId,setSelectedId]=useState<string|null>(initialChapterId??null);
+  const [filter,setFilter]=useState("all");
+  const [search,setSearch]=useState("");
+  const [practice]=useChapterPracticeProgress();
+  const records=STUDY_CHAPTERS.map(chapter=>{
+    const items=PRACTICE_V2_QUESTIONS.filter(q=>q.chapterId===chapter.id);
+    const answers=items.reduce((s,q)=>s+(practice.attempts[q.id]?.attempts??0),0);
+    const correct=items.reduce((s,q)=>s+(practice.attempts[q.id]?.correct??0),0);
+    const homework=learning.chapterScores[chapter.id];
+    const evidence=answers+(homework?.total??0);
+    const score=evidence?Math.round((correct+(homework?.lastScore??0))/evidence*100):0;
+    return {...chapter,evidence,score,status:evidence<5?"not-enough":score>=80?"strong":score>=65?"developing":"weak",count:items.length};
   });
-  const visible = filter === "all" ? records : records.filter((record) => record.status === filter);
-  const selected = records.find((record) => record.id === selectedId);
-  const statusLabel = (status: string) => status === "not-enough" ? "Not enough evidence" : status[0].toUpperCase() + status.slice(1);
+  const selected=records.find(c=>c.id===selectedId);
+  const label=(status:string)=>status==="not-enough"?"Needs evidence":status[0].toUpperCase()+status.slice(1);
+  const visible=records.filter(c=>(filter==="all"||c.status===filter)&&`${c.title} ${c.courseNumber}`.toLowerCase().includes(search.toLowerCase()));
+  const panel=useRef<HTMLElement>(null);
+  function choose(id:string){setSelectedId(id);updateResourceRoute({view:"mastery",chapterId:id},true);window.requestAnimationFrame(()=>{panel.current?.focus();panel.current?.scrollIntoView({block:"nearest",behavior:"instant"});});}
   return <main className="study-system-page page-width">
-    <section className="system-hero"><div><p className="eyebrow"><Target size={16} /> 40-chapter evidence map</p><h1>Chapter mastery</h1><p>One view connects what you know to exactly what to do next. Statuses use current Homework and Chapter Practice evidence.</p></div><div className="system-hero-stat"><strong>{records.filter((item) => item.status === "strong").length}</strong><span>chapters strong</span></div></section>
-    <div className="mastery-filters" role="group" aria-label="Filter mastery"><button className={filter === "all" ? "active" : ""} onClick={() => setFilter("all")}>All 40</button>{(["strong", "developing", "weak", "not-enough"] as const).map((value) => <button className={filter === value ? `active ${value}` : value} onClick={() => setFilter(value)} key={value}>{statusLabel(value)} <b>{records.filter((record) => record.status === value).length}</b></button>)}</div>
-    <div className="mastery-layout"><section className="mastery-grid" aria-label="Chapter mastery map">{visible.map((chapter) => <button key={chapter.id} className={`mastery-tile ${chapter.status} ${selectedId === chapter.id ? "selected" : ""}`} onClick={() => setSelectedId(chapter.id)}><span>{String(chapter.courseNumber).padStart(2, "0")}</span><strong>{chapter.title}</strong><small>{statusLabel(chapter.status)}{chapter.evidence ? ` · ${chapter.score}%` : ""}</small><i style={{ width: `${chapter.score}%` }} /></button>)}</section>
-      <aside className={`chapter-hub ${selected ? "open" : ""}`}>{selected ? <><button className="icon-button chapter-hub-close" onClick={() => setSelectedId(null)} aria-label="Close chapter"><X /></button><p className="eyebrow">Chapter {selected.courseNumber}</p><h2>{selected.title}</h2><div className={`mastery-status-large ${selected.status}`}><strong>{statusLabel(selected.status)}</strong><span>{selected.evidence} evidence points{selected.evidence ? ` · ${selected.score}% correct` : ""}</span></div><p className="chapter-hub-prompt">Open any connected resource without losing the chapter context.</p><div className="chapter-links"><button onClick={() => onOpen("practice", selected.title, selected.id)}><FileQuestion /><span><strong>Practice</strong><small>{PRACTICE_V2_QUESTIONS.filter((q) => q.chapterId === selected.id && q.reviewStatus !== "demo").length} questions</small></span><ChevronRight /></button><button onClick={() => onOpen("homework", selected.title, selected.id)}><BookMarked /><span><strong>Homework</strong><small>Chapter assignment and review</small></span><ChevronRight /></button><button onClick={() => onOpen("review", selected.title)}><Target /><span><strong>Your mistakes</strong><small>{attempts.filter((attempt) => `${attempt.competency} ${attempt.referenceTopic}`.toLowerCase().includes(selected.title.toLowerCase())).length} related attempts</small></span><ChevronRight /></button><button onClick={() => onOpen("library", selected.title)}><Calculator /><span><strong>Formulas</strong><small>{relatedCount(selected.title, FORMULA_ENTRIES.map((entry) => `${entry.name} ${entry.whenToUse}`))} related cards</small></span><ChevronRight /></button><button onClick={() => onOpen("library", selected.title)}><FlaskConical /><span><strong>Hazards & flashcards</strong><small>{relatedCount(selected.title, [...FLASHCARDS.map((card) => `${card.front} ${card.tags.join(" ")}`), ...HAZARD_RECORDS.map((hazard) => JSON.stringify(hazard))])} connections</small></span><ChevronRight /></button><button onClick={() => onOpen("notebook", selected.title, selected.id)}><NotebookPen /><span><strong>Notes</strong><small>Open your study notebook</small></span><ChevronRight /></button></div></> : <div className="chapter-hub-empty"><Target /><h2>Select a chapter</h2><p>Its questions, Homework, errors, formulas, hazards, flashcards, and notes will appear here.</p></div>}</aside>
+    <PageHeader title="Chapter mastery" description="Choose a chapter to see your evidence and open its learning resources." eyebrow={`${records.length} practice chapters`}/>
+    <div className="learning-filter-bar"><label className="field-label">Find a chapter<input type="search" placeholder="Title or course number" value={search} onChange={e=>setSearch(e.target.value)}/></label><label className="field-label">Evidence status<select value={filter} onChange={e=>setFilter(e.target.value)}><option value="all">All chapters</option>{["strong","developing","weak","not-enough"].map(v=><option value={v} key={v}>{label(v)} ({records.filter(c=>c.status===v).length})</option>)}</select></label></div>
+    <div className="mastery-layout">
+      <section className="mastery-grid" aria-label="Chapter mastery map">{visible.map(c=><button aria-pressed={selectedId===c.id} className={`mastery-tile ${c.status} ${selectedId===c.id?"selected":""}`} key={c.id} onClick={()=>choose(c.id)}><span>{c.courseMapped?"Course":"Practice"} {String(c.courseNumber).padStart(2,"0")}</span><strong>{c.title}</strong><small>{label(c.status)}{c.evidence?` · ${c.score}%`:""}</small><i style={{width:`${c.score}%`}}/></button>)}{!visible.length&&<p role="status">No chapters match. Clear the search or choose another status.</p>}</section>
+      <aside ref={panel} tabIndex={-1} aria-label="Selected chapter resources" className={`chapter-hub ${selected?"open":""}`}>{selected?<><button className="icon-button chapter-hub-close" onClick={()=>{setSelectedId(null);updateResourceRoute({view:"mastery"});}} aria-label="Close chapter"><X/></button><p className="eyebrow">{selected.courseMapped?"Course":"Practice"} chapter {selected.courseNumber}</p><h2>{selected.title}</h2><p className="scope-label">{selected.evidence} evidence points · {label(selected.status)}. Homework and device-local Chapter Practice; not exam readiness.</p><div className="chapter-links">
+        <button onClick={()=>onOpen("practice",undefined,selected.id)}><FileQuestion/><span><strong>Practice</strong><small>{selected.count} questions</small></span><ChevronRight/></button>
+        <button disabled={!selected.homeworkReady} onClick={()=>onOpen("homework",undefined,selected.id)}><BookMarked/><span><strong>Homework</strong><small>{selected.homeworkReady?"Assignment and saved review":"No assignment available"}</small></span><ChevronRight/></button>
+        <button onClick={()=>onOpen("review",selected.title,undefined,{reviewSource:"chapter"})}><Target/><span><strong>Review practice</strong><small>Chapter questions and mistake status</small></span><ChevronRight/></button>
+        <button onClick={()=>onOpen("library",selected.title,undefined,{libraryTab:"formulas"})}><Calculator/><span><strong>Formulas</strong><small>Find related equations</small></span><ChevronRight/></button>
+        <button onClick={()=>onOpen("library",selected.title,undefined,{libraryTab:"flashcards"})}><Library/><span><strong>Flashcards</strong><small>Review chapter concepts</small></span><ChevronRight/></button>
+        <button onClick={()=>onOpen("hazards",selected.title)}><FlaskConical/><span><strong>Hazards</strong><small>Find related hazard records</small></span><ChevronRight/></button>
+        <button onClick={()=>onOpen("notebook",selected.title)}><NotebookPen/><span><strong>Notes</strong><small>Search your saved resources</small></span><ChevronRight/></button>
+      </div></>:<div className="chapter-hub-empty"><Target/><h2>Select a chapter</h2><p>Open practice, Homework, formulas, hazards, flashcards, and notes.</p></div>}</aside>
     </div>
   </main>;
 }
 
-export function StudyNotebook({ system, onChange, initialQuery = "" }: { system: StudySystemState; onChange: (system: StudySystemState) => void; initialQuery?: string }) {
-  const [search, setSearch] = useState(initialQuery);
-  const [kind, setKind] = useState<NotebookKind | "all">("all");
-  const groups = notebookResourceGroups(system.notebook);
-  const visibleGroups = groups.filter(group => group.entries.some(entry => (kind === "all" || entry.kind === kind) && `${entry.title} ${entry.subtitle ?? ""} ${entry.note}`.toLowerCase().includes(search.toLowerCase())));
-  function update(entry: NotebookEntry, note: string) { onChange({ ...system, notebook: { ...system.notebook, [entry.id]: { ...entry, note, updatedAt: Date.now() } } }); }
-  function remove(id: string) { const notebook = { ...system.notebook }; delete notebook[id]; onChange({ ...system, notebook }); }
-  return <main className="study-system-page page-width"><section className="system-hero"><div><p className="eyebrow"><NotebookPen size={16} /> Personal knowledge layer</p><h1>My Study Notebook</h1><p>Everything you star stays here with your own notes, regardless of where it lives in the course.</p></div><div className="system-hero-stat"><strong>{groups.length}</strong><span>saved resources</span></div></section><div className="notebook-toolbar"><label><Search /><input aria-label="Search notebook" placeholder="Search saved items and notes" value={search} onChange={(event) => setSearch(event.target.value)} /></label><select value={kind} onChange={(event) => setKind(event.target.value as NotebookKind | "all")}><option value="all">All resource types</option>{(["question", "formula", "hazard", "flashcard", "chapter", "standard"] as const).map((value) => <option value={value} key={value}>{value[0].toUpperCase() + value.slice(1)}s</option>)}</select></div>{visibleGroups.length ? <section className="notebook-grid">{visibleGroups.map((group) => <article className="notebook-card" key={group.id} data-notebook-resource={group.id}>{group.entries.length > 1 && <p>Saved versions of the same hazard. Each original note is preserved.</p>}{group.entries.map(entry => <section key={entry.id} data-notebook-entry={entry.id}><header><span><Star size={15} fill="currentColor" /> {entry.kind}</span><button onClick={() => remove(entry.id)} aria-label={`Remove ${entry.title}`}><X /></button></header><h2>{entry.title}</h2>{entry.subtitle && <p>{entry.subtitle}</p>}<label>Your note<textarea value={entry.note} placeholder="Add a memory cue, question, or connection…" onChange={(event) => update(entry, event.target.value)} /></label><small>Updated {new Date(entry.updatedAt).toLocaleDateString()}</small></section>)}</article>)}</section> : <div className="empty-state notebook-empty"><NotebookPen /><h2>{groups.length ? "No saved items match" : "Your notebook is ready"}</h2><p>Use the star beside a question, formula, hazard, flashcard, chapter, or standard to save it here.</p></div>}</main>;
+export function notebookTarget(entry: NotebookEntry): SearchTarget {
+  const id=entry.id.slice(entry.kind.length+1);
+  if(entry.kind==="hazard")return {view:"hazards",itemId:canonicalHazardId(id)};
+  if(entry.kind==="formula")return {view:"library",libraryTab:"formulas",itemId:id};
+  if(entry.kind==="flashcard")return {view:"library",libraryTab:"flashcards",itemId:id};
+  if(entry.kind==="standard")return {view:"standards",itemId:id};
+  if(entry.kind==="question"){
+    if(PRACTICE_V2_QUESTIONS.some(q=>q.id===id))return {view:"practice",itemId:id};
+    const homework=HOMEWORK_QUESTIONS.find(q=>q.id===id);
+    if(homework)return {view:"homework",chapterId:homework.chapterId};
+    return {view:"review",query:entry.title};
+  }
+  if(id.startsWith("key-point:"))return {view:"key-information",chapterNumber:Number(id.split(":")[1]),itemId:id};
+  return {view:"homework",chapterId:entry.chapterId??id};
+}
+
+export function StudyNotebook({ system, onChange, initialQuery = "", onOpen }: { system: StudySystemState; onChange: (system: StudySystemState) => void; initialQuery?: string; onOpen?: (target:SearchTarget)=>void }) {
+  const [search,setSearch]=useState(initialQuery);
+  const [kind,setKind]=useState<NotebookKind|"all">("all");
+  const [removed,setRemoved]=useState<NotebookEntry[]>([]);
+  const [edited,setEdited]=useState<string|null>(null);
+  const groups=notebookResourceGroups(system.notebook);
+  const visible=groups.filter(group=>group.entries.some(e=>(kind==="all"||e.kind===kind)&&`${e.title} ${e.subtitle??""} ${e.note}`.toLowerCase().includes(search.toLowerCase())));
+  function remove(entry:NotebookEntry){const notebook={...system.notebook};delete notebook[entry.id];onChange({...system,notebook});setRemoved([...removed,entry]);}
+  function undo(){const notebook={...system.notebook};for(const entry of removed)if(!notebook[entry.id])notebook[entry.id]=entry;onChange({...system,notebook});setRemoved([]);}
+  return <main className="study-system-page page-width"><PageHeader title="My Study Notebook" description="Saved resources, your own notes, and a direct path back to the source." eyebrow={`${groups.length} saved resources`}/>
+    <div className="learning-filter-bar"><label className="field-label">Search notebook<input type="search" value={search} placeholder="Saved title, topic, or note" onChange={e=>setSearch(e.target.value)}/></label><label className="field-label">Resource type<select value={kind} onChange={e=>setKind(e.target.value as NotebookKind|"all")}><option value="all">All types</option>{(["question","formula","hazard","flashcard","chapter","standard"] as const).map(k=><option key={k} value={k}>{k}</option>)}</select></label></div>
+    {removed.length>0&&<div className="undo-banner" role="status"><span>{removed.length} saved item{removed.length===1?"":"s"} removed, including any notes.</span><button className="secondary-button" onClick={undo}>Undo removal</button></div>}
+    {visible.length?<section className="notebook-grid">{visible.map(group=><article className="notebook-card" key={group.id} data-notebook-resource={group.id}>{group.entries.length>1&&<p>Saved versions of this hazard. Each original note is preserved.</p>}{group.entries.map(entry=><section key={entry.id} data-notebook-entry={entry.id}><header><span>{entry.kind}</span><button onClick={()=>remove(entry)} aria-label={`Remove ${entry.title}`}><X/></button></header><h2>{entry.title}</h2>{entry.subtitle&&<p>{entry.subtitle}</p>}<button className="secondary-button" onClick={()=>onOpen?.(notebookTarget(entry))}>Open source<ExternalLink size={16}/></button><label className="field-label">Your note<textarea value={entry.note} placeholder="Add a memory cue or connection…" onChange={e=>{onChange({...system,notebook:{...system.notebook,[entry.id]:{...entry,note:e.target.value,updatedAt:Date.now()}}});setEdited(entry.id);}}/></label><small role={edited===entry.id?"status":undefined}>{edited===entry.id?"Note saved in this browser. Account sync status is shown in the header.":`Updated ${new Date(entry.updatedAt).toLocaleDateString()}`}</small></section>)}</article>)}</section>:<div className="empty-state notebook-empty"><NotebookPen/><h2>{groups.length?"No saved items match":"Your notebook is ready"}</h2><p>{groups.length?"Try another search or resource type.":"Save a formula, flashcard, question, or hazard and add a note here."}</p><button className="primary-button" onClick={()=>groups.length?(setSearch(""),setKind("all")):onOpen?.({view:"library"})}>{groups.length?"Clear filters":"Browse the Library"}</button></div>}
+  </main>;
 }
 
 export function StandardsExplorer({ system, onChange, onOpen, initialQuery = "", initialStandardIds }: { system: StudySystemState; onChange: (system: StudySystemState) => void; onOpen: (view: ResourceView, query?: string, target?: Pick<SearchTarget, "libraryTab" | "practiceTags">) => void; initialQuery?: string; initialStandardIds?: readonly string[] }) {
@@ -67,15 +97,18 @@ export function StandardsExplorer({ system, onChange, onOpen, initialQuery = "",
   const [selectedId, setSelectedId] = useState(initialStandard?.id ?? OSHA_STANDARDS[0].id);
   const records = OSHA_STANDARDS.filter((standard) => (!referenceIds?.length || referenceIds.includes(standard.id)) && JSON.stringify(standard).toLowerCase().includes(search.toLowerCase()));
   const selected = records.find((standard) => standard.id === selectedId) ?? records[0];
-  return <main className="study-system-page page-width"><section className="system-hero"><div><p className="eyebrow"><ShieldCheck size={16} /> OSHA knowledge network</p><h1>Standards Explorer</h1><p>Find the rule, then move directly to its key numbers, definitions, questions, hazards, formulas, and your notes.</p></div><div className="system-hero-stat"><strong>{OSHA_STANDARDS.length}</strong><span>core standards mapped</span></div></section><div className="standards-search"><Search /><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Try 1910.95, noise, fit test, or confined space" /></div>{referenceIds && <section className="reference-note" aria-label="Related hazard standards"><span>{referenceIds.length ? `Catalog connections for ${initialQuery}. Applicability has not been assessed.` : `No standard IDs are mapped for ${initialQuery} yet. Browse the existing catalog below.`}</span><button type="button" className="secondary-button" onClick={() => { setReferenceIds(undefined); setSearch(""); }}>Show all standards</button></section>}<div className="standards-layout"><nav aria-label="Standards results">{records.map((standard) => <button className={selected?.id === standard.id ? "active" : ""} key={standard.id} onClick={() => setSelectedId(standard.id)}><small>{standard.citation}</small><strong>{standard.title}</strong></button>)}</nav>{selected ? <article className="standard-detail"><div className="standard-heading"><div><p className="eyebrow">{selected.citation}</p><h2>{selected.title}</h2></div><BookmarkAction kind="standard" itemId={selected.id} title={`${selected.citation} ${selected.title}`} subtitle={selected.summary} system={system} onChange={onChange} /></div><p className="standard-summary">{selected.summary}</p><section><h3>Key numbers</h3><ul>{selected.keyNumbers.map((item) => <li key={item}>{item}</li>)}</ul></section><section><h3>Definitions to know</h3><ul>{selected.definitions.map((item) => <li key={item}>{item}</li>)}</ul></section><div className="standard-connections"><button onClick={() => onOpen("practice", selected.topics[0], { practiceTags: selected.topics })}><FileQuestion /><strong>Related Practice</strong><span>Search questions</span></button><button onClick={() => onOpen("library", selected.topics[0])}><Library /><strong>Formula & flashcards</strong><span>Open resources</span></button><button onClick={() => onOpen("library", selected.topics[0], { libraryTab: "hazards" })}><FlaskConical /><strong>Hazards</strong><span>Explore exposures</span></button></div><a className="official-link" href={selected.officialUrl} target="_blank" rel="noreferrer">Open current OSHA standard <ExternalLink /></a><p className="reference-note">Study summary only. Use the linked OSHA page for current regulatory language and applicability.</p></article> : <div className="empty-state"><Search /><h2>No standards match</h2></div>}</div></main>;
+  return <main className="study-system-page page-width"><section className="system-hero"><div><p className="eyebrow"><ShieldCheck size={16} /> OSHA knowledge network</p><h1>Standards Explorer</h1><p>Find the rule, then move directly to its key numbers, definitions, questions, hazards, formulas, and your notes.</p></div><div className="system-hero-stat"><strong>{OSHA_STANDARDS.length}</strong><span>core standards mapped</span></div></section><div className="standards-search"><Search /><input value={search} onChange={(event) => setSearch(event.target.value)} aria-label="Search standards" placeholder="Standard number or topic" /></div>{referenceIds && <section className="reference-note" aria-label="Related hazard standards"><span>{referenceIds.length ? `Catalog connections for ${initialQuery}. Applicability has not been assessed.` : `No standard IDs are mapped for ${initialQuery} yet. Browse the existing catalog below.`}</span><button type="button" className="secondary-button" onClick={() => { setReferenceIds(undefined); setSearch(""); }}>Show all standards</button></section>}<div className="standards-layout"><nav aria-label="Standards results">{records.map((standard) => <button className={selected?.id === standard.id ? "active" : ""} key={standard.id} aria-current={selected?.id === standard.id ? "true" : undefined} onClick={() => { setSelectedId(standard.id); updateResourceRoute({view:"standards",itemId:standard.id}); }}><small>{standard.citation}</small><strong>{standard.title}</strong></button>)}</nav>{selected ? <article className="standard-detail"><div className="standard-heading"><div><p className="eyebrow">{selected.citation}</p><h2>{selected.title}</h2></div><BookmarkAction kind="standard" itemId={selected.id} title={`${selected.citation} ${selected.title}`} subtitle={selected.summary} system={system} onChange={onChange} /></div><p className="standard-summary">{selected.summary}</p><section><h3>Key numbers</h3><ul>{selected.keyNumbers.map((item) => <li key={item}>{item}</li>)}</ul></section><section><h3>Definitions to know</h3><ul>{selected.definitions.map((item) => <li key={item}>{item}</li>)}</ul></section><div className="standard-connections"><button onClick={() => onOpen("practice", selected.topics[0], { practiceTags: selected.topics })}><FileQuestion /><strong>Related Practice</strong><span>Search questions</span></button><button onClick={() => onOpen("library", selected.topics[0], {libraryTab:"formulas"})}><Library /><strong>Related formulas</strong><span>Open resources</span></button><button onClick={() => onOpen("library", selected.topics[0], { libraryTab: "hazards" })}><FlaskConical /><strong>Hazards</strong><span>Explore exposures</span></button></div><a className="official-link" href={selected.officialUrl} target="_blank" rel="noreferrer">Open current OSHA standard <ExternalLink /></a><p className="reference-note">Study summary only. Use the linked OSHA page for current regulatory language and applicability.</p></article> : <div className="empty-state"><Search /><h2>No standards match</h2></div>}</div></main>;
 }
 
 export function BookmarkAction({ kind, itemId, title, subtitle, chapterId, system, onChange, labels }: { kind: NotebookKind; itemId: string; title: string; subtitle?: string; chapterId?: string; system: StudySystemState; onChange: (system: StudySystemState) => void; labels?: { save: string; saved: string; saveLabel: string; removeLabel: string } }) {
   const id = `${kind}:${kind === "hazard" ? canonicalHazardId(itemId) : itemId}`;
   const compatibleKeys = kind === "hazard" ? hazardNotebookKeys(itemId) : [id];
   const saved = compatibleKeys.some(key => Boolean(system.notebook[key]));
+  const [confirmRemove,setConfirmRemove]=useState(false);
+  const hasNote=compatibleKeys.some(key=>Boolean(system.notebook[key]?.note.trim()));
   function toggle() { const notebook = { ...system.notebook }; if (saved) { for (const key of compatibleKeys) delete notebook[key]; } else notebook[id] = { id, kind, title, subtitle, chapterId, note: "", createdAt: Date.now(), updatedAt: Date.now() }; onChange({ ...system, notebook }); }
-  return <button type="button" className={`bookmark-action ${saved ? "saved" : ""}`} onClick={toggle} aria-label={saved ? labels?.removeLabel ?? `Remove ${title} from notebook` : labels?.saveLabel ?? `Save ${title} to notebook`} title={saved ? labels?.saved ?? "Saved to notebook" : labels?.save ?? "Save to notebook"}><Star fill={saved ? "currentColor" : "none"} aria-hidden="true" /> <span>{saved ? labels?.saved ?? "Saved" : labels?.save ?? "Save"}</span></button>;
+  if(confirmRemove && saved)return <span className="bookmark-confirm" role="group" aria-label={labels?"تأكيد إزالة الملاحظة المحفوظة":"Confirm saved note removal"}><span>{labels?"إزالة العنصر المحفوظ وملاحظته؟":"Remove saved item and its note?"}</span><button type="button" onClick={()=>{toggle();setConfirmRemove(false);}}>{labels?"إزالة العنصر والملاحظة":"Remove item and note"}</button><button type="button" onClick={()=>setConfirmRemove(false)}>{labels?"الاحتفاظ بالملاحظة":"Keep note"}</button></span>;
+  return <button type="button" className={`bookmark-action ${saved ? "saved" : ""}`} onClick={()=>saved&&hasNote?setConfirmRemove(true):toggle()} aria-label={saved ? labels?.removeLabel ?? `Remove ${title} from notebook` : labels?.saveLabel ?? `Save ${title} to notebook`} title={saved ? labels?.saved ?? "Saved to notebook" : labels?.save ?? "Save to notebook"}><Star fill={saved ? "currentColor" : "none"} aria-hidden="true" /> <span>{saved ? labels?.saved ?? "Saved" : labels?.save ?? "Save"}</span></button>;
 }
 
 export function MistakeClassifier({ attempt, system, onChange }: { attempt: Attempt; system: StudySystemState; onChange: (system: StudySystemState) => void }) {
@@ -86,7 +119,8 @@ export function MistakeClassifier({ attempt, system, onChange }: { attempt: Atte
 
 export function MistakeInsight({ system }: { system: StudySystemState }) { return <div className="mistake-insight"><Sparkles /><div><strong>Coach pattern</strong><p>{mistakeInsight(system.mistakeReasons)}</p></div></div>; }
 
-export function Onboarding({ activeExam, examDate, completedChapterIds, onComplete }: { activeExam: "ASP" | "CSP"; examDate: string; completedChapterIds: string[]; onComplete: (values: { activeExam: "ASP" | "CSP"; examDate: string; completedChapterIds: string[] }) => void }) {
+export function Onboarding({ activeExam, examDate, completedChapterIds, onComplete, onCancel }: { onCancel?:()=>void; activeExam: "ASP" | "CSP"; examDate: string; completedChapterIds: string[]; onComplete: (values: { activeExam: "ASP" | "CSP"; examDate: string; completedChapterIds: string[] }) => void }) {
+  const dialog = useDialogFocus(true,onCancel);
   const [exam, setExam] = useState(activeExam);
   const [date, setDate] = useState(examDate);
   const [selectedChapters, setSelectedChapters] = useState<string[]>(completedChapterIds);
@@ -95,7 +129,8 @@ export function Onboarding({ activeExam, examDate, completedChapterIds, onComple
   const visibleChapters = STUDY_CHAPTERS.filter((chapter) => `${chapter.courseNumber} ${chapter.title}`.toLowerCase().includes(chapterSearch.trim().toLowerCase()));
   const toggleChapter = (chapterId: string) => setSelectedChapters((current) => current.includes(chapterId) ? current.filter((id) => id !== chapterId) : [...current, chapterId]);
   return <div className="modal-backdrop onboarding-backdrop">
-    <section className="modal onboarding-modal" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
+    <section ref={dialog} tabIndex={-1} className="modal onboarding-modal" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
+      {onCancel&&<button className="icon-button modal-close" onClick={onCancel} aria-label="Close setup without changes"><X/></button>}
       <div className="onboarding-mark"><ShieldCheck /></div>
       <p className="eyebrow">Two-minute setup</p>
       <h2 id="onboarding-title">Start with a useful plan today</h2>
@@ -117,10 +152,10 @@ export function Onboarding({ activeExam, examDate, completedChapterIds, onComple
   </div>;
 }
 
-export interface CoachTask { id: string; title: string; detail: string; action: ResourceView; query?: string; }
-export function CoachPlan({ tasks, completions, onToggle, onOpen }: { tasks: CoachTask[]; completions: Record<string, boolean>; onToggle: (id: string) => void; onOpen: (view: ResourceView, query?: string) => void }) {
+export interface CoachTask { id: string; title: string; detail: string; action: ResourceView; query?: string; chapterId?: string; }
+export function CoachPlan({ tasks, completions, onToggle, onOpen }: { tasks: CoachTask[]; completions: Record<string, boolean>; onToggle: (id: string) => void; onOpen: (view: ResourceView, query?: string, chapterId?: string) => void }) {
   const done = tasks.filter((task) => completions[task.id]).length;
-  return <div className="coach-plan"><div className="coach-plan-progress"><span><b>{done}/{tasks.length}</b> complete</span><i><em style={{ width: `${tasks.length ? (done / tasks.length) * 100 : 0}%` }} /></i></div>{tasks.map((task, index) => <div className={`coach-task ${completions[task.id] ? "complete" : ""}`} key={task.id}><button className="coach-task-check" onClick={() => onToggle(task.id)} aria-label={`Mark ${task.title} ${completions[task.id] ? "incomplete" : "complete"}`}>{completions[task.id] && <Check />}</button><button className="coach-task-body" onClick={() => onOpen(task.action, task.query)}><span>{String(index + 1).padStart(2, "0")}</span><div><strong>{task.title}</strong><small>{task.detail}</small></div><ChevronRight /></button></div>)}</div>;
+  return <div className="coach-plan"><div className="coach-plan-progress"><span><b>{done}/{tasks.length}</b> complete</span><i><em style={{ width: `${tasks.length ? (done / tasks.length) * 100 : 0}%` }} /></i></div>{tasks.map((task, index) => <div className={`coach-task ${completions[task.id] ? "complete" : ""}`} key={task.id}><button className="coach-task-check" onClick={() => onToggle(task.id)} aria-label={`Mark ${task.title} ${completions[task.id] ? "incomplete" : "complete"}`}>{completions[task.id] && <Check />}</button><button className="coach-task-body" onClick={() => onOpen(task.action, task.query, task.chapterId)}><span>{String(index + 1).padStart(2, "0")}</span><div><strong>{task.title}</strong><small>{task.detail}</small></div><ChevronRight /></button></div>)}</div>;
 }
 
 export function QuestionTools({ formulaQuery = "" }: { formulaQuery?: string }) {

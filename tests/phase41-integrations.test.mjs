@@ -158,7 +158,8 @@ for (const [legacy, canonical] of pairs) test(`${legacy} opens ${canonical}, ret
   await click('[aria-label="Related Practice"]'); assert.deepEqual(opens[0][2].practiceTags, HAZARD_LIBRARY_BY_ID[canonical].relatedPracticeTags);
   await click('[aria-label="Related OSHA standards"]'); assert.deepEqual(opens[1][2].standardIds, HAZARD_LIBRARY_BY_ID[canonical].relatedStandardIds);
   // Explicit Unsave retires both compatibility keys; saving again creates only HL-*.
-  await click(".bookmark-action"); assert.equal(savedState.notebook[old.id], undefined);
+  await click(".bookmark-action"); assert.deepEqual(savedState.notebook[old.id], old);
+  await click(".bookmark-confirm button"); assert.equal(savedState.notebook[old.id], undefined);
   await click(".bookmark-action"); assert.ok(savedState.notebook[`hazard:${canonical}`]); assert.equal(savedState.notebook[old.id], undefined);
 });
 
@@ -171,6 +172,8 @@ test("both legacy and canonical notebook entries remain lossless until explicit 
   await click('[data-hazard-id="HL-ELEC-002"]'); await click(".bookmark-action");
   assert.deepEqual(savedState.notebook[legacy.id], legacy); assert.deepEqual(savedState.notebook[canonical.id], canonical);
   await click('[data-hazard-id="HL-ELEC-001"]'); await click(".bookmark-action");
+  assert.deepEqual(savedState.notebook[legacy.id], legacy);
+  await click(".bookmark-confirm button");
   assert.equal(savedState.notebook[legacy.id], undefined); assert.equal(savedState.notebook[canonical.id], undefined);
   assert.deepEqual(savedState.notebook[unrelated.id], unrelated);
 });
