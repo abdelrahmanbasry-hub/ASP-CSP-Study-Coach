@@ -50,7 +50,7 @@ const roleIds = (role) => [...explorer().querySelectorAll(`[data-target-role="${
 const rail = () => [...container.querySelectorAll(".hazard-record-list [data-hazard-id]")];
 const choose = async (name) => { const item = rail().find((element) => element.querySelector('[lang="en"]')?.textContent === name); assert.ok(item, `Missing record: ${name}`); await click(item); };
 const changeSearch = async (text) => {
-  const input = container.querySelector('[aria-label="Search hazards"]');
+  const input = container.querySelector('[aria-label="Search this category"]');
   await act(() => {
     Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, "value").set.call(input, text);
     input.dispatchEvent(new window.Event("input", { bubbles: true }));

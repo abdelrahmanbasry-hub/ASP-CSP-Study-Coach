@@ -98,7 +98,7 @@ test("one search index covers all controlled fields, supplied Practice tags and 
   assert.equal(index.filter(d => d.kind === "hazard").length, 220);
   for (const id of ["HL-ELEC-001", "HL-FALL-003", "HL-MACH-005", "HL-MAT-014"]) {
     const result = searchGlobalIndex(index, id).find(d => d.id === `hazard:${id}`);
-    assert.ok(result); assert.equal(result.target.itemId, id); assert.equal(result.target.libraryTab, "hazards");
+    assert.ok(result); assert.equal(result.target.itemId, id); assert.equal(result.target.view, "hazards"); assert.equal(result.target.libraryTab, undefined);
   }
 });
 

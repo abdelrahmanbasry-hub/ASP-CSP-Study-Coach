@@ -14,6 +14,7 @@ import {
   Clock3,
   Coffee,
   Flame,
+  Forklift,
   Flag,
   Gauge,
   History,
@@ -80,6 +81,8 @@ import HomeworkHub from "./HomeworkHub";
 import PracticeV2 from "./PracticeV2View";
 import KeyInformation from "./KeyInformation";
 import StudyLibrary from "./StudyLibrary";
+import { HazardsLibrary } from "./hazard-library/HazardsLibrary";
+import { coachRouteHref, normalizeCoachTarget, readCoachRoute, type CoachView } from "./coachRoutes";
 import GlobalSmartSearch from "./GlobalSmartSearch";
 import type { SearchResult, SearchTarget } from "./globalSearch";
 import type { ResourceReferences } from "./hazardTypes";
@@ -113,7 +116,7 @@ import { getSupabaseBrowserClient } from "./supabase-client";
 import { clearLocalProgress } from "./localProgressReset";
 import type { Session } from "@supabase/supabase-js";
 
-type MainView = "study" | "homework" | "practice" | "key-information" | "library" | "stats" | "review" | "mastery" | "notebook" | "standards";
+type MainView = CoachView;
 type ActiveView = MainView | "quiz" | "results";
 type ExamTrack = "ASP" | "CSP";
 type DomainId = string;
@@ -555,6 +558,9 @@ export default function AdaptiveCoach() {
   const [reviewType, setReviewType] = useState<"all" | "correct" | "incorrect">("all");
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchTarget, setSearchTarget] = useState<(SearchTarget & { requestKey: number }) | null>(null);
+  const lastHazardHref = useRef("/hazards");
+  const [hazardLanguage, setHazardLanguage] = useState("both");
+  const hazardArabic = view === "hazards" && hazardLanguage === "ar";
   const lastMoveAt = useRef(Date.now());
   const savedRef = useRef(saved);
   const cloudRevisionRef = useRef<number | null>(null);
@@ -562,6 +568,26 @@ export default function AdaptiveCoach() {
   const cloudOperationEpochRef = useRef(0);
   const resetInFlightRef = useRef(false);
   const activeConfig = EXAM_CONFIGS[saved.activeExam];
+  useEffect(() => {
+    // Read URL/history as an external system; popstate remounts the destination
+    // with its original query and resource references, never a second push.
+    const restoreRoute = () => {
+      const url = new URL(window.location.href);
+      const route = readCoachRoute(url);
+      const target = route.view === "hazards" ? route.target : window.history.state?.coachTarget ?? route.target;
+      setView(route.view);
+      setSearchTarget(target ? { ...normalizeCoachTarget(target), requestKey: Date.now() } : null);
+      setNavOpen(false);
+      if (route.view === "hazards" && url.pathname !== "/hazards") {
+        url.pathname = "/hazards";
+        url.searchParams.delete("view"); url.searchParams.delete("tab"); url.searchParams.delete("libraryTab");
+        window.history.replaceState(window.history.state, "", url.pathname + url.search);
+      }
+    };
+    restoreRoute();
+    window.addEventListener("popstate", restoreRoute);
+    return () => window.removeEventListener("popstate", restoreRoute);
+  }, []);
   const activeMastery = saved.mastery[saved.activeExam];
   const activeAttempts = saved.attempts.filter((attempt) => attempt.exam === saved.activeExam);
   const activeSessions = saved.sessions.filter((session) => session.exam === saved.activeExam);
@@ -1086,20 +1112,35 @@ export default function AdaptiveCoach() {
   }
 
   function navigate(next: MainView, preserveSearchTarget = false) {
+    if (window.location.pathname === "/hazards") lastHazardHref.current = window.location.pathname + window.location.search;
+    if (next === "hazards") {
+      const href = lastHazardHref.current;
+      const route = readCoachRoute(new URL(href, window.location.origin));
+      setSearchTarget(route.target ? { ...route.target, requestKey: Date.now() } : null);
+      window.history.pushState({ ...window.history.state, coachTarget: null }, "", href);
+      setView("hazards"); setNavOpen(false);
+      return;
+    }
     if (!preserveSearchTarget) setSearchTarget(null);
+    window.history.pushState({ ...window.history.state, coachTarget: preserveSearchTarget ? searchTarget : null }, "", coachRouteHref(next));
     setView(next);
     setNavOpen(false);
   }
 
   function openSearchResult(result: SearchResult) {
-    const target = { ...result.target, requestKey: Date.now() };
+    if (window.location.pathname === "/hazards") lastHazardHref.current = window.location.pathname + window.location.search;
+    const target = { ...normalizeCoachTarget(result.target), requestKey: Date.now() };
     setSearchTarget(target);
     if (target.view === "review" && target.query) setReviewSearch(target.query);
-    navigate(target.view, true);
+    setView(target.view);
+    setNavOpen(false);
+    window.history.pushState({ ...window.history.state, coachTarget: target }, "", coachRouteHref(target.view, target));
     setSearchOpen(false);
   }
 
   function openConnectedResource(next: MainView, query?: string, chapterId?: string, references?: ResourceReferences & Pick<SearchTarget, "libraryTab">) {
+    if (window.location.pathname === "/hazards") lastHazardHref.current = window.location.pathname + window.location.search;
+    if (next === "library" && references?.libraryTab === "hazards") next = "hazards";
     const target: SearchTarget & { requestKey: number } = {
       view: next === "mastery" || next === "notebook" || next === "stats" ? "study" : next,
       ...references,
@@ -1110,6 +1151,7 @@ export default function AdaptiveCoach() {
     if (next === "review" && query) setReviewSearch(query);
     if (next === "notebook" || next === "mastery") setSearchTarget(null);
     else setSearchTarget(target);
+    window.history.pushState({ ...window.history.state, coachTarget: target }, "", coachRouteHref(next, next === "notebook" || next === "mastery" ? null : target));
     setView(next);
     setNavOpen(false);
   }
@@ -1243,13 +1285,14 @@ export default function AdaptiveCoach() {
           </label>
         </div>
         <nav className={navOpen ? "main-nav open" : "main-nav"} aria-label="Main navigation">
-          <button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard size={17} /> Study</button>
-          <button className={view === "homework" ? "active" : ""} onClick={() => navigate("homework")}><BookOpenCheck size={17} /> Homework</button>
-          <button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion size={17} /> Practice</button>
-          <button className={view === "key-information" ? "active" : ""} onClick={() => navigate("key-information")}><BookOpenCheck size={17} /> Key Info</button>
-          <button className={view === "library" ? "active" : ""} onClick={() => navigate("library")}><Library size={17} /> Library</button>
-          <button className={view === "stats" ? "active" : ""} onClick={() => navigate("stats")}><BarChart3 size={17} /> Analytics</button>
-          <button className={view === "review" ? "active" : ""} onClick={() => navigate("review")}><BookOpenCheck size={17} /> Review</button>
+          <button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard size={17} /> {hazardArabic ? "الدراسة" : "Study"}</button>
+          <button className={view === "homework" ? "active" : ""} onClick={() => navigate("homework")}><BookOpenCheck size={17} /> {hazardArabic ? "الواجبات" : "Homework"}</button>
+          <button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion size={17} /> {hazardArabic ? "التدريب" : "Practice"}</button>
+          <button className={view === "key-information" ? "active" : ""} onClick={() => navigate("key-information")}><BookOpenCheck size={17} /> {hazardArabic ? "معلومات أساسية" : "Key Info"}</button>
+          <button className={view === "library" ? "active" : ""} onClick={() => navigate("library")}><Library size={17} /> {hazardArabic ? "المكتبة" : "Library"}</button>
+          <button className={view === "hazards" ? "active" : ""} aria-current={view === "hazards" ? "page" : undefined} onClick={() => navigate("hazards")}><Forklift size={17} aria-hidden="true" /> {hazardArabic ? "المخاطر" : "Hazards"}</button>
+          <button className={view === "stats" ? "active" : ""} onClick={() => navigate("stats")}><BarChart3 size={17} /> {hazardArabic ? "التحليلات" : "Analytics"}</button>
+          <button className={view === "review" ? "active" : ""} onClick={() => navigate("review")}><BookOpenCheck size={17} /> {hazardArabic ? "المراجعة" : "Review"}</button>
         </nav>
         <div className="topbar-meta">
           <button type="button" className="global-search-trigger" onClick={() => setSearchOpen(true)} aria-label="Search all study resources"><Search size={17} /><span>Search</span><kbd>Ctrl K</kbd></button>
@@ -1259,7 +1302,7 @@ export default function AdaptiveCoach() {
           ) : (
             <button type="button" className="signin-control" onClick={() => void signInWithGoogle()}><span>Sign in</span><small>Sync progress</small></button>
           )}
-          <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-label="Toggle menu"><Menu /></button>
+          <button className="menu-button" onClick={() => setNavOpen((open) => !open)} aria-expanded={navOpen} aria-label="Toggle menu"><Menu /></button>
         </div>
       </header>
 
@@ -1293,6 +1336,7 @@ export default function AdaptiveCoach() {
       {view === "key-information" && <KeyInformation key={searchTarget?.view === "key-information" ? searchTarget.requestKey : "key-information"} searchTarget={searchTarget?.view === "key-information" ? searchTarget : null} />}
       {view === "library" && <StudyLibrary key={searchTarget?.view === "library" ? searchTarget.requestKey : "library"} progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} searchTarget={searchTarget?.view === "library" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} mistakeAttempts={activeAttempts.filter((attempt) => !attempt.correct)} onOpen={(next, query, references) => openConnectedResource(next, query, undefined, references)} />}
       {view === "mastery" && <ChapterMasteryMap learning={saved.learning} attempts={activeAttempts} onOpen={openConnectedResource} />}
+      {view === "hazards" && <main className="hazard-product-page"><HazardsLibrary key={searchTarget?.requestKey ?? "hazards"} initialItemId={searchTarget?.itemId} initialSearch={searchTarget?.query} syncRoute onLanguageChange={setHazardLanguage} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} onOpen={(next, query, references) => openConnectedResource(next, query, undefined, references)} onNotebook={() => navigate("notebook")} /></main>}
       {view === "notebook" && <StudyNotebook system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
       {view === "standards" && <StandardsExplorer key={searchTarget?.view === "standards" ? searchTarget.requestKey : "standards"} system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} onOpen={(next, query, target) => openConnectedResource(next, query, undefined, target)} initialQuery={searchTarget?.view === "standards" ? searchTarget.query : undefined} initialStandardIds={searchTarget?.view === "standards" ? searchTarget.standardIds ?? (searchTarget.itemId ? [searchTarget.itemId] : undefined) : undefined} />}
       {view === "review" && (
@@ -1353,7 +1397,7 @@ export default function AdaptiveCoach() {
         />
       )}
       {mounted && !saved.system.onboardingComplete && view !== "quiz" && <Onboarding activeExam={saved.activeExam} examDate={saved.examDate} completedChapterIds={saved.system.completedChapterIds} onComplete={({ activeExam, examDate, completedChapterIds }) => setSaved((currentSaved) => ({ ...currentSaved, activeExam, examDate, system: { ...currentSaved.system, onboardingComplete: true, completedChapterIds } }))} />}
-      <nav className="mobile-study-nav" aria-label="Mobile study navigation"><button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard /><span>Today</span></button><button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion /><span>Practice</span></button><button className={view === "mastery" ? "active" : ""} onClick={() => navigate("mastery")}><Target /><span>Mastery</span></button><button className={view === "notebook" ? "active" : ""} onClick={() => navigate("notebook")}><BookOpenCheck /><span>Notebook</span></button><button onClick={() => setSearchOpen(true)}><Search /><span>Search</span></button></nav>
+      <nav className="mobile-study-nav" aria-label="Mobile study navigation"><button className={view === "study" ? "active" : ""} onClick={() => navigate("study")}><LayoutDashboard /><span>{hazardArabic ? "اليوم" : "Today"}</span></button><button className={view === "practice" ? "active" : ""} onClick={() => navigate("practice")}><FileQuestion /><span>{hazardArabic ? "التدريب" : "Practice"}</span></button><button className={view === "hazards" ? "active" : ""} aria-current={view === "hazards" ? "page" : undefined} onClick={() => navigate("hazards")}><Forklift /><span>{hazardArabic ? "المخاطر" : "Hazards"}</span></button><button className={view === "notebook" ? "active" : ""} onClick={() => navigate("notebook")}><BookOpenCheck /><span>{hazardArabic ? "الدفتر" : "Notebook"}</span></button><button onClick={() => setSearchOpen(true)}><Search /><span>{hazardArabic ? "البحث" : "Search"}</span></button></nav>
     </div>
   );
 }

@@ -21,7 +21,7 @@ export type SearchKind =
   | "mistake"
   | "library";
 
-export type SearchView = "study" | "homework" | "practice" | "key-information" | "library" | "stats" | "review" | "standards";
+export type SearchView = "study" | "homework" | "practice" | "key-information" | "library" | "hazards" | "stats" | "review" | "standards";
 
 export type SearchTarget = ResourceReferences & {
   view: SearchView;
@@ -150,7 +150,7 @@ export function buildGlobalSearchIndex({ examName, practiceBank, chapterPractice
       excerpt: `${hazard.summary.en} ${hazard.consequences.map((effect) => effect.en).join(" ")}`,
       meta: `${HAZARD_CATEGORY_BY_ID[hazard.categoryId].name.en} · ${hazardSubcategoryName(hazard.categoryId, hazard.subcategoryId)?.en ?? ""}`,
       keywords: hazardSearchText(hazard),
-      target: { view: "library", libraryTab: "hazards", itemId: hazard.id, query: hazard.name.en },
+      target: { view: "hazards", itemId: hazard.id, query: hazard.name.en },
     }));
   });
 

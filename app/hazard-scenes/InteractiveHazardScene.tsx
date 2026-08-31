@@ -43,7 +43,8 @@ function navigateGroup(event: KeyboardEvent<HTMLElement>) {
   const index = buttons.indexOf(event.target as HTMLButtonElement);
   if (index < 0) return;
   event.preventDefault();
-  const backward = event.key === "ArrowLeft" || event.key === "ArrowUp";
+  const rtl = event.currentTarget.closest('[dir="rtl"]') && !event.currentTarget.closest('.scene-stage[dir="ltr"]');
+  const backward = event.key === "ArrowUp" || event.key === (rtl ? "ArrowRight" : "ArrowLeft");
   buttons[event.key === "Home" ? 0 : event.key === "End" ? buttons.length - 1 : (index + (backward ? -1 : 1) + buttons.length) % buttons.length]?.focus();
 }
 
@@ -104,17 +105,17 @@ export function InteractiveHazardScene({ config, name, language, consequences = 
       </div>
     </div>
     <p className="scene-scale-note">{text({ en: "Illustrative positions and zones · not to scale", ar: "مواضع ومناطق توضيحية · ليست بمقياس رسم" })}</p>
-    {!!config.landmarks?.length && <details className="scene-landmarks" open={Boolean(landmark)}><summary>{text({ en: "Locate scene elements", ar: "تحديد عناصر المشهد" })}</summary><div role="group" aria-label={language === "ar" ? "عناصر المشهد" : "Scene landmarks"} dir={language === "ar" ? "rtl" : "ltr"}>{config.landmarks.map(item => <button type="button" key={item.id} data-landmark-id={item.id} aria-pressed={landmarkId === item.id} onKeyDown={navigateGroup} onClick={() => { setLandmarkId(landmarkId === item.id ? null : item.id); setLocalSelection(null); onSelectOverlay?.(null); }}>{text(item.label)}</button>)}</div>{landmark && <p role="status">{text({ en: "Located element", ar: "العنصر المحدد" })}: <strong>{text(landmark.label)}</strong></p>}</details>}
-    {config.note && <p className="scene-config-note">{text(config.note)}</p>}
     <div className="scene-modes" role="group" aria-label={language === "ar" ? "أوضاع المشهد" : "Scene modes"}>{modes.map(({ id, label, icon: Icon }) => <button key={id} onKeyDown={navigateGroup} type="button" aria-pressed={mode === id} onClick={() => setMode(id)}><Icon size={18} aria-hidden="true" />{text(label)}</button>)}</div>
     <div className="scene-callout-heading"><h4>{text(mode === "effects" ? { en: "Effects & affected areas", ar: "الآثار والمناطق المتأثرة" } : config.kind === "concept-diagram" ? { en: "Core principles", ar: "المبادئ الأساسية" } : { en: "Explore the scene", ar: "استكشف المشهد" })}</h4>{selected && <button type="button" onClick={() => select(null)}>{text({ en: "Clear selection", ar: "مسح الاختيار" })}</button>}</div>
     {mode === "effects" && <div className="scene-effects" role="status">{text({ en: "Hazard-level effects; select a callout for its specific context.", ar: "آثار على مستوى الخطر؛ اختر تعليقًا لسياقه المحدد." })}{consequences.map((value, i) => <p key={i}>{text(value)}</p>)}</div>}
+    <div className="scene-selection-summary" role="status" aria-live="polite">{selected ? <><strong>{text(selected.label)}</strong><p>{text(selected.description)}</p>{mode === "effects" && selected.consequences?.map((value, index) => <p key={index}>{text(value)}</p>)}</> : <p><Info size={15} aria-hidden="true" />{text({ en: "Select a numbered point or callout to focus the scene and related details.", ar: "اختر نقطة مرقمة أو تعليقًا للتركيز على المشهد والتفاصيل المرتبطة." })}</p>}</div>
     <div className="scene-callouts" role="group" aria-label={language === "ar" ? "تعليقات المشهد" : "Scene callouts"} dir={language === "ar" ? "rtl" : "ltr"}>
       {config.overlays.map((overlay, index) => <button type="button" onKeyDown={navigateGroup} className="scene-callout" key={overlay.id} data-callout-id={overlay.id} data-role={overlay.role} data-semantic={overlay.semantic} aria-pressed={selectedId === overlay.id} onClick={() => select(overlay.id)}>
         <span className="scene-callout-number" aria-hidden="true">{index + 1}</span><span className="scene-callout-copy"><strong>{text(overlay.label)}</strong><small>{text(overlayRoleLabel(overlay))}{overlay.energy && <span className="scene-energy">{text(ENERGY_LABELS[overlay.energy])}</span>}</small></span>{selectedId === overlay.id ? <Check size={16} aria-hidden="true" /> : <ArrowUpRight size={15} aria-hidden="true" />}
       </button>)}
     </div>
-    <div className="scene-selection-summary" role="status" aria-live="polite">{selected ? <><strong>{text(selected.label)}</strong><p>{text(selected.description)}</p>{mode === "effects" && selected.consequences?.map((value, index) => <p key={index}>{text(value)}</p>)}</> : <p><Info size={15} aria-hidden="true" />{text({ en: "Select a numbered point or callout to focus the scene and related details.", ar: "اختر نقطة مرقمة أو تعليقًا للتركيز على المشهد والتفاصيل المرتبطة." })}</p>}</div>
+    {!!config.landmarks?.length && <details className="scene-landmarks" open={Boolean(landmark)}><summary>{text({ en: "Locate scene elements", ar: "تحديد عناصر المشهد" })}</summary><div role="group" aria-label={language === "ar" ? "عناصر المشهد" : "Scene landmarks"} dir={language === "ar" ? "rtl" : "ltr"}>{config.landmarks.map(item => <button type="button" key={item.id} data-landmark-id={item.id} aria-pressed={landmarkId === item.id} onKeyDown={navigateGroup} onClick={() => { setLandmarkId(landmarkId === item.id ? null : item.id); setLocalSelection(null); onSelectOverlay?.(null); }}>{text(item.label)}</button>)}</div>{landmark && <p role="status">{text({ en: "Located element", ar: "العنصر المحدد" })}: <strong>{text(landmark.label)}</strong></p>}</details>}
+    {config.note && <p className="scene-config-note">{text(config.note)}</p>}
     <div className="scene-legend" aria-label={language === "ar" ? "مفتاح المشهد" : "Scene legend"}>{Object.entries(SCENE_ROLES).map(([role, label]) => <span key={role} data-role={role}><i aria-hidden="true" />{text(label)}</span>)}</div>
   </section>;
 }

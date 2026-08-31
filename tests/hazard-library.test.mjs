@@ -156,7 +156,8 @@ test("global search extends the same catalog, preserves Arabic and resolves a ca
   assert.equal(index.filter((document) => document.kind === "hazard").length, 220);
   const result = searchGlobalIndex(index, "رافعة شوكية").find((document) => document.id === "hazard:HL-MAT-004");
   assert.ok(result);
-  assert.equal(result.target.libraryTab, "hazards");
+  assert.equal(result.target.view, "hazards");
+  assert.equal(result.target.libraryTab, undefined);
   await mount({ initialItemId: result.target.itemId, initialSearch: result.target.query });
   assert.equal(engine(), "equipment-scene");
   assert.equal(container.querySelector('[data-hazard-id="HL-MAT-004"]').getAttribute("aria-pressed"), "true");

@@ -1,29 +1,26 @@
 "use client";
 
-import { BookOpenCheck, Calculator, Check, ChevronLeft, ChevronRight, CircleHelp, FlaskConical, Layers3, Search, Sparkles } from "lucide-react";
+import { BookOpenCheck, Calculator, Check, ChevronLeft, ChevronRight, CircleHelp, Layers3, Search, Sparkles } from "lucide-react";
 import { useState } from "react";
 import type { SearchTarget } from "./globalSearch";
-import { HAZARD_LIBRARY_RECORDS } from "./hazardLibraryData";
 import { nextFlashcardProgress, type FlashcardRating, type LearningProgress } from "./learningProgress";
 import { BCSP_FREQUENTLY_USED_FORMULA_IDS, FLASHCARDS, FORMULA_ENTRIES } from "./studyLibraryData";
 import { BookmarkAction } from "./StudySystem";
 import type { StudySystemState } from "./studySystemState";
 import type { Attempt } from "./adaptiveEngine";
 import type { HazardResourceOpener } from "./hazardTypes";
-import { HazardsLibrary } from "./hazard-library/HazardsLibrary";
 export { HazardsLibrary } from "./hazard-library/HazardsLibrary";
 
-type LibraryTab = "flashcards" | "formulas" | "hazards";
+type LibraryTab = "flashcards" | "formulas";
 
 export default function StudyLibrary({ progress, onProgress, searchTarget, system, onSystem, mistakeAttempts, onOpen }: { progress: LearningProgress; onProgress: (next: LearningProgress) => void; searchTarget?: (SearchTarget & { requestKey: number }) | null; system: StudySystemState; onSystem: (system: StudySystemState) => void; mistakeAttempts: Attempt[]; onOpen: HazardResourceOpener }) {
-  const [tab, setTab] = useState<LibraryTab>(searchTarget?.libraryTab ?? "flashcards");
+  const [tab, setTab] = useState<LibraryTab>(searchTarget?.libraryTab === "formulas" ? "formulas" : "flashcards");
   return (
     <main className="resource-page library-page">
-      <section className="library-hero page-width"><div><p className="eyebrow"><BookOpenCheck size={16} /> Study library</p><h1>Retrieve. Apply. Space the review.</h1><p>Use flashcards for recurring recall, the formula library for structured problem solving, and the bilingual Hazard Library for workplace-hazard review.</p></div><div className="library-hero-stat"><strong>{FLASHCARDS.length + FORMULA_ENTRIES.length + HAZARD_LIBRARY_RECORDS.length}</strong><span>reference records</span></div></section>
-      <nav className="library-tabs page-width" aria-label="Study library tabs"><button className={tab === "flashcards" ? "active" : ""} onClick={() => setTab("flashcards")}><Layers3 size={17} /> Flashcards</button><button className={tab === "formulas" ? "active" : ""} onClick={() => setTab("formulas")}><Calculator size={17} /> Formula sheet</button><button className={tab === "hazards" ? "active" : ""} onClick={() => setTab("hazards")}><FlaskConical size={17} /> Hazards</button></nav>
+      <section className="library-hero page-width"><div><p className="eyebrow"><BookOpenCheck size={16} /> Study library</p><h1>Retrieve. Apply. Space the review.</h1><p>Use flashcards for recurring recall and the formula library for structured problem solving.</p></div><div className="library-hero-stat"><strong>{FLASHCARDS.length + FORMULA_ENTRIES.length}</strong><span>reference records</span></div></section>
+      <nav className="library-tabs page-width" aria-label="Study library tabs"><button className={tab === "flashcards" ? "active" : ""} onClick={() => setTab("flashcards")}><Layers3 size={17} /> Flashcards</button><button className={tab === "formulas" ? "active" : ""} onClick={() => setTab("formulas")}><Calculator size={17} /> Formula sheet</button></nav>
       {tab === "flashcards" && <Flashcards progress={progress} onProgress={onProgress} initialSearch={searchTarget?.libraryTab === "flashcards" ? searchTarget.query : undefined} requestKey={searchTarget?.requestKey} system={system} onSystem={onSystem} mistakeAttempts={mistakeAttempts} />}
       {tab === "formulas" && <FormulaLibrary initialSearch={searchTarget?.libraryTab === "formulas" ? searchTarget.query : undefined} requestKey={searchTarget?.requestKey} system={system} onSystem={onSystem} onOpen={onOpen} />}
-      {tab === "hazards" && <HazardsLibrary initialItemId={searchTarget?.itemId} initialSearch={searchTarget?.libraryTab === "hazards" ? searchTarget.query : undefined} requestKey={searchTarget?.requestKey} system={system} onSystem={onSystem} onOpen={onOpen} />}
     </main>
   );
 }
