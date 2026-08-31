@@ -1,28 +1,29 @@
 "use client";
 
-import { BookOpenCheck, Calculator, Check, ChevronLeft, ChevronRight, CircleHelp, FlaskConical, Languages, Layers3, Search, Sparkles } from "lucide-react";
+import { BookOpenCheck, Calculator, Check, ChevronLeft, ChevronRight, CircleHelp, FlaskConical, Layers3, Search, Sparkles } from "lucide-react";
 import { useState } from "react";
 import type { SearchTarget } from "./globalSearch";
-import { HAZARD_COUNTS, HAZARD_RECORDS, type HazardRecord } from "./hazardData";
+import { HAZARD_LIBRARY_RECORDS } from "./hazardLibraryData";
 import { nextFlashcardProgress, type FlashcardRating, type LearningProgress } from "./learningProgress";
 import { BCSP_FREQUENTLY_USED_FORMULA_IDS, FLASHCARDS, FORMULA_ENTRIES } from "./studyLibraryData";
-import { HazardBodyMap } from "./VisualLearningPanel";
-import { BODY_SYSTEMS, getHazardBodySystems, type BodySystemId } from "./visualLearning";
 import { BookmarkAction } from "./StudySystem";
 import type { StudySystemState } from "./studySystemState";
 import type { Attempt } from "./adaptiveEngine";
+import type { HazardResourceOpener } from "./hazardTypes";
+import { HazardsLibrary } from "./hazard-library/HazardsLibrary";
+export { HazardsLibrary } from "./hazard-library/HazardsLibrary";
 
 type LibraryTab = "flashcards" | "formulas" | "hazards";
 
-export default function StudyLibrary({ progress, onProgress, searchTarget, system, onSystem, mistakeAttempts, onOpen }: { progress: LearningProgress; onProgress: (next: LearningProgress) => void; searchTarget?: (SearchTarget & { requestKey: number }) | null; system: StudySystemState; onSystem: (system: StudySystemState) => void; mistakeAttempts: Attempt[]; onOpen: (view: "practice" | "standards", query: string) => void }) {
+export default function StudyLibrary({ progress, onProgress, searchTarget, system, onSystem, mistakeAttempts, onOpen }: { progress: LearningProgress; onProgress: (next: LearningProgress) => void; searchTarget?: (SearchTarget & { requestKey: number }) | null; system: StudySystemState; onSystem: (system: StudySystemState) => void; mistakeAttempts: Attempt[]; onOpen: HazardResourceOpener }) {
   const [tab, setTab] = useState<LibraryTab>(searchTarget?.libraryTab ?? "flashcards");
   return (
     <main className="resource-page library-page">
-      <section className="library-hero page-width"><div><p className="eyebrow"><BookOpenCheck size={16} /> Study library</p><h1>Retrieve. Apply. Space the review.</h1><p>Use flashcards for recurring recall, the formula library for structured problem solving, and bilingual hazard tables for occupational-health review.</p></div><div className="library-hero-stat"><strong>{FLASHCARDS.length + FORMULA_ENTRIES.length + HAZARD_RECORDS.length}</strong><span>reference records</span></div></section>
+      <section className="library-hero page-width"><div><p className="eyebrow"><BookOpenCheck size={16} /> Study library</p><h1>Retrieve. Apply. Space the review.</h1><p>Use flashcards for recurring recall, the formula library for structured problem solving, and the bilingual Hazard Library for workplace-hazard review.</p></div><div className="library-hero-stat"><strong>{FLASHCARDS.length + FORMULA_ENTRIES.length + HAZARD_LIBRARY_RECORDS.length}</strong><span>reference records</span></div></section>
       <nav className="library-tabs page-width" aria-label="Study library tabs"><button className={tab === "flashcards" ? "active" : ""} onClick={() => setTab("flashcards")}><Layers3 size={17} /> Flashcards</button><button className={tab === "formulas" ? "active" : ""} onClick={() => setTab("formulas")}><Calculator size={17} /> Formula sheet</button><button className={tab === "hazards" ? "active" : ""} onClick={() => setTab("hazards")}><FlaskConical size={17} /> Hazards</button></nav>
       {tab === "flashcards" && <Flashcards progress={progress} onProgress={onProgress} initialSearch={searchTarget?.libraryTab === "flashcards" ? searchTarget.query : undefined} requestKey={searchTarget?.requestKey} system={system} onSystem={onSystem} mistakeAttempts={mistakeAttempts} />}
       {tab === "formulas" && <FormulaLibrary initialSearch={searchTarget?.libraryTab === "formulas" ? searchTarget.query : undefined} requestKey={searchTarget?.requestKey} system={system} onSystem={onSystem} onOpen={onOpen} />}
-      {tab === "hazards" && <HazardsLibrary initialSearch={searchTarget?.libraryTab === "hazards" ? searchTarget.query : undefined} requestKey={searchTarget?.requestKey} system={system} onSystem={onSystem} onOpen={onOpen} />}
+      {tab === "hazards" && <HazardsLibrary initialItemId={searchTarget?.itemId} initialSearch={searchTarget?.libraryTab === "hazards" ? searchTarget.query : undefined} requestKey={searchTarget?.requestKey} system={system} onSystem={onSystem} onOpen={onOpen} />}
     </main>
   );
 }
@@ -53,7 +54,7 @@ function Flashcards({ progress, onProgress, initialSearch, system, onSystem, mis
   return <section className="page-width library-panel"><div className="library-toolbar"><div><p className="eyebrow"><Sparkles size={15} /> Spaced review</p><h2>Flashcard queue</h2></div><select value={deck} onChange={(event) => { setDeck(event.target.value); setIndex(0); setRevealed(false); }} aria-label="Filter flashcard deck">{decks.map((item) => <option value={item} key={item}>{item === "all" ? "All decks" : item}</option>)}</select></div><div className="resource-filters single flashcard-search"><label><Search size={16} /><input value={search} onChange={(event) => { setSearch(event.target.value); setIndex(0); setRevealed(false); }} placeholder="Search flashcards by concept or tag" aria-label="Search flashcards" /></label></div><div className="flash-stats"><span><strong>{due.length}</strong> due now</span><span><strong>{filtered.length - due.length}</strong> scheduled</span><span><strong>{mastered}</strong> mastered</span></div>{card ? <div className="flashcard-stage"><div className="library-bookmark-row"><BookmarkAction kind="flashcard" itemId={card.id} title={card.front} subtitle={card.back} chapterId={card.chapterId} system={system} onChange={onSystem} /></div><button type="button" className={revealed ? "flashcard revealed" : "flashcard"} onClick={() => setRevealed(true)}><small>{card.deck}{card.chapterId ? ` · ${card.chapterId.toUpperCase()}` : ""}</small><h3>{revealed ? card.back : card.front}</h3><span>{revealed ? "Rate how well you recalled it" : "Click to reveal the answer"}</span></button><div className="flashcard-nav"><button className="secondary-button" onClick={() => { setIndex((value) => (value - 1 + queue.length) % queue.length); setRevealed(false); }}><ChevronLeft size={16} /> Previous</button><span>{index % queue.length + 1} / {queue.length}</span><button className="secondary-button" onClick={() => { setIndex((value) => (value + 1) % queue.length); setRevealed(false); }}>Next <ChevronRight size={16} /></button></div>{revealed && <div className="rating-row"><button onClick={() => rate("again")}><strong>Again</strong><span>10 min</span></button><button onClick={() => rate("hard")}><strong>Hard</strong><span>1 day+</span></button><button onClick={() => rate("good")}><strong>Good</strong><span>adaptive</span></button><button onClick={() => rate("easy")}><strong>Easy</strong><span>longer gap</span></button></div>}</div> : <div className="empty-state"><Check /><h3>No cards match this search.</h3></div>}</section>;
 }
 
-function FormulaLibrary({ initialSearch, system, onSystem, onOpen }: { initialSearch?: string; requestKey?: number; system: StudySystemState; onSystem: (system: StudySystemState) => void; onOpen: (view: "practice" | "standards", query: string) => void }) {
+function FormulaLibrary({ initialSearch, system, onSystem, onOpen }: { initialSearch?: string; requestKey?: number; system: StudySystemState; onSystem: (system: StudySystemState) => void; onOpen: HazardResourceOpener }) {
   const PAGE_SIZE = 24;
   const [search, setSearch] = useState(initialSearch ?? "");
   const [category, setCategory] = useState("all");
@@ -112,86 +113,4 @@ function FormulaLibrary({ initialSearch, system, onSystem, onOpen }: { initialSe
     </> : <div className="empty-state"><Search size={22} /><h3>No formulas match those filters.</h3><p>Try a different term or select another category.</p></div>}
     <p className="reference-note"><CircleHelp size={15} /> Complete coverage includes 104 deduplicated equation, conversion, and constant families from the supplied 23-page ASP formula sheet, plus 2 clearly marked Yates supplemental cards. Six lookup tables and charts were visually reviewed but are intentionally not counted as formulas. The 47 printed equations in “Equations Most Often Used on BCSP Exams” on pp. 12–23 map to 44 deduplicated cards. This is the supplied study-sheet label, not a guarantee of current exam frequency.</p>
   </section>;
-}
-
-function HazardsLibrary({ initialSearch, requestKey, system, onSystem, onOpen }: { initialSearch?: string; requestKey?: number; system: StudySystemState; onSystem: (system: StudySystemState) => void; onOpen: (view: "practice" | "standards", query: string) => void }) {
-  const [mode, setMode] = useState<"explore" | "table">("explore");
-  return <section className="page-width library-panel">
-    <div className="library-toolbar">
-      <div><p className="eyebrow"><FlaskConical size={15} /> Occupational health reference</p><h2>See where hazards can act</h2></div>
-      <span>Built from {HAZARD_COUNTS.total} bilingual table records</span>
-    </div>
-    <div className="hazard-view-switches" role="group" aria-label="Hazard library view">
-      <button className={mode === "explore" ? "active" : ""} onClick={() => setMode("explore")}>Body-system explorer</button>
-      <button className={mode === "table" ? "active" : ""} onClick={() => setMode("table")}>Source data table</button>
-    </div>
-    {mode === "explore" ? <HazardExplorer initialSearch={initialSearch} requestKey={requestKey} system={system} onSystem={onSystem} onOpen={onOpen} /> : <HazardTable initialSearch={initialSearch} requestKey={requestKey} />}
-  </section>;
-}
-
-function HazardExplorer({ initialSearch, system, onSystem, onOpen }: { initialSearch?: string; requestKey?: number; system: StudySystemState; onSystem: (system: StudySystemState) => void; onOpen: (view: "practice" | "standards", query: string) => void }) {
-  const initialRecord = initialSearch ? HAZARD_RECORDS.find((record) => JSON.stringify(record).toLowerCase().includes(initialSearch.toLowerCase())) : undefined;
-  const [category, setCategory] = useState<HazardRecord["category"]>(initialRecord?.category ?? "toxicological");
-  const [language, setLanguage] = useState<"both" | "en" | "ar">("both");
-  const [search, setSearch] = useState(initialSearch ?? "");
-  const [selectedSystem, setSelectedSystem] = useState<BodySystemId | null>(null);
-  const [selectedRecordId, setSelectedRecordId] = useState<string | null>(initialRecord?.id ?? null);
-  const records = HAZARD_RECORDS.filter((record) => record.category === category && JSON.stringify(record).toLowerCase().includes(search.toLowerCase()));
-  const activeSystems = [...new Set(records.flatMap((record) => getHazardBodySystems(record.id)))];
-  const visibleRecords = selectedSystem ? records.filter((record) => getHazardBodySystems(record.id).includes(selectedSystem)) : records;
-  const selectedRecord = visibleRecords.find((record) => record.id === selectedRecordId) ?? visibleRecords[0];
-  const renderText = (text: { en: string; ar: string }) => <>{language !== "ar" && <span lang="en">{text.en}</span>}{language === "both" && <i />}{language !== "en" && <span lang="ar" dir="rtl">{text.ar}</span>}</>;
-  const selectCategory = (next: HazardRecord["category"]) => { setCategory(next); setSelectedSystem(null); setSelectedRecordId(null); };
-  const chooseSystem = (system: BodySystemId) => { setSelectedSystem((current) => current === system ? null : system); setSelectedRecordId(null); };
-
-  return <div className="hazard-explorer-panel">
-    <div className="hazard-switches">
-      <div><button className={category === "toxicological" ? "active" : ""} onClick={() => selectCategory("toxicological")}>Toxic substances ({HAZARD_COUNTS.toxicological})</button><button className={category === "biological" ? "active" : ""} onClick={() => selectCategory("biological")}>Biological hazards ({HAZARD_COUNTS.biological})</button></div>
-      <div><Languages size={16} /><button className={language === "both" ? "active" : ""} onClick={() => setLanguage("both")}>Both</button><button className={language === "en" ? "active" : ""} onClick={() => setLanguage("en")}>English</button><button className={language === "ar" ? "active" : ""} onClick={() => setLanguage("ar")}>العربية</button></div>
-    </div>
-    <div className="resource-filters single"><label><Search size={16} /><input value={search} onChange={(event) => { setSearch(event.target.value); setSelectedSystem(null); setSelectedRecordId(null); }} placeholder="Search hazard, consequence, route, or occupation" /></label></div>
-    <p className="hazard-explorer-intro">Select a body-system marker to narrow the source table, then choose a record to connect the route of exposure, likely consequences, and work context.</p>
-    <div className="hazard-explorer">
-      <aside className="hazard-record-rail" aria-label="Hazard records">
-        <div className="hazard-rail-heading"><span>{selectedSystem ? BODY_SYSTEMS.find((system) => system.id === selectedSystem)?.label : category === "biological" ? "Biological hazards" : "Toxic substances"}</span><b>{visibleRecords.length}</b></div>
-        <div className="hazard-record-list">
-          {visibleRecords.map((record) => <button className={selectedRecord?.id === record.id ? "active" : ""} type="button" onClick={() => setSelectedRecordId(record.id)} key={record.id}><span className="hazard-record-dot" /> <span><strong>{record.hazardDisease.en}</strong>{language !== "en" && <small lang="ar" dir="rtl">{record.hazardDisease.ar}</small>}</span></button>)}
-          {!visibleRecords.length && <p className="hazard-empty">No records match this body system and search.</p>}
-        </div>
-      </aside>
-      <HazardBodyMap activeSystems={activeSystems} selectedSystem={selectedSystem} onSelect={chooseSystem} />
-      <article className="hazard-detail-card">
-        {selectedRecord ? <>
-          <div className="hazard-detail-kicker"><span>{selectedRecord.category === "biological" ? "Biological hazard" : "Toxicological hazard"}</span><small>Source row {selectedRecord.sourceRow}</small></div>
-          <div className="hazard-bookmark-heading"><h3>{renderText(selectedRecord.hazardDisease)}</h3><BookmarkAction kind="hazard" itemId={selectedRecord.id} title={selectedRecord.hazardDisease.en} subtitle={selectedRecord.mainConsequences.en} system={system} onChange={onSystem} /></div>
-          <div className="hazard-system-chips">{getHazardBodySystems(selectedRecord.id).map((systemId) => { const system = BODY_SYSTEMS.find((item) => item.id === systemId)!; return <button key={systemId} type="button" onClick={() => chooseSystem(systemId)}><i style={{ background: system.color }} />{system.label}</button>; })}</div>
-          <dl>
-            <div><dt>Target organ / system</dt><dd>{renderText(selectedRecord.targetOrganSystem)}</dd></div>
-            <div><dt>Main consequences</dt><dd>{renderText(selectedRecord.mainConsequences)}</dd></div>
-            <div><dt>Exposure / transmission</dt><dd>{renderText(selectedRecord.exposureTransmission)}</dd></div>
-            <div><dt>High-risk work</dt><dd>{renderText(selectedRecord.highRiskOccupationsWorkplace)}</dd></div>
-          </dl>
-          <div className="hazard-crosslinks"><button className="secondary-button" onClick={() => onOpen("standards", selectedRecord.hazardDisease.en)}>Related OSHA standards</button><button className="secondary-button" onClick={() => onOpen("practice", selectedRecord.hazardDisease.en)}>Related Practice</button></div>
-          <p className="hazard-detail-disclaimer"><CircleHelp size={14} /> Study summary only — verify workplace actions against current SDSs, site procedures, and authoritative guidance.</p>
-        </> : <div className="hazard-detail-empty"><FlaskConical size={24} /><h3>No matching record</h3><p>Try another body system or clear the search term.</p></div>}
-      </article>
-    </div>
-  </div>;
-}
-
-function HazardTable({ initialSearch }: { initialSearch?: string; requestKey?: number }) {
-  const [category, setCategory] = useState<HazardRecord["category"]>("toxicological");
-  const [language, setLanguage] = useState<"both" | "en" | "ar">("both");
-  const [search, setSearch] = useState(initialSearch ?? "");
-  const fields: Array<[keyof Pick<HazardRecord, "hazardDisease" | "type" | "definition" | "targetOrganSystem" | "mainConsequences" | "exposureTransmission" | "highRiskOccupationsWorkplace">, string]> = [["hazardDisease", "Hazard / Disease"], ["type", "Type"], ["definition", "Definition"], ["targetOrganSystem", "Target Organ / System"], ["mainConsequences", "Main Consequences"], ["exposureTransmission", "Exposure / Transmission"], ["highRiskOccupationsWorkplace", "High-Risk Occupations / Workplace"]];
-  const records = HAZARD_RECORDS.filter((record) => record.category === category && JSON.stringify(record).toLowerCase().includes(search.toLowerCase()));
-  const renderText = (text: { en: string; ar: string }) => <>{language !== "ar" && <span lang="en">{text.en}</span>}{language === "both" && <i />}{language !== "en" && <span lang="ar" dir="rtl">{text.ar}</span>}</>;
-  return <div className="hazard-table-panel">
-    <p className="hazard-table-intro">Use the table when you want the original source fields side by side. The explorer preserves the same records while making target systems easier to compare.</p>
-    <div className="hazard-switches"><div><button className={category === "toxicological" ? "active" : ""} onClick={() => setCategory("toxicological")}>Toxic substances ({HAZARD_COUNTS.toxicological})</button><button className={category === "biological" ? "active" : ""} onClick={() => setCategory("biological")}>Biological hazards ({HAZARD_COUNTS.biological})</button></div><div><Languages size={16} /><button className={language === "both" ? "active" : ""} onClick={() => setLanguage("both")}>Both</button><button className={language === "en" ? "active" : ""} onClick={() => setLanguage("en")}>English</button><button className={language === "ar" ? "active" : ""} onClick={() => setLanguage("ar")}>العربية</button></div></div>
-    <div className="resource-filters single"><label><Search size={16} /><input value={search} onChange={(event) => setSearch(event.target.value)} placeholder="Search hazard, consequence, route, or occupation" /></label></div>
-    <div className="hazard-table-wrap"><table className="hazard-table"><thead><tr>{fields.map(([, label]) => <th key={label}>{label}</th>)}</tr></thead><tbody>{records.map((record) => <tr key={record.id}>{fields.map(([field]) => <td key={field}>{renderText(record[field])}</td>)}</tr>)}</tbody></table></div>
-    <div className="hazard-mobile-list">{records.map((record) => <details key={record.id}><summary>{renderText(record.hazardDisease)}</summary><div>{fields.slice(1).map(([field, label]) => <p key={field}><strong>{label}</strong>{renderText(record[field])}</p>)}</div></details>)}</div>
-    <p className="reference-note"><CircleHelp size={15} /> Study summaries based on the supplied workbook rows. They are not medical advice; verify workplace decisions against current authoritative guidance.</p>
-  </div>;
 }

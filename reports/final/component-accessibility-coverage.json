@@ -1,0 +1,2057 @@
+{
+  "scope": "Coverage inventory; actual command outcomes are recorded separately in validation.json and logs. Browser checks are samples, not a formal assistive-technology conformance certification.",
+  "engines": [
+    "body-system",
+    "worker-scene",
+    "concept-diagram",
+    "equipment-scene",
+    "process-diagram"
+  ],
+  "perRecordLanguageCoverage": [
+    {
+      "id": "bio-anthrax",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-brucellosis",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-leptospirosis",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-plague",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-tetanus",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-tuberculosis",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-tularemia",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-cat-scratch-disease",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-hepatitis-a",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-hepatitis-b",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-orf",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-rabies",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-psittacosis",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-rocky-mountain-spotted-fever",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-q-fever",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-aspergillosis",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-candidiasis",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-coccidioidomycosis",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "bio-histoplasmosis",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-asbestos",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-benzene",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-cotton-dust",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-arsenic",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-beryllium",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-cadmium",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-hexavalent-chromium",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-coal-dust",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-cobalt",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-formaldehyde",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-lead",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-mercury",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-manganese",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-silica",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-zinc-fumes",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-aluminum-dust",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-antimony",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "tox-organophosphate-carbamate-pesticides",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ELEC-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-011",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-012",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-013",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FALL-014",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-011",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-012",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-013",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MACH-014",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-011",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-012",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-013",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-MAT-014",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/phase4-hazards.test.mjs"
+    },
+    {
+      "id": "HL-EXC-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-EXC-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-EXC-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-EXC-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-EXC-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-EXC-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-EXC-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-EXC-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CONF-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CONF-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CONF-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CONF-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CONF-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CONF-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CONF-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CONF-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CONF-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-LOTO-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PRESS-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PRESS-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PRESS-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PRESS-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PRESS-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PRESS-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PRESS-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PRESS-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-011",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-012",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-013",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-014",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-CHEM-015",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-011",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-FIRE-012",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-PSM-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-011",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ERGO-012",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-NOISE-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-NOISE-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-NOISE-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-NOISE-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-NOISE-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-NOISE-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-NOISE-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-NOISE-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-THERM-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-RAD-011",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-009",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-ENV-010",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-SEC-001",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-SEC-002",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-SEC-003",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-SEC-004",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-SEC-005",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-SEC-006",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-SEC-007",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    },
+    {
+      "id": "HL-SEC-008",
+      "languages": [
+        "en",
+        "ar",
+        "both"
+      ],
+      "testFile": "tests/final-hazards.test.mjs"
+    }
+  ],
+  "componentSuites": [
+    "tests/final-hazards.test.mjs",
+    "tests/hazard-library.test.mjs",
+    "tests/hazard-scenes.test.mjs",
+    "tests/body-explorer.test.mjs",
+    "tests/phase4-hazards.test.mjs",
+    "tests/phase41-integrations.test.mjs"
+  ],
+  "checks": [
+    {
+      "feature": "Click/tap and Enter/Space selection; arrows/Home/End focus; pressed state; external bilingual callouts",
+      "evidence": [
+        "tests/hazard-scenes.test.mjs",
+        "tests/final-hazards.test.mjs"
+      ]
+    },
+    {
+      "feature": "Body keyboard regions, reverse filtering, three modes, source table and OH Save",
+      "evidence": [
+        "tests/body-explorer.test.mjs"
+      ]
+    },
+    {
+      "feature": "Category/More navigation, Escape and language switching",
+      "evidence": [
+        "tests/hazard-library.test.mjs",
+        "reports/final/browser-qa.json"
+      ]
+    },
+    {
+      "feature": "Visible focus, non-color roles, reduced-motion CSS, responsive layout",
+      "evidence": [
+        "tests/hazard-scenes.test.mjs",
+        "tests/body-explorer.test.mjs"
+      ]
+    },
+    {
+      "feature": "220 canonical search targets; legacy alias Save and independent note editing",
+      "evidence": [
+        "tests/final-hazards.test.mjs",
+        "tests/phase41-integrations.test.mjs"
+      ]
+    },
+    {
+      "feature": "Exact standards references, false-match rejection, missing standards; real Practice IDs",
+      "evidence": [
+        "tests/final-hazards.test.mjs",
+        "tests/phase41-integrations.test.mjs",
+        "reports/final/standards.json",
+        "reports/final/practice.json"
+      ]
+    }
+  ],
+  "browserEvidence": "reports/final/browser-qa.json",
+  "viewportWidths": [
+    1536,
+    1024,
+    390
+  ],
+  "visualReview": "All 17 new scene assets reviewed individually or in phase contact sheets; sampled live desktop/mobile Arabic captures reviewed. Existing physical scene orientation remains LTR while Arabic callouts are RTL.",
+  "limitations": [
+    "No formal screen-reader/assistive-technology certification performed.",
+    "Reduced motion is covered by stylesheet regression tests; browser motion preference was not emulated.",
+    "Contrast and text wrapping received visual review, not exhaustive automated WCAG measurement."
+  ]
+}

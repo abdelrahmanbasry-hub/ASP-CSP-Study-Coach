@@ -1,0 +1,178 @@
+{
+  "matrix": [
+    {
+      "callouts": 4,
+      "id": "HL-PRESS-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "pressure-vessel",
+      "stageWidth": 520,
+      "template": "pressure-vessel-hose",
+      "touchTargets": true,
+      "width": 1536
+    },
+    {
+      "callouts": 4,
+      "id": "HL-CHEM-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "chemical-container",
+      "stageWidth": 520,
+      "template": "chemical-process-containment",
+      "touchTargets": true,
+      "width": 1536
+    },
+    {
+      "callouts": 5,
+      "id": "HL-ERGO-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "load",
+      "stageWidth": 520,
+      "template": "ergonomic-worker-lift",
+      "touchTargets": true,
+      "width": 1536
+    },
+    {
+      "callouts": 4,
+      "id": "HL-ENV-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "air-source",
+      "stageWidth": 520,
+      "template": "environmental-release-pathways",
+      "touchTargets": true,
+      "width": 1536
+    },
+    {
+      "callouts": 4,
+      "id": "HL-PRESS-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "pressure-vessel",
+      "stageWidth": 520,
+      "template": "pressure-vessel-hose",
+      "touchTargets": true,
+      "width": 1024
+    },
+    {
+      "callouts": 4,
+      "id": "HL-CHEM-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "chemical-container",
+      "stageWidth": 520,
+      "template": "chemical-process-containment",
+      "touchTargets": true,
+      "width": 1024
+    },
+    {
+      "callouts": 5,
+      "id": "HL-ERGO-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "load",
+      "stageWidth": 520,
+      "template": "ergonomic-worker-lift",
+      "touchTargets": true,
+      "width": 1024
+    },
+    {
+      "callouts": 4,
+      "id": "HL-ENV-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "air-source",
+      "stageWidth": 520,
+      "template": "environmental-release-pathways",
+      "touchTargets": true,
+      "width": 1024
+    },
+    {
+      "callouts": 4,
+      "id": "HL-PRESS-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "pressure-vessel",
+      "stageWidth": 321,
+      "template": "pressure-vessel-hose",
+      "touchTargets": true,
+      "width": 390
+    },
+    {
+      "callouts": 4,
+      "id": "HL-CHEM-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "chemical-container",
+      "stageWidth": 321,
+      "template": "chemical-process-containment",
+      "touchTargets": true,
+      "width": 390
+    },
+    {
+      "callouts": 5,
+      "id": "HL-ERGO-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "load",
+      "stageWidth": 321,
+      "template": "ergonomic-worker-lift",
+      "touchTargets": true,
+      "width": 390
+    },
+    {
+      "callouts": 4,
+      "id": "HL-ENV-001",
+      "loaded": 1200,
+      "overflow": false,
+      "selected": "air-source",
+      "stageWidth": 321,
+      "template": "environmental-release-pathways",
+      "touchTargets": true,
+      "width": 390
+    }
+  ],
+  "mobileArabic": {
+    "artDirection": "ltr",
+    "calloutDirection": "rtl",
+    "englishSpans": 0,
+    "loaded": 1200,
+    "markers": [
+      {
+        "height": 44,
+        "width": 44
+      },
+      {
+        "height": 44,
+        "width": 44
+      },
+      {
+        "height": 44,
+        "width": 44
+      },
+      {
+        "height": 44,
+        "width": 44
+      }
+    ],
+    "overflow": false,
+    "selected": "plume",
+    "stageWidth": 321,
+    "width": 390
+  },
+  "more": {
+    "count": 2,
+    "ids": [
+      "HL-ENV-007",
+      "HL-ENV-010"
+    ],
+    "overflow": false,
+    "escaped": true
+  },
+  "checks": {
+    "allVisible": 220,
+    "visiblePrototypes": 0,
+    "noRealNotebookWrites": true
+  }
+}

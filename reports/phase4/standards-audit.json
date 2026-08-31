@@ -1,0 +1,835 @@
+{
+  "resolved": [
+    {
+      "hazardId": "HL-MACH-012",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "resolved",
+      "standardId": "1910-147"
+    },
+    {
+      "hazardId": "HL-MAT-007",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "resolved",
+      "standardId": "1910-147"
+    }
+  ],
+  "unresolvedUnique": [
+    "1910.140",
+    "1910.176",
+    "1910.178",
+    "1910.179",
+    "1910.184",
+    "1910.212",
+    "1910.215",
+    "1910.219",
+    "1910.22",
+    "1910.23",
+    "1910.242",
+    "1910.243",
+    "1910.25",
+    "1910.27",
+    "1910.28",
+    "1910.29",
+    "1910.303",
+    "1910.304",
+    "1910.305",
+    "1910.333",
+    "1910.334",
+    "1910.335",
+    "1910.67",
+    "1926 Subpart CC",
+    "1926.1052",
+    "1926.1053",
+    "1926.251",
+    "1926.404",
+    "1926.405",
+    "1926.416",
+    "1926.441",
+    "1926.451",
+    "1926.453",
+    "1926.454",
+    "1926.501",
+    "1926.502",
+    "1926.555",
+    "1926.602"
+  ],
+  "unresolvedReferenceCount": 108,
+  "references": [
+    {
+      "hazardId": "HL-ELEC-001",
+      "number": "1910.333",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-001",
+      "number": "1910.335",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-001",
+      "number": "1926.416",
+      "scope": "construction",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-002",
+      "number": "1910.333",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-002",
+      "number": "1910.335",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-002",
+      "number": "1926.416",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-003",
+      "number": "1910.333",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-003",
+      "number": "1910.335",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-003",
+      "number": "1926.416",
+      "scope": "construction",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-004",
+      "number": "1910.303",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-004",
+      "number": "1910.333",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-004",
+      "number": "1926.416",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-005",
+      "number": "1910.333",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-005",
+      "number": "1926.416",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-006",
+      "number": "1910.304",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-006",
+      "number": "1910.305",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-006",
+      "number": "1926.404",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-006",
+      "number": "1926.405",
+      "scope": "construction",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-007",
+      "number": "1910.305",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-007",
+      "number": "1910.334",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-007",
+      "number": "1926.405",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-008",
+      "number": "1910.304",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-008",
+      "number": "1910.305",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-008",
+      "number": "1926.404",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-009",
+      "number": "1910.304",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-009",
+      "number": "1926.404",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-010",
+      "number": "1910.303",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-010",
+      "number": "1910.304",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-010",
+      "number": "1910.305",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-ELEC-010",
+      "number": "1926.404",
+      "scope": "construction",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-001",
+      "number": "1910.22",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-002",
+      "number": "1910.22",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-003",
+      "number": "1910.28",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-003",
+      "number": "1910.29",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-003",
+      "number": "1926.501",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-003",
+      "number": "1926.502",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-004",
+      "number": "1910.28",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-004",
+      "number": "1910.29",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-004",
+      "number": "1926.501",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-004",
+      "number": "1926.502",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-005",
+      "number": "1910.23",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-005",
+      "number": "1926.1053",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-006",
+      "number": "1910.25",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-006",
+      "number": "1926.1052",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-007",
+      "number": "1910.27",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-007",
+      "number": "1926.451",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-007",
+      "number": "1926.454",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-008",
+      "number": "1910.28",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-008",
+      "number": "1926.501",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-009",
+      "number": "1910.67",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-009",
+      "number": "1926.453",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-010",
+      "number": "1910.27",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-010",
+      "number": "1910.140",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-011",
+      "number": "1910.28",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-011",
+      "number": "1910.29",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-011",
+      "number": "1926.451",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-011",
+      "number": "1926.501",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-012",
+      "number": "1910.140",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-012",
+      "number": "1926.502",
+      "scope": "construction",
+      "relation": "general-related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-013",
+      "number": "1910.140",
+      "scope": "general-industry",
+      "relation": "direct-system-criteria",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-013",
+      "number": "1926.502",
+      "scope": "construction",
+      "relation": "direct-system-criteria",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-014",
+      "number": "1910.140",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-FALL-014",
+      "number": "1926.502",
+      "scope": "construction",
+      "relation": "general-related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-001",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-002",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-003",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-003",
+      "number": "1910.219",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-004",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-004",
+      "number": "1910.219",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-005",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-006",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-007",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-007",
+      "number": "1910.243",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-008",
+      "number": "1910.215",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-008",
+      "number": "1910.243",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-009",
+      "number": "1910.243",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-010",
+      "number": "1910.242",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-011",
+      "number": "1910.242",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-011",
+      "number": "1910.243",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-012",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-012",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "resolved",
+      "standardId": "1910-147"
+    },
+    {
+      "hazardId": "HL-MACH-013",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-013",
+      "number": "1910.219",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-013",
+      "number": "1926.555",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-014",
+      "number": "1910.212",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MACH-014",
+      "number": "1926.555",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-001",
+      "number": "1910.176",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-002",
+      "number": "1910.176",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-003",
+      "number": "1910.178",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-003",
+      "number": "1926.602",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-004",
+      "number": "1910.178",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-004",
+      "number": "1926.602",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-005",
+      "number": "1910.178",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-005",
+      "number": "1926.602",
+      "scope": "construction",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-006",
+      "number": "1910.178",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-006",
+      "number": "1926.602",
+      "scope": "construction",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-007",
+      "number": "1910.178",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-007",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "resolved",
+      "standardId": "1910-147"
+    },
+    {
+      "hazardId": "HL-MAT-008",
+      "number": "1910.178",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-008",
+      "number": "1910.176",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-009",
+      "number": "1910.176",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-009",
+      "number": "1910.178",
+      "scope": "general-industry",
+      "relation": "related-powered-only",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-010",
+      "number": "1910.176",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-011",
+      "number": "1910.176",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-012",
+      "number": "1910.179",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-012",
+      "number": "1926 Subpart CC",
+      "scope": "construction",
+      "relation": "direct-family",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-013",
+      "number": "1910.184",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-013",
+      "number": "1926.251",
+      "scope": "construction",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-014",
+      "number": "1910.178",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "unresolved"
+    },
+    {
+      "hazardId": "HL-MAT-014",
+      "number": "1926.441",
+      "scope": "construction",
+      "relation": "related",
+      "resolution": "unresolved"
+    }
+  ]
+}

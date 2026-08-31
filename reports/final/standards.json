@@ -1,0 +1,3071 @@
+{
+  "schemaVersion": 1,
+  "catalog": [
+    {
+      "id": "1910-95",
+      "citation": "29 CFR 1910.95"
+    },
+    {
+      "id": "1910-134",
+      "citation": "29 CFR 1910.134"
+    },
+    {
+      "id": "1910-146",
+      "citation": "29 CFR 1910.146"
+    },
+    {
+      "id": "1910-147",
+      "citation": "29 CFR 1910.147"
+    },
+    {
+      "id": "1910-1200",
+      "citation": "29 CFR 1910.1200"
+    },
+    {
+      "id": "1910-38",
+      "citation": "29 CFR 1910.38"
+    }
+  ],
+  "summary": {
+    "totalOccurrences": 256,
+    "resolvedOccurrences": 53,
+    "missingOccurrences": 203,
+    "missingUniqueReferences": 65
+  },
+  "resolved": [
+    {
+      "hazardId": "HL-MACH-012",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-MAT-007",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-001",
+      "number": "1910.146",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-146",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-002",
+      "number": "1910.146",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-146",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-003",
+      "number": "1910.146",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-146",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-004",
+      "number": "1910.146",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-146",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-005",
+      "number": "1910.146",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-146",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-006",
+      "number": "1910.146",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-146",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-007",
+      "number": "1910.146",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-146",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-007",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-008",
+      "number": "1910.146",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-146",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-008",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CONF-009",
+      "number": "1910.146",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-146",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-001",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-002",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-003",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-004",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-005",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-006",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-007",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-008",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-009",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-LOTO-010",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-PRESS-003",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "related-servicing",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-PRESS-006",
+      "number": "1910.147",
+      "scope": "general-industry",
+      "relation": "related-servicing",
+      "resolution": "resolved",
+      "standardId": "1910-147",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-001",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "direct-hazard-communication",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-002",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-003",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "direct-hazard-classification",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-004",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "direct-hazard-classification",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-005",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "direct-hazard-classification",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-006",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "direct-hazard-classification",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-007",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "direct-hazard-classification",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-008",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "direct-hazard-classification",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-009",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-010",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-011",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-012",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-013",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-014",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "related",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-CHEM-015",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "general-related",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-FIRE-007",
+      "number": "1910.1200",
+      "scope": "general-industry",
+      "relation": "related-hazard-classification",
+      "resolution": "resolved",
+      "standardId": "1910-1200",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-NOISE-001",
+      "number": "1910.95",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-95",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-NOISE-002",
+      "number": "1910.95",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-95",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-NOISE-003",
+      "number": "1910.95",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-95",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-NOISE-004",
+      "number": "1910.95",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-95",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-NOISE-005",
+      "number": "1910.95",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-95",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-NOISE-006",
+      "number": "1910.95",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-95",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-NOISE-007",
+      "number": "1910.95",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-95",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-NOISE-008",
+      "number": "1910.95",
+      "scope": "general-industry",
+      "relation": "direct",
+      "resolution": "resolved",
+      "standardId": "1910-95",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-SEC-004",
+      "number": "1910.38",
+      "scope": "general-industry",
+      "relation": "related-emergency-action-plan",
+      "resolution": "resolved",
+      "standardId": "1910-38",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-SEC-006",
+      "number": "1910.38",
+      "scope": "general-industry",
+      "relation": "related-emergency-action-plan",
+      "resolution": "resolved",
+      "standardId": "1910-38",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-SEC-007",
+      "number": "1910.38",
+      "scope": "general-industry",
+      "relation": "related-emergency-action-plan",
+      "resolution": "resolved",
+      "standardId": "1910-38",
+      "matchMethod": "exact"
+    },
+    {
+      "hazardId": "HL-SEC-008",
+      "number": "1910.38",
+      "scope": "general-industry",
+      "relation": "related-emergency-action-plan",
+      "resolution": "resolved",
+      "standardId": "1910-38",
+      "matchMethod": "exact"
+    }
+  ],
+  "missing": [
+    {
+      "normalizedNumber": "1910 Subpart L",
+      "suppliedNumbers": [
+        "1910 Subpart L"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FIRE-001",
+          "number": "1910 Subpart L",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.101",
+      "suppliedNumbers": [
+        "1910.101"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-PRESS-008",
+          "number": "1910.101",
+          "scope": "general-industry",
+          "relation": "direct-general-compressed-gas",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CHEM-003",
+          "number": "1910.101",
+          "scope": "general-industry",
+          "relation": "related-compressed-gas",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CHEM-009",
+          "number": "1910.101",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FIRE-008",
+          "number": "1910.101",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.106",
+      "suppliedNumbers": [
+        "1910.106"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-CHEM-002",
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CHEM-015",
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "conditional-flammable-liquids",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FIRE-001",
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FIRE-002",
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FIRE-006",
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "related-flammable-liquid-transfer",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.1096",
+      "suppliedNumbers": [
+        "1910.1096"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-RAD-001",
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-RAD-002",
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-RAD-003",
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-RAD-004",
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-RAD-005",
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.119",
+      "suppliedNumbers": [
+        "1910.119"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-CHEM-011",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "conditional-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CHEM-012",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "conditional-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FIRE-002",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "conditional-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-001",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-002",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-003",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-004",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-005",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-006",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-007",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-008",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-009",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PSM-010",
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.120",
+      "suppliedNumbers": [
+        "1910.120"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-CHEM-014",
+          "number": "1910.120",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.132",
+      "suppliedNumbers": [
+        "1910.132"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-CHEM-013",
+          "number": "1910.132",
+          "scope": "general-industry",
+          "relation": "related-PPE",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.140",
+      "suppliedNumbers": [
+        "1910.140"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-010",
+          "number": "1910.140",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-012",
+          "number": "1910.140",
+          "scope": "general-industry",
+          "relation": "general-related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-013",
+          "number": "1910.140",
+          "scope": "general-industry",
+          "relation": "direct-system-criteria",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-014",
+          "number": "1910.140",
+          "scope": "general-industry",
+          "relation": "general-related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.157",
+      "suppliedNumbers": [
+        "1910.157"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FIRE-012",
+          "number": "1910.157",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.159",
+      "suppliedNumbers": [
+        "1910.159"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FIRE-011",
+          "number": "1910.159",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.160",
+      "suppliedNumbers": [
+        "1910.160"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FIRE-011",
+          "number": "1910.160",
+          "scope": "general-industry",
+          "relation": "related-fixed-systems",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.164",
+      "suppliedNumbers": [
+        "1910.164"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FIRE-010",
+          "number": "1910.164",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.169",
+      "suppliedNumbers": [
+        "1910.169"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-PRESS-001",
+          "number": "1910.169",
+          "scope": "general-industry",
+          "relation": "direct-air-receivers-only",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PRESS-004",
+          "number": "1910.169",
+          "scope": "general-industry",
+          "relation": "related-air-receivers",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.176",
+      "suppliedNumbers": [
+        "1910.176"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MAT-001",
+          "number": "1910.176",
+          "scope": "general-industry",
+          "relation": "general-related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-002",
+          "number": "1910.176",
+          "scope": "general-industry",
+          "relation": "general-related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-008",
+          "number": "1910.176",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-009",
+          "number": "1910.176",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-010",
+          "number": "1910.176",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-011",
+          "number": "1910.176",
+          "scope": "general-industry",
+          "relation": "general-related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.178",
+      "suppliedNumbers": [
+        "1910.178"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MAT-003",
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-004",
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-005",
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-006",
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-007",
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-008",
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-009",
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "related-powered-only",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-014",
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FIRE-009",
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "direct-powered-industrial-trucks",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.179",
+      "suppliedNumbers": [
+        "1910.179"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MAT-012",
+          "number": "1910.179",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.184",
+      "suppliedNumbers": [
+        "1910.184"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MAT-013",
+          "number": "1910.184",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.212",
+      "suppliedNumbers": [
+        "1910.212"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MACH-001",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-002",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-003",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-004",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-005",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-006",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-007",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-012",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "general-related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-013",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-014",
+          "number": "1910.212",
+          "scope": "general-industry",
+          "relation": "general-related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.215",
+      "suppliedNumbers": [
+        "1910.215"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MACH-008",
+          "number": "1910.215",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.219",
+      "suppliedNumbers": [
+        "1910.219"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MACH-003",
+          "number": "1910.219",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-004",
+          "number": "1910.219",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-013",
+          "number": "1910.219",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.22",
+      "suppliedNumbers": [
+        "1910.22"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-001",
+          "number": "1910.22",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-002",
+          "number": "1910.22",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.23",
+      "suppliedNumbers": [
+        "1910.23"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-005",
+          "number": "1910.23",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.242",
+      "suppliedNumbers": [
+        "1910.242"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MACH-010",
+          "number": "1910.242",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-011",
+          "number": "1910.242",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PRESS-002",
+          "number": "1910.242",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PRESS-005",
+          "number": "1910.242",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.243",
+      "suppliedNumbers": [
+        "1910.243"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MACH-007",
+          "number": "1910.243",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-008",
+          "number": "1910.243",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-009",
+          "number": "1910.243",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-011",
+          "number": "1910.243",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.25",
+      "suppliedNumbers": [
+        "1910.25"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-006",
+          "number": "1910.25",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.252",
+      "suppliedNumbers": [
+        "1910.252"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FIRE-004",
+          "number": "1910.252",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FIRE-005",
+          "number": "1910.252",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.27",
+      "suppliedNumbers": [
+        "1910.27"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-007",
+          "number": "1910.27",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-010",
+          "number": "1910.27",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.28",
+      "suppliedNumbers": [
+        "1910.28"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-003",
+          "number": "1910.28",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-004",
+          "number": "1910.28",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-008",
+          "number": "1910.28",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-011",
+          "number": "1910.28",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.29",
+      "suppliedNumbers": [
+        "1910.29"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-003",
+          "number": "1910.29",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-004",
+          "number": "1910.29",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-011",
+          "number": "1910.29",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.303",
+      "suppliedNumbers": [
+        "1910.303"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-ELEC-004",
+          "number": "1910.303",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-010",
+          "number": "1910.303",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.304",
+      "suppliedNumbers": [
+        "1910.304"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-ELEC-006",
+          "number": "1910.304",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-008",
+          "number": "1910.304",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-009",
+          "number": "1910.304",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-010",
+          "number": "1910.304",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.305",
+      "suppliedNumbers": [
+        "1910.305"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-ELEC-006",
+          "number": "1910.305",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-007",
+          "number": "1910.305",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-008",
+          "number": "1910.305",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-010",
+          "number": "1910.305",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.333",
+      "suppliedNumbers": [
+        "1910.333"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-ELEC-001",
+          "number": "1910.333",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-002",
+          "number": "1910.333",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-003",
+          "number": "1910.333",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-004",
+          "number": "1910.333",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-005",
+          "number": "1910.333",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.334",
+      "suppliedNumbers": [
+        "1910.334"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-ELEC-007",
+          "number": "1910.334",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.335",
+      "suppliedNumbers": [
+        "1910.335"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-ELEC-001",
+          "number": "1910.335",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-002",
+          "number": "1910.335",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-003",
+          "number": "1910.335",
+          "scope": "general-industry",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.67",
+      "suppliedNumbers": [
+        "1910.67"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-009",
+          "number": "1910.67",
+          "scope": "general-industry",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1910.97",
+      "suppliedNumbers": [
+        "1910.97"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-RAD-009",
+          "number": "1910.97",
+          "scope": "general-industry",
+          "relation": "related-RF-microwave",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-RAD-010",
+          "number": "1910.97",
+          "scope": "general-industry",
+          "relation": "related-RF-microwave",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926 Subpart CC",
+      "suppliedNumbers": [
+        "1926 Subpart CC"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MAT-012",
+          "number": "1926 Subpart CC",
+          "scope": "construction",
+          "relation": "direct-family",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.1052",
+      "suppliedNumbers": [
+        "1926.1052"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-006",
+          "number": "1926.1052",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.1053",
+      "suppliedNumbers": [
+        "1926.1053"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-005",
+          "number": "1926.1053",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.1203",
+      "suppliedNumbers": [
+        "1926.1203"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-CONF-001",
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-002",
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-003",
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-004",
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-005",
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-006",
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-007",
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-008",
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.1204",
+      "suppliedNumbers": [
+        "1926.1204"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-CONF-001",
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-002",
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-003",
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-004",
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-005",
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-006",
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-007",
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-008",
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-CONF-009",
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.1205",
+      "suppliedNumbers": [
+        "1926.1205"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-CONF-009",
+          "number": "1926.1205",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.1211",
+      "suppliedNumbers": [
+        "1926.1211"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-CONF-009",
+          "number": "1926.1211",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.251",
+      "suppliedNumbers": [
+        "1926.251"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MAT-013",
+          "number": "1926.251",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.302",
+      "suppliedNumbers": [
+        "1926.302"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-PRESS-002",
+          "number": "1926.302",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PRESS-003",
+          "number": "1926.302",
+          "scope": "construction",
+          "relation": "related-hydraulic-tools",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PRESS-004",
+          "number": "1926.302",
+          "scope": "construction",
+          "relation": "related-tools",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PRESS-005",
+          "number": "1926.302",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.306",
+      "suppliedNumbers": [
+        "1926.306"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-PRESS-001",
+          "number": "1926.306",
+          "scope": "construction",
+          "relation": "direct-air-receivers-only",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-PRESS-004",
+          "number": "1926.306",
+          "scope": "construction",
+          "relation": "related-air-receivers",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.350",
+      "suppliedNumbers": [
+        "1926.350"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-PRESS-008",
+          "number": "1926.350",
+          "scope": "construction",
+          "relation": "related-welding-cylinders",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FIRE-008",
+          "number": "1926.350",
+          "scope": "construction",
+          "relation": "related-welding-cylinders",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.352",
+      "suppliedNumbers": [
+        "1926.352"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FIRE-004",
+          "number": "1926.352",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FIRE-005",
+          "number": "1926.352",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.404",
+      "suppliedNumbers": [
+        "1926.404"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-ELEC-006",
+          "number": "1926.404",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-008",
+          "number": "1926.404",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-009",
+          "number": "1926.404",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-010",
+          "number": "1926.404",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.405",
+      "suppliedNumbers": [
+        "1926.405"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-ELEC-006",
+          "number": "1926.405",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-007",
+          "number": "1926.405",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.416",
+      "suppliedNumbers": [
+        "1926.416"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-ELEC-001",
+          "number": "1926.416",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-002",
+          "number": "1926.416",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-003",
+          "number": "1926.416",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-004",
+          "number": "1926.416",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-ELEC-005",
+          "number": "1926.416",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.441",
+      "suppliedNumbers": [
+        "1926.441"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MAT-014",
+          "number": "1926.441",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.451",
+      "suppliedNumbers": [
+        "1926.451"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-007",
+          "number": "1926.451",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-011",
+          "number": "1926.451",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.453",
+      "suppliedNumbers": [
+        "1926.453"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-009",
+          "number": "1926.453",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.454",
+      "suppliedNumbers": [
+        "1926.454"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-007",
+          "number": "1926.454",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.501",
+      "suppliedNumbers": [
+        "1926.501"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-003",
+          "number": "1926.501",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-004",
+          "number": "1926.501",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-008",
+          "number": "1926.501",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-011",
+          "number": "1926.501",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.502",
+      "suppliedNumbers": [
+        "1926.502"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-FALL-003",
+          "number": "1926.502",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-004",
+          "number": "1926.502",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-012",
+          "number": "1926.502",
+          "scope": "construction",
+          "relation": "general-related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-013",
+          "number": "1926.502",
+          "scope": "construction",
+          "relation": "direct-system-criteria",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-FALL-014",
+          "number": "1926.502",
+          "scope": "construction",
+          "relation": "general-related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.52",
+      "suppliedNumbers": [
+        "1926.52"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-NOISE-001",
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-NOISE-002",
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-NOISE-003",
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-NOISE-004",
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-NOISE-005",
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-NOISE-006",
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-NOISE-007",
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-NOISE-008",
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.53",
+      "suppliedNumbers": [
+        "1926.53"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-RAD-001",
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-RAD-002",
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-RAD-003",
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-RAD-004",
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-RAD-005",
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.54",
+      "suppliedNumbers": [
+        "1926.54"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-RAD-011",
+          "number": "1926.54",
+          "scope": "construction",
+          "relation": "direct-nonionizing-construction",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.555",
+      "suppliedNumbers": [
+        "1926.555"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MACH-013",
+          "number": "1926.555",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MACH-014",
+          "number": "1926.555",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.602",
+      "suppliedNumbers": [
+        "1926.602"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-MAT-003",
+          "number": "1926.602",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-004",
+          "number": "1926.602",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-005",
+          "number": "1926.602",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-MAT-006",
+          "number": "1926.602",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.651",
+      "suppliedNumbers": [
+        "1926.651"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-EXC-001",
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "related",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-EXC-002",
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-EXC-003",
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-EXC-004",
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-EXC-005",
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-EXC-006",
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-EXC-007",
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        },
+        {
+          "hazardId": "HL-EXC-008",
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    },
+    {
+      "normalizedNumber": "1926.652",
+      "suppliedNumbers": [
+        "1926.652"
+      ],
+      "reason": "not-in-catalog",
+      "occurrences": [
+        {
+          "hazardId": "HL-EXC-001",
+          "number": "1926.652",
+          "scope": "construction",
+          "relation": "direct",
+          "resolution": "unresolved",
+          "reason": "not-in-catalog"
+        }
+      ]
+    }
+  ],
+  "finalPackage": {
+    "totalOccurrences": 146,
+    "resolvedOccurrences": 51,
+    "missingOccurrences": 95,
+    "missingUniqueReferences": 29
+  },
+  "intentionallyUnmapped": [
+    {
+      "id": "HL-PRESS-007",
+      "name": "Vacuum / Implosion Hazard",
+      "categoryId": "pressure-systems",
+      "externalBasis": [
+        "No hazard-specific Federal OSHA section is assigned; do not invent one."
+      ],
+      "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+    },
+    {
+      "id": "HL-FIRE-003",
+      "name": "Combustible Dust Fire / Explosion",
+      "categoryId": "fire-explosion",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-001",
+      "name": "Heavy / High-Frequency Lifting",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-002",
+      "name": "Repetitive Motion",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-003",
+      "name": "Awkward Posture",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-004",
+      "name": "Forceful Exertion",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-005",
+      "name": "Static Posture",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-006",
+      "name": "Overhead Work",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-007",
+      "name": "Contact Stress",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-008",
+      "name": "Hand-Arm Vibration",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-009",
+      "name": "Whole-Body Vibration",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-010",
+      "name": "Poor Workstation Design",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-011",
+      "name": "Fatigue / Work-Rest Imbalance",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ERGO-012",
+      "name": "Anthropometric / Reach Mismatch",
+      "categoryId": "ergonomics-human-factors",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-001",
+      "name": "Heat Stress / Heat Strain",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-002",
+      "name": "Heat Rash",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-003",
+      "name": "Heat Cramps",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-004",
+      "name": "Heat Syncope",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-005",
+      "name": "Dehydration",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-006",
+      "name": "Heat Exhaustion",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-007",
+      "name": "Heat Stroke",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-008",
+      "name": "Cold Stress",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-009",
+      "name": "Hypothermia",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-THERM-010",
+      "name": "Frostbite",
+      "categoryId": "thermal-stress",
+      "externalBasis": [
+        "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-RAD-006",
+      "name": "Ultraviolet Radiation",
+      "categoryId": "radiation",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-RAD-007",
+      "name": "Intense Visible-Light Exposure",
+      "categoryId": "radiation",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-RAD-008",
+      "name": "Infrared Radiation",
+      "categoryId": "radiation",
+      "externalBasis": [],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-001",
+      "name": "Air-Emission Release",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-002",
+      "name": "Wastewater / Surface-Water Release",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-003",
+      "name": "Stormwater Contamination",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-004",
+      "name": "Soil Contamination",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-005",
+      "name": "Groundwater Contamination",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-006",
+      "name": "Underground-Storage-Tank Release",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-007",
+      "name": "Hazardous-Waste Mismanagement",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-008",
+      "name": "Chemical Spill to Environment",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-009",
+      "name": "Pesticide / Chemical Environmental Release",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-ENV-010",
+      "name": "Improper Waste Storage / Disposal",
+      "categoryId": "environmental",
+      "externalBasis": [
+        "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-SEC-001",
+      "name": "Workplace Violence",
+      "categoryId": "security-emergency",
+      "externalBasis": [
+        "No hazard-specific Federal OSHA workplace-violence standard is asserted; use the emergency-action-plan link only where genuinely applicable."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-SEC-002",
+      "name": "Active Violent Attack",
+      "categoryId": "security-emergency",
+      "externalBasis": [
+        "No hazard-specific Federal OSHA workplace-violence standard is asserted; use the emergency-action-plan link only where genuinely applicable."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-SEC-003",
+      "name": "Unauthorized Access / Intrusion",
+      "categoryId": "security-emergency",
+      "externalBasis": [
+        "No hazard-specific Federal OSHA workplace-violence standard is asserted; use the emergency-action-plan link only where genuinely applicable."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    },
+    {
+      "id": "HL-SEC-005",
+      "name": "Hazardous-Material Security Breach",
+      "categoryId": "security-emergency",
+      "externalBasis": [
+        "No hazard-specific Federal OSHA workplace-violence standard is asserted; use the emergency-action-plan link only where genuinely applicable."
+      ],
+      "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+    }
+  ],
+  "policy": "Existing six-record OSHA registry retained. No vetted citation-only/import pipeline exists. No fabricated IDs, no fuzzy mapping and no EPA records added. Scope/relation and supplied verification wording retained; not independently recertified by this import."
+}

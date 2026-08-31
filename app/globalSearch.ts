@@ -1,6 +1,10 @@
 import type { Attempt, CoachQuestion } from "./adaptiveEngine";
 import { CHAPTERS, HOMEWORK_QUESTIONS } from "./homeworkData";
-import { HAZARD_RECORDS } from "./hazardData";
+import { HAZARD_LIBRARY_RECORDS } from "./hazardLibraryData";
+import { HAZARD_CATEGORY_BY_ID, hazardSubcategoryName } from "./hazardCategories";
+import { hazardSearchText } from "./hazardExplorer";
+import { normalizeSearchText as normalize } from "./searchText";
+import type { ResourceReferences } from "./hazardTypes";
 import { KEY_INFORMATION } from "./keyInformationData";
 import type { PracticeV2Question } from "./practiceV2";
 import { FLASHCARDS, FORMULA_ENTRIES } from "./studyLibraryData";
@@ -19,7 +23,7 @@ export type SearchKind =
 
 export type SearchView = "study" | "homework" | "practice" | "key-information" | "library" | "stats" | "review" | "standards";
 
-export type SearchTarget = {
+export type SearchTarget = ResourceReferences & {
   view: SearchView;
   query?: string;
   chapterId?: string;
@@ -49,15 +53,6 @@ type BuildSearchIndexOptions = {
   chapterPractice: readonly PracticeV2Question[];
   attempts: readonly Attempt[];
 };
-
-const normalize = (value: string) => value
-  .normalize("NFKD")
-  .replace(/[\u0300-\u036f]/g, "")
-  .replace(/[’‘]/g, "'")
-  .toLowerCase()
-  .replace(/[^a-z0-9.%+/'°²³-]+/g, " ")
-  .replace(/\s+/g, " ")
-  .trim();
 
 const excerpt = (value: string, limit = 190) => {
   const clean = value.replace(/\s+/g, " ").trim();
@@ -146,16 +141,16 @@ export function buildGlobalSearchIndex({ examName, practiceBank, chapterPractice
     }));
   });
 
-  HAZARD_RECORDS.forEach((hazard) => {
+  HAZARD_LIBRARY_RECORDS.forEach((hazard) => {
     documents.push(document({
       id: `hazard:${hazard.id}`,
       kind: "hazard",
-      label: hazard.category === "biological" ? "Biological hazard" : "Toxicological hazard",
-      title: hazard.hazardDisease.en,
-      excerpt: `${hazard.definition.en} ${hazard.mainConsequences.en}`,
-      meta: `${hazard.targetOrganSystem.en} · ${hazard.exposureTransmission.en}`,
-      keywords: `${hazard.hazardDisease.ar} ${hazard.type.en} ${hazard.highRiskOccupationsWorkplace.en}`,
-      target: { view: "library", libraryTab: "hazards", itemId: hazard.id, query: hazard.hazardDisease.en },
+      label: hazard.source.kind === "controlled-dataset" ? "Hazard" : hazard.source.status === "placeholder" ? "Hazard architecture reference" : hazard.categoryId === "occupational-health" ? "Occupational-health hazard" : "Hazard reference scene",
+      title: hazard.name.en,
+      excerpt: `${hazard.summary.en} ${hazard.consequences.map((effect) => effect.en).join(" ")}`,
+      meta: `${HAZARD_CATEGORY_BY_ID[hazard.categoryId].name.en} · ${hazardSubcategoryName(hazard.categoryId, hazard.subcategoryId)?.en ?? ""}`,
+      keywords: hazardSearchText(hazard),
+      target: { view: "library", libraryTab: "hazards", itemId: hazard.id, query: hazard.name.en },
     }));
   });
 

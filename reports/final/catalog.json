@@ -1,0 +1,2374 @@
+{
+  "schemaVersion": 1,
+  "visible": 220,
+  "occupationalHealth": 37,
+  "controlled": 183,
+  "imported": 131,
+  "phases": {
+    "4": 52,
+    "5": 35,
+    "6": 37,
+    "7": 41,
+    "8": 18
+  },
+  "categories": [
+    {
+      "id": "occupational-health",
+      "name": {
+        "en": "Occupational Health",
+        "ar": "الصحة المهنية"
+      },
+      "count": 37
+    },
+    {
+      "id": "chemical-hazmat",
+      "name": {
+        "en": "Chemical & HazMat",
+        "ar": "المواد الكيميائية والخطرة"
+      },
+      "count": 15
+    },
+    {
+      "id": "electrical",
+      "name": {
+        "en": "Electrical",
+        "ar": "الكهرباء"
+      },
+      "count": 10
+    },
+    {
+      "id": "fire-explosion",
+      "name": {
+        "en": "Fire & Explosion",
+        "ar": "الحريق والانفجار"
+      },
+      "count": 12
+    },
+    {
+      "id": "falls-height",
+      "name": {
+        "en": "Falls & Work at Height",
+        "ar": "السقوط والعمل على ارتفاع"
+      },
+      "count": 14
+    },
+    {
+      "id": "machinery-tools",
+      "name": {
+        "en": "Machinery & Tools",
+        "ar": "الآلات والأدوات"
+      },
+      "count": 14
+    },
+    {
+      "id": "material-handling",
+      "name": {
+        "en": "Material Handling",
+        "ar": "مناولة المواد"
+      },
+      "count": 14
+    },
+    {
+      "id": "ergonomics-human-factors",
+      "name": {
+        "en": "Ergonomics / Human Factors",
+        "ar": "الأرغونوميا والعوامل البشرية"
+      },
+      "count": 12
+    },
+    {
+      "id": "radiation",
+      "name": {
+        "en": "Radiation",
+        "ar": "الإشعاع"
+      },
+      "count": 11
+    },
+    {
+      "id": "confined-spaces",
+      "name": {
+        "en": "Confined Spaces",
+        "ar": "الأماكن المحصورة"
+      },
+      "count": 9
+    },
+    {
+      "id": "hazardous-energy",
+      "name": {
+        "en": "LOTO / Hazardous Energy",
+        "ar": "القفل والوسم والطاقة الخطرة"
+      },
+      "count": 10
+    },
+    {
+      "id": "pressure-systems",
+      "name": {
+        "en": "Pressure / Hydraulic / Pneumatic",
+        "ar": "الضغط والأنظمة الهيدروليكية والهوائية"
+      },
+      "count": 8
+    },
+    {
+      "id": "noise",
+      "name": {
+        "en": "Noise",
+        "ar": "الضوضاء"
+      },
+      "count": 8
+    },
+    {
+      "id": "thermal-stress",
+      "name": {
+        "en": "Thermal Stress",
+        "ar": "الإجهاد الحراري"
+      },
+      "count": 10
+    },
+    {
+      "id": "excavation-trenching",
+      "name": {
+        "en": "Excavation & Trenching",
+        "ar": "الحفر والخنادق"
+      },
+      "count": 8
+    },
+    {
+      "id": "process-safety",
+      "name": {
+        "en": "Process Safety",
+        "ar": "سلامة العمليات"
+      },
+      "count": 10
+    },
+    {
+      "id": "environmental",
+      "name": {
+        "en": "Environmental",
+        "ar": "البيئة"
+      },
+      "count": 10
+    },
+    {
+      "id": "security-emergency",
+      "name": {
+        "en": "Security / Emergency",
+        "ar": "الأمن والطوارئ"
+      },
+      "count": 8
+    }
+  ],
+  "sourceSupport": {
+    "finalPackage": {
+      "direct": 102,
+      "indirect": 17,
+      "supplemented": 12
+    },
+    "allControlled": {
+      "direct": 144,
+      "indirect": 21,
+      "supplemented": 18
+    }
+  },
+  "records": [
+    {
+      "id": "bio-anthrax",
+      "name": {
+        "en": "Anthrax",
+        "ar": "الجمرة الخبيثة"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-brucellosis",
+      "name": {
+        "en": "Brucellosis",
+        "ar": "داء البروسيلات (الحمى المالطية)"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-leptospirosis",
+      "name": {
+        "en": "Leptospirosis",
+        "ar": "داء اللِّبْتوسبيرات"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-plague",
+      "name": {
+        "en": "Plague",
+        "ar": "الطاعون"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-tetanus",
+      "name": {
+        "en": "Tetanus",
+        "ar": "الكُزاز"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-tuberculosis",
+      "name": {
+        "en": "Tuberculosis",
+        "ar": "السُّل"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-tularemia",
+      "name": {
+        "en": "Tularemia",
+        "ar": "داء التولاريميا"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-cat-scratch-disease",
+      "name": {
+        "en": "Cat-scratch disease",
+        "ar": "داء خدش القطة"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-hepatitis-a",
+      "name": {
+        "en": "Hepatitis A",
+        "ar": "التهاب الكبد A"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-hepatitis-b",
+      "name": {
+        "en": "Hepatitis B",
+        "ar": "التهاب الكبد B"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-orf",
+      "name": {
+        "en": "Orf (contagious ecthyma)",
+        "ar": "الأورف (الإكثيما المعدية)"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-rabies",
+      "name": {
+        "en": "Rabies",
+        "ar": "داء الكَلَب"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-psittacosis",
+      "name": {
+        "en": "Psittacosis",
+        "ar": "داء الببغائيات"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-rocky-mountain-spotted-fever",
+      "name": {
+        "en": "Rocky Mountain spotted fever",
+        "ar": "حمى جبال روكي المبقعة"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-q-fever",
+      "name": {
+        "en": "Q fever",
+        "ar": "حمى كيو"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-aspergillosis",
+      "name": {
+        "en": "Aspergillosis",
+        "ar": "داء الرشاشيات"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-candidiasis",
+      "name": {
+        "en": "Candidiasis",
+        "ar": "داء المبيضات"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-coccidioidomycosis",
+      "name": {
+        "en": "Coccidioidomycosis (Valley fever)",
+        "ar": "داء الكروانيديا (حمى الوادي)"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "bio-histoplasmosis",
+      "name": {
+        "en": "Histoplasmosis",
+        "ar": "داء النوسجات"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "biological",
+      "phase": null
+    },
+    {
+      "id": "tox-asbestos",
+      "name": {
+        "en": "Asbestos",
+        "ar": "الأسبستوس (الحرير الصخري)"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-benzene",
+      "name": {
+        "en": "Benzene",
+        "ar": "البنزين العطري"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-cotton-dust",
+      "name": {
+        "en": "Cotton dust",
+        "ar": "غبار القطن"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-arsenic",
+      "name": {
+        "en": "Arsenic",
+        "ar": "الزرنيخ"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-beryllium",
+      "name": {
+        "en": "Beryllium",
+        "ar": "البريليوم"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-cadmium",
+      "name": {
+        "en": "Cadmium",
+        "ar": "الكادميوم"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-hexavalent-chromium",
+      "name": {
+        "en": "Hexavalent chromium",
+        "ar": "الكروم سداسي التكافؤ"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-coal-dust",
+      "name": {
+        "en": "Coal dust",
+        "ar": "غبار الفحم"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-cobalt",
+      "name": {
+        "en": "Cobalt",
+        "ar": "الكوبالت"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-formaldehyde",
+      "name": {
+        "en": "Formaldehyde",
+        "ar": "الفورمالدهيد"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-lead",
+      "name": {
+        "en": "Lead",
+        "ar": "الرصاص"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-mercury",
+      "name": {
+        "en": "Mercury",
+        "ar": "الزئبق"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-manganese",
+      "name": {
+        "en": "Manganese",
+        "ar": "المنغنيز"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-silica",
+      "name": {
+        "en": "Respirable crystalline silica",
+        "ar": "السيليكا البلورية القابلة للاستنشاق"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-zinc-fumes",
+      "name": {
+        "en": "Zinc fumes",
+        "ar": "أدخنة الزنك"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-aluminum-dust",
+      "name": {
+        "en": "Aluminum dust",
+        "ar": "غبار الألومنيوم"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-antimony",
+      "name": {
+        "en": "Antimony",
+        "ar": "الأنتيمون"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "tox-organophosphate-carbamate-pesticides",
+      "name": {
+        "en": "Organophosphate and carbamate pesticides",
+        "ar": "مبيدات الفوسفات العضوية والكربامات"
+      },
+      "categoryId": "occupational-health",
+      "subcategoryId": "toxicological",
+      "phase": null
+    },
+    {
+      "id": "HL-ELEC-001",
+      "name": {
+        "en": "Arc Flash / Arc Blast",
+        "ar": "القوس الكهربائي / انفجار القوس"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "arc-flash",
+      "phase": 4
+    },
+    {
+      "id": "HL-ELEC-002",
+      "name": {
+        "en": "Electrical Shock / Electrocution",
+        "ar": "الصدمة الكهربائية / الصعق الكهربائي"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "shock-contact",
+      "phase": 4
+    },
+    {
+      "id": "HL-ELEC-003",
+      "name": {
+        "en": "Electrical Burns",
+        "ar": "الحروق الكهربائية"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "shock-contact",
+      "phase": 4
+    },
+    {
+      "id": "HL-ELEC-004",
+      "name": {
+        "en": "Exposed Energized Parts",
+        "ar": "أجزاء كهربائية مكهربة مكشوفة"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "exposed-parts",
+      "phase": 4
+    },
+    {
+      "id": "HL-ELEC-005",
+      "name": {
+        "en": "Overhead Power Lines",
+        "ar": "خطوط الكهرباء الهوائية"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "overhead-lines",
+      "phase": 4
+    },
+    {
+      "id": "HL-ELEC-006",
+      "name": {
+        "en": "Inadequate Wiring",
+        "ar": "تمديدات كهربائية غير كافية"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "wiring-protection",
+      "phase": 4
+    },
+    {
+      "id": "HL-ELEC-007",
+      "name": {
+        "en": "Damaged Cords and Wires",
+        "ar": "أسلاك وكابلات تالفة"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "wiring-protection",
+      "phase": 4
+    },
+    {
+      "id": "HL-ELEC-008",
+      "name": {
+        "en": "Improper Grounding",
+        "ar": "التأريض غير الصحيح"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "grounding",
+      "phase": 4
+    },
+    {
+      "id": "HL-ELEC-009",
+      "name": {
+        "en": "Overloaded Circuits",
+        "ar": "دوائر كهربائية محمّلة فوق طاقتها"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "wiring-protection",
+      "phase": 4
+    },
+    {
+      "id": "HL-ELEC-010",
+      "name": {
+        "en": "Electrical Fire",
+        "ar": "حريق كهربائي"
+      },
+      "categoryId": "electrical",
+      "subcategoryId": "electrical-fire",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-001",
+      "name": {
+        "en": "Same-Level Slip",
+        "ar": "انزلاق على نفس المستوى"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "same-level",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-002",
+      "name": {
+        "en": "Same-Level Trip",
+        "ar": "تعثر على نفس المستوى"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "same-level",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-003",
+      "name": {
+        "en": "Floor / Wall Opening",
+        "ar": "فتحة أرضية / جدارية"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "openings-edges",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-004",
+      "name": {
+        "en": "Unprotected Edge",
+        "ar": "حافة غير محمية"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "openings-edges",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-005",
+      "name": {
+        "en": "Ladder Fall",
+        "ar": "السقوط من السلم"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "ladders-stairs",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-006",
+      "name": {
+        "en": "Stairway Fall",
+        "ar": "السقوط على الدرج"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "ladders-stairs",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-007",
+      "name": {
+        "en": "Scaffold Fall",
+        "ar": "السقوط من السقالة"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "scaffolds",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-008",
+      "name": {
+        "en": "Roof / Elevated-Surface Fall",
+        "ar": "السقوط من سطح أو مكان مرتفع"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "elevated-platforms",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-009",
+      "name": {
+        "en": "Aerial-Lift / Platform Fall",
+        "ar": "السقوط من منصة رفع جوية"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "elevated-platforms",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-010",
+      "name": {
+        "en": "Rope-Descent-System Hazard",
+        "ar": "خطر نظام النزول بالحبال"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "fall-arrest",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-011",
+      "name": {
+        "en": "Falling Object / Dropped Object",
+        "ar": "جسم ساقط / جسم مُسقط"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "falling-objects",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-012",
+      "name": {
+        "en": "Swing Fall",
+        "ar": "السقوط المتأرجح"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "fall-arrest",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-013",
+      "name": {
+        "en": "Insufficient Fall-Arrest Clearance",
+        "ar": "خلوص غير كافٍ لنظام إيقاف السقوط"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "fall-arrest",
+      "phase": 4
+    },
+    {
+      "id": "HL-FALL-014",
+      "name": {
+        "en": "Suspension Trauma",
+        "ar": "إصابة التعليق بعد السقوط"
+      },
+      "categoryId": "falls-height",
+      "subcategoryId": "fall-arrest",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-001",
+      "name": {
+        "en": "Missing / Inadequate Machine Guard",
+        "ar": "حاجز آلة مفقود أو غير كافٍ"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "guarding",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-002",
+      "name": {
+        "en": "Point-of-Operation Hazard",
+        "ar": "خطر نقطة التشغيل"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "guarding",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-003",
+      "name": {
+        "en": "In-Running Nip Point",
+        "ar": "نقطة انحشار داخلة"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "motion",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-004",
+      "name": {
+        "en": "Rotating Shaft / Entanglement",
+        "ar": "عمود دوار / تشابك"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "motion",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-005",
+      "name": {
+        "en": "Reciprocating-Motion Hazard",
+        "ar": "خطر الحركة الترددية"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "motion",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-006",
+      "name": {
+        "en": "Shear / Cutting Point",
+        "ar": "نقطة قص / قطع"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "cutting",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-007",
+      "name": {
+        "en": "Ejected Material / Flying Object",
+        "ar": "مواد مقذوفة / جسم طائر"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "guarding",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-008",
+      "name": {
+        "en": "Abrasive-Grinder Wheel Hazard",
+        "ar": "خطر عجلة الجلخ الكاشطة"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "cutting",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-009",
+      "name": {
+        "en": "Circular-Saw Hazard",
+        "ar": "خطر المنشار الدائري"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "cutting",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-010",
+      "name": {
+        "en": "Hand-Tool Misuse / Failure",
+        "ar": "سوء استخدام / فشل الأدوات اليدوية"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "hand-tools",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-011",
+      "name": {
+        "en": "Portable Power-Tool Hazard",
+        "ar": "خطر الأدوات المحمولة المزودة بالطاقة"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "power-tools",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-012",
+      "name": {
+        "en": "Robotics / Automated-Movement Hazard",
+        "ar": "خطر الروبوتات / الحركة الآلية"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "automation",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-013",
+      "name": {
+        "en": "Conveyor Nip / Entanglement",
+        "ar": "انحشار / تشابك في الناقل"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "conveyors",
+      "phase": 4
+    },
+    {
+      "id": "HL-MACH-014",
+      "name": {
+        "en": "Conveyor Falling-Material Hazard",
+        "ar": "خطر سقوط المواد من الناقل"
+      },
+      "categoryId": "machinery-tools",
+      "subcategoryId": "conveyors",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-001",
+      "name": {
+        "en": "Manual Lifting / Overexertion",
+        "ar": "الرفع اليدوي / الإجهاد الزائد"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "manual-handling",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-002",
+      "name": {
+        "en": "Pushing / Pulling",
+        "ar": "الدفع / السحب"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "manual-handling",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-003",
+      "name": {
+        "en": "Forklift Collision",
+        "ar": "اصطدام الرافعة الشوكية"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "industrial-trucks",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-004",
+      "name": {
+        "en": "Forklift Tip-Over",
+        "ar": "انقلاب الرافعة الشوكية"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "industrial-trucks",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-005",
+      "name": {
+        "en": "Forklift-Pedestrian Interaction",
+        "ar": "تداخل الرافعة الشوكية مع المشاة"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "industrial-trucks",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-006",
+      "name": {
+        "en": "Forklift Falling Load",
+        "ar": "سقوط حمل من الرافعة الشوكية"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "industrial-trucks",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-007",
+      "name": {
+        "en": "Forklift Mast / Crush Point",
+        "ar": "نقطة سحق عند سارية الرافعة الشوكية"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "industrial-trucks",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-008",
+      "name": {
+        "en": "Loading-Dock / Trailer Separation",
+        "ar": "انفصال المقطورة عن رصيف التحميل"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "loading-docks",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-009",
+      "name": {
+        "en": "Pallet-Jack Hazard",
+        "ar": "خطر رافعة البالتات"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "manual-equipment",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-010",
+      "name": {
+        "en": "Unstable Material Stacking",
+        "ar": "تكديس مواد غير مستقر"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "storage",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-011",
+      "name": {
+        "en": "Storage-Rack Failure",
+        "ar": "فشل رفوف التخزين"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "storage",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-012",
+      "name": {
+        "en": "Crane / Suspended Load",
+        "ar": "رافعة / حمل معلّق"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "cranes-rigging",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-013",
+      "name": {
+        "en": "Rigging Failure",
+        "ar": "فشل معدات الربط والرفع"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "cranes-rigging",
+      "phase": 4
+    },
+    {
+      "id": "HL-MAT-014",
+      "name": {
+        "en": "Forklift Battery Charging",
+        "ar": "شحن بطارية الرافعة الشوكية"
+      },
+      "categoryId": "material-handling",
+      "subcategoryId": "battery-charging",
+      "phase": 4
+    },
+    {
+      "id": "HL-EXC-001",
+      "name": {
+        "en": "Cave-In / Trench Collapse",
+        "ar": "انهيار الحفر / الخندق"
+      },
+      "categoryId": "excavation-trenching",
+      "subcategoryId": "collapse",
+      "phase": 5
+    },
+    {
+      "id": "HL-EXC-002",
+      "name": {
+        "en": "Underground Utility Strike",
+        "ar": "ضرب مرفق مدفون"
+      },
+      "categoryId": "excavation-trenching",
+      "subcategoryId": "utilities",
+      "phase": 5
+    },
+    {
+      "id": "HL-EXC-003",
+      "name": {
+        "en": "Spoil-Pile / Surcharge Load",
+        "ar": "كومة نواتج الحفر / حمل إضافي"
+      },
+      "categoryId": "excavation-trenching",
+      "subcategoryId": "surcharge",
+      "phase": 5
+    },
+    {
+      "id": "HL-EXC-004",
+      "name": {
+        "en": "Water Accumulation",
+        "ar": "تجمع المياه في الحفر"
+      },
+      "categoryId": "excavation-trenching",
+      "subcategoryId": "water",
+      "phase": 5
+    },
+    {
+      "id": "HL-EXC-005",
+      "name": {
+        "en": "Hazardous Atmosphere in Excavation",
+        "ar": "جو خطِر داخل الحفر"
+      },
+      "categoryId": "excavation-trenching",
+      "subcategoryId": "atmosphere",
+      "phase": 5
+    },
+    {
+      "id": "HL-EXC-006",
+      "name": {
+        "en": "Unsafe Access / Egress",
+        "ar": "دخول / خروج غير آمن من الحفر"
+      },
+      "categoryId": "excavation-trenching",
+      "subcategoryId": "access",
+      "phase": 5
+    },
+    {
+      "id": "HL-EXC-007",
+      "name": {
+        "en": "Mobile Equipment at Excavation Edge",
+        "ar": "معدات متحركة قرب حافة الحفر"
+      },
+      "categoryId": "excavation-trenching",
+      "subcategoryId": "mobile-equipment",
+      "phase": 5
+    },
+    {
+      "id": "HL-EXC-008",
+      "name": {
+        "en": "Adjacent-Structure Instability",
+        "ar": "عدم استقرار المنشآت المجاورة"
+      },
+      "categoryId": "excavation-trenching",
+      "subcategoryId": "structures",
+      "phase": 5
+    },
+    {
+      "id": "HL-CONF-001",
+      "name": {
+        "en": "Oxygen-Deficient Atmosphere",
+        "ar": "جو ناقص الأكسجين"
+      },
+      "categoryId": "confined-spaces",
+      "subcategoryId": "atmosphere",
+      "phase": 5
+    },
+    {
+      "id": "HL-CONF-002",
+      "name": {
+        "en": "Oxygen-Enriched Atmosphere",
+        "ar": "جو غني بالأكسجين"
+      },
+      "categoryId": "confined-spaces",
+      "subcategoryId": "atmosphere",
+      "phase": 5
+    },
+    {
+      "id": "HL-CONF-003",
+      "name": {
+        "en": "Toxic Atmosphere",
+        "ar": "جو سام داخل مكان محصور"
+      },
+      "categoryId": "confined-spaces",
+      "subcategoryId": "atmosphere",
+      "phase": 5
+    },
+    {
+      "id": "HL-CONF-004",
+      "name": {
+        "en": "Flammable / Explosive Atmosphere",
+        "ar": "جو قابل للاشتعال / الانفجار"
+      },
+      "categoryId": "confined-spaces",
+      "subcategoryId": "atmosphere",
+      "phase": 5
+    },
+    {
+      "id": "HL-CONF-005",
+      "name": {
+        "en": "Engulfment",
+        "ar": "الابتلاع / الطمر داخل المكان المحصور"
+      },
+      "categoryId": "confined-spaces",
+      "subcategoryId": "physical",
+      "phase": 5
+    },
+    {
+      "id": "HL-CONF-006",
+      "name": {
+        "en": "Entrapment / Internal Configuration",
+        "ar": "الاحتجاز / التكوين الداخلي"
+      },
+      "categoryId": "confined-spaces",
+      "subcategoryId": "configuration",
+      "phase": 5
+    },
+    {
+      "id": "HL-CONF-007",
+      "name": {
+        "en": "Mechanical / Energy Hazard",
+        "ar": "خطر ميكانيكي / طاقة داخل المكان المحصور"
+      },
+      "categoryId": "confined-spaces",
+      "subcategoryId": "energy",
+      "phase": 5
+    },
+    {
+      "id": "HL-CONF-008",
+      "name": {
+        "en": "Inadequate Isolation / Ventilation",
+        "ar": "عزل / تهوية غير كافيين"
+      },
+      "categoryId": "confined-spaces",
+      "subcategoryId": "controls",
+      "phase": 5
+    },
+    {
+      "id": "HL-CONF-009",
+      "name": {
+        "en": "Entry / Attendant / Rescue Failure",
+        "ar": "فشل إجراءات الدخول / المراقب / الإنقاذ"
+      },
+      "categoryId": "confined-spaces",
+      "subcategoryId": "entry-program",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-001",
+      "name": {
+        "en": "Unexpected Startup / Energization",
+        "ar": "تشغيل / تنشيط غير متوقع"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "unexpected-startup",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-002",
+      "name": {
+        "en": "Stored Electrical Energy",
+        "ar": "طاقة كهربائية مخزنة"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "electrical",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-003",
+      "name": {
+        "en": "Stored Mechanical Energy",
+        "ar": "طاقة ميكانيكية مخزنة"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "mechanical",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-004",
+      "name": {
+        "en": "Hydraulic Energy",
+        "ar": "الطاقة الهيدروليكية"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "hydraulic",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-005",
+      "name": {
+        "en": "Pneumatic Energy",
+        "ar": "الطاقة الهوائية المضغوطة"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "pneumatic",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-006",
+      "name": {
+        "en": "Thermal Energy",
+        "ar": "الطاقة الحرارية"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "thermal",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-007",
+      "name": {
+        "en": "Chemical / Process Energy",
+        "ar": "طاقة كيميائية / طاقة عملية"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "chemical-process",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-008",
+      "name": {
+        "en": "Gravity / Elevated Components",
+        "ar": "الجاذبية / المكونات المرتفعة"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "gravity",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-009",
+      "name": {
+        "en": "Springs / Capacitors / Residual Energy",
+        "ar": "نوابض / مكثفات / طاقة متبقية"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "residual",
+      "phase": 5
+    },
+    {
+      "id": "HL-LOTO-010",
+      "name": {
+        "en": "Isolation / Verification / Group-LOTO Failure",
+        "ar": "فشل العزل / التحقق / القفل الجماعي"
+      },
+      "categoryId": "hazardous-energy",
+      "subcategoryId": "program-failure",
+      "phase": 5
+    },
+    {
+      "id": "HL-PRESS-001",
+      "name": {
+        "en": "Pressure-Vessel Overpressure",
+        "ar": "زيادة ضغط وعاء / مستقبل ضغط"
+      },
+      "categoryId": "pressure-systems",
+      "subcategoryId": "vessel",
+      "phase": 5
+    },
+    {
+      "id": "HL-PRESS-002",
+      "name": {
+        "en": "Hose Whip",
+        "ar": "ارتداد / سوط الخرطوم"
+      },
+      "categoryId": "pressure-systems",
+      "subcategoryId": "hose",
+      "phase": 5
+    },
+    {
+      "id": "HL-PRESS-003",
+      "name": {
+        "en": "Hydraulic Injection Injury",
+        "ar": "إصابة حقن هيدروليكي"
+      },
+      "categoryId": "pressure-systems",
+      "subcategoryId": "hydraulic",
+      "phase": 5
+    },
+    {
+      "id": "HL-PRESS-004",
+      "name": {
+        "en": "Pneumatic Stored-Energy Release",
+        "ar": "إطلاق طاقة هوائية مخزنة"
+      },
+      "categoryId": "pressure-systems",
+      "subcategoryId": "pneumatic",
+      "phase": 5
+    },
+    {
+      "id": "HL-PRESS-005",
+      "name": {
+        "en": "Compressed-Air Misuse",
+        "ar": "سوء استخدام الهواء المضغوط"
+      },
+      "categoryId": "pressure-systems",
+      "subcategoryId": "compressed-air",
+      "phase": 5
+    },
+    {
+      "id": "HL-PRESS-006",
+      "name": {
+        "en": "Steam / Hot-Fluid Release",
+        "ar": "إطلاق بخار / سائل ساخن"
+      },
+      "categoryId": "pressure-systems",
+      "subcategoryId": "thermal-pressure",
+      "phase": 5
+    },
+    {
+      "id": "HL-PRESS-007",
+      "name": {
+        "en": "Vacuum / Implosion Hazard",
+        "ar": "خطر الفراغ / الانهيار للداخل"
+      },
+      "categoryId": "pressure-systems",
+      "subcategoryId": "vacuum",
+      "phase": 5
+    },
+    {
+      "id": "HL-PRESS-008",
+      "name": {
+        "en": "Cylinder / Pressurized-Container Rupture",
+        "ar": "تمزق أسطوانة / حاوية مضغوطة"
+      },
+      "categoryId": "pressure-systems",
+      "subcategoryId": "cylinders",
+      "phase": 5
+    },
+    {
+      "id": "HL-CHEM-001",
+      "name": {
+        "en": "Corrosive Chemicals",
+        "ar": "المواد الكيميائية الأكّالة"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "chemical-properties",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-002",
+      "name": {
+        "en": "Flammable Liquids",
+        "ar": "السوائل القابلة للاشتعال"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "flammability",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-003",
+      "name": {
+        "en": "Flammable Gases",
+        "ar": "الغازات القابلة للاشتعال"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "flammability",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-004",
+      "name": {
+        "en": "Oxidizers",
+        "ar": "المؤكسدات"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "oxidizers",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-005",
+      "name": {
+        "en": "Self-Reactive / Unstable Chemicals",
+        "ar": "المواد ذاتية التفاعل / غير المستقرة"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "reactivity",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-006",
+      "name": {
+        "en": "Water-Reactive Materials",
+        "ar": "المواد المتفاعلة مع الماء"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "reactivity",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-007",
+      "name": {
+        "en": "Organic Peroxides",
+        "ar": "البيروكسيدات العضوية"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "reactivity",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-008",
+      "name": {
+        "en": "Pyrophoric Materials",
+        "ar": "المواد البيروفورية / ذاتية الاشتعال بالهواء"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "reactivity",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-009",
+      "name": {
+        "en": "Compressed Gases",
+        "ar": "الغازات المضغوطة"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "compressed-gas",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-010",
+      "name": {
+        "en": "Cryogenic Materials",
+        "ar": "المواد شديدة البرودة / الكريوجينية"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "temperature",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-011",
+      "name": {
+        "en": "Chemical Incompatibility",
+        "ar": "عدم التوافق الكيميائي"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "compatibility",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-012",
+      "name": {
+        "en": "Toxic Chemical Release",
+        "ar": "إطلاق مادة كيميائية سامة"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "release",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-013",
+      "name": {
+        "en": "Chemical Spill / Splash",
+        "ar": "انسكاب / تناثر مادة كيميائية"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "spill",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-014",
+      "name": {
+        "en": "Hazardous-Waste Exposure",
+        "ar": "التعرض للنفايات الخطرة"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "waste",
+      "phase": 6
+    },
+    {
+      "id": "HL-CHEM-015",
+      "name": {
+        "en": "Improper Chemical Storage / Segregation",
+        "ar": "التخزين / الفصل غير الصحيح للمواد الكيميائية"
+      },
+      "categoryId": "chemical-hazmat",
+      "subcategoryId": "storage",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-001",
+      "name": {
+        "en": "Flammable Vapor Fire",
+        "ar": "حريق أبخرة قابلة للاشتعال"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "flammable",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-002",
+      "name": {
+        "en": "Vapor-Cloud Explosion",
+        "ar": "انفجار سحابة بخار"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "explosion",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-003",
+      "name": {
+        "en": "Combustible Dust Fire / Explosion",
+        "ar": "حريق / انفجار الغبار القابل للاحتراق"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "dust",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-004",
+      "name": {
+        "en": "Hot-Work Ignition",
+        "ar": "اشتعال بسبب العمل الساخن"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "hot-work",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-005",
+      "name": {
+        "en": "Welding / Cutting Fire",
+        "ar": "حريق اللحام / القطع"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "hot-work",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-006",
+      "name": {
+        "en": "Static-Electricity Ignition",
+        "ar": "اشتعال بسبب الكهرباء الساكنة"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "static",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-007",
+      "name": {
+        "en": "Self-Heating / Spontaneous Combustion",
+        "ar": "التسخين الذاتي / الاحتراق التلقائي"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "self-heating",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-008",
+      "name": {
+        "en": "Compressed-Gas Cylinder Fire / Rupture",
+        "ar": "حريق / تمزق أسطوانة غاز مضغوط"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "compressed-gas",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-009",
+      "name": {
+        "en": "Battery Charging — Hydrogen / Ignition",
+        "ar": "شحن البطاريات — الهيدروجين / الاشتعال"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "battery",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-010",
+      "name": {
+        "en": "Fire Detection Impairment",
+        "ar": "تعطل نظام كشف الحريق"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "detection",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-011",
+      "name": {
+        "en": "Fire Suppression / Sprinkler Impairment",
+        "ar": "تعطل نظام الإطفاء / الرشاشات"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "suppression",
+      "phase": 6
+    },
+    {
+      "id": "HL-FIRE-012",
+      "name": {
+        "en": "Improper Extinguisher Selection / Use",
+        "ar": "اختيار / استخدام مطفأة غير مناسب"
+      },
+      "categoryId": "fire-explosion",
+      "subcategoryId": "extinguishers",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-001",
+      "name": {
+        "en": "Loss of Containment",
+        "ar": "فقدان الاحتواء"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "containment",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-002",
+      "name": {
+        "en": "Runaway / Uncontrolled Reaction",
+        "ar": "تفاعل منفلت / غير مسيطر عليه"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "reaction",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-003",
+      "name": {
+        "en": "Process Overpressure",
+        "ar": "زيادة ضغط العملية"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "pressure",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-004",
+      "name": {
+        "en": "Relief-System Failure",
+        "ar": "فشل نظام التنفيس / تخفيف الضغط"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "relief",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-005",
+      "name": {
+        "en": "Instrument / Alarm Failure",
+        "ar": "فشل أجهزة القياس / الإنذار"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "instrumentation",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-006",
+      "name": {
+        "en": "Interlock / Safeguard Failure",
+        "ar": "فشل التشابك / وسيلة الحماية"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "safeguards",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-007",
+      "name": {
+        "en": "Utility Failure",
+        "ar": "فشل المرافق / الخدمات المساندة"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "utilities",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-008",
+      "name": {
+        "en": "Wrong / Degraded Material of Construction",
+        "ar": "مادة إنشاء خاطئة / متدهورة"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "materials",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-009",
+      "name": {
+        "en": "Management-of-Change Failure",
+        "ar": "فشل إدارة التغيير"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "management-of-change",
+      "phase": 6
+    },
+    {
+      "id": "HL-PSM-010",
+      "name": {
+        "en": "Startup / Pre-Startup Safety Failure",
+        "ar": "فشل السلامة عند بدء التشغيل / ما قبل التشغيل"
+      },
+      "categoryId": "process-safety",
+      "subcategoryId": "startup",
+      "phase": 6
+    },
+    {
+      "id": "HL-ERGO-001",
+      "name": {
+        "en": "Heavy / High-Frequency Lifting",
+        "ar": "الرفع الثقيل / عالي التكرار"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "lifting",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-002",
+      "name": {
+        "en": "Repetitive Motion",
+        "ar": "الحركة المتكررة"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "repetition",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-003",
+      "name": {
+        "en": "Awkward Posture",
+        "ar": "الوضعية غير المريحة"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "posture",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-004",
+      "name": {
+        "en": "Forceful Exertion",
+        "ar": "المجهود العضلي القوي"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "force",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-005",
+      "name": {
+        "en": "Static Posture",
+        "ar": "الوضعية الثابتة المطولة"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "static-posture",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-006",
+      "name": {
+        "en": "Overhead Work",
+        "ar": "العمل فوق مستوى الرأس"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "overhead",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-007",
+      "name": {
+        "en": "Contact Stress",
+        "ar": "إجهاد التلامس"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "contact-stress",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-008",
+      "name": {
+        "en": "Hand-Arm Vibration",
+        "ar": "اهتزاز اليد والذراع"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "vibration",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-009",
+      "name": {
+        "en": "Whole-Body Vibration",
+        "ar": "اهتزاز الجسم بالكامل"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "vibration",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-010",
+      "name": {
+        "en": "Poor Workstation Design",
+        "ar": "تصميم سيئ لمحطة العمل"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "workstation",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-011",
+      "name": {
+        "en": "Fatigue / Work-Rest Imbalance",
+        "ar": "الإرهاق / عدم توازن العمل والراحة"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "fatigue",
+      "phase": 7
+    },
+    {
+      "id": "HL-ERGO-012",
+      "name": {
+        "en": "Anthropometric / Reach Mismatch",
+        "ar": "عدم ملاءمة الأبعاد الجسمية / مدى الوصول"
+      },
+      "categoryId": "ergonomics-human-factors",
+      "subcategoryId": "anthropometry",
+      "phase": 7
+    },
+    {
+      "id": "HL-NOISE-001",
+      "name": {
+        "en": "Continuous Noise",
+        "ar": "الضوضاء المستمرة"
+      },
+      "categoryId": "noise",
+      "subcategoryId": "continuous",
+      "phase": 7
+    },
+    {
+      "id": "HL-NOISE-002",
+      "name": {
+        "en": "Intermittent Noise",
+        "ar": "الضوضاء المتقطعة"
+      },
+      "categoryId": "noise",
+      "subcategoryId": "intermittent",
+      "phase": 7
+    },
+    {
+      "id": "HL-NOISE-003",
+      "name": {
+        "en": "Impact / Impulse Noise",
+        "ar": "ضوضاء الصدمة / النبض"
+      },
+      "categoryId": "noise",
+      "subcategoryId": "impact",
+      "phase": 7
+    },
+    {
+      "id": "HL-NOISE-004",
+      "name": {
+        "en": "Combined Multiple Noise Sources",
+        "ar": "مصادر ضوضاء متعددة مجتمعة"
+      },
+      "categoryId": "noise",
+      "subcategoryId": "combined",
+      "phase": 7
+    },
+    {
+      "id": "HL-NOISE-005",
+      "name": {
+        "en": "Excessive Noise Dose / TWA",
+        "ar": "جرعة ضوضاء / متوسط زمني مفرط"
+      },
+      "categoryId": "noise",
+      "subcategoryId": "dose",
+      "phase": 7
+    },
+    {
+      "id": "HL-NOISE-006",
+      "name": {
+        "en": "Reverberant / Poorly Absorptive Space",
+        "ar": "مكان مرتد الصدى / ضعيف الامتصاص"
+      },
+      "categoryId": "noise",
+      "subcategoryId": "acoustics",
+      "phase": 7
+    },
+    {
+      "id": "HL-NOISE-007",
+      "name": {
+        "en": "Inadequate Hearing-Protector Attenuation",
+        "ar": "توهين غير كافٍ لواقيات السمع"
+      },
+      "categoryId": "noise",
+      "subcategoryId": "hearing-protection",
+      "phase": 7
+    },
+    {
+      "id": "HL-NOISE-008",
+      "name": {
+        "en": "Occupational Hearing-Loss / STS Risk",
+        "ar": "خطر فقدان السمع المهني / تغير عتبة السمع"
+      },
+      "categoryId": "noise",
+      "subcategoryId": "hearing-loss",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-001",
+      "name": {
+        "en": "Heat Stress / Heat Strain",
+        "ar": "الإجهاد الحراري / إجهاد الجسم الحراري"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "heat-stress",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-002",
+      "name": {
+        "en": "Heat Rash",
+        "ar": "الطفح الحراري"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "heat-rash",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-003",
+      "name": {
+        "en": "Heat Cramps",
+        "ar": "تشنجات الحرارة"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "heat-cramps",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-004",
+      "name": {
+        "en": "Heat Syncope",
+        "ar": "الإغماء الحراري"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "heat-syncope",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-005",
+      "name": {
+        "en": "Dehydration",
+        "ar": "الجفاف"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "dehydration",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-006",
+      "name": {
+        "en": "Heat Exhaustion",
+        "ar": "الإنهاك الحراري"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "heat-exhaustion",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-007",
+      "name": {
+        "en": "Heat Stroke",
+        "ar": "ضربة الحرارة"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "heat-stroke",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-008",
+      "name": {
+        "en": "Cold Stress",
+        "ar": "الإجهاد البارد"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "cold-stress",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-009",
+      "name": {
+        "en": "Hypothermia",
+        "ar": "انخفاض حرارة الجسم"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "hypothermia",
+      "phase": 7
+    },
+    {
+      "id": "HL-THERM-010",
+      "name": {
+        "en": "Frostbite",
+        "ar": "قضمة الصقيع"
+      },
+      "categoryId": "thermal-stress",
+      "subcategoryId": "frostbite",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-001",
+      "name": {
+        "en": "Alpha Radiation",
+        "ar": "إشعاع ألفا"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "ionizing-particle",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-002",
+      "name": {
+        "en": "Beta Radiation",
+        "ar": "إشعاع بيتا"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "ionizing-particle",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-003",
+      "name": {
+        "en": "Gamma Radiation",
+        "ar": "إشعاع غاما"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "ionizing-em",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-004",
+      "name": {
+        "en": "Neutron Radiation",
+        "ar": "إشعاع النيوترونات"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "ionizing-particle",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-005",
+      "name": {
+        "en": "X-Ray Exposure",
+        "ar": "التعرض للأشعة السينية"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "ionizing-em",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-006",
+      "name": {
+        "en": "Ultraviolet Radiation",
+        "ar": "الأشعة فوق البنفسجية"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "nonionizing-optical",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-007",
+      "name": {
+        "en": "Intense Visible-Light Exposure",
+        "ar": "التعرض للضوء المرئي الشديد"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "nonionizing-optical",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-008",
+      "name": {
+        "en": "Infrared Radiation",
+        "ar": "الأشعة تحت الحمراء"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "nonionizing-optical",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-009",
+      "name": {
+        "en": "Microwave Radiation",
+        "ar": "إشعاع الميكروويف"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "rf-microwave",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-010",
+      "name": {
+        "en": "Radio-Frequency Radiation",
+        "ar": "إشعاع الترددات الراديوية"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "rf-microwave",
+      "phase": 7
+    },
+    {
+      "id": "HL-RAD-011",
+      "name": {
+        "en": "Laser Radiation",
+        "ar": "إشعاع الليزر"
+      },
+      "categoryId": "radiation",
+      "subcategoryId": "laser",
+      "phase": 7
+    },
+    {
+      "id": "HL-ENV-001",
+      "name": {
+        "en": "Air-Emission Release",
+        "ar": "إطلاق ملوثات إلى الهواء"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "air",
+      "phase": 8
+    },
+    {
+      "id": "HL-ENV-002",
+      "name": {
+        "en": "Wastewater / Surface-Water Release",
+        "ar": "تصريف مياه صرف / إطلاق إلى المياه السطحية"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "water",
+      "phase": 8
+    },
+    {
+      "id": "HL-ENV-003",
+      "name": {
+        "en": "Stormwater Contamination",
+        "ar": "تلوث مياه الأمطار"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "stormwater",
+      "phase": 8
+    },
+    {
+      "id": "HL-ENV-004",
+      "name": {
+        "en": "Soil Contamination",
+        "ar": "تلوث التربة"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "soil",
+      "phase": 8
+    },
+    {
+      "id": "HL-ENV-005",
+      "name": {
+        "en": "Groundwater Contamination",
+        "ar": "تلوث المياه الجوفية"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "groundwater",
+      "phase": 8
+    },
+    {
+      "id": "HL-ENV-006",
+      "name": {
+        "en": "Underground-Storage-Tank Release",
+        "ar": "تسرب خزان تخزين تحت الأرض"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "ust",
+      "phase": 8
+    },
+    {
+      "id": "HL-ENV-007",
+      "name": {
+        "en": "Hazardous-Waste Mismanagement",
+        "ar": "سوء إدارة النفايات الخطرة"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "waste",
+      "phase": 8
+    },
+    {
+      "id": "HL-ENV-008",
+      "name": {
+        "en": "Chemical Spill to Environment",
+        "ar": "انسكاب كيميائي إلى البيئة"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "spill",
+      "phase": 8
+    },
+    {
+      "id": "HL-ENV-009",
+      "name": {
+        "en": "Pesticide / Chemical Environmental Release",
+        "ar": "إطلاق مبيد / مادة كيميائية إلى البيئة"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "pesticide",
+      "phase": 8
+    },
+    {
+      "id": "HL-ENV-010",
+      "name": {
+        "en": "Improper Waste Storage / Disposal",
+        "ar": "تخزين / التخلص غير الصحيح من النفايات"
+      },
+      "categoryId": "environmental",
+      "subcategoryId": "waste",
+      "phase": 8
+    },
+    {
+      "id": "HL-SEC-001",
+      "name": {
+        "en": "Workplace Violence",
+        "ar": "العنف في مكان العمل"
+      },
+      "categoryId": "security-emergency",
+      "subcategoryId": "violence",
+      "phase": 8
+    },
+    {
+      "id": "HL-SEC-002",
+      "name": {
+        "en": "Active Violent Attack",
+        "ar": "هجوم عنيف نشط"
+      },
+      "categoryId": "security-emergency",
+      "subcategoryId": "active-attack",
+      "phase": 8
+    },
+    {
+      "id": "HL-SEC-003",
+      "name": {
+        "en": "Unauthorized Access / Intrusion",
+        "ar": "دخول غير مصرح به / اقتحام"
+      },
+      "categoryId": "security-emergency",
+      "subcategoryId": "access",
+      "phase": 8
+    },
+    {
+      "id": "HL-SEC-004",
+      "name": {
+        "en": "Bomb Threat / Suspicious Package",
+        "ar": "تهديد بقنبلة / طرد مشبوه"
+      },
+      "categoryId": "security-emergency",
+      "subcategoryId": "bomb-threat",
+      "phase": 8
+    },
+    {
+      "id": "HL-SEC-005",
+      "name": {
+        "en": "Hazardous-Material Security Breach",
+        "ar": "اختراق أمني لمواد خطرة"
+      },
+      "categoryId": "security-emergency",
+      "subcategoryId": "hazmat-security",
+      "phase": 8
+    },
+    {
+      "id": "HL-SEC-006",
+      "name": {
+        "en": "Emergency Evacuation / Accountability Failure",
+        "ar": "فشل الإخلاء / حصر الأفراد في الطوارئ"
+      },
+      "categoryId": "security-emergency",
+      "subcategoryId": "evacuation",
+      "phase": 8
+    },
+    {
+      "id": "HL-SEC-007",
+      "name": {
+        "en": "Utility / Critical-System Failure",
+        "ar": "فشل المرافق / الأنظمة الحرجة"
+      },
+      "categoryId": "security-emergency",
+      "subcategoryId": "utilities",
+      "phase": 8
+    },
+    {
+      "id": "HL-SEC-008",
+      "name": {
+        "en": "Severe Weather / Natural-Disaster Exposure",
+        "ar": "التعرض للطقس القاسي / الكوارث الطبيعية"
+      },
+      "categoryId": "security-emergency",
+      "subcategoryId": "weather",
+      "phase": 8
+    }
+  ]
+}

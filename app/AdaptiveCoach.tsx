@@ -82,6 +82,7 @@ import KeyInformation from "./KeyInformation";
 import StudyLibrary from "./StudyLibrary";
 import GlobalSmartSearch from "./GlobalSmartSearch";
 import type { SearchResult, SearchTarget } from "./globalSearch";
+import type { ResourceReferences } from "./hazardTypes";
 import {
   BookmarkAction,
   ChapterMasteryMap,
@@ -1098,15 +1099,16 @@ export default function AdaptiveCoach() {
     setSearchOpen(false);
   }
 
-  function openConnectedResource(next: MainView, query?: string, chapterId?: string) {
+  function openConnectedResource(next: MainView, query?: string, chapterId?: string, references?: ResourceReferences & Pick<SearchTarget, "libraryTab">) {
     const target: SearchTarget & { requestKey: number } = {
-      view: next === "mastery" || next === "notebook" || next === "standards" || next === "stats" ? "study" : next,
+      view: next === "mastery" || next === "notebook" || next === "stats" ? "study" : next,
+      ...references,
       query: query ?? "",
       chapterId,
       requestKey: Date.now(),
     };
     if (next === "review" && query) setReviewSearch(query);
-    if (next === "notebook" || next === "standards" || next === "mastery") setSearchTarget(null);
+    if (next === "notebook" || next === "mastery") setSearchTarget(null);
     else setSearchTarget(target);
     setView(next);
     setNavOpen(false);
@@ -1289,10 +1291,10 @@ export default function AdaptiveCoach() {
       {view === "homework" && <HomeworkHub key={searchTarget?.view === "homework" ? searchTarget.requestKey : "homework"} progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} searchTarget={searchTarget?.view === "homework" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
       {view === "practice" && <PracticeV2 key={searchTarget?.view === "practice" ? searchTarget.requestKey : "practice"} searchTarget={searchTarget?.view === "practice" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
       {view === "key-information" && <KeyInformation key={searchTarget?.view === "key-information" ? searchTarget.requestKey : "key-information"} searchTarget={searchTarget?.view === "key-information" ? searchTarget : null} />}
-      {view === "library" && <StudyLibrary key={searchTarget?.view === "library" ? searchTarget.requestKey : "library"} progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} searchTarget={searchTarget?.view === "library" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} mistakeAttempts={activeAttempts.filter((attempt) => !attempt.correct)} onOpen={(next, query) => openConnectedResource(next, query)} />}
+      {view === "library" && <StudyLibrary key={searchTarget?.view === "library" ? searchTarget.requestKey : "library"} progress={saved.learning} onProgress={(learning) => setSaved((currentSaved) => ({ ...currentSaved, learning }))} searchTarget={searchTarget?.view === "library" ? searchTarget : null} system={saved.system} onSystem={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} mistakeAttempts={activeAttempts.filter((attempt) => !attempt.correct)} onOpen={(next, query, references) => openConnectedResource(next, query, undefined, references)} />}
       {view === "mastery" && <ChapterMasteryMap learning={saved.learning} attempts={activeAttempts} onOpen={openConnectedResource} />}
       {view === "notebook" && <StudyNotebook system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} />}
-      {view === "standards" && <StandardsExplorer key={searchTarget?.view === "standards" ? searchTarget.requestKey : "standards"} system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} onOpen={openConnectedResource} initialQuery={searchTarget?.view === "standards" ? searchTarget.query : undefined} />}
+      {view === "standards" && <StandardsExplorer key={searchTarget?.view === "standards" ? searchTarget.requestKey : "standards"} system={saved.system} onChange={(system) => setSaved((currentSaved) => ({ ...currentSaved, system }))} onOpen={(next, query, target) => openConnectedResource(next, query, undefined, target)} initialQuery={searchTarget?.view === "standards" ? searchTarget.query : undefined} initialStandardIds={searchTarget?.view === "standards" ? searchTarget.standardIds ?? (searchTarget.itemId ? [searchTarget.itemId] : undefined) : undefined} />}
       {view === "review" && (
         <Review
           attempts={activeAttempts}
@@ -1656,7 +1658,7 @@ function QuizRunner({
         <div className="quiz-progress-wrap"><div className="quiz-progress"><i style={{ width: `${((index + 1) / total) * 100}%` }} /></div><span>{answeredCount} answered · {total - answeredCount} open</span></div>
         <div className="quiz-tools"><span className={remaining < 300 ? "timer urgent" : "timer"}><Clock3 size={17} /> {formatTime(remaining)}</span><button className="quit-button" onClick={onQuit}>End block</button></div>
       </header>
-      <main className="quiz-main">
+      <main className="quiz-main question-workspace">
         <section className="question-card">
           <div className="question-meta">
             <span className="question-number">{mockForm ? `Mock Form ${mockForm} · ` : ""}Question {index + 1} <i>/ {total}</i></span>
@@ -1676,8 +1678,8 @@ function QuizRunner({
             {(["guess", "lean", "sure"] as Confidence[]).map((value) => <button className={confidence === value ? "active" : ""} key={value} onClick={() => onConfidence(value)}>{value === "guess" ? "Guessing" : value === "lean" ? "Leaning" : "Certain"}</button>)}
           </div>
           <div className="suppressed-note"><LockKeyhole size={15} /> Rationale locked until the {total}-question block is submitted.</div>
-          <QuestionTools formulaQuery={`${question.stem} ${question.competency} ${question.referenceTopic}`} />
         </section>
+        <QuestionTools formulaQuery={`${question.stem} ${question.competency} ${question.referenceTopic}`} />
       </main>
       <footer className="quiz-footer">
         <div className="quiz-footer-left"><button className={flagged ? "tool-button flagged" : "tool-button"} onClick={onFlag}><Flag size={17} /> {flagged ? "Flagged" : "Flag"}</button><span className="catalog-id">Item {question.id}</span></div>

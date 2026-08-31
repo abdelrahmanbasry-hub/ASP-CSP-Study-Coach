@@ -1,0 +1,183 @@
+{
+  "visible": 220,
+  "duplicateIds": [],
+  "duplicateNames": [],
+  "nearNames": [],
+  "conceptOverlapReview": {
+    "policy": "Potential conceptual overlap is reported for editorial review, not merged. The controlled source specifies separate records, contexts and IDs; no exact-name duplicates or visible prototype duplicates remain.",
+    "groups": [
+      [
+        {
+          "id": "HL-MAT-001",
+          "name": "Manual Lifting / Overexertion"
+        },
+        {
+          "id": "HL-ERGO-001",
+          "name": "Heavy / High-Frequency Lifting"
+        }
+      ],
+      [
+        {
+          "id": "HL-MAT-014",
+          "name": "Forklift Battery Charging"
+        },
+        {
+          "id": "HL-FIRE-009",
+          "name": "Battery Charging — Hydrogen / Ignition"
+        }
+      ],
+      [
+        {
+          "id": "HL-CHEM-002",
+          "name": "Flammable Liquids"
+        },
+        {
+          "id": "HL-FIRE-001",
+          "name": "Flammable Vapor Fire"
+        }
+      ],
+      [
+        {
+          "id": "HL-CHEM-009",
+          "name": "Compressed Gases"
+        },
+        {
+          "id": "HL-PRESS-008",
+          "name": "Cylinder / Pressurized-Container Rupture"
+        },
+        {
+          "id": "HL-FIRE-008",
+          "name": "Compressed-Gas Cylinder Fire / Rupture"
+        }
+      ],
+      [
+        {
+          "id": "HL-CHEM-012",
+          "name": "Toxic Chemical Release"
+        },
+        {
+          "id": "HL-PSM-001",
+          "name": "Loss of Containment"
+        }
+      ],
+      [
+        {
+          "id": "HL-PRESS-001",
+          "name": "Pressure-Vessel Overpressure"
+        },
+        {
+          "id": "HL-PSM-003",
+          "name": "Process Overpressure"
+        }
+      ],
+      [
+        {
+          "id": "HL-LOTO-005",
+          "name": "Pneumatic Energy"
+        },
+        {
+          "id": "HL-PRESS-004",
+          "name": "Pneumatic Stored-Energy Release"
+        }
+      ],
+      [
+        {
+          "id": "HL-FIRE-004",
+          "name": "Hot-Work Ignition"
+        },
+        {
+          "id": "HL-FIRE-005",
+          "name": "Welding / Cutting Fire"
+        }
+      ],
+      [
+        {
+          "id": "HL-CHEM-014",
+          "name": "Hazardous-Waste Exposure"
+        },
+        {
+          "id": "HL-ENV-007",
+          "name": "Hazardous-Waste Mismanagement"
+        }
+      ],
+      [
+        {
+          "id": "HL-CHEM-013",
+          "name": "Chemical Spill / Splash"
+        },
+        {
+          "id": "HL-ENV-008",
+          "name": "Chemical Spill to Environment"
+        }
+      ],
+      [
+        {
+          "id": "HL-PSM-007",
+          "name": "Utility Failure"
+        },
+        {
+          "id": "HL-SEC-007",
+          "name": "Utility / Critical-System Failure"
+        }
+      ],
+      [
+        {
+          "id": "HL-LOTO-002",
+          "name": "Stored Electrical Energy"
+        },
+        {
+          "id": "HL-LOTO-003",
+          "name": "Stored Mechanical Energy"
+        },
+        {
+          "id": "HL-LOTO-009",
+          "name": "Springs / Capacitors / Residual Energy"
+        }
+      ]
+    ]
+  },
+  "aliases": [
+    {
+      "legacy": "ref-arc-flash",
+      "canonical": "HL-ELEC-001",
+      "method": "non-destructive lookup/search/Save compatibility alias; notebook presentation grouping",
+      "sameObject": true
+    },
+    {
+      "legacy": "ref-scaffold-fall",
+      "canonical": "HL-FALL-007",
+      "method": "non-destructive lookup/search/Save compatibility alias; notebook presentation grouping",
+      "sameObject": true
+    },
+    {
+      "legacy": "ref-forklift-tip-over",
+      "canonical": "HL-MAT-004",
+      "method": "non-destructive lookup/search/Save compatibility alias; notebook presentation grouping",
+      "sameObject": true
+    },
+    {
+      "legacy": "ref-oxygen-deficient-space",
+      "canonical": "HL-CONF-001",
+      "method": "non-destructive lookup/search/Save compatibility alias; notebook presentation grouping",
+      "sameObject": true
+    },
+    {
+      "legacy": "ref-unexpected-startup",
+      "canonical": "HL-LOTO-001",
+      "method": "non-destructive lookup/search/Save compatibility alias; notebook presentation grouping",
+      "sameObject": true
+    }
+  ],
+  "hiddenLegacy": [
+    {
+      "id": "ref-radiation-exposure",
+      "name": {
+        "en": "Radiation Exposure",
+        "ar": "التعرض للإشعاع"
+      },
+      "method": "original broad reference preserved for historic saved links; no subtype alias"
+    }
+  ],
+  "globalSearchCount": 220,
+  "staleReferenceResults": []
+}

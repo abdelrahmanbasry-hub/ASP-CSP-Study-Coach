@@ -1,0 +1,272 @@
+/* Scoped to Phase 1: the surrounding Study Library and global tokens stay intact. */
+.hazards-library-panel {
+  --body-primary: #287864;
+  --body-secondary: #8857a6;
+  --body-route: var(--gold-dark);
+  --body-surface: #f0e5d8;
+  --body-inactive: #dddcd4;
+  --body-outline: #a99d8e;
+  width: min(1480px, calc(100% - 48px));
+}
+.hazards-library-panel .hazard-explorer { grid-template-columns: minmax(185px, .7fr) minmax(440px, 1.7fr) minmax(265px, 1fr); gap: 16px; border: 0; border-radius: 0; overflow: visible; background: none; box-shadow: none; }
+.hazards-library-panel .hazard-record-rail, .hazards-library-panel .hazard-detail-card, .body-system-explorer { border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
+.hazards-library-panel .hazard-record-list { max-height: 650px; padding: 8px; gap: 4px; scrollbar-width: thin; scrollbar-color: #a6b4b4 transparent; }
+.hazards-library-panel .hazard-record-list button { min-height: 54px; padding: 9px 10px; }
+.hazards-library-panel .hazard-record-list .body-bilingual { font-size: 12px; font-weight: 600; }
+.hazards-library-panel .hazard-record-list .body-bilingual [lang="ar"] { font-size: 12px; font-weight: 400; }
+.hazards-library-panel .hazard-rail-heading { min-height: 62px; padding: 14px 16px; font-size: 10px; }
+.hazards-library-panel .hazard-detail-card { padding: 22px; }
+.hazards-library-panel .hazard-detail-card dl { gap: 15px; }
+.hazards-library-panel .hazard-detail-card dd { font-size: 12px; line-height: 1.6; }
+.hazards-library-panel .hazard-detail-card dt { font-size: 9px; color: var(--ink-2); }
+.hazards-library-panel .hazard-detail-card h3 > i { display: none; }
+.hazards-library-panel .hazard-detail-card h3 [lang="ar"] { margin-top: 7px; }
+.hazards-library-panel .hazard-detail-kicker { font-size: 9px; }
+.hazards-library-panel .hazard-system-chips button { border-radius: 6px; padding: 6px 8px; font-size: 10px; }
+.hazards-library-panel .hazard-crosslinks { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+.hazards-library-panel .hazard-crosslinks button { min-height: 40px; padding: 9px 12px; font-size: 12px; }
+.hazards-library-panel .hazard-detail-disclaimer { font-size: 10px; }
+.hazards-library-panel .hazard-switches button, .hazards-library-panel .hazard-view-switches button { font-size: 11px; min-height: 38px; }
+.hazards-library-panel .hazard-explorer-intro { max-width: none; font-size: 12px; }
+.hazards-library-panel :focus-visible { outline: 3px solid var(--blue); outline-offset: 3px; }
+.body-bilingual { display: grid; gap: 3px; min-width: 0; overflow-wrap: anywhere; }
+.body-bilingual [lang="ar"] { direction: rtl; text-align: right; font-family: Arial, Tahoma, sans-serif; line-height: 1.6; letter-spacing: normal; }
+.body-bilingual [lang="en"] { direction: ltr; text-align: left; }
+.body-system-explorer { min-width: 0; display: flex; flex-direction: column; padding: 20px; container-type: inline-size; }
+.body-explorer-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; min-height: 95px; }
+.body-explorer-heading > div:first-child { min-width: 0; flex: 1; }
+.body-explorer-eyebrow { color: var(--muted); font-size: 9px; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; }
+.body-explorer-eyebrow [lang="ar"] { display: none; }
+.body-explorer-eyebrow .body-bilingual:has([lang="ar"]:only-child) [lang="ar"] { display: block; }
+.body-explorer-heading h3 { margin: 8px 0 10px; font-size: 23px; line-height: 1.25; letter-spacing: -.025em; }
+.body-explorer-heading h3 [lang="ar"] { font-size: 17px; font-weight: 500; }
+.body-route-summary { max-width: 185px; flex: 0 1 185px; padding: 10px 12px; background: color-mix(in srgb, var(--mint) 9%, var(--card)); border: 1px solid var(--line); border-radius: 8px; font-size: 11px; }
+.body-route-summary > div { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
+.body-route-summary svg { flex: 0 0 auto; color: var(--body-primary); }
+.body-role-label { color: var(--body-primary); font-size: 9px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; }
+.body-role-label [lang="ar"] { font-size: 10px; }
+.body-explorer-tabs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 4px; margin-top: 14px; gap: 4px; border: 1px solid var(--line); border-radius: 8px; background: #f0f3f0; }
+.body-explorer-tabs button { display: flex; justify-content: center; align-items: center; gap: 7px; min-height: 45px; padding: 7px 5px; border: 1px solid transparent; border-radius: 5px; background: transparent; font-size: 11px; font-weight: 600; cursor: pointer; }
+.body-explorer-tabs button[aria-selected="true"] { background: var(--card); border-color: var(--line); box-shadow: 0 2px 5px #1730420b; }
+.body-explorer-tabs svg { flex: 0 0 auto; }
+.body-explorer-tabs .body-bilingual { gap: 1px; }
+.body-explorer-tabs [lang="ar"] { font-size: 11px; text-align: center; }
+.body-explorer-stage { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(155px, .9fr); align-items: center; gap: 4px; min-height: 495px; }
+.body-anatomy { position: relative; min-width: 0; align-self: start; }
+.human-body-svg { display: block; width: 100%; max-height: 560px; overflow: visible; }
+.body-anatomy-caption { margin: 0; color: var(--muted); font-size: 9px; text-align: center; }
+.body-anatomy-caption .body-bilingual > span { text-align: center; }
+.body-ground { fill: var(--ink); opacity: .05; }
+.body-structure { fill: none; stroke: var(--body-outline); stroke-width: 1.3; opacity: .32; pointer-events: none; }
+.body-region { cursor: pointer; outline-offset: 4px; }
+.region-organ { fill: var(--body-inactive); stroke: var(--body-outline); stroke-width: 1.2; transition: fill .18s ease, stroke .18s ease; }
+.skin-silhouette { stroke-width: 1.4; }
+.organ-detail { fill: none; stroke: var(--body-outline); stroke-width: 1; opacity: .6; pointer-events: none; }
+.region-outline { fill: none; stroke: var(--body-inactive); stroke-width: 2; }
+.systemic-outline { stroke-dasharray: 3 8; opacity: .7; }
+.respiratory-outline { stroke-dasharray: 3 3; }
+.skeleton-organ { fill: none; stroke-width: 6; stroke-linecap: round; opacity: .6; }
+.gut-outline { fill: none; stroke-width: 7; stroke-linecap: round; }
+.gut-coils { fill: none; stroke-width: 4; stroke-linecap: round; }
+.blood-vessels { fill: none; stroke-width: 2.2; opacity: .7; }
+.marrow-organ { fill: none; stroke-width: 7; stroke-linecap: round; }
+.lymph-organ { stroke-width: 1.5; }
+.body-region.is-primary .region-organ, .body-region.is-primary.region-organ { fill: var(--body-primary); stroke: color-mix(in srgb, var(--body-primary) 75%, var(--ink)); }
+.body-region.is-secondary .region-organ { fill: color-mix(in srgb, var(--body-secondary) 35%, var(--card)); stroke: var(--body-secondary); stroke-dasharray: 3 2; }
+.body-region.is-primary .organ-detail { stroke: var(--card); }
+.body-region.is-primary .region-outline { stroke: var(--body-primary); stroke-width: 3.5; opacity: 1; }
+.body-region.is-secondary .region-outline { stroke: var(--body-secondary); stroke-width: 3; }
+.body-region.is-primary .skin-silhouette { stroke: var(--body-primary); stroke-width: 3; }
+.body-region.is-secondary .skin-silhouette { stroke: var(--body-secondary); stroke-width: 3; }
+.body-region:is(.is-primary, .is-secondary, .is-inactive) :is(.skeleton-organ, .blood-vessels, .marrow-organ, .gut-outline, .gut-coils) { fill: none; }
+.body-region.is-primary .skeleton-organ, .body-region.is-primary .blood-vessels, .body-region.is-primary .marrow-organ { opacity: 1; stroke: var(--body-primary); }
+.body-region.is-secondary .skeleton-organ, .body-region.is-secondary .blood-vessels, .body-region.is-secondary .marrow-organ { opacity: 1; stroke: var(--body-secondary); }
+.body-region.is-hovered .region-organ, .body-region:focus-visible .region-organ, .body-region.is-selected .region-organ,
+.body-region.is-hovered .region-outline, .body-region:focus-visible .region-outline, .body-region.is-selected .region-outline { stroke: var(--ink); stroke-width: 3; }
+.body-region.is-selected { filter: drop-shadow(0 0 3px color-mix(in srgb, var(--blue) 40%, transparent)); }
+.body-connector { pointer-events: none; }
+.body-connector path { fill: none; stroke: var(--body-primary); stroke-width: 1.1; stroke-dasharray: 4 4; opacity: .55; }
+.body-connector circle { fill: var(--body-primary); stroke: var(--card); stroke-width: 2; }
+.body-connector text, .body-entry-route text { fill: var(--card); font-size: 9px; text-anchor: middle; font-weight: 700; }
+.body-connector.is-secondary path { stroke: var(--body-secondary); }
+.body-connector.is-secondary circle { fill: var(--body-secondary); }
+.body-entry-route { pointer-events: none; }
+.body-entry-route > path { fill: none; stroke: var(--body-route); stroke-width: 2.5; stroke-dasharray: 5 3; }
+.body-entry-route circle { fill: var(--body-route); stroke: var(--card); stroke-width: 2; }
+.body-explorer-context { min-width: 0; padding-block: 18px; }
+.body-system-callouts { display: grid; gap: 16px; }
+.body-callout { display: grid; grid-template-columns: 22px minmax(0, 1fr); align-items: start; gap: 8px; min-height: 88px; padding: 12px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); text-align: left; box-shadow: 0 3px 12px #17304205; cursor: pointer; }
+.body-callout:hover, .body-callout.is-hovered, .body-callout[aria-pressed="true"] { border-color: var(--body-primary); background: color-mix(in srgb, var(--mint) 8%, var(--card)); }
+.body-callout-number { display: grid; place-items: center; width: 20px; height: 20px; margin-top: 3px; border-radius: 50%; color: var(--card); background: var(--body-primary); font-size: 10px; font-weight: 700; }
+.body-callout.is-secondary .body-callout-number { background: var(--body-secondary); }
+.body-callout.is-secondary .body-role-label { color: var(--body-secondary); }
+.body-callout-name { font-size: 12px; font-weight: 600; line-height: 1.4; margin-top: 7px; }
+.body-callout-name [lang="ar"] { font-weight: 400; font-size: 12px; }
+.body-explorer-legend { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; padding: 14px; border: 1px solid var(--line); border-radius: 7px; font-size: 10px; }
+.body-explorer-legend > span { display: grid; grid-template-columns: 12px minmax(0, 1fr); align-items: start; gap: 8px; line-height: 1.5; }
+.body-explorer-legend .body-legend-symbol { margin-top: 3px; }
+.body-legend-symbol { width: 10px; height: 10px; flex: 0 0 10px; display: inline-block; border-radius: 50%; background: var(--body-primary); }
+.body-legend-symbol.is-secondary { border-radius: 2px; background: color-mix(in srgb, var(--body-secondary) 30%, var(--card)); border: 2px dashed var(--body-secondary); }
+.body-legend-symbol.is-inactive { background: var(--body-inactive); border: 1px solid var(--body-outline); }
+.body-legend-symbol.is-selected { background: white; border: 2px solid var(--ink); outline: 2px solid #dce5e3; outline-offset: 2px; }
+.body-explorer-help { display: flex; gap: 7px; margin: 14px 0; color: var(--ink-2); font-size: 11px; }
+.body-explorer-help svg { flex: 0 0 auto; margin-top: 2px; }
+.body-filter-banner { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px; margin-top: 8px; background: color-mix(in srgb, var(--mint) 12%, var(--card)); border: 1px solid var(--line); border-radius: 6px; font-size: 11px; }
+.body-filter-banner button { display: flex; gap: 5px; align-items: center; border: 0; border-radius: 5px; background: var(--card); padding: 7px; font-size: 11px; font-weight: 700; cursor: pointer; }
+.body-system-index, .body-mapping-note { border-top: 1px solid var(--line); padding-top: 10px; font-size: 11px; }
+.body-system-index summary { display: flex; gap: 7px; align-items: center; cursor: pointer; }
+.body-system-index summary::after { content: "+"; margin-left: auto; font-size: 17px; }
+.body-system-index[open] summary::after { content: "−"; }
+.body-system-index > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; padding-block: 12px; }
+.body-system-index button, .body-effect-card button { border: 1px solid var(--line); border-radius: 5px; background: var(--card); padding: 8px; text-align: left; font-size: 11px; cursor: pointer; }
+.body-system-index button:hover, .body-system-index button[aria-pressed="true"], .body-effect-card button:hover { border-color: var(--body-primary); background: color-mix(in srgb, var(--mint) 12%, var(--card)); }
+.body-mapping-note { margin-top: 10px; color: var(--muted); font-size: 10px; line-height: 1.6; }
+.body-mapping-note summary { cursor: pointer; margin-bottom: 6px; }
+.body-mapping-note summary .body-bilingual { display: inline-grid; }
+.body-source-note { font-size: 11px; line-height: 1.6; color: var(--muted); }
+.exposure-route-view h4, .health-effects-view h4 { margin: 0 0 12px; font-size: 12px; }
+.body-route-list { display: grid; gap: 8px; padding: 0; margin: 0 0 16px; list-style: none; }
+.body-route-list li { display: flex; align-items: center; gap: 8px; padding: 10px; background: color-mix(in srgb, var(--gold) 8%, var(--card)); border: 1px solid var(--line); border-radius: 7px; font-size: 12px; }
+.body-route-list li svg { flex: 0 0 auto; color: var(--body-route); }
+.body-route-number { font-size: 11px; font-weight: 700; color: var(--body-route); }
+.body-original-route { padding-top: 12px; border-top: 1px solid var(--line); font-size: 11px; line-height: 1.6; }
+.body-review-note { display: grid; gap: 6px; margin: 12px 0; padding: 10px; border-left: 3px solid var(--gold); background: color-mix(in srgb, var(--gold) 9%, var(--card)); font-size: 11px; line-height: 1.6; }
+.body-effect-card { border: 1px solid var(--line); border-top: 3px solid var(--body-primary); border-radius: 7px; padding: 12px; margin-bottom: 12px; font-size: 12px; line-height: 1.6; }
+.body-effect-card.is-secondary { border-top-color: var(--body-secondary); }
+.body-effect-card p { margin: 12px 0; }
+.body-effect-card small { font-size: 10px; color: var(--muted); }
+.body-effect-systems { display: flex; flex-wrap: wrap; gap: 5px; }
+@media (max-width: 1180px) {
+  .hazards-library-panel .hazard-explorer { grid-template-columns: minmax(185px, .65fr) minmax(0, 1.8fr); }
+  .hazards-library-panel .hazard-detail-card { grid-column: 1 / -1; }
+  .hazards-library-panel .hazard-detail-card dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@container (max-width: 435px) {
+  .body-explorer-stage { grid-template-columns: minmax(0, 1fr); }
+  .body-anatomy { width: min(100%, 280px); margin-inline: auto; }
+  .body-connector path { display: none; }
+  .body-system-callouts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .body-callout { min-height: 95px; }
+  .body-explorer-tabs button { flex-direction: column; }
+  .body-route-summary { flex-basis: 145px; }
+}
+@media (max-width: 760px) {
+  .hazards-library-panel { width: calc(100% - 28px); }
+  .hazards-library-panel .hazard-explorer { grid-template-columns: minmax(0, 1fr); gap: 12px; }
+  .hazards-library-panel .hazard-record-list { max-height: 225px; }
+  .hazards-library-panel .hazard-detail-card { grid-column: auto; }
+  .hazards-library-panel .hazard-detail-card dl { grid-template-columns: minmax(0, 1fr); }
+  .hazards-library-panel .hazard-switches { flex-wrap: wrap; align-items: flex-start; }
+  .hazards-library-panel .hazard-switches > div { max-width: 100%; }
+  .hazards-library-panel .hazard-switches button { min-height: 44px; }
+  .body-system-explorer { padding: 16px; }
+  .body-explorer-heading { flex-wrap: wrap; }
+  .body-explorer-heading h3 { font-size: 21px; }
+  .body-route-summary { flex-basis: 125px; }
+  .body-explorer-legend { justify-content: flex-start; }
+  .body-system-index button { min-height: 44px; }
+}
+@media (prefers-reduced-motion: reduce) { .body-region, .region-organ { transition: none; } }
+/* Reference-aligned anatomy: shared neutral context, organ-specific accents. */
+.body-system-explorer { background: linear-gradient(130deg, #fffefb, #fafaf7); }
+.body-explorer-heading { min-height: 76px; }
+.body-explorer-heading h3 { margin-top: 0; padding-left: 12px; border-left: 2px solid #e2eae6; }
+.body-explorer-heading h3 .body-bilingual, .body-callout .body-bilingual, .body-route-summary .body-bilingual { justify-items: start; }
+.body-system-explorer[data-language="ar"] .body-bilingual { justify-items: stretch; }
+.body-route-summary { background: #ffffffc9; border-color: #eef0ed; box-shadow: 0 3px 10px #17304203; }
+.body-explorer-stage { position: relative; min-height: 580px; grid-template-columns: minmax(0, 1.25fr) minmax(155px, .85fr); gap: 16px; }
+.body-anatomy { align-self: start; }
+.human-body-svg { height: 580px; max-height: none; overflow: hidden; }
+.body-anatomy-caption { font-size: 8px; opacity: .8; }
+.body-explorer-context { position: relative; z-index: 2; padding-right: 3px; }
+.body-system-callouts { gap: 22px; }
+.body-callout { grid-template-columns: 12px minmax(0, 1fr); min-height: 88px; padding: 14px 12px; gap: 10px; background: #ffffffdb; border-color: #e6e9e7; box-shadow: 0 3px 9px #17304205; transition: border-color .15s, background .15s; }
+.body-callout-dot { width: 10px; height: 10px; margin-top: 24px; background: var(--callout-color); border-radius: 50%; box-shadow: inset 0 0 0 1px #17304215; }
+.body-callout.is-secondary .body-callout-dot { background: color-mix(in srgb, var(--callout-color) 40%, white); border: 1px dashed var(--callout-color); }
+.body-callout .body-role-label { color: var(--callout-color); font-size: 8px; }
+.body-callout .body-role-label [lang="ar"] { font-size: 9px; }
+.body-callout-name { margin-top: 6px; }
+.body-callout:hover, .body-callout.is-hovered, .body-callout[aria-pressed="true"] { border-color: var(--callout-color); background: color-mix(in srgb, var(--callout-color) 5%, white); }
+.body-callout[aria-pressed="true"], .body-effect-card.is-selected { outline: 2px solid var(--ink); outline-offset: 3px; }
+.body-callout-connectors { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; z-index: 1; }
+.body-callout-connectors path { fill: none; stroke: var(--connector-color); stroke-width: 1.5; stroke-dasharray: 4 4; opacity: .75; }
+.body-callout-connectors circle { fill: var(--connector-color); opacity: .65; }
+.body-callout-connectors .is-secondary path { opacity: .55; }
+.body-callout-connectors :is(.is-hovered, .is-selected) path { opacity: 1; stroke-width: 2; stroke-dasharray: none; }
+.body-explorer-tabs { margin-top: 13px; background: #fff; border-color: #dce4e2; }
+.body-explorer-tabs button[aria-selected="true"] { box-shadow: 0 0 0 3px #e3edeb; }
+.body-explorer-legend { margin-top: 16px; background: #ffffffb0; }
+.anatomy-structure { pointer-events: none; }
+.anatomy-muscles { fill: #c58465; fill-opacity: .16; stroke: #bd886a; stroke-width: .65; stroke-opacity: .2; }
+.anatomy-bones { fill: #f8efdf; fill-opacity: .85; stroke: #cbb899; stroke-width: .8; stroke-opacity: .65; }
+.anatomy-rib { fill: none; stroke: #c3ae91; stroke-width: 1.8; opacity: .55; }
+.anatomy-contours { fill: none; stroke: #b39c85; stroke-width: .65; opacity: .55; }
+.body-region .region-organ { fill: var(--organ-fill); stroke: color-mix(in srgb, var(--organ-tone) 80%, #766255); stroke-width: .7; fill-opacity: .64; stroke-opacity: .6; }
+.body-region.is-inactive .region-organ { fill-opacity: .32; stroke-opacity: .35; }
+.body-region .organ-detail { stroke: color-mix(in srgb, var(--organ-tone) 65%, #5f554b); stroke-width: .65; opacity: .55; }
+.body-region .skin-silhouette { stroke: #c5a78e; stroke-width: 1; fill-opacity: 1; stroke-opacity: .5; }
+.body-region.is-primary .region-organ { fill: var(--organ-active-fill); fill-opacity: .93; stroke: var(--region-accent); stroke-width: 1.1; stroke-opacity: .9; }
+.body-region.is-secondary .region-organ { fill: color-mix(in srgb, var(--region-accent) 25%, white); fill-opacity: .65; stroke: var(--region-accent); stroke-dasharray: 2 2; stroke-opacity: .85; }
+.body-region.is-primary .organ-detail { stroke: color-mix(in srgb, var(--region-accent) 75%, #173042); opacity: .6; }
+.body-region .region-outline { stroke: var(--organ-tone); stroke-width: 1.1; opacity: .28; }
+.body-region .systemic-outline { opacity: 0; }
+.body-region.is-primary .region-outline { stroke: var(--region-accent); opacity: .95; stroke-width: 2.2; }
+.body-region.is-secondary .region-outline { stroke: var(--region-accent); opacity: .65; stroke-width: 1.8; }
+.body-region:is(.is-primary, .is-secondary, .is-inactive) :is(.skeleton-organ, .blood-vessels, .marrow-organ, .gut-outline, .gut-coils) { fill: none; }
+.body-region .gut-outline { stroke: var(--organ-tone); stroke-width: 7; stroke-opacity: .6; }
+.body-region .gut-coils { stroke: var(--organ-tone); stroke-width: 4; stroke-opacity: .75; }
+.body-region .gut-segments { opacity: .4; }
+.body-region .blood-vessels { stroke: #bc8183; stroke-width: 1.2; stroke-opacity: .35; }
+.body-region .blood-vessels .vessel-fine { stroke-width: .7; }
+.body-region.is-inactive .skeleton-organ, .body-region.is-inactive .marrow-organ { stroke-opacity: .06; }
+.body-region .lymph-organ { stroke-opacity: .4; fill-opacity: .4; }
+.body-region.is-primary :is(.skeleton-organ, .blood-vessels, .marrow-organ, .gut-outline, .gut-coils) { stroke: var(--region-accent); stroke-opacity: 1; }
+.body-region.is-secondary :is(.skeleton-organ, .blood-vessels, .marrow-organ, .gut-outline, .gut-coils) { stroke: var(--region-accent); stroke-opacity: .75; }
+.body-region.is-primary .blood-vessels { stroke-width: 2.2; }
+.body-region.is-primary .marrow-organ { stroke-width: 5; }
+.body-region:is(.is-hovered, .is-selected) .region-organ, .body-region:focus-visible .region-organ { stroke: var(--region-accent); stroke-opacity: 1; stroke-width: 2; fill-opacity: 1; }
+.body-region:is(.is-hovered, .is-selected) .region-outline, .body-region:focus-visible .region-outline { stroke: var(--region-accent); opacity: 1; }
+.body-region.is-hovered, .body-region.is-selected { filter: drop-shadow(0 0 3px color-mix(in srgb, var(--region-accent) 30%, transparent)); }
+.body-region.is-selected { filter: drop-shadow(0 0 1px white) drop-shadow(0 0 3px var(--region-accent)); }
+.body-region.is-selected :is(.region-organ, .region-outline) { stroke: var(--ink); stroke-width: 2.2; stroke-dasharray: none; }
+.body-region:is(.is-primary, .is-secondary, .is-selected) .skeleton-organ { stroke-width: 5; }
+.body-region:is(.is-primary, .is-secondary, .is-selected) .gut-outline { stroke-width: 7; }
+.body-region:is(.is-primary, .is-secondary, .is-selected) .gut-coils { stroke-width: 4; }
+.body-region .blood-site { stroke-width: .6; }
+.body-region .marrow-site { stroke-width: .8; }
+.body-region.is-inactive :is(.blood-site, .marrow-site) { fill-opacity: .12; stroke-opacity: .12; }
+.body-region .systemic-field { fill-opacity: 0; stroke-opacity: 0; }
+.body-region:is(.is-primary, .is-secondary, .is-hovered, .is-selected) .systemic-field { fill-opacity: .16; stroke-opacity: .85; stroke-width: 2; stroke-dasharray: 3 3; }
+.mode-routes .body-region:not(.is-selected):not(.is-hovered) :is(.region-organ, .region-outline) { opacity: .65; }
+.mode-routes .body-entry-route > path { stroke-width: 3.5; stroke-dasharray: none; stroke-linecap: round; filter: drop-shadow(0 0 1px white); }
+.mode-effects .body-effect-card { padding: 0; background: white; border: 1px solid var(--line); border-left: 3px solid var(--callout-color); overflow-wrap: anywhere; }
+.mode-effects .body-effect-card.is-secondary { border-left-style: dashed; background: color-mix(in srgb, var(--callout-color) 3%, white); }
+.body-effect-card.is-hovered { border-color: var(--callout-color); box-shadow: 0 0 0 2px color-mix(in srgb, var(--callout-color) 12%, transparent); }
+.body-effect-card button { display: grid; grid-template-columns: 12px minmax(0, 1fr); align-items: start; gap: 10px; width: 100%; padding: 12px; border: 0; background: transparent; }
+.body-effect-card .body-callout-dot { margin-top: 5px; }
+.body-effect-card.is-secondary .body-callout-dot { background: color-mix(in srgb, var(--callout-color) 25%, white); border: 1px dashed var(--callout-color); }
+.body-effect-card .body-role-label { color: var(--callout-color); }
+.body-effect-card .body-effect-text { margin: 0; padding: 12px; border-top: 1px solid var(--line); font-weight: 600; background: color-mix(in srgb, var(--callout-color) 5%, white); }
+.body-effect-shared-link { display: block; padding: 0 12px 12px; }
+.body-effect-summary { padding: 12px; border-radius: 7px; background: color-mix(in srgb, var(--body-primary) 7%, white); font-size: 12px; line-height: 1.6; }
+.body-effect-summary p { margin: 0; font-weight: 600; }
+.body-target-pin { pointer-events: none; color: var(--body-primary); }
+.body-pin-halo { fill: currentColor; opacity: .1; }
+.body-pin-ring { fill: currentColor; fill-opacity: .75; stroke: white; stroke-width: 2; }
+.body-target-pin.is-secondary .body-pin-ring { fill-opacity: .4; stroke-dasharray: 2 1; }
+.body-target-pin.is-hovered .body-pin-halo { opacity: .24; }
+.body-target-pin.is-hovered .body-pin-ring { stroke-width: 3; fill-opacity: 1; }
+.body-target-pin.is-selected .body-pin-halo { opacity: .25; }
+.body-pin-focus { fill: none; stroke: var(--ink); stroke-width: 2; paint-order: stroke; }
+@container (max-width: 580px) {
+  .body-explorer-legend { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px 20px; }
+}
+@container (max-width: 435px) {
+  .body-explorer-stage { grid-template-columns: minmax(0, 1fr); }
+  .body-anatomy { width: min(100%, 366px); }
+  .human-body-svg { height: 554px; }
+  .body-callout-connectors { display: none; }
+  .body-system-callouts { gap: 8px; }
+  .body-explorer-context { padding-top: 0; }
+}
+@media (prefers-reduced-motion: reduce) { .body-callout { transition: none; } }

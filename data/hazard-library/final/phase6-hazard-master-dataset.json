@@ -1,0 +1,4451 @@
+{
+  "package": "ASP/CSP Study Coach Hazard Library — Phase 6 Dataset",
+  "version": "2026-08-31-final-combined-draft1",
+  "recordCount": 37,
+  "categoryCounts": {
+    "CHEM": 15,
+    "FIRE": 12,
+    "PSM": 10
+  },
+  "records": [
+    {
+      "id": "HL-CHEM-001",
+      "categoryId": "CHEM",
+      "subcategoryId": "chemical_properties",
+      "name": {
+        "en": "Corrosive Chemicals",
+        "ar": "المواد الكيميائية الأكّالة"
+      },
+      "summary": {
+        "en": "Corrosive chemicals can damage skin, eyes, respiratory tissue, metals, and equipment through chemical reaction.",
+        "ar": "يركز هذا السجل على خطر «المواد الكيميائية الأكّالة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Corrosive chemicals can damage skin, eyes, respiratory tissue, metals, and equipment through chemical reaction.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «المواد الكيميائية الأكّالة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "chemical-container",
+          "splash-zone",
+          "corrosion-zone",
+          "ventilation"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "laboratory",
+        "manufacturing",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "direct-hazard-communication"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "corrosive",
+        "splash"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazard Communication / Hazardous Materials physical and health hazards",
+        "yatesPageRangeApprox": "90–190 / 619–621",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "corrosive chemicals",
+          "chemical properties",
+          "chem",
+          "chemical",
+          "corrosive",
+          "splash"
+        ],
+        "ar": [
+          "المواد الكيميائية الأكّالة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-002",
+      "categoryId": "CHEM",
+      "subcategoryId": "flammability",
+      "name": {
+        "en": "Flammable Liquids",
+        "ar": "السوائل القابلة للاشتعال"
+      },
+      "summary": {
+        "en": "Flammable liquid vapors can form ignitable mixtures and burn rapidly when an ignition source is present.",
+        "ar": "يركز هذا السجل على خطر «السوائل القابلة للاشتعال» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Flammable liquid vapors can form ignitable mixtures and burn rapidly when an ignition source is present.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «السوائل القابلة للاشتعال» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "liquid-container",
+          "vapor-zone",
+          "ignition-source",
+          "fire-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "warehouse",
+        "laboratory",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "flammable-liquid",
+        "vapor"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Fire Prevention and Protection / Hazard Communication",
+        "yatesPageRangeApprox": "351–366 / 170–185",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "flammable liquids",
+          "flammability",
+          "chem",
+          "chemical",
+          "flammable-liquid",
+          "vapor"
+        ],
+        "ar": [
+          "السوائل القابلة للاشتعال"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-003",
+      "categoryId": "CHEM",
+      "subcategoryId": "flammability",
+      "name": {
+        "en": "Flammable Gases",
+        "ar": "الغازات القابلة للاشتعال"
+      },
+      "summary": {
+        "en": "Flammable gases can mix with air and ignite, producing fire or explosion hazards if released and not controlled.",
+        "ar": "يركز هذا السجل على خطر «الغازات القابلة للاشتعال» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Flammable gases can mix with air and ignite, producing fire or explosion hazards if released and not controlled.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الغازات القابلة للاشتعال» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "gas-source",
+          "vapor-cloud",
+          "ignition-source",
+          "flash-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "laboratory",
+        "utilities",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "direct-hazard-classification"
+        },
+        {
+          "number": "1910.101",
+          "scope": "general-industry",
+          "relation": "related-compressed-gas"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "flammable-gas",
+        "gas-release"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazard Communication physical-hazard criteria",
+        "yatesPageRangeApprox": "170–185",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "flammable gases",
+          "flammability",
+          "chem",
+          "chemical",
+          "flammable-gas",
+          "gas-release"
+        ],
+        "ar": [
+          "الغازات القابلة للاشتعال"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-004",
+      "categoryId": "CHEM",
+      "subcategoryId": "oxidizers",
+      "name": {
+        "en": "Oxidizers",
+        "ar": "المؤكسدات"
+      },
+      "summary": {
+        "en": "Oxidizing materials can intensify combustion by supplying or promoting oxidizing action.",
+        "ar": "يركز هذا السجل على خطر «المؤكسدات» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Oxidizing materials can intensify combustion by supplying or promoting oxidizing action.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «المؤكسدات» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "oxidizer-source",
+          "fuel-source",
+          "reaction-zone",
+          "separation-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "laboratory",
+        "manufacturing",
+        "warehouse"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "direct-hazard-classification"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "oxidizer",
+        "reactivity"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazard Communication physical-hazard criteria",
+        "yatesPageRangeApprox": "170–185",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "oxidizers",
+          "oxidizers",
+          "chem",
+          "chemical",
+          "oxidizer",
+          "reactivity"
+        ],
+        "ar": [
+          "المؤكسدات"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-005",
+      "categoryId": "CHEM",
+      "subcategoryId": "reactivity",
+      "name": {
+        "en": "Self-Reactive / Unstable Chemicals",
+        "ar": "المواد ذاتية التفاعل / غير المستقرة"
+      },
+      "summary": {
+        "en": "Self-reactive or unstable chemicals can decompose, polymerize, or react rapidly when exposed to incompatible conditions.",
+        "ar": "يركز هذا السجل على خطر «المواد ذاتية التفاعل / غير المستقرة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Self-reactive or unstable chemicals can decompose, polymerize, or react rapidly when exposed to incompatible conditions.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «المواد ذاتية التفاعل / غير المستقرة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "reactive-material",
+          "temperature-pressure-trigger",
+          "reaction-zone",
+          "containment"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "laboratory",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "direct-hazard-classification"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "self-reactive",
+        "unstable"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazard Communication physical-hazard criteria",
+        "yatesPageRangeApprox": "180–185",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "self-reactive / unstable chemicals",
+          "reactivity",
+          "chem",
+          "chemical",
+          "self-reactive",
+          "unstable"
+        ],
+        "ar": [
+          "المواد ذاتية التفاعل / غير المستقرة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-006",
+      "categoryId": "CHEM",
+      "subcategoryId": "reactivity",
+      "name": {
+        "en": "Water-Reactive Materials",
+        "ar": "المواد المتفاعلة مع الماء"
+      },
+      "summary": {
+        "en": "Some chemicals react with water or moisture to release heat, flammable gas, corrosive products, or other hazardous reaction products.",
+        "ar": "يركز هذا السجل على خطر «المواد المتفاعلة مع الماء» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Some chemicals react with water or moisture to release heat, flammable gas, corrosive products, or other hazardous reaction products.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «المواد المتفاعلة مع الماء» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "water-contact",
+          "reactive-material",
+          "gas-release",
+          "heat-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "laboratory",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "direct-hazard-classification"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "water-reactive",
+        "flammable-gas"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazard Communication physical-hazard criteria",
+        "yatesPageRangeApprox": "184–185",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "water-reactive materials",
+          "reactivity",
+          "chem",
+          "chemical",
+          "water-reactive",
+          "flammable-gas"
+        ],
+        "ar": [
+          "المواد المتفاعلة مع الماء"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-007",
+      "categoryId": "CHEM",
+      "subcategoryId": "reactivity",
+      "name": {
+        "en": "Organic Peroxides",
+        "ar": "البيروكسيدات العضوية"
+      },
+      "summary": {
+        "en": "Organic peroxides can be thermally unstable and may undergo hazardous decomposition or contribute to fire/explosion conditions.",
+        "ar": "يركز هذا السجل على خطر «البيروكسيدات العضوية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Organic peroxides can be thermally unstable and may undergo hazardous decomposition or contribute to fire/explosion conditions.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «البيروكسيدات العضوية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "peroxide-container",
+          "temperature-zone",
+          "decomposition-path",
+          "separation-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "laboratory",
+        "manufacturing",
+        "warehouse"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "direct-hazard-classification"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "organic-peroxide",
+        "decomposition"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazard Communication physical-hazard criteria",
+        "yatesPageRangeApprox": "170–185",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "organic peroxides",
+          "reactivity",
+          "chem",
+          "chemical",
+          "organic-peroxide",
+          "decomposition"
+        ],
+        "ar": [
+          "البيروكسيدات العضوية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-008",
+      "categoryId": "CHEM",
+      "subcategoryId": "reactivity",
+      "name": {
+        "en": "Pyrophoric Materials",
+        "ar": "المواد البيروفورية / ذاتية الاشتعال بالهواء"
+      },
+      "summary": {
+        "en": "Pyrophoric materials can ignite spontaneously on contact with air, creating immediate fire hazards during handling or loss of containment.",
+        "ar": "يركز هذا السجل على خطر «المواد البيروفورية / ذاتية الاشتعال بالهواء» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Pyrophoric materials can ignite spontaneously on contact with air, creating immediate fire hazards during handling or loss of containment.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «المواد البيروفورية / ذاتية الاشتعال بالهواء» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "pyrophoric-source",
+          "air-contact",
+          "ignition-zone",
+          "inerting-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "laboratory",
+        "chemical",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "direct-hazard-classification"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "pyrophoric",
+        "air-reactive"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazard Communication physical-hazard criteria",
+        "yatesPageRangeApprox": "180–185",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "pyrophoric materials",
+          "reactivity",
+          "chem",
+          "chemical",
+          "pyrophoric",
+          "air-reactive"
+        ],
+        "ar": [
+          "المواد البيروفورية / ذاتية الاشتعال بالهواء"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-009",
+      "categoryId": "CHEM",
+      "subcategoryId": "compressed_gas",
+      "name": {
+        "en": "Compressed Gases",
+        "ar": "الغازات المضغوطة"
+      },
+      "summary": {
+        "en": "Compressed gases store pressure energy and may also introduce toxic, flammable, oxidizing, or asphyxiation hazards depending on the gas.",
+        "ar": "يركز هذا السجل على خطر «الغازات المضغوطة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Compressed gases store pressure energy and may also introduce toxic, flammable, oxidizing, or asphyxiation hazards depending on the gas.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الغازات المضغوطة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "cylinder",
+          "stored-pressure",
+          "valve",
+          "release-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "laboratory",
+        "manufacturing",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.101",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "compressed-gas",
+        "cylinder"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazardous Materials / compressed-gas topics",
+        "yatesPageRangeApprox": "593–595 / 619–621",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "compressed gases",
+          "compressed gas",
+          "chem",
+          "chemical",
+          "compressed-gas",
+          "cylinder"
+        ],
+        "ar": [
+          "الغازات المضغوطة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-010",
+      "categoryId": "CHEM",
+      "subcategoryId": "temperature",
+      "name": {
+        "en": "Cryogenic Materials",
+        "ar": "المواد شديدة البرودة / الكريوجينية"
+      },
+      "summary": {
+        "en": "Cryogenic liquids and gases can cause severe cold injury, rapid vapor generation, pressure buildup, and oxygen-displacement hazards.",
+        "ar": "يركز هذا السجل على خطر «المواد شديدة البرودة / الكريوجينية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Cryogenic liquids and gases can cause severe cold injury, rapid vapor generation, pressure buildup, and oxygen-displacement hazards.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «المواد شديدة البرودة / الكريوجينية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "cryogenic-container",
+          "cold-zone",
+          "vapor-cloud",
+          "pressure-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "laboratory",
+        "manufacturing",
+        "medical",
+        "research"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "general-related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "cryogenic",
+        "cold-burn"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazardous-material and thermal-stressor concepts",
+        "yatesPageRangeApprox": "619–621 / 368–384",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "cryogenic materials",
+          "temperature",
+          "chem",
+          "chemical",
+          "cryogenic",
+          "cold-burn"
+        ],
+        "ar": [
+          "المواد شديدة البرودة / الكريوجينية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-011",
+      "categoryId": "CHEM",
+      "subcategoryId": "compatibility",
+      "name": {
+        "en": "Chemical Incompatibility",
+        "ar": "عدم التوافق الكيميائي"
+      },
+      "summary": {
+        "en": "Incompatible chemicals can react when mixed or brought into contact, producing heat, pressure, toxic gases, fire, explosion, or corrosive products.",
+        "ar": "يركز هذا السجل على خطر «عدم التوافق الكيميائي» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Incompatible chemicals can react when mixed or brought into contact, producing heat, pressure, toxic gases, fire, explosion, or corrosive products.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «عدم التوافق الكيميائي» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "chemical-a",
+          "chemical-b",
+          "mixing-point",
+          "reaction-zone",
+          "segregation"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "laboratory",
+        "manufacturing",
+        "warehouse"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "related"
+        },
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "conditional-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "incompatibility",
+        "mixing"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety / Hazard Communication",
+        "yatesPageRangeApprox": "11–12 / 170–185",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "chemical incompatibility",
+          "compatibility",
+          "chem",
+          "chemical",
+          "incompatibility",
+          "mixing"
+        ],
+        "ar": [
+          "عدم التوافق الكيميائي"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-012",
+      "categoryId": "CHEM",
+      "subcategoryId": "release",
+      "name": {
+        "en": "Toxic Chemical Release",
+        "ar": "إطلاق مادة كيميائية سامة"
+      },
+      "summary": {
+        "en": "Loss of containment can create an airborne, liquid, or surface exposure pathway for a toxic chemical.",
+        "ar": "يركز هذا السجل على خطر «إطلاق مادة كيميائية سامة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Loss of containment can create an airborne, liquid, or surface exposure pathway for a toxic chemical.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إطلاق مادة كيميائية سامة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "release-source",
+          "airborne-plume",
+          "worker-zone",
+          "containment-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "manufacturing",
+        "maintenance",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "related"
+        },
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "conditional-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "toxic-release",
+        "loss-of-containment"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazardous Materials / process-safety coverage",
+        "yatesPageRangeApprox": "619–635 / 11–12",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "toxic chemical release",
+          "release",
+          "chem",
+          "chemical",
+          "toxic-release",
+          "loss-of-containment"
+        ],
+        "ar": [
+          "إطلاق مادة كيميائية سامة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-013",
+      "categoryId": "CHEM",
+      "subcategoryId": "spill",
+      "name": {
+        "en": "Chemical Spill / Splash",
+        "ar": "انسكاب / تناثر مادة كيميائية"
+      },
+      "summary": {
+        "en": "A spill or splash can expose workers through skin/eye contact, inhalation, ingestion, or secondary fire/reactivity pathways.",
+        "ar": "يركز هذا السجل على خطر «انسكاب / تناثر مادة كيميائية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "A spill or splash can expose workers through skin/eye contact, inhalation, ingestion, or secondary fire/reactivity pathways.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «انسكاب / تناثر مادة كيميائية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "spill-pool",
+          "splash-path",
+          "worker-contact-zone",
+          "drain-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "laboratory",
+        "manufacturing",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "related"
+        },
+        {
+          "number": "1910.132",
+          "scope": "general-industry",
+          "relation": "related-PPE"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "spill",
+        "splash"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazardous-material handling / emergency-spill concepts",
+        "yatesPageRangeApprox": "619–635 / 871–890",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "chemical spill / splash",
+          "spill",
+          "chem",
+          "chemical",
+          "spill",
+          "splash"
+        ],
+        "ar": [
+          "انسكاب / تناثر مادة كيميائية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-014",
+      "categoryId": "CHEM",
+      "subcategoryId": "waste",
+      "name": {
+        "en": "Hazardous-Waste Exposure",
+        "ar": "التعرض للنفايات الخطرة"
+      },
+      "summary": {
+        "en": "Hazardous-waste work can combine chemical exposure, physical hazards, fire/explosion potential, and emergency-response hazards.",
+        "ar": "يركز هذا السجل على خطر «التعرض للنفايات الخطرة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Hazardous-waste work can combine chemical exposure, physical hazards, fire/explosion potential, and emergency-response hazards.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «التعرض للنفايات الخطرة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "waste-container",
+          "exposure-zone",
+          "unknown-material",
+          "response-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "environmental",
+        "waste",
+        "manufacturing",
+        "response"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.120",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "hazardous-waste",
+        "hazwoper"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazardous Waste Operations / Environmental Management",
+        "yatesPageRangeApprox": "629–635 / 759–762",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "hazardous-waste exposure",
+          "waste",
+          "chem",
+          "chemical",
+          "hazardous-waste",
+          "hazwoper"
+        ],
+        "ar": [
+          "التعرض للنفايات الخطرة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-CHEM-015",
+      "categoryId": "CHEM",
+      "subcategoryId": "storage",
+      "name": {
+        "en": "Improper Chemical Storage / Segregation",
+        "ar": "التخزين / الفصل غير الصحيح للمواد الكيميائية"
+      },
+      "summary": {
+        "en": "Improper storage can place incompatible, flammable, reactive, pressurized, or corrosive materials where one event can escalate another.",
+        "ar": "يركز هذا السجل على خطر «التخزين / الفصل غير الصحيح للمواد الكيميائية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Improper storage can place incompatible, flammable, reactive, pressurized, or corrosive materials where one event can escalate another.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «التخزين / الفصل غير الصحيح للمواد الكيميائية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical burns, toxic exposure, eye/skin/respiratory injury, fire/explosion, or other serious harm depending on the material and route.",
+          "ar": "قد تشمل النتائج حروقاً كيميائية أو تعرضاً ساماً أو إصابات للعين/الجلد/التنفس أو حريقاً/انفجاراً وفق المادة وطريق التعرض."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Chemical receiving, storage, transfer, mixing, production, laboratory work, maintenance, spill response, and waste handling.",
+          "ar": "استلام المواد الكيميائية وتخزينها ونقلها وخلطها والإنتاج والعمل المخبري والصيانة والاستجابة للانسكابات ومناولة النفايات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate the hazardous chemical or unnecessary chemical task where feasible.",
+            "ar": "أزل المادة الكيميائية الخطرة أو المهمة الكيميائية غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Substitute a less hazardous material, concentration, form, or process where feasible.",
+            "ar": "استبدل المادة أو التركيز أو الشكل أو العملية ببديل أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use closed systems, containment, ventilation, compatible storage, transfer controls, and physical separation appropriate to the hazard.",
+            "ar": "استخدم الأنظمة المغلقة والاحتواء والتهوية والتخزين المتوافق وضوابط النقل والفصل الفيزيائي المناسب للخطر."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hazard communication, SDS review, labeling, procedures, training, inspection, inventory control, and emergency planning.",
+            "ar": "استخدم برنامج التواصل عن المخاطر ومراجعة نشرات بيانات السلامة والملصقات والإجراءات والتدريب والفحص وضبط المخزون والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use chemical-resistant eye/face, hand, body, respiratory, or other PPE selected for the assessed exposure.",
+            "ar": "استخدم حماية كيميائية مناسبة للعين/الوجه واليد والجسم والتنفس أو غيرها وفق تقييم التعرض."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "chemical-storage",
+        "overlays": [
+          "storage-rack",
+          "incompatible-zone",
+          "flammable-zone",
+          "secondary-containment"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "warehouse",
+        "laboratory",
+        "manufacturing",
+        "chemical"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "general-related"
+        },
+        {
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "conditional-flammable-liquids"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical",
+        "storage",
+        "segregation"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazardous-material storage and handling / HazCom",
+        "yatesPageRangeApprox": "619–635 / 90–190",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "improper chemical storage / segregation",
+          "storage",
+          "chem",
+          "chemical",
+          "storage",
+          "segregation"
+        ],
+        "ar": [
+          "التخزين / الفصل غير الصحيح للمواد الكيميائية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-001",
+      "categoryId": "FIRE",
+      "subcategoryId": "flammable",
+      "name": {
+        "en": "Flammable Vapor Fire",
+        "ar": "حريق أبخرة قابلة للاشتعال"
+      },
+      "summary": {
+        "en": "A flammable vapor cloud can ignite when an ignition source and an ignitable mixture coincide.",
+        "ar": "يركز هذا السجل على خطر «حريق أبخرة قابلة للاشتعال» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "A flammable vapor cloud can ignite when an ignition source and an ignitable mixture coincide.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «حريق أبخرة قابلة للاشتعال» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "fire-process-area",
+        "overlays": [
+          "vapor-cloud",
+          "ignition-source",
+          "flame-zone",
+          "worker-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1910 Subpart L",
+          "scope": "general-industry",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "flammable-vapor",
+        "ignition"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Fire Prevention and Protection",
+        "yatesPageRangeApprox": "351–366",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "flammable vapor fire",
+          "flammable",
+          "fire",
+          "fire",
+          "flammable-vapor",
+          "ignition"
+        ],
+        "ar": [
+          "حريق أبخرة قابلة للاشتعال"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-002",
+      "categoryId": "FIRE",
+      "subcategoryId": "explosion",
+      "name": {
+        "en": "Vapor-Cloud Explosion",
+        "ar": "انفجار سحابة بخار"
+      },
+      "summary": {
+        "en": "A released flammable vapor can form an ignitable cloud and produce damaging pressure effects if ignition occurs under suitable conditions.",
+        "ar": "يركز هذا السجل على خطر «انفجار سحابة بخار» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "A released flammable vapor can form an ignitable cloud and produce damaging pressure effects if ignition occurs under suitable conditions.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «انفجار سحابة بخار» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "fire-process-area",
+        "overlays": [
+          "release-source",
+          "vapor-cloud",
+          "ignition-source",
+          "blast-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "related"
+        },
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "conditional-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "vapor-cloud",
+        "explosion"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Fire Prevention and Protection / PSM coverage",
+        "yatesPageRangeApprox": "351–366 / 11–12",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "vapor-cloud explosion",
+          "explosion",
+          "fire",
+          "fire",
+          "vapor-cloud",
+          "explosion"
+        ],
+        "ar": [
+          "انفجار سحابة بخار"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-003",
+      "categoryId": "FIRE",
+      "subcategoryId": "dust",
+      "name": {
+        "en": "Combustible Dust Fire / Explosion",
+        "ar": "حريق / انفجار الغبار القابل للاحتراق"
+      },
+      "summary": {
+        "en": "Dispersed combustible dust can burn rapidly or explode when a sufficient dust cloud and ignition source are present.",
+        "ar": "يركز هذا السجل على خطر «حريق / انفجار الغبار القابل للاحتراق» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Dispersed combustible dust can burn rapidly or explode when a sufficient dust cloud and ignition source are present.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «حريق / انفجار الغبار القابل للاحتراق» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "combustible-dust-process",
+        "overlays": [
+          "dust-layer",
+          "dust-cloud",
+          "ignition-source",
+          "explosion-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "fire",
+        "combustible-dust",
+        "dust-explosion"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP workplace-hazard coverage / static electricity in dusty explosive environments",
+        "yatesPageRangeApprox": "12 / 578–580",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "combustible dust fire / explosion",
+          "dust",
+          "fire",
+          "fire",
+          "combustible-dust",
+          "dust-explosion"
+        ],
+        "ar": [
+          "حريق / انفجار الغبار القابل للاحتراق"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-004",
+      "categoryId": "FIRE",
+      "subcategoryId": "hot_work",
+      "name": {
+        "en": "Hot-Work Ignition",
+        "ar": "اشتعال بسبب العمل الساخن"
+      },
+      "summary": {
+        "en": "Sparks, slag, flame, or heat from hot work can ignite nearby combustible or flammable materials.",
+        "ar": "يركز هذا السجل على خطر «اشتعال بسبب العمل الساخن» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Sparks, slag, flame, or heat from hot work can ignite nearby combustible or flammable materials.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «اشتعال بسبب العمل الساخن» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "hot-work-worker",
+        "overlays": [
+          "hot-work-source",
+          "spark-path",
+          "combustible-zone",
+          "fire-watch"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.252",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.352",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "hot-work",
+        "ignition"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — welding/cutting fire prevention",
+        "yatesPageRangeApprox": "592–597",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "hot-work ignition",
+          "hot work",
+          "fire",
+          "fire",
+          "hot-work",
+          "ignition"
+        ],
+        "ar": [
+          "اشتعال بسبب العمل الساخن"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-005",
+      "categoryId": "FIRE",
+      "subcategoryId": "hot_work",
+      "name": {
+        "en": "Welding / Cutting Fire",
+        "ar": "حريق اللحام / القطع"
+      },
+      "summary": {
+        "en": "Welding and cutting can produce flame, hot metal, sparks, and slag capable of igniting nearby materials.",
+        "ar": "يركز هذا السجل على خطر «حريق اللحام / القطع» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Welding and cutting can produce flame, hot metal, sparks, and slag capable of igniting nearby materials.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «حريق اللحام / القطع» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "hot-work-worker",
+        "overlays": [
+          "torch-arc",
+          "spark-path",
+          "hot-metal",
+          "combustible-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.252",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.352",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "welding",
+        "cutting"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — welding/cutting fire prevention",
+        "yatesPageRangeApprox": "592–597",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "welding / cutting fire",
+          "hot work",
+          "fire",
+          "fire",
+          "welding",
+          "cutting"
+        ],
+        "ar": [
+          "حريق اللحام / القطع"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-006",
+      "categoryId": "FIRE",
+      "subcategoryId": "static",
+      "name": {
+        "en": "Static-Electricity Ignition",
+        "ar": "اشتعال بسبب الكهرباء الساكنة"
+      },
+      "summary": {
+        "en": "Static charge can accumulate during transfer, mixing, spraying, conveying, or powder handling and discharge as an ignition-capable spark.",
+        "ar": "يركز هذا السجل على خطر «اشتعال بسبب الكهرباء الساكنة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Static charge can accumulate during transfer, mixing, spraying, conveying, or powder handling and discharge as an ignition-capable spark.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «اشتعال بسبب الكهرباء الساكنة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "fire-process-area",
+        "overlays": [
+          "charge-build-up",
+          "spark-discharge",
+          "flammable-zone",
+          "bond-ground"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.106",
+          "scope": "general-industry",
+          "relation": "related-flammable-liquid-transfer"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "static-electricity",
+        "bonding-grounding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Static Electricity",
+        "yatesPageRangeApprox": "578–580",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "static-electricity ignition",
+          "static",
+          "fire",
+          "fire",
+          "static-electricity",
+          "bonding-grounding"
+        ],
+        "ar": [
+          "اشتعال بسبب الكهرباء الساكنة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-007",
+      "categoryId": "FIRE",
+      "subcategoryId": "self_heating",
+      "name": {
+        "en": "Self-Heating / Spontaneous Combustion",
+        "ar": "التسخين الذاتي / الاحتراق التلقائي"
+      },
+      "summary": {
+        "en": "Some materials can self-heat through reaction or oxidation until ignition occurs without an external flame.",
+        "ar": "يركز هذا السجل على خطر «التسخين الذاتي / الاحتراق التلقائي» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Some materials can self-heat through reaction or oxidation until ignition occurs without an external flame.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «التسخين الذاتي / الاحتراق التلقائي» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "fire-process-area",
+        "overlays": [
+          "self-heating-material",
+          "heat-build-up",
+          "ignition-point",
+          "separation-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1200",
+          "scope": "general-industry",
+          "relation": "related-hazard-classification"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "self-heating",
+        "spontaneous-combustion"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazard Communication physical-hazard criteria / Fire concepts",
+        "yatesPageRangeApprox": "180–185 / 351–366",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "self-heating / spontaneous combustion",
+          "self heating",
+          "fire",
+          "fire",
+          "self-heating",
+          "spontaneous-combustion"
+        ],
+        "ar": [
+          "التسخين الذاتي / الاحتراق التلقائي"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-008",
+      "categoryId": "FIRE",
+      "subcategoryId": "compressed_gas",
+      "name": {
+        "en": "Compressed-Gas Cylinder Fire / Rupture",
+        "ar": "حريق / تمزق أسطوانة غاز مضغوط"
+      },
+      "summary": {
+        "en": "Heat, fire exposure, valve damage, or containment failure can turn a compressed-gas cylinder into a high-energy release or projectile hazard.",
+        "ar": "يركز هذا السجل على خطر «حريق / تمزق أسطوانة غاز مضغوط» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Heat, fire exposure, valve damage, or containment failure can turn a compressed-gas cylinder into a high-energy release or projectile hazard.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «حريق / تمزق أسطوانة غاز مضغوط» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "cylinder",
+          "heat-zone",
+          "valve",
+          "rupture-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.101",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.350",
+          "scope": "construction",
+          "relation": "related-welding-cylinders"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "compressed-gas",
+        "cylinder"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — compressed-gas cylinders / Hazardous Materials",
+        "yatesPageRangeApprox": "593–595 / 619–621",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "compressed-gas cylinder fire / rupture",
+          "compressed gas",
+          "fire",
+          "fire",
+          "compressed-gas",
+          "cylinder"
+        ],
+        "ar": [
+          "حريق / تمزق أسطوانة غاز مضغوط"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-009",
+      "categoryId": "FIRE",
+      "subcategoryId": "battery",
+      "name": {
+        "en": "Battery Charging — Hydrogen / Ignition",
+        "ar": "شحن البطاريات — الهيدروجين / الاشتعال"
+      },
+      "summary": {
+        "en": "Battery charging can generate hydrogen and introduce ignition, electrical, electrolyte, and handling hazards if the charging area is poorly controlled.",
+        "ar": "يركز هذا السجل على خطر «شحن البطاريات — الهيدروجين / الاشتعال» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Battery charging can generate hydrogen and introduce ignition, electrical, electrolyte, and handling hazards if the charging area is poorly controlled.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «شحن البطاريات — الهيدروجين / الاشتعال» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "forklift-battery-charging",
+        "overlays": [
+          "battery",
+          "hydrogen-zone",
+          "charger",
+          "ignition-source",
+          "ventilation"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.178",
+          "scope": "general-industry",
+          "relation": "direct-powered-industrial-trucks"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "battery-charging",
+        "hydrogen"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Materials Handling — electric forklift battery charging",
+        "yatesPageRangeApprox": "705–706",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "battery charging — hydrogen / ignition",
+          "battery",
+          "fire",
+          "fire",
+          "battery-charging",
+          "hydrogen"
+        ],
+        "ar": [
+          "شحن البطاريات — الهيدروجين / الاشتعال"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-010",
+      "categoryId": "FIRE",
+      "subcategoryId": "detection",
+      "name": {
+        "en": "Fire Detection Impairment",
+        "ar": "تعطل نظام كشف الحريق"
+      },
+      "summary": {
+        "en": "A disabled, obstructed, unmaintained, or ineffective fire-detection system can delay recognition and response to a developing fire.",
+        "ar": "يركز هذا السجل على خطر «تعطل نظام كشف الحريق» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "A disabled, obstructed, unmaintained, or ineffective fire-detection system can delay recognition and response to a developing fire.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تعطل نظام كشف الحريق» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "fire-protection-system",
+        "overlays": [
+          "detectors",
+          "impaired-detector",
+          "alarm-path",
+          "fire-source"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.164",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "detection",
+        "alarm"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Fire Prevention and Protection / ASP-CSP fire-protection coverage",
+        "yatesPageRangeApprox": "351–366 / 11–12",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "fire detection impairment",
+          "detection",
+          "fire",
+          "fire",
+          "detection",
+          "alarm"
+        ],
+        "ar": [
+          "تعطل نظام كشف الحريق"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-011",
+      "categoryId": "FIRE",
+      "subcategoryId": "suppression",
+      "name": {
+        "en": "Fire Suppression / Sprinkler Impairment",
+        "ar": "تعطل نظام الإطفاء / الرشاشات"
+      },
+      "summary": {
+        "en": "An impaired suppression system can allow a controllable fire to grow because extinguishing agent is unavailable or delayed.",
+        "ar": "يركز هذا السجل على خطر «تعطل نظام الإطفاء / الرشاشات» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "An impaired suppression system can allow a controllable fire to grow because extinguishing agent is unavailable or delayed.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تعطل نظام الإطفاء / الرشاشات» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "fire-protection-system",
+        "overlays": [
+          "sprinkler-network",
+          "closed-valve",
+          "fire-zone",
+          "suppression-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.159",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1910.160",
+          "scope": "general-industry",
+          "relation": "related-fixed-systems"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "sprinkler",
+        "suppression"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Fire Prevention and Protection",
+        "yatesPageRangeApprox": "351–366",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "fire suppression / sprinkler impairment",
+          "suppression",
+          "fire",
+          "fire",
+          "sprinkler",
+          "suppression"
+        ],
+        "ar": [
+          "تعطل نظام الإطفاء / الرشاشات"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-FIRE-012",
+      "categoryId": "FIRE",
+      "subcategoryId": "extinguishers",
+      "name": {
+        "en": "Improper Extinguisher Selection / Use",
+        "ar": "اختيار / استخدام مطفأة غير مناسب"
+      },
+      "summary": {
+        "en": "Using an unsuitable extinguisher or using one incorrectly can fail to control a fire and may increase exposure to heat, smoke, electrical, or reactive-material hazards.",
+        "ar": "يركز هذا السجل على خطر «اختيار / استخدام مطفأة غير مناسب» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Using an unsuitable extinguisher or using one incorrectly can fail to control a fire and may increase exposure to heat, smoke, electrical, or reactive-material hazards.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «اختيار / استخدام مطفأة غير مناسب» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burns, smoke exposure, blast injury, structural/property damage, emergency evacuation, or death.",
+          "ar": "حروق وتعرض للدخان وإصابات موجة ضغط وتلف إنشائي/ممتلكات وإخلاء طارئ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hot work, fuel/chemical handling, production, maintenance, storage, charging, fire-protection systems, and emergency response.",
+          "ar": "العمل الساخن ومناولة الوقود/المواد الكيميائية والإنتاج والصيانة والتخزين والشحن/الشحن الكهربائي وأنظمة الحماية من الحريق والاستجابة للطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary fuel, ignition sources, or combustible loading where feasible.",
+            "ar": "أزل الوقود أو مصادر الاشتعال أو الأحمال القابلة للاحتراق غير الضرورية متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less flammable materials or lower-energy work methods where feasible.",
+            "ar": "استخدم مواد أقل قابلية للاشتعال أو طرق عمل أقل طاقة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use separation, ventilation, detection, suppression, grounding/bonding, containment, and rated equipment appropriate to the fire/explosion hazard.",
+            "ar": "استخدم الفصل والتهوية والكشف والإطفاء والتأريض/الربط والاحتواء والمعدات المصنفة المناسبة لخطر الحريق/الانفجار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use hot-work controls, inspection, housekeeping, permits, fire watch, emergency planning, and employee training.",
+            "ar": "استخدم ضوابط العمل الساخن والفحص والترتيب والنظافة والتصاريح ومراقبة الحريق والتخطيط للطوارئ والتدريب."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use task-appropriate flame/heat, eye/face, hand, respiratory, hearing, or other PPE where required.",
+            "ar": "استخدم حماية اللهب/الحرارة والعين/الوجه واليد والتنفس والسمع أو غيرها حسب المهمة عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "fire-extinguisher-use",
+        "overlays": [
+          "fire-class",
+          "extinguisher",
+          "approach-path",
+          "escape-route"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "warehouse",
+        "maintenance"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.157",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "fire",
+        "extinguisher",
+        "fire-class"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Fire Prevention and Protection — portable extinguishers",
+        "yatesPageRangeApprox": "351–366",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "improper extinguisher selection / use",
+          "extinguishers",
+          "fire",
+          "fire",
+          "extinguisher",
+          "fire-class"
+        ],
+        "ar": [
+          "اختيار / استخدام مطفأة غير مناسب"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-001",
+      "categoryId": "PSM",
+      "subcategoryId": "containment",
+      "name": {
+        "en": "Loss of Containment",
+        "ar": "فقدان الاحتواء"
+      },
+      "summary": {
+        "en": "Failure of process equipment, piping, connections, seals, or operations can release hazardous process material outside intended containment.",
+        "ar": "يركز هذا السجل على خطر «فقدان الاحتواء» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Failure of process equipment, piping, connections, seals, or operations can release hazardous process material outside intended containment.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «فقدان الاحتواء» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "containment-boundary",
+          "release-point",
+          "plume",
+          "shutdown-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "containment",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "1910.119 catastrophic release prevention / process integrity"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "loss of containment",
+          "containment",
+          "psm",
+          "psm",
+          "containment",
+          "process-safety"
+        ],
+        "ar": [
+          "فقدان الاحتواء"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-002",
+      "categoryId": "PSM",
+      "subcategoryId": "reaction",
+      "name": {
+        "en": "Runaway / Uncontrolled Reaction",
+        "ar": "تفاعل منفلت / غير مسيطر عليه"
+      },
+      "summary": {
+        "en": "A reaction can accelerate beyond intended control when heat generation, mixing, chemistry, contamination, or cooling/controls deviate from safe conditions.",
+        "ar": "يركز هذا السجل على خطر «تفاعل منفلت / غير مسيطر عليه» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "A reaction can accelerate beyond intended control when heat generation, mixing, chemistry, contamination, or cooling/controls deviate from safe conditions.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تفاعل منفلت / غير مسيطر عليه» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "reactor",
+          "temperature-rise",
+          "reaction-rate",
+          "cooling-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "reaction",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "1910.119 process chemistry, safe limits, and hazard analysis"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "runaway / uncontrolled reaction",
+          "reaction",
+          "psm",
+          "psm",
+          "reaction",
+          "process-safety"
+        ],
+        "ar": [
+          "تفاعل منفلت / غير مسيطر عليه"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-003",
+      "categoryId": "PSM",
+      "subcategoryId": "pressure",
+      "name": {
+        "en": "Process Overpressure",
+        "ar": "زيادة ضغط العملية"
+      },
+      "summary": {
+        "en": "Pressure can exceed intended limits when flow is blocked, heat or gas generation increases, control fails, or relief capacity is inadequate.",
+        "ar": "يركز هذا السجل على خطر «زيادة ضغط العملية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Pressure can exceed intended limits when flow is blocked, heat or gas generation increases, control fails, or relief capacity is inadequate.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «زيادة ضغط العملية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "pressure-rise",
+          "blocked-flow",
+          "relief-system",
+          "vessel"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "pressure",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "1910.119 safe operating limits and relief-system design"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "process overpressure",
+          "pressure",
+          "psm",
+          "psm",
+          "pressure",
+          "process-safety"
+        ],
+        "ar": [
+          "زيادة ضغط العملية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-004",
+      "categoryId": "PSM",
+      "subcategoryId": "relief",
+      "name": {
+        "en": "Relief-System Failure",
+        "ar": "فشل نظام التنفيس / تخفيف الضغط"
+      },
+      "summary": {
+        "en": "A relief or vent system can fail to protect equipment when it is unavailable, incorrectly designed, isolated, obstructed, damaged, or poorly maintained.",
+        "ar": "يركز هذا السجل على خطر «فشل نظام التنفيس / تخفيف الضغط» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "A relief or vent system can fail to protect equipment when it is unavailable, incorrectly designed, isolated, obstructed, damaged, or poorly maintained.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «فشل نظام التنفيس / تخفيف الضغط» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "relief-device",
+          "blocked-relief",
+          "pressure-source",
+          "discharge-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "relief",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "1910.119(j) mechanical integrity / relief and vent systems"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "relief-system failure",
+          "relief",
+          "psm",
+          "psm",
+          "relief",
+          "process-safety"
+        ],
+        "ar": [
+          "فشل نظام التنفيس / تخفيف الضغط"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-005",
+      "categoryId": "PSM",
+      "subcategoryId": "instrumentation",
+      "name": {
+        "en": "Instrument / Alarm Failure",
+        "ar": "فشل أجهزة القياس / الإنذار"
+      },
+      "summary": {
+        "en": "Failed or misleading instrumentation can prevent operators or automated systems from recognizing unsafe process deviations.",
+        "ar": "يركز هذا السجل على خطر «فشل أجهزة القياس / الإنذار» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Failed or misleading instrumentation can prevent operators or automated systems from recognizing unsafe process deviations.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «فشل أجهزة القياس / الإنذار» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "sensor",
+          "alarm",
+          "process-variable",
+          "missed-warning"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "instrumentation",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "1910.119(d/e/j) controls, monitoring, alarms"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "instrument / alarm failure",
+          "instrumentation",
+          "psm",
+          "psm",
+          "instrumentation",
+          "process-safety"
+        ],
+        "ar": [
+          "فشل أجهزة القياس / الإنذار"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-006",
+      "categoryId": "PSM",
+      "subcategoryId": "safeguards",
+      "name": {
+        "en": "Interlock / Safeguard Failure",
+        "ar": "فشل التشابك / وسيلة الحماية"
+      },
+      "summary": {
+        "en": "A failed, bypassed, defeated, or incorrectly configured interlock can allow hazardous process conditions to continue without intended automatic protection.",
+        "ar": "يركز هذا السجل على خطر «فشل التشابك / وسيلة الحماية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "A failed, bypassed, defeated, or incorrectly configured interlock can allow hazardous process conditions to continue without intended automatic protection.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «فشل التشابك / وسيلة الحماية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "interlock",
+          "bypass",
+          "hazardous-deviation",
+          "shutdown-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "safeguards",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "1910.119(d/e/j) safety systems and interlocks"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "interlock / safeguard failure",
+          "safeguards",
+          "psm",
+          "psm",
+          "safeguards",
+          "process-safety"
+        ],
+        "ar": [
+          "فشل التشابك / وسيلة الحماية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-007",
+      "categoryId": "PSM",
+      "subcategoryId": "utilities",
+      "name": {
+        "en": "Utility Failure",
+        "ar": "فشل المرافق / الخدمات المساندة"
+      },
+      "summary": {
+        "en": "Loss of power, cooling, instrument air, steam, water, ventilation, or another critical utility can remove process controls and safeguards.",
+        "ar": "يركز هذا السجل على خطر «فشل المرافق / الخدمات المساندة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Loss of power, cooling, instrument air, steam, water, ventilation, or another critical utility can remove process controls and safeguards.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «فشل المرافق / الخدمات المساندة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "utility-source",
+          "utility-loss",
+          "process-unit",
+          "backup-system"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "utilities",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "1910.119 process technology, consequences of deviations, safeguards"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "utility failure",
+          "utilities",
+          "psm",
+          "psm",
+          "utilities",
+          "process-safety"
+        ],
+        "ar": [
+          "فشل المرافق / الخدمات المساندة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-008",
+      "categoryId": "PSM",
+      "subcategoryId": "materials",
+      "name": {
+        "en": "Wrong / Degraded Material of Construction",
+        "ar": "مادة إنشاء خاطئة / متدهورة"
+      },
+      "summary": {
+        "en": "Incorrect, incompatible, corroded, embrittled, or degraded process materials can lose integrity under service conditions.",
+        "ar": "يركز هذا السجل على خطر «مادة إنشاء خاطئة / متدهورة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Incorrect, incompatible, corroded, embrittled, or degraded process materials can lose integrity under service conditions.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «مادة إنشاء خاطئة / متدهورة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "material-of-construction",
+          "degradation-zone",
+          "process-fluid",
+          "failure-point"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "materials",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "1910.119(d/j) materials of construction and mechanical integrity"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "wrong / degraded material of construction",
+          "materials",
+          "psm",
+          "psm",
+          "materials",
+          "process-safety"
+        ],
+        "ar": [
+          "مادة إنشاء خاطئة / متدهورة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-009",
+      "categoryId": "PSM",
+      "subcategoryId": "management_of_change",
+      "name": {
+        "en": "Management-of-Change Failure",
+        "ar": "فشل إدارة التغيير"
+      },
+      "summary": {
+        "en": "Changes to chemicals, technology, equipment, procedures, or facilities can introduce new hazards when review, authorization, documentation, training, and updates are incomplete.",
+        "ar": "يركز هذا السجل على خطر «فشل إدارة التغيير» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Changes to chemicals, technology, equipment, procedures, or facilities can introduce new hazards when review, authorization, documentation, training, and updates are incomplete.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «فشل إدارة التغيير» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "change-request",
+          "hazard-review",
+          "authorization",
+          "implementation"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "management_of_change",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "1910.119(l) management of change"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "management-of-change failure",
+          "management of change",
+          "psm",
+          "psm",
+          "management_of_change",
+          "process-safety"
+        ],
+        "ar": [
+          "فشل إدارة التغيير"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-PSM-010",
+      "categoryId": "PSM",
+      "subcategoryId": "startup",
+      "name": {
+        "en": "Startup / Pre-Startup Safety Failure",
+        "ar": "فشل السلامة عند بدء التشغيل / ما قبل التشغيل"
+      },
+      "summary": {
+        "en": "Starting a new or modified process before design, procedures, hazard-review actions, training, or readiness checks are complete can expose workers to uncontrolled process hazards.",
+        "ar": "يركز هذا السجل على خطر «فشل السلامة عند بدء التشغيل / ما قبل التشغيل» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Starting a new or modified process before design, procedures, hazard-review actions, training, or readiness checks are complete can expose workers to uncontrolled process hazards.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «فشل السلامة عند بدء التشغيل / ما قبل التشغيل» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Loss of containment, toxic exposure, fire/explosion, process damage, multiple casualties, or major business interruption.",
+          "ar": "فقدان الاحتواء وتعرض سام وحريق/انفجار وتلف العملية وتعدد الإصابات أو توقف كبير للأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Covered chemical processes, operations, maintenance, startup/shutdown, process changes, inspection/testing, and emergency activities.",
+          "ar": "العمليات الكيميائية المشمولة والتشغيل والصيانة وبدء/إيقاف التشغيل وتغييرات العملية والفحص/الاختبار وأنشطة الطوارئ."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate or reduce hazardous process inventory and inherently unsafe process conditions where feasible.",
+            "ar": "أزل أو قلل مخزون العملية الخطِر وظروف العملية غير الآمنة بطبيعتها متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous chemistry, materials, equipment, or process conditions where feasible.",
+            "ar": "استخدم كيمياء أو مواد أو معدات أو ظروف عملية أقل خطورة متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use robust containment, relief, instrumentation, interlocks, shutdown systems, detection, and engineered safeguards.",
+            "ar": "استخدم احتواءً موثوقاً وأنظمة تنفيس وأجهزة قياس وتحكم وتشابكات وأنظمة إيقاف وكشف ووسائل حماية هندسية."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use process safety information, hazard analysis, operating procedures, mechanical integrity, management of change, training, permits, and emergency planning.",
+            "ar": "استخدم معلومات سلامة العمليات وتحليل المخاطر وإجراءات التشغيل والسلامة الميكانيكية وإدارة التغيير والتدريب والتصاريح والتخطيط للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual process and emergency-response hazards after higher-level controls.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر العملية والاستجابة للطوارئ المتبقية بعد تطبيق الضوابط الأعلى."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "chemical-process-containment",
+        "overlays": [
+          "startup-sequence",
+          "readiness-check",
+          "open-action",
+          "process-introduction"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "chemical",
+        "process-industry",
+        "manufacturing"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.119",
+          "scope": "general-industry",
+          "relation": "direct-covered-process"
+        }
+      ],
+      "relatedPracticeTags": [
+        "psm",
+        "startup",
+        "process-safety"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP chemical process safety coverage / Management of Change",
+        "yatesPageRangeApprox": "11–12 / 859–869",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "1910.119(i) pre-startup safety review"
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "startup / pre-startup safety failure",
+          "startup",
+          "psm",
+          "psm",
+          "startup",
+          "process-safety"
+        ],
+        "ar": [
+          "فشل السلامة عند بدء التشغيل / ما قبل التشغيل"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    }
+  ]
+}

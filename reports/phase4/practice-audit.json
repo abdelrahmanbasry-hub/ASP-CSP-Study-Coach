@@ -1,0 +1,470 @@
+[
+  {
+    "id": "HL-ELEC-001",
+    "tags": [
+      "electrical",
+      "arc-flash",
+      "arc-blast"
+    ],
+    "existingQuestionCount": 50
+  },
+  {
+    "id": "HL-ELEC-002",
+    "tags": [
+      "electrical",
+      "shock",
+      "electrocution"
+    ],
+    "existingQuestionCount": 50
+  },
+  {
+    "id": "HL-ELEC-003",
+    "tags": [
+      "electrical",
+      "burns",
+      "arc-burn"
+    ],
+    "existingQuestionCount": 51
+  },
+  {
+    "id": "HL-ELEC-004",
+    "tags": [
+      "electrical",
+      "exposed-parts",
+      "energized-parts"
+    ],
+    "existingQuestionCount": 50
+  },
+  {
+    "id": "HL-ELEC-005",
+    "tags": [
+      "electrical",
+      "overhead-lines",
+      "power-lines"
+    ],
+    "existingQuestionCount": 50
+  },
+  {
+    "id": "HL-ELEC-006",
+    "tags": [
+      "electrical",
+      "wiring",
+      "undersized-wire"
+    ],
+    "existingQuestionCount": 51
+  },
+  {
+    "id": "HL-ELEC-007",
+    "tags": [
+      "electrical",
+      "damaged-cord",
+      "extension-cord"
+    ],
+    "existingQuestionCount": 50
+  },
+  {
+    "id": "HL-ELEC-008",
+    "tags": [
+      "electrical",
+      "grounding",
+      "ground-fault"
+    ],
+    "existingQuestionCount": 50
+  },
+  {
+    "id": "HL-ELEC-009",
+    "tags": [
+      "electrical",
+      "overload",
+      "circuit-breaker"
+    ],
+    "existingQuestionCount": 50
+  },
+  {
+    "id": "HL-ELEC-010",
+    "tags": [
+      "electrical",
+      "electrical-fire",
+      "arcing"
+    ],
+    "existingQuestionCount": 50
+  },
+  {
+    "id": "HL-FALL-001",
+    "tags": [
+      "falls",
+      "slip",
+      "same-level"
+    ],
+    "existingQuestionCount": 23
+  },
+  {
+    "id": "HL-FALL-002",
+    "tags": [
+      "falls",
+      "trip",
+      "housekeeping"
+    ],
+    "existingQuestionCount": 27
+  },
+  {
+    "id": "HL-FALL-003",
+    "tags": [
+      "falls",
+      "floor-opening",
+      "hole"
+    ],
+    "existingQuestionCount": 24
+  },
+  {
+    "id": "HL-FALL-004",
+    "tags": [
+      "falls",
+      "unprotected-edge",
+      "fall-from-height"
+    ],
+    "existingQuestionCount": 12
+  },
+  {
+    "id": "HL-FALL-005",
+    "tags": [
+      "falls",
+      "ladder",
+      "ladder-fall"
+    ],
+    "existingQuestionCount": 31
+  },
+  {
+    "id": "HL-FALL-006",
+    "tags": [
+      "falls",
+      "stairs",
+      "stairway"
+    ],
+    "existingQuestionCount": 12
+  },
+  {
+    "id": "HL-FALL-007",
+    "tags": [
+      "falls",
+      "scaffold",
+      "scaffold-fall"
+    ],
+    "existingQuestionCount": 22
+  },
+  {
+    "id": "HL-FALL-008",
+    "tags": [
+      "falls",
+      "roof",
+      "elevated-surface"
+    ],
+    "existingQuestionCount": 30
+  },
+  {
+    "id": "HL-FALL-009",
+    "tags": [
+      "falls",
+      "aerial-lift",
+      "platform"
+    ],
+    "existingQuestionCount": 22
+  },
+  {
+    "id": "HL-FALL-010",
+    "tags": [
+      "falls",
+      "rope-descent",
+      "anchorage"
+    ],
+    "existingQuestionCount": 15
+  },
+  {
+    "id": "HL-FALL-011",
+    "tags": [
+      "falls",
+      "falling-object",
+      "dropped-object"
+    ],
+    "existingQuestionCount": 13
+  },
+  {
+    "id": "HL-FALL-012",
+    "tags": [
+      "falls",
+      "swing-fall",
+      "anchor"
+    ],
+    "existingQuestionCount": 17
+  },
+  {
+    "id": "HL-FALL-013",
+    "tags": [
+      "falls",
+      "clearance",
+      "fall-arrest"
+    ],
+    "existingQuestionCount": 19
+  },
+  {
+    "id": "HL-FALL-014",
+    "tags": [
+      "falls",
+      "suspension",
+      "rescue"
+    ],
+    "existingQuestionCount": 18
+  },
+  {
+    "id": "HL-MACH-001",
+    "tags": [
+      "machinery",
+      "guarding",
+      "machine-guard"
+    ],
+    "existingQuestionCount": 19
+  },
+  {
+    "id": "HL-MACH-002",
+    "tags": [
+      "machinery",
+      "point-of-operation",
+      "amputation"
+    ],
+    "existingQuestionCount": 1
+  },
+  {
+    "id": "HL-MACH-003",
+    "tags": [
+      "machinery",
+      "nip-point",
+      "pinch-point"
+    ],
+    "existingQuestionCount": 0
+  },
+  {
+    "id": "HL-MACH-004",
+    "tags": [
+      "machinery",
+      "rotating-shaft",
+      "entanglement"
+    ],
+    "existingQuestionCount": 0
+  },
+  {
+    "id": "HL-MACH-005",
+    "tags": [
+      "machinery",
+      "reciprocating",
+      "crush"
+    ],
+    "existingQuestionCount": 2
+  },
+  {
+    "id": "HL-MACH-006",
+    "tags": [
+      "machinery",
+      "shear",
+      "cutting-point"
+    ],
+    "existingQuestionCount": 0
+  },
+  {
+    "id": "HL-MACH-007",
+    "tags": [
+      "machinery",
+      "flying-object",
+      "ejected-material"
+    ],
+    "existingQuestionCount": 0
+  },
+  {
+    "id": "HL-MACH-008",
+    "tags": [
+      "machinery",
+      "grinder",
+      "abrasive-wheel"
+    ],
+    "existingQuestionCount": 5
+  },
+  {
+    "id": "HL-MACH-009",
+    "tags": [
+      "machinery",
+      "circular-saw",
+      "kickback"
+    ],
+    "existingQuestionCount": 0
+  },
+  {
+    "id": "HL-MACH-010",
+    "tags": [
+      "machinery",
+      "hand-tool",
+      "tool-misuse"
+    ],
+    "existingQuestionCount": 0
+  },
+  {
+    "id": "HL-MACH-011",
+    "tags": [
+      "machinery",
+      "power-tool",
+      "portable-tool"
+    ],
+    "existingQuestionCount": 0
+  },
+  {
+    "id": "HL-MACH-012",
+    "tags": [
+      "machinery",
+      "robotics",
+      "automation"
+    ],
+    "existingQuestionCount": 5
+  },
+  {
+    "id": "HL-MACH-013",
+    "tags": [
+      "machinery",
+      "conveyor",
+      "nip-point"
+    ],
+    "existingQuestionCount": 9
+  },
+  {
+    "id": "HL-MACH-014",
+    "tags": [
+      "machinery",
+      "conveyor",
+      "falling-material"
+    ],
+    "existingQuestionCount": 9
+  },
+  {
+    "id": "HL-MAT-001",
+    "tags": [
+      "materials",
+      "lifting",
+      "manual-handling"
+    ],
+    "existingQuestionCount": 106
+  },
+  {
+    "id": "HL-MAT-002",
+    "tags": [
+      "materials",
+      "push",
+      "pull"
+    ],
+    "existingQuestionCount": 92
+  },
+  {
+    "id": "HL-MAT-003",
+    "tags": [
+      "forklift",
+      "collision",
+      "pit"
+    ],
+    "existingQuestionCount": 52
+  },
+  {
+    "id": "HL-MAT-004",
+    "tags": [
+      "forklift",
+      "tip-over",
+      "stability"
+    ],
+    "existingQuestionCount": 29
+  },
+  {
+    "id": "HL-MAT-005",
+    "tags": [
+      "forklift",
+      "pedestrian",
+      "struck-by"
+    ],
+    "existingQuestionCount": 27
+  },
+  {
+    "id": "HL-MAT-006",
+    "tags": [
+      "forklift",
+      "falling-load",
+      "load-stability"
+    ],
+    "existingQuestionCount": 25
+  },
+  {
+    "id": "HL-MAT-007",
+    "tags": [
+      "forklift",
+      "mast",
+      "crush"
+    ],
+    "existingQuestionCount": 27
+  },
+  {
+    "id": "HL-MAT-008",
+    "tags": [
+      "loading-dock",
+      "trailer",
+      "forklift"
+    ],
+    "existingQuestionCount": 25
+  },
+  {
+    "id": "HL-MAT-009",
+    "tags": [
+      "pallet-jack",
+      "materials",
+      "pinch"
+    ],
+    "existingQuestionCount": 96
+  },
+  {
+    "id": "HL-MAT-010",
+    "tags": [
+      "materials",
+      "stacking",
+      "storage"
+    ],
+    "existingQuestionCount": 105
+  },
+  {
+    "id": "HL-MAT-011",
+    "tags": [
+      "materials",
+      "rack",
+      "storage-rack"
+    ],
+    "existingQuestionCount": 93
+  },
+  {
+    "id": "HL-MAT-012",
+    "tags": [
+      "crane",
+      "suspended-load",
+      "hoisting"
+    ],
+    "existingQuestionCount": 18
+  },
+  {
+    "id": "HL-MAT-013",
+    "tags": [
+      "rigging",
+      "sling",
+      "dropped-load"
+    ],
+    "existingQuestionCount": 40
+  },
+  {
+    "id": "HL-MAT-014",
+    "tags": [
+      "forklift",
+      "battery-charging",
+      "hydrogen"
+    ],
+    "existingQuestionCount": 25
+  }
+]

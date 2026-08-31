@@ -1,0 +1,3911 @@
+{
+  "registered": 47,
+  "totalOptimizedBytes": 5692378,
+  "newAssetCount": 17,
+  "newAssetBytes": 2063020,
+  "packageTemplates": [
+    "excavation-trench",
+    "confined-space-vessel",
+    "loto-energy-machine",
+    "pressure-vessel-hose",
+    "chemical-process-containment",
+    "chemical-storage",
+    "fire-process-area",
+    "combustible-dust-process",
+    "hot-work-worker",
+    "forklift-battery-charging",
+    "fire-protection-system",
+    "fire-extinguisher-use",
+    "ergonomic-worker-lift",
+    "ergonomic-workstation",
+    "noise-source-worker",
+    "thermal-worker-environment",
+    "radiation-source-shield-worker",
+    "laser-worker",
+    "environmental-release-pathways",
+    "facility-security-scene",
+    "emergency-response-scene"
+  ],
+  "templates": [
+    {
+      "name": "electrical-panel-worker",
+      "asset": "/hazard-scenes/electrical-panel-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 119972,
+      "sha256": "610133765394c8121ab65819b49a50deb24971696f71e0dab321aab87ec56e9c",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-ELEC-001",
+        "HL-ELEC-004",
+        "HL-ELEC-010"
+      ]
+    },
+    {
+      "name": "scaffold-worker",
+      "asset": "/hazard-scenes/scaffold-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 84892,
+      "sha256": "b28ffc754cc6b277694425346ade514cf2f7445ce6fb3e4e55d9d3d5a829ca5d",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FALL-007",
+        "HL-FALL-011"
+      ]
+    },
+    {
+      "name": "forklift-warehouse",
+      "asset": "/hazard-scenes/forklift-warehouse.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 117374,
+      "sha256": "3a4178a5e72c394aaf39d712bdd188ea6480abe4b2f1675996beaf85c6917fe3",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-MAT-003",
+        "HL-MAT-004",
+        "HL-MAT-005",
+        "HL-MAT-006",
+        "HL-MAT-007"
+      ]
+    },
+    {
+      "name": "confined-space-vessel",
+      "asset": "/hazard-scenes/confined-space-vessel.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 137600,
+      "sha256": "d14356e1d528a0929e84ebcb53cd1686e628adc1cd79839229196104fe0bd49f",
+      "engines": [
+        "process-diagram"
+      ],
+      "recordIds": [
+        "HL-CONF-001",
+        "HL-CONF-002",
+        "HL-CONF-003",
+        "HL-CONF-004",
+        "HL-CONF-005",
+        "HL-CONF-006",
+        "HL-CONF-007",
+        "HL-CONF-008",
+        "HL-CONF-009"
+      ]
+    },
+    {
+      "name": "loto-energy-machine",
+      "asset": "/hazard-scenes/loto-energy-machine.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 106168,
+      "sha256": "e77b8d84621804a2269e79f5435834e4d8f0fef1d136fd7aee3ad69b43cbe509",
+      "engines": [
+        "process-diagram"
+      ],
+      "recordIds": [
+        "HL-LOTO-001",
+        "HL-LOTO-002",
+        "HL-LOTO-003",
+        "HL-LOTO-004",
+        "HL-LOTO-005",
+        "HL-LOTO-006",
+        "HL-LOTO-007",
+        "HL-LOTO-008",
+        "HL-LOTO-009",
+        "HL-LOTO-010"
+      ]
+    },
+    {
+      "name": "radiation-source-shield-worker",
+      "asset": "/hazard-scenes/radiation-source-shield-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 80592,
+      "sha256": "5fdfa5c4e7adfbba940793dbe5cb96c269a856dab2e0a82d0034faf57bc1d839",
+      "engines": [
+        "concept-diagram",
+        "worker-scene",
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-RAD-001",
+        "HL-RAD-002",
+        "HL-RAD-003",
+        "HL-RAD-004",
+        "HL-RAD-005",
+        "HL-RAD-006",
+        "HL-RAD-007",
+        "HL-RAD-008",
+        "HL-RAD-009",
+        "HL-RAD-010"
+      ]
+    },
+    {
+      "name": "electrical-contact-worker",
+      "asset": "/hazard-scenes/electrical-contact-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 160536,
+      "sha256": "4d3892d32730048bcaa0e59c51e0dcf23aea88b9bcb351ddf7b94774951129f6",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-ELEC-002",
+        "HL-ELEC-003"
+      ]
+    },
+    {
+      "name": "overhead-power-line",
+      "asset": "/hazard-scenes/overhead-power-line.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 95082,
+      "sha256": "2b99306ba1c295bf5fcbd8e403fba21570638c37831fe98796258f8f8ec54703",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-ELEC-005"
+      ]
+    },
+    {
+      "name": "electrical-circuit",
+      "asset": "/hazard-scenes/electrical-circuit.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 90606,
+      "sha256": "567c28f6f56204fd4441a8c5dbe4cb3b65bbd9f3e11d2a6fba5790945862c782",
+      "engines": [
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-ELEC-006",
+        "HL-ELEC-009"
+      ]
+    },
+    {
+      "name": "electrical-cord-grounding",
+      "asset": "/hazard-scenes/electrical-cord-grounding.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 111790,
+      "sha256": "60e5df404bdeca6537b550633ae8d1c8b6d233e5c8bb389bd2a86f9e4b83c22d",
+      "engines": [
+        "concept-diagram",
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-ELEC-007",
+        "HL-ELEC-008"
+      ]
+    },
+    {
+      "name": "walking-surface-worker",
+      "asset": "/hazard-scenes/walking-surface-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 134290,
+      "sha256": "617febbae216b485eb1427dd8304a920c3cd966cad630e08a0412583e4e4e73b",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FALL-001",
+        "HL-FALL-002"
+      ]
+    },
+    {
+      "name": "floor-opening-worker",
+      "asset": "/hazard-scenes/floor-opening-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 186862,
+      "sha256": "51ebce5caf9e1993c6006a9d0367af27e0e3dc859a3d8534a0f8b9b645b4e70e",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FALL-003"
+      ]
+    },
+    {
+      "name": "roof-edge-worker",
+      "asset": "/hazard-scenes/roof-edge-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 167922,
+      "sha256": "e670a1e2f573ada3be2d3155203ff76e51d9d275e38dc851c967a24df0ed630c",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FALL-004",
+        "HL-FALL-008"
+      ]
+    },
+    {
+      "name": "ladder-worker",
+      "asset": "/hazard-scenes/ladder-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 88146,
+      "sha256": "cd7e07f19fcdedbc7a46da9a21fb1593aac17d8a372e29d85d6558ff92df01b4",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FALL-005"
+      ]
+    },
+    {
+      "name": "stairway-worker",
+      "asset": "/hazard-scenes/stairway-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 184296,
+      "sha256": "d4bef01c8c8b654e13ba020cf73481b4c1832d45cb6d34e2deb3bcb9c5c1a3c9",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FALL-006"
+      ]
+    },
+    {
+      "name": "aerial-lift-worker",
+      "asset": "/hazard-scenes/aerial-lift-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 80854,
+      "sha256": "a65e146e8a7993d183585d882c04ed34b95d08710a0f749cb7952bee500c9881",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FALL-009"
+      ]
+    },
+    {
+      "name": "rope-descent-worker",
+      "asset": "/hazard-scenes/rope-descent-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 117690,
+      "sha256": "4255748f56bc49fc6693ac613696769da33526742dea2c29703c4ccb1ef8050c",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FALL-010"
+      ]
+    },
+    {
+      "name": "fall-arrest-system",
+      "asset": "/hazard-scenes/fall-arrest-system.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 97390,
+      "sha256": "a8e84f2a5058a8fd776621dcc6df630f9b7ff7661d3e1b0c3e66f82cd1ed62d9",
+      "engines": [
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-FALL-012",
+        "HL-FALL-014"
+      ]
+    },
+    {
+      "name": "fall-arrest-clearance",
+      "asset": "/hazard-scenes/fall-arrest-clearance.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 80282,
+      "sha256": "8a1058ed282108d9efe94810186d6c27ef4cba5fa93486b5b80122aa9470dc0e",
+      "engines": [
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-FALL-013"
+      ]
+    },
+    {
+      "name": "machine-guarding",
+      "asset": "/hazard-scenes/machine-guarding.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 134156,
+      "sha256": "fad81fdef206dea01000d7f984c9263c9d8c3fbacd9440869ecb1be8a015157b",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-MACH-001",
+        "HL-MACH-002",
+        "HL-MACH-003",
+        "HL-MACH-004",
+        "HL-MACH-005",
+        "HL-MACH-006"
+      ]
+    },
+    {
+      "name": "grinder-saw-workstation",
+      "asset": "/hazard-scenes/grinder-saw-workstation.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 118342,
+      "sha256": "c97bf17debe285897c4a556adb5c2c7b2d5dcee90edfafb264ba873a693a0233",
+      "engines": [
+        "equipment-scene",
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-MACH-007",
+        "HL-MACH-008",
+        "HL-MACH-009"
+      ]
+    },
+    {
+      "name": "hand-tool-worker",
+      "asset": "/hazard-scenes/hand-tool-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 97284,
+      "sha256": "450ab0d023f27178e0da8a955ffee2afb4af399a88544fec35580839b14e22d7",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-MACH-010",
+        "HL-MACH-011"
+      ]
+    },
+    {
+      "name": "robot-cell",
+      "asset": "/hazard-scenes/robot-cell.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 204476,
+      "sha256": "c96e43c984b1d768d1484c30c4939231e8496eb16ff19ab7efe5f3377325dea5",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-MACH-012"
+      ]
+    },
+    {
+      "name": "conveyor-system",
+      "asset": "/hazard-scenes/conveyor-system.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 89134,
+      "sha256": "4345473dc120a23d2d4247959f92cfaf6dc73cef7e116203fa33520846ac10e6",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-MACH-013",
+        "HL-MACH-014"
+      ]
+    },
+    {
+      "name": "material-handling-worker",
+      "asset": "/hazard-scenes/material-handling-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 89978,
+      "sha256": "8ce0a58745f87faccf1d4d6114323fbb8f57ac823214e78094968ec016dcc178",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-MAT-001",
+        "HL-MAT-002"
+      ]
+    },
+    {
+      "name": "loading-dock",
+      "asset": "/hazard-scenes/loading-dock.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 204452,
+      "sha256": "8f78ed9dc59cda82392615166c6709d9b3f368c3ef46f3e2f04064a56024a2dd",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-MAT-008"
+      ]
+    },
+    {
+      "name": "pallet-jack",
+      "asset": "/hazard-scenes/pallet-jack.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 80750,
+      "sha256": "a399ff596d87ed8829f284101e2ab304eaf43c4404d2a9e6641d424f1ec9eb69",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-MAT-009"
+      ]
+    },
+    {
+      "name": "warehouse-storage",
+      "asset": "/hazard-scenes/warehouse-storage.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 142470,
+      "sha256": "9906eb204193079aae20fdcc9f4caf5c093419c7ad7a5706c4bcd2d5858c4dc6",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-MAT-010",
+        "HL-MAT-011"
+      ]
+    },
+    {
+      "name": "crane-suspended-load",
+      "asset": "/hazard-scenes/crane-suspended-load.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 99916,
+      "sha256": "0d3e54d05c3061cdd2c39fb00095daeca4081f5fbb1421940a5fd0e880aa290a",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-MAT-012",
+        "HL-MAT-013"
+      ]
+    },
+    {
+      "name": "forklift-battery-charging",
+      "asset": "/hazard-scenes/forklift-battery-charging.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 126056,
+      "sha256": "b5ca686377763b82c94bb1467ed8b6537e7fa62e3de2894c75b8ee3519f82183",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-MAT-014",
+        "HL-FIRE-009"
+      ]
+    },
+    {
+      "name": "excavation-trench",
+      "asset": "/hazard-scenes/excavation-trench.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 210572,
+      "sha256": "173a1c121f1ad5e68889b2efaf9351b1c8ddbdab59aa447232fc4951eaeb6e55",
+      "engines": [
+        "process-diagram"
+      ],
+      "recordIds": [
+        "HL-EXC-001",
+        "HL-EXC-002",
+        "HL-EXC-003",
+        "HL-EXC-004",
+        "HL-EXC-005",
+        "HL-EXC-006",
+        "HL-EXC-007",
+        "HL-EXC-008"
+      ]
+    },
+    {
+      "name": "pressure-vessel-hose",
+      "asset": "/hazard-scenes/pressure-vessel-hose.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 98290,
+      "sha256": "9088c548a6ca35121be2ee357eaf181812087062d8cabf65dac4d379bd46a698",
+      "engines": [
+        "process-diagram",
+        "worker-scene",
+        "equipment-scene",
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-PRESS-001",
+        "HL-PRESS-002",
+        "HL-PRESS-003",
+        "HL-PRESS-004",
+        "HL-PRESS-005",
+        "HL-PRESS-006",
+        "HL-PRESS-007",
+        "HL-PRESS-008",
+        "HL-CHEM-009",
+        "HL-FIRE-008"
+      ]
+    },
+    {
+      "name": "chemical-process-containment",
+      "asset": "/hazard-scenes/chemical-process-containment.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 104028,
+      "sha256": "2664a59dac713a244a7edf589dce09891bd65bd8c9ff55a198847a9a898ee917",
+      "engines": [
+        "process-diagram",
+        "worker-scene",
+        "equipment-scene",
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-CHEM-001",
+        "HL-CHEM-002",
+        "HL-CHEM-003",
+        "HL-CHEM-004",
+        "HL-CHEM-005",
+        "HL-CHEM-006",
+        "HL-CHEM-007",
+        "HL-CHEM-008",
+        "HL-CHEM-010",
+        "HL-CHEM-011",
+        "HL-CHEM-012",
+        "HL-CHEM-013",
+        "HL-CHEM-014",
+        "HL-PSM-001",
+        "HL-PSM-002",
+        "HL-PSM-003",
+        "HL-PSM-004",
+        "HL-PSM-005",
+        "HL-PSM-006",
+        "HL-PSM-007",
+        "HL-PSM-008",
+        "HL-PSM-009",
+        "HL-PSM-010"
+      ]
+    },
+    {
+      "name": "chemical-storage",
+      "asset": "/hazard-scenes/chemical-storage.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 102716,
+      "sha256": "7981a125b66373b6663cb690b936f79817faa98222223e2d62d6efb6d724c118",
+      "engines": [
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-CHEM-015",
+        "HL-ENV-007",
+        "HL-ENV-010"
+      ]
+    },
+    {
+      "name": "fire-process-area",
+      "asset": "/hazard-scenes/fire-process-area.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 107138,
+      "sha256": "36d7f1c5aa33c51f884d2678b59e06601d3146d279d742b3d933df3c4c9c3498",
+      "engines": [
+        "process-diagram",
+        "worker-scene",
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-FIRE-001",
+        "HL-FIRE-002",
+        "HL-FIRE-006",
+        "HL-FIRE-007"
+      ]
+    },
+    {
+      "name": "combustible-dust-process",
+      "asset": "/hazard-scenes/combustible-dust-process.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 80314,
+      "sha256": "591c84334feb8505ffb845106b677dd6c739a3309dcb252ab7519edc59b5adbd",
+      "engines": [
+        "process-diagram"
+      ],
+      "recordIds": [
+        "HL-FIRE-003"
+      ]
+    },
+    {
+      "name": "hot-work-worker",
+      "asset": "/hazard-scenes/hot-work-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 142816,
+      "sha256": "4368b7fc60fe500198152c19b62687ef2b73fdfcfbb9a3c34bc7ce23d8823dad",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FIRE-004",
+        "HL-FIRE-005"
+      ]
+    },
+    {
+      "name": "fire-protection-system",
+      "asset": "/hazard-scenes/fire-protection-system.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 117278,
+      "sha256": "46c38bdd98964be031f15dfdeef447780d88fc2e8632d7cf1f9efd0adcdf38b4",
+      "engines": [
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-FIRE-010",
+        "HL-FIRE-011"
+      ]
+    },
+    {
+      "name": "fire-extinguisher-use",
+      "asset": "/hazard-scenes/fire-extinguisher-use.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 81712,
+      "sha256": "76e74eb592039fb358e42964428c65fc7e5c73920410be1bf0950c16200ce093",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-FIRE-012"
+      ]
+    },
+    {
+      "name": "ergonomic-worker-lift",
+      "asset": "/hazard-scenes/ergonomic-worker-lift.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 58392,
+      "sha256": "9770ad39279e039efb805d078315a8ac7511fae639a662731cef48636413293d",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-ERGO-001",
+        "HL-ERGO-004"
+      ]
+    },
+    {
+      "name": "ergonomic-workstation",
+      "asset": "/hazard-scenes/ergonomic-workstation.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 64482,
+      "sha256": "3bfe42f76730e9368656a4589e8bdf99151f7d2fd9c0e0732843eedda2af2370",
+      "engines": [
+        "worker-scene",
+        "equipment-scene",
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-ERGO-002",
+        "HL-ERGO-003",
+        "HL-ERGO-005",
+        "HL-ERGO-006",
+        "HL-ERGO-007",
+        "HL-ERGO-009",
+        "HL-ERGO-010",
+        "HL-ERGO-011",
+        "HL-ERGO-012"
+      ]
+    },
+    {
+      "name": "noise-source-worker",
+      "asset": "/hazard-scenes/noise-source-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 155468,
+      "sha256": "f068f300ca01591befd06fbdea24ec1fa2f93301245c850d347a04d095e9ed48",
+      "engines": [
+        "worker-scene",
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-ERGO-008",
+        "HL-NOISE-001",
+        "HL-NOISE-002",
+        "HL-NOISE-003",
+        "HL-NOISE-004",
+        "HL-NOISE-005",
+        "HL-NOISE-006",
+        "HL-NOISE-007",
+        "HL-NOISE-008"
+      ]
+    },
+    {
+      "name": "thermal-worker-environment",
+      "asset": "/hazard-scenes/thermal-worker-environment.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 98026,
+      "sha256": "016b95fb3cc0c59b3ffd9bfcc74eb0e392b0e0302e473be1eaf8eb37c283f7c3",
+      "engines": [
+        "worker-scene",
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-THERM-001",
+        "HL-THERM-002",
+        "HL-THERM-003",
+        "HL-THERM-004",
+        "HL-THERM-005",
+        "HL-THERM-006",
+        "HL-THERM-007",
+        "HL-THERM-008",
+        "HL-THERM-009",
+        "HL-THERM-010"
+      ]
+    },
+    {
+      "name": "laser-worker",
+      "asset": "/hazard-scenes/laser-worker.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 100158,
+      "sha256": "cdda3ea0a51699fc808a7433fe876ce20a18d8289993ae618bd30cb44e8a7e49",
+      "engines": [
+        "worker-scene"
+      ],
+      "recordIds": [
+        "HL-RAD-011"
+      ]
+    },
+    {
+      "name": "environmental-release-pathways",
+      "asset": "/hazard-scenes/environmental-release-pathways.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 199450,
+      "sha256": "e38a168d1dcf43a0d96f7599b1ebb9aef081fc011ddbb9955c5de098d9f23d44",
+      "engines": [
+        "process-diagram",
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-ENV-001",
+        "HL-ENV-002",
+        "HL-ENV-003",
+        "HL-ENV-004",
+        "HL-ENV-005",
+        "HL-ENV-006",
+        "HL-ENV-008",
+        "HL-ENV-009"
+      ]
+    },
+    {
+      "name": "facility-security-scene",
+      "asset": "/hazard-scenes/facility-security-scene.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 152102,
+      "sha256": "e45602b97569e7e068adf9fcec0902ef0d16b87761573b2fde0a464b69d1837e",
+      "engines": [
+        "worker-scene",
+        "equipment-scene"
+      ],
+      "recordIds": [
+        "HL-SEC-001",
+        "HL-SEC-002",
+        "HL-SEC-003",
+        "HL-SEC-005"
+      ]
+    },
+    {
+      "name": "emergency-response-scene",
+      "asset": "/hazard-scenes/emergency-response-scene.webp",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 190078,
+      "sha256": "161dab6fd9488e17800f4a29eab03a11b5ceda2a37da0a91ab92f3f18ae81207",
+      "engines": [
+        "concept-diagram"
+      ],
+      "recordIds": [
+        "HL-SEC-004",
+        "HL-SEC-006",
+        "HL-SEC-007",
+        "HL-SEC-008"
+      ]
+    }
+  ],
+  "coverage": [
+    {
+      "id": "HL-ELEC-001",
+      "engine": "worker-scene",
+      "template": "electrical-panel-worker",
+      "overlayIds": [
+        "arc-source",
+        "thermal-exposure",
+        "intense-light",
+        "blast-pressure",
+        "secondary-impact"
+      ],
+      "landmarkIds": [],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ELEC-002",
+      "engine": "worker-scene",
+      "template": "electrical-contact-worker",
+      "overlayIds": [
+        "contact-point",
+        "current-path",
+        "energized-source"
+      ],
+      "landmarkIds": [
+        "worker",
+        "energized-part",
+        "contact-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ELEC-003",
+      "engine": "worker-scene",
+      "template": "electrical-contact-worker",
+      "overlayIds": [
+        "contact-burn-zone",
+        "arc-heat-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "contact-point",
+        "heat-source"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ELEC-004",
+      "engine": "worker-scene",
+      "template": "electrical-panel-worker",
+      "overlayIds": [
+        "exposed-live-parts",
+        "approach-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "panel",
+        "exposed-part"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ELEC-005",
+      "engine": "worker-scene",
+      "template": "overhead-power-line",
+      "overlayIds": [
+        "power-line-zone",
+        "equipment-approach-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "overhead-line",
+        "equipment"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ELEC-006",
+      "engine": "concept-diagram",
+      "template": "electrical-circuit",
+      "overlayIds": [
+        "undersized-conductor",
+        "overheat-zone",
+        "load-path"
+      ],
+      "landmarkIds": [
+        "source",
+        "conductor",
+        "load"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ELEC-007",
+      "engine": "worker-scene",
+      "template": "electrical-cord-grounding",
+      "overlayIds": [
+        "damaged-insulation",
+        "exposed-conductor",
+        "fault-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "cord",
+        "plug"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ELEC-008",
+      "engine": "concept-diagram",
+      "template": "electrical-cord-grounding",
+      "overlayIds": [
+        "fault-path",
+        "ground-path",
+        "energized-case"
+      ],
+      "landmarkIds": [
+        "tool",
+        "equipment-case",
+        "ground"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ELEC-009",
+      "engine": "concept-diagram",
+      "template": "electrical-circuit",
+      "overlayIds": [
+        "overcurrent-path",
+        "overheat-zone",
+        "protective-device"
+      ],
+      "landmarkIds": [
+        "source",
+        "loads",
+        "breaker"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ELEC-010",
+      "engine": "worker-scene",
+      "template": "electrical-panel-worker",
+      "overlayIds": [
+        "ignition-point",
+        "smoke-zone",
+        "fire-zone"
+      ],
+      "landmarkIds": [
+        "panel",
+        "worker",
+        "fire-source"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FALL-001",
+      "engine": "worker-scene",
+      "template": "walking-surface-worker",
+      "overlayIds": [
+        "slip-zone",
+        "loss-of-balance-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "surface-contamination"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-FALL-002",
+      "engine": "worker-scene",
+      "template": "walking-surface-worker",
+      "overlayIds": [
+        "trip-obstruction",
+        "fall-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "obstruction"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-FALL-003",
+      "engine": "worker-scene",
+      "template": "floor-opening-worker",
+      "overlayIds": [
+        "opening-zone",
+        "fall-path",
+        "cover-guardrail-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "opening",
+        "lower-level"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FALL-004",
+      "engine": "worker-scene",
+      "template": "roof-edge-worker",
+      "overlayIds": [
+        "unprotected-edge",
+        "fall-path",
+        "lower-level-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "edge",
+        "lower-level"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FALL-005",
+      "engine": "worker-scene",
+      "template": "ladder-worker",
+      "overlayIds": [
+        "ladder-angle",
+        "base-slip-zone",
+        "overreach-zone",
+        "fall-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "ladder",
+        "landing"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FALL-006",
+      "engine": "worker-scene",
+      "template": "stairway-worker",
+      "overlayIds": [
+        "stair-defect",
+        "handrail-zone",
+        "fall-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "stairs",
+        "handrail"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-FALL-007",
+      "engine": "worker-scene",
+      "template": "scaffold-worker",
+      "overlayIds": [
+        "unprotected-edge",
+        "fall-path",
+        "lower-level",
+        "falling-object-zone",
+        "worker"
+      ],
+      "landmarkIds": [],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FALL-008",
+      "engine": "worker-scene",
+      "template": "roof-edge-worker",
+      "overlayIds": [
+        "edge-zone",
+        "opening-zone",
+        "fall-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "roof",
+        "lower-level"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FALL-009",
+      "engine": "worker-scene",
+      "template": "aerial-lift-worker",
+      "overlayIds": [
+        "platform-edge",
+        "ejection-path",
+        "tip-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "platform",
+        "base"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-FALL-010",
+      "engine": "worker-scene",
+      "template": "rope-descent-worker",
+      "overlayIds": [
+        "anchorage",
+        "descent-line",
+        "suspension-zone",
+        "fall-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "anchorage",
+        "rope-system"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-FALL-011",
+      "engine": "worker-scene",
+      "template": "scaffold-worker",
+      "overlayIds": [
+        "falling-object-path",
+        "drop-zone",
+        "barricade-zone"
+      ],
+      "landmarkIds": [
+        "object",
+        "worker-above",
+        "worker-below"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FALL-012",
+      "engine": "concept-diagram",
+      "template": "fall-arrest-system",
+      "overlayIds": [
+        "anchorage-offset",
+        "swing-path",
+        "impact-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "anchorage",
+        "structure"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-FALL-013",
+      "engine": "concept-diagram",
+      "template": "fall-arrest-clearance",
+      "overlayIds": [
+        "free-fall",
+        "deceleration-distance",
+        "clearance-line",
+        "lower-level"
+      ],
+      "landmarkIds": [
+        "worker",
+        "anchorage",
+        "lower-level"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-FALL-014",
+      "engine": "concept-diagram",
+      "template": "fall-arrest-system",
+      "overlayIds": [
+        "suspended-worker",
+        "rescue-path",
+        "time-critical-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "harness",
+        "rescue-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-MACH-001",
+      "engine": "equipment-scene",
+      "template": "machine-guarding",
+      "overlayIds": [
+        "missing-guard",
+        "danger-zone",
+        "access-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "machine",
+        "danger-zone"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-002",
+      "engine": "equipment-scene",
+      "template": "machine-guarding",
+      "overlayIds": [
+        "point-of-operation",
+        "hand-entry-zone",
+        "guard-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "point-of-operation",
+        "guard"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-003",
+      "engine": "equipment-scene",
+      "template": "machine-guarding",
+      "overlayIds": [
+        "nip-point",
+        "rotation-direction",
+        "draw-in-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "nip-point",
+        "moving-parts"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-004",
+      "engine": "equipment-scene",
+      "template": "machine-guarding",
+      "overlayIds": [
+        "rotating-shaft",
+        "entanglement-zone",
+        "wrap-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "shaft",
+        "guard"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-005",
+      "engine": "equipment-scene",
+      "template": "machine-guarding",
+      "overlayIds": [
+        "reciprocating-path",
+        "crush-zone",
+        "guard-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "moving-part",
+        "fixed-part"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-006",
+      "engine": "equipment-scene",
+      "template": "machine-guarding",
+      "overlayIds": [
+        "cutting-point",
+        "shear-path",
+        "hand-entry-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "blade",
+        "material"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-007",
+      "engine": "equipment-scene",
+      "template": "grinder-saw-workstation",
+      "overlayIds": [
+        "ejection-path",
+        "impact-zone",
+        "shield-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "tool",
+        "workpiece"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-008",
+      "engine": "equipment-scene",
+      "template": "grinder-saw-workstation",
+      "overlayIds": [
+        "wheel-zone",
+        "fragment-path",
+        "guard-zone",
+        "spark-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "grinder",
+        "wheel"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-009",
+      "engine": "worker-scene",
+      "template": "grinder-saw-workstation",
+      "overlayIds": [
+        "blade-zone",
+        "kickback-path",
+        "guard-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "saw",
+        "workpiece"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-010",
+      "engine": "worker-scene",
+      "template": "hand-tool-worker",
+      "overlayIds": [
+        "tool-contact",
+        "slip-path",
+        "flying-fragment-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hand-tool",
+        "workpiece"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-011",
+      "engine": "worker-scene",
+      "template": "hand-tool-worker",
+      "overlayIds": [
+        "moving-tool-zone",
+        "trigger-control",
+        "guard-zone",
+        "energy-source"
+      ],
+      "landmarkIds": [
+        "worker",
+        "tool",
+        "attachment"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-012",
+      "engine": "equipment-scene",
+      "template": "robot-cell",
+      "overlayIds": [
+        "robot-motion-envelope",
+        "worker-entry-zone",
+        "safeguard-boundary"
+      ],
+      "landmarkIds": [
+        "worker",
+        "robot",
+        "cell-boundary"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-MACH-013",
+      "engine": "equipment-scene",
+      "template": "conveyor-system",
+      "overlayIds": [
+        "nip-point",
+        "belt-path",
+        "entanglement-zone",
+        "guard-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "conveyor",
+        "drive"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MACH-014",
+      "engine": "equipment-scene",
+      "template": "conveyor-system",
+      "overlayIds": [
+        "falling-material-path",
+        "drop-zone",
+        "overhead-guard-zone"
+      ],
+      "landmarkIds": [
+        "conveyor",
+        "material",
+        "worker-below"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-001",
+      "engine": "worker-scene",
+      "template": "material-handling-worker",
+      "overlayIds": [
+        "load-zone",
+        "lift-path",
+        "posture-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "load",
+        "destination"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-002",
+      "engine": "worker-scene",
+      "template": "material-handling-worker",
+      "overlayIds": [
+        "push-pull-force",
+        "travel-path",
+        "pinch-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "cart",
+        "path"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-003",
+      "engine": "equipment-scene",
+      "template": "forklift-warehouse",
+      "overlayIds": [
+        "travel-path",
+        "collision-zone",
+        "blind-spot",
+        "pedestrian-zone"
+      ],
+      "landmarkIds": [
+        "forklift",
+        "operator",
+        "pedestrian"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-004",
+      "engine": "equipment-scene",
+      "template": "forklift-warehouse",
+      "overlayIds": [
+        "unstable-load",
+        "center-of-gravity",
+        "turn-speed",
+        "tip-zone",
+        "pedestrian",
+        "slope-edge"
+      ],
+      "landmarkIds": [],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-005",
+      "engine": "equipment-scene",
+      "template": "forklift-warehouse",
+      "overlayIds": [
+        "pedestrian-zone",
+        "blind-spot",
+        "travel-path",
+        "exclusion-zone"
+      ],
+      "landmarkIds": [
+        "forklift",
+        "pedestrian",
+        "intersection"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-006",
+      "engine": "equipment-scene",
+      "template": "forklift-warehouse",
+      "overlayIds": [
+        "unstable-load",
+        "falling-load-path",
+        "drop-zone"
+      ],
+      "landmarkIds": [
+        "forklift",
+        "load",
+        "worker"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-007",
+      "engine": "equipment-scene",
+      "template": "forklift-warehouse",
+      "overlayIds": [
+        "mast-crush-zone",
+        "carriage-path",
+        "hand-entry-zone"
+      ],
+      "landmarkIds": [
+        "forklift",
+        "mast",
+        "worker"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-008",
+      "engine": "equipment-scene",
+      "template": "loading-dock",
+      "overlayIds": [
+        "dock-gap",
+        "trailer-movement",
+        "forklift-path",
+        "restraint-point"
+      ],
+      "landmarkIds": [
+        "forklift",
+        "dock",
+        "trailer"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-009",
+      "engine": "equipment-scene",
+      "template": "pallet-jack",
+      "overlayIds": [
+        "fork-zone",
+        "pinch-zone",
+        "travel-path",
+        "load-stability"
+      ],
+      "landmarkIds": [
+        "operator",
+        "pallet-jack",
+        "load"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-010",
+      "engine": "equipment-scene",
+      "template": "warehouse-storage",
+      "overlayIds": [
+        "unstable-stack",
+        "collapse-path",
+        "exclusion-zone"
+      ],
+      "landmarkIds": [
+        "stack",
+        "worker",
+        "aisle"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-011",
+      "engine": "equipment-scene",
+      "template": "warehouse-storage",
+      "overlayIds": [
+        "rack-damage",
+        "overload-zone",
+        "collapse-path"
+      ],
+      "landmarkIds": [
+        "rack",
+        "load",
+        "forklift"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-MAT-012",
+      "engine": "equipment-scene",
+      "template": "crane-suspended-load",
+      "overlayIds": [
+        "suspended-load",
+        "swing-path",
+        "drop-zone",
+        "exclusion-zone"
+      ],
+      "landmarkIds": [
+        "crane",
+        "load",
+        "worker"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-013",
+      "engine": "equipment-scene",
+      "template": "crane-suspended-load",
+      "overlayIds": [
+        "rigging-leg",
+        "connection-point",
+        "failure-path",
+        "drop-zone"
+      ],
+      "landmarkIds": [
+        "load",
+        "sling",
+        "hook"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-MAT-014",
+      "engine": "equipment-scene",
+      "template": "forklift-battery-charging",
+      "overlayIds": [
+        "battery",
+        "charging-zone",
+        "hydrogen-zone",
+        "electrolyte-zone",
+        "short-circuit-zone"
+      ],
+      "landmarkIds": [
+        "forklift",
+        "battery",
+        "charger"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-EXC-001",
+      "engine": "process-diagram",
+      "template": "excavation-trench",
+      "overlayIds": [
+        "collapse-zone",
+        "soil-face",
+        "protective-system",
+        "surcharge-load"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-EXC-002",
+      "engine": "process-diagram",
+      "template": "excavation-trench",
+      "overlayIds": [
+        "utility-lines",
+        "excavator-path",
+        "strike-point"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-EXC-003",
+      "engine": "process-diagram",
+      "template": "excavation-trench",
+      "overlayIds": [
+        "spoil-pile",
+        "surcharge-load",
+        "wall-stress"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-EXC-004",
+      "engine": "process-diagram",
+      "template": "excavation-trench",
+      "overlayIds": [
+        "water-level",
+        "inflow-path",
+        "pump-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-EXC-005",
+      "engine": "process-diagram",
+      "template": "excavation-trench",
+      "overlayIds": [
+        "atmosphere-volume",
+        "monitoring-point",
+        "ventilation-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-EXC-006",
+      "engine": "process-diagram",
+      "template": "excavation-trench",
+      "overlayIds": [
+        "access-point",
+        "egress-path",
+        "blocked-exit"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-EXC-007",
+      "engine": "process-diagram",
+      "template": "excavation-trench",
+      "overlayIds": [
+        "equipment-edge-zone",
+        "travel-path",
+        "surcharge-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-EXC-008",
+      "engine": "process-diagram",
+      "template": "excavation-trench",
+      "overlayIds": [
+        "adjacent-structure",
+        "support-zone",
+        "soil-removal"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CONF-001",
+      "engine": "process-diagram",
+      "template": "confined-space-vessel",
+      "overlayIds": [
+        "atmosphere",
+        "monitor",
+        "ventilation",
+        "isolation",
+        "entrant",
+        "entry-rescue",
+        "attendant"
+      ],
+      "landmarkIds": [],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CONF-002",
+      "engine": "process-diagram",
+      "template": "confined-space-vessel",
+      "overlayIds": [
+        "oxygen-enriched-atmosphere",
+        "ignition-source",
+        "entrant",
+        "monitor"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CONF-003",
+      "engine": "process-diagram",
+      "template": "confined-space-vessel",
+      "overlayIds": [
+        "toxic-atmosphere",
+        "source-release",
+        "monitor",
+        "ventilation"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CONF-004",
+      "engine": "process-diagram",
+      "template": "confined-space-vessel",
+      "overlayIds": [
+        "flammable-atmosphere",
+        "ignition-source",
+        "monitor",
+        "ventilation"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CONF-005",
+      "engine": "process-diagram",
+      "template": "confined-space-vessel",
+      "overlayIds": [
+        "engulfment-material",
+        "inlet-path",
+        "entrant",
+        "isolation"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CONF-006",
+      "engine": "process-diagram",
+      "template": "confined-space-vessel",
+      "overlayIds": [
+        "converging-walls",
+        "tapered-floor",
+        "entrapment-zone",
+        "egress-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CONF-007",
+      "engine": "process-diagram",
+      "template": "confined-space-vessel",
+      "overlayIds": [
+        "energy-source",
+        "moving-equipment",
+        "isolation-point",
+        "entrant"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CONF-008",
+      "engine": "process-diagram",
+      "template": "confined-space-vessel",
+      "overlayIds": [
+        "isolation-point",
+        "ventilation-path",
+        "connected-line",
+        "atmosphere-volume"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CONF-009",
+      "engine": "process-diagram",
+      "template": "confined-space-vessel",
+      "overlayIds": [
+        "entrant",
+        "attendant",
+        "entry-supervisor",
+        "permit",
+        "rescue-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-001",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "electrical-energy",
+        "hydraulic-energy",
+        "pneumatic-energy",
+        "isolation-device",
+        "stored-energy",
+        "verification",
+        "equipment"
+      ],
+      "landmarkIds": [],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-002",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "electrical-source",
+        "capacitor-battery",
+        "disconnect",
+        "stored-energy",
+        "verification"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-003",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "mechanical-source",
+        "moving-part",
+        "block-restraint",
+        "stored-energy"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-004",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "hydraulic-source",
+        "accumulator",
+        "valve",
+        "bleed-down",
+        "block-restraint"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-005",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "pneumatic-source",
+        "air-line",
+        "valve",
+        "bleed-down",
+        "stored-pressure"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-006",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "thermal-source",
+        "hot-cold-zone",
+        "isolation",
+        "cooldown",
+        "verification"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-007",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "process-source",
+        "line-valves",
+        "chemical-inventory",
+        "isolation",
+        "drain-purge"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-008",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "elevated-component",
+        "gravity-path",
+        "block-restraint",
+        "worker-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-009",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "residual-sources",
+        "reaccumulation",
+        "restraint",
+        "bleed-down",
+        "verification"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-LOTO-010",
+      "engine": "process-diagram",
+      "template": "loto-energy-machine",
+      "overlayIds": [
+        "multiple-energy-sources",
+        "isolation-devices",
+        "group-lock-box",
+        "verification-step"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-PRESS-001",
+      "engine": "process-diagram",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "pressure-vessel",
+        "pressure-rise",
+        "relief-device",
+        "rupture-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-PRESS-002",
+      "engine": "worker-scene",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "pressurized-hose",
+        "coupling-failure",
+        "whip-path",
+        "impact-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-PRESS-003",
+      "engine": "worker-scene",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "hydraulic-line",
+        "pinhole-leak",
+        "injection-path",
+        "hand-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PRESS-004",
+      "engine": "process-diagram",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "compressed-air-source",
+        "stored-pressure",
+        "actuator-motion",
+        "release-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-PRESS-005",
+      "engine": "worker-scene",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "air-jet",
+        "flying-particles",
+        "worker-face-zone",
+        "tool-source"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-PRESS-006",
+      "engine": "process-diagram",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "hot-fluid-line",
+        "pressure-source",
+        "release-cloud",
+        "isolation-point"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PRESS-007",
+      "engine": "concept-diagram",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "vacuum-vessel",
+        "external-pressure-arrows",
+        "implosion-zone",
+        "fragment-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PRESS-008",
+      "engine": "equipment-scene",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "cylinder",
+        "valve",
+        "heat-zone",
+        "rupture-path",
+        "projectile-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-001",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "chemical-container",
+        "splash-zone",
+        "corrosion-zone",
+        "ventilation"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-002",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "liquid-container",
+        "vapor-zone",
+        "ignition-source",
+        "fire-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-003",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "gas-source",
+        "vapor-cloud",
+        "ignition-source",
+        "flash-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-004",
+      "engine": "concept-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "oxidizer-source",
+        "fuel-source",
+        "reaction-zone",
+        "separation-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-005",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "reactive-material",
+        "temperature-pressure-trigger",
+        "reaction-zone",
+        "containment"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-006",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "water-contact",
+        "reactive-material",
+        "gas-release",
+        "heat-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-007",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "peroxide-container",
+        "temperature-zone",
+        "decomposition-path",
+        "separation-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-008",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "pyrophoric-source",
+        "air-contact",
+        "ignition-zone",
+        "inerting-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-009",
+      "engine": "equipment-scene",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "cylinder",
+        "stored-pressure",
+        "valve",
+        "release-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-010",
+      "engine": "equipment-scene",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "cryogenic-container",
+        "cold-zone",
+        "vapor-cloud",
+        "pressure-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-CHEM-011",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "chemical-a",
+        "chemical-b",
+        "mixing-point",
+        "reaction-zone",
+        "segregation"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-012",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "release-source",
+        "airborne-plume",
+        "worker-zone",
+        "containment-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-013",
+      "engine": "worker-scene",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "spill-pool",
+        "splash-path",
+        "worker-contact-zone",
+        "drain-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-014",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "waste-container",
+        "exposure-zone",
+        "unknown-material",
+        "response-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-CHEM-015",
+      "engine": "equipment-scene",
+      "template": "chemical-storage",
+      "overlayIds": [
+        "storage-rack",
+        "incompatible-zone",
+        "flammable-zone",
+        "secondary-containment"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-FIRE-001",
+      "engine": "worker-scene",
+      "template": "fire-process-area",
+      "overlayIds": [
+        "vapor-cloud",
+        "ignition-source",
+        "flame-zone",
+        "worker-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-002",
+      "engine": "process-diagram",
+      "template": "fire-process-area",
+      "overlayIds": [
+        "release-source",
+        "vapor-cloud",
+        "ignition-source",
+        "blast-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-003",
+      "engine": "process-diagram",
+      "template": "combustible-dust-process",
+      "overlayIds": [
+        "dust-layer",
+        "dust-cloud",
+        "ignition-source",
+        "explosion-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-004",
+      "engine": "worker-scene",
+      "template": "hot-work-worker",
+      "overlayIds": [
+        "hot-work-source",
+        "spark-path",
+        "combustible-zone",
+        "fire-watch"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-005",
+      "engine": "worker-scene",
+      "template": "hot-work-worker",
+      "overlayIds": [
+        "torch-arc",
+        "spark-path",
+        "hot-metal",
+        "combustible-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-006",
+      "engine": "concept-diagram",
+      "template": "fire-process-area",
+      "overlayIds": [
+        "charge-build-up",
+        "spark-discharge",
+        "flammable-zone",
+        "bond-ground"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-007",
+      "engine": "process-diagram",
+      "template": "fire-process-area",
+      "overlayIds": [
+        "self-heating-material",
+        "heat-build-up",
+        "ignition-point",
+        "separation-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-008",
+      "engine": "equipment-scene",
+      "template": "pressure-vessel-hose",
+      "overlayIds": [
+        "cylinder",
+        "heat-zone",
+        "valve",
+        "rupture-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-009",
+      "engine": "equipment-scene",
+      "template": "forklift-battery-charging",
+      "overlayIds": [
+        "battery",
+        "hydrogen-zone",
+        "charger",
+        "ignition-source",
+        "ventilation"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-010",
+      "engine": "concept-diagram",
+      "template": "fire-protection-system",
+      "overlayIds": [
+        "detectors",
+        "impaired-detector",
+        "alarm-path",
+        "fire-source"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-FIRE-011",
+      "engine": "concept-diagram",
+      "template": "fire-protection-system",
+      "overlayIds": [
+        "sprinkler-network",
+        "closed-valve",
+        "fire-zone",
+        "suppression-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-FIRE-012",
+      "engine": "worker-scene",
+      "template": "fire-extinguisher-use",
+      "overlayIds": [
+        "fire-class",
+        "extinguisher",
+        "approach-path",
+        "escape-route"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-PSM-001",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "containment-boundary",
+        "release-point",
+        "plume",
+        "shutdown-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PSM-002",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "reactor",
+        "temperature-rise",
+        "reaction-rate",
+        "cooling-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PSM-003",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "pressure-rise",
+        "blocked-flow",
+        "relief-system",
+        "vessel"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PSM-004",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "relief-device",
+        "blocked-relief",
+        "pressure-source",
+        "discharge-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PSM-005",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "sensor",
+        "alarm",
+        "process-variable",
+        "missed-warning"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PSM-006",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "interlock",
+        "bypass",
+        "hazardous-deviation",
+        "shutdown-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PSM-007",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "utility-source",
+        "utility-loss",
+        "process-unit",
+        "backup-system"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PSM-008",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "material-of-construction",
+        "degradation-zone",
+        "process-fluid",
+        "failure-point"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-PSM-009",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "change-request",
+        "hazard-review",
+        "authorization",
+        "implementation"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-PSM-010",
+      "engine": "process-diagram",
+      "template": "chemical-process-containment",
+      "overlayIds": [
+        "startup-sequence",
+        "readiness-check",
+        "open-action",
+        "process-introduction"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "supplemented"
+    },
+    {
+      "id": "HL-ERGO-001",
+      "engine": "worker-scene",
+      "template": "ergonomic-worker-lift",
+      "overlayIds": [
+        "load",
+        "lift-origin",
+        "lift-destination",
+        "reach-zone",
+        "posture-angle"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ERGO-002",
+      "engine": "worker-scene",
+      "template": "ergonomic-workstation",
+      "overlayIds": [
+        "repetition-cycle",
+        "hand-path",
+        "task-rate",
+        "recovery-time"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ERGO-003",
+      "engine": "worker-scene",
+      "template": "ergonomic-workstation",
+      "overlayIds": [
+        "spine-angle",
+        "reach-zone",
+        "joint-deviation",
+        "task-height"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ERGO-004",
+      "engine": "worker-scene",
+      "template": "ergonomic-worker-lift",
+      "overlayIds": [
+        "force-vector",
+        "grip-zone",
+        "load-resistance",
+        "body-posture"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ERGO-005",
+      "engine": "worker-scene",
+      "template": "ergonomic-workstation",
+      "overlayIds": [
+        "static-body-zone",
+        "support-point",
+        "duration-indicator",
+        "neutral-posture"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ERGO-006",
+      "engine": "worker-scene",
+      "template": "ergonomic-workstation",
+      "overlayIds": [
+        "overhead-reach",
+        "shoulder-elevation",
+        "neck-angle",
+        "work-height"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ERGO-007",
+      "engine": "concept-diagram",
+      "template": "ergonomic-workstation",
+      "overlayIds": [
+        "contact-edge",
+        "pressure-zone",
+        "hand-arm",
+        "padding-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ERGO-008",
+      "engine": "worker-scene",
+      "template": "noise-source-worker",
+      "overlayIds": [
+        "vibrating-tool",
+        "hand-arm-path",
+        "exposure-zone",
+        "isolation-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ERGO-009",
+      "engine": "equipment-scene",
+      "template": "ergonomic-workstation",
+      "overlayIds": [
+        "vehicle-seat",
+        "vibration-path",
+        "spine-zone",
+        "surface-condition"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ERGO-010",
+      "engine": "worker-scene",
+      "template": "ergonomic-workstation",
+      "overlayIds": [
+        "display-height",
+        "keyboard-reach",
+        "chair-support",
+        "work-surface"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ERGO-011",
+      "engine": "concept-diagram",
+      "template": "ergonomic-workstation",
+      "overlayIds": [
+        "work-cycle",
+        "rest-cycle",
+        "fatigue-level",
+        "performance-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ERGO-012",
+      "engine": "concept-diagram",
+      "template": "ergonomic-workstation",
+      "overlayIds": [
+        "worker-envelope",
+        "control-reach",
+        "clearance-zone",
+        "adjustability"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-NOISE-001",
+      "engine": "worker-scene",
+      "template": "noise-source-worker",
+      "overlayIds": [
+        "noise-source",
+        "sound-field",
+        "worker-ear-zone",
+        "barrier-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-NOISE-002",
+      "engine": "worker-scene",
+      "template": "noise-source-worker",
+      "overlayIds": [
+        "noise-bursts",
+        "time-pattern",
+        "worker-ear-zone",
+        "quiet-period"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-NOISE-003",
+      "engine": "worker-scene",
+      "template": "noise-source-worker",
+      "overlayIds": [
+        "impulse-source",
+        "peak-wave",
+        "worker-ear-zone",
+        "distance-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-NOISE-004",
+      "engine": "concept-diagram",
+      "template": "noise-source-worker",
+      "overlayIds": [
+        "source-a",
+        "source-b",
+        "source-c",
+        "combined-field"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-NOISE-005",
+      "engine": "concept-diagram",
+      "template": "noise-source-worker",
+      "overlayIds": [
+        "sound-level",
+        "exposure-time",
+        "dose-meter",
+        "worker"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-NOISE-006",
+      "engine": "concept-diagram",
+      "template": "noise-source-worker",
+      "overlayIds": [
+        "source",
+        "reflected-paths",
+        "hard-surfaces",
+        "absorption-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-NOISE-007",
+      "engine": "worker-scene",
+      "template": "noise-source-worker",
+      "overlayIds": [
+        "noise-source",
+        "hearing-protector",
+        "fit-zone",
+        "residual-exposure"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-NOISE-008",
+      "engine": "concept-diagram",
+      "template": "noise-source-worker",
+      "overlayIds": [
+        "noise-history",
+        "audiogram",
+        "hearing-threshold",
+        "control-program"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-001",
+      "engine": "worker-scene",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "heat-source",
+        "humidity",
+        "workload",
+        "worker-heat-load",
+        "cooling-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-002",
+      "engine": "worker-scene",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "hot-humid-zone",
+        "sweat",
+        "skin-zone",
+        "drying-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-003",
+      "engine": "worker-scene",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "sweat-loss",
+        "muscle-zone",
+        "hydration",
+        "rest-area"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-004",
+      "engine": "worker-scene",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "heat-zone",
+        "standing-worker",
+        "circulation",
+        "cool-area"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-005",
+      "engine": "concept-diagram",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "fluid-loss",
+        "fluid-intake",
+        "body-water",
+        "work-capacity"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-006",
+      "engine": "worker-scene",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "heat-load",
+        "sweating",
+        "fatigue-zone",
+        "cooling-response"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-007",
+      "engine": "worker-scene",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "extreme-heat-load",
+        "thermoregulation-failure",
+        "emergency-zone",
+        "cooling-response"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-008",
+      "engine": "worker-scene",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "cold-source",
+        "wind-path",
+        "wetness",
+        "worker-cold-load",
+        "warming-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-009",
+      "engine": "worker-scene",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "cold-exposure",
+        "core-temperature",
+        "shivering",
+        "warm-shelter"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-THERM-010",
+      "engine": "worker-scene",
+      "template": "thermal-worker-environment",
+      "overlayIds": [
+        "freezing-zone",
+        "extremity",
+        "wind-exposure",
+        "insulation-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-001",
+      "engine": "concept-diagram",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "alpha-source",
+        "short-range",
+        "internal-route",
+        "containment"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-002",
+      "engine": "concept-diagram",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "beta-source",
+        "skin-path",
+        "eye-zone",
+        "internal-route"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-003",
+      "engine": "concept-diagram",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "gamma-source",
+        "penetrating-field",
+        "distance",
+        "shielding"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-004",
+      "engine": "concept-diagram",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "neutron-source",
+        "field",
+        "shielding",
+        "controlled-area"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-005",
+      "engine": "equipment-scene",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "xray-source",
+        "beam",
+        "worker",
+        "shielding"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-006",
+      "engine": "worker-scene",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "uv-source",
+        "eye-skin-zone",
+        "shield",
+        "distance"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-007",
+      "engine": "worker-scene",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "visible-source",
+        "eye-path",
+        "glare-zone",
+        "filter-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-008",
+      "engine": "worker-scene",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "infrared-source",
+        "radiant-path",
+        "eye-skin-zone",
+        "shield"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-009",
+      "engine": "equipment-scene",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "microwave-source",
+        "near-field",
+        "shielding",
+        "access-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-010",
+      "engine": "equipment-scene",
+      "template": "radiation-source-shield-worker",
+      "overlayIds": [
+        "rf-source",
+        "field-zone",
+        "antenna",
+        "access-control"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-RAD-011",
+      "engine": "worker-scene",
+      "template": "laser-worker",
+      "overlayIds": [
+        "laser-source",
+        "direct-beam",
+        "reflection",
+        "eye-zone",
+        "beam-stop"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ENV-001",
+      "engine": "process-diagram",
+      "template": "environmental-release-pathways",
+      "overlayIds": [
+        "air-source",
+        "plume",
+        "site-boundary",
+        "control-device"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ENV-002",
+      "engine": "process-diagram",
+      "template": "environmental-release-pathways",
+      "overlayIds": [
+        "wastewater-source",
+        "treatment",
+        "outfall",
+        "surface-water"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ENV-003",
+      "engine": "process-diagram",
+      "template": "environmental-release-pathways",
+      "overlayIds": [
+        "rainfall",
+        "exposed-material",
+        "runoff-path",
+        "storm-drain"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ENV-004",
+      "engine": "process-diagram",
+      "template": "environmental-release-pathways",
+      "overlayIds": [
+        "release-point",
+        "soil-zone",
+        "migration-path",
+        "excavation-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ENV-005",
+      "engine": "concept-diagram",
+      "template": "environmental-release-pathways",
+      "overlayIds": [
+        "surface-release",
+        "soil-column",
+        "water-table",
+        "groundwater-plume"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ENV-006",
+      "engine": "process-diagram",
+      "template": "environmental-release-pathways",
+      "overlayIds": [
+        "ust",
+        "leak-point",
+        "soil-zone",
+        "groundwater"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ENV-007",
+      "engine": "equipment-scene",
+      "template": "chemical-storage",
+      "overlayIds": [
+        "waste-container",
+        "labeling",
+        "storage-zone",
+        "release-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ENV-008",
+      "engine": "process-diagram",
+      "template": "environmental-release-pathways",
+      "overlayIds": [
+        "spill-source",
+        "secondary-containment",
+        "drain-path",
+        "soil-water-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "indirect"
+    },
+    {
+      "id": "HL-ENV-009",
+      "engine": "process-diagram",
+      "template": "environmental-release-pathways",
+      "overlayIds": [
+        "chemical-source",
+        "application-path",
+        "drift-runoff",
+        "receptor-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-ENV-010",
+      "engine": "equipment-scene",
+      "template": "chemical-storage",
+      "overlayIds": [
+        "waste-area",
+        "incompatible-storage",
+        "container-condition",
+        "release-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-SEC-001",
+      "engine": "worker-scene",
+      "template": "facility-security-scene",
+      "overlayIds": [
+        "worker",
+        "threat-source",
+        "controlled-entry",
+        "alarm-communication"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-SEC-002",
+      "engine": "worker-scene",
+      "template": "facility-security-scene",
+      "overlayIds": [
+        "threat-zone",
+        "escape-route",
+        "protected-space",
+        "responder-entry"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-SEC-003",
+      "engine": "equipment-scene",
+      "template": "facility-security-scene",
+      "overlayIds": [
+        "perimeter",
+        "entry-point",
+        "credential-control",
+        "intrusion-path"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-SEC-004",
+      "engine": "concept-diagram",
+      "template": "emergency-response-scene",
+      "overlayIds": [
+        "threat-report",
+        "suspicious-object",
+        "isolation-zone",
+        "evacuation-route"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-SEC-005",
+      "engine": "equipment-scene",
+      "template": "facility-security-scene",
+      "overlayIds": [
+        "hazmat-storage",
+        "access-control",
+        "tamper-point",
+        "response-zone"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-SEC-006",
+      "engine": "concept-diagram",
+      "template": "emergency-response-scene",
+      "overlayIds": [
+        "alarm",
+        "exit-routes",
+        "assembly-area",
+        "accountability"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-SEC-007",
+      "engine": "concept-diagram",
+      "template": "emergency-response-scene",
+      "overlayIds": [
+        "critical-system",
+        "failure-point",
+        "backup-system",
+        "affected-area"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    },
+    {
+      "id": "HL-SEC-008",
+      "engine": "concept-diagram",
+      "template": "emergency-response-scene",
+      "overlayIds": [
+        "weather-hazard",
+        "facility",
+        "shelter-evacuation",
+        "utility-impact"
+      ],
+      "landmarkIds": [
+        "worker",
+        "hazard-source",
+        "control-point"
+      ],
+      "sourceSupport": "direct"
+    }
+  ]
+}

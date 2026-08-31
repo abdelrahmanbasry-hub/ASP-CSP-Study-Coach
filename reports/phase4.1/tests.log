@@ -1,0 +1,288 @@
+$ pnpm run build && node --experimental-strip-types --test tests/*.test.mjs
+$ cross-env WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build
+
+  vinext build  (Vite 8.0.13)
+
+[1/5] analyze client references...
+[2K
+transforming...✓ 283 modules transformed.
+rendering chunks...
+✓ built in 759ms
+[2/5] analyze server references...
+[2K
+transforming...✓ 313 modules transformed.
+rendering chunks...
+✓ built in 535ms
+[3/5] build rsc environment...
+[2K
+transforming...✓ 281 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 694ms
+[4/5] build client environment...
+[2K
+transforming...✓ 1829 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 2.48s
+[5/5] build ssr environment...
+[2K
+transforming...✓ 319 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 1.41s
+[0m
+  Route (app)
+  ┌ ? /                           
+  ├ λ /api/cloud-progress         
+  ├ ƒ /exam-practice              
+  ├ ƒ /internal/blueprint-coverage
+  ├ ƒ /internal/item-review       
+  └ ƒ /practice-v2                
+
+  λ API  ƒ Dynamic  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+  Build complete. Run `vinext start` to start the production server.
+
+✔ full simulations use exact current blueprint allocations (12.6045ms)
+✔ 20-item balanced drills preserve blueprint proportions (1.4484ms)
+✔ sustained success can move the provisional authoring tie-breaker (0.51ms)
+✔ new learners receive an insufficient-evidence state, never an artificial percentage (0.3418ms)
+✔ repeated responses cannot substitute for the independent readiness threshold (0.324ms)
+✔ readiness is explicitly a practice indicator and not a BCSP result prediction (0.2969ms)
+✔ weakest mode concentrates exposure in the two lowest-readiness domains (1.3053ms)
+✔ sealed mock selection uses each clean form before warning on a repeat (0.3387ms)
+✔ session generation cannot cross the bank boundary supplied by the caller (6.4094ms)
+✔ adaptive selection exhausts unseen practice items before recycling seen items (0.3292ms)
+✔ weak-objective evidence outranks a closer provisional difficulty match (0.2281ms)
+✔ recent incorrect and confident-error evidence outranks provisional difficulty (0.1807ms)
+✔ a domain cannot gain stability from insufficient current-block evidence (0.1669ms)
+✔ domain stability requires independent families when family metadata exists (0.0835ms)
+✔ older partial mastery records remain readable with defensive defaults (0.4147ms)
+✔ official registry objective IDs are unique, stable, and complete (1.0199ms)
+✔ every objective has exact ownership by one domain and valid parentage (0.5792ms)
+✔ mapping validator rejects invalid versions, domains, and missing mappings (0.717ms)
+✔ automated suggestions never become reviewed coverage (0.4868ms)
+✔ legacy questions remain valid and unmapped without new inline fields (0.2446ms)
+✔ coverage report separates suggested, reviewed, unmapped, and repeated families (0.9209ms)
+✔ question text, answer keys, rationales, sources, and family metadata are unchanged (25.8107ms)
+✔ coverage page is explicitly development-only (28.2557ms)
+✔ checked-in machine report matches the current registry and mapping overlay (26.8732ms)
+✔ migrates all 37 rows with stable IDs and complete typed targets/routes (1.3766ms)
+✔ preserves every original bilingual field, row, category and hazard ID (0.5873ms)
+✔ keeps ambiguous routes for review without inventing absorption or blood targets (0.2313ms)
+✔ normalizes all four supported route types without treating contact as absorption (0.1617ms)
+✔ selecting Asbestos and Benzene changes one reusable SVG to different configured targets (222.7655ms)
+✔ primary and secondary systems expose different roles, callouts and non-color labels (174.7909ms)
+✔ reference-style callouts follow anatomy order and use matching region anchors and accents (121.0522ms)
+✔ clicking kidneys filters hazards and clearing restores the category (145.9322ms)
+✔ an unlisted system has an empty state and a working reset (132.2879ms)
+✔ all 17 SVG regions are keyboard buttons; Enter and Space toggle the filter (126.088ms)
+✔ mode tabs show routes and effects and support arrow-key focus navigation (139.3121ms)
+✔ systems and effects retain distributed blood and marrow targets without exposure paths (203.0599ms)
+✔ effects link individual targets while keeping shared source claims grouped (159.6273ms)
+✔ route mode draws the source's ingestion, dermal and percutaneous arrows (284.0294ms)
+✔ English, Arabic and Both control anatomy labels, callouts, record rail and effects (272.3408ms)
+✔ bilingual search includes body-system aliases and resets a reverse filter (451.5564ms)
+✔ biological category uses the same anatomy and preserves transmission review notes (168.2778ms)
+✔ source table remains available and returning preserves the explorer selection and language (215.6307ms)
+✔ Save and existing saved hazard IDs remain compatible; related links keep the selected query (179.1151ms)
+✔ responsive CSS reflows at container width and preserves focus and reduced motion (0.7145ms)
+✔ cloud progress rejects missing and invalid Supabase bearer tokens (28.2989ms)
+✔ cloud progress derives ownership from the verified Supabase token, never request JSON (0.7623ms)
+✔ cloud progress saves send the Supabase session token as a bearer token (0.274ms)
+✔ cloud progress resets send the Supabase session token as a bearer token (0.1535ms)
+✔ authenticated reset affects only the verified Supabase user, not a forged browser userId (1.2043ms)
+✔ local progress reset clears persisted progress and active-session keys (1.2002ms)
+✔ cloud progress accepts compact, versioned learner state (0.359ms)
+✔ cloud progress requires an object state and optimistic revision (0.2739ms)
+✔ cloud progress enforces its compact JSON size limit (0.6558ms)
+✔ canonical catalog adapts 37 source records by identity and adds exactly six implemented reference scenes (1.9755ms)
+✔ configured categories and More selection route records without leaking previous filters (319.3511ms)
+✔ subcategory selection preserves Occupational Health engine, reverse filter and table state (330.8185ms)
+✔ All Hazards includes every record once and routes every implemented engine (407.4722ms)
+✔ one search matcher covers categories, subcategories, source/body/route fields and new common fields (109.722ms)
+✔ global search extends the same catalog, preserves Arabic and resolves a canonical item ID (82.2297ms)
+✔ Library search can cross All Hazards and recover from empty filters (412.5369ms)
+✔ one saved-hazard mechanism preserves old IDs, notes and timestamps across categories (335.5079ms)
+✔ language switching persists across category engines with Arabic navigation and no English bilingual spans (583.6448ms)
+✔ Standards links pass existing IDs and the destination resolves only those catalog records (107.4392ms)
+✔ unmapped Standards links open the catalog without manufacturing standards (109.2654ms)
+✔ Practice links resolve existing topic/ID references and never synthesize questions (221.8548ms)
+✔ category navigation supports focus keys, More disclosure/Escape and RTL direction (105.2983ms)
+✔ responsive category navigation contains overflow and keeps More reachable on narrow screens (0.6304ms)
+✔ Arc Flash: engine renders semantic points, anchored connectors and selectable details (87.4918ms)
+✔ Scaffold Fall: engine renders semantic points, anchored connectors and selectable details (71.4276ms)
+✔ Forklift Tip-Over: engine renders semantic points, anchored connectors and selectable details (88.3705ms)
+✔ Oxygen-Deficient Confined Space: engine renders semantic points, anchored connectors and selectable details (56.4826ms)
+✔ Unexpected Startup / LOTO: engine renders semantic points, anchored connectors and selectable details (38.2769ms)
+✔ Radiation Exposure: engine renders semantic points, anchored connectors and selectable details (30.7045ms)
+✔ router chooses configuration, resets on a different record and preserves BodySystemExplorer (77.5821ms)
+✔ templates can be reused by a new record without hazard-ID branches (3.3799ms)
+✔ scene modes separate paths from scene context and show effects without losing selection (10.0504ms)
+✔ generic details receives the selected callout, then clears it when changing hazards (142.0264ms)
+✔ all engines localize English/Arabic/Both without mirroring physical coordinates (70.5619ms)
+✔ arrow/Home/End navigation works for markers and external cards with native keyboard buttons (11.5752ms)
+✔ inactive overlays stay muted and radiation principles are directly selectable (13.4792ms)
+✔ shared search includes callout concepts, controls and the sixth reference (3.862ms)
+✔ template/overlay validation rejects unsupported engines, duplicate IDs and invalid coordinates (0.4948ms)
+✔ optimized local assets, mobile layout, focus and reduced-motion rules stay in place (1.0697ms)
+✔ 44px targets stay separate within the smallest verified mobile scene (0.2503ms)
+✔ missing images retain accessible descriptions and an unsupported template fails cleanly (7.6568ms)
+✔ all automated records remain unreviewed, suggested, and non-operational (2.2222ms)
+✔ reviewed operational items require an exact source citation (0.5805ms)
+✔ controlled changes create a new version, preserve the old version, and reset review (0.5022ms)
+✔ source, formula, units, and objective edits cannot silently overwrite a version (0.7783ms)
+✔ learner history resolves the immutable version originally served (0.5658ms)
+✔ calculation items require formula, unit, rounding, and calculation review (0.3369ms)
+✔ mock items require family-independence and distractor-quality review (0.7695ms)
+✔ a fully human-reviewed practice item can pass the operational gate (1.1689ms)
+✔ priority and pilot queues match the required order and remain unapproved (0.3846ms)
+✔ review reports expose operational coverage and pending-review risks (0.4164ms)
+✔ checked-in item-review report matches the generated records and queues (41.2246ms)
+✔ development review route is unavailable in production (1.5013ms)
+✔ homework catalog preserves the supplied chapter manifest and exact counts (2.0609ms)
+✔ key information records preserve only available chapter-end source material (0.451ms)
+✔ practice questions cover every chapter with individually authored records (1.2554ms)
+✔ every homework and review item is complete, uniquely keyed, and answerable (2.3971ms)
+✔ each ready chapter has five provenance-linked review questions (0.6461ms)
+✔ formula and flashcard libraries meet their validated content targets (0.7571ms)
+✔ expanded formula library preserves complete supplemental coverage and corrected equations (2.4602ms)
+✔ BCSP frequently-used formula filter exactly matches ASP Formula Sheet pages 12-23 (0.4228ms)
+✔ hazard library has exact source counts and complete English/Arabic fields (1.7346ms)
+✔ learning progress normalization starts safely and preserves valid maps (0.3768ms)
+✔ flashcard scheduling responds monotonically to again, hard, good, and easy (0.6669ms)
+✔ controlled package remains byte-identical; exactly 52 unique records import as 10/14/14/14 (8.1356ms)
+✔ lossless adapter preserves every controlled bilingual field, tag, source qualifier and visualization token (14.7372ms)
+✔ all supplied standard numbers keep scope/relation; only real catalog IDs are linked (108.2318ms)
+✔ 27 configured templates reuse existing engines with 24 optimized additions and no per-hazard components (2.1544ms)
+✔ one search index covers all controlled fields, supplied Practice tags and unresolved standard numbers (218.6302ms)
+✔ supplied Practice tags filter existing question objects without synthesizing content (1959.1901ms)
+✔ the original 37 Occupational Health objects and six Phase 3 references retain identity and IDs (80.3402ms)
+✔ HL-ELEC-001 Arc Flash / Arc Blast: existing engine renders supplied overlays and landmarks in all languages (131.4762ms)
+✔ HL-ELEC-002 Electrical Shock / Electrocution: existing engine renders supplied overlays and landmarks in all languages (79.7243ms)
+✔ HL-ELEC-003 Electrical Burns: existing engine renders supplied overlays and landmarks in all languages (78.6166ms)
+✔ HL-ELEC-004 Exposed Energized Parts: existing engine renders supplied overlays and landmarks in all languages (54.1183ms)
+✔ HL-ELEC-005 Overhead Power Lines: existing engine renders supplied overlays and landmarks in all languages (51.5525ms)
+✔ HL-ELEC-006 Inadequate Wiring: existing engine renders supplied overlays and landmarks in all languages (38.2006ms)
+✔ HL-ELEC-007 Damaged Cords and Wires: existing engine renders supplied overlays and landmarks in all languages (19.6064ms)
+✔ HL-ELEC-008 Improper Grounding: existing engine renders supplied overlays and landmarks in all languages (18.9175ms)
+✔ HL-ELEC-009 Overloaded Circuits: existing engine renders supplied overlays and landmarks in all languages (15.5738ms)
+✔ HL-ELEC-010 Electrical Fire: existing engine renders supplied overlays and landmarks in all languages (14.8859ms)
+✔ HL-FALL-001 Same-Level Slip: existing engine renders supplied overlays and landmarks in all languages (16.0926ms)
+✔ HL-FALL-002 Same-Level Trip: existing engine renders supplied overlays and landmarks in all languages (14.5989ms)
+✔ HL-FALL-003 Floor / Wall Opening: existing engine renders supplied overlays and landmarks in all languages (17.6247ms)
+✔ HL-FALL-004 Unprotected Edge: existing engine renders supplied overlays and landmarks in all languages (13.5849ms)
+✔ HL-FALL-005 Ladder Fall: existing engine renders supplied overlays and landmarks in all languages (16.1657ms)
+✔ HL-FALL-006 Stairway Fall: existing engine renders supplied overlays and landmarks in all languages (14.6487ms)
+✔ HL-FALL-007 Scaffold Fall: existing engine renders supplied overlays and landmarks in all languages (16.9678ms)
+✔ HL-FALL-008 Roof / Elevated-Surface Fall: existing engine renders supplied overlays and landmarks in all languages (13.8936ms)
+✔ HL-FALL-009 Aerial-Lift / Platform Fall: existing engine renders supplied overlays and landmarks in all languages (17.8827ms)
+✔ HL-FALL-010 Rope-Descent-System Hazard: existing engine renders supplied overlays and landmarks in all languages (16.4749ms)
+✔ HL-FALL-011 Falling Object / Dropped Object: existing engine renders supplied overlays and landmarks in all languages (14.1837ms)
+✔ HL-FALL-012 Swing Fall: existing engine renders supplied overlays and landmarks in all languages (17.4193ms)
+✔ HL-FALL-013 Insufficient Fall-Arrest Clearance: existing engine renders supplied overlays and landmarks in all languages (15.0337ms)
+✔ HL-FALL-014 Suspension Trauma: existing engine renders supplied overlays and landmarks in all languages (14.0899ms)
+✔ HL-MACH-001 Missing / Inadequate Machine Guard: existing engine renders supplied overlays and landmarks in all languages (14.7012ms)
+✔ HL-MACH-002 Point-of-Operation Hazard: existing engine renders supplied overlays and landmarks in all languages (13.0835ms)
+✔ HL-MACH-003 In-Running Nip Point: existing engine renders supplied overlays and landmarks in all languages (15.6109ms)
+✔ HL-MACH-004 Rotating Shaft / Entanglement: existing engine renders supplied overlays and landmarks in all languages (15.4954ms)
+✔ HL-MACH-005 Reciprocating-Motion Hazard: existing engine renders supplied overlays and landmarks in all languages (14.9382ms)
+✔ HL-MACH-006 Shear / Cutting Point: existing engine renders supplied overlays and landmarks in all languages (13.48ms)
+✔ HL-MACH-007 Ejected Material / Flying Object: existing engine renders supplied overlays and landmarks in all languages (14.1103ms)
+✔ HL-MACH-008 Abrasive-Grinder Wheel Hazard: existing engine renders supplied overlays and landmarks in all languages (13.9917ms)
+✔ HL-MACH-009 Circular-Saw Hazard: existing engine renders supplied overlays and landmarks in all languages (13.857ms)
+✔ HL-MACH-010 Hand-Tool Misuse / Failure: existing engine renders supplied overlays and landmarks in all languages (14.1563ms)
+✔ HL-MACH-011 Portable Power-Tool Hazard: existing engine renders supplied overlays and landmarks in all languages (15.2333ms)
+✔ HL-MACH-012 Robotics / Automated-Movement Hazard: existing engine renders supplied overlays and landmarks in all languages (13.1885ms)
+✔ HL-MACH-013 Conveyor Nip / Entanglement: existing engine renders supplied overlays and landmarks in all languages (14.1517ms)
+✔ HL-MACH-014 Conveyor Falling-Material Hazard: existing engine renders supplied overlays and landmarks in all languages (14.5343ms)
+✔ HL-MAT-001 Manual Lifting / Overexertion: existing engine renders supplied overlays and landmarks in all languages (14.4363ms)
+✔ HL-MAT-002 Pushing / Pulling: existing engine renders supplied overlays and landmarks in all languages (14.6139ms)
+✔ HL-MAT-003 Forklift Collision: existing engine renders supplied overlays and landmarks in all languages (14.7824ms)
+✔ HL-MAT-004 Forklift Tip-Over: existing engine renders supplied overlays and landmarks in all languages (15.7551ms)
+✔ HL-MAT-005 Forklift-Pedestrian Interaction: existing engine renders supplied overlays and landmarks in all languages (15.2005ms)
+✔ HL-MAT-006 Forklift Falling Load: existing engine renders supplied overlays and landmarks in all languages (26.8502ms)
+✔ HL-MAT-007 Forklift Mast / Crush Point: existing engine renders supplied overlays and landmarks in all languages (37.2267ms)
+✔ HL-MAT-008 Loading-Dock / Trailer Separation: existing engine renders supplied overlays and landmarks in all languages (41.6963ms)
+✔ HL-MAT-009 Pallet-Jack Hazard: existing engine renders supplied overlays and landmarks in all languages (43.4108ms)
+✔ HL-MAT-010 Unstable Material Stacking: existing engine renders supplied overlays and landmarks in all languages (36.6851ms)
+✔ HL-MAT-011 Storage-Rack Failure: existing engine renders supplied overlays and landmarks in all languages (27.9524ms)
+✔ HL-MAT-012 Crane / Suspended Load: existing engine renders supplied overlays and landmarks in all languages (13.3548ms)
+✔ HL-MAT-013 Rigging Failure: existing engine renders supplied overlays and landmarks in all languages (13.2956ms)
+✔ HL-MAT-014 Forklift Battery Charging: existing engine renders supplied overlays and landmarks in all languages (16.2619ms)
+✔ generic panel displays exact controlled content, standard mapping, provenance and supplied Practice tags (99.2172ms)
+✔ resolved and unresolved links use genuine catalog IDs only (92.0637ms)
+✔ unified Save preserves legacy OH/reference notes and saves/removes a controlled ID (87.3521ms)
+✔ subcategory selection, language controls and keyboard callout/landmark focus remain usable (274.9838ms)
+✔ visible catalog has 92 unique records: 52 controlled, 37 OH and three unpopulated-family references (18.9657ms)
+✔ exact aliases preserve controlled IDs, content and approved Phase 3 scene objects without duplicate objects in lookup (15.9968ms)
+✔ Library and global search return canonical destinations for old IDs and hazard names (226.9032ms)
+✔ strict standard grammar normalizes dot/dash/CFR/section/subpart formatting (0.2608ms)
+✔ exact standards resolution uses genuine IDs even when the registry ID is opaque (1.2996ms)
+✔ paragraph references use the most specific genuine ancestor, not numeric prefixes or unverified subparts (9.6121ms)
+✔ standard normalization rejects wrong title/part, ranges, appended text and ambiguous registry matches (0.5398ms)
+✔ missing-standard report retains every supplied reference and deterministically reports actual catalog gaps (2.9683ms)
+✔ Practice aliases require exact phrases with evidence; five unrelated or absent topics remain unmatched (1961.3989ms)
+✔ ref-arc-flash opens HL-ELEC-001, retains the saved legacy note and reuses approved interactive callouts (473.2409ms)
+✔ ref-scaffold-fall opens HL-FALL-007, retains the saved legacy note and reuses approved interactive callouts (138.3954ms)
+✔ ref-forklift-tip-over opens HL-MAT-004, retains the saved legacy note and reuses approved interactive callouts (146.3687ms)
+✔ both legacy and canonical notebook entries remain lossless until explicit unsave, including a serialized reload (174.7888ms)
+✔ a stale bookmark caller with ref ID creates a canonical save (50.4125ms)
+✔ old-ID search entry routes to a single canonical visible record (47.4388ms)
+✔ the core bank replaces the old bank with exactly 40 schema v3 packs and 1,440 eligible questions (53.6117ms)
+✔ the integration report records every core pack and its unchanged supplied SHA-256 (20.4851ms)
+✔ every core chapter supports 25-question chapter-first sessions without repeating families (31.5049ms)
+✔ all supplied core packs pass the real importer together, preserve bytes, and reject reimport (10724.1294ms)
+✔ the two-item demo pack is valid and cannot be mistaken for approved content (2.0531ms)
+✔ validation rejects duplicate IDs and non-unique or non-four-option sets (0.8084ms)
+✔ validation rejects invalid answer indexes and missing distractor explanations (0.1928ms)
+✔ validation rejects missing chapters, invalid objectives, and unsourced verified items (0.149ms)
+✔ pack labels cannot promote demo or unverified items (0.2175ms)
+✔ source-checked eligibility requires every production safety gate (0.4537ms)
+✔ schema v3 accepts objective-level blueprint mappings with source trace metadata (0.4041ms)
+✔ calculation items require formula and units before verification (0.16ms)
+✔ verification labels cannot overstate AI-assisted or unverified content (0.1899ms)
+✔ Practice V2 renders the required source disclaimer and keeps verified content outside readiness (24.3947ms)
+✔ single- and multi-chapter filtering is chapter-first and never splits exam banks (0.6348ms)
+✔ selection prioritizes unseen items and separates item families (0.6172ms)
+✔ mistake review selects only unresolved incorrect questions (0.2798ms)
+✔ incorrect and high-confidence incorrect answers are tracked independently (0.1135ms)
+✔ Practice V2 persistence changes only its own key and preserves existing learner data (1.0136ms)
+✔ schema v3 removes top-level credential fields while preserving exam relevance (0.2118ms)
+✔ chapter metadata is added to new attempts and old Practice V2 progress remains readable (0.1165ms)
+✔ learner interface contains chapter controls and no credential selector (2.9727ms)
+✔ primary Practice mounts chapter-first Practice and preserves the legacy route (1.2906ms)
+✔ import is atomic, preserves supplied JSON bytes, and reports imported items (12.8173ms)
+✔ invalid or duplicate imports reject the complete file without partial output (8.2348ms)
+✔ importer independently rejects highly similar stems (5.8177ms)
+✔ CSP bank contains 800 isolated practice items and two sealed 200-item forms (34.6973ms)
+✔ ASP bank contains 800 isolated practice items and two sealed 200-item forms (24.297ms)
+✔ ASP A1 expanded pools cover Yates calculations and all ASP11 A1 objectives (1.6879ms)
+✔ every latent ASP A1 numeric variant remains answerable and collision-free (22.6146ms)
+✔ server-renders the dual-track adaptive coach (336.8045ms)
+✔ ships both current blueprint banks and removes starter preview code (8.6676ms)
+✔ the calculator renders the exact requested external calculator, not a replacement keypad (6.0895ms)
+✔ the external calculator is isolated from learner data and top-level navigation (1.0125ms)
+✔ the calculator provides accessible close, reload, and external fallback controls (0.7999ms)
+✔ a closed calculator stays mounted but hidden so reopening can preserve work (1.8724ms)
+✔ shared question tools load the calculator on demand and preserve the formula sheet (3.3753ms)
+✔ Practice, Homework, and exam tools are siblings of the question card, not below its answers (47.5275ms)
+✔ question tools use a sticky desktop side rail and a viewport-bounded narrow-screen panel (1.1453ms)
+✔ every supplied hazard row has an explicit body-system mapping (0.7323ms)
+ℹ tests 226
+ℹ suites 0
+ℹ pass 226
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11147.5515

@@ -1,0 +1,649 @@
+✖ canonical catalog adapts 37 source records by identity and adds exactly six implemented reference scenes (1.1535ms)
+✖ configured categories and More selection route records without leaking previous filters (196.1694ms)
+✔ subcategory selection preserves Occupational Health engine, reverse filter and table state (353.2754ms)
+✖ All Hazards includes every record once and routes every implemented engine (100.6686ms)
+✖ one search matcher covers categories, subcategories, source/body/route fields and new common fields (15.2738ms)
+✖ global search extends the same catalog, preserves Arabic and resolves a canonical item ID (34.8072ms)
+✖ Library search can cross All Hazards and recover from empty filters (136.8546ms)
+✖ one saved-hazard mechanism preserves old IDs, notes and timestamps across categories (107.0167ms)
+✖ language switching persists across category engines with Arabic navigation and no English bilingual spans (186.9758ms)
+✔ Standards links pass existing IDs and the destination resolves only those catalog records (162.3835ms)
+✔ unmapped Standards links open the catalog without manufacturing standards (81.1968ms)
+✖ Practice links resolve existing topic/ID references and never synthesize questions (87.7538ms)
+✔ category navigation supports focus keys, More disclosure/Escape and RTL direction (85.9317ms)
+✔ responsive category navigation contains overflow and keeps More reachable on narrow screens (0.5868ms)
+✔ Arc Flash: engine renders semantic points, anchored connectors and selectable details (75.0484ms)
+✔ Scaffold Fall: engine renders semantic points, anchored connectors and selectable details (59.4702ms)
+✔ Forklift Tip-Over: engine renders semantic points, anchored connectors and selectable details (74.0917ms)
+✔ Oxygen-Deficient Confined Space: engine renders semantic points, anchored connectors and selectable details (45.4627ms)
+✔ Unexpected Startup / LOTO: engine renders semantic points, anchored connectors and selectable details (35.1194ms)
+✔ Radiation Exposure: engine renders semantic points, anchored connectors and selectable details (23.7265ms)
+✔ router chooses configuration, resets on a different record and preserves BodySystemExplorer (59.7667ms)
+✔ templates can be reused by a new record without hazard-ID branches (2.9371ms)
+✔ scene modes separate paths from scene context and show effects without losing selection (8.5852ms)
+✔ generic details receives the selected callout, then clears it when changing hazards (111.077ms)
+✔ all engines localize English/Arabic/Both without mirroring physical coordinates (52.8694ms)
+✔ arrow/Home/End navigation works for markers and external cards with native keyboard buttons (11.6997ms)
+✔ inactive overlays stay muted and radiation principles are directly selectable (10.6856ms)
+✔ shared search includes callout concepts, controls and the sixth reference (3.6383ms)
+✔ template/overlay validation rejects unsupported engines, duplicate IDs and invalid coordinates (0.4045ms)
+✔ optimized local assets, mobile layout, focus and reduced-motion rules stay in place (0.894ms)
+✔ 44px targets stay separate within the smallest verified mobile scene (0.2113ms)
+✔ missing images retain accessible descriptions and an unsupported template fails cleanly (5.6895ms)
+✖ controlled package remains byte-identical; exactly 52 unique records import as 10/14/14/14 (2.3973ms)
+✖ lossless adapter preserves every controlled bilingual field, tag, source qualifier and visualization token (0.6115ms)
+✖ all supplied standard numbers keep scope/relation; only real catalog IDs are linked (6.0333ms)
+✔ 27 configured templates reuse existing engines with 24 optimized additions and no per-hazard components (13.9765ms)
+✖ one search index covers all controlled fields, supplied Practice tags and unresolved standard numbers (196.7343ms)
+✔ supplied Practice tags filter existing question objects without synthesizing content (1685.9591ms)
+✖ the original 37 Occupational Health objects and six Phase 3 references retain identity and IDs (1.6404ms)
+✔ HL-ELEC-001 Arc Flash / Arc Blast: existing engine renders supplied overlays and landmarks in all languages (71.9542ms)
+✔ HL-ELEC-002 Electrical Shock / Electrocution: existing engine renders supplied overlays and landmarks in all languages (39.9108ms)
+✔ HL-ELEC-003 Electrical Burns: existing engine renders supplied overlays and landmarks in all languages (35.9252ms)
+✔ HL-ELEC-004 Exposed Energized Parts: existing engine renders supplied overlays and landmarks in all languages (38.9277ms)
+✔ HL-ELEC-005 Overhead Power Lines: existing engine renders supplied overlays and landmarks in all languages (59.1315ms)
+✔ HL-ELEC-006 Inadequate Wiring: existing engine renders supplied overlays and landmarks in all languages (64.3776ms)
+✔ HL-ELEC-007 Damaged Cords and Wires: existing engine renders supplied overlays and landmarks in all languages (41.9128ms)
+✔ HL-ELEC-008 Improper Grounding: existing engine renders supplied overlays and landmarks in all languages (36.0697ms)
+✔ HL-ELEC-009 Overloaded Circuits: existing engine renders supplied overlays and landmarks in all languages (37.7893ms)
+✔ HL-ELEC-010 Electrical Fire: existing engine renders supplied overlays and landmarks in all languages (29.1276ms)
+✔ HL-FALL-001 Same-Level Slip: existing engine renders supplied overlays and landmarks in all languages (28.9703ms)
+✔ HL-FALL-002 Same-Level Trip: existing engine renders supplied overlays and landmarks in all languages (24.679ms)
+✔ HL-FALL-003 Floor / Wall Opening: existing engine renders supplied overlays and landmarks in all languages (29.8677ms)
+✔ HL-FALL-004 Unprotected Edge: existing engine renders supplied overlays and landmarks in all languages (27.692ms)
+✔ HL-FALL-005 Ladder Fall: existing engine renders supplied overlays and landmarks in all languages (33.6602ms)
+✔ HL-FALL-006 Stairway Fall: existing engine renders supplied overlays and landmarks in all languages (28.2014ms)
+✔ HL-FALL-007 Scaffold Fall: existing engine renders supplied overlays and landmarks in all languages (31.3769ms)
+✔ HL-FALL-008 Roof / Elevated-Surface Fall: existing engine renders supplied overlays and landmarks in all languages (25.95ms)
+✔ HL-FALL-009 Aerial-Lift / Platform Fall: existing engine renders supplied overlays and landmarks in all languages (37.9522ms)
+✔ HL-FALL-010 Rope-Descent-System Hazard: existing engine renders supplied overlays and landmarks in all languages (30.7723ms)
+✔ HL-FALL-011 Falling Object / Dropped Object: existing engine renders supplied overlays and landmarks in all languages (24.5081ms)
+✔ HL-FALL-012 Swing Fall: existing engine renders supplied overlays and landmarks in all languages (27.3125ms)
+✔ HL-FALL-013 Insufficient Fall-Arrest Clearance: existing engine renders supplied overlays and landmarks in all languages (34.8319ms)
+✔ HL-FALL-014 Suspension Trauma: existing engine renders supplied overlays and landmarks in all languages (32.5206ms)
+✔ HL-MACH-001 Missing / Inadequate Machine Guard: existing engine renders supplied overlays and landmarks in all languages (26.7764ms)
+✔ HL-MACH-002 Point-of-Operation Hazard: existing engine renders supplied overlays and landmarks in all languages (28.6019ms)
+✔ HL-MACH-003 In-Running Nip Point: existing engine renders supplied overlays and landmarks in all languages (29.0288ms)
+✔ HL-MACH-004 Rotating Shaft / Entanglement: existing engine renders supplied overlays and landmarks in all languages (29.01ms)
+✔ HL-MACH-005 Reciprocating-Motion Hazard: existing engine renders supplied overlays and landmarks in all languages (61.9807ms)
+✔ HL-MACH-006 Shear / Cutting Point: existing engine renders supplied overlays and landmarks in all languages (79.4552ms)
+✔ HL-MACH-007 Ejected Material / Flying Object: existing engine renders supplied overlays and landmarks in all languages (81.0706ms)
+✔ HL-MACH-008 Abrasive-Grinder Wheel Hazard: existing engine renders supplied overlays and landmarks in all languages (95.8431ms)
+✔ HL-MACH-009 Circular-Saw Hazard: existing engine renders supplied overlays and landmarks in all languages (71.7771ms)
+✔ HL-MACH-010 Hand-Tool Misuse / Failure: existing engine renders supplied overlays and landmarks in all languages (65.7647ms)
+✔ HL-MACH-011 Portable Power-Tool Hazard: existing engine renders supplied overlays and landmarks in all languages (29.9325ms)
+✔ HL-MACH-012 Robotics / Automated-Movement Hazard: existing engine renders supplied overlays and landmarks in all languages (24.6996ms)
+✔ HL-MACH-013 Conveyor Nip / Entanglement: existing engine renders supplied overlays and landmarks in all languages (28.3584ms)
+✔ HL-MACH-014 Conveyor Falling-Material Hazard: existing engine renders supplied overlays and landmarks in all languages (27.0962ms)
+✔ HL-MAT-001 Manual Lifting / Overexertion: existing engine renders supplied overlays and landmarks in all languages (26.4772ms)
+✔ HL-MAT-002 Pushing / Pulling: existing engine renders supplied overlays and landmarks in all languages (33.4223ms)
+✔ HL-MAT-003 Forklift Collision: existing engine renders supplied overlays and landmarks in all languages (26.7386ms)
+✔ HL-MAT-004 Forklift Tip-Over: existing engine renders supplied overlays and landmarks in all languages (34.2516ms)
+✔ HL-MAT-005 Forklift-Pedestrian Interaction: existing engine renders supplied overlays and landmarks in all languages (29.2463ms)
+✔ HL-MAT-006 Forklift Falling Load: existing engine renders supplied overlays and landmarks in all languages (25.4683ms)
+✔ HL-MAT-007 Forklift Mast / Crush Point: existing engine renders supplied overlays and landmarks in all languages (28.4766ms)
+✔ HL-MAT-008 Loading-Dock / Trailer Separation: existing engine renders supplied overlays and landmarks in all languages (29.4354ms)
+✔ HL-MAT-009 Pallet-Jack Hazard: existing engine renders supplied overlays and landmarks in all languages (27.5521ms)
+✔ HL-MAT-010 Unstable Material Stacking: existing engine renders supplied overlays and landmarks in all languages (24.1045ms)
+✔ HL-MAT-011 Storage-Rack Failure: existing engine renders supplied overlays and landmarks in all languages (30.3876ms)
+✔ HL-MAT-012 Crane / Suspended Load: existing engine renders supplied overlays and landmarks in all languages (38.8316ms)
+✔ HL-MAT-013 Rigging Failure: existing engine renders supplied overlays and landmarks in all languages (35.9223ms)
+✔ HL-MAT-014 Forklift Battery Charging: existing engine renders supplied overlays and landmarks in all languages (28.2917ms)
+✔ generic panel displays exact controlled content, standard mapping, provenance and supplied Practice tags (348.5416ms)
+✔ resolved and unresolved links use genuine catalog IDs only (354.0965ms)
+✖ unified Save preserves legacy OH/reference notes and saves/removes a controlled ID (128.9219ms)
+✖ subcategory selection, language controls and keyboard callout/landmark focus remain usable (737.0677ms)
+ℹ tests 95
+ℹ suites 0
+ℹ pass 79
+ℹ fail 16
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6458.4125
+
+✖ failing tests:
+
+test at tests\hazard-library.test.mjs:59:1
+✖ canonical catalog adapts 37 source records by identity and adds exactly six implemented reference scenes (1.1535ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  92 !== 95
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 92,
+    expected: 95,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:84:1
+✖ configured categories and More selection route records without leaking previous filters (196.1694ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+  -   'ref-arc-flash',
+      'HL-ELEC-001',
+      'HL-ELEC-002',
+      'HL-ELEC-003',
+      'HL-ELEC-004',
+      'HL-ELEC-005',
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:90:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'HL-ELEC-001', 'HL-ELEC-002', 'HL-ELEC-003', 'HL-ELEC-004', 'HL-ELEC-005', 'HL-ELEC-006', 'HL-ELEC-007', 'HL-ELEC-008', 'HL-ELEC-009', 'HL-ELEC-010' ],
+    expected: [ 'ref-arc-flash', 'HL-ELEC-001', 'HL-ELEC-002', 'HL-ELEC-003', 'HL-ELEC-004', 'HL-ELEC-005', 'HL-ELEC-006', 'HL-ELEC-007', 'HL-ELEC-008', 'HL-ELEC-009', 'HL-ELEC-010' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:122:1
+✖ All Hazards includes every record once and routes every implemented engine (100.6686ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  92 !== 95
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:125:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 92,
+    expected: 95,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:138:1
+✖ one search matcher covers categories, subcategories, source/body/route fields and new common fields (15.2738ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(ids("Electrical").includes("ref-arc-flash"))
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:140:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:154:1
+✖ global search extends the same catalog, preserves Arabic and resolves a canonical item ID (34.8072ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  92 !== 95
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:156:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 92,
+    expected: 95,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:166:1
+✖ Library search can cross All Hazards and recover from empty filters (136.8546ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(records().some((record) => record.dataset.hazardId === "ref-forklift-tip-over"))
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:171:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:179:1
+✖ one saved-hazard mechanism preserves old IDs, notes and timestamps across categories (107.0167ms)
+  AssertionError [ERR_ASSERTION]: Missing button: Save Arc Flash to notebook
+      at button (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:43:10)
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:185:15)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:194:1
+✖ language switching persists across category engines with Arabic navigation and no English bilingual spans (186.9758ms)
+  AssertionError [ERR_ASSERTION]: Missing button: حفظ القوس الكهربائي في الدفتر
+      at button (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:43:10)
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:203:13)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:238:1
+✖ Practice links resolve existing topic/ID references and never synthesize questions (87.7538ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      'practice',
+  +   'Manual Lifting / Overexertion',
+  -   'Forklift Tip-Over',
+      {
+        practiceQuestionIds: [],
+        practiceTags: [
+  +       'materials',
+  +       'lifting',
+  +       'manual-handling'
+  -       'forklift'
+        ]
+      }
+    ]
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:242:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'practice', 'Manual Lifting / Overexertion', { practiceTags: [Array], practiceQuestionIds: [] } ],
+    expected: [ 'practice', 'Forklift Tip-Over', { practiceTags: [Array], practiceQuestionIds: [] } ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\phase4-hazards.test.mjs:22:1
+✖ controlled package remains byte-identical; exactly 52 unique records import as 10/14/14/14 (2.3973ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  92 !== 95
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/phase4-hazards.test.mjs:28:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 92,
+    expected: 95,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\phase4-hazards.test.mjs:31:1
+✖ lossless adapter preserves every controlled bilingual field, tag, source qualifier and visualization token (0.6115ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      'arc-source',
+  +   'thermal-exposure',
+  +   'intense-light',
+  +   'blast-pressure',
+  +   'secondary-impact'
+  -   'thermal-zone',
+  -   'light-zone',
+  -   'blast-path'
+    ]
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/phase4-hazards.test.mjs:37:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'arc-source', 'thermal-exposure', 'intense-light', 'blast-pressure', 'secondary-impact' ],
+    expected: [ 'arc-source', 'thermal-zone', 'light-zone', 'blast-path' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\phase4-hazards.test.mjs:44:1
+✖ all supplied standard numbers keep scope/relation; only real catalog IDs are linked (6.0333ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      {
+        number: ' 29 CFR 1910.147 ',
+  +     reason: 'not-in-catalog',
+        relation: 'related',
+        resolution: 'unresolved',
+        scope: 'general-industry'
+      },
+      {
+        number: '1910.9999',
+  +     reason: 'not-in-catalog',
+        relation: 'direct',
+        resolution: 'unresolved',
+        scope: 'general-industry'
+      }
+    ]
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/phase4-hazards.test.mjs:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ { number: ' 29 CFR 1910.147 ', scope: 'general-industry', relation: 'related', resolution: 'unresolved', reason: 'not-in-catalog' }, { number: '1910.9999', scope: 'general-industry', relation: 'direct', resolution: 'unresolved', reason: 'not-in-catalog' } ],
+    expected: [ { number: ' 29 CFR 1910.147 ', scope: 'general-industry', relation: 'related', resolution: 'unresolved' }, { number: '1910.9999', scope: 'general-industry', relation: 'direct', resolution: 'unresolved' } ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\phase4-hazards.test.mjs:88:1
+✖ one search index covers all controlled fields, supplied Practice tags and unresolved standard numbers (196.7343ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  92 !== 95
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/phase4-hazards.test.mjs:96:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 92,
+    expected: 95,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\phase4-hazards.test.mjs:111:1
+✖ the original 37 Occupational Health objects and six Phase 3 references retain identity and IDs (1.6404ms)
+  AssertionError [ERR_ASSERTION]: Expected "actual" to be reference-equal to "expected":
+  + actual - expected
+  ... Skipped lines
+  
+    {
+      categoryId: 'electrical',
+      consequences: [
+        {
+  +       ar: 'حروق شديدة وإصابات العين أو السمع وإصابات موجة الضغط وإصابات ثانوية من الارتطام.',
+  +       en: 'Severe burns, eye or hearing injury, blast trauma, and secondary impact injuries.'
+  -       ar: 'حروق وإصابات العين أو السمع وإصابات الصدمة الثانوية.',
+  -       en: 'Burns, eye or hearing injury, and secondary impact injuries.'
+        }
+      ],
+      controls: {
+        administrative: [
+          {
+  +         ar: 'استخدم ضوابط العامل المؤهل والتخطيط والفحص والتحذير وإجراءات العمل الكهربائي الآمن.',
+  +         en: 'Use qualified-person controls, planning, inspection, warning, and electrical safe-work procedures.'
+  -         ar: 'أفراد مؤهلون وتقييم المهمة وإجراءات خاصة بالمعدات.',
+  -         en: 'Qualified personnel, task assessment and equipment-specific procedures.'
+          }
+        ],
+        elimination: [
+          {
+  +         ar: 'افصل الطاقة عن المعدات أو الدوائر قبل العمل متى كان ذلك قابلاً للتطبيق.',
+  +         en: 'De-energize equipment or circuits before work where applicable.'
+  -         ar: 'أنشئ حالة عمل آمنة كهربائيًا بالفصل والعزل والتحقق المناسب.',
+  -         en: 'Establish an electrically safe work condition through appropriate de-energization, isolation and verification.'
+          }
+        ],
+  +     engineering: [
+  +       {
+  +         ar: 'استخدم الحواجز والعزل والتأريض وأجهزة الحماية والحواجز المناسبة للخطر.',
+  +         en: 'Use guarding, insulation, grounding, protective devices, and barriers appropriate to the hazard.'
+  +       }
+  +     ],
+  -     engineering: [],
+        ppe: [
+          {
+  +         ar: 'استخدم معدات الوقاية الكهربائية/المقاومة للقوس المختارة وفق تقييم الخطر عند الحاجة.',
+  +         en: 'Use electrical/arc-rated PPE selected for the assessed hazard where required.'
+  -         ar: 'اختر معدات الوقاية وفق تقييم الخطر المعمول به؛ لا يحدد الرسم تصنيفًا للوقاية.',
+  -         en: 'Select protective equipment from the applicable hazard assessment; the illustration does not specify a rating.'
+          }
+        ],
+  +     substitution: [
+  +       {
+  +         ar: 'استخدم معدات أو طرقاً أقل طاقة أو أكثر أماناً متى أمكن.',
+  +         en: 'Use lower-energy or safer equipment/methods where feasible.'
+  +       }
+  +     ]
+  -     substitution: []
+      },
+      highRiskWork: [
+        {
+  +       ar: 'أعمال الفصل والتوصيل واستكشاف الأعطال والاختبار والصيانة قرب المعدات الكهربائية المكهربة.',
+  +       en: 'Switching, troubleshooting, testing, maintenance, or other tasks near energized electrical equipment.'
+  -       ar: 'الفصل والتوصيل الكهربائي واستكشاف الأعطال والصيانة قرب معدات مكهربة.',
+  -       en: 'Electrical switching, troubleshooting and maintenance near energized equipment.'
+        }
+      ],
+  +   id: 'HL-ELEC-001',
+  +   importMetadata: {
+  +     categoryId: 'ELEC',
+  +     contentStatus: 'phase4-approved-draft',
+  +     packageVersion: '2026-08-31-draft1',
+  +     phase: 4,
+  +     subcategoryId: 'arc',
+  +     visualization: {
+  +       engine: 'worker-scene',
+  +       markers: [
+  +         'worker',
+  +         'panel',
+  +         'arc-source'
+  +       ],
+  +       overlays: [
+  +         'arc-source',
+  +         'thermal-zone',
+  +         'light-zone',
+  +         'blast-path'
+  +       ],
+  +       template: 'electrical-panel-worker'
+  +     }
+  +   },
+  -   id: 'ref-arc-flash',
+      mechanisms: [
+        {
+  +       ar: 'يمر التيار عبر الهواء بين موصلات أو أجزاء مكهربة فينتج حرارة وضوءاً شديداً وضغطاً ومواد مندفعة.',
+  +       en: 'Current arcs through air between energized conductors or parts, producing heat, intense light, pressure, and expelled material.'
+  -       ar: 'قوس كهربائي؛ طاقة حرارية وضوء شديد وضغط انفجار.',
+  -       en: 'Electrical arc; thermal energy, intense light and blast pressure.'
+        }
+      ],
+      name: {
+  +     ar: 'القوس الكهربائي / انفجار القوس',
+  +     en: 'Arc Flash / Arc Blast'
+  -     ar: 'القوس الكهربائي',
+  -     en: 'Arc Flash'
+      },
+      relatedPracticeQuestionIds: [],
+      relatedPracticeTags: [
+  +     'electrical',
+  +     'arc-flash',
+  +     'arc-blast'
+  -     'arc flash'
+      ],
+      relatedStandardIds: [],
+      searchTerms: {
+        ar: [
+  +       'القوس الكهربائي / انفجار القوس'
+  -       'وميض قوسي'
+        ],
+        en: [
+  +       'arc flash / arc blast',
+  +       'arc',
+  +       'elec',
+  +       'electrical',
+  +       'arc-flash',
+  +       'arc-blast'
+  -       'electrical arc'
+        ]
+      },
+      source: {
+        citation: {
+  +       ar: 'ياتس، الطبعة 4 · Electrical Safety — Arc Blasts; NFPA terminology/work practices · صفحات تقريبية 437–450 · direct',
+  +       en: 'Yates, edition 4 · Electrical Safety — Arc Blasts; NFPA terminology/work practices · approximate pages 437–450 · direct'
+  -       ar: 'مشهد مرجعي للمرحلة الثالثة. ملخص تعليمي موجز مستند إلى موارد OSHA المرتبطة؛ ليس إجراء عمل آمن. روجع في 2026-08-31.',
+  -       en: 'Phase 3 reference scene. Brief educational summary informed by the linked OSHA resources; not a safe-work procedure. Reviewed 2026-08-31.'
+        },
+  +     kind: 'controlled-dataset',
+  +     oshaVerification: 'Section-level mapping checked against current OSHA.gov regulation pages on 2026-08-31.',
+  -     kind: 'architecture-reference',
+        status: 'study-summary',
+  +     yatesEdition: 4,
+  +     yatesPageRangeApprox: '437–450',
+  +     yatesSection: 'Electrical Safety — Arc Blasts; NFPA terminology/work practices',
+  +     yatesSupport: 'direct'
+  -     urls: [
+  -       'https://www.osha.gov/electrical/flash-hazards',
+  -       'https://www.osha.gov/sites/default/files/2026-02/Module1TrainerGuide.pdf'
+  -     ]
+      },
+  +   standardReferences: [
+  +     {
+  +       number: '1910.333',
+  +       reason: 'not-in-catalog',
+  +       relation: 'direct',
+  +       resolution: 'unresolved',
+  +       scope: 'general-industry'
+  +     },
+  +     {
+  +       number: '1910.335',
+  +       reason: 'not-in-catalog',
+  +       relation: 'direct',
+  +       resolution: 'unresolved',
+  +       scope: 'general-industry'
+  +     },
+  +     {
+  +       number: '1926.416',
+  +       reason: 'not-in-catalog',
+  +       relation: 'related',
+  +       resolution: 'unresolved',
+  +       scope: 'construction'
+  +     }
+  +   ],
+      subcategoryId: 'arc-flash',
+      summary: {
+  +     ar: 'قد يطلق القوس الكهربائي بسرعة طاقة حرارية وضوئية وضغطية ومواد منصهرة.',
+  +     en: 'An electrical arc can rapidly release thermal, light, pressure, and molten-material energy.'
+  -     ar: 'قد يعرّض الانطلاق المفاجئ للطاقة الكهربائية العامل القريب للحرارة والضوء والضغط.',
+  -     en: 'A sudden release of electrical energy can expose a nearby worker to heat, light and pressure.'
+      },
+      visualization: {
+        description: {
+          ar: 'عامل بجانب لوحة كهربائية مفتوحة. اختر مصدر القوس أو الحرارة أو الضوء أو الضغط أو الصدمة الثانوية.',
+          en: 'Worker beside an open electrical cabinet. Select the arc source, heat, light, pressure or secondary impact.'
+  ...
+        {
+  +       ar: 'الصيانة',
+  +       en: 'maintenance'
+  -       ar: 'صيانة كهربائية',
+  -       en: 'Electrical maintenance'
+        },
+  +     {
+  +       ar: 'التصنيع',
+  +       en: 'manufacturing'
+  +     },
+  +     {
+  +       ar: 'الخدمات والمرافق',
+  +       en: 'utilities'
+  +     },
+  +     {
+  +       ar: 'الإنشاءات',
+  +       en: 'construction'
+  +     }
+      ],
+  +   workContexts: [
+  +     'maintenance',
+  +     'manufacturing',
+  +     'utilities',
+  +     'construction'
+  +   ]
+    }
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/phase4-hazards.test.mjs:113:57)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: { id: 'HL-ELEC-001', categoryId: 'electrical', subcategoryId: 'arc-flash', name: { en: 'Arc Flash / Arc Blast', ar: 'القوس الكهربائي / انفجار القوس' }, summary: { en: 'An electrical arc can rapidly release thermal, light, pressure, and molten-material energy.', ar: 'قد يطلق القوس الكهربائي بسرعة طاقة حرارية وضوئية وضغطية ومواد منصهرة.' }, mechanisms: [ [Object] ], consequences: [ [Object] ], highRiskWork: [ [Object] ], controls: { elimination: [Array], substitution: [Array], engineering: [Array], administrative: [Array], ppe: [Array] }, visualization: { kind: 'worker-scene', status: 'implemented', template: 'electrical-panel-worker', description: [Object], overlays: [Array] }, workContexts: [ 'maintenance', 'manufacturing', 'utilities', 'construction' ], workContextTags: [ [Object], [Object], [Object], [Object] ], standardReferences: [ [Object], [Object], [Object] ], relatedStandardIds: [], relatedPracticeTags: [ 'electrical', 'arc-flash', 'arc-blast' ], relatedPracticeQuestionIds: [], source: { yatesEdition: 4, yatesSection: 'Electrical Safety — Arc Blasts; NFPA terminology/work practices', yatesPageRangeApprox: '437–450', yatesSupport: 'direct', oshaVerification: 'Section-level mapping checked against current OSHA.gov regulation pages on 2026-08-31.', kind: 'controlled-dataset', status: 'study-summary', citation: [Object] }, searchTerms: { en: [Array], ar: [Array] }, importMetadata: { phase: 4, packageVersion: '2026-08-31-draft1', contentStatus: 'phase4-approved-draft', categoryId: 'ELEC', subcategoryId: 'arc', visualization: [Object] } },
+    expected: { id: 'ref-arc-flash', categoryId: 'electrical', subcategoryId: 'arc-flash', name: { en: 'Arc Flash', ar: 'القوس الكهربائي' }, summary: { en: 'A sudden release of electrical energy can expose a nearby worker to heat, light and pressure.', ar: 'قد يعرّض الانطلاق المفاجئ للطاقة الكهربائية العامل القريب للحرارة والضوء والضغط.' }, mechanisms: [ [Object] ], consequences: [ [Object] ], highRiskWork: [ [Object] ], controls: { elimination: [Array], substitution: [], engineering: [], administrative: [Array], ppe: [Array] }, visualization: { kind: 'worker-scene', status: 'implemented', template: 'electrical-panel-worker', description: [Object], overlays: [Array] }, workContextTags: [ [Object] ], relatedStandardIds: [], relatedPracticeTags: [ 'arc flash' ], relatedPracticeQuestionIds: [], searchTerms: { en: [Array], ar: [Array] }, source: { kind: 'architecture-reference', status: 'study-summary', citation: [Object], urls: [Array] } },
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\phase4-hazards.test.mjs:188:1
+✖ unified Save preserves legacy OH/reference notes and saves/removes a controlled ID (128.9219ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(savedState.notebook["hazard:HL-ELEC-001"])
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/phase4-hazards.test.mjs:192:58)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\phase4-hazards.test.mjs:198:1
+✖ subcategory selection, language controls and keyboard callout/landmark focus remain usable (737.0677ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  92 !== 95
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/phase4-hazards.test.mjs:212:51)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 92,
+    expected: 95,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

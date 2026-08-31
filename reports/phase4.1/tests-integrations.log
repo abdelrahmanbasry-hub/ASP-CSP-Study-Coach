@@ -1,0 +1,40 @@
+✔ visible catalog has 92 unique records: 52 controlled, 37 OH and three unpopulated-family references (14.4734ms)
+✔ exact aliases preserve controlled IDs, content and approved Phase 3 scene objects without duplicate objects in lookup (11.813ms)
+✔ Library and global search return canonical destinations for old IDs and hazard names (203.6076ms)
+✔ strict standard grammar normalizes dot/dash/CFR/section/subpart formatting (0.284ms)
+✔ exact standards resolution uses genuine IDs even when the registry ID is opaque (0.6083ms)
+✔ paragraph references use the most specific genuine ancestor, not numeric prefixes or unverified subparts (7.8362ms)
+✔ standard normalization rejects wrong title/part, ranges, appended text and ambiguous registry matches (0.3993ms)
+✔ missing-standard report retains every supplied reference and deterministically reports actual catalog gaps (2.6144ms)
+✔ Practice aliases require exact phrases with evidence; five unrelated or absent topics remain unmatched (1579.1356ms)
+✔ ref-arc-flash opens HL-ELEC-001, retains the saved legacy note and reuses approved interactive callouts (237.7349ms)
+✔ ref-scaffold-fall opens HL-FALL-007, retains the saved legacy note and reuses approved interactive callouts (170.7483ms)
+✔ ref-forklift-tip-over opens HL-MAT-004, retains the saved legacy note and reuses approved interactive callouts (218.1825ms)
+✖ both legacy and canonical notebook entries remain lossless until explicit unsave, including a serialized reload (101.3425ms)
+✔ a stale bookmark caller with ref ID creates a canonical save (108.0024ms)
+✔ old-ID search entry routes to a single canonical visible record (74.1274ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 14
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3696.827
+
+✖ failing tests:
+
+test at tests\phase41-integrations.test.mjs:164:1
+✖ both legacy and canonical notebook entries remain lossless until explicit unsave, including a serialized reload (101.3425ms)
+  AssertionError [ERR_ASSERTION]: [data-hazard-id="HL-ELEC-002"]
+      at click (file:///D:/csp-coach/csp-coach/tests/phase41-integrations.test.mjs:141:88)
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/phase41-integrations.test.mjs:169:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: null,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

@@ -1,0 +1,379 @@
+$ pnpm run build && node --experimental-strip-types --test tests/*.test.mjs
+$ cross-env WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build
+
+  vinext build  (Vite 8.0.13)
+
+[1/5] analyze client references...
+[2K
+transforming...✓ 283 modules transformed.
+rendering chunks...
+✓ built in 676ms
+[2/5] analyze server references...
+[2K
+transforming...✓ 311 modules transformed.
+rendering chunks...
+✓ built in 479ms
+[3/5] build rsc environment...
+[2K
+transforming...✓ 281 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 531ms
+[4/5] build client environment...
+[2K
+transforming...✓ 1827 modules transformed.
+rendering chunks...
+computing gzip size...
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 1.14s
+[5/5] build ssr environment...
+[2K
+transforming...✓ 317 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 777ms
+[0m
+  Route (app)
+  ┌ ? /                           
+  ├ λ /api/cloud-progress         
+  ├ ƒ /exam-practice              
+  ├ ƒ /internal/blueprint-coverage
+  ├ ƒ /internal/item-review       
+  └ ƒ /practice-v2                
+
+  λ API  ƒ Dynamic  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+  Build complete. Run `vinext start` to start the production server.
+
+✔ full simulations use exact current blueprint allocations (14.9245ms)
+✔ 20-item balanced drills preserve blueprint proportions (2.0881ms)
+✔ sustained success can move the provisional authoring tie-breaker (0.6847ms)
+✔ new learners receive an insufficient-evidence state, never an artificial percentage (0.1842ms)
+✔ repeated responses cannot substitute for the independent readiness threshold (0.1695ms)
+✔ readiness is explicitly a practice indicator and not a BCSP result prediction (0.125ms)
+✔ weakest mode concentrates exposure in the two lowest-readiness domains (0.8033ms)
+✔ sealed mock selection uses each clean form before warning on a repeat (0.1965ms)
+✔ session generation cannot cross the bank boundary supplied by the caller (6.4278ms)
+✔ adaptive selection exhausts unseen practice items before recycling seen items (0.2503ms)
+✔ weak-objective evidence outranks a closer provisional difficulty match (0.2086ms)
+✔ recent incorrect and confident-error evidence outranks provisional difficulty (0.1836ms)
+✔ a domain cannot gain stability from insufficient current-block evidence (0.1752ms)
+✔ domain stability requires independent families when family metadata exists (0.0905ms)
+✔ older partial mastery records remain readable with defensive defaults (0.1638ms)
+✔ official registry objective IDs are unique, stable, and complete (1.019ms)
+✔ every objective has exact ownership by one domain and valid parentage (0.4023ms)
+✔ mapping validator rejects invalid versions, domains, and missing mappings (0.646ms)
+✔ automated suggestions never become reviewed coverage (0.3545ms)
+✔ legacy questions remain valid and unmapped without new inline fields (0.2389ms)
+✔ coverage report separates suggested, reviewed, unmapped, and repeated families (0.6625ms)
+✔ question text, answer keys, rationales, sources, and family metadata are unchanged (22.0363ms)
+✔ coverage page is explicitly development-only (15.7831ms)
+✔ checked-in machine report matches the current registry and mapping overlay (20.2218ms)
+✔ migrates all 37 rows with stable IDs and complete typed targets/routes (1.3012ms)
+✔ preserves every original bilingual field, row, category and hazard ID (0.6568ms)
+✔ keeps ambiguous routes for review without inventing absorption or blood targets (0.2101ms)
+✔ normalizes all four supported route types without treating contact as absorption (0.1418ms)
+✔ selecting Asbestos and Benzene changes one reusable SVG to different configured targets (209.0351ms)
+✔ primary and secondary systems expose different roles, callouts and non-color labels (149.5353ms)
+✔ reference-style callouts follow anatomy order and use matching region anchors and accents (112.6564ms)
+✔ clicking kidneys filters hazards and clearing restores the category (122.1152ms)
+✔ an unlisted system has an empty state and a working reset (129.9833ms)
+✔ all 17 SVG regions are keyboard buttons; Enter and Space toggle the filter (105.4369ms)
+✔ mode tabs show routes and effects and support arrow-key focus navigation (96.6139ms)
+✔ systems and effects retain distributed blood and marrow targets without exposure paths (108.7984ms)
+✔ effects link individual targets while keeping shared source claims grouped (243.6315ms)
+✔ route mode draws the source's ingestion, dermal and percutaneous arrows (178.0055ms)
+✔ English, Arabic and Both control anatomy labels, callouts, record rail and effects (147.3449ms)
+✔ bilingual search includes body-system aliases and resets a reverse filter (141.9084ms)
+✔ biological category uses the same anatomy and preserves transmission review notes (115.7347ms)
+✔ source table remains available and returning preserves the explorer selection and language (199.4486ms)
+✔ Save and existing saved hazard IDs remain compatible; related links keep the selected query (232.4643ms)
+✔ responsive CSS reflows at container width and preserves focus and reduced motion (0.6633ms)
+✔ cloud progress rejects missing and invalid Supabase bearer tokens (36.8737ms)
+✔ cloud progress derives ownership from the verified Supabase token, never request JSON (0.5636ms)
+✔ cloud progress saves send the Supabase session token as a bearer token (0.1626ms)
+✔ cloud progress resets send the Supabase session token as a bearer token (0.0869ms)
+✔ authenticated reset affects only the verified Supabase user, not a forged browser userId (0.7752ms)
+✔ local progress reset clears persisted progress and active-session keys (0.1123ms)
+✔ cloud progress accepts compact, versioned learner state (0.1268ms)
+✔ cloud progress requires an object state and optimistic revision (0.1969ms)
+✔ cloud progress enforces its compact JSON size limit (0.578ms)
+✖ canonical catalog adapts 37 source records by identity and adds exactly six implemented reference scenes (1.2653ms)
+✖ configured categories and More selection route records without leaking previous filters (213.522ms)
+✔ subcategory selection preserves Occupational Health engine, reverse filter and table state (356.2777ms)
+✖ All Hazards includes every record once and routes every implemented engine (111.8223ms)
+✖ one search matcher covers categories, subcategories, source/body/route fields and new common fields (30.8695ms)
+✖ global search extends the same catalog, preserves Arabic and resolves a canonical item ID (41.4906ms)
+✖ Library search can cross All Hazards and recover from empty filters (128.5642ms)
+✔ one saved-hazard mechanism preserves old IDs, notes and timestamps across categories (257.9217ms)
+✔ language switching persists across category engines with Arabic navigation and no English bilingual spans (249.5883ms)
+✔ Standards links pass existing IDs and the destination resolves only those catalog records (89.2006ms)
+✔ unmapped Standards links open the catalog without manufacturing standards (97.1591ms)
+✔ Practice links resolve existing topic/ID references and never synthesize questions (137.0064ms)
+✔ category navigation supports focus keys, More disclosure/Escape and RTL direction (95.3731ms)
+✔ responsive category navigation contains overflow and keeps More reachable on narrow screens (0.626ms)
+✔ Arc Flash: engine renders semantic points, anchored connectors and selectable details (83.3237ms)
+✔ Scaffold Fall: engine renders semantic points, anchored connectors and selectable details (63.4427ms)
+✔ Forklift Tip-Over: engine renders semantic points, anchored connectors and selectable details (81.6619ms)
+✔ Oxygen-Deficient Confined Space: engine renders semantic points, anchored connectors and selectable details (48.0748ms)
+✔ Unexpected Startup / LOTO: engine renders semantic points, anchored connectors and selectable details (32.5703ms)
+✔ Radiation Exposure: engine renders semantic points, anchored connectors and selectable details (25.2872ms)
+✔ router chooses configuration, resets on a different record and preserves BodySystemExplorer (61.7104ms)
+✔ templates can be reused by a new record without hazard-ID branches (2.881ms)
+✔ scene modes separate paths from scene context and show effects without losing selection (10.8289ms)
+✔ generic details receives the selected callout, then clears it when changing hazards (127.2148ms)
+✔ all engines localize English/Arabic/Both without mirroring physical coordinates (57.8441ms)
+✔ arrow/Home/End navigation works for markers and external cards with native keyboard buttons (8.5239ms)
+✔ inactive overlays stay muted and radiation principles are directly selectable (11.7615ms)
+✔ shared search includes callout concepts, controls and the sixth reference (3.7569ms)
+✔ template/overlay validation rejects unsupported engines, duplicate IDs and invalid coordinates (0.5297ms)
+✔ optimized local assets, mobile layout, focus and reduced-motion rules stay in place (1.0113ms)
+✔ 44px targets stay separate within the smallest verified mobile scene (0.2464ms)
+✔ missing images retain accessible descriptions and an unsupported template fails cleanly (13.4878ms)
+✔ all automated records remain unreviewed, suggested, and non-operational (1.237ms)
+✔ reviewed operational items require an exact source citation (0.3692ms)
+✔ controlled changes create a new version, preserve the old version, and reset review (0.3125ms)
+✔ source, formula, units, and objective edits cannot silently overwrite a version (0.4241ms)
+✔ learner history resolves the immutable version originally served (0.2307ms)
+✔ calculation items require formula, unit, rounding, and calculation review (0.5311ms)
+✔ mock items require family-independence and distractor-quality review (0.499ms)
+✔ a fully human-reviewed practice item can pass the operational gate (0.6637ms)
+✔ priority and pilot queues match the required order and remain unapproved (0.2066ms)
+✔ review reports expose operational coverage and pending-review risks (0.1267ms)
+✔ checked-in item-review report matches the generated records and queues (31.7043ms)
+✔ development review route is unavailable in production (1.1357ms)
+✔ homework catalog preserves the supplied chapter manifest and exact counts (2.4867ms)
+✔ key information records preserve only available chapter-end source material (0.4051ms)
+✔ practice questions cover every chapter with individually authored records (1.0665ms)
+✔ every homework and review item is complete, uniquely keyed, and answerable (3.7587ms)
+✔ each ready chapter has five provenance-linked review questions (0.6161ms)
+✔ formula and flashcard libraries meet their validated content targets (0.7781ms)
+✔ expanded formula library preserves complete supplemental coverage and corrected equations (1.4243ms)
+✔ BCSP frequently-used formula filter exactly matches ASP Formula Sheet pages 12-23 (0.3212ms)
+✔ hazard library has exact source counts and complete English/Arabic fields (1.0294ms)
+✔ learning progress normalization starts safely and preserves valid maps (0.3992ms)
+✔ flashcard scheduling responds monotonically to again, hard, good, and easy (0.556ms)
+✔ the core bank replaces the old bank with exactly 40 schema v3 packs and 1,440 eligible questions (49.6039ms)
+✔ the integration report records every core pack and its unchanged supplied SHA-256 (22.0591ms)
+✔ every core chapter supports 25-question chapter-first sessions without repeating families (21.6013ms)
+✔ all supplied core packs pass the real importer together, preserve bytes, and reject reimport (10038.7155ms)
+✔ the two-item demo pack is valid and cannot be mistaken for approved content (2.8247ms)
+✔ validation rejects duplicate IDs and non-unique or non-four-option sets (1.1149ms)
+✔ validation rejects invalid answer indexes and missing distractor explanations (0.2937ms)
+✔ validation rejects missing chapters, invalid objectives, and unsourced verified items (0.2425ms)
+✔ pack labels cannot promote demo or unverified items (0.3153ms)
+✔ source-checked eligibility requires every production safety gate (0.6401ms)
+✔ schema v3 accepts objective-level blueprint mappings with source trace metadata (0.5304ms)
+✔ calculation items require formula and units before verification (0.3055ms)
+✔ verification labels cannot overstate AI-assisted or unverified content (0.3266ms)
+✔ Practice V2 renders the required source disclaimer and keeps verified content outside readiness (8.5004ms)
+✔ single- and multi-chapter filtering is chapter-first and never splits exam banks (0.3414ms)
+✔ selection prioritizes unseen items and separates item families (0.2616ms)
+✔ mistake review selects only unresolved incorrect questions (0.1754ms)
+✔ incorrect and high-confidence incorrect answers are tracked independently (0.0707ms)
+✔ Practice V2 persistence changes only its own key and preserves existing learner data (0.7314ms)
+✔ schema v3 removes top-level credential fields while preserving exam relevance (0.1579ms)
+✔ chapter metadata is added to new attempts and old Practice V2 progress remains readable (0.0981ms)
+✔ learner interface contains chapter controls and no credential selector (2.1708ms)
+✔ primary Practice mounts chapter-first Practice and preserves the legacy route (1.2523ms)
+✔ import is atomic, preserves supplied JSON bytes, and reports imported items (12.5914ms)
+✔ invalid or duplicate imports reject the complete file without partial output (7.4165ms)
+✔ importer independently rejects highly similar stems (7.293ms)
+✔ CSP bank contains 800 isolated practice items and two sealed 200-item forms (33.2181ms)
+✔ ASP bank contains 800 isolated practice items and two sealed 200-item forms (20.5816ms)
+✔ ASP A1 expanded pools cover Yates calculations and all ASP11 A1 objectives (1.2241ms)
+✔ every latent ASP A1 numeric variant remains answerable and collision-free (16.7468ms)
+✔ server-renders the dual-track adaptive coach (452.208ms)
+✔ ships both current blueprint banks and removes starter preview code (7.3203ms)
+✔ the calculator renders the exact requested external calculator, not a replacement keypad (5.6737ms)
+✔ the external calculator is isolated from learner data and top-level navigation (0.9504ms)
+✔ the calculator provides accessible close, reload, and external fallback controls (0.7813ms)
+✔ a closed calculator stays mounted but hidden so reopening can preserve work (1.7677ms)
+✔ shared question tools load the calculator on demand and preserve the formula sheet (3.1329ms)
+✔ Practice, Homework, and exam tools are siblings of the question card, not below its answers (38.8602ms)
+✔ question tools use a sticky desktop side rail and a viewport-bounded narrow-screen panel (1.0543ms)
+✔ every supplied hazard row has an explicit body-system mapping (0.5645ms)
+ℹ tests 148
+ℹ suites 0
+ℹ pass 142
+ℹ fail 6
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10401.9151
+
+✖ failing tests:
+
+test at tests\hazard-library.test.mjs:59:1
+✖ canonical catalog adapts 37 source records by identity and adds exactly six implemented reference scenes (1.2653ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  95 !== 43
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:60:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.start (node:internal/test_runner/test:1242:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 95,
+    expected: 43,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:84:1
+✖ configured categories and More selection route records without leaking previous filters (213.522ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      'ref-arc-flash',
+  +   'HL-ELEC-001',
+  +   'HL-ELEC-002',
+  +   'HL-ELEC-003',
+  +   'HL-ELEC-004',
+  +   'HL-ELEC-005',
+  +   'HL-ELEC-006',
+  +   'HL-ELEC-007',
+  +   'HL-ELEC-008',
+  +   'HL-ELEC-009',
+  +   'HL-ELEC-010'
+    ]
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:90:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [ 'ref-arc-flash', 'HL-ELEC-001', 'HL-ELEC-002', 'HL-ELEC-003', 'HL-ELEC-004', 'HL-ELEC-005', 'HL-ELEC-006', 'HL-ELEC-007', 'HL-ELEC-008', 'HL-ELEC-009', 'HL-ELEC-010' ],
+    expected: [ 'ref-arc-flash' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:122:1
+✖ All Hazards includes every record once and routes every implemented engine (111.8223ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  95 !== 43
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:125:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 95,
+    expected: 43,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:138:1
+✖ one search matcher covers categories, subcategories, source/body/route fields and new common fields (30.8695ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
+  + actual - expected
+  
+    [
+      'ref-forklift-tip-over',
+  +   'HL-ELEC-007',
+  +   'HL-FALL-001',
+  +   'HL-FALL-002',
+  +   'HL-FALL-005',
+  +   'HL-FALL-006',
+  +   'HL-FALL-009',
+  +   'HL-FALL-011',
+  +   'HL-MACH-001',
+  +   'HL-MACH-003',
+  +   'HL-MACH-010',
+  +   'HL-MACH-013',
+  +   'HL-MACH-014',
+  +   'HL-MAT-001',
+  +   'HL-MAT-002',
+  +   'HL-MAT-003',
+  +   'HL-MAT-004',
+  +   'HL-MAT-005',
+  +   'HL-MAT-006',
+  +   'HL-MAT-007',
+  +   'HL-MAT-008',
+  +   'HL-MAT-009',
+  +   'HL-MAT-010',
+  +   'HL-MAT-011',
+  +   'HL-MAT-014'
+    ]
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:142:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: [
+      'ref-forklift-tip-over', 'HL-ELEC-007',
+      'HL-FALL-001',           'HL-FALL-002',
+      'HL-FALL-005',           'HL-FALL-006',
+      'HL-FALL-009',           'HL-FALL-011',
+      'HL-MACH-001',           'HL-MACH-003',
+      'HL-MACH-010',           'HL-MACH-013',
+      'HL-MACH-014',           'HL-MAT-001',
+      'HL-MAT-002',            'HL-MAT-003',
+      'HL-MAT-004',            'HL-MAT-005',
+      'HL-MAT-006',            'HL-MAT-007',
+      'HL-MAT-008',            'HL-MAT-009',
+      'HL-MAT-010',            'HL-MAT-011',
+      'HL-MAT-014'
+    ],
+    expected: [ 'ref-forklift-tip-over' ],
+    operator: 'deepStrictEqual',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:152:1
+✖ global search extends the same catalog, preserves Arabic and resolves a canonical item ID (41.4906ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  95 !== 43
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:154:10)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 95,
+    expected: 43,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\hazard-library.test.mjs:164:1
+✖ Library search can cross All Hazards and recover from empty filters (128.5642ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  25 !== 1
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/hazard-library.test.mjs:168:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 25,
+    expected: 1,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+[ELIFECYCLE] Test failed. See above for more details.

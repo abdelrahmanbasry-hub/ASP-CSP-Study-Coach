@@ -1,0 +1,35 @@
+$ eslint . --ignore-pattern dist --ignore-pattern .next
+
+D:\csp-coach\csp-coach\.agents\skills\brand\scripts\extract-colors.cjs
+  21:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  22:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\csp-coach\csp-coach\.agents\skills\brand\scripts\inject-brand-context.cjs
+  15:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  16:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\csp-coach\csp-coach\.agents\skills\brand\scripts\sync-brand-to-tokens.cjs
+  12:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  13:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  14:26  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\csp-coach\csp-coach\.agents\skills\brand\scripts\validate-asset.cjs
+  16:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  17:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\csp-coach\csp-coach\.agents\skills\design-system\scripts\embed-tokens.cjs
+  13:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  14:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+D:\csp-coach\csp-coach\.agents\skills\design-system\scripts\generate-tokens.cjs
+   10:12  error  A `require()` style import is forbidden     @typescript-eslint/no-require-imports
+   11:14  error  A `require()` style import is forbidden     @typescript-eslint/no-require-imports
+  148:20  error  'value' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+D:\csp-coach\csp-coach\.agents\skills\design-system\scripts\validate-tokens.cjs
+  11:12  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  12:14  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+✖ 16 problems (16 errors, 0 warnings)
+
+[ELIFECYCLE] Command failed with exit code 1.

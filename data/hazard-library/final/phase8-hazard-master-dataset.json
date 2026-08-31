@@ -1,0 +1,2105 @@
+{
+  "package": "ASP/CSP Study Coach Hazard Library — Phase 8 Dataset",
+  "version": "2026-08-31-final-combined-draft1",
+  "recordCount": 18,
+  "categoryCounts": {
+    "ENV": 10,
+    "SEC": 8
+  },
+  "records": [
+    {
+      "id": "HL-ENV-001",
+      "categoryId": "ENV",
+      "subcategoryId": "air",
+      "name": {
+        "en": "Air-Emission Release",
+        "ar": "إطلاق ملوثات إلى الهواء"
+      },
+      "summary": {
+        "en": "Process vents, combustion, leaks, transfer operations, or upset conditions can release pollutants or hazardous constituents to the atmosphere.",
+        "ar": "يركز هذا السجل على خطر «إطلاق ملوثات إلى الهواء» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Process vents, combustion, leaks, transfer operations, or upset conditions can release pollutants or hazardous constituents to the atmosphere.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إطلاق ملوثات إلى الهواء» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "environmental-release-pathways",
+        "overlays": [
+          "air-source",
+          "plume",
+          "site-boundary",
+          "control-device"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "air",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "air-emission release",
+          "air",
+          "env",
+          "environmental",
+          "air",
+          "pollution"
+        ],
+        "ar": [
+          "إطلاق ملوثات إلى الهواء"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ENV-002",
+      "categoryId": "ENV",
+      "subcategoryId": "water",
+      "name": {
+        "en": "Wastewater / Surface-Water Release",
+        "ar": "تصريف مياه صرف / إطلاق إلى المياه السطحية"
+      },
+      "summary": {
+        "en": "Untreated, inadequately treated, or accidentally released wastewater can carry pollutants to surface water or drainage systems.",
+        "ar": "يركز هذا السجل على خطر «تصريف مياه صرف / إطلاق إلى المياه السطحية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Untreated, inadequately treated, or accidentally released wastewater can carry pollutants to surface water or drainage systems.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تصريف مياه صرف / إطلاق إلى المياه السطحية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "environmental-release-pathways",
+        "overlays": [
+          "wastewater-source",
+          "treatment",
+          "outfall",
+          "surface-water"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "water",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "indirect",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "wastewater / surface-water release",
+          "water",
+          "env",
+          "environmental",
+          "water",
+          "pollution"
+        ],
+        "ar": [
+          "تصريف مياه صرف / إطلاق إلى المياه السطحية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ENV-003",
+      "categoryId": "ENV",
+      "subcategoryId": "stormwater",
+      "name": {
+        "en": "Stormwater Contamination",
+        "ar": "تلوث مياه الأمطار"
+      },
+      "summary": {
+        "en": "Rainfall or runoff can contact exposed chemicals, wastes, sediments, fuels, or process materials and transport contamination off site.",
+        "ar": "يركز هذا السجل على خطر «تلوث مياه الأمطار» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Rainfall or runoff can contact exposed chemicals, wastes, sediments, fuels, or process materials and transport contamination off site.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تلوث مياه الأمطار» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "environmental-release-pathways",
+        "overlays": [
+          "rainfall",
+          "exposed-material",
+          "runoff-path",
+          "storm-drain"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "stormwater",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "indirect",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "stormwater contamination",
+          "stormwater",
+          "env",
+          "environmental",
+          "stormwater",
+          "pollution"
+        ],
+        "ar": [
+          "تلوث مياه الأمطار"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ENV-004",
+      "categoryId": "ENV",
+      "subcategoryId": "soil",
+      "name": {
+        "en": "Soil Contamination",
+        "ar": "تلوث التربة"
+      },
+      "summary": {
+        "en": "Spills, leaks, poor storage, waste handling, or historical releases can introduce contaminants into soil.",
+        "ar": "يركز هذا السجل على خطر «تلوث التربة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Spills, leaks, poor storage, waste handling, or historical releases can introduce contaminants into soil.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تلوث التربة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "environmental-release-pathways",
+        "overlays": [
+          "release-point",
+          "soil-zone",
+          "migration-path",
+          "excavation-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "soil",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "indirect",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "soil contamination",
+          "soil",
+          "env",
+          "environmental",
+          "soil",
+          "pollution"
+        ],
+        "ar": [
+          "تلوث التربة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ENV-005",
+      "categoryId": "ENV",
+      "subcategoryId": "groundwater",
+      "name": {
+        "en": "Groundwater Contamination",
+        "ar": "تلوث المياه الجوفية"
+      },
+      "summary": {
+        "en": "Contaminants can migrate downward through soil or from subsurface systems and enter groundwater.",
+        "ar": "يركز هذا السجل على خطر «تلوث المياه الجوفية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Contaminants can migrate downward through soil or from subsurface systems and enter groundwater.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تلوث المياه الجوفية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "environmental-release-pathways",
+        "overlays": [
+          "surface-release",
+          "soil-column",
+          "water-table",
+          "groundwater-plume"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "groundwater",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "indirect",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "groundwater contamination",
+          "groundwater",
+          "env",
+          "environmental",
+          "groundwater",
+          "pollution"
+        ],
+        "ar": [
+          "تلوث المياه الجوفية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ENV-006",
+      "categoryId": "ENV",
+      "subcategoryId": "ust",
+      "name": {
+        "en": "Underground-Storage-Tank Release",
+        "ar": "تسرب خزان تخزين تحت الأرض"
+      },
+      "summary": {
+        "en": "Leaks from underground tanks, piping, fittings, or overfill/spill events can contaminate surrounding soil and groundwater.",
+        "ar": "يركز هذا السجل على خطر «تسرب خزان تخزين تحت الأرض» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Leaks from underground tanks, piping, fittings, or overfill/spill events can contaminate surrounding soil and groundwater.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تسرب خزان تخزين تحت الأرض» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "environmental-release-pathways",
+        "overlays": [
+          "ust",
+          "leak-point",
+          "soil-zone",
+          "groundwater"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "ust",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "underground-storage-tank release",
+          "ust",
+          "env",
+          "environmental",
+          "ust",
+          "pollution"
+        ],
+        "ar": [
+          "تسرب خزان تخزين تحت الأرض"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ENV-007",
+      "categoryId": "ENV",
+      "subcategoryId": "waste",
+      "name": {
+        "en": "Hazardous-Waste Mismanagement",
+        "ar": "سوء إدارة النفايات الخطرة"
+      },
+      "summary": {
+        "en": "Incorrect identification, accumulation, labeling, storage, transport, treatment, or disposal of hazardous waste can create worker, public, and environmental risks.",
+        "ar": "يركز هذا السجل على خطر «سوء إدارة النفايات الخطرة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Incorrect identification, accumulation, labeling, storage, transport, treatment, or disposal of hazardous waste can create worker, public, and environmental risks.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «سوء إدارة النفايات الخطرة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "chemical-storage",
+        "overlays": [
+          "waste-container",
+          "labeling",
+          "storage-zone",
+          "release-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "waste",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "hazardous-waste mismanagement",
+          "waste",
+          "env",
+          "environmental",
+          "waste",
+          "pollution"
+        ],
+        "ar": [
+          "سوء إدارة النفايات الخطرة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ENV-008",
+      "categoryId": "ENV",
+      "subcategoryId": "spill",
+      "name": {
+        "en": "Chemical Spill to Environment",
+        "ar": "انسكاب كيميائي إلى البيئة"
+      },
+      "summary": {
+        "en": "A chemical spill can migrate to air, soil, drains, surface water, or groundwater if containment and response fail.",
+        "ar": "يركز هذا السجل على خطر «انسكاب كيميائي إلى البيئة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "A chemical spill can migrate to air, soil, drains, surface water, or groundwater if containment and response fail.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «انسكاب كيميائي إلى البيئة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "environmental-release-pathways",
+        "overlays": [
+          "spill-source",
+          "secondary-containment",
+          "drain-path",
+          "soil-water-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "spill",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "indirect",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "chemical spill to environment",
+          "spill",
+          "env",
+          "environmental",
+          "spill",
+          "pollution"
+        ],
+        "ar": [
+          "انسكاب كيميائي إلى البيئة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ENV-009",
+      "categoryId": "ENV",
+      "subcategoryId": "pesticide",
+      "name": {
+        "en": "Pesticide / Chemical Environmental Release",
+        "ar": "إطلاق مبيد / مادة كيميائية إلى البيئة"
+      },
+      "summary": {
+        "en": "Improper pesticide or chemical application, storage, handling, or disposal can expose non-target areas and environmental receptors.",
+        "ar": "يركز هذا السجل على خطر «إطلاق مبيد / مادة كيميائية إلى البيئة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Improper pesticide or chemical application, storage, handling, or disposal can expose non-target areas and environmental receptors.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إطلاق مبيد / مادة كيميائية إلى البيئة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "environmental-release-pathways",
+        "overlays": [
+          "chemical-source",
+          "application-path",
+          "drift-runoff",
+          "receptor-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "pesticide",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "pesticide / chemical environmental release",
+          "pesticide",
+          "env",
+          "environmental",
+          "pesticide",
+          "pollution"
+        ],
+        "ar": [
+          "إطلاق مبيد / مادة كيميائية إلى البيئة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ENV-010",
+      "categoryId": "ENV",
+      "subcategoryId": "waste",
+      "name": {
+        "en": "Improper Waste Storage / Disposal",
+        "ar": "تخزين / التخلص غير الصحيح من النفايات"
+      },
+      "summary": {
+        "en": "Poor waste segregation, container management, storage, accumulation, or disposal can allow releases, incompatible reactions, and long-term environmental impacts.",
+        "ar": "يركز هذا السجل على خطر «تخزين / التخلص غير الصحيح من النفايات» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Poor waste segregation, container management, storage, accumulation, or disposal can allow releases, incompatible reactions, and long-term environmental impacts.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تخزين / التخلص غير الصحيح من النفايات» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Pollution, ecological damage, contamination of air/water/soil, waste-management consequences, cleanup burden, or possible worker/community exposure.",
+          "ar": "تلوث وأضرار بيئية وتلوث الهواء/المياه/التربة وعواقب إدارة النفايات وأعباء التنظيف أو تعرض محتمل للعاملين/المجتمع."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Industrial operations, chemical/waste storage, utilities, wastewater/stormwater systems, maintenance, construction, agriculture, and spill response.",
+          "ar": "العمليات الصناعية وتخزين المواد الكيميائية/النفايات والمرافق وأنظمة مياه الصرف/مياه الأمطار والصيانة والإنشاء والزراعة والاستجابة للانسكابات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Prevent the pollutant, waste, or release from being generated where feasible.",
+            "ar": "امنع تولد الملوث أو النفاية أو التسرب متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use less hazardous materials, cleaner processes, or lower-impact methods where feasible.",
+            "ar": "استخدم مواد أقل خطورة أو عمليات أنظف أو طرقاً أقل أثراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use containment, secondary containment, treatment, collection, separation, leak detection, and pollution-control systems.",
+            "ar": "استخدم الاحتواء والاحتواء الثانوي والمعالجة والجمع والفصل وكشف التسرب وأنظمة التحكم بالتلوث."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use environmental procedures, inspection, waste characterization, labeling, manifests/records where applicable, spill planning, training, and compliance monitoring.",
+            "ar": "استخدم الإجراءات البيئية والفحص وتوصيف النفايات والملصقات والسجلات/البيانات عند انطباقها والتخطيط للانسكابات والتدريب ومراقبة الامتثال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the worker exposure created by the environmental release or cleanup activity.",
+            "ar": "استخدم معدات الوقاية المناسبة لتعرض العامل الناتج عن التسرب البيئي أو نشاط التنظيف."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "chemical-storage",
+        "overlays": [
+          "waste-area",
+          "incompatible-storage",
+          "container-condition",
+          "release-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "environmental",
+        "chemical",
+        "utilities",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "environmental",
+        "waste",
+        "pollution"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Environmental Management — RCRA, air quality, waste, USTs, pesticides and environmental systems",
+        "yatesPageRangeApprox": "759–779",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "Environmental legal authority is generally EPA/state environmental regulation rather than Federal OSHA; no OSHA registry ID should be invented solely to fill this field."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "improper waste storage / disposal",
+          "waste",
+          "env",
+          "environmental",
+          "waste",
+          "pollution"
+        ],
+        "ar": [
+          "تخزين / التخلص غير الصحيح من النفايات"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-SEC-001",
+      "categoryId": "SEC",
+      "subcategoryId": "violence",
+      "name": {
+        "en": "Workplace Violence",
+        "ar": "العنف في مكان العمل"
+      },
+      "summary": {
+        "en": "Violence can arise from criminal intent, customers/clients, current or former employees, or personal relationships brought into the workplace.",
+        "ar": "يركز هذا السجل على خطر «العنف في مكان العمل» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Violence can arise from criminal intent, customers/clients, current or former employees, or personal relationships brought into the workplace.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «العنف في مكان العمل» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Injury, loss of life, unauthorized access, operational disruption, delayed response, property loss, or business-continuity impacts.",
+          "ar": "إصابة أو وفاة أو دخول غير مصرح به أو تعطيل العمليات أو تأخر الاستجابة أو خسائر مادية أو آثار على استمرارية الأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Public-facing work, lone/late work, high-risk facilities, security-sensitive operations, emergency response, critical utilities, and business-continuity activities.",
+          "ar": "الأعمال التي تتعامل مع الجمهور والعمل الفردي/المتأخر والمنشآت عالية الخطورة والعمليات الحساسة أمنياً والاستجابة للطوارئ والمرافق الحرجة وأنشطة استمرارية الأعمال."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove avoidable exposure to known security or emergency threats where feasible.",
+            "ar": "أزل التعرض الممكن تجنبه لتهديدات الأمن أو الطوارئ المعروفة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use safer work arrangements, locations, schedules, communication methods, or service methods where feasible.",
+            "ar": "استخدم ترتيبات عمل أو مواقع أو جداول أو طرق اتصال أو خدمة أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use access control, lighting, barriers, alarms, communications, surveillance, protected spaces, and resilient critical systems where appropriate.",
+            "ar": "استخدم ضبط الوصول والإضاءة والحواجز والإنذارات والاتصالات والمراقبة والأماكن المحمية والأنظمة الحرجة المرنة حسب الحاجة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use threat assessment, emergency action plans, accountability, reporting, drills, training, coordination with responders, and continuity planning.",
+            "ar": "استخدم تقييم التهديدات وخطط العمل في الطوارئ وحصر الأفراد والإبلاغ والتمارين والتدريب والتنسيق مع المستجيبين وتخطيط استمرارية الأعمال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only when required by the specific emergency or hazardous-material response conditions.",
+            "ar": "استخدم معدات الوقاية فقط عندما تتطلبها ظروف الطوارئ أو الاستجابة للمواد الخطرة المحددة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "facility-security-scene",
+        "overlays": [
+          "worker",
+          "threat-source",
+          "controlled-entry",
+          "alarm-communication"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "public-facing",
+        "healthcare",
+        "retail",
+        "industrial",
+        "utilities",
+        "office"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "security",
+        "violence",
+        "emergency"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Site Security / Emergency Management and Preparedness",
+        "yatesPageRangeApprox": "739–742 / 871–890",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "No hazard-specific Federal OSHA workplace-violence standard is asserted; use the emergency-action-plan link only where genuinely applicable."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "workplace violence",
+          "violence",
+          "sec",
+          "security",
+          "violence",
+          "emergency"
+        ],
+        "ar": [
+          "العنف في مكان العمل"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-SEC-002",
+      "categoryId": "SEC",
+      "subcategoryId": "active_attack",
+      "name": {
+        "en": "Active Violent Attack",
+        "ar": "هجوم عنيف نشط"
+      },
+      "summary": {
+        "en": "An active violent event can create immediate life-safety threats requiring rapid protective action, communication, and coordination with responders.",
+        "ar": "يركز هذا السجل على خطر «هجوم عنيف نشط» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "An active violent event can create immediate life-safety threats requiring rapid protective action, communication, and coordination with responders.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «هجوم عنيف نشط» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Injury, loss of life, unauthorized access, operational disruption, delayed response, property loss, or business-continuity impacts.",
+          "ar": "إصابة أو وفاة أو دخول غير مصرح به أو تعطيل العمليات أو تأخر الاستجابة أو خسائر مادية أو آثار على استمرارية الأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Public-facing work, lone/late work, high-risk facilities, security-sensitive operations, emergency response, critical utilities, and business-continuity activities.",
+          "ar": "الأعمال التي تتعامل مع الجمهور والعمل الفردي/المتأخر والمنشآت عالية الخطورة والعمليات الحساسة أمنياً والاستجابة للطوارئ والمرافق الحرجة وأنشطة استمرارية الأعمال."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove avoidable exposure to known security or emergency threats where feasible.",
+            "ar": "أزل التعرض الممكن تجنبه لتهديدات الأمن أو الطوارئ المعروفة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use safer work arrangements, locations, schedules, communication methods, or service methods where feasible.",
+            "ar": "استخدم ترتيبات عمل أو مواقع أو جداول أو طرق اتصال أو خدمة أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use access control, lighting, barriers, alarms, communications, surveillance, protected spaces, and resilient critical systems where appropriate.",
+            "ar": "استخدم ضبط الوصول والإضاءة والحواجز والإنذارات والاتصالات والمراقبة والأماكن المحمية والأنظمة الحرجة المرنة حسب الحاجة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use threat assessment, emergency action plans, accountability, reporting, drills, training, coordination with responders, and continuity planning.",
+            "ar": "استخدم تقييم التهديدات وخطط العمل في الطوارئ وحصر الأفراد والإبلاغ والتمارين والتدريب والتنسيق مع المستجيبين وتخطيط استمرارية الأعمال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only when required by the specific emergency or hazardous-material response conditions.",
+            "ar": "استخدم معدات الوقاية فقط عندما تتطلبها ظروف الطوارئ أو الاستجابة للمواد الخطرة المحددة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "facility-security-scene",
+        "overlays": [
+          "threat-zone",
+          "escape-route",
+          "protected-space",
+          "responder-entry"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "public-facing",
+        "healthcare",
+        "retail",
+        "industrial",
+        "utilities",
+        "office"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "security",
+        "active_attack",
+        "emergency"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Site Security / Emergency Management and Preparedness",
+        "yatesPageRangeApprox": "739–742 / 871–890",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "No hazard-specific Federal OSHA workplace-violence standard is asserted; use the emergency-action-plan link only where genuinely applicable."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "active violent attack",
+          "active attack",
+          "sec",
+          "security",
+          "active_attack",
+          "emergency"
+        ],
+        "ar": [
+          "هجوم عنيف نشط"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-SEC-003",
+      "categoryId": "SEC",
+      "subcategoryId": "access",
+      "name": {
+        "en": "Unauthorized Access / Intrusion",
+        "ar": "دخول غير مصرح به / اقتحام"
+      },
+      "summary": {
+        "en": "Failure of access control, visitor management, barriers, credentials, or surveillance can allow unauthorized persons into sensitive or occupied areas.",
+        "ar": "يركز هذا السجل على خطر «دخول غير مصرح به / اقتحام» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Failure of access control, visitor management, barriers, credentials, or surveillance can allow unauthorized persons into sensitive or occupied areas.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «دخول غير مصرح به / اقتحام» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Injury, loss of life, unauthorized access, operational disruption, delayed response, property loss, or business-continuity impacts.",
+          "ar": "إصابة أو وفاة أو دخول غير مصرح به أو تعطيل العمليات أو تأخر الاستجابة أو خسائر مادية أو آثار على استمرارية الأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Public-facing work, lone/late work, high-risk facilities, security-sensitive operations, emergency response, critical utilities, and business-continuity activities.",
+          "ar": "الأعمال التي تتعامل مع الجمهور والعمل الفردي/المتأخر والمنشآت عالية الخطورة والعمليات الحساسة أمنياً والاستجابة للطوارئ والمرافق الحرجة وأنشطة استمرارية الأعمال."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove avoidable exposure to known security or emergency threats where feasible.",
+            "ar": "أزل التعرض الممكن تجنبه لتهديدات الأمن أو الطوارئ المعروفة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use safer work arrangements, locations, schedules, communication methods, or service methods where feasible.",
+            "ar": "استخدم ترتيبات عمل أو مواقع أو جداول أو طرق اتصال أو خدمة أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use access control, lighting, barriers, alarms, communications, surveillance, protected spaces, and resilient critical systems where appropriate.",
+            "ar": "استخدم ضبط الوصول والإضاءة والحواجز والإنذارات والاتصالات والمراقبة والأماكن المحمية والأنظمة الحرجة المرنة حسب الحاجة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use threat assessment, emergency action plans, accountability, reporting, drills, training, coordination with responders, and continuity planning.",
+            "ar": "استخدم تقييم التهديدات وخطط العمل في الطوارئ وحصر الأفراد والإبلاغ والتمارين والتدريب والتنسيق مع المستجيبين وتخطيط استمرارية الأعمال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only when required by the specific emergency or hazardous-material response conditions.",
+            "ar": "استخدم معدات الوقاية فقط عندما تتطلبها ظروف الطوارئ أو الاستجابة للمواد الخطرة المحددة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "facility-security-scene",
+        "overlays": [
+          "perimeter",
+          "entry-point",
+          "credential-control",
+          "intrusion-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "public-facing",
+        "healthcare",
+        "retail",
+        "industrial",
+        "utilities",
+        "office"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "security",
+        "access",
+        "emergency"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Site Security / Emergency Management and Preparedness",
+        "yatesPageRangeApprox": "739–742 / 871–890",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "No hazard-specific Federal OSHA workplace-violence standard is asserted; use the emergency-action-plan link only where genuinely applicable."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "unauthorized access / intrusion",
+          "access",
+          "sec",
+          "security",
+          "access",
+          "emergency"
+        ],
+        "ar": [
+          "دخول غير مصرح به / اقتحام"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-SEC-004",
+      "categoryId": "SEC",
+      "subcategoryId": "bomb_threat",
+      "name": {
+        "en": "Bomb Threat / Suspicious Package",
+        "ar": "تهديد بقنبلة / طرد مشبوه"
+      },
+      "summary": {
+        "en": "A bomb threat or suspicious package can create explosive, evacuation, disruption, and responder-coordination hazards even before a device is confirmed.",
+        "ar": "يركز هذا السجل على خطر «تهديد بقنبلة / طرد مشبوه» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "A bomb threat or suspicious package can create explosive, evacuation, disruption, and responder-coordination hazards even before a device is confirmed.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تهديد بقنبلة / طرد مشبوه» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Injury, loss of life, unauthorized access, operational disruption, delayed response, property loss, or business-continuity impacts.",
+          "ar": "إصابة أو وفاة أو دخول غير مصرح به أو تعطيل العمليات أو تأخر الاستجابة أو خسائر مادية أو آثار على استمرارية الأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Public-facing work, lone/late work, high-risk facilities, security-sensitive operations, emergency response, critical utilities, and business-continuity activities.",
+          "ar": "الأعمال التي تتعامل مع الجمهور والعمل الفردي/المتأخر والمنشآت عالية الخطورة والعمليات الحساسة أمنياً والاستجابة للطوارئ والمرافق الحرجة وأنشطة استمرارية الأعمال."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove avoidable exposure to known security or emergency threats where feasible.",
+            "ar": "أزل التعرض الممكن تجنبه لتهديدات الأمن أو الطوارئ المعروفة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use safer work arrangements, locations, schedules, communication methods, or service methods where feasible.",
+            "ar": "استخدم ترتيبات عمل أو مواقع أو جداول أو طرق اتصال أو خدمة أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use access control, lighting, barriers, alarms, communications, surveillance, protected spaces, and resilient critical systems where appropriate.",
+            "ar": "استخدم ضبط الوصول والإضاءة والحواجز والإنذارات والاتصالات والمراقبة والأماكن المحمية والأنظمة الحرجة المرنة حسب الحاجة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use threat assessment, emergency action plans, accountability, reporting, drills, training, coordination with responders, and continuity planning.",
+            "ar": "استخدم تقييم التهديدات وخطط العمل في الطوارئ وحصر الأفراد والإبلاغ والتمارين والتدريب والتنسيق مع المستجيبين وتخطيط استمرارية الأعمال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only when required by the specific emergency or hazardous-material response conditions.",
+            "ar": "استخدم معدات الوقاية فقط عندما تتطلبها ظروف الطوارئ أو الاستجابة للمواد الخطرة المحددة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "emergency-response-scene",
+        "overlays": [
+          "threat-report",
+          "suspicious-object",
+          "isolation-zone",
+          "evacuation-route"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "public-facing",
+        "healthcare",
+        "retail",
+        "industrial",
+        "utilities",
+        "office"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.38",
+          "scope": "general-industry",
+          "relation": "related-emergency-action-plan"
+        }
+      ],
+      "relatedPracticeTags": [
+        "security",
+        "bomb_threat",
+        "emergency"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Site Security / Emergency Management and Preparedness",
+        "yatesPageRangeApprox": "739–742 / 871–890",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "bomb threat / suspicious package",
+          "bomb threat",
+          "sec",
+          "security",
+          "bomb_threat",
+          "emergency"
+        ],
+        "ar": [
+          "تهديد بقنبلة / طرد مشبوه"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-SEC-005",
+      "categoryId": "SEC",
+      "subcategoryId": "hazmat_security",
+      "name": {
+        "en": "Hazardous-Material Security Breach",
+        "ar": "اختراق أمني لمواد خطرة"
+      },
+      "summary": {
+        "en": "Unauthorized access, theft, tampering, sabotage, or diversion involving hazardous materials can create safety, security, environmental, and emergency-response consequences.",
+        "ar": "يركز هذا السجل على خطر «اختراق أمني لمواد خطرة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Unauthorized access, theft, tampering, sabotage, or diversion involving hazardous materials can create safety, security, environmental, and emergency-response consequences.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «اختراق أمني لمواد خطرة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Injury, loss of life, unauthorized access, operational disruption, delayed response, property loss, or business-continuity impacts.",
+          "ar": "إصابة أو وفاة أو دخول غير مصرح به أو تعطيل العمليات أو تأخر الاستجابة أو خسائر مادية أو آثار على استمرارية الأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Public-facing work, lone/late work, high-risk facilities, security-sensitive operations, emergency response, critical utilities, and business-continuity activities.",
+          "ar": "الأعمال التي تتعامل مع الجمهور والعمل الفردي/المتأخر والمنشآت عالية الخطورة والعمليات الحساسة أمنياً والاستجابة للطوارئ والمرافق الحرجة وأنشطة استمرارية الأعمال."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove avoidable exposure to known security or emergency threats where feasible.",
+            "ar": "أزل التعرض الممكن تجنبه لتهديدات الأمن أو الطوارئ المعروفة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use safer work arrangements, locations, schedules, communication methods, or service methods where feasible.",
+            "ar": "استخدم ترتيبات عمل أو مواقع أو جداول أو طرق اتصال أو خدمة أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use access control, lighting, barriers, alarms, communications, surveillance, protected spaces, and resilient critical systems where appropriate.",
+            "ar": "استخدم ضبط الوصول والإضاءة والحواجز والإنذارات والاتصالات والمراقبة والأماكن المحمية والأنظمة الحرجة المرنة حسب الحاجة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use threat assessment, emergency action plans, accountability, reporting, drills, training, coordination with responders, and continuity planning.",
+            "ar": "استخدم تقييم التهديدات وخطط العمل في الطوارئ وحصر الأفراد والإبلاغ والتمارين والتدريب والتنسيق مع المستجيبين وتخطيط استمرارية الأعمال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only when required by the specific emergency or hazardous-material response conditions.",
+            "ar": "استخدم معدات الوقاية فقط عندما تتطلبها ظروف الطوارئ أو الاستجابة للمواد الخطرة المحددة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "facility-security-scene",
+        "overlays": [
+          "hazmat-storage",
+          "access-control",
+          "tamper-point",
+          "response-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "public-facing",
+        "healthcare",
+        "retail",
+        "industrial",
+        "utilities",
+        "office"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "security",
+        "hazmat_security",
+        "emergency"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Site Security / Emergency Management and Preparedness",
+        "yatesPageRangeApprox": "739–742 / 871–890",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "No hazard-specific Federal OSHA workplace-violence standard is asserted; use the emergency-action-plan link only where genuinely applicable."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "hazardous-material security breach",
+          "hazmat security",
+          "sec",
+          "security",
+          "hazmat_security",
+          "emergency"
+        ],
+        "ar": [
+          "اختراق أمني لمواد خطرة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-SEC-006",
+      "categoryId": "SEC",
+      "subcategoryId": "evacuation",
+      "name": {
+        "en": "Emergency Evacuation / Accountability Failure",
+        "ar": "فشل الإخلاء / حصر الأفراد في الطوارئ"
+      },
+      "summary": {
+        "en": "Poor evacuation routes, communication, assembly, accountability, or re-entry control can delay escape and leave people unaccounted for during emergencies.",
+        "ar": "يركز هذا السجل على خطر «فشل الإخلاء / حصر الأفراد في الطوارئ» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Poor evacuation routes, communication, assembly, accountability, or re-entry control can delay escape and leave people unaccounted for during emergencies.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «فشل الإخلاء / حصر الأفراد في الطوارئ» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Injury, loss of life, unauthorized access, operational disruption, delayed response, property loss, or business-continuity impacts.",
+          "ar": "إصابة أو وفاة أو دخول غير مصرح به أو تعطيل العمليات أو تأخر الاستجابة أو خسائر مادية أو آثار على استمرارية الأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Public-facing work, lone/late work, high-risk facilities, security-sensitive operations, emergency response, critical utilities, and business-continuity activities.",
+          "ar": "الأعمال التي تتعامل مع الجمهور والعمل الفردي/المتأخر والمنشآت عالية الخطورة والعمليات الحساسة أمنياً والاستجابة للطوارئ والمرافق الحرجة وأنشطة استمرارية الأعمال."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove avoidable exposure to known security or emergency threats where feasible.",
+            "ar": "أزل التعرض الممكن تجنبه لتهديدات الأمن أو الطوارئ المعروفة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use safer work arrangements, locations, schedules, communication methods, or service methods where feasible.",
+            "ar": "استخدم ترتيبات عمل أو مواقع أو جداول أو طرق اتصال أو خدمة أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use access control, lighting, barriers, alarms, communications, surveillance, protected spaces, and resilient critical systems where appropriate.",
+            "ar": "استخدم ضبط الوصول والإضاءة والحواجز والإنذارات والاتصالات والمراقبة والأماكن المحمية والأنظمة الحرجة المرنة حسب الحاجة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use threat assessment, emergency action plans, accountability, reporting, drills, training, coordination with responders, and continuity planning.",
+            "ar": "استخدم تقييم التهديدات وخطط العمل في الطوارئ وحصر الأفراد والإبلاغ والتمارين والتدريب والتنسيق مع المستجيبين وتخطيط استمرارية الأعمال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only when required by the specific emergency or hazardous-material response conditions.",
+            "ar": "استخدم معدات الوقاية فقط عندما تتطلبها ظروف الطوارئ أو الاستجابة للمواد الخطرة المحددة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "emergency-response-scene",
+        "overlays": [
+          "alarm",
+          "exit-routes",
+          "assembly-area",
+          "accountability"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "public-facing",
+        "healthcare",
+        "retail",
+        "industrial",
+        "utilities",
+        "office"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.38",
+          "scope": "general-industry",
+          "relation": "related-emergency-action-plan"
+        }
+      ],
+      "relatedPracticeTags": [
+        "security",
+        "evacuation",
+        "emergency"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Site Security / Emergency Management and Preparedness",
+        "yatesPageRangeApprox": "739–742 / 871–890",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "emergency evacuation / accountability failure",
+          "evacuation",
+          "sec",
+          "security",
+          "evacuation",
+          "emergency"
+        ],
+        "ar": [
+          "فشل الإخلاء / حصر الأفراد في الطوارئ"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-SEC-007",
+      "categoryId": "SEC",
+      "subcategoryId": "utilities",
+      "name": {
+        "en": "Utility / Critical-System Failure",
+        "ar": "فشل المرافق / الأنظمة الحرجة"
+      },
+      "summary": {
+        "en": "Loss of electricity, water, communications, HVAC, fuel, IT, or other critical systems can create immediate safety issues and disrupt continuity of operations.",
+        "ar": "يركز هذا السجل على خطر «فشل المرافق / الأنظمة الحرجة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Loss of electricity, water, communications, HVAC, fuel, IT, or other critical systems can create immediate safety issues and disrupt continuity of operations.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «فشل المرافق / الأنظمة الحرجة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Injury, loss of life, unauthorized access, operational disruption, delayed response, property loss, or business-continuity impacts.",
+          "ar": "إصابة أو وفاة أو دخول غير مصرح به أو تعطيل العمليات أو تأخر الاستجابة أو خسائر مادية أو آثار على استمرارية الأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Public-facing work, lone/late work, high-risk facilities, security-sensitive operations, emergency response, critical utilities, and business-continuity activities.",
+          "ar": "الأعمال التي تتعامل مع الجمهور والعمل الفردي/المتأخر والمنشآت عالية الخطورة والعمليات الحساسة أمنياً والاستجابة للطوارئ والمرافق الحرجة وأنشطة استمرارية الأعمال."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove avoidable exposure to known security or emergency threats where feasible.",
+            "ar": "أزل التعرض الممكن تجنبه لتهديدات الأمن أو الطوارئ المعروفة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use safer work arrangements, locations, schedules, communication methods, or service methods where feasible.",
+            "ar": "استخدم ترتيبات عمل أو مواقع أو جداول أو طرق اتصال أو خدمة أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use access control, lighting, barriers, alarms, communications, surveillance, protected spaces, and resilient critical systems where appropriate.",
+            "ar": "استخدم ضبط الوصول والإضاءة والحواجز والإنذارات والاتصالات والمراقبة والأماكن المحمية والأنظمة الحرجة المرنة حسب الحاجة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use threat assessment, emergency action plans, accountability, reporting, drills, training, coordination with responders, and continuity planning.",
+            "ar": "استخدم تقييم التهديدات وخطط العمل في الطوارئ وحصر الأفراد والإبلاغ والتمارين والتدريب والتنسيق مع المستجيبين وتخطيط استمرارية الأعمال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only when required by the specific emergency or hazardous-material response conditions.",
+            "ar": "استخدم معدات الوقاية فقط عندما تتطلبها ظروف الطوارئ أو الاستجابة للمواد الخطرة المحددة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "emergency-response-scene",
+        "overlays": [
+          "critical-system",
+          "failure-point",
+          "backup-system",
+          "affected-area"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "public-facing",
+        "healthcare",
+        "retail",
+        "industrial",
+        "utilities",
+        "office"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.38",
+          "scope": "general-industry",
+          "relation": "related-emergency-action-plan"
+        }
+      ],
+      "relatedPracticeTags": [
+        "security",
+        "utilities",
+        "emergency"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Site Security / Emergency Management and Preparedness",
+        "yatesPageRangeApprox": "739–742 / 871–890",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "utility / critical-system failure",
+          "utilities",
+          "sec",
+          "security",
+          "utilities",
+          "emergency"
+        ],
+        "ar": [
+          "فشل المرافق / الأنظمة الحرجة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-SEC-008",
+      "categoryId": "SEC",
+      "subcategoryId": "weather",
+      "name": {
+        "en": "Severe Weather / Natural-Disaster Exposure",
+        "ar": "التعرض للطقس القاسي / الكوارث الطبيعية"
+      },
+      "summary": {
+        "en": "Hurricanes, tornadoes, earthquakes, floods, wildfire, winter weather, and other natural hazards can threaten workers, facilities, utilities, access, and continuity.",
+        "ar": "يركز هذا السجل على خطر «التعرض للطقس القاسي / الكوارث الطبيعية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Hurricanes, tornadoes, earthquakes, floods, wildfire, winter weather, and other natural hazards can threaten workers, facilities, utilities, access, and continuity.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «التعرض للطقس القاسي / الكوارث الطبيعية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Injury, loss of life, unauthorized access, operational disruption, delayed response, property loss, or business-continuity impacts.",
+          "ar": "إصابة أو وفاة أو دخول غير مصرح به أو تعطيل العمليات أو تأخر الاستجابة أو خسائر مادية أو آثار على استمرارية الأعمال."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Public-facing work, lone/late work, high-risk facilities, security-sensitive operations, emergency response, critical utilities, and business-continuity activities.",
+          "ar": "الأعمال التي تتعامل مع الجمهور والعمل الفردي/المتأخر والمنشآت عالية الخطورة والعمليات الحساسة أمنياً والاستجابة للطوارئ والمرافق الحرجة وأنشطة استمرارية الأعمال."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove avoidable exposure to known security or emergency threats where feasible.",
+            "ar": "أزل التعرض الممكن تجنبه لتهديدات الأمن أو الطوارئ المعروفة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use safer work arrangements, locations, schedules, communication methods, or service methods where feasible.",
+            "ar": "استخدم ترتيبات عمل أو مواقع أو جداول أو طرق اتصال أو خدمة أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use access control, lighting, barriers, alarms, communications, surveillance, protected spaces, and resilient critical systems where appropriate.",
+            "ar": "استخدم ضبط الوصول والإضاءة والحواجز والإنذارات والاتصالات والمراقبة والأماكن المحمية والأنظمة الحرجة المرنة حسب الحاجة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use threat assessment, emergency action plans, accountability, reporting, drills, training, coordination with responders, and continuity planning.",
+            "ar": "استخدم تقييم التهديدات وخطط العمل في الطوارئ وحصر الأفراد والإبلاغ والتمارين والتدريب والتنسيق مع المستجيبين وتخطيط استمرارية الأعمال."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only when required by the specific emergency or hazardous-material response conditions.",
+            "ar": "استخدم معدات الوقاية فقط عندما تتطلبها ظروف الطوارئ أو الاستجابة للمواد الخطرة المحددة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "emergency-response-scene",
+        "overlays": [
+          "weather-hazard",
+          "facility",
+          "shelter-evacuation",
+          "utility-impact"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "public-facing",
+        "healthcare",
+        "retail",
+        "industrial",
+        "utilities",
+        "office"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.38",
+          "scope": "general-industry",
+          "relation": "related-emergency-action-plan"
+        }
+      ],
+      "relatedPracticeTags": [
+        "security",
+        "weather",
+        "emergency"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Site Security / Emergency Management and Preparedness",
+        "yatesPageRangeApprox": "739–742 / 871–890",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "severe weather / natural-disaster exposure",
+          "weather",
+          "sec",
+          "security",
+          "weather",
+          "emergency"
+        ],
+        "ar": [
+          "التعرض للطقس القاسي / الكوارث الطبيعية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    }
+  ]
+}

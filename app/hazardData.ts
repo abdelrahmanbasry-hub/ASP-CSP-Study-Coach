@@ -1,9 +1,14 @@
+import type { ExposureRouteId, HazardTarget, MappingReview } from "./bodySystems";
+import { BODY_SYSTEM_BY_ID, EXPOSURE_ROUTES } from "./bodySystems.ts";
+import { migrateHazardRecord } from "./hazardMigration.ts";
+export type { HazardRecord } from "./hazardTypes";
+
 export type BilingualText = {
   en: string;
   ar: string;
 };
 
-export type HazardRecord = {
+export type SourceHazardRecord = {
   id: string;
   category: "biological" | "toxicological";
   sourceRow: number;
@@ -15,6 +20,12 @@ export type HazardRecord = {
   exposureTransmission: BilingualText;
   highRiskOccupationsWorkplace: BilingualText;
   sourceNote: BilingualText;
+};
+
+export type OccupationalHealthRecord = SourceHazardRecord & {
+  targets: HazardTarget[];
+  exposureRoutes: ExposureRouteId[];
+  mappingReview: MappingReview[];
 };
 
 const STUDY_SOURCE_NOTE: BilingualText = {
@@ -32,7 +43,7 @@ const biological = (
   mainConsequences: BilingualText,
   exposureTransmission: BilingualText,
   highRiskOccupationsWorkplace: BilingualText,
-): HazardRecord => ({
+): SourceHazardRecord => ({
   id: `bio-${id}`,
   category: "biological",
   sourceRow,
@@ -56,7 +67,7 @@ const toxicological = (
   mainConsequences: BilingualText,
   exposureTransmission: BilingualText,
   highRiskOccupationsWorkplace: BilingualText,
-): HazardRecord => ({
+): SourceHazardRecord => ({
   id: `tox-${id}`,
   category: "toxicological",
   sourceRow,
@@ -70,7 +81,7 @@ const toxicological = (
   sourceNote: STUDY_SOURCE_NOTE,
 });
 
-export const HAZARD_RECORDS: HazardRecord[] = [
+const SOURCE_HAZARD_RECORDS: SourceHazardRecord[] = [
   biological(2, "anthrax", { en: "Anthrax", ar: "الجمرة الخبيثة" }, { en: "Bacterial disease (Bacillus anthracis)", ar: "مرض بكتيري (العصوية الجمرية)" }, { en: "A zoonotic infection caused by spore-forming B. anthracis.", ar: "عدوى حيوانية المنشأ تسببها بكتيريا العصوية الجمرية المكوِّنة للأبواغ." }, { en: "Lungs / skin", ar: "الرئتان / الجلد" }, { en: "Cutaneous lesions, severe respiratory disease, or gastrointestinal/systemic illness", ar: "آفات جلدية أو مرض تنفسي شديد أو مرض هضمي/جهازي" }, { en: "Inhalation, skin contact, or ingestion of spores", ar: "استنشاق الأبواغ أو ملامستها للجلد أو ابتلاعها" }, { en: "Agriculture, wool handling, and veterinary work", ar: "الزراعة ومناولة الصوف والعمل البيطري" }),
   biological(3, "brucellosis", { en: "Brucellosis", ar: "داء البروسيلات (الحمى المالطية)" }, { en: "Bacterial disease (Brucella species)", ar: "مرض بكتيري (أنواع البروسيلا)" }, { en: "A systemic zoonotic infection acquired from infected animals or unpasteurized dairy products.", ar: "عدوى جهازية حيوانية المنشأ تنتقل من الحيوانات المصابة أو منتجات الألبان غير المبسترة." }, { en: "Systemic infection", ar: "عدوى جهازية" }, { en: "Fever, fatigue, joint pain, and possible chronic organ involvement", ar: "حمى وإرهاق وآلام مفاصل واحتمال إصابة مزمنة للأعضاء" }, { en: "Animal contact or dairy exposure", ar: "ملامسة الحيوانات أو التعرض لمنتجات الألبان" }, { en: "Livestock and meatpacking work", ar: "تربية الماشية وتجهيز اللحوم" }),
   biological(4, "leptospirosis", { en: "Leptospirosis", ar: "داء اللِّبْتوسبيرات" }, { en: "Bacterial disease (Leptospira species)", ar: "مرض بكتيري (أنواع اللِّبْتوسبيرا)" }, { en: "A zoonotic infection associated with water or soil contaminated by infected animal urine.", ar: "عدوى حيوانية المنشأ ترتبط بالمياه أو التربة الملوثة ببول الحيوانات المصابة." }, { en: "Kidneys / liver", ar: "الكليتان / الكبد" }, { en: "Fever and systemic illness; severe cases may cause kidney or liver injury", ar: "حمى ومرض جهازي؛ وقد تسبب الحالات الشديدة إصابة الكلى أو الكبد" }, { en: "Contact with contaminated water or urine", ar: "ملامسة المياه الملوثة أو البول" }, { en: "Farmers and sewer workers", ar: "المزارعون وعمال الصرف الصحي" }),
@@ -111,6 +122,8 @@ export const HAZARD_RECORDS: HazardRecord[] = [
   toxicological(19, "organophosphate-carbamate-pesticides", { en: "Organophosphate and carbamate pesticides", ar: "مبيدات الفوسفات العضوية والكربامات" }, { en: "Cholinesterase-inhibiting pesticides", ar: "مبيدات مثبِّطة لإنزيم الكولين إستيراز" }, { en: "Pesticide classes that can disrupt cholinergic nerve signaling by inhibiting cholinesterase enzymes.", ar: "فئات مبيدات قد تعطل الإشارات العصبية الكولينية عبر تثبيط إنزيمات الكولين إستيراز." }, { en: "Nervous system", ar: "الجهاز العصبي" }, { en: "Cholinergic toxicity with secretions, breathing difficulty, gastrointestinal symptoms, weakness, or neurologic effects", ar: "سمية كولينية تشمل زيادة الإفرازات وصعوبة التنفس وأعراضًا هضمية وضعفًا أو آثارًا عصبية" }, { en: "Skin absorption or inhalation", ar: "الامتصاص عبر الجلد أو الاستنشاق" }, { en: "Agricultural pesticide mixing, loading, application, and equipment cleaning", ar: "خلط المبيدات الزراعية وتحميلها وتطبيقها وتنظيف معداتها" }),
 ];
 
+export const HAZARD_RECORDS: OccupationalHealthRecord[] = SOURCE_HAZARD_RECORDS.map(migrateHazardRecord);
+
 const bilingualKeys = [
   "hazardDisease",
   "type",
@@ -120,9 +133,9 @@ const bilingualKeys = [
   "exposureTransmission",
   "highRiskOccupationsWorkplace",
   "sourceNote",
-] as const satisfies readonly (keyof HazardRecord)[];
+] as const satisfies readonly (keyof OccupationalHealthRecord)[];
 
-export function validateHazardRecords(records: readonly HazardRecord[] = HAZARD_RECORDS): void {
+export function validateHazardRecords(records: readonly OccupationalHealthRecord[] = HAZARD_RECORDS): void {
   if (records.length !== 37) throw new Error(`Expected 37 hazard records; received ${records.length}.`);
 
   const ids = new Set<string>();
@@ -153,6 +166,16 @@ export function validateHazardRecords(records: readonly HazardRecord[] = HAZARD_
         throw new Error(`Missing bilingual ${key} value for ${record.id}.`);
       }
     }
+    const targetIds = new Set<string>();
+    if (!record.targets.length && !record.mappingReview.some((review) => review.field === "targets")) {
+      throw new Error(`Missing target mapping or review flag for ${record.id}.`);
+    }
+    for (const target of record.targets) {
+      if (!Object.hasOwn(BODY_SYSTEM_BY_ID, target.systemId) || targetIds.has(target.systemId)) throw new Error(`Invalid or duplicate target for ${record.id}.`);
+      targetIds.add(target.systemId);
+      if (!["primary", "secondary"].includes(target.role) || !target.effects.en.trim() || !target.effects.ar.trim()) throw new Error(`Invalid bilingual target effects for ${record.id}.`);
+    }
+    if (new Set(record.exposureRoutes).size !== record.exposureRoutes.length || record.exposureRoutes.some((route) => !Object.hasOwn(EXPOSURE_ROUTES, route))) throw new Error(`Invalid exposure routes for ${record.id}.`);
   });
 
   if (biologicalCount !== 19 || toxicologicalCount !== 18) {

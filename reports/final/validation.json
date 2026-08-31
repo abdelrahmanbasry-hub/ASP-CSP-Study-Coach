@@ -1,0 +1,94 @@
+{
+  "date": "2026-08-31",
+  "newValidationFailures": 0,
+  "checks": {
+    "changedFileLint": {
+      "command": "pnpm exec eslint app/finalHazardData.ts app/finalHazardTaxonomy.ts app/hazardNotebook.ts app/hazard-scenes/finalSceneGeometry.ts app/hazard-scenes/finalSceneLabels.ts scripts/audit-final-hazards.mjs tests/final-hazards.test.mjs app/phase4HazardData.ts app/hazardTypes.ts app/hazardLibraryData.ts app/hazardAliases.ts app/hazardCategories.ts app/hazard-scenes/sceneTemplates.ts app/hazard-library/HazardsLibrary.tsx app/hazard-library/HazardVisualization.tsx app/StudySystem.tsx app/globalSearch.ts app/practiceTagAliases.ts tests/hazard-library.test.mjs tests/hazard-scenes.test.mjs tests/phase4-hazards.test.mjs tests/phase41-integrations.test.mjs",
+      "exitCode": 0,
+      "result": "PASS",
+      "log": "reports/final/changed-lint.log"
+    },
+    "fullLint": {
+      "command": "pnpm lint",
+      "exitCode": 1,
+      "result": "16 PRE-EXISTING ERRORS ONLY",
+      "log": "reports/final/lint.log"
+    },
+    "typecheck": {
+      "command": "pnpm exec tsc --noEmit",
+      "exitCode": 2,
+      "result": "2 PRE-EXISTING ERRORS ONLY",
+      "log": "reports/final/typecheck.log"
+    },
+    "tests": {
+      "command": "pnpm test",
+      "exitCode": 0,
+      "result": "373 PASS, 0 FAIL, 0 SKIP",
+      "log": "reports/final/tests.log"
+    },
+    "build": {
+      "command": "pnpm build",
+      "exitCode": 0,
+      "result": "PASS",
+      "log": "reports/final/build.log"
+    },
+    "diffCheck": {
+      "command": "git diff --check",
+      "exitCode": 0,
+      "result": "PASS",
+      "log": "reports/final/diff-check.log"
+    },
+    "audit": {
+      "command": "node scripts/audit-final-hazards.mjs",
+      "exitCode": 0,
+      "result": "PASS",
+      "log": "reports/final/audit.log"
+    }
+  },
+  "baselineComparison": {
+    "fullLintIdentical": true,
+    "typecheckDiagnosticLocationsAndCodesIdentical": true,
+    "typecheckRenderingDifference": "TS2739 displays a different first libraryTab union member (flashcards/formulas); missing system/onSystem props are unchanged.",
+    "logs": [
+      "reports/final/baseline-lint.log",
+      "reports/final/baseline-typecheck.log"
+    ]
+  },
+  "preExistingIssues": [
+    "16 lint errors in .agents/skills/brand/scripts/*.cjs and design-system/scripts/*.cjs: require imports and one unused variable.",
+    "app/KeyInformation.tsx:50 TS2345 flatMap literal-boolean inference.",
+    "app/practice-v2/page.tsx:6 TS2739 missing system/onSystem.",
+    "Existing large-chunk warning and Vinext route static-analysis notice."
+  ],
+  "transientTestRun": {
+    "log": "reports/final/tests-transient-cleanup.log",
+    "issue": "Windows ENOTEMPTY in unchanged Practice importer temporary-directory cleanup; subsequent full runs passed."
+  },
+  "checkpointTests": [
+    {
+      "checkpoint": "0",
+      "passed": 15,
+      "log": "reports/final/checkpoint-0.log"
+    },
+    {
+      "checkpoint": "A",
+      "passed": 62,
+      "log": "reports/final/checkpoint-A.log"
+    },
+    {
+      "checkpoint": "B",
+      "passed": 99,
+      "log": "reports/final/checkpoint-B.log"
+    },
+    {
+      "checkpoint": "C",
+      "passed": 140,
+      "log": "reports/final/checkpoint-C.log"
+    },
+    {
+      "checkpoint": "D",
+      "passed": 158,
+      "log": "reports/final/checkpoint-D.log"
+    }
+  ]
+}

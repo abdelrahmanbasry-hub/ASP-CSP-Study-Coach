@@ -1,8 +1,21 @@
+import { matchesPracticeTagAlias } from "./practiceTagAliases.ts";
 import { BLUEPRINT_OBJECTIVE_BY_ID, type BlueprintVersion, type Credential } from "./blueprintRegistry.ts";
+import type { ResourceReferences } from "./hazardTypes";
+import { matchesSearchText } from "./searchText.ts";
 
 export const PRACTICE_V2_SCHEMA_VERSION = 3 as const;
 export const PRACTICE_V2_PROGRESS_KEY = "asp-csp-practice-v2-progress-v1";
 export const PRACTICE_V2_COUNTS = [10, 15, 20, 25] as const;
+
+// Related tags match the existing concept/chapter/source vocabulary; no question copies.
+export function filterPracticeV2References(questions: readonly PracticeV2Question[], references: ResourceReferences | null) {
+  if (!references) return [...questions];
+  const tags = (references.practiceTags ?? []).filter((tag) => tag.trim());
+  const ids = new Set(references.practiceQuestionIds ?? []);
+  return questions.filter((question) => ids.has(question.id) || tags.some((tag) => matchesSearchText(
+    `${question.concept} ${question.chapterTitle} ${question.stem} ${question.sourceLocation ?? ""}`, tag,
+  ) || [question.concept, question.chapterTitle, question.stem].some(text => matchesPracticeTagAlias(text, tag))));
+}
 
 export type PracticeV2ReviewStatus =
   | "demo"

@@ -1,0 +1,23 @@
+✔ visible catalog has 92 unique records: 52 controlled, 37 OH and three unpopulated-family references (16.5137ms)
+✔ exact aliases preserve controlled IDs, content and approved Phase 3 scene objects without duplicate objects in lookup (11.5309ms)
+✔ Library and global search return canonical destinations for old IDs and hazard names (194.5795ms)
+✔ strict standard grammar normalizes dot/dash/CFR/section/subpart formatting (0.2122ms)
+✔ exact standards resolution uses genuine IDs even when the registry ID is opaque (0.5185ms)
+✔ paragraph references use the most specific genuine ancestor, not numeric prefixes or unverified subparts (8.5486ms)
+✔ standard normalization rejects wrong title/part, ranges, appended text and ambiguous registry matches (0.3778ms)
+✔ missing-standard report retains every supplied reference and deterministically reports actual catalog gaps (2.5343ms)
+✔ Practice aliases require exact phrases with evidence; five unrelated or absent topics remain unmatched (1572.5083ms)
+✔ ref-arc-flash opens HL-ELEC-001, retains the saved legacy note and reuses approved interactive callouts (242.2762ms)
+✔ ref-scaffold-fall opens HL-FALL-007, retains the saved legacy note and reuses approved interactive callouts (109.711ms)
+✔ ref-forklift-tip-over opens HL-MAT-004, retains the saved legacy note and reuses approved interactive callouts (114.0543ms)
+✔ both legacy and canonical notebook entries remain lossless until explicit unsave, including a serialized reload (151.926ms)
+✔ a stale bookmark caller with ref ID creates a canonical save (44.164ms)
+✔ old-ID search entry routes to a single canonical visible record (42.3398ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3491.8217

@@ -1,0 +1,4322 @@
+{
+  "package": "ASP/CSP Study Coach Hazard Library — Phase 5 Master Dataset",
+  "version": "2026-08-31-draft1",
+  "recordCount": 35,
+  "categoryCounts": {
+    "EXC": 8,
+    "CONF": 9,
+    "LOTO": 10,
+    "PRESS": 8
+  },
+  "canonicalization": {
+    "phase3ReferenceRecordsToReconcile": [
+      {
+        "concept": "Oxygen-Deficient Confined Space",
+        "canonicalId": "HL-CONF-001",
+        "action": "reuse approved Phase 3 scene/config and remove the visible reference duplicate after safe alias/migration"
+      },
+      {
+        "concept": "Unexpected Startup / LOTO",
+        "canonicalId": "HL-LOTO-001",
+        "action": "reuse approved Phase 3 scene/config and remove the visible reference duplicate after safe alias/migration"
+      }
+    ],
+    "remainingPhase3Reference": "Radiation remains a reference until its later canonical population phase."
+  },
+  "authorityPolicy": {
+    "primaryStudySource": "David Yates, Safety Professional’s Reference and Study Guide, 4th ed.",
+    "regulatoryAuthority": "Current Federal OSHA regulations.",
+    "sourceDistinction": "Preserve yatesSupport and externalBasis. Do not present supplemented content as direct Yates wording.",
+    "standardMappingRule": "Resolve section numbers against the app standards registry. Never invent registry IDs or copy regulatory text."
+  },
+  "records": [
+    {
+      "id": "HL-EXC-001",
+      "categoryId": "EXC",
+      "subcategoryId": "collapse",
+      "name": {
+        "en": "Cave-In / Trench Collapse",
+        "ar": "انهيار الحفر / الخندق"
+      },
+      "summary": {
+        "en": "Excavation walls can fail and rapidly bury, crush, or trap workers.",
+        "ar": "قد تفشل جوانب الحفر بسرعة فتدفن العاملين أو تسحقهم أو تحتجزهم."
+      },
+      "mechanisms": [
+        {
+          "en": "Soil instability, surcharge loads, vibration, water, weather, or inadequate protective systems can cause collapse.",
+          "ar": "قد يؤدي عدم استقرار التربة أو الأحمال الإضافية أو الاهتزاز أو المياه أو الطقس أو قصور أنظمة الحماية إلى الانهيار."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Burial, crushing, asphyxiation, traumatic injury, or death.",
+          "ar": "دفن وسحق واختناق وإصابات رضية أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Trenching, utility installation, foundations, repair, shoring, and excavation entry.",
+          "ar": "حفر الخنادق وتركيب المرافق والأساسات والإصلاح والتدعيم والدخول إلى الحفر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Avoid excavation entry where feasible.",
+            "ar": "تجنب دخول الحفر متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-risk installation or access method where feasible.",
+            "ar": "استخدم طريقة تركيب أو وصول أقل خطراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use appropriate protective systems, water control, barriers, support, and safe access/egress.",
+            "ar": "استخدم أنظمة الحماية والتحكم بالمياه والحواجز والدعم ووسائل الدخول والخروج الآمنة المناسبة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use competent-person evaluation, utility location, inspections, exclusion zones, and safe-work procedures.",
+            "ar": "استخدم تقييم الشخص المختص وتحديد المرافق والفحوص ومناطق العزل وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the assessed excavation hazards.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر الحفر المقيمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "excavation-trench",
+        "overlays": [
+          "collapse-zone",
+          "soil-face",
+          "protective-system",
+          "surcharge-load"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "utilities",
+        "civil"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.652",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "excavation",
+        "trench",
+        "cave-in"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Excavation; Protective Systems",
+        "yatesPageRangeApprox": "568–572",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "cave-in / trench collapse",
+          "collapse",
+          "exc",
+          "excavation",
+          "trench",
+          "cave-in"
+        ],
+        "ar": [
+          "انهيار الحفر / الخندق"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-EXC-002",
+      "categoryId": "EXC",
+      "subcategoryId": "utilities",
+      "name": {
+        "en": "Underground Utility Strike",
+        "ar": "ضرب مرفق مدفون"
+      },
+      "summary": {
+        "en": "Excavation equipment or hand tools can contact underground installations.",
+        "ar": "قد تلامس معدات الحفر أو الأدوات اليدوية المرافق المدفونة."
+      },
+      "mechanisms": [
+        {
+          "en": "Work proceeds without adequate location, verification, exposure, or protection of underground utilities.",
+          "ar": "يستمر العمل دون تحديد أو تحقق أو كشف أو حماية كافية للمرافق المدفونة."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Electrocution, fire, explosion, flooding, hazardous release, service interruption, or trauma.",
+          "ar": "صعق كهربائي وحريق وانفجار وفيضان وتسرب خطير وانقطاع خدمة أو إصابة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Excavation, trenching, boring, digging, utility repair, and civil construction.",
+          "ar": "الحفر وحفر الخنادق والثقب والحفر اليدوي وإصلاح المرافق والإنشاءات المدنية."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Avoid excavation entry where feasible.",
+            "ar": "تجنب دخول الحفر متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-risk installation or access method where feasible.",
+            "ar": "استخدم طريقة تركيب أو وصول أقل خطراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use appropriate protective systems, water control, barriers, support, and safe access/egress.",
+            "ar": "استخدم أنظمة الحماية والتحكم بالمياه والحواجز والدعم ووسائل الدخول والخروج الآمنة المناسبة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use competent-person evaluation, utility location, inspections, exclusion zones, and safe-work procedures.",
+            "ar": "استخدم تقييم الشخص المختص وتحديد المرافق والفحوص ومناطق العزل وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the assessed excavation hazards.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر الحفر المقيمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "excavation-trench",
+        "overlays": [
+          "utility-lines",
+          "excavator-path",
+          "strike-point"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "utilities",
+        "civil"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "excavation",
+        "underground-utility",
+        "utility-strike"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Excavation; utility locations",
+        "yatesPageRangeApprox": "568–569",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "underground utility strike",
+          "utilities",
+          "exc",
+          "excavation",
+          "underground-utility",
+          "utility-strike"
+        ],
+        "ar": [
+          "ضرب مرفق مدفون"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-EXC-003",
+      "categoryId": "EXC",
+      "subcategoryId": "surcharge",
+      "name": {
+        "en": "Spoil-Pile / Surcharge Load",
+        "ar": "كومة نواتج الحفر / حمل إضافي"
+      },
+      "summary": {
+        "en": "Loads near an excavation edge can increase soil stress and collapse potential.",
+        "ar": "قد تزيد الأحمال قرب حافة الحفر من إجهاد التربة واحتمال الانهيار."
+      },
+      "mechanisms": [
+        {
+          "en": "Spoils, equipment, or traffic near the wall transfer additional load into the soil mass.",
+          "ar": "تنقل نواتج الحفر أو المعدات أو حركة المرور قرب الجدار حملاً إضافياً إلى كتلة التربة."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Cave-in, falling material, struck-by injury, crushing, or equipment entry into the excavation.",
+          "ar": "انهيار وسقوط مواد وإصابة من جسم ساقط وسحق أو دخول المعدات إلى الحفر."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Spoil placement, heavy equipment, vehicle traffic, trenching, and material staging.",
+          "ar": "وضع نواتج الحفر وتشغيل المعدات الثقيلة وحركة المركبات وحفر الخنادق وتجهيز المواد."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Avoid excavation entry where feasible.",
+            "ar": "تجنب دخول الحفر متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-risk installation or access method where feasible.",
+            "ar": "استخدم طريقة تركيب أو وصول أقل خطراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use appropriate protective systems, water control, barriers, support, and safe access/egress.",
+            "ar": "استخدم أنظمة الحماية والتحكم بالمياه والحواجز والدعم ووسائل الدخول والخروج الآمنة المناسبة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use competent-person evaluation, utility location, inspections, exclusion zones, and safe-work procedures.",
+            "ar": "استخدم تقييم الشخص المختص وتحديد المرافق والفحوص ومناطق العزل وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the assessed excavation hazards.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر الحفر المقيمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "excavation-trench",
+        "overlays": [
+          "spoil-pile",
+          "surcharge-load",
+          "wall-stress"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "utilities",
+        "civil"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "excavation",
+        "spoil-pile",
+        "surcharge"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Excavation; surcharge loads",
+        "yatesPageRangeApprox": "568–569",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "spoil-pile / surcharge load",
+          "surcharge",
+          "exc",
+          "excavation",
+          "spoil-pile",
+          "surcharge"
+        ],
+        "ar": [
+          "كومة نواتج الحفر / حمل إضافي"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-EXC-004",
+      "categoryId": "EXC",
+      "subcategoryId": "water",
+      "name": {
+        "en": "Water Accumulation",
+        "ar": "تجمع المياه في الحفر"
+      },
+      "summary": {
+        "en": "Water can destabilize soil, flood the work area, and create additional hazards.",
+        "ar": "قد تزعزع المياه استقرار التربة وتغمر منطقة العمل وتُنشئ مخاطر إضافية."
+      },
+      "mechanisms": [
+        {
+          "en": "Groundwater, runoff, leaks, storms, or failed water controls enter or accumulate in the excavation.",
+          "ar": "تدخل المياه الجوفية أو الجريان السطحي أو التسربات أو العواصف أو فشل التحكم بالمياه إلى الحفر أو تتجمع فيه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Cave-in, drowning, slips/falls, equipment instability, or contaminated-water exposure.",
+          "ar": "انهيار وغرق وانزلاق/سقوط وعدم استقرار المعدات أو التعرض لمياه ملوثة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Excavation below grade, storms, utility leaks, dewatering, and work near groundwater.",
+          "ar": "الحفر تحت مستوى الأرض والعواصف وتسربات المرافق ونزح المياه والعمل قرب المياه الجوفية."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Avoid excavation entry where feasible.",
+            "ar": "تجنب دخول الحفر متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-risk installation or access method where feasible.",
+            "ar": "استخدم طريقة تركيب أو وصول أقل خطراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use appropriate protective systems, water control, barriers, support, and safe access/egress.",
+            "ar": "استخدم أنظمة الحماية والتحكم بالمياه والحواجز والدعم ووسائل الدخول والخروج الآمنة المناسبة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use competent-person evaluation, utility location, inspections, exclusion zones, and safe-work procedures.",
+            "ar": "استخدم تقييم الشخص المختص وتحديد المرافق والفحوص ومناطق العزل وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the assessed excavation hazards.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر الحفر المقيمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "excavation-trench",
+        "overlays": [
+          "water-level",
+          "inflow-path",
+          "pump-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "utilities",
+        "civil"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "excavation",
+        "water",
+        "dewatering"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Excavation; water table / changing conditions",
+        "yatesPageRangeApprox": "568–569",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "water accumulation",
+          "water",
+          "exc",
+          "excavation",
+          "water",
+          "dewatering"
+        ],
+        "ar": [
+          "تجمع المياه في الحفر"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-EXC-005",
+      "categoryId": "EXC",
+      "subcategoryId": "atmosphere",
+      "name": {
+        "en": "Hazardous Atmosphere in Excavation",
+        "ar": "جو خطِر داخل الحفر"
+      },
+      "summary": {
+        "en": "Some excavations can contain oxygen-deficient, toxic, or flammable atmospheres.",
+        "ar": "قد تحتوي بعض الحفر على أجواء ناقصة الأكسجين أو سامة أو قابلة للاشتعال."
+      },
+      "mechanisms": [
+        {
+          "en": "Gases, vapors, oxygen displacement, contaminated soil, or limited air movement create a hazardous atmosphere.",
+          "ar": "تؤدي الغازات أو الأبخرة أو إزاحة الأكسجين أو التربة الملوثة أو محدودية حركة الهواء إلى جو خطِر."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Asphyxiation, poisoning, fire/explosion, loss of consciousness, or death.",
+          "ar": "اختناق وتسمم وحريق/انفجار وفقدان الوعي أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Deep excavations, contaminated sites, utility work, sewers/landfills, and atmospheric-hazard areas.",
+          "ar": "الحفر العميقة والمواقع الملوثة وأعمال المرافق والمجاري/مدافن النفايات والمناطق ذات المخاطر الجوية."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Avoid excavation entry where feasible.",
+            "ar": "تجنب دخول الحفر متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-risk installation or access method where feasible.",
+            "ar": "استخدم طريقة تركيب أو وصول أقل خطراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use appropriate protective systems, water control, barriers, support, and safe access/egress.",
+            "ar": "استخدم أنظمة الحماية والتحكم بالمياه والحواجز والدعم ووسائل الدخول والخروج الآمنة المناسبة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use competent-person evaluation, utility location, inspections, exclusion zones, and safe-work procedures.",
+            "ar": "استخدم تقييم الشخص المختص وتحديد المرافق والفحوص ومناطق العزل وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the assessed excavation hazards.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر الحفر المقيمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "excavation-trench",
+        "overlays": [
+          "atmosphere-volume",
+          "monitoring-point",
+          "ventilation-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "utilities",
+        "civil"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "excavation",
+        "hazardous-atmosphere",
+        "oxygen"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Excavation; changing site hazards",
+        "yatesPageRangeApprox": "568–572",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "hazardous atmosphere in excavation",
+          "atmosphere",
+          "exc",
+          "excavation",
+          "hazardous-atmosphere",
+          "oxygen"
+        ],
+        "ar": [
+          "جو خطِر داخل الحفر"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-EXC-006",
+      "categoryId": "EXC",
+      "subcategoryId": "access",
+      "name": {
+        "en": "Unsafe Access / Egress",
+        "ar": "دخول / خروج غير آمن من الحفر"
+      },
+      "summary": {
+        "en": "Workers can be trapped or injured when a trench lacks safe, reachable entry and exit.",
+        "ar": "قد يُحتجز العاملون أو يصابون عندما يفتقر الخندق إلى وسيلة آمنة وقابلة للوصول للدخول والخروج."
+      },
+      "mechanisms": [
+        {
+          "en": "Access is absent, improperly located, unstable, obstructed, or otherwise unsuitable.",
+          "ar": "تكون وسيلة الوصول غائبة أو موضوعة بشكل غير صحيح أو غير مستقرة أو معاقة أو غير مناسبة."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Falls, delayed escape, trapping, or increased exposure during emergencies.",
+          "ar": "سقوط وتأخر في الهروب واحتجاز أو زيادة التعرض أثناء الطوارئ."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Trench entry, utility repair, inspection, shoring installation, and excavation work.",
+          "ar": "دخول الخنادق وإصلاح المرافق والفحص وتركيب التدعيم وأعمال الحفر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Avoid excavation entry where feasible.",
+            "ar": "تجنب دخول الحفر متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-risk installation or access method where feasible.",
+            "ar": "استخدم طريقة تركيب أو وصول أقل خطراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use appropriate protective systems, water control, barriers, support, and safe access/egress.",
+            "ar": "استخدم أنظمة الحماية والتحكم بالمياه والحواجز والدعم ووسائل الدخول والخروج الآمنة المناسبة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use competent-person evaluation, utility location, inspections, exclusion zones, and safe-work procedures.",
+            "ar": "استخدم تقييم الشخص المختص وتحديد المرافق والفحوص ومناطق العزل وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the assessed excavation hazards.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر الحفر المقيمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "excavation-trench",
+        "overlays": [
+          "access-point",
+          "egress-path",
+          "blocked-exit"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "utilities",
+        "civil"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "excavation",
+        "egress",
+        "access"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Safe Entry and Exit",
+        "yatesPageRangeApprox": "571–572",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "unsafe access / egress",
+          "access",
+          "exc",
+          "excavation",
+          "egress",
+          "access"
+        ],
+        "ar": [
+          "دخول / خروج غير آمن من الحفر"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-EXC-007",
+      "categoryId": "EXC",
+      "subcategoryId": "mobile_equipment",
+      "name": {
+        "en": "Mobile Equipment at Excavation Edge",
+        "ar": "معدات متحركة قرب حافة الحفر"
+      },
+      "summary": {
+        "en": "Vehicles and mobile equipment near an excavation can enter the opening, strike workers, or destabilize the edge.",
+        "ar": "قد تدخل المركبات والمعدات المتحركة القريبة من الحفر إلى الفتحة أو تصدم العاملين أو تزعزع استقرار الحافة."
+      },
+      "mechanisms": [
+        {
+          "en": "Poor visibility, inadequate warnings, backing, traffic, or close equipment placement creates edge and surcharge hazards.",
+          "ar": "تؤدي محدودية الرؤية أو التحذيرات غير الكافية أو الرجوع للخلف أو حركة المرور أو قرب المعدات إلى مخاطر الحافة والأحمال الإضافية."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Vehicle rollover, struck-by injury, cave-in, crushing, or death.",
+          "ar": "انقلاب مركبة وإصابة من الاصطدام وانهيار وسحق أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Excavators, dump trucks, loaders, deliveries, trench work, and traffic areas.",
+          "ar": "الحفارات وشاحنات القلاب واللوادر والتوريد وأعمال الخنادق ومناطق المرور."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Avoid excavation entry where feasible.",
+            "ar": "تجنب دخول الحفر متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-risk installation or access method where feasible.",
+            "ar": "استخدم طريقة تركيب أو وصول أقل خطراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use appropriate protective systems, water control, barriers, support, and safe access/egress.",
+            "ar": "استخدم أنظمة الحماية والتحكم بالمياه والحواجز والدعم ووسائل الدخول والخروج الآمنة المناسبة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use competent-person evaluation, utility location, inspections, exclusion zones, and safe-work procedures.",
+            "ar": "استخدم تقييم الشخص المختص وتحديد المرافق والفحوص ومناطق العزل وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the assessed excavation hazards.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر الحفر المقيمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "excavation-trench",
+        "overlays": [
+          "equipment-edge-zone",
+          "travel-path",
+          "surcharge-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "utilities",
+        "civil"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "excavation",
+        "mobile-equipment",
+        "edge"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Excavation; nearby vehicles/equipment",
+        "yatesPageRangeApprox": "568–569",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "mobile equipment at excavation edge",
+          "mobile equipment",
+          "exc",
+          "excavation",
+          "mobile-equipment",
+          "edge"
+        ],
+        "ar": [
+          "معدات متحركة قرب حافة الحفر"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-EXC-008",
+      "categoryId": "EXC",
+      "subcategoryId": "structures",
+      "name": {
+        "en": "Adjacent-Structure Instability",
+        "ar": "عدم استقرار المنشآت المجاورة"
+      },
+      "summary": {
+        "en": "Excavation can remove or weaken soil support for nearby structures or foundations.",
+        "ar": "قد يزيل الحفر أو يضعف دعم التربة للمنشآت أو الأساسات المجاورة."
+      },
+      "mechanisms": [
+        {
+          "en": "Soil removal changes support conditions and can allow adjacent structures or surface encumbrances to move or fail.",
+          "ar": "يغير إزالة التربة ظروف الدعم وقد يسمح للمنشآت المجاورة أو العوائق السطحية بالحركة أو الفشل."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Structural collapse, falling objects, cave-in, crushing, or property damage.",
+          "ar": "انهيار إنشائي وسقوط أجسام وانهيار الحفر وسحق أو تلف ممتلكات."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Excavation near buildings, retaining walls, sidewalks, utilities, and foundations.",
+          "ar": "الحفر قرب المباني والجدران الساندة والأرصفة والمرافق والأساسات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Avoid excavation entry where feasible.",
+            "ar": "تجنب دخول الحفر متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-risk installation or access method where feasible.",
+            "ar": "استخدم طريقة تركيب أو وصول أقل خطراً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use appropriate protective systems, water control, barriers, support, and safe access/egress.",
+            "ar": "استخدم أنظمة الحماية والتحكم بالمياه والحواجز والدعم ووسائل الدخول والخروج الآمنة المناسبة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use competent-person evaluation, utility location, inspections, exclusion zones, and safe-work procedures.",
+            "ar": "استخدم تقييم الشخص المختص وتحديد المرافق والفحوص ومناطق العزل وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the assessed excavation hazards.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر الحفر المقيمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "excavation-trench",
+        "overlays": [
+          "adjacent-structure",
+          "support-zone",
+          "soil-removal"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "utilities",
+        "civil"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.651",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "excavation",
+        "adjacent-structure",
+        "support"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Excavation; adjacent structures/surface encumbrances",
+        "yatesPageRangeApprox": "568–569",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "adjacent-structure instability",
+          "structures",
+          "exc",
+          "excavation",
+          "adjacent-structure",
+          "support"
+        ],
+        "ar": [
+          "عدم استقرار المنشآت المجاورة"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-CONF-001",
+      "categoryId": "CONF",
+      "subcategoryId": "atmosphere",
+      "name": {
+        "en": "Oxygen-Deficient Atmosphere",
+        "ar": "جو ناقص الأكسجين"
+      },
+      "summary": {
+        "en": "A confined space may contain too little oxygen for safe entry and self-rescue.",
+        "ar": "قد يحتوي المكان المحصور على أكسجين غير كافٍ للدخول الآمن والإنقاذ الذاتي."
+      },
+      "mechanisms": [
+        {
+          "en": "Oxygen can be displaced or consumed by processes, reactions, inert gases, rusting, or biological activity.",
+          "ar": "قد يُزاح الأكسجين أو يُستهلك بسبب العمليات أو التفاعلات أو الغازات الخاملة أو الصدأ أو النشاط الحيوي."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Impaired judgment, loss of consciousness, asphyxiation, or death.",
+          "ar": "ضعف الإدراك وفقدان الوعي والاختناق أو الوفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Tank/vessel entry, pits, vaults, sewers, process equipment, and permit-space work.",
+          "ar": "دخول الخزانات/الأوعية والحفر والغرف والمجاري ومعدات العمليات وأعمال أماكن التصريح."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Perform the task without entry where feasible.",
+            "ar": "نفّذ المهمة دون دخول متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use remote inspection, cleaning, or work methods where feasible.",
+            "ar": "استخدم الفحص أو التنظيف أو العمل عن بعد متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use isolation, ventilation, monitoring, guarding, and physical safeguards appropriate to the space.",
+            "ar": "استخدم العزل والتهوية والمراقبة والحواجز ووسائل الحماية المناسبة للمكان."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use entry evaluation, permits, defined roles, communication, training, and rescue planning.",
+            "ar": "استخدم تقييم الدخول والتصاريح والأدوار المحددة والاتصال والتدريب والتخطيط للإنقاذ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use respiratory, fall, chemical, eye/face, or other PPE selected for the entry hazards.",
+            "ar": "استخدم حماية التنفس والسقوط والكيميائية والعين/الوجه أو غيرها وفق مخاطر الدخول."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "confined-space-vessel",
+        "overlays": [
+          "oxygen-deficient-atmosphere",
+          "entrant",
+          "monitor",
+          "ventilation",
+          "isolation"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "utilities",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.146",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "confined-space",
+        "oxygen-deficient",
+        "atmosphere"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Confined Space Entry Standard",
+        "yatesPageRangeApprox": "71–73",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "oxygen-deficient atmosphere",
+          "atmosphere",
+          "conf",
+          "confined-space",
+          "oxygen-deficient",
+          "atmosphere"
+        ],
+        "ar": [
+          "جو ناقص الأكسجين"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-CONF-002",
+      "categoryId": "CONF",
+      "subcategoryId": "atmosphere",
+      "name": {
+        "en": "Oxygen-Enriched Atmosphere",
+        "ar": "جو غني بالأكسجين"
+      },
+      "summary": {
+        "en": "Excess oxygen can increase the ease and intensity of combustion in a confined space.",
+        "ar": "قد تؤدي زيادة الأكسجين إلى زيادة سهولة وشدة الاحتراق داخل المكان المحصور."
+      },
+      "mechanisms": [
+        {
+          "en": "Oxygen leakage, improper purging, or process conditions increase atmospheric oxygen.",
+          "ar": "يؤدي تسرب الأكسجين أو التطهير غير الصحيح أو ظروف العملية إلى زيادة الأكسجين في الجو."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Rapid fire growth, severe burns, equipment/material ignition, or death.",
+          "ar": "نمو سريع للحريق وحروق شديدة واشتعال المعدات/المواد أو الوفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Oxygen service, welding/cutting preparation, tanks, vessels, and permit-space entry.",
+          "ar": "خدمة الأكسجين والتحضير للحام/القطع والخزانات والأوعية ودخول أماكن التصريح."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Perform the task without entry where feasible.",
+            "ar": "نفّذ المهمة دون دخول متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use remote inspection, cleaning, or work methods where feasible.",
+            "ar": "استخدم الفحص أو التنظيف أو العمل عن بعد متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use isolation, ventilation, monitoring, guarding, and physical safeguards appropriate to the space.",
+            "ar": "استخدم العزل والتهوية والمراقبة والحواجز ووسائل الحماية المناسبة للمكان."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use entry evaluation, permits, defined roles, communication, training, and rescue planning.",
+            "ar": "استخدم تقييم الدخول والتصاريح والأدوار المحددة والاتصال والتدريب والتخطيط للإنقاذ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use respiratory, fall, chemical, eye/face, or other PPE selected for the entry hazards.",
+            "ar": "استخدم حماية التنفس والسقوط والكيميائية والعين/الوجه أو غيرها وفق مخاطر الدخول."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "confined-space-vessel",
+        "overlays": [
+          "oxygen-enriched-atmosphere",
+          "ignition-source",
+          "entrant",
+          "monitor"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "utilities",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.146",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "confined-space",
+        "oxygen-enriched",
+        "fire"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Confined Space Entry Standard",
+        "yatesPageRangeApprox": "71–73",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "oxygen-enriched atmosphere",
+          "atmosphere",
+          "conf",
+          "confined-space",
+          "oxygen-enriched",
+          "fire"
+        ],
+        "ar": [
+          "جو غني بالأكسجين"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-CONF-003",
+      "categoryId": "CONF",
+      "subcategoryId": "atmosphere",
+      "name": {
+        "en": "Toxic Atmosphere",
+        "ar": "جو سام داخل مكان محصور"
+      },
+      "summary": {
+        "en": "Toxic gases, vapors, fumes, or other contaminants can accumulate in confined spaces.",
+        "ar": "قد تتراكم الغازات أو الأبخرة أو الأدخنة أو الملوثات داخل الأماكن المحصورة."
+      },
+      "mechanisms": [
+        {
+          "en": "Residues, chemicals, decomposition, adjacent systems, welding, coatings, or contaminated media release contaminants.",
+          "ar": "تطلق البقايا أو المواد الكيميائية أو التحلل أو الأنظمة المجاورة أو اللحام أو الطلاءات أو الأوساط الملوثة ملوثات."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Poisoning, respiratory injury, incapacitation, loss of consciousness, or death.",
+          "ar": "تسمم وإصابة تنفسية وعجز وفقدان الوعي أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Tank cleaning, sewer entry, process vessels, coatings, welding, and contaminated-space work.",
+          "ar": "تنظيف الخزانات ودخول المجاري وأوعية العمليات والطلاءات واللحام والعمل في أماكن ملوثة."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Perform the task without entry where feasible.",
+            "ar": "نفّذ المهمة دون دخول متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use remote inspection, cleaning, or work methods where feasible.",
+            "ar": "استخدم الفحص أو التنظيف أو العمل عن بعد متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use isolation, ventilation, monitoring, guarding, and physical safeguards appropriate to the space.",
+            "ar": "استخدم العزل والتهوية والمراقبة والحواجز ووسائل الحماية المناسبة للمكان."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use entry evaluation, permits, defined roles, communication, training, and rescue planning.",
+            "ar": "استخدم تقييم الدخول والتصاريح والأدوار المحددة والاتصال والتدريب والتخطيط للإنقاذ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use respiratory, fall, chemical, eye/face, or other PPE selected for the entry hazards.",
+            "ar": "استخدم حماية التنفس والسقوط والكيميائية والعين/الوجه أو غيرها وفق مخاطر الدخول."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "confined-space-vessel",
+        "overlays": [
+          "toxic-atmosphere",
+          "source-release",
+          "monitor",
+          "ventilation"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "utilities",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.146",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "confined-space",
+        "toxic-atmosphere",
+        "monitoring"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Confined Space Entry Standard",
+        "yatesPageRangeApprox": "71–73",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "toxic atmosphere",
+          "atmosphere",
+          "conf",
+          "confined-space",
+          "toxic-atmosphere",
+          "monitoring"
+        ],
+        "ar": [
+          "جو سام داخل مكان محصور"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-CONF-004",
+      "categoryId": "CONF",
+      "subcategoryId": "atmosphere",
+      "name": {
+        "en": "Flammable / Explosive Atmosphere",
+        "ar": "جو قابل للاشتعال / الانفجار"
+      },
+      "summary": {
+        "en": "Flammable gases, vapors, or dusts can accumulate and ignite in a confined space.",
+        "ar": "قد تتراكم الغازات أو الأبخرة أو الأتربة القابلة للاشتعال وتشتعل داخل المكان المحصور."
+      },
+      "mechanisms": [
+        {
+          "en": "Fuel/vapor release, residue, process material, dust, poor ventilation, or hot work creates an ignitable atmosphere.",
+          "ar": "يؤدي تسرب الوقود/الأبخرة أو البقايا أو مواد العملية أو الغبار أو ضعف التهوية أو العمل الساخن إلى جو قابل للاشتعال."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Flash fire, explosion, burns, blast injury, structural damage, or death.",
+          "ar": "حريق خاطف وانفجار وحروق وإصابات موجة ضغط وتلف إنشائي أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Tank/vessel entry, fuel systems, cleaning, coatings, welding/hot work, and process spaces.",
+          "ar": "دخول الخزانات/الأوعية وأنظمة الوقود والتنظيف والطلاءات واللحام/العمل الساخن وأماكن العمليات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Perform the task without entry where feasible.",
+            "ar": "نفّذ المهمة دون دخول متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use remote inspection, cleaning, or work methods where feasible.",
+            "ar": "استخدم الفحص أو التنظيف أو العمل عن بعد متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use isolation, ventilation, monitoring, guarding, and physical safeguards appropriate to the space.",
+            "ar": "استخدم العزل والتهوية والمراقبة والحواجز ووسائل الحماية المناسبة للمكان."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use entry evaluation, permits, defined roles, communication, training, and rescue planning.",
+            "ar": "استخدم تقييم الدخول والتصاريح والأدوار المحددة والاتصال والتدريب والتخطيط للإنقاذ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use respiratory, fall, chemical, eye/face, or other PPE selected for the entry hazards.",
+            "ar": "استخدم حماية التنفس والسقوط والكيميائية والعين/الوجه أو غيرها وفق مخاطر الدخول."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "confined-space-vessel",
+        "overlays": [
+          "flammable-atmosphere",
+          "ignition-source",
+          "monitor",
+          "ventilation"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "utilities",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.146",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "confined-space",
+        "flammable-atmosphere",
+        "explosion"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Confined Space Entry Standard",
+        "yatesPageRangeApprox": "71–73",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "flammable / explosive atmosphere",
+          "atmosphere",
+          "conf",
+          "confined-space",
+          "flammable-atmosphere",
+          "explosion"
+        ],
+        "ar": [
+          "جو قابل للاشتعال / الانفجار"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-CONF-005",
+      "categoryId": "CONF",
+      "subcategoryId": "physical",
+      "name": {
+        "en": "Engulfment",
+        "ar": "الابتلاع / الطمر داخل المكان المحصور"
+      },
+      "summary": {
+        "en": "Flowable solids or liquids can surround, bury, drown, constrict, or crush an entrant.",
+        "ar": "قد تحيط المواد الصلبة المتدفقة أو السوائل بالعامل الداخل فتدفنه أو تغرقه أو تخنقه أو تسحقه."
+      },
+      "mechanisms": [
+        {
+          "en": "Stored or incoming material is released into the space or shifts around the entrant.",
+          "ar": "تُطلق المواد المخزنة أو الواردة إلى المكان أو تتحرك حول العامل الداخل."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Asphyxiation, drowning, crushing, entrapment, or death.",
+          "ar": "اختناق وغرق وسحق واحتجاز أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Bins, silos, hoppers, tanks, pits, sewers, and process vessels.",
+          "ar": "الصوامع والقواديس والخزانات والحفر والمجاري وأوعية العمليات."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Perform the task without entry where feasible.",
+            "ar": "نفّذ المهمة دون دخول متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use remote inspection, cleaning, or work methods where feasible.",
+            "ar": "استخدم الفحص أو التنظيف أو العمل عن بعد متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use isolation, ventilation, monitoring, guarding, and physical safeguards appropriate to the space.",
+            "ar": "استخدم العزل والتهوية والمراقبة والحواجز ووسائل الحماية المناسبة للمكان."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use entry evaluation, permits, defined roles, communication, training, and rescue planning.",
+            "ar": "استخدم تقييم الدخول والتصاريح والأدوار المحددة والاتصال والتدريب والتخطيط للإنقاذ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use respiratory, fall, chemical, eye/face, or other PPE selected for the entry hazards.",
+            "ar": "استخدم حماية التنفس والسقوط والكيميائية والعين/الوجه أو غيرها وفق مخاطر الدخول."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "confined-space-vessel",
+        "overlays": [
+          "engulfment-material",
+          "inlet-path",
+          "entrant",
+          "isolation"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "utilities",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.146",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "confined-space",
+        "engulfment",
+        "material-flow"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Confined Space Entry Standard",
+        "yatesPageRangeApprox": "71–73",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "engulfment",
+          "physical",
+          "conf",
+          "confined-space",
+          "engulfment",
+          "material-flow"
+        ],
+        "ar": [
+          "الابتلاع / الطمر داخل المكان المحصور"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-CONF-006",
+      "categoryId": "CONF",
+      "subcategoryId": "configuration",
+      "name": {
+        "en": "Entrapment / Internal Configuration",
+        "ar": "الاحتجاز / التكوين الداخلي"
+      },
+      "summary": {
+        "en": "Internal geometry can trap or asphyxiate an entrant even without a toxic atmosphere.",
+        "ar": "قد يؤدي التكوين الداخلي إلى احتجاز العامل أو اختناقه حتى دون وجود جو سام."
+      },
+      "mechanisms": [
+        {
+          "en": "Converging walls, tapered floors, narrow passages, or equipment geometry restrict movement or escape.",
+          "ar": "تقيّد الجدران المتقاربة أو الأرضيات المتضايقة أو الممرات الضيقة أو هندسة المعدات الحركة أو الهروب."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Entrapment, crushing, positional asphyxia, delayed rescue, or death.",
+          "ar": "احتجاز وسحق واختناق وضعي وتأخر الإنقاذ أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hoppers, bins, tanks, ductwork, process vessels, pits, and irregular confined spaces.",
+          "ar": "القواديس والصوامع والخزانات ومجاري الهواء وأوعية العمليات والحفر والأماكن غير المنتظمة."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Perform the task without entry where feasible.",
+            "ar": "نفّذ المهمة دون دخول متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use remote inspection, cleaning, or work methods where feasible.",
+            "ar": "استخدم الفحص أو التنظيف أو العمل عن بعد متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use isolation, ventilation, monitoring, guarding, and physical safeguards appropriate to the space.",
+            "ar": "استخدم العزل والتهوية والمراقبة والحواجز ووسائل الحماية المناسبة للمكان."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use entry evaluation, permits, defined roles, communication, training, and rescue planning.",
+            "ar": "استخدم تقييم الدخول والتصاريح والأدوار المحددة والاتصال والتدريب والتخطيط للإنقاذ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use respiratory, fall, chemical, eye/face, or other PPE selected for the entry hazards.",
+            "ar": "استخدم حماية التنفس والسقوط والكيميائية والعين/الوجه أو غيرها وفق مخاطر الدخول."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "confined-space-vessel",
+        "overlays": [
+          "converging-walls",
+          "tapered-floor",
+          "entrapment-zone",
+          "egress-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "utilities",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.146",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "confined-space",
+        "entrapment",
+        "configuration"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Confined Space Entry Standard",
+        "yatesPageRangeApprox": "71–73",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "entrapment / internal configuration",
+          "configuration",
+          "conf",
+          "confined-space",
+          "entrapment",
+          "configuration"
+        ],
+        "ar": [
+          "الاحتجاز / التكوين الداخلي"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-CONF-007",
+      "categoryId": "CONF",
+      "subcategoryId": "energy",
+      "name": {
+        "en": "Mechanical / Energy Hazard",
+        "ar": "خطر ميكانيكي / طاقة داخل المكان المحصور"
+      },
+      "summary": {
+        "en": "Moving equipment or hazardous energy connected to the space can injure entrants if not isolated.",
+        "ar": "قد تؤذي المعدات المتحركة أو الطاقة الخطرة المتصلة بالمكان العاملين الداخلين إذا لم تُعزل."
+      },
+      "mechanisms": [
+        {
+          "en": "Agitators, conveyors, valves, electrical equipment, pressure, gravity, or other energy can move or release during entry work.",
+          "ar": "قد تتحرك الخلاطات أو الناقلات أو الصمامات أو المعدات الكهربائية أو الضغط أو الجاذبية أو مصادر طاقة أخرى أثناء أعمال الدخول."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Crushing, entanglement, electrocution, release injury, amputation, or death.",
+          "ar": "سحق وتشابك وصعق كهربائي وإصابة من التسرب وبتر أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Vessel entry, mixer/reactor maintenance, pits, process systems, and spaces connected to operating equipment.",
+          "ar": "دخول الأوعية وصيانة الخلاطات/المفاعلات والحفر وأنظمة العمليات والأماكن المتصلة بمعدات عاملة."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Perform the task without entry where feasible.",
+            "ar": "نفّذ المهمة دون دخول متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use remote inspection, cleaning, or work methods where feasible.",
+            "ar": "استخدم الفحص أو التنظيف أو العمل عن بعد متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use isolation, ventilation, monitoring, guarding, and physical safeguards appropriate to the space.",
+            "ar": "استخدم العزل والتهوية والمراقبة والحواجز ووسائل الحماية المناسبة للمكان."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use entry evaluation, permits, defined roles, communication, training, and rescue planning.",
+            "ar": "استخدم تقييم الدخول والتصاريح والأدوار المحددة والاتصال والتدريب والتخطيط للإنقاذ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use respiratory, fall, chemical, eye/face, or other PPE selected for the entry hazards.",
+            "ar": "استخدم حماية التنفس والسقوط والكيميائية والعين/الوجه أو غيرها وفق مخاطر الدخول."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "confined-space-vessel",
+        "overlays": [
+          "energy-source",
+          "moving-equipment",
+          "isolation-point",
+          "entrant"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "utilities",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.146",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related"
+        },
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "confined-space",
+        "hazardous-energy",
+        "isolation"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Confined Space Entry Standard",
+        "yatesPageRangeApprox": "71–73",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "mechanical / energy hazard",
+          "energy",
+          "conf",
+          "confined-space",
+          "hazardous-energy",
+          "isolation"
+        ],
+        "ar": [
+          "خطر ميكانيكي / طاقة داخل المكان المحصور"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-CONF-008",
+      "categoryId": "CONF",
+      "subcategoryId": "controls",
+      "name": {
+        "en": "Inadequate Isolation / Ventilation",
+        "ar": "عزل / تهوية غير كافيين"
+      },
+      "summary": {
+        "en": "Failure to isolate connected systems or control the atmosphere can allow hazards to enter or develop during entry.",
+        "ar": "قد يسمح فشل عزل الأنظمة المتصلة أو التحكم بالجو بدخول المخاطر أو تطورها أثناء الدخول."
+      },
+      "mechanisms": [
+        {
+          "en": "Valves, lines, equipment, vents, or air controls are incorrectly isolated, blocked, ventilated, or verified.",
+          "ar": "تكون الصمامات أو الخطوط أو المعدات أو الفتحات أو وسائل التحكم بالهواء معزولة أو مسدودة أو مهواة أو متحققة بشكل غير صحيح."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Toxic/flammable exposure, oxygen deficiency, engulfment, unexpected energy release, or death.",
+          "ar": "تعرض سام/قابل للاشتعال ونقص الأكسجين والابتلاع وإطلاق طاقة غير متوقع أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Process vessels, tanks, sewer/water systems, shutdowns, cleaning, and entry work.",
+          "ar": "أوعية العمليات والخزانات وأنظمة المياه/المجاري وتوقفات الصيانة والتنظيف وأعمال الدخول."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Perform the task without entry where feasible.",
+            "ar": "نفّذ المهمة دون دخول متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use remote inspection, cleaning, or work methods where feasible.",
+            "ar": "استخدم الفحص أو التنظيف أو العمل عن بعد متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use isolation, ventilation, monitoring, guarding, and physical safeguards appropriate to the space.",
+            "ar": "استخدم العزل والتهوية والمراقبة والحواجز ووسائل الحماية المناسبة للمكان."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use entry evaluation, permits, defined roles, communication, training, and rescue planning.",
+            "ar": "استخدم تقييم الدخول والتصاريح والأدوار المحددة والاتصال والتدريب والتخطيط للإنقاذ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use respiratory, fall, chemical, eye/face, or other PPE selected for the entry hazards.",
+            "ar": "استخدم حماية التنفس والسقوط والكيميائية والعين/الوجه أو غيرها وفق مخاطر الدخول."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "confined-space-vessel",
+        "overlays": [
+          "isolation-point",
+          "ventilation-path",
+          "connected-line",
+          "atmosphere-volume"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "utilities",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.146",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1203",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "related"
+        },
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "confined-space",
+        "isolation",
+        "ventilation"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Confined Space Entry Standard",
+        "yatesPageRangeApprox": "71–73",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "inadequate isolation / ventilation",
+          "controls",
+          "conf",
+          "confined-space",
+          "isolation",
+          "ventilation"
+        ],
+        "ar": [
+          "عزل / تهوية غير كافيين"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-CONF-009",
+      "categoryId": "CONF",
+      "subcategoryId": "entry_program",
+      "name": {
+        "en": "Entry / Attendant / Rescue Failure",
+        "ar": "فشل إجراءات الدخول / المراقب / الإنقاذ"
+      },
+      "summary": {
+        "en": "Entry becomes more dangerous when roles, communication, monitoring, entry control, or rescue capability fail.",
+        "ar": "يصبح الدخول أكثر خطورة عند فشل الأدوار أو الاتصال أو المراقبة أو التحكم بالدخول أو قدرة الإنقاذ."
+      },
+      "mechanisms": [
+        {
+          "en": "Permit controls are incomplete, roles break down, hazards are not monitored, or rescue is delayed or unavailable.",
+          "ar": "تكون ضوابط التصريح غير مكتملة أو تفشل الأدوار أو لا تُراقب المخاطر أو يتأخر الإنقاذ أو لا يتوفر."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Delayed hazard recognition, uncontrolled entry, failed rescue, multiple casualties, serious injury, or death.",
+          "ar": "تأخر التعرف على الخطر ودخول غير مسيطر عليه وفشل الإنقاذ وتعدد الإصابات وإصابات خطيرة أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Any permit-required confined-space entry, especially remote, complex, or high-hazard spaces.",
+          "ar": "أي دخول إلى مكان محصور يتطلب تصريحاً وخاصة الأماكن البعيدة أو المعقدة أو عالية الخطورة."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Perform the task without entry where feasible.",
+            "ar": "نفّذ المهمة دون دخول متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use remote inspection, cleaning, or work methods where feasible.",
+            "ar": "استخدم الفحص أو التنظيف أو العمل عن بعد متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use isolation, ventilation, monitoring, guarding, and physical safeguards appropriate to the space.",
+            "ar": "استخدم العزل والتهوية والمراقبة والحواجز ووسائل الحماية المناسبة للمكان."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use entry evaluation, permits, defined roles, communication, training, and rescue planning.",
+            "ar": "استخدم تقييم الدخول والتصاريح والأدوار المحددة والاتصال والتدريب والتخطيط للإنقاذ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use respiratory, fall, chemical, eye/face, or other PPE selected for the entry hazards.",
+            "ar": "استخدم حماية التنفس والسقوط والكيميائية والعين/الوجه أو غيرها وفق مخاطر الدخول."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "confined-space-vessel",
+        "overlays": [
+          "entrant",
+          "attendant",
+          "entry-supervisor",
+          "permit",
+          "rescue-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "utilities",
+        "maintenance",
+        "construction"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.146",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1204",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1205",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.1211",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "confined-space",
+        "attendant",
+        "rescue",
+        "entry-permit"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Confined Space Entry Standard",
+        "yatesPageRangeApprox": "71–73",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "entry / attendant / rescue failure",
+          "entry program",
+          "conf",
+          "confined-space",
+          "attendant",
+          "rescue",
+          "entry-permit"
+        ],
+        "ar": [
+          "فشل إجراءات الدخول / المراقب / الإنقاذ"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-001",
+      "categoryId": "LOTO",
+      "subcategoryId": "unexpected_startup",
+      "name": {
+        "en": "Unexpected Startup / Energization",
+        "ar": "تشغيل / تنشيط غير متوقع"
+      },
+      "summary": {
+        "en": "A machine can start or become energized unexpectedly during servicing or maintenance.",
+        "ar": "قد تبدأ الآلة أو تصبح مكهربة بشكل غير متوقع أثناء أعمال الخدمة أو الصيانة."
+      },
+      "mechanisms": [
+        {
+          "en": "Energy remains connected, is restored, or control logic starts equipment while a worker is exposed.",
+          "ar": "تبقى الطاقة متصلة أو تُعاد أو يبدأ منطق التحكم تشغيل المعدة أثناء تعرض العامل."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Crushing, amputation, entanglement, electrocution, struck-by injury, or death.",
+          "ar": "سحق وبتر وتشابك وصعق كهربائي وإصابة من الاصطدام أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Servicing, maintenance, setup, cleaning, jam clearing, adjustment, inspection, and repair.",
+          "ar": "الخدمة والصيانة والإعداد والتنظيف وإزالة الانحشار والضبط والفحص والإصلاح."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "energy-sources",
+          "equipment",
+          "worker-danger-zone",
+          "isolation-devices",
+          "verification"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "warehouse",
+        "facilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "loto",
+        "unexpected-startup",
+        "hazardous-energy"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Control of Hazardous Energy Standard",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "unexpected startup / energization",
+          "unexpected startup",
+          "loto",
+          "loto",
+          "unexpected-startup",
+          "hazardous-energy"
+        ],
+        "ar": [
+          "تشغيل / تنشيط غير متوقع"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-002",
+      "categoryId": "LOTO",
+      "subcategoryId": "electrical",
+      "name": {
+        "en": "Stored Electrical Energy",
+        "ar": "طاقة كهربائية مخزنة"
+      },
+      "summary": {
+        "en": "Electrical energy can remain in capacitors, batteries, circuits, or components after normal shutdown.",
+        "ar": "قد تبقى الطاقة الكهربائية في المكثفات أو البطاريات أو الدوائر أو المكونات بعد الإيقاف العادي."
+      },
+      "mechanisms": [
+        {
+          "en": "Stored charge or an energized source remains available to discharge or reenergize equipment.",
+          "ar": "تبقى شحنة مخزنة أو مصدر مكهرب قابلاً للتفريغ أو إعادة تنشيط المعدات."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Shock, electrocution, burns, arc injury, unexpected movement, or death.",
+          "ar": "صدمة وصعق كهربائي وحروق وإصابة قوسية وحركة غير متوقعة أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Servicing, maintenance, setup, inspection, jam clearing, cleaning, repair, and troubleshooting involving this energy source.",
+          "ar": "الخدمة والصيانة والإعداد والفحص وإزالة الانحشار والتنظيف والإصلاح واستكشاف الأعطال التي تتضمن مصدر الطاقة هذا."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "electrical-source",
+          "capacitor-battery",
+          "disconnect",
+          "stored-energy",
+          "verification"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "process-industry",
+        "facilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "electrical",
+        "stored-energy",
+        "capacitor"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Control of Hazardous Energy Standard",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "stored electrical energy",
+          "electrical",
+          "loto",
+          "electrical",
+          "stored-energy",
+          "capacitor"
+        ],
+        "ar": [
+          "طاقة كهربائية مخزنة"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-003",
+      "categoryId": "LOTO",
+      "subcategoryId": "mechanical",
+      "name": {
+        "en": "Stored Mechanical Energy",
+        "ar": "طاقة ميكانيكية مخزنة"
+      },
+      "summary": {
+        "en": "Rotating, moving, tensioned, compressed, or elevated components can retain energy after shutdown.",
+        "ar": "قد تحتفظ المكونات الدوارة أو المتحركة أو المشدودة أو المضغوطة أو المرتفعة بطاقة بعد الإيقاف."
+      },
+      "mechanisms": [
+        {
+          "en": "Flywheels, rotating parts, springs, tension, inertia, or moving components continue or release after shutdown.",
+          "ar": "تستمر الحذافات أو الأجزاء الدوارة أو النوابض أو الشد أو القصور الذاتي أو تتحرر بعد الإيقاف."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Crushing, impact, entanglement, pinching, amputation, or death.",
+          "ar": "سحق واصطدام وتشابك وانحشار وبتر أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Servicing, maintenance, setup, inspection, jam clearing, cleaning, repair, and troubleshooting involving this energy source.",
+          "ar": "الخدمة والصيانة والإعداد والفحص وإزالة الانحشار والتنظيف والإصلاح واستكشاف الأعطال التي تتضمن مصدر الطاقة هذا."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "mechanical-source",
+          "moving-part",
+          "block-restraint",
+          "stored-energy"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "process-industry",
+        "facilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "mechanical",
+        "stored-energy",
+        "motion"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Control of Hazardous Energy Standard",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "stored mechanical energy",
+          "mechanical",
+          "loto",
+          "mechanical",
+          "stored-energy",
+          "motion"
+        ],
+        "ar": [
+          "طاقة ميكانيكية مخزنة"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-004",
+      "categoryId": "LOTO",
+      "subcategoryId": "hydraulic",
+      "name": {
+        "en": "Hydraulic Energy",
+        "ar": "الطاقة الهيدروليكية"
+      },
+      "summary": {
+        "en": "Pressurized hydraulic fluid and raised components can retain hazardous energy after shutdown.",
+        "ar": "قد يحتفظ السائل الهيدروليكي المضغوط والمكونات المرفوعة بطاقة خطرة بعد الإيقاف."
+      },
+      "mechanisms": [
+        {
+          "en": "Pressure trapped in cylinders, accumulators, lines, valves, or elevated components can move equipment or release fluid.",
+          "ar": "قد يحرك الضغط المحبوس في الأسطوانات أو المراكم أو الخطوط أو الصمامات أو المكونات المرتفعة المعدات أو يطلق السائل."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Crushing, injection injury, high-pressure release, burns, unexpected motion, or death.",
+          "ar": "سحق وإصابة حقن وتسرب عالي الضغط وحروق وحركة غير متوقعة أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Servicing, maintenance, setup, inspection, jam clearing, cleaning, repair, and troubleshooting involving this energy source.",
+          "ar": "الخدمة والصيانة والإعداد والفحص وإزالة الانحشار والتنظيف والإصلاح واستكشاف الأعطال التي تتضمن مصدر الطاقة هذا."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "hydraulic-source",
+          "accumulator",
+          "valve",
+          "bleed-down",
+          "block-restraint"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "process-industry",
+        "facilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "hydraulic",
+        "stored-energy",
+        "pressure"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Control of Hazardous Energy Standard",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "hydraulic energy",
+          "hydraulic",
+          "loto",
+          "hydraulic",
+          "stored-energy",
+          "pressure"
+        ],
+        "ar": [
+          "الطاقة الهيدروليكية"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-005",
+      "categoryId": "LOTO",
+      "subcategoryId": "pneumatic",
+      "name": {
+        "en": "Pneumatic Energy",
+        "ar": "الطاقة الهوائية المضغوطة"
+      },
+      "summary": {
+        "en": "Compressed air or gas can remain trapped in lines, cylinders, actuators, or accumulators.",
+        "ar": "قد يبقى الهواء أو الغاز المضغوط محبوساً في الخطوط أو الأسطوانات أو المشغلات أو المراكم."
+      },
+      "mechanisms": [
+        {
+          "en": "Trapped pressure can drive motion, eject components, or release a high-energy jet when containment is opened.",
+          "ar": "قد يدفع الضغط المحبوس الحركة أو يقذف مكونات أو يطلق نفاثاً عالي الطاقة عند فتح الاحتواء."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Struck-by injury, hose whip, crushing, hearing/eye injury, unexpected motion, or death.",
+          "ar": "إصابة من الاصطدام وارتداد خرطوم وسحق وإصابة السمع/العين وحركة غير متوقعة أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Servicing, maintenance, setup, inspection, jam clearing, cleaning, repair, and troubleshooting involving this energy source.",
+          "ar": "الخدمة والصيانة والإعداد والفحص وإزالة الانحشار والتنظيف والإصلاح واستكشاف الأعطال التي تتضمن مصدر الطاقة هذا."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "pneumatic-source",
+          "air-line",
+          "valve",
+          "bleed-down",
+          "stored-pressure"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "process-industry",
+        "facilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "pneumatic",
+        "stored-energy",
+        "compressed-air"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Control of Hazardous Energy Standard",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "pneumatic energy",
+          "pneumatic",
+          "loto",
+          "pneumatic",
+          "stored-energy",
+          "compressed-air"
+        ],
+        "ar": [
+          "الطاقة الهوائية المضغوطة"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-006",
+      "categoryId": "LOTO",
+      "subcategoryId": "thermal",
+      "name": {
+        "en": "Thermal Energy",
+        "ar": "الطاقة الحرارية"
+      },
+      "summary": {
+        "en": "Hot or cold equipment and process media can retain hazardous thermal energy after shutdown.",
+        "ar": "قد تحتفظ المعدات الساخنة أو الباردة وأوساط العمليات بطاقة حرارية خطرة بعد الإيقاف."
+      },
+      "mechanisms": [
+        {
+          "en": "Residual heat, steam, hot fluid, cryogenic material, or stored temperature remains after the process stops.",
+          "ar": "تبقى الحرارة المتبقية أو البخار أو السائل الساخن أو المواد شديدة البرودة أو درجة الحرارة المخزنة بعد توقف العملية."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Thermal burns, cold injury, pressure release, or secondary traumatic injury.",
+          "ar": "حروق حرارية وإصابات برد وتسرب ضغط أو إصابة رضية ثانوية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Servicing, maintenance, setup, inspection, jam clearing, cleaning, repair, and troubleshooting involving this energy source.",
+          "ar": "الخدمة والصيانة والإعداد والفحص وإزالة الانحشار والتنظيف والإصلاح واستكشاف الأعطال التي تتضمن مصدر الطاقة هذا."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "thermal-source",
+          "hot-cold-zone",
+          "isolation",
+          "cooldown",
+          "verification"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "process-industry",
+        "facilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "thermal",
+        "stored-energy",
+        "heat"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Control of Hazardous Energy Standard",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "thermal energy",
+          "thermal",
+          "loto",
+          "thermal",
+          "stored-energy",
+          "heat"
+        ],
+        "ar": [
+          "الطاقة الحرارية"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-007",
+      "categoryId": "LOTO",
+      "subcategoryId": "chemical_process",
+      "name": {
+        "en": "Chemical / Process Energy",
+        "ar": "طاقة كيميائية / طاقة عملية"
+      },
+      "summary": {
+        "en": "Reactive, toxic, corrosive, pressurized, or process materials can remain hazardous after shutdown.",
+        "ar": "قد تبقى المواد التفاعلية أو السامة أو الأكّالة أو المضغوطة أو مواد العملية خطرة بعد إيقاف المعدات."
+      },
+      "mechanisms": [
+        {
+          "en": "Connected lines, residual chemicals, reactions, pressure, or process inventory release material or energy during servicing.",
+          "ar": "تطلق الخطوط المتصلة أو المواد الكيميائية المتبقية أو التفاعلات أو الضغط أو مخزون العملية مواد أو طاقة أثناء الصيانة."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Chemical exposure, burns, toxic release, fire/explosion, pressure injury, or death.",
+          "ar": "تعرض كيميائي وحروق وتسرب سام وحريق/انفجار وإصابة ضغط أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Servicing, maintenance, setup, inspection, jam clearing, cleaning, repair, and troubleshooting involving this energy source.",
+          "ar": "الخدمة والصيانة والإعداد والفحص وإزالة الانحشار والتنظيف والإصلاح واستكشاف الأعطال التي تتضمن مصدر الطاقة هذا."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "process-source",
+          "line-valves",
+          "chemical-inventory",
+          "isolation",
+          "drain-purge"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "process-industry",
+        "facilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "chemical-energy",
+        "process-energy",
+        "isolation"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Control of Hazardous Energy Standard",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "chemical / process energy",
+          "chemical process",
+          "loto",
+          "chemical-energy",
+          "process-energy",
+          "isolation"
+        ],
+        "ar": [
+          "طاقة كيميائية / طاقة عملية"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-008",
+      "categoryId": "LOTO",
+      "subcategoryId": "gravity",
+      "name": {
+        "en": "Gravity / Elevated Components",
+        "ar": "الجاذبية / المكونات المرتفعة"
+      },
+      "summary": {
+        "en": "Raised, suspended, or unsupported components can move downward under gravity.",
+        "ar": "قد تتحرك المكونات المرفوعة أو المعلقة أو غير المدعومة إلى أسفل بفعل الجاذبية."
+      },
+      "mechanisms": [
+        {
+          "en": "A load, ram, blade, boom, platform, or machine part remains elevated without positive blocking or restraint.",
+          "ar": "يبقى حمل أو رام أو شفرة أو ذراع أو منصة أو جزء آلة مرفوعاً دون تدعيم أو تثبيت إيجابي."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Crushing, struck-by injury, amputation, trapping, or death.",
+          "ar": "سحق وإصابة من الاصطدام وبتر واحتجاز أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Servicing, maintenance, setup, inspection, jam clearing, cleaning, repair, and troubleshooting involving this energy source.",
+          "ar": "الخدمة والصيانة والإعداد والفحص وإزالة الانحشار والتنظيف والإصلاح واستكشاف الأعطال التي تتضمن مصدر الطاقة هذا."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "elevated-component",
+          "gravity-path",
+          "block-restraint",
+          "worker-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "process-industry",
+        "facilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "gravity",
+        "stored-energy",
+        "blocking"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Control of Hazardous Energy Standard",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "gravity / elevated components",
+          "gravity",
+          "loto",
+          "gravity",
+          "stored-energy",
+          "blocking"
+        ],
+        "ar": [
+          "الجاذبية / المكونات المرتفعة"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-009",
+      "categoryId": "LOTO",
+      "subcategoryId": "residual",
+      "name": {
+        "en": "Springs / Capacitors / Residual Energy",
+        "ar": "نوابض / مكثفات / طاقة متبقية"
+      },
+      "summary": {
+        "en": "Residual energy can remain after primary energy sources are isolated.",
+        "ar": "قد تبقى طاقة متبقية بعد عزل مصادر الطاقة الرئيسية."
+      },
+      "mechanisms": [
+        {
+          "en": "Springs, capacitors, flywheels, pressure accumulators, elevated parts, or other devices retain or reaccumulate energy.",
+          "ar": "تحتفظ النوابض أو المكثفات أو الحذافات أو مراكم الضغط أو الأجزاء المرتفعة أو أجهزة أخرى بالطاقة أو تعيد تراكمها."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Shock, impact, crushing, unexpected movement, injection/release injury, or death.",
+          "ar": "صدمة واصطدام وسحق وحركة غير متوقعة وإصابة حقن/تسرب أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Servicing, maintenance, setup, inspection, jam clearing, cleaning, repair, and troubleshooting involving this energy source.",
+          "ar": "الخدمة والصيانة والإعداد والفحص وإزالة الانحشار والتنظيف والإصلاح واستكشاف الأعطال التي تتضمن مصدر الطاقة هذا."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "residual-sources",
+          "reaccumulation",
+          "restraint",
+          "bleed-down",
+          "verification"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "process-industry",
+        "facilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "residual-energy",
+        "stored-energy",
+        "reaccumulation"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Control of Hazardous Energy Standard",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "springs / capacitors / residual energy",
+          "residual",
+          "loto",
+          "residual-energy",
+          "stored-energy",
+          "reaccumulation"
+        ],
+        "ar": [
+          "نوابض / مكثفات / طاقة متبقية"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-LOTO-010",
+      "categoryId": "LOTO",
+      "subcategoryId": "program_failure",
+      "name": {
+        "en": "Isolation / Verification / Group-LOTO Failure",
+        "ar": "فشل العزل / التحقق / القفل الجماعي"
+      },
+      "summary": {
+        "en": "An energy-control procedure can fail when isolation points, locks/tags, coordination, or verification are incomplete.",
+        "ar": "قد يفشل إجراء التحكم بالطاقة عندما تكون نقاط العزل أو الأقفال/البطاقات أو التنسيق أو التحقق غير مكتملة."
+      },
+      "mechanisms": [
+        {
+          "en": "One or more energy sources remain connected, stored energy is not controlled, responsibilities are unclear, or isolation is not verified.",
+          "ar": "يبقى مصدر طاقة أو أكثر متصلاً أو لا تُضبط الطاقة المخزنة أو تكون المسؤوليات غير واضحة أو لا يتم التحقق من العزل."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Unexpected startup, hazardous energy release, multiple-worker exposure, severe injury, or death.",
+          "ar": "تشغيل غير متوقع أو إطلاق طاقة خطرة أو تعرض عدة عاملين أو إصابة شديدة أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Complex equipment, multi-craft maintenance, shift changes, group servicing, contractor work, and multiple-energy systems.",
+          "ar": "المعدات المعقدة وصيانة متعددة التخصصات وتغييرات الورديات والصيانة الجماعية وأعمال المقاولين والأنظمة متعددة الطاقة."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Design out hazardous-energy exposure during servicing where feasible.",
+            "ar": "أزل التعرض للطاقة الخطرة أثناء الصيانة بالتصميم متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-energy or inherently safer equipment/process designs where feasible.",
+            "ar": "استخدم معدات أو عمليات أقل طاقة أو أكثر أماناً بطبيعتها متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use positive energy isolation, blocking, restraint, bleed-down, disconnects, and stored-energy control.",
+            "ar": "استخدم العزل الإيجابي للطاقة والتدعيم والتثبيت وتفريغ الضغط والقواطع والتحكم بالطاقة المخزنة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use an energy-control program, machine-specific procedures, training, notification, inspection, and verification.",
+            "ar": "استخدم برنامج التحكم بالطاقة وإجراءات خاصة بالمعدة والتدريب والإخطار والفحص والتحقق."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to residual task hazards after energy control.",
+            "ar": "استخدم معدات الوقاية المناسبة لمخاطر المهمة المتبقية بعد التحكم بالطاقة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "loto-energy-machine",
+        "overlays": [
+          "multiple-energy-sources",
+          "isolation-devices",
+          "group-lock-box",
+          "verification-step"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "maintenance",
+        "chemical",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "loto",
+        "verification",
+        "group-loto"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Regulations — Energy control program / inspection / training",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.147 defines hazardous energy sources to include electrical, mechanical, hydraulic, pneumatic, chemical, thermal, or other energy and requires control of stored/residual energy and verification of isolation."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "isolation / verification / group-loto failure",
+          "program failure",
+          "loto",
+          "loto",
+          "verification",
+          "group-loto"
+        ],
+        "ar": [
+          "فشل العزل / التحقق / القفل الجماعي"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-PRESS-001",
+      "categoryId": "PRESS",
+      "subcategoryId": "vessel",
+      "name": {
+        "en": "Pressure-Vessel Overpressure",
+        "ar": "زيادة ضغط وعاء / مستقبل ضغط"
+      },
+      "summary": {
+        "en": "Pressure can rise beyond equipment capability if generation, heating, restriction, or relief/control systems are inadequate.",
+        "ar": "قد يرتفع الضغط فوق قدرة المعدة إذا كان توليد الضغط أو التسخين أو الانسداد أو أنظمة التنفيس/التحكم غير كافية."
+      },
+      "mechanisms": [
+        {
+          "en": "Heat input, blocked flow, equipment failure, control failure, or other process conditions increase internal pressure.",
+          "ar": "تؤدي الحرارة أو انسداد التدفق أو فشل المعدات أو التحكم أو ظروف العملية الأخرى إلى زيادة الضغط الداخلي."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Rupture, explosion, projectile fragments, fire, chemical release, or fatal trauma.",
+          "ar": "تمزق وانفجار وشظايا مقذوفة وحريق وتسرب كيميائي أو إصابة قاتلة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Air receivers, pressurized vessels, tanks, compressors, process systems, and maintenance.",
+          "ar": "مستقبلات الهواء والأوعية المضغوطة والخزانات والضواغط وأنظمة العمليات والصيانة."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Depressurize and isolate equipment before opening or servicing where feasible.",
+            "ar": "أزل الضغط واعزل المعدات قبل الفتح أو الصيانة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-pressure or safer equipment/process alternatives where feasible.",
+            "ar": "استخدم بدائل معدات أو عمليات ذات ضغط أقل أو أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use rated components, restraints, relief devices, regulators, shielding, secure connections, and isolation.",
+            "ar": "استخدم مكونات مصنفة ووسائل تثبيت وأجهزة تنفيس ومنظمات ودروع ووصلات مؤمنة وعزلاً مناسباً."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use inspection, manufacturer limits, preventive maintenance, controlled depressurization, and safe-work procedures.",
+            "ar": "استخدم الفحص وحدود الشركة المصنعة والصيانة الوقائية وإزالة الضغط بشكل منضبط وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the released medium and task.",
+            "ar": "استخدم معدات الوقاية المناسبة للوسط المتسرب والمهمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "pressure-vessel",
+          "pressure-rise",
+          "relief-device",
+          "rupture-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "process-industry"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.169",
+          "scope": "general-industry",
+          "relation": "direct-air-receivers-only"
+        },
+        {
+          "number": "1926.306",
+          "scope": "construction",
+          "relation": "direct-air-receivers-only"
+        }
+      ],
+      "relatedPracticeTags": [
+        "pressure",
+        "overpressure",
+        "pressure-vessel"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Hazardous Materials — Over-pressurization; ASP/CSP high-pressure coverage",
+        "yatesPageRangeApprox": "619–620 / 12",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "pressure-vessel overpressure",
+          "vessel",
+          "press",
+          "pressure",
+          "overpressure",
+          "pressure-vessel"
+        ],
+        "ar": [
+          "زيادة ضغط وعاء / مستقبل ضغط"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-PRESS-002",
+      "categoryId": "PRESS",
+      "subcategoryId": "hose",
+      "name": {
+        "en": "Hose Whip",
+        "ar": "ارتداد / سوط الخرطوم"
+      },
+      "summary": {
+        "en": "A pressurized hose can whip violently if a coupling disconnects, the hose fails, or the line is released uncontrolled.",
+        "ar": "قد يرتد الخرطوم المضغوط بعنف إذا انفصلت الوصلة أو فشل الخرطوم أو تحرر الخط دون سيطرة."
+      },
+      "mechanisms": [
+        {
+          "en": "Stored pressure accelerates the free end of a hose or fitting after sudden separation.",
+          "ar": "يسرّع الضغط المخزن الطرف الحر للخرطوم أو الوصلة بعد الانفصال المفاجئ."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Struck-by injury, laceration, fracture, eye injury, or death.",
+          "ar": "إصابة من الاصطدام وجروح وكسور وإصابة العين أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Pneumatic tools, compressed-air systems, pressure testing, hose connection/disconnection, and maintenance.",
+          "ar": "الأدوات الهوائية وأنظمة الهواء المضغوط واختبار الضغط وتوصيل/فصل الخراطيم والصيانة."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Depressurize and isolate equipment before opening or servicing where feasible.",
+            "ar": "أزل الضغط واعزل المعدات قبل الفتح أو الصيانة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-pressure or safer equipment/process alternatives where feasible.",
+            "ar": "استخدم بدائل معدات أو عمليات ذات ضغط أقل أو أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use rated components, restraints, relief devices, regulators, shielding, secure connections, and isolation.",
+            "ar": "استخدم مكونات مصنفة ووسائل تثبيت وأجهزة تنفيس ومنظمات ودروع ووصلات مؤمنة وعزلاً مناسباً."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use inspection, manufacturer limits, preventive maintenance, controlled depressurization, and safe-work procedures.",
+            "ar": "استخدم الفحص وحدود الشركة المصنعة والصيانة الوقائية وإزالة الضغط بشكل منضبط وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the released medium and task.",
+            "ar": "استخدم معدات الوقاية المناسبة للوسط المتسرب والمهمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "pressurized-hose",
+          "coupling-failure",
+          "whip-path",
+          "impact-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "process-industry"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.302",
+          "scope": "construction",
+          "relation": "direct"
+        },
+        {
+          "number": "1910.242",
+          "scope": "general-industry",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "pressure",
+        "hose-whip",
+        "pneumatic"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Compressed Air Systems; hose/whip audit concepts",
+        "yatesPageRangeApprox": "601 / 849",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "hose whip",
+          "hose",
+          "press",
+          "pressure",
+          "hose-whip",
+          "pneumatic"
+        ],
+        "ar": [
+          "ارتداد / سوط الخرطوم"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-PRESS-003",
+      "categoryId": "PRESS",
+      "subcategoryId": "hydraulic",
+      "name": {
+        "en": "Hydraulic Injection Injury",
+        "ar": "إصابة حقن هيدروليكي"
+      },
+      "summary": {
+        "en": "A fine jet of high-pressure hydraulic fluid can penetrate skin and cause deep tissue injury.",
+        "ar": "قد تخترق نفاثة دقيقة من سائل هيدروليكي عالي الضغط الجلد وتسبب إصابة عميقة للأنسجة."
+      },
+      "mechanisms": [
+        {
+          "en": "A pinhole leak, failed fitting, damaged hose, or unsafe leak checking exposes skin to a high-pressure fluid jet.",
+          "ar": "يعرّض ثقب صغير أو وصلة فاشلة أو خرطوم تالف أو فحص تسرب غير آمن الجلد لنفاث سائل عالي الضغط."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Injection injury, tissue damage, chemical injury, infection risk, or loss of function.",
+          "ar": "إصابة حقن وتلف الأنسجة وإصابة كيميائية وخطر عدوى أو فقدان وظيفة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Hydraulic tools, mobile equipment, presses, hose inspection, troubleshooting, and maintenance.",
+          "ar": "الأدوات الهيدروليكية والمعدات المتحركة والمكابس وفحص الخراطيم واستكشاف الأعطال والصيانة."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Depressurize and isolate equipment before opening or servicing where feasible.",
+            "ar": "أزل الضغط واعزل المعدات قبل الفتح أو الصيانة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-pressure or safer equipment/process alternatives where feasible.",
+            "ar": "استخدم بدائل معدات أو عمليات ذات ضغط أقل أو أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use rated components, restraints, relief devices, regulators, shielding, secure connections, and isolation.",
+            "ar": "استخدم مكونات مصنفة ووسائل تثبيت وأجهزة تنفيس ومنظمات ودروع ووصلات مؤمنة وعزلاً مناسباً."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use inspection, manufacturer limits, preventive maintenance, controlled depressurization, and safe-work procedures.",
+            "ar": "استخدم الفحص وحدود الشركة المصنعة والصيانة الوقائية وإزالة الضغط بشكل منضبط وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the released medium and task.",
+            "ar": "استخدم معدات الوقاية المناسبة للوسط المتسرب والمهمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "hydraulic-line",
+          "pinhole-leak",
+          "injection-path",
+          "hand-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "process-industry"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.302",
+          "scope": "construction",
+          "relation": "related-hydraulic-tools"
+        },
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "related-servicing"
+        }
+      ],
+      "relatedPracticeTags": [
+        "pressure",
+        "hydraulic",
+        "injection"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP coverage — hydraulics/high pressure",
+        "yatesPageRangeApprox": "12",
+        "yatesSupport": "supplemented",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "hydraulic injection injury",
+          "hydraulic",
+          "press",
+          "pressure",
+          "hydraulic",
+          "injection"
+        ],
+        "ar": [
+          "إصابة حقن هيدروليكي"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-PRESS-004",
+      "categoryId": "PRESS",
+      "subcategoryId": "pneumatic",
+      "name": {
+        "en": "Pneumatic Stored-Energy Release",
+        "ar": "إطلاق طاقة هوائية مخزنة"
+      },
+      "summary": {
+        "en": "Compressed air or gas can move equipment or eject components when stored pressure is released.",
+        "ar": "قد يحرك الهواء أو الغاز المضغوط المعدات أو يقذف المكونات عند تحرر الضغط المخزن."
+      },
+      "mechanisms": [
+        {
+          "en": "Pressure remains trapped in lines, cylinders, actuators, receivers, or equipment and is released during operation or servicing.",
+          "ar": "يبقى الضغط محبوساً في الخطوط أو الأسطوانات أو المشغلات أو المستقبلات أو المعدات ويتحرر أثناء التشغيل أو الصيانة."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Struck-by injury, crushing, hose whip, projectile injury, hearing/eye injury, or death.",
+          "ar": "إصابة من الاصطدام وسحق وارتداد خرطوم وإصابة بمقذوف وإصابة السمع/العين أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Pneumatic tools, cylinders, actuators, compressors, air receivers, maintenance, and disassembly.",
+          "ar": "الأدوات الهوائية والأسطوانات والمشغلات والضواغط ومستقبلات الهواء والصيانة والتفكيك."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Depressurize and isolate equipment before opening or servicing where feasible.",
+            "ar": "أزل الضغط واعزل المعدات قبل الفتح أو الصيانة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-pressure or safer equipment/process alternatives where feasible.",
+            "ar": "استخدم بدائل معدات أو عمليات ذات ضغط أقل أو أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use rated components, restraints, relief devices, regulators, shielding, secure connections, and isolation.",
+            "ar": "استخدم مكونات مصنفة ووسائل تثبيت وأجهزة تنفيس ومنظمات ودروع ووصلات مؤمنة وعزلاً مناسباً."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use inspection, manufacturer limits, preventive maintenance, controlled depressurization, and safe-work procedures.",
+            "ar": "استخدم الفحص وحدود الشركة المصنعة والصيانة الوقائية وإزالة الضغط بشكل منضبط وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the released medium and task.",
+            "ar": "استخدم معدات الوقاية المناسبة للوسط المتسرب والمهمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "compressed-air-source",
+          "stored-pressure",
+          "actuator-motion",
+          "release-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "process-industry"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.169",
+          "scope": "general-industry",
+          "relation": "related-air-receivers"
+        },
+        {
+          "number": "1926.306",
+          "scope": "construction",
+          "relation": "related-air-receivers"
+        },
+        {
+          "number": "1926.302",
+          "scope": "construction",
+          "relation": "related-tools"
+        }
+      ],
+      "relatedPracticeTags": [
+        "pressure",
+        "pneumatic",
+        "stored-energy"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Compressed Air Systems; hazardous-energy principles",
+        "yatesPageRangeApprox": "601 / 68–71",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "pneumatic stored-energy release",
+          "pneumatic",
+          "press",
+          "pressure",
+          "pneumatic",
+          "stored-energy"
+        ],
+        "ar": [
+          "إطلاق طاقة هوائية مخزنة"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-PRESS-005",
+      "categoryId": "PRESS",
+      "subcategoryId": "compressed_air",
+      "name": {
+        "en": "Compressed-Air Misuse",
+        "ar": "سوء استخدام الهواء المضغوط"
+      },
+      "summary": {
+        "en": "Compressed air used improperly can drive particles, damage tissue, create noise, or cause other serious injury.",
+        "ar": "قد يؤدي سوء استخدام الهواء المضغوط إلى دفع الجسيمات أو إتلاف الأنسجة أو توليد ضوضاء أو إصابات خطيرة أخرى."
+      },
+      "mechanisms": [
+        {
+          "en": "Air jets are directed at people, used for cleaning without required controls, or operated with unsafe conditions.",
+          "ar": "تُوجه نفاثات الهواء نحو الأشخاص أو تُستخدم للتنظيف دون الضوابط المطلوبة أو تُشغل في ظروف غير آمنة."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Eye/skin injury, flying-particle injury, hearing injury, or other traumatic harm.",
+          "ar": "إصابة العين/الجلد وإصابة من جسيمات متطايرة وإصابة السمع أو أذى رضّي آخر."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Cleaning, pneumatic-tool use, maintenance, workshops, construction, and manufacturing.",
+          "ar": "التنظيف واستخدام الأدوات الهوائية والصيانة والورش والإنشاء والتصنيع."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Depressurize and isolate equipment before opening or servicing where feasible.",
+            "ar": "أزل الضغط واعزل المعدات قبل الفتح أو الصيانة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-pressure or safer equipment/process alternatives where feasible.",
+            "ar": "استخدم بدائل معدات أو عمليات ذات ضغط أقل أو أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use rated components, restraints, relief devices, regulators, shielding, secure connections, and isolation.",
+            "ar": "استخدم مكونات مصنفة ووسائل تثبيت وأجهزة تنفيس ومنظمات ودروع ووصلات مؤمنة وعزلاً مناسباً."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use inspection, manufacturer limits, preventive maintenance, controlled depressurization, and safe-work procedures.",
+            "ar": "استخدم الفحص وحدود الشركة المصنعة والصيانة الوقائية وإزالة الضغط بشكل منضبط وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the released medium and task.",
+            "ar": "استخدم معدات الوقاية المناسبة للوسط المتسرب والمهمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "air-jet",
+          "flying-particles",
+          "worker-face-zone",
+          "tool-source"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "process-industry"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.242",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.302",
+          "scope": "construction",
+          "relation": "direct"
+        }
+      ],
+      "relatedPracticeTags": [
+        "pressure",
+        "compressed-air",
+        "cleaning"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — Compressed Air Systems",
+        "yatesPageRangeApprox": "601",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "compressed-air misuse",
+          "compressed air",
+          "press",
+          "pressure",
+          "compressed-air",
+          "cleaning"
+        ],
+        "ar": [
+          "سوء استخدام الهواء المضغوط"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-PRESS-006",
+      "categoryId": "PRESS",
+      "subcategoryId": "thermal_pressure",
+      "name": {
+        "en": "Steam / Hot-Fluid Release",
+        "ar": "إطلاق بخار / سائل ساخن"
+      },
+      "summary": {
+        "en": "Pressurized steam or hot liquid can release thermal and pressure energy when containment is opened or fails.",
+        "ar": "قد يطلق البخار أو السائل الساخن المضغوط طاقة حرارية وضغطية عند فتح الاحتواء أو فشله."
+      },
+      "mechanisms": [
+        {
+          "en": "A valve, flange, hose, fitting, line, or vessel opens or fails while hot pressurized media remains present.",
+          "ar": "يفتح أو يفشل صمام أو فلنجة أو خرطوم أو وصلة أو خط أو وعاء بينما يبقى الوسط الساخن المضغوط موجوداً."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Severe burns, scalding, eye injury, struck-by effects, loss of visibility, or death.",
+          "ar": "حروق شديدة وسلق وإصابة العين وتأثيرات اصطدام وفقدان الرؤية أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Steam systems, process piping, hot-water systems, cleaning, maintenance, and line breaking.",
+          "ar": "أنظمة البخار وأنابيب العمليات وأنظمة المياه الساخنة والتنظيف والصيانة وفتح الخطوط."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Depressurize and isolate equipment before opening or servicing where feasible.",
+            "ar": "أزل الضغط واعزل المعدات قبل الفتح أو الصيانة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-pressure or safer equipment/process alternatives where feasible.",
+            "ar": "استخدم بدائل معدات أو عمليات ذات ضغط أقل أو أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use rated components, restraints, relief devices, regulators, shielding, secure connections, and isolation.",
+            "ar": "استخدم مكونات مصنفة ووسائل تثبيت وأجهزة تنفيس ومنظمات ودروع ووصلات مؤمنة وعزلاً مناسباً."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use inspection, manufacturer limits, preventive maintenance, controlled depressurization, and safe-work procedures.",
+            "ar": "استخدم الفحص وحدود الشركة المصنعة والصيانة الوقائية وإزالة الضغط بشكل منضبط وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the released medium and task.",
+            "ar": "استخدم معدات الوقاية المناسبة للوسط المتسرب والمهمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "process-diagram",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "hot-fluid-line",
+          "pressure-source",
+          "release-cloud",
+          "isolation-point"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "process-industry"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.147",
+          "scope": "general-industry",
+          "relation": "related-servicing"
+        }
+      ],
+      "relatedPracticeTags": [
+        "pressure",
+        "steam",
+        "hot-fluid"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Control of Hazardous Energy — thermal/other energy concepts",
+        "yatesPageRangeApprox": "68–71",
+        "yatesSupport": "supplemented",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "steam / hot-fluid release",
+          "thermal pressure",
+          "press",
+          "pressure",
+          "steam",
+          "hot-fluid"
+        ],
+        "ar": [
+          "إطلاق بخار / سائل ساخن"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-PRESS-007",
+      "categoryId": "PRESS",
+      "subcategoryId": "vacuum",
+      "name": {
+        "en": "Vacuum / Implosion Hazard",
+        "ar": "خطر الفراغ / الانهيار للداخل"
+      },
+      "summary": {
+        "en": "Equipment under vacuum can collapse inward if containment cannot withstand external pressure or is damaged.",
+        "ar": "قد تنهار المعدات الواقعة تحت فراغ إلى الداخل إذا لم يتحمل الاحتواء الضغط الخارجي أو كان تالفاً."
+      },
+      "mechanisms": [
+        {
+          "en": "External pressure exceeds internal pressure and compromised or unsuitable containment fails inward.",
+          "ar": "يتجاوز الضغط الخارجي الضغط الداخلي فتفشل الحاوية الضعيفة أو غير المناسبة إلى الداخل."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Flying fragments, cuts, eye/face injury, chemical release, or traumatic injury.",
+          "ar": "شظايا متطايرة وجروح وإصابة العين/الوجه وتسرب كيميائي أو إصابة رضية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Vacuum vessels, laboratory/process equipment, vacuum drying, filtration, and maintenance.",
+          "ar": "أوعية الفراغ ومعدات المختبر/العمليات والتجفيف بالفراغ والترشيح والصيانة."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Depressurize and isolate equipment before opening or servicing where feasible.",
+            "ar": "أزل الضغط واعزل المعدات قبل الفتح أو الصيانة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-pressure or safer equipment/process alternatives where feasible.",
+            "ar": "استخدم بدائل معدات أو عمليات ذات ضغط أقل أو أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use rated components, restraints, relief devices, regulators, shielding, secure connections, and isolation.",
+            "ar": "استخدم مكونات مصنفة ووسائل تثبيت وأجهزة تنفيس ومنظمات ودروع ووصلات مؤمنة وعزلاً مناسباً."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use inspection, manufacturer limits, preventive maintenance, controlled depressurization, and safe-work procedures.",
+            "ar": "استخدم الفحص وحدود الشركة المصنعة والصيانة الوقائية وإزالة الضغط بشكل منضبط وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the released medium and task.",
+            "ar": "استخدم معدات الوقاية المناسبة للوسط المتسرب والمهمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "vacuum-vessel",
+          "external-pressure-arrows",
+          "implosion-zone",
+          "fragment-path"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "process-industry"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "pressure",
+        "vacuum",
+        "implosion"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "ASP/CSP coverage — physics / high-pressure concepts",
+        "yatesPageRangeApprox": "11–12",
+        "yatesSupport": "supplemented",
+        "externalBasis": [
+          "No hazard-specific Federal OSHA section is assigned; do not invent one."
+        ],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "vacuum / implosion hazard",
+          "vacuum",
+          "press",
+          "pressure",
+          "vacuum",
+          "implosion"
+        ],
+        "ar": [
+          "خطر الفراغ / الانهيار للداخل"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    },
+    {
+      "id": "HL-PRESS-008",
+      "categoryId": "PRESS",
+      "subcategoryId": "cylinders",
+      "name": {
+        "en": "Cylinder / Pressurized-Container Rupture",
+        "ar": "تمزق أسطوانة / حاوية مضغوطة"
+      },
+      "summary": {
+        "en": "A damaged, heated, overpressurized, or improperly handled compressed-gas container can rupture or release high-energy gas.",
+        "ar": "قد تتمزق أسطوانة الغاز المضغوط التالفة أو المسخنة أو زائدة الضغط أو سيئة المناولة أو تطلق غازاً عالي الطاقة."
+      },
+      "mechanisms": [
+        {
+          "en": "Container damage, heat, relief failure, valve damage, corrosion, improper handling, or overpressure compromises containment.",
+          "ar": "يؤدي تلف الحاوية أو الحرارة أو فشل التنفيس أو تلف الصمام أو التآكل أو سوء المناولة أو زيادة الضغط إلى فشل الاحتواء."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Projectile injury, blast trauma, fire/explosion, gas exposure, crushing, or death.",
+          "ar": "إصابة بمقذوف وإصابة موجة ضغط وحريق/انفجار وتعرض للغاز وسحق أو وفاة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Compressed-gas storage/use, welding/cutting, laboratories, maintenance, and construction.",
+          "ar": "تخزين/استخدام الغازات المضغوطة واللحام/القطع والمختبرات والصيانة والإنشاء."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Depressurize and isolate equipment before opening or servicing where feasible.",
+            "ar": "أزل الضغط واعزل المعدات قبل الفتح أو الصيانة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-pressure or safer equipment/process alternatives where feasible.",
+            "ar": "استخدم بدائل معدات أو عمليات ذات ضغط أقل أو أكثر أماناً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use rated components, restraints, relief devices, regulators, shielding, secure connections, and isolation.",
+            "ar": "استخدم مكونات مصنفة ووسائل تثبيت وأجهزة تنفيس ومنظمات ودروع ووصلات مؤمنة وعزلاً مناسباً."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use inspection, manufacturer limits, preventive maintenance, controlled depressurization, and safe-work procedures.",
+            "ar": "استخدم الفحص وحدود الشركة المصنعة والصيانة الوقائية وإزالة الضغط بشكل منضبط وإجراءات العمل الآمنة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE appropriate to the released medium and task.",
+            "ar": "استخدم معدات الوقاية المناسبة للوسط المتسرب والمهمة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "pressure-vessel-hose",
+        "overlays": [
+          "cylinder",
+          "valve",
+          "heat-zone",
+          "rupture-path",
+          "projectile-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "process-industry"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.101",
+          "scope": "general-industry",
+          "relation": "direct-general-compressed-gas"
+        },
+        {
+          "number": "1926.350",
+          "scope": "construction",
+          "relation": "related-welding-cylinders"
+        }
+      ],
+      "relatedPracticeTags": [
+        "pressure",
+        "compressed-gas",
+        "cylinder"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Construction Safety — compressed-gas cylinders; Hazardous Materials — overpressurization",
+        "yatesPageRangeApprox": "593–595 / 619–620",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Federal OSHA section-level mapping checked against current OSHA.gov pages on 2026-08-31."
+      },
+      "searchTerms": {
+        "en": [
+          "cylinder / pressurized-container rupture",
+          "cylinders",
+          "press",
+          "pressure",
+          "compressed-gas",
+          "cylinder"
+        ],
+        "ar": [
+          "تمزق أسطوانة / حاوية مضغوطة"
+        ]
+      },
+      "contentStatus": "phase5-controlled-draft"
+    }
+  ]
+}

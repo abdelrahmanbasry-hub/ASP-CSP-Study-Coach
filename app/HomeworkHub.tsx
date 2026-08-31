@@ -213,13 +213,15 @@ function HomeworkRunner({ runner, onExit, onSkipWarmup, onSubmit, system, onSyst
     <main className="homework-runner">
       <header className="homework-runner-header"><button className="secondary-button" onClick={onExit}><X size={16} /> Exit</button><div><small>{runner.kind === "review" ? "Retrieval warm-up" : "Homework assignment"}</small><strong>{title}</strong></div><div className="homework-runner-actions">{onSkipWarmup && <button className="text-button warmup-skip-button" onClick={onSkipWarmup}>Skip warm-up <ArrowRight size={15} /></button>}<span>{answered}/{runner.questions.length} answered</span></div></header>
       <div className="homework-progress"><i style={{ width: `${((index + 1) / runner.questions.length) * 100}%` }} /></div>
+      <div className="question-workspace">
       <section className="homework-question-card">
         <div className="question-meta"><span>Question {index + 1} / {runner.questions.length}</span><span className="difficulty-chip">{current.difficulty}</span></div><div className="question-personal-row"><BookmarkAction kind="question" itemId={current.id} title={current.stem} subtitle={chapter?.courseTitle} chapterId={runner.chapterId} system={system} onChange={onSystem} /></div>
         <h1>{current.stem}</h1>
         <div className="answer-list">{current.options.map((option, optionIndex) => <button className={answers[index] === optionIndex ? "answer selected" : "answer"} key={option} onClick={() => setAnswers((existing) => ({ ...existing, [index]: optionIndex }))}><span>{String.fromCharCode(65 + optionIndex)}</span><strong>{option}</strong>{answers[index] === optionIndex && <Check size={18} />}</button>)}</div>
-        <QuestionTools formulaQuery={`${current.stem} ${chapter?.courseTitle ?? ""}`} />
         <div className="homework-nav"><button className="secondary-button" onClick={() => setIndex((value) => Math.max(0, value - 1))} disabled={index === 0}><ArrowLeft size={16} /> Previous</button>{index < runner.questions.length - 1 ? <button className="primary-button" onClick={() => setIndex((value) => value + 1)}>Next <ArrowRight size={16} /></button> : <button className="primary-button" disabled={answered < runner.questions.length} title={answered < runner.questions.length ? "Answer every question before submitting" : undefined} onClick={() => { const score = runner.questions.filter((question, questionIndex) => answers[questionIndex] === question.correctIndex).length; onSubmit(answers, score); }}>Submit assignment <Check size={16} /></button>}</div>
       </section>
+      <QuestionTools formulaQuery={`${current.stem} ${chapter?.courseTitle ?? ""}`} />
+      </div>
       <p className="homework-lock-note"><LockKeyhole size={15} /> Explanations stay hidden until the assignment is submitted.</p>
     </main>
   );

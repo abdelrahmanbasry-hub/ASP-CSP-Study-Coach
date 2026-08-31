@@ -1,0 +1,108 @@
+✔ canonical catalog adapts 37 source records by identity and adds exactly six implemented reference scenes (1.7157ms)
+✔ configured categories and More selection route records without leaking previous filters (262.0729ms)
+✔ subcategory selection preserves Occupational Health engine, reverse filter and table state (269.6251ms)
+✔ All Hazards includes every record once and routes every implemented engine (353.4944ms)
+✔ one search matcher covers categories, subcategories, source/body/route fields and new common fields (103.641ms)
+✔ global search extends the same catalog, preserves Arabic and resolves a canonical item ID (73.3113ms)
+✔ Library search can cross All Hazards and recover from empty filters (313.3147ms)
+✔ one saved-hazard mechanism preserves old IDs, notes and timestamps across categories (169.5149ms)
+✔ language switching persists across category engines with Arabic navigation and no English bilingual spans (191.4264ms)
+✔ Standards links pass existing IDs and the destination resolves only those catalog records (84.6391ms)
+✔ unmapped Standards links open the catalog without manufacturing standards (77.2705ms)
+✔ Practice links resolve existing topic/ID references and never synthesize questions (133.4992ms)
+✔ category navigation supports focus keys, More disclosure/Escape and RTL direction (161.4924ms)
+✔ responsive category navigation contains overflow and keeps More reachable on narrow screens (0.5938ms)
+✔ controlled package remains byte-identical; exactly 52 unique records import as 10/14/14/14 (6.8123ms)
+✔ lossless adapter preserves every controlled bilingual field, tag, source qualifier and visualization token (11.7823ms)
+✔ all supplied standard numbers keep scope/relation; only real catalog IDs are linked (88.3005ms)
+✖ 27 configured templates reuse existing engines with 24 optimized additions and no per-hazard components (6.5117ms)
+✔ one search index covers all controlled fields, supplied Practice tags and unresolved standard numbers (189.4475ms)
+✔ supplied Practice tags filter existing question objects without synthesizing content (1571.6909ms)
+✔ the original 37 Occupational Health objects and six Phase 3 references retain identity and IDs (10.1564ms)
+✔ HL-ELEC-001 Arc Flash / Arc Blast: existing engine renders supplied overlays and landmarks in all languages (68.0823ms)
+✔ HL-ELEC-002 Electrical Shock / Electrocution: existing engine renders supplied overlays and landmarks in all languages (40.6709ms)
+✔ HL-ELEC-003 Electrical Burns: existing engine renders supplied overlays and landmarks in all languages (35.5128ms)
+✔ HL-ELEC-004 Exposed Energized Parts: existing engine renders supplied overlays and landmarks in all languages (41.4713ms)
+✔ HL-ELEC-005 Overhead Power Lines: existing engine renders supplied overlays and landmarks in all languages (38.4117ms)
+✔ HL-ELEC-006 Inadequate Wiring: existing engine renders supplied overlays and landmarks in all languages (30.1909ms)
+✔ HL-ELEC-007 Damaged Cords and Wires: existing engine renders supplied overlays and landmarks in all languages (14.3576ms)
+✔ HL-ELEC-008 Improper Grounding: existing engine renders supplied overlays and landmarks in all languages (31.1834ms)
+✔ HL-ELEC-009 Overloaded Circuits: existing engine renders supplied overlays and landmarks in all languages (13.9331ms)
+✔ HL-ELEC-010 Electrical Fire: existing engine renders supplied overlays and landmarks in all languages (13.0504ms)
+✔ HL-FALL-001 Same-Level Slip: existing engine renders supplied overlays and landmarks in all languages (12.4757ms)
+✔ HL-FALL-002 Same-Level Trip: existing engine renders supplied overlays and landmarks in all languages (17.6622ms)
+✔ HL-FALL-003 Floor / Wall Opening: existing engine renders supplied overlays and landmarks in all languages (16.5737ms)
+✔ HL-FALL-004 Unprotected Edge: existing engine renders supplied overlays and landmarks in all languages (13.4344ms)
+✔ HL-FALL-005 Ladder Fall: existing engine renders supplied overlays and landmarks in all languages (14.1006ms)
+✔ HL-FALL-006 Stairway Fall: existing engine renders supplied overlays and landmarks in all languages (18.428ms)
+✔ HL-FALL-007 Scaffold Fall: existing engine renders supplied overlays and landmarks in all languages (14.7225ms)
+✔ HL-FALL-008 Roof / Elevated-Surface Fall: existing engine renders supplied overlays and landmarks in all languages (14.5655ms)
+✔ HL-FALL-009 Aerial-Lift / Platform Fall: existing engine renders supplied overlays and landmarks in all languages (13.1228ms)
+✔ HL-FALL-010 Rope-Descent-System Hazard: existing engine renders supplied overlays and landmarks in all languages (19.1727ms)
+✔ HL-FALL-011 Falling Object / Dropped Object: existing engine renders supplied overlays and landmarks in all languages (12.5432ms)
+✔ HL-FALL-012 Swing Fall: existing engine renders supplied overlays and landmarks in all languages (12.6255ms)
+✔ HL-FALL-013 Insufficient Fall-Arrest Clearance: existing engine renders supplied overlays and landmarks in all languages (13.6824ms)
+✔ HL-FALL-014 Suspension Trauma: existing engine renders supplied overlays and landmarks in all languages (17.3796ms)
+✔ HL-MACH-001 Missing / Inadequate Machine Guard: existing engine renders supplied overlays and landmarks in all languages (12.9483ms)
+✔ HL-MACH-002 Point-of-Operation Hazard: existing engine renders supplied overlays and landmarks in all languages (13.0506ms)
+✔ HL-MACH-003 In-Running Nip Point: existing engine renders supplied overlays and landmarks in all languages (12.5816ms)
+✔ HL-MACH-004 Rotating Shaft / Entanglement: existing engine renders supplied overlays and landmarks in all languages (17.472ms)
+✔ HL-MACH-005 Reciprocating-Motion Hazard: existing engine renders supplied overlays and landmarks in all languages (12.7821ms)
+✔ HL-MACH-006 Shear / Cutting Point: existing engine renders supplied overlays and landmarks in all languages (12.3114ms)
+✔ HL-MACH-007 Ejected Material / Flying Object: existing engine renders supplied overlays and landmarks in all languages (12.3038ms)
+✔ HL-MACH-008 Abrasive-Grinder Wheel Hazard: existing engine renders supplied overlays and landmarks in all languages (18.111ms)
+✔ HL-MACH-009 Circular-Saw Hazard: existing engine renders supplied overlays and landmarks in all languages (12.371ms)
+✔ HL-MACH-010 Hand-Tool Misuse / Failure: existing engine renders supplied overlays and landmarks in all languages (12.3042ms)
+✔ HL-MACH-011 Portable Power-Tool Hazard: existing engine renders supplied overlays and landmarks in all languages (13.7513ms)
+✔ HL-MACH-012 Robotics / Automated-Movement Hazard: existing engine renders supplied overlays and landmarks in all languages (18.8383ms)
+✔ HL-MACH-013 Conveyor Nip / Entanglement: existing engine renders supplied overlays and landmarks in all languages (18.6379ms)
+✔ HL-MACH-014 Conveyor Falling-Material Hazard: existing engine renders supplied overlays and landmarks in all languages (12.2538ms)
+✔ HL-MAT-001 Manual Lifting / Overexertion: existing engine renders supplied overlays and landmarks in all languages (12.4236ms)
+✔ HL-MAT-002 Pushing / Pulling: existing engine renders supplied overlays and landmarks in all languages (12.3156ms)
+✔ HL-MAT-003 Forklift Collision: existing engine renders supplied overlays and landmarks in all languages (13.1998ms)
+✔ HL-MAT-004 Forklift Tip-Over: existing engine renders supplied overlays and landmarks in all languages (18.4192ms)
+✔ HL-MAT-005 Forklift-Pedestrian Interaction: existing engine renders supplied overlays and landmarks in all languages (13.9948ms)
+✔ HL-MAT-006 Forklift Falling Load: existing engine renders supplied overlays and landmarks in all languages (12.0503ms)
+✔ HL-MAT-007 Forklift Mast / Crush Point: existing engine renders supplied overlays and landmarks in all languages (12.4849ms)
+✔ HL-MAT-008 Loading-Dock / Trailer Separation: existing engine renders supplied overlays and landmarks in all languages (20.1053ms)
+✔ HL-MAT-009 Pallet-Jack Hazard: existing engine renders supplied overlays and landmarks in all languages (12.9544ms)
+✔ HL-MAT-010 Unstable Material Stacking: existing engine renders supplied overlays and landmarks in all languages (11.6259ms)
+✔ HL-MAT-011 Storage-Rack Failure: existing engine renders supplied overlays and landmarks in all languages (11.9476ms)
+✔ HL-MAT-012 Crane / Suspended Load: existing engine renders supplied overlays and landmarks in all languages (17.5232ms)
+✔ HL-MAT-013 Rigging Failure: existing engine renders supplied overlays and landmarks in all languages (13.1413ms)
+✔ HL-MAT-014 Forklift Battery Charging: existing engine renders supplied overlays and landmarks in all languages (14.0351ms)
+✔ generic panel displays exact controlled content, standard mapping, provenance and supplied Practice tags (135.5717ms)
+✔ resolved and unresolved links use genuine catalog IDs only (158.9145ms)
+✔ unified Save preserves legacy OH/reference notes and saves/removes a controlled ID (101.2905ms)
+✔ subcategory selection, language controls and keyboard callout/landmark focus remain usable (283.7552ms)
+ℹ tests 77
+ℹ suites 0
+ℹ pass 76
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4454.8783
+
+✖ failing tests:
+
+test at tests\phase4-hazards.test.mjs:63:1
+✖ 27 configured templates reuse existing engines with 24 optimized additions and no per-hazard components (6.5117ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(statSync(new URL(`../public${template.asset}`, import.meta.url)).size < 230_000)
+  
+      at TestContext.<anonymous> (file:///D:/csp-coach/csp-coach/tests/phase4-hazards.test.mjs:69:12)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

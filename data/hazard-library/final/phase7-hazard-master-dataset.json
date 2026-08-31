@@ -1,0 +1,4835 @@
+{
+  "package": "ASP/CSP Study Coach Hazard Library — Phase 7 Dataset",
+  "version": "2026-08-31-final-combined-draft1",
+  "recordCount": 41,
+  "categoryCounts": {
+    "ERGO": 12,
+    "NOISE": 8,
+    "THERM": 10,
+    "RAD": 11
+  },
+  "records": [
+    {
+      "id": "HL-ERGO-001",
+      "categoryId": "ERGO",
+      "subcategoryId": "lifting",
+      "name": {
+        "en": "Heavy / High-Frequency Lifting",
+        "ar": "الرفع الثقيل / عالي التكرار"
+      },
+      "summary": {
+        "en": "High load weight, frequency, reach, asymmetry, vertical location, travel distance, or poor coupling can increase physical stress during lifting.",
+        "ar": "يركز هذا السجل على خطر «الرفع الثقيل / عالي التكرار» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "High load weight, frequency, reach, asymmetry, vertical location, travel distance, or poor coupling can increase physical stress during lifting.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الرفع الثقيل / عالي التكرار» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "ergonomic-worker-lift",
+        "overlays": [
+          "load",
+          "lift-origin",
+          "lift-destination",
+          "reach-zone",
+          "posture-angle"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "lifting",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "heavy / high-frequency lifting",
+          "lifting",
+          "ergo",
+          "ergonomics",
+          "lifting",
+          "human-factors"
+        ],
+        "ar": [
+          "الرفع الثقيل / عالي التكرار"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-002",
+      "categoryId": "ERGO",
+      "subcategoryId": "repetition",
+      "name": {
+        "en": "Repetitive Motion",
+        "ar": "الحركة المتكررة"
+      },
+      "summary": {
+        "en": "Frequent repeated motions with limited recovery can increase cumulative loading on muscles, tendons, and joints.",
+        "ar": "يركز هذا السجل على خطر «الحركة المتكررة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Frequent repeated motions with limited recovery can increase cumulative loading on muscles, tendons, and joints.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الحركة المتكررة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "ergonomic-workstation",
+        "overlays": [
+          "repetition-cycle",
+          "hand-path",
+          "task-rate",
+          "recovery-time"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "repetition",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "repetitive motion",
+          "repetition",
+          "ergo",
+          "ergonomics",
+          "repetition",
+          "human-factors"
+        ],
+        "ar": [
+          "الحركة المتكررة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-003",
+      "categoryId": "ERGO",
+      "subcategoryId": "posture",
+      "name": {
+        "en": "Awkward Posture",
+        "ar": "الوضعية غير المريحة"
+      },
+      "summary": {
+        "en": "Bending, twisting, reaching, kneeling, squatting, wrist deviation, or other non-neutral postures can increase biomechanical stress.",
+        "ar": "يركز هذا السجل على خطر «الوضعية غير المريحة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Bending, twisting, reaching, kneeling, squatting, wrist deviation, or other non-neutral postures can increase biomechanical stress.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الوضعية غير المريحة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "ergonomic-workstation",
+        "overlays": [
+          "spine-angle",
+          "reach-zone",
+          "joint-deviation",
+          "task-height"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "posture",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "awkward posture",
+          "posture",
+          "ergo",
+          "ergonomics",
+          "posture",
+          "human-factors"
+        ],
+        "ar": [
+          "الوضعية غير المريحة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-004",
+      "categoryId": "ERGO",
+      "subcategoryId": "force",
+      "name": {
+        "en": "Forceful Exertion",
+        "ar": "المجهود العضلي القوي"
+      },
+      "summary": {
+        "en": "High push, pull, grip, pinch, lift, or tool force increases loading on muscles and joints and can reduce control.",
+        "ar": "يركز هذا السجل على خطر «المجهود العضلي القوي» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "High push, pull, grip, pinch, lift, or tool force increases loading on muscles and joints and can reduce control.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «المجهود العضلي القوي» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "ergonomic-worker-lift",
+        "overlays": [
+          "force-vector",
+          "grip-zone",
+          "load-resistance",
+          "body-posture"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "force",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "forceful exertion",
+          "force",
+          "ergo",
+          "ergonomics",
+          "force",
+          "human-factors"
+        ],
+        "ar": [
+          "المجهود العضلي القوي"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-005",
+      "categoryId": "ERGO",
+      "subcategoryId": "static_posture",
+      "name": {
+        "en": "Static Posture",
+        "ar": "الوضعية الثابتة المطولة"
+      },
+      "summary": {
+        "en": "Holding the body or a body part in one position for prolonged periods can increase local fatigue and discomfort.",
+        "ar": "يركز هذا السجل على خطر «الوضعية الثابتة المطولة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Holding the body or a body part in one position for prolonged periods can increase local fatigue and discomfort.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الوضعية الثابتة المطولة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "ergonomic-workstation",
+        "overlays": [
+          "static-body-zone",
+          "support-point",
+          "duration-indicator",
+          "neutral-posture"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "static_posture",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "static posture",
+          "static posture",
+          "ergo",
+          "ergonomics",
+          "static_posture",
+          "human-factors"
+        ],
+        "ar": [
+          "الوضعية الثابتة المطولة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-006",
+      "categoryId": "ERGO",
+      "subcategoryId": "overhead",
+      "name": {
+        "en": "Overhead Work",
+        "ar": "العمل فوق مستوى الرأس"
+      },
+      "summary": {
+        "en": "Working with the arms elevated or neck extended can increase shoulder, neck, and upper-back loading.",
+        "ar": "يركز هذا السجل على خطر «العمل فوق مستوى الرأس» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Working with the arms elevated or neck extended can increase shoulder, neck, and upper-back loading.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «العمل فوق مستوى الرأس» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "ergonomic-workstation",
+        "overlays": [
+          "overhead-reach",
+          "shoulder-elevation",
+          "neck-angle",
+          "work-height"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "overhead",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "overhead work",
+          "overhead",
+          "ergo",
+          "ergonomics",
+          "overhead",
+          "human-factors"
+        ],
+        "ar": [
+          "العمل فوق مستوى الرأس"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-007",
+      "categoryId": "ERGO",
+      "subcategoryId": "contact_stress",
+      "name": {
+        "en": "Contact Stress",
+        "ar": "إجهاد التلامس"
+      },
+      "summary": {
+        "en": "Hard or sharp edges pressing on soft tissue can concentrate local pressure and irritate nerves, tendons, or circulation.",
+        "ar": "يركز هذا السجل على خطر «إجهاد التلامس» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Hard or sharp edges pressing on soft tissue can concentrate local pressure and irritate nerves, tendons, or circulation.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إجهاد التلامس» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "ergonomic-workstation",
+        "overlays": [
+          "contact-edge",
+          "pressure-zone",
+          "hand-arm",
+          "padding-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "contact_stress",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "contact stress",
+          "contact stress",
+          "ergo",
+          "ergonomics",
+          "contact_stress",
+          "human-factors"
+        ],
+        "ar": [
+          "إجهاد التلامس"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-008",
+      "categoryId": "ERGO",
+      "subcategoryId": "vibration",
+      "name": {
+        "en": "Hand-Arm Vibration",
+        "ar": "اهتزاز اليد والذراع"
+      },
+      "summary": {
+        "en": "Vibration transmitted from powered tools into the hands and arms can contribute to vascular, nerve, muscle, and joint effects.",
+        "ar": "يركز هذا السجل على خطر «اهتزاز اليد والذراع» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Vibration transmitted from powered tools into the hands and arms can contribute to vascular, nerve, muscle, and joint effects.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «اهتزاز اليد والذراع» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "noise-source-worker",
+        "overlays": [
+          "vibrating-tool",
+          "hand-arm-path",
+          "exposure-zone",
+          "isolation-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "vibration",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "hand-arm vibration",
+          "vibration",
+          "ergo",
+          "ergonomics",
+          "vibration",
+          "human-factors"
+        ],
+        "ar": [
+          "اهتزاز اليد والذراع"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-009",
+      "categoryId": "ERGO",
+      "subcategoryId": "vibration",
+      "name": {
+        "en": "Whole-Body Vibration",
+        "ar": "اهتزاز الجسم بالكامل"
+      },
+      "summary": {
+        "en": "Vibration transmitted through a seat, floor, or platform can load the spine and whole body, especially during prolonged equipment operation.",
+        "ar": "يركز هذا السجل على خطر «اهتزاز الجسم بالكامل» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Vibration transmitted through a seat, floor, or platform can load the spine and whole body, especially during prolonged equipment operation.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «اهتزاز الجسم بالكامل» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "ergonomic-workstation",
+        "overlays": [
+          "vehicle-seat",
+          "vibration-path",
+          "spine-zone",
+          "surface-condition"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "vibration",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "whole-body vibration",
+          "vibration",
+          "ergo",
+          "ergonomics",
+          "vibration",
+          "human-factors"
+        ],
+        "ar": [
+          "اهتزاز الجسم بالكامل"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-010",
+      "categoryId": "ERGO",
+      "subcategoryId": "workstation",
+      "name": {
+        "en": "Poor Workstation Design",
+        "ar": "تصميم سيئ لمحطة العمل"
+      },
+      "summary": {
+        "en": "Mismatched work height, reach, seating, display, input device, or layout can force repeated non-neutral postures and unnecessary effort.",
+        "ar": "يركز هذا السجل على خطر «تصميم سيئ لمحطة العمل» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Mismatched work height, reach, seating, display, input device, or layout can force repeated non-neutral postures and unnecessary effort.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تصميم سيئ لمحطة العمل» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "ergonomic-workstation",
+        "overlays": [
+          "display-height",
+          "keyboard-reach",
+          "chair-support",
+          "work-surface"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "workstation",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "poor workstation design",
+          "workstation",
+          "ergo",
+          "ergonomics",
+          "workstation",
+          "human-factors"
+        ],
+        "ar": [
+          "تصميم سيئ لمحطة العمل"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-011",
+      "categoryId": "ERGO",
+      "subcategoryId": "fatigue",
+      "name": {
+        "en": "Fatigue / Work-Rest Imbalance",
+        "ar": "الإرهاق / عدم توازن العمل والراحة"
+      },
+      "summary": {
+        "en": "Insufficient recovery, long duration, high workload, or poorly planned schedules can reduce physical and cognitive performance.",
+        "ar": "يركز هذا السجل على خطر «الإرهاق / عدم توازن العمل والراحة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Insufficient recovery, long duration, high workload, or poorly planned schedules can reduce physical and cognitive performance.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الإرهاق / عدم توازن العمل والراحة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "ergonomic-workstation",
+        "overlays": [
+          "work-cycle",
+          "rest-cycle",
+          "fatigue-level",
+          "performance-zone"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "fatigue",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "indirect",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "fatigue / work-rest imbalance",
+          "fatigue",
+          "ergo",
+          "ergonomics",
+          "fatigue",
+          "human-factors"
+        ],
+        "ar": [
+          "الإرهاق / عدم توازن العمل والراحة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-ERGO-012",
+      "categoryId": "ERGO",
+      "subcategoryId": "anthropometry",
+      "name": {
+        "en": "Anthropometric / Reach Mismatch",
+        "ar": "عدم ملاءمة الأبعاد الجسمية / مدى الوصول"
+      },
+      "summary": {
+        "en": "Equipment, controls, tools, or work areas that do not fit worker body dimensions can create excessive reach, force, clearance, or visibility problems.",
+        "ar": "يركز هذا السجل على خطر «عدم ملاءمة الأبعاد الجسمية / مدى الوصول» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Equipment, controls, tools, or work areas that do not fit worker body dimensions can create excessive reach, force, clearance, or visibility problems.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «عدم ملاءمة الأبعاد الجسمية / مدى الوصول» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Musculoskeletal strain, cumulative trauma, discomfort, fatigue, reduced precision, or reduced work capacity.",
+          "ar": "إجهاد عضلي هيكلي وإصابات تراكمية وعدم راحة وإرهاق وانخفاض الدقة أو القدرة على العمل."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manual handling, assembly, computer/workstation tasks, maintenance, overhead work, tool use, driving, and repetitive production.",
+          "ar": "المناولة اليدوية والتجميع وأعمال الحاسوب/محطات العمل والصيانة والعمل فوق الرأس واستخدام الأدوات والقيادة والإنتاج المتكرر."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary manual force, repetition, reach, or awkward work where feasible.",
+            "ar": "أزل القوة اليدوية أو التكرار أو الوصول أو العمل غير المريح غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-force tools, lighter loads, alternative work methods, or better-fitting equipment.",
+            "ar": "استخدم أدوات أقل قوة وأحمالاً أخف وطرق عمل بديلة أو معدات أكثر ملاءمة."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Redesign workstations, heights, reaches, tools, seating, fixtures, handles, and material flow to fit the worker and task.",
+            "ar": "أعد تصميم محطات العمل والارتفاعات ومدى الوصول والأدوات والمقاعد والتجهيزات والمقابض وتدفق المواد بما يلائم العامل والمهمة."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use task analysis, work planning, appropriate staffing, training, maintenance, job rotation where suitable, and work-rest management.",
+            "ar": "استخدم تحليل المهمة وتخطيط العمل والتوظيف المناسب والتدريب والصيانة وتدوير الوظائف عند الملاءمة وإدارة العمل والراحة."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use PPE only where it addresses a specific secondary hazard; do not treat PPE as the primary ergonomic control.",
+            "ar": "استخدم معدات الوقاية فقط عندما تعالج خطراً ثانوياً محدداً ولا تعتبرها الضابط الأساسي للمخاطر الإرجونومية."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "ergonomic-workstation",
+        "overlays": [
+          "worker-envelope",
+          "control-reach",
+          "clearance-zone",
+          "adjustability"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "office",
+        "warehouse",
+        "healthcare",
+        "construction"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "ergonomics",
+        "anthropometry",
+        "human-factors"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Ergonomics — NIOSH lifting equation, job analysis, posture/human-factor principles",
+        "yatesPageRangeApprox": "546–566",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "anthropometric / reach mismatch",
+          "anthropometry",
+          "ergo",
+          "ergonomics",
+          "anthropometry",
+          "human-factors"
+        ],
+        "ar": [
+          "عدم ملاءمة الأبعاد الجسمية / مدى الوصول"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-NOISE-001",
+      "categoryId": "NOISE",
+      "subcategoryId": "continuous",
+      "name": {
+        "en": "Continuous Noise",
+        "ar": "الضوضاء المستمرة"
+      },
+      "summary": {
+        "en": "Continuous noise is sustained sound exposure that can contribute to cumulative noise dose and hearing risk.",
+        "ar": "يركز هذا السجل على خطر «الضوضاء المستمرة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Continuous noise is sustained sound exposure that can contribute to cumulative noise dose and hearing risk.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الضوضاء المستمرة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Temporary or permanent hearing effects, communication interference, fatigue, reduced situational awareness, or other noise-related impacts.",
+          "ar": "تأثيرات سمعية مؤقتة أو دائمة وتشويش الاتصال وإرهاق وانخفاض الوعي بالمحيط أو آثار أخرى مرتبطة بالضوضاء."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manufacturing, construction, maintenance, powered tools, heavy equipment, utilities, transportation, and other noisy operations.",
+          "ar": "التصنيع والإنشاء والصيانة والأدوات المزودة بالطاقة والمعدات الثقيلة والمرافق والنقل والعمليات الصاخبة الأخرى."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary noisy operations or isolate people from the noise source where feasible.",
+            "ar": "أزل العمليات الصاخبة غير الضرورية أو اعزل الأشخاص عن مصدر الضوضاء متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use quieter equipment, tools, materials, or process methods where feasible.",
+            "ar": "استخدم معدات أو أدوات أو مواد أو طرق عملية أقل ضوضاء متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use enclosure, isolation, damping, absorption, barriers, silencers, maintenance, and source-path controls.",
+            "ar": "استخدم الإحاطة والعزل والتخميد والامتصاص والحواجز وكواتم الصوت والصيانة وضوابط المصدر والمسار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use exposure assessment, hearing-conservation practices, work scheduling, restricted access, training, and audiometric follow-up where applicable.",
+            "ar": "استخدم تقييم التعرض وممارسات المحافظة على السمع وجدولة العمل وتقييد الوصول والتدريب والمتابعة السمعية عند انطباقها."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use properly selected and fitted hearing protection as part of the overall control program where required.",
+            "ar": "استخدم حماية سمع مختارة ومناسبة بشكل صحيح كجزء من برنامج التحكم الشامل عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "noise-source-worker",
+        "overlays": [
+          "noise-source",
+          "sound-field",
+          "worker-ear-zone",
+          "barrier-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "transportation",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.95",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "noise",
+        "continuous",
+        "hearing"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Noise and OSHA’s Hearing Program",
+        "yatesPageRangeApprox": "314–323",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "continuous noise",
+          "continuous",
+          "noise",
+          "noise",
+          "continuous",
+          "hearing"
+        ],
+        "ar": [
+          "الضوضاء المستمرة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-NOISE-002",
+      "categoryId": "NOISE",
+      "subcategoryId": "intermittent",
+      "name": {
+        "en": "Intermittent Noise",
+        "ar": "الضوضاء المتقطعة"
+      },
+      "summary": {
+        "en": "Intermittent noise occurs in separated periods and can still contribute materially to a worker's total daily noise exposure.",
+        "ar": "يركز هذا السجل على خطر «الضوضاء المتقطعة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Intermittent noise occurs in separated periods and can still contribute materially to a worker's total daily noise exposure.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الضوضاء المتقطعة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Temporary or permanent hearing effects, communication interference, fatigue, reduced situational awareness, or other noise-related impacts.",
+          "ar": "تأثيرات سمعية مؤقتة أو دائمة وتشويش الاتصال وإرهاق وانخفاض الوعي بالمحيط أو آثار أخرى مرتبطة بالضوضاء."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manufacturing, construction, maintenance, powered tools, heavy equipment, utilities, transportation, and other noisy operations.",
+          "ar": "التصنيع والإنشاء والصيانة والأدوات المزودة بالطاقة والمعدات الثقيلة والمرافق والنقل والعمليات الصاخبة الأخرى."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary noisy operations or isolate people from the noise source where feasible.",
+            "ar": "أزل العمليات الصاخبة غير الضرورية أو اعزل الأشخاص عن مصدر الضوضاء متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use quieter equipment, tools, materials, or process methods where feasible.",
+            "ar": "استخدم معدات أو أدوات أو مواد أو طرق عملية أقل ضوضاء متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use enclosure, isolation, damping, absorption, barriers, silencers, maintenance, and source-path controls.",
+            "ar": "استخدم الإحاطة والعزل والتخميد والامتصاص والحواجز وكواتم الصوت والصيانة وضوابط المصدر والمسار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use exposure assessment, hearing-conservation practices, work scheduling, restricted access, training, and audiometric follow-up where applicable.",
+            "ar": "استخدم تقييم التعرض وممارسات المحافظة على السمع وجدولة العمل وتقييد الوصول والتدريب والمتابعة السمعية عند انطباقها."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use properly selected and fitted hearing protection as part of the overall control program where required.",
+            "ar": "استخدم حماية سمع مختارة ومناسبة بشكل صحيح كجزء من برنامج التحكم الشامل عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "noise-source-worker",
+        "overlays": [
+          "noise-bursts",
+          "time-pattern",
+          "worker-ear-zone",
+          "quiet-period"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "transportation",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.95",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "noise",
+        "intermittent",
+        "hearing"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Noise and OSHA’s Hearing Program",
+        "yatesPageRangeApprox": "314–323",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "intermittent noise",
+          "intermittent",
+          "noise",
+          "noise",
+          "intermittent",
+          "hearing"
+        ],
+        "ar": [
+          "الضوضاء المتقطعة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-NOISE-003",
+      "categoryId": "NOISE",
+      "subcategoryId": "impact",
+      "name": {
+        "en": "Impact / Impulse Noise",
+        "ar": "ضوضاء الصدمة / النبض"
+      },
+      "summary": {
+        "en": "Short-duration impact or impulse events can create very high peak sound pressure and acute hearing risk.",
+        "ar": "يركز هذا السجل على خطر «ضوضاء الصدمة / النبض» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Short-duration impact or impulse events can create very high peak sound pressure and acute hearing risk.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «ضوضاء الصدمة / النبض» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Temporary or permanent hearing effects, communication interference, fatigue, reduced situational awareness, or other noise-related impacts.",
+          "ar": "تأثيرات سمعية مؤقتة أو دائمة وتشويش الاتصال وإرهاق وانخفاض الوعي بالمحيط أو آثار أخرى مرتبطة بالضوضاء."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manufacturing, construction, maintenance, powered tools, heavy equipment, utilities, transportation, and other noisy operations.",
+          "ar": "التصنيع والإنشاء والصيانة والأدوات المزودة بالطاقة والمعدات الثقيلة والمرافق والنقل والعمليات الصاخبة الأخرى."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary noisy operations or isolate people from the noise source where feasible.",
+            "ar": "أزل العمليات الصاخبة غير الضرورية أو اعزل الأشخاص عن مصدر الضوضاء متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use quieter equipment, tools, materials, or process methods where feasible.",
+            "ar": "استخدم معدات أو أدوات أو مواد أو طرق عملية أقل ضوضاء متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use enclosure, isolation, damping, absorption, barriers, silencers, maintenance, and source-path controls.",
+            "ar": "استخدم الإحاطة والعزل والتخميد والامتصاص والحواجز وكواتم الصوت والصيانة وضوابط المصدر والمسار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use exposure assessment, hearing-conservation practices, work scheduling, restricted access, training, and audiometric follow-up where applicable.",
+            "ar": "استخدم تقييم التعرض وممارسات المحافظة على السمع وجدولة العمل وتقييد الوصول والتدريب والمتابعة السمعية عند انطباقها."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use properly selected and fitted hearing protection as part of the overall control program where required.",
+            "ar": "استخدم حماية سمع مختارة ومناسبة بشكل صحيح كجزء من برنامج التحكم الشامل عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "noise-source-worker",
+        "overlays": [
+          "impulse-source",
+          "peak-wave",
+          "worker-ear-zone",
+          "distance-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "transportation",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.95",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "noise",
+        "impact",
+        "hearing"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Noise and OSHA’s Hearing Program",
+        "yatesPageRangeApprox": "314–323",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "impact / impulse noise",
+          "impact",
+          "noise",
+          "noise",
+          "impact",
+          "hearing"
+        ],
+        "ar": [
+          "ضوضاء الصدمة / النبض"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-NOISE-004",
+      "categoryId": "NOISE",
+      "subcategoryId": "combined",
+      "name": {
+        "en": "Combined Multiple Noise Sources",
+        "ar": "مصادر ضوضاء متعددة مجتمعة"
+      },
+      "summary": {
+        "en": "Several simultaneous or sequential noise sources can combine to create a higher overall exposure than any one source considered alone.",
+        "ar": "يركز هذا السجل على خطر «مصادر ضوضاء متعددة مجتمعة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Several simultaneous or sequential noise sources can combine to create a higher overall exposure than any one source considered alone.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «مصادر ضوضاء متعددة مجتمعة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Temporary or permanent hearing effects, communication interference, fatigue, reduced situational awareness, or other noise-related impacts.",
+          "ar": "تأثيرات سمعية مؤقتة أو دائمة وتشويش الاتصال وإرهاق وانخفاض الوعي بالمحيط أو آثار أخرى مرتبطة بالضوضاء."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manufacturing, construction, maintenance, powered tools, heavy equipment, utilities, transportation, and other noisy operations.",
+          "ar": "التصنيع والإنشاء والصيانة والأدوات المزودة بالطاقة والمعدات الثقيلة والمرافق والنقل والعمليات الصاخبة الأخرى."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary noisy operations or isolate people from the noise source where feasible.",
+            "ar": "أزل العمليات الصاخبة غير الضرورية أو اعزل الأشخاص عن مصدر الضوضاء متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use quieter equipment, tools, materials, or process methods where feasible.",
+            "ar": "استخدم معدات أو أدوات أو مواد أو طرق عملية أقل ضوضاء متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use enclosure, isolation, damping, absorption, barriers, silencers, maintenance, and source-path controls.",
+            "ar": "استخدم الإحاطة والعزل والتخميد والامتصاص والحواجز وكواتم الصوت والصيانة وضوابط المصدر والمسار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use exposure assessment, hearing-conservation practices, work scheduling, restricted access, training, and audiometric follow-up where applicable.",
+            "ar": "استخدم تقييم التعرض وممارسات المحافظة على السمع وجدولة العمل وتقييد الوصول والتدريب والمتابعة السمعية عند انطباقها."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use properly selected and fitted hearing protection as part of the overall control program where required.",
+            "ar": "استخدم حماية سمع مختارة ومناسبة بشكل صحيح كجزء من برنامج التحكم الشامل عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "noise-source-worker",
+        "overlays": [
+          "source-a",
+          "source-b",
+          "source-c",
+          "combined-field"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "transportation",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.95",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "noise",
+        "combined",
+        "hearing"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Noise and OSHA’s Hearing Program",
+        "yatesPageRangeApprox": "314–323",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "combined multiple noise sources",
+          "combined",
+          "noise",
+          "noise",
+          "combined",
+          "hearing"
+        ],
+        "ar": [
+          "مصادر ضوضاء متعددة مجتمعة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-NOISE-005",
+      "categoryId": "NOISE",
+      "subcategoryId": "dose",
+      "name": {
+        "en": "Excessive Noise Dose / TWA",
+        "ar": "جرعة ضوضاء / متوسط زمني مفرط"
+      },
+      "summary": {
+        "en": "Noise level and duration combine over the workday; longer or louder exposures increase total dose.",
+        "ar": "يركز هذا السجل على خطر «جرعة ضوضاء / متوسط زمني مفرط» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Noise level and duration combine over the workday; longer or louder exposures increase total dose.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «جرعة ضوضاء / متوسط زمني مفرط» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Temporary or permanent hearing effects, communication interference, fatigue, reduced situational awareness, or other noise-related impacts.",
+          "ar": "تأثيرات سمعية مؤقتة أو دائمة وتشويش الاتصال وإرهاق وانخفاض الوعي بالمحيط أو آثار أخرى مرتبطة بالضوضاء."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manufacturing, construction, maintenance, powered tools, heavy equipment, utilities, transportation, and other noisy operations.",
+          "ar": "التصنيع والإنشاء والصيانة والأدوات المزودة بالطاقة والمعدات الثقيلة والمرافق والنقل والعمليات الصاخبة الأخرى."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary noisy operations or isolate people from the noise source where feasible.",
+            "ar": "أزل العمليات الصاخبة غير الضرورية أو اعزل الأشخاص عن مصدر الضوضاء متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use quieter equipment, tools, materials, or process methods where feasible.",
+            "ar": "استخدم معدات أو أدوات أو مواد أو طرق عملية أقل ضوضاء متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use enclosure, isolation, damping, absorption, barriers, silencers, maintenance, and source-path controls.",
+            "ar": "استخدم الإحاطة والعزل والتخميد والامتصاص والحواجز وكواتم الصوت والصيانة وضوابط المصدر والمسار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use exposure assessment, hearing-conservation practices, work scheduling, restricted access, training, and audiometric follow-up where applicable.",
+            "ar": "استخدم تقييم التعرض وممارسات المحافظة على السمع وجدولة العمل وتقييد الوصول والتدريب والمتابعة السمعية عند انطباقها."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use properly selected and fitted hearing protection as part of the overall control program where required.",
+            "ar": "استخدم حماية سمع مختارة ومناسبة بشكل صحيح كجزء من برنامج التحكم الشامل عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "noise-source-worker",
+        "overlays": [
+          "sound-level",
+          "exposure-time",
+          "dose-meter",
+          "worker"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "transportation",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.95",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "noise",
+        "dose",
+        "hearing"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Noise and OSHA’s Hearing Program",
+        "yatesPageRangeApprox": "314–323",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "excessive noise dose / twa",
+          "dose",
+          "noise",
+          "noise",
+          "dose",
+          "hearing"
+        ],
+        "ar": [
+          "جرعة ضوضاء / متوسط زمني مفرط"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-NOISE-006",
+      "categoryId": "NOISE",
+      "subcategoryId": "acoustics",
+      "name": {
+        "en": "Reverberant / Poorly Absorptive Space",
+        "ar": "مكان مرتد الصدى / ضعيف الامتصاص"
+      },
+      "summary": {
+        "en": "Hard reflective surfaces can increase reverberation and extend the sound field beyond the immediate noise source.",
+        "ar": "يركز هذا السجل على خطر «مكان مرتد الصدى / ضعيف الامتصاص» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Hard reflective surfaces can increase reverberation and extend the sound field beyond the immediate noise source.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «مكان مرتد الصدى / ضعيف الامتصاص» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Temporary or permanent hearing effects, communication interference, fatigue, reduced situational awareness, or other noise-related impacts.",
+          "ar": "تأثيرات سمعية مؤقتة أو دائمة وتشويش الاتصال وإرهاق وانخفاض الوعي بالمحيط أو آثار أخرى مرتبطة بالضوضاء."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manufacturing, construction, maintenance, powered tools, heavy equipment, utilities, transportation, and other noisy operations.",
+          "ar": "التصنيع والإنشاء والصيانة والأدوات المزودة بالطاقة والمعدات الثقيلة والمرافق والنقل والعمليات الصاخبة الأخرى."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary noisy operations or isolate people from the noise source where feasible.",
+            "ar": "أزل العمليات الصاخبة غير الضرورية أو اعزل الأشخاص عن مصدر الضوضاء متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use quieter equipment, tools, materials, or process methods where feasible.",
+            "ar": "استخدم معدات أو أدوات أو مواد أو طرق عملية أقل ضوضاء متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use enclosure, isolation, damping, absorption, barriers, silencers, maintenance, and source-path controls.",
+            "ar": "استخدم الإحاطة والعزل والتخميد والامتصاص والحواجز وكواتم الصوت والصيانة وضوابط المصدر والمسار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use exposure assessment, hearing-conservation practices, work scheduling, restricted access, training, and audiometric follow-up where applicable.",
+            "ar": "استخدم تقييم التعرض وممارسات المحافظة على السمع وجدولة العمل وتقييد الوصول والتدريب والمتابعة السمعية عند انطباقها."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use properly selected and fitted hearing protection as part of the overall control program where required.",
+            "ar": "استخدم حماية سمع مختارة ومناسبة بشكل صحيح كجزء من برنامج التحكم الشامل عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "noise-source-worker",
+        "overlays": [
+          "source",
+          "reflected-paths",
+          "hard-surfaces",
+          "absorption-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "transportation",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.95",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "noise",
+        "acoustics",
+        "hearing"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Noise and OSHA’s Hearing Program",
+        "yatesPageRangeApprox": "314–323",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "reverberant / poorly absorptive space",
+          "acoustics",
+          "noise",
+          "noise",
+          "acoustics",
+          "hearing"
+        ],
+        "ar": [
+          "مكان مرتد الصدى / ضعيف الامتصاص"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-NOISE-007",
+      "categoryId": "NOISE",
+      "subcategoryId": "hearing_protection",
+      "name": {
+        "en": "Inadequate Hearing-Protector Attenuation",
+        "ar": "توهين غير كافٍ لواقيات السمع"
+      },
+      "summary": {
+        "en": "Incorrect selection, fit, use, condition, or expected attenuation of hearing protection can leave the worker insufficiently protected.",
+        "ar": "يركز هذا السجل على خطر «توهين غير كافٍ لواقيات السمع» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Incorrect selection, fit, use, condition, or expected attenuation of hearing protection can leave the worker insufficiently protected.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «توهين غير كافٍ لواقيات السمع» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Temporary or permanent hearing effects, communication interference, fatigue, reduced situational awareness, or other noise-related impacts.",
+          "ar": "تأثيرات سمعية مؤقتة أو دائمة وتشويش الاتصال وإرهاق وانخفاض الوعي بالمحيط أو آثار أخرى مرتبطة بالضوضاء."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manufacturing, construction, maintenance, powered tools, heavy equipment, utilities, transportation, and other noisy operations.",
+          "ar": "التصنيع والإنشاء والصيانة والأدوات المزودة بالطاقة والمعدات الثقيلة والمرافق والنقل والعمليات الصاخبة الأخرى."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary noisy operations or isolate people from the noise source where feasible.",
+            "ar": "أزل العمليات الصاخبة غير الضرورية أو اعزل الأشخاص عن مصدر الضوضاء متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use quieter equipment, tools, materials, or process methods where feasible.",
+            "ar": "استخدم معدات أو أدوات أو مواد أو طرق عملية أقل ضوضاء متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use enclosure, isolation, damping, absorption, barriers, silencers, maintenance, and source-path controls.",
+            "ar": "استخدم الإحاطة والعزل والتخميد والامتصاص والحواجز وكواتم الصوت والصيانة وضوابط المصدر والمسار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use exposure assessment, hearing-conservation practices, work scheduling, restricted access, training, and audiometric follow-up where applicable.",
+            "ar": "استخدم تقييم التعرض وممارسات المحافظة على السمع وجدولة العمل وتقييد الوصول والتدريب والمتابعة السمعية عند انطباقها."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use properly selected and fitted hearing protection as part of the overall control program where required.",
+            "ar": "استخدم حماية سمع مختارة ومناسبة بشكل صحيح كجزء من برنامج التحكم الشامل عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "noise-source-worker",
+        "overlays": [
+          "noise-source",
+          "hearing-protector",
+          "fit-zone",
+          "residual-exposure"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "transportation",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.95",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "noise",
+        "hearing_protection",
+        "hearing"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Noise and OSHA’s Hearing Program",
+        "yatesPageRangeApprox": "314–323",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "inadequate hearing-protector attenuation",
+          "hearing protection",
+          "noise",
+          "noise",
+          "hearing_protection",
+          "hearing"
+        ],
+        "ar": [
+          "توهين غير كافٍ لواقيات السمع"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-NOISE-008",
+      "categoryId": "NOISE",
+      "subcategoryId": "hearing_loss",
+      "name": {
+        "en": "Occupational Hearing-Loss / STS Risk",
+        "ar": "خطر فقدان السمع المهني / تغير عتبة السمع"
+      },
+      "summary": {
+        "en": "Repeated occupational noise exposure can contribute to permanent hearing loss and measurable changes in hearing thresholds.",
+        "ar": "يركز هذا السجل على خطر «خطر فقدان السمع المهني / تغير عتبة السمع» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Repeated occupational noise exposure can contribute to permanent hearing loss and measurable changes in hearing thresholds.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «خطر فقدان السمع المهني / تغير عتبة السمع» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Temporary or permanent hearing effects, communication interference, fatigue, reduced situational awareness, or other noise-related impacts.",
+          "ar": "تأثيرات سمعية مؤقتة أو دائمة وتشويش الاتصال وإرهاق وانخفاض الوعي بالمحيط أو آثار أخرى مرتبطة بالضوضاء."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Manufacturing, construction, maintenance, powered tools, heavy equipment, utilities, transportation, and other noisy operations.",
+          "ar": "التصنيع والإنشاء والصيانة والأدوات المزودة بالطاقة والمعدات الثقيلة والمرافق والنقل والعمليات الصاخبة الأخرى."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove unnecessary noisy operations or isolate people from the noise source where feasible.",
+            "ar": "أزل العمليات الصاخبة غير الضرورية أو اعزل الأشخاص عن مصدر الضوضاء متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use quieter equipment, tools, materials, or process methods where feasible.",
+            "ar": "استخدم معدات أو أدوات أو مواد أو طرق عملية أقل ضوضاء متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use enclosure, isolation, damping, absorption, barriers, silencers, maintenance, and source-path controls.",
+            "ar": "استخدم الإحاطة والعزل والتخميد والامتصاص والحواجز وكواتم الصوت والصيانة وضوابط المصدر والمسار."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use exposure assessment, hearing-conservation practices, work scheduling, restricted access, training, and audiometric follow-up where applicable.",
+            "ar": "استخدم تقييم التعرض وممارسات المحافظة على السمع وجدولة العمل وتقييد الوصول والتدريب والمتابعة السمعية عند انطباقها."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use properly selected and fitted hearing protection as part of the overall control program where required.",
+            "ar": "استخدم حماية سمع مختارة ومناسبة بشكل صحيح كجزء من برنامج التحكم الشامل عند الحاجة."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "noise-source-worker",
+        "overlays": [
+          "noise-history",
+          "audiogram",
+          "hearing-threshold",
+          "control-program"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "manufacturing",
+        "construction",
+        "maintenance",
+        "transportation",
+        "utilities"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.95",
+          "scope": "general-industry",
+          "relation": "direct"
+        },
+        {
+          "number": "1926.52",
+          "scope": "construction",
+          "relation": "related"
+        }
+      ],
+      "relatedPracticeTags": [
+        "noise",
+        "hearing_loss",
+        "hearing"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Noise and OSHA’s Hearing Program",
+        "yatesPageRangeApprox": "314–323",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "occupational hearing-loss / sts risk",
+          "hearing loss",
+          "noise",
+          "noise",
+          "hearing_loss",
+          "hearing"
+        ],
+        "ar": [
+          "خطر فقدان السمع المهني / تغير عتبة السمع"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-001",
+      "categoryId": "THERM",
+      "subcategoryId": "heat_stress",
+      "name": {
+        "en": "Heat Stress / Heat Strain",
+        "ar": "الإجهاد الحراري / إجهاد الجسم الحراري"
+      },
+      "summary": {
+        "en": "Environmental heat, metabolic workload, clothing, radiant sources, humidity, and limited cooling can overwhelm the body's heat balance.",
+        "ar": "يركز هذا السجل على خطر «الإجهاد الحراري / إجهاد الجسم الحراري» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Environmental heat, metabolic workload, clothing, radiant sources, humidity, and limited cooling can overwhelm the body's heat balance.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الإجهاد الحراري / إجهاد الجسم الحراري» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "heat-source",
+          "humidity",
+          "workload",
+          "worker-heat-load",
+          "cooling-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "heat_stress",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "heat stress / heat strain",
+          "heat stress",
+          "therm",
+          "thermal",
+          "heat_stress",
+          "heat-cold"
+        ],
+        "ar": [
+          "الإجهاد الحراري / إجهاد الجسم الحراري"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-002",
+      "categoryId": "THERM",
+      "subcategoryId": "heat_rash",
+      "name": {
+        "en": "Heat Rash",
+        "ar": "الطفح الحراري"
+      },
+      "summary": {
+        "en": "Prolonged sweating and persistently wet skin in hot or humid conditions can contribute to heat rash.",
+        "ar": "يركز هذا السجل على خطر «الطفح الحراري» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Prolonged sweating and persistently wet skin in hot or humid conditions can contribute to heat rash.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الطفح الحراري» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "hot-humid-zone",
+          "sweat",
+          "skin-zone",
+          "drying-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "heat_rash",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "heat rash",
+          "heat rash",
+          "therm",
+          "thermal",
+          "heat_rash",
+          "heat-cold"
+        ],
+        "ar": [
+          "الطفح الحراري"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-003",
+      "categoryId": "THERM",
+      "subcategoryId": "heat_cramps",
+      "name": {
+        "en": "Heat Cramps",
+        "ar": "تشنجات الحرارة"
+      },
+      "summary": {
+        "en": "Heavy sweating with fluid and electrolyte loss can contribute to painful muscle cramps during heat exposure.",
+        "ar": "يركز هذا السجل على خطر «تشنجات الحرارة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Heavy sweating with fluid and electrolyte loss can contribute to painful muscle cramps during heat exposure.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «تشنجات الحرارة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "sweat-loss",
+          "muscle-zone",
+          "hydration",
+          "rest-area"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "heat_cramps",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "heat cramps",
+          "heat cramps",
+          "therm",
+          "thermal",
+          "heat_cramps",
+          "heat-cold"
+        ],
+        "ar": [
+          "تشنجات الحرارة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-004",
+      "categoryId": "THERM",
+      "subcategoryId": "heat_syncope",
+      "name": {
+        "en": "Heat Syncope",
+        "ar": "الإغماء الحراري"
+      },
+      "summary": {
+        "en": "Heat exposure, prolonged standing, and circulatory changes can contribute to dizziness or fainting.",
+        "ar": "يركز هذا السجل على خطر «الإغماء الحراري» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Heat exposure, prolonged standing, and circulatory changes can contribute to dizziness or fainting.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الإغماء الحراري» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "heat-zone",
+          "standing-worker",
+          "circulation",
+          "cool-area"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "heat_syncope",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "heat syncope",
+          "heat syncope",
+          "therm",
+          "thermal",
+          "heat_syncope",
+          "heat-cold"
+        ],
+        "ar": [
+          "الإغماء الحراري"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-005",
+      "categoryId": "THERM",
+      "subcategoryId": "dehydration",
+      "name": {
+        "en": "Dehydration",
+        "ar": "الجفاف"
+      },
+      "summary": {
+        "en": "Fluid loss that exceeds fluid intake reduces work capacity and can worsen heat strain and other heat-related conditions.",
+        "ar": "يركز هذا السجل على خطر «الجفاف» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Fluid loss that exceeds fluid intake reduces work capacity and can worsen heat strain and other heat-related conditions.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الجفاف» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "fluid-loss",
+          "fluid-intake",
+          "body-water",
+          "work-capacity"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "dehydration",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "dehydration",
+          "dehydration",
+          "therm",
+          "thermal",
+          "dehydration",
+          "heat-cold"
+        ],
+        "ar": [
+          "الجفاف"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-006",
+      "categoryId": "THERM",
+      "subcategoryId": "heat_exhaustion",
+      "name": {
+        "en": "Heat Exhaustion",
+        "ar": "الإنهاك الحراري"
+      },
+      "summary": {
+        "en": "Large fluid and salt losses during heat exposure can cause weakness, dizziness, heavy sweating, and collapse and may progress to more severe illness.",
+        "ar": "يركز هذا السجل على خطر «الإنهاك الحراري» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Large fluid and salt losses during heat exposure can cause weakness, dizziness, heavy sweating, and collapse and may progress to more severe illness.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الإنهاك الحراري» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "heat-load",
+          "sweating",
+          "fatigue-zone",
+          "cooling-response"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "heat_exhaustion",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "heat exhaustion",
+          "heat exhaustion",
+          "therm",
+          "thermal",
+          "heat_exhaustion",
+          "heat-cold"
+        ],
+        "ar": [
+          "الإنهاك الحراري"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-007",
+      "categoryId": "THERM",
+      "subcategoryId": "heat_stroke",
+      "name": {
+        "en": "Heat Stroke",
+        "ar": "ضربة الحرارة"
+      },
+      "summary": {
+        "en": "Heat stroke occurs when thermoregulation fails and is a medical emergency requiring immediate emergency response.",
+        "ar": "يركز هذا السجل على خطر «ضربة الحرارة» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Heat stroke occurs when thermoregulation fails and is a medical emergency requiring immediate emergency response.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «ضربة الحرارة» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "extreme-heat-load",
+          "thermoregulation-failure",
+          "emergency-zone",
+          "cooling-response"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "heat_stroke",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "heat stroke",
+          "heat stroke",
+          "therm",
+          "thermal",
+          "heat_stroke",
+          "heat-cold"
+        ],
+        "ar": [
+          "ضربة الحرارة"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-008",
+      "categoryId": "THERM",
+      "subcategoryId": "cold_stress",
+      "name": {
+        "en": "Cold Stress",
+        "ar": "الإجهاد البارد"
+      },
+      "summary": {
+        "en": "Cold air, wind, wetness, contact with cold surfaces, and inadequate insulation increase body heat loss and fatigue.",
+        "ar": "يركز هذا السجل على خطر «الإجهاد البارد» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Cold air, wind, wetness, contact with cold surfaces, and inadequate insulation increase body heat loss and fatigue.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الإجهاد البارد» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "cold-source",
+          "wind-path",
+          "wetness",
+          "worker-cold-load",
+          "warming-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "cold_stress",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "cold stress",
+          "cold stress",
+          "therm",
+          "thermal",
+          "cold_stress",
+          "heat-cold"
+        ],
+        "ar": [
+          "الإجهاد البارد"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-009",
+      "categoryId": "THERM",
+      "subcategoryId": "hypothermia",
+      "name": {
+        "en": "Hypothermia",
+        "ar": "انخفاض حرارة الجسم"
+      },
+      "summary": {
+        "en": "Prolonged or severe cold exposure can reduce core body temperature and impair judgment, coordination, and consciousness.",
+        "ar": "يركز هذا السجل على خطر «انخفاض حرارة الجسم» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Prolonged or severe cold exposure can reduce core body temperature and impair judgment, coordination, and consciousness.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «انخفاض حرارة الجسم» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "cold-exposure",
+          "core-temperature",
+          "shivering",
+          "warm-shelter"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "hypothermia",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "hypothermia",
+          "hypothermia",
+          "therm",
+          "thermal",
+          "hypothermia",
+          "heat-cold"
+        ],
+        "ar": [
+          "انخفاض حرارة الجسم"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-THERM-010",
+      "categoryId": "THERM",
+      "subcategoryId": "frostbite",
+      "name": {
+        "en": "Frostbite",
+        "ar": "قضمة الصقيع"
+      },
+      "summary": {
+        "en": "Freezing conditions can damage exposed or insufficiently protected tissue, especially extremities.",
+        "ar": "يركز هذا السجل على خطر «قضمة الصقيع» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Freezing conditions can damage exposed or insufficiently protected tissue, especially extremities.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «قضمة الصقيع» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Heat- or cold-related illness/injury, fatigue, impaired performance, loss of consciousness, secondary accidents, or death depending on severity.",
+          "ar": "مرض أو إصابة مرتبطة بالحرارة أو البرد وإرهاق وضعف الأداء وفقدان الوعي وحوادث ثانوية أو وفاة وفق الشدة."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Outdoor work, hot-process work, kitchens/foundries, firefighting support, cold storage, winter work, utilities, and heavy physical work.",
+          "ar": "العمل الخارجي والعمليات الساخنة والمطابخ/المسابك ودعم مكافحة الحريق والتخزين البارد والعمل الشتوي والمرافق والعمل البدني الشاق."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Remove or reduce unnecessary exposure to hot or cold environments, surfaces, or processes where feasible.",
+            "ar": "أزل أو قلل التعرض غير الضروري للبيئات أو الأسطح أو العمليات الحارة أو الباردة متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use lower-temperature processes, remote methods, or less thermally stressful work methods where feasible.",
+            "ar": "استخدم عمليات بدرجات حرارة أقل أو طرقاً عن بعد أو أساليب عمل أقل إجهاداً حرارياً متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use cooling/heating, insulation, shielding, ventilation, shade, heated shelters, or other environmental controls.",
+            "ar": "استخدم التبريد/التدفئة والعزل والدروع والتهوية والظل والملاجئ الدافئة أو الضوابط البيئية الأخرى."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use acclimatization, work-rest planning, hydration, weather/heat monitoring, buddy systems, training, and emergency response.",
+            "ar": "استخدم التأقلم وتخطيط العمل والراحة والترطيب ومراقبة الطقس/الحرارة ونظام الزميل والتدريب والاستجابة للطوارئ."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use clothing and PPE appropriate to the thermal environment without creating uncontrolled additional heat or cold stress.",
+            "ar": "استخدم الملابس ومعدات الوقاية المناسبة للبيئة الحرارية دون خلق إجهاد حراري أو بارد إضافي غير مسيطر عليه."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "thermal-worker-environment",
+        "overlays": [
+          "freezing-zone",
+          "extremity",
+          "wind-exposure",
+          "insulation-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "construction",
+        "outdoor",
+        "manufacturing",
+        "warehouse",
+        "utilities"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "thermal",
+        "frostbite",
+        "heat-cold"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Thermal Stressors",
+        "yatesPageRangeApprox": "368–384",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "As of 2026-08-31 OSHA's Heat Injury and Illness Prevention rule remains proposed, not a final Federal OSHA standard; no fake heat-standard ID should be created."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "frostbite",
+          "frostbite",
+          "therm",
+          "thermal",
+          "frostbite",
+          "heat-cold"
+        ],
+        "ar": [
+          "قضمة الصقيع"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-001",
+      "categoryId": "RAD",
+      "subcategoryId": "ionizing_particle",
+      "name": {
+        "en": "Alpha Radiation",
+        "ar": "إشعاع ألفا"
+      },
+      "summary": {
+        "en": "Alpha particles have low external penetration but can create significant internal ionization hazard when radioactive material is inhaled, ingested, or otherwise enters the body.",
+        "ar": "يركز هذا السجل على خطر «إشعاع ألفا» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Alpha particles have low external penetration but can create significant internal ionization hazard when radioactive material is inhaled, ingested, or otherwise enters the body.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إشعاع ألفا» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "alpha-source",
+          "short-range",
+          "internal-route",
+          "containment"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing"
+        },
+        {
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing"
+        }
+      ],
+      "relatedPracticeTags": [
+        "radiation",
+        "ionizing_particle",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "alpha radiation",
+          "ionizing particle",
+          "rad",
+          "radiation",
+          "ionizing_particle",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "إشعاع ألفا"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-002",
+      "categoryId": "RAD",
+      "subcategoryId": "ionizing_particle",
+      "name": {
+        "en": "Beta Radiation",
+        "ar": "إشعاع بيتا"
+      },
+      "summary": {
+        "en": "Beta radiation can affect skin and eyes externally and can also create internal exposure when radioactive material enters the body.",
+        "ar": "يركز هذا السجل على خطر «إشعاع بيتا» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Beta radiation can affect skin and eyes externally and can also create internal exposure when radioactive material enters the body.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إشعاع بيتا» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "beta-source",
+          "skin-path",
+          "eye-zone",
+          "internal-route"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing"
+        },
+        {
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing"
+        }
+      ],
+      "relatedPracticeTags": [
+        "radiation",
+        "ionizing_particle",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "beta radiation",
+          "ionizing particle",
+          "rad",
+          "radiation",
+          "ionizing_particle",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "إشعاع بيتا"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-003",
+      "categoryId": "RAD",
+      "subcategoryId": "ionizing_em",
+      "name": {
+        "en": "Gamma Radiation",
+        "ar": "إشعاع غاما"
+      },
+      "summary": {
+        "en": "Gamma radiation is highly penetrating electromagnetic ionizing radiation and can expose the whole body from an external source.",
+        "ar": "يركز هذا السجل على خطر «إشعاع غاما» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Gamma radiation is highly penetrating electromagnetic ionizing radiation and can expose the whole body from an external source.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إشعاع غاما» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "gamma-source",
+          "penetrating-field",
+          "distance",
+          "shielding"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing"
+        },
+        {
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing"
+        }
+      ],
+      "relatedPracticeTags": [
+        "radiation",
+        "ionizing_em",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "gamma radiation",
+          "ionizing em",
+          "rad",
+          "radiation",
+          "ionizing_em",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "إشعاع غاما"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-004",
+      "categoryId": "RAD",
+      "subcategoryId": "ionizing_particle",
+      "name": {
+        "en": "Neutron Radiation",
+        "ar": "إشعاع النيوترونات"
+      },
+      "summary": {
+        "en": "Neutron radiation is indirect ionizing radiation associated with fission, fusion, and other high-energy sources and requires source-appropriate shielding and access control.",
+        "ar": "يركز هذا السجل على خطر «إشعاع النيوترونات» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Neutron radiation is indirect ionizing radiation associated with fission, fusion, and other high-energy sources and requires source-appropriate shielding and access control.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إشعاع النيوترونات» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "concept-diagram",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "neutron-source",
+          "field",
+          "shielding",
+          "controlled-area"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing"
+        },
+        {
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing"
+        }
+      ],
+      "relatedPracticeTags": [
+        "radiation",
+        "ionizing_particle",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "neutron radiation",
+          "ionizing particle",
+          "rad",
+          "radiation",
+          "ionizing_particle",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "إشعاع النيوترونات"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-005",
+      "categoryId": "RAD",
+      "subcategoryId": "ionizing_em",
+      "name": {
+        "en": "X-Ray Exposure",
+        "ar": "التعرض للأشعة السينية"
+      },
+      "summary": {
+        "en": "X-rays are penetrating ionizing electromagnetic radiation generated by equipment or processes and can create external whole-body or localized exposure.",
+        "ar": "يركز هذا السجل على خطر «التعرض للأشعة السينية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "X-rays are penetrating ionizing electromagnetic radiation generated by equipment or processes and can create external whole-body or localized exposure.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «التعرض للأشعة السينية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "xray-source",
+          "beam",
+          "worker",
+          "shielding"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.1096",
+          "scope": "general-industry",
+          "relation": "direct-ionizing"
+        },
+        {
+          "number": "1926.53",
+          "scope": "construction",
+          "relation": "related-ionizing"
+        }
+      ],
+      "relatedPracticeTags": [
+        "radiation",
+        "ionizing_em",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "x-ray exposure",
+          "ionizing em",
+          "rad",
+          "radiation",
+          "ionizing_em",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "التعرض للأشعة السينية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-006",
+      "categoryId": "RAD",
+      "subcategoryId": "nonionizing_optical",
+      "name": {
+        "en": "Ultraviolet Radiation",
+        "ar": "الأشعة فوق البنفسجية"
+      },
+      "summary": {
+        "en": "Ultraviolet radiation can injure skin and eyes from sunlight, arcs, lamps, curing systems, and other UV sources.",
+        "ar": "يركز هذا السجل على خطر «الأشعة فوق البنفسجية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Ultraviolet radiation can injure skin and eyes from sunlight, arcs, lamps, curing systems, and other UV sources.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الأشعة فوق البنفسجية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "uv-source",
+          "eye-skin-zone",
+          "shield",
+          "distance"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "radiation",
+        "nonionizing_optical",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "ultraviolet radiation",
+          "nonionizing optical",
+          "rad",
+          "radiation",
+          "nonionizing_optical",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "الأشعة فوق البنفسجية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-007",
+      "categoryId": "RAD",
+      "subcategoryId": "nonionizing_optical",
+      "name": {
+        "en": "Intense Visible-Light Exposure",
+        "ar": "التعرض للضوء المرئي الشديد"
+      },
+      "summary": {
+        "en": "Very intense visible-light sources can create glare and retinal or visual hazards, especially when workers view arcs, high-intensity lamps, or concentrated beams.",
+        "ar": "يركز هذا السجل على خطر «التعرض للضوء المرئي الشديد» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Very intense visible-light sources can create glare and retinal or visual hazards, especially when workers view arcs, high-intensity lamps, or concentrated beams.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «التعرض للضوء المرئي الشديد» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "visible-source",
+          "eye-path",
+          "glare-zone",
+          "filter-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "radiation",
+        "nonionizing_optical",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "intense visible-light exposure",
+          "nonionizing optical",
+          "rad",
+          "radiation",
+          "nonionizing_optical",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "التعرض للضوء المرئي الشديد"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-008",
+      "categoryId": "RAD",
+      "subcategoryId": "nonionizing_optical",
+      "name": {
+        "en": "Infrared Radiation",
+        "ar": "الأشعة تحت الحمراء"
+      },
+      "summary": {
+        "en": "Infrared radiation from hot processes and intense sources can contribute to heat loading and eye or skin exposure.",
+        "ar": "يركز هذا السجل على خطر «الأشعة تحت الحمراء» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Infrared radiation from hot processes and intense sources can contribute to heat loading and eye or skin exposure.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «الأشعة تحت الحمراء» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "infrared-source",
+          "radiant-path",
+          "eye-skin-zone",
+          "shield"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [],
+      "relatedPracticeTags": [
+        "radiation",
+        "nonionizing_optical",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "infrared radiation",
+          "nonionizing optical",
+          "rad",
+          "radiation",
+          "nonionizing_optical",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "الأشعة تحت الحمراء"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-009",
+      "categoryId": "RAD",
+      "subcategoryId": "rf_microwave",
+      "name": {
+        "en": "Microwave Radiation",
+        "ar": "إشعاع الميكروويف"
+      },
+      "summary": {
+        "en": "Microwave fields can expose workers near RF-generating equipment, especially when shielding, enclosures, interlocks, or access controls are inadequate.",
+        "ar": "يركز هذا السجل على خطر «إشعاع الميكروويف» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Microwave fields can expose workers near RF-generating equipment, especially when shielding, enclosures, interlocks, or access controls are inadequate.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إشعاع الميكروويف» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "microwave-source",
+          "near-field",
+          "shielding",
+          "access-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.97",
+          "scope": "general-industry",
+          "relation": "related-RF-microwave"
+        }
+      ],
+      "relatedPracticeTags": [
+        "radiation",
+        "rf_microwave",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.97 addresses the RF/microwave region; OSHA notes its exposure limit is not enforceable for Federal OSHA, so do not overstate the standard."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "microwave radiation",
+          "rf microwave",
+          "rad",
+          "radiation",
+          "rf_microwave",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "إشعاع الميكروويف"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-010",
+      "categoryId": "RAD",
+      "subcategoryId": "rf_microwave",
+      "name": {
+        "en": "Radio-Frequency Radiation",
+        "ar": "إشعاع الترددات الراديوية"
+      },
+      "summary": {
+        "en": "Radio-frequency electromagnetic fields can expose workers around transmitters, antennas, industrial RF equipment, and related systems.",
+        "ar": "يركز هذا السجل على خطر «إشعاع الترددات الراديوية» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Radio-frequency electromagnetic fields can expose workers around transmitters, antennas, industrial RF equipment, and related systems.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إشعاع الترددات الراديوية» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "equipment-scene",
+        "template": "radiation-source-shield-worker",
+        "overlays": [
+          "rf-source",
+          "field-zone",
+          "antenna",
+          "access-control"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1910.97",
+          "scope": "general-industry",
+          "relation": "related-RF-microwave"
+        }
+      ],
+      "relatedPracticeTags": [
+        "radiation",
+        "rf_microwave",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [
+          "OSHA 1910.97 addresses the RF/microwave region; OSHA notes its exposure limit is not enforceable for Federal OSHA, so do not overstate the standard."
+        ],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "radio-frequency radiation",
+          "rf microwave",
+          "rad",
+          "radiation",
+          "rf_microwave",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "إشعاع الترددات الراديوية"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    },
+    {
+      "id": "HL-RAD-011",
+      "categoryId": "RAD",
+      "subcategoryId": "laser",
+      "name": {
+        "en": "Laser Radiation",
+        "ar": "إشعاع الليزر"
+      },
+      "summary": {
+        "en": "Direct, reflected, or scattered laser beams can create eye, skin, and in some systems fire or secondary hazards depending on laser class and wavelength.",
+        "ar": "يركز هذا السجل على خطر «إشعاع الليزر» وكيف يمكن أن ينشأ أثناء العمل إذا لم تُطبق ضوابط مناسبة."
+      },
+      "mechanisms": [
+        {
+          "en": "Direct, reflected, or scattered laser beams can create eye, skin, and in some systems fire or secondary hazards depending on laser class and wavelength.",
+          "ar": "ينشأ الخطر عندما تسمح ظروف التشغيل أو التخزين أو الصيانة أو البيئة بحدوث «إشعاع الليزر» أو تفاقمه."
+        }
+      ],
+      "consequences": [
+        {
+          "en": "Tissue, skin, eye, or systemic effects depending on radiation type, energy, route, duration, and protection.",
+          "ar": "تأثيرات على الأنسجة أو الجلد أو العين أو الجسم وفق نوع الإشعاع وطاقة التعرض وطريقه ومدته والحماية."
+        }
+      ],
+      "highRiskWork": [
+        {
+          "en": "Medical/industrial radiation use, inspection/testing, laboratories, welding/UV sources, lasers, RF/microwave systems, maintenance, and research.",
+          "ar": "الاستخدام الطبي/الصناعي للإشعاع والفحص/الاختبار والمختبرات ومصادر اللحام/الأشعة فوق البنفسجية والليزر وأنظمة التردد الراديوي/الميكروويف والصيانة والبحث."
+        }
+      ],
+      "controls": {
+        "elimination": [
+          {
+            "en": "Eliminate unnecessary use of the radiation source or unnecessary personnel exposure where feasible.",
+            "ar": "أزل الاستخدام غير الضروري لمصدر الإشعاع أو تعرض الأفراد غير الضروري متى أمكن."
+          }
+        ],
+        "substitution": [
+          {
+            "en": "Use a lower-energy, lower-output, enclosed, or non-radiating alternative where feasible.",
+            "ar": "استخدم بديلاً أقل طاقة أو أقل خرجاً أو مغلقاً أو غير مشع متى أمكن."
+          }
+        ],
+        "engineering": [
+          {
+            "en": "Use shielding, enclosure, interlocks, barriers, beam control, distance, access control, and source containment appropriate to the radiation type.",
+            "ar": "استخدم التدريع والإحاطة والتشابكات والحواجز والتحكم بالحزمة والمسافة وضبط الوصول واحتواء المصدر المناسب لنوع الإشعاع."
+          }
+        ],
+        "administrative": [
+          {
+            "en": "Use time minimization, controlled areas, signage, procedures, training, surveys/monitoring, and authorization appropriate to the source.",
+            "ar": "استخدم تقليل الوقت والمناطق الخاضعة للرقابة واللافتات والإجراءات والتدريب والقياس/المراقبة والتخويل المناسب للمصدر."
+          }
+        ],
+        "ppe": [
+          {
+            "en": "Use source-appropriate eye, skin, respiratory, dosimetry, or other protective equipment where it is part of the established protection program.",
+            "ar": "استخدم حماية العين والجلد والتنفس وقياس الجرعة أو غيرها المناسبة للمصدر عندما تكون جزءاً من برنامج الحماية المعتمد."
+          }
+        ]
+      },
+      "visualization": {
+        "engine": "worker-scene",
+        "template": "laser-worker",
+        "overlays": [
+          "laser-source",
+          "direct-beam",
+          "reflection",
+          "eye-zone",
+          "beam-stop"
+        ],
+        "markers": [
+          "worker",
+          "hazard-source",
+          "control-point"
+        ]
+      },
+      "workContexts": [
+        "medical",
+        "laboratory",
+        "manufacturing",
+        "construction",
+        "research"
+      ],
+      "relatedStandards": [
+        {
+          "number": "1926.54",
+          "scope": "construction",
+          "relation": "direct-nonionizing-construction"
+        }
+      ],
+      "relatedPracticeTags": [
+        "radiation",
+        "laser",
+        "time-distance-shielding"
+      ],
+      "source": {
+        "yatesEdition": 4,
+        "yatesSection": "Radiation Safety",
+        "yatesPageRangeApprox": "636–655",
+        "yatesSupport": "direct",
+        "externalBasis": [],
+        "regulatoryVerification": "Section-level Federal OSHA mapping checked against current OSHA.gov sources on 2026-08-31 where OSHA standards are relevant."
+      },
+      "searchTerms": {
+        "en": [
+          "laser radiation",
+          "laser",
+          "rad",
+          "radiation",
+          "laser",
+          "time-distance-shielding"
+        ],
+        "ar": [
+          "إشعاع الليزر"
+        ]
+      },
+      "contentStatus": "final-phase-controlled-draft"
+    }
+  ]
+}

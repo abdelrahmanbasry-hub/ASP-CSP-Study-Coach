@@ -1,0 +1,62 @@
+{
+  "scope": "This task only; prior uncommitted and unrelated changes retained.",
+  "sourceAdded": [
+    "app/finalHazardData.ts",
+    "app/finalHazardTaxonomy.ts",
+    "app/hazardNotebook.ts",
+    "app/hazard-scenes/finalSceneGeometry.ts",
+    "app/hazard-scenes/finalSceneLabels.ts",
+    "scripts/audit-final-hazards.mjs",
+    "tests/final-hazards.test.mjs"
+  ],
+  "sourceModified": [
+    "app/phase4HazardData.ts",
+    "app/hazardTypes.ts",
+    "app/hazardLibraryData.ts",
+    "app/hazardAliases.ts",
+    "app/hazardCategories.ts",
+    "app/hazard-scenes/sceneTemplates.ts",
+    "app/hazard-library/HazardsLibrary.tsx",
+    "app/hazard-library/HazardVisualization.tsx",
+    "app/StudySystem.tsx",
+    "app/globalSearch.ts",
+    "app/practiceTagAliases.ts",
+    "tests/hazard-library.test.mjs",
+    "tests/hazard-scenes.test.mjs",
+    "tests/phase4-hazards.test.mjs",
+    "tests/phase41-integrations.test.mjs"
+  ],
+  "controlledPackageAdded": [
+    "data/hazard-library/final/FINAL-CODEX-PROMPT.md",
+    "data/hazard-library/final/final-hazard-master-dataset.json",
+    "data/hazard-library/final/FINAL-QA-REQUIREMENTS.md",
+    "data/hazard-library/final/FINAL-SOURCE-AUTHORITY-NOTES.md",
+    "data/hazard-library/final/MANIFEST.json",
+    "data/hazard-library/final/phase5-hazard-master-dataset.json",
+    "data/hazard-library/final/phase6-hazard-master-dataset.json",
+    "data/hazard-library/final/phase7-hazard-master-dataset.json",
+    "data/hazard-library/final/phase8-hazard-master-dataset.json",
+    "data/hazard-library/final/README.md"
+  ],
+  "assetsAdded": [
+    "public/hazard-scenes/excavation-trench.webp",
+    "public/hazard-scenes/pressure-vessel-hose.webp",
+    "public/hazard-scenes/chemical-process-containment.webp",
+    "public/hazard-scenes/chemical-storage.webp",
+    "public/hazard-scenes/fire-process-area.webp",
+    "public/hazard-scenes/combustible-dust-process.webp",
+    "public/hazard-scenes/hot-work-worker.webp",
+    "public/hazard-scenes/fire-protection-system.webp",
+    "public/hazard-scenes/fire-extinguisher-use.webp",
+    "public/hazard-scenes/ergonomic-worker-lift.webp",
+    "public/hazard-scenes/ergonomic-workstation.webp",
+    "public/hazard-scenes/noise-source-worker.webp",
+    "public/hazard-scenes/thermal-worker-environment.webp",
+    "public/hazard-scenes/laser-worker.webp",
+    "public/hazard-scenes/environmental-release-pathways.webp",
+    "public/hazard-scenes/facility-security-scene.webp",
+    "public/hazard-scenes/emergency-response-scene.webp"
+  ],
+  "reportsDirectory": "reports/final",
+  "humanReport": "reports/hazard-library-final-phase-5-9.md"
+}

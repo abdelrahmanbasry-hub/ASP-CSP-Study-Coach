@@ -1,0 +1,57 @@
+import type { SceneEngineKind } from "../hazardTypes";
+export interface SceneTemplate { engine: SceneEngineKind; asset: string; width: number; height: number; supportedEngines?: readonly SceneEngineKind[] }
+const template = (engine: SceneEngineKind, name: string): SceneTemplate => ({ engine, asset: `/hazard-scenes/${name}.webp`, width: 1200, height: 1200 });
+/** Template names, not hazard IDs, select reusable physical artwork. */
+export const SCENE_TEMPLATES: Readonly<Record<string, SceneTemplate | undefined>> = {
+  "electrical-panel-worker": template("worker-scene", "electrical-panel-worker"),
+  "scaffold-worker": template("worker-scene", "scaffold-worker"),
+  "forklift-warehouse": template("equipment-scene", "forklift-warehouse"),
+  "confined-space-vessel": template("process-diagram", "confined-space-vessel"),
+  "loto-energy-machine": template("process-diagram", "loto-energy-machine"),
+  "radiation-source-shield-worker": { ...template("concept-diagram", "radiation-source-shield-worker"), supportedEngines: ["worker-scene", "equipment-scene"] },
+  "electrical-contact-worker": template("worker-scene", "electrical-contact-worker"),
+  "overhead-power-line": template("worker-scene", "overhead-power-line"),
+  "electrical-circuit": template("concept-diagram", "electrical-circuit"),
+  "electrical-cord-grounding": { ...template("concept-diagram", "electrical-cord-grounding"), supportedEngines: ["concept-diagram", "worker-scene"] },
+  "walking-surface-worker": template("worker-scene", "walking-surface-worker"),
+  "floor-opening-worker": template("worker-scene", "floor-opening-worker"),
+  "roof-edge-worker": template("worker-scene", "roof-edge-worker"),
+  "ladder-worker": template("worker-scene", "ladder-worker"),
+  "stairway-worker": template("worker-scene", "stairway-worker"),
+  "aerial-lift-worker": template("worker-scene", "aerial-lift-worker"),
+  "rope-descent-worker": template("worker-scene", "rope-descent-worker"),
+  "fall-arrest-system": template("concept-diagram", "fall-arrest-system"),
+  "fall-arrest-clearance": template("concept-diagram", "fall-arrest-clearance"),
+  "machine-guarding": template("equipment-scene", "machine-guarding"),
+  "grinder-saw-workstation": { ...template("equipment-scene", "grinder-saw-workstation"), supportedEngines: ["equipment-scene", "worker-scene"] },
+  "hand-tool-worker": template("worker-scene", "hand-tool-worker"),
+  "robot-cell": template("equipment-scene", "robot-cell"),
+  "conveyor-system": template("equipment-scene", "conveyor-system"),
+  "material-handling-worker": template("worker-scene", "material-handling-worker"),
+  "loading-dock": template("equipment-scene", "loading-dock"),
+  "pallet-jack": template("equipment-scene", "pallet-jack"),
+  "warehouse-storage": template("equipment-scene", "warehouse-storage"),
+  "crane-suspended-load": template("equipment-scene", "crane-suspended-load"),
+  "forklift-battery-charging": template("equipment-scene", "forklift-battery-charging"),
+  "excavation-trench": template("process-diagram", "excavation-trench"),
+  "pressure-vessel-hose": { ...template("process-diagram", "pressure-vessel-hose"), supportedEngines: ["worker-scene", "equipment-scene", "concept-diagram"] },
+  "chemical-process-containment": { ...template("process-diagram", "chemical-process-containment"), supportedEngines: ["process-diagram", "worker-scene", "equipment-scene", "concept-diagram"] },
+  "chemical-storage": { ...template("equipment-scene", "chemical-storage"), supportedEngines: ["equipment-scene"] },
+  "fire-process-area": { ...template("process-diagram", "fire-process-area"), supportedEngines: ["process-diagram", "worker-scene", "concept-diagram"] },
+  "combustible-dust-process": { ...template("process-diagram", "combustible-dust-process"), supportedEngines: ["process-diagram"] },
+  "hot-work-worker": { ...template("worker-scene", "hot-work-worker"), supportedEngines: ["worker-scene"] },
+  "fire-protection-system": { ...template("concept-diagram", "fire-protection-system"), supportedEngines: ["concept-diagram"] },
+  "fire-extinguisher-use": { ...template("worker-scene", "fire-extinguisher-use"), supportedEngines: ["worker-scene"] },
+  "ergonomic-worker-lift": { ...template("worker-scene", "ergonomic-worker-lift"), supportedEngines: ["worker-scene"] },
+  "ergonomic-workstation": { ...template("worker-scene", "ergonomic-workstation"), supportedEngines: ["worker-scene", "equipment-scene", "concept-diagram"] },
+  "noise-source-worker": { ...template("worker-scene", "noise-source-worker"), supportedEngines: ["worker-scene", "concept-diagram"] },
+  "thermal-worker-environment": { ...template("worker-scene", "thermal-worker-environment"), supportedEngines: ["worker-scene", "concept-diagram"] },
+  "laser-worker": { ...template("worker-scene", "laser-worker"), supportedEngines: ["worker-scene"] },
+  "environmental-release-pathways": { ...template("process-diagram", "environmental-release-pathways"), supportedEngines: ["process-diagram", "concept-diagram"] },
+  "facility-security-scene": { ...template("worker-scene", "facility-security-scene"), supportedEngines: ["worker-scene", "equipment-scene"] },
+  "emergency-response-scene": { ...template("concept-diagram", "emergency-response-scene"), supportedEngines: ["concept-diagram"] },
+};
+
+export function supportsSceneEngine(template: SceneTemplate | undefined, kind: SceneEngineKind) {
+  return Boolean(template && (template.engine === kind || template.supportedEngines?.includes(kind)));
+}

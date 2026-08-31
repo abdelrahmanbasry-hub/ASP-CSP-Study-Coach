@@ -1,0 +1,150 @@
+{
+  "generator": "Built-in image_gen",
+  "style": "Use case: scientific-educational. Asset: polished text-free industrial illustration for a reusable interactive hazard-library template, matching professional Phase 3 artwork. Realistic human and equipment proportions, crisp clean outlines, subtle dimensional shading, navy workwear, amber hardhats and safety equipment, teal accents and gray steel. Off-white restrained background, orthographic three-quarter perspective, square 1200px composition with all subjects within 8% margins. This is a base scene, NOT an infographic, NOT a UI. NO words, numbers, callout cards, arrows, motion lines, colored hazard zones, exposed injuries or watermark. Interactive annotations will be added in code. No crude shapes, stick figures or flat low-detail icons.",
+  "assets": [
+    {
+      "template": "electrical-contact-worker",
+      "prompt": "Full-body worker LEFT x30%, head25%,feet88%, navy workwear hardhat face protection, right gloved hand at(51%,45%) near exposed contacts of a gray electrical enclosure RIGHT at(68%,48%). Detailed copper terminals visibly accessible in open enclosure, no electric arc yet. Show a metallic work platform and grounded equipment casing. Worker and source occupy most of image.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-cfcf943e-b161-402c-b467-0c7cb1f7eb5b.png",
+      "asset": "public/hazard-scenes/electrical-contact-worker.webp"
+    },
+    {
+      "template": "overhead-power-line",
+      "prompt": "Utility power lines across the upper quarter on a detailed pole LEFT at x20%. An amber articulated boom lift RIGHT with platform high at(66%,38%), worker in platform. Another worker at ground LEFT x35% y78%. Boom and full chassis visible, line-to-boom relationship clear. Quiet pale sky, groundshadow only, no written signs.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-ace1be1e-e6a1-4f21-aa8c-211940e3527f.png",
+      "asset": "public/hazard-scenes/overhead-power-line.webp"
+    },
+    {
+      "template": "electrical-circuit",
+      "prompt": "A polished educational tabletop electrical assembly, laid out clearly left to right: power supply enclosure x18%y45%, central breaker x42%y40%, branching insulated conductors along y60% connecting three realistic compact electrical loads on RIGHT x75% at y25%,50%,75% (motor, heater enclosure, work lamp). Conductors are physically continuous and detailed, no abstract boxes/icons/arrows/text. One central slender conductor section at(50%,60%) visibly accessible. Offwhite background.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-46cfbe9f-cb8b-44fd-8839-5f9a951f59cc.png",
+      "asset": "public/hazard-scenes/electrical-circuit.webp"
+    },
+    {
+      "template": "electrical-cord-grounding",
+      "prompt": "Worker kneeling LEFT x25%, inspecting a portable gray/teal metal-cased power drill on low bench RIGHT x66%y48%. Electrical cord snakes across foreground from tool to plug at(35%,79%) and grounded socket LEFT at(16%,60%). Cord section near(55%,75%) has damaged outer sheath with a short copper conductor visible, no sparks. Ground terminal at metal tool casing clearly visible near(68%,56%). Include realistic hands, full worker and tool.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-66f1ab71-69de-49d3-922f-a58570cf7eb5.png",
+      "asset": "public/hazard-scenes/electrical-cord-grounding.webp"
+    },
+    {
+      "template": "walking-surface-worker",
+      "prompt": "A full-body worker walking from left toward right, centered x45%y48%, navy clothes and amberhardhat. A small floor cable loop at(58%,82%) and a subtly reflective damp patch at(35%,82%) are distinct on industrial floor. Worker in mid-step near them but upright, not falling. Pale factory wall, subtle shadow, spare layout; full feet and ground visible.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-786d921f-1093-45fb-a409-c80e4e7abe00.png",
+      "asset": "public/hazard-scenes/walking-surface-worker.webp"
+    },
+    {
+      "template": "floor-opening-worker",
+      "prompt": "Worker on an elevated industrial concrete floor LEFT x30%head22%feet55%, near a clearly visible rectangular floor opening CENTER-RIGHT x60%y60%. Three-quarter cutaway slab exposes the lower floor at y88% below opening, and a second worker far to right on lower level. A removable floor-cover panel rests safely to left away from opening. No guardrail across opening, nofallarrows. Realistic industrial architecture and worker.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-f2d232e0-6d42-4faf-975f-08526abf5972.png",
+      "asset": "public/hazard-scenes/floor-opening-worker.webp"
+    },
+    {
+      "template": "roof-edge-worker",
+      "prompt": "Detailed industrial flat roof in three-quarter cutaway. Worker x38%head22%feet50% stands near exposed front roof edge that runs diagonally from x25%y60% to x78%y48%. A small roof opening/skylight at x65%y35%. Building facade extends down to lower groundy90%, clear vertical drop at right of worker. No fall-path arrows. Minimal distant background, navyworker amberhardhat.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-72be4640-b138-45f1-8c49-e0fcd8ec9681.png",
+      "asset": "public/hazard-scenes/roof-edge-worker.webp"
+    },
+    {
+      "template": "ladder-worker",
+      "prompt": "Realistic extension ladder leaning against a low industrial building wall at RIGHT. Ladder from x35%y88% to x65%y20%. Full-body worker climbing around x50%y45%, boots firmly on rungs, amberhardhat navyworkwear; roof landing visible x68%y22%. Ladder base, feet, handholds and full building side clearly rendered, no numeric angle or text or arrows. Quiet offwhite setting.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-b0a33e5e-a305-419a-826a-e41eb1be2536.png",
+      "asset": "public/hazard-scenes/ladder-worker.webp"
+    },
+    {
+      "template": "stairway-worker",
+      "prompt": "A realistic industrial metal stairway rising from LEFT foreground x25%y85% toward RIGHT x72%y30%, visible treads, landing and a side handrail. Worker halfway up near(50%,48%) carrying nothing, navyworkwear amberhardhat. One front tread around(42%,69%) uneven/worn for annotation, handrail clear at(65%,45%). Professional detailed proportions with restrained factorywall background.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-8a44c61c-6909-4b23-b177-08876a497db9.png",
+      "asset": "public/hazard-scenes/stairway-worker.webp"
+    },
+    {
+      "template": "aerial-lift-worker",
+      "prompt": "An amber mobile articulated boom lift viewed three-quarter, chassis center-left x35%y82%, articulated arm rises to worker platform upperRIGHT x68%y30%. Worker stands inside platform at x68%head16%,feet34%. Clearly render guardrails, platform gate, basket-to-boom connection, stabilizing chassis and wheels, full equipment withinmargins. Noarrows, hazardcolors orlabels.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-5374369e-8874-4176-ae89-3a302bd21bdd.png",
+      "asset": "public/hazard-scenes/aerial-lift-worker.webp"
+    },
+    {
+      "template": "rope-descent-worker",
+      "prompt": "Professional facade-maintenance scene. Worker on a rope descent seat outside a tall industrial building, centered x50%y55%, navyworkwear amberhardhat fullbody harness. Two distinct ropes run from roof anchorage at(50%,18%) past the worker toward ground near y92%. Roof parapetandanchoragehardware visible at top, wall RIGHT x75%, ground stripbelow. Realistic rigging connections, no text orarrows.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-6a23abfe-b811-425a-ba4a-acfcde744f1b.png",
+      "asset": "public/hazard-scenes/rope-descent-worker.webp"
+    },
+    {
+      "template": "fall-arrest-system",
+      "prompt": "Educational close scene of a professional worker suspended vertically in a full-body fall-arrest harness adjacent to building column on RIGHT x72%. Worker center x48% head35%feet76%; lanyard from dorsal attachment x48%y45% runs diagonally to anchor x70%y15%. Full harness straps, realistic worker posture and hook. Open space LEFT to show future swing-path overlay, rescue access location at roof right. Not an approved equipment diagram; nolabels.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-8711a0d0-fb13-45a5-b61d-e65b3de3d3a8.png",
+      "asset": "public/hazard-scenes/fall-arrest-system.webp"
+    },
+    {
+      "template": "fall-arrest-clearance",
+      "prompt": "Educational side/threequarter illustration: full-body worker wearing a harness at an elevated platform edge x40% y42%, lanyard attaching worker back x42%y29% to overhead anchorage x43%y12%. Open vertical drop RIGHT of platform and a separate lower floor at y90%. Platform extends fromleftedge tox50%, worker clearly upright at edge. Large clean vertical space x65-88% for future clearance-line overlay. No measurementnumbers orarrows.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-9f35910f-7cf5-4426-98e9-e4787c8c48ec.png",
+      "asset": "public/hazard-scenes/fall-arrest-clearance.webp"
+    },
+    {
+      "template": "machine-guarding",
+      "prompt": "Polished realistic metal-forming training workstation, a connected navy/gray industrial machine on skid occupying RIGHT x40-88%, worker LEFT x24% head27%feet88%. Exposed feed rollers and nip at(62%,42%), horizontal rotating drive shaft lowerleft of machine at(48%,62%), press/reciprocating head upperRIGHT at(78%,42%) above cutting/shearing die and metal workpiece at(78%,65%). Hinged wiremesh guard swung openatleft. Mechanically coherent roller-feed shear/press with visible drive components. No labels or arrows or blood.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-89a485e3-2684-4e9f-9fda-d018dd337ad3.png",
+      "asset": "public/hazard-scenes/machine-guarding.webp"
+    },
+    {
+      "template": "grinder-saw-workstation",
+      "prompt": "Professional workshop bench scene with worker in navyworkwear amberhardhat and eyeprotection behind center at(48%,30%). Detailed bench grinder on LEFT at(28%,53%), circular saw on RIGHT at(74%,57%) with blade and partially lowered guard, woodworkpiece on bench. Worker's hands near bench center away from blades. Distinct wheel and sawblade, toolguards, transparent grinding eye shield visible. Full benchlegs and workerfeet. No sparks/flying debris/arrows/text.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-65c817d6-287a-4aab-a726-ce7f72e4d990.png",
+      "asset": "public/hazard-scenes/grinder-saw-workstation.webp"
+    },
+    {
+      "template": "hand-tool-worker",
+      "prompt": "Worker in navyworkwear amberhardhat and eyewear stands at left behind a sturdy workshop bench, headat(32%,22%), waist50%,feet88%. Worker holds hammer above a clamped metal workpiece at(50%,48%). A teal portable drill rests on right of bench at(74%,52%), bitpointingright, triggerandcordclear; separate wrench nearworkpiece. Realistic hands and tool proportions, clean workshop, noarrows or sparkeffects.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-08282468-948d-4ec4-8b39-279cda94fe50.png",
+      "asset": "public/hazard-scenes/hand-tool-worker.webp"
+    },
+    {
+      "template": "robot-cell",
+      "prompt": "A realistic industrial robotic arm in amber centered x63%y48%, jointed base at(70%,76%), gripper extendingtoward workpiece(49%,55%). A worker in navy/amber atLEFT(24%,52%) beside an open safety-fence gate. Mesh fencing outlines right and back of robot cell; clear front access opening, light curtain uprights at(38%,57%). Detailed cleanfactoryfloor, no colored motion envelopes/arrows/text.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-cc617796-e5c9-48c3-8a70-6cf82e668918.png",
+      "asset": "public/hazard-scenes/robot-cell.webp"
+    },
+    {
+      "template": "conveyor-system",
+      "prompt": "A detailed belt conveyor diagonally rising from LEFT x18%y62% to RIGHT x78%y35%, on steel legs. Cardboard cartons on upper belt at(60%,41%). Exposed end/drive roller and nip atLEFT(25%,63%) with guard swung aside. Worker besideleftdrive at(17%,55%) fullbody, a second worker below elevatedRIGHT section(76%,72%). Clearlyseparated workers and carton, realistic rollers beltframe motor, no motion arrows or fallzones.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-e833c9a4-a7ed-4ace-929a-558d557ceba3.png",
+      "asset": "public/hazard-scenes/conveyor-system.webp"
+    },
+    {
+      "template": "material-handling-worker",
+      "prompt": "Realistic worker in navyworkwear amberhardhat centeredLEFT at(35%,48%), lifting a cardboard box fromlowpallet at(44%,67%) toward a waist-height platformcart onRIGHT(70%,61%). Worker bent slightly atknees, arms holdingbox, fullbody. Cart handle at(77%,45%), wheels at(70%,84%), paleindustrialfloorclearpath, distinct load/cart/destination. No posture lines orforcearrows.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-92e01057-396c-426e-876d-798e9a75477e.png",
+      "asset": "public/hazard-scenes/material-handling-worker.webp"
+    },
+    {
+      "template": "loading-dock",
+      "prompt": "Professional warehouse loadingdock cutaway with concrete dockLEFT extendingto(55%,55%), parked open boxtrailerRIGHT x76%y50%, trailer wheelsbelowat80%. Small amberforklift on dock at(35%,45%) approaching a dockboard spanning the gap at(58%,58%). Trailerrear bumper and dockrestraintpoint visibleunderbridgeat(62%,70%). Clear gapbetween dockandtrailer, no peopleunderload, no signs/arrows/text. Whole industrialassembly in squarecomposition.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-3a39df7f-540b-434f-93dc-7480162321c2.png",
+      "asset": "public/hazard-scenes/loading-dock.webp"
+    },
+    {
+      "template": "pallet-jack",
+      "prompt": "Manual pallet jack in amber threequarter view centeredimage, forks pointingRIGHT under woodenpallet carrying stable cardboardcartons at(64%,45%). Operator in navyworkwear amberhardhat LEFT at(28%,45%) holdingtiller handle at(38%,52%). Frontloadwheels andfor ktips near(78%,79%), rearsteerwheels at(43%,78%). Fulloperatorbody andproportionalequipment, cleangroundwithsubtleshadow, noarrows/text.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-9ac9a747-2a85-4070-a4a3-19e41dabdbcc.png",
+      "asset": "public/hazard-scenes/pallet-jack.webp"
+    },
+    {
+      "template": "warehouse-storage",
+      "prompt": "Clean professional warehouse section, two tall graysteel pallet-rack bays acrossRIGHT x45-85%, loaded pallets cartonsatupper andmiddlelevels y25%,47%. Separate unbraced stackofcartons onLEFT x22%y55%, workercenterforeground x40%y70%, smallamberforklift farRIGHT x86%y77%. One lower rackupright around(58%,76%) slightlybent. Clearaisleforeground, no collapseevent, noarrows orlabels.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-06264fc5-7d14-4051-9260-cc22863037b8.png",
+      "asset": "public/hazard-scenes/warehouse-storage.webp"
+    },
+    {
+      "template": "crane-suspended-load",
+      "prompt": "Polished industrial lifting scene: detailed overhead gantrycrane acrossupperquarter, hoisthook at(53%,30%), two slinglegs attach to a rectangular steelmachine loadcenter(53%,58%) suspendedabovegroundy85%. Signalperson worker safelyofftoLEFT at(22%,66%) navyworkwear amberhardhat. Visiblehoistdrum, hooklatch, slingattachmentdetails; rightgantryleg x86%. Cleargroundbeneathload forfuturezones, no arrows or text.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-1b3d0782-eab4-45cf-8968-861238282722.png",
+      "asset": "public/hazard-scenes/crane-suspended-load.webp"
+    },
+    {
+      "template": "forklift-battery-charging",
+      "prompt": "Electric amberforklift onLEFT x35%y60% parkedwith batterycompartmentopen underraisedseat. Largeindustrialtractionbattery visibleat(48%,57%), individualcells, redblackterminals. Wall/standmounted graytealcharger onRIGHT x77%y42%, heavy chargingcable connects charger to battery. Smallworker standingfarLEFT x16%y45%. Cleanindoorchargingbay, nohydrogencloud, nofluidspill,noflames,nosparks,no labels orarrows.",
+      "source": "C:\\Users\\abasry\\.codex\\generated_images\\01a05669-70b4-7a60-ba46-d37c18fbf3c1\\exec-f0bfdfa1-968e-4f75-9a7f-0e93f8028eb4.png",
+      "asset": "public/hazard-scenes/forklift-battery-charging.webp"
+    }
+  ]
+}
