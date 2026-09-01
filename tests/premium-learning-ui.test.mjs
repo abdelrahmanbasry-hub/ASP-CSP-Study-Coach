@@ -17,6 +17,7 @@ const {default:Practice}=await import("../app/PracticeV2View.tsx");
 const {default:Library}=await import("../app/StudyLibrary.tsx");
 const {default:Search}=await import("../app/GlobalSmartSearch.tsx");
 const {default:Activity}=await import("../app/LearningActivity.tsx");
+const {default:KeyInformation}=await import("../app/KeyInformation.tsx");
 const {ChapterMasteryMap,StudyNotebook,notebookTarget}=await import("../app/StudySystem.tsx");
 const {PRACTICE_V2_QUESTIONS}=await import("../app/practiceV2Catalog.ts");
 const {FLASHCARDS}=await import("../app/studyLibraryData.ts");
@@ -45,6 +46,18 @@ test("resource routes preserve actionable context on reload",()=>{
   const restored=readCoachRoute(new URL(coachRouteHref(target.view,target),"http://localhost")).target;
   for(const [key,value] of Object.entries(target))assert.deepEqual(restored[key],value,key);
  }
+});
+
+test("Key Information uses one reading surface with compact chapter navigation and inline save actions",async()=>{
+ await mount(KeyInformation,{onOpen(){}});
+ assert.equal(container.querySelector(".key-information-index"),null);
+ const picker=container.querySelector(".key-information-chapter-picker select");
+ assert.ok(picker);
+ assert.equal(picker.options.length,37);
+ const points=[...container.querySelectorAll(".key-information-points li")];
+ assert.ok(points.length>0);
+ assert.ok(points.every(point=>point.querySelector(":scope > .bookmark-action")));
+ assert.equal(container.querySelectorAll(".key-information-chapter-stepper button").length,2);
 });
 
 test("no-mistake Practice has an honest disabled start and a working recovery",async()=>{
@@ -177,4 +190,3 @@ test("switching Library tabs does not leak an exact formula ID into flashcards",
  assert.ok(container.querySelector(".flashcard"));
  assert.doesNotMatch(container.textContent,/No cards match/);
 });
-

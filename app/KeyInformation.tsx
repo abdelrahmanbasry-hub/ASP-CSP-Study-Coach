@@ -5,7 +5,6 @@ import {
   ChevronLeft,
   ChevronRight,
   FileCheck2,
-  ListChecks,
   Search,
   X,
 } from "lucide-react";
@@ -116,52 +115,33 @@ export default function KeyInformation({ searchTarget, system, onSystem, onOpen 
 
         {chapterMatches.length ? (
           <div className="key-information-reader">
-            <aside className="key-information-index" aria-label="Key information chapters">
-              <div className="key-information-index-heading">
-                <div>
-                  <span>Chapter index</span>
-                  <strong>Choose a reference</strong>
-                </div>
-                <ListChecks size={21} aria-hidden="true" />
-              </div>
-
-              <label className="key-information-mobile-select">
-                <span>Open chapter</span>
+            <nav className="key-information-chapter-picker" aria-label="Choose a key information chapter">
+              <label>
+                <span>Reference chapter</span>
                 <select
                   value={activeMatch?.chapter.chapter ?? ""}
-                  onChange={(event) => chooseChapter(Number(event.target.value))}
+                  onChange={(event) => chooseChapter(Number(event.target.value), true)}
                 >
-                  {chapterMatches.map(({ chapter }) => (
-                    <option key={chapter.chapter} value={chapter.chapter}>Ch. {chapter.chapter}: {chapter.title}</option>
-                  ))}
+                  {chapterMatches.map(({ chapter, matchingPoints, titleMatches }) => {
+                    const matchLabel = deferredQuery.trim()
+                      ? titleMatches && !matchingPoints.length
+                        ? "title match"
+                        : `${matchingPoints.length} matching point${matchingPoints.length === 1 ? "" : "s"}`
+                      : `${chapter.points.length} points`;
+                    return <option key={chapter.chapter} value={chapter.chapter}>Chapter {String(chapter.chapter).padStart(2, "0")} — {chapter.title} · {matchLabel}</option>;
+                  })}
                 </select>
               </label>
-
-              <nav className="key-information-chapter-list">
-                {chapterMatches.map(({ chapter, matchingPoints, titleMatches }) => {
-                  const isActive = chapter.chapter === activeMatch?.chapter.chapter;
-                  const matchLabel = deferredQuery.trim()
-                    ? titleMatches && !matchingPoints.length
-                      ? "Title match"
-                      : `${matchingPoints.length} matching point${matchingPoints.length === 1 ? "" : "s"}`
-                    : `${chapter.points.length} key points`;
-
-                  return (
-                    <button
-                      type="button"
-                      key={chapter.chapter}
-                      className={isActive ? "active" : ""}
-                      aria-current={isActive ? "page" : undefined}
-                      onClick={() => chooseChapter(chapter.chapter)}
-                    >
-                      <span>{String(chapter.chapter).padStart(2, "0")}</span>
-                      <span><strong>{chapter.title}</strong><small>{matchLabel}</small></span>
-                      <ChevronRight size={16} aria-hidden="true" />
-                    </button>
-                  );
-                })}
-              </nav>
-            </aside>
+              <span className="key-information-chapter-position" aria-live="polite">Chapter {activeIndex + 1} of {chapterMatches.length}</span>
+              <div className="key-information-chapter-stepper">
+                <button type="button" onClick={() => moveChapter(-1)} disabled={activeIndex <= 0} aria-label="Previous chapter">
+                  <ChevronLeft size={18} aria-hidden="true" />
+                </button>
+                <button type="button" onClick={() => moveChapter(1)} disabled={activeIndex >= chapterMatches.length - 1} aria-label="Next chapter">
+                  <ChevronRight size={18} aria-hidden="true" />
+                </button>
+              </div>
+            </nav>
 
             {activeMatch && (
               <article className="key-information-reading-pane">
@@ -180,8 +160,16 @@ export default function KeyInformation({ searchTarget, system, onSystem, onOpen 
                 <ol className="key-information-points">
                   {activePoints.map((point) => (
                     <li key={point} id={`key-point:${activeMatch.chapter.chapter}:${activeMatch.chapter.points.indexOf(point)}`}>
-                      <span aria-hidden="true">{String(activeMatch.chapter.points.indexOf(point) + 1).padStart(2, "0")}</span>
-                      <div><p>{highlightMatch(point, deferredQuery)}</p>{system&&onSystem&&<BookmarkAction kind="chapter" itemId={`key-point:${activeMatch.chapter.chapter}:${activeMatch.chapter.points.indexOf(point)}`} title={`${activeMatch.chapter.title} · Point ${activeMatch.chapter.points.indexOf(point)+1}`} subtitle={point} system={system} onChange={onSystem}/>}</div>
+                      <span className="key-information-point-number" aria-hidden="true">{String(activeMatch.chapter.points.indexOf(point) + 1).padStart(2, "0")}</span>
+                      <p>{highlightMatch(point, deferredQuery)}</p>
+                      {system&&onSystem&&<BookmarkAction
+                        kind="chapter"
+                        itemId={`key-point:${activeMatch.chapter.chapter}:${activeMatch.chapter.points.indexOf(point)}`}
+                        title={`${activeMatch.chapter.title} · Point ${activeMatch.chapter.points.indexOf(point)+1}`}
+                        subtitle={point}
+                        system={system}
+                        onChange={onSystem}
+                      />}
                     </li>
                   ))}
                 </ol>

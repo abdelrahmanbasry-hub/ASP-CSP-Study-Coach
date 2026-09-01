@@ -174,7 +174,7 @@ test("Library search can cross All Hazards and recover from empty filters", asyn
   assert.equal(engine(), "equipment-scene");
   await search("no-such-hazard");
   assert.equal(records().length, 0);
-  await click(button("Clear search and filterمسح البحث والتصفية"));
+  await click(button("Clear search and filterإزالة البحث وعوامل التصفية"));
   assert.equal(records().length, 220);
 });
 
@@ -201,8 +201,8 @@ test("language switching persists across category engines with Arabic navigation
   await click(button("العربية"));
   assert.equal(container.querySelectorAll('[lang="en"]').length, 0);
   assert.equal(container.querySelector(".hazard-category-navigation").getAttribute("dir"), "rtl");
-  assert.match(container.querySelector(".hazard-scene").textContent, /مشهد العامل/);
-  assert.ok(button("حفظ القوس الكهربائي / انفجار القوس في الدفتر"));
+  assert.match(container.querySelector(".hazard-scene").textContent, /رسم توضيحي للعامل/);
+  assert.ok(button("حفظ القوس الكهربائي / انفجار القوس في الملاحظات"));
   for (const span of container.querySelectorAll('[lang="ar"]')) assert.equal(span.getAttribute("dir"), "rtl");
   await click(button("الصحة المهنية"));
   assert.equal(engine(), "body-system");

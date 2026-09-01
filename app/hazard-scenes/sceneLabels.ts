@@ -4,15 +4,15 @@ export const overlayRoleLabel = (overlay: SceneOverlay): BilingualText => overla
   ? { en: "Control point", ar: "نقطة تحكم" } : overlay.semantic === "principle"
     ? { en: "Protection principle", ar: "مبدأ وقاية" } : SCENE_ROLES[overlay.role];
 export const SCENE_ROLES: Record<SceneRole, BilingualText> = {
-  primary: { en: "Primary hazard", ar: "خطر رئيسي" },
-  secondary: { en: "Secondary hazard", ar: "خطر ثانوي" },
-  possible: { en: "Possible / other", ar: "محتمل / آخر" },
-  inactive: { en: "Not active / not listed", ar: "غير نشط / غير مدرج" },
+  primary: { en: "Primary hazard", ar: "الخطر الأساسي" },
+  secondary: { en: "Secondary hazard", ar: "خطر إضافي" },
+  possible: { en: "Possible / other", ar: "احتمال آخر" },
+  inactive: { en: "Not active / not listed", ar: "غير ظاهر في هذا الرسم" },
 };
 export const SCENE_ENGINES: Record<SceneEngineKind, { name: BilingualText; mechanism: BilingualText }> = {
-  "worker-scene": { name: { en: "Worker scene", ar: "مشهد العامل" }, mechanism: { en: "Energy / path", ar: "الطاقة / المسار" } },
-  "equipment-scene": { name: { en: "Equipment scene", ar: "مشهد المعدات" }, mechanism: { en: "Dynamics / event", ar: "الحركة / الحدث" } },
-  "process-diagram": { name: { en: "Process diagram", ar: "مخطط العملية" }, mechanism: { en: "Energy / flow", ar: "الطاقة / التدفق" } },
+  "worker-scene": { name: { en: "Worker scene", ar: "رسم توضيحي للعامل" }, mechanism: { en: "Energy / path", ar: "مسار الخطر" } },
+  "equipment-scene": { name: { en: "Equipment scene", ar: "رسم توضيحي للمعدات" }, mechanism: { en: "Dynamics / event", ar: "آلية الحدث" } },
+  "process-diagram": { name: { en: "Process diagram", ar: "مخطط العملية" }, mechanism: { en: "Energy / flow", ar: "مسار الطاقة أو التدفق" } },
   "concept-diagram": { name: { en: "Concept diagram", ar: "مخطط المفهوم" }, mechanism: { en: "Principles", ar: "المبادئ" } },
 };
 export const ENERGY_LABELS: Record<EnergyType, BilingualText> = {
